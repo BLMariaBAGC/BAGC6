@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Filters of the Mind | BAGC6 Executive Reset</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f0f8f9;min-height:100vh;padding:24px 16px 60px}
+.wrap{max-width:760px;margin:0 auto}
+
+/* Hero - DARK NAVY */
+.hero{background:#01293A;color:#C9F6FA;padding:26px 28px 24px;border-radius:12px;margin-bottom:24px}
+.hero-inner{display:flex;align-items:center;gap:20px}
+.hero-logo{width:80px;height:80px;object-fit:contain;flex-shrink:0}
+.hero-text{flex:1}
+.hero h1{font-size:30px;font-weight:700;font-family:Georgia,serif;margin:0 0 6px;letter-spacing:-0.3px}
+.hero p{font-size:18px;color:#9DD8DE;margin:0}
+.badge{display:inline-block;background:rgba(61,133,140,0.45);color:#C9F6FA;font-size:14px;padding:4px 12px;border-radius:20px;margin-top:10px;letter-spacing:0.5px}
+@media(max-width:480px){.hero-inner{flex-direction:column;text-align:center}.hero-logo{width:60px;height:60px}}
+
+/* Intro */
+.intro{font-size:18px;color:#01293A;line-height:1.75;margin-bottom:24px;padding:14px 18px;border-left:4px solid #3D858C;background:#EAF9FA;border-radius:0 8px 8px 0}
+
+/* Step cards */
+.step{background:#ffffff;border:1px solid #dce8e9;border-radius:12px;overflow:hidden;margin-bottom:20px;box-shadow:0 2px 12px rgba(1,41,58,0.08)}
+.step-hdr{background:#3D858C;color:#ffffff;padding:16px 22px;display:flex;align-items:center;gap:12px;border-bottom:3px solid rgba(1,41,58,0.2)}
+.step-num{background:#01293A;color:#C9F6FA;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;flex-shrink:0}
+.step-title{font-size:24px;font-weight:700;font-family:Georgia,serif;letter-spacing:0.1px}
+.step-body{padding:36px 24px 28px}
+.desc{font-size:18px;color:#555;margin-top:0;margin-bottom:20px;line-height:1.7}
+.callout{background:#EAF9FA;border-left:4px solid #3D858C;border-radius:0 8px 8px 0;padding:14px 18px;margin-bottom:22px;font-size:18px;color:#01293A;line-height:1.65}
+.callout strong{display:block;margin-bottom:4px;color:#3D858C;font-size:15px;text-transform:uppercase;letter-spacing:0.5px}
+.field{margin-bottom:22px}
+.lbl{font-size:14px;font-weight:700;color:#3D858C;text-transform:uppercase;letter-spacing:0.7px;margin-top:4px;margin-bottom:6px;display:block}
+.sub{font-size:16px;color:#777;margin-bottom:10px;font-style:italic;display:block;line-height:1.5}
+.qrow{display:flex;align-items:flex-start;gap:10px;margin-bottom:10px;margin-top:0}
+.qnum{background:#3D858C;color:#fff;width:22px;height:22px;min-width:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;margin-top:1px}
+.qtext{font-size:18px;font-weight:700;color:#1a1a1a;line-height:1.55;padding-top:2px}
+textarea{width:100%;min-height:85px;padding:10px 12px;border:1.5px solid #ddd;border-radius:7px;font-family:Arial,sans-serif;font-size:18px;color:#1a1a1a;background:#fff;resize:vertical;line-height:1.65;transition:border-color 0.2s}
+textarea:focus{outline:none;border-color:#3D858C;box-shadow:0 0 0 3px rgba(61,133,140,0.12)}
+
+/* Summary grid */
+.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.sg-hdr{background:#01293A;color:#C9F6FA;padding:10px 12px;border-radius:6px 6px 0 0;font-weight:700;font-size:14px;text-align:center}
+.sg-col textarea{border-radius:0 0 6px 6px;min-height:100px}
+@media(max-width:560px){.summary-grid{grid-template-columns:1fr}}
+
+/* Review grid */
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.rg-hdr{background:#3D858C;color:#fff;padding:10px 12px;border-radius:6px 6px 0 0;font-weight:700;font-size:13px;text-align:center}
+.review-grid textarea{border-radius:0 0 6px 6px;min-height:100px}
+@media(max-width:560px){.review-grid{grid-template-columns:1fr}}
+
+/* Quote */
+.quote{text-align:center;padding:32px 20px 24px;color:#3D858C;font-style:italic;font-family:Georgia,serif}
+.quote p:first-child{font-size:20px;margin-bottom:8px}
+.quote p:last-child{font-size:17px;color:#777}
+
+/* Button */
+.dl-btn{width:100%;background:#01293A;color:#C9F6FA;border:none;border-radius:10px;font-family:Arial,sans-serif;font-size:18px;font-weight:700;cursor:pointer;margin-top:32px;letter-spacing:0.4px;transition:background 0.2s;padding:18px}
+.dl-btn:hover{background:#3D858C}
+
+/* Footer */
+.footer-bar{background:#01293A;color:#C9F6FA;padding:12px 20px;display:flex;justify-content:space-between;font-size:13px;margin-top:32px;border-radius:8px}
+
+@media(max-width:480px){.step-title{font-size:18px}.step-hdr{padding:12px 14px}.step-body{padding:20px}.dl-btn{font-size:15px;padding:15px}body{padding:16px 10px 60px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="hero-inner">
+      <img class="hero-logo" id="logoImg" src="" alt="BAGC6 Logo">
+      <div class="hero-text">
+        <h1>Filters of the Mind</h1>
+        <p>Stepping into someone else's shoes to understand their map of the world</p>
+        <span class="badge">BAGC6 Executive Reset &nbsp;&middot;&nbsp; Beyond Limits</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="intro">
+    This exercise is not about you. It is about someone else. The RAS (Reticular Activating System) means that every person experiences the same event through a completely different filter, shaped by their upbringing, past experiences, environment, values, and beliefs. When you genuinely step into another person's shoes and map out how they thought, felt, and acted, you stop judging and start understanding. Your answers are never stored or sent anywhere. When you finish, download a private PDF copy for your own records.
+  </div>
+
+  <!-- STEP 1 -->
+  <div class="step">
+    <div class="step-hdr"><div class="step-num">1</div><div class="step-title">The Person and the Situation</div></div>
+    <div class="step-body">
+      <p class="desc">Choose a real person whose behaviour, reaction, or decision you have found difficult to understand or accept. From this point, you are mapping their experience, not yours.</p>
+      <div class="callout"><strong>REMEMBER</strong>From this point forward, everything you write is about them. Set your own perspective aside as much as you can.</div>
+      <div class="field">
+        <span class="lbl">WHO IS THIS PERSON?</span>
+        <span class="sub">Name or describe who they are and your relationship with them.</span>
+        <textarea id="f1" placeholder="Who is this person..."></textarea>
+      </div>
+      <div class="field">
+        <span class="lbl">THE SITUATION</span>
+        <span class="sub">Describe what happened. Stick to observable facts only: what was said or done, not what you felt about it.</span>
+        <textarea id="f1b" placeholder="What happened, as factually as possible..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="step">
+    <div class="step-hdr"><div class="step-num">2</div><div class="step-title">Their Map of the World</div></div>
+    <div class="step-body">
+      <p class="desc">Every person's RAS filters reality through their own map, built from their upbringing, past experiences, culture, pressures, and beliefs. The behaviour that confuses you makes complete sense within their map.</p>
+      <div class="field">
+        <div class="qrow"><span class="qnum">1</span><span class="qtext">What do you know about their background, upbringing, or past experiences that shaped how they see the world?</span></div>
+        <textarea id="f2a" placeholder="What has formed their map of the world..."></textarea>
+      </div>
+      <div class="field">
+        <div class="qrow"><span class="qnum">2</span><span class="qtext">What pressures, fears, or responsibilities are they currently carrying? What does their day-to-day reality feel like from the inside?</span></div>
+        <textarea id="f2b" placeholder="What is life like from inside their world right now..."></textarea>
+      </div>
+      <div class="field">
+        <div class="qrow"><span class="qnum">3</span><span class="qtext">What values or beliefs are most important to them? What does their RAS filter for and protect above everything else?</span></div>
+        <textarea id="f2c" placeholder="What matters most to them..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="step">
+    <div class="step-hdr"><div class="step-num">3</div><div class="step-title">What They Were Thinking</div></div>
+    <div class="step-body">
+      <p class="desc">Step fully into their shoes. Based on their map, what story did their brain create about what was happening? You are not judging whether it was correct. You are understanding how it felt true to them.</p>
+      <div class="field">
+        <div class="qrow"><span class="qnum">1</span><span class="qtext">Through their RAS filter, what meaning did they attach to this situation? What did their brain tell them was happening?</span></div>
+        <textarea id="f3a" placeholder="The story their filter created..."></textarea>
+      </div>
+      <div class="field">
+        <div class="qrow"><span class="qnum">2</span><span class="qtext">What were they trying to achieve, protect, communicate, or avoid, even if it did not come across that way?</span></div>
+        <textarea id="f3b" placeholder="Their positive intention or underlying need..."></textarea>
+      </div>
+      <div class="field">
+        <div class="qrow"><span class="qnum">3</span><span class="qtext">What information did their RAS focus on in this situation? And what might it have dismissed or overlooked entirely?</span></div>
+        <textarea id="f3c" placeholder="What their brain noticed and what it missed..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 4 -->
+  <div class="step">
+    <div class="step-hdr"><div class="step-num">4</div><div class="step-title">What They Were Feeling</div></div>
+    <div class="step-body">
+      <p class="desc">Behaviour is always preceded by feeling. When you can identify what someone was feeling, not what they should have felt but what they actually felt given their map, judgement becomes understanding.</p>
+      <div class="field">
+        <div class="qrow"><span class="qnum">1</span><span class="qtext">Given their map of the world, what emotions were most likely present for them in this situation? Consider fear, pressure, shame, pride, frustration, loyalty, or overwhelm.</span></div>
+        <textarea id="f4a" placeholder="What they were most likely feeling..."></textarea>
+      </div>
+      <div class="field">
+        <div class="qrow"><span class="qnum">2</span><span class="qtext">Nobody makes mistakes on purpose. Everyone did their best with the tools they had at the time. Given how they were feeling and what their RAS was telling them, does their behaviour now make sense, even if you still disagree with it?</span></div>
+        <textarea id="f4b" placeholder="How their behaviour makes sense within their emotional state and map..."></textarea>
+      </div>
+      <div class="field">
+        <div class="qrow"><span class="qnum">3</span><span class="qtext">What do you now understand about this person that you did not fully see before working through their map, thoughts, and feelings?</span></div>
+        <textarea id="f4c" placeholder="What has shifted in how you see them..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 5 -->
+  <div class="step">
+    <div class="step-hdr"><div class="step-num">5</div><div class="step-title">Their Sequence at a Glance</div></div>
+    <div class="step-body">
+      <p class="desc">Bring their whole sequence together. This is their map made visible.</p>
+      <div class="summary-grid">
+        <div class="sg-col"><div class="sg-hdr">Their Filter</div><textarea id="f5a" placeholder="Their map: beliefs, background, pressures..."></textarea></div>
+        <div class="sg-col"><div class="sg-hdr">Their Thought</div><textarea id="f5b" placeholder="The story their RAS created..."></textarea></div>
+        <div class="sg-col"><div class="sg-hdr">Their Feeling and Action</div><textarea id="f5c" placeholder="How they felt and what they did as a result..."></textarea></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 6 -->
+  <div class="step">
+    <div class="step-hdr"><div class="step-num">6</div><div class="step-title">From Understanding to Action</div></div>
+    <div class="step-body">
+      <p class="desc">Now that you understand their map, something in you can shift. This step is not about fixing them. It is about choosing how you engage differently, having seen things from inside their world.</p>
+      <div class="review-grid">
+        <div><div class="rg-hdr">What I now understand about them</div><textarea id="f6a" placeholder="What I understand now..."></textarea></div>
+        <div><div class="rg-hdr">What I am willing to let go of</div><textarea id="f6b" placeholder="The judgement or assumption I am releasing..."></textarea></div>
+        <div><div class="rg-hdr">How I will engage with them differently</div><textarea id="f6c" placeholder="How I will show up differently..."></textarea></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="quote">
+    <p>Everyone is doing their best with the map they have.</p>
+    <p>When you understand their map, judgement becomes compassion.</p>
+  </div>
+
+  <button class="dl-btn" onclick="generatePDF()">Download My Personal PDF</button>
+
+  <div class="footer-bar">
+    <span>Beyond Limits &nbsp;&middot;&nbsp; BAGC6 Executive Reset &nbsp;&middot;&nbsp; mariafuentes.co.uk</span>
+    <span>&copy; Hypnotika Mente Ltd 2026</span>
+  </div>
+
+</div>
+
+<script>
+var LOGO_B64='';
+var LOGO_TYPE='JPEG';
+
+// Load logo as base64
+(function(){
+  var img=new Image();
+  img.crossOrigin='anonymous';
+  img.onload=function(){
+    var c=document.createElement('canvas');
+    c.width=img.width;c.height=img.height;
+    c.getContext('2d').drawImage(img,0,0);
+    var d=c.toDataURL('image/jpeg');
+    LOGO_B64=d.split(',')[1];
+    document.getElementById('logoImg').src=d;
+  };
+  img.onerror=function(){document.getElementById('logoImg').style.display='none';};
+  img.src='https://BLMariaBAGC.github.io/BAGC6/BAGC6_EXECUTIVE_RESET_TRANSPARENT.png';
+})();
+
+function v(id){return (document.getElementById(id)||{}).value||'';}
+
+function generatePDF(){
+  const {jsPDF}=window.jspdf;
+  const doc=new jsPDF({orientation:'portrait',unit:'mm',format:'a4'});
+  const W=210,M=18,CW=W-2*M;
+  const navy=[1,41,58],teal=[61,133,140],turq=[201,246,250],grey=[110,110,110],dark=[25,25,25],tealBg=[234,249,250];
+
+  let y=0;
+
+  function footer(){
+    doc.setFillColor(...navy);doc.rect(0,283,W,14,'F');
+    doc.setFontSize(8);doc.setFont('helvetica','normal');doc.setTextColor(...turq);
+    doc.text('Beyond Limits  \u00B7  BAGC6 Executive Reset  \u00B7  mariafuentes.co.uk',M,291);
+    doc.text('\u00A9 Hypnotika Mente Ltd 2026',W-M,291,{align:'right'});
+  }
+
+  function chk(need){if(y+need>272){doc.addPage();footer();y=20;}}
+
+  function stepHdr(n,t){
+    chk(100);
+    doc.setFillColor(...teal);doc.rect(M,y,CW,12,'F');
+    doc.setFillColor(...navy);doc.circle(M+7,y+6,4.5,'F');
+    doc.setFontSize(9);doc.setFont('helvetica','bold');doc.setTextColor(255,255,255);
+    doc.text(String(n),M+7,y+6.8,{align:'center'});
+    doc.setFontSize(12);doc.setTextColor(255,255,255);
+    doc.text(t,M+16,y+7.5);
+    y+=22;
+  }
+
+  function lbl(l,s){
+    chk(40);
+    y+=3;
+    doc.setFontSize(9);doc.setFont('helvetica','bold');doc.setTextColor(...teal);
+    doc.text(l.toUpperCase(),M,y);y+=5;
+    if(s){
+      doc.setFontSize(9);doc.setFont('helvetica','italic');doc.setTextColor(...grey);
+      const sl=doc.splitTextToSize(s,CW);doc.text(sl,M,y);y+=sl.length*4.5;
+    }
+  }
+
+  function ans(a){
+    const txt=a.trim()||'(No response entered)';
+    const lines=doc.splitTextToSize(txt,CW-6);
+    const bh=Math.max(lines.length*5,10)+6;
+    if(y+bh+4>275){doc.addPage();footer();y=20;}
+    doc.setFillColor(...tealBg);doc.setDrawColor(180,215,218);
+    doc.rect(M,y,CW,bh,'FD');
+    doc.setFontSize(10);doc.setFont('helvetica','normal');doc.setTextColor(...dark);
+    doc.text(lines,M+3,y+6);
+    y+=bh+6;
+  }
+
+  function qans(n,q,a){
+    chk(50);
+    y+=2;
+    doc.setFontSize(9);doc.setFont('helvetica','bold');doc.setTextColor(...teal);
+    doc.text(n+'.',M,y);
+    doc.setTextColor(...dark);
+    const ql=doc.splitTextToSize(q,CW-7);
+    doc.text(ql,M+5,y);y+=ql.length*5+2;
+    ans(a);
+  }
+
+  // ── PDF HERO ──────────────────────────────────────────────────────────────
+  doc.setFillColor(...navy);doc.rect(0,0,W,54,'F');
+  try{doc.addImage('data:image/'+LOGO_TYPE.toLowerCase()+';base64,'+LOGO_B64,LOGO_TYPE,M,8,18,18);}catch(e){}
+  doc.setFontSize(18);doc.setFont('helvetica','bold');doc.setTextColor(...turq);
+  doc.text('Filters of the Mind',M+22,20);
+  doc.setFontSize(10);doc.setFont('helvetica','italic');doc.setTextColor(...turq);
+  doc.text('Stepping into someone else\'s shoes to understand their map of the world',M+22,30);
+  doc.setFontSize(8);doc.setFont('helvetica','normal');doc.setTextColor(...turq);
+  doc.text('BAGC6 Executive Reset  \u00B7  Beyond Limits  \u00B7  mariafuentes.co.uk',M+22,38);
+  doc.text('Completed: '+new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'}),M+22,45);
+  footer();
+  y=62;
+
+  // Privacy note
+  doc.setFontSize(9);doc.setFont('helvetica','normal');doc.setTextColor(...grey);
+  const privLines=doc.splitTextToSize('This document contains your personal responses to the Filters of the Mind exercise from the BAGC6 Executive Reset programme. Your answers were entered privately in your browser and have not been stored or transmitted anywhere.',CW);
+  doc.text(privLines,M,y);y+=privLines.length*4.5+6;
+
+  // Intro instruction box
+  const instrText='This exercise is not about you. It is about someone else. The RAS means every person experiences the same event through a completely different filter. When you step into another person\'s shoes and map out how they thought, felt, and acted, you stop judging and start understanding.';
+  const instrLines=doc.splitTextToSize(instrText,CW-10);
+  const instrH=instrLines.length*5.5+10;
+  doc.setFillColor(...tealBg);
+  doc.rect(M,y,CW,instrH,'F');
+  doc.setDrawColor(...teal);doc.setLineWidth(2);
+  doc.line(M,y,M,y+instrH);
+  doc.setLineWidth(0.3);
+  doc.setFontSize(9.5);doc.setFont('helvetica','normal');doc.setTextColor(...dark);
+  doc.text(instrLines,M+6,y+7);
+  y+=instrH+10;
+  doc.setDrawColor(...teal);doc.setLineWidth(0.4);doc.line(M,y,W-M,y);y+=10;
+
+  // STEP 1
+  stepHdr(1,'The Person and the Situation');
+  lbl('WHO IS THIS PERSON?','Name or describe who they are and your relationship with them.');
+  ans(v('f1'));
+  lbl('THE SITUATION','Describe what happened. Observable facts only: what was said or done.');
+  ans(v('f1b'));y+=12;
+
+  // STEP 2
+  stepHdr(2,'Their Map of the World');
+  qans('1','What do you know about their background or past experiences that shaped how they see the world?',v('f2a'));
+  qans('2','What pressures, fears, or responsibilities are they currently carrying?',v('f2b'));
+  qans('3','What values or beliefs are most important to them? What does their RAS filter for and protect?',v('f2c'));y+=12;
+
+  // STEP 3
+  stepHdr(3,'What They Were Thinking');
+  qans('1','Through their RAS filter, what meaning did they attach to this situation?',v('f3a'));
+  qans('2','What were they trying to achieve, protect, communicate, or avoid, even if it did not come across that way?',v('f3b'));
+  qans('3','What did their RAS focus on, and what might it have dismissed entirely?',v('f3c'));y+=12;
+
+  // STEP 4
+  stepHdr(4,'What They Were Feeling');
+  qans('1','Given their map, what emotions were most likely present? Fear, pressure, shame, pride, frustration, loyalty, overwhelm?',v('f4a'));
+  qans('2','Nobody makes mistakes on purpose. Given how they were feeling, does their behaviour now make sense, even if you still disagree with it?',v('f4b'));
+  qans('3','What do you now understand about this person that you did not fully see before?',v('f4c'));y+=12;
+
+  // STEP 5 - summary grid
+  stepHdr(5,'Their Sequence at a Glance');
+  chk(40);
+  const cw5=CW/3;
+  ['Their Filter','Their Thought','Their Feeling and Action'].forEach((h,i)=>{
+    doc.setFillColor(...(i===1?teal:navy));doc.rect(M+i*cw5,y,cw5,10,'F');
+    doc.setFontSize(8);doc.setFont('helvetica','bold');doc.setTextColor(255,255,255);
+    doc.text(h,M+i*cw5+cw5/2,y+6.5,{align:'center'});
+  });
+  y+=11;
+  [v('f5a'),v('f5b'),v('f5c')].forEach((val,i)=>{
+    const txt=val.trim()||'(No response)';
+    const lines=doc.splitTextToSize(txt,cw5-6);
+    const bh=Math.max(lines.length*5,10)+6;
+    doc.setFillColor(...tealBg);doc.setDrawColor(180,215,218);
+    doc.rect(M+i*cw5,y,cw5,bh,'FD');
+    doc.setFontSize(9);doc.setFont('helvetica','normal');doc.setTextColor(...dark);
+    doc.text(lines,M+i*cw5+3,y+6);
+  });
+  y+=30;y+=12;
+
+  // STEP 6 - action grid
+  stepHdr(6,'From Understanding to Action');
+  chk(40);
+  const cw6=CW/3;
+  ['What I now understand','What I am willing to let go of','How I will engage differently'].forEach((h,i)=>{
+    doc.setFillColor(...(i===1?teal:navy));doc.rect(M+i*cw6,y,cw6,10,'F');
+    doc.setFontSize(8);doc.setFont('helvetica','bold');doc.setTextColor(255,255,255);
+    doc.text(h,M+i*cw6+cw6/2,y+6.5,{align:'center'});
+  });
+  y+=11;
+  [v('f6a'),v('f6b'),v('f6c')].forEach((val,i)=>{
+    const txt=val.trim()||'(No response)';
+    const lines=doc.splitTextToSize(txt,cw6-6);
+    const bh=Math.max(lines.length*5,10)+6;
+    doc.setFillColor(...tealBg);doc.setDrawColor(180,215,218);
+    doc.rect(M+i*cw6,y,cw6,bh,'FD');
+    doc.setFontSize(9);doc.setFont('helvetica','normal');doc.setTextColor(...dark);
+    doc.text(lines,M+i*cw6+3,y+6);
+  });
+  y+=30;y+=16;
+
+  // Closing quote
+  chk(24);
+  doc.setFontSize(11);doc.setFont('helvetica','italic');doc.setTextColor(...teal);
+  doc.text('Everyone is doing their best with the map they have.',W/2,y,{align:'center'});y+=8;
+  doc.setFontSize(10);doc.setTextColor(...grey);
+  doc.text('When you understand their map, judgement becomes compassion.',W/2,y,{align:'center'});
+
+  doc.save('Filters-of-the-Mind-BAGC6.pdf');
+}
+</script>
+</body>
+</html>
