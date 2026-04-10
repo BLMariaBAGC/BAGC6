@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discovering Your Ikigai | Maria Fuentes</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+  :root { --teal:#3D858C; --navy:#01293A; --turq:#C9F6FA; --white:#FFFFFF; --cream:#FAFAF7; --light-teal:#E8F7F8; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--cream); color:var(--navy); font-family:"Inter",sans-serif; font-size:17px; line-height:1.7; }
+  .header { background:var(--navy); padding:36px 60px; border-bottom:4px solid var(--teal); }
+  .header-inner { max-width:880px; margin:0 auto; display:flex; align-items:center; gap:28px; }
+  .logo { width:76px; height:76px; flex-shrink:0; }
+  .logo img { width:100%; height:100%; object-fit:contain; }
+  .header h1 { font-family:"Cormorant Garamond",serif; font-size:38px; font-weight:700; color:var(--white); line-height:1.15; margin-bottom:6px; }
+  .header h1 span { color:var(--turq); }
+  .header p { font-family:"Cormorant Garamond",serif; font-size:19px; color:var(--turq); font-style:italic; }
+  .progress-wrap { background:var(--white); border-bottom:1px solid var(--light-teal); padding:12px 60px; position:sticky; top:0; z-index:100; box-shadow:0 2px 8px rgba(1,41,58,0.06); }
+  .progress-inner { max-width:880px; margin:0 auto; }
+  .progress-meta { display:flex; justify-content:space-between; align-items:center; margin-bottom:7px; }
+  .progress-label { font-size:12px; font-weight:600; color:var(--teal); text-transform:uppercase; letter-spacing:1.5px; }
+  .progress-count { font-size:12px; color:var(--teal); font-weight:500; }
+  .progress-bar { background:var(--light-teal); border-radius:30px; height:5px; overflow:hidden; }
+  .progress-fill { background:var(--teal); height:100%; border-radius:30px; transition:width 0.5s ease; width:0%; }
+  .container { max-width:880px; margin:0 auto; padding:50px 60px; }
+  .view { display:none; animation:fadeIn 0.35s ease; }
+  .view.active { display:block; }
+  @keyframes fadeIn { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
+
+  /* TYPOGRAPHY */
+  .big-heading { font-family:"Cormorant Garamond",serif; font-size:36px; font-weight:700; color:var(--navy); margin-bottom:16px; line-height:1.2; }
+  .big-heading.teal { color:var(--teal); }
+  .step-badge { display:inline-block; background:var(--teal); color:var(--white); font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; padding:5px 14px; border-radius:20px; margin-bottom:16px; }
+  .body-text { font-size:16px; color:var(--navy); line-height:1.8; margin-bottom:16px; }
+  .body-text strong { color:var(--teal); }
+  .key-question { font-family:"Cormorant Garamond",serif; font-size:22px; font-style:italic; color:var(--navy); border-left:4px solid var(--teal); padding-left:20px; margin:24px 0; line-height:1.5; }
+
+  /* BOXES */
+  .callout { background:var(--light-teal); border-left:4px solid var(--teal); border-radius:0 8px 8px 0; padding:20px 26px; margin-bottom:24px; }
+  .callout p { font-size:15px; color:var(--navy); line-height:1.75; margin-bottom:0; }
+  .navy-box { background:var(--navy); border-radius:12px; padding:38px 44px; margin-bottom:28px; position:relative; overflow:hidden; }
+  .navy-box::before { content:"\201C"; position:absolute; top:-8px; left:28px; font-family:"Cormorant Garamond",serif; font-size:130px; color:rgba(201,246,250,0.09); line-height:1; pointer-events:none; }
+  .navy-box h2 { font-family:"Cormorant Garamond",serif; font-size:30px; font-weight:700; color:var(--white); margin-bottom:16px; }
+  .navy-box p { font-size:15.5px; color:rgba(255,255,255,0.84); line-height:1.78; margin-bottom:13px; }
+  .navy-box p:last-child { margin-bottom:0; }
+  .navy-box .hl { font-family:"Cormorant Garamond",serif; font-size:19px; font-style:italic; color:var(--turq); border-left:3px solid var(--teal); padding-left:16px; margin-top:18px; }
+
+  /* FOUR INGREDIENTS GRID */
+  .ingredients-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:28px 0; }
+  .ingredient-card { background:var(--white); border-radius:10px; padding:22px 24px; box-shadow:0 2px 10px rgba(1,41,58,0.07); border-top:3px solid var(--teal); }
+  .ingredient-card h3 { font-family:"Cormorant Garamond",serif; font-size:22px; font-weight:700; color:var(--teal); margin-bottom:8px; }
+  .ingredient-card p { font-size:14.5px; color:var(--navy); line-height:1.65; }
+
+  /* IKIGAI SVG DIAGRAM */
+  .diagram-wrap { width:100%; margin:32px 0; }
+
+  /* INTERSECTION LABELS */
+  .intersections { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:20px 0 28px; }
+  .intersection-card { background:var(--white); border-radius:10px; padding:18px 20px; box-shadow:0 1px 8px rgba(1,41,58,0.06); }
+  .intersection-card .i-label { font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:1.5px; color:var(--teal); margin-bottom:6px; }
+  .intersection-card .i-title { font-family:"Cormorant Garamond",serif; font-size:20px; font-weight:700; color:var(--navy); margin-bottom:6px; }
+  .intersection-card .i-desc { font-size:13.5px; color:#5A7A80; line-height:1.6; }
+
+  /* TEXTAREA */
+  .field-group { margin-bottom:24px; }
+  .field-label { font-size:12px; font-weight:600; color:var(--teal); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:8px; display:block; }
+  textarea {
+    width:100%; border:1.5px solid #D8ECEE; border-radius:8px;
+    padding:16px 18px; font-family:"Inter",sans-serif; font-size:15px;
+    color:var(--navy); line-height:1.7; resize:vertical; outline:none;
+    background:var(--white); min-height:140px;
+    transition:border-color 0.2s, box-shadow 0.2s; display:block;
+  }
+  textarea:focus { border-color:var(--teal); box-shadow:0 0 0 3px rgba(61,133,140,0.11); }
+  textarea::placeholder { color:#AECDD0; font-style:italic; }
+  textarea.large { min-height:200px; }
+  textarea.small { min-height:100px; }
+
+  /* MISSING CIRCLE TABLE */
+  .missing-table { width:100%; border-collapse:collapse; margin:20px 0; }
+  .missing-table th { background:var(--navy); color:var(--turq); font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:1px; padding:12px 16px; text-align:left; }
+  .missing-table td { border:1.5px solid #D8ECEE; padding:12px 14px; vertical-align:top; }
+  .missing-table td:first-child { background:var(--light-teal); font-weight:500; font-size:14px; width:34%; }
+  .missing-table input[type="text"] { width:100%; border:none; background:transparent; font-family:"Inter",sans-serif; font-size:14px; color:var(--navy); outline:none; padding:4px 0; }
+  .missing-table input[type="text"]::placeholder { color:#AECDD0; font-style:italic; }
+
+  /* ADDRESSING SECTIONS */
+  .address-section { background:var(--white); border-radius:12px; padding:28px 32px; margin-bottom:20px; box-shadow:0 2px 10px rgba(1,41,58,0.06); border-top:3px solid var(--teal); }
+  .address-section h3 { font-family:"Cormorant Garamond",serif; font-size:24px; font-weight:700; color:var(--teal); margin-bottom:14px; }
+  .reflect-prompts { margin-bottom:20px; }
+  .reflect-prompts p { font-size:14.5px; color:var(--navy); line-height:1.7; margin-bottom:8px; padding-left:18px; position:relative; }
+  .reflect-prompts p::before { content:"\2022"; position:absolute; left:0; color:var(--teal); font-size:18px; }
+
+  /* COMPLETION */
+  .completion-header { background:var(--navy); border-radius:12px; padding:44px; margin-bottom:36px; text-align:center; }
+  .completion-header h2 { font-family:"Cormorant Garamond",serif; font-size:36px; font-weight:700; color:var(--white); margin-bottom:14px; }
+  .completion-header p { font-size:16px; color:rgba(255,255,255,0.8); max-width:540px; margin:0 auto; line-height:1.75; }
+  .check-circle { width:60px; height:60px; background:var(--teal); border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 20px; font-size:26px; color:white; }
+  .completion-actions { display:flex; gap:16px; justify-content:center; flex-wrap:wrap; margin-bottom:36px; }
+
+  /* BUTTONS */
+  .nav-buttons { display:flex; justify-content:space-between; align-items:center; margin-top:40px; gap:16px; }
+  .btn { padding:14px 32px; border-radius:8px; font-size:15px; font-weight:600; cursor:pointer; border:none; font-family:"Inter",sans-serif; transition:all 0.2s ease; }
+  .btn-primary { background:var(--teal); color:var(--white); }
+  .btn-primary:hover { background:var(--navy); transform:translateY(-2px); box-shadow:0 6px 20px rgba(1,41,58,0.2); }
+  .btn-secondary { background:transparent; color:var(--teal); border:2px solid var(--teal); }
+  .btn-secondary:hover { background:var(--teal); color:var(--white); }
+  .btn-large { padding:16px 40px; font-size:16px; }
+  .restart-link { display:block; text-align:center; margin-top:20px; color:var(--teal); cursor:pointer; font-size:14px; text-decoration:underline; }
+
+  .footer { background:var(--navy); color:rgba(255,255,255,0.5); text-align:center; padding:20px; font-size:13px; margin-top:60px; }
+  @media(max-width:680px) {
+    .header{padding:28px 24px;} .container{padding:36px 24px;} .progress-wrap{padding:10px 24px;}
+    .header h1{font-size:26px;} .ingredients-grid{grid-template-columns:1fr;} .intersections{grid-template-columns:1fr;}
+    .completion-actions{flex-direction:column;align-items:center;}
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <div class="logo"><img id="site-logo" src="data:image/png;base64,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" alt="Maria Fuentes Logo"></div>
+    <div>
+      <h1>Discovering Your <span>Ikigai</span></h1>
+      <p>A guided journey to your reason for being</p>
+    </div>
+  </div>
+</div>
+
+<div class="progress-wrap">
+  <div class="progress-inner">
+    <div class="progress-meta">
+      <span class="progress-label" id="progress-label">Introduction</span>
+      <span class="progress-count" id="progress-count"></span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- VIEW 1: INTRO -->
+  <div class="view active" id="v1">
+    <div class="navy-box">
+      <h2>The Secret to a Long and Happy Life</h2>
+      <p>The secret to a long and happy life is to live with purpose every day. Living a life filled with meaning and value can make you happier, more content, and more resilient through hard times. It can also deepen your capacity to positively influence the lives of those around you.</p>
+      <p>People find meaning from many different sources: relationships, work, spiritual practice, creative pursuits, or hobbies. There is no single path.</p>
+      <div class="hl">What gives you a sense of meaning or purpose in your life?</div>
+    </div>
+    <div class="big-heading teal">What Is Ikigai?</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:28px;">
+      <div class="callout"><p><strong>Pronounced:</strong> ee-key-guy. Ikigai is a Japanese practice that has guided generations towards lives of deep fulfilment and longevity. Roughly translated, it means "a reason for being" or "a reason for getting up in the morning."</p></div>
+      <div class="callout"><p><strong>Why it matters:</strong> Finding your ikigai provides a reason for living, even when faced with adversity and hardship. Communities in Japan where ikigai is deeply practised are among the longest-living in the world.</p></div>
+    </div>
+    <div class="big-heading teal" style="font-size:28px;margin-bottom:16px;">The Four Ingredients</div>
+    <p class="body-text">Your ikigai lives at the point where all four of these circles converge.</p>
+    <div class="ingredients-grid">
+      <div class="ingredient-card"><h3>What You Love</h3><p>The passions, interests, and activities that light you up from within.</p></div>
+      <div class="ingredient-card"><h3>What the World Needs</h3><p>The contributions, services, or support that your community and society truly value.</p></div>
+      <div class="ingredient-card"><h3>What You Are Good At</h3><p>Your natural strengths, developed abilities, and areas of genuine competence.</p></div>
+      <div class="ingredient-card"><h3>What You Can Be Paid For</h3><p>The skills and talents that others are willing to reward financially.</p></div>
+    </div>
+    <div class="nav-buttons"><span></span><button class="btn btn-primary btn-large" onclick="go(2)">Begin the Exercise &rarr;</button></div>
+  </div>
+
+  <!-- VIEW 2: THE DIAGRAM -->
+  <div class="view" id="v2">
+    <div class="step-badge">The Ikigai Map</div>
+    <div class="big-heading">Your Ikigai Diagram</div>
+    <p class="body-text">Study this diagram carefully. Your ikigai emerges at the very centre, where all four circles overlap. As you work through the questions that follow, you will be building each circle of this map with your own answers.</p>
+
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 820 760" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="Cormorant Garamond, Georgia, serif">
+        <!-- Circle 1: What You Love (top) -->
+        <circle cx="410" cy="205" r="185" fill="rgba(61,133,140,0.15)" stroke="#3D858C" stroke-width="2"/>
+        <!-- Circle 2: What the World Needs (right) -->
+        <circle cx="558" cy="398" r="185" fill="rgba(1,41,58,0.13)" stroke="#01293A" stroke-width="2"/>
+        <!-- Circle 3: What You Can Be Paid For (bottom) -->
+        <circle cx="410" cy="558" r="185" fill="rgba(61,133,140,0.11)" stroke="#3D858C" stroke-width="2"/>
+        <!-- Circle 4: What You Are Good At (left) -->
+        <circle cx="262" cy="398" r="185" fill="rgba(1,41,58,0.10)" stroke="#01293A" stroke-width="2"/>
+
+        <!-- Labels INSIDE each circle (in non-overlapping zone) -->
+        <!-- What You Love: top zone -->
+        <text x="410" y="90" text-anchor="middle" font-size="17" font-weight="700" fill="#01293A">WHAT YOU</text>
+        <text x="410" y="112" text-anchor="middle" font-size="17" font-weight="700" fill="#01293A">LOVE</text>
+
+        <!-- What the World Needs: right zone -->
+        <text x="660" y="388" text-anchor="middle" font-size="17" font-weight="700" fill="#01293A">WHAT THE</text>
+        <text x="660" y="410" text-anchor="middle" font-size="17" font-weight="700" fill="#01293A">WORLD</text>
+        <text x="660" y="432" text-anchor="middle" font-size="17" font-weight="700" fill="#01293A">NEEDS</text>
+
+        <!-- What You Can Be Paid For: bottom zone -->
+        <text x="410" y="666" text-anchor="middle" font-size="17" font-weight="700" fill="#01293A">WHAT YOU CAN</text>
+        <text x="410" y="688" text-anchor="middle" font-size="17" font-weight="700" fill="#01293A">BE PAID FOR</text>
+
+        <!-- What You Are Good At: left zone -->
+        <text x="160" y="388" text-anchor="middle" font-size="17" font-weight="700" fill="#01293A">WHAT YOU</text>
+        <text x="160" y="410" text-anchor="middle" font-size="17" font-weight="700" fill="#01293A">ARE GOOD</text>
+        <text x="160" y="432" text-anchor="middle" font-size="17" font-weight="700" fill="#01293A">AT</text>
+
+        <!-- Intersection zone labels -->
+        <!-- Passion: top-left overlap -->
+        <text x="316" y="294" text-anchor="middle" font-size="14" font-weight="600" fill="#3D858C" font-style="italic">PASSION</text>
+
+        <!-- Mission: top-right overlap -->
+        <text x="504" y="294" text-anchor="middle" font-size="14" font-weight="600" fill="#3D858C" font-style="italic">MISSION</text>
+
+        <!-- Profession: bottom-left overlap -->
+        <text x="316" y="490" text-anchor="middle" font-size="14" font-weight="600" fill="#3D858C" font-style="italic">PROFESSION</text>
+
+        <!-- Vocation: bottom-right overlap -->
+        <text x="504" y="490" text-anchor="middle" font-size="14" font-weight="600" fill="#3D858C" font-style="italic">VOCATION</text>
+
+        <!-- Centre dot and IKIGAI label -->
+        <circle cx="410" cy="382" r="36" fill="rgba(1,41,58,0.85)" stroke="#C9F6FA" stroke-width="2"/>
+        <text x="410" y="378" text-anchor="middle" font-size="15" font-weight="700" fill="#C9F6FA">IKIGAI</text>
+        <text x="410" y="396" text-anchor="middle" font-size="11" fill="rgba(201,246,250,0.75)">&#x2022; reason for being &#x2022;</text>
+      </svg>
+    </div>
+
+    <div class="intersections">
+      <div class="intersection-card"><div class="i-label">Love + Good At</div><div class="i-title">Passion</div><div class="i-desc">Deep satisfaction, but may lack financial reward or wider contribution.</div></div>
+      <div class="intersection-card"><div class="i-label">Love + World Needs</div><div class="i-title">Mission</div><div class="i-desc">Delight and fullness, though financial stability may be absent.</div></div>
+      <div class="intersection-card"><div class="i-label">Good At + Paid For</div><div class="i-title">Profession</div><div class="i-desc">Comfortable and competent, but without love it can feel draining.</div></div>
+      <div class="intersection-card"><div class="i-label">Paid For + World Needs</div><div class="i-title">Vocation</div><div class="i-desc">Positive impact and income, but hollow without genuine love for the work.</div></div>
+    </div>
+    <div class="callout"><p>When a single response appears in all four circles simultaneously, you have found something truly extraordinary: something meaningful, fulfilling, and sustainable. <strong>That is your ikigai.</strong></p></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(1)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(3)">Start Step 1 &rarr;</button>
+    </div>
+  </div>
+
+  <!-- VIEW 3: WHAT DO YOU LOVE -->
+  <div class="view" id="v3">
+    <div class="step-badge">Step 1 of 4</div>
+    <div class="big-heading">What Do You Love?</div>
+    <p class="body-text">Passion is essential to finding your ikigai. Without it, you may struggle to sustain the energy and motivation needed to pursue your reason for living, especially during difficult times.</p>
+    <div class="key-question">What do you genuinely feel passionate about?</div>
+    <p class="body-text">Take a few minutes to reflect on the things you love across all areas of life: your work, your family, volunteer activities, personal interests, and hobbies. Perhaps you feel a deep connection to science, the arts, nature, teaching, or travel. Allow yourself to think broadly and without judgement.</p>
+    <div class="callout"><p>There are no right or wrong answers. Write whatever is true for you, however large or small it may seem.</p></div>
+    <div class="field-group">
+      <label class="field-label" for="love">Things I genuinely love</label>
+      <textarea id="love" class="large" placeholder="I love... (write as much or as little as feels right)"></textarea>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(2)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(4)">Next &rarr;</button>
+    </div>
+  </div>
+
+  <!-- VIEW 4: WORLD NEEDS -->
+  <div class="view" id="v4">
+    <div class="step-badge">Step 2 of 4</div>
+    <div class="big-heading">What Does the World Need?</div>
+    <p class="body-text">Humans are deeply social animals. When we know that we are needed by others, we feel useful, valuable, and full of purpose. This step helps you discover what you have to give to the world around you.</p>
+    <div class="key-question">What do your friends, family, and immediate community need?</div>
+    <p class="body-text">Thinking about global needs can feel overwhelming, so begin locally. These needs can include almost anything: a product, a service, emotional support, creative work, or simply showing up for one single person who needs you. Small contributions matter enormously.</p>
+    <div class="callout"><p>Start with the people closest to you. What do they come to you for? What problems do you see around you that you wish you could help with?</p></div>
+    <div class="field-group">
+      <label class="field-label" for="world">What the world around me needs</label>
+      <textarea id="world" class="large" placeholder="The world around me needs... (write freely)"></textarea>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(3)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(5)">Next &rarr;</button>
+    </div>
+  </div>
+
+  <!-- VIEW 5: GOOD AT -->
+  <div class="view" id="v5">
+    <div class="step-badge">Step 3 of 4</div>
+    <div class="big-heading">What Are You Good At?</div>
+    <p class="body-text">Discovering what you are good at involves meaningful self-evaluation, and it is worth approaching this step with both humility and self-compassion.</p>
+    <div class="key-question">What am I good at?</div>
+    <p class="body-text">Before answering, take time to consider your skills, your strengths, and everything you are capable of doing well, no matter how large or small. Perhaps you have a talent that comes naturally, that others find helpful, or that you have worked hard over many years to develop and refine.</p>
+    <div class="callout"><p>Excessively high standards can be counterproductive. You may be more capable than you give yourself credit for. Allow yourself to claim your strengths honestly.</p></div>
+    <div class="field-group">
+      <label class="field-label" for="goodat">Things I am genuinely good at</label>
+      <textarea id="goodat" class="large" placeholder="I am good at... (include skills, strengths, and natural abilities)"></textarea>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(4)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(6)">Next &rarr;</button>
+    </div>
+  </div>
+
+  <!-- VIEW 6: PAID FOR -->
+  <div class="view" id="v6">
+    <div class="step-badge">Step 4 of 4</div>
+    <div class="big-heading">What Can You Be Paid For?</div>
+    <p class="body-text">This question is about sustainability. For your ikigai to be truly liveable, there needs to be a way for it to support your life financially, whether now or in the future.</p>
+    <div class="key-question">What skills or services are others willing to pay for?</div>
+    <p class="body-text">Consider both what you are currently paid for and what you could be paid for if you developed it further. Think about what people have offered you money for, asked you to do professionally, or turned to you for because of your expertise.</p>
+    <div class="callout"><p>If earning from something feels distant right now, that is fine. Write what you could one day be paid for, not only what you are paid for today.</p></div>
+    <div class="field-group">
+      <label class="field-label" for="paid">Things I can or could be paid for</label>
+      <textarea id="paid" class="large" placeholder="I can be paid for... (be generous with yourself here)"></textarea>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(5)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(7)">Find My Overlaps &rarr;</button>
+    </div>
+  </div>
+
+  <!-- VIEW 7: FINDING OVERLAPS -->
+  <div class="view" id="v7">
+    <div class="step-badge">Step 5: Overlaps</div>
+    <div class="big-heading">Finding Your Overlapping Responses</div>
+    <p class="body-text">Now look carefully across everything you have written. You may notice that some answers appear in more than one circle, or that certain answers are closely related to one another. These overlapping areas are where the real magic begins.</p>
+    <div class="callout"><p>Any response that fits into all four circles belongs at the very centre of your chart. <strong>That is your ikigai.</strong></p></div>
+
+    <div class="field-group" style="margin-top:28px;">
+      <label class="field-label">Passion: what I love AND am good at</label>
+      <p class="body-text" style="font-size:14px;margin-bottom:10px;">Where your love and your strengths meet. You may feel deep satisfaction here.</p>
+      <textarea id="ov-passion" class="small" placeholder="Responses that belong in both circles..."></textarea>
+    </div>
+    <div class="field-group">
+      <label class="field-label">Mission: what I love AND the world needs</label>
+      <p class="body-text" style="font-size:14px;margin-bottom:10px;">Where your passion meets genuine need. You are likely to feel a deep sense of purpose here.</p>
+      <textarea id="ov-mission" class="small" placeholder="Responses that belong in both circles..."></textarea>
+    </div>
+    <div class="field-group">
+      <label class="field-label">Profession: what I am good at AND can be paid for</label>
+      <p class="body-text" style="font-size:14px;margin-bottom:10px;">Where your skills meet financial reward. Competence and comfort, though meaning may still be missing.</p>
+      <textarea id="ov-profession" class="small" placeholder="Responses that belong in both circles..."></textarea>
+    </div>
+    <div class="field-group">
+      <label class="field-label">Vocation: what the world needs AND I can be paid for</label>
+      <p class="body-text" style="font-size:14px;margin-bottom:10px;">Where need meets financial reward. Sustainable and impactful, though love for the work may be missing.</p>
+      <textarea id="ov-vocation" class="small" placeholder="Responses that belong in both circles..."></textarea>
+    </div>
+    <div class="field-group">
+      <label class="field-label" style="color:var(--navy);font-size:13px;">My Ikigai: what appears in all four circles</label>
+      <p class="body-text" style="font-size:14px;margin-bottom:10px;">If something fits all four, write it here. This is your reason for being.</p>
+      <textarea id="ov-ikigai" class="small" placeholder="What sits at the centre of all four circles? (Leave blank if you are still exploring.)"></textarea>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(6)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(8)">Find the Missing Circle &rarr;</button>
+    </div>
+  </div>
+
+  <!-- VIEW 8: MISSING CIRCLE -->
+  <div class="view" id="v8">
+    <div class="step-badge">Step 6: The Gap</div>
+    <div class="big-heading">Finding the Missing Circle</div>
+    <p class="body-text">To find your ikigai, you must first identify which circles may be missing from your picture, and then consider how to address them. Look carefully at your responses.</p>
+    <div class="callout"><p>Is there an activity or theme that appears in more than one circle but not all four? The missing circle is not a gap to feel discouraged by. It is an invitation to grow.</p></div>
+
+    <p class="body-text" style="margin-top:20px;">Use the table below to map out what is present and what is missing for each activity or theme you identified.</p>
+
+    <table class="missing-table">
+      <tr>
+        <th>Activity or Theme</th>
+        <th>Which circles does it appear in?</th>
+        <th>What is missing?</th>
+      </tr>
+      <tr><td><input type="text" id="mt1a" placeholder="e.g. Teaching"></td><td><input type="text" id="mt1b" placeholder="e.g. Love, Good at, World needs"></td><td><input type="text" id="mt1c" placeholder="e.g. Paid for"></td></tr>
+      <tr><td><input type="text" id="mt2a" placeholder="Activity or theme"></td><td><input type="text" id="mt2b" placeholder="Circles present"></td><td><input type="text" id="mt2c" placeholder="Missing circle"></td></tr>
+      <tr><td><input type="text" id="mt3a" placeholder="Activity or theme"></td><td><input type="text" id="mt3b" placeholder="Circles present"></td><td><input type="text" id="mt3c" placeholder="Missing circle"></td></tr>
+      <tr><td><input type="text" id="mt4a" placeholder="Activity or theme"></td><td><input type="text" id="mt4b" placeholder="Circles present"></td><td><input type="text" id="mt4c" placeholder="Missing circle"></td></tr>
+    </table>
+
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(7)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(9)">Address the Missing Circle &rarr;</button>
+    </div>
+  </div>
+
+  <!-- VIEW 9: ADDRESSING THE MISSING CIRCLE -->
+  <div class="view" id="v9">
+    <div class="step-badge">Step 7: Growing Towards Ikigai</div>
+    <div class="big-heading">Addressing the Missing Circle</div>
+    <p class="body-text">For every activity or theme in your table, consider the circles that are currently missing. Work through the sections below that are relevant to your own responses. Be patient and honest with yourself throughout this reflection.</p>
+
+    <div class="address-section">
+      <h3>If You Do Not Love This Activity</h3>
+      <div class="reflect-prompts">
+        <p>Are there specific aspects that drain you? Could those aspects be delegated, shared, or made more manageable?</p>
+        <p>List three things you find positive about this activity, however small.</p>
+        <p>Are there areas within this activity that intrigue you? Following curiosity is often the first step towards genuine passion.</p>
+        <p>In what ways has this activity helped you develop as a person?</p>
+      </div>
+      <label class="field-label" for="miss-love">Your reflections</label>
+      <textarea id="miss-love" class="small" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="address-section">
+      <h3>If You Do Not Feel Skilled Enough</h3>
+      <div class="reflect-prompts">
+        <p>Is it possible you are more capable than you give yourself credit for?</p>
+        <p>Which skills do you already possess? Which need development?</p>
+        <p>Who excels at this activity? What strengths do they have that you could cultivate?</p>
+        <p>Is there a mentor who could guide and accelerate your growth?</p>
+      </div>
+      <label class="field-label" for="miss-skill">Your reflections</label>
+      <textarea id="miss-skill" class="small" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="address-section">
+      <h3>If You Are Not Getting Paid for This</h3>
+      <div class="reflect-prompts">
+        <p>What are the main reasons you are not currently paid for this? Naming the barriers is the first step to dismantling them.</p>
+        <p>How have other people monetised this activity or something closely related?</p>
+        <p>Could you earn from this in a small way right now, alongside your current work?</p>
+        <p>List three ways you could move towards financial reward from this activity.</p>
+      </div>
+      <label class="field-label" for="miss-paid">Your reflections</label>
+      <textarea id="miss-paid" class="small" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="address-section">
+      <h3>If This Is Not What the World Needs</h3>
+      <div class="reflect-prompts">
+        <p>What do the people in your immediate circle actually need? In what ways could this activity meet those needs?</p>
+        <p>Could you write, teach, host a workshop, or share your knowledge in a way that serves others?</p>
+        <p>Is this something you could teach locally or online? Sharing skills is one of the most direct ways to give back.</p>
+      </div>
+      <label class="field-label" for="miss-world">Your reflections</label>
+      <textarea id="miss-world" class="small" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(8)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(10)">Complete My Ikigai Journey &rarr;</button>
+    </div>
+  </div>
+
+  <!-- VIEW 10: COMPLETION -->
+  <div class="view" id="v10">
+    <div class="completion-header">
+      <div class="check-circle">&#10003;</div>
+      <h2>Your Ikigai Journey Is Complete</h2>
+      <p>You have invested time in understanding what you love, what you are good at, what the world needs, and what you can be paid for. That is a courageous and deeply intentional step.</p>
+    </div>
+    <div class="completion-actions">
+      <button class="btn btn-primary btn-large" onclick="downloadPDF()">&#8595;&nbsp; Download My Ikigai Workbook as PDF</button>
+    </div>
+    <div class="navy-box" style="text-align:center;">
+      <h2>Your Ikigai Is a Living Journey</h2>
+      <p>If this exercise did not immediately reveal an activity that sits at the centre of all four circles, please do not be discouraged. Finding your ikigai is rarely a single moment of revelation. It is an ongoing, evolving process of self-reflection, curiosity, and courage.</p>
+      <p>Your ikigai is also likely to change as your circumstances, relationships, and values shift over time. This is not a weakness. It is simply the nature of a life lived with awareness.</p>
+      <div class="hl">Each time you return to this exercise, you will know yourself a little better than before.</div>
+    </div>
+    <span class="restart-link" onclick="restart()">Start the exercise again</span>
+  </div>
+
+</div>
+
+<div class="footer">Maria Fuentes &nbsp;|&nbsp; mariafuentes.co.uk &nbsp;|&nbsp; &copy; Hypnotika Mente Ltd 2026</div>
+<script>
+  var TOTAL = 10;
+  var labels = ['Introduction','The Ikigai Map','What You Love','What the World Needs','What You Are Good At','What You Can Be Paid For','Finding Overlaps','The Missing Circle','Addressing the Gap','Complete'];
+  var counts = ['','','Step 1 of 4','Step 2 of 4','Step 3 of 4','Step 4 of 4','Step 5','Step 6','Step 7',''];
+
+  function setProgress(n) {
+    var pct = ((n-1) / (TOTAL-1)) * 100;
+    document.getElementById('progress-fill').style.width = pct + '%';
+    document.getElementById('progress-label').textContent = labels[n-1] || '';
+    document.getElementById('progress-count').textContent = counts[n-1] || '';
+  }
+
+  function go(n) {
+    document.querySelectorAll('.view').forEach(function(v){ v.classList.remove('active'); });
+    var el = document.getElementById('v'+n);
+    el.classList.add('active');
+    el.scrollIntoView({ behavior:'smooth', block:'start' });
+    setProgress(n);
+  }
+
+  function restart() {
+    document.querySelectorAll('textarea').forEach(function(t){ t.value=''; });
+    ['mt1a','mt1b','mt1c','mt2a','mt2b','mt2c','mt3a','mt3b','mt3c','mt4a','mt4b','mt4c'].forEach(function(id){
+      var el = document.getElementById(id);
+      if (el) el.value = '';
+    });
+    go(1);
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+
+  function downloadPDF() {
+    try {
+      var jsPDFLib = (window.jspdf && window.jspdf.jsPDF) || window.jsPDF;
+      if (!jsPDFLib) { alert('PDF library not loaded. Please check your internet connection and try again.'); return; }
+      var doc = new jsPDFLib({ unit:'mm', format:'a4' });
+      var pW=210, pH=297, mg=20, cW=170;
+      var logoData = document.getElementById('site-logo').src;
+
+      function fc(r,g,b){ doc.setFillColor(r,g,b); }
+      function tc(r,g,b){ doc.setTextColor(r,g,b); }
+      function dc(r,g,b){ doc.setDrawColor(r,g,b); }
+
+      function drawHeader() {
+        fc(1,41,58); doc.rect(0,0,pW,50,'F');
+        fc(61,133,140); doc.rect(0,50,pW,2.5,'F');
+        try { doc.addImage(logoData,'PNG',mg,10,28,28); } catch(e){}
+        doc.setFont('helvetica','bold'); doc.setFontSize(22); tc(255,255,255);
+        doc.text('Discovering Your Ikigai', mg+34, 27);
+        doc.setFont('helvetica','italic'); doc.setFontSize(10); tc(201,246,250);
+        doc.text('A Personal Exercise by Maria Fuentes', mg+34, 36);
+        doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(150,190,195);
+        doc.text('\u00A9 Hypnotika Mente Ltd 2026  \u2022  mariafuentes.co.uk', pW-mg, 46, {align:'right'});
+      }
+      function drawPageHeader() {
+        fc(1,41,58); doc.rect(0,0,pW,18,'F');
+        fc(61,133,140); doc.rect(0,18,pW,2,'F');
+        doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(201,246,250);
+        doc.text('Discovering Your Ikigai  \u2022  Maria Fuentes', mg, 13);
+        doc.setFont('helvetica','normal'); tc(150,190,195);
+        doc.text('mariafuentes.co.uk', pW-mg, 13, {align:'right'});
+      }
+      function drawFooter() {
+        fc(1,41,58); doc.rect(0,pH-12,pW,12,'F');
+        doc.setFont('helvetica','normal'); doc.setFontSize(7.5); tc(201,246,250);
+        doc.text('\u00A9 Hypnotika Mente Ltd 2026  \u2022  Maria Fuentes  \u2022  mariafuentes.co.uk', pW/2, pH-5, {align:'center'});
+      }
+      function newPage() { drawFooter(); doc.addPage(); drawPageHeader(); return 28; }
+      function checkY(y, needed) { return (y+needed > pH-18) ? newPage() : y; }
+
+      function sectionBlock(y, heading, content, color) {
+        color = color || [61,133,140];
+        y = checkY(y, 18);
+        fc.apply(null, color); doc.roundedRect(mg, y, cW, 10, 2, 2, 'F');
+        doc.setFont('helvetica','bold'); doc.setFontSize(10.5); tc(255,255,255);
+        doc.text(heading, mg+5, y+7);
+        y += 13;
+        var val = (content || '').trim();
+        if (val) {
+          var lines = doc.splitTextToSize(val, cW-4);
+          var bh = lines.length * 4.8 + 8;
+          y = checkY(y, bh);
+          fc(232,247,248); doc.roundedRect(mg, y, cW, bh, 2, 2, 'F');
+          doc.setFont('helvetica','normal'); doc.setFontSize(9.5); tc(1,41,58);
+          doc.text(lines, mg+4, y+6);
+          y += bh + 6;
+        } else {
+          y = checkY(y, 14);
+          dc(200,220,225); doc.setLineWidth(0.3); doc.setDrawColor(200,220,225);
+          doc.roundedRect(mg, y, cW, 14, 2, 2, 'S');
+          doc.setFont('helvetica','italic'); doc.setFontSize(8.5); tc(180,205,210);
+          doc.text('(not completed)', mg+4, y+6);
+          y += 14 + 6;
+        }
+        return y;
+      }
+
+      function tableRow(y, col1, col2, col3) {
+        var w1=50, w2=70, w3=50;
+        y = checkY(y, 14);
+        fc(232,247,248); doc.rect(mg, y, w1, 12, 'F');
+        fc(255,255,255); doc.rect(mg+w1, y, w2, 12, 'F');
+        fc(240,250,251); doc.rect(mg+w1+w2, y, w3, 12, 'F');
+        dc(200,220,225); doc.setLineWidth(0.2); doc.setDrawColor(200,220,225);
+        doc.rect(mg, y, cW, 12, 'S');
+        doc.setFont('helvetica','normal'); doc.setFontSize(9); tc(1,41,58);
+        if (col1) { var l1=doc.splitTextToSize(col1,w1-4); doc.text(l1[0], mg+3, y+8); }
+        if (col2) { var l2=doc.splitTextToSize(col2,w2-4); doc.text(l2[0], mg+w1+3, y+8); }
+        if (col3) { var l3=doc.splitTextToSize(col3,w3-4); doc.text(l3[0], mg+w1+w2+3, y+8); }
+        return y + 13;
+      }
+
+      function gv(id) { var el=document.getElementById(id); return el ? el.value : ''; }
+
+      // BUILD
+      drawHeader();
+      var y = 60;
+
+      // Section 1: Four Circles
+      y = checkY(y, 14);
+      doc.setFont('helvetica','bold'); doc.setFontSize(13); tc(61,133,140);
+      doc.text('The Four Circles', mg, y); y += 10;
+
+      y = sectionBlock(y, 'What I Love', gv('love'));
+      y = sectionBlock(y, 'What the World Needs', gv('world'));
+      y = sectionBlock(y, 'What I Am Good At', gv('goodat'));
+      y = sectionBlock(y, 'What I Can Be Paid For', gv('paid'));
+
+      // Section 2: Overlaps
+      y = checkY(y, 14);
+      doc.setFont('helvetica','bold'); doc.setFontSize(13); tc(61,133,140);
+      doc.text('The Intersections', mg, y); y += 10;
+
+      y = sectionBlock(y, 'Passion (Love + Good At)', gv('ov-passion'), [80,110,120]);
+      y = sectionBlock(y, 'Mission (Love + World Needs)', gv('ov-mission'), [80,110,120]);
+      y = sectionBlock(y, 'Profession (Good At + Paid For)', gv('ov-profession'), [80,110,120]);
+      y = sectionBlock(y, 'Vocation (World Needs + Paid For)', gv('ov-vocation'), [80,110,120]);
+
+      // Ikigai centre
+      y = checkY(y, 18);
+      fc(1,41,58); doc.roundedRect(mg, y, cW, 12, 3, 3, 'F');
+      doc.setFont('helvetica','bold'); doc.setFontSize(12); tc(201,246,250);
+      doc.text('My Ikigai: Where All Four Circles Meet', mg+5, y+8.5); y += 15;
+      var ikVal = (gv('ov-ikigai')||'').trim();
+      if (ikVal) {
+        var ikLines = doc.splitTextToSize(ikVal, cW-4);
+        var ikH = ikLines.length*4.8+8;
+        y = checkY(y, ikH);
+        fc(232,247,248); doc.roundedRect(mg,y,cW,ikH,2,2,'F');
+        doc.setFont('helvetica','bold'); doc.setFontSize(10); tc(1,41,58);
+        doc.text(ikLines, mg+4, y+6);
+        y += ikH + 8;
+      } else {
+        y = checkY(y,14);
+        doc.setFont('helvetica','italic'); doc.setFontSize(9); tc(150,180,190);
+        doc.text('Still exploring', mg+4, y+6); y += 20;
+      }
+
+      // Section 3: Missing circle table
+      y = checkY(y, 14);
+      doc.setFont('helvetica','bold'); doc.setFontSize(13); tc(61,133,140);
+      doc.text('The Missing Circle', mg, y); y += 10;
+
+      // Table header
+      y = checkY(y, 12);
+      fc(1,41,58);
+      doc.rect(mg, y, 50, 10, 'F'); doc.rect(mg+50, y, 70, 10, 'F'); doc.rect(mg+120, y, 50, 10, 'F');
+      doc.setFont('helvetica','bold'); doc.setFontSize(8.5); tc(201,246,250);
+      doc.text('Activity / Theme', mg+3, y+7);
+      doc.text('Circles Present', mg+53, y+7);
+      doc.text('What Is Missing', mg+123, y+7);
+      y += 12;
+
+      for (var r=1; r<=4; r++) {
+        var a=gv('mt'+r+'a'), b=gv('mt'+r+'b'), c=gv('mt'+r+'c');
+        if (a||b||c) y = tableRow(y, a, b, c);
+      }
+      y += 6;
+
+      // Section 4: Addressing gaps
+      y = checkY(y, 14);
+      doc.setFont('helvetica','bold'); doc.setFontSize(13); tc(61,133,140);
+      doc.text('Addressing the Missing Circle', mg, y); y += 10;
+
+      y = sectionBlock(y, 'If I Do Not Love This Activity', gv('miss-love'), [80,110,120]);
+      y = sectionBlock(y, 'If I Do Not Feel Skilled Enough', gv('miss-skill'), [80,110,120]);
+      y = sectionBlock(y, 'If I Am Not Getting Paid for This', gv('miss-paid'), [80,110,120]);
+      y = sectionBlock(y, 'If This Is Not What the World Needs', gv('miss-world'), [80,110,120]);
+
+      // Closing
+      y = checkY(y, 30);
+      fc(1,41,58); doc.roundedRect(mg, y, cW, 24, 3, 3, 'F');
+      doc.setFont('helvetica','italic'); doc.setFontSize(10); tc(201,246,250);
+      doc.text('"Each time you return to this exercise, you will know yourself a little better than before."', pW/2, y+10, {align:'center', maxWidth:cW-10});
+      doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(150,190,195);
+      doc.text('Maria Fuentes  \u2022  Beyond Limits Made For More', pW/2, y+20, {align:'center'});
+
+      drawFooter();
+      // PRINTABLE PAGE: blank Ikigai circles
+      drawFooter(); doc.addPage();
+      // Page header
+      fc(1,41,58); doc.rect(0,0,pW,18,'F');
+      fc(61,133,140); doc.rect(0,18,pW,2,'F');
+      doc.setFont('helvetica','bold'); doc.setFontSize(11); tc(201,246,250);
+      doc.text('Discovering Your Ikigai  \u2022  Print and Fill In', pW/2, 13, {align:'center'});
+
+      // Page title
+      doc.setFont('helvetica','bold'); doc.setFontSize(16); tc(1,41,58);
+      doc.text('My Personal Ikigai Chart', pW/2, 32, {align:'center'});
+      doc.setFont('helvetica','italic'); doc.setFontSize(9.5); tc(61,133,140);
+      doc.text('Fill in each circle with your own answers. Your ikigai lives where all four meet.', pW/2, 40, {align:'center'});
+
+      // Draw the four overlapping circles using jsPDF ellipse
+      // Centres in mm on A4 (210 x 297)
+      // Top: (105, 115)  Right: (145, 168)  Bottom: (105, 220)  Left: (65, 168)
+      var cr = 52; // circle radius in mm
+      var cx0=105, cy0=115;  // top: Love
+      var cx1=148, cy1=168;  // right: World Needs
+      var cx2=105, cy2=220;  // bottom: Paid For
+      var cx3=62,  cy3=168;  // left: Good At
+
+      doc.setLineWidth(0.6);
+      dc(61,133,140); doc.setDrawColor(61,133,140);
+      doc.circle(cx0, cy0, cr, 'S');
+      dc(1,41,58); doc.setDrawColor(1,41,58);
+      doc.circle(cx1, cy1, cr, 'S');
+      dc(61,133,140); doc.setDrawColor(61,133,140);
+      doc.circle(cx2, cy2, cr, 'S');
+      dc(1,41,58); doc.setDrawColor(1,41,58);
+      doc.circle(cx3, cy3, cr, 'S');
+
+      // Labels inside each circle (non-overlapping zone)
+      doc.setFont('helvetica','bold'); doc.setFontSize(8.5);
+
+      // Top: What You Love
+      tc(1,41,58);
+      doc.text('WHAT YOU LOVE', cx0, cy0-cr+16, {align:'center'});
+
+      // Right: What the World Needs
+      doc.text('WHAT THE', cx1+cr-18, cy1-5, {align:'center'});
+      doc.text('WORLD NEEDS', cx1+cr-18, cy1+4, {align:'center'});
+
+      // Bottom: Paid For
+      doc.text('WHAT YOU CAN', cx2, cy2+cr-10, {align:'center'});
+      doc.text('BE PAID FOR', cx2, cy2+cr-1, {align:'center'});
+
+      // Left: Good At
+      doc.text('WHAT YOU', cx3-cr+18, cy3-5, {align:'center'});
+      doc.text('ARE GOOD AT', cx3-cr+18, cy3+4, {align:'center'});
+
+      // Intersection zone labels (italic, teal)
+      doc.setFont('helvetica','bolditalic'); doc.setFontSize(7.5); tc(61,133,140);
+      // Passion top-left
+      doc.text('PASSION', (cx0+cx3)/2, (cy0+cy3)/2-4, {align:'center'});
+      // Mission top-right
+      doc.text('MISSION', (cx0+cx1)/2, (cy0+cy1)/2-4, {align:'center'});
+      // Profession bottom-left
+      doc.text('PROFESSION', (cx3+cx2)/2, (cy3+cy2)/2+4, {align:'center'});
+      // Vocation bottom-right
+      doc.text('VOCATION', (cx1+cx2)/2, (cy1+cy2)/2+4, {align:'center'});
+
+      // Centre: IKIGAI circle
+      doc.setLineWidth(1); tc(201,246,250);
+      fc(1,41,58); doc.setFillColor(1,41,58);
+      doc.circle((cx0+cx1+cx2+cx3)/4, (cy0+cy1+cy2+cy3)/4, 10, 'FD');
+      doc.setFont('helvetica','bold'); doc.setFontSize(8); tc(201,246,250);
+      doc.text('IKIGAI', (cx0+cx1+cx2+cx3)/4, (cy0+cy1+cy2+cy3)/4+3, {align:'center'});
+
+      // Instruction note at bottom
+      doc.setLineWidth(0.3); dc(61,133,140); doc.setDrawColor(61,133,140);
+      doc.roundedRect(mg, 255, cW, 18, 2, 2, 'S');
+      doc.setFont('helvetica','italic'); doc.setFontSize(8.5); tc(61,133,140);
+      doc.text('Write your answers in each circle as you work through the exercise. What sits in all four circles is your ikigai.', pW/2, 265, {align:'center', maxWidth:cW-6});
+
+      doc.save('discovering-your-ikigai.pdf');
+    } catch(err) {
+      alert('There was a problem generating your PDF: ' + err.message);
+      console.error(err);
+    }
+  }
+
+  setProgress(1);
+</script>
+</body>
+</html>
