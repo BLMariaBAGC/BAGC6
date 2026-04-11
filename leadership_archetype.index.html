@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Leadership Archetype | Maria Fuentes</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+  :root { --teal:#3D858C; --navy:#01293A; --turq:#C9F6FA; --white:#FFFFFF; --cream:#FAFAF7; --light-teal:#E8F7F8; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--cream); color:var(--navy); font-family:"Inter",sans-serif; font-size:16px; line-height:1.7; }
+
+  .header { background:var(--navy); padding:36px 60px; border-bottom:4px solid var(--teal); }
+  .header-inner { max-width:900px; margin:0 auto; display:flex; align-items:center; gap:28px; }
+  .logo { width:76px; height:76px; flex-shrink:0; }
+  .logo img { width:100%; height:100%; object-fit:contain; }
+  .header h1 { font-family:"Cormorant Garamond",serif; font-size:34px; font-weight:700; color:var(--white); line-height:1.15; margin-bottom:5px; }
+  .header h1 span { color:var(--turq); }
+  .header p { font-family:"Cormorant Garamond",serif; font-size:18px; color:var(--turq); font-style:italic; }
+
+  .progress-wrap { background:var(--white); border-bottom:1px solid var(--light-teal); padding:12px 60px; position:sticky; top:0; z-index:100; box-shadow:0 2px 8px rgba(1,41,58,0.06); }
+  .progress-inner { max-width:900px; margin:0 auto; }
+  .progress-meta { display:flex; justify-content:space-between; align-items:center; margin-bottom:7px; }
+  .progress-label { font-size:12px; font-weight:600; color:var(--teal); text-transform:uppercase; letter-spacing:1.5px; }
+  .progress-count { font-size:12px; color:var(--teal); font-weight:500; }
+  .progress-bar { background:var(--light-teal); border-radius:30px; height:5px; overflow:hidden; }
+  .progress-fill { background:var(--teal); height:100%; border-radius:30px; transition:width 0.5s ease; width:0%; }
+
+  .container { max-width:900px; margin:0 auto; padding:50px 60px 80px; }
+  .view { display:none; animation:fadeIn 0.35s ease; }
+  .view.active { display:block; }
+  @keyframes fadeIn { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
+
+  .step-badge { display:inline-block; background:var(--teal); color:var(--white); font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; padding:5px 14px; border-radius:20px; margin-bottom:16px; }
+  .step-badge.stress { background:var(--navy); }
+  .step-badge.life { background:#5A8F96; }
+  .big-heading { font-family:"Cormorant Garamond",serif; font-size:36px; font-weight:700; color:var(--navy); margin-bottom:14px; line-height:1.2; }
+  .big-heading span { color:var(--teal); }
+  .body-text { font-size:15.5px; color:var(--navy); line-height:1.8; margin-bottom:16px; }
+
+  .navy-box { background:var(--navy); border-radius:12px; padding:34px 42px; margin-bottom:24px; }
+  .navy-box h2 { font-family:"Cormorant Garamond",serif; font-size:26px; font-weight:700; color:var(--white); margin-bottom:12px; }
+  .navy-box p { font-size:15px; color:rgba(255,255,255,0.85); line-height:1.78; margin-bottom:10px; }
+  .navy-box p:last-child { margin-bottom:0; }
+  .navy-box .hl { font-family:"Cormorant Garamond",serif; font-size:20px; font-style:italic; color:var(--turq); border-left:3px solid var(--teal); padding-left:16px; margin-top:16px; line-height:1.5; }
+  .callout { background:var(--light-teal); border-left:4px solid var(--teal); border-radius:0 8px 8px 0; padding:18px 24px; margin-bottom:22px; }
+  .callout p { font-size:15px; color:var(--navy); line-height:1.75; margin-bottom:0; }
+  .callout p strong { color:var(--teal); }
+
+  /* SECTION DIVIDERS IN QUIZ */
+  .q-section-head { background:var(--navy); border-radius:8px; padding:14px 20px; margin:32px 0 20px; display:flex; align-items:center; gap:14px; }
+  .q-section-head.life-head { background:#2A5C64; }
+  .q-section-head.stress-head { background:#013348; border:1px solid var(--teal); }
+  .q-section-head h4 { font-family:"Cormorant Garamond",serif; font-size:20px; font-weight:700; color:var(--white); margin-bottom:2px; }
+  .q-section-head p { font-size:13px; color:rgba(255,255,255,0.7); margin:0; }
+  .q-section-icon { font-size:22px; flex-shrink:0; }
+
+  /* QUIZ */
+  .question-card { background:var(--white); border-radius:12px; padding:28px 30px; margin-bottom:20px; box-shadow:0 2px 10px rgba(1,41,58,0.07); border-top:3px solid var(--teal); }
+  .question-card.life-q { border-top-color:#5A8F96; }
+  .question-card.stress-q { border-top-color:var(--navy); }
+  .question-card h3 { font-family:"Cormorant Garamond",serif; font-size:20px; font-weight:600; color:var(--navy); margin-bottom:18px; line-height:1.4; }
+  .q-num { font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:1.5px; margin-bottom:8px; }
+  .q-num.work { color:var(--teal); }
+  .q-num.life { color:#5A8F96; }
+  .q-num.stress { color:var(--navy); }
+  .options { display:flex; flex-direction:column; gap:8px; }
+  .option { display:flex; align-items:flex-start; gap:12px; padding:11px 15px; border:1.5px solid #D8ECEE; border-radius:8px; cursor:pointer; transition:all 0.18s ease; background:var(--cream); }
+  .option:hover { border-color:var(--teal); background:var(--light-teal); }
+  .option.selected { border-color:var(--teal); background:var(--light-teal); box-shadow:0 0 0 3px rgba(61,133,140,0.12); }
+  .option.selected .opt-letter { background:var(--navy); }
+  .opt-letter { min-width:28px; height:28px; border-radius:50%; background:var(--teal); color:var(--white); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:12px; flex-shrink:0; margin-top:2px; }
+  .opt-text { font-size:14.5px; color:var(--navy); line-height:1.6; }
+
+  /* RESULT */
+  .result-card { background:var(--navy); border-radius:12px; padding:40px; margin-bottom:28px; text-align:center; }
+  .result-card .arch-label { font-size:11px; font-weight:600; letter-spacing:2.5px; text-transform:uppercase; color:var(--turq); margin-bottom:8px; opacity:0.8; }
+  .result-card .arch-name { font-family:"Cormorant Garamond",serif; font-size:52px; font-weight:700; color:var(--white); margin-bottom:6px; line-height:1.1; }
+  .result-card .arch-tagline { font-family:"Cormorant Garamond",serif; font-size:21px; font-style:italic; color:var(--turq); margin-bottom:18px; }
+  .dual-result { background:rgba(201,246,250,0.1); border-radius:8px; padding:12px 18px; margin:10px 0 16px; }
+  .dual-result p { font-size:14px; color:rgba(255,255,255,0.8); line-height:1.6; margin:0; }
+  .score-row { display:flex; gap:7px; justify-content:center; flex-wrap:wrap; margin-top:14px; }
+  .score-pill { background:rgba(255,255,255,0.1); border-radius:20px; padding:4px 12px; font-size:12.5px; color:var(--white); }
+  .score-pill.top { background:var(--teal); font-weight:600; }
+  .score-pill.second { background:rgba(61,133,140,0.45); }
+
+  /* ARCHETYPE TABLE */
+  .arch-table { width:100%; border-collapse:collapse; margin:20px 0; font-size:14px; }
+  .arch-table th { background:var(--navy); color:var(--turq); padding:10px 14px; text-align:left; font-size:11px; letter-spacing:1px; text-transform:uppercase; }
+  .arch-table td { border:1.5px solid #D8ECEE; padding:10px 14px; vertical-align:top; line-height:1.5; }
+  .arch-table tr:nth-child(even) td { background:var(--light-teal); }
+  .arch-table .arch-name { font-family:"Cormorant Garamond",serif; font-size:17px; font-weight:700; color:var(--teal); }
+  .arch-table tr.highlight td { background:rgba(61,133,140,0.14); border-color:var(--teal); }
+  .arch-table tr.highlight .arch-name { color:var(--navy); }
+  .arch-table tr.highlight2 td { background:rgba(1,41,58,0.06); border-color:#9DC8CC; }
+
+  /* REFLECTION */
+  .reflect-panel { background:var(--white); border-radius:12px; padding:28px 30px; margin-bottom:20px; box-shadow:0 2px 10px rgba(1,41,58,0.07); }
+  .reflect-panel h3 { font-family:"Cormorant Garamond",serif; font-size:22px; font-weight:700; color:var(--teal); margin-bottom:6px; }
+  .reflect-panel .ctx { font-size:14px; color:#5A8090; line-height:1.65; margin-bottom:14px; font-style:italic; }
+  .field-label { font-size:11px; font-weight:600; color:var(--teal); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:8px; display:block; }
+  textarea { width:100%; border:1.5px solid #D8ECEE; border-radius:8px; padding:13px 15px; font-family:"Inter",sans-serif; font-size:14.5px; color:var(--navy); line-height:1.7; resize:vertical; outline:none; background:var(--cream); display:block; transition:border-color 0.2s,box-shadow 0.2s; }
+  textarea:focus { border-color:var(--teal); box-shadow:0 0 0 3px rgba(61,133,140,0.10); background:var(--white); }
+  textarea::placeholder { color:#AECDD0; font-style:italic; }
+  textarea.sm { min-height:90px; }
+  textarea.md { min-height:130px; }
+  textarea.lg { min-height:160px; }
+  input[type="text"] { width:100%; border:1.5px solid #D8ECEE; border-radius:8px; padding:11px 14px; font-family:"Inter",sans-serif; font-size:15px; color:var(--navy); background:var(--cream); outline:none; transition:border-color 0.2s; }
+  input[type="text"]:focus { border-color:var(--teal); box-shadow:0 0 0 3px rgba(61,133,140,0.10); background:var(--white); }
+  input[type="text"]::placeholder { color:#AECDD0; font-style:italic; }
+
+  /* SYNTHESIS */
+  .synthesis-card { background:var(--white); border-radius:10px; padding:24px 26px; margin-bottom:16px; box-shadow:0 1px 8px rgba(1,41,58,0.06); }
+  .synthesis-card .s-num { width:32px; height:32px; background:var(--teal); color:var(--white); border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:"Cormorant Garamond",serif; font-size:19px; font-weight:700; flex-shrink:0; margin-bottom:10px; }
+  .synthesis-card h4 { font-family:"Cormorant Garamond",serif; font-size:20px; font-weight:700; color:var(--navy); margin-bottom:5px; }
+  .synthesis-card .hint { font-size:13.5px; color:#5A8090; line-height:1.65; margin-bottom:14px; }
+
+  /* COMPLETION */
+  .completion-header { background:var(--navy); border-radius:12px; padding:44px; margin-bottom:36px; text-align:center; }
+  .completion-header h2 { font-family:"Cormorant Garamond",serif; font-size:36px; font-weight:700; color:var(--white); margin-bottom:14px; }
+  .completion-header p { font-size:16px; color:rgba(255,255,255,0.8); max-width:540px; margin:0 auto; line-height:1.75; }
+  .check-circle { width:60px; height:60px; background:var(--teal); border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 20px; font-size:26px; color:var(--white); }
+  .carry-forward { background:var(--white); border-radius:12px; padding:28px 32px; margin-bottom:28px; box-shadow:0 2px 10px rgba(1,41,58,0.06); }
+  .carry-forward h3 { font-family:"Cormorant Garamond",serif; font-size:22px; font-weight:700; color:var(--teal); margin-bottom:14px; }
+  .cf-item { display:flex; align-items:flex-start; gap:12px; padding:10px 0; border-bottom:1px solid var(--light-teal); font-size:15px; color:var(--navy); line-height:1.6; }
+  .cf-item:last-child { border-bottom:none; }
+  .cf-dot { width:8px; height:8px; background:var(--teal); border-radius:50%; flex-shrink:0; margin-top:7px; }
+
+  .dl-wrap { text-align:center; margin:40px 0 0; }
+  .dl-wrap p { font-size:13px; color:var(--teal); margin-top:10px; font-style:italic; }
+  .restart-link { display:block; text-align:center; margin-top:18px; color:var(--teal); cursor:pointer; font-size:14px; text-decoration:underline; }
+
+  .nav-buttons { display:flex; justify-content:space-between; align-items:center; margin-top:40px; gap:16px; }
+  .btn { padding:14px 32px; border-radius:8px; font-size:15px; font-weight:600; cursor:pointer; border:none; font-family:"Inter",sans-serif; transition:all 0.2s ease; }
+  .btn-primary { background:var(--teal); color:var(--white); }
+  .btn-primary:hover { background:var(--navy); transform:translateY(-2px); box-shadow:0 6px 20px rgba(1,41,58,0.2); }
+  .btn-primary:disabled { background:#aaa; cursor:not-allowed; transform:none; box-shadow:none; }
+  .btn-secondary { background:transparent; color:var(--teal); border:2px solid var(--teal); }
+  .btn-secondary:hover { background:var(--teal); color:var(--white); }
+  .btn-large { padding:16px 42px; font-size:16px; }
+  .answered-count { font-size:13px; color:var(--teal); font-style:italic; text-align:right; margin-top:10px; }
+
+  .footer { background:var(--navy); color:rgba(255,255,255,0.45); text-align:center; padding:18px; font-size:12px; margin-top:60px; }
+  @media(max-width:680px){ .header{padding:26px 22px;} .container{padding:36px 22px 60px;} .progress-wrap{padding:10px 22px;} .header h1{font-size:24px;} }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <div class="logo"><img id="site-logo" src="data:image/png;base64,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" alt="Maria Fuentes Logo"></div>
+    <div>
+      <h1>Your Leadership <span>Archetype</span></h1>
+      <p>Identity Awareness Exercise 3</p>
+    </div>
+  </div>
+</div>
+
+<div class="progress-wrap">
+  <div class="progress-inner">
+    <div class="progress-meta">
+      <span class="progress-label" id="progress-label">Introduction</span>
+      <span class="progress-count" id="progress-count"></span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- V1: INTRO -->
+  <div class="view active" id="v1">
+    <div class="navy-box">
+      <h2>Why the RAS Hides Who You Are</h2>
+      <p>When self-doubt takes hold, your Reticular Activating System begins filtering reality to match the negative story you are telling about yourself. It screens out your achievements, your capabilities, and evidence of who you actually are, and amplifies everything that confirms the doubt. Over time, your real self becomes harder to access, not because it has gone, but because the brain has stopped flagging it as relevant.</p>
+      <p>The identity exercises this week exist to reverse that process, to bring your real self back to the surface and make it visible again. Your achievements, your strengths, and your values have not disappeared. They have simply been filtered out.</p>
+      <div class="hl">This archetype exercise adds a further layer. It shows you the role your psyche has been defaulting to, often as a protective response, so you can distinguish between who you have been performing under pressure, and who you actually are.</div>
+    </div>
+    <div class="callout"><p>The questionnaire has <strong>12 questions</strong> across three sections: how you operate at work, how you show up in life and relationships, and how you behave under sustained pressure. Answer based on how you actually behave, not how you would like to behave. The most useful answer is the most honest one.</p></div>
+    <p class="body-text">The combination of all three sections gives you a result grounded in the whole person, not just the professional role. Your dominant archetype and your stress pattern may be different from each other. Both are worth knowing.</p>
+    <div class="nav-buttons"><span></span><button class="btn btn-primary btn-large" onclick="go(2)">Begin the Questionnaire &rarr;</button></div>
+  </div>
+
+  <!-- V2: QUIZ -->
+  <div class="view" id="v2">
+    <div class="step-badge">Part 1 of 5: Find Your Archetype</div>
+    <div class="big-heading">12 Questions</div>
+    <p class="body-text">Select one answer per question. Answer the first one that rings true, rather than deliberating too long. Your instinct is usually right.</p>
+    <div id="quiz-container"></div>
+    <div class="answered-count" id="answered-count">0 of 12 answered</div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(1)">Back</button>
+      <button class="btn btn-primary btn-large" id="btn-score" onclick="scoreQuiz()" disabled>See My Archetype &rarr;</button>
+    </div>
+  </div>
+
+  <!-- V3: RESULT + TABLE -->
+  <div class="view" id="v3">
+    <div class="step-badge">Your Result</div>
+    <div class="big-heading">Your Dominant <span>Archetype</span></div>
+    <div id="result-display"></div>
+    <div class="step-badge" style="margin-top:32px;">Part 2 of 5: The Eight Archetypes</div>
+    <div class="big-heading" style="font-size:28px;margin-top:12px;">All Eight Archetypes Explained</div>
+    <p class="body-text">Read through each archetype. Notice which ones feel familiar, not necessarily flattering, but true. Your dominant archetype is highlighted. Your stress pattern, if different, is also marked.</p>
+    <table class="arch-table" id="arch-table">
+      <tr><th>Archetype</th><th>Core Drive</th><th>Shadow Side</th><th>In Executive Context</th></tr>
+      <tr data-arch="A"><td class="arch-name">The Ruler</td><td>Control, order, authority</td><td>Rigidity, fear of losing status</td><td>Holds power well, may struggle to delegate</td></tr>
+      <tr data-arch="B"><td class="arch-name">The Hero</td><td>Achievement, proving worth</td><td>Burnout, needing to be needed</td><td>High performer, may avoid showing vulnerability</td></tr>
+      <tr data-arch="C"><td class="arch-name">The Caregiver</td><td>Support, loyalty, nurturing</td><td>Over-giving, resentment, poor boundaries</td><td>Trusted mentor, may neglect own needs</td></tr>
+      <tr data-arch="D"><td class="arch-name">The Sage</td><td>Knowledge, truth, expertise</td><td>Analysis paralysis, detachment</td><td>Strategic thinker, may overintellectualise decisions</td></tr>
+      <tr data-arch="E"><td class="arch-name">The Rebel</td><td>Change, disruption, freedom</td><td>Reactive conflict, self-sabotage</td><td>Innovative force, may resist structure</td></tr>
+      <tr data-arch="F"><td class="arch-name">The Creator</td><td>Vision, originality, building</td><td>Perfectionism, unfinished projects</td><td>Visionary leader, may struggle with execution</td></tr>
+      <tr data-arch="G"><td class="arch-name">The Jester</td><td>Joy, connection, lightness</td><td>Avoidance, not being taken seriously</td><td>Energises teams, may deflect from hard conversations</td></tr>
+      <tr data-arch="H"><td class="arch-name">The Innocent</td><td>Safety, optimism, trust</td><td>Naivety, avoidance of complexity</td><td>Brings fresh perspective, may avoid difficult truths</td></tr>
+    </table>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(2)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(4)">Identify Your Primary Archetype &rarr;</button>
+    </div>
+  </div>
+
+  <!-- V4: PARTS 3 AND 4 -->
+  <div class="view" id="v4">
+    <div class="step-badge">Part 3 of 5: Your Primary Archetype</div>
+    <div class="big-heading">Identifying Your Archetype</div>
+    <p class="body-text">Based on your score and the table, confirm which archetype resonates most strongly as your default. Write what you notice, not what sounds good.</p>
+    <div class="reflect-panel">
+      <h3>My Primary Archetype</h3>
+      <div class="ctx">Based on the result and reading the full table, which archetype feels most true?</div>
+      <label class="field-label" for="p3-primary">My primary archetype is:</label>
+      <input type="text" id="p3-primary" placeholder="e.g. The Hero">
+      <label class="field-label" style="margin-top:14px;" for="p3-why">What makes you recognise it as yours?</label>
+      <textarea id="p3-why" class="md" placeholder="Write what you notice, not what sounds good..."></textarea>
+    </div>
+    <div class="reflect-panel">
+      <h3>My Stress Archetype</h3>
+      <div class="ctx">The questionnaire asked directly about your behaviour under pressure. Does your stress pattern match your dominant archetype, or does a different one emerge when you are pushed?</div>
+      <label class="field-label" for="p3-stress">Under pressure, I tend to become:</label>
+      <input type="text" id="p3-stress" placeholder="e.g. The Ruler">
+      <label class="field-label" style="margin-top:14px;" for="p3-when">When does this pattern tend to activate?</label>
+      <textarea id="p3-when" class="sm" placeholder="Describe the conditions or triggers that bring this pattern out..."></textarea>
+    </div>
+    <div class="step-badge" style="margin-top:32px;">Part 4 of 5: The Shadow Side</div>
+    <div class="big-heading" style="font-size:28px;margin-top:12px;">Meeting the Shadow</div>
+    <div class="callout"><p><strong>The shadow is not the bad version of you.</strong> It is the part that developed to keep you safe, and has been running the show longer than you realised. Look at the shadow column next to your primary archetype. Where have you seen this pattern show up in the last six months?</p></div>
+    <div class="reflect-panel">
+      <h3>Where Has the Shadow Pattern Shown Up?</h3>
+      <div class="ctx">Reflect on the last six months. Be specific and honest. Include both work and personal contexts if relevant.</div>
+      <textarea id="p4-shadow" class="lg" placeholder="Write specific situations where you can see the shadow side operating..."></textarea>
+    </div>
+    <div class="reflect-panel">
+      <h3>What Did It Cost You, or the People Around You?</h3>
+      <div class="ctx">Consider the impact on your relationships, your results, and your sense of self.</div>
+      <textarea id="p4-cost" class="md" placeholder="Write the cost, however uncomfortable that is to acknowledge..."></textarea>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(3)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(5)">The Leader You Are Choosing to Be &rarr;</button>
+    </div>
+  </div>
+
+  <!-- V5: PART 5 + SYNTHESIS -->
+  <div class="view" id="v5">
+    <div class="step-badge">Part 5 of 5: Choosing Intentionally</div>
+    <div class="big-heading">The Leader You Are <span>Choosing to Be</span></div>
+    <p class="body-text">Your archetype is a default, not a destiny. This question asks you to move from recognition to intention.</p>
+    <div class="callout"><p>What does the most effective version of your archetype look like in practice? The Hero without the need for applause. The Ruler without the fear of losing control. The Caregiver who gives fully without losing themselves.</p></div>
+    <div class="reflect-panel">
+      <h3>The Most Effective Version of My Archetype</h3>
+      <div class="ctx">Describe this with specific behaviours, not ideals.</div>
+      <textarea id="p5-best" class="md" placeholder="e.g. The Hero who delivers without needing recognition. Who asks for help before the pressure becomes unsustainable..."></textarea>
+    </div>
+    <div class="reflect-panel">
+      <h3>One Specific Behaviour I Will Choose Differently This Week</h3>
+      <div class="ctx">One behaviour. Specific. Observable. This week.</div>
+      <textarea id="p5-behaviour" class="sm" placeholder="Write one concrete behaviour you will do differently, based on what you have seen here..."></textarea>
+    </div>
+    <div class="step-badge" style="margin-top:36px;">Synthesis: Connecting the Week 2 Exercises</div>
+    <div class="big-heading" style="font-size:28px;margin-top:12px;">Drawing the Threads Together</div>
+    <p class="body-text">Use the three questions below to draw together the threads from all three exercises this week.</p>
+    <div class="synthesis-card">
+      <div class="s-num">1</div>
+      <h4>How does your internal identity align with your archetype?</h4>
+      <div class="hint">Consider where your sense of self and your default archetype reinforce each other, and where they pull in different directions.</div>
+      <textarea id="syn-1" class="md" placeholder="Write your reflection here..."></textarea>
+    </div>
+    <div class="synthesis-card">
+      <div class="s-num">2</div>
+      <h4>How does the external perception others hold relate to your shadow side?</h4>
+      <div class="hint">Look at the feedback or perceptions from Exercise 2. Can you see your shadow side reflected in how others experience you?</div>
+      <textarea id="syn-2" class="md" placeholder="Write your reflection here..."></textarea>
+    </div>
+    <div class="synthesis-card">
+      <div class="s-num">3</div>
+      <h4>Where is there a gap, and what does that gap tell you?</h4>
+      <div class="hint">Where is there a gap between who you are internally, how others see you, and the archetype you are defaulting to?</div>
+      <textarea id="syn-3" class="md" placeholder="Write your reflection here..."></textarea>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(4)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(6)">Complete the Exercise &rarr;</button>
+    </div>
+  </div>
+
+  <!-- V6: COMPLETION -->
+  <div class="view" id="v6">
+    <div class="completion-header">
+      <div class="check-circle">&#10003;</div>
+      <h2>Recognition Is the First Step</h2>
+      <p>Intention is what follows. You have done both here.</p>
+    </div>
+    <div class="navy-box">
+      <h2>Why This Work Matters</h2>
+      <p>Your archetype is a default, not a destiny. The identity exercises this week exist to bring your real self back to the surface and make it visible again. Your achievements, your strengths, and your values have not disappeared. They have simply been filtered out.</p>
+      <div class="hl">This exercise shows you the role your psyche has been defaulting to, often as a protective response, so you can distinguish between who you have been performing under pressure, and who you actually are.</div>
+    </div>
+    <div class="carry-forward">
+      <h3>What to Carry Forward</h3>
+      <div class="cf-item"><div class="cf-dot"></div><span>Name your dominant archetype and own it honestly.</span></div>
+      <div class="cf-item"><div class="cf-dot"></div><span>Notice where your stress pattern differs from your default, that gap is where the work lives.</span></div>
+      <div class="cf-item"><div class="cf-dot"></div><span>Acknowledge where the shadow side has shown up in the last six months.</span></div>
+      <div class="cf-item"><div class="cf-dot"></div><span>Choose one specific behaviour to do differently this week.</span></div>
+      <div class="cf-item"><div class="cf-dot"></div><span>Connect the threads across all three Week 2 exercises.</span></div>
+    </div>
+    <div class="dl-wrap">
+      <button class="btn btn-primary btn-large" onclick="downloadPDF()">&#8595;&nbsp; Download My Archetype Exercise as PDF</button>
+      <p>Save a copy to bring to your next session.</p>
+    </div>
+    <span class="restart-link" onclick="restartEx()">Start the exercise again</span>
+  </div>
+
+</div>
+
+<div class="footer">
+  Maria Fuentes &nbsp;|&nbsp; mariafuentes.co.uk &nbsp;|&nbsp; &copy; Hypnotika Mente Ltd 2026
+</div>
+<script>
+  var TOTAL = 6;
+  var labels = ['Introduction','The Questionnaire','Your Result','Parts 3 and 4','Part 5 and Synthesis','Complete'];
+  var counts = ['','12 Questions','','Identity and Shadow','Intention and Synthesis',''];
+  var answers = {};
+  var dominantArch = '';
+  var stressArch = '';
+
+  var archetypes = {
+    A:{name:'The Ruler',    tagline:'Control, order, authority'},
+    B:{name:'The Hero',     tagline:'Achievement, proving worth'},
+    C:{name:'The Caregiver',tagline:'Support, loyalty, nurturing'},
+    D:{name:'The Sage',     tagline:'Knowledge, truth, expertise'},
+    E:{name:'The Rebel',    tagline:'Change, disruption, freedom'},
+    F:{name:'The Creator',  tagline:'Vision, originality, building'},
+    G:{name:'The Jester',   tagline:'Joy, connection, lightness'},
+    H:{name:'The Innocent', tagline:'Safety, optimism, trust'}
+  };
+
+  // 12 questions: 6 work, 3 life, 3 stress
+  var questions = [
+    // WORK CONTEXT (6)
+    {type:'work', text:'When a major decision needs to be made at work, your instinct is to:', opts:[
+      ['A','Take charge and make the call. You need things moving forward.'],
+      ['B','Push hard to find the best possible solution, whatever it takes.'],
+      ['C','Make sure everyone affected has been considered and supported.'],
+      ['D','Gather as much information as possible before committing.'],
+      ['E','Challenge whether the decision itself is the right one to be making.'],
+      ['F','Envision what this could become and work backwards from there.'],
+      ['G','Lighten the tension and help the group think more clearly.'],
+      ['H','Trust that the right answer will emerge if you stay open.']
+    ]},
+    {type:'work', text:'When you feel most alive and engaged at work, it is usually because:', opts:[
+      ['A','You are the one driving outcomes and others are following your lead.'],
+      ['B','You have overcome something difficult and delivered results under pressure.'],
+      ['C','Someone you supported has grown or succeeded because of your input.'],
+      ['D','You have used deep insight to solve a problem others could not crack.'],
+      ['E','You challenged the status quo and something genuinely shifted.'],
+      ['F','You are building something that did not exist before.'],
+      ['G','The energy in the room is high and people are genuinely enjoying the work.'],
+      ['H','Things are running smoothly and the environment feels safe and positive.']
+    ]},
+    {type:'work', text:'The feedback you most commonly receive from colleagues or direct reports is:', opts:[
+      ['A','You can be difficult to disagree with, or too focused on being in control.'],
+      ['B','You set an impossibly high bar, for yourself and sometimes for others.'],
+      ['C','You give too much and do not ask for enough in return.'],
+      ['D','You overthink things and can be hard to pin down to a decision.'],
+      ['E','You are brilliant but unpredictable, people are not always sure where they stand.'],
+      ['F','Your ideas are great but you do not always follow through.'],
+      ['G','It can be hard to know when you are being serious.'],
+      ['H','You avoid conflict and sometimes let things go that needed addressing.']
+    ]},
+    {type:'work', text:'When there is open conflict or tension in your team or organisation, you tend to:', opts:[
+      ['A','Step in and take control of the situation to restore order.'],
+      ['B','Push through it. Conflict slows things down and you need results.'],
+      ['C','Work hard to smooth things over and make sure everyone feels heard.'],
+      ['D','Analyse what caused it and present a rational solution.'],
+      ['E','Welcome the tension. It often means something important is being exposed.'],
+      ['F','Reframe the conflict as an opportunity to build something better.'],
+      ['G','Use lightness or humour to defuse the atmosphere.'],
+      ['H','Hope it resolves itself and feel uncomfortable until it does.']
+    ]},
+    {type:'work', text:'When you picture what real professional success looks like for you, it is:', opts:[
+      ['A','Being the person others look to when things need to get done. Respected, in command.'],
+      ['B','Having proved what you are capable of, especially when the stakes were highest.'],
+      ['C','Knowing the people around you are thriving, in part because of your contribution.'],
+      ['D','Being recognised as someone who truly understands their field at the deepest level.'],
+      ['E','Having changed something that needed changing, regardless of how uncomfortable that was.'],
+      ['F','Leaving behind something original. A body of work, a business, a vision made real.'],
+      ['G','Being the kind of leader people genuinely enjoy working with and remember fondly.'],
+      ['H','Having a career that feels safe, purposeful, and free from unnecessary drama.']
+    ]},
+    {type:'work', text:'When your work is criticised or a project fails, your first internal response is usually:', opts:[
+      ['A','Frustration that control slipped, and a strong need to understand exactly what went wrong.'],
+      ['B','A deep sense of having let yourself down, and an urge to fix it immediately.'],
+      ['C','Concern about how others on the team are feeling, often before yourself.'],
+      ['D','A need to analyse every detail before you can accept or move on from the outcome.'],
+      ['E','Anger at the system, the process, or whoever failed to listen when it mattered.'],
+      ['F','A sense that the vision was right even if the execution was not, and a desire to restart.'],
+      ['G','A need to lighten the atmosphere and reassure those around you before dealing with it yourself.'],
+      ['H','Discomfort and a strong preference that the conversation does not happen at all.']
+    ]},
+
+    // LIFE AND RELATIONSHIPS (3)
+    {type:'life', text:'In your closest personal relationships, the role you tend to play is:', opts:[
+      ['A','The one who holds things together, makes decisions, and keeps the household or family moving.'],
+      ['B','The one who pushes through, achieves, and sometimes forgets to just be present.'],
+      ['C','The one people come to when they need support, a listening ear, or unconditional care.'],
+      ['D','The one others describe as thoughtful, measured, and occasionally hard to read emotionally.'],
+      ['E','The one who says the thing nobody else will say, even when it causes friction.'],
+      ['F','The one with the ideas, the plans, and the restless need to create or build something new.'],
+      ['G','The one who keeps the energy light, the laughter going, and the connection warm.'],
+      ['H','The one who avoids drama at almost any cost, and values peace above nearly everything.']
+    ]},
+    {type:'life', text:'When you have genuine free time with no obligations, you most naturally gravitate towards:', opts:[
+      ['A','Organising, planning, or taking charge of something, even if it is leisure.'],
+      ['B','Physical challenge, competition, or something that gives you a sense of accomplishment.'],
+      ['C','Spending time with people you love or doing something meaningful for someone else.'],
+      ['D','Reading, researching, learning, or losing yourself in something that expands your thinking.'],
+      ['E','Exploring, pushing limits, or doing something outside of your normal structure.'],
+      ['F','Creating, making, or developing an idea that has been living in your mind.'],
+      ['G','Socialising, laughing, and making sure the people around you are having a good time.'],
+      ['H','Resting, recharging, and being somewhere that feels genuinely safe and calm.']
+    ]},
+    {type:'life', text:'When you reflect honestly on what you find yourself secretly resenting or craving outside of work, it is most often:', opts:[
+      ['A','Resenting anyone who tries to undermine your authority or override your decisions.'],
+      ['B','Craving recognition for how hard you work, and resenting that it is rarely enough.'],
+      ['C','Resenting how little others reciprocate the care you give, and craving to be looked after too.'],
+      ['D','Craving more time to think deeply, and resenting being rushed to conclusions.'],
+      ['E','Resenting systems, rules, or people that keep things the same when they obviously need to change.'],
+      ['F','Craving the space and support to actually finish the things you start.'],
+      ['G','Craving genuine depth in your relationships, and resenting when lightness is all that is expected of you.'],
+      ['H','Craving stability and resenting the energy it takes to navigate unpredictability.']
+    ]},
+
+    // UNDER PRESSURE (3)
+    {type:'stress', text:'When you are under sustained pressure over weeks or months, the behaviour that most often emerges in you is:', opts:[
+      ['A','Becoming more controlling, micromanaging, and finding it almost impossible to delegate.'],
+      ['B','Pushing harder, taking on more, refusing to show you are struggling, and burning out quietly.'],
+      ['C','Putting everyone else\'s needs before your own until you have nothing left and then collapsing.'],
+      ['D','Withdrawing into analysis, going very quiet, and struggling to act until you feel completely certain.'],
+      ['E','Becoming reactive, confrontational, or self-destructive in ways you later regret.'],
+      ['F','Getting lost in ideas and new directions, losing track of what actually needs to be executed.'],
+      ['G','Using humour or deflection to avoid conversations that genuinely need to happen.'],
+      ['H','Going very still, avoiding anything complex, and hoping that time will resolve the situation.']
+    ]},
+    {type:'stress', text:'When you feel cornered or like you are failing, the thought that tends to drive your behaviour is:', opts:[
+      ['A','If I lose control of this, everything will fall apart.'],
+      ['B','I cannot let anyone see that I am struggling. I have to fix this myself.'],
+      ['C','Everyone is suffering and it is my job to absorb it so they do not have to.'],
+      ['D','I cannot act until I fully understand what is happening. I need more information.'],
+      ['E','This system is broken and nobody is listening. I will break it myself if I have to.'],
+      ['F','If only they could see the bigger picture, none of this would matter.'],
+      ['G','If I can just keep the mood light, we will get through this.'],
+      ['H','If I stay very still and do not make it worse, it will pass.']
+    ]},
+    {type:'stress', text:'After a period of intense pressure, what you most need in order to recover is:', opts:[
+      ['A','To reassert control over your environment, your schedule, or your decisions.'],
+      ['B','Proof that your effort made a difference. Results, recognition, or measurable progress.'],
+      ['C','To know that the people you care about are okay. Connection before self.'],
+      ['D','Solitude, silence, and time to process everything that happened without interruption.'],
+      ['E','Freedom. Space from rules, expectations, and the weight of other people\'s agendas.'],
+      ['F','A new idea, a fresh start, or a project that lets you build something instead of defend something.'],
+      ['G','Laughter, warmth, and time with people who make the world feel less heavy.'],
+      ['H','Safety. The knowledge that no more demands are coming for a while.']
+    ]}
+  ];
+
+  function setProgress(n) {
+    var pct = ((n-1)/(TOTAL-1))*100;
+    document.getElementById('progress-fill').style.width = pct+'%';
+    document.getElementById('progress-label').textContent = labels[n-1]||'';
+    document.getElementById('progress-count').textContent = counts[n-1]||'';
+  }
+
+  function go(n) {
+    document.querySelectorAll('.view').forEach(function(v){ v.classList.remove('active'); });
+    var el = document.getElementById('v'+n);
+    el.classList.add('active');
+    el.scrollIntoView({behavior:'smooth',block:'start'});
+    setProgress(n);
+  }
+
+  function buildQuiz() {
+    var c = document.getElementById('quiz-container');
+    var lastType = '';
+    questions.forEach(function(q, qi) {
+      if (q.type !== lastType) {
+        var div = document.createElement('div');
+        div.className = 'q-section-head' + (q.type==='life' ? ' life-head' : q.type==='stress' ? ' stress-head' : '');
+        var icon = q.type==='work' ? '&#128188;' : q.type==='life' ? '&#127968;' : '&#9889;';
+        var title = q.type==='work' ? 'Work Context' : q.type==='life' ? 'Life and Relationships' : 'Under Pressure';
+        var sub = q.type==='work' ? 'How you operate professionally' : q.type==='life' ? 'How you show up outside of work' : 'How you behave under sustained pressure';
+        div.innerHTML = '<div class="q-section-icon">'+icon+'</div><div><h4>'+title+'</h4><p>'+sub+'</p></div>';
+        c.appendChild(div);
+        lastType = q.type;
+      }
+      var card = document.createElement('div');
+      card.className = 'question-card ' + q.type + '-q';
+      var numLabel = qi < 6 ? 'Work Question ' + (qi+1) + ' of 6' : qi < 9 ? 'Life Question ' + (qi-5) + ' of 3' : 'Pressure Question ' + (qi-8) + ' of 3';
+      var numClass = q.type === 'work' ? 'work' : q.type === 'life' ? 'life' : 'stress';
+      var html = '<div class="q-num '+numClass+'">'+numLabel+'</div>';
+      html += '<h3>'+q.text+'</h3><div class="options">';
+      q.opts.forEach(function(opt){
+        html += '<div class="option" onclick="selectOpt(this,'+qi+',\''+opt[0]+'\')"><div class="opt-letter">'+opt[0]+'</div><div class="opt-text">'+opt[1]+'</div></div>';
+      });
+      html += '</div>';
+      card.innerHTML = html;
+      c.appendChild(card);
+    });
+  }
+
+  function selectOpt(el, qi, letter) {
+    el.closest('.question-card').querySelectorAll('.option').forEach(function(o){ o.classList.remove('selected'); });
+    el.classList.add('selected');
+    answers[qi] = letter;
+    var n = Object.keys(answers).length;
+    document.getElementById('answered-count').textContent = n + ' of 12 answered';
+    document.getElementById('btn-score').disabled = n < 12;
+  }
+
+  function scoreQuiz() {
+    // Score all 12 questions for dominant archetype
+    var total = {A:0,B:0,C:0,D:0,E:0,F:0,G:0,H:0};
+    // Score work+life questions (0-8) for dominant
+    var workLife = {A:0,B:0,C:0,D:0,E:0,F:0,G:0,H:0};
+    // Score stress questions (9-11) separately
+    var stress = {A:0,B:0,C:0,D:0,E:0,F:0,G:0,H:0};
+
+    for (var i=0; i<12; i++) {
+      var l = answers[i];
+      if (l) {
+        total[l]++;
+        if (i < 9) workLife[l]++;
+        else stress[l]++;
+      }
+    }
+
+    // Dominant from work+life
+    var topScore = 0; var topLetters = [];
+    Object.keys(workLife).forEach(function(l){
+      if (workLife[l] > topScore) { topScore = workLife[l]; topLetters = [l]; }
+      else if (workLife[l] === topScore && workLife[l] > 0) topLetters.push(l);
+    });
+    dominantArch = topLetters[0];
+
+    // Stress pattern from stress questions
+    var stressTop = 0; var stressLetters = [];
+    Object.keys(stress).forEach(function(l){
+      if (stress[l] > stressTop) { stressTop = stress[l]; stressLetters = [l]; }
+      else if (stress[l] === stressTop && stress[l] > 0) stressLetters.push(l);
+    });
+    stressArch = stressLetters[0] || dominantArch;
+
+    // Build result display
+    var arch = archetypes[dominantArch];
+    var sArch = archetypes[stressArch];
+    var html = '<div class="result-card">';
+    html += '<div class="arch-label">Your Dominant Archetype</div>';
+    html += '<div class="arch-name">' + arch.name + '</div>';
+    html += '<div class="arch-tagline">' + arch.tagline + '</div>';
+    if (stressArch !== dominantArch) {
+      html += '<div class="dual-result"><p><strong style="color:var(--turq);">Under pressure you shift towards: ' + sArch.name + '</strong><br>This is your stress pattern. It may look different from your default archetype, and that distinction is exactly what this exercise is here to surface.</p></div>';
+    } else {
+      html += '<div class="dual-result"><p>Your stress pattern aligns with your dominant archetype. The shadow side of ' + arch.name + ' is likely to intensify, rather than shift, under pressure.</p></div>';
+    }
+    if (topLetters.length > 1) {
+      html += '<p style="color:rgba(255,255,255,0.65);font-size:13px;margin-top:6px;">You scored equally across ' + topLetters.join(' and ') + '. Both patterns are active. Notice which feels more true in your daily default.</p>';
+    }
+    html += '<div class="score-row">';
+    ['A','B','C','D','E','F','G','H'].forEach(function(l){
+      var cls = l===dominantArch ? ' top' : (l===stressArch && stressArch!==dominantArch ? ' second' : '');
+      html += '<div class="score-pill'+cls+'">'+archetypes[l].name.replace('The ','')+': '+total[l]+'</div>';
+    });
+    html += '</div></div>';
+    document.getElementById('result-display').innerHTML = html;
+
+    // Highlight table
+    document.querySelectorAll('.arch-table tr[data-arch]').forEach(function(row){
+      row.classList.remove('highlight','highlight2');
+      var a = row.getAttribute('data-arch');
+      if (a===dominantArch) row.classList.add('highlight');
+      else if (a===stressArch && stressArch!==dominantArch) row.classList.add('highlight2');
+    });
+
+    // Pre-fill fields
+    var pf = document.getElementById('p3-primary');
+    if (pf && !pf.value) pf.value = arch.name;
+    var sf = document.getElementById('p3-stress');
+    if (sf && !sf.value) sf.value = sArch.name;
+
+    go(3);
+  }
+
+  function gv(id){ var e=document.getElementById(id); return e?(e.value||'').trim():''; }
+
+  function restartEx() {
+    answers={}; dominantArch=''; stressArch='';
+    document.querySelectorAll('textarea').forEach(function(t){ t.value=''; });
+    document.querySelectorAll('input[type="text"]').forEach(function(i){ i.value=''; });
+    document.querySelectorAll('.option').forEach(function(o){ o.classList.remove('selected'); });
+    document.getElementById('btn-score').disabled=true;
+    document.getElementById('answered-count').textContent='0 of 12 answered';
+    document.getElementById('result-display').innerHTML='';
+    go(1); window.scrollTo({top:0,behavior:'smooth'});
+  }
+
+  function downloadPDF() {
+    try {
+      var jsPDFLib = (window.jspdf && window.jspdf.jsPDF) || window.jsPDF;
+      if (!jsPDFLib) { alert('PDF library not loaded. Please check your internet connection and try again.'); return; }
+      var doc = new jsPDFLib({ unit:'mm', format:'a4' });
+      var pW=210, pH=297, mg=20, cW=170;
+      var logoData = document.getElementById('site-logo').src;
+
+      function fc(r,g,b){ doc.setFillColor(r,g,b); }
+      function tc(r,g,b){ doc.setTextColor(r,g,b); }
+      function dc(r,g,b){ doc.setDrawColor(r,g,b); }
+
+      function drawHeader() {
+        fc(1,41,58); doc.rect(0,0,pW,50,'F');
+        fc(61,133,140); doc.rect(0,50,pW,2.5,'F');
+        try { doc.addImage(logoData,'PNG',mg,10,28,28); } catch(e){}
+        doc.setFont('helvetica','bold'); doc.setFontSize(20); tc(255,255,255);
+        doc.text('Your Leadership Archetype', mg+34, 25);
+        doc.setFont('helvetica','italic'); doc.setFontSize(10); tc(201,246,250);
+        doc.text('Identity Awareness Exercise 3  \u2022  Week 2', mg+34, 34);
+        doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(150,190,195);
+        doc.text('mariafuentes.co.uk', pW-mg, 46, {align:'right'});
+      }
+      function drawPageHeader() {
+        fc(1,41,58); doc.rect(0,0,pW,18,'F');
+        fc(61,133,140); doc.rect(0,18,pW,2,'F');
+        doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(201,246,250);
+        doc.text('Your Leadership Archetype  \u2022  Maria Fuentes', mg, 13);
+        doc.setFont('helvetica','normal'); tc(150,190,195);
+        doc.text('mariafuentes.co.uk', pW-mg, 13, {align:'right'});
+      }
+      function drawFooter() {
+        fc(1,41,58); doc.rect(0,pH-12,pW,12,'F');
+        doc.setFont('helvetica','normal'); doc.setFontSize(7.5); tc(201,246,250);
+        doc.text('\u00A9 Hypnotika Mente Ltd 2026  \u2022  Maria Fuentes  \u2022  mariafuentes.co.uk', pW/2, pH-5, {align:'center'});
+      }
+      function newPage() { drawFooter(); doc.addPage(); drawPageHeader(); return 28; }
+      function checkY(y, needed) { return (y+needed>pH-18)?newPage():y; }
+
+      function sHead(y, label) {
+        y = checkY(y, 14);
+        fc(1,41,58); doc.rect(mg,y,cW,12,'F');
+        fc(61,133,140); doc.rect(mg,y,4,12,'F');
+        doc.setFont('helvetica','bold'); doc.setFontSize(12); tc(201,246,250);
+        doc.text(label, mg+8, y+8.5); return y+18;
+      }
+
+      function wBlock(y, heading, value) {
+        y = checkY(y, 12);
+        doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(61,133,140);
+        doc.text(heading.toUpperCase(), mg, y); y+=5;
+        var val=(value||'').trim();
+        if (val) {
+          var lines=doc.splitTextToSize(val,cW-6);
+          var bh=lines.length*4.8+8; y=checkY(y,bh);
+          fc(232,247,248); doc.roundedRect(mg,y,cW,bh,2,2,'F');
+          doc.setFont('helvetica','normal'); doc.setFontSize(9.5); tc(1,41,58);
+          doc.text(lines,mg+4,y+6); y+=bh+6;
+        } else {
+          y=checkY(y,10); dc(200,220,225); doc.setLineWidth(0.2); doc.setDrawColor(200,220,225);
+          doc.roundedRect(mg,y,cW,10,1.5,1.5,'S');
+          doc.setFont('helvetica','italic'); doc.setFontSize(8); tc(185,205,210);
+          doc.text('(not completed)',mg+3,y+4); y+=10+5;
+        }
+        return y;
+      }
+
+      drawHeader();
+      var y = 60;
+      var arch = archetypes[dominantArch]||{name:'Not scored',tagline:''};
+      var sArch = archetypes[stressArch]||arch;
+
+      // Result block
+      fc(1,41,58); doc.roundedRect(mg,y,cW,dominantArch!==stressArch?36:26,3,3,'F');
+      doc.setFont('helvetica','normal'); doc.setFontSize(9); tc(201,246,250);
+      doc.text('DOMINANT ARCHETYPE', pW/2, y+7, {align:'center'});
+      doc.setFont('helvetica','bold'); doc.setFontSize(22); tc(255,255,255);
+      doc.text(arch.name, pW/2, y+17, {align:'center'});
+      doc.setFont('helvetica','italic'); doc.setFontSize(10); tc(201,246,250);
+      doc.text(arch.tagline, pW/2, y+25, {align:'center'});
+      if (dominantArch!==stressArch) {
+        doc.setFont('helvetica','normal'); doc.setFontSize(9); tc(201,246,250);
+        doc.text('Stress Pattern: ' + sArch.name + '  (' + sArch.tagline + ')', pW/2, y+33, {align:'center'});
+        y+=44;
+      } else { y+=34; }
+
+      // Score summary
+      y = checkY(y, 10);
+      var total2={A:0,B:0,C:0,D:0,E:0,F:0,G:0,H:0};
+      Object.values(answers).forEach(function(l){ if(total2[l]!==undefined) total2[l]++; });
+      doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(100,140,148);
+      var ss = ['A','B','C','D','E','F','G','H'].map(function(l){ return archetypes[l].name.replace('The ','')+':'+total2[l]; }).join('  ');
+      doc.text(ss, mg, y); y+=8;
+
+      y = sHead(y, 'Part 3: Primary and Stress Archetypes');
+      y = wBlock(y, 'My primary archetype', gv('p3-primary'));
+      y = wBlock(y, 'What makes me recognise it as mine', gv('p3-why'));
+      y = wBlock(y, 'My stress archetype', gv('p3-stress'));
+      y = wBlock(y, 'When this pattern activates', gv('p3-when'));
+
+      y = sHead(y, 'Part 4: The Shadow Side');
+      y = wBlock(y, 'Where the shadow pattern has shown up in the last six months', gv('p4-shadow'));
+      y = wBlock(y, 'What it cost me or the people around me', gv('p4-cost'));
+
+      y = sHead(y, 'Part 5: The Leader I Am Choosing to Be');
+      y = wBlock(y, 'The most effective version of my archetype looks like', gv('p5-best'));
+      y = wBlock(y, 'One specific behaviour I will choose differently this week', gv('p5-behaviour'));
+
+      y = sHead(y, 'Synthesis: Connecting the Week 2 Exercises');
+      y = wBlock(y, 'How my internal identity aligns with my archetype', gv('syn-1'));
+      y = wBlock(y, 'How external perception relates to my shadow side', gv('syn-2'));
+      y = wBlock(y, 'Where the gap is, and what it tells me', gv('syn-3'));
+
+      y = checkY(y, 26);
+      fc(1,41,58); doc.roundedRect(mg,y,cW,22,3,3,'F');
+      doc.setFont('helvetica','italic'); doc.setFontSize(10.5); tc(201,246,250);
+      doc.text('"Your archetype is a default, not a destiny. Recognition is the first step. Intention is what follows."', pW/2, y+9, {align:'center', maxWidth:cW-10});
+      doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(150,190,195);
+      doc.text('Maria Fuentes  \u2022  Beyond Limits Made For More', pW/2, y+19, {align:'center'});
+
+      drawFooter();
+      doc.save('leadership-archetype-exercise.pdf');
+    } catch(err) {
+      alert('There was a problem generating your PDF: ' + err.message);
+      console.error(err);
+    }
+  }
+
+  buildQuiz();
+  setProgress(1);
+</script>
+</body>
+</html>
