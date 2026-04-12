@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control Your Thoughts | Maria Fuentes</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+  :root { --teal:#3D858C; --navy:#01293A; --turq:#C9F6FA; --white:#FFFFFF; --cream:#FAFAF7; --light-teal:#E8F7F8; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--cream); color:var(--navy); font-family:"Inter",sans-serif; font-size:16px; line-height:1.7; }
+
+  .header { background:var(--navy); padding:36px 60px; border-bottom:4px solid var(--teal); }
+  .header-inner { max-width:860px; margin:0 auto; display:flex; align-items:center; gap:28px; }
+  .logo { width:76px; height:76px; flex-shrink:0; }
+  .logo img { width:100%; height:100%; object-fit:contain; }
+  .header h1 { font-family:"Cormorant Garamond",serif; font-size:34px; font-weight:700; color:var(--white); line-height:1.15; margin-bottom:5px; }
+  .header h1 span { color:var(--turq); }
+  .header p { font-family:"Cormorant Garamond",serif; font-size:18px; color:var(--turq); font-style:italic; }
+
+  .progress-wrap { background:var(--white); border-bottom:1px solid var(--light-teal); padding:12px 60px; position:sticky; top:0; z-index:100; box-shadow:0 2px 8px rgba(1,41,58,0.06); }
+  .progress-inner { max-width:860px; margin:0 auto; }
+  .progress-meta { display:flex; justify-content:space-between; align-items:center; margin-bottom:7px; }
+  .progress-label { font-size:12px; font-weight:600; color:var(--teal); text-transform:uppercase; letter-spacing:1.5px; }
+  .progress-count { font-size:12px; color:var(--teal); font-weight:500; }
+  .progress-bar { background:var(--light-teal); border-radius:30px; height:5px; overflow:hidden; }
+  .progress-fill { background:var(--teal); height:100%; border-radius:30px; transition:width 0.6s ease; width:0%; }
+
+  .container { max-width:860px; margin:0 auto; padding:50px 60px 80px; }
+  .view { display:none; animation:fadeIn 0.4s ease; }
+  .view.active { display:block; }
+  @keyframes fadeIn { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
+
+  .big-heading { font-family:"Cormorant Garamond",serif; font-size:38px; font-weight:700; color:var(--navy); margin-bottom:16px; line-height:1.2; }
+  .big-heading span { color:var(--teal); }
+  .body-text { font-size:15.5px; color:var(--navy); line-height:1.85; margin-bottom:18px; }
+
+  .navy-box { background:var(--navy); border-radius:12px; padding:36px 44px; margin-bottom:26px; }
+  .navy-box h2 { font-family:"Cormorant Garamond",serif; font-size:28px; font-weight:700; color:var(--white); margin-bottom:14px; }
+  .navy-box p { font-size:15px; color:rgba(255,255,255,0.85); line-height:1.82; margin-bottom:12px; }
+  .navy-box p:last-child { margin-bottom:0; }
+  .navy-box .hl { font-family:"Cormorant Garamond",serif; font-size:21px; font-style:italic; color:var(--turq); border-left:3px solid var(--teal); padding-left:18px; margin-top:18px; line-height:1.5; }
+
+  .callout { background:var(--light-teal); border-left:4px solid var(--teal); border-radius:0 8px 8px 0; padding:18px 24px; margin-bottom:22px; }
+  .callout p { font-size:15px; color:var(--navy); line-height:1.78; margin-bottom:0; }
+
+  /* TIME CARDS */
+  .time-grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:14px; margin:28px 0; }
+  .time-card { background:var(--white); border-radius:12px; padding:28px 24px; box-shadow:0 2px 10px rgba(1,41,58,0.07); text-align:center; }
+  .time-card.past { border-top:3px solid #8AABB0; }
+  .time-card.present { border-top:3px solid var(--teal); background:var(--navy); }
+  .time-card.future { border-top:3px solid #8AABB0; }
+  .time-card h3 { font-family:"Cormorant Garamond",serif; font-size:24px; font-weight:700; margin-bottom:12px; }
+  .time-card.past h3, .time-card.future h3 { color:var(--teal); }
+  .time-card.present h3 { color:var(--turq); }
+  .time-card p { font-size:14.5px; line-height:1.7; }
+  .time-card.past p, .time-card.future p { color:#5A8090; }
+  .time-card.present p { color:rgba(255,255,255,0.85); }
+  .time-card .tea-note { font-family:"Cormorant Garamond",serif; font-size:15px; font-style:italic; margin-top:12px; }
+  .time-card.past .tea-note, .time-card.future .tea-note { color:#9BBCC0; }
+  .time-card.present .tea-note { color:var(--turq); }
+
+  /* GUIDED PRACTICE STEPS */
+  .practice-intro { background:var(--light-teal); border-radius:12px; padding:28px 32px; margin-bottom:32px; text-align:center; }
+  .practice-intro p { font-size:15.5px; color:var(--navy); line-height:1.8; }
+  .practice-intro strong { color:var(--teal); }
+
+  .step-view { text-align:center; padding:20px 0; }
+  .step-icon { font-size:52px; margin-bottom:18px; display:block; }
+  .step-number { font-size:11px; font-weight:600; color:var(--teal); text-transform:uppercase; letter-spacing:2px; margin-bottom:10px; }
+  .step-title { font-family:"Cormorant Garamond",serif; font-size:40px; font-weight:700; color:var(--navy); margin-bottom:20px; line-height:1.2; }
+  .step-body { font-size:17px; color:var(--navy); line-height:1.85; max-width:580px; margin:0 auto 28px; }
+  .step-detail { background:var(--white); border-radius:12px; padding:24px 28px; margin:0 auto 28px; max-width:580px; box-shadow:0 2px 10px rgba(1,41,58,0.06); text-align:left; }
+  .step-detail h4 { font-family:"Cormorant Garamond",serif; font-size:19px; font-weight:700; color:var(--teal); margin-bottom:8px; }
+  .step-detail p { font-size:14.5px; color:var(--navy); line-height:1.72; margin-bottom:10px; }
+  .step-detail p:last-child { margin-bottom:0; }
+
+  /* BREATHING CIRCLE */
+  .breath-wrap { display:flex; flex-direction:column; align-items:center; margin:28px auto; }
+  .breath-circle { width:140px; height:140px; border-radius:50%; background:rgba(61,133,140,0.15); border:3px solid var(--teal); display:flex; align-items:center; justify-content:center; font-family:"Cormorant Garamond",serif; font-size:16px; color:var(--teal); font-style:italic; cursor:pointer; transition:all 0.5s ease; position:relative; }
+  .breath-circle.inhale { transform:scale(1.3); background:rgba(61,133,140,0.25); }
+  .breath-circle.exhale { transform:scale(0.85); background:rgba(61,133,140,0.08); }
+  .breath-label { font-size:13px; color:var(--teal); margin-top:14px; font-weight:500; letter-spacing:1px; text-transform:uppercase; }
+  .breath-count { font-size:13px; color:#9BBCC0; margin-top:6px; }
+  .btn-breath { background:transparent; border:2px solid var(--teal); color:var(--teal); padding:10px 24px; border-radius:20px; font-size:13px; font-weight:600; cursor:pointer; font-family:"Inter",sans-serif; margin-top:16px; transition:all 0.2s; }
+  .btn-breath:hover { background:var(--teal); color:var(--white); }
+  .btn-breath.running { background:var(--teal); color:var(--white); }
+
+  /* SENSE CARDS */
+  .sense-grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; margin:24px 0; }
+  .sense-card { background:var(--white); border-radius:10px; padding:20px 18px; box-shadow:0 1px 8px rgba(1,41,58,0.06); text-align:center; }
+  .sense-card .s-icon { font-size:28px; margin-bottom:10px; }
+  .sense-card h4 { font-family:"Cormorant Garamond",serif; font-size:20px; font-weight:700; color:var(--teal); margin-bottom:6px; }
+  .sense-card p { font-size:13.5px; color:var(--navy); line-height:1.6; }
+
+  /* INNER PEACE */
+  .peace-box { background:var(--navy); border-radius:12px; padding:44px; margin:32px 0; text-align:center; }
+  .peace-box h2 { font-family:"Cormorant Garamond",serif; font-size:44px; font-weight:700; color:var(--white); margin-bottom:18px; }
+  .peace-box p { font-size:16px; color:rgba(255,255,255,0.85); max-width:520px; margin:0 auto; line-height:1.82; }
+
+  /* REFLECTION */
+  .field-label { font-size:11px; font-weight:600; color:var(--teal); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:8px; display:block; }
+  textarea { width:100%; border:1.5px solid #D8ECEE; border-radius:8px; padding:14px 16px; font-family:"Inter",sans-serif; font-size:14.5px; color:var(--navy); line-height:1.7; resize:vertical; outline:none; background:var(--cream); display:block; transition:border-color 0.2s,box-shadow 0.2s; }
+  textarea:focus { border-color:var(--teal); box-shadow:0 0 0 3px rgba(61,133,140,0.10); background:var(--white); }
+  textarea::placeholder { color:#AECDD0; font-style:italic; }
+  textarea.sm { min-height:90px; }
+  textarea.md { min-height:130px; }
+  .reflect-panel { background:var(--white); border-radius:12px; padding:28px 30px; margin-bottom:18px; box-shadow:0 2px 10px rgba(1,41,58,0.07); }
+  .reflect-panel h3 { font-family:"Cormorant Garamond",serif; font-size:22px; font-weight:700; color:var(--teal); margin-bottom:6px; }
+  .reflect-panel .ctx { font-size:14px; color:#5A8090; font-style:italic; margin-bottom:14px; }
+
+  /* TAKEAWAYS */
+  .takeaway-list { margin:24px 0; }
+  .takeaway { display:flex; gap:18px; align-items:flex-start; padding:20px 0; border-bottom:1px solid var(--light-teal); }
+  .takeaway:last-child { border-bottom:none; }
+  .t-dot { width:12px; height:12px; background:var(--teal); border-radius:50%; flex-shrink:0; margin-top:6px; }
+  .t-content h4 { font-family:"Cormorant Garamond",serif; font-size:21px; font-weight:700; color:var(--navy); margin-bottom:4px; }
+  .t-content p { font-size:14.5px; color:#5A8090; line-height:1.65; }
+
+  /* COMPLETION */
+  .completion-header { background:var(--navy); border-radius:12px; padding:44px; margin-bottom:36px; text-align:center; }
+  .completion-header h2 { font-family:"Cormorant Garamond",serif; font-size:36px; font-weight:700; color:var(--white); margin-bottom:14px; }
+  .completion-header p { font-size:16px; color:rgba(255,255,255,0.8); max-width:500px; margin:0 auto; line-height:1.78; }
+  .check-circle { width:60px; height:60px; background:var(--teal); border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 20px; font-size:26px; color:var(--white); }
+  .dl-wrap { text-align:center; margin:40px 0 0; }
+  .dl-wrap p { font-size:13px; color:var(--teal); margin-top:10px; font-style:italic; }
+  .restart-link { display:block; text-align:center; margin-top:18px; color:var(--teal); cursor:pointer; font-size:14px; text-decoration:underline; }
+
+  .nav-buttons { display:flex; justify-content:space-between; align-items:center; margin-top:44px; gap:16px; }
+  .btn { padding:14px 32px; border-radius:8px; font-size:15px; font-weight:600; cursor:pointer; border:none; font-family:"Inter",sans-serif; transition:all 0.2s ease; }
+  .btn-primary { background:var(--teal); color:var(--white); }
+  .btn-primary:hover { background:var(--navy); transform:translateY(-2px); box-shadow:0 6px 20px rgba(1,41,58,0.2); }
+  .btn-secondary { background:transparent; color:var(--teal); border:2px solid var(--teal); }
+  .btn-secondary:hover { background:var(--teal); color:var(--white); }
+  .btn-large { padding:16px 44px; font-size:16px; }
+
+  .footer { background:var(--navy); color:rgba(255,255,255,0.45); text-align:center; padding:18px; font-size:12px; margin-top:60px; }
+  @media(max-width:680px){
+    .header{padding:26px 22px;} .container{padding:36px 22px 60px;} .progress-wrap{padding:10px 22px;}
+    .header h1{font-size:24px;} .time-grid{grid-template-columns:1fr;} .sense-grid{grid-template-columns:1fr 1fr;}
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <div class="logo"><img id="site-logo" src="data:image/png;base64,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" alt="Maria Fuentes Logo"></div>
+    <div>
+      <h1>Control Your <span>Thoughts</span></h1>
+      <p>A guided practice in present-moment awareness</p>
+    </div>
+  </div>
+</div>
+
+<div class="progress-wrap">
+  <div class="progress-inner">
+    <div class="progress-meta">
+      <span class="progress-label" id="progress-label">Introduction</span>
+      <span class="progress-count" id="progress-count"></span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- V1: INTRO -->
+  <div class="view active" id="v1">
+    <div class="navy-box">
+      <h2>Where Are Your Thoughts Right Now?</h2>
+      <p>Sometimes we get so caught up in past experiences that it becomes difficult to experience the present moment fully. Other times, we may worry about a future that has not yet happened and may never happen as we imagine. When we dwell on the past or the future, we miss out on what is happening right now.</p>
+      <p>Thoughts are simply reactions in the synapses of our minds. They are not concrete truths about the world. And here is the most important thing to understand: a slight interruption in the thought process is enough to take control and decide to have a break from old, repetitive thoughts.</p>
+      <div class="hl">You do not have to stop the thoughts. You only need to notice them, and then return.</div>
+    </div>
+    <div class="time-grid">
+      <div class="time-card past">
+        <h3>The Past</h3>
+        <p>The past is over. It exists only in our memories, not in reality. You cannot change it, relive it, or inhabit it.</p>
+        <div class="tea-note">You cannot have yesterday's cup of tea right now.</div>
+      </div>
+      <div class="time-card present">
+        <h3>The Present</h3>
+        <p>The present moment is all we truly have. It is where life actually happens, where we can experience, feel, and engage.</p>
+        <div class="tea-note">This cup of tea. Right now. This one.</div>
+      </div>
+      <div class="time-card future">
+        <h3>The Future</h3>
+        <p>The future has not happened yet and may never happen as we imagine. Worry about it takes you out of what is real.</p>
+        <div class="tea-note">You cannot have tomorrow's cup of tea today.</div>
+      </div>
+    </div>
+    <div class="callout"><p>This exercise will guide you through a short grounding practice. You can repeat it any time your thoughts pull you away from the present. Take as much time as you need at each step.</p></div>
+    <div class="nav-buttons"><span></span><button class="btn btn-primary btn-large" onclick="go(2)">Begin the Practice &rarr;</button></div>
+  </div>
+
+  <!-- V2: GET COMFORTABLE -->
+  <div class="view" id="v2">
+    <div class="step-view">
+      <span class="step-icon">&#129507;</span>
+      <div class="step-number">Step 1 of 6</div>
+      <div class="step-title">Get Comfortable</div>
+      <p class="step-body">Read this page fully first. Then close your eyes and carry out the instruction before pressing continue.</p>
+      <div class="step-detail">
+        <p>Find a comfortable position wherever you are right now. You can sit, lie down, or stand. Allow your body to settle. Unclench your jaw. Drop your shoulders. Let your hands rest somewhere natural.</p>
+        <p>There is nothing you need to do, achieve, or fix in this moment. You are simply going to be here. When you feel settled, open your eyes, and press continue.</p>
+      </div>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(1)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(3)">I am comfortable &rarr;</button>
+    </div>
+  </div>
+
+  <!-- V3: BREATHE -->
+  <div class="view" id="v3">
+    <div class="step-view">
+      <span class="step-icon">&#128168;</span>
+      <div class="step-number">Step 2 of 6</div>
+      <div class="step-title">Breathe and Say the Words</div>
+      <p class="step-body">Read this page first. Then close your eyes, say the words silently in your mind, and breathe.</p>
+      <div class="navy-box" style="max-width:560px;margin:0 auto 24px;padding:26px 30px;">
+        <p style="font-family:'Cormorant Garamond',serif;font-size:20px;font-style:italic;text-align:center;margin:0 0 12px;color:var(--white);">Say this silently in your mind:</p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:19px;font-style:italic;text-align:center;margin:0;color:var(--turq);line-height:1.7;">"The past does not exist. The future has not yet come. The only thing that is real is this moment."</p>
+      </div>
+      <div class="step-detail" style="max-width:560px;margin:0 auto 24px;text-align:left;">
+        <h4>Close your eyes and breathe deeply</h4>
+        <p>With your eyes closed, take three or four slow breaths. Count silently as you go: breathe in for four counts, hold for two, breathe out slowly for six. Notice the coolness of the air as it enters through your nose and the gentle warmth as it leaves. Feel the temperature of the room around you.</p>
+        <p>If you prefer to keep your eyes open and follow a visual guide, use the breathing circle below.</p>
+      </div>
+      <div class="breath-wrap">
+        <div class="breath-circle" id="breath-circle">Ready</div>
+        <div class="breath-label" id="breath-label">Optional: use this if keeping eyes open</div>
+        <div class="breath-count" id="breath-count"></div>
+        <button class="btn-breath" id="btn-breath" onclick="startBreath()">Start visual breathing guide</button>
+      </div>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(2)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(4)">Continue &rarr;</button>
+    </div>
+  </div>
+
+  <!-- V4: GROUND YOURSELF -->
+  <div class="view" id="v4">
+    <div class="step-view">
+      <span class="step-icon">&#127807;</span>
+      <div class="step-number">Step 3 of 6</div>
+      <div class="step-title">Ground Yourself</div>
+      <p class="step-body">Read through all three prompts below. Then close your eyes and work through each one in turn, taking as much time as you need before opening your eyes and continuing.</p>
+    </div>
+    <div class="step-detail" style="max-width:100%;">
+      <h4>&#128065; Notice Your Feet</h4>
+      <p>Feel your feet on the floor. Notice the pressure, the temperature, the connection to the ground beneath you. If you are sitting, feel the weight of your body through your feet. If you are lying down, notice the soles of your feet and what they are resting against.</p>
+    </div>
+    <div class="step-detail" style="max-width:100%;">
+      <h4>&#9995; Observe Your Hands</h4>
+      <p>Become aware of where your hands are and what they are touching right now. Feel the texture of the surface beneath them. Notice the temperature. Are your hands warm or cool? Heavy or light?</p>
+    </div>
+    <div class="step-detail" style="max-width:100%;">
+      <h4>&#129490; Feel Your Body</h4>
+      <p>Notice how your body is resting. Feel the support beneath you and the weight of your body settling into it. Scan slowly from the top of your head down to your feet, noticing each part without judgement.</p>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(3)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(5)">I feel grounded &rarr;</button>
+    </div>
+  </div>
+
+  <!-- V5: ENGAGE YOUR SENSES -->
+  <div class="view" id="v5">
+    <div class="step-view">
+      <span class="step-icon">&#10024;</span>
+      <div class="step-number">Step 4 of 6</div>
+      <div class="step-title">Engage Your Senses</div>
+      <p class="step-body">Read through each sense below. Then close your eyes and move through them one by one, staying with each as long as it holds your attention.</p>
+    </div>
+    <div class="sense-grid">
+      <div class="sense-card">
+        <div class="s-icon">&#128264;</div>
+        <h4>Listen</h4>
+        <p>Notice the sounds around you, near and far. Let them come to you without needing to name or analyse them. Simply hear.</p>
+      </div>
+      <div class="sense-card">
+        <div class="s-icon">&#127777;&#65039;</div>
+        <h4>Feel Temperature</h4>
+        <p>Notice the temperature of the room on your skin. Is the air warm or cool? Notice the coolness of the air as you breathe in, and the gentle warmth as you breathe out. Feel where the temperature is most present on your face, your hands, your arms.</p>
+      </div>
+      <div class="sense-card">
+        <div class="s-icon">&#127801;</div>
+        <h4>Smell</h4>
+        <p>Take note of any scents you can detect. Do not search for them. Simply notice what is already there.</p>
+      </div>
+    </div>
+    <div class="callout"><p>Stay with each sense for as long as you need. There is no correct answer to what you notice. Whatever is there is exactly right.</p></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(4)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(6)">Continue &rarr;</button>
+    </div>
+  </div>
+
+  <!-- V6: OBSERVE SURROUNDINGS -->
+  <div class="view" id="v6">
+    <div class="step-view">
+      <span class="step-icon">&#128065;&#65039;</span>
+      <div class="step-number">Step 5 of 6</div>
+      <div class="step-title">Observe Your Surroundings</div>
+      <p class="step-body">Your eyes are open. Let your gaze rest softly on the space around you. You are not looking for anything in particular. You are simply arriving back into the room.</p>
+    </div>
+    <div class="step-detail" style="max-width:100%;text-align:left;">
+      <h4>See What Is Here</h4>
+      <p>Notice your hands. Your feet. The light in the room. The colours around you. Immerse yourself fully in this present moment.</p>
+      <p>Pay attention to the visual details of your environment. See the shapes, the shadows, the way light falls on different surfaces. Notice the edges of things. The spaces between things. Let yourself be fully present with what you can see right now.</p>
+      <p>You are not looking for anything. You are simply seeing. That is enough.</p>
+    </div>
+    <div class="callout" style="margin-top:20px;"><p>The Now can be reduced to even the second you are breathing in and out. This is where true presence lives. You are here. You are in it right now.</p></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(5)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(7)">I am present &rarr;</button>
+    </div>
+  </div>
+
+  <!-- V7: INNER PEACE -->
+  <div class="view" id="v7">
+    <div class="peace-box">
+      <h2>Inner Peace</h2>
+      <p>If you are honest and truly present in this moment, you may feel a quiet sense of stillness. The past and future problems do not exist right now. In this exact moment, you can appreciate the beauty and simplicity of what is happening.</p>
+    </div>
+    <div class="step-view" style="padding:0;">
+      <div class="step-number" style="margin-bottom:16px;">Step 6 of 6</div>
+      <div class="step-title" style="font-size:32px;margin-bottom:16px;">Reflect on What You Noticed</div>
+      <p class="step-body">Before you return to your day, take a moment to write down what you noticed. This is not a test. There are no right or wrong observations. Writing it anchors the experience.</p>
+    </div>
+    <div class="reflect-panel">
+      <h3>What did you notice in your body?</h3>
+      <div class="ctx">Any sensations, areas of tension, warmth, lightness, or heaviness that you became aware of.</div>
+      <textarea id="r-body" class="sm" placeholder="Write what you noticed..."></textarea>
+    </div>
+    <div class="reflect-panel">
+      <h3>What thoughts were pulling at you before you started?</h3>
+      <div class="ctx">Past concerns, future worries, or repetitive thoughts that were present when you began.</div>
+      <textarea id="r-thoughts" class="sm" placeholder="Write what was there..."></textarea>
+    </div>
+    <div class="reflect-panel">
+      <h3>How do you feel now compared to when you started?</h3>
+      <div class="ctx">Even a small shift is worth noticing.</div>
+      <textarea id="r-now" class="sm" placeholder="Write what has shifted, however subtle..."></textarea>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" onclick="go(6)">Back</button>
+      <button class="btn btn-primary btn-large" onclick="go(8)">Complete the Practice &rarr;</button>
+    </div>
+  </div>
+
+  <!-- V8: COMPLETION -->
+  <div class="view" id="v8">
+    <div class="completion-header">
+      <div class="check-circle">&#10003;</div>
+      <h2>You Came Back to the Present</h2>
+      <p>That is all this practice ever asks of you. Not perfection. Not silence. Just a return.</p>
+    </div>
+    <div class="takeaway-list">
+      <div class="takeaway"><div class="t-dot"></div><div class="t-content"><h4>The past does not exist right now</h4><p>Focus on the only moment that truly exists: this one. Right here. Right now.</p></div></div>
+      <div class="takeaway"><div class="t-dot"></div><div class="t-content"><h4>Your senses anchor you in the present</h4><p>Physical sensations are always happening in the present moment. They are your most reliable route back.</p></div></div>
+      <div class="takeaway"><div class="t-dot"></div><div class="t-content"><h4>A slight interruption is all you need</h4><p>You do not need to eliminate the thoughts. You only need to notice them and choose, in that moment, to return.</p></div></div>
+      <div class="takeaway"><div class="t-dot"></div><div class="t-content"><h4>You can do this any time</h4><p>This practice takes less than five minutes. You can return to it at your desk, in a meeting, on a train, or before sleep.</p></div></div>
+    </div>
+    <div class="navy-box" style="text-align:center;">
+      <h2 style="font-size:22px;margin-bottom:10px;">The Power of Now</h2>
+      <p>The Now can be reduced to even the second you are breathing in and out. That second belongs entirely to you. No past can reach it. No future can disturb it.</p>
+      <div class="hl" style="text-align:left;">A slight interruption in the thought process is enough to take control and break free from repetitive thinking.</div>
+    </div>
+    <div class="dl-wrap">
+      <button class="btn btn-primary btn-large" onclick="downloadPDF()">&#8595;&nbsp; Download My Reflections as PDF</button>
+      <p>Save a copy to return to when you need it.</p>
+    </div>
+    <span class="restart-link" onclick="restartEx()">Do the practice again</span>
+  </div>
+
+</div>
+
+<div class="footer">
+  Maria Fuentes &nbsp;|&nbsp; mariafuentes.co.uk &nbsp;|&nbsp; &copy; Hypnotika Mente Ltd 2026
+</div>
+<script>
+  var TOTAL = 8;
+  var labels = ['Introduction','Get Comfortable','Breathe Deeply','Ground Yourself','Engage Your Senses','Observe Your Surroundings','Reflect','Complete'];
+  var counts = ['','Step 1 of 6','Step 2 of 6','Step 3 of 6','Step 4 of 6','Step 5 of 6','Step 6 of 6',''];
+
+  var breathTimer = null;
+  var breathCount = 0;
+  var breathPhase = 'idle';
+  var breathCycle = 0;
+
+  function setProgress(n) {
+    var pct = ((n-1)/(TOTAL-1))*100;
+    document.getElementById('progress-fill').style.width = pct+'%';
+    document.getElementById('progress-label').textContent = labels[n-1]||'';
+    document.getElementById('progress-count').textContent = counts[n-1]||'';
+  }
+  function go(n) {
+    document.querySelectorAll('.view').forEach(function(v){ v.classList.remove('active'); });
+    var el = document.getElementById('v'+n);
+    el.classList.add('active');
+    el.scrollIntoView({behavior:'smooth',block:'start'});
+    setProgress(n);
+    if (n !== 3) stopBreath();
+  }
+
+  function startBreath() {
+    var btn = document.getElementById('btn-breath');
+    if (breathTimer) { stopBreath(); return; }
+    breathCycle = 0; breathPhase = 'inhale';
+    btn.textContent = 'Stop';
+    btn.classList.add('running');
+    runBreath();
+  }
+
+  function runBreath() {
+    var circle = document.getElementById('breath-circle');
+    var label = document.getElementById('breath-label');
+    var countEl = document.getElementById('breath-count');
+
+    if (breathPhase === 'inhale') {
+      circle.className = 'breath-circle inhale';
+      circle.textContent = 'Breathe in';
+      label.textContent = 'Inhale slowly...';
+      breathTimer = setTimeout(function(){
+        breathPhase = 'hold';
+        runBreath();
+      }, 4000);
+    } else if (breathPhase === 'hold') {
+      circle.className = 'breath-circle';
+      circle.textContent = 'Hold';
+      label.textContent = 'Hold gently...';
+      breathTimer = setTimeout(function(){
+        breathPhase = 'exhale';
+        runBreath();
+      }, 2000);
+    } else if (breathPhase === 'exhale') {
+      circle.className = 'breath-circle exhale';
+      circle.textContent = 'Breathe out';
+      label.textContent = 'Exhale slowly...';
+      breathTimer = setTimeout(function(){
+        breathCycle++;
+        countEl.textContent = breathCycle + ' of 4 breaths';
+        if (breathCycle >= 4) {
+          stopBreath();
+          circle.textContent = 'Complete';
+          label.textContent = 'Well done. Continue when you are ready.';
+          countEl.textContent = '';
+        } else {
+          breathPhase = 'inhale';
+          runBreath();
+        }
+      }, 5000);
+    }
+  }
+
+  function stopBreath() {
+    if (breathTimer) { clearTimeout(breathTimer); breathTimer = null; }
+    var btn = document.getElementById('btn-breath');
+    if (btn) { btn.textContent = 'Start breathing guide'; btn.classList.remove('running'); }
+    var circle = document.getElementById('breath-circle');
+    if (circle && circle.textContent !== 'Complete') {
+      circle.className = 'breath-circle';
+      circle.textContent = 'Tap to breathe';
+      document.getElementById('breath-label').textContent = 'Press start to begin';
+      document.getElementById('breath-count').textContent = '';
+      breathCycle = 0;
+    }
+  }
+
+  function gv(id){ var e=document.getElementById(id); return e?(e.value||'').trim():''; }
+
+  function restartEx() {
+    stopBreath();
+    document.querySelectorAll('textarea').forEach(function(t){ t.value=''; });
+    go(1); window.scrollTo({top:0,behavior:'smooth'});
+  }
+
+  function downloadPDF() {
+    try {
+      var jsPDFLib = (window.jspdf && window.jspdf.jsPDF) || window.jsPDF;
+      if (!jsPDFLib) { alert('PDF library not loaded. Please check your internet connection and try again.'); return; }
+      var doc = new jsPDFLib({ unit:'mm', format:'a4' });
+      var pW=210, pH=297, mg=20, cW=170;
+      var logoData = document.getElementById('site-logo').src;
+
+      function fc(r,g,b){ doc.setFillColor(r,g,b); }
+      function tc(r,g,b){ doc.setTextColor(r,g,b); }
+      function dc(r,g,b){ doc.setDrawColor(r,g,b); }
+
+      function drawHeader() {
+        fc(1,41,58); doc.rect(0,0,pW,50,'F');
+        fc(61,133,140); doc.rect(0,50,pW,2.5,'F');
+        try { doc.addImage(logoData,'PNG',mg,10,28,28); } catch(e){}
+        doc.setFont('helvetica','bold'); doc.setFontSize(20); tc(255,255,255);
+        doc.text('Control Your Thoughts', mg+34, 25);
+        doc.setFont('helvetica','italic'); doc.setFontSize(10); tc(201,246,250);
+        doc.text('A guided practice in present-moment awareness', mg+34, 34);
+        doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(150,190,195);
+        doc.text('mariafuentes.co.uk', pW-mg, 46, {align:'right'});
+      }
+      function drawPageHeader() {
+        fc(1,41,58); doc.rect(0,0,pW,18,'F');
+        fc(61,133,140); doc.rect(0,18,pW,2,'F');
+        doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(201,246,250);
+        doc.text('Control Your Thoughts  \u2022  Maria Fuentes', mg, 13);
+        doc.setFont('helvetica','normal'); tc(150,190,195);
+        doc.text('mariafuentes.co.uk', pW-mg, 13, {align:'right'});
+      }
+      function drawFooter() {
+        fc(1,41,58); doc.rect(0,pH-12,pW,12,'F');
+        doc.setFont('helvetica','normal'); doc.setFontSize(7.5); tc(201,246,250);
+        doc.text('\u00A9 Hypnotika Mente Ltd 2026  \u2022  Maria Fuentes  \u2022  mariafuentes.co.uk', pW/2, pH-5, {align:'center'});
+      }
+      function newPage() { drawFooter(); doc.addPage(); drawPageHeader(); return 28; }
+      function checkY(y, needed) { return (y+needed>pH-18)?newPage():y; }
+
+      function wBlock(y, heading, value) {
+        y = checkY(y, 14);
+        fc(61,133,140); doc.roundedRect(mg, y, cW, 10, 2, 2, 'F');
+        doc.setFont('helvetica','bold'); doc.setFontSize(10); tc(255,255,255);
+        doc.text(heading, mg+5, y+7); y += 13;
+        var val = (value||'').trim();
+        if (val) {
+          var lines = doc.splitTextToSize(val, cW-6);
+          var bh = lines.length*4.8+8; y = checkY(y, bh);
+          fc(232,247,248); doc.roundedRect(mg, y, cW, bh, 2, 2, 'F');
+          doc.setFont('helvetica','normal'); doc.setFontSize(9.5); tc(1,41,58);
+          doc.text(lines, mg+4, y+6); y += bh+6;
+        } else {
+          y = checkY(y, 10); dc(200,220,225); doc.setLineWidth(0.2); doc.setDrawColor(200,220,225);
+          doc.roundedRect(mg, y, cW, 10, 1.5, 1.5, 'S');
+          doc.setFont('helvetica','italic'); doc.setFontSize(8); tc(185,205,210);
+          doc.text('(not completed)', mg+3, y+4); y += 10+6;
+        }
+        return y;
+      }
+
+      drawHeader();
+      var y = 60;
+
+      // Intro quote
+      fc(1,41,58); doc.roundedRect(mg, y, cW, 20, 3, 3, 'F');
+      doc.setFont('helvetica','italic'); doc.setFontSize(11); tc(201,246,250);
+      doc.text('"The past does not exist right now. The future has not happened yet."', pW/2, y+9, {align:'center', maxWidth:cW-10});
+      doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(150,190,195);
+      doc.text('A reminder to return to, whenever you need it.', pW/2, y+17, {align:'center'});
+      y += 28;
+
+      // Reflections
+      var sHead = function(y, label) {
+        y = checkY(y, 14);
+        fc(1,41,58); doc.rect(mg,y,cW,12,'F');
+        fc(61,133,140); doc.rect(mg,y,4,12,'F');
+        doc.setFont('helvetica','bold'); doc.setFontSize(12); tc(201,246,250);
+        doc.text(label, mg+8, y+8.5); return y+17;
+      };
+
+      y = sHead(y, 'My Reflections from This Practice');
+      y = wBlock(y, 'What I noticed in my body', gv('r-body'));
+      y = wBlock(y, 'The thoughts that were pulling at me before I started', gv('r-thoughts'));
+      y = wBlock(y, 'How I feel now compared to when I started', gv('r-now'));
+
+      // Key takeaways
+      y += 4; y = sHead(y, 'Key Takeaways');
+      var takeaways = [
+        ['The past does not exist right now', 'Focus on the only moment that truly exists: this one.'],
+        ['Your senses anchor you in the present', 'Physical sensations are your most reliable route back.'],
+        ['A slight interruption is all you need', 'Notice the thought, and then choose to return.'],
+        ['You can do this any time', 'This practice takes less than five minutes, anywhere.']
+      ];
+      takeaways.forEach(function(t){
+        y = checkY(y, 16);
+        fc(61,133,140); doc.circle(mg+4, y+1, 2.5, 'F');
+        doc.setFont('helvetica','bold'); doc.setFontSize(10); tc(1,41,58);
+        doc.text(t[0], mg+10, y+2.5);
+        doc.setFont('helvetica','normal'); doc.setFontSize(9); tc(90,130,140);
+        doc.text(t[1], mg+10, y+9); y += 18;
+      });
+
+      // Closing
+      y = checkY(y, 28);
+      fc(1,41,58); doc.roundedRect(mg, y, cW, 24, 3, 3, 'F');
+      doc.setFont('helvetica','italic'); doc.setFontSize(11); tc(201,246,250);
+      doc.text('"A slight interruption in the thought process is enough to take control and break free from repetitive thinking."', pW/2, y+9, {align:'center', maxWidth:cW-10});
+      doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(150,190,195);
+      doc.text('Maria Fuentes  \u2022  mariafuentes.co.uk', pW/2, y+20, {align:'center'});
+
+      drawFooter();
+      doc.save('control-your-thoughts.pdf');
+    } catch(err) {
+      alert('There was a problem generating your PDF: ' + err.message);
+      console.error(err);
+    }
+  }
+
+  setProgress(1);
+</script>
+</body>
+</html>
