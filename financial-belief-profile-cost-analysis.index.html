@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Cost of This Belief | Beyond Limits</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+/* ── RESET ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --teal:   #3D858C;
+  --navy:   #01293A;
+  --tc:     #C9F6FA;
+  --cream:  #F4F0E8;
+  --white:  #FDFBF6;
+  --mid:    #6B8A90;
+  --border: #D9D2C5;
+  --lt:     #EBF4F5;
+}
+html { font-size: 16px; }
+body { background: var(--cream); color: var(--navy); font-family: Arial, sans-serif; min-height: 100vh; line-height: 1.6; }
+.shell { max-width: 700px; margin: 0 auto; padding: 0 24px 80px; }
+
+/* ── HEADER ── */
+.hdr { background: var(--navy); padding: 36px 0; border-bottom: 4px solid var(--teal); margin: 0 -24px; padding-left: 24px; padding-right: 24px; }
+.hdr-inner { max-width: 652px; margin: 0 auto; display: flex; align-items: center; gap: 28px; }
+.hdr-logo { width: 76px; height: 76px; flex-shrink: 0; }
+.hdr-logo img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: screen; }
+.hdr-title { font-family: 'Cormorant Garamond', serif; font-size: 30px; font-weight: 700; color: #FFFFFF; line-height: 1.15; margin-bottom: 5px; }
+.hdr-title span { color: var(--tc); }
+.hdr-sub { font-family: 'Cormorant Garamond', serif; font-size: 16px; color: var(--tc); font-style: italic; }
+.logo  { font-family: 'Cormorant Garamond', serif; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); font-weight: 500; }
+.logo-s { font-size: 10px; letter-spacing: .1em; color: var(--mid); text-transform: uppercase; margin-top: 2px; }
+
+/* ── PROGRESS ── */
+.prog { padding: 22px 0 0; }
+.prog-track { height: 1px; background: var(--border); }
+.prog-fill  { height: 100%; background: var(--teal); transition: width .55s cubic-bezier(.4,0,.2,1); }
+.prog-lbl   { margin-top: 7px; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--mid); }
+
+/* ── SCREENS ── */
+.screen { display: none; animation: rise .45s ease both; }
+.screen.active { display: block; }
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ── TYPE ── */
+.eyebrow { margin-top: 44px; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); }
+.h1  { font-family: 'Cormorant Garamond', serif; font-size: clamp(36px,7.5vw,54px); font-weight: 300; line-height: 1.08; color: var(--navy); margin-top: 10px; letter-spacing: -.02em; }
+.h1 em { font-style: italic; color: var(--teal); }
+.body-l { margin-top: 20px; font-size: 15px; color: var(--navy); max-width: 560px; line-height: 1.8; }
+.q-lbl { margin-top: 40px; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); }
+.q-h   { font-family: 'Cormorant Garamond', serif; font-size: clamp(26px,5vw,38px); font-weight: 400; line-height: 1.18; color: var(--navy); margin-top: 10px; max-width: 560px; }
+.q-sub { margin-top: 9px; font-size: 14.5px; color: var(--mid); font-style: italic; max-width: 500px; line-height: 1.65; }
+
+/* ── PRIVACY NOTICE ── */
+.privacy { margin-top: 24px; background: var(--lt); border-left: 3px solid var(--teal); padding: 14px 18px; font-size: 14.5px; color: var(--navy); line-height: 1.65; }
+.privacy strong { display: block; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); margin-bottom: 4px; }
+
+/* ── INTRO STEPS ── */
+.steps { margin-top: 22px; border-left: 2px solid var(--teal); padding-left: 20px; display: flex; flex-direction: column; gap: 10px; }
+.step  { font-size: 14px; color: var(--navy); line-height: 1.5; }
+.step strong { font-family: 'Cormorant Garamond', serif; font-size: 16px; color: var(--teal); font-weight: 600; margin-right: 4px; }
+
+/* ── PATTERN CARDS (single select) ── */
+.cards { margin-top: 22px; display: flex; flex-direction: column; gap: 12px; }
+.card  { background: var(--white); border: 1.5px solid var(--border); border-left: 4px solid var(--border); border-radius: 3px; padding: 20px 22px 20px 18px; cursor: pointer; transition: border-color .2s, background .2s, transform .15s; position: relative; }
+.card:hover  { border-color: var(--teal); border-left-color: var(--teal); transform: translateX(3px); }
+.card.sel    { border-color: var(--teal); border-left-color: var(--teal); background: var(--lt); transform: translateX(3px); }
+.card.sel::after { content: '✓'; position: absolute; right: 16px; top: 16px; color: var(--teal); font-size: 14px; font-weight: 700; }
+.card-n    { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--mid); margin-bottom: 4px; }
+.card-hl   { font-family: 'Cormorant Garamond', serif; font-size: 19px; font-weight: 600; color: var(--navy); margin-bottom: 9px; line-height: 1.3; }
+.card-body { font-size: 14.5px; color: #2a4a55; line-height: 1.75; }
+.card-emo  { margin-top: 9px; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--teal); }
+
+/* ── PILLAR GRID (multi select) ── */
+.pillars { margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.pillar  { background: var(--white); border: 1.5px solid var(--border); border-top: 3px solid var(--border); border-radius: 3px; padding: 18px 16px 16px; cursor: pointer; transition: border-color .2s, background .2s; position: relative; }
+.pillar:hover     { border-color: var(--teal); border-top-color: var(--teal); }
+.pillar.sel       { border-color: var(--teal); border-top-color: var(--teal); background: var(--lt); }
+.pillar.sel::after { content: '✓'; position: absolute; right: 13px; top: 13px; color: var(--teal); font-size: 12px; font-weight: 700; }
+.p-lbl  { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--mid); margin-bottom: 5px; }
+.p-name { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 600; color: var(--navy); margin-bottom: 7px; }
+.p-desc { font-size: 14.5px; color: #2a4a55; line-height: 1.7; }
+
+/* ── NUMBER INPUTS ── */
+.num-frame { margin-top: 22px; display: flex; flex-direction: column; gap: 20px; max-width: 420px; }
+.num-group label { display: block; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); margin-bottom: 8px; }
+.num-row { display: flex; align-items: stretch; border: 1.5px solid var(--border); border-radius: 3px; overflow: hidden; background: var(--white); transition: border-color .2s; }
+.num-row:focus-within { border-color: var(--teal); }
+.pfx { background: var(--lt); border-right: 1.5px solid var(--border); padding: 0 16px; display: flex; align-items: center; font-family: 'Cormorant Garamond', serif; font-size: 22px; color: var(--teal); font-weight: 500; user-select: none; }
+.num-input { flex: 1; border: none; background: transparent; padding: 14px 16px; font-family: 'Cormorant Garamond', serif; font-size: 22px; color: var(--navy); outline: none; width: 100%; }
+.num-input::placeholder { color: var(--border); font-style: italic; }
+.num-hint { margin-top: 6px; font-size: 12px; color: var(--mid); font-style: italic; }
+.pq { margin-top: 24px; font-family: 'Cormorant Garamond', serif; font-size: clamp(17px,3.2vw,21px); font-style: italic; color: var(--navy); line-height: 1.55; max-width: 500px; border-left: 3px solid var(--teal); padding-left: 20px; }
+
+/* ── LIFESTYLE CARDS (multi select) ── */
+.lifestyle { margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.lcard { background: var(--white); border: 1.5px solid var(--border); border-radius: 3px; padding: 18px 16px; cursor: pointer; transition: border-color .2s, background .2s; position: relative; }
+.lcard:hover { border-color: var(--teal); }
+.lcard.sel   { border-color: var(--teal); background: var(--lt); }
+.lcard.sel::after { content: '✓'; position: absolute; right: 13px; top: 13px; color: var(--teal); font-size: 12px; font-weight: 700; }
+.lc-icon { font-size: 22px; margin-bottom: 8px; }
+.lc-name { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 600; color: var(--navy); margin-bottom: 6px; }
+.lc-desc { font-size: 14.5px; color: #2a4a55; line-height: 1.65; }
+
+/* ── BUTTONS ── */
+.btn { margin-top: 30px; display: inline-block; background: var(--teal); color: white; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; padding: 14px 36px; border: none; cursor: pointer; border-radius: 2px; transition: background .2s, transform .15s; font-family: Arial, sans-serif; }
+.btn:hover    { background: var(--navy); transform: translateY(-1px); }
+.btn:disabled { background: var(--border); cursor: not-allowed; transform: none; }
+.btn-back { background: none; border: none; color: var(--mid); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; padding: 0; margin-top: 13px; display: inline-block; transition: color .2s; font-family: Arial, sans-serif; }
+.btn-back:hover { color: var(--teal); }
+
+/* ── RESULTS ── */
+.save-bar { margin-top: 32px; background: var(--navy); color: white; padding: 13px 18px; border-radius: 2px; display: flex; gap: 11px; font-size: 13px; line-height: 1.6; }
+.save-bar-i { font-size: 15px; margin-top: 2px; flex-shrink: 0; }
+.save-bar strong { display: block; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--tc); margin-bottom: 3px; }
+.r-eyebrow { margin-top: 36px; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); }
+.r-h  { font-family: 'Cormorant Garamond', serif; font-size: clamp(30px,5.5vw,44px); font-weight: 300; color: var(--navy); margin-top: 8px; line-height: 1.1; }
+.divider { width: 40px; height: 2px; background: var(--teal); margin: 20px 0; }
+.r-sec  { margin-bottom: 28px; }
+.r-lbl  { font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--teal); margin-bottom: 9px; }
+.r-pattern-name { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 600; color: var(--navy); margin-bottom: 10px; }
+.r-text { font-size: 15px; color: var(--navy); line-height: 1.8; max-width: 600px; }
+
+/* Pillar results grid */
+.p-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 9px; margin-top: 4px; }
+.p-cell { padding: 11px 13px; border-radius: 3px; border: 1.5px solid var(--border); }
+.p-cell.hit  { border-color: var(--teal); background: var(--lt); }
+.p-cell.miss { opacity: .4; }
+.p-cell-name { font-family: 'Cormorant Garamond', serif; font-size: 14px; font-weight: 600; color: var(--navy); }
+.p-cell.hit .p-cell-name { color: var(--teal); }
+.p-cell-tag  { font-size: 10px; color: var(--mid); margin-top: 2px; }
+.p-cell.hit .p-cell-tag { color: var(--teal); }
+
+/* Implication list */
+.impl-list { display: flex; flex-direction: column; gap: 14px; margin-top: 6px; }
+.impl-item { border-left: 3px solid var(--teal); padding-left: 16px; }
+.impl-area { font-family: 'Cormorant Garamond', serif; font-size: 16px; font-weight: 600; color: var(--teal); margin-bottom: 4px; }
+.impl-text { font-size: 14px; color: var(--navy); line-height: 1.75; }
+
+/* Financial projection block */
+.fin-block { background: var(--navy); color: white; padding: 28px 26px 30px; border-radius: 3px; margin: 24px 0; }
+.fin-lbl   { font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--tc); margin-bottom: 16px; }
+.fin-row   { display: flex; gap: 28px; flex-wrap: wrap; margin-bottom: 22px; }
+.fin-item-lbl { font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,0.85); margin-bottom: 4px; }
+.fin-item-val { font-family: 'Cormorant Garamond', serif; font-size: clamp(26px,4.5vw,36px); font-weight: 300; color: white; letter-spacing: -.01em; line-height: 1; }
+.fin-item-val.accent { color: var(--tc); }
+.fin-line  { width: 100%; height: 1px; background: rgba(255,255,255,0.35); margin: 18px 0; }
+.proj-table { width: 100%; border-collapse: collapse; }
+.proj-table th { font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,0.85); text-align: left; padding: 0 0 8px; font-weight: 400; }
+.proj-table td { font-size: 15px; color: white; padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.25); }
+.proj-table td:last-child { text-align: right; font-family: 'Cormorant Garamond', serif; font-size: 20px; color: var(--tc); }
+.proj-table tr:last-child td { border-bottom: none; }
+.fin-disc  { margin-top: 16px; font-size: 11px; color: rgba(255,255,255,0.85); line-height: 1.65; font-style: italic; }
+
+/* Lifestyle comparison */
+.compare-intro { font-size: 15px; color: var(--navy); line-height: 1.8; margin-bottom: 20px; max-width: 580px; }
+.compare-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.col-a { background: #EDE9E0; border: 1.5px solid var(--border); border-radius: 3px; padding: 20px; }
+.col-b { background: var(--lt); border: 2px solid var(--teal); border-radius: 3px; padding: 20px; }
+.col-head { font-size: 10px; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 12px; }
+.col-a .col-head { color: var(--mid); }
+.col-b .col-head { color: var(--teal); }
+.col-earning { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 400; margin-bottom: 14px; }
+.col-a .col-earning { color: var(--navy); }
+.col-b .col-earning { color: var(--teal); }
+.lf-item { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 9px; font-size: 13px; line-height: 1.5; }
+.lf-icon { font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+.lf-name { font-weight: 700; color: var(--navy); }
+.lf-status { font-size: 11px; margin-top: 1px; }
+.col-a .lf-status { color: #9A7B5A; }
+.col-b .lf-status { color: var(--teal); }
+.compare-stmt { margin-top: 20px; font-family: 'Cormorant Garamond', serif; font-size: clamp(17px,3vw,21px); font-style: italic; color: var(--navy); line-height: 1.6; max-width: 560px; border-left: 3px solid var(--teal); padding-left: 18px; }
+
+/* Next step */
+.next-block  { border-top: 1px solid var(--border); padding-top: 28px; }
+.next-text   { font-size: 15px; color: var(--navy); line-height: 1.8; max-width: 560px; margin-bottom: 16px; }
+.next-text.teal { font-style: italic; color: var(--teal); }
+.cta-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 8px; }
+.cta { display: inline-block; background: var(--teal); color: white; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; padding: 14px 32px; text-decoration: none; border-radius: 2px; transition: background .2s, transform .15s; }
+.cta:hover { background: var(--navy); transform: translateY(-1px); }
+.save-btn { background: none; border: 1.5px solid var(--border); color: var(--mid); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; padding: 12px 22px; cursor: pointer; border-radius: 2px; transition: border-color .2s, color .2s; font-family: Arial, sans-serif; }
+.save-btn:hover { border-color: var(--teal); color: var(--teal); }
+.pdf-note { margin-top: 10px; font-size: 11px; color: var(--mid); font-style: italic; }
+
+/* PDF branding footer */
+
+/* Footer */
+.foot { margin-top: 52px; padding-top: 18px; border-top: 1px solid var(--border); font-size: 11px; color: var(--mid); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+.foot a { color: var(--teal); text-decoration: none; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 520px) {
+  .pillars, .lifestyle, .compare-cols { grid-template-columns: 1fr; }
+  .p-grid { grid-template-columns: repeat(2,1fr); }
+}
+@media (max-width: 480px) {
+  .shell { padding: 0 16px 60px; }
+  .cta, .save-btn { display: block; text-align: center; width: 100%; margin-left: 0; }
+  .cta-row { flex-direction: column; }
+  .fin-row { gap: 18px; }
+}
+
+/* ══════════════════════════════════════
+   PRINT / PDF STYLES
+   ══════════════════════════════════════ */
+@media print {
+  @page { size: A4; margin: 18mm 16mm 18mm 16mm; }
+
+  .no-print { display: none !important; }
+
+  body { background: white; font-size: 11pt; color: #01293A; }
+  .shell { max-width: 100%; padding: 0; }
+
+  /* Hide all screens except result */
+  .screen { display: none !important; }
+  #sr { display: block !important; }
+
+  /* Print header */
+  .print-header { display: flex !important; justify-content: space-between; align-items: flex-start; padding-bottom: 10pt; border-bottom: 1pt solid #D9D2C5; margin-bottom: 14pt; }
+  .print-logo  { font-family: 'Cormorant Garamond', serif; font-size: 11pt; letter-spacing: .12em; text-transform: uppercase; color: #3D858C; font-weight: 500; }
+  .print-date  { font-size: 9pt; color: #6B8A90; }
+
+  /* Save banner hidden on print */
+  .save-bar { display: none !important; }
+
+  /* Typography for print */
+  .r-eyebrow { margin-top: 0; font-size: 8pt; }
+  .r-h { font-size: 22pt; margin-top: 4pt; }
+  .divider { margin: 10pt 0; }
+  .r-sec { margin-bottom: 16pt; page-break-inside: avoid; }
+  .r-lbl { font-size: 8pt; }
+  .r-pattern-name { font-size: 16pt; }
+  .r-text { font-size: 10pt; line-height: 1.6; }
+
+  /* Pillar grid */
+  .p-grid { grid-template-columns: repeat(3,1fr) !important; gap: 6pt; }
+  .p-cell { padding: 7pt 9pt; }
+  .p-cell-name { font-size: 10pt; }
+  .p-cell-tag  { font-size: 8pt; }
+
+  /* Implication list */
+  .impl-item { page-break-inside: avoid; }
+  .impl-area { font-size: 12pt; }
+  .impl-text { font-size: 9pt; }
+
+  /* Financial block */
+  .fin-block {
+    background: #01293A !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    color: white !important;
+    page-break-inside: avoid;
+    padding: 16pt;
+    border-radius: 2pt;
+  }
+  /* Force all text inside fin-block to be readable -- rgba values wash out in print */
+  .fin-lbl { font-size: 8pt; color: #C9F6FA !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .fin-item-lbl { color: #C9F6FA !important; opacity: 1 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .fin-item-val { font-size: 20pt; color: #FFFFFF !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .fin-item-val.accent { color: #C9F6FA !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .fin-line { background: rgba(255,255,255,0.4) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .proj-table th { color: #C9F6FA !important; opacity: 1 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .proj-table td { font-size: 10pt; padding: 5pt 0; color: #FFFFFF !important; border-bottom: 1pt solid rgba(255,255,255,0.35) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .proj-table td:last-child { font-size: 13pt; color: #C9F6FA !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .fin-disc { font-size: 8pt; color: #C9F6FA !important; opacity: 1 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* Lifestyle comparison */
+  .compare-cols { grid-template-columns: 1fr 1fr !important; gap: 10pt; page-break-inside: avoid; }
+  .col-a { background: #EDE9E0 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .col-b { background: #EBF4F5 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .col-earning { font-size: 16pt; }
+  .lf-item { font-size: 9pt; }
+  .compare-stmt { font-size: 11pt; }
+
+  /* Next step */
+  .next-block { page-break-inside: avoid; }
+  .next-text { font-size: 10pt; }
+  .cta { display: none; }
+  .cta-row::after { content: 'To book your conversation: enquiries.mariafuentes.co.uk/conversation'; display: block; font-size: 9pt; color: #3D858C; margin-top: 6pt; }
+  .save-btn, .pdf-note { display: none; }
+
+  /* Print footer */
+  .foot { display: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+
+<!-- ── SITE HEADER ── -->
+<header class="hdr no-print">
+  <div class="hdr-inner">
+    <div class="hdr-logo"><img id="site-logo" src="data:image/jpeg;base64,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" alt="Maria Fuentes Logo"></div>
+    <div>
+      <div class="hdr-title">Financial <span>Belief Profile</span></div>
+      <div class="hdr-sub">The Cost of This Belief &middot; Beyond Limits</div>
+    </div>
+  </div>
+</header>
+
+<!-- ── PROGRESS ── -->
+<div class="prog no-print" id="pg" style="display:none">
+  <div class="prog-track"><div class="prog-fill" id="pf" style="width:0%"></div></div>
+  <div class="prog-lbl" id="pl"></div>
+</div>
+
+<!-- ══ S0: INTRO ══ -->
+<div class="screen active" id="s0">
+  <div class="eyebrow">The Cost of This Belief</div>
+  <h1 class="h1">You have identified<br>the pattern.<br><em>Now let's see what it costs.</em></h1>
+  <p class="body-l">Your money story does not stay in your finances. It runs through your health, your relationships, your direction, and the life you are building. This exercise maps that cost precisely and shows you the financial gap in real numbers.</p>
+  <div class="steps">
+    <div class="step"><strong>One</strong> Which pattern resonated in the session.</div>
+    <div class="step"><strong>Two</strong> Which areas of your life it is currently costing you.</div>
+    <div class="step"><strong>Three</strong> Your numbers: what you earn today and what you would reasonably earn without this pattern.</div>
+    <div class="step"><strong>Four</strong> The life you are building: what you want it to include.</div>
+    <div class="step"><strong>Five</strong> The full cost, over 10, 20, and 30 years, across every area.</div>
+  </div>
+  <div class="privacy">
+    <strong>This is your document</strong>
+    Nothing you enter here is stored, transmitted, or visible to anyone else. This page has no server. When you close this tab, everything disappears. This is for you alone. Download or print it before you close.
+  </div>
+  <button class="btn" onclick="go('s1')">Begin</button>
+</div>
+
+<!-- ══ S1: PATTERN ══ -->
+<div class="screen" id="s1">
+  <div class="q-lbl">Step 1 of 4</div>
+  <h2 class="q-h">Which pattern created the strongest response when you read it?</h2>
+  <p class="q-sub">The one that tightened something. The one you recognised before you finished the sentence.</p>
+  <div class="cards" id="catCards">
+    <div class="card" data-c="1" onclick="pickCat(1)">
+      <div class="card-n">Pattern 1</div>
+      <div class="card-hl">"You know the work is worth more. You cannot bring yourself to say it."</div>
+      <div class="card-body">You are preparing your rate or writing a proposal. You know what the number should be. You say a lower one anyway, or hesitate, or soften it before anyone has objected. Afterwards you cannot fully explain why. You are not undercharging because the market will not support more. You are undercharging because something keeps deciding the permission has not been earned yet.</div>
+      <div class="card-emo">Guilt &middot; Shame &middot; Unworthiness</div>
+    </div>
+    <div class="card" data-c="2" onclick="pickCat(2)">
+      <div class="card-n">Pattern 2</div>
+      <div class="card-hl">"You keep your income quiet. Even when there is nothing to hide."</div>
+      <div class="card-body">You underplay what you earn. You deflect questions about your rate. You make yourself financially smaller in rooms where others earn more. Not because you are ashamed of the work. Something in you is uneasy about what changes when people start to see you differently. The ceiling is not a financial limit. It is a social one.</div>
+      <div class="card-emo">Fear of rejection &middot; Identity conflict &middot; Belonging</div>
+    </div>
+    <div class="card" data-c="3" onclick="pickCat(3)">
+      <div class="card-n">Pattern 3</div>
+      <div class="card-hl">"A good month feels like a countdown."</div>
+      <div class="card-body">The income arrives. And instead of relief there is a low hum of tension. A sense of waiting. As if financial gain carries an expiry date. You are not financially cautious. You are financially vigilant. Constantly scanning for the loss that must be coming. This pattern has kept you exactly comfortable enough. Never beyond it.</div>
+      <div class="card-emo">Anxiety &middot; Hypervigilance &middot; Dread</div>
+    </div>
+    <div class="card" data-c="4" onclick="pickCat(4)">
+      <div class="card-n">Pattern 4</div>
+      <div class="card-hl">"You see someone at the level you want. Your first thought is: yes, but they're different."</div>
+      <div class="card-body">Not different in skill. You have done the comparison. Different in some other way that is hard to name but places them in a category you do not belong to. Given your background. Given where you started. You stay productive, which means you rarely have to sit with the question directly. The ceiling was not built from evidence. It was installed before you had any.</div>
+      <div class="card-emo">Resignation &middot; Learned helplessness &middot; Quiet grief</div>
+    </div>
+  </div>
+  <button class="btn" id="bQ1" disabled onclick="go('s2')">Continue</button>
+  <div><button class="btn-back" onclick="go('s0')">&#8592; Back</button></div>
+</div>
+
+<!-- ══ S2: PILLARS ══ -->
+<div class="screen" id="s2">
+  <div class="q-lbl">Step 2 of 4</div>
+  <h2 class="q-h">Where is this pattern costing you?</h2>
+  <p class="q-sub">Your money story runs through every area of your life. Select every area where you can feel its impact. Choose as many as are true.</p>
+  <div class="pillars" id="pillarCards">
+    <div class="pillar" data-p="reg" onclick="togglePillar(this)">
+      <div class="p-lbl">Regulation</div>
+      <div class="p-name">Health and Nervous System</div>
+      <div class="p-desc">Financial stress has become a background setting. It affects your sleep, your body, your ability to rest and recover. You carry it physically.</div>
+    </div>
+    <div class="pillar" data-p="dir" onclick="togglePillar(this)">
+      <div class="p-lbl">Direction</div>
+      <div class="p-name">Vision and Goals</div>
+      <div class="p-desc">There are professional moves you have not made and a version of your future you have not fully committed to, because financial uncertainty has been part of the calculation.</div>
+    </div>
+    <div class="pillar" data-p="con" onclick="togglePillar(this)">
+      <div class="p-lbl">Connection</div>
+      <div class="p-name">Relationships</div>
+      <div class="p-desc">Money is a source of tension, avoidance, or silence in at least one relationship that matters to you. The conversation that has not happened is affecting the connection that has.</div>
+    </div>
+    <div class="pillar" data-p="com" onclick="togglePillar(this)">
+      <div class="p-lbl">Communication</div>
+      <div class="p-name">How You Speak About Your Worth</div>
+      <div class="p-desc">In professional conversations about your rate, your value, and your terms, you have said less than you know, agreed to less than you deserve, or left before the real number was named.</div>
+    </div>
+    <div class="pillar" data-p="idt" onclick="togglePillar(this)">
+      <div class="p-lbl">Identity</div>
+      <div class="p-name">Who You Believe You Are</div>
+      <div class="p-desc">Your sense of who you are, professionally and personally, is shaped by what you believe you are allowed to earn, charge, or want. The ceiling is not financial. It is about permission.</div>
+    </div>
+    <div class="pillar" data-p="pro" onclick="togglePillar(this)">
+      <div class="p-lbl">Prosperity</div>
+      <div class="p-name">Direct Financial Cost</div>
+      <div class="p-desc">Your current earnings do not fully reflect what your experience, skill, and contribution warrant. There is a gap between what you produce and what you allow yourself to receive.</div>
+    </div>
+  </div>
+  <button class="btn" id="bQ2" disabled onclick="go('s3')">Continue</button>
+  <div><button class="btn-back" onclick="go('s1')">&#8592; Back</button></div>
+</div>
+
+<!-- ══ S3: NUMBERS ══ -->
+<div class="screen" id="s3">
+  <div class="q-lbl">Step 3 of 4</div>
+  <h2 class="q-h">Your numbers.</h2>
+  <div class="pq">Not aspirational. Not a fantasy. What is reasonable, given your skills, your experience, and your market, if this pattern were not running.</div>
+  <p style="margin-top:16px;font-size:14px;color:var(--navy);line-height:1.75;max-width:500px">Enter both as annual figures. If your income varies, use a realistic annual average.</p>
+  <div class="num-frame">
+    <div class="num-group">
+      <label for="nCur">What you earn today (annual)</label>
+      <div class="num-row">
+        <div class="pfx">£</div>
+        <input class="num-input" id="nCur" type="text" placeholder="current" oninput="checkNums()" autocomplete="off" spellcheck="false">
+      </div>
+      <div class="num-hint">Day rate times working days, or annual salary.</div>
+    </div>
+    <div class="num-group">
+      <label for="nPot">What you would reasonably earn without this pattern (annual)</label>
+      <div class="num-row">
+        <div class="pfx">£</div>
+        <input class="num-input" id="nPot" type="text" placeholder="potential" oninput="checkNums()" autocomplete="off" spellcheck="false">
+      </div>
+      <div class="num-hint">Before you adjusted the number downward. Write that one.</div>
+    </div>
+  </div>
+  <button class="btn" id="bQ3" disabled onclick="go('s4')">Continue</button>
+  <div><button class="btn-back" onclick="go('s2')">&#8592; Back</button></div>
+</div>
+
+<!-- ══ S4: LIFESTYLE ══ -->
+<div class="screen" id="s4">
+  <div class="q-lbl">Step 4 of 4</div>
+  <h2 class="q-h">The life you are building.</h2>
+  <p class="q-sub">Set the pattern aside for a moment. Select the things that matter to you. Not what feels realistic right now. What you actually want.</p>
+  <div class="lifestyle" id="lifestyleCards">
+    <div class="lcard" data-l="travel" onclick="toggleLife(this)">
+      <div class="lc-icon">&#9992;</div>
+      <div class="lc-name">Travel</div>
+      <div class="lc-desc">Regular international trips. More than one a year. Destinations chosen freely, not rationed against what this month looked like.</div>
+    </div>
+    <div class="lcard" data-l="health" onclick="toggleLife(this)">
+      <div class="lc-icon">&#9825;</div>
+      <div class="lc-name">Private Healthcare</div>
+      <div class="lc-desc">Private healthcare for you and your family. Choices about how you manage your health, without waiting lists or compromises.</div>
+    </div>
+    <div class="lcard" data-l="home" onclick="toggleLife(this)">
+      <div class="lc-icon">&#8962;</div>
+      <div class="lc-name">Home</div>
+      <div class="lc-desc">The home you actually want. The right location, the right space, the step on the property ladder that reflects where you are professionally.</div>
+    </div>
+    <div class="lcard" data-l="family" onclick="toggleLife(this)">
+      <div class="lc-icon">&#10047;</div>
+      <div class="lc-name">Family and Education</div>
+      <div class="lc-desc">School choices. Opportunities for your children. The ability to support the people who depend on you without it becoming a source of strain.</div>
+    </div>
+    <div class="lcard" data-l="security" onclick="toggleLife(this)">
+      <div class="lc-icon">&#9646;</div>
+      <div class="lc-name">Financial Security</div>
+      <div class="lc-desc">A buffer that means a difficult month is not a crisis. Pension contributions that compound. Savings that build rather than stagnate.</div>
+    </div>
+    <div class="lcard" data-l="freedom" onclick="toggleLife(this)">
+      <div class="lc-icon">&#10022;</div>
+      <div class="lc-name">Professional Freedom</div>
+      <div class="lc-desc">The ability to make professional decisions from preference rather than financial pressure. To choose clients, roles, and projects. Not manage around them.</div>
+    </div>
+  </div>
+  <button class="btn" id="bQ4" disabled onclick="buildResult()">See the full cost</button>
+  <div><button class="btn-back" onclick="go('s3')">&#8592; Back</button></div>
+</div>
+
+<!-- ══ RESULTS ══ -->
+<div class="screen" id="sr">
+
+  <!-- Print header (only visible when printing) -->
+  <div class="print-header" style="display:none">
+    <div>
+      <div class="print-logo">Beyond Limits: Made for More</div>
+      <div style="font-size:8pt;color:#6B8A90;margin-top:2pt">The Prosperity Pavilion</div>
+    </div>
+    <div class="print-date" id="printDate"></div>
+  </div>
+
+  <div class="save-bar no-print">
+    <div class="save-bar-i">&#9888;</div>
+    <div><strong>This is your document. Save it now.</strong>Nothing here is stored or transmitted. This profile exists only on your screen. Use the Print or Save as PDF button below before closing this tab.</div>
+  </div>
+
+  <div class="r-eyebrow">The Cost of This Belief</div>
+  <h2 class="r-h" id="rHead"></h2>
+  <div class="divider"></div>
+
+  <div class="r-sec">
+    <div class="r-lbl">Your Pattern</div>
+    <div class="r-pattern-name" id="rName"></div>
+    <div class="r-text" id="rDesc"></div>
+  </div>
+
+  <div class="r-sec">
+    <div class="r-lbl">Where This Belief Is Running Your Life</div>
+    <div class="p-grid" id="rGrid"></div>
+  </div>
+
+  <div class="r-sec">
+    <div class="r-lbl">The Cost in Each Area</div>
+    <div class="impl-list" id="rImpl"></div>
+  </div>
+
+  <div class="fin-block">
+    <div class="fin-lbl">The Financial Cost</div>
+    <div class="fin-row">
+      <div>
+        <div class="fin-item-lbl">Earning today</div>
+        <div class="fin-item-val" id="fCur"></div>
+      </div>
+      <div>
+        <div class="fin-item-lbl">Reasonable potential</div>
+        <div class="fin-item-val" id="fPot"></div>
+      </div>
+      <div>
+        <div class="fin-item-lbl">Annual gap</div>
+        <div class="fin-item-val accent" id="fGap"></div>
+      </div>
+    </div>
+    <div class="fin-line"></div>
+    <table class="proj-table">
+      <tr><th>If this gap continues</th><th style="text-align:right">Uncaptured earnings</th></tr>
+      <tr><td>Over 10 years</td><td id="f10"></td></tr>
+      <tr><td>Over 20 years</td><td id="f20"></td></tr>
+      <tr><td>Over 30 years</td><td id="f30"></td></tr>
+    </table>
+    <div class="fin-disc">These are illustrative projections based on the figures you provided. They do not account for tax, inflation, career progression, or individual circumstances. They are intended to name the scale of the cost, not to constitute financial advice.</div>
+  </div>
+
+  <div class="r-sec">
+    <div class="r-lbl">The Life You Want to Build</div>
+    <p class="compare-intro" id="compareIntro"></p>
+    <div class="compare-cols">
+      <div class="col-a">
+        <div class="col-head">This pattern continues for 30 years</div>
+        <div class="col-earning" id="colACur"></div>
+        <div id="colAItems"></div>
+      </div>
+      <div class="col-b">
+        <div class="col-head">This pattern is addressed</div>
+        <div class="col-earning" id="colBPot"></div>
+        <div id="colBItems"></div>
+      </div>
+    </div>
+    <div class="compare-stmt">The difference between these two columns is not market conditions, timing, or luck. It is this pattern.</div>
+  </div>
+
+  <div class="next-block">
+    <div class="r-lbl">The Next Step</div>
+    <p class="next-text">This pattern has a source moment. That moment can be found. When the emotional charge attached to it is updated, the pattern no longer needs managing. It stops running by default.</p>
+    <p class="next-text">That work does not happen on a page. It happens in the room, in the session, in the decision made from a different place than the one that has been running by default.</p>
+    <p class="next-text teal">If you are ready to find out what that looks like for you, the conversation is the first step.</p>
+    <div class="cta-row">
+      <a class="cta" href="https://enquiries.mariafuentes.co.uk/conversation" target="_blank">Book your conversation</a>
+      <button class="save-btn" id="dlBtn" onclick="downloadPDF()">Download PDF</button>
+    </div>
+  </div>
+
+</div><!-- /sr -->
+
+<footer class="foot no-print" style="background:var(--navy);color:rgba(255,255,255,0.85);text-align:center;padding:18px;font-size:12px;margin-top:60px;border-top:none;display:block;">
+  Maria Fuentes &nbsp;|&nbsp; mariafuentes.co.uk &nbsp;|&nbsp; &copy; Hypnotika Mente Ltd 2026
+</footer>
+</div><!-- /shell -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+/* ── STATE ── */
+const S = { cat: null, pillars: new Set(), cur: 0, pot: 0, lifestyle: new Set() };
+
+/* ── CONTENT ── */
+const PATTERNS = {
+  1: { name: 'The Worthiness Ceiling',  desc: 'You are not undercharging because the market will not support more. A belief installed long before your professional standing keeps deciding the permission has not been earned yet. The standard keeps moving. The proof never feels complete. This is not a pricing problem. It is a subconscious one. It has been running your financial ceiling without your conscious agreement.' },
+  2: { name: 'The Identity Boundary',   desc: 'The ceiling on your income is not a financial limit. It is a social one, drawn by a nervous system that learned early that being seen as too successful meant risking being seen as different. You have been making yourself financially smaller in order to stay safe in the rooms that matter. That calculus happens beneath awareness. It is not a character flaw. It is a pattern that can be changed.' },
+  3: { name: 'The Safety Lock',         desc: 'This is not financial caution. It is a survival pattern that learned to associate financial gain with incoming loss. Staying at a familiar level feels like protection. Exceeding it triggers vigilance rather than confidence. The pattern has been keeping you exactly comfortable enough. It has treated anything beyond that as a threat to be managed rather than an outcome to be built toward.' },
+  4: { name: 'The Possibility Wall',    desc: 'The ceiling was not built from evidence. It was installed before you had the standing, the track record, or the authority to question it. Staying productive means you rarely have to sit with the question directly. But the wall is still there: in the opportunity dismissed before investigating it, in the rate not quoted, in the version of your own story you have accepted as fixed when it is not.' }
+};
+
+const PILLARS_META = {
+  reg: { name: 'Regulation',    tag: 'Health and Nervous System' },
+  dir: { name: 'Direction',     tag: 'Vision and Goals' },
+  con: { name: 'Connection',    tag: 'Relationships' },
+  com: { name: 'Communication', tag: 'Worth and Voice' },
+  idt: { name: 'Identity',      tag: 'Self-Concept' },
+  pro: { name: 'Prosperity',    tag: 'Direct Financial Cost' }
+};
+const ALL_PILLARS = ['reg','dir','con','com','idt','pro'];
+
+const IMPL = {
+  reg: 'A nervous system running in low-level financial threat accumulates costs over time. Disrupted sleep. Sustained cortisol elevation. Reduced capacity for recovery and clear decision-making. Over years, the physical cost of carrying this is not abstract.',
+  dir: 'Professional moves not made have a compound cost. The decision deferred this year affects the trajectory of the next five. The ceiling accepted now is the ceiling carried forward: in role, in rate, in the scope of what you back yourself to pursue.',
+  con: 'Financial stress is one of the most consistent sources of relationship strain. Conversations avoided. Resentments unnamed. Generosity withheld, not from indifference but from scarcity thinking. Over time, the financial pattern shapes the relational one.',
+  com: 'Every professional conversation where you understated your value reinforced the pattern and potentially left income on the table. The cumulative effect of under-negotiating across a career is substantial, in money and in how others calibrate what you are worth.',
+  idt: 'A self-concept built around financial constraint affects how you present, what you pursue, and what you allow yourself to want. The professional version of you that operated without this pattern would make different decisions in every room it entered.',
+  pro: 'The direct financial cost is visible in the gap between your current earnings and what your skill, experience, and contribution reasonably support. That gap is not a market problem. It is a subconscious permission problem. It compounds every year it goes unaddressed.'
+};
+
+const LIFESTYLE_META = {
+  travel:   { name: 'Travel',                icon: '&#9992;',  strainA: 'Rationed or deferred',        readyB: 'Viable' },
+  health:   { name: 'Private Healthcare',    icon: '&#9825;',  strainA: 'Delayed or compromised',      readyB: 'Affordable' },
+  home:     { name: 'Home',                  icon: '&#8962;',  strainA: 'Under financial pressure',    readyB: 'Within reach' },
+  family:   { name: 'Family and Education',  icon: '&#10047;', strainA: 'Constrained by the gap',      readyB: 'Fundable' },
+  security: { name: 'Financial Security',    icon: '&#9646;',  strainA: 'Stagnating, not compounding', readyB: 'Building' },
+  freedom:  { name: 'Professional Freedom',  icon: '&#10022;', strainA: 'Managed around, not chosen',  readyB: 'Available' }
+};
+
+/* ── NAVIGATION ── */
+function go(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  const PCT = { s0: null, s1: 25, s2: 50, s3: 75, s4: 100, sr: 100 };
+  const LBL = { s1: 'Step 1 of 4: Your Pattern', s2: 'Step 2 of 4: Life Areas', s3: 'Step 3 of 4: Your Numbers', s4: 'Step 4 of 4: Your Lifestyle', sr: 'Your Profile' };
+  const wrap = document.getElementById('pg');
+  if (id !== 's0') {
+    wrap.style.display = 'block';
+    document.getElementById('pf').style.width = PCT[id] + '%';
+    document.getElementById('pl').textContent  = LBL[id] || '';
+  } else { wrap.style.display = 'none'; }
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/* ── SELECTIONS ── */
+function pickCat(n) {
+  S.cat = n;
+  document.querySelectorAll('#catCards .card').forEach(c => c.classList.toggle('sel', +c.dataset.c === n));
+  document.getElementById('bQ1').disabled = false;
+}
+
+function togglePillar(el) {
+  const k = el.dataset.p;
+  el.classList.toggle('sel');
+  S.pillars.has(k) ? S.pillars.delete(k) : S.pillars.add(k);
+  document.getElementById('bQ2').disabled = S.pillars.size === 0;
+}
+
+function toggleLife(el) {
+  const k = el.dataset.l;
+  el.classList.toggle('sel');
+  S.lifestyle.has(k) ? S.lifestyle.delete(k) : S.lifestyle.add(k);
+  document.getElementById('bQ4').disabled = S.lifestyle.size === 0;
+}
+
+/* ── NUMBER UTILITIES ── */
+function parseAmt(s) {
+  if (!s) return 0;
+  s = s.toLowerCase().replace(/[£$,\s]/g, '');
+  if (s.endsWith('k')) return parseFloat(s) * 1000;
+  if (s.endsWith('m')) return parseFloat(s) * 1000000;
+  return parseFloat(s) || 0;
+}
+function fmtFull(n)  { return '£' + Math.round(n).toLocaleString('en-GB'); }
+function fmtShort(n) {
+  if (n >= 1000000) return '£' + (n / 1000000).toFixed(1) + 'm';
+  if (n >= 1000)    return '£' + Math.round(n / 1000) + 'k';
+  return '£' + Math.round(n).toLocaleString('en-GB');
+}
+
+function checkNums() {
+  S.cur = parseAmt(document.getElementById('nCur').value);
+  S.pot = parseAmt(document.getElementById('nPot').value);
+  document.getElementById('bQ3').disabled = !(S.cur > 0 && S.pot > 0);
+}
+
+/* ── BUILD RESULTS ── */
+function buildResult() {
+  S.cur = parseAmt(document.getElementById('nCur').value);
+  S.pot = parseAmt(document.getElementById('nPot').value);
+  const gap  = Math.max(0, S.pot - S.cur);
+  const p    = PATTERNS[S.cat];
+  const lsel = [...S.lifestyle];
+  const psel = [...S.pillars];
+
+  /* Print date */
+  document.getElementById('printDate').textContent = new Date().toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
+
+  /* Pattern */
+  document.getElementById('rHead').textContent = p.name;
+  document.getElementById('rName').textContent = p.name;
+  document.getElementById('rDesc').textContent = p.desc;
+
+  /* Pillar grid */
+  const grid = document.getElementById('rGrid');
+  grid.innerHTML = '';
+  ALL_PILLARS.forEach(k => {
+    const m    = PILLARS_META[k];
+    const hit  = S.pillars.has(k);
+    const cell = document.createElement('div');
+    cell.className = 'p-cell ' + (hit ? 'hit' : 'miss');
+    cell.innerHTML = `<div class="p-cell-name">${m.name}</div><div class="p-cell-tag">${hit ? 'Affected' : 'Not selected'}</div>`;
+    grid.appendChild(cell);
+  });
+
+  /* Implications */
+  const impl = document.getElementById('rImpl');
+  impl.innerHTML = '';
+  psel.forEach(k => {
+    const m   = PILLARS_META[k];
+    const div = document.createElement('div');
+    div.className = 'impl-item';
+    div.innerHTML = `<div class="impl-area">${m.name}: ${m.tag}</div><div class="impl-text">${IMPL[k]}</div>`;
+    impl.appendChild(div);
+  });
+
+  /* Financials */
+  document.getElementById('fCur').textContent = fmtShort(S.cur);
+  document.getElementById('fPot').textContent = fmtShort(S.pot);
+  document.getElementById('fGap').textContent = gap > 0 ? fmtShort(gap) + ' / year' : 'At stated potential';
+  document.getElementById('f10').textContent  = fmtFull(gap * 10);
+  document.getElementById('f20').textContent  = fmtFull(gap * 20);
+  document.getElementById('f30').textContent  = fmtFull(gap * 30);
+
+  /* Lifestyle comparison */
+  document.getElementById('compareIntro').textContent =
+    'Below are the two versions of the next 30 years, based on the figures you provided and the lifestyle you described. ' +
+    'One is the trajectory if this pattern continues. The other is what becomes available when it is addressed.';
+
+  document.getElementById('colACur').textContent = fmtShort(S.cur) + ' / year';
+  document.getElementById('colBPot').textContent = fmtShort(S.pot) + ' / year';
+
+  const colA = document.getElementById('colAItems');
+  const colB = document.getElementById('colBItems');
+  colA.innerHTML = '';
+  colB.innerHTML = '';
+
+  lsel.forEach(k => {
+    const m  = LIFESTYLE_META[k];
+    const dA = document.createElement('div');
+    dA.className = 'lf-item';
+    dA.innerHTML = `<div class="lf-icon">${m.icon}</div><div><div class="lf-name">${m.name}</div><div class="lf-status">${m.strainA}</div></div>`;
+    colA.appendChild(dA);
+
+    const dB = document.createElement('div');
+    dB.className = 'lf-item';
+    dB.innerHTML = `<div class="lf-icon">${m.icon}</div><div><div class="lf-name">${m.name}</div><div class="lf-status">${m.readyB}</div></div>`;
+    colB.appendChild(dB);
+  });
+
+  go('sr');
+}
+
+/* ── PDF DOWNLOAD ── */
+function downloadPDF() {
+  var jsPDFLib = (window.jspdf && window.jspdf.jsPDF) || window.jsPDF;
+  if (!jsPDFLib) { alert('PDF library not loaded.'); return; }
+  var doc = new jsPDFLib({ unit:'mm', format:'a4' });
+  var pW=210, pH=297, mg=20, cW=170;
+  var logoData = document.getElementById('site-logo').src;
+
+  function fc(r,g,b){ doc.setFillColor(r,g,b); }
+  function tc(r,g,b){ doc.setTextColor(r,g,b); }
+  function dc(r,g,b){ doc.setDrawColor(r,g,b); }
+
+  // Custom number formatter -- avoids toLocaleString inconsistencies in PDF context
+  function commas(n){
+    var s = String(Math.round(n));
+    var result = '';
+    for(var i=0; i<s.length; i++){
+      if(i>0 && (s.length-i)%3===0) result += ',';
+      result += s[i];
+    }
+    return result;
+  }
+  function pFull(n){ return '\u00A3' + commas(Math.round(n)); }
+  function pShort(n){
+    n = Math.round(n);
+    if(n>=1000000) return '\u00A3' + (n/1000000).toFixed(1).replace(/\.0$/,'') + 'm';
+    if(n>=1000) return '\u00A3' + Math.round(n/1000) + 'k';
+    return '\u00A3' + commas(n);
+  }
+
+  function drawHeader(){
+    fc(1,41,58); doc.rect(0,0,pW,50,'F');
+    fc(61,133,140); doc.rect(0,50,pW,2.5,'F');
+    try{ doc.addImage(logoData,'PNG',mg,10,28,28); }catch(e){}
+    doc.setFont('helvetica','bold'); doc.setFontSize(20); tc(255,255,255);
+    doc.text('Financial Belief Profile', mg+34, 27);
+    doc.setFont('helvetica','italic'); doc.setFontSize(10); tc(201,246,250);
+    doc.text('The Cost of This Belief  \u2022  Beyond Limits', mg+34, 36);
+    doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(150,190,195);
+    doc.text('mariafuentes.co.uk', pW-mg, 46, {align:'right'});
+  }
+  function drawPageHeader(){
+    fc(1,41,58); doc.rect(0,0,pW,18,'F');
+    fc(61,133,140); doc.rect(0,18,pW,2,'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(201,246,250);
+    doc.text('Financial Belief Profile  \u2022  Maria Fuentes', mg, 13);
+    doc.setFont('helvetica','normal'); tc(150,190,195);
+    doc.text('mariafuentes.co.uk', pW-mg, 13, {align:'right'});
+  }
+  function drawFooter(){
+    fc(1,41,58); doc.rect(0,pH-12,pW,12,'F');
+    doc.setFont('helvetica','normal'); doc.setFontSize(7.5); tc(201,246,250);
+    doc.text('\u00A9 Hypnotika Mente Ltd 2026  \u2022  Maria Fuentes  \u2022  mariafuentes.co.uk', pW/2, pH-5, {align:'center'});
+  }
+  function newPage(){ drawFooter(); doc.addPage(); drawPageHeader(); return 28; }
+  function checkY(y, needed){ return (y+needed > pH-18) ? newPage() : y; }
+
+  function secHead(y, label){
+    y = checkY(y, 14);
+    fc(232,247,248); doc.rect(mg,y,cW,10,'F');
+    dc(61,133,140); doc.rect(mg,y,3,10,'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(10); tc(1,41,58);
+    doc.text(label, mg+7, y+7);
+    return y+14;
+  }
+  function bodyText(y, text, indent){
+    indent = indent||0;
+    doc.setFont('helvetica','normal'); doc.setFontSize(10); tc(1,41,58);
+    var lines = doc.splitTextToSize(text, cW-indent);
+    lines.forEach(function(line){
+      y = checkY(y,6); doc.text(line, mg+indent, y); y+=6;
+    });
+    return y+2;
+  }
+
+  // ── DATA ──────────────────────────────────────────────────────
+  var p    = PATTERNS[S.cat] || { name:'Not selected', desc:'' };
+  var gap  = Math.round(Math.max(0, S.pot - S.cur)); // round once, use integer throughout
+  var psel = [...S.pillars];
+  var lsel = [...S.lifestyle];
+
+  // ── PAGE 1 ────────────────────────────────────────────────────
+  drawHeader(); drawFooter();
+  var y = 62;
+
+  // Pattern name + description
+  y = secHead(y, 'Your Pattern');
+  doc.setFont('helvetica','bold'); doc.setFontSize(13); tc(1,41,58);
+  y = checkY(y,9); doc.text(p.name, mg+4, y); y+=10;
+  y = bodyText(y, p.desc, 4);
+  y += 4;
+
+  // Pillar grid (2 rows of 3)
+  y = secHead(y, 'Where This Belief Is Running Your Life');
+  var cellW = (cW-8)/3;
+  var cellH = 16;
+  ['reg','dir','con','com','idt','pro'].forEach(function(k, i){
+    var m   = PILLARS_META[k];
+    var hit = S.pillars.has(k);
+    var col = i % 3;
+    var row = Math.floor(i/3);
+    var cx  = mg + col*(cellW+4);
+    var cy  = y + row*(cellH+3);
+    if(col===0 && row===0) y = checkY(y, (cellH+3)*2);
+    fc(hit?232:248, hit?247:248, hit?248:248); doc.rect(cx,cy,cellW,cellH,'F');
+    dc(hit?61:210, hit?133:210, hit?140:210); doc.rect(cx,cy,cellW,cellH,'S');
+    if(hit){ dc(61,133,140); doc.rect(cx,cy,3,cellH,'F'); }
+    doc.setFont('helvetica','bold'); doc.setFontSize(9);
+    hit ? tc(61,133,140) : tc(180,180,180);
+    doc.text(m.name, cx+6, cy+7);
+    doc.setFont('helvetica','normal'); doc.setFontSize(8);
+    hit ? tc(61,133,140) : tc(190,190,190);
+    doc.text(hit?'Affected':'Not selected', cx+6, cy+12);
+  });
+  y += (cellH+3)*2 + 4;
+
+  // Implications
+  if(psel.length > 0){
+    y = secHead(y, 'The Cost in Each Area');
+    psel.forEach(function(k){
+      var m = PILLARS_META[k];
+      y = checkY(y,20);
+      fc(61,133,140); doc.rect(mg,y,3,14,'F');
+      doc.setFont('helvetica','bold'); doc.setFontSize(10); tc(61,133,140);
+      doc.text(m.name + ': ' + m.tag, mg+7, y+8);
+      y += 14;
+      y = bodyText(y, IMPL[k], 7);
+      y += 2;
+    });
+  }
+
+  // ── FINANCIAL BLOCK ───────────────────────────────────────────
+  var finH = 58;
+  y = checkY(y, finH+4);
+  fc(1,41,58); doc.rect(mg,y,cW,finH,'F');
+
+  // Title
+  doc.setFont('helvetica','bold'); doc.setFontSize(8); tc(201,246,250);
+  doc.text('THE FINANCIAL COST', mg+5, y+8);
+
+  // Three columns
+  var colLabels = ['EARNING TODAY','REASONABLE POTENTIAL','ANNUAL GAP'];
+  var colVals   = [pShort(S.cur), pShort(S.pot), gap>0 ? pShort(gap)+' / year' : 'At potential'];
+  var colX      = [mg+5, mg+5+cW/3, mg+5+2*cW/3];
+  colLabels.forEach(function(lbl,i){
+    doc.setFont('helvetica','normal'); doc.setFontSize(7.5); tc(201,246,250);
+    doc.text(lbl, colX[i], y+15);
+    doc.setFont('helvetica','bold'); doc.setFontSize(i===2?13:15);
+    i===2 ? tc(201,246,250) : tc(255,255,255);
+    doc.text(colVals[i], colX[i], y+25);
+  });
+
+  // Divider
+  fc(61,133,140); doc.rect(mg+4, y+30, cW-8, 0.6,'F');
+
+  // Projection rows
+  var projData = [
+    ['Over 10 years', pFull(gap*10)],
+    ['Over 20 years', pFull(gap*20)],
+    ['Over 30 years', pFull(gap*30)]
+  ];
+  projData.forEach(function(row,i){
+    var ry = y+37+i*8;
+    doc.setFont('helvetica','normal'); doc.setFontSize(9.5); tc(255,255,255);
+    doc.text(row[0], mg+5, ry);
+    doc.setFont('helvetica','bold'); doc.setFontSize(11); tc(201,246,250);
+    doc.text(row[1], mg+cW-5, ry, {align:'right'});
+  });
+  y += finH + 8;
+
+  // ── LIFESTYLE COMPARISON ──────────────────────────────────────
+  if(lsel.length > 0){
+    y = secHead(y, 'The Life You Want to Build');
+    var hW = (cW-5)/2;
+
+    // Column header row
+    y = checkY(y,12);
+    fc(237,233,224); doc.rect(mg,y,hW,10,'F');
+    fc(232,247,248); doc.rect(mg+hW+5,y,hW,10,'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(7.5); tc(107,138,144);
+    doc.text('THIS PATTERN CONTINUES', mg+4, y+7);
+    tc(61,133,140);
+    doc.text('THIS PATTERN IS ADDRESSED', mg+hW+9, y+7);
+    y += 10;
+
+    // Earnings row
+    y = checkY(y,10);
+    fc(237,233,224); doc.rect(mg,y,hW,9,'F');
+    fc(232,247,248); doc.rect(mg+hW+5,y,hW,9,'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(11); tc(1,41,58);
+    doc.text(pShort(S.cur)+' / year', mg+4, y+7);
+    tc(61,133,140);
+    doc.text(pShort(S.pot)+' / year', mg+hW+9, y+7);
+    y += 10;
+
+    // Lifestyle item rows
+    lsel.forEach(function(k){
+      var m = LIFESTYLE_META[k];
+      var rowH = 13;
+      y = checkY(y, rowH);
+      fc(237,233,224); doc.rect(mg, y, hW, rowH,'F');
+      fc(232,247,248); doc.rect(mg+hW+5, y, hW, rowH,'F');
+      doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(1,41,58);
+      doc.text(m.name, mg+4, y+6);
+      doc.setFont('helvetica','normal'); doc.setFontSize(8); tc(140,100,70);
+      doc.text(m.strainA, mg+4, y+11);
+      doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(61,133,140);
+      doc.text(m.name, mg+hW+9, y+6);
+      doc.setFont('helvetica','normal'); doc.setFontSize(8); tc(61,133,140);
+      doc.text(m.readyB, mg+hW+9, y+11);
+      y += rowH;
+    });
+    y += 6;
+  }
+
+  // ── NEXT STEP ─────────────────────────────────────────────────
+  var nsText = 'This pattern has a source moment. When the emotional charge attached to it is updated, the pattern no longer needs managing. It stops running by default. To book a conversation: enquiries.mariafuentes.co.uk/conversation';
+  var nsLines = doc.splitTextToSize(nsText, cW-10);
+  var nsH = nsLines.length*6 + 12;
+  y = checkY(y, nsH);
+  fc(232,247,248); doc.rect(mg,y,cW,nsH,'F');
+  dc(61,133,140); doc.rect(mg,y,3,nsH,'F');
+  doc.setFont('helvetica','italic'); doc.setFontSize(10); tc(1,41,58);
+  nsLines.forEach(function(line,i){ doc.text(line, mg+7, y+8+(i*6)); });
+
+  drawFooter();
+  doc.save('financial-belief-profile.pdf');
+}
+</script>
+</body>
+</html>
