@@ -711,7 +711,7 @@ function downloadPDF(){
   y=cy(y,14);
   fc(61,133,140);doc.roundedRect(mg,y,cW,13,3,3,'F');
   doc.setFont('helvetica','bold');doc.setFontSize(10.5);tc(255,255,255);
-  doc.textWithLink('Book your conversation  \u2192  enquiries.mariafuentes.co.uk/conversation',pW/2,y+8.5,{align:'center',url:'https://enquiries.mariafuentes.co.uk/conversation'});
+  doc.textWithLink('Book your conversation',pW/2,y+8.5,{align:'center',url:'https://enquiries.mariafuentes.co.uk/conversation'});
 
   drawFooter();
   doc.save('evaluate-your-journey.pdf');
