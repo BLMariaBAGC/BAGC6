@@ -148,6 +148,23 @@
       body { padding: 24px 14px 48px; }
     }
 
+    /* Card image */
+    .card-img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 11px 11px 0 0;
+      display: block;
+      background: var(--navy-mid);
+    }
+
+    .card-img-placeholder {
+      width: 100%;
+      height: 6px;
+      background: linear-gradient(90deg, var(--teal), var(--turq));
+      border-radius: 11px 11px 0 0;
+    }
+
     /* Card */
     .card {
       background: var(--glass);
@@ -322,7 +339,7 @@
   <header class="header">
     <p class="header-eyebrow">Beyond Limits</p>
     <h1>The <em>Knowledge</em> Feed</h1>
-    <p class="header-sub">Curated reads on neuroscience, leadership, and the science of performance</p>
+    <p class="header-sub">Curated reads on neuroscience, business, leadership, and the science of performance</p>
     <div class="divider"></div>
   </header>
 
@@ -374,6 +391,10 @@ function renderGrid() {
     card.className = 'card';
     card.style.animationDelay = `${Math.min(i * 40, 400)}ms`;
     card.innerHTML = `
+      ${art.image
+        ? `<img class="card-img" src="${art.image}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">`
+        : ''}
+      <div class="card-img-placeholder" style="${art.image ? 'display:none' : ''}"></div>
       <div class="card-body">
         <div class="card-meta">
           <span class="source-badge">${art.source}</span>
