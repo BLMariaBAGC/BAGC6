@@ -3,10 +3,10 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 FEEDS = [
-    {"id": "sciencedaily",  "label": "ScienceDaily",            "url": "https://www.sciencedaily.com/rss/mind_brain.xml",             "count": 6},
-    {"id": "neuronews",     "label": "Neuroscience News",       "url": "https://neurosciencenews.com/feed/",                          "count": 6},
-    {"id": "bps",           "label": "BPS Research Digest",     "url": "https://www.bps.org.uk/research-digest/feed",                 "count": 6},
-    {"id": "hbr",           "label": "Harvard Business Review", "url": "http://feeds.harvardbusiness.org/harvardbusiness",            "count": 6},
+    {"id": "sciencedaily",  "label": "ScienceDaily",            "url": "https://www.sciencedaily.com/rss/mind_brain.xml",             "count": 8},
+    {"id": "neuronews",     "label": "Neuroscience News",       "url": "https://neurosciencenews.com/feed/",                          "count": 8},
+    {"id": "bps",           "label": "BPS Research Digest",     "url": "https://digest.bps.org.uk/feed/",                            "count": 6},
+    {"id": "hbr",           "label": "Harvard Business Review", "url": "http://feeds.harvardbusiness.org/harvardbusiness",            "count": 8},
     {"id": "lse",           "label": "LSE Business Review",     "url": "https://blogs.lse.ac.uk/businessreview/feed/",               "count": 6},
     {"id": "bbc",           "label": "BBC Business",            "url": "https://feeds.bbci.co.uk/news/business/rss.xml",             "count": 6},
 ]
@@ -15,6 +15,18 @@ MEDIA_NS   = 'http://search.yahoo.com/mrss/'
 ATOM_NS    = 'http://www.w3.org/2005/Atom'
 CONTENT_NS = 'http://purl.org/rss/1.0/modules/content/'
 DC_NS      = 'http://purl.org/dc/elements/1.1/'
+
+BLOCKED = [
+    re.compile(r'sponsor', re.I),
+    re.compile(r'advertisement', re.I),
+    re.compile(r'invest northern ireland', re.I),
+]
+
+def is_clean(title, excerpt):
+    for rx in BLOCKED:
+        if rx.search(title) or rx.search(excerpt):
+            return False
+    return True
 
 def clean(text):
     if not text:
@@ -84,19 +96,25 @@ def fetch(feed):
 
     items = []
 
-    for item in root.findall('.//item')[:feed['count']]:
+    for item in root.findall('.//item')[:feed['count'] + 4]:  # fetch extra to allow filtering
         g        = lambda t: (item.findtext(t) or '').strip()
         desc_raw = item.findtext(f'{{{CONTENT_NS}}}encoded') or g('description') or ''
-        image    = extract_image(item, desc_raw)
+        title    = g('title') or 'Untitled'
+        excerpt  = clean(desc_raw)
+        if not is_clean(title, excerpt):
+            continue
+        image = extract_image(item, desc_raw)
         items.append({
             'source':  feed['label'],
             'feedId':  feed['id'],
-            'title':   g('title') or 'Untitled',
+            'title':   title,
             'link':    g('link') or g('guid') or '#',
             'date':    fmt_date(g('pubDate') or item.findtext(f'{{{DC_NS}}}date') or ''),
-            'excerpt': clean(desc_raw),
+            'excerpt': excerpt,
             'image':   image,
         })
+        if len(items) >= feed['count']:
+            break
 
     if not items:
         for entry in root.findall(f'{{{ATOM_NS}}}entry')[:feed['count']]:
@@ -105,14 +123,18 @@ def fetch(feed):
                         or entry.find(f'{{{ATOM_NS}}}link'))
             href     = lnk.get('href', '#') if lnk is not None else '#'
             desc_raw = g('summary') or g('content')
-            image    = extract_image(entry, desc_raw)
+            title    = g('title') or 'Untitled'
+            excerpt  = clean(desc_raw)
+            if not is_clean(title, excerpt):
+                continue
+            image = extract_image(entry, desc_raw)
             items.append({
                 'source':  feed['label'],
                 'feedId':  feed['id'],
-                'title':   g('title') or 'Untitled',
+                'title':   title,
                 'link':    href,
                 'date':    fmt_date(g('published') or g('updated')),
-                'excerpt': clean(desc_raw),
+                'excerpt': excerpt,
                 'image':   image,
             })
 
