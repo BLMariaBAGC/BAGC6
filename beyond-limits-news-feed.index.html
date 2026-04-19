@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Knowledge Feed</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy:      #01293A;
+      --navy-mid:  #03374e;
+      --teal:      #3D858C;
+      --teal-dark: #2e636a;
+      --turq:      #C9F6FA;
+      --white:     #ffffff;
+      --glass:     rgba(255,255,255,0.05);
+      --glass-border: rgba(255,255,255,0.1);
+      --text-muted: rgba(255,255,255,0.55);
+      --text-dim:   rgba(255,255,255,0.35);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--navy);
+      color: var(--white);
+      min-height: 100vh;
+      padding: 32px 20px 48px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Subtle background texture */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 50% at 20% 10%, rgba(61,133,140,0.12) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 80% 80%, rgba(201,246,250,0.06) 0%, transparent 55%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .page-wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .header-eyebrow {
+      font-size: 0.68rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 10px;
+    }
+
+    .header h1 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.15;
+    }
+
+    .header h1 em {
+      font-style: italic;
+      color: var(--turq);
+    }
+
+    .header-sub {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 8px;
+      font-weight: 300;
+    }
+
+    /* Divider */
+    .divider {
+      width: 48px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--teal), transparent);
+      margin: 14px auto 0;
+    }
+
+    /* Filter bar */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 32px;
+    }
+
+    .filter-btn {
+      background: transparent;
+      border: 1px solid var(--glass-border);
+      color: var(--text-muted);
+      padding: 7px 16px;
+      border-radius: 30px;
+      font-size: 0.75rem;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s, color 0.2s;
+      -webkit-tap-highlight-color: transparent;
+      white-space: nowrap;
+    }
+
+    .filter-btn:hover {
+      border-color: var(--teal);
+      color: var(--white);
+    }
+
+    .filter-btn.active {
+      background: var(--teal);
+      border-color: var(--teal);
+      color: var(--white);
+      font-weight: 500;
+    }
+
+    /* Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 540px) {
+      .grid { grid-template-columns: 1fr; gap: 14px; }
+      body { padding: 24px 14px 48px; }
+    }
+
+    /* Card */
+    .card {
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+      animation: fadeUp 0.4s ease both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.35);
+      border-color: rgba(61,133,140,0.35);
+    }
+
+    .card-body {
+      padding: 18px 18px 12px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+
+    .source-badge {
+      font-size: 0.62rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      background: rgba(61,133,140,0.25);
+      border: 1px solid rgba(61,133,140,0.45);
+      color: var(--turq);
+      padding: 3px 9px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+
+    .card-date {
+      font-size: 0.68rem;
+      color: var(--text-dim);
+      font-weight: 300;
+    }
+
+    .card-title {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.38;
+      color: var(--white);
+      margin-bottom: 9px;
+    }
+
+    .card-excerpt {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+      font-weight: 300;
+      flex: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-footer {
+      padding: 0 18px 14px;
+    }
+
+    .read-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.72rem;
+      font-weight: 500;
+      color: var(--teal);
+      text-decoration: none;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: color 0.18s, gap 0.18s;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .read-link:hover { color: var(--turq); gap: 10px; }
+
+    .read-link svg {
+      width: 12px;
+      height: 12px;
+      transition: transform 0.18s;
+    }
+
+    .read-link:hover svg { transform: translateX(3px); }
+
+    /* Loading & states */
+    .state-block {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    .spinner {
+      width: 30px;
+      height: 30px;
+      border: 2px solid rgba(255,255,255,0.12);
+      border-top-color: var(--teal);
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+      margin: 0 auto 16px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .state-label {
+      font-size: 0.82rem;
+      font-weight: 300;
+    }
+
+    /* Counts */
+    .count-bar {
+      text-align: center;
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      margin-bottom: 20px;
+    }
+
+    /* Footer */
+    .page-footer {
+      text-align: center;
+      margin-top: 48px;
+      font-size: 0.67rem;
+      color: var(--text-dim);
+      letter-spacing: 0.04em;
+    }
+
+    .refresh-btn {
+      background: transparent;
+      border: 1px solid var(--glass-border);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.7rem;
+      font-family: 'DM Sans', sans-serif;
+      cursor: pointer;
+      margin-left: 12px;
+      transition: all 0.2s;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .refresh-btn:hover {
+      border-color: var(--teal);
+      color: var(--white);
+    }
+  </style>
+</head>
+<body>
+
+<div class="page-wrap">
+
+  <header class="header">
+    <p class="header-eyebrow">Beyond Limits</p>
+    <h1>The <em>Knowledge</em> Feed</h1>
+    <p class="header-sub">Curated reads on neuroscience, leadership, and the science of performance</p>
+    <div class="divider"></div>
+  </header>
+
+  <div class="filter-bar" id="filterBar">
+    <button class="filter-btn active" data-src="all">All sources</button>
+  </div>
+
+  <div class="count-bar" id="countBar"></div>
+
+  <div class="grid" id="grid">
+    <div class="state-block">
+      <div class="spinner"></div>
+      <p class="state-label">Loading articles&hellip;</p>
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    &copy; Hypnotika Mente Ltd 2026
+    <button class="refresh-btn" id="refreshBtn" title="Refresh articles">&#8635; Refresh</button>
+  </footer>
+
+</div>
+
+<script>
+/* ─── Feed configuration ────────────────────────────────────────── */
+const FEEDS = [
+  {
+    id:    'breakthrough',
+    label: 'Breakthrough Moments',
+    url:   'https://mariafuentesbreakthroughcoaching.substack.com/feed',
+    count: 6
+  },
+  {
+    id:    'sciencedaily',
+    label: 'ScienceDaily',
+    url:   'https://www.sciencedaily.com/rss/mind_brain.xml',
+    count: 6
+  },
+  {
+    id:    'neuronews',
+    label: 'Neuroscience News',
+    url:   'https://neurosciencenews.com/feed/',
+    count: 6
+  },
+  {
+    id:    'bps',
+    label: 'BPS Research Digest',
+    url:   'https://www.bps.org.uk/research-digest/feed',
+    count: 6
+  },
+  {
+    id:    'hbr',
+    label: 'Harvard Business Review',
+    url:   'http://feeds.harvardbusiness.org/harvardbusiness',
+    count: 6
+  },
+  {
+    id:    'lse',
+    label: 'LSE Business Review',
+    url:   'https://blogs.lse.ac.uk/businessreview/feed/',
+    count: 6
+  },
+  {
+    id:    'bbc',
+    label: 'BBC Business',
+    url:   'https://feeds.bbci.co.uk/news/business/rss.xml',
+    count: 6
+  }
+];
+
+/* ─── Helpers ────────────────────────────────────────────────────── */
+function stripHtml(html) {
+  if (!html) return '';
+  const div = document.createElement('div');
+  div.innerHTML = html;
+  return (div.textContent || div.innerText || '').replace(/\s+/g, ' ').trim();
+}
+
+function formatDate(str) {
+  if (!str) return '';
+  const d = new Date(str);
+  if (isNaN(d)) return '';
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+/* Delay helper to avoid hammering the proxy */
+const delay = ms => new Promise(r => setTimeout(r, ms));
+
+/* ─── Fetch a single feed via rss2json ───────────────────────────── */
+async function fetchFeed(feed, index) {
+  await delay(index * 350); // stagger requests
+  const api = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&count=${feed.count}`;
+  try {
+    const res  = await fetch(api);
+    const data = await res.json();
+    if (data.status !== 'ok' || !Array.isArray(data.items)) return [];
+    return data.items.map(item => ({
+      source:  feed.label,
+      feedId:  feed.id,
+      title:   item.title || 'Untitled',
+      link:    item.link  || '#',
+      date:    item.pubDate || '',
+      excerpt: stripHtml(item.description || item.content || '').substring(0, 200)
+    }));
+  } catch (e) {
+    console.warn(`Feed failed: ${feed.label}`, e);
+    return [];
+  }
+}
+
+/* ─── State ──────────────────────────────────────────────────────── */
+let allArticles  = [];
+let activeFilter = 'all';
+
+/* ─── Render ─────────────────────────────────────────────────────── */
+function renderGrid() {
+  const grid   = document.getElementById('grid');
+  const countB = document.getElementById('countBar');
+
+  const articles = activeFilter === 'all'
+    ? allArticles
+    : allArticles.filter(a => a.feedId === activeFilter);
+
+  if (articles.length === 0) {
+    grid.innerHTML = `<div class="state-block"><p class="state-label">No articles available.</p></div>`;
+    countB.textContent = '';
+    return;
+  }
+
+  countB.textContent = `${articles.length} article${articles.length !== 1 ? 's' : ''}`;
+
+  grid.innerHTML = '';
+  articles.forEach((art, i) => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.style.animationDelay = `${Math.min(i * 40, 400)}ms`;
+    card.innerHTML = `
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="source-badge">${art.source}</span>
+          <span class="card-date">${formatDate(art.date)}</span>
+        </div>
+        <div class="card-title">${art.title}</div>
+        <p class="card-excerpt">${art.excerpt}</p>
+      </div>
+      <div class="card-footer">
+        <a class="read-link" href="${art.link}" target="_blank" rel="noopener noreferrer">
+          Read article
+          <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 6h9M7 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+/* ─── Build filter buttons ───────────────────────────────────────── */
+function buildFilters() {
+  const bar = document.getElementById('filterBar');
+  const allBtn = bar.querySelector('[data-src="all"]');
+
+  // Remove existing dynamic buttons
+  bar.querySelectorAll('[data-src]:not([data-src="all"])').forEach(b => b.remove());
+
+  // Get sources that returned articles
+  const sources = FEEDS.filter(f => allArticles.some(a => a.feedId === f.id));
+
+  sources.forEach(feed => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.dataset.src = feed.id;
+    btn.textContent = feed.label;
+    bar.appendChild(btn);
+  });
+
+  bar.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeFilter = btn.dataset.src;
+      bar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderGrid();
+    });
+  });
+
+  // Reset active state
+  bar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  const activeBtn = bar.querySelector(`[data-src="${activeFilter}"]`) || allBtn;
+  activeBtn.classList.add('active');
+}
+
+/* ─── Init & refresh ─────────────────────────────────────────────── */
+async function loadFeeds() {
+  document.getElementById('grid').innerHTML = `
+    <div class="state-block">
+      <div class="spinner"></div>
+      <p class="state-label">Loading articles&hellip;</p>
+    </div>`;
+  document.getElementById('countBar').textContent = '';
+
+  const results = await Promise.all(FEEDS.map((f, i) => fetchFeed(f, i)));
+  allArticles   = results.flat();
+
+  buildFilters();
+  renderGrid();
+}
+
+document.getElementById('refreshBtn').addEventListener('click', loadFeeds);
+
+loadFeeds();
+</script>
+</body>
+</html>
