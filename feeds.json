@@ -1,5 +1,5 @@
 {
-  "updated": "19 Apr 2026, 18:43 UTC",
+  "updated": "19 Apr 2026, 18:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -48,6 +48,54 @@
       "link": "https://www.sciencedaily.com/releases/2026/04/260411043048.htm",
       "date": "11 Apr 2026",
       "excerpt": "Losing your sense of smell might signal Alzheimer’s far earlier than expected. Scientists found that immune cells in the brain actively destroy smell-related nerve fibers after detecting abnormal signals on their surfaces. This damage begin"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "SP8 Breakthrough: A Foundational Step Toward Human Limb Regeneration",
+      "link": "https://neurosciencenews.com/sp-gene-limb-regeneration-30553/",
+      "date": "19 Apr 2026",
+      "excerpt": "A new study identifies SP genes as the universal drivers of limb regeneration across axolotls, zebrafish, and mice, leading to a gene therapy that regrows bone in mammals."
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Daily “Mental Sharpness” Dictates Productivity",
+      "link": "https://neurosciencenews.com/mental-sharpness-productivity-gap-30552/",
+      "date": "19 Apr 2026",
+      "excerpt": "A 12-week study from the University of Toronto finds that daily fluctuations in mental sharpness account for an 80-minute difference in productivity between your best and worst days."
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "The Ancient Biology Behind the Modern Obesity Crisis",
+      "link": "https://neurosciencenews.com/fructose-metabolic-signal-obesity-30551/",
+      "date": "19 Apr 2026",
+      "excerpt": "A new study identifies fructose as a unique metabolic signal, rather than just a calorie, that bypasses energy regulations to drive obesity and insulin resistance."
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "3D-Printed “Honeycomb” Sensors Match Your Unique Neural Map",
+      "link": "https://neurosciencenews.com/personalized-3d-printed-brain-electrodes-30550/",
+      "date": "18 Apr 2026",
+      "excerpt": "Researchers have developed 3D-printed, honeycomb-structured hydrogel electrodes that perfectly match the unique folds of a patient's brain for safer, high-quality neural monitoring."
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Glutathione Prevents Cellular Clogs",
+      "link": "https://neurosciencenews.com/glutathione-er-protein-folding-slc33a1-30549/",
+      "date": "18 Apr 2026",
+      "excerpt": "Researchers have identified SLC33A1 as the key transporter that maintains the ER’s glutathione balance, ensuring proteins fold correctly and preventing the \"cellular debris\" linked to neurodegeneration."
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Cortisol Kill-Switch: Exercise Rewires Stress Biology",
+      "link": "https://neurosciencenews.com/exercise-cortisol-stress-biology-30548/",
+      "date": "17 Apr 2026",
+      "excerpt": "A first-of-its-kind one-year clinical trial proves that 150 minutes of weekly aerobic exercise significantly lowers long-term cortisol levels and slows brain aging."
     },
     {
       "source": "Harvard Business Review",
