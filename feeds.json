@@ -1,5 +1,5 @@
 {
-  "updated": "19 Apr 2026, 21:53 UTC",
+  "updated": "19 Apr 2026, 23:56 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -265,6 +265,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "The insider trading suspicions looming over Trump's presidency",
+      "link": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&at_campaign=rss",
+      "date": "19 Apr 2026",
+      "excerpt": "The BBC has found a pattern of spikes in trades ahead of public announcements by the US president.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0993/live/bfcf1060-387a-11f1-9b73-21c33a4cdac9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Mortgage rates show signs of falling after Iran war peak",
       "link": "https://www.bbc.com/news/articles/cwyx2q86lgpo?at_medium=RSS&at_campaign=rss",
       "date": "17 Apr 2026",
@@ -301,20 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Tinder and Zoom offer 'proof of humanity' eye-scans to combat AI",
-      "link": "https://www.bbc.com/news/articles/cp9vppem4evo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Apr 2026",
-      "excerpt": "The tech aims to identify people's irises and stop the rise of fake accounts and malicious scams.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b5d/live/46ad8ac0-3a02-11f1-a8a6-9b40bfbb07ca.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Could a digital twin make you into a 'superworker'?",
-      "link": "https://www.bbc.com/news/articles/c1d907lq6nyo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Apr 2026",
-      "excerpt": "Firms say digital twins make staff more productive, but are they a potential legal minefield?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0598/live/28297400-326f-11f1-b297-95b0a0a8331e.jpg"
+      "title": "Why your recycled clothes could end up in this South American desert",
+      "link": "https://www.bbc.com/news/articles/c62kg63k8v6o?at_medium=RSS&at_campaign=rss",
+      "date": "19 Apr 2026",
+      "excerpt": "Old garments from around the world are being discarded in the South American country.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c36/live/612ec760-2c1f-11f1-bf24-3b8f64554ce8.jpg"
     }
   ]
 }
