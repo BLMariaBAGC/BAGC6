@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beyond Limits · The Café</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #01293A;
+    --accent: #e8c87a;
+    --accent-mid: #c9a44e;
+    --accent-dim: #a07c30;
+    --white: rgba(255,255,255,0.9);
+    --white-dim: rgba(255,255,255,0.45);
+    --white-faint: rgba(255,255,255,0.08);
+  }
+  body {
+    background: var(--navy);
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Lato', sans-serif;
+    padding: 24px 16px;
+  }
+  .player-wrap {
+    width: 100%; max-width: 520px;
+    background: linear-gradient(160deg, #02201a 0%, #01293A 55%);
+    border: 1px solid rgba(200,164,78,0.2);
+    border-radius: 4px; overflow: hidden;
+    box-shadow: 0 32px 80px rgba(0,0,0,0.6), inset 0 1px 0 rgba(232,200,122,0.06);
+  }
+  .player-header {
+    padding: 28px 32px 20px;
+    border-bottom: 1px solid var(--white-faint);
+    position: relative;
+  }
+  .player-header::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent-mid), var(--accent), var(--accent-mid), transparent);
+    opacity: 0.55;
+  }
+  .label {
+    font-family: 'Lato', sans-serif; font-weight: 300;
+    font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase;
+    color: var(--accent-mid); margin-bottom: 6px;
+  }
+  .player-title {
+    font-family: 'Cormorant Garamond', serif; font-weight: 300;
+    font-size: 26px; color: var(--white); line-height: 1.1;
+  }
+  .player-title em { font-style: italic; color: var(--accent); }
+  .now-playing {
+    padding: 28px 32px 24px; display: flex; align-items: center; gap: 20px;
+  }
+  .vinyl-wrap { flex-shrink: 0; width: 64px; height: 64px; position: relative; }
+  .vinyl {
+    width: 64px; height: 64px; border-radius: 50%;
+    background: radial-gradient(circle at 50% 50%,
+      #0a0a0a 0%, #0a0a0a 18%, #1a1a1a 18%, #1a1a1a 22%,
+      #111 22%, #111 26%, #1a1a1a 26%, #1a1a1a 30%,
+      #111 30%, #111 34%, #1a1a1a 34%, #1a1a1a 38%,
+      #111 38%, #111 42%, #1a1a1a 42%, #1a1a1a 46%,
+      #111 46%, #111 50%
+    );
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  }
+  .vinyl::after {
+    content: ''; position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%,-50%); width: 14px; height: 14px;
+    border-radius: 50%; background: var(--accent-mid);
+  }
+  .vinyl.spinning { animation: spin 3.5s linear infinite; }
+  @keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+  .track-info { flex: 1; min-width: 0; }
+  .track-name {
+    font-family: 'Cormorant Garamond', serif; font-size: 19px; font-weight: 400;
+    color: var(--white); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 4px;
+  }
+  .track-artist { font-size: 12px; font-weight: 300; letter-spacing: 0.08em; color: var(--white-dim); margin-bottom: 2px; }
+  .track-year { font-size: 11px; color: var(--accent-mid); letter-spacing: 0.06em; }
+  .progress-section { padding: 0 32px 20px; }
+  .progress-bar-outer {
+    height: 3px; background: var(--white-faint); border-radius: 2px;
+    cursor: pointer; margin-bottom: 8px; overflow: hidden;
+  }
+  .progress-bar-inner {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-mid), var(--accent));
+    border-radius: 2px; width: 0%; transition: width 0.5s linear;
+  }
+  .time-row {
+    display: flex; justify-content: space-between;
+    font-size: 10px; font-weight: 300; letter-spacing: 0.06em; color: var(--white-dim);
+  }
+  .controls {
+    padding: 4px 32px 28px;
+    display: flex; align-items: center; justify-content: center; gap: 16px;
+  }
+  .btn {
+    background: none; border: none; cursor: pointer; color: var(--white-dim);
+    display: flex; align-items: center; justify-content: center;
+    padding: 6px; border-radius: 50%;
+    transition: color 0.2s, transform 0.15s;
+  }
+  .btn:hover { color: var(--accent); transform: scale(1.1); }
+  .btn:active { transform: scale(0.95); }
+  .btn.play-btn {
+    width: 52px; height: 52px;
+    background: linear-gradient(135deg, #c9a44e, #9a7830);
+    color: white;
+    box-shadow: 0 4px 20px rgba(201,164,78,0.35);
+    transition: box-shadow 0.2s, transform 0.15s;
+  }
+  .btn.play-btn:hover { color: white; box-shadow: 0 6px 28px rgba(201,164,78,0.55); transform: scale(1.05); }
+  .volume-row { padding: 0 32px 20px; display: flex; align-items: center; gap: 10px; }
+  .vol-icon { color: var(--white-dim); flex-shrink: 0; }
+  input[type=range] {
+    -webkit-appearance: none; appearance: none;
+    flex: 1; height: 3px; background: var(--white-faint); border-radius: 2px; outline: none; cursor: pointer;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; width: 12px; height: 12px;
+    border-radius: 50%; background: var(--accent-mid); cursor: pointer;
+  }
+  .tracklist { border-top: 1px solid var(--white-faint); }
+  .tracklist-header {
+    padding: 16px 32px 12px;
+    font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--accent-mid); font-weight: 300;
+  }
+  .track-item {
+    display: flex; align-items: center; padding: 10px 32px;
+    cursor: pointer; transition: background 0.15s; gap: 14px;
+    border-left: 2px solid transparent;
+  }
+  .track-item:hover { background: var(--white-faint); }
+  .track-item.active { background: rgba(201,164,78,0.08); border-left-color: var(--accent-mid); }
+  .track-num { font-size: 11px; color: var(--white-dim); width: 18px; flex-shrink: 0; font-weight: 300; font-variant-numeric: tabular-nums; }
+  .track-item.active .track-num { color: var(--accent-mid); }
+  .track-details { flex: 1; min-width: 0; }
+  .t-name { font-family: 'Cormorant Garamond', serif; font-size: 15px; color: var(--white); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .t-sub { font-size: 11px; color: var(--white-dim); font-weight: 300; margin-top: 1px; }
+  .t-dur { font-size: 11px; color: var(--white-dim); font-weight: 300; font-variant-numeric: tabular-nums; }
+  .player-footer {
+    padding: 14px 32px; border-top: 1px solid var(--white-faint);
+    font-size: 10px; color: rgba(255,255,255,0.2); font-weight: 300; letter-spacing: 0.05em;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .bars { display: flex; gap: 2px; align-items: flex-end; height: 14px; }
+  .bar { width: 3px; background: var(--accent-mid); border-radius: 1px; animation: none; height: 4px; }
+  .bars.active .bar:nth-child(1) { animation: bar1 0.7s ease-in-out infinite; }
+  .bars.active .bar:nth-child(2) { animation: bar2 0.55s ease-in-out infinite; }
+  .bars.active .bar:nth-child(3) { animation: bar3 0.8s ease-in-out infinite; }
+  @keyframes bar1 { 0%,100%{height:4px} 50%{height:14px} }
+  @keyframes bar2 { 0%,100%{height:9px} 50%{height:4px} }
+  @keyframes bar3 { 0%,100%{height:6px} 50%{height:13px} }
+</style>
+</head>
+<body>
+<div class="player-wrap">
+  <div class="player-header">
+    <div class="label">Beyond Limits · Open House</div>
+    <div class="player-title">The <em>Café</em></div>
+  </div>
+  <div class="now-playing">
+    <div class="vinyl-wrap"><div class="vinyl" id="vinyl"></div></div>
+    <div class="track-info">
+      <div class="track-name" id="trackName">After You've Gone</div>
+      <div class="track-artist" id="trackArtist">Bessie Smith</div>
+      <div class="track-year" id="trackYear">Public Domain · 1927</div>
+    </div>
+    <div class="bars" id="bars"><div class="bar"></div><div class="bar"></div><div class="bar"></div></div>
+  </div>
+  <div class="progress-section">
+    <div class="progress-bar-outer" id="progressOuter">
+      <div class="progress-bar-inner" id="progressBar"></div>
+    </div>
+    <div class="time-row">
+      <span id="timeCurrent">0:00</span>
+      <span id="timeDuration">--:--</span>
+    </div>
+  </div>
+  <div class="controls">
+    <button class="btn" onclick="prevTrack()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="19 20 9 12 19 4 19 20"/><line x1="5" y1="19" x2="5" y2="5"/></svg>
+    </button>
+    <button class="btn play-btn" onclick="togglePlay()">
+      <svg id="iconPlay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      <svg id="iconPause" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+    </button>
+    <button class="btn" onclick="nextTrack()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 4 15 12 5 20 5 4"/><line x1="19" y1="5" x2="19" y2="19"/></svg>
+    </button>
+  </div>
+  <div class="volume-row">
+    <svg class="vol-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+    <input type="range" min="0" max="1" step="0.02" value="0.75" oninput="setVolume(this.value)">
+  </div>
+  <div class="tracklist">
+    <div class="tracklist-header">Playlist</div>
+    <div id="tracklistItems"></div>
+  </div>
+  <div class="player-footer">
+    <span>All recordings public domain</span>
+    <span>© Hypnotika Mente Ltd 2026</span>
+  </div>
+</div>
+<audio id="audio"></audio>
+<script>
+const tracks = [
+  { name: "After You've Gone", artist: "Bessie Smith", year: "1927",
+    url: "https://archive.org/download/78_after-youve-gone_bessie-smith-henry-creamer-turner-layton_gbia0001058a/78_after-youve-gone_bessie-smith-henry-creamer-turner-layton_gbia0001058a_01_After%20You%27ve%20Gone.mp3" },
+  { name: "Sweet Georgia Brown", artist: "Ben Bernie & His Hotel Roosevelt Orchestra", year: "1925",
+    url: "https://archive.org/download/78_sweet-georgia-brown_ben-bernie-and-his-hotel-roosevelt-orchestra-ben-bernie-maceo-pinkar_gbia0001060a/78_sweet-georgia-brown_ben-bernie-and-his-hotel-roosevelt-orchestra-ben-bernie-maceo-pinkar_gbia0001060a_01_Sweet%20Georgia%20Brown.mp3" },
+  { name: "Tiger Rag", artist: "Original Dixieland Jass Band", year: "1917",
+    url: "https://archive.org/download/78_tiger-rag_original-dixieland-jass-band_gbia0001049a/78_tiger-rag_original-dixieland-jass-band_gbia0001049a_01_Tiger%20Rag.mp3" },
+  { name: "Cake Walking Babies From Home", artist: "Red Onion Jazz Babies", year: "1924",
+    url: "https://archive.org/download/78_cake-walking-babies-from-home_red-onion-jazz-babies-clarence-williams-chris-smith-henry_gbia0001061a/78_cake-walking-babies-from-home_red-onion-jazz-babies-clarence-williams-chris-smith-henry_gbia0001061a_01_Cake%20Walking%20Babies%20From%20Home.mp3" },
+  { name: "When the Saints Go Marching In", artist: "Louis Armstrong", year: "1938",
+    url: "https://archive.org/download/78_when-the-saints-go-marching-in_louis-armstrong-and-his-all-stars-louis-armstrong_gbia0001048a/78_when-the-saints-go-marching-in_louis-armstrong-and-his-all-stars-louis-armstrong_gbia0001048a_01_When%20The%20Saints%20Go%20Marching%20In.mp3" },
+  { name: "Black Bottom Stomp", artist: "Jelly Roll Morton", year: "1926",
+    url: "https://archive.org/download/78_black-bottom-stomp_jelly-roll-mortons-red-hot-peppers-jelly-roll-morton_gbia0001039a/78_black-bottom-stomp_jelly-roll-mortons-red-hot-peppers-jelly-roll-morton_gbia0001039a_01_Black%20Bottom%20Stomp.mp3" },
+  { name: "Dinah", artist: "Ethel Waters", year: "1925",
+    url: "https://archive.org/download/78_dinah_ethel-waters-and-her-ebony-four-harry-akst-sam-lewis-joe-young_gbia0001062a/78_dinah_ethel-waters-and-her-ebony-four-harry-akst-sam-lewis-joe-young_gbia0001062a_01_Dinah.mp3" },
+  { name: "Ain't She Sweet", artist: "Ben Bernie & His Orchestra", year: "1927",
+    url: "https://archive.org/download/78_aint-she-sweet_ben-bernie-and-his-orchestra-jack-yellen-milton-ager_gbia0001063a/78_aint-she-sweet_ben-bernie-and-his-orchestra-jack-yellen-milton-ager_gbia0001063a_01_Ain%27t%20She%20Sweet.mp3" }
+];
+let current = 0, isPlaying = false;
+const audio = document.getElementById('audio');
+function buildTracklist() {
+  const c = document.getElementById('tracklistItems'); c.innerHTML = '';
+  tracks.forEach((t, i) => {
+    const div = document.createElement('div');
+    div.className = 'track-item' + (i === current ? ' active' : '');
+    div.innerHTML = `<span class="track-num">${String(i+1).padStart(2,'0')}</span><div class="track-details"><div class="t-name">${t.name}</div><div class="t-sub">${t.artist} · ${t.year}</div></div><span class="t-dur" id="dur-${i}"></span>`;
+    div.onclick = () => loadTrack(i, true);
+    c.appendChild(div);
+  });
+}
+function loadTrack(index, autoPlay = false) {
+  current = index; const t = tracks[current];
+  document.getElementById('trackName').textContent = t.name;
+  document.getElementById('trackArtist').textContent = t.artist;
+  document.getElementById('trackYear').textContent = `Public Domain · ${t.year}`;
+  audio.src = t.url; audio.load();
+  document.querySelectorAll('.track-item').forEach((el, i) => el.classList.toggle('active', i === current));
+  if (autoPlay) { audio.play(); setPlayState(true); } else setPlayState(false);
+}
+function togglePlay() {
+  if (isPlaying) { audio.pause(); setPlayState(false); } else { audio.play(); setPlayState(true); }
+}
+function setPlayState(playing) {
+  isPlaying = playing;
+  document.getElementById('iconPlay').style.display = playing ? 'none' : 'block';
+  document.getElementById('iconPause').style.display = playing ? 'block' : 'none';
+  document.getElementById('vinyl').classList.toggle('spinning', playing);
+  document.getElementById('bars').classList.toggle('active', playing);
+}
+function prevTrack() { loadTrack((current - 1 + tracks.length) % tracks.length, isPlaying); }
+function nextTrack() { loadTrack((current + 1) % tracks.length, isPlaying); }
+function setVolume(v) { audio.volume = parseFloat(v); }
+audio.volume = 0.75;
+audio.addEventListener('timeupdate', () => {
+  if (!audio.duration) return;
+  document.getElementById('progressBar').style.width = (audio.currentTime / audio.duration * 100) + '%';
+  document.getElementById('timeCurrent').textContent = fmt(audio.currentTime);
+});
+audio.addEventListener('loadedmetadata', () => {
+  document.getElementById('timeDuration').textContent = fmt(audio.duration);
+  const d = document.getElementById('dur-' + current); if (d) d.textContent = fmt(audio.duration);
+});
+audio.addEventListener('ended', nextTrack);
+document.getElementById('progressOuter').addEventListener('click', function(e) {
+  const rect = this.getBoundingClientRect();
+  if (audio.duration) audio.currentTime = ((e.clientX - rect.left) / rect.width) * audio.duration;
+});
+function fmt(s) { s = Math.floor(s); return Math.floor(s/60) + ':' + String(s%60).padStart(2,'0'); }
+buildTracklist(); loadTrack(0);
+</script>
+</body>
+</html>
