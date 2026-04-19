@@ -1,5 +1,5 @@
 {
-  "updated": "19 Apr 2026, 19:10 UTC",
+  "updated": "19 Apr 2026, 19:11 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -53,6 +53,24 @@
       "link": "https://www.sciencedaily.com/releases/2026/04/260411043048.htm",
       "date": "11 Apr 2026",
       "excerpt": "Losing your sense of smell might signal Alzheimer’s far earlier than expected. Scientists found that immune cells in the brain actively destroy smell-related nerve fibers after detecting abnormal signals on their surfaces. This damage begin",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists say we’ve been treating Alzheimer’s all wrong",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260409101111.htm",
+      "date": "10 Apr 2026",
+      "excerpt": "Alzheimer’s isn’t just one problem—it’s a tangled mix of biology, aging, and overall health. That’s why drugs targeting a single factor have fallen short, even as new treatments show modest benefits. Scientists are now pushing toward multi-",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover hidden gut trigger behind ALS and dementia",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260408225944.htm",
+      "date": "9 Apr 2026",
+      "excerpt": "A new study reveals that gut bacteria may play a key role in triggering ALS and frontotemporal dementia. Harmful sugars produced by these microbes can spark immune responses that damage the brain. This breakthrough explains why some genetic",
       "image": ""
     },
     {
@@ -110,6 +128,24 @@
       "image": "https://neurosciencenews.com/files/2026/04/cortisol-exercise-stress-nueorsicne-1155x770.jpg"
     },
     {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "AI Restores Voices Through Microscopic Neck Movements",
+      "link": "https://neurosciencenews.com/ai-voice-restoration-neck-movement-30547/",
+      "date": "17 Apr 2026",
+      "excerpt": "Researchers have developed a wearable AI sensor that reconstructs speech by reading microscopic neck movements, allowing patients without vocal cords to \"speak\" again.",
+      "image": "https://neurosciencenews.com/files/2026/04/ai-voice-reconstruction-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "New Blueprint for Brain Repair",
+      "link": "https://neurosciencenews.com/tunneling-neurons-neurogenesis-30546/",
+      "date": "17 Apr 2026",
+      "excerpt": "Zebra finches grow new neurons that \"bully\" their way through the brain, a discovery that explains why humans might have evolved to limit brain regeneration to protect existing memories.",
+      "image": "https://neurosciencenews.com/files/2026/04/neurogenesis-birds-neuroscience-1155x770.jpg"
+    },
+    {
       "source": "Harvard Business Review",
       "feedId": "hbr",
       "title": "The AI Leadership Imperative",
@@ -157,10 +193,19 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
-      "title": "Tapping Talent from a Skilled Labor Pool That Supports Global Ambitions - SPONSOR CONTENT FROM INVEST NORTHERN IRELAND",
-      "link": "https://hbr.org/sponsored/2026/04/tapping-talent-from-a-skilled-labor-pool-that-supports-global-ambitions",
-      "date": "14 Apr 2026",
-      "excerpt": "Sponsor content from Invest Northern Ireland.",
+      "title": "Why Companies That Choose AI Augmentation Over Automation May Win in the Long Run",
+      "link": "https://hbr.org/2026/04/why-companies-that-choose-ai-augmentation-over-automation-may-win-in-the-long-run",
+      "date": "15 Apr 2026",
+      "excerpt": "While automation promises quicker returns, it may ultimately lead to decline.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Why Leaders Need “Power Skills”",
+      "link": "https://hbr.org/2026/04/why-leaders-need-power-skills",
+      "date": "15 Apr 2026",
+      "excerpt": "And three ways to develop them.",
       "image": ""
     },
     {
