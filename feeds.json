@@ -1,5 +1,5 @@
 {
-  "updated": "20 Apr 2026, 11:58 UTC",
+  "updated": "20 Apr 2026, 16:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "The Molecular Code Behind Gut-Brain Communication",
+      "link": "https://neurosciencenews.com/bacterial-sensing-gut-brain-30557/",
+      "date": "20 Apr 2026",
+      "excerpt": "Neuroscientists have identified the specific bacterial sugars that trigger neurons in the gut to communicate with the brain, providing a mechanical explanation for the gut-brain axis.",
+      "image": "https://neurosciencenews.com/files/2026/04/microbes-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Gut Bacteria May Predict Parkinson’s Before Symptoms Appear",
+      "link": "https://neurosciencenews.com/parkinsons-gut-microbiome-early-warning-30556/",
+      "date": "20 Apr 2026",
+      "excerpt": "A major study identifies 176 gut microbe species that signal Parkinson’s risk years before symptoms, suggesting that gut health is a key early warning system for the disease.",
+      "image": "https://neurosciencenews.com/files/2026/04/microbiome-parkinsons-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Study Links Sterol-Inhibiting Drugs to Autism Risk",
+      "link": "https://neurosciencenews.com/prenatal-medication-autism-risk-30555/",
+      "date": "20 Apr 2026",
+      "excerpt": "Astudy of 6 million births links common medications that inhibit cholesterol synthesis, including certain antidepressants and beta-blockers—to a 1.47-fold increased risk of autism.",
+      "image": "https://neurosciencenews.com/files/2026/04/asd-pregnancy-neuropharmacology-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "SP8 Breakthrough: A Foundational Step Toward Human Limb Regeneration",
       "link": "https://neurosciencenews.com/sp-gene-limb-regeneration-30553/",
       "date": "19 Apr 2026",
@@ -119,31 +146,22 @@
       "image": "https://neurosciencenews.com/files/2026/04/slc-genetics-neurosceince-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Cortisol Kill-Switch: Exercise Rewires Stress Biology",
-      "link": "https://neurosciencenews.com/exercise-cortisol-stress-biology-30548/",
-      "date": "17 Apr 2026",
-      "excerpt": "A first-of-its-kind one-year clinical trial proves that 150 minutes of weekly aerobic exercise significantly lowers long-term cortisol levels and slows brain aging.",
-      "image": "https://neurosciencenews.com/files/2026/04/cortisol-exercise-stress-nueorsicne-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When Apologizing to Customers Hurts More Than It Helps",
+      "link": "https://hbr.org/2026/04/when-apologizing-to-customers-hurts-more-than-it-helps",
+      "date": "20 Apr 2026",
+      "excerpt": "New research finds that it can quietly damage customer loyalty.",
+      "image": ""
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "AI Restores Voices Through Microscopic Neck Movements",
-      "link": "https://neurosciencenews.com/ai-voice-restoration-neck-movement-30547/",
-      "date": "17 Apr 2026",
-      "excerpt": "Researchers have developed a wearable AI sensor that reconstructs speech by reading microscopic neck movements, allowing patients without vocal cords to \"speak\" again.",
-      "image": "https://neurosciencenews.com/files/2026/04/ai-voice-reconstruction-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "New Blueprint for Brain Repair",
-      "link": "https://neurosciencenews.com/tunneling-neurons-neurogenesis-30546/",
-      "date": "17 Apr 2026",
-      "excerpt": "Zebra finches grow new neurons that \"bully\" their way through the brain, a discovery that explains why humans might have evolved to limit brain regeneration to protect existing memories.",
-      "image": "https://neurosciencenews.com/files/2026/04/neurogenesis-birds-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Leaders, Treat Resistance to Change as Valuable Data",
+      "link": "https://hbr.org/2026/04/leaders-treat-resistance-to-change-as-valuable-data",
+      "date": "20 Apr 2026",
+      "excerpt": "Don&#8217;t dismiss it as kneejerk pushback.",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -188,24 +206,6 @@
       "link": "https://hbr.org/podcast/2026/04/scaling-a-business-beyond-the-family-playbook",
       "date": "15 Apr 2026",
       "excerpt": "A conversation with HBS senior lecturer Henry McGee and CEO Jessica Johnson-Cope about the challenges that come with expanding a multigenerational business in new directions.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Companies That Choose AI Augmentation Over Automation May Win in the Long Run",
-      "link": "https://hbr.org/2026/04/why-companies-that-choose-ai-augmentation-over-automation-may-win-in-the-long-run",
-      "date": "15 Apr 2026",
-      "excerpt": "While automation promises quicker returns, it may ultimately lead to decline.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Leaders Need “Power Skills”",
-      "link": "https://hbr.org/2026/04/why-leaders-need-power-skills",
-      "date": "15 Apr 2026",
-      "excerpt": "And three ways to develop them.",
       "image": ""
     },
     {
@@ -274,6 +274,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Another flight leaves passengers behind due to border delays",
+      "link": "https://www.bbc.com/news/articles/cvg3xzxpv32o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Apr 2026",
+      "excerpt": "New European border rules have caused delays at airports across the continent, affecting flights.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dc4/live/06571000-3ccc-11f1-8076-af27da54a8f3.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump tariff refunds begin but consumers likely to miss out",
+      "link": "https://www.bbc.com/news/articles/c7vqgge5g8lo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Apr 2026",
+      "excerpt": "Businesses can apply online through a portal for refunds expected to total $160bn.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ad4/live/ae7c94a0-3cc5-11f1-8307-55aabab9b8cb.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Oil prices rise after Trump says Iranian ship seized",
       "link": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
       "date": "20 Apr 2026",
@@ -288,24 +306,6 @@
       "date": "20 Apr 2026",
       "excerpt": "The conflict in the Middle East has increased pressure on the cost of petrol, household energy bills and even food.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afaf/live/7cc7a4a0-1bc2-11f1-964c-87b629a369ca.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What's happening to UK petrol and diesel prices?",
-      "link": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Apr 2026",
-      "excerpt": "UK petrol and diesel prices have started to fall after 46 consecutive days of rises at the pump.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26f2/live/5fbf6110-2e5d-11f1-9408-ab8675603e32.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'Croatia, but cheaper': The quirky holiday spots on trend for 2026",
-      "link": "https://www.bbc.com/news/articles/c747r0l8n7do?at_medium=RSS&at_campaign=rss",
-      "date": "18 Apr 2026",
-      "excerpt": "Montenegro and Albania are among the places rising in popularity for Britons seeking a holiday away from tourist traps.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/90c3/live/caf84850-3a80-11f1-8606-05fe34b06e1b.jpg"
     },
     {
       "source": "BBC Business",
