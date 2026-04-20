@@ -1,5 +1,5 @@
 {
-  "updated": "19 Apr 2026, 23:56 UTC",
+  "updated": "20 Apr 2026, 07:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -267,9 +267,36 @@
       "feedId": "bbc",
       "title": "The insider trading suspicions looming over Trump's presidency",
       "link": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&at_campaign=rss",
-      "date": "19 Apr 2026",
+      "date": "20 Apr 2026",
       "excerpt": "The BBC has found a pattern of spikes in trades ahead of public announcements by the US president.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0993/live/bfcf1060-387a-11f1-9b73-21c33a4cdac9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil prices rise after Trump says Iranian ship seized",
+      "link": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Apr 2026",
+      "excerpt": "Energy markets have seen wild swings since the US and Israel attacked Iran on 28 February.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99c3/live/2d7d8d60-3c4c-11f1-995c-0b1e92f7d783.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Faisal Islam: What people in power think the impact of the Iran war will be",
+      "link": "https://www.bbc.com/news/articles/c9vl37eev7ko?at_medium=RSS&at_campaign=rss",
+      "date": "18 Apr 2026",
+      "excerpt": "Faisal Islam talks to some of the world's most powerful people about the conflict and the economy.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5f2/live/0268f3a0-3a60-11f1-bab3-e3881342f552.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'Croatia, but cheaper': The quirky holiday spots on trend for 2026",
+      "link": "https://www.bbc.com/news/articles/c747r0l8n7do?at_medium=RSS&at_campaign=rss",
+      "date": "18 Apr 2026",
+      "excerpt": "Montenegro and Albania are among the places rising in popularity for Britons seeking a holiday away from tourist traps.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/90c3/live/caf84850-3a80-11f1-8606-05fe34b06e1b.jpg"
     },
     {
       "source": "BBC Business",
@@ -279,33 +306,6 @@
       "date": "17 Apr 2026",
       "excerpt": "Major lenders make rate reductions as markets take some heart from a possible truce in the Iran war.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfbf/live/3826df60-3bbf-11f1-8a14-19337d79de52.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I'm the lucky one' - more than one in three young men live with their parents",
-      "link": "https://www.bbc.com/news/articles/ce3578g32d0o?at_medium=RSS&at_campaign=rss",
-      "date": "17 Apr 2026",
-      "excerpt": "Last year, the highest proportion of men aged 20-34 were still living at home since at least 2007 as the rising cost of living takes hold.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/468a/live/5cfbfc50-3a87-11f1-879d-1b2f5c3919b8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire",
-      "link": "https://www.bbc.com/news/articles/ckg045z73z1o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Apr 2026",
-      "excerpt": "Brent crude sinks by a tenth after Iran says the key waterway is open for commercial ships for the rest of the ceasefire.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0790/live/5a41eb90-3a6a-11f1-b0ed-870299e8b290.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Finance ministers and bankers raise serious concerns about Mythos AI model",
-      "link": "https://www.bbc.com/news/articles/c2ev24yx4rmo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Apr 2026",
-      "excerpt": "Experts say Mythos potentially has an unprecedented ability to identify and exploit cyber-security weaknesses.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b221/live/21c28ea0-39f7-11f1-8766-4f833ac4b548.jpg"
     },
     {
       "source": "BBC Business",
