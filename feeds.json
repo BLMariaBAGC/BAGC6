@@ -1,5 +1,5 @@
 {
-  "updated": "20 Apr 2026, 07:28 UTC",
+  "updated": "20 Apr 2026, 11:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -269,7 +269,7 @@
       "link": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&at_campaign=rss",
       "date": "20 Apr 2026",
       "excerpt": "The BBC has found a pattern of spikes in trades ahead of public announcements by the US president.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0993/live/bfcf1060-387a-11f1-9b73-21c33a4cdac9.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/974f/live/6a5a6a20-3c95-11f1-9d5c-8ba507d7dbde.jpg"
     },
     {
       "source": "BBC Business",
@@ -283,11 +283,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Faisal Islam: What people in power think the impact of the Iran war will be",
-      "link": "https://www.bbc.com/news/articles/c9vl37eev7ko?at_medium=RSS&at_campaign=rss",
-      "date": "18 Apr 2026",
-      "excerpt": "Faisal Islam talks to some of the world's most powerful people about the conflict and the economy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5f2/live/0268f3a0-3a60-11f1-bab3-e3881342f552.jpg"
+      "title": "How the Iran war affects your money and bills",
+      "link": "https://www.bbc.com/news/articles/c2e4ygndjpwo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Apr 2026",
+      "excerpt": "The conflict in the Middle East has increased pressure on the cost of petrol, household energy bills and even food.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afaf/live/7cc7a4a0-1bc2-11f1-964c-87b629a369ca.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What's happening to UK petrol and diesel prices?",
+      "link": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Apr 2026",
+      "excerpt": "UK petrol and diesel prices have started to fall after 46 consecutive days of rises at the pump.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26f2/live/5fbf6110-2e5d-11f1-9408-ab8675603e32.jpg"
     },
     {
       "source": "BBC Business",
@@ -297,15 +306,6 @@
       "date": "18 Apr 2026",
       "excerpt": "Montenegro and Albania are among the places rising in popularity for Britons seeking a holiday away from tourist traps.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/90c3/live/caf84850-3a80-11f1-8606-05fe34b06e1b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Mortgage rates show signs of falling after Iran war peak",
-      "link": "https://www.bbc.com/news/articles/cwyx2q86lgpo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Apr 2026",
-      "excerpt": "Major lenders make rate reductions as markets take some heart from a possible truce in the Iran war.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfbf/live/3826df60-3bbf-11f1-8a14-19337d79de52.jpg"
     },
     {
       "source": "BBC Business",
