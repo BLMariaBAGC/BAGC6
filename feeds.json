@@ -1,5 +1,5 @@
 {
-  "updated": "20 Apr 2026, 20:11 UTC",
+  "updated": "20 Apr 2026, 22:42 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Cellular Drawstrings Seal the Developing Brain",
+      "link": "https://neurosciencenews.com/physics-neural-tube-closure-30564/",
+      "date": "20 Apr 2026",
+      "excerpt": "Researchers identified a \"purse-string\" mechanism powered by actin and molecular motors that physically pulls the neural tube closed during early development.",
+      "image": "https://neurosciencenews.com/files/2026/04/neural-tube-development-neuroscience-physics-1155x753.png"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "SSRIs May Trigger Tinnitus",
+      "link": "https://neurosciencenews.com/serotonin-tinnitus-ssri-30563/",
+      "date": "20 Apr 2026",
+      "excerpt": "A new study identifies a specific serotonin circuit that triggers the auditory system, explaining why SSRIs can worsen tinnitus and offering a new target for treatment.",
+      "image": "https://neurosciencenews.com/files/2026/04/ssri-tinnitus-serotonin-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Napping Patterns Predict Mortality Risk",
       "link": "https://neurosciencenews.com/napping-patterns-mortality-aging-30561/",
       "date": "20 Apr 2026",
@@ -126,24 +144,6 @@
       "date": "20 Apr 2026",
       "excerpt": "A major study identifies 176 gut microbe species that signal Parkinson’s risk years before symptoms, suggesting that gut health is a key early warning system for the disease.",
       "image": "https://neurosciencenews.com/files/2026/04/microbiome-parkinsons-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Study Links Sterol-Inhibiting Drugs to Autism Risk",
-      "link": "https://neurosciencenews.com/prenatal-medication-autism-risk-30555/",
-      "date": "20 Apr 2026",
-      "excerpt": "Astudy of 6 million births links common medications that inhibit cholesterol synthesis, including certain antidepressants and beta-blockers—to a 1.47-fold increased risk of autism.",
-      "image": "https://neurosciencenews.com/files/2026/04/asd-pregnancy-neuropharmacology-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "SP8 Breakthrough: A Foundational Step Toward Human Limb Regeneration",
-      "link": "https://neurosciencenews.com/sp-gene-limb-regeneration-30553/",
-      "date": "19 Apr 2026",
-      "excerpt": "A new study identifies SP genes as the universal drivers of limb regeneration across axolotls, zebrafish, and mice, leading to a gene therapy that regrows bone in mammals.",
-      "image": "https://neurosciencenews.com/files/2026/04/limb-regeneration-neurocience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -265,6 +265,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Apple names new chief executive to replace Tim Cook",
+      "link": "https://www.bbc.com/news/articles/c1kr19lry18o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Apr 2026",
+      "excerpt": "John Ternus will take over running the technology giant as Cook steps up to become executive chairman.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/355a/live/1c690050-3cfa-11f1-a60f-41d0a7fcc620.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The insider trading suspicions looming over Trump's presidency",
       "link": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&at_campaign=rss",
       "date": "20 Apr 2026",
@@ -297,15 +306,6 @@
       "date": "20 Apr 2026",
       "excerpt": "The firm founded by Amazon billionaire Jeff Bezos is investigating the failed launch.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8600/live/da78ea80-3ce9-11f1-861e-13bf35e4cbcb.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil prices rise after Trump says Iranian ship seized",
-      "link": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Apr 2026",
-      "excerpt": "Energy markets have seen wild swings since the US and Israel attacked Iran on 28 February.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99c3/live/2d7d8d60-3c4c-11f1-995c-0b1e92f7d783.jpg"
     },
     {
       "source": "BBC Business",
