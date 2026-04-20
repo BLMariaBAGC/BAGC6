@@ -1,5 +1,5 @@
 {
-  "updated": "20 Apr 2026, 16:20 UTC",
+  "updated": "20 Apr 2026, 20:11 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Napping Patterns Predict Mortality Risk",
+      "link": "https://neurosciencenews.com/napping-patterns-mortality-aging-30561/",
+      "date": "20 Apr 2026",
+      "excerpt": "A 19-year study finds that frequent, long, and morning naps in older adults are associated with higher mortality, acting as a warning sign for underlying disease.",
+      "image": "https://neurosciencenews.com/files/2026/04/napping-mortality-neurosicence-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Multiple Pregnancies May Shield the Female Brain From Stroke",
+      "link": "https://neurosciencenews.com/live-births-stroke-risk-women-30560/",
+      "date": "20 Apr 2026",
+      "excerpt": "A new study reveals that women with three or more live births have a reduced risk of stroke and covert vascular brain damage.",
+      "image": "https://neurosciencenews.com/files/2026/04/pregnanct-stroke-neurosciene-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why the Brain Can’t Forget Earth’s Gravity in Space",
+      "link": "https://neurosciencenews.com/astronaut-grip-gravity-memory-30559/",
+      "date": "20 Apr 2026",
+      "excerpt": "A 20-year study reveals that astronauts' brains retain a \"memory\" of Earth's gravity, causing them to over-grip objects in space to prevent drops that aren't possible.",
+      "image": "https://neurosciencenews.com/files/2026/04/gravity-space-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Exercise and Ibuprofen May Shield Against Chemo Brain",
+      "link": "https://neurosciencenews.com/exercise-ibuprofen-chemo-brain-30558/",
+      "date": "20 Apr 2026",
+      "excerpt": "A Phase II trial finds that walking and resistance exercise, along with low-dose ibuprofen, can protect cancer patients from \"chemo brain\" during treatment.",
+      "image": "https://neurosciencenews.com/files/2026/04/exercise-nsaids-chemobrain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "The Molecular Code Behind Gut-Brain Communication",
       "link": "https://neurosciencenews.com/bacterial-sensing-gut-brain-30557/",
       "date": "20 Apr 2026",
@@ -108,42 +144,6 @@
       "date": "19 Apr 2026",
       "excerpt": "A new study identifies SP genes as the universal drivers of limb regeneration across axolotls, zebrafish, and mice, leading to a gene therapy that regrows bone in mammals.",
       "image": "https://neurosciencenews.com/files/2026/04/limb-regeneration-neurocience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Daily “Mental Sharpness” Dictates Productivity",
-      "link": "https://neurosciencenews.com/mental-sharpness-productivity-gap-30552/",
-      "date": "19 Apr 2026",
-      "excerpt": "A 12-week study from the University of Toronto finds that daily fluctuations in mental sharpness account for an 80-minute difference in productivity between your best and worst days.",
-      "image": "https://neurosciencenews.com/files/2026/04/metnal-sharpness-productivity-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "The Ancient Biology Behind the Modern Obesity Crisis",
-      "link": "https://neurosciencenews.com/fructose-metabolic-signal-obesity-30551/",
-      "date": "19 Apr 2026",
-      "excerpt": "A new study identifies fructose as a unique metabolic signal, rather than just a calorie, that bypasses energy regulations to drive obesity and insulin resistance.",
-      "image": "https://neurosciencenews.com/files/2026/04/fructose-obesity-metabolism-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "3D-Printed “Honeycomb” Sensors Match Your Unique Neural Map",
-      "link": "https://neurosciencenews.com/personalized-3d-printed-brain-electrodes-30550/",
-      "date": "18 Apr 2026",
-      "excerpt": "Researchers have developed 3D-printed, honeycomb-structured hydrogel electrodes that perfectly match the unique folds of a patient's brain for safer, high-quality neural monitoring.",
-      "image": "https://neurosciencenews.com/files/2026/04/bioelectrode-brain-stimulation-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Glutathione Prevents Cellular Clogs",
-      "link": "https://neurosciencenews.com/glutathione-er-protein-folding-slc33a1-30549/",
-      "date": "18 Apr 2026",
-      "excerpt": "Researchers have identified SLC33A1 as the key transporter that maintains the ER’s glutathione balance, ensuring proteins fold correctly and preventing the \"cellular debris\" linked to neurodegeneration.",
-      "image": "https://neurosciencenews.com/files/2026/04/slc-genetics-neurosceince-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -211,6 +211,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Your boss’s feelings matter too",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/20/your-bosss-feelings-matter-too/",
+      "date": "20 Apr 2026",
+      "excerpt": "Senior business leaders are often considered to be above emotions. But the ones they have, and how they express them, matter. Michael Matthews and Dawei (David) Wang assess the impact of emotions on bosses, their colleagues and the organisa",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How to keep empathy sustainable in a world of hybrid, intergenerational work",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/17/how-to-keep-empathy-sustainable-in-a-world-of-hybrid-intergenerational-work/",
       "date": "17 Apr 2026",
@@ -254,15 +263,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/Figure-1-3-1024x482.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is AI a scapegoat for destroying education and learning?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/10/is-ai-a-scapegoat-for-destroying-education-and-learning/",
-      "date": "10 Apr 2026",
-      "excerpt": "Debates surrounding AI in education often reflect broader technological anxieties. Hitoshi Nishimura, Ranmaru Kishitani and Yudai Sakamoto argue that it is not AI itself that undermines learning but its use primarily to accelerate task comp",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/Figure-1-1-1.jpg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "The insider trading suspicions looming over Trump's presidency",
@@ -292,20 +292,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Blue Origin rocket grounded after satellite 'mishap'",
+      "link": "https://www.bbc.com/news/articles/cjr9vwz48npo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Apr 2026",
+      "excerpt": "The firm founded by Amazon billionaire Jeff Bezos is investigating the failed launch.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8600/live/da78ea80-3ce9-11f1-861e-13bf35e4cbcb.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Oil prices rise after Trump says Iranian ship seized",
       "link": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
       "date": "20 Apr 2026",
       "excerpt": "Energy markets have seen wild swings since the US and Israel attacked Iran on 28 February.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99c3/live/2d7d8d60-3c4c-11f1-995c-0b1e92f7d783.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How the Iran war affects your money and bills",
-      "link": "https://www.bbc.com/news/articles/c2e4ygndjpwo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Apr 2026",
-      "excerpt": "The conflict in the Middle East has increased pressure on the cost of petrol, household energy bills and even food.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afaf/live/7cc7a4a0-1bc2-11f1-964c-87b629a369ca.jpg"
     },
     {
       "source": "BBC Business",
