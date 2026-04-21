@@ -1,5 +1,5 @@
 {
-  "updated": "21 Apr 2026, 16:19 UTC",
+  "updated": "21 Apr 2026, 20:37 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,60 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Heartbeat Rhythms Unveil Hidden Brain Activity",
+      "link": "https://neurosciencenews.com/heartbeat-chaos-cognitive-activity-30570/",
+      "date": "21 Apr 2026",
+      "excerpt": "Chaos-based heartbeat analysis can non-invasively detect mental load where conventional methods fail.",
+      "image": "https://neurosciencenews.com/files/2026/04/heart-beat-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Midlife Hobbies Outperform Genetic Alzheimer’s Risk",
+      "link": "https://neurosciencenews.com/lifestyle-activities-alzheimers-genetics-30569/",
+      "date": "21 Apr 2026",
+      "excerpt": "A 10-year longitudinal study finds that diverse lifestyle activities in midlife are more powerful than the APOE ε4 gene in shaping cognitive health.",
+      "image": "https://neurosciencenews.com/files/2026/04/hobby-alzheimers-aging-neuroceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Redefining Neuroplasticity Through Selective Deactivation",
+      "link": "https://neurosciencenews.com/deafness-auditory-cortex-visual-deactivation-30568/",
+      "date": "21 Apr 2026",
+      "excerpt": "A new study finds that the auditory cortex in deaf individuals uses selective deactivation to represent visual spatial features.",
+      "image": "https://neurosciencenews.com/files/2026/04/audio-selective-neuroplasticity-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Secrets of Human Intelligence Unlocked",
+      "link": "https://neurosciencenews.com/ape-cognition-intelligence-dataset-30567/",
+      "date": "21 Apr 2026",
+      "excerpt": "A collaborative project has released EVApeCognition, the world's largest dataset on great ape intelligence.",
+      "image": "https://neurosciencenews.com/files/2026/04/intelligence-cognition-evolution-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "AI Voices Outperform Human Speech in Noisy Environments",
+      "link": "https://neurosciencenews.com/ai-voice-clones-intelligibility-noise-30566/",
+      "date": "21 Apr 2026",
+      "excerpt": "A study reveals that AI voice clones are up to 20% easier to understand than human voices in noisy environments, suggesting AI \"idealizes\" speech for better clarity.",
+      "image": "https://neurosciencenews.com/files/2026/04/ai-human-voice-processing-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Alzheimer’s Brains Share a Genetic Signature with Some Cancers",
+      "link": "https://neurosciencenews.com/alzheimers-cancer-mutation-microglia-30565/",
+      "date": "21 Apr 2026",
+      "excerpt": "A study finds that Alzheimer’s is driven by cancer-like mutations in the brain's immune cells, which may enter from the blood and trigger lethal brain inflammation.",
+      "image": "https://neurosciencenews.com/files/2026/04/alzheimers-cancer-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Cellular Drawstrings Seal the Developing Brain",
       "link": "https://neurosciencenews.com/physics-neural-tube-closure-30564/",
       "date": "20 Apr 2026",
@@ -90,60 +144,6 @@
       "date": "20 Apr 2026",
       "excerpt": "A new study identifies a specific serotonin circuit that triggers the auditory system, explaining why SSRIs can worsen tinnitus and offering a new target for treatment.",
       "image": "https://neurosciencenews.com/files/2026/04/ssri-tinnitus-serotonin-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Napping Patterns Predict Mortality Risk",
-      "link": "https://neurosciencenews.com/napping-patterns-mortality-aging-30561/",
-      "date": "20 Apr 2026",
-      "excerpt": "A 19-year study finds that frequent, long, and morning naps in older adults are associated with higher mortality, acting as a warning sign for underlying disease.",
-      "image": "https://neurosciencenews.com/files/2026/04/napping-mortality-neurosicence-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Multiple Pregnancies May Shield the Female Brain From Stroke",
-      "link": "https://neurosciencenews.com/live-births-stroke-risk-women-30560/",
-      "date": "20 Apr 2026",
-      "excerpt": "A new study reveals that women with three or more live births have a reduced risk of stroke and covert vascular brain damage.",
-      "image": "https://neurosciencenews.com/files/2026/04/pregnanct-stroke-neurosciene-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why the Brain Can’t Forget Earth’s Gravity in Space",
-      "link": "https://neurosciencenews.com/astronaut-grip-gravity-memory-30559/",
-      "date": "20 Apr 2026",
-      "excerpt": "A 20-year study reveals that astronauts' brains retain a \"memory\" of Earth's gravity, causing them to over-grip objects in space to prevent drops that aren't possible.",
-      "image": "https://neurosciencenews.com/files/2026/04/gravity-space-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Exercise and Ibuprofen May Shield Against Chemo Brain",
-      "link": "https://neurosciencenews.com/exercise-ibuprofen-chemo-brain-30558/",
-      "date": "20 Apr 2026",
-      "excerpt": "A Phase II trial finds that walking and resistance exercise, along with low-dose ibuprofen, can protect cancer patients from \"chemo brain\" during treatment.",
-      "image": "https://neurosciencenews.com/files/2026/04/exercise-nsaids-chemobrain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "The Molecular Code Behind Gut-Brain Communication",
-      "link": "https://neurosciencenews.com/bacterial-sensing-gut-brain-30557/",
-      "date": "20 Apr 2026",
-      "excerpt": "Neuroscientists have identified the specific bacterial sugars that trigger neurons in the gut to communicate with the brain, providing a mechanical explanation for the gut-brain axis.",
-      "image": "https://neurosciencenews.com/files/2026/04/microbes-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Gut Bacteria May Predict Parkinson’s Before Symptoms Appear",
-      "link": "https://neurosciencenews.com/parkinsons-gut-microbiome-early-warning-30556/",
-      "date": "20 Apr 2026",
-      "excerpt": "A major study identifies 176 gut microbe species that signal Parkinson’s risk years before symptoms, suggesting that gut health is a key early warning system for the disease.",
-      "image": "https://neurosciencenews.com/files/2026/04/microbiome-parkinsons-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "In regulating digital gold, India should look to Britain",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/21/in-regulating-digital-gold-india-should-look-to-britain/",
+      "date": "21 Apr 2026",
+      "excerpt": "Investors in India are increasingly keen on digital gold. But the country’s regulatory system does not adequately protect them. Sangeeta Taak and Saloni Rani argue that the Securities and Exchange Board of India should look at Britain’s Fin",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Your boss’s feelings matter too",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/20/your-bosss-feelings-matter-too/",
       "date": "20 Apr 2026",
@@ -263,15 +272,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What impact is the Iran war having on the British food sector?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/14/what-impact-is-the-iran-war-having-on-the-british-food-sector/",
-      "date": "14 Apr 2026",
-      "excerpt": "Conflict in the Middle East has revealed the reliance of many economies and sectors of fuel and chemicals produced in, and exported from, the Gulf. Cesar Revoredo-Giha and Montserrat Costa-Font look at how Britain’s agricultural, food and r",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/Figure-1-3-1024x482.jpg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Unemployment rate unexpectedly falls as fewer students look for work",
@@ -279,6 +279,24 @@
       "date": "21 Apr 2026",
       "excerpt": "The drop has been largely driven by a rise in the number of people not actively seeking work.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c64a/live/172192e0-3d6a-11f1-bd52-e755d604ece4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "From Epstein to sock puppets: Key takeaways from Kevin Warsh's Fed confirmation hearing",
+      "link": "https://www.bbc.com/news/articles/c8dl3ez4mpno?at_medium=RSS&at_campaign=rss",
+      "date": "21 Apr 2026",
+      "excerpt": "He denied making a deal with Donald Trump on interest rates and backed \"policy regime change\" at the central bank.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a6cd/live/04804ef0-3da2-11f1-b377-d7765ac78768.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "OpenAI faces criminal probe over role of ChatGPT in shooting",
+      "link": "https://www.bbc.com/news/articles/c62j4ldp2jqo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Apr 2026",
+      "excerpt": "The firm, co-founded by Sam Altman, said it is \"not responsible\" for the attack at Florida State University",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a99a/live/2e6084f0-3dad-11f1-bd52-e755d604ece4.jpg"
     },
     {
       "source": "BBC Business",
@@ -292,20 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Middle East war has pushed up air fares 24%, research shows",
+      "title": "Air fares soar by nearly 25% as Iran war forces flights to re-route",
       "link": "https://www.bbc.com/news/articles/crr14qplxe8o?at_medium=RSS&at_campaign=rss",
       "date": "21 Apr 2026",
-      "excerpt": "The consultancy Teneo says airspace restrictions caused by the conflict have forced airlines to reroute many flights.",
+      "excerpt": "Airspace restrictions caused by the conflict sent plane ticket prices higher, research shows.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1062/live/da6149f0-3d90-11f1-92be-b5fcda70efcc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Petrol thefts surge as Iran war pushes up fuel costs",
-      "link": "https://www.bbc.com/news/articles/cx2drmm1mglo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Apr 2026",
-      "excerpt": "One petrol retailer says he is experiencing about five drive-offs a week at each forecourt, costing him thousands.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4eab/live/12dd75d0-3d44-11f1-9d5c-8ba507d7dbde.jpg"
     },
     {
       "source": "BBC Business",
@@ -315,15 +324,6 @@
       "date": "20 Apr 2026",
       "excerpt": "A stellarator is difficult to build, but could it be the best way to make fusion energy work?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cdc/live/60502c90-2c32-11f1-a79a-77e93010d956.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "New era as Apple names new boss to replace Tim Cook after 15 years",
-      "link": "https://www.bbc.com/news/articles/c1kr19lry18o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Apr 2026",
-      "excerpt": "Ternus will take over running the technology giant in September as Cook steps up to become executive chairman.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9011/live/3c8640c0-3d52-11f1-8606-05fe34b06e1b.jpg"
     }
   ]
 }
