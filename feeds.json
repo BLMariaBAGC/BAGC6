@@ -1,5 +1,5 @@
 {
-  "updated": "21 Apr 2026, 00:05 UTC",
+  "updated": "21 Apr 2026, 07:16 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -265,11 +265,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Apple names new chief executive to replace Tim Cook",
-      "link": "https://www.bbc.com/news/articles/c1kr19lry18o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Apr 2026",
-      "excerpt": "John Ternus will take over running the technology giant as Cook steps up to become executive chairman.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/355a/live/1c690050-3cfa-11f1-a60f-41d0a7fcc620.jpg"
+      "title": "UK unemployment rate sees surprise fall to 4.9%",
+      "link": "https://www.bbc.com/news/articles/cjd84pkkjgpo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Apr 2026",
+      "excerpt": "Most analysts had predicted the rate would remain unchanged at 5.2%.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d24e/live/dcd9e060-3ca6-11f1-8e26-931170ebc0de.jpg"
     },
     {
       "source": "BBC Business",
@@ -278,7 +278,25 @@
       "link": "https://www.bbc.com/news/articles/cx2drmm1mglo?at_medium=RSS&at_campaign=rss",
       "date": "20 Apr 2026",
       "excerpt": "One petrol retailer says he is experiencing about five drive-offs a week at each forecourt, costing him thousands.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a03/live/1abcd3c0-3cf6-11f1-a60f-41d0a7fcc620.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4eab/live/12dd75d0-3d44-11f1-9d5c-8ba507d7dbde.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "High electricity bills targeted in planned shakeup to energy pricing",
+      "link": "https://www.bbc.com/news/articles/c79jg43vd8no?at_medium=RSS&at_campaign=rss",
+      "date": "21 Apr 2026",
+      "excerpt": "The war in the Middle East has brought renewed attention to Britain's vulnerability to energy price shocks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0da8/live/3c1a93d0-3ce8-11f1-861e-13bf35e4cbcb.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "New era as Apple names new boss to replace Tim Cook after 15 years",
+      "link": "https://www.bbc.com/news/articles/c1kr19lry18o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Apr 2026",
+      "excerpt": "Ternus will take over running the technology giant in September as Cook steps up to become executive chairman.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/355a/live/1c690050-3cfa-11f1-a60f-41d0a7fcc620.jpg"
     },
     {
       "source": "BBC Business",
@@ -288,24 +306,6 @@
       "date": "20 Apr 2026",
       "excerpt": "While UK unemployment is at a five-year-high, increasing numbers of those in work have more than one job.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0166/live/ca067670-3cbe-11f1-8307-55aabab9b8cb.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The insider trading suspicions looming over Trump's presidency",
-      "link": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&at_campaign=rss",
-      "date": "20 Apr 2026",
-      "excerpt": "The BBC has found a pattern of spikes in trades ahead of public announcements by the US president.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/974f/live/6a5a6a20-3c95-11f1-9d5c-8ba507d7dbde.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump tariff refunds begin but consumers likely to miss out",
-      "link": "https://www.bbc.com/news/articles/c7vqgge5g8lo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Apr 2026",
-      "excerpt": "Businesses can apply online through a portal for refunds expected to total $160bn.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ad4/live/ae7c94a0-3cc5-11f1-8307-55aabab9b8cb.jpg"
     },
     {
       "source": "BBC Business",
