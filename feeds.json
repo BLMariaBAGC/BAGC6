@@ -1,5 +1,5 @@
 {
-  "updated": "21 Apr 2026, 21:01 UTC",
+  "updated": "21 Apr 2026, 21:27 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The HBR Guide to CEO Transitions",
+      "link": "https://hbr.org/2026/04/the-hbr-guide-to-ceo-transitions",
+      "date": "21 Apr 2026",
+      "excerpt": "Lessons from HBR&#8217;s archive on making the high-stakes process successful.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Research: When Corporate LGBTQ+ Allyship Only Happens in June",
       "link": "https://hbr.org/2026/04/research-when-corporate-lgbtq-allyship-only-happens-in-june",
       "date": "21 Apr 2026",
@@ -206,15 +215,6 @@
       "link": "https://hbr.org/2026/04/research-what-chinas-ai-agents-reveal-about-the-future-of-commerce",
       "date": "17 Apr 2026",
       "excerpt": "As AI starts making purchasing decisions for people, companies must compete to be selected by agents, not just noticed by customers.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "5 Questions Leaders Should Ask Before Turning to Fractional Work",
-      "link": "https://hbr.org/2026/04/5-questions-leaders-should-ask-before-turning-to-fractional-work",
-      "date": "17 Apr 2026",
-      "excerpt": "It can offer diversified income streams, more autonomy, and improved work-life balance.",
       "image": ""
     },
     {
