@@ -1,5 +1,5 @@
 {
-  "updated": "21 Apr 2026, 07:16 UTC",
+  "updated": "21 Apr 2026, 11:44 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -265,29 +265,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK unemployment rate sees surprise fall to 4.9%",
+      "title": "Unemployment rate unexpectedly falls as fewer students look for work",
       "link": "https://www.bbc.com/news/articles/cjd84pkkjgpo?at_medium=RSS&at_campaign=rss",
       "date": "21 Apr 2026",
-      "excerpt": "Most analysts had predicted the rate would remain unchanged at 5.2%.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d24e/live/dcd9e060-3ca6-11f1-8e26-931170ebc0de.jpg"
+      "excerpt": "The drop has been largely driven by a rise in the number of people not actively seeking work.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c64a/live/172192e0-3d6a-11f1-bd52-e755d604ece4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Royal Mail to ask part-time posties to work more to meet letter targets",
+      "link": "https://www.bbc.com/news/articles/c98m048d441o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Apr 2026",
+      "excerpt": "Royal Mail has faced a chorus of criticism for failing to meet its targets on letter delivery.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf57/live/2339c6a0-3d6b-11f1-bb8a-374117ea6afa.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Petrol thefts surge as Iran war pushes up fuel costs",
       "link": "https://www.bbc.com/news/articles/cx2drmm1mglo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Apr 2026",
+      "date": "21 Apr 2026",
       "excerpt": "One petrol retailer says he is experiencing about five drive-offs a week at each forecourt, costing him thousands.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4eab/live/12dd75d0-3d44-11f1-9d5c-8ba507d7dbde.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "High electricity bills targeted in planned shakeup to energy pricing",
+      "title": "Electricity bills targeted in planned shakeup to energy pricing",
       "link": "https://www.bbc.com/news/articles/c79jg43vd8no?at_medium=RSS&at_campaign=rss",
       "date": "21 Apr 2026",
       "excerpt": "The war in the Middle East has brought renewed attention to Britain's vulnerability to energy price shocks.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0da8/live/3c1a93d0-3ce8-11f1-861e-13bf35e4cbcb.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4498/live/b0c3db60-3d5b-11f1-8606-05fe34b06e1b.jpg"
     },
     {
       "source": "BBC Business",
@@ -296,16 +305,7 @@
       "link": "https://www.bbc.com/news/articles/c1kr19lry18o?at_medium=RSS&at_campaign=rss",
       "date": "21 Apr 2026",
       "excerpt": "Ternus will take over running the technology giant in September as Cook steps up to become executive chairman.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/355a/live/1c690050-3cfa-11f1-a60f-41d0a7fcc620.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The 20-somethings juggling three jobs to make ends meet",
-      "link": "https://www.bbc.com/news/articles/cn89n9exl11o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Apr 2026",
-      "excerpt": "While UK unemployment is at a five-year-high, increasing numbers of those in work have more than one job.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0166/live/ca067670-3cbe-11f1-8307-55aabab9b8cb.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9011/live/3c8640c0-3d52-11f1-8606-05fe34b06e1b.jpg"
     },
     {
       "source": "BBC Business",
