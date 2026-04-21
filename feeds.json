@@ -1,5 +1,5 @@
 {
-  "updated": "21 Apr 2026, 11:44 UTC",
+  "updated": "21 Apr 2026, 16:19 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Research: When Corporate LGBTQ+ Allyship Only Happens in June",
+      "link": "https://hbr.org/2026/04/research-when-corporate-lgbtq-allyship-only-happens-in-june",
+      "date": "21 Apr 2026",
+      "excerpt": "Rather than concentrating efforts during Pride Month, organizations should embed allyship into everyday policies, benefits, and leadership priorities.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What Sets Superteams Apart from the Rest",
+      "link": "https://hbr.org/podcast/2026/04/what-sets-superteams-apart-from-the-rest",
+      "date": "21 Apr 2026",
+      "excerpt": "A conversation with psychologist Ron Friedman about the secrets to team success.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When the CEO Becomes the Brand",
+      "link": "https://hbr.org/2026/04/when-the-ceo-becomes-the-brand",
+      "date": "21 Apr 2026",
+      "excerpt": "Your company&#8217;s leader has become a political lightning rod. Now what?",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "When Apologizing to Customers Hurts More Than It Helps",
       "link": "https://hbr.org/2026/04/when-apologizing-to-customers-hurts-more-than-it-helps",
       "date": "20 Apr 2026",
@@ -188,24 +215,6 @@
       "link": "https://hbr.org/2026/04/5-questions-leaders-should-ask-before-turning-to-fractional-work",
       "date": "17 Apr 2026",
       "excerpt": "It can offer diversified income streams, more autonomy, and improved work-life balance.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When Your Ambition Starts to Exhaust You",
-      "link": "https://hbr.org/2026/04/when-your-ambition-starts-to-exhaust-you",
-      "date": "16 Apr 2026",
-      "excerpt": "Five questions to help you recalibrate.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Scaling a Business Beyond the Family Playbook",
-      "link": "https://hbr.org/podcast/2026/04/scaling-a-business-beyond-the-family-playbook",
-      "date": "15 Apr 2026",
-      "excerpt": "A conversation with HBS senior lecturer Henry McGee and CEO Jessica Johnson-Cope about the challenges that come with expanding a multigenerational business in new directions.",
       "image": ""
     },
     {
@@ -283,6 +292,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Middle East war has pushed up air fares 24%, research shows",
+      "link": "https://www.bbc.com/news/articles/crr14qplxe8o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Apr 2026",
+      "excerpt": "The consultancy Teneo says airspace restrictions caused by the conflict have forced airlines to reroute many flights.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1062/live/da6149f0-3d90-11f1-92be-b5fcda70efcc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Petrol thefts surge as Iran war pushes up fuel costs",
       "link": "https://www.bbc.com/news/articles/cx2drmm1mglo?at_medium=RSS&at_campaign=rss",
       "date": "21 Apr 2026",
@@ -292,11 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Electricity bills targeted in planned shakeup to energy pricing",
-      "link": "https://www.bbc.com/news/articles/c79jg43vd8no?at_medium=RSS&at_campaign=rss",
-      "date": "21 Apr 2026",
-      "excerpt": "The war in the Middle East has brought renewed attention to Britain's vulnerability to energy price shocks.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4498/live/b0c3db60-3d5b-11f1-8606-05fe34b06e1b.jpg"
+      "title": "The 'dumb machine' promising a clean energy breakthrough",
+      "link": "https://www.bbc.com/news/articles/c5yvm11xrn6o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Apr 2026",
+      "excerpt": "A stellarator is difficult to build, but could it be the best way to make fusion energy work?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cdc/live/60502c90-2c32-11f1-a79a-77e93010d956.jpg"
     },
     {
       "source": "BBC Business",
@@ -306,15 +324,6 @@
       "date": "21 Apr 2026",
       "excerpt": "Ternus will take over running the technology giant in September as Cook steps up to become executive chairman.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9011/live/3c8640c0-3d52-11f1-8606-05fe34b06e1b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The 'dumb machine' promising a clean energy breakthrough",
-      "link": "https://www.bbc.com/news/articles/c5yvm11xrn6o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Apr 2026",
-      "excerpt": "A stellarator is difficult to build, but could it be the best way to make fusion energy work?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cdc/live/60502c90-2c32-11f1-a79a-77e93010d956.jpg"
     }
   ]
 }
