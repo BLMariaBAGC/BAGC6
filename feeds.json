@@ -1,5 +1,5 @@
 {
-  "updated": "20 Apr 2026, 22:42 UTC",
+  "updated": "21 Apr 2026, 00:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,20 +274,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Petrol thefts surge as Iran war pushes up fuel costs",
+      "link": "https://www.bbc.com/news/articles/cx2drmm1mglo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Apr 2026",
+      "excerpt": "One petrol retailer says he is experiencing about five drive-offs a week at each forecourt, costing him thousands.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a03/live/1abcd3c0-3cf6-11f1-a60f-41d0a7fcc620.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "The 20-somethings juggling three jobs to make ends meet",
+      "link": "https://www.bbc.com/news/articles/cn89n9exl11o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Apr 2026",
+      "excerpt": "While UK unemployment is at a five-year-high, increasing numbers of those in work have more than one job.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0166/live/ca067670-3cbe-11f1-8307-55aabab9b8cb.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The insider trading suspicions looming over Trump's presidency",
       "link": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&at_campaign=rss",
       "date": "20 Apr 2026",
       "excerpt": "The BBC has found a pattern of spikes in trades ahead of public announcements by the US president.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/974f/live/6a5a6a20-3c95-11f1-9d5c-8ba507d7dbde.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Another flight leaves passengers behind due to border delays",
-      "link": "https://www.bbc.com/news/articles/cvg3xzxpv32o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Apr 2026",
-      "excerpt": "New European border rules have caused delays at airports across the continent, affecting flights.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dc4/live/06571000-3ccc-11f1-8076-af27da54a8f3.jpg"
     },
     {
       "source": "BBC Business",
@@ -301,20 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Blue Origin rocket grounded after satellite 'mishap'",
-      "link": "https://www.bbc.com/news/articles/cjr9vwz48npo?at_medium=RSS&at_campaign=rss",
+      "title": "The 'dumb machine' promising a clean energy breakthrough",
+      "link": "https://www.bbc.com/news/articles/c5yvm11xrn6o?at_medium=RSS&at_campaign=rss",
       "date": "20 Apr 2026",
-      "excerpt": "The firm founded by Amazon billionaire Jeff Bezos is investigating the failed launch.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8600/live/da78ea80-3ce9-11f1-861e-13bf35e4cbcb.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why your recycled clothes could end up in this South American desert",
-      "link": "https://www.bbc.com/news/articles/c62kg63k8v6o?at_medium=RSS&at_campaign=rss",
-      "date": "19 Apr 2026",
-      "excerpt": "Old garments from around the world are being discarded in the South American country.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c36/live/612ec760-2c1f-11f1-bf24-3b8f64554ce8.jpg"
+      "excerpt": "A stellarator is difficult to build, but could it be the best way to make fusion energy work?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cdc/live/60502c90-2c32-11f1-a79a-77e93010d956.jpg"
     }
   ]
 }
