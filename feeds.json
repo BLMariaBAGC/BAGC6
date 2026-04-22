@@ -1,5 +1,5 @@
 {
-  "updated": "22 Apr 2026, 18:28 UTC",
+  "updated": "22 Apr 2026, 19:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Midlife Fitness Delays Chronic Disease by Years",
+      "link": "https://neurosciencenews.com/midlife-fitness-health-span-longevity-30579/",
+      "date": "22 Apr 2026",
+      "excerpt": "Researchers tracking 24,500 adults found that midlife fitness delays the onset of chronic illness by at least 1.5 years, prioritizing quality of life over just longevity.",
+      "image": "https://neurosciencenews.com/files/2026/04/midlife-fitness-health-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "The Cellular Roots of Mental Illness",
+      "link": "https://neurosciencenews.com/physmap-cell-type-brain-mental-health-30577/",
+      "date": "22 Apr 2026",
+      "excerpt": "Researchers developed PhysMAP, an AI tool that identifies specific neuron types in electrical brain recordings to help treat psychiatric \"circuitopathies.\"",
+      "image": "https://neurosciencenews.com/files/2026/04/neurotech-cellular-mental-health-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Scientists Discover How Seeds “Hear” the Weather",
+      "link": "https://neurosciencenews.com/rain-sounds-seed-bioacousitcs-30576/",
+      "date": "22 Apr 2026",
+      "excerpt": "Engineers provide the first direct evidence that seeds \"hear\" rain, using sound vibrations to dislodge statoliths and accelerate germination.",
+      "image": "https://neurosciencenews.com/files/2026/04/seed-auditory-weather-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Astrocytes Build Long-Range Communication Networks in the Brain",
       "link": "https://neurosciencenews.com/astrocyte-networks-brain-communication-30575/",
       "date": "22 Apr 2026",
@@ -117,33 +144,6 @@
       "date": "21 Apr 2026",
       "excerpt": "Chaos-based heartbeat analysis can non-invasively detect mental load where conventional methods fail.",
       "image": "https://neurosciencenews.com/files/2026/04/heart-beat-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Midlife Hobbies Outperform Genetic Alzheimer’s Risk",
-      "link": "https://neurosciencenews.com/lifestyle-activities-alzheimers-genetics-30569/",
-      "date": "21 Apr 2026",
-      "excerpt": "A 10-year longitudinal study finds that diverse lifestyle activities in midlife are more powerful than the APOE ε4 gene in shaping cognitive health.",
-      "image": "https://neurosciencenews.com/files/2026/04/hobby-alzheimers-aging-neuroceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Redefining Neuroplasticity Through Selective Deactivation",
-      "link": "https://neurosciencenews.com/deafness-auditory-cortex-visual-deactivation-30568/",
-      "date": "21 Apr 2026",
-      "excerpt": "A new study finds that the auditory cortex in deaf individuals uses selective deactivation to represent visual spatial features.",
-      "image": "https://neurosciencenews.com/files/2026/04/audio-selective-neuroplasticity-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Secrets of Human Intelligence Unlocked",
-      "link": "https://neurosciencenews.com/ape-cognition-intelligence-dataset-30567/",
-      "date": "21 Apr 2026",
-      "excerpt": "A collaborative project has released EVApeCognition, the world's largest dataset on great ape intelligence.",
-      "image": "https://neurosciencenews.com/files/2026/04/intelligence-cognition-evolution-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
