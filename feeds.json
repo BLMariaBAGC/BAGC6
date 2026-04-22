@@ -1,5 +1,5 @@
 {
-  "updated": "22 Apr 2026, 19:57 UTC",
+  "updated": "22 Apr 2026, 22:34 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Embryonic Pathways Found to Balance the Adult Mind",
+      "link": "https://neurosciencenews.com/smoothened-learning-behavioral-flexibility-30582/",
+      "date": "22 Apr 2026",
+      "excerpt": "Researchers discovered that a signaling pathway used in brain development is repurposed in adulthood to balance behavioral persistence and flexibility.",
+      "image": "https://neurosciencenews.com/files/2026/04/acetylcholine-behavior-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How AI “Brain States” Decode Reality",
+      "link": "https://neurosciencenews.com/ai-internal-world-models-understanding-30581/",
+      "date": "22 Apr 2026",
+      "excerpt": "A new study reveals that AI models with over 2 billion parameters develop mathematical \"brain states\" that distinguish between possible and impossible events.",
+      "image": "https://neurosciencenews.com/files/2026/04/llm-ai-world-understanding-neuroscience-1155x673.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Early Imaginative Play Predicts Better Mental Health",
+      "link": "https://neurosciencenews.com/pretend-play-mental-health-30580/",
+      "date": "22 Apr 2026",
+      "excerpt": "A longitudinal study of 1,400 children links early pretend play to improved mental health outcomes, suggesting play builds brain resilience.",
+      "image": "https://neurosciencenews.com/files/2026/04/child-pretend-play-mental-health-neuroscience-1155x673.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Midlife Fitness Delays Chronic Disease by Years",
       "link": "https://neurosciencenews.com/midlife-fitness-health-span-longevity-30579/",
       "date": "22 Apr 2026",
@@ -119,31 +146,13 @@
       "image": "https://neurosciencenews.com/files/2026/04/tic-disorder-motor-cortex-neuroscience-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "White Matter Damage Triggers Repair and Disease Cycles",
-      "link": "https://neurosciencenews.com/white-matter-myelin-neurodegeneration-30573/",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Making the Shift from Individual Contributor to Leader",
+      "link": "https://hbr.org/podcast/2026/04/making-the-shift-from-individual-contributor-to-leader",
       "date": "22 Apr 2026",
-      "excerpt": "Researchers found that localized white matter damage causes remote grey matter loss, but regenerating myelin can reverse the damage.",
-      "image": "https://neurosciencenews.com/files/2026/04/white-mater-neuroinflammation-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "AI Identifies Appendix Removal and Diet as Alzheimer’s Risks",
-      "link": "https://neurosciencenews.com/gut-microbiome-alzheimers-appendix-30571/",
-      "date": "21 Apr 2026",
-      "excerpt": "A massive AI study identifies appendix removal and long-term gut microbiome disruption as key drivers of Alzheimer’s risk.",
-      "image": "https://neurosciencenews.com/files/2026/04/ai-appendix-alzheimers-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Heartbeat Rhythms Unveil Hidden Brain Activity",
-      "link": "https://neurosciencenews.com/heartbeat-chaos-cognitive-activity-30570/",
-      "date": "21 Apr 2026",
-      "excerpt": "Chaos-based heartbeat analysis can non-invasively detect mental load where conventional methods fail.",
-      "image": "https://neurosciencenews.com/files/2026/04/heart-beat-brain-neuroscience-1155x770.jpg"
+      "excerpt": "A conversation with leadership development experts Amy Jen Su and Muriel M. Wilkins about what it takes to be seen as a leader&#8212;whether you have the top job or not.",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -209,12 +218,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Leaders, Treat Resistance to Change as Valuable Data",
-      "link": "https://hbr.org/2026/04/leaders-treat-resistance-to-change-as-valuable-data",
-      "date": "20 Apr 2026",
-      "excerpt": "Don&#8217;t dismiss it as kneejerk pushback.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How firms should react to rivalry between America and China in critical minerals",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/22/how-firms-should-react-to-rivalry-between-america-and-china-in-critical-minerals/",
+      "date": "22 Apr 2026",
+      "excerpt": "The intensifying strategic competition between America and China is reshaping global trade, industrial policy and supply chains in ways that businesses can no longer ignore. Hany Besada explains how multinational firms must rewrite their st",
       "image": ""
     },
     {
@@ -263,13 +272,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "In what ways does the Middle East conflict affect global trade and growth?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/15/in-what-ways-does-the-middle-east-conflict-affect-global-trade-and-growth/",
-      "date": "15 Apr 2026",
-      "excerpt": "The ongoing conflict involving Iran, the United States and Israel has caused turbulence in the global economy. Roger Hosein and George Saridakis show how a geographically concentrated disruption can cascade through energy markets, trade sys",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Eliminate jobs tax for workers to compete with AI, says Sunak",
+      "link": "https://www.bbc.com/news/articles/cvg07x4rejdo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Apr 2026",
+      "excerpt": "The former prime minister said graduates' concerns about getting entry-level jobs are justified.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/268a/live/6167f5f0-3e8d-11f1-93dd-c79ff08bbda8.jpg"
     },
     {
       "source": "BBC Business",
@@ -306,15 +315,6 @@
       "date": "22 Apr 2026",
       "excerpt": "Billionaire investor Justin Sun is suing the family's World Liberty crypto venture after spending $45m on its tokens.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9fb9/live/14ab1e50-3e5f-11f1-8887-e93160959470.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "McDonald's boss on abuse claims: 'I don't want to talk about the past'",
-      "link": "https://www.bbc.com/news/articles/cp9v3lk34yvo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Apr 2026",
-      "excerpt": "A BBC investigation in 2023 heard from more than 100 McDonald's workers in the UK claiming they faced sexual assault, harassment, racism, and bullying",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5cb4/live/090fe290-3e39-11f1-929e-dd2b5d4dae7a.jpg"
     },
     {
       "source": "BBC Business",
