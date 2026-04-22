@@ -1,5 +1,5 @@
 {
-  "updated": "22 Apr 2026, 15:58 UTC",
+  "updated": "22 Apr 2026, 18:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Astrocytes Build Long-Range Communication Networks in the Brain",
+      "link": "https://neurosciencenews.com/astrocyte-networks-brain-communication-30575/",
+      "date": "22 Apr 2026",
+      "excerpt": "Neuroscientists have discovered a secret second network in the brain. AI-mapped astrocyte webs connect distant brain regions, challenging 100 years of neuron-centric theory.",
+      "image": "https://neurosciencenews.com/files/2026/04/astrocyte-communication-network-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Tourette’s and OCD Share a Common Neural Pathway",
+      "link": "https://neurosciencenews.com/tourette-insular-motor-circuit-30574/",
+      "date": "22 Apr 2026",
+      "excerpt": "Scientists have discovered a brain \"bridge\" between the motor and insular cortex that controls the intensity of Tourette's tics and emotional symptoms.",
+      "image": "https://neurosciencenews.com/files/2026/04/tic-disorder-motor-cortex-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "White Matter Damage Triggers Repair and Disease Cycles",
+      "link": "https://neurosciencenews.com/white-matter-myelin-neurodegeneration-30573/",
+      "date": "22 Apr 2026",
+      "excerpt": "Researchers found that localized white matter damage causes remote grey matter loss, but regenerating myelin can reverse the damage.",
+      "image": "https://neurosciencenews.com/files/2026/04/white-mater-neuroinflammation-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "AI Identifies Appendix Removal and Diet as Alzheimer’s Risks",
       "link": "https://neurosciencenews.com/gut-microbiome-alzheimers-appendix-30571/",
       "date": "21 Apr 2026",
@@ -117,33 +144,6 @@
       "date": "21 Apr 2026",
       "excerpt": "A collaborative project has released EVApeCognition, the world's largest dataset on great ape intelligence.",
       "image": "https://neurosciencenews.com/files/2026/04/intelligence-cognition-evolution-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "AI Voices Outperform Human Speech in Noisy Environments",
-      "link": "https://neurosciencenews.com/ai-voice-clones-intelligibility-noise-30566/",
-      "date": "21 Apr 2026",
-      "excerpt": "A study reveals that AI voice clones are up to 20% easier to understand than human voices in noisy environments, suggesting AI \"idealizes\" speech for better clarity.",
-      "image": "https://neurosciencenews.com/files/2026/04/ai-human-voice-processing-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Alzheimer’s Brains Share a Genetic Signature with Some Cancers",
-      "link": "https://neurosciencenews.com/alzheimers-cancer-mutation-microglia-30565/",
-      "date": "21 Apr 2026",
-      "excerpt": "A study finds that Alzheimer’s is driven by cancer-like mutations in the brain's immune cells, which may enter from the blood and trigger lethal brain inflammation.",
-      "image": "https://neurosciencenews.com/files/2026/04/alzheimers-cancer-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Cellular Drawstrings Seal the Developing Brain",
-      "link": "https://neurosciencenews.com/physics-neural-tube-closure-30564/",
-      "date": "20 Apr 2026",
-      "excerpt": "Researchers identified a \"purse-string\" mechanism powered by actin and molecular motors that physically pulls the neural tube closed during early development.",
-      "image": "https://neurosciencenews.com/files/2026/04/neural-tube-development-neuroscience-physics-1155x753.png"
     },
     {
       "source": "Harvard Business Review",
@@ -292,29 +292,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Four arrested over suspected home insulation scheme fraud",
+      "link": "https://www.bbc.com/news/articles/cgmermvppp8o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Apr 2026",
+      "excerpt": "The Serious Fraud Office raided homes and businesses over alleged conspiracy to defraud public money.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/217f/live/99775210-f77a-11f0-b7ec-55c1cb544783.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Billionaire backer sues Trump family's crypto firm over alleged extortion",
+      "link": "https://www.bbc.com/news/articles/c8x7kxjgq9xo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Apr 2026",
+      "excerpt": "Billionaire investor Justin Sun is suing the family's World Liberty crypto venture after spending $45m on its tokens.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9fb9/live/14ab1e50-3e5f-11f1-8887-e93160959470.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "McDonald's boss on abuse claims: 'I don't want to talk about the past'",
       "link": "https://www.bbc.com/news/articles/cp9v3lk34yvo?at_medium=RSS&at_campaign=rss",
       "date": "22 Apr 2026",
       "excerpt": "A BBC investigation in 2023 heard from more than 100 McDonald's workers in the UK claiming they faced sexual assault, harassment, racism, and bullying",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5cb4/live/090fe290-3e39-11f1-929e-dd2b5d4dae7a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Lufthansa cuts 20,000 summer flights as fuel prices surge",
-      "link": "https://www.bbc.com/news/articles/cre1r4n5j5wo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Apr 2026",
-      "excerpt": "The airline is the latest to cut flights as the US-Israel war with Iran sends jet fuel prices soaring.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e298/live/63872c10-3e43-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Car finance compensation scheme faces challenge and delay",
-      "link": "https://www.bbc.com/news/articles/cj0v63v027lo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Apr 2026",
-      "excerpt": "The move could further delay payouts to millions of drivers who were mis-sold motor finance.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3e1/live/ce1eb620-3e24-11f1-8ba5-cfdd8d3337ac.jpg"
     },
     {
       "source": "BBC Business",
