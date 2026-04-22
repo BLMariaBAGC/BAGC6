@@ -1,5 +1,5 @@
 {
-  "updated": "22 Apr 2026, 11:42 UTC",
+  "updated": "22 Apr 2026, 15:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "What Values Do You Really Stand For?",
+      "link": "https://hbr.org/2026/04/what-values-do-you-really-stand-for",
+      "date": "22 Apr 2026",
+      "excerpt": "Two ways to identify the values that matter most for your leadership.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Comeback of the Physical Store—and What It Means for Your Business",
+      "link": "https://hbr.org/2026/04/the-comeback-of-the-physical-store-and-what-it-means-for-your-business",
+      "date": "22 Apr 2026",
+      "excerpt": "Retail&#8217;s brick-and-mortar resurgence is a lesson in how to reassess assets previously seen as liabilities.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The HBR Guide to CEO Transitions",
       "link": "https://hbr.org/2026/04/the-hbr-guide-to-ceo-transitions",
       "date": "21 Apr 2026",
@@ -197,24 +215,6 @@
       "link": "https://hbr.org/2026/04/leaders-treat-resistance-to-change-as-valuable-data",
       "date": "20 Apr 2026",
       "excerpt": "Don&#8217;t dismiss it as kneejerk pushback.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The AI Leadership Imperative",
-      "link": "https://hbr.org/2026/04/the-ai-leadership-imperative",
-      "date": "17 Apr 2026",
-      "excerpt": "Companies that successfully integrate AI will prioritize leading human-centric transformation.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: What China’s AI Agents Reveal About the Future of Commerce",
-      "link": "https://hbr.org/2026/04/research-what-chinas-ai-agents-reveal-about-the-future-of-commerce",
-      "date": "17 Apr 2026",
-      "excerpt": "As AI starts making purchasing decisions for people, companies must compete to be selected by agents, not just noticed by customers.",
       "image": ""
     },
     {
@@ -274,7 +274,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Flights, food and fuel: What you need to know about the latest inflation figures",
+      "title": "Three ways the latest inflation figures affect you",
       "link": "https://www.bbc.com/news/articles/c75k002qkzno?at_medium=RSS&at_campaign=rss",
       "date": "22 Apr 2026",
       "excerpt": "How high could inflation get? And what could it mean for borrowers and savers around the country?",
@@ -305,7 +305,7 @@
       "link": "https://www.bbc.com/news/articles/cre1r4n5j5wo?at_medium=RSS&at_campaign=rss",
       "date": "22 Apr 2026",
       "excerpt": "The airline is the latest to cut flights as the US-Israel war with Iran sends jet fuel prices soaring.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8ab/live/f96ddf10-3e27-11f1-8ba5-cfdd8d3337ac.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e298/live/63872c10-3e43-11f1-bd52-e755d604ece4.jpg"
     },
     {
       "source": "BBC Business",
