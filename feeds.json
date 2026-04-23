@@ -1,5 +1,5 @@
 {
-  "updated": "22 Apr 2026, 22:34 UTC",
+  "updated": "23 Apr 2026, 06:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,78 +72,6 @@
       "date": "9 Apr 2026",
       "excerpt": "A new study reveals that gut bacteria may play a key role in triggering ALS and frontotemporal dementia. Harmful sugars produced by these microbes can spark immune responses that damage the brain. This breakthrough explains why some genetic",
       "image": ""
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Embryonic Pathways Found to Balance the Adult Mind",
-      "link": "https://neurosciencenews.com/smoothened-learning-behavioral-flexibility-30582/",
-      "date": "22 Apr 2026",
-      "excerpt": "Researchers discovered that a signaling pathway used in brain development is repurposed in adulthood to balance behavioral persistence and flexibility.",
-      "image": "https://neurosciencenews.com/files/2026/04/acetylcholine-behavior-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "How AI “Brain States” Decode Reality",
-      "link": "https://neurosciencenews.com/ai-internal-world-models-understanding-30581/",
-      "date": "22 Apr 2026",
-      "excerpt": "A new study reveals that AI models with over 2 billion parameters develop mathematical \"brain states\" that distinguish between possible and impossible events.",
-      "image": "https://neurosciencenews.com/files/2026/04/llm-ai-world-understanding-neuroscience-1155x673.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Early Imaginative Play Predicts Better Mental Health",
-      "link": "https://neurosciencenews.com/pretend-play-mental-health-30580/",
-      "date": "22 Apr 2026",
-      "excerpt": "A longitudinal study of 1,400 children links early pretend play to improved mental health outcomes, suggesting play builds brain resilience.",
-      "image": "https://neurosciencenews.com/files/2026/04/child-pretend-play-mental-health-neuroscience-1155x673.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Midlife Fitness Delays Chronic Disease by Years",
-      "link": "https://neurosciencenews.com/midlife-fitness-health-span-longevity-30579/",
-      "date": "22 Apr 2026",
-      "excerpt": "Researchers tracking 24,500 adults found that midlife fitness delays the onset of chronic illness by at least 1.5 years, prioritizing quality of life over just longevity.",
-      "image": "https://neurosciencenews.com/files/2026/04/midlife-fitness-health-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "The Cellular Roots of Mental Illness",
-      "link": "https://neurosciencenews.com/physmap-cell-type-brain-mental-health-30577/",
-      "date": "22 Apr 2026",
-      "excerpt": "Researchers developed PhysMAP, an AI tool that identifies specific neuron types in electrical brain recordings to help treat psychiatric \"circuitopathies.\"",
-      "image": "https://neurosciencenews.com/files/2026/04/neurotech-cellular-mental-health-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Scientists Discover How Seeds “Hear” the Weather",
-      "link": "https://neurosciencenews.com/rain-sounds-seed-bioacousitcs-30576/",
-      "date": "22 Apr 2026",
-      "excerpt": "Engineers provide the first direct evidence that seeds \"hear\" rain, using sound vibrations to dislodge statoliths and accelerate germination.",
-      "image": "https://neurosciencenews.com/files/2026/04/seed-auditory-weather-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Astrocytes Build Long-Range Communication Networks in the Brain",
-      "link": "https://neurosciencenews.com/astrocyte-networks-brain-communication-30575/",
-      "date": "22 Apr 2026",
-      "excerpt": "Neuroscientists have discovered a secret second network in the brain. AI-mapped astrocyte webs connect distant brain regions, challenging 100 years of neuron-centric theory.",
-      "image": "https://neurosciencenews.com/files/2026/04/astrocyte-communication-network-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Tourette’s and OCD Share a Common Neural Pathway",
-      "link": "https://neurosciencenews.com/tourette-insular-motor-circuit-30574/",
-      "date": "22 Apr 2026",
-      "excerpt": "Scientists have discovered a brain \"bridge\" between the motor and insular cortex that controls the intensity of Tourette's tics and emotional symptoms.",
-      "image": "https://neurosciencenews.com/files/2026/04/tic-disorder-motor-cortex-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -274,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Eliminate jobs tax for workers to compete with AI, says Sunak",
+      "title": "AI is flattening the jobs market for young people, says Sunak",
       "link": "https://www.bbc.com/news/articles/cvg07x4rejdo?at_medium=RSS&at_campaign=rss",
       "date": "22 Apr 2026",
       "excerpt": "The former prime minister said graduates' concerns about getting entry-level jobs are justified.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/268a/live/6167f5f0-3e8d-11f1-93dd-c79ff08bbda8.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ab8/live/8c33daf0-3ed9-11f1-b55d-0f258dce1735.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Government borrowing falls by £20bn in year to March",
+      "link": "https://www.bbc.com/news/articles/ckge5291152o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Apr 2026",
+      "excerpt": "An increase in spending is more than more than offset by increased tax receipts, official figures show.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/793a/live/18abb400-3ed8-11f1-9eaf-d9592e157e9d.jpg"
     },
     {
       "source": "BBC Business",
@@ -292,11 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK inflation rises after Iran war pushes up fuel prices",
-      "link": "https://www.bbc.com/news/articles/cnv8l17r51ro?at_medium=RSS&at_campaign=rss",
-      "date": "22 Apr 2026",
-      "excerpt": "The figures provide the first official look at the impact of the Iran war on the cost of living in the UK.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac87/live/fe4f2a80-3e21-11f1-8ba5-cfdd8d3337ac.jpg"
+      "title": "High Street mini-marts selling cocaine, cannabis and prescription drugs, BBC secret filming reveals",
+      "link": "https://www.bbc.com/news/articles/c62l429w2pko?at_medium=RSS&at_campaign=rss",
+      "date": "23 Apr 2026",
+      "excerpt": "Across the UK, shopfronts are being exploited by criminal gangs pushing illegal drugs, experts say.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e11f/live/07938ef0-3d8d-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
@@ -310,20 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Billionaire backer sues Trump family's crypto firm over alleged extortion",
-      "link": "https://www.bbc.com/news/articles/c8x7kxjgq9xo?at_medium=RSS&at_campaign=rss",
+      "title": "How a pivot to hair accessories led to business success",
+      "link": "https://www.bbc.com/news/articles/c23992zv9rko?at_medium=RSS&at_campaign=rss",
       "date": "22 Apr 2026",
-      "excerpt": "Billionaire investor Justin Sun is suing the family's World Liberty crypto venture after spending $45m on its tokens.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9fb9/live/14ab1e50-3e5f-11f1-8887-e93160959470.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The 'dumb machine' promising a clean energy breakthrough",
-      "link": "https://www.bbc.com/news/articles/c5yvm11xrn6o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Apr 2026",
-      "excerpt": "A stellarator is difficult to build, but could it be the best way to make fusion energy work?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cdc/live/60502c90-2c32-11f1-a79a-77e93010d956.jpg"
+      "excerpt": "Jenny Lennick's colourful hair clips are sold across the US and around the world.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/23b1/live/acb55400-38a5-11f1-a963-91d9e730d487.jpg"
     }
   ]
 }
