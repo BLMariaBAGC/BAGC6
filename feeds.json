@@ -1,5 +1,5 @@
 {
-  "updated": "23 Apr 2026, 11:43 UTC",
+  "updated": "23 Apr 2026, 17:03 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/04/260423022010.htm",
       "date": "23 Apr 2026",
       "excerpt": "Scientists have identified two specific types of brain cells that behave differently in people with depression, offering a clearer picture of what is happening inside the brain. By analyzing donated brain tissue with advanced genetic tools,",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "These 80-year-olds have the memory of 50-year-olds. Scientists now know why",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260423022006.htm",
+      "date": "23 Apr 2026",
+      "excerpt": "A rare group of adults over 80, known as SuperAgers, are rewriting what we thought was possible for the aging brain. With memory abilities comparable to people decades younger, their brains either resist or withstand the damage typically li",
       "image": ""
     },
     {
@@ -65,13 +74,22 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists say we’ve been treating Alzheimer’s all wrong",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260409101111.htm",
-      "date": "10 Apr 2026",
-      "excerpt": "Alzheimer’s isn’t just one problem—it’s a tangled mix of biology, aging, and overall health. That’s why drugs targeting a single factor have fallen short, even as new treatments show modest benefits. Scientists are now pushing toward multi-",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "GLP-1 Drugs Target the Roots of Dementia",
+      "link": "https://neurosciencenews.com/glp1-semaglutide-amyloid-reduction-30584/",
+      "date": "23 Apr 2026",
+      "excerpt": "A comprehensive review of 30 studies finds that GLP-1 receptor agonists are effective at tackling the biological drivers of Alzheimer’s disease.",
+      "image": "https://neurosciencenews.com/files/2026/04/glp1-alzheimers-neuroceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "25% of Chronic Pain Patients Show ADHD Traits",
+      "link": "https://neurosciencenews.com/adhd-traits-chronic-pain-30584/",
+      "date": "23 Apr 2026",
+      "excerpt": "A study of 1,000 Japanese patients reveals that undiagnosed ADHD traits may be a hidden driver behind treatment-resistant chronic pain.",
+      "image": "https://neurosciencenews.com/files/2026/04/adhd-chronic-pain-neuroscience-1155x770.jpg"
     },
     {
       "source": "Neuroscience News",
@@ -128,22 +146,13 @@
       "image": "https://neurosciencenews.com/files/2026/04/seed-auditory-weather-neuroscience-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Astrocytes Build Long-Range Communication Networks in the Brain",
-      "link": "https://neurosciencenews.com/astrocyte-networks-brain-communication-30575/",
-      "date": "22 Apr 2026",
-      "excerpt": "Neuroscientists have discovered a secret second network in the brain. AI-mapped astrocyte webs connect distant brain regions, challenging 100 years of neuron-centric theory.",
-      "image": "https://neurosciencenews.com/files/2026/04/astrocyte-communication-network-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Tourette’s and OCD Share a Common Neural Pathway",
-      "link": "https://neurosciencenews.com/tourette-insular-motor-circuit-30574/",
-      "date": "22 Apr 2026",
-      "excerpt": "Scientists have discovered a brain \"bridge\" between the motor and insular cortex that controls the intensity of Tourette's tics and emotional symptoms.",
-      "image": "https://neurosciencenews.com/files/2026/04/tic-disorder-motor-cortex-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The End of One-Size-Fits-All Enterprise Software",
+      "link": "https://hbr.org/2026/04/the-end-of-one-size-fits-all-enterprise-software",
+      "date": "23 Apr 2026",
+      "excerpt": "Companies now have the option to build, compose, collaborate, or buy outcomes rather than make do with existing SaaS offerings.",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -209,12 +218,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When Apologizing to Customers Hurts More Than It Helps",
-      "link": "https://hbr.org/2026/04/when-apologizing-to-customers-hurts-more-than-it-helps",
-      "date": "20 Apr 2026",
-      "excerpt": "New research finds that it can quietly damage customer loyalty.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Modern healthcare is data‑rich but insight‑poor",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/23/modern-healthcare-is-data%e2%80%91rich-but-insight%e2%80%91poor/",
+      "date": "23 Apr 2026",
+      "excerpt": "Why has an abundance of data in healthcare not enabled better outcomes in medicine? Alex Bedenkov argues thathealthcare is not short of data but is short of insight that meaningfully shapes decisions, and that this paradox is now difficult ",
       "image": ""
     },
     {
@@ -263,18 +272,27 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How can we be more resilient? Humans are really bad at realising that we can bounce back and learn from failure",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/15/how-can-we-be-more-resilient-humans-are-really-bad-at-realising-that-we-can-bounce-back-and-learn-from-failure/",
-      "date": "15 Apr 2026",
-      "excerpt": "In an edited extract from an interview with LSE, Grace Lordan, author of Think Big, Founding Director of The Inclusion Initiative and an Associate Professor at LSE explains how people can make themselves more resilient. Grace was talking to",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Which airlines are cancelling flights to the UK - and what can you do?",
+      "link": "https://www.bbc.com/news/articles/cr41yel6v4eo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Apr 2026",
+      "excerpt": "Airlines are putting up prices and cancelling flights in response to higher jet fuel prices.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b27c/live/3ee8b780-3f23-11f1-80a9-03674e4a073c.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK borrowing lowest for three years  but Iran war clouds outlook",
+      "title": "Warner Bros shareholders approve Paramount's $111bn takeover",
+      "link": "https://www.bbc.com/news/articles/cgj09ny0dq6o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Apr 2026",
+      "excerpt": "The approval came as Donald Trump is to attend a dinner with billionaire Paramount backers the Ellisons.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/509c/live/7266dad0-3f21-11f1-80a9-03674e4a073c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK borrowing lowest for three years but Iran war clouds outlook",
       "link": "https://www.bbc.com/news/articles/ckge5291152o?at_medium=RSS&at_campaign=rss",
       "date": "23 Apr 2026",
       "excerpt": "The improvement in government finances is unlikely to last, analysts say, with the impact of the Iran way yet to hit.",
@@ -292,24 +310,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "AI is already leading to fewer jobs for young people, says Sunak",
-      "link": "https://www.bbc.com/news/articles/cvg07x4rejdo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Apr 2026",
-      "excerpt": "The former prime minister said graduates' concerns about getting entry-level jobs are justified.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ab8/live/8c33daf0-3ed9-11f1-b55d-0f258dce1735.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Three ways the latest inflation figures affect you",
-      "link": "https://www.bbc.com/news/articles/c75k002qkzno?at_medium=RSS&at_campaign=rss",
-      "date": "22 Apr 2026",
-      "excerpt": "How high could inflation get? And what could it mean for borrowers and savers around the country?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5c4/live/4e87a0e0-3e3b-11f1-929e-dd2b5d4dae7a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "How a pivot to hair accessories led to business success",
       "link": "https://www.bbc.com/news/articles/c23992zv9rko?at_medium=RSS&at_campaign=rss",
       "date": "22 Apr 2026",
@@ -319,11 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Four arrested over suspected home insulation scheme fraud",
-      "link": "https://www.bbc.com/news/articles/cgmermvppp8o?at_medium=RSS&at_campaign=rss",
+      "title": "AI is already leading to fewer jobs for young people, says Sunak",
+      "link": "https://www.bbc.com/news/articles/cvg07x4rejdo?at_medium=RSS&at_campaign=rss",
       "date": "23 Apr 2026",
-      "excerpt": "The Serious Fraud Office raided homes and businesses over alleged conspiracy to defraud public money.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/217f/live/99775210-f77a-11f0-b7ec-55c1cb544783.jpg"
+      "excerpt": "The former prime minister said graduates' concerns about getting entry-level jobs are justified.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ab8/live/8c33daf0-3ed9-11f1-b55d-0f258dce1735.jpg"
     }
   ]
 }
