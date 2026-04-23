@@ -1,5 +1,5 @@
 {
-  "updated": "23 Apr 2026, 17:03 UTC",
+  "updated": "23 Apr 2026, 21:08 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,60 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Freeze-Dried Platelets Combat TBI Brain Swelling and Bleeding",
+      "link": "https://neurosciencenews.com/freeze-dried-platelets-tbi-swelling-30591/",
+      "date": "23 Apr 2026",
+      "excerpt": "Thrombosomes, a freeze-dried blood product, can stop brain swelling and stabilize leaky blood vessels after traumatic brain injury.",
+      "image": "https://neurosciencenews.com/files/2026/04/tbi-freeze-dried-platelets-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Dopamine Depletion: The Hidden Driver of Alzheimer’s Memory Loss",
+      "link": "https://neurosciencenews.com/dopamine-dysfunction-memory-alzheimers-30590/",
+      "date": "23 Apr 2026",
+      "excerpt": "A new study identifies dopamine dysfunction in the entorhinal cortex as a central cause of Alzheimer’s memory impairment.",
+      "image": "https://neurosciencenews.com/files/2026/04/dopamine-alzhimrs-memory-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "3D Bio-Hybrid Device Merges Neurons and Computing",
+      "link": "https://neurosciencenews.com/3d-biological-neural-network-30589/",
+      "date": "23 Apr 2026",
+      "excerpt": "A 3D bio-hybrid device uses a microscopic metal mesh to grow and \"program\" living brain cells for computation.",
+      "image": "https://neurosciencenews.com/files/2026/04/neuron-biocomputing-neuroscience-1155x673.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How Down Syndrome Reshapes the Developing Brain",
+      "link": "https://neurosciencenews.com/down-syndrome-brain-development-30587/",
+      "date": "23 Apr 2026",
+      "excerpt": "A new study provides a cellular-resolution map of Down syndrome brain development, identifying a depletion of progenitor cells as the cause of smaller brain size.",
+      "image": "https://neurosciencenews.com/files/2026/04/neocortex-down-syndrome-development-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Emotional Touch Leaves a Permanent Mark on the Mind",
+      "link": "https://neurosciencenews.com/affective-tactile-memory-touch-emotion-30586/",
+      "date": "23 Apr 2026",
+      "excerpt": "Researchers propose a new model for how the brain encodes and recalls emotionally meaningful touch, highlighting its role in lifelong mental health.",
+      "image": "https://neurosciencenews.com/files/2026/04/emotional-touch-memory-neurosceince-1155x673.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Stroke Impact Determines Future Dementia Risk",
+      "link": "https://neurosciencenews.com/stroke-severity-dementia-risk-30585/",
+      "date": "23 Apr 2026",
+      "excerpt": "A 30-year study of 42,000 adults shows that stroke severity is a primary driver of post-stroke dementia and accelerated brain aging.",
+      "image": "https://neurosciencenews.com/files/2026/04/stroke-dementia-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "GLP-1 Drugs Target the Roots of Dementia",
       "link": "https://neurosciencenews.com/glp1-semaglutide-amyloid-reduction-30584/",
       "date": "23 Apr 2026",
@@ -90,60 +144,6 @@
       "date": "23 Apr 2026",
       "excerpt": "A study of 1,000 Japanese patients reveals that undiagnosed ADHD traits may be a hidden driver behind treatment-resistant chronic pain.",
       "image": "https://neurosciencenews.com/files/2026/04/adhd-chronic-pain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Embryonic Pathways Found to Balance the Adult Mind",
-      "link": "https://neurosciencenews.com/smoothened-learning-behavioral-flexibility-30582/",
-      "date": "22 Apr 2026",
-      "excerpt": "Researchers discovered that a signaling pathway used in brain development is repurposed in adulthood to balance behavioral persistence and flexibility.",
-      "image": "https://neurosciencenews.com/files/2026/04/acetylcholine-behavior-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "How AI “Brain States” Decode Reality",
-      "link": "https://neurosciencenews.com/ai-internal-world-models-understanding-30581/",
-      "date": "22 Apr 2026",
-      "excerpt": "A new study reveals that AI models with over 2 billion parameters develop mathematical \"brain states\" that distinguish between possible and impossible events.",
-      "image": "https://neurosciencenews.com/files/2026/04/llm-ai-world-understanding-neuroscience-1155x673.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Early Imaginative Play Predicts Better Mental Health",
-      "link": "https://neurosciencenews.com/pretend-play-mental-health-30580/",
-      "date": "22 Apr 2026",
-      "excerpt": "A longitudinal study of 1,400 children links early pretend play to improved mental health outcomes, suggesting play builds brain resilience.",
-      "image": "https://neurosciencenews.com/files/2026/04/child-pretend-play-mental-health-neuroscience-1155x673.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Midlife Fitness Delays Chronic Disease by Years",
-      "link": "https://neurosciencenews.com/midlife-fitness-health-span-longevity-30579/",
-      "date": "22 Apr 2026",
-      "excerpt": "Researchers tracking 24,500 adults found that midlife fitness delays the onset of chronic illness by at least 1.5 years, prioritizing quality of life over just longevity.",
-      "image": "https://neurosciencenews.com/files/2026/04/midlife-fitness-health-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "The Cellular Roots of Mental Illness",
-      "link": "https://neurosciencenews.com/physmap-cell-type-brain-mental-health-30577/",
-      "date": "22 Apr 2026",
-      "excerpt": "Researchers developed PhysMAP, an AI tool that identifies specific neuron types in electrical brain recordings to help treat psychiatric \"circuitopathies.\"",
-      "image": "https://neurosciencenews.com/files/2026/04/neurotech-cellular-mental-health-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Scientists Discover How Seeds “Hear” the Weather",
-      "link": "https://neurosciencenews.com/rain-sounds-seed-bioacousitcs-30576/",
-      "date": "22 Apr 2026",
-      "excerpt": "Engineers provide the first direct evidence that seeds \"hear\" rain, using sound vibrations to dislodge statoliths and accelerate germination.",
-      "image": "https://neurosciencenews.com/files/2026/04/seed-auditory-weather-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,15 +220,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Modern healthcare is data‑rich but insight‑poor",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/23/modern-healthcare-is-data%e2%80%91rich-but-insight%e2%80%91poor/",
-      "date": "23 Apr 2026",
-      "excerpt": "Why has an abundance of data in healthcare not enabled better outcomes in medicine? Alex Bedenkov argues thathealthcare is not short of data but is short of insight that meaningfully shapes decisions, and that this paradox is now difficult ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How firms should react to rivalry between America and China in critical minerals",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/22/how-firms-should-react-to-rivalry-between-america-and-china-in-critical-minerals/",
       "date": "22 Apr 2026",
@@ -272,6 +263,15 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can we be more resilient? Humans are really bad at realising that we can bounce back and learn from failure",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/15/how-can-we-be-more-resilient-humans-are-really-bad-at-realising-that-we-can-bounce-back-and-learn-from-failure/",
+      "date": "15 Apr 2026",
+      "excerpt": "In an edited extract from an interview with LSE, Grace Lordan, author of Think Big, Founding Director of The Inclusion Initiative and an Associate Professor at LSE explains how people can make themselves more resilient. Grace was talking to",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Which airlines are cancelling flights to the UK - and what can you do?",
@@ -279,6 +279,15 @@
       "date": "23 Apr 2026",
       "excerpt": "Airlines are putting up prices and cancelling flights in response to higher jet fuel prices.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b27c/live/3ee8b780-3f23-11f1-80a9-03674e4a073c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Meta says it will cut 8,000 jobs as AI spending grows",
+      "link": "https://www.bbc.com/news/articles/crm1y89vek8o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Apr 2026",
+      "excerpt": "The cuts, which employees had been expecting for weeks, will be Meta's largest layoff since 2023.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72b1/live/f79c1250-3f45-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
@@ -301,15 +310,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Asos demands £7m from US as firms rush to claim tariff refunds",
-      "link": "https://www.bbc.com/news/articles/cd0r9d5zrkno?at_medium=RSS&at_campaign=rss",
-      "date": "23 Apr 2026",
-      "excerpt": "Hundreds of thousands of firms could potentially win back some money after the tariffs were struck down.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3c7/live/4fb76080-3efa-11f1-b55d-0f258dce1735.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "How a pivot to hair accessories led to business success",
       "link": "https://www.bbc.com/news/articles/c23992zv9rko?at_medium=RSS&at_campaign=rss",
       "date": "22 Apr 2026",
@@ -319,11 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "AI is already leading to fewer jobs for young people, says Sunak",
-      "link": "https://www.bbc.com/news/articles/cvg07x4rejdo?at_medium=RSS&at_campaign=rss",
+      "title": "Asos demands £7m from US as firms rush to claim tariff refunds",
+      "link": "https://www.bbc.com/news/articles/cd0r9d5zrkno?at_medium=RSS&at_campaign=rss",
       "date": "23 Apr 2026",
-      "excerpt": "The former prime minister said graduates' concerns about getting entry-level jobs are justified.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ab8/live/8c33daf0-3ed9-11f1-b55d-0f258dce1735.jpg"
+      "excerpt": "Hundreds of thousands of firms could potentially win back some money after the tariffs were struck down.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3c7/live/4fb76080-3efa-11f1-b55d-0f258dce1735.jpg"
     }
   ]
 }
