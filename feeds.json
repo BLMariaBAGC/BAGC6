@@ -1,5 +1,5 @@
 {
-  "updated": "24 Apr 2026, 09:13 UTC",
+  "updated": "24 Apr 2026, 14:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How to Succeed Like Apple’s Tim Cook",
+      "link": "https://hbr.org/2026/04/how-to-succeed-like-apples-tim-cook",
+      "date": "24 Apr 2026",
+      "excerpt": "Lessons on leadership and strategic discipline from Tim Cook&#8217;s 15-year tenure as Apple&#8217;s CEO.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research Roundup: A Surprising Benefit of Upskilling, Why Goals Can Backfire, and More",
+      "link": "https://hbr.org/2026/04/research-roundup-a-surprising-benefit-of-upskilling-why-goals-can-backfire-and-more",
+      "date": "24 Apr 2026",
+      "excerpt": "Fresh insights from a wide range of academic studies.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The End of One-Size-Fits-All Enterprise Software",
       "link": "https://hbr.org/2026/04/the-end-of-one-size-fits-all-enterprise-software",
       "date": "23 Apr 2026",
@@ -197,24 +215,6 @@
       "link": "https://hbr.org/2026/04/research-when-corporate-lgbtq-allyship-only-happens-in-june",
       "date": "21 Apr 2026",
       "excerpt": "Rather than concentrating efforts during Pride Month, organizations should embed allyship into everyday policies, benefits, and leadership priorities.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Sets Superteams Apart from the Rest",
-      "link": "https://hbr.org/podcast/2026/04/what-sets-superteams-apart-from-the-rest",
-      "date": "21 Apr 2026",
-      "excerpt": "A conversation with psychologist Ron Friedman about the secrets to team success.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When the CEO Becomes the Brand",
-      "link": "https://hbr.org/2026/04/when-the-ceo-becomes-the-brand",
-      "date": "21 Apr 2026",
-      "excerpt": "Your company&#8217;s leader has become a political lightning rod. Now what?",
       "image": ""
     },
     {
@@ -283,6 +283,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US justice department drops probe into Fed chairman Jerome Powell",
+      "link": "https://www.bbc.com/news/articles/cdxd1v0028vo?at_medium=RSS&at_campaign=rss",
+      "date": "24 Apr 2026",
+      "excerpt": "President Donald Trump had accused Powell of improper cost overruns in renovating the Fed's building.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ad5/live/487e57a0-3feb-11f1-b55d-0f258dce1735.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "How does it affect me if share prices fall?",
+      "link": "https://www.bbc.com/news/articles/c33zdz2m1e2o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Apr 2026",
+      "excerpt": "Changes in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c320/live/25775960-3fc2-11f1-b61b-1d0ccf7b6022.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "White House memo claims mass AI theft by Chinese firms",
       "link": "https://www.bbc.com/news/articles/cpqxgxx9nrqo?at_medium=RSS&at_campaign=rss",
       "date": "24 Apr 2026",
@@ -297,24 +315,6 @@
       "date": "24 Apr 2026",
       "excerpt": "Airlines are putting up prices and cancelling flights in response to higher jet fuel prices.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b27c/live/3ee8b780-3f23-11f1-80a9-03674e4a073c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US soldier charged after winning $400,000 betting on removal of Maduro",
-      "link": "https://www.bbc.com/news/articles/c20832yg5p2o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Apr 2026",
-      "excerpt": "Gannon Ken Van Dyke allegedly made trades on Polymarket on the basis of classified information, the justice department says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c326/live/c5dd7be0-3fa0-11f1-ac78-2112837ce2aa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Meta to cut one in 10 jobs after spending billions on AI",
-      "link": "https://www.bbc.com/news/articles/crm1y89vek8o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Apr 2026",
-      "excerpt": "The cuts, which employees had been expecting for weeks, will be Meta's largest layoff since 2023.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/54db/live/3152d110-3fa9-11f1-bd52-e755d604ece4.jpg"
     },
     {
       "source": "BBC Business",
