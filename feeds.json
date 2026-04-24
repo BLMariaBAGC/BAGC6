@@ -1,5 +1,5 @@
 {
-  "updated": "24 Apr 2026, 14:55 UTC",
+  "updated": "24 Apr 2026, 18:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Wearable Sensors to Detect Early Autism Signs in Infancy",
+      "link": "https://neurosciencenews.com/wearable-infant-sensors-asd-30594/",
+      "date": "24 Apr 2026",
+      "excerpt": "A $3.1M NIH grant supports a new study into wearable technology that tracks infant movement to predict autism and developmental delays.",
+      "image": "https://neurosciencenews.com/files/2026/04/asd-wearable-neurotech-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Everyday Skills Protect the Developing Brain from Prenatal Stress",
+      "link": "https://neurosciencenews.com/adaptive-skills-prenatal-stress-buffer-30593/",
+      "date": "24 Apr 2026",
+      "excerpt": "Children born during Superstorm Sandy shows that early behavioral skills act as a \"buffer,\" preserving healthy limbic system activation after prenatal stress.",
+      "image": "https://neurosciencenews.com/files/2026/04/neurodevelopment-skill-stress-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Mathematical Rule for How Social Norms Click",
+      "link": "https://neurosciencenews.com/tolerance-principle-social-norms-30592/",
+      "date": "24 Apr 2026",
+      "excerpt": "People adopt social conventions using the same two-stage cognitive process children use to learn grammar.",
+      "image": "https://neurosciencenews.com/files/2026/04/math-social-norms-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Freeze-Dried Platelets Combat TBI Brain Swelling and Bleeding",
       "link": "https://neurosciencenews.com/freeze-dried-platelets-tbi-swelling-30591/",
       "date": "23 Apr 2026",
@@ -117,33 +144,6 @@
       "date": "23 Apr 2026",
       "excerpt": "Researchers propose a new model for how the brain encodes and recalls emotionally meaningful touch, highlighting its role in lifelong mental health.",
       "image": "https://neurosciencenews.com/files/2026/04/emotional-touch-memory-neurosceince-1155x673.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Stroke Impact Determines Future Dementia Risk",
-      "link": "https://neurosciencenews.com/stroke-severity-dementia-risk-30585/",
-      "date": "23 Apr 2026",
-      "excerpt": "A 30-year study of 42,000 adults shows that stroke severity is a primary driver of post-stroke dementia and accelerated brain aging.",
-      "image": "https://neurosciencenews.com/files/2026/04/stroke-dementia-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "GLP-1 Drugs Target the Roots of Dementia",
-      "link": "https://neurosciencenews.com/glp1-semaglutide-amyloid-reduction-30584/",
-      "date": "23 Apr 2026",
-      "excerpt": "A comprehensive review of 30 studies finds that GLP-1 receptor agonists are effective at tackling the biological drivers of Alzheimer’s disease.",
-      "image": "https://neurosciencenews.com/files/2026/04/glp1-alzheimers-neuroceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "25% of Chronic Pain Patients Show ADHD Traits",
-      "link": "https://neurosciencenews.com/adhd-traits-chronic-pain-30584/",
-      "date": "23 Apr 2026",
-      "excerpt": "A study of 1,000 Japanese patients reveals that undiagnosed ADHD traits may be a hidden driver behind treatment-resistant chronic pain.",
-      "image": "https://neurosciencenews.com/files/2026/04/adhd-chronic-pain-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,10 +220,28 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Lessons from Bidenomics ahead of the midterms",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/24/lessons-from-bidenomics-ahead-of-the-midterms/",
+      "date": "24 Apr 2026",
+      "excerpt": "Should progressives utilise scarce political capital on running the economy hot to reduce inequality? And if not, where should they concentrate their efforts? As minds turn to the midterms Adam Aboobaker and Peter Skott suggest that the rec",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/figure_1_LSEblog-1024x640.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Why record auction prices and a cautious art market are not contradictory",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/24/why-record-auction-prices-and-a-cautious-art-market-are-not-contradictory/",
+      "date": "24 Apr 2026",
+      "excerpt": "Record prices do not always reflect a confident art market. Strong auction headlines can coexist with a weak underlying market because tighter money changes both prices and what reaches the block. Ziwen Chen explains why, when studying the ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Modern healthcare is data‑rich but insight‑poor",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/23/modern-healthcare-is-data%e2%80%91rich-but-insight%e2%80%91poor/",
       "date": "23 Apr 2026",
-      "excerpt": "Why has an abundance of data in healthcare not enabled better outcomes in medicine? Alex Bedenkov argues thathealthcare is not short of data but is short of insight that meaningfully shapes decisions, and that this paradox is now difficult ",
+      "excerpt": "Why has an abundance of data in healthcare not enabled better outcomes in medicine? Alex Bedenkov argues that healthcare is not short of data but is short of insight that meaningfully shapes decisions, and that this paradox is now difficult",
       "image": ""
     },
     {
@@ -251,24 +269,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/20/your-bosss-feelings-matter-too/",
       "date": "20 Apr 2026",
       "excerpt": "Senior business leaders are often considered to be above emotions. But the ones they have, and how they express them, matter. Michael Matthews and Dawei (David) Wang assess the impact of emotions on bosses, their colleagues and the organisa",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How to keep empathy sustainable in a world of hybrid, intergenerational work",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/17/how-to-keep-empathy-sustainable-in-a-world-of-hybrid-intergenerational-work/",
-      "date": "17 Apr 2026",
-      "excerpt": "Empathic leadership is commonly associated with better employee engagement and lower turnover. But leading with empathy can burn out even the best managers. Asrif Yusoff looks at whether millennial managers, who find themselves between olde",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Prediction markets have made uncertainty itself a tradable asset",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/16/prediction-markets-have-made-uncertainty-itself-a-tradable-asset/",
-      "date": "16 Apr 2026",
-      "excerpt": "The history of prediction markets can be traced back to Francis Galton’s ox and Kenneth Arrow’s promise. But their recent stratospheric rise is reliant on our polycrisis era. Bets can be made on elections, interest rates and war. More uncer",
       "image": ""
     },
     {
