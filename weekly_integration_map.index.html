@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Weekly Integration Map | Maria Fuentes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+:root{
+  --teal:#3D858C; --navy:#01293A; --turq:#C9F6FA;
+  --white:#FFFFFF; --cream:#FAFAF7; --light-teal:#E8F7F8;
+  --muted:#667A80; --border:#D8ECEE;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:"DM Sans",sans-serif;background:var(--cream);color:var(--navy);min-height:100vh;}
+
+/* ── HEADER ── */
+.header{background:var(--navy);padding:28px 60px;border-bottom:4px solid var(--teal);}
+.header-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;gap:24px;}
+.logo{width:68px;height:68px;flex-shrink:0;}
+.logo svg{width:100%;height:100%;}
+.header h1{font-family:"Cormorant Garamond",serif;font-size:30px;font-weight:700;color:var(--white);line-height:1.15;margin-bottom:4px;}
+.header h1 span{color:var(--turq);}
+.header p{font-family:"Cormorant Garamond",serif;font-size:17px;color:var(--turq);font-style:italic;}
+
+/* ── PROGRESS BAR ── */
+.progress-wrap{background:var(--white);border-bottom:1px solid var(--light-teal);padding:12px 60px;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(1,41,58,0.06);}
+.progress-inner{max-width:900px;margin:0 auto;}
+.progress-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px;}
+.progress-label{font-size:11px;font-weight:600;color:var(--teal);text-transform:uppercase;letter-spacing:1.5px;}
+.progress-count{font-size:11px;color:var(--teal);font-weight:500;}
+.progress-bar{background:var(--light-teal);border-radius:30px;height:5px;overflow:hidden;}
+.progress-fill{background:var(--teal);height:100%;border-radius:30px;transition:width 0.5s ease;width:0%;}
+
+/* ── CONTAINER / VIEWS ── */
+.container{max-width:900px;margin:0 auto;padding:48px 60px 80px;}
+.view{display:none;animation:fadeIn 0.35s ease;}
+.view.active{display:block;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+
+/* ── NAV ── */
+.nav-buttons{display:flex;justify-content:space-between;align-items:center;margin-top:44px;gap:16px;}
+.btn{padding:13px 30px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;border:none;font-family:"DM Sans",sans-serif;transition:all 0.2s ease;letter-spacing:0.3px;}
+.btn-primary{background:var(--teal);color:var(--white);}
+.btn-primary:hover{background:var(--navy);transform:translateY(-2px);box-shadow:0 6px 20px rgba(1,41,58,0.18);}
+.btn-secondary{background:transparent;color:var(--teal);border:2px solid var(--teal);}
+.btn-secondary:hover{background:var(--teal);color:var(--white);}
+.btn-large{padding:15px 40px;font-size:15px;}
+
+/* ── TYPOGRAPHY ── */
+.view-title{font-family:"Cormorant Garamond",serif;font-size:36px;font-weight:700;color:var(--navy);margin-bottom:6px;line-height:1.15;}
+.view-title span{color:var(--teal);}
+.view-subtitle{font-family:"Cormorant Garamond",serif;font-size:19px;color:var(--muted);font-style:italic;margin-bottom:32px;line-height:1.5;}
+.section-label{font-size:11px;font-weight:600;color:var(--teal);text-transform:uppercase;letter-spacing:2px;margin-bottom:14px;}
+
+/* ── NAVY BOX ── */
+.navy-box{background:var(--navy);border-radius:14px;padding:34px 40px;margin-bottom:28px;}
+.navy-box h2{font-family:"Cormorant Garamond",serif;font-size:26px;font-weight:700;color:var(--white);margin-bottom:12px;}
+.navy-box p{font-size:15px;color:rgba(255,255,255,0.82);line-height:1.78;margin-bottom:10px;}
+.navy-box .hl{font-family:"Cormorant Garamond",serif;font-size:19px;font-style:italic;color:var(--turq);border-left:3px solid var(--teal);padding-left:16px;margin-top:14px;line-height:1.5;}
+
+/* ── CALLOUT ── */
+.callout{background:var(--light-teal);border-left:4px solid var(--teal);border-radius:0 10px 10px 0;padding:16px 22px;margin-bottom:24px;}
+.callout p{font-size:14.5px;color:var(--navy);line-height:1.75;margin:0;}
+.callout p strong{color:var(--teal);}
+
+/* ── INPUTS ── */
+textarea,input[type="text"],input[type="date"]{
+  width:100%;border:1.5px solid var(--border);border-radius:8px;
+  padding:12px 14px;font-family:"DM Sans",sans-serif;font-size:14px;
+  color:var(--navy);line-height:1.65;resize:vertical;outline:none;
+  background:var(--white);transition:border-color 0.2s,box-shadow 0.2s;
+}
+textarea:focus,input:focus{border-color:var(--teal);box-shadow:0 0 0 3px rgba(61,133,140,0.1);background:var(--white);}
+textarea::placeholder,input::placeholder{color:#AECDD0;font-style:italic;}
+input[type="date"]{resize:none;}
+label.field-label{display:block;font-size:12px;font-weight:600;color:var(--teal);text-transform:uppercase;letter-spacing:1.2px;margin-bottom:7px;}
+
+/* ── SVG GRAPHICS ── */
+.integration-svg{width:100%;max-width:480px;display:block;margin:0 auto;}
+.svg-wrap{background:var(--white);border-radius:14px;padding:32px;box-shadow:0 4px 24px rgba(1,41,58,0.07);margin-bottom:32px;text-align:center;}
+.behaviour-flow{width:100%;max-width:420px;display:block;margin:16px auto 0;}
+.complete-svg{width:160px;height:110px;display:block;margin:0 auto 20px;}
+
+/* ── LIFE GOALS ── */
+.goal-fields{display:grid;gap:18px;}
+.goal-row{display:grid;grid-template-columns:28px 1fr;gap:14px;align-items:start;}
+.goal-num{width:28px;height:28px;background:var(--teal);color:var(--white);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0;margin-top:10px;}
+
+/* ── NEEDS GRID ── */
+.needs-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:8px;}
+.need-card{background:var(--white);border:1.5px solid var(--border);border-radius:12px;padding:24px;transition:border-color 0.2s,box-shadow 0.2s;}
+.need-card:focus-within{border-color:var(--teal);box-shadow:0 0 0 3px rgba(61,133,140,0.08);}
+.need-card-header{display:flex;align-items:center;gap:14px;margin-bottom:14px;}
+.need-icon{width:44px;height:44px;background:var(--light-teal);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--teal);}
+.need-icon svg{width:26px;height:26px;}
+.need-name{font-family:"Cormorant Garamond",serif;font-size:20px;font-weight:700;color:var(--navy);margin-bottom:2px;}
+.need-desc{font-size:12px;color:var(--muted);}
+.need-card textarea{min-height:72px;font-size:13.5px;}
+
+/* ── LIFE AREAS ── */
+.areas-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:28px;}
+.area-card{background:var(--white);border:2px solid var(--border);border-radius:12px;padding:20px 16px;cursor:pointer;transition:all 0.22s ease;text-align:center;user-select:none;}
+.area-card:hover{border-color:var(--teal);transform:translateY(-2px);box-shadow:0 6px 18px rgba(61,133,140,0.1);}
+.area-card.selected{border-color:var(--teal);background:var(--light-teal);}
+.area-icon{width:40px;height:40px;margin:0 auto 10px;color:var(--teal);}
+.area-icon svg{width:40px;height:40px;}
+.area-card.selected .area-icon{color:var(--navy);}
+.area-name{font-size:13px;font-weight:600;color:var(--navy);line-height:1.3;}
+.area-details{display:none;background:var(--light-teal);border-radius:10px;padding:16px;margin-top:14px;}
+.area-details.visible{display:block;}
+.area-details label{font-size:11px;font-weight:600;color:var(--teal);text-transform:uppercase;letter-spacing:1.2px;margin-bottom:7px;display:block;}
+.area-details textarea{min-height:64px;font-size:13px;background:var(--white);}
+
+/* ── SMART ACTIONS ── */
+.action-cards{display:grid;gap:20px;}
+.action-card{background:var(--white);border:1.5px solid var(--border);border-radius:12px;overflow:hidden;}
+.action-header{background:var(--navy);padding:14px 22px;display:flex;align-items:center;gap:12px;}
+.action-num{width:28px;height:28px;background:var(--teal);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:white;flex-shrink:0;}
+.action-header-label{font-family:"Cormorant Garamond",serif;font-size:17px;font-weight:600;color:white;}
+.action-body{padding:20px 22px;display:grid;gap:14px;}
+.action-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.smart-tag{display:inline-block;background:var(--teal);color:white;font-size:10px;font-weight:700;letter-spacing:1.5px;padding:3px 8px;border-radius:4px;margin-bottom:6px;text-transform:uppercase;}
+.action-field{display:flex;flex-direction:column;}
+
+/* ── BEHAVIOUR ── */
+.behaviour-pair{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:28px;}
+.beh-box{border-radius:12px;padding:24px;border:1.5px solid var(--border);}
+.beh-box.stepping-into{background:var(--navy);border-color:var(--navy);}
+.beh-box.shifting-away{background:var(--white);}
+.beh-box h3{font-family:"Cormorant Garamond",serif;font-size:26px;font-weight:700;margin-bottom:8px;line-height:1.2;}
+.beh-box.stepping-into h3{color:var(--turq);}
+.beh-box.shifting-away h3{color:var(--navy);}
+.beh-box .beh-sub{font-size:14px;color:var(--muted);margin-bottom:16px;line-height:1.6;}
+.beh-box.stepping-into .beh-sub{color:rgba(201,246,250,0.9);}
+.beh-box.stepping-into textarea{background:rgba(255,255,255,0.1);border-color:rgba(61,133,140,0.6);color:#E8F7F8;font-size:15px;}
+.beh-box.stepping-into textarea::placeholder{color:rgba(201,246,250,0.55);font-size:14px;}
+.beh-box.stepping-into textarea:focus{background:rgba(255,255,255,0.12);border-color:var(--teal);}
+.class-pill{display:inline-block;padding:5px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-bottom:14px;letter-spacing:0.5px;}
+.pill-good{background:rgba(61,133,140,0.15);color:var(--teal);border:1px solid rgba(61,133,140,0.3);}
+.pill-shift{background:rgba(1,41,58,0.08);color:var(--navy);border:1px solid rgba(1,41,58,0.15);}
+
+/* ── WEEKLY REVIEW ── */
+.review-grid{display:grid;gap:20px;margin-bottom:28px;}
+.review-card{background:var(--white);border:1.5px solid var(--border);border-radius:12px;padding:24px;}
+.review-card h3{font-family:"Cormorant Garamond",serif;font-size:21px;font-weight:700;color:var(--navy);margin-bottom:6px;}
+.review-card p.hint{font-size:13px;color:var(--muted);margin-bottom:14px;}
+.needs-check{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:8px;}
+.need-check-item{background:var(--light-teal);border-radius:10px;padding:12px 14px;}
+.need-check-item .nc-name{font-size:12px;font-weight:600;color:var(--navy);margin-bottom:8px;}
+.stars{display:flex;gap:4px;}
+.star{width:18px;height:18px;cursor:pointer;color:var(--border);transition:color 0.15s;}
+.star:hover,.star.active{color:var(--teal);}
+.star svg{width:18px;height:18px;fill:currentColor;}
+
+/* ── COMPLETION ── */
+.completion-header{background:var(--navy);border-radius:14px;padding:44px;margin-bottom:36px;text-align:center;}
+.completion-header h2{font-family:"Cormorant Garamond",serif;font-size:34px;font-weight:700;color:var(--white);margin-bottom:10px;}
+.completion-header p{font-size:16px;color:rgba(255,255,255,0.75);max-width:520px;margin:0 auto;line-height:1.65;}
+.dl-wrap{text-align:center;margin:40px 0 0;}
+.dl-wrap p{font-size:13px;color:var(--teal);margin-top:10px;font-style:italic;}
+.restart-link{display:block;text-align:center;margin-top:18px;color:var(--teal);cursor:pointer;font-size:14px;text-decoration:underline;}
+.summary-preview{background:var(--white);border:1.5px solid var(--border);border-radius:12px;padding:26px;margin-bottom:24px;}
+.summary-preview h3{font-family:"Cormorant Garamond",serif;font-size:20px;font-weight:700;color:var(--navy);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--light-teal);}
+.summary-item{font-size:14px;color:var(--navy);margin-bottom:8px;padding-left:14px;border-left:3px solid var(--teal);}
+.summary-item span{color:var(--muted);font-size:12px;display:block;margin-bottom:2px;text-transform:uppercase;letter-spacing:0.8px;}
+
+/* ── FOOTER ── */
+.footer{background:var(--navy);color:rgba(255,255,255,0.45);text-align:center;padding:18px;font-size:12px;margin-top:60px;}
+
+/* ── STEP BADGE ── */
+.step-badge{display:inline-block;background:var(--teal);color:var(--white);font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;padding:5px 14px;border-radius:20px;margin-bottom:18px;}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-inner">
+    <div class="logo"><img id="site-logo" src="data:image/jpeg;base64,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" alt="Maria Fuentes Logo" style="width:76px;height:76px;object-fit:contain;mix-blend-mode:screen;"></div>
+    <div>
+      <h1>Your Weekly <span>Integration Map</span></h1>
+      <p>Goals, Needs, and Behaviour in Balance</p>
+    </div>
+  </div>
+</div>
+
+<!-- PROGRESS BAR -->
+<div class="progress-wrap">
+  <div class="progress-inner">
+    <div class="progress-meta">
+      <span class="progress-label" id="progress-label">Introduction</span>
+      <span class="progress-count" id="progress-count"></span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- ════════════════════════════════════════════════════
+     VIEW 1: INTRODUCTION
+════════════════════════════════════════════════════ -->
+<div class="view active" id="v1">
+  <div class="step-badge">Welcome</div>
+  <h2 class="view-title">Your goals need <span>fuel</span>.</h2>
+  <p class="view-subtitle">Most people pursue their goals and neglect their needs. This exercise helps you do both, deliberately, every week.</p>
+
+  <div class="svg-wrap"><svg viewBox="0 0 480 380" xmlns="http://www.w3.org/2000/svg" class="integration-svg">
+  <!-- Soft glow rings — centre shifted to cy=210 for label room at top -->
+  <circle cx="240" cy="210" r="145" fill="none" stroke="#C9F6FA" stroke-width="1" opacity="0.2"/>
+  <circle cx="240" cy="210" r="115" fill="none" stroke="#3D858C" stroke-width="0.5" opacity="0.12"/>
+  <!-- Three arc segments -->
+  <!-- Dreams/Goals arc (top, navy) -->
+  <path d="M 130 150 A 120 120 0 0 1 350 150" fill="none" stroke="#01293A" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <!-- Needs arc (bottom left, teal) -->
+  <path d="M 130 150 A 120 120 0 0 0 240 336" fill="none" stroke="#3D858C" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <!-- Behaviour arc (bottom right, mid teal) -->
+  <path d="M 350 150 A 120 120 0 0 1 240 336" fill="none" stroke="#5A9BA2" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <!-- Connecting spokes -->
+  <line x1="130" y1="150" x2="200" y2="210" stroke="#01293A" stroke-width="1" stroke-dasharray="4,4" opacity="0.18"/>
+  <line x1="350" y1="150" x2="280" y2="210" stroke="#01293A" stroke-width="1" stroke-dasharray="4,4" opacity="0.18"/>
+  <line x1="240" y1="336" x2="240" y2="250" stroke="#3D858C" stroke-width="1" stroke-dasharray="4,4" opacity="0.18"/>
+  <!-- Centre circle -->
+  <circle cx="240" cy="210" r="52" fill="#01293A" opacity="0.95"/>
+  <circle cx="240" cy="210" r="48" fill="none" stroke="#3D858C" stroke-width="1" opacity="0.4"/>
+  <text x="240" y="203" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="11" fill="#C9F6FA" font-style="italic">This</text>
+  <text x="240" y="218" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="11" fill="#C9F6FA" font-style="italic">Week</text>
+  <!-- Vertex dots -->
+  <circle cx="130" cy="150" r="7" fill="#01293A"/>
+  <circle cx="350" cy="150" r="7" fill="#01293A"/>
+  <circle cx="240" cy="336" r="7" fill="#3D858C"/>
+  <!-- Top label: Dreams -->
+  <text x="240" y="28" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="16" font-weight="700" fill="#01293A" letter-spacing="2">YOUR DREAMS</text>
+  <text x="240" y="46" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="14" fill="#3D858C">From Define Your Dreams</text>
+  <text x="240" y="64" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="14" fill="#5A9BA2" font-style="italic">Your horizon. Your why.</text>
+  <!-- Bottom-left label: Needs -->
+  <text x="68" y="305" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="15" font-weight="700" fill="#01293A" letter-spacing="1">HUMAN NEEDS</text>
+  <text x="68" y="321" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="14" fill="#3D858C">How you feel</text>
+  <!-- Bottom-right label: Behaviour -->
+  <text x="412" y="305" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="15" font-weight="700" fill="#01293A" letter-spacing="1">BEHAVIOUR</text>
+  <text x="412" y="321" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="14" fill="#3D858C">How you travel</text>
+</svg></div>
+
+  <div class="navy-box">
+    <h2>How this works</h2>
+    <p>In your Define Your Dreams exercise, you decided how you want your life to be. Those are your goals and they do not change week to week. They are your horizon.</p>
+    <p>Each week, you decide: how will I move toward those goals <em>and</em> feel good while doing it? Because a goal pursued at the expense of your human needs is not sustainable. And a comfortable life that never moves is not fulfilling either.</p>
+    <div class="hl">The sweet spot is forward motion and genuine wellbeing at the same time.</div>
+  </div>
+
+  <div class="callout">
+    <p><strong>Each week you will map:</strong> how you will meet all six human needs, which life areas you are focusing on, what SMART actions you will take, and which behaviours you need to adopt or shift to make it work.</p>
+  </div>
+
+  <div class="nav-buttons">
+    <span></span>
+    <button class="btn btn-primary btn-large" onclick="go(2)">Begin &rarr;</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     VIEW 2: MY LIFE GOALS
+════════════════════════════════════════════════════ -->
+<div class="view" id="v2">
+  <div class="step-badge">Step 1 of 6</div>
+  <h2 class="view-title">Your <span>Dreams</span></h2>
+  <p class="view-subtitle">These came from your Define Your Dreams exercise. They are your horizon. Review them now and write them in. They will not change week to week.</p>
+
+  <div class="callout">
+    <p><strong>Reminder:</strong> These are the goals you set for how you want your life to be across all areas. Career, relationships, health, finances, personal growth, purpose. Write them in the present tense if it helps: the life you are building toward.</p>
+  </div>
+
+  <div class="goal-fields">
+    <div class="goal-row">
+      <div class="goal-num">1</div>
+      <div><textarea id="goal1" rows="2" placeholder="e.g. I am leading my team with clarity and confidence, building a culture of trust and results"></textarea></div>
+    </div>
+    <div class="goal-row">
+      <div class="goal-num">2</div>
+      <div><textarea id="goal2" rows="2" placeholder="e.g. I am in excellent health, with energy that sustains me through demanding days"></textarea></div>
+    </div>
+    <div class="goal-row">
+      <div class="goal-num">3</div>
+      <div><textarea id="goal3" rows="2" placeholder="e.g. My relationships are nourishing, honest, and a source of genuine connection"></textarea></div>
+    </div>
+    <div class="goal-row">
+      <div class="goal-num">4</div>
+      <div><textarea id="goal4" rows="2" placeholder="e.g. My finances are stable, growing, and aligned with what I value"></textarea></div>
+    </div>
+    <div class="goal-row">
+      <div class="goal-num">5</div>
+      <div><textarea id="goal5" rows="2" placeholder="e.g. I am growing continuously, investing in my knowledge and development"></textarea></div>
+    </div>
+    <div class="goal-row">
+      <div class="goal-num">6</div>
+      <div><textarea id="goal6" rows="2" placeholder="e.g. I am contributing to something larger than my own success"></textarea></div>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(1)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(3)">Next &rarr;</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     VIEW 3: HUMAN NEEDS
+════════════════════════════════════════════════════ -->
+<div class="view" id="v3">
+  <div class="step-badge">Step 2 of 6</div>
+  <h2 class="view-title">Meeting Your <span>Human Needs</span></h2>
+  <p class="view-subtitle">This week, how will you meet all six? The goal is not to crush your needs in pursuit of your goals. Both happen together.</p>
+
+  <div class="callout" style="margin-bottom:28px;">
+    <p>For each need, write one or two specific things you will do this week to honour it. Small, concrete, and realistic. A depleted person cannot sustain great work.</p>
+  </div>
+
+  <div class="needs-grid">
+    <div class="need-card">
+      <div class="need-card-header">
+        <div class="need-icon"><svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M22 6 L34 12 L34 24 C34 31 28 38 22 40 C16 38 10 31 10 24 L10 12 Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/>
+    <path d="M17 22 L20 25 L27 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg></div>
+        <div>
+          <div class="need-name">Certainty</div>
+          <div class="need-desc">Safety, stability, and reliable foundations</div>
+        </div>
+      </div>
+      <textarea id="need_certainty" rows="3" placeholder="e.g. I will keep my morning routine consistent this week, even on busy days..."></textarea>
+    </div>
+    <div class="need-card">
+      <div class="need-card-header">
+        <div class="need-icon"><svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="22" cy="22" r="4" fill="currentColor" opacity="0.8"/>
+    <path d="M22 8 L22 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M22 31 L22 36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M8 22 L13 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M31 22 L36 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M13.5 13.5 L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M27 27 L30.5 30.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M30.5 13.5 L27 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M17 27 L13.5 30.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </svg></div>
+        <div>
+          <div class="need-name">Uncertainty</div>
+          <div class="need-desc">Variety, novelty, and new experiences</div>
+        </div>
+      </div>
+      <textarea id="need_uncertainty" rows="3" placeholder="e.g. I will take a different route on Wednesday and try one new thing at lunch..."></textarea>
+    </div>
+    <div class="need-card">
+      <div class="need-card-header">
+        <div class="need-icon"><svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M22 6 L27 18 L40 18 L30 26 L34 38 L22 31 L10 38 L14 26 L4 18 L17 18 Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/>
+  </svg></div>
+        <div>
+          <div class="need-name">Significance</div>
+          <div class="need-desc">Feeling valued and uniquely talented</div>
+        </div>
+      </div>
+      <textarea id="need_significance" rows="3" placeholder="e.g. I will acknowledge one thing I did well each day, without dismissing it..."></textarea>
+    </div>
+    <div class="need-card">
+      <div class="need-card-header">
+        <div class="need-icon"><svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="15" cy="17" r="6" stroke="currentColor" stroke-width="2"/>
+    <circle cx="29" cy="17" r="6" stroke="currentColor" stroke-width="2"/>
+    <path d="M7 36 C7 30 11 26 15 26 C18 26 20 27.5 22 29 C24 27.5 26 26 29 26 C33 26 37 30 37 36" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </svg></div>
+        <div>
+          <div class="need-name">Love and Connection</div>
+          <div class="need-desc">Belonging, being understood and accepted</div>
+        </div>
+      </div>
+      <textarea id="need_connection" rows="3" placeholder="e.g. I will have one real conversation with someone I care about, without checking my phone..."></textarea>
+    </div>
+    <div class="need-card">
+      <div class="need-card-header">
+        <div class="need-icon"><svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M22 38 L22 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M22 18 C22 18 15 14 10 8 C14 8 20 12 22 18Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <path d="M22 24 C22 24 29 20 34 14 C30 14 24 18 22 24Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <path d="M8 38 L36 38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </svg></div>
+        <div>
+          <div class="need-name">Growth</div>
+          <div class="need-desc">Learning and expanding your capabilities</div>
+        </div>
+      </div>
+      <textarea id="need_growth" rows="3" placeholder="e.g. I will spend 20 minutes reading something that challenges my thinking..."></textarea>
+    </div>
+    <div class="need-card">
+      <div class="need-card-header">
+        <div class="need-icon"><svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="22" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
+    <circle cx="10" cy="30" r="5" stroke="currentColor" stroke-width="2"/>
+    <circle cx="34" cy="30" r="5" stroke="currentColor" stroke-width="2"/>
+    <line x1="22" y1="17" x2="14" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="22" y1="17" x2="30" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="14" y1="30" x2="30" y2="30" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+  </svg></div>
+        <div>
+          <div class="need-name">Community</div>
+          <div class="need-desc">Contributing to something larger than yourself</div>
+        </div>
+      </div>
+      <textarea id="need_community" rows="3" placeholder="e.g. I will offer my support or expertise to someone without expecting anything in return..."></textarea>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(2)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(4)">Next &rarr;</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     VIEW 4: LIFE AREAS FOCUS
+════════════════════════════════════════════════════ -->
+<div class="view" id="v4">
+  <div class="step-badge">Step 3 of 6</div>
+  <h2 class="view-title">Life Areas <span>Focus</span></h2>
+  <p class="view-subtitle">Which areas of your life are you giving deliberate attention to this week? Choose two to four.</p>
+
+  <div class="callout" style="margin-bottom:28px;">
+    <p>Focus is not the same as ignoring the rest. Choosing where to direct your energy this week means you will actually move those areas forward, rather than spreading thinly across everything and advancing nothing.</p>
+  </div>
+
+  <div class="areas-grid">
+    <div class="area-card" onclick="toggleArea(this,'area_career')" data-area="career">
+      <div class="area-icon"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="8" y="16" width="24" height="17" rx="2" stroke="currentColor" stroke-width="2"/>
+    <path d="M14 16 L14 12 C14 10 16 8 20 8 C24 8 26 10 26 12 L26 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <line x1="8" y1="24" x2="32" y2="24" stroke="currentColor" stroke-width="1.5"/>
+    <circle cx="20" cy="24" r="2.5" fill="currentColor" opacity="0.7"/>
+  </svg></div>
+      <div class="area-name">Career and Professional Life</div>
+    </div>
+    <div class="area-card" onclick="toggleArea(this,'area_health')" data-area="health">
+      <div class="area-icon"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M20 32 C20 32 8 24 8 16 C8 12 11 9 15 9 C17.5 9 19.5 10.5 20 12 C20.5 10.5 22.5 9 25 9 C29 9 32 12 32 16 C32 24 20 32 20 32Z" stroke="currentColor" stroke-width="2" fill="none"/>
+    <path d="M13 20 L17 20 L19 16 L21 24 L23 20 L27 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg></div>
+      <div class="area-name">Health and Wellbeing</div>
+    </div>
+    <div class="area-card" onclick="toggleArea(this,'area_relationships')" data-area="relationships">
+      <div class="area-icon"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="14" cy="14" r="5" stroke="currentColor" stroke-width="2"/>
+    <circle cx="26" cy="14" r="5" stroke="currentColor" stroke-width="2"/>
+    <path d="M6 34 C6 28 9.5 24 14 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M34 34 C34 28 30.5 24 26 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M14 24 C16 26 20 27 26 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </svg></div>
+      <div class="area-name">Relationships and Family</div>
+    </div>
+    <div class="area-card" onclick="toggleArea(this,'area_personal')" data-area="personal">
+      <div class="area-icon"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8 30 L8 10 L28 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M8 24 L16 16 L22 22 L32 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="32" cy="10" r="3" fill="currentColor" opacity="0.8"/>
+  </svg></div>
+      <div class="area-name">Personal Growth and Learning</div>
+    </div>
+    <div class="area-card" onclick="toggleArea(this,'area_finance')" data-area="finance">
+      <div class="area-icon"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="7" y="8" width="26" height="20" rx="3" stroke="currentColor" stroke-width="2"/>
+    <line x1="20" y1="8" x2="20" y2="28" stroke="currentColor" stroke-width="1.5"/>
+    <text x="20" y="22" text-anchor="middle" font-size="12" fill="currentColor" font-family="Georgia,serif" font-weight="600">£</text>
+    <path d="M12 34 L28 34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M16 34 L16 28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M24 34 L24 28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+  </svg></div>
+      <div class="area-name">Financial Wellbeing</div>
+    </div>
+    <div class="area-card" onclick="toggleArea(this,'area_recreation')" data-area="recreation">
+      <div class="area-icon"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="20" cy="20" r="13" stroke="currentColor" stroke-width="2"/>
+    <line x1="20" y1="7" x2="20" y2="20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <line x1="20" y1="20" x2="28" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="20" cy="20" r="2" fill="currentColor"/>
+    <line x1="20" y1="7" x2="20" y2="10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  </svg></div>
+      <div class="area-name">Recreation and Leisure</div>
+    </div>
+    <div class="area-card" onclick="toggleArea(this,'area_purpose')" data-area="purpose">
+      <div class="area-icon"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M20 8 L22.5 15 L30 15 L24 19.5 L26.5 27 L20 22.5 L13.5 27 L16 19.5 L10 15 L17.5 15 Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/>
+    <line x1="20" y1="28" x2="20" y2="35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <line x1="14" y1="35" x2="26" y2="35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </svg></div>
+      <div class="area-name">Purpose and Contribution</div>
+    </div>
+  </div>
+
+  <!-- Detail textareas (shown when area selected) -->
+  <div id="area_career" class="area-details">
+    <label>Career and Professional Life: What specifically will you focus on?</label>
+    <textarea rows="2" placeholder="e.g. I will complete the board report and have one honest conversation with my line manager..."></textarea>
+  </div>
+  <div id="area_health" class="area-details">
+    <label>Health and Wellbeing: What specifically will you focus on?</label>
+    <textarea rows="2" placeholder="e.g. I will exercise three times and be in bed by 10:30pm at least four nights..."></textarea>
+  </div>
+  <div id="area_relationships" class="area-details">
+    <label>Relationships and Family: What specifically will you focus on?</label>
+    <textarea rows="2" placeholder="e.g. I will have dinner with my family twice without my phone at the table..."></textarea>
+  </div>
+  <div id="area_personal" class="area-details">
+    <label>Personal Growth and Learning: What specifically will you focus on?</label>
+    <textarea rows="2" placeholder="e.g. I will read two chapters and spend 30 minutes on my online course..."></textarea>
+  </div>
+  <div id="area_finance" class="area-details">
+    <label>Financial Wellbeing: What specifically will you focus on?</label>
+    <textarea rows="2" placeholder="e.g. I will review my monthly budget and set up the standing order I have been avoiding..."></textarea>
+  </div>
+  <div id="area_recreation" class="area-details">
+    <label>Recreation and Leisure: What specifically will you focus on?</label>
+    <textarea rows="2" placeholder="e.g. I will protect Saturday morning for something purely enjoyable..."></textarea>
+  </div>
+  <div id="area_purpose" class="area-details">
+    <label>Purpose and Contribution: What specifically will you focus on?</label>
+    <textarea rows="2" placeholder="e.g. I will volunteer two hours on Thursday evening..."></textarea>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(3)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(5)">Next &rarr;</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     VIEW 5: SMART ACTIONS
+════════════════════════════════════════════════════ -->
+<div class="view" id="v5">
+  <div class="step-badge">Step 4 of 6</div>
+  <h2 class="view-title">Your SMART <span>Actions</span></h2>
+  <p class="view-subtitle">What will you actually do this week? Up to four actions, each specific, measurable, and time-framed.</p>
+
+  <div class="callout" style="margin-bottom:28px;">
+    <p>These actions should serve your dreams and support the life areas you have chosen to focus on. If an action cannot connect back to at least one of those, question whether it belongs this week.</p>
+  </div>
+
+  <div class="action-cards">
+    <!-- Action 1 -->
+    <div class="action-card">
+      <div class="action-header">
+        <div class="action-num">1</div>
+        <span class="action-header-label">Action One</span>
+      </div>
+      <div class="action-body">
+        <div class="action-field">
+          <label class="field-label">What is the action?</label>
+          <textarea id="act1_what" rows="2" placeholder="Describe the action in full..."></textarea>
+        </div>
+        <div class="action-row">
+          <div class="action-field">
+            <span class="smart-tag">S</span>
+            <label class="field-label">Specific: what exactly?</label>
+            <input type="text" id="act1_specific" placeholder="Be precise about what and how...">
+          </div>
+          <div class="action-field">
+            <span class="smart-tag">M</span>
+            <label class="field-label">Measurable: how will you know it is done?</label>
+            <input type="text" id="act1_measure" placeholder="The clear evidence of completion...">
+          </div>
+        </div>
+        <div class="action-row">
+          <div class="action-field">
+            <span class="smart-tag">T</span>
+            <label class="field-label">Complete by:</label>
+            <input type="date" id="act1_date">
+          </div>
+          <div class="action-field">
+            <label class="field-label">Serves which life area?</label>
+            <input type="text" id="act1_area" placeholder="e.g. Career, Health, Relationships...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Action 2 -->
+    <div class="action-card">
+      <div class="action-header">
+        <div class="action-num">2</div>
+        <span class="action-header-label">Action Two</span>
+      </div>
+      <div class="action-body">
+        <div class="action-field">
+          <label class="field-label">What is the action?</label>
+          <textarea id="act2_what" rows="2" placeholder="Describe the action in full..."></textarea>
+        </div>
+        <div class="action-row">
+          <div class="action-field">
+            <span class="smart-tag">S</span>
+            <label class="field-label">Specific: what exactly?</label>
+            <input type="text" id="act2_specific" placeholder="Be precise about what and how...">
+          </div>
+          <div class="action-field">
+            <span class="smart-tag">M</span>
+            <label class="field-label">Measurable: how will you know it is done?</label>
+            <input type="text" id="act2_measure" placeholder="The clear evidence of completion...">
+          </div>
+        </div>
+        <div class="action-row">
+          <div class="action-field">
+            <span class="smart-tag">T</span>
+            <label class="field-label">Complete by:</label>
+            <input type="date" id="act2_date">
+          </div>
+          <div class="action-field">
+            <label class="field-label">Serves which life area?</label>
+            <input type="text" id="act2_area" placeholder="e.g. Career, Health, Relationships...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Action 3 -->
+    <div class="action-card">
+      <div class="action-header">
+        <div class="action-num">3</div>
+        <span class="action-header-label">Action Three</span>
+      </div>
+      <div class="action-body">
+        <div class="action-field">
+          <label class="field-label">What is the action?</label>
+          <textarea id="act3_what" rows="2" placeholder="Describe the action in full..."></textarea>
+        </div>
+        <div class="action-row">
+          <div class="action-field">
+            <span class="smart-tag">S</span>
+            <label class="field-label">Specific: what exactly?</label>
+            <input type="text" id="act3_specific" placeholder="Be precise about what and how...">
+          </div>
+          <div class="action-field">
+            <span class="smart-tag">M</span>
+            <label class="field-label">Measurable: how will you know it is done?</label>
+            <input type="text" id="act3_measure" placeholder="The clear evidence of completion...">
+          </div>
+        </div>
+        <div class="action-row">
+          <div class="action-field">
+            <span class="smart-tag">T</span>
+            <label class="field-label">Complete by:</label>
+            <input type="date" id="act3_date">
+          </div>
+          <div class="action-field">
+            <label class="field-label">Serves which life area?</label>
+            <input type="text" id="act3_area" placeholder="e.g. Career, Health, Relationships...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Action 4 -->
+    <div class="action-card">
+      <div class="action-header">
+        <div class="action-num">4</div>
+        <span class="action-header-label">Action Four</span>
+      </div>
+      <div class="action-body">
+        <div class="action-field">
+          <label class="field-label">What is the action?</label>
+          <textarea id="act4_what" rows="2" placeholder="Describe the action in full..."></textarea>
+        </div>
+        <div class="action-row">
+          <div class="action-field">
+            <span class="smart-tag">S</span>
+            <label class="field-label">Specific: what exactly?</label>
+            <input type="text" id="act4_specific" placeholder="Be precise about what and how...">
+          </div>
+          <div class="action-field">
+            <span class="smart-tag">M</span>
+            <label class="field-label">Measurable: how will you know it is done?</label>
+            <input type="text" id="act4_measure" placeholder="The clear evidence of completion...">
+          </div>
+        </div>
+        <div class="action-row">
+          <div class="action-field">
+            <span class="smart-tag">T</span>
+            <label class="field-label">Complete by:</label>
+            <input type="date" id="act4_date">
+          </div>
+          <div class="action-field">
+            <label class="field-label">Serves which life area?</label>
+            <input type="text" id="act4_area" placeholder="e.g. Career, Health, Relationships...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(4)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(6)">Next &rarr;</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     VIEW 6: BEHAVIOUR
+════════════════════════════════════════════════════ -->
+<div class="view" id="v6">
+  <div class="step-badge">Step 5 of 6</div>
+  <h2 class="view-title">Behaviour to <span>Adopt and Shift</span></h2>
+  <p class="view-subtitle">Your actions only work if the behaviours that surround them support them. What do you need to step into? What do you need to notice and move away from?</p>
+
+  <div class="svg-wrap" style="padding:20px 32px;"><svg viewBox="0 0 420 80" xmlns="http://www.w3.org/2000/svg" class="behaviour-flow">
+  <rect x="0" y="20" width="120" height="40" rx="8" fill="#E8F7F8" stroke="#3D858C" stroke-width="1.5"/>
+  <text x="60" y="38" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="10" fill="#01293A" font-weight="600">Class 3 or 4</text>
+  <text x="60" y="52" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="9" fill="#3D858C">Current pattern</text>
+  <path d="M120 40 L160 40" stroke="#3D858C" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowB)"/>
+  <rect x="160" y="15" width="100" height="50" rx="8" fill="#01293A"/>
+  <text x="210" y="36" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="10" fill="#C9F6FA" font-style="italic">Awareness</text>
+  <text x="210" y="50" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="8" fill="#3D858C">+</text>
+  <text x="210" y="62" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="10" fill="#C9F6FA" font-style="italic">Choice</text>
+  <path d="M260 40 L300 40" stroke="#3D858C" stroke-width="1.5" marker-end="url(#arrowB)"/>
+  <rect x="300" y="20" width="120" height="40" rx="8" fill="#01293A" stroke="#3D858C" stroke-width="1.5"/>
+  <text x="360" y="38" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="10" fill="white" font-weight="600">Class 1 or 2</text>
+  <text x="360" y="52" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="9" fill="#C9F6FA">New behaviour</text>
+  <defs>
+    <marker id="arrowB" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L8,4 z" fill="#3D858C"/>
+    </marker>
+  </defs>
+</svg></div>
+
+  <div class="behaviour-pair">
+    <div class="beh-box stepping-into">
+      <span class="class-pill" style="background:rgba(201,246,250,0.15);color:var(--turq);border-color:rgba(201,246,250,0.3);">Class 1 or 2</span>
+      <h3>I am stepping into&hellip;</h3>
+      <p class="beh-sub">Feels good or uncomfortable but is good for you, good for others, and good long-term.</p>
+      <textarea id="beh_into" rows="5" placeholder="e.g. I will speak up in meetings rather than staying quiet when I disagree. Even when it feels uncomfortable, I know this is the behaviour that builds the trust and influence I want..."></textarea>
+    </div>
+    <div class="beh-box shifting-away">
+      <span class="class-pill pill-shift">Class 3 or 4</span>
+      <h3>I am noticing and shifting&hellip;</h3>
+      <p class="beh-sub">Feels good or bad but is not good for you, not good for others, and not good long-term.</p>
+      <textarea id="beh_away" rows="5" placeholder="e.g. I notice I reach for my phone when I feel anxious rather than addressing what is underneath the discomfort. This week I will pause and name what I am actually feeling instead..."></textarea>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p><strong>Remember:</strong> Class 3 behaviours feel good in the moment but cost you later. Class 4 behaviours feel bad and cost you. Noticing them without judgement is the first step. Choosing differently is the practice.</p>
+  </div>
+
+  <div class="navy-box" style="margin-top:24px;">
+    <label class="field-label" style="color:var(--turq);margin-bottom:10px;">What will trigger the old pattern? How will you respond instead?</label>
+    <textarea id="beh_trigger" rows="3" style="background:rgba(255,255,255,0.08);border-color:rgba(61,133,140,0.4);color:white;" placeholder="e.g. When I feel overwhelmed, my old pattern is to go quiet and withdraw. Instead, I will name what I need and ask for it directly..."></textarea>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(5)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(7)">Next &rarr;</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     VIEW 7: WEEKLY REVIEW
+════════════════════════════════════════════════════ -->
+<div class="view" id="v7">
+  <div class="step-badge">Step 6 of 6</div>
+  <h2 class="view-title">Your Weekly <span>Review</span></h2>
+  <p class="view-subtitle">Return here at the end of the week. Honest reflection is how you improve the week after this one.</p>
+
+  <div class="callout" style="margin-bottom:28px;">
+    <p>The purpose of this review is not to judge yourself. It is to notice patterns, celebrate movement, and make one or two adjustments going forward.</p>
+  </div>
+
+  <div class="review-grid">
+    <div class="review-card">
+      <h3>What moved forward this week?</h3>
+      <p class="hint">Which actions happened? Which goals advanced? What are you proud of?</p>
+      <textarea id="rev_forward" rows="4" placeholder="Be specific. Even small progress counts and deserves to be noticed..."></textarea>
+    </div>
+    <div class="review-card">
+      <h3>Where did the plan not hold?</h3>
+      <p class="hint">What got in the way? Was it external or a pattern you recognised? No judgement, just clarity.</p>
+      <textarea id="rev_gaps" rows="4" placeholder="What happened? What would you do differently?..."></textarea>
+    </div>
+    <div class="review-card">
+      <h3>How well did you live your behaviour commitment?</h3>
+      <p class="hint">Did you step into Class 1 or 2? Where did the old pattern show up?</p>
+      <textarea id="rev_behaviour" rows="4" placeholder="Be honest. Noticing is progress..."></textarea>
+    </div>
+    <div class="review-card">
+      <h3>How well were your human needs met?</h3>
+      <p class="hint">Rate each need from 1 (barely met) to 5 (fully met). Notice which ones need more attention next week.</p>
+      <div class="needs-check">
+        <div class="need-check-item">
+          <div class="nc-name">Certainty</div>
+          <div class="stars" data-need="certainty">
+            <span class="star" onclick="rateStar(this,1)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,2)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,3)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,4)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,5)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+          </div>
+        </div>
+        <div class="need-check-item">
+          <div class="nc-name">Uncertainty</div>
+          <div class="stars" data-need="uncertainty">
+            <span class="star" onclick="rateStar(this,1)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,2)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,3)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,4)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,5)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+          </div>
+        </div>
+        <div class="need-check-item">
+          <div class="nc-name">Significance</div>
+          <div class="stars" data-need="significance">
+            <span class="star" onclick="rateStar(this,1)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,2)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,3)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,4)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,5)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+          </div>
+        </div>
+        <div class="need-check-item">
+          <div class="nc-name">Love and Connection</div>
+          <div class="stars" data-need="connection">
+            <span class="star" onclick="rateStar(this,1)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,2)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,3)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,4)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,5)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+          </div>
+        </div>
+        <div class="need-check-item">
+          <div class="nc-name">Growth</div>
+          <div class="stars" data-need="growth">
+            <span class="star" onclick="rateStar(this,1)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,2)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,3)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,4)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,5)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+          </div>
+        </div>
+        <div class="need-check-item">
+          <div class="nc-name">Community</div>
+          <div class="stars" data-need="community">
+            <span class="star" onclick="rateStar(this,1)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,2)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,3)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,4)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+            <span class="star" onclick="rateStar(this,5)"><svg viewBox="0 0 20 20"><path d="M10 2l2.4 5 5.6.8-4 4 .9 5.5L10 15l-4.9 2.3.9-5.5-4-4 5.6-.8z"/></svg></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card">
+      <h3>What am I carrying forward?</h3>
+      <p class="hint">One insight, one unfinished action, or one commitment to carry into next week.</p>
+      <textarea id="rev_carry" rows="3" placeholder="The most important thing to take into next week is..."></textarea>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(6)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(8)">Complete &rarr;</button>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════════════
+     VIEW 8: COMPLETE
+════════════════════════════════════════════════════ -->
+<div class="view" id="v8">
+  <div class="completion-header"><svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" class="complete-svg">
+  <!-- Radiating lines -->
+  <g opacity="0.15" stroke="#3D858C" stroke-width="1">
+    <line x1="150" y1="100" x2="80" y2="20"/>
+    <line x1="150" y1="100" x2="30" y2="80"/>
+    <line x1="150" y1="100" x2="30" y2="130"/>
+    <line x1="150" y1="100" x2="80" y2="180"/>
+    <line x1="150" y1="100" x2="220" y2="20"/>
+    <line x1="150" y1="100" x2="270" y2="80"/>
+    <line x1="150" y1="100" x2="270" y2="130"/>
+    <line x1="150" y1="100" x2="220" y2="180"/>
+  </g>
+  <!-- Outer ring -->
+  <circle cx="150" cy="100" r="70" fill="none" stroke="#C9F6FA" stroke-width="1" opacity="0.4"/>
+  <circle cx="150" cy="100" r="55" fill="none" stroke="#3D858C" stroke-width="1.5" opacity="0.3"/>
+  <!-- Main circle -->
+  <circle cx="150" cy="100" r="42" fill="#01293A"/>
+  <!-- Check mark -->
+  <path d="M133 100 L144 112 L170 86" stroke="#C9F6FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
+    <h2>Your Weekly Plan is Ready</h2>
+    <p>Download your integration map, print it if it helps, and return to the review section at the end of the week. Do this every Monday and watch what changes.</p>
+  </div>
+
+  <div class="summary-preview" id="summaryPreview">
+    <h3>This Week at a Glance</h3>
+    <div id="summaryContent"></div>
+  </div>
+
+  <div class="dl-wrap">
+    <button class="btn btn-primary btn-large" onclick="downloadPDF()">&#8595;&nbsp; Download This Week&rsquo;s Plan</button>
+    <p>Your complete weekly integration map as a PDF.</p>
+  </div>
+  <span class="restart-link" onclick="restartEx()">Start a new week</span>
+</div>
+
+</div><!-- end .container -->
+
+<div class="footer">
+  Maria Fuentes &nbsp;|&nbsp; mariafuentes.co.uk &nbsp;|&nbsp; &copy; Hypnotika Mente Ltd 2026
+</div>
+<script>
+var TOTAL = 8;
+var labels = ['Introduction','My Dreams','Human Needs','Life Areas','SMART Actions','Behaviour','Weekly Review','Complete'];
+var counts = ['','1 of 6','2 of 6','3 of 6','4 of 6','5 of 6','6 of 6',''];
+
+function go(n) {
+  document.querySelectorAll('.view').forEach(function(v){ v.classList.remove('active'); });
+  var el = document.getElementById('v'+n);
+  el.classList.add('active');
+  el.scrollIntoView({ behavior:'smooth', block:'start' });
+  setProgress(n);
+  if(n === 8){ buildSummary(); }
+}
+
+function setProgress(n) {
+  var pct = ((n-1)/(TOTAL-1))*100;
+  document.getElementById('progress-fill').style.width = pct+'%';
+  document.getElementById('progress-label').textContent = labels[n-1]||'';
+  document.getElementById('progress-count').textContent = counts[n-1]||'';
+}
+
+// Life area toggle
+function toggleArea(card, areaId) {
+  card.classList.toggle('selected');
+  var detail = document.getElementById(areaId);
+  detail.classList.toggle('visible');
+}
+
+// Star rating
+function rateStar(star, val) {
+  var container = star.closest('.stars');
+  var stars = container.querySelectorAll('.star');
+  stars.forEach(function(s, i){ s.classList.toggle('active', i < val); });
+  container.setAttribute('data-val', val);
+}
+
+// Build summary for completion view
+function buildSummary() {
+  var html = '';
+  var goal1 = gv('goal1');
+  if(goal1) { html += '<div class="summary-item"><span>Life Goals</span>' + esc(goal1) + (gv('goal2') ? '; ' + esc(gv('goal2')) : '') + '</div>'; }
+  var areas = [];
+  document.querySelectorAll('.area-card.selected').forEach(function(c){ areas.push(c.querySelector('.area-name').textContent); });
+  if(areas.length) { html += '<div class="summary-item"><span>Focus Areas This Week</span>' + areas.join(', ') + '</div>'; }
+  var act1 = gv('act1_what');
+  if(act1) { html += '<div class="summary-item"><span>Action 1</span>' + esc(act1) + (gv('act1_date') ? ' — by ' + gv('act1_date') : '') + '</div>'; }
+  var act2 = gv('act2_what');
+  if(act2) { html += '<div class="summary-item"><span>Action 2</span>' + esc(act2) + (gv('act2_date') ? ' — by ' + gv('act2_date') : '') + '</div>'; }
+  var act3 = gv('act3_what');
+  if(act3) { html += '<div class="summary-item"><span>Action 3</span>' + esc(act3) + (gv('act3_date') ? ' — by ' + gv('act3_date') : '') + '</div>'; }
+  var act4 = gv('act4_what');
+  if(act4) { html += '<div class="summary-item"><span>Action 4</span>' + esc(act4) + (gv('act4_date') ? ' — by ' + gv('act4_date') : '') + '</div>'; }
+  var beh = gv('beh_into');
+  if(beh) { html += '<div class="summary-item"><span>Behaviour Commitment</span>' + esc(beh.substring(0,120)) + (beh.length>120?'...':'') + '</div>'; }
+  document.getElementById('summaryContent').innerHTML = html || '<p style="color:#667A80;font-size:14px;">Complete the steps above to see your summary here.</p>';
+}
+
+function esc(str){ return str.replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function gv(id){ var e=document.getElementById(id); return e?(e.value||'').trim():''; }
+
+function restartEx() {
+  document.querySelectorAll('textarea,input[type="text"],input[type="date"]').forEach(function(el){ el.value=''; });
+  document.querySelectorAll('.area-card.selected').forEach(function(c){ c.classList.remove('selected'); });
+  document.querySelectorAll('.area-details.visible').forEach(function(d){ d.classList.remove('visible'); });
+  document.querySelectorAll('.star.active').forEach(function(s){ s.classList.remove('active'); });
+  go(1);
+}
+
+// ── PDF: COMPLETE EXERCISE + REVIEW ──────────────────────────────────────
+function downloadPDF() {
+  var jsPDFLib = (window.jspdf && window.jspdf.jsPDF) || window.jsPDF;
+  if(!jsPDFLib){ alert('PDF library not loaded.'); return; }
+  var doc = new jsPDFLib({ unit:'mm', format:'a4' });
+  var pW=210, pH=297, mg=16, cW=178;
+  var currentPage = 1;
+
+  function fc(r,g,b){ doc.setFillColor(r,g,b); }
+  function tc(r,g,b){ doc.setTextColor(r,g,b); }
+  function dc(r,g,b){ doc.setDrawColor(r,g,b); }
+  function gv(id){ var e=document.getElementById(id); return e?(e.value||'').trim():''; }
+
+  var logoData = document.getElementById('site-logo') ? document.getElementById('site-logo').src : null;
+
+  // ─── STRUCTURAL HELPERS ─────────────────────────────────────────────────
+
+  function drawCoverHeader() {
+    fc(1,41,58); doc.rect(0,0,pW,50,'F');
+    fc(61,133,140); doc.rect(0,50,pW,2.5,'F');
+    if(logoData){ try{ doc.addImage(logoData,'JPEG',mg,9,32,32); }catch(e){} }
+    doc.setFont('helvetica','bold'); doc.setFontSize(20); tc(255,255,255);
+    doc.text('Your Weekly Integration Map', mg+38, 24);
+    doc.setFont('helvetica','italic'); doc.setFontSize(10); tc(201,246,250);
+    doc.text('Goals  •  Needs  •  Behaviour in Balance', mg+38, 33);
+    var today = new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+    doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(150,190,195);
+    doc.text('Week of: '+today, pW-mg, 44, {align:'right'});
+  }
+
+  function drawPageHeader(title) {
+    fc(1,41,58); doc.rect(0,0,pW,16,'F');
+    fc(61,133,140); doc.rect(0,16,pW,2,'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(8); tc(201,246,250);
+    doc.text(title||'Weekly Integration Map', mg, 11);
+    doc.setFont('helvetica','normal'); tc(150,190,195);
+    doc.text('mariafuentes.co.uk  •  Maria Fuentes', pW-mg, 11, {align:'right'});
+  }
+
+  function drawFooter() {
+    fc(1,41,58); doc.rect(0,pH-11,pW,11,'F');
+    doc.setFont('helvetica','normal'); doc.setFontSize(7); tc(201,246,250);
+    doc.text('© Hypnotika Mente Ltd 2026  •  Maria Fuentes  •  mariafuentes.co.uk', mg, pH-4);
+    doc.text('Page '+currentPage, pW-mg, pH-4, {align:'right'});
+  }
+
+  function newPage(title) {
+    drawFooter();
+    doc.addPage();
+    currentPage++;
+    drawPageHeader(title||'Weekly Integration Map');
+    return 24;
+  }
+
+  function checkY(y, need, title) {
+    if(y+need > pH-14){ y = newPage(title); }
+    return y;
+  }
+
+  // ─── VISUAL HELPERS ─────────────────────────────────────────────────────
+
+  // Full-width section header bar
+  function secBar(y, text, r,g,b) {
+    r=r!==undefined?r:1; g=g!==undefined?g:41; b=b!==undefined?b:58;
+    fc(r,g,b); doc.rect(mg,y,cW,9,'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(9.5); tc(255,255,255);
+    doc.text(text, mg+5, y+6.2);
+    return y+12;
+  }
+
+  // Step number badge + title
+  function stepTitle(y, stepNum, totalSteps, title, subtitle) {
+    fc(61,133,140); doc.rect(mg, y, 18, 9, 'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(7); tc(255,255,255);
+    doc.text('STEP '+stepNum+' OF '+totalSteps, mg+2, y+3.8);
+    doc.setFont('helvetica','bold'); doc.setFontSize(7); tc(201,246,250);
+    doc.text(title.toUpperCase(), mg+2, y+7.5);
+    // Big title right of badge
+    doc.setFont('helvetica','bold'); doc.setFontSize(14); tc(1,41,58);
+    doc.text(title, mg+22, y+7.5);
+    y+=13;
+    if(subtitle){
+      doc.setFont('helvetica','italic'); doc.setFontSize(9); tc(80,110,115);
+      var sl = doc.splitTextToSize(subtitle, cW-2);
+      doc.text(sl.slice(0,2), mg, y);
+      y += sl.slice(0,2).length*5+2;
+    }
+    return y+2;
+  }
+
+  // Body text paragraph
+  function bodyText(y, text, maxW, indent) {
+    indent = indent||0;
+    var lines = doc.splitTextToSize(text, (maxW||cW)-indent);
+    doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(40,60,70);
+    lines.forEach(function(l){ doc.text(l, mg+indent, y); y+=4.8; });
+    return y+2;
+  }
+
+  // Highlighted callout box
+  function callout(y, text, r,g,b) {
+    r=r!==undefined?r:232; g=g!==undefined?g:247; b=b!==undefined?b:248;
+    var lines = doc.splitTextToSize(text, cW-12);
+    var h = lines.length*5+8;
+    fc(r,g,b); doc.rect(mg, y, cW, h, 'F');
+    fc(61,133,140); doc.rect(mg, y, 3.5, h, 'F');
+    doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(1,41,58);
+    var ty = y+5.5;
+    lines.forEach(function(l){ doc.text(l, mg+7, ty); ty+=5; });
+    return y+h+4;
+  }
+
+  // Quote / italic highlight
+  function quoteBox(y, text) {
+    var lines = doc.splitTextToSize(text, cW-10);
+    var h = lines.length*5.5+10;
+    fc(1,41,58); doc.rect(mg, y, cW, h, 'F');
+    fc(61,133,140); doc.rect(mg, y, cW, 1.5, 'F');
+    fc(61,133,140); doc.rect(mg, y+h-1.5, cW, 1.5, 'F');
+    doc.setFont('helvetica','italic'); doc.setFontSize(9.5); tc(201,246,250);
+    var ty = y+7;
+    lines.forEach(function(l){ doc.text(l, mg+5, ty); ty+=5.5; });
+    return y+h+4;
+  }
+
+  // Input field box (with optional pre-filled value)
+  function inputBox(y, label, value, lines, w) {
+    w = w||cW;
+    lines = lines||2;
+    var boxH = lines*7+4;
+    doc.setFont('helvetica','bold'); doc.setFontSize(7.5); tc(61,133,140);
+    doc.text((label||'').toUpperCase(), mg, y);
+    y+=4;
+    fc(248,252,252); doc.rect(mg, y, w, boxH, 'F');
+    dc(200,222,225); doc.rect(mg, y, w, boxH, 'S');
+    if(value && value.trim()){
+      var vl = doc.splitTextToSize(value.trim(), w-6);
+      doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(1,41,58);
+      vl.slice(0,lines+1).forEach(function(l,i){ doc.text(l, mg+3, y+6+i*5.5); });
+    } else {
+      dc(215,232,234);
+      for(var li=1;li<=lines;li++){ doc.line(mg+3, y+li*7-1, mg+w-3, y+li*7-1); }
+    }
+    return y+boxH+4;
+  }
+
+  // Two-column input row
+  function inputRow2(y, l1, v1, l2, v2, rows) {
+    rows = rows||2;
+    var hw = (cW-5)/2;
+    var boxH = rows*7+4;
+    // Left
+    doc.setFont('helvetica','bold'); doc.setFontSize(7.5); tc(61,133,140);
+    doc.text((l1||'').toUpperCase(), mg, y);
+    doc.text((l2||'').toUpperCase(), mg+hw+5, y);
+    y+=4;
+    fc(248,252,252); doc.rect(mg, y, hw, boxH, 'F');
+    dc(200,222,225); doc.rect(mg, y, hw, boxH, 'S');
+    fc(248,252,252); doc.rect(mg+hw+5, y, hw, boxH, 'F');
+    dc(200,222,225); doc.rect(mg+hw+5, y, hw, boxH, 'S');
+    if(v1&&v1.trim()){ var vl=doc.splitTextToSize(v1.trim(),hw-5); doc.setFont('helvetica','normal'); doc.setFontSize(8);tc(1,41,58); doc.text(vl.slice(0,rows),mg+3,y+6); }
+    else { dc(215,232,234); for(var li=1;li<=rows;li++) doc.line(mg+3,y+li*7-1,mg+hw-3,y+li*7-1); }
+    if(v2&&v2.trim()){ var vl=doc.splitTextToSize(v2.trim(),hw-5); doc.setFont('helvetica','normal'); doc.setFontSize(8);tc(1,41,58); doc.text(vl.slice(0,rows),mg+hw+8,y+6); }
+    else { dc(215,232,234); for(var li=1;li<=rows;li++) doc.line(mg+hw+8,y+li*7-1,mg+hw+hw+2,y+li*7-1); }
+    return y+boxH+4;
+  }
+
+  // ─── DRAW TRIANGLE DIAGRAM (jsPDF native shapes) ────────────────────────
+  function drawTriangleDiagram(y) {
+    var cx=pW/2, cy=y+48, r=38;
+    var topX=cx, topY=cy-r;
+    var blX=cx-r*0.87, blY=cy+r*0.5;
+    var brX=cx+r*0.87, brY=cy+r*0.5;
+
+    // Outer glow ring
+    dc(201,246,250); doc.setLineWidth(0.3);
+    doc.circle(cx,cy,r+8,'S');
+    doc.setLineWidth(0.2);
+    dc(61,133,140); doc.circle(cx,cy,r+4,'S');
+    doc.setLineWidth(0.1);
+
+    // Three arcs (thick lines simulated with bezier)
+    doc.setLineWidth(2.2);
+    dc(1,41,58);  // Top arc (Dreams - navy)
+    doc.lines([[brX-topX,brY-topY]],topX,topY,[1,1],'S');
+    dc(61,133,140);  // Bottom-left arc (Needs)
+    doc.lines([[blX-topX,blY-topY]],topX,topY,[1,1],'S');
+    dc(90,155,162);  // Bottom-right arc (Behaviour)
+    doc.lines([[brX-blX,brY-blY]],blX,blY,[1,1],'S');
+    doc.setLineWidth(0.1);
+
+    // Vertex dots
+    fc(1,41,58);   doc.circle(topX,topY,2,'F');
+    fc(61,133,140);doc.circle(blX,blY,2,'F');
+    fc(61,133,140);doc.circle(brX,brY,2,'F');
+
+    // Dashed spokes to centre
+    dc(61,133,140); doc.setLineWidth(0.3);
+    doc.setLineDashPattern([1,1.5],0);
+    doc.lines([[cx-topX,cy-topY]],topX,topY,[1,1],'S');
+    doc.lines([[cx-blX,cy-blY]],blX,blY,[1,1],'S');
+    doc.lines([[cx-brX,cy-brY]],brX,brY,[1,1],'S');
+    doc.setLineDashPattern([],0);
+    doc.setLineWidth(0.1);
+
+    // Centre circle
+    fc(1,41,58); doc.circle(cx,cy,13,'F');
+    dc(61,133,140); doc.circle(cx,cy,13,'S');
+    doc.setFont('helvetica','italic'); doc.setFontSize(8); tc(201,246,250);
+    doc.text('This', cx, cy-1, {align:'center'});
+    doc.text('Week', cx, cy+5, {align:'center'});
+
+    // Top label: YOUR DREAMS
+    doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(1,41,58);
+    doc.text('YOUR DREAMS', cx, topY-8, {align:'center'});
+    doc.setFont('helvetica','italic'); doc.setFontSize(7.5); tc(61,133,140);
+    doc.text('From Define Your Dreams', cx, topY-3.5, {align:'center'});
+    doc.text('Your horizon. Your why.', cx, topY+0.5, {align:'center'});
+
+    // Bottom-left: HUMAN NEEDS
+    doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(1,41,58);
+    doc.text('HUMAN NEEDS', blX, blY+7, {align:'center'});
+    doc.setFont('helvetica','italic'); doc.setFontSize(7.5); tc(61,133,140);
+    doc.text('How you feel', blX, blY+12, {align:'center'});
+
+    // Bottom-right: BEHAVIOUR
+    doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(1,41,58);
+    doc.text('BEHAVIOUR', brX, brY+7, {align:'center'});
+    doc.setFont('helvetica','italic'); doc.setFontSize(7.5); tc(61,133,140);
+    doc.text('How you travel', brX, brY+12, {align:'center'});
+
+    return y+102;
+  }
+
+  // ─── BEHAVIOUR CLASS BOXES ──────────────────────────────────────────────
+  function classBadge(y, num, label, desc, w, xOff) {
+    xOff = xOff||0;
+    w = w||cW;
+    fc(num<=2?1:232, num<=2?41:247, num<=2?58:248);
+    doc.rect(mg+xOff, y, w, 22, 'F');
+    if(num>2){ dc(200,222,225); doc.rect(mg+xOff, y, w, 22, 'S'); }
+    // Badge circle
+    fc(61,133,140); doc.circle(mg+xOff+8, y+8, 5, 'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(8); tc(255,255,255);
+    doc.text(String(num), mg+xOff+8, y+10, {align:'center'});
+    // Label
+    doc.setFont('helvetica','bold'); doc.setFontSize(9);
+    tc(num<=2?201:1, num<=2?246:41, num<=2?250:58);
+    doc.text(label, mg+xOff+16, y+8);
+    // Desc
+    var dl = doc.splitTextToSize(desc, w-18);
+    doc.setFont('helvetica','normal'); doc.setFontSize(7.5);
+    tc(num<=2?200:60, num<=2?230:80, num<=2?232:85);
+    dl.slice(0,2).forEach(function(l,i){ doc.text(l, mg+xOff+16, y+14+i*4.5); });
+    return y+25;
+  }
+
+  // ─── NEED CARD ──────────────────────────────────────────────────────────
+  function needCard(y, name, desc, planText, planRating, reviewRating) {
+    y = checkY(y, 32, 'Human Needs');
+    var cardH = 30;
+    fc(247,251,251); doc.rect(mg, y, cW, cardH, 'F');
+    fc(61,133,140); doc.rect(mg, y, 4, cardH, 'F');
+    dc(220,235,237); doc.rect(mg, y, cW, cardH, 'S');
+
+    // Name + desc
+    doc.setFont('helvetica','bold'); doc.setFontSize(10.5); tc(1,41,58);
+    doc.text(name, mg+8, y+8);
+    doc.setFont('helvetica','italic'); doc.setFontSize(7.5); tc(80,110,115);
+    doc.text(desc, mg+8, y+13.5);
+
+    // Plan note
+    var noteW = 82;
+    if(planText){
+      var nl = doc.splitTextToSize(planText, noteW);
+      doc.setFont('helvetica','normal'); doc.setFontSize(7.5); tc(40,65,70);
+      doc.text(nl.slice(0,2), mg+8, y+20);
+    } else {
+      dc(210,228,230); doc.line(mg+8, y+19, mg+8+noteW, y+19);
+      doc.line(mg+8, y+24, mg+8+noteW, y+24);
+    }
+
+    // PLAN scale
+    var pX = mg+100;
+    doc.setFont('helvetica','bold'); doc.setFontSize(7); tc(61,133,140);
+    doc.text('PLAN', pX, y+5);
+    for(var s=1;s<=5;s++){
+      var cx=pX+(s-1)*7.5;
+      dc(61,133,140); doc.circle(cx,y+12,3,'S');
+      doc.setFont('helvetica','normal'); doc.setFontSize(6.5); tc(100,145,150);
+      doc.text(String(s),cx,y+12.8,{align:'center'});
+    }
+
+    // REVIEW scale
+    var rX = mg+138;
+    doc.setFont('helvetica','bold'); doc.setFontSize(7); tc(61,133,140);
+    doc.text('REVIEW', rX, y+5);
+    for(var s=1;s<=5;s++){
+      var cx=rX+(s-1)*7.5;
+      var filled = reviewRating && s<=reviewRating;
+      if(filled){ fc(61,133,140); doc.circle(cx,y+12,3,'F'); }
+      else { fc(232,247,248); dc(61,133,140); doc.circle(cx,y+12,3,'FD'); }
+      doc.setFont('helvetica', filled?'bold':'normal');
+      doc.setFontSize(6.5); tc(filled?255:100, filled?255:145, filled?255:150);
+      doc.text(String(s),cx,y+12.8,{align:'center'});
+    }
+
+    // Low/high labels
+    doc.setFont('helvetica','italic'); doc.setFontSize(6); tc(150,180,185);
+    doc.text('low',pX-4,y+22,{align:'right'}); doc.text('high',pX+36,y+22);
+    doc.text('low',rX-4,y+22,{align:'right'}); doc.text('high',rX+36,y+22);
+
+    return y+cardH+3;
+  }
+
+  // ─── ACTION CARD ────────────────────────────────────────────────────────
+  function actionCardFull(y, num, what, specific, measure, date, area, title) {
+    var minH = 38;
+    y = checkY(y, minH+4, title||'SMART Actions');
+    fc(247,251,251); doc.rect(mg,y,cW,minH,'F');
+    fc(1,41,58); doc.rect(mg,y,8,minH,'F');
+    dc(200,222,225); doc.rect(mg,y,cW,minH,'S');
+    doc.setFont('helvetica','bold'); doc.setFontSize(13); tc(201,246,250);
+    doc.text(String(num), mg+4, y+23, {align:'center'});
+
+    var cx = mg+11;
+    var cw2 = cW-11;
+    var cy = y+6;
+
+    // What
+    doc.setFont('helvetica','bold'); doc.setFontSize(7.5); tc(61,133,140);
+    doc.text('ACTION', cx, cy);
+    cy+=4;
+    if(what){
+      var wl = doc.splitTextToSize(what, cw2-2);
+      doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(1,41,58);
+      doc.text(wl.slice(0,2), cx, cy);
+      cy += wl.slice(0,2).length*5+2;
+    } else {
+      dc(215,232,234); doc.line(cx,cy+2,cx+cw2-2,cy+2); doc.line(cx,cy+7,cx+cw2-2,cy+7); cy+=10;
+    }
+
+    // SMART row
+    var smartCols = [
+      {l:'S  SPECIFIC',       w:48, v:specific},
+      {l:'M  MEASURABLE',     w:48, v:measure},
+      {l:'T  COMPLETE BY',    w:34, v:date},
+      {l:'LIFE AREA',         w:cw2-132, v:area}
+    ];
+    var colX = cx;
+    smartCols.forEach(function(col){
+      doc.setFont('helvetica','bold'); doc.setFontSize(6.5); tc(61,133,140);
+      doc.text(col.l, colX, cy);
+      colX+=col.w;
+    });
+    cy+=4;
+    colX=cx;
+    smartCols.forEach(function(col){
+      if(col.v&&col.v.trim()){
+        var vl=doc.splitTextToSize(col.v.trim(),col.w-3);
+        doc.setFont('helvetica','normal'); doc.setFontSize(7.5); tc(1,41,58);
+        doc.text(vl[0]||'',colX,cy);
+      } else {
+        dc(215,232,234); doc.line(colX,cy+2,colX+col.w-3,cy+2);
+      }
+      colX+=col.w;
+    });
+
+    return y+minH+4;
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  // PAGE 1 — COVER + INTRODUCTION
+  // ═══════════════════════════════════════════════════════════
+  drawCoverHeader();
+  var y = 60;
+
+  // Three pillars boxes
+  var pw3 = (cW-8)/3;
+  var pillars = [
+    {t:'YOUR DREAMS',  s:'The destination',   d:'From Define Your Dreams. The life you are building. Fixed. Does not change week to week.',  r:1,  g:41, b:58},
+    {t:'HUMAN NEEDS',  s:'The fuel',          d:'All six needs met each week. A depleted person cannot sustain great work or deep change.',   r:61, g:133,b:140},
+    {t:'BEHAVIOUR',    s:'The vehicle',       d:'Class 1 and 2 behaviours move you forward. Class 3 and 4 create the patterns holding you back.', r:30,g:88,b:95}
+  ];
+  pillars.forEach(function(p,i){
+    fc(p.r,p.g,p.b); doc.rect(mg+i*(pw3+4), y, pw3, 11, 'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(8.5); tc(255,255,255);
+    doc.text(p.t, mg+i*(pw3+4)+pw3/2, y+4.5, {align:'center'});
+    doc.setFont('helvetica','italic'); doc.setFontSize(7); tc(201,246,250);
+    doc.text(p.s, mg+i*(pw3+4)+pw3/2, y+8.8, {align:'center'});
+    // Description below
+    fc(247,251,251); doc.rect(mg+i*(pw3+4), y+11, pw3, 18, 'F');
+    dc(p.r,p.g,p.b); doc.rect(mg+i*(pw3+4), y+11, pw3, 18, 'S');
+    var dl = doc.splitTextToSize(p.d, pw3-5);
+    doc.setFont('helvetica','normal'); doc.setFontSize(7.5); tc(40,60,70);
+    doc.text(dl.slice(0,3), mg+i*(pw3+4)+3, y+17);
+  });
+  y+=34;
+
+  // Draw diagram
+  y = drawTriangleDiagram(y);
+  y+=4;
+
+  // Introduction text
+  y = callout(y, 'Each week you decide: how will I move toward my Dreams AND feel good while doing it? Because goals pursued at the expense of human needs are not sustainable. And a comfortable life that never moves forward is not fulfilling either. The sweet spot is forward motion and genuine wellbeing at the same time.');
+  y = bodyText(y, 'This weekly map brings together everything you have learned: your Define Your Dreams goals as your horizon, your human needs as the fuel that sustains you, SMART actions as your concrete steps, and behaviour awareness as the lens that shows you how you are actually travelling.');
+
+  drawFooter();
+
+  // ═══════════════════════════════════════════════════════════
+  // PAGE 2 — STEP 1: MY DREAMS
+  // ═══════════════════════════════════════════════════════════
+  y = newPage('Step 1: My Dreams');
+  y = stepTitle(y, 1, 6, 'My Dreams', 'Your horizon from Define Your Dreams. These do not change week to week. Review them now and carry them with you.');
+
+  y = callout(y, 'These are the goals you set for how you want your life to be across all areas. Career, relationships, health, finances, personal growth, purpose. They are your why. Everything in this weekly map serves them.');
+
+  y = bodyText(y, 'Write them in the present tense where it helps. The life you are building toward, not the life you are waiting to begin.');
+  y+=4;
+
+  for(var gi=1;gi<=6;gi++){
+    y = checkY(y, 14, 'My Dreams');
+    var gval = gv('goal'+gi);
+    var boxH = gval ? Math.min(4,doc.splitTextToSize(gval,cW-14).length)*5.5+8 : 12;
+    fc(gval?248:252, gval?252:253, gval?252:253);
+    doc.rect(mg, y, cW, boxH, 'F');
+    fc(61,133,140); doc.rect(mg, y, 7, boxH, 'F');
+    dc(200,222,225); doc.rect(mg, y, cW, boxH, 'S');
+    doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(255,255,255);
+    doc.text(String(gi), mg+3.5, y+boxH/2+2, {align:'center'});
+    if(gval){
+      var gl = doc.splitTextToSize(gval, cW-14);
+      doc.setFont('helvetica','normal'); doc.setFontSize(9); tc(1,41,58);
+      doc.text(gl.slice(0,3), mg+10, y+6);
+    } else {
+      dc(210,228,230); doc.line(mg+10, y+boxH/2, mg+cW-2, y+boxH/2);
+    }
+    y+=boxH+3;
+  }
+  y+=4;
+
+  y = quoteBox(y, '"A goal without needs alignment lacks staying power. A goal without behaviour awareness is vulnerable to the very patterns that created the problem in the first place. Together, these three lenses create a plan you can actually keep."');
+
+  drawFooter();
+
+  // ═══════════════════════════════════════════════════════════
+  // PAGE 3 — STEP 2: HUMAN NEEDS
+  // ═══════════════════════════════════════════════════════════
+  y = newPage('Step 2: Human Needs');
+  y = stepTitle(y, 2, 6, 'Human Needs', 'This week, how will you meet all six? The goal is not to crush your needs in pursuit of your goals. Both happen together.');
+
+  y = callout(y, 'For each need, write one or two specific things you will do this week to honour it. Small, concrete, and realistic. A depleted person cannot sustain great work. The PLAN column is for before the week. The REVIEW column is to circle honestly at the end of the week.');
+
+  // Need definitions
+  var needDefs = [
+    {id:'need_certainty',    name:'Certainty',           desc:'Safety, stability, and reliable foundations that anchor you when life feels unpredictable.'},
+    {id:'need_uncertainty',  name:'Uncertainty',         desc:'Variety, novelty, and new experiences that prevent stagnation and stimulate growth.'},
+    {id:'need_significance', name:'Significance',        desc:'Feeling valued, important, and uniquely talented in a way that is meaningful to you.'},
+    {id:'need_connection',   name:'Love and Connection', desc:'Meaningful relationships, feeling accepted, appreciated, and genuinely understood.'},
+    {id:'need_growth',       name:'Growth',              desc:'Learning, progressing, and developing yourself in ways that expand what is possible.'},
+    {id:'need_community',    name:'Community',           desc:'Contributing to something larger than yourself and making a positive impact beyond your own life.'}
+  ];
+
+  var ratingVals = [];
+  document.querySelectorAll('.stars').forEach(function(sc){ ratingVals.push(parseInt(sc.getAttribute('data-val'))||0); });
+
+  // Column headers
+  doc.setFont('helvetica','bold'); doc.setFontSize(7.5); tc(61,133,140);
+  doc.text('NEED + YOUR PLAN', mg, y);
+  doc.text('PLAN (circle before)', mg+100, y);
+  doc.text('REVIEW (circle after)', mg+138, y);
+  y+=4;
+  dc(61,133,140); doc.line(mg, y, mg+cW, y); y+=4;
+
+  needDefs.forEach(function(nd,ni){
+    y = needCard(y, nd.name, nd.desc, gv(nd.id), 0, ratingVals[ni]||0);
+  });
+
+  drawFooter();
+
+  // ═══════════════════════════════════════════════════════════
+  // PAGE 4 — STEP 3: LIFE AREAS FOCUS
+  // ═══════════════════════════════════════════════════════════
+  y = newPage('Step 3: Life Areas Focus');
+  y = stepTitle(y, 3, 6, 'Life Areas Focus', 'Which areas of your life are you giving deliberate attention to this week? Choose two to four.');
+
+  y = callout(y, 'Focus is not the same as ignoring the rest. Choosing where to direct your energy this week means you will actually move those areas forward, rather than spreading thinly across everything and advancing nothing. Each selected area connects back to one or more of your Dreams.');
+  y+=2;
+
+  var areaNames = ['Career and Professional Life','Health and Wellbeing','Relationships and Family','Personal Growth and Learning','Financial Wellbeing','Recreation and Leisure','Purpose and Contribution'];
+  var areaIds   = ['area_career','area_health','area_relationships','area_personal','area_finance','area_recreation','area_purpose'];
+  var areaDescs = [
+    'Your work, leadership, career progression, and professional impact.',
+    'Physical and mental health, energy, sleep, movement, and nourishment.',
+    'The quality of your key relationships, family, friendships, and belonging.',
+    'Learning, skills, personal development, and intellectual growth.',
+    'Income, savings, financial planning, and your relationship with money.',
+    'Rest, hobbies, play, and the activities that restore and energise you.',
+    'Contribution, meaning, service, and living in alignment with your values.'
+  ];
+
+  areaIds.forEach(function(aid, idx){
+    y = checkY(y, 20, 'Life Areas');
+    var el = document.getElementById(aid);
+    var isSelected = el && el.classList.contains('visible');
+    var ta = isSelected ? el.querySelector('textarea') : null;
+    var note = ta ? ta.value.trim() : '';
+    var rowH = isSelected ? (note ? 24+Math.min(2,doc.splitTextToSize(note,cW-55).length)*5 : 22) : 14;
+
+    // Background
+    fc(isSelected?232:250, isSelected?247:252, isSelected?248:252);
+    doc.rect(mg, y, cW, rowH, 'F');
+    dc(isSelected?61:210, isSelected?133:228, isSelected?140:230);
+    doc.rect(mg, y, cW, rowH, 'S');
+    if(isSelected){ fc(61,133,140); doc.rect(mg, y, 4, rowH, 'F'); }
+
+    // Checkbox
+    var cbX = mg+(isSelected?6:4);
+    if(isSelected){
+      fc(201,246,250); doc.rect(cbX, y+5, 5, 5, 'F');
+      doc.setFont('helvetica','bold'); doc.setFontSize(8.5); tc(1,41,58);
+      doc.text('✓', cbX+2.5, y+9, {align:'center'});
+    } else {
+      fc(255,255,255); doc.rect(cbX, y+5, 5, 5, 'F');
+      dc(180,210,215); doc.rect(cbX, y+5, 5, 5, 'S');
+    }
+
+    // Area name
+    var nx = mg+(isSelected?13:11);
+    doc.setFont('helvetica', isSelected?'bold':'normal'); doc.setFontSize(isSelected?10:9); tc(1,41,58);
+    doc.text(areaNames[idx], nx, y+8.5);
+
+    // Description
+    doc.setFont('helvetica','italic'); doc.setFontSize(7); tc(80,110,115);
+    doc.text(areaDescs[idx], nx, y+13.5);
+
+    // Note
+    if(isSelected && note){
+      doc.setFont('helvetica','bold'); doc.setFontSize(7); tc(61,133,140);
+      doc.text('FOCUS:', nx, y+19.5);
+      var nl = doc.splitTextToSize(note, cW-nx-mg-3);
+      doc.setFont('helvetica','normal'); doc.setFontSize(8); tc(1,41,58);
+      doc.text(nl.slice(0,2), nx+14, y+19.5);
+    } else if(isSelected){
+      dc(200,225,228); doc.line(nx, y+20, mg+cW-3, y+20);
+    }
+
+    y+=rowH+3;
+  });
+
+  drawFooter();
+
+  // ═══════════════════════════════════════════════════════════
+  // PAGE 5 — STEP 4: SMART ACTIONS
+  // ═══════════════════════════════════════════════════════════
+  y = newPage('Step 4: SMART Actions');
+  y = stepTitle(y, 4, 6, 'SMART Actions', 'What will you actually do this week? Up to four actions, each specific, measurable, and time-framed.');
+
+  y = callout(y, 'These actions should serve your Dreams and support the life areas you have chosen. If an action cannot connect back to at least one of those, question whether it belongs this week. SMART means: Specific enough that you would know the moment you have achieved it. Measurable with clear evidence of completion. Achievable and Realistic given your actual circumstances this week. Time-framed with a specific date.');
+
+  // SMART key banner
+  fc(1,41,58); doc.rect(mg, y, cW, 10, 'F');
+  var sk = [['S','Specific'],['M','Measurable'],['A','Achievable'],['R','Realistic'],['T','Time-framed']];
+  sk.forEach(function(s,i){
+    var x = mg + i*(cW/5) + 4;
+    doc.setFont('helvetica','bold'); doc.setFontSize(11); tc(201,246,250);
+    doc.text(s[0], x, y+7);
+    doc.setFont('helvetica','normal'); doc.setFontSize(7); tc(150,190,195);
+    doc.text(s[1], x+5, y+7);
+  });
+  y+=14;
+
+  for(var ai=1;ai<=4;ai++){
+    y = actionCardFull(y, ai,
+      gv('act'+ai+'_what'), gv('act'+ai+'_specific'),
+      gv('act'+ai+'_measure'), gv('act'+ai+'_date'),
+      gv('act'+ai+'_area'), 'SMART Actions'
+    );
+  }
+
+  drawFooter();
+
+  // ═══════════════════════════════════════════════════════════
+  // PAGE 6 — STEP 5: BEHAVIOUR
+  // ═══════════════════════════════════════════════════════════
+  y = newPage('Step 5: Behaviour');
+  y = stepTitle(y, 5, 6, 'Behaviour', 'Your actions only work if the behaviours surrounding them support them. What do you need to step into? What do you need to notice and move away from?');
+
+  // Behaviour flow diagram (text-based)
+  fc(232,247,248); doc.rect(mg, y, cW, 12, 'F');
+  dc(61,133,140); doc.rect(mg, y, cW, 12, 'S');
+  var bx1=mg+10, bx2=mg+cW/2-10, bx3=mg+cW-75;
+  // Three boxes in the flow
+  fc(248,252,252); doc.rect(bx1, y+2, 48, 8, 'F'); dc(200,222,225); doc.rect(bx1, y+2, 48, 8, 'S');
+  doc.setFont('helvetica','bold'); doc.setFontSize(7.5); tc(61,133,140); doc.text('Class 3 or 4', bx1+24, y+5, {align:'center'});
+  doc.setFont('helvetica','italic'); doc.setFontSize(6.5); tc(80,110,115); doc.text('Current pattern', bx1+24, y+9, {align:'center'});
+  // Arrow
+  tc(61,133,140); doc.setFont('helvetica','normal'); doc.setFontSize(10); doc.text('→', bx1+52, y+7.5, {align:'center'});
+  fc(1,41,58); doc.rect(bx2, y+2, 38, 8, 'F');
+  doc.setFont('helvetica','italic'); doc.setFontSize(7.5); tc(201,246,250); doc.text('Awareness + Choice', bx2+19, y+7.5, {align:'center'});
+  // Arrow
+  tc(61,133,140); doc.setFont('helvetica','normal'); doc.setFontSize(10); doc.text('→', bx2+41, y+7.5, {align:'center'});
+  fc(1,41,58); doc.rect(bx3, y+2, 48, 8, 'F'); dc(61,133,140); doc.rect(bx3, y+2, 48, 8, 'S');
+  doc.setFont('helvetica','bold'); doc.setFontSize(7.5); tc(201,246,250); doc.text('Class 1 or 2', bx3+24, y+5, {align:'center'});
+  doc.setFont('helvetica','italic'); doc.setFontSize(6.5); tc(150,200,205); doc.text('New behaviour', bx3+24, y+9, {align:'center'});
+  y+=18;
+
+  // Four class boxes in 2x2 grid
+  var gcW=(cW-4)/2;
+  y = checkY(y, 52, 'Behaviour');
+  var classData = [
+    {n:1,l:'The Gold Standard',   d:'Feels good, is good for you, good for others, and good long-term. This is what you are aiming for.'},
+    {n:2,l:'Investment in Growth', d:'Does not feel good at first, but is good for you, good for others, and good long-term. This builds you.'},
+    {n:3,l:'The Deceptive Trap',   d:'Feels good but is not good for you, not good for others, not good long-term. Instant relief, long-term cost.'},
+    {n:4,l:'Worst of All Worlds',  d:'Does not feel good and is not good for you, not good for others, not good long-term. Often driven by fear or avoidance.'}
+  ];
+  for(var ci=0;ci<4;ci++){
+    var cd=classData[ci];
+    var xOff=(ci%2)*(gcW+4);
+    var rowStart=(ci<2)?y:y+27;
+    if(ci===2) y+=27;
+    fc(ci<2?1:232, ci<2?41:247, ci<2?58:248);
+    doc.rect(mg+xOff, rowStart, gcW, 24, 'F');
+    if(ci>=2){ dc(200,222,225); doc.rect(mg+xOff, rowStart, gcW, 24, 'S'); }
+    fc(61,133,140); doc.circle(mg+xOff+7, rowStart+7, 4.5, 'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(255,255,255);
+    doc.text(String(cd.n), mg+xOff+7, rowStart+9, {align:'center'});
+    doc.setFont('helvetica','bold'); doc.setFontSize(8.5);
+    tc(ci<2?201:1, ci<2?246:41, ci<2?250:58);
+    doc.text(cd.l, mg+xOff+14, rowStart+8);
+    var dl=doc.splitTextToSize(cd.d, gcW-16);
+    doc.setFont('helvetica','normal'); doc.setFontSize(7.5);
+    tc(ci<2?180:60, ci<2?210:80, ci<2?215:85);
+    doc.text(dl.slice(0,2), mg+xOff+14, rowStart+14);
+  }
+  y+=28;
+
+  y = callout(y, 'Class 3 behaviours often become habitual precisely because they provide instant relief from discomfort. Noticing the pattern without judgement is the first step. The question is not "why do I do this?" but "what do I choose instead, right now?"');
+  y+=2;
+
+  // Behaviour fields
+  y = checkY(y, 24, 'Behaviour');
+  y = secBar(y, 'MY BEHAVIOUR COMMITMENT THIS WEEK', 61,133,140);
+  var bInto = gv('beh_into');
+  var bAway = gv('beh_away');
+  var bTrig = gv('beh_trigger');
+
+  // Two column headers
+  var bw=(cW-6)/2;
+  fc(1,41,58); doc.rect(mg, y, bw, 8, 'F');
+  doc.setFont('helvetica','bold'); doc.setFontSize(8); tc(201,246,250);
+  doc.text('STEPPING INTO  (Class 1 or 2)', mg+4, y+5.5);
+  fc(232,247,248); doc.rect(mg+bw+6, y, bw, 8, 'F');
+  dc(180,210,215); doc.rect(mg+bw+6, y, bw, 8, 'S');
+  doc.setFont('helvetica','bold'); doc.setFontSize(8); tc(61,133,140);
+  doc.text('NOTICING AND SHIFTING  (Class 3/4)', mg+bw+10, y+5.5);
+  y+=11;
+
+  var intoLines = bInto ? doc.splitTextToSize(bInto, bw-5) : [];
+  var awayLines = bAway ? doc.splitTextToSize(bAway, bw-5) : [];
+  var maxBH = Math.max(intoLines.length*5.5, awayLines.length*5.5, 20)+10;
+  y = checkY(y, maxBH+4, 'Behaviour');
+  fc(245,250,250); doc.rect(mg, y, bw, maxBH, 'F');
+  fc(1,41,58); doc.rect(mg, y, 3, maxBH, 'F');
+  dc(200,222,225); doc.rect(mg, y, bw, maxBH, 'S');
+  fc(248,252,252); doc.rect(mg+bw+6, y, bw, maxBH, 'F');
+  fc(61,133,140); doc.rect(mg+bw+6, y, 3, maxBH, 'F');
+  dc(200,222,225); doc.rect(mg+bw+6, y, bw, maxBH, 'S');
+  if(intoLines.length){
+    doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(1,41,58);
+    intoLines.slice(0,6).forEach(function(l,i){ doc.text(l, mg+6, y+7+i*5.5); });
+  } else {
+    dc(210,228,230); for(var li=0;li<3;li++) doc.line(mg+6, y+8+li*7, mg+bw-2, y+8+li*7);
+  }
+  if(awayLines.length){
+    doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(1,41,58);
+    awayLines.slice(0,6).forEach(function(l,i){ doc.text(l, mg+bw+10, y+7+i*5.5); });
+  } else {
+    dc(210,228,230); for(var li=0;li<3;li++) doc.line(mg+bw+10, y+8+li*7, mg+cW-2, y+8+li*7);
+  }
+  y+=maxBH+4;
+
+  y = checkY(y, 20, 'Behaviour');
+  y = inputBox(y, 'Trigger and Response Plan: When I feel ___, my old pattern is ___. Instead I will ___', bTrig, 3);
+
+  drawFooter();
+
+  // ═══════════════════════════════════════════════════════════
+  // PAGE 7+ — STEP 6: WEEKLY REVIEW
+  // ═══════════════════════════════════════════════════════════
+  y = newPage('Step 6: Weekly Review');
+
+  // Big review banner
+  fc(1,41,58); doc.rect(mg, y, cW, 16, 'F');
+  fc(61,133,140); doc.rect(mg, y, 4, 16, 'F');
+  fc(61,133,140); doc.rect(mg, y+14.5, cW, 1.5, 'F');
+  doc.setFont('helvetica','bold'); doc.setFontSize(15); tc(255,255,255);
+  doc.text('WEEKLY REVIEW', mg+8, y+10);
+  doc.setFont('helvetica','italic'); doc.setFontSize(9); tc(201,246,250);
+  doc.text('Return here at the end of the week. Honest reflection is how you improve the week after this one.', mg+60, y+10);
+  y+=20;
+
+  y = stepTitle(y, 6, 6, 'Weekly Review', 'The purpose of this review is not to judge yourself. It is to notice patterns, celebrate movement, and make one or two clear adjustments going forward.');
+  y+=2;
+
+  // Actions review table
+  y = secBar(y, 'ACTIONS REVIEW', 61,133,140);
+  var tCols = {n:6, act:66, done:18, part:22, not:22, notes:cW-6-66-18-22-22};
+  var colX0 = mg;
+  fc(1,41,58); doc.rect(colX0, y, cW, 8, 'F');
+  doc.setFont('helvetica','bold'); doc.setFontSize(7.5); tc(255,255,255);
+  ['#','Action','Done','Part','Not done','Notes / Date completed'].forEach(function(h,i){
+    var offsets = [0, tCols.n, tCols.n+tCols.act, tCols.n+tCols.act+tCols.done, tCols.n+tCols.act+tCols.done+tCols.part, tCols.n+tCols.act+tCols.done+tCols.part+tCols.not];
+    doc.text(h, colX0+offsets[i]+2, y+5.5);
+  });
+  y+=9;
+
+  for(var ai=1;ai<=4;ai++){
+    y = checkY(y, 15, 'Weekly Review');
+    var rH=13;
+    fc(ai%2?248:244, ai%2?251:249, ai%2?251:249);
+    doc.rect(colX0, y, cW, rH, 'F');
+    dc(215,232,234); doc.rect(colX0, y, cW, rH, 'S');
+    fc(61,133,140); doc.rect(colX0, y, tCols.n, rH, 'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(10); tc(255,255,255);
+    doc.text(String(ai), colX0+3, y+8.5, {align:'center'});
+    var aWhat=gv('act'+ai+'_what');
+    var al=doc.splitTextToSize(aWhat||(ai+'. Not entered'), tCols.act-3);
+    doc.setFont('helvetica','normal'); doc.setFontSize(7.5); tc(1,41,58);
+    doc.text(al.slice(0,2), colX0+tCols.n+2, y+5);
+    // Tick boxes
+    var bOffsets=[tCols.n+tCols.act+3, tCols.n+tCols.act+tCols.done+4, tCols.n+tCols.act+tCols.done+tCols.part+3];
+    bOffsets.forEach(function(bOff){
+      fc(255,255,255); dc(61,133,140); doc.rect(colX0+bOff, y+4, 5, 5, 'FD');
+    });
+    // Notes lines
+    var nX=colX0+tCols.n+tCols.act+tCols.done+tCols.part+tCols.not+1;
+    dc(200,222,225); doc.line(nX, y+6, colX0+cW-2, y+6); doc.line(nX, y+11, colX0+cW-2, y+11);
+    y+=rH+2;
+  }
+  y+=6;
+
+  // Needs review section
+  y = checkY(y, 14, 'Weekly Review');
+  y = secBar(y, 'HUMAN NEEDS REVIEW  –  How well was each need met this week?  (circle 1–5)', 61,133,140);
+  doc.setFont('helvetica','italic'); doc.setFontSize(7.5); tc(100,140,145);
+  doc.text('1 = barely met     3 = adequately met     5 = fully met. Compare with your PLAN circles on page 3.', mg, y);
+  y+=7;
+
+  var needNames2=['Certainty','Uncertainty','Significance','Love and Connection','Growth','Community'];
+  var needDescShort=['Safety and stability','Variety and novelty','Feeling valued','Belonging and connection','Learning and progress','Contribution and purpose'];
+  needNames2.forEach(function(nn,ni){
+    y = checkY(y, 13, 'Weekly Review');
+    var rv=ratingVals[ni]||0;
+    fc(ni%2?248:244, ni%2?251:249, ni%2?251:249);
+    doc.rect(mg, y, cW, 11, 'F');
+    dc(215,232,234); doc.rect(mg, y, cW, 11, 'S');
+    fc(61,133,140); doc.rect(mg, y, 3, 11, 'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(1,41,58);
+    doc.text(nn, mg+6, y+7);
+    doc.setFont('helvetica','italic'); doc.setFontSize(7); tc(100,140,145);
+    doc.text(needDescShort[ni], mg+52, y+7);
+    var scX=mg+102;
+    for(var s=1;s<=5;s++){
+      var cx=scX+(s-1)*10;
+      if(s<=rv){ fc(61,133,140); doc.circle(cx,y+5.5,4,'F'); }
+      else { fc(255,255,255); dc(61,133,140); doc.circle(cx,y+5.5,4,'FD'); }
+      doc.setFont('helvetica',s<=rv?'bold':'normal'); doc.setFontSize(7.5);
+      tc(s<=rv?255:100, s<=rv?255:145, s<=rv?255:150);
+      doc.text(String(s),cx,y+6.4,{align:'center'});
+    }
+    // Extra notes line
+    dc(200,222,225); doc.line(scX+52, y+7, mg+cW-2, y+7);
+    y+=13;
+  });
+  y+=6;
+
+  // Reflection questions
+  var reflections=[
+    {q:'What moved forward this week?',                hint:'Which actions happened? Which goals advanced? What are you proud of, however small?',       id:'rev_forward'},
+    {q:'Where did the plan not hold?',                 hint:'What got in the way? Was it external or an internal pattern you recognised? No judgement.',  id:'rev_gaps'},
+    {q:'How well did I live my behaviour commitment?', hint:'Did I step into Class 1 or 2? Where did the old pattern show up? What triggered it?',        id:'rev_behaviour'},
+    {q:'What am I carrying forward into next week?',   hint:'One insight, one unfinished action, or one commitment to take into the next seven days.',     id:'rev_carry'}
+  ];
+
+  var revGrateful = gv ? '' : '';
+
+  y = secBar(y, 'REFLECTION QUESTIONS', 1,41,58);
+  reflections.forEach(function(rq,ri){
+    var val=gv(rq.id);
+    var valLines=val?doc.splitTextToSize(val,cW-10):[];
+    var blockH=valLines.length?valLines.slice(0,4).length*5.5+20:26;
+    y = checkY(y, blockH+4, 'Weekly Review');
+    fc(247,251,251); doc.rect(mg, y, cW, blockH, 'F');
+    fc(61,133,140); doc.rect(mg, y, 3.5, blockH, 'F');
+    dc(220,235,237); doc.rect(mg, y, cW, blockH, 'S');
+    doc.setFont('helvetica','bold'); doc.setFontSize(10); tc(1,41,58);
+    doc.text(rq.q, mg+7, y+8);
+    doc.setFont('helvetica','italic'); doc.setFontSize(7.5); tc(100,140,145);
+    doc.text(rq.hint, mg+7, y+13.5);
+    if(valLines.length){
+      doc.setFont('helvetica','normal'); doc.setFontSize(8.5); tc(40,60,70);
+      valLines.slice(0,4).forEach(function(l,i){ doc.text(l, mg+7, y+20+i*5.5); });
+    } else {
+      dc(210,228,230);
+      doc.line(mg+7, y+20, mg+cW-2, y+20);
+      doc.line(mg+7, y+25, mg+cW-2, y+25);
+    }
+    y+=blockH+4;
+  });
+
+  // Intention for next week
+  y = checkY(y, 24, 'Weekly Review');
+  fc(1,41,58); doc.rect(mg, y, cW, 22, 'F');
+  fc(61,133,140); doc.rect(mg, y, cW, 2, 'F');
+  fc(61,133,140); doc.rect(mg, y+20, cW, 2, 'F');
+  doc.setFont('helvetica','bold'); doc.setFontSize(9); tc(201,246,250);
+  doc.text('My intention for next week:', mg+5, y+8);
+  dc(61,133,140); doc.line(mg+5, y+15, mg+cW-5, y+15);
+  y+=26;
+
+  // Closing statement
+  y = checkY(y, 24, 'Weekly Review');
+  fc(232,247,248); doc.rect(mg, y, cW, 20, 'F');
+  fc(61,133,140); doc.rect(mg, y, 3, 20, 'F');
+  doc.setFont('helvetica','italic'); doc.setFontSize(10); tc(1,41,58);
+  doc.text('Progress, not perfection, is the measure. Every week you check in honestly,', mg+8, y+8);
+  doc.text('you are doing the work. Every time you choose differently, you are rewiring.', mg+8, y+14);
+  y+=24;
+
+  drawFooter();
+  doc.save('weekly-integration-map.pdf');
+}
+</script>
+</body>
+</html>
