@@ -1,5 +1,5 @@
 {
-  "updated": "24 Apr 2026, 22:26 UTC",
+  "updated": "25 Apr 2026, 06:06 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,6 +72,78 @@
       "date": "11 Apr 2026",
       "excerpt": "Losing your sense of smell might signal Alzheimer’s far earlier than expected. Scientists found that immune cells in the brain actively destroy smell-related nerve fibers after detecting abnormal signals on their surfaces. This damage begin",
       "image": ""
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Rethinking Vibration as an Emotional Language",
+      "link": "https://neurosciencenews.com/expressive-vibration-tactons-communication-30602/",
+      "date": "24 Apr 2026",
+      "excerpt": "A new study explores how structured vibration patterns can represent personal memories and provide social support for public speakers.",
+      "image": "https://neurosciencenews.com/files/2026/04/haptics-emotion-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Immature Neurons and the Secret to Alzheimer’s Resilience",
+      "link": "https://neurosciencenews.com/cognitive-resilience-immature-neurons-alzheimers-30601/",
+      "date": "24 Apr 2026",
+      "excerpt": "The behavior of immature neurons, not just their quantity, is the secret to why some brains resist dementia.",
+      "image": "https://neurosciencenews.com/files/2026/04/neurogenesis-alzheimers-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Molecular Trigger for Alzheimer’s Brain Inflammation Found",
+      "link": "https://neurosciencenews.com/sting-protein-alzheimers-inflammation-30599/",
+      "date": "24 Apr 2026",
+      "excerpt": "A preclinical study identifies a precision target to quiet the brain's immune system in Alzheimer’s without disabling its defense against infections.",
+      "image": "https://neurosciencenews.com/files/2026/04/sno-sting-alzheimers-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Early-Life Metal Exposure Linked to Adolescent Brain Health",
+      "link": "https://neurosciencenews.com/metal-exposure-brain-development-30598/",
+      "date": "24 Apr 2026",
+      "excerpt": "A decade-long study links weekly metal exposure in infancy to adolescent behavioral health, identifying two critical \"vulnerability windows\" via baby tooth analysis.",
+      "image": "https://neurosciencenews.com/files/2026/04/metal-exposure-brain-health-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Faster AI Isn’t Always Perceived as Better",
+      "link": "https://neurosciencenews.com/latency-perception-thoughtful-ai-30597/",
+      "date": "24 Apr 2026",
+      "excerpt": "AI latency acts as a social cue; users rate slower responses as more thoughtful and useful than instant ones.",
+      "image": "https://neurosciencenews.com/files/2026/04/ai-speedd-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Wearable Sensors to Detect Early Autism Signs in Infancy",
+      "link": "https://neurosciencenews.com/wearable-infant-sensors-asd-30594/",
+      "date": "24 Apr 2026",
+      "excerpt": "A $3.1M NIH grant supports a new study into wearable technology that tracks infant movement to predict autism and developmental delays.",
+      "image": "https://neurosciencenews.com/files/2026/04/asd-wearable-neurotech-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Everyday Skills Protect the Developing Brain from Prenatal Stress",
+      "link": "https://neurosciencenews.com/adaptive-skills-prenatal-stress-buffer-30593/",
+      "date": "24 Apr 2026",
+      "excerpt": "Children born during Superstorm Sandy shows that early behavioral skills act as a \"buffer,\" preserving healthy limbic system activation after prenatal stress.",
+      "image": "https://neurosciencenews.com/files/2026/04/neurodevelopment-skill-stress-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Mathematical Rule for How Social Norms Click",
+      "link": "https://neurosciencenews.com/tolerance-principle-social-norms-30592/",
+      "date": "24 Apr 2026",
+      "excerpt": "People adopt social conventions using the same two-stage cognitive process children use to learn grammar.",
+      "image": "https://neurosciencenews.com/files/2026/04/math-social-norms-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
