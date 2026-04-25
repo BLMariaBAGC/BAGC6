@@ -1,5 +1,5 @@
 {
-  "updated": "25 Apr 2026, 17:59 UTC",
+  "updated": "25 Apr 2026, 19:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Ultra-Processed Foods Erodes Visual Attention",
+      "link": "https://neurosciencenews.com/ultra-processed-foods-cognitive-decline-attention-30508/",
+      "date": "25 Apr 2026",
+      "excerpt": "A new study links ultra-processed foods to cognitive decline in attention and processing speed, identifying processing chemicals as a major threat to brain health.",
+      "image": "https://neurosciencenews.com/files/2026/04/visual-attention-food-neuroseince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why Feeling Good is Harder than Not Feeling Bad",
+      "link": "https://neurosciencenews.com/positive-affect-treatment-anhedonia-depression-30607/",
+      "date": "25 Apr 2026",
+      "excerpt": "Rebuilding the brain's reward system through PAT reduces depression, anxiety, and suicide risk.",
+      "image": "https://neurosciencenews.com/files/2026/04/anhedonia-depression-reward-system-neurosciene-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Astrocytes Identified as Key Target for Treating Fragile X Syndrome",
       "link": "https://neurosciencenews.com/astrocytes-fragile-x-bmp-signaling-30605/",
       "date": "25 Apr 2026",
@@ -126,24 +144,6 @@
       "date": "24 Apr 2026",
       "excerpt": "A decade-long study links weekly metal exposure in infancy to adolescent behavioral health, identifying two critical \"vulnerability windows\" via baby tooth analysis.",
       "image": "https://neurosciencenews.com/files/2026/04/metal-exposure-brain-health-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Faster AI Isn’t Always Perceived as Better",
-      "link": "https://neurosciencenews.com/latency-perception-thoughtful-ai-30597/",
-      "date": "24 Apr 2026",
-      "excerpt": "AI latency acts as a social cue; users rate slower responses as more thoughtful and useful than instant ones.",
-      "image": "https://neurosciencenews.com/files/2026/04/ai-speedd-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Wearable Sensors to Detect Early Autism Signs in Infancy",
-      "link": "https://neurosciencenews.com/wearable-infant-sensors-asd-30594/",
-      "date": "24 Apr 2026",
-      "excerpt": "A $3.1M NIH grant supports a new study into wearable technology that tracks infant movement to predict autism and developmental delays.",
-      "image": "https://neurosciencenews.com/files/2026/04/asd-wearable-neurotech-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
