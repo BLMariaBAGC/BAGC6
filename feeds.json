@@ -1,6 +1,15 @@
 {
-  "updated": "25 Apr 2026, 14:30 UTC",
+  "updated": "25 Apr 2026, 17:59 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Harvard scientists link gut bacteria to depression through hidden inflammation trigger",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260425091216.htm",
+      "date": "25 Apr 2026",
+      "excerpt": "A gut bacterium may be quietly fueling depression through an unexpected chemical twist. Researchers found that when Morganella morganii interacts with a common pollutant, it produces a molecule that triggers inflammation—something strongly ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,13 +74,22 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your nose could detect Alzheimer’s years before symptoms begin",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260411043048.htm",
-      "date": "11 Apr 2026",
-      "excerpt": "Losing your sense of smell might signal Alzheimer’s far earlier than expected. Scientists found that immune cells in the brain actively destroy smell-related nerve fibers after detecting abnormal signals on their surfaces. This damage begin",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Astrocytes Identified as Key Target for Treating Fragile X Syndrome",
+      "link": "https://neurosciencenews.com/astrocytes-fragile-x-bmp-signaling-30605/",
+      "date": "25 Apr 2026",
+      "excerpt": "A new study identifies astrocytes as a crucial therapeutic target for Fragile X syndrome, offering hope for treating seizures and sensory issues.",
+      "image": "https://neurosciencenews.com/files/2026/04/fragile-x-astrocytes-neuroseince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Liver Talks to the Brain to Control Appetite",
+      "link": "https://neurosciencenews.com/liver-hormone-brain-metabolism-fgf21-30604/",
+      "date": "25 Apr 2026",
+      "excerpt": "A new study identifies a specific hindbrain circuit that regulates energy balance and food intake in response to dietary protein levels.",
+      "image": "https://neurosciencenews.com/files/2026/04/liver-obesity-metabolism-neuroseine-1155x770.jpg"
     },
     {
       "source": "Neuroscience News",
@@ -126,24 +144,6 @@
       "date": "24 Apr 2026",
       "excerpt": "A $3.1M NIH grant supports a new study into wearable technology that tracks infant movement to predict autism and developmental delays.",
       "image": "https://neurosciencenews.com/files/2026/04/asd-wearable-neurotech-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Everyday Skills Protect the Developing Brain from Prenatal Stress",
-      "link": "https://neurosciencenews.com/adaptive-skills-prenatal-stress-buffer-30593/",
-      "date": "24 Apr 2026",
-      "excerpt": "Children born during Superstorm Sandy shows that early behavioral skills act as a \"buffer,\" preserving healthy limbic system activation after prenatal stress.",
-      "image": "https://neurosciencenews.com/files/2026/04/neurodevelopment-skill-stress-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Mathematical Rule for How Social Norms Click",
-      "link": "https://neurosciencenews.com/tolerance-principle-social-norms-30592/",
-      "date": "24 Apr 2026",
-      "excerpt": "People adopt social conventions using the same two-stage cognitive process children use to learn grammar.",
-      "image": "https://neurosciencenews.com/files/2026/04/math-social-norms-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
