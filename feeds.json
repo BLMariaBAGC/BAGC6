@@ -1,5 +1,5 @@
 {
-  "updated": "26 Apr 2026, 06:30 UTC",
+  "updated": "26 Apr 2026, 10:32 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Higher prices could last for eight months after Iran war, minister says",
+      "link": "https://www.bbc.com/news/articles/cm29m98md2do?at_medium=RSS&at_campaign=rss",
+      "date": "26 Apr 2026",
+      "excerpt": "Officials are monitoring stock levels and planning for any potential disruptions to the supply chain.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e770/live/74d53e30-414f-11f1-9d1f-0d69b57ee6a5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "China car giant BYD says it can thrive without US",
       "link": "https://www.bbc.com/news/articles/cy01ele412yo?at_medium=RSS&at_campaign=rss",
       "date": "24 Apr 2026",
@@ -306,15 +315,6 @@
       "date": "24 Apr 2026",
       "excerpt": "Changes in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c320/live/25775960-3fc2-11f1-b61b-1d0ccf7b6022.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "White House memo claims mass AI theft by Chinese firms",
-      "link": "https://www.bbc.com/news/articles/cpqxgxx9nrqo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Apr 2026",
-      "excerpt": "A memo from Michael Kratsios says firms, mainly in China, are wrongfully distilling US AI models.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a85/live/6b1b6930-3f53-11f1-b55d-0f258dce1735.jpg"
     },
     {
       "source": "BBC Business",
