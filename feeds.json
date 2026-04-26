@@ -1,6 +1,15 @@
 {
-  "updated": "26 Apr 2026, 01:07 UTC",
+  "updated": "26 Apr 2026, 06:30 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Fish oil may be hurting your brain, new study finds",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260426012303.htm",
+      "date": "26 Apr 2026",
+      "excerpt": "Fish oil has long been praised as brain-boosting, but new research suggests the story may be more complicated. Scientists found that in people with repeated mild head injuries, a key omega-3 fatty acid in fish oil—EPA—may actually interfere",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/04/260414075648.htm",
       "date": "15 Apr 2026",
       "excerpt": "A lifetime of mental stimulation—like reading, writing, and learning new skills—may help protect the brain as we age. People with the highest levels of cognitive enrichment had a much lower risk of Alzheimer’s and experienced symptoms years",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Lonely people have worse memory but don’t decline faster, study finds",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260414075633.htm",
-      "date": "14 Apr 2026",
-      "excerpt": "Loneliness may quietly affect how well older adults remember things—but it might not be speeding up mental decline after all. A large European study tracking over 10,000 people for seven years found that those who felt lonelier started off ",
       "image": ""
     },
     {
