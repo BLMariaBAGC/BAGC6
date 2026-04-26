@@ -1,5 +1,5 @@
 {
-  "updated": "26 Apr 2026, 14:32 UTC",
+  "updated": "26 Apr 2026, 18:03 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Sensory Remix: The Neurological World of Synaesthesia",
+      "link": "https://neurosciencenews.com/synaesthesia-sensory-perception-theories-30609/",
+      "date": "26 Apr 2026",
+      "excerpt": "A deep dive into synaesthesia reveals the neurological theories behind why some people \"see\" music and \"taste\" words.",
+      "image": "https://neurosciencenews.com/files/2026/04/audio-visual-synethesia-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Ultra-Processed Foods Erodes Visual Attention",
       "link": "https://neurosciencenews.com/ultra-processed-foods-cognitive-decline-attention-30508/",
       "date": "25 Apr 2026",
@@ -135,15 +144,6 @@
       "date": "24 Apr 2026",
       "excerpt": "A preclinical study identifies a precision target to quiet the brain's immune system in Alzheimer’s without disabling its defense against infections.",
       "image": "https://neurosciencenews.com/files/2026/04/sno-sting-alzheimers-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Early-Life Metal Exposure Linked to Adolescent Brain Health",
-      "link": "https://neurosciencenews.com/metal-exposure-brain-development-30598/",
-      "date": "24 Apr 2026",
-      "excerpt": "A decade-long study links weekly metal exposure in infancy to adolescent behavioral health, identifying two critical \"vulnerability windows\" via baby tooth analysis.",
-      "image": "https://neurosciencenews.com/files/2026/04/metal-exposure-brain-health-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
