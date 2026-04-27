@@ -1,5 +1,5 @@
 {
-  "updated": "27 Apr 2026, 17:11 UTC",
+  "updated": "27 Apr 2026, 20:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Abdominal Movement Flushes Neural Waste",
+      "link": "https://neurosciencenews.com/abdominal-pump-brain-waste-removal-30618/",
+      "date": "27 Apr 2026",
+      "excerpt": "Tensing your stomach acts as a hydraulic pump, swaying the brain to clear out toxins.",
+      "image": "https://neurosciencenews.com/files/2026/04/abdominal-movement-neural-waste-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why the Brain Starts with “Too Much” to Build Memories",
+      "link": "https://neurosciencenews.com/hippocampus-tabula-plena-brain-development-30615/",
+      "date": "27 Apr 2026",
+      "excerpt": "New neuroscience research challenges the \"blank slate\" theory, proving that the hippocampal memory center starts full and streamlines as we age.",
+      "image": "https://neurosciencenews.com/files/2026/04/synaptic-pruning-memory-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Prior Sleep and Age Sculpt the Brain’s Awake Signals",
+      "link": "https://neurosciencenews.com/awake-eeg-sleep-brain-development-30614/",
+      "date": "27 Apr 2026",
+      "excerpt": "Researchers demonstrate that brain signals during wakefulness depend on sleep quality, with children and adults showing opposite neural dynamics.",
+      "image": "https://neurosciencenews.com/files/2026/04/sleep-aging-neurodevelopment-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "The Rise of AI Chatbot Addiction",
+      "link": "https://neurosciencenews.com/ai-chatbot-addiction-30613/",
+      "date": "27 Apr 2026",
+      "excerpt": "Researchers warn that AI chatbots are engineered for addiction, using \"guilt-tripping\" deletion prompts and instant validation to keep users hooked.",
+      "image": "https://neurosciencenews.com/files/2026/04/chatbot-llm-addiction-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "The Myth of the Average Brain",
       "link": "https://neurosciencenews.com/individual-brain-dynamics-adhd-30612/",
       "date": "27 Apr 2026",
@@ -108,42 +144,6 @@
       "date": "26 Apr 2026",
       "excerpt": "A deep dive into synaesthesia reveals the neurological theories behind why some people \"see\" music and \"taste\" words.",
       "image": "https://neurosciencenews.com/files/2026/04/audio-visual-synethesia-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Ultra-Processed Foods Erodes Visual Attention",
-      "link": "https://neurosciencenews.com/ultra-processed-foods-cognitive-decline-attention-30508/",
-      "date": "25 Apr 2026",
-      "excerpt": "A new study links ultra-processed foods to cognitive decline in attention and processing speed, identifying processing chemicals as a major threat to brain health.",
-      "image": "https://neurosciencenews.com/files/2026/04/visual-attention-food-neuroseince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Feeling Good is Harder than Not Feeling Bad",
-      "link": "https://neurosciencenews.com/positive-affect-treatment-anhedonia-depression-30607/",
-      "date": "25 Apr 2026",
-      "excerpt": "Rebuilding the brain's reward system through PAT reduces depression, anxiety, and suicide risk.",
-      "image": "https://neurosciencenews.com/files/2026/04/anhedonia-depression-reward-system-neurosciene-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Astrocytes Identified as Key Target for Treating Fragile X Syndrome",
-      "link": "https://neurosciencenews.com/astrocytes-fragile-x-bmp-signaling-30605/",
-      "date": "25 Apr 2026",
-      "excerpt": "A new study identifies astrocytes as a crucial therapeutic target for Fragile X syndrome, offering hope for treating seizures and sensory issues.",
-      "image": "https://neurosciencenews.com/files/2026/04/fragile-x-astrocytes-neuroseince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Liver Talks to the Brain to Control Appetite",
-      "link": "https://neurosciencenews.com/liver-hormone-brain-metabolism-fgf21-30604/",
-      "date": "25 Apr 2026",
-      "excerpt": "A new study identifies a specific hindbrain circuit that regulates energy balance and food intake in response to dietary protein levels.",
-      "image": "https://neurosciencenews.com/files/2026/04/liver-obesity-metabolism-neuroseine-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -274,6 +274,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "European flight prices are falling in short term, Wizz Air boss says",
+      "link": "https://www.bbc.com/news/articles/c3exel4p1yqo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Apr 2026",
+      "excerpt": "While many airlines say they are raising prices due to high fuel costs, József Váradi says European airlines are trying to boost demand",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fb2f/live/ce7a7880-4247-11f1-85a4-6fbea57c2af5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Claire's closes all 154 stores in UK and Ireland with loss of 1,300 jobs",
       "link": "https://www.bbc.com/news/articles/cg4047qnpk2o?at_medium=RSS&at_campaign=rss",
       "date": "27 Apr 2026",
@@ -306,15 +315,6 @@
       "date": "27 Apr 2026",
       "excerpt": "It comes after months of scrutiny by Chinese regulators over deal struck with Facebook owner.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e98b/live/33358e40-422f-11f1-8502-4993a1291976.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Less bread and WFH Fridays – what Pret boss knows about our habits",
-      "link": "https://www.bbc.com/news/articles/c8dl3z9878no?at_medium=RSS&at_campaign=rss",
-      "date": "27 Apr 2026",
-      "excerpt": "Customers want great value but that doesn't necessarily mean the cheapest products, says Pano Christou.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06ef/live/41a18300-3f30-11f1-9248-7385bd6b487f.jpg"
     },
     {
       "source": "BBC Business",
