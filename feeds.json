@@ -1,5 +1,5 @@
 {
-  "updated": "27 Apr 2026, 00:00 UTC",
+  "updated": "27 Apr 2026, 07:24 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Oil prices rise as US-Iran peace talks stall",
+      "link": "https://www.bbc.com/news/articles/c15d57pv925o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Apr 2026",
+      "excerpt": "President Trump said on Saturday that the US had cancelled plans to send a team to Pakistan for negotiations.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8fd6/live/a68c34a0-41d2-11f1-adaa-197daed18477.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'I don't want the children to see how worried we are': UK family finances hit by Iran war",
+      "link": "https://www.bbc.com/news/articles/ckg9q2g88nzo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Apr 2026",
+      "excerpt": "British families tell BBC Panorama how the Iran war is affecting their monthly budgets.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57ff/live/f7650410-4006-11f1-ac78-2112837ce2aa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Less bread and WFH Fridays – what Pret boss knows about our habits",
+      "link": "https://www.bbc.com/news/articles/c8dl3z9878no?at_medium=RSS&at_campaign=rss",
+      "date": "27 Apr 2026",
+      "excerpt": "Customers want great value but that doesn't necessarily mean the cheapest products, says Pano Christou.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06ef/live/41a18300-3f30-11f1-9248-7385bd6b487f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Higher prices could last for eight months after Iran war, minister says",
       "link": "https://www.bbc.com/news/articles/cm29m98md2do?at_medium=RSS&at_campaign=rss",
       "date": "26 Apr 2026",
@@ -285,36 +312,9 @@
       "feedId": "bbc",
       "title": "The Chinese sports brand taking on Nike and Adidas",
       "link": "https://www.bbc.com/news/articles/c87r2d850q4o?at_medium=RSS&at_campaign=rss",
-      "date": "26 Apr 2026",
+      "date": "27 Apr 2026",
       "excerpt": "Now one of the biggest sportswear firms, Anta's rise follows a playbook adopted by many Chinese giants.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/258b/live/1d2ef320-3f91-11f1-803a-036a9bbb46d5.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "China car giant BYD says it can thrive without US",
-      "link": "https://www.bbc.com/news/articles/cy01ele412yo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Apr 2026",
-      "excerpt": "With the price of fuel rising China's BYD says it is positioning itself to benefit from the global shift away from fossil fuels.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8597/live/4f286c70-3ff6-11f1-b7e9-5d346a313b73.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Stock markets are too high and set to fall, says Bank of England deputy",
-      "link": "https://www.bbc.com/news/articles/c75kp1y43lgo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Apr 2026",
-      "excerpt": "It is unusual for a senior figure at the Bank to be so forthright on market movements.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec20/live/a11b3480-3f34-11f1-b23e-977dc8cd7ec8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US justice department drops probe into Fed chairman Jerome Powell",
-      "link": "https://www.bbc.com/news/articles/cdxd1v0028vo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Apr 2026",
-      "excerpt": "President Donald Trump had accused Powell of improper cost overruns in renovating the Fed's building.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ad5/live/487e57a0-3feb-11f1-b55d-0f258dce1735.jpg"
     },
     {
       "source": "BBC Business",
