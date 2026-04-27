@@ -1,5 +1,5 @@
 {
-  "updated": "27 Apr 2026, 20:41 UTC",
+  "updated": "27 Apr 2026, 21:36 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,6 +72,78 @@
       "date": "18 Apr 2026",
       "excerpt": "Extra virgin olive oil might help protect your brain by working through your gut. A two-year study found that people who consumed it had better cognitive performance and more diverse gut bacteria than those using refined olive oil. Research",
       "image": ""
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "AI Turn “Hidden Patterns” Into ADHD Insights",
+      "link": "https://neurosciencenews.com/ai-adhd-prediction-30620/",
+      "date": "27 Apr 2026",
+      "excerpt": "New research shows how AI can mine electronic health records to flag early ADHD risk, promoting timely intervention.",
+      "image": "https://neurosciencenews.com/files/2026/04/ai-adhd-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Using AI to Decode Facial Behavior and Brain Health",
+      "link": "https://neurosciencenews.com/cheese3d-facial-expression-brain-mapping-30619/",
+      "date": "27 Apr 2026",
+      "excerpt": "A new study uses a 6-camera AI system to quantify facial expressions, offering a non-invasive window into the brain's internal states.",
+      "image": "https://neurosciencenews.com/files/2026/04/ai-facial-expression-emotion-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Positive Feedback Traps New Ideas",
+      "link": "https://neurosciencenews.com/hebbian-learning-network-spreading-30618-2/",
+      "date": "27 Apr 2026",
+      "excerpt": "A new study reveals the \"Ant Mill\" effect in social and neural networks, showing how learning rules can stall or accelerate spreading.",
+      "image": "https://neurosciencenews.com/files/2026/04/hebbian-learning-nueroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Abdominal Movement Flushes Neural Waste",
+      "link": "https://neurosciencenews.com/abdominal-pump-brain-waste-removal-30618/",
+      "date": "27 Apr 2026",
+      "excerpt": "Tensing your stomach acts as a hydraulic pump, swaying the brain to clear out toxins.",
+      "image": "https://neurosciencenews.com/files/2026/04/abdominal-movement-neural-waste-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why the Brain Starts with “Too Much” to Build Memories",
+      "link": "https://neurosciencenews.com/hippocampus-tabula-plena-brain-development-30615/",
+      "date": "27 Apr 2026",
+      "excerpt": "New neuroscience research challenges the \"blank slate\" theory, proving that the hippocampal memory center starts full and streamlines as we age.",
+      "image": "https://neurosciencenews.com/files/2026/04/synaptic-pruning-memory-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Prior Sleep and Age Sculpt the Brain’s Awake Signals",
+      "link": "https://neurosciencenews.com/awake-eeg-sleep-brain-development-30614/",
+      "date": "27 Apr 2026",
+      "excerpt": "Researchers demonstrate that brain signals during wakefulness depend on sleep quality, with children and adults showing opposite neural dynamics.",
+      "image": "https://neurosciencenews.com/files/2026/04/sleep-aging-neurodevelopment-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "The Rise of AI Chatbot Addiction",
+      "link": "https://neurosciencenews.com/ai-chatbot-addiction-30613/",
+      "date": "27 Apr 2026",
+      "excerpt": "Researchers warn that AI chatbots are engineered for addiction, using \"guilt-tripping\" deletion prompts and instant validation to keep users hooked.",
+      "image": "https://neurosciencenews.com/files/2026/04/chatbot-llm-addiction-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "The Myth of the Average Brain",
+      "link": "https://neurosciencenews.com/individual-brain-dynamics-adhd-30612/",
+      "date": "27 Apr 2026",
+      "excerpt": "A massive study of 4,000 children reveals that individual brain dynamics often contradict group averages, paving the way for personalized neuroscience.",
+      "image": "https://neurosciencenews.com/files/2026/04/average-brain-myth-cognition-neurosceince-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
