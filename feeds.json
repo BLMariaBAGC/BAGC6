@@ -1,5 +1,5 @@
 {
-  "updated": "26 Apr 2026, 21:56 UTC",
+  "updated": "27 Apr 2026, 00:00 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -283,6 +283,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "The Chinese sports brand taking on Nike and Adidas",
+      "link": "https://www.bbc.com/news/articles/c87r2d850q4o?at_medium=RSS&at_campaign=rss",
+      "date": "26 Apr 2026",
+      "excerpt": "Now one of the biggest sportswear firms, Anta's rise follows a playbook adopted by many Chinese giants.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/258b/live/1d2ef320-3f91-11f1-803a-036a9bbb46d5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "China car giant BYD says it can thrive without US",
       "link": "https://www.bbc.com/news/articles/cy01ele412yo?at_medium=RSS&at_campaign=rss",
       "date": "24 Apr 2026",
@@ -310,20 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "How does it affect me if share prices fall?",
-      "link": "https://www.bbc.com/news/articles/c33zdz2m1e2o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Apr 2026",
-      "excerpt": "Changes in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c320/live/25775960-3fc2-11f1-b61b-1d0ccf7b6022.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "From scientist to silk farmer: India's silk industry renewal",
-      "link": "https://www.bbc.com/news/articles/c0e7le127v5o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Apr 2026",
-      "excerpt": "Silk production is an increasingly high-tech business in India.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c23c/live/e999b7d0-2e9b-11f1-a79a-77e93010d956.jpg"
+      "title": "How climate change threatens the economic backbone of the Pacific",
+      "link": "https://www.bbc.com/news/articles/cq57vxjvdy4o?at_medium=RSS&at_campaign=rss",
+      "date": "26 Apr 2026",
+      "excerpt": "Tuna populations around the Pacific Islands could move away as ocean temperatures increase.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8987/live/c8459010-22f5-11f1-8620-17795c093e86.jpg"
     }
   ]
 }
