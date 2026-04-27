@@ -1,5 +1,5 @@
 {
-  "updated": "27 Apr 2026, 20:05 UTC",
+  "updated": "27 Apr 2026, 20:14 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -292,6 +292,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Greggs removes cabinets in shoplifting hotspots",
+      "link": "https://www.bbc.com/news/articles/c8dldv4lqygo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Apr 2026",
+      "excerpt": "Greggs is removing display cabinets in London stores that have been most severely hit by shoplifters.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec21/live/d43c46d0-0ecd-11f0-a3a0-a5d2188117fa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Oil prices rise as US-Iran peace talks stall",
       "link": "https://www.bbc.com/news/articles/c15d57pv925o?at_medium=RSS&at_campaign=rss",
       "date": "27 Apr 2026",
@@ -306,15 +315,6 @@
       "date": "27 Apr 2026",
       "excerpt": "British families tell BBC Panorama how the Iran war is affecting their monthly budgets.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57ff/live/f7650410-4006-11f1-ac78-2112837ce2aa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "China blocks Meta's $2bn acquisition of AI start-up Manus",
-      "link": "https://www.bbc.com/news/articles/cj0v0gr2yz7o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Apr 2026",
-      "excerpt": "It comes after months of scrutiny by Chinese regulators over deal struck with Facebook owner.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e98b/live/33358e40-422f-11f1-8502-4993a1291976.jpg"
     },
     {
       "source": "BBC Business",
