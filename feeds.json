@@ -1,6 +1,24 @@
 {
-  "updated": "27 Apr 2026, 10:26 UTC",
+  "updated": "27 Apr 2026, 17:11 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This hidden kind of stress may be damaging your memory as you age",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260427050626.htm",
+      "date": "27 Apr 2026",
+      "excerpt": "A new study reveals that internalizing stress—especially feelings of hopelessness—may significantly speed up memory decline in older Chinese Americans. Surprisingly, factors like community support didn’t show the same impact. Researchers sa",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists may have found the brain’s switch for chronic pain",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260426012317.htm",
+      "date": "27 Apr 2026",
+      "excerpt": "Deep within the brain, scientists have uncovered a hidden “switch” that may decide whether pain fades away—or lingers for months or even years. Researchers found that a small, little-known region called the caudal granular insular cortex (C",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,22 +74,31 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "The surprising reason you’re so productive one day and not the next",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260415043626.htm",
-      "date": "15 Apr 2026",
-      "excerpt": "Feeling mentally “on” isn’t just in your head—it can significantly boost what you accomplish. Researchers found that sharper thinking on a given day leads people to set bigger goals and actually follow through. That edge can equal up to 40 ",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "The Myth of the Average Brain",
+      "link": "https://neurosciencenews.com/individual-brain-dynamics-adhd-30612/",
+      "date": "27 Apr 2026",
+      "excerpt": "A massive study of 4,000 children reveals that individual brain dynamics often contradict group averages, paving the way for personalized neuroscience.",
+      "image": "https://neurosciencenews.com/files/2026/04/average-brain-myth-cognition-neurosceince-1155x770.jpg"
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Doing this throughout life may cut Alzheimer’s risk by 38%",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260414075648.htm",
-      "date": "15 Apr 2026",
-      "excerpt": "A lifetime of mental stimulation—like reading, writing, and learning new skills—may help protect the brain as we age. People with the highest levels of cognitive enrichment had a much lower risk of Alzheimer’s and experienced symptoms years",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Sound of Fear: Infrasound Mimics Supernatural Feelings",
+      "link": "https://neurosciencenews.com/infrasound-stress-cortisol-mood-30611/",
+      "date": "27 Apr 2026",
+      "excerpt": "A new study reveals how low-frequency infrasound silently shifts human mood and raises stress hormones.",
+      "image": "https://neurosciencenews.com/files/2026/04/infrasound-audio-stress-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why the Hard Drive Analogy Fails for Human Memory",
+      "link": "https://neurosciencenews.com/memory-encoding-neuroscience-30610/",
+      "date": "27 Apr 2026",
+      "excerpt": "Neuroscience explains that forgotten memories are often the result of poor encoding or faded retrieval paths, rather than a lack of \"space\" in the brain.",
+      "image": "https://neurosciencenews.com/files/2026/04/memory-harddrive-brain-neuroscience-1155x770.jpg"
     },
     {
       "source": "Neuroscience News",
@@ -119,31 +146,22 @@
       "image": "https://neurosciencenews.com/files/2026/04/liver-obesity-metabolism-neuroseine-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Rethinking Vibration as an Emotional Language",
-      "link": "https://neurosciencenews.com/expressive-vibration-tactons-communication-30602/",
-      "date": "24 Apr 2026",
-      "excerpt": "A new study explores how structured vibration patterns can represent personal memories and provide social support for public speakers.",
-      "image": "https://neurosciencenews.com/files/2026/04/haptics-emotion-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How the Walkman, Game Boy, Liquid Death, and Pokémon Became Surprise Hits",
+      "link": "https://hbr.org/2026/04/how-the-walkman-gameboy-liquid-death-and-pokemon-became-surprise-hits",
+      "date": "27 Apr 2026",
+      "excerpt": "The best innovations aren&#8217;t always cutting edge.",
+      "image": ""
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Immature Neurons and the Secret to Alzheimer’s Resilience",
-      "link": "https://neurosciencenews.com/cognitive-resilience-immature-neurons-alzheimers-30601/",
-      "date": "24 Apr 2026",
-      "excerpt": "The behavior of immature neurons, not just their quantity, is the secret to why some brains resist dementia.",
-      "image": "https://neurosciencenews.com/files/2026/04/neurogenesis-alzheimers-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Molecular Trigger for Alzheimer’s Brain Inflammation Found",
-      "link": "https://neurosciencenews.com/sting-protein-alzheimers-inflammation-30599/",
-      "date": "24 Apr 2026",
-      "excerpt": "A preclinical study identifies a precision target to quiet the brain's immune system in Alzheimer’s without disabling its defense against infections.",
-      "image": "https://neurosciencenews.com/files/2026/04/sno-sting-alzheimers-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Future Is Shrouded in an AI Fog",
+      "link": "https://hbr.org/2026/04/the-future-is-shrouded-in-an-ai-fog",
+      "date": "27 Apr 2026",
+      "excerpt": "The most important effect of AI is the one we can&#8217;t see.",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -197,24 +215,6 @@
       "link": "https://hbr.org/2026/04/the-comeback-of-the-physical-store-and-what-it-means-for-your-business",
       "date": "22 Apr 2026",
       "excerpt": "Retail&#8217;s brick-and-mortar resurgence is a lesson in how to reassess assets previously seen as liabilities.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The HBR Guide to CEO Transitions",
-      "link": "https://hbr.org/2026/04/the-hbr-guide-to-ceo-transitions",
-      "date": "21 Apr 2026",
-      "excerpt": "Lessons from HBR&#8217;s archive on making the high-stakes process successful.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: When Corporate LGBTQ+ Allyship Only Happens in June",
-      "link": "https://hbr.org/2026/04/research-when-corporate-lgbtq-allyship-only-happens-in-june",
-      "date": "21 Apr 2026",
-      "excerpt": "Rather than concentrating efforts during Pride Month, organizations should embed allyship into everyday policies, benefits, and leadership priorities.",
       "image": ""
     },
     {
@@ -274,6 +274,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Claire's closes all 154 stores in UK and Ireland with loss of 1,300 jobs",
+      "link": "https://www.bbc.com/news/articles/cg4047qnpk2o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Apr 2026",
+      "excerpt": "All of the chain's standalone stores have stopped trading in the UK and Ireland.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/562e/live/acda4b80-4245-11f1-8d69-c381592aaa8c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Oil prices rise as US-Iran peace talks stall",
       "link": "https://www.bbc.com/news/articles/c15d57pv925o?at_medium=RSS&at_campaign=rss",
       "date": "27 Apr 2026",
@@ -292,29 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "China blocks Meta's $2bn acquisition of AI start-up Manus",
+      "link": "https://www.bbc.com/news/articles/cj0v0gr2yz7o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Apr 2026",
+      "excerpt": "It comes after months of scrutiny by Chinese regulators over deal struck with Facebook owner.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e98b/live/33358e40-422f-11f1-8502-4993a1291976.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Less bread and WFH Fridays – what Pret boss knows about our habits",
       "link": "https://www.bbc.com/news/articles/c8dl3z9878no?at_medium=RSS&at_campaign=rss",
       "date": "27 Apr 2026",
       "excerpt": "Customers want great value but that doesn't necessarily mean the cheapest products, says Pano Christou.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06ef/live/41a18300-3f30-11f1-9248-7385bd6b487f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Higher prices could last for eight months after Iran war, minister says",
-      "link": "https://www.bbc.com/news/articles/cm29m98md2do?at_medium=RSS&at_campaign=rss",
-      "date": "26 Apr 2026",
-      "excerpt": "Officials are monitoring stock levels and planning for any potential disruptions to the supply chain.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e770/live/74d53e30-414f-11f1-9d1f-0d69b57ee6a5.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The Chinese sports brand taking on Nike and Adidas",
-      "link": "https://www.bbc.com/news/articles/c87r2d850q4o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Apr 2026",
-      "excerpt": "Now one of the biggest sportswear firms, Anta's rise follows a playbook adopted by many Chinese giants.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/258b/live/1d2ef320-3f91-11f1-803a-036a9bbb46d5.jpg"
     },
     {
       "source": "BBC Business",
