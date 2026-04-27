@@ -1,5 +1,5 @@
 {
-  "updated": "27 Apr 2026, 20:16 UTC",
+  "updated": "27 Apr 2026, 20:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,78 +72,6 @@
       "date": "18 Apr 2026",
       "excerpt": "Extra virgin olive oil might help protect your brain by working through your gut. A two-year study found that people who consumed it had better cognitive performance and more diverse gut bacteria than those using refined olive oil. Research",
       "image": ""
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Abdominal Movement Flushes Neural Waste",
-      "link": "https://neurosciencenews.com/abdominal-pump-brain-waste-removal-30618/",
-      "date": "27 Apr 2026",
-      "excerpt": "Tensing your stomach acts as a hydraulic pump, swaying the brain to clear out toxins.",
-      "image": "https://neurosciencenews.com/files/2026/04/abdominal-movement-neural-waste-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why the Brain Starts with “Too Much” to Build Memories",
-      "link": "https://neurosciencenews.com/hippocampus-tabula-plena-brain-development-30615/",
-      "date": "27 Apr 2026",
-      "excerpt": "New neuroscience research challenges the \"blank slate\" theory, proving that the hippocampal memory center starts full and streamlines as we age.",
-      "image": "https://neurosciencenews.com/files/2026/04/synaptic-pruning-memory-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Prior Sleep and Age Sculpt the Brain’s Awake Signals",
-      "link": "https://neurosciencenews.com/awake-eeg-sleep-brain-development-30614/",
-      "date": "27 Apr 2026",
-      "excerpt": "Researchers demonstrate that brain signals during wakefulness depend on sleep quality, with children and adults showing opposite neural dynamics.",
-      "image": "https://neurosciencenews.com/files/2026/04/sleep-aging-neurodevelopment-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "The Rise of AI Chatbot Addiction",
-      "link": "https://neurosciencenews.com/ai-chatbot-addiction-30613/",
-      "date": "27 Apr 2026",
-      "excerpt": "Researchers warn that AI chatbots are engineered for addiction, using \"guilt-tripping\" deletion prompts and instant validation to keep users hooked.",
-      "image": "https://neurosciencenews.com/files/2026/04/chatbot-llm-addiction-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "The Myth of the Average Brain",
-      "link": "https://neurosciencenews.com/individual-brain-dynamics-adhd-30612/",
-      "date": "27 Apr 2026",
-      "excerpt": "A massive study of 4,000 children reveals that individual brain dynamics often contradict group averages, paving the way for personalized neuroscience.",
-      "image": "https://neurosciencenews.com/files/2026/04/average-brain-myth-cognition-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Sound of Fear: Infrasound Mimics Supernatural Feelings",
-      "link": "https://neurosciencenews.com/infrasound-stress-cortisol-mood-30611/",
-      "date": "27 Apr 2026",
-      "excerpt": "A new study reveals how low-frequency infrasound silently shifts human mood and raises stress hormones.",
-      "image": "https://neurosciencenews.com/files/2026/04/infrasound-audio-stress-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why the Hard Drive Analogy Fails for Human Memory",
-      "link": "https://neurosciencenews.com/memory-encoding-neuroscience-30610/",
-      "date": "27 Apr 2026",
-      "excerpt": "Neuroscience explains that forgotten memories are often the result of poor encoding or faded retrieval paths, rather than a lack of \"space\" in the brain.",
-      "image": "https://neurosciencenews.com/files/2026/04/memory-harddrive-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Sensory Remix: The Neurological World of Synaesthesia",
-      "link": "https://neurosciencenews.com/synaesthesia-sensory-perception-theories-30609/",
-      "date": "26 Apr 2026",
-      "excerpt": "A deep dive into synaesthesia reveals the neurological theories behind why some people \"see\" music and \"taste\" words.",
-      "image": "https://neurosciencenews.com/files/2026/04/audio-visual-synethesia-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -301,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Superdry co-founder accused of raping woman",
+      "link": "https://www.bbc.com/news/articles/cly7yevvl2wo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Apr 2026",
+      "excerpt": "James Holder, 54, is accused of raping the woman after a night out in 2022, but denies the charges.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7e7/live/a90f61d0-423a-11f1-9bbe-5bb4e7731ac9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Oil prices rise as US-Iran peace talks stall",
       "link": "https://www.bbc.com/news/articles/c15d57pv925o?at_medium=RSS&at_campaign=rss",
       "date": "27 Apr 2026",
       "excerpt": "President Trump said the US had cancelled plans to send a team to Pakistan for negotiations.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8fd6/live/a68c34a0-41d2-11f1-adaa-197daed18477.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I don't want the children to see how worried we are': UK family finances hit by Iran war",
-      "link": "https://www.bbc.com/news/articles/ckg9q2g88nzo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Apr 2026",
-      "excerpt": "British families tell BBC Panorama how the Iran war is affecting their monthly budgets.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57ff/live/f7650410-4006-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
