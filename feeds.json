@@ -1,5 +1,5 @@
 {
-  "updated": "28 Apr 2026, 16:13 UTC",
+  "updated": "28 Apr 2026, 21:40 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,51 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "AI Found the Key to Pre-Symptom Alzheimer’s",
+      "link": "https://neurosciencenews.com/fingers-7b-alzheimers-ai-model-30629/",
+      "date": "28 Apr 2026",
+      "excerpt": "FINGERS-7B, presented at ICLR 2026, uses \"biological fingerprints\" to identify preclinical Alzheimer's a decade before symptoms appear.",
+      "image": "https://neurosciencenews.com/files/2026/04/alzheimers-al-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "43% of Antipsychotics for Seniors Start in Hospitals",
+      "link": "https://neurosciencenews.com/antipsychotics-cognitive-impairment-dementia-30627/",
+      "date": "28 Apr 2026",
+      "excerpt": "Antipsychotic prescriptions are \"sticky,\" often continuing for over a year after being initiated in hospital settings.",
+      "image": "https://neurosciencenews.com/files/2026/04/antipsychotics-aging-dementai-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "One Protein Switches Roles to Build the Brain and Its Blood Vessels",
+      "link": "https://neurosciencenews.com/adgrl2-blood-brain-barrier-synapses-30626/",
+      "date": "28 Apr 2026",
+      "excerpt": "A new study reveals how a single gene manages both brain communication and life-support systems through cellular \"editing.\"",
+      "image": "https://neurosciencenews.com/files/2026/04/genetics-bbb-vascular-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How the Brain Transforms Daily Life into Surreal Dreams",
+      "link": "https://neurosciencenews.com/ai-dreams-life-30625/",
+      "date": "28 Apr 2026",
+      "excerpt": "A new study of 3,700 dream reports reveals why some people have vivid dreams while daydreamers experience fragmented ones.",
+      "image": "https://neurosciencenews.com/files/2026/04/dream-decoding-ai-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Health Redefined as a Birth-to-Death Journey",
+      "link": "https://neurosciencenews.com/brain-health-lifespan-framework-30624/",
+      "date": "28 Apr 2026",
+      "excerpt": "Researchers introduce a \"lifespan framework\" for brain health, identifying social and environmental drivers of dementia and stroke.",
+      "image": "https://neurosciencenews.com/files/2026/04/life-long-brain-health-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "How Potassium Fluctuations Trigger Brain Receptors",
       "link": "https://neurosciencenews.com/potassium-gated-ion-channel-alka-30623/",
       "date": "28 Apr 2026",
@@ -99,51 +144,6 @@
       "date": "27 Apr 2026",
       "excerpt": "A new fMRI study of 3-to-9-year-olds shows that the brain's architecture for speaking and empathy is distinct and stable from early childhood.",
       "image": "https://neurosciencenews.com/files/2026/04/empathy-language-neurodevelopment-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "AI Turn “Hidden Patterns” Into ADHD Insights",
-      "link": "https://neurosciencenews.com/ai-adhd-prediction-30620/",
-      "date": "27 Apr 2026",
-      "excerpt": "New research shows how AI can mine electronic health records to flag early ADHD risk, promoting timely intervention.",
-      "image": "https://neurosciencenews.com/files/2026/04/ai-adhd-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Using AI to Decode Facial Behavior and Brain Health",
-      "link": "https://neurosciencenews.com/cheese3d-facial-expression-brain-mapping-30619/",
-      "date": "27 Apr 2026",
-      "excerpt": "A new study uses a 6-camera AI system to quantify facial expressions, offering a non-invasive window into the brain's internal states.",
-      "image": "https://neurosciencenews.com/files/2026/04/ai-facial-expression-emotion-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Positive Feedback Traps New Ideas",
-      "link": "https://neurosciencenews.com/hebbian-learning-network-spreading-30618-2/",
-      "date": "27 Apr 2026",
-      "excerpt": "A new study reveals the \"Ant Mill\" effect in social and neural networks, showing how learning rules can stall or accelerate spreading.",
-      "image": "https://neurosciencenews.com/files/2026/04/hebbian-learning-nueroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Abdominal Movement Flushes Neural Waste",
-      "link": "https://neurosciencenews.com/abdominal-pump-brain-waste-removal-30618/",
-      "date": "27 Apr 2026",
-      "excerpt": "Tensing your stomach acts as a hydraulic pump, swaying the brain to clear out toxins.",
-      "image": "https://neurosciencenews.com/files/2026/04/abdominal-movement-neural-waste-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why the Brain Starts with “Too Much” to Build Memories",
-      "link": "https://neurosciencenews.com/hippocampus-tabula-plena-brain-development-30615/",
-      "date": "27 Apr 2026",
-      "excerpt": "New neuroscience research challenges the \"blank slate\" theory, proving that the hippocampal memory center starts full and streamlines as we age.",
-      "image": "https://neurosciencenews.com/files/2026/04/synaptic-pruning-memory-neurosceince-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "What happens when supply chains go dark",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/28/what-happens-when-supply-chains-go-dark/",
+      "date": "28 Apr 2026",
+      "excerpt": "Global trade relies on supply chains with predictable routing, stable pricing and continuous visibility. But conflict, such as the war in Iran, are significantly disrupting transport routes in unexpected ways. By telling the story of one co",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Are impact crypto assets a new emerging asset class for sustainable and impact investors?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/27/are-impact-crypto-assets-a-new-emerging-asset-class-for-sustainable-and-impact-investors/",
       "date": "27 Apr 2026",
@@ -263,21 +272,12 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "In regulating digital gold, India should look to Britain",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/21/in-regulating-digital-gold-india-should-look-to-britain/",
-      "date": "21 Apr 2026",
-      "excerpt": "Investors in India are increasingly keen on digital gold. But the country’s regulatory system does not adequately protect them. Sangeeta Taak and Saloni Rani argue that the Securities and Exchange Board of India should look at Britain’s Fin",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "United Arab Emirates to quit oil cartel Opec",
       "link": "https://www.bbc.com/news/articles/cj4pxwlr52yo?at_medium=RSS&at_campaign=rss",
       "date": "28 Apr 2026",
-      "excerpt": "The UAE leaving Opec is seen as a major blow and potential death knell for the oil cartel.",
+      "excerpt": "The UAE's decision, after nearly 60 years of membership, is seen as a potential death knell for the oil cartel.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d25d/live/b07940f0-4305-11f1-bd52-e755d604ece4.jpg"
     },
     {
@@ -288,6 +288,15 @@
       "date": "28 Apr 2026",
       "excerpt": "It will have little effect on the current oil blockades, but it could change everything afterwards.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f4fa/live/1d2d8520-4316-11f1-8d32-27ce5a537ca2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Musk says basis of charitable giving at stake in OpenAI lawsuit",
+      "link": "https://www.bbc.com/news/articles/cz027nyz529o?at_medium=RSS&at_campaign=rss",
+      "date": "28 Apr 2026",
+      "excerpt": "The case over OpenAI's history and public commitments could have major implications for the future of AI.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28ec/live/9d22f0c0-4330-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
@@ -306,15 +315,6 @@
       "date": "28 Apr 2026",
       "excerpt": "The energy giant said it had seen an \"exceptional\" performance at its oil trading business.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/668a/live/dce89f30-42c1-11f1-85b4-fbb29f2986ac.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why Sam Altman and his former hero Elon Musk are taking their toxic feud to court",
-      "link": "https://www.bbc.com/news/articles/cn8dedv8w8xo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Apr 2026",
-      "excerpt": "The battle between the AI big hitters has largely played out on social media. Now it is coming to the courtroom.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2441/live/9eec0d50-4246-11f1-b55d-0f258dce1735.png"
     },
     {
       "source": "BBC Business",
