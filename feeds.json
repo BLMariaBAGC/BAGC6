@@ -1,5 +1,5 @@
 {
-  "updated": "27 Apr 2026, 21:36 UTC",
+  "updated": "28 Apr 2026, 07:39 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Language and Empathy Have Distinct Origins in the Developing Brain",
+      "link": "https://neurosciencenews.com/language-theory-of-mind-distinct-origins-children-30621/",
+      "date": "27 Apr 2026",
+      "excerpt": "A new fMRI study of 3-to-9-year-olds shows that the brain's architecture for speaking and empathy is distinct and stable from early childhood.",
+      "image": "https://neurosciencenews.com/files/2026/04/empathy-language-neurodevelopment-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "AI Turn “Hidden Patterns” Into ADHD Insights",
       "link": "https://neurosciencenews.com/ai-adhd-prediction-30620/",
       "date": "27 Apr 2026",
@@ -135,15 +144,6 @@
       "date": "27 Apr 2026",
       "excerpt": "Researchers warn that AI chatbots are engineered for addiction, using \"guilt-tripping\" deletion prompts and instant validation to keep users hooked.",
       "image": "https://neurosciencenews.com/files/2026/04/chatbot-llm-addiction-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "The Myth of the Average Brain",
-      "link": "https://neurosciencenews.com/individual-brain-dynamics-adhd-30612/",
-      "date": "27 Apr 2026",
-      "excerpt": "A massive study of 4,000 children reveals that individual brain dynamics often contradict group averages, paving the way for personalized neuroscience.",
-      "image": "https://neurosciencenews.com/files/2026/04/average-brain-myth-cognition-neurosceince-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Are impact crypto assets a new emerging asset class for sustainable and impact investors?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/27/are-impact-crypto-assets-a-new-emerging-asset-class-for-sustainable-and-impact-investors/",
+      "date": "27 Apr 2026",
+      "excerpt": "Traditional sustainable investing is struggling with reliably measuring and verifying impact. Can blockchain and tokenization technologies provide a reliable solution? The Impact Crypto Index, proposed by Veronika Vinogradova and Mariya Gub",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Lessons from Bidenomics ahead of the midterms",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/24/lessons-from-bidenomics-ahead-of-the-midterms/",
       "date": "24 Apr 2026",
@@ -263,13 +272,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Your boss’s feelings matter too",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/20/your-bosss-feelings-matter-too/",
-      "date": "20 Apr 2026",
-      "excerpt": "Senior business leaders are often considered to be above emotions. But the ones they have, and how they express them, matter. Michael Matthews and Dawei (David) Wang assess the impact of emotions on bosses, their colleagues and the organisa",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "BP profits more than double as Iran war sends oil prices higher",
+      "link": "https://www.bbc.com/news/articles/c2eveyvgn9no?at_medium=RSS&at_campaign=rss",
+      "date": "28 Apr 2026",
+      "excerpt": "The energy giant said it had seen an \"exceptional\" performance at its oil trading business.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/668a/live/dce89f30-42c1-11f1-85b4-fbb29f2986ac.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "My tenant owes £15,000 in rent, but I can't get them out of the property",
+      "link": "https://www.bbc.com/news/articles/c30r5z3vdydo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Apr 2026",
+      "excerpt": "Landlords tell BBC News why they fear new laws could make it harder to remove problematic tenants.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31ab/live/95286fc0-3d96-11f1-bd52-e755d604ece4.png"
     },
     {
       "source": "BBC Business",
@@ -292,38 +310,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Greggs removes cabinets in shoplifting hotspots",
-      "link": "https://www.bbc.com/news/articles/c8dldv4lqygo?at_medium=RSS&at_campaign=rss",
+      "title": "I had £20,000 stolen and had to fight a 13-month fraud reporting rule to get it back",
+      "link": "https://www.bbc.com/news/articles/cpvxg1vzxzjo?at_medium=RSS&at_campaign=rss",
       "date": "27 Apr 2026",
-      "excerpt": "Greggs is removing display cabinets in London stores that have been most severely hit by shoplifters.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec21/live/d43c46d0-0ecd-11f0-a3a0-a5d2188117fa.jpg"
+      "excerpt": "Sarah has now got her money back but there are calls to reform the deadline for reporting scams to banks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5423/live/a83f04a0-3f28-11f1-b9c3-8be9c0df6b27.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Superdry co-founder accused of raping woman",
-      "link": "https://www.bbc.com/news/articles/cly7yevvl2wo?at_medium=RSS&at_campaign=rss",
+      "title": "Why Spotify has no button to filter out AI music",
+      "link": "https://www.bbc.com/news/articles/cd7jpg4w181o?at_medium=RSS&at_campaign=rss",
       "date": "27 Apr 2026",
-      "excerpt": "James Holder, 54, is accused of raping the woman after a night out in 2022, but denies the charges.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7e7/live/a90f61d0-423a-11f1-9bbe-5bb4e7731ac9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil prices rise as US-Iran peace talks stall",
-      "link": "https://www.bbc.com/news/articles/c15d57pv925o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Apr 2026",
-      "excerpt": "President Trump said the US had cancelled plans to send a team to Pakistan for negotiations.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8fd6/live/a68c34a0-41d2-11f1-adaa-197daed18477.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How climate change threatens the economic backbone of the Pacific",
-      "link": "https://www.bbc.com/news/articles/cq57vxjvdy4o?at_medium=RSS&at_campaign=rss",
-      "date": "26 Apr 2026",
-      "excerpt": "Tuna populations around the Pacific Islands could move away as ocean temperatures increase.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8987/live/c8459010-22f5-11f1-8620-17795c093e86.jpg"
+      "excerpt": "Music streamer Deezer allows users to filter out AI music, so why does Spotify not offer the same?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a7c6/live/fbd1b350-397f-11f1-9d5c-8ba507d7dbde.jpg"
     }
   ]
 }
