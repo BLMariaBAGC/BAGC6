@@ -1,6 +1,24 @@
 {
-  "updated": "28 Apr 2026, 07:39 UTC",
+  "updated": "28 Apr 2026, 16:13 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "MIT scientists turn chaotic laser light into powerful brain imaging tool",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260428045542.htm",
+      "date": "28 Apr 2026",
+      "excerpt": "Scientists at MIT discovered that chaotic laser light can spontaneously form a highly focused beam instead of scattering—if the conditions are just right. This “pencil beam” enabled them to image the blood-brain barrier in 3D at speeds 25 t",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your dreams aren’t random. Here’s what’s really happening",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260428045538.htm",
+      "date": "28 Apr 2026",
+      "excerpt": "Dreams are more structured than they seem, shaped by both personal traits and real-world experiences. Researchers found that the brain doesn’t just replay daily life—it reshapes it into imaginative, sometimes surreal scenarios. People who m",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,22 +74,22 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Artificial neurons successfully communicate with living brain cells",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260417225020.htm",
-      "date": "18 Apr 2026",
-      "excerpt": "Engineers at Northwestern University have taken a striking leap toward merging machines with the human brain by printing artificial neurons that can actually communicate with real ones. These flexible, low-cost devices generate lifelike ele",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How Potassium Fluctuations Trigger Brain Receptors",
+      "link": "https://neurosciencenews.com/potassium-gated-ion-channel-alka-30623/",
+      "date": "28 Apr 2026",
+      "excerpt": "A serendipitous discovery reveals that potassium ions act as ligands for brain receptors, offering new insights into epilepsy and brain homeostasis.",
+      "image": "https://neurosciencenews.com/files/2026/04/ion-channels-neuroscience-1155x770.jpg"
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists say this type of olive oil could boost brain power",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260417224527.htm",
-      "date": "18 Apr 2026",
-      "excerpt": "Extra virgin olive oil might help protect your brain by working through your gut. A two-year study found that people who consumed it had better cognitive performance and more diverse gut bacteria than those using refined olive oil. Research",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Research Finally Decodes the Brain’s Smell Map",
+      "link": "https://neurosciencenews.com/olfactory-smell-map-stripes-30622/",
+      "date": "28 Apr 2026",
+      "excerpt": "A new study unveils a highly organized \"smell map\" in the nose, driven by retinoic acid gradients and essential for treating anosmia.",
+      "image": "https://neurosciencenews.com/files/2026/04/smell-maping-neuroscience-1155x770.jpg"
     },
     {
       "source": "Neuroscience News",
@@ -128,22 +146,40 @@
       "image": "https://neurosciencenews.com/files/2026/04/synaptic-pruning-memory-neurosceince-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Prior Sleep and Age Sculpt the Brain’s Awake Signals",
-      "link": "https://neurosciencenews.com/awake-eeg-sleep-brain-development-30614/",
-      "date": "27 Apr 2026",
-      "excerpt": "Researchers demonstrate that brain signals during wakefulness depend on sleep quality, with children and adults showing opposite neural dynamics.",
-      "image": "https://neurosciencenews.com/files/2026/04/sleep-aging-neurodevelopment-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "U.S. Medical Centers Need a New Model for Drug Discovery and Development",
+      "link": "https://hbr.org/2026/04/u-s-medical-centers-need-a-new-model-for-drug-discovery-and-development",
+      "date": "28 Apr 2026",
+      "excerpt": "China&#8217;s faster, more efficient model is forcing U.S. competitors to rethink how they innovate.",
+      "image": ""
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "The Rise of AI Chatbot Addiction",
-      "link": "https://neurosciencenews.com/ai-chatbot-addiction-30613/",
-      "date": "27 Apr 2026",
-      "excerpt": "Researchers warn that AI chatbots are engineered for addiction, using \"guilt-tripping\" deletion prompts and instant validation to keep users hooked.",
-      "image": "https://neurosciencenews.com/files/2026/04/chatbot-llm-addiction-neurosceince-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Why Your Team Won’t Speak Up (And How to Fix It)",
+      "link": "https://hbr.org/podcast/2026/04/why-your-team-wont-speak-up-and-how-to-fix-it",
+      "date": "28 Apr 2026",
+      "excerpt": "A conversation with author Charles Duhigg about creating an open culture.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How a Family-Owned Greek Cement Company Evolved Its Leadership While Pivoting Its Product Portfolio",
+      "link": "https://hbr.org/podcast/2026/04/how-a-family-owned-greek-cement-company-evolved-its-leadership-while-pivoting-its-product-portfolio",
+      "date": "28 Apr 2026",
+      "excerpt": "An inside look at the decision-making behind appointing a non-family CEO and creating greener products.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Where the U.S.’s Chip Strategy Is Still Falling Short",
+      "link": "https://hbr.org/2026/04/where-the-u-s-s-chip-strategy-is-still-falling-short",
+      "date": "28 Apr 2026",
+      "excerpt": "Critical back-end processes remain concentrated in Asia. These three steps can help bring them to the United States.",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -179,42 +215,6 @@
       "link": "https://hbr.org/2026/04/research-roundup-a-surprising-benefit-of-upskilling-why-goals-can-backfire-and-more",
       "date": "24 Apr 2026",
       "excerpt": "Fresh insights from a wide range of academic studies.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The End of One-Size-Fits-All Enterprise Software",
-      "link": "https://hbr.org/2026/04/the-end-of-one-size-fits-all-enterprise-software",
-      "date": "23 Apr 2026",
-      "excerpt": "Companies now have the option to build, compose, collaborate, or buy outcomes rather than make do with existing SaaS offerings.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Making the Shift from Individual Contributor to Leader",
-      "link": "https://hbr.org/podcast/2026/04/making-the-shift-from-individual-contributor-to-leader",
-      "date": "22 Apr 2026",
-      "excerpt": "A conversation with leadership development experts Amy Jen Su and Muriel M. Wilkins about what it takes to be seen as a leader&#8212;whether you have the top job or not.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Values Do You Really Stand For?",
-      "link": "https://hbr.org/2026/04/what-values-do-you-really-stand-for",
-      "date": "22 Apr 2026",
-      "excerpt": "Two ways to identify the values that matter most for your leadership.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Comeback of the Physical Store—and What It Means for Your Business",
-      "link": "https://hbr.org/2026/04/the-comeback-of-the-physical-store-and-what-it-means-for-your-business",
-      "date": "22 Apr 2026",
-      "excerpt": "Retail&#8217;s brick-and-mortar resurgence is a lesson in how to reassess assets previously seen as liabilities.",
       "image": ""
     },
     {
@@ -274,6 +274,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "United Arab Emirates to quit oil cartel Opec",
+      "link": "https://www.bbc.com/news/articles/cj4pxwlr52yo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Apr 2026",
+      "excerpt": "The UAE leaving Opec is seen as a major blow and potential death knell for the oil cartel.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d25d/live/b07940f0-4305-11f1-bd52-e755d604ece4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Faisal Islam: Why the UAE's exit from Opec is a big deal",
+      "link": "https://www.bbc.com/news/articles/cj4pxyklw1jo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Apr 2026",
+      "excerpt": "It will have little effect on the current oil blockades, but it could change everything afterwards.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f4fa/live/1d2d8520-4316-11f1-8d32-27ce5a537ca2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Nostalgia wasn't enough: What went wrong at Claire's",
+      "link": "https://www.bbc.com/news/articles/cdxkxxvd3z4o?at_medium=RSS&at_campaign=rss",
+      "date": "28 Apr 2026",
+      "excerpt": "Experts says Claire's suffered from a perfect storm of issues which has spelled the end for the accessories chain.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d26/live/8f843420-431b-11f1-ac78-2112837ce2aa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "BP profits more than double as Iran war sends oil prices higher",
       "link": "https://www.bbc.com/news/articles/c2eveyvgn9no?at_medium=RSS&at_campaign=rss",
       "date": "28 Apr 2026",
@@ -283,38 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "My tenant owes £15,000 in rent, but I can't get them out of the property",
-      "link": "https://www.bbc.com/news/articles/c30r5z3vdydo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Apr 2026",
-      "excerpt": "Landlords tell BBC News why they fear new laws could make it harder to remove problematic tenants.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31ab/live/95286fc0-3d96-11f1-bd52-e755d604ece4.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "European flight prices are falling in short term, Wizz Air boss says",
-      "link": "https://www.bbc.com/news/articles/c3exel4p1yqo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Apr 2026",
-      "excerpt": "While many airlines say they are raising prices due to high fuel costs, József Váradi says European airlines are trying to boost demand",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fb2f/live/ce7a7880-4247-11f1-85a4-6fbea57c2af5.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Claire's closes all 154 stores in UK and Ireland with loss of 1,300 jobs",
-      "link": "https://www.bbc.com/news/articles/cg4047qnpk2o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Apr 2026",
-      "excerpt": "All of the chain's standalone stores have stopped trading in the UK and Ireland.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/562e/live/acda4b80-4245-11f1-8d69-c381592aaa8c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I had £20,000 stolen and had to fight a 13-month fraud reporting rule to get it back",
-      "link": "https://www.bbc.com/news/articles/cpvxg1vzxzjo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Apr 2026",
-      "excerpt": "Sarah has now got her money back but there are calls to reform the deadline for reporting scams to banks.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5423/live/a83f04a0-3f28-11f1-b9c3-8be9c0df6b27.jpg"
+      "title": "Why Sam Altman and his former hero Elon Musk are taking their toxic feud to court",
+      "link": "https://www.bbc.com/news/articles/cn8dedv8w8xo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Apr 2026",
+      "excerpt": "The battle between the AI big hitters has largely played out on social media. Now it is coming to the courtroom.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2441/live/9eec0d50-4246-11f1-b55d-0f258dce1735.png"
     },
     {
       "source": "BBC Business",
@@ -323,7 +323,7 @@
       "link": "https://www.bbc.com/news/articles/cd7jpg4w181o?at_medium=RSS&at_campaign=rss",
       "date": "27 Apr 2026",
       "excerpt": "Music streamer Deezer allows users to filter out AI music, so why does Spotify not offer the same?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a7c6/live/fbd1b350-397f-11f1-9d5c-8ba507d7dbde.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbbc/live/df090600-42f4-11f1-ac78-2112837ce2aa.png"
     }
   ]
 }
