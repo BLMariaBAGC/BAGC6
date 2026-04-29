@@ -1,5 +1,5 @@
 {
-  "updated": "29 Apr 2026, 18:57 UTC",
+  "updated": "29 Apr 2026, 23:13 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Why Your Brain “Dreams” Even When You’re Awake",
+      "link": "https://neurosciencenews.com/dream-continuum-wake-sleep-consciousness-30637/",
+      "date": "29 Apr 2026",
+      "excerpt": "Researchers have identified four distinct mental states that occur regardless of whether we are asleep or awake, revealing a \"neural fingerprint\" for bizarre, dream-like thoughts that can surface even in the middle of the day.",
+      "image": "https://neurosciencenews.com/files/2026/04/daydreaming-wake-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Mapping the Brain’s Hidden Hub for Creative Thought",
+      "link": "https://neurosciencenews.com/rostral-prefrontal-cortex-creativity-30636/",
+      "date": "29 Apr 2026",
+      "excerpt": "Scientists have mapped a functional gradient in the rostral prefrontal cortex that connects our spontaneous \"daydreaming\" mind with our \"logical\" executive control.",
+      "image": "https://neurosciencenews.com/files/2026/04/creativity-hub-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "“Warm” AI Chatbots Are More Likely to Lie",
       "link": "https://neurosciencenews.com/chatbots-factual-accuracy-sycophancy-30635/",
       "date": "29 Apr 2026",
@@ -126,24 +144,6 @@
       "date": "28 Apr 2026",
       "excerpt": "FINGERS-7B, presented at ICLR 2026, uses \"biological fingerprints\" to identify preclinical Alzheimer's a decade before symptoms appear.",
       "image": "https://neurosciencenews.com/files/2026/04/alzheimers-al-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "43% of Antipsychotics for Seniors Start in Hospitals",
-      "link": "https://neurosciencenews.com/antipsychotics-cognitive-impairment-dementia-30627/",
-      "date": "28 Apr 2026",
-      "excerpt": "Antipsychotic prescriptions are \"sticky,\" often continuing for over a year after being initiated in hospital settings.",
-      "image": "https://neurosciencenews.com/files/2026/04/antipsychotics-aging-dementai-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "One Protein Switches Roles to Build the Brain and Its Blood Vessels",
-      "link": "https://neurosciencenews.com/adgrl2-blood-brain-barrier-synapses-30626/",
-      "date": "28 Apr 2026",
-      "excerpt": "A new study reveals how a single gene manages both brain communication and life-support systems through cellular \"editing.\"",
-      "image": "https://neurosciencenews.com/files/2026/04/genetics-bbb-vascular-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How does a country’s political system affect its incentives to attract foreign investment?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/29/how-does-a-countrys-political-system-affect-its-incentives-to-attract-foreign-investment/",
+      "date": "29 Apr 2026",
+      "excerpt": "Foreign direct investment is a critical engine of economic growth. But not all countries value it equally. Dario Maimone Ansaldo Patti, Ram Mudambi and Pietro Navarra tested the assumption that more democracy equals more inward investment a",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/Screenshot-2026-04-29-103752.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "What happens when supply chains go dark",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/28/what-happens-when-supply-chains-go-dark/",
       "date": "28 Apr 2026",
@@ -263,36 +272,36 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How firms should react to rivalry between America and China in critical minerals",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/22/how-firms-should-react-to-rivalry-between-america-and-china-in-critical-minerals/",
-      "date": "22 Apr 2026",
-      "excerpt": "The intensifying strategic competition between America and China is reshaping global trade, industrial policy and supply chains in ways that businesses can no longer ignore. Hany Besada explains how multinational firms must rewrite their st",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'Numbskull, moron and too stupid': Trump and Powell's biggest clashes",
-      "link": "https://www.bbc.com/news/articles/c7v952p61dgo?at_medium=RSS&at_campaign=rss",
+      "title": "Interest rates expected to be held as uncertainty over Iran war continues",
+      "link": "https://www.bbc.com/news/articles/cg7p89mp2rjo?at_medium=RSS&at_campaign=rss",
       "date": "29 Apr 2026",
-      "excerpt": "How the US President Donald Trump and Federal Reserve chair Jerome Powell came to blows.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ec3/live/fb8a4270-43e5-11f1-bd52-e755d604ece4.jpg"
+      "excerpt": "Future base rate changes are hard to predict as analysts judge the economic impact of the Iran war.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bbe/live/b1192200-43d7-11f1-a133-a9dbeae5d5f3.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "In five charts - How UAE's exit could affect Opec's influence over the oil price",
-      "link": "https://www.bbc.com/news/articles/c70vjpny0dno?at_medium=RSS&at_campaign=rss",
+      "title": "Big US tech stocks swing as investors probe AI spend",
+      "link": "https://www.bbc.com/news/articles/crkpd4r2y7eo?at_medium=RSS&at_campaign=rss",
       "date": "29 Apr 2026",
-      "excerpt": "The BBC takes a look in charts at what the UAE's departure could mean for the oil cartel and more widely.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1989/live/7cc9b4e0-43ed-11f1-bd52-e755d604ece4.jpg"
+      "excerpt": "Meta, Amazon, Alphabet, and Microsoft all reported their financial performance at the same time on Wednesday",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6a0/live/137a2f70-43f1-11f1-9113-1988573e8ff7.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil price soars above $118 after reports of 'extended' Iran blockade",
+      "title": "Four key takeaways from Jerome Powell's final rate decision as Fed chair",
+      "link": "https://www.bbc.com/news/articles/c62rm4zk3kgo?at_medium=RSS&at_campaign=rss",
+      "date": "29 Apr 2026",
+      "excerpt": "Powell's news conference after holding rates covered the US-Israel war with Iran, inflation, legal attacks, and the Fed's independence.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dfd7/live/ddeb2720-43ea-11f1-9113-1988573e8ff7.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil price rises above $120 after reports of 'extended' Iran blockade",
       "link": "https://www.bbc.com/news/articles/cj4pxr0gr02o?at_medium=RSS&at_campaign=rss",
       "date": "29 Apr 2026",
       "excerpt": "The price of crude oil has swung sharply as uncertainty over the war in the Middle East continues.",
@@ -301,29 +310,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Advert for £49 serum banned over 'five years younger' claim",
-      "link": "https://www.bbc.com/news/articles/c78kl05en7po?at_medium=RSS&at_campaign=rss",
+      "title": "A son overlooked and a jailed tycoon: Inside Samsung's succession drama",
+      "link": "https://www.bbc.com/news/articles/c9d313g91g4o?at_medium=RSS&at_campaign=rss",
       "date": "29 Apr 2026",
-      "excerpt": "Eucerin asked 160 people to use the serum for four weeks then say how much younger they thought they looked.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d36/live/1d7b7ab0-42ed-11f1-a707-eb91aea0f6a5.jpg"
+      "excerpt": "The family dynasty behind Samsung is so complicated it regularly makes headline news in South Korea.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/733a/live/0970f1e0-4369-11f1-bd5c-f7e837bf2c66.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why Spotify has no button to filter out AI music",
-      "link": "https://www.bbc.com/news/articles/cd7jpg4w181o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Apr 2026",
-      "excerpt": "Music streamer Deezer allows users to filter out AI music, so why does Spotify not offer the same?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbbc/live/df090600-42f4-11f1-ac78-2112837ce2aa.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "A fresh financial crisis may be coming - it won't play out like the last one",
-      "link": "https://www.bbc.com/news/articles/cp3p5l0nyevo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Apr 2026",
-      "excerpt": "Several warning lights are flashing that have some wondering whether we are in the foothills of another financial crisis.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16fb/live/1782a5f0-430d-11f1-ac78-2112837ce2aa.jpg"
+      "title": "The kelp producer who wants to get Americans eating seaweed",
+      "link": "https://www.bbc.com/news/articles/cx21n6zzpqwo?at_medium=RSS&at_campaign=rss",
+      "date": "29 Apr 2026",
+      "excerpt": "Marine farmer Suzie Flores also hopes the crop can revitalise the US's small fishing towns.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/25f3/live/444862c0-42e3-11f1-b55d-0f258dce1735.jpg"
     }
   ]
 }
