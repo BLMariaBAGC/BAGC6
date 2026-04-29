@@ -1,5 +1,5 @@
 {
-  "updated": "29 Apr 2026, 06:42 UTC",
+  "updated": "29 Apr 2026, 13:10 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How to Nail Your Next Media Interview",
+      "link": "https://hbr.org/2026/04/how-to-nail-your-next-media-interview",
+      "date": "29 Apr 2026",
+      "excerpt": "Public-facing interviews can build or break trust with your stakeholders.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Build Your Resilience in the Face of Tough Change",
+      "link": "https://hbr.org/podcast/2026/04/build-your-resilience-in-the-face-of-tough-change",
+      "date": "29 Apr 2026",
+      "excerpt": "A conversation with cognitive scientist Maya Shankar on how leaders can better react, reframe, and adapt to personal and professional upheaval.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "U.S. Medical Centers Need a New Model for Drug Discovery and Development",
       "link": "https://hbr.org/2026/04/u-s-medical-centers-need-a-new-model-for-drug-discovery-and-development",
       "date": "28 Apr 2026",
@@ -200,21 +218,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Succeed Like Apple’s Tim Cook",
-      "link": "https://hbr.org/2026/04/how-to-succeed-like-apples-tim-cook",
-      "date": "24 Apr 2026",
-      "excerpt": "Lessons on leadership and strategic discipline from Tim Cook&#8217;s 15-year tenure as Apple&#8217;s CEO.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research Roundup: A Surprising Benefit of Upskilling, Why Goals Can Backfire, and More",
-      "link": "https://hbr.org/2026/04/research-roundup-a-surprising-benefit-of-upskilling-why-goals-can-backfire-and-more",
-      "date": "24 Apr 2026",
-      "excerpt": "Fresh insights from a wide range of academic studies.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What happens when supply chains go dark",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/28/what-happens-when-supply-chains-go-dark/",
+      "date": "28 Apr 2026",
+      "excerpt": "Global trade relies on supply chains with predictable routing, stable pricing and continuous visibility. But conflict, such as the war in Iran, are significantly disrupting transport routes in unexpected ways. By telling the story of one co",
       "image": ""
     },
     {
@@ -263,20 +272,20 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "In regulating digital gold, India should look to Britain",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/21/in-regulating-digital-gold-india-should-look-to-britain/",
-      "date": "21 Apr 2026",
-      "excerpt": "Investors in India are increasingly keen on digital gold. But the country’s regulatory system does not adequately protect them. Sangeeta Taak and Saloni Rani argue that the Securities and Exchange Board of India should look at Britain’s Fin",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil price jumps to $115 after reports of 'extended' Iran blockade",
+      "link": "https://www.bbc.com/news/articles/cj4pxr0gr02o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Apr 2026",
+      "excerpt": "The price of crude oil has swung sharply as uncertainty over the war in the Middle East continues.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2891/live/ab550cf0-43b7-11f1-a5aa-c74cdbf526ae.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Face serum advert banned over 'five years younger' claim",
+      "title": "Advert for £49 serum banned over 'five years younger' claim",
       "link": "https://www.bbc.com/news/articles/c78kl05en7po?at_medium=RSS&at_campaign=rss",
-      "date": "28 Apr 2026",
+      "date": "29 Apr 2026",
       "excerpt": "Eucerin asked 160 people to use the serum for four weeks then say how much younger they thought they looked.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d36/live/1d7b7ab0-42ed-11f1-a707-eb91aea0f6a5.jpg"
     },
@@ -292,29 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Why has the UAE left Opec - and why does this matter?",
+      "link": "https://www.bbc.com/news/videos/cz92wdvwek8o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Apr 2026",
+      "excerpt": "The United Arab Emirates (UAE) is quitting oil cartel Opec after nearly 60 years of membership.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/809a/live/556ee020-43b4-11f1-bd52-e755d604ece4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "United Arab Emirates to quit oil cartel Opec",
       "link": "https://www.bbc.com/news/articles/cj4pxwlr52yo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Apr 2026",
+      "date": "29 Apr 2026",
       "excerpt": "The UAE's decision, after nearly 60 years of membership, is seen as a potential death knell for the oil cartel.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d25d/live/b07940f0-4305-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Faisal Islam: Why the UAE's exit from Opec is a big deal",
-      "link": "https://www.bbc.com/news/articles/cj4pxyklw1jo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Apr 2026",
-      "excerpt": "It will have little effect on the current oil blockades, but it could change everything afterwards.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f4fa/live/1d2d8520-4316-11f1-8d32-27ce5a537ca2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Flying cars and 5-minute charges: China's EV industry sees opportunity in Iran crisis",
-      "link": "https://www.bbc.com/news/videos/cm2pnde3l7yo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Apr 2026",
-      "excerpt": "As the US-Iran has sent the world scrambling for fuel, China is positioned to benefit from its rapid shift into electric vehicles.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11c1/live/20394680-42be-11f1-bd52-e755d604ece4.jpg"
     },
     {
       "source": "BBC Business",
