@@ -1,5 +1,5 @@
 {
-  "updated": "28 Apr 2026, 21:54 UTC",
+  "updated": "29 Apr 2026, 06:42 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,6 +72,78 @@
       "date": "23 Apr 2026",
       "excerpt": "A rare group of adults over 80, known as SuperAgers, are rewriting what we thought was possible for the aging brain. With memory abilities comparable to people decades younger, their brains either resist or withstand the damage typically li",
       "image": ""
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "AI Found the Key to Pre-Symptom Alzheimer’s",
+      "link": "https://neurosciencenews.com/fingers-7b-alzheimers-ai-model-30629/",
+      "date": "28 Apr 2026",
+      "excerpt": "FINGERS-7B, presented at ICLR 2026, uses \"biological fingerprints\" to identify preclinical Alzheimer's a decade before symptoms appear.",
+      "image": "https://neurosciencenews.com/files/2026/04/alzheimers-al-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "43% of Antipsychotics for Seniors Start in Hospitals",
+      "link": "https://neurosciencenews.com/antipsychotics-cognitive-impairment-dementia-30627/",
+      "date": "28 Apr 2026",
+      "excerpt": "Antipsychotic prescriptions are \"sticky,\" often continuing for over a year after being initiated in hospital settings.",
+      "image": "https://neurosciencenews.com/files/2026/04/antipsychotics-aging-dementai-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "One Protein Switches Roles to Build the Brain and Its Blood Vessels",
+      "link": "https://neurosciencenews.com/adgrl2-blood-brain-barrier-synapses-30626/",
+      "date": "28 Apr 2026",
+      "excerpt": "A new study reveals how a single gene manages both brain communication and life-support systems through cellular \"editing.\"",
+      "image": "https://neurosciencenews.com/files/2026/04/genetics-bbb-vascular-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How the Brain Transforms Daily Life into Surreal Dreams",
+      "link": "https://neurosciencenews.com/ai-dreams-life-30625/",
+      "date": "28 Apr 2026",
+      "excerpt": "A new study of 3,700 dream reports reveals why some people have vivid dreams while daydreamers experience fragmented ones.",
+      "image": "https://neurosciencenews.com/files/2026/04/dream-decoding-ai-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Health Redefined as a Birth-to-Death Journey",
+      "link": "https://neurosciencenews.com/brain-health-lifespan-framework-30624/",
+      "date": "28 Apr 2026",
+      "excerpt": "Researchers introduce a \"lifespan framework\" for brain health, identifying social and environmental drivers of dementia and stroke.",
+      "image": "https://neurosciencenews.com/files/2026/04/life-long-brain-health-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How Potassium Fluctuations Trigger Brain Receptors",
+      "link": "https://neurosciencenews.com/potassium-gated-ion-channel-alka-30623/",
+      "date": "28 Apr 2026",
+      "excerpt": "A serendipitous discovery reveals that potassium ions act as ligands for brain receptors, offering new insights into epilepsy and brain homeostasis.",
+      "image": "https://neurosciencenews.com/files/2026/04/ion-channels-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Research Finally Decodes the Brain’s Smell Map",
+      "link": "https://neurosciencenews.com/olfactory-smell-map-stripes-30622/",
+      "date": "28 Apr 2026",
+      "excerpt": "A new study unveils a highly organized \"smell map\" in the nose, driven by retinoic acid gradients and essential for treating anosmia.",
+      "image": "https://neurosciencenews.com/files/2026/04/smell-maping-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Language and Empathy Have Distinct Origins in the Developing Brain",
+      "link": "https://neurosciencenews.com/language-theory-of-mind-distinct-origins-children-30621/",
+      "date": "27 Apr 2026",
+      "excerpt": "A new fMRI study of 3-to-9-year-olds shows that the brain's architecture for speaking and empathy is distinct and stable from early childhood.",
+      "image": "https://neurosciencenews.com/files/2026/04/empathy-language-neurodevelopment-neurosceince-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -148,15 +220,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "What happens when supply chains go dark",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/28/what-happens-when-supply-chains-go-dark/",
-      "date": "28 Apr 2026",
-      "excerpt": "Global trade relies on supply chains with predictable routing, stable pricing and continuous visibility. But conflict, such as the war in Iran, are significantly disrupting transport routes in unexpected ways. By telling the story of one co",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Are impact crypto assets a new emerging asset class for sustainable and impact investors?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/27/are-impact-crypto-assets-a-new-emerging-asset-class-for-sustainable-and-impact-investors/",
       "date": "27 Apr 2026",
@@ -200,6 +263,33 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "In regulating digital gold, India should look to Britain",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/21/in-regulating-digital-gold-india-should-look-to-britain/",
+      "date": "21 Apr 2026",
+      "excerpt": "Investors in India are increasingly keen on digital gold. But the country’s regulatory system does not adequately protect them. Sangeeta Taak and Saloni Rani argue that the Securities and Exchange Board of India should look at Britain’s Fin",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Face serum advert banned over 'five years younger' claim",
+      "link": "https://www.bbc.com/news/articles/c78kl05en7po?at_medium=RSS&at_campaign=rss",
+      "date": "28 Apr 2026",
+      "excerpt": "Eucerin asked 160 people to use the serum for four weeks then say how much younger they thought they looked.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d36/live/1d7b7ab0-42ed-11f1-a707-eb91aea0f6a5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "A fresh financial crisis may be coming - it won't play out like the last one",
+      "link": "https://www.bbc.com/news/articles/cp3p5l0nyevo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Apr 2026",
+      "excerpt": "Several warning lights are flashing that have some wondering whether we are in the foothills of another financial crisis.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16fb/live/1782a5f0-430d-11f1-ac78-2112837ce2aa.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "United Arab Emirates to quit oil cartel Opec",
@@ -220,29 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Musk says basis of charitable giving at stake in OpenAI lawsuit",
-      "link": "https://www.bbc.com/news/articles/cz027nyz529o?at_medium=RSS&at_campaign=rss",
+      "title": "Flying cars and 5-minute charges: China's EV industry sees opportunity in Iran crisis",
+      "link": "https://www.bbc.com/news/videos/cm2pnde3l7yo?at_medium=RSS&at_campaign=rss",
       "date": "28 Apr 2026",
-      "excerpt": "The case over OpenAI's history and public commitments could have major implications for the future of AI.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28ec/live/9d22f0c0-4330-11f1-ac78-2112837ce2aa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Nostalgia wasn't enough: What went wrong at Claire's",
-      "link": "https://www.bbc.com/news/articles/cdxkxxvd3z4o?at_medium=RSS&at_campaign=rss",
-      "date": "28 Apr 2026",
-      "excerpt": "Experts says Claire's suffered from a perfect storm of issues which has spelled the end for the accessories chain.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d26/live/8f843420-431b-11f1-ac78-2112837ce2aa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "BP profits more than double as Iran war sends oil prices higher",
-      "link": "https://www.bbc.com/news/articles/c2eveyvgn9no?at_medium=RSS&at_campaign=rss",
-      "date": "28 Apr 2026",
-      "excerpt": "The energy giant said it had seen an \"exceptional\" performance at its oil trading business.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/668a/live/dce89f30-42c1-11f1-85b4-fbb29f2986ac.jpg"
+      "excerpt": "As the US-Iran has sent the world scrambling for fuel, China is positioned to benefit from its rapid shift into electric vehicles.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11c1/live/20394680-42be-11f1-bd52-e755d604ece4.jpg"
     },
     {
       "source": "BBC Business",
