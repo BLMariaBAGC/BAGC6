@@ -1,5 +1,5 @@
 {
-  "updated": "29 Apr 2026, 13:10 UTC",
+  "updated": "29 Apr 2026, 18:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,51 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "“Warm” AI Chatbots Are More Likely to Lie",
+      "link": "https://neurosciencenews.com/chatbots-factual-accuracy-sycophancy-30635/",
+      "date": "29 Apr 2026",
+      "excerpt": "We all want an AI that feels like a friend, but new research suggests that \"kindness\" in AI might be a major red flag for \"truth.\"",
+      "image": "https://neurosciencenews.com/files/2026/04/warm-chatbot-lie-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Tug-of-War of Life: Fertilized Eggs Keep Two Separate Nuclei",
+      "link": "https://neurosciencenews.com/zygote-pronuclei-separation-genetics-30632/",
+      "date": "29 Apr 2026",
+      "excerpt": "Why don't sperm and egg nuclei fuse right away? New research reveals a \"tug-of-war\" for growth factors that protects the embryo’s epigenetic blueprint.",
+      "image": "https://neurosciencenews.com/files/2026/04/zygote-nucleus-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "AI Uncovers a Hidden “Grammar” in DNA Packaging",
+      "link": "https://neurosciencenews.com/ai-nucleosome-dna-30631/",
+      "date": "29 Apr 2026",
+      "excerpt": "Researchers have discovered a new \"organizational code\" for the genome, showing that most DNA is partially accessible even when wrapped up.",
+      "image": "https://neurosciencenews.com/files/2026/04/non-cellular-genetics-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Sympathetic Nerves Found to Slow Melanoma Growth",
+      "link": "https://neurosciencenews.com/melanoma-sympathetic-nerves-cancer-20630/",
+      "date": "29 Apr 2026",
+      "excerpt": "A new study reveals a \"brake\" on cancer growth: sympathetic nerves inhibit melanoma by reducing pro-tumor macrophages.",
+      "image": "https://neurosciencenews.com/files/2026/04/sns-cancer-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How a Brainless Organism Learns Using Neuron-Like Machinery",
+      "link": "https://neurosciencenews.com/single-cell-learning-camkii-30629/",
+      "date": "29 Apr 2026",
+      "excerpt": "Brainless but brilliant: New study reveals how a giant single-celled organism uses neuron-like molecular machinery to learn and remember.",
+      "image": "https://neurosciencenews.com/files/2026/04/brainless-organism-learning-neurosciene-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "AI Found the Key to Pre-Symptom Alzheimer’s",
       "link": "https://neurosciencenews.com/fingers-7b-alzheimers-ai-model-30629/",
       "date": "28 Apr 2026",
@@ -101,49 +146,22 @@
       "image": "https://neurosciencenews.com/files/2026/04/genetics-bbb-vascular-neuroscience-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "How the Brain Transforms Daily Life into Surreal Dreams",
-      "link": "https://neurosciencenews.com/ai-dreams-life-30625/",
-      "date": "28 Apr 2026",
-      "excerpt": "A new study of 3,700 dream reports reveals why some people have vivid dreams while daydreamers experience fragmented ones.",
-      "image": "https://neurosciencenews.com/files/2026/04/dream-decoding-ai-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Driving Lyft into the Future",
+      "link": "https://hbr.org/2026/04/david-risher-live",
+      "date": "29 Apr 2026",
+      "excerpt": "An HBR Executive Live conversation with Lyft CEO David Risher.",
+      "image": ""
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Health Redefined as a Birth-to-Death Journey",
-      "link": "https://neurosciencenews.com/brain-health-lifespan-framework-30624/",
-      "date": "28 Apr 2026",
-      "excerpt": "Researchers introduce a \"lifespan framework\" for brain health, identifying social and environmental drivers of dementia and stroke.",
-      "image": "https://neurosciencenews.com/files/2026/04/life-long-brain-health-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "How Potassium Fluctuations Trigger Brain Receptors",
-      "link": "https://neurosciencenews.com/potassium-gated-ion-channel-alka-30623/",
-      "date": "28 Apr 2026",
-      "excerpt": "A serendipitous discovery reveals that potassium ions act as ligands for brain receptors, offering new insights into epilepsy and brain homeostasis.",
-      "image": "https://neurosciencenews.com/files/2026/04/ion-channels-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Research Finally Decodes the Brain’s Smell Map",
-      "link": "https://neurosciencenews.com/olfactory-smell-map-stripes-30622/",
-      "date": "28 Apr 2026",
-      "excerpt": "A new study unveils a highly organized \"smell map\" in the nose, driven by retinoic acid gradients and essential for treating anosmia.",
-      "image": "https://neurosciencenews.com/files/2026/04/smell-maping-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Language and Empathy Have Distinct Origins in the Developing Brain",
-      "link": "https://neurosciencenews.com/language-theory-of-mind-distinct-origins-children-30621/",
-      "date": "27 Apr 2026",
-      "excerpt": "A new fMRI study of 3-to-9-year-olds shows that the brain's architecture for speaking and empathy is distinct and stable from early childhood.",
-      "image": "https://neurosciencenews.com/files/2026/04/empathy-language-neurodevelopment-neurosceince-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Accountability Must Be Chosen, Not Mandated",
+      "link": "https://hbr.org/2026/04/accountability-must-be-chosen-not-mandated",
+      "date": "29 Apr 2026",
+      "excerpt": "Does your organization reward looking accountable&#8212;or being accountable?",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -197,24 +215,6 @@
       "link": "https://hbr.org/2026/04/where-the-u-s-s-chip-strategy-is-still-falling-short",
       "date": "28 Apr 2026",
       "excerpt": "Critical back-end processes remain concentrated in Asia. These three steps can help bring them to the United States.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How the Walkman, Game Boy, Liquid Death, and Pokémon Became Surprise Hits",
-      "link": "https://hbr.org/2026/04/how-the-walkman-gameboy-liquid-death-and-pokemon-became-surprise-hits",
-      "date": "27 Apr 2026",
-      "excerpt": "The best innovations aren&#8217;t always cutting edge.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Future Is Shrouded in an AI Fog",
-      "link": "https://hbr.org/2026/04/the-future-is-shrouded-in-an-ai-fog",
-      "date": "27 Apr 2026",
-      "excerpt": "The most important effect of AI is the one we can&#8217;t see.",
       "image": ""
     },
     {
@@ -274,7 +274,25 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil price jumps to $115 after reports of 'extended' Iran blockade",
+      "title": "'Numbskull, moron and too stupid': Trump and Powell's biggest clashes",
+      "link": "https://www.bbc.com/news/articles/c7v952p61dgo?at_medium=RSS&at_campaign=rss",
+      "date": "29 Apr 2026",
+      "excerpt": "How the US President Donald Trump and Federal Reserve chair Jerome Powell came to blows.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ec3/live/fb8a4270-43e5-11f1-bd52-e755d604ece4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "In five charts - How UAE's exit could affect Opec's influence over the oil price",
+      "link": "https://www.bbc.com/news/articles/c70vjpny0dno?at_medium=RSS&at_campaign=rss",
+      "date": "29 Apr 2026",
+      "excerpt": "The BBC takes a look in charts at what the UAE's departure could mean for the oil cartel and more widely.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1989/live/7cc9b4e0-43ed-11f1-bd52-e755d604ece4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil price soars above $118 after reports of 'extended' Iran blockade",
       "link": "https://www.bbc.com/news/articles/cj4pxr0gr02o?at_medium=RSS&at_campaign=rss",
       "date": "29 Apr 2026",
       "excerpt": "The price of crude oil has swung sharply as uncertainty over the war in the Middle East continues.",
@@ -292,38 +310,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "A fresh financial crisis may be coming - it won't play out like the last one",
-      "link": "https://www.bbc.com/news/articles/cp3p5l0nyevo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Apr 2026",
-      "excerpt": "Several warning lights are flashing that have some wondering whether we are in the foothills of another financial crisis.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16fb/live/1782a5f0-430d-11f1-ac78-2112837ce2aa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why has the UAE left Opec - and why does this matter?",
-      "link": "https://www.bbc.com/news/videos/cz92wdvwek8o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Apr 2026",
-      "excerpt": "The United Arab Emirates (UAE) is quitting oil cartel Opec after nearly 60 years of membership.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/809a/live/556ee020-43b4-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "United Arab Emirates to quit oil cartel Opec",
-      "link": "https://www.bbc.com/news/articles/cj4pxwlr52yo?at_medium=RSS&at_campaign=rss",
-      "date": "29 Apr 2026",
-      "excerpt": "The UAE's decision, after nearly 60 years of membership, is seen as a potential death knell for the oil cartel.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d25d/live/b07940f0-4305-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Why Spotify has no button to filter out AI music",
       "link": "https://www.bbc.com/news/articles/cd7jpg4w181o?at_medium=RSS&at_campaign=rss",
       "date": "27 Apr 2026",
       "excerpt": "Music streamer Deezer allows users to filter out AI music, so why does Spotify not offer the same?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbbc/live/df090600-42f4-11f1-ac78-2112837ce2aa.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "A fresh financial crisis may be coming - it won't play out like the last one",
+      "link": "https://www.bbc.com/news/articles/cp3p5l0nyevo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Apr 2026",
+      "excerpt": "Several warning lights are flashing that have some wondering whether we are in the foothills of another financial crisis.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16fb/live/1782a5f0-430d-11f1-ac78-2112837ce2aa.jpg"
     }
   ]
 }
