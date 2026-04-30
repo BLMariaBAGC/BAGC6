@@ -1,5 +1,5 @@
 {
-  "updated": "30 Apr 2026, 18:54 UTC",
+  "updated": "30 Apr 2026, 22:37 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "European businesses cannot quantify the impact of AI on their staff because they are not tracking it",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/30/european-businesses-cannot-quantify-the-impact-of-ai-on-their-staff-because-they-are-not-tracking-it/",
+      "date": "30 Apr 2026",
+      "excerpt": "Businesses in Britain, France and Germany are embracing artificial intelligence. But most struggle to measure its impact properly. Ellie Smith explains how while many firms track business impact of using new technology, they are less able t",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How does a country’s political system affect its incentives to attract foreign investment?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/29/how-does-a-countrys-political-system-affect-its-incentives-to-attract-foreign-investment/",
       "date": "29 Apr 2026",
@@ -263,13 +272,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Modern healthcare is data‑rich but insight‑poor",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/23/modern-healthcare-is-data%e2%80%91rich-but-insight%e2%80%91poor/",
-      "date": "23 Apr 2026",
-      "excerpt": "Why has an abundance of data in healthcare not enabled better outcomes in medicine? Alex Bedenkov argues that healthcare is not short of data but is short of insight that meaningfully shapes decisions, and that this paradox is now difficult",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump to remove whisky tariffs after King's visit",
+      "link": "https://www.bbc.com/news/articles/cjrp3pew2d5o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Apr 2026",
+      "excerpt": "The US president said he would lift restrictions on Scotland's ability to work with the state of Kentucky on whisky and bourbon.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e655/live/847b17c0-44cd-11f1-8de1-593a7bb5acaa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Apple hails 'extraordinary' iPhone demand as boss Tim Cook heads out",
+      "link": "https://www.bbc.com/news/articles/ce8pdk3l4d2o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Apr 2026",
+      "excerpt": "Cook is preparing to bow out after 15 years at the helm and hand over to John Ternus.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df03/live/e08d62b0-44ce-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
@@ -297,24 +315,6 @@
       "date": "30 Apr 2026",
       "excerpt": "The Bank's latest meeting reveals some interesting details on how our finances might be affected due to the Iran war.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed0e/live/6b76a6f0-4495-11f1-b4a4-6ff2bccf200b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options",
-      "link": "https://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Apr 2026",
-      "excerpt": "Axios reported that US Central Command has prepared a plan for a wave of \"short and powerful\" strikes on Iran.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f095/live/e9ca4ae0-442a-11f1-84a0-55946b952877.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Premier Inn owner to cut 3,800 jobs in savings plan",
-      "link": "https://www.bbc.com/news/articles/c5ye5g9m7mpo?at_medium=RSS&at_campaign=rss",
-      "date": "30 Apr 2026",
-      "excerpt": "Whitbread says it will also remodel its 197 hotel restaurants as part of a five-year savings plan.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b1/live/ee0d0030-4483-11f1-bd52-e755d604ece4.jpg"
     },
     {
       "source": "BBC Business",
