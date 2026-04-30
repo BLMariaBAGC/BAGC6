@@ -1,6 +1,24 @@
 {
-  "updated": "29 Apr 2026, 23:13 UTC",
+  "updated": "30 Apr 2026, 07:54 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This AI knew the answers but didn’t understand the questions",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260429102035.htm",
+      "date": "30 Apr 2026",
+      "excerpt": "For decades, psychologists have debated whether the human mind can be explained by one unified theory or must be broken into separate parts like memory and attention. A recent AI model called Centaur seemed to offer a breakthrough, claiming",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A hidden map in your nose could explain how smell works",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260429102025.htm",
+      "date": "30 Apr 2026",
+      "excerpt": "Scientists have finally cracked one of the biggest mysteries in the senses: how smell is organized. By mapping millions of neurons in mice, researchers discovered that smell receptors in the nose aren’t random at all—they’re arranged in nea",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/04/260425091216.htm",
       "date": "25 Apr 2026",
       "excerpt": "A gut bacterium may be quietly fueling depression through an unexpected chemical twist. Researchers found that when Morganella morganii interacts with a common pollutant, it produces a molecule that triggers inflammation—something strongly ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "For the first time, scientists pinpoint the brain cells behind depression",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260423022010.htm",
-      "date": "23 Apr 2026",
-      "excerpt": "Scientists have identified two specific types of brain cells that behave differently in people with depression, offering a clearer picture of what is happening inside the brain. By analyzing donated brain tissue with advanced genetic tools,",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "These 80-year-olds have the memory of 50-year-olds. Scientists now know why",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260423022006.htm",
-      "date": "23 Apr 2026",
-      "excerpt": "A rare group of adults over 80, known as SuperAgers, are rewriting what we thought was possible for the aging brain. With memory abilities comparable to people decades younger, their brains either resist or withstand the damage typically li",
       "image": ""
     },
     {
@@ -274,6 +274,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Oil jumps to highest price since 2022 after report Trump to be briefed on new Iran options",
+      "link": "https://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Apr 2026",
+      "excerpt": "Axios reported that US Central Command has prepared a plan for a wave of \"short and powerful\" strikes on Iran.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f095/live/e9ca4ae0-442a-11f1-84a0-55946b952877.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Interest rates expected to be held as uncertainty over Iran war continues",
       "link": "https://www.bbc.com/news/articles/cg7p89mp2rjo?at_medium=RSS&at_campaign=rss",
       "date": "29 Apr 2026",
@@ -283,11 +292,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Big US tech stocks swing as investors probe AI spend",
+      "title": "Meta shares slide as plan to spend billions more on AI spooks investors",
       "link": "https://www.bbc.com/news/articles/crkpd4r2y7eo?at_medium=RSS&at_campaign=rss",
+      "date": "30 Apr 2026",
+      "excerpt": "Other tech giants Alphabet, Microsoft and Amazon also reported quarterly earnings on Wednesday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ec7/live/6a0f52c0-4469-11f1-97e2-ede52d59c1ad.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Musk accuses OpenAI lawyer of trying to 'trick' him in combative testimony",
+      "link": "https://www.bbc.com/news/articles/czj29yygyzgo?at_medium=RSS&at_campaign=rss",
       "date": "29 Apr 2026",
-      "excerpt": "Meta, Amazon, Alphabet, and Microsoft all reported their financial performance at the same time on Wednesday",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6a0/live/137a2f70-43f1-11f1-9113-1988573e8ff7.jpg"
+      "excerpt": "Elon Musk was cross-examined on the third day of the trial over his lawsuit against Sam Altman and OpenAI.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76bf/live/66a898a0-43db-11f1-a133-a9dbeae5d5f3.jpg"
     },
     {
       "source": "BBC Business",
@@ -297,24 +315,6 @@
       "date": "29 Apr 2026",
       "excerpt": "Powell's news conference after holding rates covered the US-Israel war with Iran, inflation, legal attacks, and the Fed's independence.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dfd7/live/ddeb2720-43ea-11f1-9113-1988573e8ff7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil price rises above $120 after reports of 'extended' Iran blockade",
-      "link": "https://www.bbc.com/news/articles/cj4pxr0gr02o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Apr 2026",
-      "excerpt": "The price of crude oil has swung sharply as uncertainty over the war in the Middle East continues.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2891/live/ab550cf0-43b7-11f1-a5aa-c74cdbf526ae.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "A son overlooked and a jailed tycoon: Inside Samsung's succession drama",
-      "link": "https://www.bbc.com/news/articles/c9d313g91g4o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Apr 2026",
-      "excerpt": "The family dynasty behind Samsung is so complicated it regularly makes headline news in South Korea.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/733a/live/0970f1e0-4369-11f1-bd5c-f7e837bf2c66.jpg"
     },
     {
       "source": "BBC Business",
