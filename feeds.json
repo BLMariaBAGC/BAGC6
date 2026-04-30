@@ -1,6 +1,15 @@
 {
-  "updated": "30 Apr 2026, 07:54 UTC",
+  "updated": "30 Apr 2026, 13:09 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists restore memory by blocking a single Alzheimer’s protein",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260429102037.htm",
+      "date": "30 Apr 2026",
+      "excerpt": "Researchers have identified a new potential weapon against Alzheimer’s: blocking a protein called PTP1B. In mice, this approach boosted memory and helped brain immune cells clear harmful plaque buildup. Since PTP1B is also linked to diabete",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,85 +74,13 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Harvard scientists link gut bacteria to depression through hidden inflammation trigger",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260425091216.htm",
-      "date": "25 Apr 2026",
-      "excerpt": "A gut bacterium may be quietly fueling depression through an unexpected chemical twist. Researchers found that when Morganella morganii interacts with a common pollutant, it produces a molecule that triggers inflammation—something strongly ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Empathetic Leadership Can Make or Break AI Adoption",
+      "link": "https://hbr.org/2026/04/empathetic-leadership-can-make-or-break-ai-adoption",
+      "date": "30 Apr 2026",
+      "excerpt": "It reduces employee resistance, improves learning, and accelerates impact.",
       "image": ""
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Your Brain “Dreams” Even When You’re Awake",
-      "link": "https://neurosciencenews.com/dream-continuum-wake-sleep-consciousness-30637/",
-      "date": "29 Apr 2026",
-      "excerpt": "Researchers have identified four distinct mental states that occur regardless of whether we are asleep or awake, revealing a \"neural fingerprint\" for bizarre, dream-like thoughts that can surface even in the middle of the day.",
-      "image": "https://neurosciencenews.com/files/2026/04/daydreaming-wake-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Mapping the Brain’s Hidden Hub for Creative Thought",
-      "link": "https://neurosciencenews.com/rostral-prefrontal-cortex-creativity-30636/",
-      "date": "29 Apr 2026",
-      "excerpt": "Scientists have mapped a functional gradient in the rostral prefrontal cortex that connects our spontaneous \"daydreaming\" mind with our \"logical\" executive control.",
-      "image": "https://neurosciencenews.com/files/2026/04/creativity-hub-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "“Warm” AI Chatbots Are More Likely to Lie",
-      "link": "https://neurosciencenews.com/chatbots-factual-accuracy-sycophancy-30635/",
-      "date": "29 Apr 2026",
-      "excerpt": "We all want an AI that feels like a friend, but new research suggests that \"kindness\" in AI might be a major red flag for \"truth.\"",
-      "image": "https://neurosciencenews.com/files/2026/04/warm-chatbot-lie-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Tug-of-War of Life: Fertilized Eggs Keep Two Separate Nuclei",
-      "link": "https://neurosciencenews.com/zygote-pronuclei-separation-genetics-30632/",
-      "date": "29 Apr 2026",
-      "excerpt": "Why don't sperm and egg nuclei fuse right away? New research reveals a \"tug-of-war\" for growth factors that protects the embryo’s epigenetic blueprint.",
-      "image": "https://neurosciencenews.com/files/2026/04/zygote-nucleus-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "AI Uncovers a Hidden “Grammar” in DNA Packaging",
-      "link": "https://neurosciencenews.com/ai-nucleosome-dna-30631/",
-      "date": "29 Apr 2026",
-      "excerpt": "Researchers have discovered a new \"organizational code\" for the genome, showing that most DNA is partially accessible even when wrapped up.",
-      "image": "https://neurosciencenews.com/files/2026/04/non-cellular-genetics-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Sympathetic Nerves Found to Slow Melanoma Growth",
-      "link": "https://neurosciencenews.com/melanoma-sympathetic-nerves-cancer-20630/",
-      "date": "29 Apr 2026",
-      "excerpt": "A new study reveals a \"brake\" on cancer growth: sympathetic nerves inhibit melanoma by reducing pro-tumor macrophages.",
-      "image": "https://neurosciencenews.com/files/2026/04/sns-cancer-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "How a Brainless Organism Learns Using Neuron-Like Machinery",
-      "link": "https://neurosciencenews.com/single-cell-learning-camkii-30629/",
-      "date": "29 Apr 2026",
-      "excerpt": "Brainless but brilliant: New study reveals how a giant single-celled organism uses neuron-like molecular machinery to learn and remember.",
-      "image": "https://neurosciencenews.com/files/2026/04/brainless-organism-learning-neurosciene-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "AI Found the Key to Pre-Symptom Alzheimer’s",
-      "link": "https://neurosciencenews.com/fingers-7b-alzheimers-ai-model-30629/",
-      "date": "28 Apr 2026",
-      "excerpt": "FINGERS-7B, presented at ICLR 2026, uses \"biological fingerprints\" to identify preclinical Alzheimer's a decade before symptoms appear.",
-      "image": "https://neurosciencenews.com/files/2026/04/alzheimers-al-brain-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -209,12 +146,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Where the U.S.’s Chip Strategy Is Still Falling Short",
-      "link": "https://hbr.org/2026/04/where-the-u-s-s-chip-strategy-is-still-falling-short",
-      "date": "28 Apr 2026",
-      "excerpt": "Critical back-end processes remain concentrated in Asia. These three steps can help bring them to the United States.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "European businesses cannot quantify the impact of AI on their staff because they are not tracking it",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/30/european-businesses-cannot-quantify-the-impact-of-ai-on-their-staff-because-they-are-not-tracking-it/",
+      "date": "30 Apr 2026",
+      "excerpt": "Businesses in Britain, France and Germany are embracing artificial intelligence. But most struggle to measure its impact properly. Ellie Smith explains how while many firms track business impact of using new technology, they are less able t",
       "image": ""
     },
     {
@@ -263,18 +200,9 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Modern healthcare is data‑rich but insight‑poor",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/23/modern-healthcare-is-data%e2%80%91rich-but-insight%e2%80%91poor/",
-      "date": "23 Apr 2026",
-      "excerpt": "Why has an abundance of data in healthcare not enabled better outcomes in medicine? Alex Bedenkov argues that healthcare is not short of data but is short of insight that meaningfully shapes decisions, and that this paradox is now difficult",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil jumps to highest price since 2022 after report Trump to be briefed on new Iran options",
+      "title": "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options",
       "link": "https://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&at_campaign=rss",
       "date": "30 Apr 2026",
       "excerpt": "Axios reported that US Central Command has prepared a plan for a wave of \"short and powerful\" strikes on Iran.",
@@ -283,38 +211,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Interest rates expected to be held as uncertainty over Iran war continues",
-      "link": "https://www.bbc.com/news/articles/cg7p89mp2rjo?at_medium=RSS&at_campaign=rss",
-      "date": "29 Apr 2026",
-      "excerpt": "Future base rate changes are hard to predict as analysts judge the economic impact of the Iran war.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bbe/live/b1192200-43d7-11f1-a133-a9dbeae5d5f3.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Meta shares slide as plan to spend billions more on AI spooks investors",
-      "link": "https://www.bbc.com/news/articles/crkpd4r2y7eo?at_medium=RSS&at_campaign=rss",
+      "title": "Premier Inn owner to cut 3,800 jobs in savings plan",
+      "link": "https://www.bbc.com/news/articles/c5ye5g9m7mpo?at_medium=RSS&at_campaign=rss",
       "date": "30 Apr 2026",
-      "excerpt": "Other tech giants Alphabet, Microsoft and Amazon also reported quarterly earnings on Wednesday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ec7/live/6a0f52c0-4469-11f1-97e2-ede52d59c1ad.jpg"
+      "excerpt": "Whitbread says it will also remodel its 197 hotel restaurants as part of a five-year savings plan.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b1/live/ee0d0030-4483-11f1-bd52-e755d604ece4.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Musk accuses OpenAI lawyer of trying to 'trick' him in combative testimony",
-      "link": "https://www.bbc.com/news/articles/czj29yygyzgo?at_medium=RSS&at_campaign=rss",
-      "date": "29 Apr 2026",
-      "excerpt": "Elon Musk was cross-examined on the third day of the trial over his lawsuit against Sam Altman and OpenAI.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76bf/live/66a898a0-43db-11f1-a133-a9dbeae5d5f3.jpg"
+      "title": "Meta in row after workers who say they saw smart glasses users having sex lose jobs",
+      "link": "https://www.bbc.com/news/articles/c5y7yvgy0w6o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Apr 2026",
+      "excerpt": "Meta and its subcontractor disagree over why over 1000 Kenya-based workers were made redundant.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6037/live/f8d385c0-4307-11f1-8d32-27ce5a537ca2.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Four key takeaways from Jerome Powell's final rate decision as Fed chair",
-      "link": "https://www.bbc.com/news/articles/c62rm4zk3kgo?at_medium=RSS&at_campaign=rss",
-      "date": "29 Apr 2026",
-      "excerpt": "Powell's news conference after holding rates covered the US-Israel war with Iran, inflation, legal attacks, and the Fed's independence.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dfd7/live/ddeb2720-43ea-11f1-9113-1988573e8ff7.jpg"
+      "title": "'We will kill you and burn your house': Council staff under attack from High Street gangs",
+      "link": "https://www.bbc.com/news/articles/cdxplq92rx1o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Apr 2026",
+      "excerpt": "Dozens of Trading Standards officers describe intimidation from criminals running mini-marts and vape shops.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9fb/live/ec24e4c0-430e-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
@@ -324,6 +243,15 @@
       "date": "29 Apr 2026",
       "excerpt": "Marine farmer Suzie Flores also hopes the crop can revitalise the US's small fishing towns.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/25f3/live/444862c0-42e3-11f1-b55d-0f258dce1735.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Meta shares slide as plan to spend billions more on AI spooks investors",
+      "link": "https://www.bbc.com/news/articles/crkpd4r2y7eo?at_medium=RSS&at_campaign=rss",
+      "date": "30 Apr 2026",
+      "excerpt": "Other tech giants Alphabet, Microsoft and Amazon also reported quarterly earnings on Wednesday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/290b/live/2b798220-4472-11f1-b545-b533bcf4cad2.jpg"
     }
   ]
 }
