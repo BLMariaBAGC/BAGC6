@@ -1,5 +1,5 @@
 {
-  "updated": "01 May 2026, 16:56 UTC",
+  "updated": "01 May 2026, 19:09 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How Executives Should Deal with Heightened Security Risk",
+      "link": "https://hbr.org/2026/05/agenda-4-30",
+      "date": "1 May 2026",
+      "excerpt": "Staying safe is about more than bringing in armed bodyguards, says Jack Zahran, CEO of Pinkerton.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Research: For Women on Boards, Prestige Can Be a Bottleneck",
       "link": "https://hbr.org/2026/05/research-for-women-on-boards-prestige-can-be-a-bottleneck",
       "date": "1 May 2026",
@@ -206,15 +215,6 @@
       "link": "https://hbr.org/2026/04/how-to-nail-your-next-media-interview",
       "date": "29 Apr 2026",
       "excerpt": "Public-facing interviews can build or break trust with your stakeholders.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Build Your Resilience in the Face of Tough Change",
-      "link": "https://hbr.org/podcast/2026/04/build-your-resilience-in-the-face-of-tough-change",
-      "date": "29 Apr 2026",
-      "excerpt": "A conversation with cognitive scientist Maya Shankar on how leaders can better react, reframe, and adapt to personal and professional upheaval.",
       "image": ""
     },
     {
