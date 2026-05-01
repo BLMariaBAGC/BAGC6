@@ -1,5 +1,5 @@
 {
-  "updated": "01 May 2026, 20:51 UTC",
+  "updated": "01 May 2026, 22:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -283,6 +283,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Pentagon says US military to be an 'AI-first' fighting force",
+      "link": "https://www.bbc.com/news/articles/cy02gjq2987o?at_medium=RSS&at_campaign=rss",
+      "date": "1 May 2026",
+      "excerpt": "The US military has agreed eight new contracts with big tech firms as it expands its artificial intelligence capabilities.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cea0/live/29be13d0-45a1-11f1-8f01-030759c40642.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Mortgages, jobs and energy bills - how the Iran war will affect your money",
+      "link": "https://www.bbc.com/news/articles/cg4pqe1zzgqo?at_medium=RSS&at_campaign=rss",
+      "date": "1 May 2026",
+      "excerpt": "The Bank of England's latest report reveals some interesting details on how our finances will be affected due to the Iran war.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed0e/live/6b76a6f0-4495-11f1-b4a4-6ff2bccf200b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The Real Greek rescued by Cote Brasserie-owner",
       "link": "https://www.bbc.com/news/articles/c93xqnlq33qo?at_medium=RSS&at_campaign=rss",
       "date": "1 May 2026",
@@ -297,24 +315,6 @@
       "date": "1 May 2026",
       "excerpt": "People should stop using the products immediately and keep out of the reach of children, the government says.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e989/live/658f06a0-456d-11f1-b55d-0f258dce1735.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "No evidence of widespread fuel price-gouging, watchdog says",
-      "link": "https://www.bbc.com/news/articles/c62djjj0z09o?at_medium=RSS&at_campaign=rss",
-      "date": "1 May 2026",
-      "excerpt": "Profit margins were \"broadly unchanged\" between February and March, the UK's competition watchdog says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/affa/live/ed749810-4544-11f1-8ea3-630273c214ab.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Billions of meals at risk due to Iran war, says fertiliser boss",
-      "link": "https://www.bbc.com/news/articles/cpwp50v4ye7o?at_medium=RSS&at_campaign=rss",
-      "date": "1 May 2026",
-      "excerpt": "A shortage of fertiliser due to the Iran conflict could reduce crop yields and push prices higher, says the boss of Yara.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/482b/live/452587b0-4525-11f1-bd52-e755d604ece4.jpg"
     },
     {
       "source": "BBC Business",
