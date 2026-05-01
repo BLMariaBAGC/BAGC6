@@ -1,5 +1,5 @@
 {
-  "updated": "01 May 2026, 19:09 UTC",
+  "updated": "01 May 2026, 20:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "How Scientists Cracked the Ketamine Code for Depression",
+      "link": "https://neurosciencenews.com/ketamine-antidepressant-mechanism-30640/",
+      "date": "1 May 2026",
+      "excerpt": "By \"reverse engineering\" ketamine, Weill Cornell investigators have identified a specific opioid receptor pathway and a unique receptor \"cross-talk\" that drives rapid antidepressant effects.",
+      "image": "https://neurosciencenews.com/files/2026/05/ketamine-mechanism-depression-neurosciene-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Brain Prioritizes “Sound Offsets” During Hearing Repair",
       "link": "https://neurosciencenews.com/auditory-repair-noise-damage-30639/",
       "date": "30 Apr 2026",
@@ -135,15 +144,6 @@
       "date": "29 Apr 2026",
       "excerpt": "Researchers have discovered a new \"organizational code\" for the genome, showing that most DNA is partially accessible even when wrapped up.",
       "image": "https://neurosciencenews.com/files/2026/04/non-cellular-genetics-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Sympathetic Nerves Found to Slow Melanoma Growth",
-      "link": "https://neurosciencenews.com/melanoma-sympathetic-nerves-cancer-20630/",
-      "date": "29 Apr 2026",
-      "excerpt": "A new study reveals a \"brake\" on cancer growth: sympathetic nerves inhibit melanoma by reducing pro-tumor macrophages.",
-      "image": "https://neurosciencenews.com/files/2026/04/sns-cancer-neurosceince-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
