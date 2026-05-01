@@ -1,5 +1,5 @@
 {
-  "updated": "01 May 2026, 15:35 UTC",
+  "updated": "01 May 2026, 16:56 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,10 +274,19 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The Real Greek restaurant chain on brink of collapse",
+      "title": "Trump says he will hike tariffs on EU cars to 25%",
+      "link": "https://www.bbc.com/news/articles/c4g8zpylzz9o?at_medium=RSS&at_campaign=rss",
+      "date": "1 May 2026",
+      "excerpt": "The current level of tariffs charged on goods entering the US from the EU is 15%, under a deal negotiated last July.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bef/live/f58ee210-4578-11f1-86ec-5992fe9627d8.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "The Real Greek rescued by Cote Brasserie-owner",
       "link": "https://www.bbc.com/news/articles/c93xqnlq33qo?at_medium=RSS&at_campaign=rss",
       "date": "1 May 2026",
-      "excerpt": "The 28-strong Mediterranean-styled restaurant chain is facing unsustainable cost pressures, its owners say.",
+      "excerpt": "All but nine of the Mediterranean chain's 28 outlets are being taken over by the family-owned Karali group.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8b5/live/3d482cf0-4570-11f1-b2fe-073887f0633b.jpg"
     },
     {
@@ -306,15 +315,6 @@
       "date": "1 May 2026",
       "excerpt": "A shortage of fertiliser due to the Iran conflict could reduce crop yields and push prices higher, says the boss of Yara.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/482b/live/452587b0-4525-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'There were letters I didn't want to open': Rise in unpaid debt court cases",
-      "link": "https://www.bbc.com/news/articles/cwy2ldl1k7do?at_medium=RSS&at_campaign=rss",
-      "date": "30 Apr 2026",
-      "excerpt": "The number of county court judgements rose by 17.5% in the first quarter of this year compared to last, data suggests.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5938/live/c471ab80-44b1-11f1-b55d-0f258dce1735.png"
     },
     {
       "source": "BBC Business",
