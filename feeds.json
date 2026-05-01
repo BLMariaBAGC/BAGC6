@@ -1,5 +1,5 @@
 {
-  "updated": "01 May 2026, 11:42 UTC",
+  "updated": "01 May 2026, 15:35 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Research: For Women on Boards, Prestige Can Be a Bottleneck",
+      "link": "https://hbr.org/2026/05/research-for-women-on-boards-prestige-can-be-a-bottleneck",
+      "date": "1 May 2026",
+      "excerpt": "A study of nearly 2,000 FTSE-100 board directors reveals a striking paradox.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Psychological Costs of Adopting AI",
+      "link": "https://hbr.org/2026/05/the-psychological-costs-of-adopting-ai",
+      "date": "1 May 2026",
+      "excerpt": "And how to mitigate them.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How to Move from AI Experimentation to AI Transformation",
       "link": "https://hbr.org/2026/04/how-to-move-from-ai-experimentation-to-ai-transformation",
       "date": "30 Apr 2026",
@@ -200,21 +218,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "U.S. Medical Centers Need a New Model for Drug Discovery and Development",
-      "link": "https://hbr.org/2026/04/u-s-medical-centers-need-a-new-model-for-drug-discovery-and-development",
-      "date": "28 Apr 2026",
-      "excerpt": "China&#8217;s faster, more efficient model is forcing U.S. competitors to rethink how they innovate.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Your Team Won’t Speak Up (And How to Fix It)",
-      "link": "https://hbr.org/podcast/2026/04/why-your-team-wont-speak-up-and-how-to-fix-it",
-      "date": "28 Apr 2026",
-      "excerpt": "A conversation with author Charles Duhigg about creating an open culture.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "“Becoming Nature Positive” is a documentary about the great choice of our time",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/01/becoming-nature-positive-is-a-documentary-about-the-great-choice-of-our-time/",
+      "date": "1 May 2026",
+      "excerpt": "Ahead of a screening at LSE Marco Lambertini, executive director of the film and Convener of the Nature Positive Initiative, explains the critical choice humanity must make. Everyone has a role to play in becoming nature positive. But becau",
       "image": ""
     },
     {
@@ -263,13 +272,22 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/figure_1_LSEblog-1024x640.png"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Why record auction prices and a cautious art market are not contradictory",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/24/why-record-auction-prices-and-a-cautious-art-market-are-not-contradictory/",
-      "date": "24 Apr 2026",
-      "excerpt": "Record prices do not always reflect a confident art market. Strong auction headlines can coexist with a weak underlying market because tighter money changes both prices and what reaches the block. Ziwen Chen explains why, when studying the ",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "The Real Greek restaurant chain on brink of collapse",
+      "link": "https://www.bbc.com/news/articles/c93xqnlq33qo?at_medium=RSS&at_campaign=rss",
+      "date": "1 May 2026",
+      "excerpt": "The 28-strong Mediterranean-styled restaurant chain is facing unsustainable cost pressures, its owners say.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8b5/live/3d482cf0-4570-11f1-b2fe-073887f0633b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Crayola toys recalled over possible asbestos contamination",
+      "link": "https://www.bbc.com/news/articles/cdjp3dlkzwwo?at_medium=RSS&at_campaign=rss",
+      "date": "1 May 2026",
+      "excerpt": "People should stop using the products immediately and keep out of the reach of children, the government says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e989/live/658f06a0-456d-11f1-b55d-0f258dce1735.png"
     },
     {
       "source": "BBC Business",
@@ -297,24 +315,6 @@
       "date": "30 Apr 2026",
       "excerpt": "The number of county court judgements rose by 17.5% in the first quarter of this year compared to last, data suggests.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5938/live/c471ab80-44b1-11f1-b55d-0f258dce1735.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Apple says iPhone 17 'most popular ever' as sales soar",
-      "link": "https://www.bbc.com/news/articles/ce8pdk3l4d2o?at_medium=RSS&at_campaign=rss",
-      "date": "1 May 2026",
-      "excerpt": "The record results come as boss Tim Cook is preparing to bow out after 15 years at the helm.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df03/live/e08d62b0-44ce-11f1-ac78-2112837ce2aa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What the Renters' Rights Act means for tenants and landlords",
-      "link": "https://www.bbc.com/news/articles/cqjwqp72y7ro?at_medium=RSS&at_campaign=rss",
-      "date": "30 Apr 2026",
-      "excerpt": "The biggest shake up of renting rules in England for 30 years affects millions of people.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0cd4/live/e9fb3840-b356-11f0-ad84-99ce12c6004d.png"
     },
     {
       "source": "BBC Business",
