@@ -1,5 +1,5 @@
 {
-  "updated": "02 May 2026, 20:40 UTC",
+  "updated": "02 May 2026, 22:39 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Airlines can cancel flights in advance over fuel shortages, under new plans",
+      "link": "https://www.bbc.com/news/articles/c794zd1vqn4o?at_medium=RSS&at_campaign=rss",
+      "date": "2 May 2026",
+      "excerpt": "Ministers hope move would help avoid last-minute flight cancellations for passengers this summer over Middle East fuel supplies.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/789b/live/f0ccbee0-4664-11f1-bd52-e755d604ece4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Spirit Airlines shutting down after rescue talks collapse",
       "link": "https://www.bbc.com/news/articles/cqxlnrqjvzyo?at_medium=RSS&at_campaign=rss",
       "date": "2 May 2026",
@@ -306,15 +315,6 @@
       "date": "1 May 2026",
       "excerpt": "The US military has agreed eight new contracts with big tech firms as it expands its artificial intelligence capabilities.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cea0/live/29be13d0-45a1-11f1-8f01-030759c40642.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The Real Greek rescued by Cote Brasserie-owner",
-      "link": "https://www.bbc.com/news/articles/c93xqnlq33qo?at_medium=RSS&at_campaign=rss",
-      "date": "1 May 2026",
-      "excerpt": "All but nine of the Mediterranean chain's 28 outlets are being taken over by the family-owned Karali group.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8b5/live/3d482cf0-4570-11f1-b2fe-073887f0633b.jpg"
     },
     {
       "source": "BBC Business",
