@@ -1,5 +1,5 @@
 {
-  "updated": "02 May 2026, 10:50 UTC",
+  "updated": "02 May 2026, 13:07 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,15 +274,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump says he will hike tariffs on EU cars to 25%",
-      "link": "https://www.bbc.com/news/articles/c4g8zpylzz9o?at_medium=RSS&at_campaign=rss",
-      "date": "1 May 2026",
-      "excerpt": "The current level of tariffs charged on goods entering the US from the EU is 15%, under a deal negotiated last July.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bef/live/f58ee210-4578-11f1-86ec-5992fe9627d8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Spirit Airlines shutting down after rescue talks collapse",
       "link": "https://www.bbc.com/news/articles/cqxlnrqjvzyo?at_medium=RSS&at_campaign=rss",
       "date": "2 May 2026",
@@ -292,11 +283,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Pentagon says US military to be an 'AI-first' fighting force",
-      "link": "https://www.bbc.com/news/articles/cy02gjq2987o?at_medium=RSS&at_campaign=rss",
+      "title": "Trump says he will hike tariffs on EU cars to 25%",
+      "link": "https://www.bbc.com/news/articles/c4g8zpylzz9o?at_medium=RSS&at_campaign=rss",
       "date": "1 May 2026",
-      "excerpt": "The US military has agreed eight new contracts with big tech firms as it expands its artificial intelligence capabilities.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cea0/live/29be13d0-45a1-11f1-8f01-030759c40642.jpg"
+      "excerpt": "The current level of tariffs charged on goods entering the US from the EU is 15%, under a deal negotiated last July.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bef/live/f58ee210-4578-11f1-86ec-5992fe9627d8.jpg"
     },
     {
       "source": "BBC Business",
@@ -310,6 +301,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Pentagon says US military to be an 'AI-first' fighting force",
+      "link": "https://www.bbc.com/news/articles/cy02gjq2987o?at_medium=RSS&at_campaign=rss",
+      "date": "1 May 2026",
+      "excerpt": "The US military has agreed eight new contracts with big tech firms as it expands its artificial intelligence capabilities.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cea0/live/29be13d0-45a1-11f1-8f01-030759c40642.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The Real Greek rescued by Cote Brasserie-owner",
       "link": "https://www.bbc.com/news/articles/c93xqnlq33qo?at_medium=RSS&at_campaign=rss",
       "date": "1 May 2026",
@@ -319,11 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Crayola toys recalled over possible asbestos contamination",
-      "link": "https://www.bbc.com/news/articles/cdjp3dlkzwwo?at_medium=RSS&at_campaign=rss",
-      "date": "1 May 2026",
-      "excerpt": "People should stop using the products immediately and keep out of the reach of children, the government says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e989/live/658f06a0-456d-11f1-b55d-0f258dce1735.png"
+      "title": "Will AI lead to more accurate opinion polls?",
+      "link": "https://www.bbc.com/news/articles/cwyw6rylzepo?at_medium=RSS&at_campaign=rss",
+      "date": "30 Apr 2026",
+      "excerpt": "It's cheaper and faster to collect people's opinions using AI, but will it make polls more accurate?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a7fa/live/645fc940-3726-11f1-9d5c-8ba507d7dbde.jpg"
     }
   ]
 }
