@@ -1,5 +1,5 @@
 {
-  "updated": "03 May 2026, 14:47 UTC",
+  "updated": "03 May 2026, 16:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,24 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260502233922.htm",
       "date": "3 May 2026",
       "excerpt": "A new analysis of the “Boltzmann brain” paradox suggests our memories and sense of reality could, in theory, be random illusions born from cosmic chaos. By uncovering circular reasoning in how physicists think about time and entropy, the st",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists just discovered what coffee is really doing to your gut and brain",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260502233911.htm",
+      "date": "3 May 2026",
+      "excerpt": "Coffee doesn’t just energize—it actively reshapes the gut and mind. Researchers found that both caffeinated and decaf coffee altered gut bacteria in ways linked to better mood and lower stress. Decaf even improved learning and memory, while",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "The creepy feeling in old buildings might have a surprising cause",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260502233901.htm",
+      "date": "3 May 2026",
+      "excerpt": "A hidden force may be quietly shaping how you feel—and you’d never even know it. Infrasound, an ultra-low-frequency vibration below the range of human hearing, is everywhere from traffic to old buildings. In a small experiment, people expos",
       "image": ""
     },
     {
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/04/260429102035.htm",
       "date": "30 Apr 2026",
       "excerpt": "For decades, psychologists have debated whether the human mind can be explained by one unified theory or must be broken into separate parts like memory and attention. A recent AI model called Centaur seemed to offer a breakthrough, claiming",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A hidden map in your nose could explain how smell works",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260429102025.htm",
-      "date": "30 Apr 2026",
-      "excerpt": "Scientists have finally cracked one of the biggest mysteries in the senses: how smell is organized. By mapping millions of neurons in mice, researchers discovered that smell receptors in the nose aren’t random at all—they’re arranged in nea",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "MIT scientists turn chaotic laser light into powerful brain imaging tool",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260428045542.htm",
-      "date": "28 Apr 2026",
-      "excerpt": "Scientists at MIT discovered that chaotic laser light can spontaneously form a highly focused beam instead of scattering—if the conditions are just right. This “pencil beam” enabled them to image the blood-brain barrier in 3D at speeds 25 t",
       "image": ""
     },
     {
