@@ -1,5 +1,5 @@
 {
-  "updated": "03 May 2026, 09:20 UTC",
+  "updated": "03 May 2026, 10:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -283,6 +283,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Struggling High Streets fuel sense of neglect for voters ahead of local elections",
+      "link": "https://www.bbc.com/news/articles/crl1l6g9264o?at_medium=RSS&at_campaign=rss",
+      "date": "3 May 2026",
+      "excerpt": "Failing High Streets fuel a wider sense of political discontent which could prove crucial in the upcoming elections for English councils in May.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e785/live/d7f27c20-454c-11f1-a4b0-8306ec2ff5e9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Spirit Airlines shutting down after rescue talks collapse",
       "link": "https://www.bbc.com/news/articles/cqxlnrqjvzyo?at_medium=RSS&at_campaign=rss",
       "date": "2 May 2026",
@@ -294,7 +303,7 @@
       "feedId": "bbc",
       "title": "Voters will judge Trump on the economy - how is it doing?",
       "link": "https://www.bbc.com/news/articles/cgepyv20vrpo?at_medium=RSS&at_campaign=rss",
-      "date": "2 May 2026",
+      "date": "3 May 2026",
       "excerpt": "How much Donald Trump can do with the time he has left as president will depend massively on the cost of living.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7849/live/7ebe8ee0-44d0-11f1-8de1-593a7bb5acaa.jpg"
     },
@@ -306,15 +315,6 @@
       "date": "1 May 2026",
       "excerpt": "The current level of tariffs charged on goods entering the US from the EU is 15%, under a deal negotiated last July.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bef/live/f58ee210-4578-11f1-86ec-5992fe9627d8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Mortgages, jobs and energy bills - how the Iran war will affect your money",
-      "link": "https://www.bbc.com/news/articles/cg4pqe1zzgqo?at_medium=RSS&at_campaign=rss",
-      "date": "1 May 2026",
-      "excerpt": "The Bank of England's latest report reveals some interesting details on how our finances will be affected due to the Iran war.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed0e/live/6b76a6f0-4495-11f1-b4a4-6ff2bccf200b.jpg"
     },
     {
       "source": "BBC Business",
