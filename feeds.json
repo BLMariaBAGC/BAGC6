@@ -1,6 +1,15 @@
 {
-  "updated": "03 May 2026, 13:06 UTC",
+  "updated": "03 May 2026, 14:47 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Are your memories real? Physicists revisit the Boltzmann brain paradox",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260502233922.htm",
+      "date": "3 May 2026",
+      "excerpt": "A new analysis of the “Boltzmann brain” paradox suggests our memories and sense of reality could, in theory, be random illusions born from cosmic chaos. By uncovering circular reasoning in how physicists think about time and entropy, the st",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +17,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260502013550.htm",
       "date": "2 May 2026",
       "excerpt": "Scientists have discovered a way to help the brain clean itself of harmful Alzheimer’s plaques by activating its own support cells. By increasing a protein called Sox9, researchers were able to boost the activity of astrocytes, star shaped ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists found the brain doesn’t start blank, it starts full",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260501052842.htm",
+      "date": "3 May 2026",
+      "excerpt": "The brain’s memory center may begin life more like a crowded web than an empty canvas. Researchers discovered that early neural networks in the hippocampus are dense and seemingly random, then become more organized by shedding connections o",
       "image": ""
     },
     {
@@ -56,22 +74,76 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your dreams aren’t random. Here’s what’s really happening",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260428045538.htm",
-      "date": "28 Apr 2026",
-      "excerpt": "Dreams are more structured than they seem, shaped by both personal traits and real-world experiences. Researchers found that the brain doesn’t just replay daily life—it reshapes it into imaginative, sometimes surreal scenarios. People who m",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How Scientists Cracked the Ketamine Code for Depression",
+      "link": "https://neurosciencenews.com/ketamine-antidepressant-mechanism-30640/",
+      "date": "1 May 2026",
+      "excerpt": "By \"reverse engineering\" ketamine, Weill Cornell investigators have identified a specific opioid receptor pathway and a unique receptor \"cross-talk\" that drives rapid antidepressant effects.",
+      "image": "https://neurosciencenews.com/files/2026/05/ketamine-mechanism-depression-neurosciene-1155x770.jpg"
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This hidden kind of stress may be damaging your memory as you age",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260427050626.htm",
-      "date": "27 Apr 2026",
-      "excerpt": "A new study reveals that internalizing stress—especially feelings of hopelessness—may significantly speed up memory decline in older Chinese Americans. Surprisingly, factors like community support didn’t show the same impact. Researchers sa",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Prioritizes “Sound Offsets” During Hearing Repair",
+      "link": "https://neurosciencenews.com/auditory-repair-noise-damage-30639/",
+      "date": "30 Apr 2026",
+      "excerpt": "Researchers have discovered that within just 24 hours of noise-induced hearing damage, the brainstem reorganizes its inhibitory circuits to restore \"sound offset\" signals, the critical markers that tell us when a sound has ended.",
+      "image": "https://neurosciencenews.com/files/2026/04/hearing-repair-noise-pollutio-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Glucose Levels Signal the Growth of Myelin",
+      "link": "https://neurosciencenews.com/glucose-metabolism-myelin-development-30638/",
+      "date": "30 Apr 2026",
+      "excerpt": "Researchers discover that local glucose levels act as a signal that determines when stem cells mature into myelin-producing oligodendrocytes.",
+      "image": "https://neurosciencenews.com/files/2026/04/myelin-glucose-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why Your Brain “Dreams” Even When You’re Awake",
+      "link": "https://neurosciencenews.com/dream-continuum-wake-sleep-consciousness-30637/",
+      "date": "29 Apr 2026",
+      "excerpt": "Researchers have identified four distinct mental states that occur regardless of whether we are asleep or awake, revealing a \"neural fingerprint\" for bizarre, dream-like thoughts that can surface even in the middle of the day.",
+      "image": "https://neurosciencenews.com/files/2026/04/daydreaming-wake-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Mapping the Brain’s Hidden Hub for Creative Thought",
+      "link": "https://neurosciencenews.com/rostral-prefrontal-cortex-creativity-30636/",
+      "date": "29 Apr 2026",
+      "excerpt": "Scientists have mapped a functional gradient in the rostral prefrontal cortex that connects our spontaneous \"daydreaming\" mind with our \"logical\" executive control.",
+      "image": "https://neurosciencenews.com/files/2026/04/creativity-hub-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "“Warm” AI Chatbots Are More Likely to Lie",
+      "link": "https://neurosciencenews.com/chatbots-factual-accuracy-sycophancy-30635/",
+      "date": "29 Apr 2026",
+      "excerpt": "We all want an AI that feels like a friend, but new research suggests that \"kindness\" in AI might be a major red flag for \"truth.\"",
+      "image": "https://neurosciencenews.com/files/2026/04/warm-chatbot-lie-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Tug-of-War of Life: Fertilized Eggs Keep Two Separate Nuclei",
+      "link": "https://neurosciencenews.com/zygote-pronuclei-separation-genetics-30632/",
+      "date": "29 Apr 2026",
+      "excerpt": "Why don't sperm and egg nuclei fuse right away? New research reveals a \"tug-of-war\" for growth factors that protects the embryo’s epigenetic blueprint.",
+      "image": "https://neurosciencenews.com/files/2026/04/zygote-nucleus-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "AI Uncovers a Hidden “Grammar” in DNA Packaging",
+      "link": "https://neurosciencenews.com/ai-nucleosome-dna-30631/",
+      "date": "29 Apr 2026",
+      "excerpt": "Researchers have discovered a new \"organizational code\" for the genome, showing that most DNA is partially accessible even when wrapped up.",
+      "image": "https://neurosciencenews.com/files/2026/04/non-cellular-genetics-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -238,11 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump says he will hike tariffs on EU cars to 25%",
-      "link": "https://www.bbc.com/news/articles/c4g8zpylzz9o?at_medium=RSS&at_campaign=rss",
-      "date": "1 May 2026",
-      "excerpt": "The current level of tariffs charged on goods entering the US from the EU is 15%, under a deal negotiated last July.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bef/live/f58ee210-4578-11f1-86ec-5992fe9627d8.jpg"
+      "title": "In five charts: How UAE's exit could affect Opec's influence over the oil price",
+      "link": "https://www.bbc.com/news/articles/c70vjpny0dno?at_medium=RSS&at_campaign=rss",
+      "date": "3 May 2026",
+      "excerpt": "The BBC takes a look in charts at what the UAE's departure could mean for the oil cartel and more widely.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1989/live/7cc9b4e0-43ed-11f1-bd52-e755d604ece4.jpg"
     },
     {
       "source": "BBC Business",
