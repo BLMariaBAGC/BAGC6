@@ -1,5 +1,5 @@
 {
-  "updated": "03 May 2026, 06:24 UTC",
+  "updated": "03 May 2026, 09:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,9 +274,9 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Airlines can cancel flights in advance over fuel shortages, under new plans",
+      "title": "Airlines can cancel flights in advance over fuel shortages under new plans",
       "link": "https://www.bbc.com/news/articles/c794zd1vqn4o?at_medium=RSS&at_campaign=rss",
-      "date": "2 May 2026",
+      "date": "3 May 2026",
       "excerpt": "Ministers hope move would help avoid last-minute flight cancellations for passengers this summer over Middle East fuel supplies.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/789b/live/f0ccbee0-4664-11f1-bd52-e755d604ece4.jpg"
     },
@@ -288,6 +288,15 @@
       "date": "2 May 2026",
       "excerpt": "The airline had been in talks with the Trump administration about a $500m bailout.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d76c/live/82575fa0-3e86-11f1-89c2-a710be29e252.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Voters will judge Trump on the economy - how is it doing?",
+      "link": "https://www.bbc.com/news/articles/cgepyv20vrpo?at_medium=RSS&at_campaign=rss",
+      "date": "2 May 2026",
+      "excerpt": "How much Donald Trump can do with the time he has left as president will depend massively on the cost of living.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7849/live/7ebe8ee0-44d0-11f1-8de1-593a7bb5acaa.jpg"
     },
     {
       "source": "BBC Business",
@@ -306,15 +315,6 @@
       "date": "1 May 2026",
       "excerpt": "The Bank of England's latest report reveals some interesting details on how our finances will be affected due to the Iran war.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed0e/live/6b76a6f0-4495-11f1-b4a4-6ff2bccf200b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Pentagon says US military to be an 'AI-first' fighting force",
-      "link": "https://www.bbc.com/news/articles/cy02gjq2987o?at_medium=RSS&at_campaign=rss",
-      "date": "1 May 2026",
-      "excerpt": "The US military has agreed eight new contracts with big tech firms as it expands its artificial intelligence capabilities.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cea0/live/29be13d0-45a1-11f1-8f01-030759c40642.jpg"
     },
     {
       "source": "BBC Business",
