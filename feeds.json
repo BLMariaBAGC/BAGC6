@@ -1,5 +1,5 @@
 {
-  "updated": "03 May 2026, 22:39 UTC",
+  "updated": "04 May 2026, 02:43 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "GameStop makes $55.5bn takeover offer for eBay",
+      "link": "https://www.bbc.com/news/articles/cn0p8yled1do?at_medium=RSS&at_campaign=rss",
+      "date": "4 May 2026",
+      "excerpt": "GameStop's boss Ryan Cohen says he sees potential to make eBay a much bigger rival to Amazon.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0759/live/6f3aea00-474a-11f1-b55d-0f258dce1735.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "The threat to summer holidays looming from jet fuel shortages",
+      "link": "https://www.bbc.com/news/articles/c86d9v28qxxo?at_medium=RSS&at_campaign=rss",
+      "date": "3 May 2026",
+      "excerpt": "What impact might shortages have on our summer holidays - and what could be done about it?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ee8/live/64014b70-4551-11f1-ac78-2112837ce2aa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Airlines can cancel flights in advance over fuel shortages under new plans",
       "link": "https://www.bbc.com/news/articles/c794zd1vqn4o?at_medium=RSS&at_campaign=rss",
       "date": "3 May 2026",
@@ -301,29 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Voters will judge Trump on the economy - how is it doing?",
-      "link": "https://www.bbc.com/news/articles/cgepyv20vrpo?at_medium=RSS&at_campaign=rss",
+      "title": "Amsterdam bans public adverts for meat and fossil fuels",
+      "link": "https://www.bbc.com/news/articles/c9wejdekpwyo?at_medium=RSS&at_campaign=rss",
       "date": "3 May 2026",
-      "excerpt": "How much Donald Trump can do with the time he has left as president will depend massively on the cost of living.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7849/live/7ebe8ee0-44d0-11f1-8de1-593a7bb5acaa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "In five charts: How UAE's exit could affect Opec's influence over the oil price",
-      "link": "https://www.bbc.com/news/articles/c70vjpny0dno?at_medium=RSS&at_campaign=rss",
-      "date": "3 May 2026",
-      "excerpt": "The BBC takes a look in charts at what the UAE's departure could mean for the oil cartel and more widely.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1989/live/7cc9b4e0-43ed-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Will AI lead to more accurate opinion polls?",
-      "link": "https://www.bbc.com/news/articles/cwyw6rylzepo?at_medium=RSS&at_campaign=rss",
-      "date": "30 Apr 2026",
-      "excerpt": "It's cheaper and faster to collect people's opinions using AI, but will it make polls more accurate?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a7fa/live/645fc940-3726-11f1-9d5c-8ba507d7dbde.jpg"
+      "excerpt": "Local politicians say the move is in line with the Dutch capital's environmental targets.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4140/live/d2daa120-4472-11f1-b545-b533bcf4cad2.jpg"
     }
   ]
 }
