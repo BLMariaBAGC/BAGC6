@@ -1,6 +1,33 @@
 {
-  "updated": "04 May 2026, 13:56 UTC",
+  "updated": "04 May 2026, 16:02 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This simple amino acid supplement greatly reduces Alzheimer’s damage",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260504075512.htm",
+      "date": "4 May 2026",
+      "excerpt": "A new study suggests a surprisingly simple compound could help fight Alzheimer’s disease. Researchers found that arginine—an inexpensive amino acid already considered safe—can reduce the buildup of toxic amyloid proteins in the brain, a hal",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists reveal creatine’s hidden power beyond muscle gains",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260504023828.htm",
+      "date": "4 May 2026",
+      "excerpt": "Creatine might be famous in the gym, but its real story is far more interesting. Naturally produced in the body, it helps power cells by rapidly regenerating ATP—the fuel that keeps muscles, the brain, and even the heart running during inte",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This simple blood test might detect depression before symptoms appear",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260504023827.htm",
+      "date": "4 May 2026",
+      "excerpt": "A new study suggests depression may soon be detectable through a simple blood test—by tracking how certain immune cells age. Researchers found that accelerated aging in monocytes, a type of white blood cell, is closely tied to the emotional",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -44,33 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260502233901.htm",
       "date": "3 May 2026",
       "excerpt": "A hidden force may be quietly shaping how you feel—and you’d never even know it. Infrasound, an ultra-low-frequency vibration below the range of human hearing, is everywhere from traffic to old buildings. In a small experiment, people expos",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Boosting one protein helps the brain fight Alzheimer’s",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260502013550.htm",
-      "date": "2 May 2026",
-      "excerpt": "Scientists have discovered a way to help the brain clean itself of harmful Alzheimer’s plaques by activating its own support cells. By increasing a protein called Sox9, researchers were able to boost the activity of astrocytes, star shaped ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists found the brain doesn’t start blank, it starts full",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260501052842.htm",
-      "date": "3 May 2026",
-      "excerpt": "The brain’s memory center may begin life more like a crowded web than an empty canvas. Researchers discovered that early neural networks in the hippocampus are dense and seemingly random, then become more organized by shedding connections o",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover a hidden brain “cleaning” effect triggered by movement",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260501052832.htm",
-      "date": "1 May 2026",
-      "excerpt": "Scientists have uncovered a surprising link between simple body movement and brain health: every time you tighten your abdominal muscles—even slightly—your brain may gently sway inside your skull. This subtle motion, triggered by pressure c",
       "image": ""
     },
     {
@@ -148,6 +148,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Will Insurance Protect Your Company in Times of War?",
+      "link": "https://hbr.org/2026/05/will-insurance-protect-your-company-in-times-of-war",
+      "date": "4 May 2026",
+      "excerpt": "Leaders shouldn&#8217;t assume that the war exclusion means that they&#8217;re out of luck if conflict harms their business.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Stop Trying to Replicate a Single Star Performer",
+      "link": "https://hbr.org/2026/05/stop-trying-to-replicate-a-single-star-performer",
+      "date": "4 May 2026",
+      "excerpt": "When organizations fixate on just one role model, they erase the very diversity that drives innovation.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Art of Discounting",
+      "link": "https://hbr.org/2026/05/the-art-of-discounting",
+      "date": "4 May 2026",
+      "excerpt": "Five strategies to drive volume and profit.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How Executives Should Deal with Heightened Security Risk",
       "link": "https://hbr.org/2026/05/agenda-4-30",
       "date": "1 May 2026",
@@ -170,51 +197,6 @@
       "link": "https://hbr.org/2026/05/the-psychological-costs-of-adopting-ai",
       "date": "1 May 2026",
       "excerpt": "And how to mitigate them.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Move from AI Experimentation to AI Transformation",
-      "link": "https://hbr.org/2026/04/how-to-move-from-ai-experimentation-to-ai-transformation",
-      "date": "30 Apr 2026",
-      "excerpt": "What companies like Lowe&#8217;s are doing differently.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Empathetic Leadership Can Make or Break AI Adoption",
-      "link": "https://hbr.org/2026/04/empathetic-leadership-can-make-or-break-ai-adoption",
-      "date": "30 Apr 2026",
-      "excerpt": "It reduces employee resistance, improves learning, and accelerates impact.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Driving Lyft into the Future",
-      "link": "https://hbr.org/2026/04/david-risher-live",
-      "date": "29 Apr 2026",
-      "excerpt": "An HBR Executive Live conversation with Lyft CEO David Risher.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Accountability Must Be Chosen, Not Mandated",
-      "link": "https://hbr.org/2026/04/accountability-must-be-chosen-not-mandated",
-      "date": "29 Apr 2026",
-      "excerpt": "Does your organization reward looking accountable&#8212;or being accountable?",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Nail Your Next Media Interview",
-      "link": "https://hbr.org/2026/04/how-to-nail-your-next-media-interview",
-      "date": "29 Apr 2026",
-      "excerpt": "Public-facing interviews can build or break trust with your stakeholders.",
       "image": ""
     },
     {
