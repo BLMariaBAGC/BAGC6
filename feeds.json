@@ -1,5 +1,5 @@
 {
-  "updated": "05 May 2026, 13:51 UTC",
+  "updated": "05 May 2026, 15:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -256,20 +256,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Nissan to close UK line and cut 900 European jobs",
+      "link": "https://www.bbc.com/news/articles/cdep9g8dp36o?at_medium=RSS&at_campaign=rss",
+      "date": "5 May 2026",
+      "excerpt": "Nissan says it is considering working with a third party to fully utilise its Sunderland plant.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/661c6030-ebe1-11f0-9332-4db5e65f7000.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Gap co-founder Doris Fisher dies aged 94",
       "link": "https://www.bbc.com/news/articles/c0q2w7e41wxo?at_medium=RSS&at_campaign=rss",
       "date": "5 May 2026",
       "excerpt": "She opened the first store with her husband Don in 1969, with the company calling her \"a pioneering force in American retail\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0765/live/73e87cc0-486c-11f1-804a-9d85b054b34f.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "British pubs closing at a rate of almost two per day in 2026",
-      "link": "https://www.bbc.com/news/articles/c9d355nw7jzo?at_medium=RSS&at_campaign=rss",
-      "date": "5 May 2026",
-      "excerpt": "The British Beer and Pub Association says 161 pubs have closed in the first three months of this year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d072/live/648c4c20-486c-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
@@ -283,11 +283,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The threat to summer holidays looming from jet fuel shortages",
-      "link": "https://www.bbc.com/news/articles/c86d9v28qxxo?at_medium=RSS&at_campaign=rss",
-      "date": "3 May 2026",
-      "excerpt": "What impact might shortages have on our summer holidays - and what could be done about it?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ee8/live/64014b70-4551-11f1-ac78-2112837ce2aa.jpg"
+      "title": "What's happening to UK petrol and diesel prices?",
+      "link": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "date": "5 May 2026",
+      "excerpt": "Motoring group RAC has said prices at the pump could keep rising if there is no resolution to the Iran war.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26f2/live/5fbf6110-2e5d-11f1-9408-ab8675603e32.jpg"
     },
     {
       "source": "BBC Business",
@@ -301,11 +301,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Amsterdam bans public adverts for meat and fossil fuels",
-      "link": "https://www.bbc.com/news/articles/c9wejdekpwyo?at_medium=RSS&at_campaign=rss",
+      "title": "The threat to summer holidays looming from jet fuel shortages",
+      "link": "https://www.bbc.com/news/articles/c86d9v28qxxo?at_medium=RSS&at_campaign=rss",
       "date": "3 May 2026",
-      "excerpt": "Local politicians say the move is in line with the Dutch capital's environmental targets.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4140/live/d2daa120-4472-11f1-b545-b533bcf4cad2.jpg"
+      "excerpt": "What impact might shortages have on our summer holidays - and what could be done about it?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ee8/live/64014b70-4551-11f1-ac78-2112837ce2aa.jpg"
     }
   ]
 }
