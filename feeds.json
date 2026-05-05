@@ -1,5 +1,5 @@
 {
-  "updated": "05 May 2026, 10:01 UTC",
+  "updated": "05 May 2026, 13:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "When an Executive Asks You an Unexpected Question",
+      "link": "https://hbr.org/2026/05/when-an-executive-asks-you-an-unexpected-question",
+      "date": "5 May 2026",
+      "excerpt": "Before answering, identify the deeper concerns or motives underlying their request.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "New Skills to Navigate Continuous Change",
+      "link": "https://hbr.org/podcast/2026/05/new-skills-to-navigate-continuous-change",
+      "date": "5 May 2026",
+      "excerpt": "A conversation with author Nilofer Merchant about leaving the status quo behind.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Best Leaders Embrace the Role of Supporting Character",
+      "link": "https://hbr.org/2026/05/the-best-leaders-embrace-the-role-of-supporting-character",
+      "date": "5 May 2026",
+      "excerpt": "By understanding and promoting your people&#8217;s stories&#8212;rather than your own&#8212;you can motivate them to do their best work.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Will Insurance Protect Your Company in Times of War?",
       "link": "https://hbr.org/2026/05/will-insurance-protect-your-company-in-times-of-war",
       "date": "4 May 2026",
@@ -173,30 +200,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Executives Should Deal with Heightened Security Risk",
-      "link": "https://hbr.org/2026/05/agenda-4-30",
-      "date": "1 May 2026",
-      "excerpt": "Staying safe is about more than bringing in armed bodyguards, says Jack Zahran, CEO of Pinkerton.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: For Women on Boards, Prestige Can Be a Bottleneck",
-      "link": "https://hbr.org/2026/05/research-for-women-on-boards-prestige-can-be-a-bottleneck",
-      "date": "1 May 2026",
-      "excerpt": "A study of nearly 2,000 FTSE-100 board directors reveals a striking paradox.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Psychological Costs of Adopting AI",
-      "link": "https://hbr.org/2026/05/the-psychological-costs-of-adopting-ai",
-      "date": "1 May 2026",
-      "excerpt": "And how to mitigate them.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Climate governance now shapes governments’ borrowing costs",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
+      "date": "5 May 2026",
+      "excerpt": "Financial markets already price climate transition risk into sovereign bond yields. Carmelo Arena, Stefania Basiglio, Andrea Comandé, Giray Gozgor and Jing Li show how investors reward credible governance and green infrastructure, not clima",
       "image": ""
     },
     {
@@ -245,13 +254,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Lessons from Bidenomics ahead of the midterms",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/24/lessons-from-bidenomics-ahead-of-the-midterms/",
-      "date": "24 Apr 2026",
-      "excerpt": "Should progressives utilise scarce political capital on running the economy hot to reduce inequality? And if not, where should they concentrate their efforts? As minds turn to the midterms Adam Aboobaker and Peter Skott suggest that the rec",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/figure_1_LSEblog-1024x640.png"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Gap co-founder Doris Fisher dies aged 94",
+      "link": "https://www.bbc.com/news/articles/c0q2w7e41wxo?at_medium=RSS&at_campaign=rss",
+      "date": "5 May 2026",
+      "excerpt": "She opened the first store with her husband Don in 1969, with the company calling her \"a pioneering force in American retail\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0765/live/73e87cc0-486c-11f1-804a-9d85b054b34f.png"
     },
     {
       "source": "BBC Business",
@@ -260,7 +269,7 @@
       "link": "https://www.bbc.com/news/articles/c9d355nw7jzo?at_medium=RSS&at_campaign=rss",
       "date": "5 May 2026",
       "excerpt": "The British Beer and Pub Association says 161 pubs have closed in the first three months of this year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3064/live/4b7ecee0-4819-11f1-b55d-0f258dce1735.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d072/live/648c4c20-486c-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
@@ -279,15 +288,6 @@
       "date": "3 May 2026",
       "excerpt": "What impact might shortages have on our summer holidays - and what could be done about it?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ee8/live/64014b70-4551-11f1-ac78-2112837ce2aa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "GameStop makes $55.5bn takeover offer for eBay",
-      "link": "https://www.bbc.com/news/articles/cn0p8yled1do?at_medium=RSS&at_campaign=rss",
-      "date": "4 May 2026",
-      "excerpt": "GameStop's boss Ryan Cohen says he sees potential to make eBay a much bigger rival to Amazon.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0759/live/6f3aea00-474a-11f1-b55d-0f258dce1735.jpg"
     },
     {
       "source": "BBC Business",
