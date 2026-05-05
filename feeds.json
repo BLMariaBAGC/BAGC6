@@ -1,5 +1,5 @@
 {
-  "updated": "05 May 2026, 20:19 UTC",
+  "updated": "05 May 2026, 20:33 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,15 +202,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Climate governance now shapes governments’ borrowing costs",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
-      "date": "5 May 2026",
-      "excerpt": "Financial markets already price climate transition risk into sovereign bond yields. Carmelo Arena, Stefania Basiglio, Andrea Comandé, Giray Gozgor and Jing Li show how investors reward credible governance and green infrastructure, not clima",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "“Becoming Nature Positive” is a documentary about the great choice of our time",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/01/becoming-nature-positive-is-a-documentary-about-the-great-choice-of-our-time/",
       "date": "1 May 2026",
@@ -254,6 +245,15 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Lessons from Bidenomics ahead of the midterms",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/24/lessons-from-bidenomics-ahead-of-the-midterms/",
+      "date": "24 Apr 2026",
+      "excerpt": "Should progressives utilise scarce political capital on running the economy hot to reduce inequality? And if not, where should they concentrate their efforts? As minds turn to the midterms Adam Aboobaker and Peter Skott suggest that the rec",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/figure_1_LSEblog-1024x640.png"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "UK long-term borrowing costs reach 28-year high",
@@ -265,20 +265,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Nissan to close UK line and cut 900 European jobs",
-      "link": "https://www.bbc.com/news/articles/cdep9g8dp36o?at_medium=RSS&at_campaign=rss",
-      "date": "5 May 2026",
-      "excerpt": "Nissan says it is considering working with a third party to fully utilise its Sunderland plant.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/661c6030-ebe1-11f0-9332-4db5e65f7000.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Lidl's new loyalty scheme less generous, shoppers say",
       "link": "https://www.bbc.com/news/articles/ckgp7y5jg59o?at_medium=RSS&at_campaign=rss",
       "date": "5 May 2026",
       "excerpt": "Under the changed system customers collect points rather than reward coupons, with £1 spent equalling one point.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/733d/live/839af900-4893-11f1-9c3f-fddcc2cc89aa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Nissan to close UK line and cut 900 European jobs",
+      "link": "https://www.bbc.com/news/articles/cdep9g8dp36o?at_medium=RSS&at_campaign=rss",
+      "date": "5 May 2026",
+      "excerpt": "Nissan says it is considering working with a third party to fully utilise its Sunderland plant.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/661c6030-ebe1-11f0-9332-4db5e65f7000.jpg"
     },
     {
       "source": "BBC Business",
