@@ -1,5 +1,5 @@
 {
-  "updated": "05 May 2026, 21:39 UTC",
+  "updated": "05 May 2026, 22:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "'I thought he was going to hit me' OpenAI co-founder says of Musk",
+      "link": "https://www.bbc.com/news/articles/cn7pg8ymgezo?at_medium=RSS&at_campaign=rss",
+      "date": "5 May 2026",
+      "excerpt": "Brockman spoke during the second week of a month-long trial between Musk and OpenAI's Sam Altman.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13b7/live/32cb10e0-48b7-11f1-90e6-350a323e11ac.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US to safety test new AI models from Google, Microsoft, xAI",
+      "link": "https://www.bbc.com/news/articles/cgjp2we2j8go?at_medium=RSS&at_campaign=rss",
+      "date": "5 May 2026",
+      "excerpt": "New agreements between the companies and the Commerce department build on Biden-era pacts.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78a3/live/9a5fdc10-48b5-11f1-90e6-350a323e11ac.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Nissan to close UK line and cut 900 European jobs",
       "link": "https://www.bbc.com/news/articles/cdep9g8dp36o?at_medium=RSS&at_campaign=rss",
       "date": "5 May 2026",
@@ -283,29 +301,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Gap co-founder Doris Fisher dies aged 94",
-      "link": "https://www.bbc.com/news/articles/c0q2w7e41wxo?at_medium=RSS&at_campaign=rss",
-      "date": "5 May 2026",
-      "excerpt": "She opened the first store with her husband Don in 1969, with the company calling her \"a pioneering force in American retail\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0765/live/73e87cc0-486c-11f1-804a-9d85b054b34f.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Robots move in as waste firms struggle to find staff",
       "link": "https://www.bbc.com/news/articles/cvg0w84q1wyo?at_medium=RSS&at_campaign=rss",
       "date": "4 May 2026",
       "excerpt": "Humanoid robots are being added to the automation of waste sorting.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc3f/live/5e7df0a0-3e25-11f1-8ba5-cfdd8d3337ac.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'Vodafone sold us a dream - the reality was something different'",
-      "link": "https://www.bbc.com/news/articles/cn8dp2jwdnqo?at_medium=RSS&at_campaign=rss",
-      "date": "5 May 2026",
-      "excerpt": "Two women from Lincolnshire are among 62 former franchisees taking the phone company to court.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2623/live/b4febea0-3c9a-11f1-bfee-83c7643042f8.jpg"
     }
   ]
 }
