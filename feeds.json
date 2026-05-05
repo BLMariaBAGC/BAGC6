@@ -1,5 +1,5 @@
 {
-  "updated": "05 May 2026, 06:14 UTC",
+  "updated": "05 May 2026, 10:01 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -256,20 +256,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US strikes Iranian fast boats as Iran attacks UAE oil facility",
-      "link": "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&at_campaign=rss",
-      "date": "5 May 2026",
-      "excerpt": "Shipping company Maersk says one of its US-flagged commercial vessels has successfully exited the Strait of Hormuz under US military protection.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dcd/live/020fd5a0-47de-11f1-90ad-2ff82eec9d15.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "British pubs closing at a rate of almost two per day in 2026",
       "link": "https://www.bbc.com/news/articles/c9d355nw7jzo?at_medium=RSS&at_campaign=rss",
       "date": "5 May 2026",
       "excerpt": "The British Beer and Pub Association says 161 pubs have closed in the first three months of this year.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3064/live/4b7ecee0-4819-11f1-b55d-0f258dce1735.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'Vodafone sold us a dream - the reality was something different'",
+      "link": "https://www.bbc.com/news/articles/cn8dp2jwdnqo?at_medium=RSS&at_campaign=rss",
+      "date": "5 May 2026",
+      "excerpt": "Two women from Lincolnshire are among 62 former franchisees taking the phone company to court.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2623/live/b4febea0-3c9a-11f1-bfee-83c7643042f8.jpg"
     },
     {
       "source": "BBC Business",
@@ -292,20 +292,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Amsterdam bans public adverts for meat and fossil fuels",
-      "link": "https://www.bbc.com/news/articles/c9wejdekpwyo?at_medium=RSS&at_campaign=rss",
-      "date": "3 May 2026",
-      "excerpt": "Local politicians say the move is in line with the Dutch capital's environmental targets.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4140/live/d2daa120-4472-11f1-b545-b533bcf4cad2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Robots move in as waste firms struggle to find staff",
       "link": "https://www.bbc.com/news/articles/cvg0w84q1wyo?at_medium=RSS&at_campaign=rss",
       "date": "4 May 2026",
       "excerpt": "Humanoid robots are being added to the automation of waste sorting.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc3f/live/5e7df0a0-3e25-11f1-8ba5-cfdd8d3337ac.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Amsterdam bans public adverts for meat and fossil fuels",
+      "link": "https://www.bbc.com/news/articles/c9wejdekpwyo?at_medium=RSS&at_campaign=rss",
+      "date": "3 May 2026",
+      "excerpt": "Local politicians say the move is in line with the Dutch capital's environmental targets.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4140/live/d2daa120-4472-11f1-b545-b533bcf4cad2.jpg"
     }
   ]
 }
