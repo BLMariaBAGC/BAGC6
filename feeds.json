@@ -1,5 +1,5 @@
 {
-  "updated": "05 May 2026, 15:51 UTC",
+  "updated": "05 May 2026, 17:22 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,15 +202,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Climate governance now shapes governments’ borrowing costs",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
-      "date": "5 May 2026",
-      "excerpt": "Financial markets already price climate transition risk into sovereign bond yields. Carmelo Arena, Stefania Basiglio, Andrea Comandé, Giray Gozgor and Jing Li show how investors reward credible governance and green infrastructure, not clima",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "“Becoming Nature Positive” is a documentary about the great choice of our time",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/01/becoming-nature-positive-is-a-documentary-about-the-great-choice-of-our-time/",
       "date": "1 May 2026",
@@ -254,6 +245,24 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Lessons from Bidenomics ahead of the midterms",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/24/lessons-from-bidenomics-ahead-of-the-midterms/",
+      "date": "24 Apr 2026",
+      "excerpt": "Should progressives utilise scarce political capital on running the economy hot to reduce inequality? And if not, where should they concentrate their efforts? As minds turn to the midterms Adam Aboobaker and Peter Skott suggest that the rec",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/figure_1_LSEblog-1024x640.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK long-term borrowing costs reach 28-year high",
+      "link": "https://www.bbc.com/news/articles/c936qn69016o?at_medium=RSS&at_campaign=rss",
+      "date": "5 May 2026",
+      "excerpt": "There have been extra jitters in UK government debt markets ahead of Thursday's local and national elections.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2125/live/9eec4b60-489c-11f1-9d2b-c9f441ed383e.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Nissan to close UK line and cut 900 European jobs",
@@ -261,6 +270,15 @@
       "date": "5 May 2026",
       "excerpt": "Nissan says it is considering working with a third party to fully utilise its Sunderland plant.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/661c6030-ebe1-11f0-9332-4db5e65f7000.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Lidl's new loyalty scheme less generous, shoppers say",
+      "link": "https://www.bbc.com/news/articles/ckgp7y5jg59o?at_medium=RSS&at_campaign=rss",
+      "date": "5 May 2026",
+      "excerpt": "Under the changed system customers collect points rather than reward coupons, with £1 spent equalling one point.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/733d/live/839af900-4893-11f1-9c3f-fddcc2cc89aa.jpg"
     },
     {
       "source": "BBC Business",
@@ -274,24 +292,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'Vodafone sold us a dream - the reality was something different'",
-      "link": "https://www.bbc.com/news/articles/cn8dp2jwdnqo?at_medium=RSS&at_campaign=rss",
-      "date": "5 May 2026",
-      "excerpt": "Two women from Lincolnshire are among 62 former franchisees taking the phone company to court.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2623/live/b4febea0-3c9a-11f1-bfee-83c7643042f8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What's happening to UK petrol and diesel prices?",
-      "link": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "date": "5 May 2026",
-      "excerpt": "Motoring group RAC has said prices at the pump could keep rising if there is no resolution to the Iran war.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26f2/live/5fbf6110-2e5d-11f1-9408-ab8675603e32.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Robots move in as waste firms struggle to find staff",
       "link": "https://www.bbc.com/news/articles/cvg0w84q1wyo?at_medium=RSS&at_campaign=rss",
       "date": "4 May 2026",
@@ -301,11 +301,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The threat to summer holidays looming from jet fuel shortages",
-      "link": "https://www.bbc.com/news/articles/c86d9v28qxxo?at_medium=RSS&at_campaign=rss",
-      "date": "3 May 2026",
-      "excerpt": "What impact might shortages have on our summer holidays - and what could be done about it?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ee8/live/64014b70-4551-11f1-ac78-2112837ce2aa.jpg"
+      "title": "'Vodafone sold us a dream - the reality was something different'",
+      "link": "https://www.bbc.com/news/articles/cn8dp2jwdnqo?at_medium=RSS&at_campaign=rss",
+      "date": "5 May 2026",
+      "excerpt": "Two women from Lincolnshire are among 62 former franchisees taking the phone company to court.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2623/live/b4febea0-3c9a-11f1-bfee-83c7643042f8.jpg"
     }
   ]
 }
