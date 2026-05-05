@@ -1,6 +1,15 @@
 {
-  "updated": "05 May 2026, 02:36 UTC",
+  "updated": "05 May 2026, 06:14 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists say travel could slow aging and boost your health",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260504211836.htm",
+      "date": "4 May 2026",
+      "excerpt": "A new study suggests travel could be a surprisingly powerful anti-aging tool. By viewing tourism through the lens of entropy, researchers found that positive travel experiences may help the body stay balanced and resilient. Activities like ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260502233911.htm",
       "date": "3 May 2026",
       "excerpt": "Coffee doesn’t just energize—it actively reshapes the gut and mind. Researchers found that both caffeinated and decaf coffee altered gut bacteria in ways linked to better mood and lower stress. Decaf even improved learning and memory, while",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "The creepy feeling in old buildings might have a surprising cause",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260502233901.htm",
-      "date": "3 May 2026",
-      "excerpt": "A hidden force may be quietly shaping how you feel—and you’d never even know it. Infrasound, an ultra-low-frequency vibration below the range of human hearing, is everywhere from traffic to old buildings. In a small experiment, people expos",
       "image": ""
     },
     {
@@ -256,6 +256,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US strikes Iranian fast boats as Iran attacks UAE oil facility",
+      "link": "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&at_campaign=rss",
+      "date": "5 May 2026",
+      "excerpt": "Shipping company Maersk says one of its US-flagged commercial vessels has successfully exited the Strait of Hormuz under US military protection.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dcd/live/020fd5a0-47de-11f1-90ad-2ff82eec9d15.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "British pubs closing at a rate of almost two per day in 2026",
       "link": "https://www.bbc.com/news/articles/c9d355nw7jzo?at_medium=RSS&at_campaign=rss",
       "date": "5 May 2026",
@@ -265,11 +274,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US denies Iranian report warship was struck by missiles",
-      "link": "https://www.bbc.com/news/articles/c775jevkyv2o?at_medium=RSS&at_campaign=rss",
-      "date": "4 May 2026",
-      "excerpt": "It comes as the US said on Monday it will begin to help \"guide\" vessels out of the Strait of Hormuz.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/71ef/live/ad7d8460-47ab-11f1-a815-8703cc282724.jpg"
+      "title": "The threat to summer holidays looming from jet fuel shortages",
+      "link": "https://www.bbc.com/news/articles/c86d9v28qxxo?at_medium=RSS&at_campaign=rss",
+      "date": "3 May 2026",
+      "excerpt": "What impact might shortages have on our summer holidays - and what could be done about it?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ee8/live/64014b70-4551-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
@@ -283,29 +292,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Amsterdam bans public adverts for meat and fossil fuels",
+      "link": "https://www.bbc.com/news/articles/c9wejdekpwyo?at_medium=RSS&at_campaign=rss",
+      "date": "3 May 2026",
+      "excerpt": "Local politicians say the move is in line with the Dutch capital's environmental targets.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4140/live/d2daa120-4472-11f1-b545-b533bcf4cad2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Robots move in as waste firms struggle to find staff",
       "link": "https://www.bbc.com/news/articles/cvg0w84q1wyo?at_medium=RSS&at_campaign=rss",
       "date": "4 May 2026",
       "excerpt": "Humanoid robots are being added to the automation of waste sorting.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc3f/live/5e7df0a0-3e25-11f1-8ba5-cfdd8d3337ac.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Samsung family pays off record $8bn inheritance tax bill",
-      "link": "https://www.bbc.com/news/articles/cn0px8g13xgo?at_medium=RSS&at_campaign=rss",
-      "date": "4 May 2026",
-      "excerpt": "The bill is tied to the estate left by the firm's late chairman Lee Kun-hee, who died in October 2020.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a92/live/644676f0-4763-11f1-a897-39829ff0bf25.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The threat to summer holidays looming from jet fuel shortages",
-      "link": "https://www.bbc.com/news/articles/c86d9v28qxxo?at_medium=RSS&at_campaign=rss",
-      "date": "3 May 2026",
-      "excerpt": "What impact might shortages have on our summer holidays - and what could be done about it?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ee8/live/64014b70-4551-11f1-ac78-2112837ce2aa.jpg"
     }
   ]
 }
