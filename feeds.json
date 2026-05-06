@@ -1,5 +1,5 @@
 {
-  "updated": "06 May 2026, 11:52 UTC",
+  "updated": "06 May 2026, 14:06 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How Sales Teams Undercut Themselves with Longtime Clients",
+      "link": "https://hbr.org/2026/05/how-sales-teams-undercut-themselves-with-longtime-clients",
+      "date": "6 May 2026",
+      "excerpt": "Six steps to reset the dynamic.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: Why You Shouldn’t Treat AI Agents Like Employees",
+      "link": "https://hbr.org/2026/05/research-why-you-shouldnt-treat-ai-agents-like-employees",
+      "date": "6 May 2026",
+      "excerpt": "The unintended consequences of putting agents in the org chart.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "When an Executive Asks You an Unexpected Question",
       "link": "https://hbr.org/2026/05/when-an-executive-asks-you-an-unexpected-question",
       "date": "5 May 2026",
@@ -179,78 +197,6 @@
       "link": "https://hbr.org/2026/05/will-insurance-protect-your-company-in-times-of-war",
       "date": "4 May 2026",
       "excerpt": "Leaders shouldn&#8217;t assume that the war exclusion means that they&#8217;re out of luck if conflict harms their business.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Stop Trying to Replicate a Single Star Performer",
-      "link": "https://hbr.org/2026/05/stop-trying-to-replicate-a-single-star-performer",
-      "date": "4 May 2026",
-      "excerpt": "When organizations fixate on just one role model, they erase the very diversity that drives innovation.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Art of Discounting",
-      "link": "https://hbr.org/2026/05/the-art-of-discounting",
-      "date": "4 May 2026",
-      "excerpt": "Five strategies to drive volume and profit.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Climate governance now shapes governments’ borrowing costs",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
-      "date": "5 May 2026",
-      "excerpt": "Financial markets already price climate transition risk into sovereign bond yields. Carmelo Arena, Stefania Basiglio, Andrea Comandé, Giray Gozgor and Jing Li show how investors reward credible governance and green infrastructure, not clima",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "“Becoming Nature Positive” is a documentary about the great choice of our time",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/01/becoming-nature-positive-is-a-documentary-about-the-great-choice-of-our-time/",
-      "date": "1 May 2026",
-      "excerpt": "Ahead of a screening at LSE Marco Lambertini, executive director of the film and Convener of the Nature Positive Initiative, explains the critical choice humanity must make. Everyone has a role to play in becoming nature positive. But becau",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "European businesses cannot quantify the impact of AI on their staff because they are not tracking it",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/30/european-businesses-cannot-quantify-the-impact-of-ai-on-their-staff-because-they-are-not-tracking-it/",
-      "date": "30 Apr 2026",
-      "excerpt": "Businesses in Britain, France and Germany are embracing artificial intelligence. But most struggle to measure its impact properly. Ellie Smith explains how while many firms track business impact of using new technology, they are less able t",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How does a country’s political system affect its incentives to attract foreign investment?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/29/how-does-a-countrys-political-system-affect-its-incentives-to-attract-foreign-investment/",
-      "date": "29 Apr 2026",
-      "excerpt": "Foreign direct investment is a critical engine of economic growth. But not all countries value it equally. Dario Maimone Ansaldo Patti, Ram Mudambi and Pietro Navarra tested the assumption that more democracy equals more inward investment a",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/Screenshot-2026-04-29-103752.png"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What happens when supply chains go dark",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/28/what-happens-when-supply-chains-go-dark/",
-      "date": "28 Apr 2026",
-      "excerpt": "Global trade relies on supply chains with predictable routing, stable pricing and continuous visibility. But conflict, such as the war in Iran, are significantly disrupting transport routes in unexpected ways. By telling the story of one co",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Are impact crypto assets a new emerging asset class for sustainable and impact investors?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/27/are-impact-crypto-assets-a-new-emerging-asset-class-for-sustainable-and-impact-investors/",
-      "date": "27 Apr 2026",
-      "excerpt": "Traditional sustainable investing is struggling with reliably measuring and verifying impact. Can blockchain and tokenization technologies provide a reliable solution? The Impact Crypto Index, proposed by Veronika Vinogradova and Mariya Gub",
       "image": ""
     },
     {
