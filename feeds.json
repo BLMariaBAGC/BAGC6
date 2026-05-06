@@ -1,5 +1,5 @@
 {
-  "updated": "06 May 2026, 07:14 UTC",
+  "updated": "06 May 2026, 07:16 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -256,6 +256,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Next to hike prices by up to 8% outside Europe due to Iran war costs",
+      "link": "https://www.bbc.com/news/articles/cjrp8e0rjpeo?at_medium=RSS&at_campaign=rss",
+      "date": "6 May 2026",
+      "excerpt": "No extra price rises are slated for the UK, which saw better than expected sales in the first quarter.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a3b/live/b391b740-d49d-11ef-a70a-7188cb9abb89.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Oil prices ease as US pauses Project Freedom to seek deal with Iran",
       "link": "https://www.bbc.com/news/articles/c4g8zejyyr3o?at_medium=RSS&at_campaign=rss",
       "date": "6 May 2026",
@@ -288,15 +297,6 @@
       "date": "5 May 2026",
       "excerpt": "Under the changed system customers collect points rather than reward coupons, with £1 spent equalling one point.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/733d/live/839af900-4893-11f1-9c3f-fddcc2cc89aa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I thought he was going to hit me,' OpenAI co-founder says of Musk",
-      "link": "https://www.bbc.com/news/articles/cn7pg8ymgezo?at_medium=RSS&at_campaign=rss",
-      "date": "6 May 2026",
-      "excerpt": "OpenAI president Greg Brockman spoke during the second week of a month-long trial between Elon Musk and OpenAI's Sam Altman.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13b7/live/32cb10e0-48b7-11f1-90e6-350a323e11ac.jpg"
     },
     {
       "source": "BBC Business",
