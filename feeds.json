@@ -1,5 +1,5 @@
 {
-  "updated": "06 May 2026, 07:33 UTC",
+  "updated": "06 May 2026, 10:08 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -256,6 +256,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Airlines cut 13,000 flights in May as jet fuel prices soar",
+      "link": "https://www.bbc.com/news/articles/cyv24v3mpdmo?at_medium=RSS&at_campaign=rss",
+      "date": "6 May 2026",
+      "excerpt": "Airlines have removed nearly two million seats from flights over the month, data from Cirium shows.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf1e/live/7bb43ee0-491f-11f1-9546-d74beef04f02.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Next to hike prices by up to 8% outside Europe due to Iran war costs",
       "link": "https://www.bbc.com/news/articles/cjrp8e0rjpeo?at_medium=RSS&at_campaign=rss",
       "date": "6 May 2026",
@@ -278,25 +287,16 @@
       "link": "https://www.bbc.com/news/articles/c0j2nydnzy7o?at_medium=RSS&at_campaign=rss",
       "date": "6 May 2026",
       "excerpt": "Claims from last year said the tech firm’s advertising of Apple Intelligence fooled iPhone buyers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/74c2/live/8a9268b0-48d9-11f1-b64a-cbdeb0211cb5.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4139/live/e64eeb80-4927-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK long-term borrowing costs reach 28-year high",
-      "link": "https://www.bbc.com/news/articles/c936qn69016o?at_medium=RSS&at_campaign=rss",
-      "date": "5 May 2026",
-      "excerpt": "There have been extra jitters in UK government debt markets ahead of Thursday's local and national elections.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2125/live/9eec4b60-489c-11f1-9d2b-c9f441ed383e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Lidl's new loyalty scheme less generous, shoppers say",
-      "link": "https://www.bbc.com/news/articles/ckgp7y5jg59o?at_medium=RSS&at_campaign=rss",
-      "date": "5 May 2026",
-      "excerpt": "Under the changed system customers collect points rather than reward coupons, with £1 spent equalling one point.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/733d/live/839af900-4893-11f1-9c3f-fddcc2cc89aa.jpg"
+      "title": "'I thought he was going to hit me,' OpenAI co-founder says of Musk",
+      "link": "https://www.bbc.com/news/articles/cn7pg8ymgezo?at_medium=RSS&at_campaign=rss",
+      "date": "6 May 2026",
+      "excerpt": "OpenAI president Greg Brockman spoke during the second week of a month-long trial between Elon Musk and OpenAI's Sam Altman.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13b7/live/32cb10e0-48b7-11f1-90e6-350a323e11ac.jpg"
     },
     {
       "source": "BBC Business",
