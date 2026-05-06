@@ -1,5 +1,5 @@
 {
-  "updated": "06 May 2026, 10:19 UTC",
+  "updated": "06 May 2026, 11:17 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,11 +274,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil prices ease as US pauses Project Freedom to seek deal with Iran",
+      "title": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
       "link": "https://www.bbc.com/news/articles/c4g8zejyyr3o?at_medium=RSS&at_campaign=rss",
       "date": "6 May 2026",
-      "excerpt": "President Donald Trump raised hopes of an agreement between the US and Iran after days of escalation.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a69/live/9a1232a0-48f4-11f1-9086-afe40fef0c44.jpg"
+      "excerpt": "Reports have raised hopes of an agreement between the US and Iran after days of escalation.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dd1/live/df595320-493a-11f1-861c-270dbba6d6ae.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Campaigners call for ban on use of weedkiller glyphosate at harvest time",
+      "link": "https://www.bbc.com/news/articles/cvgz420ee0zo?at_medium=RSS&at_campaign=rss",
+      "date": "6 May 2026",
+      "excerpt": "Campaigners are calling for a ban on the use of the weedkiller over health concerns.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c998/live/1d79ceb0-491c-11f1-a089-fb6c1058395c.jpg"
     },
     {
       "source": "BBC Business",
@@ -288,15 +297,6 @@
       "date": "6 May 2026",
       "excerpt": "Claims from last year said the tech firm’s advertising of Apple Intelligence fooled iPhone buyers.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4139/live/e64eeb80-4927-11f1-ac78-2112837ce2aa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I thought he was going to hit me,' OpenAI co-founder says of Musk",
-      "link": "https://www.bbc.com/news/articles/cn7pg8ymgezo?at_medium=RSS&at_campaign=rss",
-      "date": "6 May 2026",
-      "excerpt": "OpenAI president Greg Brockman spoke during the second week of a month-long trial between Elon Musk and OpenAI's Sam Altman.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13b7/live/32cb10e0-48b7-11f1-90e6-350a323e11ac.jpg"
     },
     {
       "source": "BBC Business",
