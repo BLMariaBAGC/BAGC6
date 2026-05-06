@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anchoring Technique | Maria Fuentes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+:root{
+  --teal:#3D858C;--navy:#01293A;--turq:#C9F6FA;
+  --white:#FFFFFF;--cream:#FAFAF7;--lt:#E8F7F8;
+  --muted:#667A80;--border:#D8ECEE;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:"DM Sans",sans-serif;background:var(--cream);color:var(--navy);}
+
+.header{background:var(--navy);padding:28px 60px;border-bottom:4px solid var(--teal);}
+.header-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;gap:24px;}
+.logo{width:68px;height:68px;flex-shrink:0;}
+.logo img{width:100%;height:100%;object-fit:contain;mix-blend-mode:screen;}
+.header h1{font-family:"Cormorant Garamond",serif;font-size:30px;font-weight:700;color:var(--white);line-height:1.15;margin-bottom:4px;}
+.header h1 span{color:var(--turq);}
+.header p{font-family:"Cormorant Garamond",serif;font-size:17px;color:var(--turq);font-style:italic;}
+
+.progress-wrap{background:var(--white);border-bottom:1px solid var(--lt);padding:12px 60px;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(1,41,58,0.06);}
+.progress-inner{max-width:900px;margin:0 auto;}
+.progress-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px;}
+.progress-label{font-size:11px;font-weight:600;color:var(--teal);text-transform:uppercase;letter-spacing:1.5px;}
+.progress-count{font-size:11px;color:var(--teal);font-weight:500;}
+.progress-bar{background:var(--lt);border-radius:30px;height:5px;overflow:hidden;}
+.progress-fill{background:var(--teal);height:100%;border-radius:30px;transition:width 0.5s ease;width:0%;}
+
+.container{max-width:900px;margin:0 auto;padding:48px 60px 80px;}
+.view{display:none;animation:fadeIn 0.35s ease;}
+.view.active{display:block;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+
+.nav-buttons{display:flex;justify-content:space-between;align-items:center;margin-top:44px;gap:16px;}
+.btn{padding:13px 30px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;border:none;font-family:"DM Sans",sans-serif;transition:all 0.2s ease;}
+.btn-primary{background:var(--teal);color:var(--white);}
+.btn-primary:hover{background:var(--navy);transform:translateY(-2px);box-shadow:0 6px 20px rgba(1,41,58,0.18);}
+.btn-secondary{background:transparent;color:var(--teal);border:2px solid var(--teal);}
+.btn-secondary:hover{background:var(--teal);color:var(--white);}
+.btn-large{padding:15px 40px;font-size:15px;}
+.btn-ghost{background:transparent;color:var(--turq);border:1.5px solid rgba(61,133,140,0.5);font-size:13px;padding:10px 22px;}
+.btn-ghost:hover{background:rgba(61,133,140,0.15);}
+
+.step-badge{display:inline-block;background:var(--teal);color:var(--white);font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;padding:5px 14px;border-radius:20px;margin-bottom:18px;}
+.view-title{font-family:"Cormorant Garamond",serif;font-size:36px;font-weight:700;color:var(--navy);margin-bottom:6px;line-height:1.15;}
+.view-title span{color:var(--teal);}
+.view-subtitle{font-family:"Cormorant Garamond",serif;font-size:19px;color:var(--muted);font-style:italic;margin-bottom:32px;line-height:1.5;}
+
+.navy-box{background:var(--navy);border-radius:14px;padding:34px 40px;margin-bottom:28px;}
+.navy-box h2{font-family:"Cormorant Garamond",serif;font-size:26px;font-weight:700;color:var(--white);margin-bottom:12px;}
+.navy-box p{font-size:15px;color:rgba(255,255,255,0.82);line-height:1.78;margin-bottom:10px;}
+.navy-box .hl{font-family:"Cormorant Garamond",serif;font-size:20px;font-style:italic;color:var(--turq);border-left:3px solid var(--teal);padding-left:18px;margin-top:16px;line-height:1.5;}
+
+.callout{background:var(--lt);border-left:4px solid var(--teal);border-radius:0 10px 10px 0;padding:16px 22px;margin-bottom:24px;}
+.callout p{font-size:14.5px;color:var(--navy);line-height:1.75;margin:0;}
+.callout p strong{color:var(--teal);}
+
+textarea{width:100%;border:1.5px solid var(--border);border-radius:8px;padding:12px 14px;font-family:"DM Sans",sans-serif;font-size:14px;color:var(--navy);line-height:1.65;resize:vertical;outline:none;background:var(--white);transition:border-color 0.2s,box-shadow 0.2s;}
+textarea:focus{border-color:var(--teal);box-shadow:0 0 0 3px rgba(61,133,140,0.1);}
+textarea::placeholder{color:#AECDD0;font-style:italic;}
+label.field-label{display:block;font-size:12px;font-weight:600;color:var(--teal);text-transform:uppercase;letter-spacing:1.2px;margin-bottom:7px;}
+
+/* GUIDED STAGE */
+.stage-wrap{background:var(--navy);border-radius:16px;overflow:hidden;margin-bottom:28px;}
+.stage-number{display:flex;align-items:center;gap:14px;padding:22px 28px 0;}
+.sn-badge{width:40px;height:40px;border-radius:50%;background:var(--teal);color:var(--white);display:flex;align-items:center;justify-content:center;font-family:"Cormorant Garamond",serif;font-size:20px;font-weight:700;flex-shrink:0;}
+.sn-title{font-family:"Cormorant Garamond",serif;font-size:24px;font-weight:700;color:var(--white);}
+.sn-sub{font-size:13px;color:rgba(255,255,255,0.5);margin-top:2px;}
+.stage-content{padding:18px 28px 26px;}
+
+/* SENSORY FIELDS */
+.sense-grid{display:grid;gap:16px;}
+.sense-item{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start;}
+.sense-icon-wrap{width:44px;height:44px;background:rgba(61,133,140,0.2);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;margin-top:2px;}
+.sense-body{}
+.sense-name{font-family:"Cormorant Garamond",serif;font-size:18px;font-weight:700;color:var(--white);margin-bottom:3px;}
+.sense-prompt{font-size:12.5px;color:rgba(255,255,255,0.45);margin-bottom:10px;font-style:italic;}
+.sense-ta{background:rgba(255,255,255,0.08);border:1px solid rgba(61,133,140,0.4);border-radius:8px;color:var(--white);font-size:13.5px;}
+.sense-ta::placeholder{color:rgba(201,246,250,0.3);}
+.sense-ta:focus{background:rgba(255,255,255,0.12);border-color:var(--teal);box-shadow:none;}
+
+/* BREATHING CIRCLE */
+.breath-wrap{display:flex;flex-direction:column;align-items:center;gap:20px;padding:24px 0;margin-bottom:20px;}
+.breath-ring{position:relative;width:160px;height:160px;}
+.breath-ring svg{width:160px;height:160px;}
+.breath-ring .br-track{fill:none;stroke:rgba(61,133,140,0.15);stroke-width:4;}
+.breath-ring .br-fill{fill:none;stroke:var(--teal);stroke-width:4;stroke-linecap:round;stroke-dasharray:440;stroke-dashoffset:440;transform-origin:center;transform:rotate(-90deg);transition:stroke-dashoffset 0.1s;}
+.breath-ring .br-inner{fill:var(--navy);}
+.breath-ring .br-text{fill:var(--turq);font-family:"Cormorant Garamond",serif;font-size:13px;font-style:italic;text-anchor:middle;}
+.breath-ring .br-count{fill:var(--white);font-family:"Cormorant Garamond",serif;font-size:32px;font-weight:700;text-anchor:middle;}
+.breath-instruction{font-family:"Cormorant Garamond",serif;font-size:22px;font-style:italic;color:var(--turq);text-align:center;}
+.breath-phase{font-size:13px;color:rgba(255,255,255,0.5);text-align:center;text-transform:uppercase;letter-spacing:2px;}
+
+/* INTENSITY SCALE */
+.intensity-wrap{margin-bottom:24px;}
+.intensity-label{font-family:"Cormorant Garamond",serif;font-size:18px;font-weight:600;color:var(--white);margin-bottom:16px;text-align:center;}
+.intensity-scale{display:flex;gap:8px;justify-content:center;margin-bottom:12px;}
+.int-btn{width:48px;height:48px;border-radius:50%;border:2px solid rgba(61,133,140,0.4);background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.6);font-size:16px;font-weight:700;cursor:pointer;transition:all 0.2s;font-family:"DM Sans",sans-serif;}
+.int-btn:hover{border-color:var(--teal);background:rgba(61,133,140,0.2);color:var(--turq);}
+.int-btn.active{background:var(--teal);border-color:var(--teal);color:var(--white);transform:scale(1.1);}
+.int-btn.active-7{background:linear-gradient(135deg,#3D858C,#5AAFB8);border-color:var(--turq);}
+.intensity-hint{text-align:center;font-size:13px;color:rgba(255,255,255,0.4);font-style:italic;}
+.intensity-feedback{text-align:center;font-family:"Cormorant Garamond",serif;font-size:18px;font-style:italic;color:var(--turq);min-height:28px;margin-top:8px;transition:all 0.3s;}
+
+/* ANCHOR GESTURE */
+.anchor-visual{display:flex;flex-direction:column;align-items:center;gap:16px;padding:28px 0;margin-bottom:8px;}
+.hand-wrap{position:relative;width:160px;height:160px;}
+.hand-wrap svg{width:160px;height:160px;}
+.anchor-steps{display:grid;gap:14px;margin-bottom:8px;}
+.anchor-step{background:rgba(255,255,255,0.06);border:1px solid rgba(61,133,140,0.25);border-radius:10px;padding:16px 20px;display:flex;align-items:flex-start;gap:14px;transition:all 0.3s;}
+.anchor-step.lit{background:rgba(61,133,140,0.15);border-color:var(--teal);}
+.as-num{width:28px;height:28px;border-radius:50%;background:rgba(61,133,140,0.3);color:var(--turq);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0;transition:all 0.3s;}
+.anchor-step.lit .as-num{background:var(--teal);color:var(--white);}
+.as-text{font-size:14.5px;color:rgba(255,255,255,0.7);line-height:1.55;}
+.anchor-step.lit .as-text{color:var(--white);}
+
+/* REPETITION TRACKER */
+.rep-tracker{display:flex;gap:16px;justify-content:center;margin-bottom:28px;}
+.rep-circle{width:60px;height:60px;border-radius:50%;border:2px solid rgba(61,133,140,0.3);background:rgba(255,255,255,0.04);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all 0.3s;flex-direction:column;gap:2px;}
+.rep-circle:hover{border-color:var(--teal);}
+.rep-circle.done{background:var(--teal);border-color:var(--teal);}
+.rep-num{font-size:18px;font-weight:700;color:rgba(255,255,255,0.4);}
+.rep-circle.done .rep-num{color:var(--white);}
+.rep-label{font-size:9px;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:1px;}
+.rep-circle.done .rep-label{color:rgba(201,246,250,0.7);}
+.rep-hint{text-align:center;font-size:13px;color:rgba(255,255,255,0.45);font-style:italic;margin-bottom:16px;}
+
+/* STATE BREAK */
+.state-break{background:rgba(255,255,255,0.05);border:1px dashed rgba(61,133,140,0.3);border-radius:10px;padding:16px 20px;margin-bottom:20px;text-align:center;}
+.state-break p{font-size:13.5px;color:rgba(255,255,255,0.5);font-style:italic;}
+.state-break strong{color:var(--turq);}
+
+/* FUTURE PACE */
+.scenario-field{background:rgba(255,255,255,0.06);border:1px solid rgba(61,133,140,0.3);border-radius:12px;padding:22px;}
+.scenario-field .sf-label{font-family:"Cormorant Garamond",serif;font-size:19px;font-weight:600;color:var(--turq);margin-bottom:8px;}
+.scenario-field .sf-hint{font-size:12.5px;color:rgba(255,255,255,0.4);margin-bottom:14px;font-style:italic;}
+.scenario-field textarea{background:rgba(255,255,255,0.07);border-color:rgba(61,133,140,0.4);color:var(--white);}
+.scenario-field textarea::placeholder{color:rgba(201,246,250,0.3);}
+.scenario-field textarea:focus{background:rgba(255,255,255,0.1);border-color:var(--teal);box-shadow:none;}
+
+/* ANCHOR CARD */
+.anchor-card{background:var(--navy);border:2px solid var(--teal);border-radius:16px;padding:36px 40px;text-align:center;margin-bottom:28px;}
+.anchor-card svg{width:70px;height:70px;margin:0 auto 20px;display:block;}
+.anchor-card h3{font-family:"Cormorant Garamond",serif;font-size:26px;font-weight:700;color:var(--white);margin-bottom:12px;}
+.anchor-card p{font-size:14.5px;color:rgba(255,255,255,0.7);line-height:1.7;margin-bottom:0;}
+.anchor-card .ac-steps{display:flex;gap:24px;justify-content:center;margin-top:20px;}
+.ac-step{display:flex;flex-direction:column;align-items:center;gap:6px;}
+.ac-step .acs-icon{font-size:24px;}
+.ac-step .acs-text{font-size:12px;color:var(--turq);font-weight:600;text-transform:uppercase;letter-spacing:1px;}
+
+/* COMPLETION */
+.completion-header{background:var(--navy);border-radius:14px;padding:44px;margin-bottom:36px;text-align:center;}
+.check-circle{width:60px;height:60px;background:var(--teal);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:26px;color:var(--white);}
+.completion-header h2{font-family:"Cormorant Garamond",serif;font-size:34px;font-weight:700;color:var(--white);margin-bottom:10px;}
+.completion-header p{font-size:16px;color:rgba(255,255,255,0.75);max-width:520px;margin:0 auto;line-height:1.65;}
+.dl-wrap{text-align:center;margin:40px 0 0;}
+.dl-wrap p{font-size:13px;color:var(--teal);margin-top:10px;font-style:italic;}
+.restart-link{display:block;text-align:center;margin-top:18px;color:var(--teal);cursor:pointer;font-size:14px;text-decoration:underline;}
+.footer{background:var(--navy);color:rgba(255,255,255,0.45);text-align:center;padding:18px;font-size:12px;margin-top:60px;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <div class="logo"><img id="site-logo" src="data:image/jpeg;base64,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" alt="Maria Fuentes Logo"></div>
+    <div>
+      <h1>Anchoring: <span>Your Emotional Resource</span></h1>
+      <p>Building confident access to your peak state</p>
+    </div>
+  </div>
+</div>
+
+<div class="progress-wrap">
+  <div class="progress-inner">
+    <div class="progress-meta">
+      <span class="progress-label" id="progress-label">Introduction</span>
+      <span class="progress-count" id="progress-count"></span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- VIEW 1: INTRO -->
+<div class="view active" id="v1">
+  <div class="step-badge">Exercise 3</div>
+  <h2 class="view-title">You already have the state.<br>You just need a <span>reliable way to access it.</span></h2>
+  <p class="view-subtitle">This is not about generating confidence you do not have. It is about training your nervous system to retrieve confidence you have already felt.</p>
+
+  <div class="navy-box">
+    <h2>What anchoring does</h2>
+    <p>Anchoring is a process from performance psychology used by elite athletes, public speakers, and negotiators to access peak emotional states on demand. It works by creating a direct association between a physical gesture and a specific emotional state, so that activating the gesture retrieves the state automatically.</p>
+    <p>In this exercise you will identify a memory containing exactly the emotional qualities you want access to in pricing conversations: pride, confidence, certainty. You will build a vivid multi-sensory experience of that memory, amplify the emotion to peak intensity, and then physically store it in a gesture you can use in any high-stakes moment.</p>
+    <div class="hl">The nervous system does not distinguish between a memory and the present moment if the memory is vivid enough. That is the mechanism this exercise uses.</div>
+  </div>
+
+  <div class="callout">
+    <p><strong>Added in this version:</strong> a guided breathing process for amplification, an intensity tracker to confirm you are anchoring at peak state, a state-break between repetitions to deepen each one, a practice tracker for your three to four repetitions, and a future-pacing stage to connect the anchor to the specific conversation you want to use it in. Anchoring without future pacing is like practising a speech without ever placing it in the room. Future pacing closes that gap.</p>
+  </div>
+
+  <div class="callout" style="margin-top:-8px;">
+    <p><strong>Before you begin:</strong> find somewhere quiet where you will not be interrupted for 15 to 20 minutes. This process requires your full attention. Each stage builds on the last. Do not skip ahead.</p>
+  </div>
+
+  <div class="nav-buttons">
+    <span></span>
+    <button class="btn btn-primary btn-large" onclick="go(2)">Begin &rarr;</button>
+  </div>
+</div>
+
+<!-- VIEW 2: STAGE 1 — CHOOSE YOUR MEMORY -->
+<div class="view" id="v2">
+  <div class="step-badge">Stage 1 of 6</div>
+  <h2 class="view-title">Choose Your <span>Memory</span></h2>
+  <p class="view-subtitle">The memory does not need to be impressive. It needs to be emotionally intense. A quiet moment of genuine pride is worth more than a public achievement you felt detached from.</p>
+
+  <div class="callout">
+    <p>You are looking for a moment when you felt genuinely proud, happy, and successful at the same time. All three, together. The memory can be from any age, any context. Learning to ride a bike at seven, finishing something you were not sure you could finish, a moment someone saw you clearly, or a private achievement no one else knew about. What matters is the feeling, not the story.</p>
+  </div>
+
+  <div class="stage-wrap">
+    <div class="stage-number">
+      <div class="sn-badge">1</div>
+      <div>
+        <div class="sn-title">Your Memory</div>
+        <div class="sn-sub">Take a moment before writing. Let the memory come to you rather than searching for it.</div>
+      </div>
+    </div>
+    <div class="stage-content">
+      <label class="field-label" style="color:var(--turq);">Describe the memory briefly</label>
+      <textarea id="memory_desc" rows="4" style="background:rgba(255,255,255,0.08);border-color:rgba(61,133,140,0.5);color:white;" placeholder="e.g. The afternoon I finished my first piece of public writing and pressed publish. Or the day I learned to swim at 34. Or the morning I handed in my notice and felt completely certain..."></textarea>
+      <div style="margin-top:20px;">
+        <label class="field-label" style="color:var(--turq);">What were the three primary emotions in that moment?</label>
+        <textarea id="memory_emotions" rows="2" style="background:rgba(255,255,255,0.08);border-color:rgba(61,133,140,0.5);color:white;" placeholder="e.g. Pride, relief, a sense of complete rightness. Or joy, certainty, and a feeling of expansion..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p><strong>Note:</strong> if more than one memory comes to mind, choose the one with the strongest physical feeling, not the most impressive story. You are selecting for emotional intensity, not narrative significance.</p>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(1)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(3)">Next &rarr;</button>
+  </div>
+</div>
+
+<!-- VIEW 3: STAGE 2 — SENSORY IMMERSION -->
+<div class="view" id="v3">
+  <div class="step-badge">Stage 2 of 6</div>
+  <h2 class="view-title">Step Into the <span>Memory</span></h2>
+  <p class="view-subtitle">Close your eyes and place yourself fully inside it before you write. Work through each sense deliberately. The more vivid the memory, the stronger the anchor.</p>
+
+  <div class="callout">
+    <p>As you work through each sense, actively intensify what you find. Make the colours brighter. Turn up the sounds. Feel the physical sensations more completely. Let a smile come naturally to your face if one wants to.</p>
+  </div>
+
+  <div class="stage-wrap">
+    <div class="stage-number">
+      <div class="sn-badge">2</div>
+      <div>
+        <div class="sn-title">Sensory Immersion</div>
+        <div class="sn-sub">Work through each sense. Close your eyes first, then write what you found.</div>
+      </div>
+    </div>
+    <div class="stage-content">
+      <div class="sense-grid">
+        <div class="sense-item">
+          <div class="sense-icon-wrap">&#128064;</div>
+          <div class="sense-body">
+            <div class="sense-name">Visual</div>
+            <div class="sense-prompt">What do you see? Faces, the environment, the light. Make the image brighter and more vivid.</div>
+            <textarea class="sense-ta" id="sense_visual" rows="2" placeholder="e.g. I can see the light through the window. The expression on the face across from me. The colour of the room..."></textarea>
+          </div>
+        </div>
+        <div class="sense-item">
+          <div class="sense-icon-wrap">&#127908;</div>
+          <div class="sense-body">
+            <div class="sense-name">Auditory</div>
+            <div class="sense-prompt">What do you hear? Voices, ambient sounds, any words spoken in that moment.</div>
+            <textarea class="sense-ta" id="sense_auditory" rows="2" placeholder="e.g. My own voice. The silence after. The sound of the environment around me..."></textarea>
+          </div>
+        </div>
+        <div class="sense-item">
+          <div class="sense-icon-wrap">&#129432;</div>
+          <div class="sense-body">
+            <div class="sense-name">Physical</div>
+            <div class="sense-prompt">How does your body feel? Your posture, your feet on the ground, the temperature, any physical sensation of the emotion.</div>
+            <textarea class="sense-ta" id="sense_physical" rows="2" placeholder="e.g. My shoulders are back. There is warmth in my chest. My feet feel solid. My breathing is slow and deep..."></textarea>
+          </div>
+        </div>
+        <div class="sense-item">
+          <div class="sense-icon-wrap">&#127807;</div>
+          <div class="sense-body">
+            <div class="sense-name">Olfactory</div>
+            <div class="sense-prompt">Any smell present in that moment? Even faint. Even imagined.</div>
+            <textarea class="sense-ta" id="sense_smell" rows="2" placeholder="e.g. Fresh air. Coffee. Something specific to that room or that day..."></textarea>
+          </div>
+        </div>
+        <div class="sense-item">
+          <div class="sense-icon-wrap">&#10024;</div>
+          <div class="sense-body">
+            <div class="sense-name">Emotional</div>
+            <div class="sense-prompt">Allow the feelings to intensify now. Make the colours more vibrant, the emotions stronger. Where does the feeling sit in your body? How big is it?</div>
+            <textarea class="sense-ta" id="sense_emotion" rows="3" placeholder="e.g. The pride starts in my chest and spreads upward. It feels expansive, warm, like I am taking up more space than usual. There is a quiet certainty underneath it that I did not question at the time..."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(2)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(4)">Next &rarr;</button>
+  </div>
+</div>
+
+<!-- VIEW 4: STAGE 3 — AMPLIFY -->
+<div class="view" id="v4">
+  <div class="step-badge">Stage 3 of 6</div>
+  <h2 class="view-title">Amplify the <span>Emotion</span></h2>
+  <p class="view-subtitle">Use the breathing guide below to breathe the feelings of pride, happiness, and confidence directly into your heart. Each breath deepens and amplifies the emotional state.</p>
+
+  <div class="stage-wrap">
+    <div class="stage-number">
+      <div class="sn-badge">3</div>
+      <div>
+        <div class="sn-title">Breathe and Amplify</div>
+        <div class="sn-sub">Follow the breathing guide. Stay in the memory as you breathe.</div>
+      </div>
+    </div>
+    <div class="stage-content">
+      <div class="breath-wrap" id="breathWrap">
+        <div class="breath-ring">
+          <svg viewBox="0 0 160 160">
+            <circle class="br-track" cx="80" cy="80" r="70"/>
+            <circle class="br-fill" id="brFill" cx="80" cy="80" r="70"/>
+            <circle class="br-inner" cx="80" cy="80" r="60"/>
+            <text class="br-count" id="brCount" x="80" y="76">4</text>
+            <text class="br-text" id="brLabel" x="80" y="94">Inhale</text>
+          </svg>
+        </div>
+        <div class="breath-instruction" id="breathInstruction">Breathe the feeling into your heart</div>
+        <div class="breath-phase" id="breathPhase">PRESS START TO BEGIN</div>
+        <button class="btn btn-ghost" id="breathBtn" onclick="toggleBreath()">Start Breathing Guide</button>
+      </div>
+      <div class="intensity-wrap">
+        <div class="intensity-label">Rate your emotional intensity right now</div>
+        <div class="intensity-scale" id="intensityScale">
+          <button class="int-btn" onclick="setIntensity(1)">1</button>
+          <button class="int-btn" onclick="setIntensity(2)">2</button>
+          <button class="int-btn" onclick="setIntensity(3)">3</button>
+          <button class="int-btn" onclick="setIntensity(4)">4</button>
+          <button class="int-btn" onclick="setIntensity(5)">5</button>
+          <button class="int-btn" onclick="setIntensity(6)">6</button>
+          <button class="int-btn active-7" onclick="setIntensity(7)">7</button>
+        </div>
+        <div class="intensity-hint">1 = very low &nbsp; 7 = peak intensity. Aim for 7 before setting the anchor.</div>
+        <div class="intensity-feedback" id="intensityFeedback"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(3)">Back</button>
+    <button class="btn btn-primary btn-large" id="setAnchorBtn" onclick="go(5)">Set the Anchor &rarr;</button>
+  </div>
+</div>
+
+<!-- VIEW 5: STAGE 4 — SET THE ANCHOR -->
+<div class="view" id="v5">
+  <div class="step-badge">Stage 4 of 6</div>
+  <h2 class="view-title">Set the <span>Anchor</span></h2>
+  <p class="view-subtitle">You are at peak intensity. Do all four of the following simultaneously, right now, while staying fully inside the feeling.</p>
+
+  <div class="stage-wrap">
+    <div class="stage-number">
+      <div class="sn-badge">4</div>
+      <div>
+        <div class="sn-title">The Physical Anchor</div>
+        <div class="sn-sub">All four steps together, at the peak of the feeling. Do not delay.</div>
+      </div>
+    </div>
+    <div class="stage-content">
+      <div class="anchor-visual">
+        <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="80" cy="80" r="75" fill="rgba(61,133,140,0.08)" stroke="#3D858C" stroke-width="1"/>
+          <!-- Simplified hand with thumb-index pinch -->
+          <ellipse cx="80" cy="95" rx="30" ry="22" fill="#E8F7F8" stroke="#3D858C" stroke-width="1.5"/>
+          <!-- Four fingers -->
+          <rect x="55" y="62" width="10" height="36" rx="5" fill="#E8F7F8" stroke="#3D858C" stroke-width="1.5"/>
+          <rect x="67" y="56" width="10" height="42" rx="5" fill="#E8F7F8" stroke="#3D858C" stroke-width="1.5"/>
+          <rect x="79" y="58" width="10" height="40" rx="5" fill="#E8F7F8" stroke="#3D858C" stroke-width="1.5"/>
+          <rect x="91" y="63" width="10" height="35" rx="5" fill="#E8F7F8" stroke="#3D858C" stroke-width="1.5"/>
+          <!-- Thumb curved to index pinch -->
+          <path d="M 55 80 Q 45 70 50 60 Q 55 52 62 58" fill="none" stroke="#3D858C" stroke-width="2" stroke-linecap="round"/>
+          <ellipse cx="60" cy="60" rx="5" ry="5" fill="#3D858C"/>
+          <ellipse cx="68" cy="60" rx="5" ry="5" fill="#3D858C"/>
+          <!-- Pinch highlight -->
+          <circle cx="64" cy="60" r="10" fill="none" stroke="#C9F6FA" stroke-width="2" stroke-dasharray="4,3" opacity="0.8">
+            <animate attributeName="r" values="10;13;10" dur="2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+          </circle>
+        </svg>
+        <div style="text-align:center;color:rgba(201,246,250,0.8);font-family:'Cormorant Garamond',serif;font-size:18px;font-style:italic;">Thumb and index finger together, firmly</div>
+      </div>
+      <div class="anchor-steps" id="anchorSteps">
+        <div class="anchor-step" id="as1">
+          <div class="as-num">1</div>
+          <div class="as-text"><strong>Take a slow, deep breath.</strong> Fill your lungs completely. Let the exhale be slow and controlled.</div>
+        </div>
+        <div class="anchor-step" id="as2">
+          <div class="as-num">2</div>
+          <div class="as-text"><strong>Bring your thumb and index finger together firmly</strong> on your dominant hand. Press them together with deliberate pressure.</div>
+        </div>
+        <div class="anchor-step" id="as3">
+          <div class="as-num">3</div>
+          <div class="as-text"><strong>Hold the pinch for several seconds</strong> while staying completely inside the memory and the feeling. Do not let the image or the emotion fade.</div>
+        </div>
+        <div class="anchor-step" id="as4">
+          <div class="as-num">4</div>
+          <div class="as-text"><strong>When you are ready: open your eyes and release your fingers at the exact same moment.</strong> The simultaneous release is important. It marks the end of the anchor-setting.</div>
+        </div>
+      </div>
+      <button class="btn btn-ghost" id="lightStepsBtn" onclick="lightSteps()" style="display:block;margin:20px auto 0;">Walk me through each step</button>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(4)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(6)">I have set the anchor &rarr;</button>
+  </div>
+</div>
+
+<!-- VIEW 6: STAGE 5 — REPEAT -->
+<div class="view" id="v6">
+  <div class="step-badge">Stage 5 of 6</div>
+  <h2 class="view-title">Repeat to <span>Strengthen</span></h2>
+  <p class="view-subtitle">One repetition creates an association. Three or four repetitions create an automatic response. Each repetition must begin from a clean neutral state.</p>
+
+  <div class="callout">
+    <p>Between each repetition, do a <strong>state break</strong> — think of something completely neutral (a piece of furniture, a shopping list, anything mundane) for ten seconds before starting again. This resets your emotional baseline so each new repetition anchors cleanly into the gesture rather than building on residual feeling.</p>
+  </div>
+
+  <div class="stage-wrap">
+    <div class="stage-number">
+      <div class="sn-badge">5</div>
+      <div>
+        <div class="sn-title">Repetition Tracker</div>
+        <div class="sn-sub">Complete the full process (stages 2 to 4) three to four times. Mark each below.</div>
+      </div>
+    </div>
+    <div class="stage-content">
+      <div class="state-break">
+        <p><strong>State break before each new repetition:</strong> think of something completely neutral for 10 seconds, then return to the memory from a clean baseline.</p>
+      </div>
+      <div class="rep-hint">Tap each circle when you complete a full repetition (stages 2, 3, and 4 together)</div>
+      <div class="rep-tracker" id="repTracker">
+        <div class="rep-circle" onclick="markRep(1)" id="rep1">
+          <div class="rep-num">1</div>
+          <div class="rep-label">Rep</div>
+        </div>
+        <div class="rep-circle" onclick="markRep(2)" id="rep2">
+          <div class="rep-num">2</div>
+          <div class="rep-label">Rep</div>
+        </div>
+        <div class="rep-circle" onclick="markRep(3)" id="rep3">
+          <div class="rep-num">3</div>
+          <div class="rep-label">Rep</div>
+        </div>
+        <div class="rep-circle" onclick="markRep(4)" id="rep4">
+          <div class="rep-num">4</div>
+          <div class="rep-label">Rep</div>
+        </div>
+      </div>
+      <div id="repFeedback" style="text-align:center;font-family:'Cormorant Garamond',serif;font-size:18px;font-style:italic;color:var(--turq);min-height:28px;"></div>
+      <div style="margin-top:24px;">
+        <label class="field-label" style="color:var(--turq);">Notes on intensity across repetitions</label>
+        <textarea id="rep_notes" rows="3" style="background:rgba(255,255,255,0.08);border-color:rgba(61,133,140,0.5);color:white;" placeholder="e.g. The second repetition felt stronger than the first. By the third I noticed the feeling arrived faster. There was a moment in the fourth where it felt completely automatic..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(5)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(7)">Future Pacing &rarr;</button>
+  </div>
+</div>
+
+<!-- VIEW 7: FUTURE PACING -->
+<div class="view" id="v7">
+  <div class="step-badge">Stage 6 of 6</div>
+  <h2 class="view-title">Future <span>Pacing</span></h2>
+  <p class="view-subtitle">Anchoring without future pacing is like rehearsing a performance without ever placing yourself on the actual stage. This stage closes that gap.</p>
+
+  <div class="callout">
+    <p>Future pacing fires your anchor inside a vivid visualisation of the specific conversation you want to use it in. Your nervous system then stores both: the peak state and the context. The result is that when the real moment arrives, the anchor activates faster and more completely because it has already been there.</p>
+  </div>
+
+  <div class="stage-wrap">
+    <div class="stage-number">
+      <div class="sn-badge">&#9654;</div>
+      <div>
+        <div class="sn-title">Your Pricing Conversation</div>
+        <div class="sn-sub">Bring the specific scenario to mind. Make it as real as the memory.</div>
+      </div>
+    </div>
+    <div class="stage-content">
+      <div class="scenario-field" style="margin-bottom:18px;">
+        <div class="sf-label">Visualise the conversation</div>
+        <div class="sf-hint">Close your eyes. Picture the specific person, the specific room or call. See their face, hear the ambient sound, feel where your body is sitting. Make it real. Then open your eyes and describe what you visualised.</div>
+        <textarea id="future_scenario" rows="3" placeholder="e.g. I am on a video call. The client has just asked about pricing for the next phase. I can see their face. The room I am sitting in. My notebook open beside me. I feel the slight rise of the old pattern beginning..."></textarea>
+      </div>
+      <div class="scenario-field" style="margin-bottom:18px;">
+        <div class="sf-label">Now fire your anchor inside that scene</div>
+        <div class="sf-hint">While holding that visualisation, bring your thumb and index finger together, take the deep breath, and allow the anchored state to rise inside the conversation. Notice what changes. How do you move differently? What do you say? How does the room feel?</div>
+        <textarea id="future_response" rows="3" placeholder="e.g. When I fire the anchor inside the visualisation, I notice my voice becomes slower. I feel no urgency to fill the silence. I state the number from a place of complete calm. The scene feels different from the inside..."></textarea>
+      </div>
+      <div class="scenario-field">
+        <div class="sf-label">What does the anchored version of you say in that moment?</div>
+        <div class="sf-hint">Write the actual words. The anchored version of you speaking your value clearly and without apology.</div>
+        <textarea id="future_words" rows="3" placeholder="e.g. The investment for this programme is X. That includes everything we have discussed. Shall we talk about how to move forward?"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(6)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(8)">Complete &rarr;</button>
+  </div>
+</div>
+
+<!-- VIEW 8: COMPLETE -->
+<div class="view" id="v8">
+  <div class="completion-header">
+    <div class="check-circle">&#10003;</div>
+    <h2>Your Anchor is Set</h2>
+    <p>You have created a direct neurological link between a physical gesture and your peak emotional state. Use it consistently before any high-stakes conversation. The more you use it, the more immediate and complete the response becomes.</p>
+  </div>
+
+  <div class="anchor-card">
+    <svg viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="35" cy="35" r="34" fill="rgba(61,133,140,0.15)" stroke="#3D858C" stroke-width="1.5"/>
+      <ellipse cx="35" cy="42" rx="14" ry="10" fill="#E8F7F8" stroke="#3D858C" stroke-width="1.2"/>
+      <rect x="22" y="24" width="5" height="20" rx="2.5" fill="#E8F7F8" stroke="#3D858C" stroke-width="1.2"/>
+      <rect x="29" y="21" width="5" height="23" rx="2.5" fill="#E8F7F8" stroke="#3D858C" stroke-width="1.2"/>
+      <rect x="36" y="22" width="5" height="22" rx="2.5" fill="#E8F7F8" stroke="#3D858C" stroke-width="1.2"/>
+      <rect x="43" y="26" width="5" height="18" rx="2.5" fill="#E8F7F8" stroke="#3D858C" stroke-width="1.2"/>
+      <path d="M 22 36 Q 16 30 20 24 Q 23 19 27 23" fill="none" stroke="#3D858C" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="26" cy="25" r="3.5" fill="#3D858C"/>
+      <circle cx="31" cy="24" r="3.5" fill="#3D858C"/>
+    </svg>
+    <h3>Your Anchor Gesture</h3>
+    <p>Before any pricing or value conversation: bring your thumb and index finger together, take one slow deep breath, and allow the anchored state to rise. Hold for three seconds. Enter the conversation from that state.</p>
+    <div class="ac-steps">
+      <div class="ac-step"><div class="acs-icon">&#128072;</div><div class="acs-text">Pinch</div></div>
+      <div class="ac-step"><div class="acs-icon">&#127849;</div><div class="acs-text">Breathe</div></div>
+      <div class="ac-step"><div class="acs-icon">&#10024;</div><div class="acs-text">Rise</div></div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p><strong>Maintenance:</strong> refresh the anchor before any high-stakes conversation by running through stages 2 to 4 once. A single full repetition is enough to recharge it. Over time the gesture alone will be sufficient.</p>
+  </div>
+
+  <div class="dl-wrap">
+    <button class="btn btn-primary btn-large" onclick="downloadPDF()">&#8595;&nbsp; Download Your Anchor Profile</button>
+    <p>Your memory, sensory map, repetition notes, and future-pacing responses as a private PDF.</p>
+  </div>
+  <span class="restart-link" onclick="restartEx()">Start again</span>
+</div>
+
+</div>
+
+<div class="footer">
+  Maria Fuentes &nbsp;|&nbsp; mariafuentes.co.uk &nbsp;|&nbsp; &copy; Hypnotika Mente Ltd 2026
+</div>
+<script>
+var TOTAL=8;
+var labels=['Introduction','Stage 1: Choose Memory','Stage 2: Sensory Immersion','Stage 3: Amplify','Stage 4: Set Anchor','Stage 5: Repeat','Stage 6: Future Pacing','Complete'];
+var counts=['','Stage 1 of 6','Stage 2 of 6','Stage 3 of 6','Stage 4 of 6','Stage 5 of 6','Stage 6 of 6',''];
+
+var intensity=0;
+var reps=[];
+var breathActive=false;
+var breathInterval=null;
+var breathPhase=0; // 0=inhale 1=hold 2=exhale 3=hold
+var breathCount=0;
+var stepInterval=null;
+
+var intensityMessages=['',
+  'Very low. Continue breathing and deepen the memory.',
+  'Low. Keep amplifying. Make the image more vivid.',
+  'Building. Let the colours brighten, the feeling expand.',
+  'Good. Almost there. Breathe it deeper into your heart.',
+  'Strong. Keep going.',
+  'Very strong. Almost at peak.',
+  'Peak intensity. Set the anchor now.'
+];
+
+function go(n){
+  document.querySelectorAll('.view').forEach(function(v){v.classList.remove('active');});
+  var el=document.getElementById('v'+n);
+  el.classList.add('active');
+  el.scrollIntoView({behavior:'smooth',block:'start'});
+  var pct=((n-1)/(TOTAL-1))*100;
+  document.getElementById('progress-fill').style.width=pct+'%';
+  document.getElementById('progress-label').textContent=labels[n-1]||'';
+  document.getElementById('progress-count').textContent=counts[n-1]||'';
+  if(n!==4&&breathActive){stopBreath();}
+}
+
+// ── Breathing guide ──────────────────────────────────────────────────────
+var breathPhaseData=[
+  {label:'Inhale',instruction:'Breathe the feeling into your heart',duration:4,direction:'in'},
+  {label:'Hold',instruction:'Hold and feel the expansion',duration:4,direction:'hold'},
+  {label:'Exhale',instruction:'Release slowly, keep the feeling',duration:6,direction:'out'},
+  {label:'Hold',instruction:'Pause. Let the next breath build.',duration:2,direction:'hold'}
+];
+var circumference=2*Math.PI*70; // r=70
+var bPhaseIdx=0, bSec=0;
+
+function toggleBreath(){
+  if(breathActive){stopBreath();}
+  else{startBreath();}
+}
+
+function startBreath(){
+  breathActive=true;
+  document.getElementById('breathBtn').textContent='Pause';
+  bPhaseIdx=0; bSec=0;
+  updateBreathUI();
+  breathInterval=setInterval(tickBreath,1000);
+}
+
+function stopBreath(){
+  breathActive=false;
+  clearInterval(breathInterval);
+  document.getElementById('breathBtn').textContent='Resume';
+  document.getElementById('breathPhase').textContent='PAUSED';
+}
+
+function tickBreath(){
+  bSec++;
+  var phase=breathPhaseData[bPhaseIdx];
+  if(bSec>=phase.duration){
+    bSec=0;
+    bPhaseIdx=(bPhaseIdx+1)%breathPhaseData.length;
+  }
+  updateBreathUI();
+}
+
+function updateBreathUI(){
+  var phase=breathPhaseData[bPhaseIdx];
+  var remaining=phase.duration-bSec;
+  var progress=bSec/phase.duration;
+  // stroke-dashoffset: full=circumference, empty=0
+  var offset;
+  if(phase.direction==='in'){ offset=circumference*(1-progress); }
+  else if(phase.direction==='out'){ offset=circumference*progress; }
+  else { offset = bPhaseIdx===1?0:circumference; }
+  document.getElementById('brFill').style.strokeDashoffset=offset;
+  document.getElementById('brCount').textContent=remaining;
+  document.getElementById('brLabel').textContent=phase.label;
+  document.getElementById('breathInstruction').textContent=phase.instruction;
+  document.getElementById('breathPhase').textContent=phase.label.toUpperCase();
+}
+
+// ── Intensity scale ──────────────────────────────────────────────────────
+function setIntensity(n){
+  intensity=n;
+  document.querySelectorAll('.int-btn').forEach(function(b,i){
+    b.classList.remove('active');
+    if(i<n) b.classList.add('active');
+  });
+  document.getElementById('intensityFeedback').textContent=intensityMessages[n]||'';
+}
+
+// ── Anchor step lighter ──────────────────────────────────────────────────
+var stepIdx=0;
+function lightSteps(){
+  document.getElementById('lightStepsBtn').style.display='none';
+  stepIdx=0;
+  lightNextStep();
+}
+
+function lightNextStep(){
+  var steps=['as1','as2','as3','as4'];
+  document.querySelectorAll('.anchor-step').forEach(function(s){s.classList.remove('lit');});
+  if(stepIdx<steps.length){
+    document.getElementById(steps[stepIdx]).classList.add('lit');
+    stepIdx++;
+    setTimeout(lightNextStep,4000);
+  }
+}
+
+// ── Repetition tracker ───────────────────────────────────────────────────
+var repMessages={1:'First repetition complete. State break, then go again.',
+  2:'Two down. The association is forming. One or two more.',
+  3:'Three repetitions. Your anchor is strong. One more will deepen it further.',
+  4:'Four repetitions complete. Your anchor is set. Move to future pacing.'};
+
+function markRep(n){
+  var el=document.getElementById('rep'+n);
+  el.classList.toggle('done');
+  if(el.classList.contains('done')){reps.push(n);}
+  else{reps=reps.filter(function(r){return r!==n;});}
+  var done=document.querySelectorAll('.rep-circle.done').length;
+  document.getElementById('repFeedback').textContent=repMessages[done]||'';
+}
+
+// ── gv ───────────────────────────────────────────────────────────────────
+function gv(id){var e=document.getElementById(id);return e?(e.value||'').trim():'';}
+
+function restartEx(){
+  document.querySelectorAll('textarea').forEach(function(t){t.value='';});
+  document.querySelectorAll('.rep-circle.done').forEach(function(r){r.classList.remove('done');});
+  if(breathActive)stopBreath();
+  intensity=0;reps=[];bPhaseIdx=0;bSec=0;
+  document.querySelectorAll('.int-btn').forEach(function(b){b.classList.remove('active');});
+  document.getElementById('intensityFeedback').textContent='';
+  document.getElementById('repFeedback').textContent='';
+  document.getElementById('breathBtn').textContent='Start Breathing Guide';
+  document.getElementById('brFill').style.strokeDashoffset=440;
+  document.getElementById('brCount').textContent='4';
+  document.getElementById('brLabel').textContent='Inhale';
+  document.getElementById('breathInstruction').textContent='Breathe the feeling into your heart';
+  document.getElementById('breathPhase').textContent='PRESS START TO BEGIN';
+  document.querySelectorAll('.anchor-step').forEach(function(s){s.classList.remove('lit');});
+  document.getElementById('lightStepsBtn').style.display='block';
+  go(1);
+}
+
+// ── PDF ──────────────────────────────────────────────────────────────────
+function downloadPDF(){
+  var jsPDFLib=(window.jspdf&&window.jspdf.jsPDF)||window.jsPDF;
+  if(!jsPDFLib){alert('PDF library not loaded.');return;}
+  var doc=new jsPDFLib({unit:'mm',format:'a4'});
+  var pW=210,pH=297,mg=16,cW=178,page=1;
+  var logoData=document.getElementById('site-logo')?document.getElementById('site-logo').src:null;
+
+  function fc(r,g,b){doc.setFillColor(r,g,b);}
+  function tc(r,g,b){doc.setTextColor(r,g,b);}
+  function dc(r,g,b){doc.setDrawColor(r,g,b);}
+  function lw(w){doc.setLineWidth(w);}
+
+  function coverHeader(){
+    fc(1,41,58);doc.rect(0,0,pW,48,'F');
+    fc(61,133,140);doc.rect(0,48,pW,2.5,'F');
+    if(logoData){try{doc.addImage(logoData,'JPEG',mg,8,32,32);}catch(e){}}
+    doc.setFont('helvetica','bold');doc.setFontSize(18);tc(255,255,255);
+    doc.text('Anchoring: Your Emotional Resource',mg+38,22);
+    doc.setFont('helvetica','italic');doc.setFontSize(9);tc(201,246,250);
+    doc.text('Building confident access to your peak state on demand',mg+38,31);
+    var today=new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
+    doc.setFont('helvetica','normal');doc.setFontSize(8);tc(150,190,195);
+    doc.text(today,pW-mg,43,{align:'right'});
+  }
+
+  function pageHeader(title){
+    fc(1,41,58);doc.rect(0,0,pW,15,'F');
+    fc(61,133,140);doc.rect(0,15,pW,1.8,'F');
+    if(logoData){try{doc.addImage(logoData,'JPEG',mg,1,13,13);}catch(e){}}
+    doc.setFont('helvetica','bold');doc.setFontSize(8);tc(201,246,250);
+    doc.text(title||'Anchoring Profile',mg+17,10);
+    doc.setFont('helvetica','normal');tc(150,190,195);
+    doc.text('mariafuentes.co.uk',pW-mg,10,{align:'right'});
+  }
+
+  function drawFooter(){
+    fc(1,41,58);doc.rect(0,pH-10,pW,10,'F');
+    doc.setFont('helvetica','normal');doc.setFontSize(6.5);tc(201,246,250);
+    doc.text('(c) Hypnotika Mente Ltd 2026  |  Maria Fuentes  |  mariafuentes.co.uk',mg,pH-3.5);
+    doc.text('Page '+page,pW-mg,pH-3.5,{align:'right'});
+  }
+
+  function newPage(title){drawFooter();doc.addPage();page++;pageHeader(title);return 22;}
+  function checkY(y,need,title){return(y+need>pH-12)?newPage(title):y;}
+
+  function secBar(y,text,r,g,b){
+    r=r!==undefined?r:1;g=g!==undefined?g:41;b=b!==undefined?b:58;
+    fc(r,g,b);doc.rect(mg,y,cW,9,'F');
+    doc.setFont('helvetica','bold');doc.setFontSize(9.5);tc(255,255,255);
+    doc.text(text,mg+5,y+6.3);return y+12;
+  }
+
+  function callout(y,text){
+    var lines=doc.splitTextToSize(text,cW-18);
+    var h=lines.length*5+10;h=Math.max(h,14);
+    fc(232,247,248);doc.rect(mg,y,cW,h,'F');
+    fc(61,133,140);doc.rect(mg,y,3.5,h,'F');
+    doc.setFont('helvetica','normal');doc.setFontSize(8.5);tc(1,41,58);
+    var ty=y+8;lines.forEach(function(l){doc.text(l,mg+7,ty);ty+=5;});
+    return y+h+5;
+  }
+
+  function fieldBlock(y,label,value,title,dark){
+    y=checkY(y,22,title);
+    if(label){
+      doc.setFont('helvetica','bold');doc.setFontSize(7.5);
+      tc(dark?201:61,dark?246:133,dark?250:140);
+      doc.text(label.toUpperCase(),mg,y);y+=4;
+    }
+    var bh=value?Math.min(7,doc.splitTextToSize(value,cW-6).length)*5.5+8:14;
+    fc(dark?20:248,dark?55:252,dark?70:252);
+    doc.rect(mg,y,cW,bh,'F');
+    dc(61,133,140);lw(0.3);doc.rect(mg,y,cW,bh,'S');lw(0.1);
+    if(value){
+      var vl=doc.splitTextToSize(value,cW-6);
+      doc.setFont('helvetica','normal');doc.setFontSize(8.5);
+      tc(dark?201:1,dark?246:41,dark?250:58);
+      vl.slice(0,8).forEach(function(l,i){doc.text(l,mg+3,y+7+i*5.5);});
+    }
+    return y+bh+5;
+  }
+
+  // ── PAGE 1 ──
+  coverHeader();
+  var y=56;
+
+  // Anchor reminder box
+  fc(1,41,58);doc.rect(mg,y,cW,20,'F');
+  fc(61,133,140);doc.rect(mg,y,4,20,'F');
+  fc(61,133,140);doc.rect(mg,y,cW,1.5,'F');
+  doc.setFont('helvetica','bold');doc.setFontSize(11);tc(201,246,250);
+  doc.text('Your Anchor Gesture',mg+8,y+8);
+  doc.setFont('helvetica','normal');doc.setFontSize(9);tc(200,225,230);
+  tc(200,225,230);
+  doc.text('Pinch thumb + index finger  |  One slow deep breath  |  Hold 3 seconds  |  Allow the state to rise',mg+8,y+15);
+  y+=25;
+
+  y=secBar(y,'STAGE 1: YOUR MEMORY');
+  y=fieldBlock(y,'The memory',gv('memory_desc'),'Memory',true);
+  y=fieldBlock(y,'Primary emotions',gv('memory_emotions'),'Memory',true);
+  y+=4;
+
+  y=secBar(y,'STAGE 2: SENSORY MAP',61,133,140);
+  var senses=[
+    {label:'Visual',id:'sense_visual'},
+    {label:'Auditory',id:'sense_auditory'},
+    {label:'Physical',id:'sense_physical'},
+    {label:'Olfactory',id:'sense_smell'},
+    {label:'Emotional',id:'sense_emotion'}
+  ];
+  var hw=(cW-6)/2;
+  for(var si=0;si<senses.length;si+=2){
+    y=checkY(y,20,'Sensory Map');
+    var s1=senses[si], s2=senses[si+1];
+    var v1=gv(s1.id), v2=s2?gv(s2.id):'';
+    var l1=v1?doc.splitTextToSize(v1,hw-5):[];
+    var l2=v2?doc.splitTextToSize(v2,hw-5):[];
+    var colH=Math.max(l1.length*5.5,l2.length*5.5,12)+10;
+    // Left
+    doc.setFont('helvetica','bold');doc.setFontSize(7.5);tc(61,133,140);
+    doc.text(s1.label.toUpperCase(),mg,y);
+    if(s2){doc.text(s2.label.toUpperCase(),mg+hw+6,y);}
+    y+=4;
+    fc(20,55,70);doc.rect(mg,y,hw,colH,'F');dc(61,133,140);lw(0.3);doc.rect(mg,y,hw,colH,'S');lw(0.1);
+    if(l1.length){doc.setFont('helvetica','normal');doc.setFontSize(8.5);tc(201,246,250);l1.slice(0,6).forEach(function(l,i){doc.text(l,mg+3,y+7+i*5.5);});}
+    if(s2){
+      fc(20,55,70);doc.rect(mg+hw+6,y,hw,colH,'F');dc(61,133,140);lw(0.3);doc.rect(mg+hw+6,y,hw,colH,'S');lw(0.1);
+      if(l2.length){doc.setFont('helvetica','normal');doc.setFontSize(8.5);tc(201,246,250);l2.slice(0,6).forEach(function(l,i){doc.text(l,mg+hw+9,y+7+i*5.5);});}
+    } else {
+      // Emotional spans full width
+      fc(20,55,70);doc.rect(mg,y,cW,colH,'F');dc(61,133,140);lw(0.3);doc.rect(mg,y,cW,colH,'S');lw(0.1);
+      if(l1.length){doc.setFont('helvetica','normal');doc.setFontSize(8.5);tc(201,246,250);l1.slice(0,6).forEach(function(l,i){doc.text(l,mg+3,y+7+i*5.5);});}
+    }
+    y+=colH+5;
+  }
+
+  drawFooter();
+
+  // ── PAGE 2 ──
+  y=newPage('Repetitions and Future Pacing');
+
+  y=secBar(y,'STAGE 5: REPETITION NOTES');
+  var doneReps=document.querySelectorAll('.rep-circle.done').length;
+  y=checkY(y,12,'Repetitions');
+  doc.setFont('helvetica','bold');doc.setFontSize(9.5);tc(1,41,58);
+  doc.text('Repetitions completed: '+doneReps+' of 4',mg,y+6);
+  // Draw rep circles
+  for(var ri=1;ri<=4;ri++){
+    var done=document.getElementById('rep'+ri).classList.contains('done');
+    if(done){fc(61,133,140);}else{fc(232,247,248);}
+    dc(61,133,140);lw(0.3);
+    doc.circle(mg+35+(ri-1)*14,y+2.5,5,done?'F':'S');
+    lw(0.1);
+    doc.setFont('helvetica',done?'bold':'normal');doc.setFontSize(8);
+    tc(done?255:100,done?255:145,done?255:150);
+    doc.text(String(ri),mg+35+(ri-1)*14,y+3.3,{align:'center'});
+  }
+  y+=14;
+  y=fieldBlock(y,'Notes on intensity across repetitions',gv('rep_notes'),'Repetitions',true);
+  y+=6;
+
+  y=secBar(y,'STAGE 6: FUTURE PACING',61,133,140);
+  y=callout(y,'The anchor has been rehearsed inside the specific conversation where you want to use it. Below is what you visualised and what the anchored version of you says.');
+  y=fieldBlock(y,'The conversation you visualised',gv('future_scenario'),'Future Pacing',true);
+  y=fieldBlock(y,'What changed when you fired the anchor',gv('future_response'),'Future Pacing',true);
+  y=fieldBlock(y,'What the anchored version of you says',gv('future_words'),'Future Pacing',true);
+  y+=6;
+
+  // Closing card
+  y=checkY(y,26,'Anchor Profile');
+  fc(1,41,58);doc.rect(mg,y,cW,24,'F');
+  fc(61,133,140);doc.rect(mg,y,cW,1.5,'F');
+  fc(61,133,140);doc.rect(mg,y+22.5,cW,1.5,'F');
+  doc.setFont('helvetica','bold');doc.setFontSize(9);tc(201,246,250);
+  doc.text('Before any pricing conversation:',mg+5,y+8);
+  doc.setFont('helvetica','normal');doc.setFontSize(9);tc(200,225,230);
+  doc.text('Pinch  |  Breathe  |  Hold 3 seconds  |  Enter from that state',mg+5,y+15);
+  doc.setFont('helvetica','italic');doc.setFontSize(8);tc(100,155,160);
+  doc.text('Refresh with one full repetition before high-stakes conversations.',mg+5,y+21);
+
+  drawFooter();
+  doc.save('anchoring-emotional-resource.pdf');
+}
+
+</script>
+</body>
+</html>
