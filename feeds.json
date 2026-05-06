@@ -1,5 +1,5 @@
 {
-  "updated": "06 May 2026, 21:09 UTC",
+  "updated": "06 May 2026, 22:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Gender bias in venture capital means identical business cases are evaluated and funded differently",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/06/gender-bias-in-venture-capital-means-identical-business-cases-are-evaluated-and-funded-differently/",
+      "date": "6 May 2026",
+      "excerpt": "Venture capital funding should be allocated to the “best” business cases. But Ana Barjasic and Dario Krpan show how evaluators’ bias means that companies run by women are overlooked and underfunded compared with those presented by men. In E",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Climate governance now shapes governments’ borrowing costs",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
       "date": "5 May 2026",
@@ -236,15 +245,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Are impact crypto assets a new emerging asset class for sustainable and impact investors?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/27/are-impact-crypto-assets-a-new-emerging-asset-class-for-sustainable-and-impact-investors/",
-      "date": "27 Apr 2026",
-      "excerpt": "Traditional sustainable investing is struggling with reliably measuring and verifying impact. Can blockchain and tokenization technologies provide a reliable solution? The Impact Crypto Index, proposed by Veronika Vinogradova and Mariya Gub",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "People urged not to cancel flights over fuel shortage fears",
@@ -252,15 +252,6 @@
       "date": "6 May 2026",
       "excerpt": "Airlines have cut 13,000 flights globally in May as jet fuel prices soar due to the conflict in the Middle East.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf1e/live/7bb43ee0-491f-11f1-9546-d74beef04f02.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
-      "link": "https://www.bbc.com/news/articles/c4g8zejyyr3o?at_medium=RSS&at_campaign=rss",
-      "date": "6 May 2026",
-      "excerpt": "Reports have raised hopes of an agreement between the US and Iran after days of escalation.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9c5/live/5a6e0e90-4966-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
@@ -279,6 +270,15 @@
       "date": "6 May 2026",
       "excerpt": "Shivon Zilis is the mother of four of Musk's children. That relationship began as she advised OpenAI.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95e3/live/2dfa9ad0-496c-11f1-8ac1-2336fddb3c06.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
+      "link": "https://www.bbc.com/news/articles/c4g8zejyyr3o?at_medium=RSS&at_campaign=rss",
+      "date": "6 May 2026",
+      "excerpt": "Reports have raised hopes of an agreement between the US and Iran after days of escalation.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9c5/live/5a6e0e90-4966-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
