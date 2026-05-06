@@ -1,5 +1,5 @@
 {
-  "updated": "06 May 2026, 14:06 UTC",
+  "updated": "06 May 2026, 17:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -191,22 +191,85 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Will Insurance Protect Your Company in Times of War?",
-      "link": "https://hbr.org/2026/05/will-insurance-protect-your-company-in-times-of-war",
-      "date": "4 May 2026",
-      "excerpt": "Leaders shouldn&#8217;t assume that the war exclusion means that they&#8217;re out of luck if conflict harms their business.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Gender bias in venture capital means identical business cases are evaluated and funded differently",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/06/gender-bias-in-venture-capital-means-identical-business-cases-are-evaluated-and-funded-differently/",
+      "date": "6 May 2026",
+      "excerpt": "Venture capital funding should be allocated to the “best” business cases. But Ana Barjasic and Dario Krpan show how evaluators’ bias means that companies run by women are overlooked and underfunded compared with those presented by men. In E",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Climate governance now shapes governments’ borrowing costs",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
+      "date": "5 May 2026",
+      "excerpt": "Financial markets already price climate transition risk into sovereign bond yields. Carmelo Arena, Stefania Basiglio, Andrea Comandé, Giray Gozgor and Jing Li show how investors reward credible governance and green infrastructure, not clima",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "“Becoming Nature Positive” is a documentary about the great choice of our time",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/01/becoming-nature-positive-is-a-documentary-about-the-great-choice-of-our-time/",
+      "date": "1 May 2026",
+      "excerpt": "Ahead of a screening at LSE Marco Lambertini, executive director of the film and Convener of the Nature Positive Initiative, explains the critical choice humanity must make. Everyone has a role to play in becoming nature positive. But becau",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "European businesses cannot quantify the impact of AI on their staff because they are not tracking it",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/30/european-businesses-cannot-quantify-the-impact-of-ai-on-their-staff-because-they-are-not-tracking-it/",
+      "date": "30 Apr 2026",
+      "excerpt": "Businesses in Britain, France and Germany are embracing artificial intelligence. But most struggle to measure its impact properly. Ellie Smith explains how while many firms track business impact of using new technology, they are less able t",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How does a country’s political system affect its incentives to attract foreign investment?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/29/how-does-a-countrys-political-system-affect-its-incentives-to-attract-foreign-investment/",
+      "date": "29 Apr 2026",
+      "excerpt": "Foreign direct investment is a critical engine of economic growth. But not all countries value it equally. Dario Maimone Ansaldo Patti, Ram Mudambi and Pietro Navarra tested the assumption that more democracy equals more inward investment a",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/Screenshot-2026-04-29-103752.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What happens when supply chains go dark",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/28/what-happens-when-supply-chains-go-dark/",
+      "date": "28 Apr 2026",
+      "excerpt": "Global trade relies on supply chains with predictable routing, stable pricing and continuous visibility. But conflict, such as the war in Iran, are significantly disrupting transport routes in unexpected ways. By telling the story of one co",
       "image": ""
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Airlines cut 13,000 flights in May as jet fuel prices soar",
+      "title": "People urged not to cancel flights over fuel shortage fears",
       "link": "https://www.bbc.com/news/articles/cyv24v3mpdmo?at_medium=RSS&at_campaign=rss",
       "date": "6 May 2026",
-      "excerpt": "Airlines have removed nearly two million seats from flights over the month, data from Cirium shows.",
+      "excerpt": "Airlines have cut 13,000 flights globally in May as jet fuel prices soar due to the conflict in the Middle East.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf1e/live/7bb43ee0-491f-11f1-9546-d74beef04f02.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
+      "link": "https://www.bbc.com/news/articles/c4g8zejyyr3o?at_medium=RSS&at_campaign=rss",
+      "date": "6 May 2026",
+      "excerpt": "Reports have raised hopes of an agreement between the US and Iran after days of escalation.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9c5/live/5a6e0e90-4966-11f1-ac78-2112837ce2aa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Up to 150 former WHSmith high street stores to close",
+      "link": "https://www.bbc.com/news/articles/clypzvqzqd7o?at_medium=RSS&at_campaign=rss",
+      "date": "6 May 2026",
+      "excerpt": "The stores were purchased by Modella Capital last year, and then rebranded under the name TGJones.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/257a/live/919ac350-4956-11f1-91ca-0f2f4e61b132.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,29 +283,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
-      "link": "https://www.bbc.com/news/articles/c4g8zejyyr3o?at_medium=RSS&at_campaign=rss",
-      "date": "6 May 2026",
-      "excerpt": "Reports have raised hopes of an agreement between the US and Iran after days of escalation.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dd1/live/df595320-493a-11f1-861c-270dbba6d6ae.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Campaigners call for ban on use of weedkiller glyphosate at harvest time",
       "link": "https://www.bbc.com/news/articles/cvgz420ee0zo?at_medium=RSS&at_campaign=rss",
       "date": "6 May 2026",
       "excerpt": "Campaigners are calling for a ban on the use of the weedkiller over health concerns.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c998/live/1d79ceb0-491c-11f1-a089-fb6c1058395c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Apple to pay up to $95 to some US iPhone buyers over AI lawsuit",
-      "link": "https://www.bbc.com/news/articles/c0j2nydnzy7o?at_medium=RSS&at_campaign=rss",
-      "date": "6 May 2026",
-      "excerpt": "Claims from last year said the tech firm’s advertising of Apple Intelligence fooled iPhone buyers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4139/live/e64eeb80-4927-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
