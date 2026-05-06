@@ -1,5 +1,5 @@
 {
-  "updated": "06 May 2026, 17:28 UTC",
+  "updated": "06 May 2026, 19:44 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,15 +193,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Gender bias in venture capital means identical business cases are evaluated and funded differently",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/06/gender-bias-in-venture-capital-means-identical-business-cases-are-evaluated-and-funded-differently/",
-      "date": "6 May 2026",
-      "excerpt": "Venture capital funding should be allocated to the “best” business cases. But Ana Barjasic and Dario Krpan show how evaluators’ bias means that companies run by women are overlooked and underfunded compared with those presented by men. In E",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Climate governance now shapes governments’ borrowing costs",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
       "date": "5 May 2026",
@@ -242,6 +233,15 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/28/what-happens-when-supply-chains-go-dark/",
       "date": "28 Apr 2026",
       "excerpt": "Global trade relies on supply chains with predictable routing, stable pricing and continuous visibility. But conflict, such as the war in Iran, are significantly disrupting transport routes in unexpected ways. By telling the story of one co",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Are impact crypto assets a new emerging asset class for sustainable and impact investors?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/27/are-impact-crypto-assets-a-new-emerging-asset-class-for-sustainable-and-impact-investors/",
+      "date": "27 Apr 2026",
+      "excerpt": "Traditional sustainable investing is struggling with reliably measuring and verifying impact. Can blockchain and tokenization technologies provide a reliable solution? The Impact Crypto Index, proposed by Veronika Vinogradova and Mariya Gub",
       "image": ""
     },
     {
