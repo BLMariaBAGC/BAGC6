@@ -1,5 +1,5 @@
 {
-  "updated": "07 May 2026, 19:41 UTC",
+  "updated": "07 May 2026, 21:03 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Brain Performance Can Improve at Any Age",
+      "link": "https://neurosciencenews.com/lifespan-optimization-brain-health-30646/",
+      "date": "7 May 2026",
+      "excerpt": "Adults from ages 19 to 94 can measurably improve brain performance through consistent micro-training, proving that cognitive decline is not an inevitable part of the aging process.",
+      "image": "https://neurosciencenews.com/files/2026/05/brain-performance-aging-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Psilocybin Rebuilds the Brain’s Physical Wiring",
+      "link": "https://neurosciencenews.com/psilocybin-brain-entropy-neural-integrity-30645/",
+      "date": "7 May 2026",
+      "excerpt": "New research from UCSF shows that a single high dose of the psychedelic compound creates lasting anatomical changes in brain tracts and \"loosens\" rigid thought patterns, leading to significant improvements in psychological insight and well-",
+      "image": "https://neurosciencenews.com/files/2026/05/psilocybin-brain-rewiring-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Gene Therapy Restores Walking After Paralysis",
+      "link": "https://neurosciencenews.com/hil-6-gene-therapy-spinal-cord-30644/",
+      "date": "7 May 2026",
+      "excerpt": "Researchers have used a designer cytokine, hIL-6, to \"rewire\" the spinal cord by stimulating the sprouting of new connections from intact nerve fibers. This approach successfully restored coordinated walking in paralyzed mice, highlighting ",
+      "image": "https://neurosciencenews.com/files/2026/05/sci-gene-therapy-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Psilocybin Dampens Aggression and Attack Behaviors",
       "link": "https://neurosciencenews.com/psilocybin-aggression-behavior-30643/",
       "date": "7 May 2026",
@@ -117,33 +144,6 @@
       "date": "1 May 2026",
       "excerpt": "By \"reverse engineering\" ketamine, Weill Cornell investigators have identified a specific opioid receptor pathway and a unique receptor \"cross-talk\" that drives rapid antidepressant effects.",
       "image": "https://neurosciencenews.com/files/2026/05/ketamine-mechanism-depression-neurosciene-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Prioritizes “Sound Offsets” During Hearing Repair",
-      "link": "https://neurosciencenews.com/auditory-repair-noise-damage-30639/",
-      "date": "30 Apr 2026",
-      "excerpt": "Researchers have discovered that within just 24 hours of noise-induced hearing damage, the brainstem reorganizes its inhibitory circuits to restore \"sound offset\" signals, the critical markers that tell us when a sound has ended.",
-      "image": "https://neurosciencenews.com/files/2026/04/hearing-repair-noise-pollutio-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Glucose Levels Signal the Growth of Myelin",
-      "link": "https://neurosciencenews.com/glucose-metabolism-myelin-development-30638/",
-      "date": "30 Apr 2026",
-      "excerpt": "Researchers discover that local glucose levels act as a signal that determines when stem cells mature into myelin-producing oligodendrocytes.",
-      "image": "https://neurosciencenews.com/files/2026/04/myelin-glucose-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Your Brain “Dreams” Even When You’re Awake",
-      "link": "https://neurosciencenews.com/dream-continuum-wake-sleep-consciousness-30637/",
-      "date": "29 Apr 2026",
-      "excerpt": "Researchers have identified four distinct mental states that occur regardless of whether we are asleep or awake, revealing a \"neural fingerprint\" for bizarre, dream-like thoughts that can surface even in the middle of the day.",
-      "image": "https://neurosciencenews.com/files/2026/04/daydreaming-wake-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -274,6 +274,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Trump gives 4 July ultimatum to EU to approve trade deal with US",
+      "link": "https://www.bbc.com/news/articles/cp3pyk4nw3lo?at_medium=RSS&at_campaign=rss",
+      "date": "7 May 2026",
+      "excerpt": "The US president said the European Union must enact the trade deal agreed last year and drop tariffs on American goods to zero.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a75/live/be129770-4a4e-11f1-bd52-e755d604ece4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Shell latest oil giant to see profits surge due to Iran war impact",
       "link": "https://www.bbc.com/news/articles/ce3p0x54drwo?at_medium=RSS&at_campaign=rss",
       "date": "7 May 2026",
@@ -297,15 +306,6 @@
       "date": "7 May 2026",
       "excerpt": "A radio fault has been resolved but passengers could continue to face long delays, warns National Rail.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f25/live/25c08330-4a3d-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'We had people come just to see it': Amazon delivers its first UK parcels by drone",
-      "link": "https://www.bbc.com/news/articles/cx21k21vnmgo?at_medium=RSS&at_campaign=rss",
-      "date": "7 May 2026",
-      "excerpt": "The unmanned aircraft can drop off 100 parcels a day within a 12km radius of Amazon's hub.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fff0/live/3de903e0-496d-11f1-8ac1-2336fddb3c06.jpg"
     },
     {
       "source": "BBC Business",
