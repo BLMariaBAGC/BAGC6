@@ -1,5 +1,5 @@
 {
-  "updated": "07 May 2026, 14:04 UTC",
+  "updated": "07 May 2026, 17:46 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Why Effective Leaders Get Branded as Problems",
+      "link": "https://hbr.org/2026/05/why-effective-leaders-get-branded-as-problems",
+      "date": "7 May 2026",
+      "excerpt": "High performers often expose friction&#8212;and then get blamed for it.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "3 Ways AI Can Free Organizations from Legacy Workflows",
       "link": "https://hbr.org/2026/05/3-ways-ai-can-free-organizations-from-legacy-workflows",
       "date": "7 May 2026",
@@ -197,15 +206,6 @@
       "link": "https://hbr.org/podcast/2026/05/new-skills-to-navigate-continuous-change",
       "date": "5 May 2026",
       "excerpt": "A conversation with author Nilofer Merchant about leaving the status quo behind.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Best Leaders Embrace the Role of Supporting Character",
-      "link": "https://hbr.org/2026/05/the-best-leaders-embrace-the-role-of-supporting-character",
-      "date": "5 May 2026",
-      "excerpt": "By understanding and promoting your people&#8217;s stories&#8212;rather than your own&#8212;you can motivate them to do their best work.",
       "image": ""
     },
     {
@@ -265,6 +265,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Portugal and Italy will not suspend digital border checks for Brits",
+      "link": "https://www.bbc.com/news/articles/c78k9ke78ljo?at_medium=RSS&at_campaign=rss",
+      "date": "7 May 2026",
+      "excerpt": "Reports had suggested the countries were set to follow the example of Greece, which effectively suspended biometric checks for UK nationals.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da7c/live/5ad49550-4a26-11f1-b55d-0f258dce1735.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Shell latest oil giant to see profits surge due to Iran war impact",
       "link": "https://www.bbc.com/news/articles/ce3p0x54drwo?at_medium=RSS&at_campaign=rss",
       "date": "7 May 2026",
@@ -277,7 +286,7 @@
       "title": "Major rail disruption expected in southern England until end of day",
       "link": "https://www.bbc.com/news/articles/ckgp8yjllx1o?at_medium=RSS&at_campaign=rss",
       "date": "7 May 2026",
-      "excerpt": "A radio fault has been resolved but passengers could continue to face long delays, warns Network Rail.",
+      "excerpt": "A radio fault has been resolved but passengers could continue to face long delays, warns National Rail.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/095e/live/8239fb90-4a16-11f1-bd52-e755d604ece4.jpg"
     },
     {
@@ -297,15 +306,6 @@
       "date": "6 May 2026",
       "excerpt": "The feud has fuelled a costly showdown between two tech titans.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/611c/live/9f240970-49ea-11f1-9921-0be54b6c608a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The AI fitness instructors selling unreal gains",
-      "link": "https://www.bbc.com/sport/articles/c5ye7dnxv86o?at_medium=RSS&at_campaign=rss",
-      "date": "7 May 2026",
-      "excerpt": "A BBC Sport investigation finds misleading adverts for fitness apps that use AI-generated instructors to make exaggerated claims.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d6b/live/192e4910-496e-11f1-bd52-e755d604ece4.png"
     },
     {
       "source": "BBC Business",
