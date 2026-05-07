@@ -1,6 +1,15 @@
 {
-  "updated": "07 May 2026, 02:43 UTC",
+  "updated": "07 May 2026, 06:33 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your DNA may predict your future success more than your upbringing",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260505234624.htm",
+      "date": "6 May 2026",
+      "excerpt": "A new twin study suggests your genes may play a bigger role in your future success than your upbringing. Researchers found that IQ, which is largely genetically influenced, strongly predicts education, career, and income. Even twins raised ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260502233922.htm",
       "date": "3 May 2026",
       "excerpt": "A new analysis of the “Boltzmann brain” paradox suggests our memories and sense of reality could, in theory, be random illusions born from cosmic chaos. By uncovering circular reasoning in how physicists think about time and entropy, the st",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Alzheimer’s drugs may not work and could raise brain risks",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260502233915.htm",
-      "date": "4 May 2026",
-      "excerpt": "Drugs designed to clear amyloid beta from the brain—once seen as a promising path to slowing Alzheimer’s—may not actually help patients in any meaningful way, according to a major review of over 20,000 participants. Even more concerning, th",
       "image": ""
     },
     {
@@ -193,6 +193,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Gender bias in venture capital means identical business cases are evaluated and funded differently",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/06/gender-bias-in-venture-capital-means-identical-business-cases-are-evaluated-and-funded-differently/",
+      "date": "6 May 2026",
+      "excerpt": "Venture capital funding should be allocated to the “best” business cases. But Ana Barjasic and Dario Krpan show how evaluators’ bias means that companies run by women are overlooked and underfunded compared with those presented by men. In E",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Climate governance now shapes governments’ borrowing costs",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
       "date": "5 May 2026",
@@ -233,15 +242,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/04/28/what-happens-when-supply-chains-go-dark/",
       "date": "28 Apr 2026",
       "excerpt": "Global trade relies on supply chains with predictable routing, stable pricing and continuous visibility. But conflict, such as the war in Iran, are significantly disrupting transport routes in unexpected ways. By telling the story of one co",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Are impact crypto assets a new emerging asset class for sustainable and impact investors?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/27/are-impact-crypto-assets-a-new-emerging-asset-class-for-sustainable-and-impact-investors/",
-      "date": "27 Apr 2026",
-      "excerpt": "Traditional sustainable investing is struggling with reliably measuring and verifying impact. Can blockchain and tokenization technologies provide a reliable solution? The Impact Crypto Index, proposed by Veronika Vinogradova and Mariya Gub",
       "image": ""
     },
     {
