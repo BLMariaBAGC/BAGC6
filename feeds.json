@@ -1,5 +1,5 @@
 {
-  "updated": "07 May 2026, 10:23 UTC",
+  "updated": "07 May 2026, 14:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "3 Ways AI Can Free Organizations from Legacy Workflows",
+      "link": "https://hbr.org/2026/05/3-ways-ai-can-free-organizations-from-legacy-workflows",
+      "date": "7 May 2026",
+      "excerpt": "When companies cling to the way they&#8217;ve always done things, they crowd out space to experiment and adapt.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Communicating with Confidence When You’re Under Pressure",
+      "link": "https://hbr.org/podcast/2026/05/communicating-with-confidence-when-youre-under-pressure",
+      "date": "7 May 2026",
+      "excerpt": "A conversation with leadership development coach Muriel Wilkins about getting your message across even when you&#8217;re running on empty.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How Sales Teams Undercut Themselves with Longtime Clients",
       "link": "https://hbr.org/2026/05/how-sales-teams-undercut-themselves-with-longtime-clients",
       "date": "6 May 2026",
@@ -256,11 +274,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Major rail disruption in south of England following radio fault",
+      "title": "Major rail disruption expected in southern England until end of day",
       "link": "https://www.bbc.com/news/articles/ckgp8yjllx1o?at_medium=RSS&at_campaign=rss",
       "date": "7 May 2026",
-      "excerpt": "Trains have been cancelled and delayed, but Network Rail says services are now returning to normal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f71b/live/8f0eaf10-49f7-11f1-a9e7-0f8f590f205b.jpg"
+      "excerpt": "A radio fault has been resolved but passengers could continue to face long delays, warns Network Rail.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/095e/live/8239fb90-4a16-11f1-bd52-e755d604ece4.jpg"
     },
     {
       "source": "BBC Business",
