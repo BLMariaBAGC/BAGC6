@@ -1,6 +1,15 @@
 {
-  "updated": "07 May 2026, 21:03 UTC",
+  "updated": "07 May 2026, 23:00 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Eating eggs could cut Alzheimer’s risk by 27%",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260506225214.htm",
+      "date": "7 May 2026",
+      "excerpt": "Eating eggs might do more than just start your day—it could help protect your brain. Researchers found that people 65 and older who eat eggs regularly have a significantly lower risk of developing Alzheimer’s disease, with daily or near-dai",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,13 +74,31 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Are your memories real? Physicists revisit the Boltzmann brain paradox",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260502233922.htm",
-      "date": "3 May 2026",
-      "excerpt": "A new analysis of the “Boltzmann brain” paradox suggests our memories and sense of reality could, in theory, be random illusions born from cosmic chaos. By uncovering circular reasoning in how physicists think about time and entropy, the st",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why Regret Loses Its Sting as We Age",
+      "link": "https://neurosciencenews.com/aging-regret-emotional-resilience-30649/",
+      "date": "7 May 2026",
+      "excerpt": "New research shows that as we age, our brains become better at processing past mistakes, reducing the anger and intensity associated with \"long-term\" regrets and shifting our perspective toward reflection and meaning.",
+      "image": "https://neurosciencenews.com/files/2026/05/regret-aging-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "High Cognitive Scores Might Predict Depressive Relapse",
+      "link": "https://neurosciencenews.com/brain-fog-depression-relapse-paradox-30648/",
+      "date": "7 May 2026",
+      "excerpt": "A new study involving 1,800 UK participants has found that while \"brain fog\" predicts a first episode of depression in healthy adults, those with a history of the disorder are actually more likely to relapse if their cognitive scores are hi",
+      "image": "https://neurosciencenews.com/files/2026/05/cognition-depression-relapse-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "The Neural Shortcut to Language",
+      "link": "https://neurosciencenews.com/brain-wiring-speech-evolution-30647/",
+      "date": "7 May 2026",
+      "excerpt": "The complex vocal duets of Alston’s singing mice are powered by a simple tripling of existing neural connections, rather than a larger brain. This \"evolutionary hack\" offers a new playbook for understanding how human speech emerged through ",
+      "image": "https://neurosciencenews.com/files/2026/05/language-evolution-neurosceince-1155x770.jpg"
     },
     {
       "source": "Neuroscience News",
@@ -117,33 +144,6 @@
       "date": "7 May 2026",
       "excerpt": "Researchers have discovered a neural pathway connecting the amygdala to dopamine neurons that allows these weight-loss medications to reduce the desire for rewarding foods, offering a new explanation for their effectiveness and their impact",
       "image": "https://neurosciencenews.com/files/2026/05/glp1-reward-system-neurosciene-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Magnetic Pulses Restore Brain Circuits to Treat Depression",
-      "link": "https://neurosciencenews.com/tms-depression-dendritic-spines-30642/",
-      "date": "7 May 2026",
-      "excerpt": "Researchers have discovered that accelerated magnetic stimulation selectively targets IT neurons to regrow lost synaptic connections, providing the first cellular-level evidence of how TMS repairs the stress-damaged brain in just 24 hours.",
-      "image": "https://neurosciencenews.com/files/2026/05/tms-depression-neurotech-neuroseince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Sexual Arousal Distorts the Perception of Romantic Interest",
-      "link": "https://neurosciencenews.com/sexual-arousal-distorted-perception-romantic-interest-30641/",
-      "date": "7 May 2026",
-      "excerpt": "New research shows that when faced with ambiguous romantic cues, aroused individuals are significantly more likely to overestimate a partner's interest, potentially leading them to ignore mixed signals in early courtship.",
-      "image": "https://neurosciencenews.com/files/2026/05/arousal-romantic-interest-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "How Scientists Cracked the Ketamine Code for Depression",
-      "link": "https://neurosciencenews.com/ketamine-antidepressant-mechanism-30640/",
-      "date": "1 May 2026",
-      "excerpt": "By \"reverse engineering\" ketamine, Weill Cornell investigators have identified a specific opioid receptor pathway and a unique receptor \"cross-talk\" that drives rapid antidepressant effects.",
-      "image": "https://neurosciencenews.com/files/2026/05/ketamine-mechanism-depression-neurosciene-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -211,15 +211,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How Indian multinationals are succeeding in emerging markets without major foreign investment",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/07/how-indian-multinationals-are-succeeding-in-emerging-markets-without-major-foreign-investment/",
-      "date": "7 May 2026",
-      "excerpt": "In a world of rising geopolitical risk companies are looking for ways to grow internationally without making large irreversible commitments. Rishiraj Kashyap, Andreas Schotter, Prakash Satyavageeswaran and Elizabeth L. Rose suggest that Ind",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Gender bias in venture capital means identical business cases are evaluated and funded differently",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/06/gender-bias-in-venture-capital-means-identical-business-cases-are-evaluated-and-funded-differently/",
       "date": "6 May 2026",
@@ -261,6 +252,15 @@
       "date": "29 Apr 2026",
       "excerpt": "Foreign direct investment is a critical engine of economic growth. But not all countries value it equally. Dario Maimone Ansaldo Patti, Ram Mudambi and Pietro Navarra tested the assumption that more democracy equals more inward investment a",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/Screenshot-2026-04-29-103752.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What happens when supply chains go dark",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/28/what-happens-when-supply-chains-go-dark/",
+      "date": "28 Apr 2026",
+      "excerpt": "Global trade relies on supply chains with predictable routing, stable pricing and continuous visibility. But conflict, such as the war in Iran, are significantly disrupting transport routes in unexpected ways. By telling the story of one co",
+      "image": ""
     },
     {
       "source": "BBC Business",
