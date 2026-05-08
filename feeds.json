@@ -1,5 +1,5 @@
 {
-  "updated": "08 May 2026, 09:18 UTC",
+  "updated": "08 May 2026, 11:13 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -265,11 +265,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
-      "link": "https://www.bbc.com/news/articles/c86dp85g59xo?at_medium=RSS&at_campaign=rss",
+      "title": "US jet fuel could be used in Europe to ease possible shortages",
+      "link": "https://www.bbc.com/news/articles/cp8pk2m4nlxo?at_medium=RSS&at_campaign=rss",
       "date": "8 May 2026",
-      "excerpt": "US President Donald Trump says the ceasefire between Washington and Tehran is still in place.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ceca/live/514c94a0-4a6d-11f1-9270-375e80dbfe3c.jpg"
+      "excerpt": "The price of jet fuel most European airlines currently use has jumped by half since the start of the war.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f286/live/ba7a9570-4ac3-11f1-9325-ade34e8d64d0.jpg"
     },
     {
       "source": "BBC Business",
@@ -292,20 +292,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
+      "link": "https://www.bbc.com/news/articles/c86dp85g59xo?at_medium=RSS&at_campaign=rss",
+      "date": "8 May 2026",
+      "excerpt": "US President Donald Trump says the ceasefire between Washington and Tehran is still in place.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ceca/live/514c94a0-4a6d-11f1-9270-375e80dbfe3c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Instagram privacy tech is turned off today - what does this mean for your DMs?",
       "link": "https://www.bbc.com/news/articles/clypzxl3lvqo?at_medium=RSS&at_campaign=rss",
       "date": "8 May 2026",
       "excerpt": "The platform said it would remove end-to-end encrypted messages, a major U‑turn by parent company Meta.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b18f/live/cbad6e00-4a17-11f1-a7ce-b934bcb15ff4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Portugal and Italy will not suspend digital border checks for Brits",
-      "link": "https://www.bbc.com/news/articles/c78k9ke78ljo?at_medium=RSS&at_campaign=rss",
-      "date": "7 May 2026",
-      "excerpt": "Reports had suggested the countries were set to follow the example of Greece, which effectively suspended biometric checks for UK nationals.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da7c/live/5ad49550-4a26-11f1-b55d-0f258dce1735.jpg"
     },
     {
       "source": "BBC Business",
