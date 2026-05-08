@@ -1,5 +1,5 @@
 {
-  "updated": "08 May 2026, 20:58 UTC",
+  "updated": "08 May 2026, 22:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Brain Switch for Action and Stress Identified",
+      "link": "https://neurosciencenews.com/brain-arousal-dial-acc-parkinsons-30659/",
+      "date": "8 May 2026",
+      "excerpt": "By mapping the interaction between the locus coeruleus and the anterior cingulate cortex, researchers found a mechanism that regulates the intensity of the body’s fight-or-flight responses. This discovery offers a transformative roadmap for",
+      "image": "https://neurosciencenews.com/files/2026/05/acc-stress-action-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Stimulation Boosts Willpower to Quit Smoking",
+      "link": "https://neurosciencenews.com/rtms-brain-stimulation-smoking-30658/",
+      "date": "8 May 2026",
+      "excerpt": "Addiction is a biological imbalance where reward systems overpower self-control. Researchers have demonstrated that using rTMS to stimulate the dorsolateral prefrontal cortex can restore this balance, reducing cigarette use by 11 per day. T",
+      "image": "https://neurosciencenews.com/files/2026/05/rtms-smoking-addiction-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Discovery Redefines the Architecture of Thought",
       "link": "https://neurosciencenews.com/natural-intelligence-brain-decision-making-30657/",
       "date": "8 May 2026",
@@ -126,24 +144,6 @@
       "date": "8 May 2026",
       "excerpt": "The primary cilium is more than an evolutionary leftover; it is a specialized protein factory. Researchers have discovered that these microscopic \"antennas\" contain localized machinery to produce proteins, offering a new biological roadmap ",
       "image": "https://neurosciencenews.com/files/2026/05/neural-progenitor-neurodevelopment-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "The “Goldilocks” Choice: Why Older Adults are Turning to Cannabis",
-      "link": "https://neurosciencenews.com/cannabis-aging-sleep-pain-30650/",
-      "date": "8 May 2026",
-      "excerpt": "New research shows that seniors are turning to edible cannabis to manage pain and sleep, often choosing \"Goldilocks\" combination products based on advice from friends rather than doctors.",
-      "image": "https://neurosciencenews.com/files/2026/05/aging-cannabis-pain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Regret Loses Its Sting as We Age",
-      "link": "https://neurosciencenews.com/aging-regret-emotional-resilience-30649/",
-      "date": "7 May 2026",
-      "excerpt": "New research shows that as we age, our brains become better at processing past mistakes, reducing the anger and intensity associated with \"long-term\" regrets and shifting our perspective toward reflection and meaning.",
-      "image": "https://neurosciencenews.com/files/2026/05/regret-aging-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -211,15 +211,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Luxury brands have a language for uncertainty – not a strategy",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/08/luxury-brands-have-a-language-for-uncertainty-not-a-strategy/",
-      "date": "8 May 2026",
-      "excerpt": "The luxury industry has built an elegant vocabulary for navigating change including “strategic oscillation”, “temporal calibration” and “legacy-driven adaptation”. Jinju Heo argues that beneath the language lies an uncomfortable truth: most",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How Indian multinationals are succeeding in emerging markets without major foreign investment",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/07/how-indian-multinationals-are-succeeding-in-emerging-markets-without-major-foreign-investment/",
       "date": "7 May 2026",
@@ -261,6 +252,15 @@
       "date": "30 Apr 2026",
       "excerpt": "Businesses in Britain, France and Germany are embracing artificial intelligence. But most struggle to measure its impact properly. Ellie Smith explains how while many firms track business impact of using new technology, they are less able t",
       "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How does a country’s political system affect its incentives to attract foreign investment?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/29/how-does-a-countrys-political-system-affect-its-incentives-to-attract-foreign-investment/",
+      "date": "29 Apr 2026",
+      "excerpt": "Foreign direct investment is a critical engine of economic growth. But not all countries value it equally. Dario Maimone Ansaldo Patti, Ram Mudambi and Pietro Navarra tested the assumption that more democracy equals more inward investment a",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/Screenshot-2026-04-29-103752.png"
     },
     {
       "source": "BBC Business",
