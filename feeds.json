@@ -1,5 +1,5 @@
 {
-  "updated": "08 May 2026, 11:13 UTC",
+  "updated": "08 May 2026, 13:44 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How Fast-Growing Companies Can Make Better Decisions",
+      "link": "https://hbr.org/2026/05/how-fast-growing-companies-can-make-better-decisions",
+      "date": "8 May 2026",
+      "excerpt": "&#8220;Structured empowerment&#8221; is a decision-making approach that scales.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Redesigning Your Marketing Organization for the Agentic Age",
+      "link": "https://hbr.org/2026/05/redesigning-your-marketing-organization-for-the-agentic-age",
+      "date": "8 May 2026",
+      "excerpt": "Organizations that move early will define how marketing operates in the coming era and capture compounding returns.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Why Effective Leaders Get Branded as Problems",
       "link": "https://hbr.org/2026/05/why-effective-leaders-get-branded-as-problems",
       "date": "7 May 2026",
@@ -188,24 +206,6 @@
       "link": "https://hbr.org/2026/05/research-why-you-shouldnt-treat-ai-agents-like-employees",
       "date": "6 May 2026",
       "excerpt": "The unintended consequences of putting agents in the org chart.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When an Executive Asks You an Unexpected Question",
-      "link": "https://hbr.org/2026/05/when-an-executive-asks-you-an-unexpected-question",
-      "date": "5 May 2026",
-      "excerpt": "Before answering, identify the deeper concerns or motives underlying their request.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "New Skills to Navigate Continuous Change",
-      "link": "https://hbr.org/podcast/2026/05/new-skills-to-navigate-continuous-change",
-      "date": "5 May 2026",
-      "excerpt": "A conversation with author Nilofer Merchant about leaving the status quo behind.",
       "image": ""
     },
     {
@@ -268,7 +268,7 @@
       "title": "US jet fuel could be used in Europe to ease possible shortages",
       "link": "https://www.bbc.com/news/articles/cp8pk2m4nlxo?at_medium=RSS&at_campaign=rss",
       "date": "8 May 2026",
-      "excerpt": "The price of jet fuel most European airlines currently use has jumped by half since the start of the war.",
+      "excerpt": "An international air body suggests wider acceptance of US-grade jet fuel could help to head off any supply problems.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f286/live/ba7a9570-4ac3-11f1-9325-ade34e8d64d0.jpg"
     },
     {
@@ -283,20 +283,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US economy adds 115,000 jobs in April despite Iran war",
+      "link": "https://www.bbc.com/news/articles/cx21664lp32o?at_medium=RSS&at_campaign=rss",
+      "date": "8 May 2026",
+      "excerpt": "The solid figures came despite rising gas prices and economic uncertainty sparked by the conflict.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c42/live/c5a8cda0-4ae0-11f1-8c8d-458160734f59.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "South East Water boss quits after supply failures",
       "link": "https://www.bbc.com/news/articles/cn7pxm13lrro?at_medium=RSS&at_campaign=rss",
       "date": "8 May 2026",
       "excerpt": "David Hinton faced criticism after outages affected tens of thousands of people in Kent and Sussex.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f97/live/a1fe8eb0-4ab0-11f1-abbe-696bdf3a3d1b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
-      "link": "https://www.bbc.com/news/articles/c86dp85g59xo?at_medium=RSS&at_campaign=rss",
-      "date": "8 May 2026",
-      "excerpt": "US President Donald Trump says the ceasefire between Washington and Tehran is still in place.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ceca/live/514c94a0-4a6d-11f1-9270-375e80dbfe3c.jpg"
     },
     {
       "source": "BBC Business",
