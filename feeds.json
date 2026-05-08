@@ -1,5 +1,5 @@
 {
-  "updated": "07 May 2026, 23:00 UTC",
+  "updated": "08 May 2026, 02:47 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How Indian multinationals are succeeding in emerging markets without major foreign investment",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/07/how-indian-multinationals-are-succeeding-in-emerging-markets-without-major-foreign-investment/",
+      "date": "7 May 2026",
+      "excerpt": "In a world of rising geopolitical risk companies are looking for ways to grow internationally without making large irreversible commitments. Rishiraj Kashyap, Andreas Schotter, Prakash Satyavageeswaran and Elizabeth L. Rose suggest that Ind",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Gender bias in venture capital means identical business cases are evaluated and funded differently",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/06/gender-bias-in-venture-capital-means-identical-business-cases-are-evaluated-and-funded-differently/",
       "date": "6 May 2026",
@@ -254,13 +263,22 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/Screenshot-2026-04-29-103752.png"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What happens when supply chains go dark",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/28/what-happens-when-supply-chains-go-dark/",
-      "date": "28 Apr 2026",
-      "excerpt": "Global trade relies on supply chains with predictable routing, stable pricing and continuous visibility. But conflict, such as the war in Iran, are significantly disrupting transport routes in unexpected ways. By telling the story of one co",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
+      "link": "https://www.bbc.com/news/articles/c86dp85g59xo?at_medium=RSS&at_campaign=rss",
+      "date": "8 May 2026",
+      "excerpt": "The flare-up further endangers the US-Iran ceasefire, which Trump extended indefinitely on 21 April.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ceca/live/514c94a0-4a6d-11f1-9270-375e80dbfe3c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Instagram privacy tech is turned off today- what does this mean for your DMs?",
+      "link": "https://www.bbc.com/news/articles/clypzxl3lvqo?at_medium=RSS&at_campaign=rss",
+      "date": "8 May 2026",
+      "excerpt": "The platform said it would remove end-to-end encrypted messages, a major U‑turn by parent company Meta.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b18f/live/cbad6e00-4a17-11f1-a7ce-b934bcb15ff4.jpg"
     },
     {
       "source": "BBC Business",
@@ -274,20 +292,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump gives 4 July ultimatum to EU to approve trade deal with US",
+      "title": "Trump gives EU ultimatum deadline to approve trade deal with US",
       "link": "https://www.bbc.com/news/articles/cp3pyk4nw3lo?at_medium=RSS&at_campaign=rss",
       "date": "7 May 2026",
-      "excerpt": "The US president said the European Union must enact the trade deal agreed last year and drop tariffs on American goods to zero.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a75/live/be129770-4a4e-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Shell latest oil giant to see profits surge due to Iran war impact",
-      "link": "https://www.bbc.com/news/articles/ce3p0x54drwo?at_medium=RSS&at_campaign=rss",
-      "date": "7 May 2026",
-      "excerpt": "The energy giant's profits jump by nearly a quarter as it benefits from the recent volatility in the oil price",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d823/live/94684120-49d8-11f1-9acb-332348f2c41f.jpg"
+      "excerpt": "Trump's deadline to the European Union came as a trade court ruled his global tariff policy violated US law.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bde/live/e5f4b280-4a64-11f1-ba67-71539f117a06.jpg"
     },
     {
       "source": "BBC Business",
@@ -301,20 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Major rail disruption expected in southern England until end of day",
-      "link": "https://www.bbc.com/news/articles/ckgp8yjllx1o?at_medium=RSS&at_campaign=rss",
+      "title": "How sunburn inspired a new way to store energy",
+      "link": "https://www.bbc.com/news/articles/c62l9gnx775o?at_medium=RSS&at_campaign=rss",
       "date": "7 May 2026",
-      "excerpt": "A radio fault has been resolved but passengers could continue to face long delays, warns National Rail.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f25/live/25c08330-4a3d-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Gulf economies face long-term hit from Iran conflict",
-      "link": "https://www.bbc.com/news/articles/c0k257g8jk5o?at_medium=RSS&at_campaign=rss",
-      "date": "6 May 2026",
-      "excerpt": "Commentators say it will take years or even decades to repair the damage.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/581d/live/57a56570-4865-11f1-9db4-19df36ab272c.jpg"
+      "excerpt": "Molecules that can capture heat could be a useful technology to decarbonise heating.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ebd/live/fd224ab0-3d5a-11f1-9d5c-8ba507d7dbde.jpg"
     }
   ]
 }
