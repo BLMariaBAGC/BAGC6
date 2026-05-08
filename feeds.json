@@ -1,5 +1,5 @@
 {
-  "updated": "08 May 2026, 19:15 UTC",
+  "updated": "08 May 2026, 20:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Discovery Redefines the Architecture of Thought",
+      "link": "https://neurosciencenews.com/natural-intelligence-brain-decision-making-30657/",
+      "date": "8 May 2026",
+      "excerpt": "New research challenges the long-held belief that the brain makes decisions in a simple, top-down hierarchy. By discovering decision-making signals in the primary somatosensory cortex, researchers have revealed a system of bidirectional fee",
+      "image": "https://neurosciencenews.com/files/2026/05/cognition-thought-decision-making-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why Massive AI Models Actually Generalize Better",
+      "link": "https://neurosciencenews.com/physics-toy-model-ai-learning-30656/",
+      "date": "8 May 2026",
+      "excerpt": "Physicists have developed a mathematical \"toy model\" using statistical physics to explain one of the great mysteries of deep learning: why massive neural networks learn patterns instead of just memorizing data. By applying renormalization t",
+      "image": "https://neurosciencenews.com/files/2026/05/toy-model-ai-learning-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Pathway Identification Could Slow Parkinson’s",
+      "link": "https://neurosciencenews.com/female-specific-parkinsons-pathway-30655/",
+      "date": "8 May 2026",
+      "excerpt": "Researchers identified a sex-specific pathway that preserves dopamine-producing neurons in females. By reinforcing nicotine-responsive receptors without using nicotine, the team successfully reduced signs of degeneration, marking a critical",
+      "image": "https://neurosciencenews.com/files/2026/05/parkinsons-female-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Organic Synaptic Transistors for Sustainable AI Developed",
       "link": "https://neurosciencenews.com/organic-synaptic-transistors-neuromorphic-ai-30653/",
       "date": "8 May 2026",
@@ -117,33 +144,6 @@
       "date": "7 May 2026",
       "excerpt": "New research shows that as we age, our brains become better at processing past mistakes, reducing the anger and intensity associated with \"long-term\" regrets and shifting our perspective toward reflection and meaning.",
       "image": "https://neurosciencenews.com/files/2026/05/regret-aging-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "High Cognitive Scores Might Predict Depressive Relapse",
-      "link": "https://neurosciencenews.com/brain-fog-depression-relapse-paradox-30648/",
-      "date": "7 May 2026",
-      "excerpt": "A new study involving 1,800 UK participants has found that while \"brain fog\" predicts a first episode of depression in healthy adults, those with a history of the disorder are actually more likely to relapse if their cognitive scores are hi",
-      "image": "https://neurosciencenews.com/files/2026/05/cognition-depression-relapse-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "The Neural Shortcut to Language",
-      "link": "https://neurosciencenews.com/brain-wiring-speech-evolution-30647/",
-      "date": "7 May 2026",
-      "excerpt": "The complex vocal duets of Alston’s singing mice are powered by a simple tripling of existing neural connections, rather than a larger brain. This \"evolutionary hack\" offers a new playbook for understanding how human speech emerged through ",
-      "image": "https://neurosciencenews.com/files/2026/05/language-evolution-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Performance Can Improve at Any Age",
-      "link": "https://neurosciencenews.com/lifespan-optimization-brain-health-30646/",
-      "date": "7 May 2026",
-      "excerpt": "Adults from ages 19 to 94 can measurably improve brain performance through consistent micro-training, proving that cognitive decline is not an inevitable part of the aging process.",
-      "image": "https://neurosciencenews.com/files/2026/05/brain-performance-aging-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -211,6 +211,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Luxury brands have a language for uncertainty – not a strategy",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/08/luxury-brands-have-a-language-for-uncertainty-not-a-strategy/",
+      "date": "8 May 2026",
+      "excerpt": "The luxury industry has built an elegant vocabulary for navigating change including “strategic oscillation”, “temporal calibration” and “legacy-driven adaptation”. Jinju Heo argues that beneath the language lies an uncomfortable truth: most",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How Indian multinationals are succeeding in emerging markets without major foreign investment",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/07/how-indian-multinationals-are-succeeding-in-emerging-markets-without-major-foreign-investment/",
       "date": "7 May 2026",
@@ -252,15 +261,6 @@
       "date": "30 Apr 2026",
       "excerpt": "Businesses in Britain, France and Germany are embracing artificial intelligence. But most struggle to measure its impact properly. Ellie Smith explains how while many firms track business impact of using new technology, they are less able t",
       "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How does a country’s political system affect its incentives to attract foreign investment?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/29/how-does-a-countrys-political-system-affect-its-incentives-to-attract-foreign-investment/",
-      "date": "29 Apr 2026",
-      "excerpt": "Foreign direct investment is a critical engine of economic growth. But not all countries value it equally. Dario Maimone Ansaldo Patti, Ram Mudambi and Pietro Navarra tested the assumption that more democracy equals more inward investment a",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/Screenshot-2026-04-29-103752.png"
     },
     {
       "source": "BBC Business",
