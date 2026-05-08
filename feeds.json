@@ -1,5 +1,5 @@
 {
-  "updated": "08 May 2026, 15:20 UTC",
+  "updated": "08 May 2026, 17:15 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Primary Cilium Shapes the Developing Brain",
+      "link": "https://neurosciencenews.com/primary-cilium-brain-development-30651/",
+      "date": "8 May 2026",
+      "excerpt": "The primary cilium is more than an evolutionary leftover; it is a specialized protein factory. Researchers have discovered that these microscopic \"antennas\" contain localized machinery to produce proteins, offering a new biological roadmap ",
+      "image": "https://neurosciencenews.com/files/2026/05/neural-progenitor-neurodevelopment-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "The “Goldilocks” Choice: Why Older Adults are Turning to Cannabis",
+      "link": "https://neurosciencenews.com/cannabis-aging-sleep-pain-30650/",
+      "date": "8 May 2026",
+      "excerpt": "New research shows that seniors are turning to edible cannabis to manage pain and sleep, often choosing \"Goldilocks\" combination products based on advice from friends rather than doctors.",
+      "image": "https://neurosciencenews.com/files/2026/05/aging-cannabis-pain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Why Regret Loses Its Sting as We Age",
       "link": "https://neurosciencenews.com/aging-regret-emotional-resilience-30649/",
       "date": "7 May 2026",
@@ -126,24 +144,6 @@
       "date": "7 May 2026",
       "excerpt": "Researchers have used a designer cytokine, hIL-6, to \"rewire\" the spinal cord by stimulating the sprouting of new connections from intact nerve fibers. This approach successfully restored coordinated walking in paralyzed mice, highlighting ",
       "image": "https://neurosciencenews.com/files/2026/05/sci-gene-therapy-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Psilocybin Dampens Aggression and Attack Behaviors",
-      "link": "https://neurosciencenews.com/psilocybin-aggression-behavior-30643/",
-      "date": "7 May 2026",
-      "excerpt": "New research shows that low doses of the psychoactive compound can reduce high-energy aggressive behaviors in mangrove rivulus fish while keeping social communication intact, offering a new vertebrate model for studying the drug's impact on",
-      "image": "https://neurosciencenews.com/files/2026/05/psilcybin-aggression-neurosience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "GLP-1 Drugs Found to Directly Rewire Brain’s Reward System",
-      "link": "https://neurosciencenews.com/glp-1-brain-reward-circuits-motivation-30642/",
-      "date": "7 May 2026",
-      "excerpt": "Researchers have discovered a neural pathway connecting the amygdala to dopamine neurons that allows these weight-loss medications to reduce the desire for rewarding foods, offering a new explanation for their effectiveness and their impact",
-      "image": "https://neurosciencenews.com/files/2026/05/glp1-reward-system-neurosciene-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
