@@ -1,5 +1,5 @@
 {
-  "updated": "08 May 2026, 13:44 UTC",
+  "updated": "08 May 2026, 15:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "“Cyber Defense Has to Move at the Speed of AI”",
+      "link": "https://hbr.org/2026/05/cyber-defense-has-to-move-at-the-speed-of-ai",
+      "date": "8 May 2026",
+      "excerpt": "As AI accelerates the scale and sophistication of cyber threats, business leaders must rethink their cybersecurity strategies and prioritization.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How Fast-Growing Companies Can Make Better Decisions",
       "link": "https://hbr.org/2026/05/how-fast-growing-companies-can-make-better-decisions",
       "date": "8 May 2026",
@@ -197,15 +206,6 @@
       "link": "https://hbr.org/2026/05/how-sales-teams-undercut-themselves-with-longtime-clients",
       "date": "6 May 2026",
       "excerpt": "Six steps to reset the dynamic.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: Why You Shouldn’t Treat AI Agents Like Employees",
-      "link": "https://hbr.org/2026/05/research-why-you-shouldnt-treat-ai-agents-like-employees",
-      "date": "6 May 2026",
-      "excerpt": "The unintended consequences of putting agents in the org chart.",
       "image": ""
     },
     {
@@ -283,10 +283,10 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US economy adds 115,000 jobs in April despite Iran war",
+      "title": "US jobs data beats expectations for second month in a row",
       "link": "https://www.bbc.com/news/articles/cx21664lp32o?at_medium=RSS&at_campaign=rss",
       "date": "8 May 2026",
-      "excerpt": "The solid figures came despite rising gas prices and economic uncertainty sparked by the conflict.",
+      "excerpt": "The solid figures came despite rising gas prices and economic uncertainty sparked by the Iran war.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c42/live/c5a8cda0-4ae0-11f1-8c8d-458160734f59.jpg"
     },
     {
