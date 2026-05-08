@@ -1,5 +1,5 @@
 {
-  "updated": "08 May 2026, 17:15 UTC",
+  "updated": "08 May 2026, 19:15 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Organic Synaptic Transistors for Sustainable AI Developed",
+      "link": "https://neurosciencenews.com/organic-synaptic-transistors-neuromorphic-ai-30653/",
+      "date": "8 May 2026",
+      "excerpt": "By developing organic transistors that mimic neural synapses, the team has identified how molecular interfaces can be engineered to create \"neuromorphic\" computers that learn and store data simultaneously, potentially reducing AI energy con",
+      "image": "https://neurosciencenews.com/files/2026/05/neuromorphic-computing-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Digital Memory Paradox: Social Networking “Mutes” Content Learning",
+      "link": "https://neurosciencenews.com/digital-networking-content-learning-memory-30652/",
+      "date": "8 May 2026",
+      "excerpt": "New research shows that as we form online connections, our brains prioritize \"social mapping\" over \"content learning.\" This shift is even more dramatic for those with high working memory, who use their digital networks as external storage, ",
+      "image": "https://neurosciencenews.com/files/2026/05/social-media-learning-memory-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Primary Cilium Shapes the Developing Brain",
       "link": "https://neurosciencenews.com/primary-cilium-brain-development-30651/",
       "date": "8 May 2026",
@@ -126,24 +144,6 @@
       "date": "7 May 2026",
       "excerpt": "Adults from ages 19 to 94 can measurably improve brain performance through consistent micro-training, proving that cognitive decline is not an inevitable part of the aging process.",
       "image": "https://neurosciencenews.com/files/2026/05/brain-performance-aging-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Psilocybin Rebuilds the Brain’s Physical Wiring",
-      "link": "https://neurosciencenews.com/psilocybin-brain-entropy-neural-integrity-30645/",
-      "date": "7 May 2026",
-      "excerpt": "New research from UCSF shows that a single high dose of the psychedelic compound creates lasting anatomical changes in brain tracts and \"loosens\" rigid thought patterns, leading to significant improvements in psychological insight and well-",
-      "image": "https://neurosciencenews.com/files/2026/05/psilocybin-brain-rewiring-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Gene Therapy Restores Walking After Paralysis",
-      "link": "https://neurosciencenews.com/hil-6-gene-therapy-spinal-cord-30644/",
-      "date": "7 May 2026",
-      "excerpt": "Researchers have used a designer cytokine, hIL-6, to \"rewire\" the spinal cord by stimulating the sprouting of new connections from intact nerve fibers. This approach successfully restored coordinated walking in paralyzed mice, highlighting ",
-      "image": "https://neurosciencenews.com/files/2026/05/sci-gene-therapy-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -274,6 +274,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Major train operator to be renationalised in months",
+      "link": "https://www.bbc.com/news/articles/cy02yyl1e7xo?at_medium=RSS&at_campaign=rss",
+      "date": "8 May 2026",
+      "excerpt": "GWR, which runs trains between London and South Wales, will come under government control.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3292/live/06366080-4ae1-11f1-8c8d-458160734f59.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The companies making billions from the Iran war",
       "link": "https://www.bbc.com/news/articles/ce8pyyz5e0ro?at_medium=RSS&at_campaign=rss",
       "date": "8 May 2026",
@@ -297,15 +306,6 @@
       "date": "8 May 2026",
       "excerpt": "David Hinton faced criticism after outages affected tens of thousands of people in Kent and Sussex.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f97/live/a1fe8eb0-4ab0-11f1-abbe-696bdf3a3d1b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Instagram privacy tech is turned off today - what does this mean for your DMs?",
-      "link": "https://www.bbc.com/news/articles/clypzxl3lvqo?at_medium=RSS&at_campaign=rss",
-      "date": "8 May 2026",
-      "excerpt": "The platform said it would remove end-to-end encrypted messages, a major U‑turn by parent company Meta.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b18f/live/cbad6e00-4a17-11f1-a7ce-b934bcb15ff4.jpg"
     },
     {
       "source": "BBC Business",
