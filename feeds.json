@@ -1,5 +1,5 @@
 {
-  "updated": "08 May 2026, 02:47 UTC",
+  "updated": "08 May 2026, 05:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,15 +211,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How Indian multinationals are succeeding in emerging markets without major foreign investment",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/07/how-indian-multinationals-are-succeeding-in-emerging-markets-without-major-foreign-investment/",
-      "date": "7 May 2026",
-      "excerpt": "In a world of rising geopolitical risk companies are looking for ways to grow internationally without making large irreversible commitments. Rishiraj Kashyap, Andreas Schotter, Prakash Satyavageeswaran and Elizabeth L. Rose suggest that Ind",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Gender bias in venture capital means identical business cases are evaluated and funded differently",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/06/gender-bias-in-venture-capital-means-identical-business-cases-are-evaluated-and-funded-differently/",
       "date": "6 May 2026",
@@ -263,22 +254,49 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/04/Screenshot-2026-04-29-103752.png"
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What happens when supply chains go dark",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/28/what-happens-when-supply-chains-go-dark/",
+      "date": "28 Apr 2026",
+      "excerpt": "Global trade relies on supply chains with predictable routing, stable pricing and continuous visibility. But conflict, such as the war in Iran, are significantly disrupting transport routes in unexpected ways. By telling the story of one co",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
       "link": "https://www.bbc.com/news/articles/c86dp85g59xo?at_medium=RSS&at_campaign=rss",
       "date": "8 May 2026",
-      "excerpt": "The flare-up further endangers the US-Iran ceasefire, which Trump extended indefinitely on 21 April.",
+      "excerpt": "US President Donald Trump said the ceasefire between Washington and Tehran is still in place.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ceca/live/514c94a0-4a6d-11f1-9270-375e80dbfe3c.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Instagram privacy tech is turned off today- what does this mean for your DMs?",
+      "title": "From oil giants to banks - these companies are making billions from Iran war",
+      "link": "https://www.bbc.com/news/articles/ce8pyyz5e0ro?at_medium=RSS&at_campaign=rss",
+      "date": "8 May 2026",
+      "excerpt": "Through surging profits or soaring share prices, the war has been a boon for some firms.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be46/live/8d97a640-4985-11f1-a49f-cb939a5301ad.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Instagram privacy tech is turned off today - what does this mean for your DMs?",
       "link": "https://www.bbc.com/news/articles/clypzxl3lvqo?at_medium=RSS&at_campaign=rss",
       "date": "8 May 2026",
       "excerpt": "The platform said it would remove end-to-end encrypted messages, a major U‑turn by parent company Meta.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b18f/live/cbad6e00-4a17-11f1-a7ce-b934bcb15ff4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "World Cup fans in China and India face broadcast uncertainty",
+      "link": "https://www.bbc.com/news/articles/cp9py4k8mllo?at_medium=RSS&at_campaign=rss",
+      "date": "8 May 2026",
+      "excerpt": "Broadcasters in the two countries have yet to reach deals with Fifa, just weeks before the tournament is due to start.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cdf/live/88882360-4a92-11f1-8003-0be2843e54d1.jpg"
     },
     {
       "source": "BBC Business",
@@ -288,24 +306,6 @@
       "date": "7 May 2026",
       "excerpt": "Reports had suggested the countries were set to follow the example of Greece, which effectively suspended biometric checks for UK nationals.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da7c/live/5ad49550-4a26-11f1-b55d-0f258dce1735.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump gives EU ultimatum deadline to approve trade deal with US",
-      "link": "https://www.bbc.com/news/articles/cp3pyk4nw3lo?at_medium=RSS&at_campaign=rss",
-      "date": "7 May 2026",
-      "excerpt": "Trump's deadline to the European Union came as a trade court ruled his global tariff policy violated US law.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bde/live/e5f4b280-4a64-11f1-ba67-71539f117a06.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Morrisons supermarket in Wales fined £750k for dirty bakery",
-      "link": "https://www.bbc.com/news/articles/ckgpz878kp9o?at_medium=RSS&at_campaign=rss",
-      "date": "7 May 2026",
-      "excerpt": "A judge said the case was not about a few rogue employees but showed serious and systemic failure.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82f6/live/b927cc90-4a48-11f1-b55d-0f258dce1735.jpg"
     },
     {
       "source": "BBC Business",
