@@ -1,5 +1,5 @@
 {
-  "updated": "09 May 2026, 18:59 UTC",
+  "updated": "09 May 2026, 20:41 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,6 +72,78 @@
       "date": "4 May 2026",
       "excerpt": "GLP-1 drugs like semaglutide—best known for treating diabetes and driving weight loss under the brand names Ozempic and Wegovy—may also deliver a surprising mental health boost. In a massive study tracking nearly 100,000 people over more th",
       "image": ""
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Reducing Visceral Fat Protects the Brain for Decades",
+      "link": "https://neurosciencenews.com/visceral-fat-brain-atrophy-glucose-30661/",
+      "date": "9 May 2026",
+      "excerpt": "A landmark 16-year MRI study identified cumulative abdominal fat as a specific, modifiable risk factor for brain atrophy. The findings demonstrate that sustained reductions in visceral fat, mediated by better glucose control, are essential ",
+      "image": "https://neurosciencenews.com/files/2026/05/visceral-fat-cognition-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain-First Hypothesis: Rethinking the Cambrian Explosion",
+      "link": "https://neurosciencenews.com/cambrian-explosion-brain-first-hypothesis-evolution-30660/",
+      "date": "9 May 2026",
+      "excerpt": "The evolution of the brain may have been the primary engine behind the Cambrian Explosion. The \"Brain-First Hypothesis\" suggests that increasing ecological pressure for sensory processing led to neural regionalization. This neural complexit",
+      "image": "https://neurosciencenews.com/files/2026/05/cambrian-explosion-brain-first-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Beyond the Gym: Why Your Brain Craves Creatine",
+      "link": "https://neurosciencenews.com/creatine-atp-brain-health-30659/",
+      "date": "9 May 2026",
+      "excerpt": "By accelerating ATP regeneration, creatine supplementation offers significant potential for enhancing cognitive processing and supporting neurological health in aging populations.",
+      "image": "https://neurosciencenews.com/files/2026/05/creatine-neurometabolism-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Switch for Action and Stress Identified",
+      "link": "https://neurosciencenews.com/brain-arousal-dial-acc-parkinsons-30659/",
+      "date": "8 May 2026",
+      "excerpt": "By mapping the interaction between the locus coeruleus and the anterior cingulate cortex, researchers found a mechanism that regulates the intensity of the body’s fight-or-flight responses. This discovery offers a transformative roadmap for",
+      "image": "https://neurosciencenews.com/files/2026/05/acc-stress-action-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Stimulation Boosts Willpower to Quit Smoking",
+      "link": "https://neurosciencenews.com/rtms-brain-stimulation-smoking-30658/",
+      "date": "8 May 2026",
+      "excerpt": "Addiction is a biological imbalance where reward systems overpower self-control. Researchers have demonstrated that using rTMS to stimulate the dorsolateral prefrontal cortex can restore this balance, reducing cigarette use by 11 per day. T",
+      "image": "https://neurosciencenews.com/files/2026/05/rtms-smoking-addiction-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Discovery Redefines the Architecture of Thought",
+      "link": "https://neurosciencenews.com/natural-intelligence-brain-decision-making-30657/",
+      "date": "8 May 2026",
+      "excerpt": "New research challenges the long-held belief that the brain makes decisions in a simple, top-down hierarchy. By discovering decision-making signals in the primary somatosensory cortex, researchers have revealed a system of bidirectional fee",
+      "image": "https://neurosciencenews.com/files/2026/05/cognition-thought-decision-making-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why Massive AI Models Actually Generalize Better",
+      "link": "https://neurosciencenews.com/physics-toy-model-ai-learning-30656/",
+      "date": "8 May 2026",
+      "excerpt": "Physicists have developed a mathematical \"toy model\" using statistical physics to explain one of the great mysteries of deep learning: why massive neural networks learn patterns instead of just memorizing data. By applying renormalization t",
+      "image": "https://neurosciencenews.com/files/2026/05/toy-model-ai-learning-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Pathway Identification Could Slow Parkinson’s",
+      "link": "https://neurosciencenews.com/female-specific-parkinsons-pathway-30655/",
+      "date": "8 May 2026",
+      "excerpt": "Researchers identified a sex-specific pathway that preserves dopamine-producing neurons in females. By reinforcing nicotine-responsive receptors without using nicotine, the team successfully reduced signs of degeneration, marking a critical",
+      "image": "https://neurosciencenews.com/files/2026/05/parkinsons-female-brain-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
