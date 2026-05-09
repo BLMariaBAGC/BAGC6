@@ -1,5 +1,5 @@
 {
-  "updated": "09 May 2026, 16:53 UTC",
+  "updated": "09 May 2026, 18:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,78 +72,6 @@
       "date": "4 May 2026",
       "excerpt": "GLP-1 drugs like semaglutide—best known for treating diabetes and driving weight loss under the brand names Ozempic and Wegovy—may also deliver a surprising mental health boost. In a massive study tracking nearly 100,000 people over more th",
       "image": ""
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Switch for Action and Stress Identified",
-      "link": "https://neurosciencenews.com/brain-arousal-dial-acc-parkinsons-30659/",
-      "date": "8 May 2026",
-      "excerpt": "By mapping the interaction between the locus coeruleus and the anterior cingulate cortex, researchers found a mechanism that regulates the intensity of the body’s fight-or-flight responses. This discovery offers a transformative roadmap for",
-      "image": "https://neurosciencenews.com/files/2026/05/acc-stress-action-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Stimulation Boosts Willpower to Quit Smoking",
-      "link": "https://neurosciencenews.com/rtms-brain-stimulation-smoking-30658/",
-      "date": "8 May 2026",
-      "excerpt": "Addiction is a biological imbalance where reward systems overpower self-control. Researchers have demonstrated that using rTMS to stimulate the dorsolateral prefrontal cortex can restore this balance, reducing cigarette use by 11 per day. T",
-      "image": "https://neurosciencenews.com/files/2026/05/rtms-smoking-addiction-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Discovery Redefines the Architecture of Thought",
-      "link": "https://neurosciencenews.com/natural-intelligence-brain-decision-making-30657/",
-      "date": "8 May 2026",
-      "excerpt": "New research challenges the long-held belief that the brain makes decisions in a simple, top-down hierarchy. By discovering decision-making signals in the primary somatosensory cortex, researchers have revealed a system of bidirectional fee",
-      "image": "https://neurosciencenews.com/files/2026/05/cognition-thought-decision-making-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Massive AI Models Actually Generalize Better",
-      "link": "https://neurosciencenews.com/physics-toy-model-ai-learning-30656/",
-      "date": "8 May 2026",
-      "excerpt": "Physicists have developed a mathematical \"toy model\" using statistical physics to explain one of the great mysteries of deep learning: why massive neural networks learn patterns instead of just memorizing data. By applying renormalization t",
-      "image": "https://neurosciencenews.com/files/2026/05/toy-model-ai-learning-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Pathway Identification Could Slow Parkinson’s",
-      "link": "https://neurosciencenews.com/female-specific-parkinsons-pathway-30655/",
-      "date": "8 May 2026",
-      "excerpt": "Researchers identified a sex-specific pathway that preserves dopamine-producing neurons in females. By reinforcing nicotine-responsive receptors without using nicotine, the team successfully reduced signs of degeneration, marking a critical",
-      "image": "https://neurosciencenews.com/files/2026/05/parkinsons-female-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Organic Synaptic Transistors for Sustainable AI Developed",
-      "link": "https://neurosciencenews.com/organic-synaptic-transistors-neuromorphic-ai-30653/",
-      "date": "8 May 2026",
-      "excerpt": "By developing organic transistors that mimic neural synapses, the team has identified how molecular interfaces can be engineered to create \"neuromorphic\" computers that learn and store data simultaneously, potentially reducing AI energy con",
-      "image": "https://neurosciencenews.com/files/2026/05/neuromorphic-computing-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Digital Memory Paradox: Social Networking “Mutes” Content Learning",
-      "link": "https://neurosciencenews.com/digital-networking-content-learning-memory-30652/",
-      "date": "8 May 2026",
-      "excerpt": "New research shows that as we form online connections, our brains prioritize \"social mapping\" over \"content learning.\" This shift is even more dramatic for those with high working memory, who use their digital networks as external storage, ",
-      "image": "https://neurosciencenews.com/files/2026/05/social-media-learning-memory-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Primary Cilium Shapes the Developing Brain",
-      "link": "https://neurosciencenews.com/primary-cilium-brain-development-30651/",
-      "date": "8 May 2026",
-      "excerpt": "The primary cilium is more than an evolutionary leftover; it is a specialized protein factory. Researchers have discovered that these microscopic \"antennas\" contain localized machinery to produce proteins, offering a new biological roadmap ",
-      "image": "https://neurosciencenews.com/files/2026/05/neural-progenitor-neurodevelopment-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
