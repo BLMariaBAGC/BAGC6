@@ -1,5 +1,5 @@
 {
-  "updated": "09 May 2026, 06:13 UTC",
+  "updated": "09 May 2026, 09:18 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -265,6 +265,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "The UK is set for a staycation summer - and there are plenty of hidden gems",
+      "link": "https://www.bbc.com/news/articles/cgjpv9pdnpwo?at_medium=RSS&at_campaign=rss",
+      "date": "8 May 2026",
+      "excerpt": "Seasoned staycationers share their favourite spots as Airbnb and Booking.com say interest in UK stays are up on last year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e92b/live/02a43c40-4ae5-11f1-8c8d-458160734f59.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "US jet fuel could be used in Europe to ease possible shortages",
       "link": "https://www.bbc.com/news/articles/cp8pk2m4nlxo?at_medium=RSS&at_campaign=rss",
       "date": "8 May 2026",
@@ -301,20 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "South East Water boss quits after supply failures",
-      "link": "https://www.bbc.com/news/articles/cn7pxm13lrro?at_medium=RSS&at_campaign=rss",
-      "date": "8 May 2026",
-      "excerpt": "David Hinton faced criticism after outages affected tens of thousands of people in Kent and Sussex.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f97/live/a1fe8eb0-4ab0-11f1-abbe-696bdf3a3d1b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How sunburn inspired a new way to store energy",
-      "link": "https://www.bbc.com/news/articles/c62l9gnx775o?at_medium=RSS&at_campaign=rss",
-      "date": "7 May 2026",
-      "excerpt": "Molecules that can capture heat could be a useful technology to decarbonise heating.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ebd/live/fd224ab0-3d5a-11f1-9d5c-8ba507d7dbde.jpg"
+      "title": "How Sir David Attenborough built 'Green Hollywood'",
+      "link": "https://www.bbc.com/news/articles/cg4pkqv1lewo?at_medium=RSS&at_campaign=rss",
+      "date": "9 May 2026",
+      "excerpt": "The city is responsible for 80% of the world's natural history TV shows.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cef/live/55d167e0-4959-11f1-90fb-fb6472b97b5f.jpg"
     }
   ]
 }
