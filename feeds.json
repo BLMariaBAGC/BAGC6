@@ -1,6 +1,15 @@
 {
-  "updated": "10 May 2026, 10:59 UTC",
+  "updated": "10 May 2026, 13:15 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Brain scans reveal a shocking difference between psychopaths and other people",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260510030946.htm",
+      "date": "10 May 2026",
+      "excerpt": "Scientists have uncovered a striking brain difference linked to psychopathy: people with psychopathic traits were found to have a striatum — a brain region tied to reward, motivation, and decision-making — that was about 10% larger on avera",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260504023828.htm",
       "date": "4 May 2026",
       "excerpt": "Creatine might be famous in the gym, but its real story is far more interesting. Naturally produced in the body, it helps power cells by rapidly regenerating ATP—the fuel that keeps muscles, the brain, and even the heart running during inte",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This simple blood test might detect depression before symptoms appear",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260504023827.htm",
-      "date": "4 May 2026",
-      "excerpt": "A new study suggests depression may soon be detectable through a simple blood test—by tracking how certain immune cells age. Researchers found that accelerated aging in monocytes, a type of white blood cell, is closely tied to the emotional",
       "image": ""
     },
     {
