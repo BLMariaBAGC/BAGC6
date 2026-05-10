@@ -1,5 +1,5 @@
 {
-  "updated": "10 May 2026, 16:53 UTC",
+  "updated": "10 May 2026, 19:01 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Progesterone Exposure Linked to Gene Alterations in Male Brains",
+      "link": "https://neurosciencenews.com/prenatal-progesterone-male-brain-gene-30662/",
+      "date": "10 May 2026",
+      "excerpt": "A new study in sheep models shows that male fetuses exposed to high levels of progesterone experience an accumulation of the SRD5A1 gene in the frontal cortex. These findings emphasize the importance of understanding how prenatal hormone ex",
+      "image": "https://neurosciencenews.com/files/2026/05/estrogen-fetal-development-genetics-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Reducing Visceral Fat Protects the Brain for Decades",
       "link": "https://neurosciencenews.com/visceral-fat-brain-atrophy-glucose-30661/",
       "date": "9 May 2026",
@@ -135,15 +144,6 @@
       "date": "8 May 2026",
       "excerpt": "Physicists have developed a mathematical \"toy model\" using statistical physics to explain one of the great mysteries of deep learning: why massive neural networks learn patterns instead of just memorizing data. By applying renormalization t",
       "image": "https://neurosciencenews.com/files/2026/05/toy-model-ai-learning-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Pathway Identification Could Slow Parkinson’s",
-      "link": "https://neurosciencenews.com/female-specific-parkinsons-pathway-30655/",
-      "date": "8 May 2026",
-      "excerpt": "Researchers identified a sex-specific pathway that preserves dopamine-producing neurons in females. By reinforcing nicotine-responsive receptors without using nicotine, the team successfully reduced signs of degeneration, marking a critical",
-      "image": "https://neurosciencenews.com/files/2026/05/parkinsons-female-brain-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
