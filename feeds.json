@@ -1,5 +1,5 @@
 {
-  "updated": "10 May 2026, 22:44 UTC",
+  "updated": "11 May 2026, 02:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -265,6 +265,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "No summer border delays for Brits, Greek tourism minister says",
+      "link": "https://www.bbc.com/news/articles/cn5pxyr9xr7o?at_medium=RSS&at_campaign=rss",
+      "date": "10 May 2026",
+      "excerpt": "Olga Kefalogianni says the Greek government doesn't want visitors to be \"burdened\" by biometric checks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/74e3/live/d2785bf0-4b0c-11f1-b55d-0f258dce1735.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "This couple lost £1,000 after their flight was cancelled - here is what to check so you don't",
+      "link": "https://www.bbc.com/news/articles/cx215yldr13o?at_medium=RSS&at_campaign=rss",
+      "date": "10 May 2026",
+      "excerpt": "It's essential to read your policy details carefully - here's a checklist to tick off before you set off on your travels.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e909/live/5ef36a60-42e9-11f1-9516-81393c122a1a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Dua Lipa sues Samsung for $15m over use of her image on TV boxes",
+      "link": "https://www.bbc.com/news/articles/ce9pvp210zdo?at_medium=RSS&at_campaign=rss",
+      "date": "11 May 2026",
+      "excerpt": "The pop star's legal team alleges a photograph of her face was used on Samsung television boxes without permission.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/485f/live/71733440-4cd0-11f1-a5f9-d73fa1ebe64c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The UK is set for a staycation summer - and there are plenty of hidden gems",
       "link": "https://www.bbc.com/news/articles/cgjpv9pdnpwo?at_medium=RSS&at_campaign=rss",
       "date": "8 May 2026",
@@ -283,38 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Major train operator to be renationalised in months",
-      "link": "https://www.bbc.com/news/articles/cy02yyl1e7xo?at_medium=RSS&at_campaign=rss",
-      "date": "8 May 2026",
-      "excerpt": "GWR, which runs trains between London and South Wales, will come under government control.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3292/live/06366080-4ae1-11f1-8c8d-458160734f59.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The companies making billions from the Iran war",
-      "link": "https://www.bbc.com/news/articles/ce8pyyz5e0ro?at_medium=RSS&at_campaign=rss",
-      "date": "8 May 2026",
-      "excerpt": "Through surging profits or soaring share prices, the war has been a boon for some firms.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4805/live/10c5a3c0-4ab5-11f1-aa18-a5969e596c8c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US jobs data beats expectations for second month in a row",
-      "link": "https://www.bbc.com/news/articles/cx21664lp32o?at_medium=RSS&at_campaign=rss",
-      "date": "8 May 2026",
-      "excerpt": "The solid figures came despite rising gas prices and economic uncertainty sparked by the Iran war.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c42/live/c5a8cda0-4ae0-11f1-8c8d-458160734f59.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How Sir David Attenborough built 'Green Hollywood'",
-      "link": "https://www.bbc.com/news/articles/cg4pkqv1lewo?at_medium=RSS&at_campaign=rss",
-      "date": "9 May 2026",
-      "excerpt": "The city is responsible for 80% of the world's natural history TV shows.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cef/live/55d167e0-4959-11f1-90fb-fb6472b97b5f.jpg"
+      "title": "Cyber-crime increasingly coming with threats of physical violence",
+      "link": "https://www.bbc.com/news/articles/cr71d8vyjv0o?at_medium=RSS&at_campaign=rss",
+      "date": "10 May 2026",
+      "excerpt": "While hackers used to sneak into computer systems, intimidation of staff is now more common.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5d0/live/0fa188f0-3eea-11f1-a821-9161fbfb806d.jpg"
     }
   ]
 }
