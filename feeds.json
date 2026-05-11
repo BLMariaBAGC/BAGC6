@@ -1,6 +1,15 @@
 {
-  "updated": "11 May 2026, 11:16 UTC",
+  "updated": "11 May 2026, 14:46 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This 800-year-old Chinese exercise helps lower blood pressure naturally",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260510234724.htm",
+      "date": "10 May 2026",
+      "excerpt": "An ancient Chinese exercise routine may be just as powerful as a daily brisk walk for lowering blood pressure — without equipment, gyms, or intense workouts. In a major clinical trial, adults with stage 1 hypertension who practiced baduanji",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -17,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260509210654.htm",
       "date": "10 May 2026",
       "excerpt": "Scientists have uncovered a hidden “stop-scratching” signal in the nervous system that tells your brain when enough scratching is enough. The discovery centers on a molecule called TRPV4, which acts like part of an internal braking system f",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Researchers say AI chatbots may blur the line between reality and delusion",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260509210652.htm",
+      "date": "11 May 2026",
+      "excerpt": "A new study suggests AI chatbots may do more than spread misinformation — they can actively strengthen a user’s false beliefs. Because conversational AI often validates and builds on what users say, it can make distorted memories, conspirac",
       "image": ""
     },
     {
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260504211836.htm",
       "date": "4 May 2026",
       "excerpt": "A new study suggests travel could be a surprisingly powerful anti-aging tool. By viewing tourism through the lens of entropy, researchers found that positive travel experiences may help the body stay balanced and resilient. Activities like ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This simple amino acid supplement greatly reduces Alzheimer’s damage",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260504075512.htm",
-      "date": "4 May 2026",
-      "excerpt": "A new study suggests a surprisingly simple compound could help fight Alzheimer’s disease. Researchers found that arginine—an inexpensive amino acid already considered safe—can reduce the buildup of toxic amyloid proteins in the brain, a hal",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists reveal creatine’s hidden power beyond muscle gains",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260504023828.htm",
-      "date": "4 May 2026",
-      "excerpt": "Creatine might be famous in the gym, but its real story is far more interesting. Naturally produced in the body, it helps power cells by rapidly regenerating ATP—the fuel that keeps muscles, the brain, and even the heart running during inte",
       "image": ""
     },
     {
@@ -148,6 +148,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "What Are Your Company’s AI Nightmares?",
+      "link": "https://hbr.org/2026/05/what-are-your-companys-ai-nightmares",
+      "date": "11 May 2026",
+      "excerpt": "When building guardrails, don&#8217;t start with principles; start with the worst outcomes you can imagine.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "“Cyber Defense Has to Move at the Speed of AI”",
       "link": "https://hbr.org/2026/05/cyber-defense-has-to-move-at-the-speed-of-ai",
       "date": "8 May 2026",
@@ -200,12 +209,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Sales Teams Undercut Themselves with Longtime Clients",
-      "link": "https://hbr.org/2026/05/how-sales-teams-undercut-themselves-with-longtime-clients",
-      "date": "6 May 2026",
-      "excerpt": "Six steps to reset the dynamic.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How empty high streets contribute to support for populist parties in England",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/11/how-empty-high-streets-contribute-to-support-for-populist-parties-in-england/",
+      "date": "11 May 2026",
+      "excerpt": "How does decline in local neighbourhoods impact political discourse and competition? As the populist Reform UK make significant gains in local elections in England, Thiemo Fetzer, Prashant Garg and Jacob Edenhofer study UKIP, a predecessor ",
       "image": ""
     },
     {
@@ -254,40 +263,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "European businesses cannot quantify the impact of AI on their staff because they are not tracking it",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/04/30/european-businesses-cannot-quantify-the-impact-of-ai-on-their-staff-because-they-are-not-tracking-it/",
-      "date": "30 Apr 2026",
-      "excerpt": "Businesses in Britain, France and Germany are embracing artificial intelligence. But most struggle to measure its impact properly. Ellie Smith explains how while many firms track business impact of using new technology, they are less able t",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "British Steel nationalisation plans announced by Starmer",
       "link": "https://www.bbc.com/news/articles/c8xwg0gdrpzo?at_medium=RSS&at_campaign=rss",
       "date": "11 May 2026",
       "excerpt": "The steelworks has been under government control for almost a year, but leglistation to nationalise it will be put forward this week.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35a9/live/68b3b2b0-4d22-11f1-b55d-0f258dce1735.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d94/live/87576030-4d32-11f1-bd52-e755d604ece4.png"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil prices jump after Trump dismisses Iran proposal to end war",
-      "link": "https://www.bbc.com/news/articles/ckgp4ev4yg4o?at_medium=RSS&at_campaign=rss",
+      "title": "Ovo energy customers urged not to panic as takeover planned",
+      "link": "https://www.bbc.com/news/articles/cn4pl91npjdo?at_medium=RSS&at_campaign=rss",
       "date": "11 May 2026",
-      "excerpt": "The Strait of Hormuz waterway remains effectively shut, severely disrupting global energy shipments.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2737/live/69b088e0-4cd8-11f1-b55d-0f258dce1735.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "No summer border delays for Brits, Greek tourism minister says",
-      "link": "https://www.bbc.com/news/articles/cn5pxyr9xr7o?at_medium=RSS&at_campaign=rss",
-      "date": "10 May 2026",
-      "excerpt": "Olga Kefalogianni says the Greek government doesn't want visitors to be \"burdened\" by biometric checks.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/74e3/live/d2785bf0-4b0c-11f1-b55d-0f258dce1735.jpg"
+      "excerpt": "All existing tariffs will be honoured in full under a planned deal that could create Britain's largest energy supplier.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a450/live/4602a130-4d3c-11f1-87e0-250b0c741d1e.jpg"
     },
     {
       "source": "BBC Business",
@@ -301,11 +292,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump's China visit set to test fragile truce",
-      "link": "https://www.bbc.com/news/articles/c3rz75rgn8zo?at_medium=RSS&at_campaign=rss",
+      "title": "TikTok launches £3.99 subscription for no ads in UK",
+      "link": "https://www.bbc.com/news/articles/cn0pgl0vk0qo?at_medium=RSS&at_campaign=rss",
       "date": "11 May 2026",
-      "excerpt": "The first US presidential visit to China in almost 10 years will test a fragile tariff truce.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ce3/live/b238cdf0-15e4-11f1-b7f0-993273cb922a.jpg"
+      "excerpt": "Those who don't subscribe will be able to use the platform for free - but be shown personalised ads by default.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36d8/live/bd23dc20-4d37-11f1-87e0-250b0c741d1e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil prices jump after Trump dismisses Iran proposal to end war",
+      "link": "https://www.bbc.com/news/articles/ckgp4ev4yg4o?at_medium=RSS&at_campaign=rss",
+      "date": "11 May 2026",
+      "excerpt": "The Strait of Hormuz waterway remains effectively shut, severely disrupting global energy shipments.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2737/live/69b088e0-4cd8-11f1-b55d-0f258dce1735.jpg"
     },
     {
       "source": "BBC Business",
