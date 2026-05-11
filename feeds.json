@@ -1,5 +1,5 @@
 {
-  "updated": "11 May 2026, 14:46 UTC",
+  "updated": "11 May 2026, 17:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Why Leaders Should Let Minor Mistakes Slide",
+      "link": "https://hbr.org/2026/05/why-leaders-should-let-minor-mistakes-slide",
+      "date": "11 May 2026",
+      "excerpt": "New research finds that including small slip-ups in performance reviews can drive employees to gossip, disengage, or even sabotage the company.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "What Are Your Company’s AI Nightmares?",
       "link": "https://hbr.org/2026/05/what-are-your-companys-ai-nightmares",
       "date": "11 May 2026",
@@ -277,8 +286,26 @@
       "title": "Ovo energy customers urged not to panic as takeover planned",
       "link": "https://www.bbc.com/news/articles/cn4pl91npjdo?at_medium=RSS&at_campaign=rss",
       "date": "11 May 2026",
-      "excerpt": "All existing tariffs will be honoured in full under a planned deal that could create Britain's largest energy supplier.",
+      "excerpt": "All existing tariffs will be honoured in full under a planned deal that could create one of Britain's largest energy suppliers.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a450/live/4602a130-4d3c-11f1-87e0-250b0c741d1e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Elon Musk and Tim Cook among CEOs expected to accompany Trump on China trip",
+      "link": "https://www.bbc.com/news/articles/c5yx757w048o?at_medium=RSS&at_campaign=rss",
+      "date": "11 May 2026",
+      "excerpt": "A total of 17 US executives are set to join the president on his visit, where he will meet his Chinese counterpart Xi Jinping.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/775b/live/f5806e70-4d60-11f1-b55d-0f258dce1735.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil price predicted to remain above $100 for rest of year",
+      "link": "https://www.bbc.com/news/articles/ckgp4ev4yg4o?at_medium=RSS&at_campaign=rss",
+      "date": "11 May 2026",
+      "excerpt": "Investment bank JP Morgan expects oil to remain in the \"low $100s\" even if the Strait of Hormuz were to reopen next month.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2737/live/69b088e0-4cd8-11f1-b55d-0f258dce1735.jpg"
     },
     {
       "source": "BBC Business",
@@ -288,24 +315,6 @@
       "date": "10 May 2026",
       "excerpt": "It's essential to read your policy details carefully - here's a checklist to tick off before you set off on your travels.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a86a/live/973e4f00-4d0e-11f1-ac78-2112837ce2aa.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "TikTok launches £3.99 subscription for no ads in UK",
-      "link": "https://www.bbc.com/news/articles/cn0pgl0vk0qo?at_medium=RSS&at_campaign=rss",
-      "date": "11 May 2026",
-      "excerpt": "Those who don't subscribe will be able to use the platform for free - but be shown personalised ads by default.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36d8/live/bd23dc20-4d37-11f1-87e0-250b0c741d1e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil prices jump after Trump dismisses Iran proposal to end war",
-      "link": "https://www.bbc.com/news/articles/ckgp4ev4yg4o?at_medium=RSS&at_campaign=rss",
-      "date": "11 May 2026",
-      "excerpt": "The Strait of Hormuz waterway remains effectively shut, severely disrupting global energy shipments.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2737/live/69b088e0-4cd8-11f1-b55d-0f258dce1735.jpg"
     },
     {
       "source": "BBC Business",
