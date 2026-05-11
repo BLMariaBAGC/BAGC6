@@ -1,5 +1,5 @@
 {
-  "updated": "11 May 2026, 19:44 UTC",
+  "updated": "11 May 2026, 21:15 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "First Real-Time Brain-Controlled Hearing Device",
+      "link": "https://neurosciencenews.com/brain-controlled-hearing-aid-60465/",
+      "date": "11 May 2026",
+      "excerpt": "Researchers have developed a brain-controlled hearing system that uses real-time neural signals to solve the \"cocktail party problem.\" By matching a listener's brain waves to specific voices in a crowd, the device can automatically amplify ",
+      "image": "https://neurosciencenews.com/files/2026/05/brain-hearing-device-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Decoding the Metabolic Roots of Bipolar Disorder",
       "link": "https://neurosciencenews.com/bipolar-metabolic-cognition-pathway-insulin-30664/",
       "date": "11 May 2026",
@@ -135,15 +144,6 @@
       "date": "8 May 2026",
       "excerpt": "By mapping the interaction between the locus coeruleus and the anterior cingulate cortex, researchers found a mechanism that regulates the intensity of the body’s fight-or-flight responses. This discovery offers a transformative roadmap for",
       "image": "https://neurosciencenews.com/files/2026/05/acc-stress-action-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Stimulation Boosts Willpower to Quit Smoking",
-      "link": "https://neurosciencenews.com/rtms-brain-stimulation-smoking-30658/",
-      "date": "8 May 2026",
-      "excerpt": "Addiction is a biological imbalance where reward systems overpower self-control. Researchers have demonstrated that using rTMS to stimulate the dorsolateral prefrontal cortex can restore this balance, reducing cigarette use by 11 per day. T",
-      "image": "https://neurosciencenews.com/files/2026/05/rtms-smoking-addiction-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
