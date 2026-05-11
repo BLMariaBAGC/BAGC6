@@ -1,5 +1,5 @@
 {
-  "updated": "11 May 2026, 17:53 UTC",
+  "updated": "11 May 2026, 19:44 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Decoding the Metabolic Roots of Bipolar Disorder",
+      "link": "https://neurosciencenews.com/bipolar-metabolic-cognition-pathway-insulin-30664/",
+      "date": "11 May 2026",
+      "excerpt": "New research identifies a specific pathway where insulin resistance leads to gray matter loss and cognitive impairment in BD patients, but not those with Major Depression. This discovery opens the door for personalized treatments, such as G",
+      "image": "https://neurosciencenews.com/files/2026/05/metabolism-bipolar-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How the Brain Dampens Losses to Support Mental Toughness",
+      "link": "https://neurosciencenews.com/resilience-decision-making-loss-bias-30663/",
+      "date": "11 May 2026",
+      "excerpt": "Psychologically resilient people place less value on minor losses. This bias is driven by heightened prefrontal brain activity that helps regulate negative emotions, providing a potential neural target for training mental toughness.",
+      "image": "https://neurosciencenews.com/files/2026/05/mental-resilience-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Progesterone Exposure Linked to Gene Alterations in Male Brains",
       "link": "https://neurosciencenews.com/prenatal-progesterone-male-brain-gene-30662/",
       "date": "10 May 2026",
@@ -126,24 +144,6 @@
       "date": "8 May 2026",
       "excerpt": "Addiction is a biological imbalance where reward systems overpower self-control. Researchers have demonstrated that using rTMS to stimulate the dorsolateral prefrontal cortex can restore this balance, reducing cigarette use by 11 per day. T",
       "image": "https://neurosciencenews.com/files/2026/05/rtms-smoking-addiction-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Discovery Redefines the Architecture of Thought",
-      "link": "https://neurosciencenews.com/natural-intelligence-brain-decision-making-30657/",
-      "date": "8 May 2026",
-      "excerpt": "New research challenges the long-held belief that the brain makes decisions in a simple, top-down hierarchy. By discovering decision-making signals in the primary somatosensory cortex, researchers have revealed a system of bidirectional fee",
-      "image": "https://neurosciencenews.com/files/2026/05/cognition-thought-decision-making-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Massive AI Models Actually Generalize Better",
-      "link": "https://neurosciencenews.com/physics-toy-model-ai-learning-30656/",
-      "date": "8 May 2026",
-      "excerpt": "Physicists have developed a mathematical \"toy model\" using statistical physics to explain one of the great mysteries of deep learning: why massive neural networks learn patterns instead of just memorizing data. By applying renormalization t",
-      "image": "https://neurosciencenews.com/files/2026/05/toy-model-ai-learning-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
