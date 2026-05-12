@@ -1,5 +1,5 @@
 {
-  "updated": "12 May 2026, 17:57 UTC",
+  "updated": "12 May 2026, 20:01 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,51 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Targeting Brain “Clean-up” Cells to Fight Dementia",
+      "link": "https://neurosciencenews.com/circadian-rhythm-microglia-dementia-30670/",
+      "date": "12 May 2026",
+      "excerpt": "Researchers discovered that dysregulated circadian rhythms cause microglia, the brain’s immune cells, to become \"stress-primed\" and malfunction. This state prevents them from clearing amyloid plaques, accelerating dementia risk. Now, using ",
+      "image": "https://neurosciencenews.com/files/2026/05/microglia-alzheimers-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Mapping Millions of Aging Brain Cells Simultaneously",
+      "link": "https://neurosciencenews.com/single-cell-genomics-aging-brain-30669/",
+      "date": "12 May 2026",
+      "excerpt": "By developing IRISeq and EnrichSci, researchers can now map the spatial neighborhoods of millions of aging brain cells and zoom in on rare, vulnerable populations. Their discovery that inflammatory cells cluster in white matter and that exo",
+      "image": "https://neurosciencenews.com/files/2026/05/aging-brain-mapping-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Map of Brain Histamine System Links Molecule to ADHD and Depression",
+      "link": "https://neurosciencenews.com/histamine-brain-map-psychiatric-disorders-30668/",
+      "date": "12 May 2026",
+      "excerpt": "Researchers mapped the histamine system from genes to PET scans, revealing its deep involvement in emotional regulation and cognitive control. This new atlas suggests that histamine-related pathways could be the \"missing link\" for new treat",
+      "image": "https://neurosciencenews.com/files/2026/05/histamine-mental-health-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Emotional Labeling Reduces Anxiety in Those with Autism",
+      "link": "https://neurosciencenews.com/emotional-labeling-anxiety-asd-30667/",
+      "date": "12 May 2026",
+      "excerpt": "Can labeling your feelings \"fix\" anxiety? For those with higher autistic traits, the answer may be yes. Researchers found that while these individuals experience higher intolerance of uncertainty, the act of putting feelings into words serv",
+      "image": "https://neurosciencenews.com/files/2026/05/asd-emotional-labeling-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Timing of Trauma: Life Stages Shape the Resilient and Vulnerable Brain",
+      "link": "https://neurosciencenews.com/trauma-brain-development-behavior-30666/",
+      "date": "12 May 2026",
+      "excerpt": "Researchers mapped how trauma at different life stages reshapes specific brain regions, from the hippocampus in childhood to the prefrontal cortex in adolescence. These findings suggest that the timing of trauma creates a biological \"bluepr",
+      "image": "https://neurosciencenews.com/files/2026/05/trauma-age-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "First Real-Time Brain-Controlled Hearing Device",
       "link": "https://neurosciencenews.com/brain-controlled-hearing-aid-60465/",
       "date": "11 May 2026",
@@ -99,51 +144,6 @@
       "date": "11 May 2026",
       "excerpt": "Psychologically resilient people place less value on minor losses. This bias is driven by heightened prefrontal brain activity that helps regulate negative emotions, providing a potential neural target for training mental toughness.",
       "image": "https://neurosciencenews.com/files/2026/05/mental-resilience-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Progesterone Exposure Linked to Gene Alterations in Male Brains",
-      "link": "https://neurosciencenews.com/prenatal-progesterone-male-brain-gene-30662/",
-      "date": "10 May 2026",
-      "excerpt": "A new study in sheep models shows that male fetuses exposed to high levels of progesterone experience an accumulation of the SRD5A1 gene in the frontal cortex. These findings emphasize the importance of understanding how prenatal hormone ex",
-      "image": "https://neurosciencenews.com/files/2026/05/estrogen-fetal-development-genetics-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Reducing Visceral Fat Protects the Brain for Decades",
-      "link": "https://neurosciencenews.com/visceral-fat-brain-atrophy-glucose-30661/",
-      "date": "9 May 2026",
-      "excerpt": "A landmark 16-year MRI study identified cumulative abdominal fat as a specific, modifiable risk factor for brain atrophy. The findings demonstrate that sustained reductions in visceral fat, mediated by better glucose control, are essential ",
-      "image": "https://neurosciencenews.com/files/2026/05/visceral-fat-cognition-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain-First Hypothesis: Rethinking the Cambrian Explosion",
-      "link": "https://neurosciencenews.com/cambrian-explosion-brain-first-hypothesis-evolution-30660/",
-      "date": "9 May 2026",
-      "excerpt": "The evolution of the brain may have been the primary engine behind the Cambrian Explosion. The \"Brain-First Hypothesis\" suggests that increasing ecological pressure for sensory processing led to neural regionalization. This neural complexit",
-      "image": "https://neurosciencenews.com/files/2026/05/cambrian-explosion-brain-first-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Beyond the Gym: Why Your Brain Craves Creatine",
-      "link": "https://neurosciencenews.com/creatine-atp-brain-health-30659/",
-      "date": "9 May 2026",
-      "excerpt": "By accelerating ATP regeneration, creatine supplementation offers significant potential for enhancing cognitive processing and supporting neurological health in aging populations.",
-      "image": "https://neurosciencenews.com/files/2026/05/creatine-neurometabolism-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Switch for Action and Stress Identified",
-      "link": "https://neurosciencenews.com/brain-arousal-dial-acc-parkinsons-30659/",
-      "date": "8 May 2026",
-      "excerpt": "By mapping the interaction between the locus coeruleus and the anterior cingulate cortex, researchers found a mechanism that regulates the intensity of the body’s fight-or-flight responses. This discovery offers a transformative roadmap for",
-      "image": "https://neurosciencenews.com/files/2026/05/acc-stress-action-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,15 +220,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How stablecoins are extending the monetary power of the United States",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/12/how-stablecoins-are-extending-the-monetary-power-of-the-united-states/",
-      "date": "12 May 2026",
-      "excerpt": "Even as traditional indicators point to gradual de-dollarisation, a parallel shift is underway in digital finance. Thunj Chantramonklasri and Ryan Leary examine how the rapid rise of dollar-pegged stablecoins is creating a new form of “digi",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How empty high streets contribute to support for populist parties in England",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/11/how-empty-high-streets-contribute-to-support-for-populist-parties-in-england/",
       "date": "11 May 2026",
@@ -247,7 +238,7 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Indian multinationals are succeeding in emerging markets without major foreign investment",
+      "title": "How Indian multinationals are succeeding in emerging markets without major foreign investment",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/07/how-indian-multinationals-are-succeeding-in-emerging-markets-without-major-foreign-investment/",
       "date": "7 May 2026",
       "excerpt": "In a world of rising geopolitical risk companies are looking for ways to grow internationally without making large irreversible commitments. Rishiraj Kashyap, Andreas Schotter, Prakash Satyavageeswaran and Elizabeth L. Rose suggest that Ind",
@@ -270,6 +261,24 @@
       "date": "5 May 2026",
       "excerpt": "Financial markets already price climate transition risk into sovereign bond yields. Carmelo Arena, Stefania Basiglio, Andrea Comandé, Giray Gozgor and Jing Li show how investors reward credible governance and green infrastructure, not clima",
       "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "“Becoming Nature Positive” is a documentary about the great choice of our time",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/01/becoming-nature-positive-is-a-documentary-about-the-great-choice-of-our-time/",
+      "date": "1 May 2026",
+      "excerpt": "Ahead of a screening at LSE Marco Lambertini, executive director of the film and Convener of the Nature Positive Initiative, explains the critical choice humanity must make. Everyone has a role to play in becoming nature positive. But becau",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Elon Musk said control of OpenAI should go to his children, Sam Altman tells jury",
+      "link": "https://www.bbc.com/news/articles/czj2k2exdzlo?at_medium=RSS&at_campaign=rss",
+      "date": "12 May 2026",
+      "excerpt": "Sam Altman said Elon Musk tried many times for total control of OpenAI, which he's now suing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d608/live/c5360200-4e2a-11f1-a6a1-c1a2c5a4cd39.jpg"
     },
     {
       "source": "BBC Business",
@@ -306,15 +315,6 @@
       "date": "12 May 2026",
       "excerpt": "The effective closure of the Strait of Hormuz has severely disrupted global supplies of energy and petrochemicals.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a8d6/live/3982e4b0-4dcd-11f1-b9c0-3f2598570d49.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How driving test booking is changing for learner drivers",
-      "link": "https://www.bbc.com/news/articles/ckgpl9zdw3po?at_medium=RSS&at_campaign=rss",
-      "date": "11 May 2026",
-      "excerpt": "From 12 May, only learner drivers can book their own tests, not instructors.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/608d/live/68aa66d0-4dc5-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
