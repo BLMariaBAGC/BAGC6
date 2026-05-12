@@ -1,5 +1,5 @@
 {
-  "updated": "12 May 2026, 20:01 UTC",
+  "updated": "12 May 2026, 22:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Personalized DNA Vaccine Doubles Glioblastoma Survival Rates",
+      "link": "https://neurosciencenews.com/dna-glioblastoma-vaccine-brain-cancer-30673/",
+      "date": "12 May 2026",
+      "excerpt": "A \"first of its kind\" personalized DNA vaccine is doubling survival rates for patients with aggressive glioblastoma. By targeting 40 unique tumor proteins, twice as many as previous therapies, the GNOS-PV01 vaccine transforms \"cold\" tumors ",
+      "image": "https://neurosciencenews.com/files/2026/05/glioblastoma-dna-vaccine-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Slowing Parkinson’s by Blocking a Key Protein",
+      "link": "https://neurosciencenews.com/gpnmb-parkinsons-disease-alpha-synuclein-30673/",
+      "date": "12 May 2026",
+      "excerpt": "A new study found that GPNMB, released by the brain's immune cells, accelerates the spread of toxic alpha-synuclein. By using monoclonal antibodies to block GPNMB, the team successfully interrupted the cycle of neurodegeneration in preclini",
+      "image": "https://neurosciencenews.com/files/2026/05/monoclonal-antibodies-parkinsons-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "“Jumping Genes” Shaped the Evolution of the Brain",
+      "link": "https://neurosciencenews.com/brain-evolution-gene-regulation-30672/",
+      "date": "12 May 2026",
+      "excerpt": "Researchers discovered that transposable elements (TEs) provided more than 20,000 regulatory binding sites that drive neural development. By acting as genomic couriers for transcription factors like Sox2 and Brn2, these \"jumping genes\" expa",
+      "image": "https://neurosciencenews.com/files/2026/05/jumping-genes-evolutionary-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "GLP-1 Drugs Dramatically Reduce “Food Noise” in Weight Loss",
+      "link": "https://neurosciencenews.com/glp1-obesity-drugs-reduce-food-noise-30671/",
+      "date": "12 May 2026",
+      "excerpt": "GLP-1 medications effectively \"turn down the volume\" on intrusive food thoughts. In a study of 417 adults, those combining medication with behavioral therapy saw a significantly greater reduction in \"food noise\" than those using therapy alo",
+      "image": "https://neurosciencenews.com/files/2026/05/glp1-food-noise-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Targeting Brain “Clean-up” Cells to Fight Dementia",
       "link": "https://neurosciencenews.com/circadian-rhythm-microglia-dementia-30670/",
       "date": "12 May 2026",
@@ -108,42 +144,6 @@
       "date": "12 May 2026",
       "excerpt": "Can labeling your feelings \"fix\" anxiety? For those with higher autistic traits, the answer may be yes. Researchers found that while these individuals experience higher intolerance of uncertainty, the act of putting feelings into words serv",
       "image": "https://neurosciencenews.com/files/2026/05/asd-emotional-labeling-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Timing of Trauma: Life Stages Shape the Resilient and Vulnerable Brain",
-      "link": "https://neurosciencenews.com/trauma-brain-development-behavior-30666/",
-      "date": "12 May 2026",
-      "excerpt": "Researchers mapped how trauma at different life stages reshapes specific brain regions, from the hippocampus in childhood to the prefrontal cortex in adolescence. These findings suggest that the timing of trauma creates a biological \"bluepr",
-      "image": "https://neurosciencenews.com/files/2026/05/trauma-age-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "First Real-Time Brain-Controlled Hearing Device",
-      "link": "https://neurosciencenews.com/brain-controlled-hearing-aid-60465/",
-      "date": "11 May 2026",
-      "excerpt": "Researchers have developed a brain-controlled hearing system that uses real-time neural signals to solve the \"cocktail party problem.\" By matching a listener's brain waves to specific voices in a crowd, the device can automatically amplify ",
-      "image": "https://neurosciencenews.com/files/2026/05/brain-hearing-device-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Decoding the Metabolic Roots of Bipolar Disorder",
-      "link": "https://neurosciencenews.com/bipolar-metabolic-cognition-pathway-insulin-30664/",
-      "date": "11 May 2026",
-      "excerpt": "New research identifies a specific pathway where insulin resistance leads to gray matter loss and cognitive impairment in BD patients, but not those with Major Depression. This discovery opens the door for personalized treatments, such as G",
-      "image": "https://neurosciencenews.com/files/2026/05/metabolism-bipolar-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "How the Brain Dampens Losses to Support Mental Toughness",
-      "link": "https://neurosciencenews.com/resilience-decision-making-loss-bias-30663/",
-      "date": "11 May 2026",
-      "excerpt": "Psychologically resilient people place less value on minor losses. This bias is driven by heightened prefrontal brain activity that helps regulate negative emotions, providing a potential neural target for training mental toughness.",
-      "image": "https://neurosciencenews.com/files/2026/05/mental-resilience-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How stablecoins are extending the monetary power of the United States",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/12/how-stablecoins-are-extending-the-monetary-power-of-the-united-states/",
+      "date": "12 May 2026",
+      "excerpt": "Even as traditional indicators point to gradual de-dollarisation, a parallel shift is underway in digital finance. Thunj Chantramonklasri and Ryan Leary examine how the rapid rise of dollar-pegged stablecoins is creating a new form of “digi",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How empty high streets contribute to support for populist parties in England",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/11/how-empty-high-streets-contribute-to-support-for-populist-parties-in-england/",
       "date": "11 May 2026",
@@ -238,7 +247,7 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How Indian multinationals are succeeding in emerging markets without major foreign investment",
+      "title": "Indian multinationals are succeeding in emerging markets without major foreign investment",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/07/how-indian-multinationals-are-succeeding-in-emerging-markets-without-major-foreign-investment/",
       "date": "7 May 2026",
       "excerpt": "In a world of rising geopolitical risk companies are looking for ways to grow internationally without making large irreversible commitments. Rishiraj Kashyap, Andreas Schotter, Prakash Satyavageeswaran and Elizabeth L. Rose suggest that Ind",
@@ -260,15 +269,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
       "date": "5 May 2026",
       "excerpt": "Financial markets already price climate transition risk into sovereign bond yields. Carmelo Arena, Stefania Basiglio, Andrea Comandé, Giray Gozgor and Jing Li show how investors reward credible governance and green infrastructure, not clima",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "“Becoming Nature Positive” is a documentary about the great choice of our time",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/01/becoming-nature-positive-is-a-documentary-about-the-great-choice-of-our-time/",
-      "date": "1 May 2026",
-      "excerpt": "Ahead of a screening at LSE Marco Lambertini, executive director of the film and Convener of the Nature Positive Initiative, explains the critical choice humanity must make. Everyone has a role to play in becoming nature positive. But becau",
       "image": ""
     },
     {
