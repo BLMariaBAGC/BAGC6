@@ -1,5 +1,5 @@
 {
-  "updated": "12 May 2026, 14:21 UTC",
+  "updated": "12 May 2026, 17:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The Leadership Skills That Make Transformation Stick",
+      "link": "https://hbr.org/podcast/2026/05/the-leadership-skills-that-make-transformation-stick",
+      "date": "12 May 2026",
+      "excerpt": "A conversation with BCG&#8217;s Julia Dhar about a mindset shift that leaders need to make.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Should You Treat AI Like a Teammate?",
       "link": "https://hbr.org/2026/05/should-you-treat-ai-like-a-teammate",
       "date": "12 May 2026",
@@ -160,7 +169,7 @@
       "title": "Microsoft’s Path to Adopting and Scaling AI Across its Sales Organization",
       "link": "https://hbr.org/podcast/2026/05/microsofts-path-to-adopting-and-scaling-ai-across-its-sales-organization",
       "date": "12 May 2026",
-      "excerpt": "A case study on why the standard deployment playbook didn&#8217;t work when the tech giant rolled out CoPilot to a key department &#8211; and how they adjusted course.",
+      "excerpt": "A case study on why the standard deployment playbook didn&#8217;t work when the tech giant rolled out CoPilot to a key department&#8212;and how they adjusted course.",
       "image": ""
     },
     {
@@ -209,13 +218,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Redesigning Your Marketing Organization for the Agentic Age",
-      "link": "https://hbr.org/2026/05/redesigning-your-marketing-organization-for-the-agentic-age",
-      "date": "8 May 2026",
-      "excerpt": "Organizations that move early will define how marketing operates in the coming era and capture compounding returns.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How stablecoins are extending the monetary power of the United States",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/12/how-stablecoins-are-extending-the-monetary-power-of-the-united-states/",
+      "date": "12 May 2026",
+      "excerpt": "Even as traditional indicators point to gradual de-dollarisation, a parallel shift is underway in digital finance. Thunj Chantramonklasri and Ryan Leary examine how the rapid rise of dollar-pegged stablecoins is creating a new form of “digi",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -238,7 +247,7 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How Indian multinationals are succeeding in emerging markets without major foreign investment",
+      "title": "Indian multinationals are succeeding in emerging markets without major foreign investment",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/07/how-indian-multinationals-are-succeeding-in-emerging-markets-without-major-foreign-investment/",
       "date": "7 May 2026",
       "excerpt": "In a world of rising geopolitical risk companies are looking for ways to grow internationally without making large irreversible commitments. Rishiraj Kashyap, Andreas Schotter, Prakash Satyavageeswaran and Elizabeth L. Rose suggest that Ind",
@@ -263,22 +272,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "“Becoming Nature Positive” is a documentary about the great choice of our time",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/01/becoming-nature-positive-is-a-documentary-about-the-great-choice-of-our-time/",
-      "date": "1 May 2026",
-      "excerpt": "Ahead of a screening at LSE Marco Lambertini, executive director of the film and Convener of the Nature Positive Initiative, explains the critical choice humanity must make. Everyone has a role to play in becoming nature positive. But becau",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "UK borrowing costs jump as uncertainty over PM's future continues",
       "link": "https://www.bbc.com/news/articles/cqjpqy19npxo?at_medium=RSS&at_campaign=rss",
       "date": "12 May 2026",
       "excerpt": "The possibility of a change of leadership in the UK has unsettled some investors and sent bond yields higher.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c18/live/2d4b5890-4e0d-11f1-841e-93875f0f6355.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecc5/live/d6326200-4e12-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
