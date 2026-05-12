@@ -1,5 +1,5 @@
 {
-  "updated": "11 May 2026, 22:52 UTC",
+  "updated": "12 May 2026, 02:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "How driving test booking is changing for learner drivers",
+      "link": "https://www.bbc.com/news/articles/ckgpl9zdw3po?at_medium=RSS&at_campaign=rss",
+      "date": "11 May 2026",
+      "excerpt": "From 12 May, only learner drivers can book their own tests, not instructors.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a1f/live/c23457a0-4d62-11f1-940e-cbf9737b8b8f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "China should stop hoarding food and fertiliser, says former World Bank chief",
+      "link": "https://www.bbc.com/news/articles/cwy2rnyg50zo?at_medium=RSS&at_campaign=rss",
+      "date": "12 May 2026",
+      "excerpt": "David Malpass' comments come as US President Donald Trump and China's Xi Jinping are due to meet in Beijing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/695d/live/496c2800-4daa-11f1-a2b3-e5c6e523fa77.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "British Steel nationalisation plans announced by Starmer",
       "link": "https://www.bbc.com/news/articles/c8xwg0gdrpzo?at_medium=RSS&at_campaign=rss",
       "date": "11 May 2026",
@@ -301,29 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil price predicted to remain above $100 for rest of year",
-      "link": "https://www.bbc.com/news/articles/ckgp4ev4yg4o?at_medium=RSS&at_campaign=rss",
+      "title": "Not so dusty: How tech is changing woodworking",
+      "link": "https://www.bbc.com/news/articles/c747n11933eo?at_medium=RSS&at_campaign=rss",
       "date": "11 May 2026",
-      "excerpt": "Investment bank JP Morgan expects oil to remain in the \"low $100s\" even if the Strait of Hormuz were to reopen next month.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2737/live/69b088e0-4cd8-11f1-b55d-0f258dce1735.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "This couple lost £1,000 after their flight was cancelled - here is what to check so you don't",
-      "link": "https://www.bbc.com/news/articles/cx215yldr13o?at_medium=RSS&at_campaign=rss",
-      "date": "10 May 2026",
-      "excerpt": "It's essential to read your policy details carefully - here's a checklist to tick off before you set off on your travels.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a86a/live/973e4f00-4d0e-11f1-ac78-2112837ce2aa.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Cyber-crime increasingly coming with threats of physical violence",
-      "link": "https://www.bbc.com/news/articles/cr71d8vyjv0o?at_medium=RSS&at_campaign=rss",
-      "date": "10 May 2026",
-      "excerpt": "While hackers used to sneak into computer systems, intimidation of staff is now more common.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5d0/live/0fa188f0-3eea-11f1-a821-9161fbfb806d.jpg"
+      "excerpt": "Woodworking shops have been transformed by tech to make tools safer and more precise.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1a6/live/ce922de0-3e23-11f1-ac78-2112837ce2aa.jpg"
     }
   ]
 }
