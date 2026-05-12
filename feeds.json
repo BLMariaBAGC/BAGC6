@@ -1,5 +1,5 @@
 {
-  "updated": "12 May 2026, 10:30 UTC",
+  "updated": "12 May 2026, 14:21 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Should You Treat AI Like a Teammate?",
+      "link": "https://hbr.org/2026/05/should-you-treat-ai-like-a-teammate",
+      "date": "12 May 2026",
+      "excerpt": "In the May 11, 2026, edition of The Insider, managing editor Gretchen Gavett highlights a recent story about treating AI agents as coworkers, the results of the latest Insider Insights survey, and more.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Microsoft’s Path to Adopting and Scaling AI Across its Sales Organization",
+      "link": "https://hbr.org/podcast/2026/05/microsofts-path-to-adopting-and-scaling-ai-across-its-sales-organization",
+      "date": "12 May 2026",
+      "excerpt": "A case study on why the standard deployment playbook didn&#8217;t work when the tech giant rolled out CoPilot to a key department &#8211; and how they adjusted course.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: Traditional Marketing Doesn’t Work on AI Shopping Agents",
+      "link": "https://hbr.org/2026/05/research-traditional-marketing-doesnt-work-on-ai-shopping-agents",
+      "date": "12 May 2026",
+      "excerpt": "Companies need different tactics for this rapidly growing segment of online shoppers.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Why Leaders Should Let Minor Mistakes Slide",
       "link": "https://hbr.org/2026/05/why-leaders-should-let-minor-mistakes-slide",
       "date": "11 May 2026",
@@ -188,33 +215,6 @@
       "link": "https://hbr.org/2026/05/redesigning-your-marketing-organization-for-the-agentic-age",
       "date": "8 May 2026",
       "excerpt": "Organizations that move early will define how marketing operates in the coming era and capture compounding returns.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Effective Leaders Get Branded as Problems",
-      "link": "https://hbr.org/2026/05/why-effective-leaders-get-branded-as-problems",
-      "date": "7 May 2026",
-      "excerpt": "High performers often expose friction&#8212;and then get blamed for it.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "3 Ways AI Can Free Organizations from Legacy Workflows",
-      "link": "https://hbr.org/2026/05/3-ways-ai-can-free-organizations-from-legacy-workflows",
-      "date": "7 May 2026",
-      "excerpt": "When companies cling to the way they&#8217;ve always done things, they crowd out space to experiment and adapt.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Communicating with Confidence When You’re Under Pressure",
-      "link": "https://hbr.org/podcast/2026/05/communicating-with-confidence-when-youre-under-pressure",
-      "date": "7 May 2026",
-      "excerpt": "A conversation with leadership development coach Muriel Wilkins about getting your message across even when you&#8217;re running on empty.",
       "image": ""
     },
     {
@@ -274,20 +274,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "How driving test booking is changing for learner drivers",
-      "link": "https://www.bbc.com/news/articles/ckgpl9zdw3po?at_medium=RSS&at_campaign=rss",
-      "date": "11 May 2026",
-      "excerpt": "From 12 May, only learner drivers can book their own tests, not instructors.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/608d/live/68aa66d0-4dc5-11f1-ac78-2112837ce2aa.jpg"
+      "title": "UK borrowing costs jump as uncertainty over PM's future continues",
+      "link": "https://www.bbc.com/news/articles/cqjpqy19npxo?at_medium=RSS&at_campaign=rss",
+      "date": "12 May 2026",
+      "excerpt": "The possibility of a change of leadership in the UK has unsettled some investors and sent bond yields higher.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c18/live/2d4b5890-4e0d-11f1-841e-93875f0f6355.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "China should stop hoarding food and fertiliser, says former World Bank chief",
-      "link": "https://www.bbc.com/news/articles/cwy2rnyg50zo?at_medium=RSS&at_campaign=rss",
+      "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
+      "link": "https://www.bbc.com/news/articles/c202pgxx89lo?at_medium=RSS&at_campaign=rss",
       "date": "12 May 2026",
-      "excerpt": "David Malpass also said that Beijing's claim to be a developing nation was no longer credible.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/695d/live/496c2800-4daa-11f1-a2b3-e5c6e523fa77.jpg"
+      "excerpt": "The key measure of US inflation rises its highest level since May 2023 as consumers feel the impact of the Iran war.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f750/live/8172ffc0-4e00-11f1-aa37-6b8846c2f74e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "eBay rejects $55.5bn offer from GameStop",
+      "link": "https://www.bbc.com/news/articles/ckgp5ll3jd4o?at_medium=RSS&at_campaign=rss",
+      "date": "12 May 2026",
+      "excerpt": "The online auction giant said it doubted how the video game retailer would finance its offer.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe29/live/02e51490-4e00-11f1-aa37-6b8846c2f74e.jpg"
     },
     {
       "source": "BBC Business",
@@ -301,20 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Texas accuses Netflix of spying on users, including children",
-      "link": "https://www.bbc.com/news/articles/c072dvv1rmro?at_medium=RSS&at_campaign=rss",
-      "date": "12 May 2026",
-      "excerpt": "The lawsuit comes amid increased scrutiny over platform features like auto-play that deliver endless content to users.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b8a7/live/ae66b720-4de6-11f1-9cc8-93479330ab4b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "British Steel nationalisation plans announced by Starmer",
-      "link": "https://www.bbc.com/news/articles/c8xwg0gdrpzo?at_medium=RSS&at_campaign=rss",
+      "title": "How driving test booking is changing for learner drivers",
+      "link": "https://www.bbc.com/news/articles/ckgpl9zdw3po?at_medium=RSS&at_campaign=rss",
       "date": "11 May 2026",
-      "excerpt": "The steelworks has been under government control for almost a year, but leglistation to nationalise it will be put forward this week.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d94/live/87576030-4d32-11f1-bd52-e755d604ece4.png"
+      "excerpt": "From 12 May, only learner drivers can book their own tests, not instructors.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/608d/live/68aa66d0-4dc5-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
