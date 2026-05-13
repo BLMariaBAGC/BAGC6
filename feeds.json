@@ -1,5 +1,5 @@
 {
-  "updated": "13 May 2026, 20:05 UTC",
+  "updated": "13 May 2026, 23:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Sleep Duration Linked to Accelerated Aging",
+      "link": "https://neurosciencenews.com/sleep-duration-organ-aging-clocks-30686/",
+      "date": "13 May 2026",
+      "excerpt": "Researchers have discovered a \"U-shaped\" link between sleep and the biological clocks of 17 different organ systems. Sleeping fewer than 6 hours or more than 8 hours accelerates the aging of your heart, lungs, and immune system. By analyzin",
+      "image": "https://neurosciencenews.com/files/2026/05/sleep-aging-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why Men and Women Hear Differently",
+      "link": "https://neurosciencenews.com/sex-dependent-auditory-neuroscience-30686/",
+      "date": "13 May 2026",
+      "excerpt": "A new study presents evidence that hormonal changes, from monthly cycles to menopause, significantly alter how the brain processes sound. By highlighting that men and women follow entirely different auditory decline trajectories, this resea",
+      "image": "https://neurosciencenews.com/files/2026/05/sex-differences-hearing-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Neural Hotwire: How Biological Synapses Bypass Broken Brain Links",
+      "link": "https://neurosciencenews.com/lincx-biological-brain-wire-neurotech-30684/",
+      "date": "13 May 2026",
+      "excerpt": "Can we \"hotwire\" the brain to fix neurological disorders? Researchers have unveiled LinCx, a technology that creates biological electrical \"bypasses\" between neurons. By engineering fish-derived proteins to act as precision wires, the team ",
+      "image": "https://neurosciencenews.com/files/2026/05/lincx-biological-synapse-neurotech-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "A New Genetic Entry Point for Autism Traits",
       "link": "https://neurosciencenews.com/ptchd1-autism-genetics-30683/",
       "date": "13 May 2026",
@@ -119,31 +146,13 @@
       "image": "https://neurosciencenews.com/files/2026/05/rumination-neurofeedback-neuroscience-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Signal Predicts and Restores Attention in Children",
-      "link": "https://neurosciencenews.com/brain-signal-child-attention-30676/",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Redefining What Efficiency Means in the Age of AI",
+      "link": "https://hbr.org/podcast/2026/05/redefining-what-efficiency-means-in-the-age-of-ai",
       "date": "13 May 2026",
-      "excerpt": "Researchers discovered a neural signature that predicts when a child is about to lose focus. By delivering a targeted pulse at the exact millisecond this signal appears, scientists were able to restore attentional flexibility in children wi",
-      "image": "https://neurosciencenews.com/files/2026/05/attention-kids-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "APOE2 Protects Neurons from DNA Damage and Aging",
-      "link": "https://neurosciencenews.com/apoe2-longevity-dna-alzheimers-30675/",
-      "date": "13 May 2026",
-      "excerpt": "Researchers discovered that the APOE2 gene variant shields the brain by helping neurons repair DNA damage and resist cellular senescence. By shifting focus from lipid transport to genomic integrity, this study identifies a new biological me",
-      "image": "https://neurosciencenews.com/files/2026/05/apoe2-aging-genetics-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Personalized DNA Vaccine Doubles Glioblastoma Survival Rates",
-      "link": "https://neurosciencenews.com/dna-glioblastoma-vaccine-brain-cancer-30673/",
-      "date": "12 May 2026",
-      "excerpt": "A \"first of its kind\" personalized DNA vaccine is doubling survival rates for patients with aggressive glioblastoma. By targeting 40 unique tumor proteins, twice as many as previous therapies, the GNOS-PV01 vaccine transforms \"cold\" tumors ",
-      "image": "https://neurosciencenews.com/files/2026/05/glioblastoma-dna-vaccine-neuroscience-1155x770.jpg"
+      "excerpt": "A conversation with neuroscientist Mithu Storoni about training our brains to work more effectively with AI.",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -209,24 +218,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Leaders Should Let Minor Mistakes Slide",
-      "link": "https://hbr.org/2026/05/why-leaders-should-let-minor-mistakes-slide",
-      "date": "11 May 2026",
-      "excerpt": "New research finds that including small slip-ups in performance reviews can drive employees to gossip, disengage, or even sabotage the company.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Donald Trump’s tariff wars are not just about trade",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/13/donald-trumps-tariff-wars-are-not-just-about-trade/",
-      "date": "13 May 2026",
-      "excerpt": "The return of tariffs to the centre of American foreign economic policy isn&#8217;t simply a turn to protectionism. It signals something more consequential: the weaponisation of trade as geopolitical strategy. Ahead of an LSE event on trade",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "How stablecoins are extending the monetary power of the United States",
@@ -272,6 +263,24 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Climate governance now shapes governments’ borrowing costs",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
+      "date": "5 May 2026",
+      "excerpt": "Financial markets already price climate transition risk into sovereign bond yields. Carmelo Arena, Stefania Basiglio, Andrea Comandé, Giray Gozgor and Jing Li show how investors reward credible governance and green infrastructure, not clima",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump's Fed chair pick Kevin Warsh confirmed by US Senate",
+      "link": "https://www.bbc.com/news/articles/ce8p71p4nezo?at_medium=RSS&at_campaign=rss",
+      "date": "13 May 2026",
+      "excerpt": "Kevin Warsh was confirmed by the narrowest margin since the role required a Senate confirmation vote.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f296/live/2dea3af0-fe1c-11f0-aa16-29d94d729f34.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Tui sees summer sales fall 10% due to cautious UK customers",
@@ -306,15 +315,6 @@
       "date": "13 May 2026",
       "excerpt": "A court in Bremen has found the manufacturer of the classic Alpine Milk chocolate bar guilty of \"shrinkflation\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8868/live/0a7b1fb0-4ebe-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ex-rugby star on the joys of his own burger stall",
-      "link": "https://www.bbc.com/news/articles/cg7pj8pyvdgo?at_medium=RSS&at_campaign=rss",
-      "date": "13 May 2026",
-      "excerpt": "Ex-England and Leicester Tigers hooker Tom Youngs says the new venture brings families to the farm.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dee5/live/9b405f10-4eaa-11f1-92a2-156bc6ac560f.jpg"
     },
     {
       "source": "BBC Business",
