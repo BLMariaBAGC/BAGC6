@@ -1,5 +1,5 @@
 {
-  "updated": "13 May 2026, 10:25 UTC",
+  "updated": "13 May 2026, 14:30 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Are You Meeting the Needs of the People You Lead?",
+      "link": "https://hbr.org/2026/05/are-you-meeting-the-needs-of-the-people-you-lead",
+      "date": "13 May 2026",
+      "excerpt": "The best leaders are not necessarily more charismatic or authentic. They are more attuned to what employees need, and when.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Beware the Agentic Convergence Trap",
+      "link": "https://hbr.org/2026/05/beware-the-agentic-convergence-trap",
+      "date": "13 May 2026",
+      "excerpt": "When companies use the same AI tools to inform strategy, competitive advantages erode.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The Leadership Skills That Make Transformation Stick",
       "link": "https://hbr.org/podcast/2026/05/the-leadership-skills-that-make-transformation-stick",
       "date": "12 May 2026",
@@ -197,24 +215,6 @@
       "link": "https://hbr.org/2026/05/what-are-your-companys-ai-nightmares",
       "date": "11 May 2026",
       "excerpt": "When building guardrails, don&#8217;t start with principles; start with the worst outcomes you can imagine.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "“Cyber Defense Has to Move at the Speed of AI”",
-      "link": "https://hbr.org/2026/05/cyber-defense-has-to-move-at-the-speed-of-ai",
-      "date": "8 May 2026",
-      "excerpt": "As AI accelerates the scale and sophistication of cyber threats, business leaders must rethink their cybersecurity strategies and prioritization.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Fast-Growing Companies Can Make Better Decisions",
-      "link": "https://hbr.org/2026/05/how-fast-growing-companies-can-make-better-decisions",
-      "date": "8 May 2026",
-      "excerpt": "&#8220;Structured empowerment&#8221; is a decision-making approach that scales.",
       "image": ""
     },
     {
@@ -274,6 +274,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Tui sees summer sales fall 10% due to cautious UK customers",
+      "link": "https://www.bbc.com/news/articles/ce8p31ngv90o?at_medium=RSS&at_campaign=rss",
+      "date": "13 May 2026",
+      "excerpt": "The travel operator says customers are delaying booking holidays over Iran war concerns.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b961/live/45585fb0-4eb6-11f1-a4e8-2309d38aa073.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "WhatsApp launches 'incognito' AI chat with private disappearing messages",
+      "link": "https://www.bbc.com/news/articles/c99lmyr1dnxo?at_medium=RSS&at_campaign=rss",
+      "date": "13 May 2026",
+      "excerpt": "A cyber security expert says deleting chat history could lead to a lack of accountability if things go wrong.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04cd/live/e1910ab0-4ecc-11f1-b55d-0f258dce1735.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Smart glasses are 'an invasion of privacy' - Meta's are selling better than ever",
       "link": "https://www.bbc.com/news/articles/cj37z8357e5o?at_medium=RSS&at_campaign=rss",
       "date": "13 May 2026",
@@ -283,38 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Elon Musk said control of OpenAI should go to his children, Sam Altman tells jury",
-      "link": "https://www.bbc.com/news/articles/czj2k2exdzlo?at_medium=RSS&at_campaign=rss",
-      "date": "12 May 2026",
-      "excerpt": "Sam Altman said Elon Musk tried many times for total control of OpenAI, which he's now suing.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d608/live/c5360200-4e2a-11f1-a6a1-c1a2c5a4cd39.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Elon Musk and Jensen Huang among CEOs joining Trump on China trip",
-      "link": "https://www.bbc.com/news/articles/c5yx757w048o?at_medium=RSS&at_campaign=rss",
+      "title": "Shrinking Milka chocolate bar tricked consumers, says German court",
+      "link": "https://www.bbc.com/news/articles/crmp428zylko?at_medium=RSS&at_campaign=rss",
       "date": "13 May 2026",
-      "excerpt": "More than a dozen US executives have joined the president on his visit, where he will meet his Chinese counterpart Xi Jinping.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a96e/live/1731a100-4e98-11f1-b55d-0f258dce1735.jpg"
+      "excerpt": "A court in Bremen has found the manufacturer of the classic Alpine Milk chocolate bar guilty of \"shrinkflation\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8868/live/0a7b1fb0-4ebe-11f1-bd52-e755d604ece4.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Glassmaker questions future of UK manufacturing",
-      "link": "https://www.bbc.com/news/articles/cdrpx0xl7v8o?at_medium=RSS&at_campaign=rss",
+      "title": "Ex-rugby star on the joys of his own burger stall",
+      "link": "https://www.bbc.com/news/articles/cg7pj8pyvdgo?at_medium=RSS&at_campaign=rss",
       "date": "13 May 2026",
-      "excerpt": "Bristol Blue Glass says rising energy costs and taxes have forced its closure.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3587/live/cad00870-4aea-11f1-95d5-c35bb50319f8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK borrowing costs jump as uncertainty over PM's future continues",
-      "link": "https://www.bbc.com/news/articles/cqjpqy19npxo?at_medium=RSS&at_campaign=rss",
-      "date": "12 May 2026",
-      "excerpt": "The possibility of a change of leadership in the UK has unsettled some investors and sent bond yields higher.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecc5/live/d6326200-4e12-11f1-ac78-2112837ce2aa.jpg"
+      "excerpt": "Ex-England and Leicester Tigers hooker Tom Youngs says the new venture brings families to the farm.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dee5/live/9b405f10-4eaa-11f1-92a2-156bc6ac560f.jpg"
     },
     {
       "source": "BBC Business",
