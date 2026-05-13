@@ -1,6 +1,24 @@
 {
-  "updated": "13 May 2026, 14:30 UTC",
+  "updated": "13 May 2026, 17:59 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This daily habit could lower dementia risk by 35%, scientists say",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260512202350.htm",
+      "date": "13 May 2026",
+      "excerpt": "A huge long-term study found that drinking two to three cups of coffee a day was linked to a much lower risk of dementia, especially before age 75. Researchers say caffeine may help keep brain cells active while reducing inflammation and ha",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your “um” and pauses could reveal early dementia risk",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260512202333.htm",
+      "date": "13 May 2026",
+      "excerpt": "The little pauses, “ums,” and moments when you struggle to find the right word may reveal far more about your brain than anyone realized. Researchers discovered that everyday speech patterns are closely tied to executive function — the ment",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,22 +74,58 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "MIT scientists discover millions of “silent synapses” in the adult brain",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260504211848.htm",
-      "date": "6 May 2026",
-      "excerpt": "MIT neuroscientists have uncovered a surprising secret hidden in the adult brain: millions of “silent synapses,” dormant connections that lie in wait until new learning calls them into action. Once thought to exist only in early development",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Genetic Pathways Link Cannabis Use to Psychosis Risk",
+      "link": "https://neurosciencenews.com/psychosis-genetic-pathways-cud-30681/",
+      "date": "13 May 2026",
+      "excerpt": "Researchers have identified three distinct genetic pathways that explain how Cannabis Use Disorder (CUD) leads to psychosis. By analyzing over 500 genetic markers and the role of the glutamate system, which is heavily impacted by THC, the t",
+      "image": "https://neurosciencenews.com/files/2026/05/genetics-cannabis-use-psychosis-neuroscience-1155x770.jpg"
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists say travel could slow aging and boost your health",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260504211836.htm",
-      "date": "4 May 2026",
-      "excerpt": "A new study suggests travel could be a surprisingly powerful anti-aging tool. By viewing tourism through the lens of entropy, researchers found that positive travel experiences may help the body stay balanced and resilient. Activities like ",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Genetic Risk for Schizophrenia Diverges Brain Growth in Teens",
+      "link": "https://neurosciencenews.com/genetic-risk-schizophrenia-teen-brain-30680/",
+      "date": "13 May 2026",
+      "excerpt": "A longitudinal study of over 6,000 children has found that those with high genetic risk for schizophrenia experience a decrease in frontal brain surface area during early adolescence, while their peers experience growth. This unique, dynami",
+      "image": "https://neurosciencenews.com/files/2026/05/genetics-schizophrenia-teens-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Single Brain Connection Pinpointed as the Starting Point of Learning",
+      "link": "https://neurosciencenews.com/basal-ganglia-synapse-learning-30679/",
+      "date": "13 May 2026",
+      "excerpt": "Scientists have pinpointed a single synaptic connection in the basal ganglia as the origin point for vocal learning. By studying zebra finches, researchers discovered that \"turning off\" these specific synapses causes a bird's song to revert",
+      "image": "https://neurosciencenews.com/files/2026/05/learning-basal-ganglia-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Neurofeedback Trains Brain to Stop Depressive Rumination",
+      "link": "https://neurosciencenews.com/neurofeedback-rumination-depression-30677/",
+      "date": "13 May 2026",
+      "excerpt": "Researchers are using real-time fMRI neurofeedback to transform brain training into a video game that targets rumination. By teaching patients to regulate the coupling between the brain's self-referential and goal-directed centers, this pre",
+      "image": "https://neurosciencenews.com/files/2026/05/rumination-neurofeedback-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Signal Predicts and Restores Attention in Children",
+      "link": "https://neurosciencenews.com/brain-signal-child-attention-30676/",
+      "date": "13 May 2026",
+      "excerpt": "Researchers discovered a neural signature that predicts when a child is about to lose focus. By delivering a targeted pulse at the exact millisecond this signal appears, scientists were able to restore attentional flexibility in children wi",
+      "image": "https://neurosciencenews.com/files/2026/05/attention-kids-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "APOE2 Protects Neurons from DNA Damage and Aging",
+      "link": "https://neurosciencenews.com/apoe2-longevity-dna-alzheimers-30675/",
+      "date": "13 May 2026",
+      "excerpt": "Researchers discovered that the APOE2 gene variant shields the brain by helping neurons repair DNA damage and resist cellular senescence. By shifting focus from lipid transport to genomic integrity, this study identifies a new biological me",
+      "image": "https://neurosciencenews.com/files/2026/05/apoe2-aging-genetics-neuroscience-1155x770.jpg"
     },
     {
       "source": "Neuroscience News",
@@ -92,58 +146,13 @@
       "image": "https://neurosciencenews.com/files/2026/05/monoclonal-antibodies-parkinsons-neuroscience-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "“Jumping Genes” Shaped the Evolution of the Brain",
-      "link": "https://neurosciencenews.com/brain-evolution-gene-regulation-30672/",
-      "date": "12 May 2026",
-      "excerpt": "Researchers discovered that transposable elements (TEs) provided more than 20,000 regulatory binding sites that drive neural development. By acting as genomic couriers for transcription factors like Sox2 and Brn2, these \"jumping genes\" expa",
-      "image": "https://neurosciencenews.com/files/2026/05/jumping-genes-evolutionary-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "GLP-1 Drugs Dramatically Reduce “Food Noise” in Weight Loss",
-      "link": "https://neurosciencenews.com/glp1-obesity-drugs-reduce-food-noise-30671/",
-      "date": "12 May 2026",
-      "excerpt": "GLP-1 medications effectively \"turn down the volume\" on intrusive food thoughts. In a study of 417 adults, those combining medication with behavioral therapy saw a significantly greater reduction in \"food noise\" than those using therapy alo",
-      "image": "https://neurosciencenews.com/files/2026/05/glp1-food-noise-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Targeting Brain “Clean-up” Cells to Fight Dementia",
-      "link": "https://neurosciencenews.com/circadian-rhythm-microglia-dementia-30670/",
-      "date": "12 May 2026",
-      "excerpt": "Researchers discovered that dysregulated circadian rhythms cause microglia, the brain’s immune cells, to become \"stress-primed\" and malfunction. This state prevents them from clearing amyloid plaques, accelerating dementia risk. Now, using ",
-      "image": "https://neurosciencenews.com/files/2026/05/microglia-alzheimers-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Mapping Millions of Aging Brain Cells Simultaneously",
-      "link": "https://neurosciencenews.com/single-cell-genomics-aging-brain-30669/",
-      "date": "12 May 2026",
-      "excerpt": "By developing IRISeq and EnrichSci, researchers can now map the spatial neighborhoods of millions of aging brain cells and zoom in on rare, vulnerable populations. Their discovery that inflammatory cells cluster in white matter and that exo",
-      "image": "https://neurosciencenews.com/files/2026/05/aging-brain-mapping-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Map of Brain Histamine System Links Molecule to ADHD and Depression",
-      "link": "https://neurosciencenews.com/histamine-brain-map-psychiatric-disorders-30668/",
-      "date": "12 May 2026",
-      "excerpt": "Researchers mapped the histamine system from genes to PET scans, revealing its deep involvement in emotional regulation and cognitive control. This new atlas suggests that histamine-related pathways could be the \"missing link\" for new treat",
-      "image": "https://neurosciencenews.com/files/2026/05/histamine-mental-health-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Emotional Labeling Reduces Anxiety in Those with Autism",
-      "link": "https://neurosciencenews.com/emotional-labeling-anxiety-asd-30667/",
-      "date": "12 May 2026",
-      "excerpt": "Can labeling your feelings \"fix\" anxiety? For those with higher autistic traits, the answer may be yes. Researchers found that while these individuals experience higher intolerance of uncertainty, the act of putting feelings into words serv",
-      "image": "https://neurosciencenews.com/files/2026/05/asd-emotional-labeling-neurosceince-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "It’s Hard to Use AI as a Team. These 3 Practices Can Help.",
+      "link": "https://hbr.org/2026/05/its-hard-to-use-ai-as-a-team-these-3-practices-can-help",
+      "date": "13 May 2026",
+      "excerpt": "How to overcome the awkward pitfalls of incorporating it into meetings.",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -206,15 +215,6 @@
       "link": "https://hbr.org/2026/05/why-leaders-should-let-minor-mistakes-slide",
       "date": "11 May 2026",
       "excerpt": "New research finds that including small slip-ups in performance reviews can drive employees to gossip, disengage, or even sabotage the company.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Are Your Company’s AI Nightmares?",
-      "link": "https://hbr.org/2026/05/what-are-your-companys-ai-nightmares",
-      "date": "11 May 2026",
-      "excerpt": "When building guardrails, don&#8217;t start with principles; start with the worst outcomes you can imagine.",
       "image": ""
     },
     {
@@ -283,7 +283,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "WhatsApp launches 'incognito' AI chat with private disappearing messages",
+      "title": "WhatsApp launches totally private 'incognito' conversations with its AI chatbot",
       "link": "https://www.bbc.com/news/articles/c99lmyr1dnxo?at_medium=RSS&at_campaign=rss",
       "date": "13 May 2026",
       "excerpt": "A cyber security expert says deleting chat history could lead to a lack of accountability if things go wrong.",
