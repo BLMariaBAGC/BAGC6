@@ -1,5 +1,5 @@
 {
-  "updated": "13 May 2026, 17:59 UTC",
+  "updated": "13 May 2026, 20:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "A New Genetic Entry Point for Autism Traits",
+      "link": "https://neurosciencenews.com/ptchd1-autism-genetics-30683/",
+      "date": "13 May 2026",
+      "excerpt": "Can autism's core traits be separated from cognitive ability? Researchers have identified PTCHD1-AS, a long non-coding RNA gene that regulates social interaction and repetitive behaviors without affecting learning or memory. By tracing this",
+      "image": "https://neurosciencenews.com/files/2026/05/asd-genetic-entry-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Genetic Pathways Link Cannabis Use to Psychosis Risk",
       "link": "https://neurosciencenews.com/psychosis-genetic-pathways-cud-30681/",
       "date": "13 May 2026",
@@ -135,15 +144,6 @@
       "date": "12 May 2026",
       "excerpt": "A \"first of its kind\" personalized DNA vaccine is doubling survival rates for patients with aggressive glioblastoma. By targeting 40 unique tumor proteins, twice as many as previous therapies, the GNOS-PV01 vaccine transforms \"cold\" tumors ",
       "image": "https://neurosciencenews.com/files/2026/05/glioblastoma-dna-vaccine-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Slowing Parkinson’s by Blocking a Key Protein",
-      "link": "https://neurosciencenews.com/gpnmb-parkinsons-disease-alpha-synuclein-30673/",
-      "date": "12 May 2026",
-      "excerpt": "A new study found that GPNMB, released by the brain's immune cells, accelerates the spread of toxic alpha-synuclein. By using monoclonal antibodies to block GPNMB, the team successfully interrupted the cycle of neurodegeneration in preclini",
-      "image": "https://neurosciencenews.com/files/2026/05/monoclonal-antibodies-parkinsons-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Donald Trump’s tariff wars are not just about trade",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/13/donald-trumps-tariff-wars-are-not-just-about-trade/",
+      "date": "13 May 2026",
+      "excerpt": "The return of tariffs to the centre of American foreign economic policy isn&#8217;t simply a turn to protectionism. It signals something more consequential: the weaponisation of trade as geopolitical strategy. Ahead of an LSE event on trade",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How stablecoins are extending the monetary power of the United States",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/12/how-stablecoins-are-extending-the-monetary-power-of-the-united-states/",
       "date": "12 May 2026",
@@ -260,15 +269,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/06/gender-bias-in-venture-capital-means-identical-business-cases-are-evaluated-and-funded-differently/",
       "date": "6 May 2026",
       "excerpt": "Venture capital funding should be allocated to the “best” business cases. But Ana Barjasic and Dario Krpan show how evaluators’ bias means that companies run by women are overlooked and underfunded compared with those presented by men. In E",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Climate governance now shapes governments’ borrowing costs",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
-      "date": "5 May 2026",
-      "excerpt": "Financial markets already price climate transition risk into sovereign bond yields. Carmelo Arena, Stefania Basiglio, Andrea Comandé, Giray Gozgor and Jing Li show how investors reward credible governance and green infrastructure, not clima",
       "image": ""
     },
     {
