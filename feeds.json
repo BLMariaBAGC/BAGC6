@@ -1,5 +1,5 @@
 {
-  "updated": "14 May 2026, 17:23 UTC",
+  "updated": "14 May 2026, 17:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Physical Stress Changes Your Voice and Speech Patterns",
+      "link": "https://neurosciencenews.com/physical-stress-vocal-patterns-30689/",
+      "date": "14 May 2026",
+      "excerpt": "A new study explains how physical exertion alters vocal pitch, timing, and stability, impacting speech recognition and the \"talk test\".",
+      "image": "https://neurosciencenews.com/files/2026/05/vocal-changes-physical-stress-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Brain Immune Cells Drive Compulsive Behavior",
       "link": "https://neurosciencenews.com/microglia-calcium-signaling-anxiety-ocd-30687/",
       "date": "14 May 2026",
@@ -135,15 +144,6 @@
       "date": "13 May 2026",
       "excerpt": "A longitudinal study of over 6,000 children has found that those with high genetic risk for schizophrenia experience a decrease in frontal brain surface area during early adolescence, while their peers experience growth. This unique, dynami",
       "image": "https://neurosciencenews.com/files/2026/05/genetics-schizophrenia-teens-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Single Brain Connection Pinpointed as the Starting Point of Learning",
-      "link": "https://neurosciencenews.com/basal-ganglia-synapse-learning-30679/",
-      "date": "13 May 2026",
-      "excerpt": "Scientists have pinpointed a single synaptic connection in the basal ganglia as the origin point for vocal learning. By studying zebra finches, researchers discovered that \"turning off\" these specific synapses causes a bird's song to revert",
-      "image": "https://neurosciencenews.com/files/2026/05/learning-basal-ganglia-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -296,7 +296,7 @@
       "link": "https://www.bbc.com/news/articles/c794lj90jqpo?at_medium=RSS&at_campaign=rss",
       "date": "14 May 2026",
       "excerpt": "The firm will now pivot away from scrapping its target for all of its vehicles to be electric by 2040.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3105/live/c084f230-4f8c-11f1-9047-c9775177a8ab.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5247/live/ad483d20-4fba-11f1-8b8c-6d33e1d5abb6.png"
     },
     {
       "source": "BBC Business",
