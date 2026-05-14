@@ -1,5 +1,5 @@
 {
-  "updated": "14 May 2026, 10:13 UTC",
+  "updated": "14 May 2026, 14:07 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,6 +220,24 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "The rise of Hindu religious entrepreneurship – and what it tells us about decolonising Indian business",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/14/the-rise-of-hindu-religious-entrepreneurship-and-what-it-tells-us-about-decolonising-indian-business/",
+      "date": "14 May 2026",
+      "excerpt": "Entrepreneurs in India are launching faith-tech businesses that format religious sources and experiences for modern consumers. Sreevas Sahasranamam and Anupama Kondayya find that these founders are seeking to reclaim Hindu culture and chall",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Donald Trump’s tariff wars are not just about trade",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/13/donald-trumps-tariff-wars-are-not-just-about-trade/",
+      "date": "13 May 2026",
+      "excerpt": "The return of tariffs to the centre of American foreign economic policy isn&#8217;t simply a turn to protectionism. It signals something more consequential: the weaponisation of trade as geopolitical strategy. Ahead of an LSE event on trade",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How stablecoins are extending the monetary power of the United States",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/12/how-stablecoins-are-extending-the-monetary-power-of-the-united-states/",
       "date": "12 May 2026",
@@ -254,24 +272,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Gender bias in venture capital means identical business cases are evaluated and funded differently",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/06/gender-bias-in-venture-capital-means-identical-business-cases-are-evaluated-and-funded-differently/",
-      "date": "6 May 2026",
-      "excerpt": "Venture capital funding should be allocated to the “best” business cases. But Ana Barjasic and Dario Krpan show how evaluators’ bias means that companies run by women are overlooked and underfunded compared with those presented by men. In E",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Climate governance now shapes governments’ borrowing costs",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
-      "date": "5 May 2026",
-      "excerpt": "Financial markets already price climate transition risk into sovereign bond yields. Carmelo Arena, Stefania Basiglio, Andrea Comandé, Giray Gozgor and Jing Li show how investors reward credible governance and green infrastructure, not clima",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "UK economy sees surprise growth in March despite Iran war",
@@ -279,6 +279,24 @@
       "date": "14 May 2026",
       "excerpt": "The economy grew by 0.3% in the month, official figures show, confounding analysts' forecasts of a small contraction.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1fe/live/5a756b80-4e9e-11f1-8afc-5fc3c33cbd56.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Faisal Islam: Six things we now know about the UK economy in charts",
+      "link": "https://www.bbc.com/news/articles/clyprjddgj3o?at_medium=RSS&at_campaign=rss",
+      "date": "14 May 2026",
+      "excerpt": "The UK economy is showing resilience – it’s worth diving into the data in more detail to understand why.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a36a/live/8c5a58b0-4f82-11f1-ab27-43506702cb42.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Honda makes its first annual loss in 70 years",
+      "link": "https://www.bbc.com/news/articles/c794lj90jqpo?at_medium=RSS&at_campaign=rss",
+      "date": "14 May 2026",
+      "excerpt": "The firm will now pivot away from scrapping its target for all of its vehicles to be electric by 2040.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3105/live/c084f230-4f8c-11f1-9047-c9775177a8ab.jpg"
     },
     {
       "source": "BBC Business",
@@ -301,25 +319,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump's Fed chair pick Kevin Warsh confirmed by US Senate",
-      "link": "https://www.bbc.com/news/articles/ce8p71p4nezo?at_medium=RSS&at_campaign=rss",
-      "date": "13 May 2026",
-      "excerpt": "Kevin Warsh was confirmed by the narrowest margin since the role required a Senate confirmation vote.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f296/live/2dea3af0-fe1c-11f0-aa16-29d94d729f34.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Australian giant Coles misled shoppers with fake discounts, court rules",
-      "link": "https://www.bbc.com/news/articles/c202159x6x3o?at_medium=RSS&at_campaign=rss",
-      "date": "14 May 2026",
-      "excerpt": "The decision, which comes amid similar case against Woolworths, could mean significant penalties.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f350/live/bf883490-4f3d-11f1-b010-590460292038.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why big tech is betting on cute mascots",
+      "title": "Big tech bets on new mascots in bid to seem more cuddly",
       "link": "https://www.bbc.com/news/articles/c99l1zzp8xzo?at_medium=RSS&at_campaign=rss",
       "date": "13 May 2026",
       "excerpt": "The likes of Apple, Microsoft and Google are all putting cartoon characters centre stage.",
