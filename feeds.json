@@ -1,5 +1,5 @@
 {
-  "updated": "14 May 2026, 16:56 UTC",
+  "updated": "14 May 2026, 17:12 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Brain Immune Cells Drive Compulsive Behavior",
+      "link": "https://neurosciencenews.com/microglia-calcium-signaling-anxiety-ocd-30687/",
+      "date": "14 May 2026",
+      "excerpt": "Is anxiety an immune response? New research reveals that Hoxb8 microglia, specialized immune cells in the brain, use calcium signaling to switch anxiety and grooming behaviors on and off.",
+      "image": "https://neurosciencenews.com/files/2026/05/microglia-compulsion-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Sleep Duration Linked to Accelerated Aging",
       "link": "https://neurosciencenews.com/sleep-duration-organ-aging-clocks-30686/",
       "date": "13 May 2026",
@@ -135,15 +144,6 @@
       "date": "13 May 2026",
       "excerpt": "Scientists have pinpointed a single synaptic connection in the basal ganglia as the origin point for vocal learning. By studying zebra finches, researchers discovered that \"turning off\" these specific synapses causes a bird's song to revert",
       "image": "https://neurosciencenews.com/files/2026/05/learning-basal-ganglia-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Neurofeedback Trains Brain to Stop Depressive Rumination",
-      "link": "https://neurosciencenews.com/neurofeedback-rumination-depression-30677/",
-      "date": "13 May 2026",
-      "excerpt": "Researchers are using real-time fMRI neurofeedback to transform brain training into a video game that targets rumination. By teaching patients to regulate the coupling between the brain's self-referential and goal-directed centers, this pre",
-      "image": "https://neurosciencenews.com/files/2026/05/rumination-neurofeedback-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,15 +220,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "The rise of Hindu religious entrepreneurship – and what it tells us about decolonising Indian business",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/14/the-rise-of-hindu-religious-entrepreneurship-and-what-it-tells-us-about-decolonising-indian-business/",
-      "date": "14 May 2026",
-      "excerpt": "Entrepreneurs in India are launching faith-tech businesses that format religious sources and experiences for modern consumers. Sreevas Sahasranamam and Anupama Kondayya find that these founders are seeking to reclaim Hindu culture and chall",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Donald Trump’s tariff wars are not just about trade",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/13/donald-trumps-tariff-wars-are-not-just-about-trade/",
       "date": "13 May 2026",
@@ -269,6 +260,15 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/07/how-indian-multinationals-are-succeeding-in-emerging-markets-without-major-foreign-investment/",
       "date": "7 May 2026",
       "excerpt": "In a world of rising geopolitical risk companies are looking for ways to grow internationally without making large irreversible commitments. Rishiraj Kashyap, Andreas Schotter, Prakash Satyavageeswaran and Elizabeth L. Rose suggest that Ind",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Gender bias in venture capital means identical business cases are evaluated and funded differently",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/06/gender-bias-in-venture-capital-means-identical-business-cases-are-evaluated-and-funded-differently/",
+      "date": "6 May 2026",
+      "excerpt": "Venture capital funding should be allocated to the “best” business cases. But Ana Barjasic and Dario Krpan show how evaluators’ bias means that companies run by women are overlooked and underfunded compared with those presented by men. In E",
       "image": ""
     },
     {
