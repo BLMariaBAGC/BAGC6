@@ -1,5 +1,5 @@
 {
-  "updated": "14 May 2026, 14:07 UTC",
+  "updated": "14 May 2026, 16:56 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "What Operating Rooms Can Teach Leaders About Team Design",
+      "link": "https://hbr.org/2026/05/what-operating-rooms-can-teach-leaders-about-team-design",
+      "date": "14 May 2026",
+      "excerpt": "Organizations often deploy new tools when what they really need is a better way to structure collaboration.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What Global Companies Lose When Decision-Making Revolves Around Headquarters",
+      "link": "https://hbr.org/2026/05/what-global-companies-lose-when-decision-making-revolves-around-headquarters",
+      "date": "14 May 2026",
+      "excerpt": "Research reveals two organizational strategies that consistently reduce the power imbalance between HQ and everyone else.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Redefining What Efficiency Means in the Age of AI",
       "link": "https://hbr.org/podcast/2026/05/redefining-what-efficiency-means-in-the-age-of-ai",
       "date": "13 May 2026",
@@ -197,24 +215,6 @@
       "link": "https://hbr.org/2026/05/should-you-treat-ai-like-a-teammate",
       "date": "12 May 2026",
       "excerpt": "In the May 11, 2026, edition of The Insider, managing editor Gretchen Gavett highlights a recent story about treating AI agents as coworkers, the results of the latest Insider Insights survey, and more.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Microsoft’s Path to Adopting and Scaling AI Across its Sales Organization",
-      "link": "https://hbr.org/podcast/2026/05/microsofts-path-to-adopting-and-scaling-ai-across-its-sales-organization",
-      "date": "12 May 2026",
-      "excerpt": "A case study on why the standard deployment playbook didn&#8217;t work when the tech giant rolled out CoPilot to a key department&#8212;and how they adjusted course.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: Traditional Marketing Doesn’t Work on AI Shopping Agents",
-      "link": "https://hbr.org/2026/05/research-traditional-marketing-doesnt-work-on-ai-shopping-agents",
-      "date": "12 May 2026",
-      "excerpt": "Companies need different tactics for this rapidly growing segment of online shoppers.",
       "image": ""
     },
     {
