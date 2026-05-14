@@ -1,5 +1,5 @@
 {
-  "updated": "14 May 2026, 19:43 UTC",
+  "updated": "14 May 2026, 21:08 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Decoding the Brain’s Genetic Wiring Map",
+      "link": "https://neurosciencenews.com/genetic-wiring-map-brain-30694/",
+      "date": "14 May 2026",
+      "excerpt": "The study identified \"gene expression gradients\", overlapping chemical signals that give every brain region a unique molecular ID.",
+      "image": "https://neurosciencenews.com/files/2026/05/genetics-brain-wire-map-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "NSAID Use in Pregnancy Not Linked to Major Birth Defects",
+      "link": "https://neurosciencenews.com/nsaids-pregnancy-neurodevelopment-30694/",
+      "date": "14 May 2026",
+      "excerpt": "Researchers found that NSAIDs (like ibuprofen, naproxen, and diclofenac) taken during the first trimester are NOT associated with an increased risk of major birth defects.",
+      "image": "https://neurosciencenews.com/files/2026/05/nsaid-pregnancy-neurodevelopment-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Childhood Adversity Blunts the Social Benefits of Intelligence",
       "link": "https://neurosciencenews.com/childhood-disadvantage-intelligence-trust-30693/",
       "date": "14 May 2026",
@@ -126,24 +144,6 @@
       "date": "13 May 2026",
       "excerpt": "Researchers have discovered a \"U-shaped\" link between sleep and the biological clocks of 17 different organ systems. Sleeping fewer than 6 hours or more than 8 hours accelerates the aging of your heart, lungs, and immune system. By analyzin",
       "image": "https://neurosciencenews.com/files/2026/05/sleep-aging-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Men and Women Hear Differently",
-      "link": "https://neurosciencenews.com/sex-dependent-auditory-neuroscience-30686/",
-      "date": "13 May 2026",
-      "excerpt": "A new study presents evidence that hormonal changes, from monthly cycles to menopause, significantly alter how the brain processes sound. By highlighting that men and women follow entirely different auditory decline trajectories, this resea",
-      "image": "https://neurosciencenews.com/files/2026/05/sex-differences-hearing-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Neural Hotwire: How Biological Synapses Bypass Broken Brain Links",
-      "link": "https://neurosciencenews.com/lincx-biological-brain-wire-neurotech-30684/",
-      "date": "13 May 2026",
-      "excerpt": "Can we \"hotwire\" the brain to fix neurological disorders? Researchers have unveiled LinCx, a technology that creates biological electrical \"bypasses\" between neurons. By engineering fish-derived proteins to act as precision wires, the team ",
-      "image": "https://neurosciencenews.com/files/2026/05/lincx-biological-synapse-neurotech-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
