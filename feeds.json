@@ -1,5 +1,5 @@
 {
-  "updated": "14 May 2026, 18:53 UTC",
+  "updated": "14 May 2026, 19:43 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Childhood Adversity Blunts the Social Benefits of Intelligence",
+      "link": "https://neurosciencenews.com/childhood-disadvantage-intelligence-trust-30693/",
+      "date": "14 May 2026",
+      "excerpt": "We often assume that a higher IQ leads to better social outcomes, like being more trusting and cooperative. But new research suggests that your childhood environment might be the \"volume knob\" for that advantage.",
+      "image": "https://neurosciencenews.com/files/2026/05/childhood-adversity-intelligence-social-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "How Visual Neurons Organize Thousands of Synaptic Inputs",
       "link": "https://neurosciencenews.com/visual-cortex-synaptic-organization-30691/",
       "date": "14 May 2026",
@@ -135,15 +144,6 @@
       "date": "13 May 2026",
       "excerpt": "Can we \"hotwire\" the brain to fix neurological disorders? Researchers have unveiled LinCx, a technology that creates biological electrical \"bypasses\" between neurons. By engineering fish-derived proteins to act as precision wires, the team ",
       "image": "https://neurosciencenews.com/files/2026/05/lincx-biological-synapse-neurotech-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "A New Genetic Entry Point for Autism Traits",
-      "link": "https://neurosciencenews.com/ptchd1-autism-genetics-30683/",
-      "date": "13 May 2026",
-      "excerpt": "Can autism's core traits be separated from cognitive ability? Researchers have identified PTCHD1-AS, a long non-coding RNA gene that regulates social interaction and repetitive behaviors without affecting learning or memory. By tracing this",
-      "image": "https://neurosciencenews.com/files/2026/05/asd-genetic-entry-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
