@@ -1,5 +1,5 @@
 {
-  "updated": "14 May 2026, 17:48 UTC",
+  "updated": "14 May 2026, 18:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "How Visual Neurons Organize Thousands of Synaptic Inputs",
+      "link": "https://neurosciencenews.com/visual-cortex-synaptic-organization-30691/",
+      "date": "14 May 2026",
+      "excerpt": "Researchers mapped the organizational \"rules\" of the visual cortex, revealing that synaptic inputs are meticulously arranged by distance, local clustering, and stimulus selectivity. By imaging the \"glow\" of individual synapses in mice, rese",
+      "image": "https://neurosciencenews.com/files/2026/05/visual-processing-cortex-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain-Stimulating Contact Lenses Match Prozac in Depression Study",
+      "link": "https://neurosciencenews.com/brain-stimulating-contact-lenses-depression-30690/",
+      "date": "14 May 2026",
+      "excerpt": "Researchers have created transparent, flexible contact lenses that treat depression using \"temporal interference\" electrical stimulation. In a landmark study, the lenses restored brain connectivity and boosted serotonin by 47%, matching the",
+      "image": "https://neurosciencenews.com/files/2026/05/depression-contacts-neurotech-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Physical Stress Changes Your Voice and Speech Patterns",
       "link": "https://neurosciencenews.com/physical-stress-vocal-patterns-30689/",
       "date": "14 May 2026",
@@ -126,24 +144,6 @@
       "date": "13 May 2026",
       "excerpt": "Can autism's core traits be separated from cognitive ability? Researchers have identified PTCHD1-AS, a long non-coding RNA gene that regulates social interaction and repetitive behaviors without affecting learning or memory. By tracing this",
       "image": "https://neurosciencenews.com/files/2026/05/asd-genetic-entry-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Genetic Pathways Link Cannabis Use to Psychosis Risk",
-      "link": "https://neurosciencenews.com/psychosis-genetic-pathways-cud-30681/",
-      "date": "13 May 2026",
-      "excerpt": "Researchers have identified three distinct genetic pathways that explain how Cannabis Use Disorder (CUD) leads to psychosis. By analyzing over 500 genetic markers and the role of the glutamate system, which is heavily impacted by THC, the t",
-      "image": "https://neurosciencenews.com/files/2026/05/genetics-cannabis-use-psychosis-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Genetic Risk for Schizophrenia Diverges Brain Growth in Teens",
-      "link": "https://neurosciencenews.com/genetic-risk-schizophrenia-teen-brain-30680/",
-      "date": "13 May 2026",
-      "excerpt": "A longitudinal study of over 6,000 children has found that those with high genetic risk for schizophrenia experience a decrease in frontal brain surface area during early adolescence, while their peers experience growth. This unique, dynami",
-      "image": "https://neurosciencenews.com/files/2026/05/genetics-schizophrenia-teens-neurosceince-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
