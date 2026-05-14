@@ -1,5 +1,5 @@
 {
-  "updated": "13 May 2026, 23:04 UTC",
+  "updated": "14 May 2026, 02:56 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,78 +72,6 @@
       "date": "6 May 2026",
       "excerpt": "A new twin study suggests your genes may play a bigger role in your future success than your upbringing. Researchers found that IQ, which is largely genetically influenced, strongly predicts education, career, and income. Even twins raised ",
       "image": ""
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Sleep Duration Linked to Accelerated Aging",
-      "link": "https://neurosciencenews.com/sleep-duration-organ-aging-clocks-30686/",
-      "date": "13 May 2026",
-      "excerpt": "Researchers have discovered a \"U-shaped\" link between sleep and the biological clocks of 17 different organ systems. Sleeping fewer than 6 hours or more than 8 hours accelerates the aging of your heart, lungs, and immune system. By analyzin",
-      "image": "https://neurosciencenews.com/files/2026/05/sleep-aging-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Men and Women Hear Differently",
-      "link": "https://neurosciencenews.com/sex-dependent-auditory-neuroscience-30686/",
-      "date": "13 May 2026",
-      "excerpt": "A new study presents evidence that hormonal changes, from monthly cycles to menopause, significantly alter how the brain processes sound. By highlighting that men and women follow entirely different auditory decline trajectories, this resea",
-      "image": "https://neurosciencenews.com/files/2026/05/sex-differences-hearing-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Neural Hotwire: How Biological Synapses Bypass Broken Brain Links",
-      "link": "https://neurosciencenews.com/lincx-biological-brain-wire-neurotech-30684/",
-      "date": "13 May 2026",
-      "excerpt": "Can we \"hotwire\" the brain to fix neurological disorders? Researchers have unveiled LinCx, a technology that creates biological electrical \"bypasses\" between neurons. By engineering fish-derived proteins to act as precision wires, the team ",
-      "image": "https://neurosciencenews.com/files/2026/05/lincx-biological-synapse-neurotech-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "A New Genetic Entry Point for Autism Traits",
-      "link": "https://neurosciencenews.com/ptchd1-autism-genetics-30683/",
-      "date": "13 May 2026",
-      "excerpt": "Can autism's core traits be separated from cognitive ability? Researchers have identified PTCHD1-AS, a long non-coding RNA gene that regulates social interaction and repetitive behaviors without affecting learning or memory. By tracing this",
-      "image": "https://neurosciencenews.com/files/2026/05/asd-genetic-entry-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Genetic Pathways Link Cannabis Use to Psychosis Risk",
-      "link": "https://neurosciencenews.com/psychosis-genetic-pathways-cud-30681/",
-      "date": "13 May 2026",
-      "excerpt": "Researchers have identified three distinct genetic pathways that explain how Cannabis Use Disorder (CUD) leads to psychosis. By analyzing over 500 genetic markers and the role of the glutamate system, which is heavily impacted by THC, the t",
-      "image": "https://neurosciencenews.com/files/2026/05/genetics-cannabis-use-psychosis-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Genetic Risk for Schizophrenia Diverges Brain Growth in Teens",
-      "link": "https://neurosciencenews.com/genetic-risk-schizophrenia-teen-brain-30680/",
-      "date": "13 May 2026",
-      "excerpt": "A longitudinal study of over 6,000 children has found that those with high genetic risk for schizophrenia experience a decrease in frontal brain surface area during early adolescence, while their peers experience growth. This unique, dynami",
-      "image": "https://neurosciencenews.com/files/2026/05/genetics-schizophrenia-teens-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Single Brain Connection Pinpointed as the Starting Point of Learning",
-      "link": "https://neurosciencenews.com/basal-ganglia-synapse-learning-30679/",
-      "date": "13 May 2026",
-      "excerpt": "Scientists have pinpointed a single synaptic connection in the basal ganglia as the origin point for vocal learning. By studying zebra finches, researchers discovered that \"turning off\" these specific synapses causes a bird's song to revert",
-      "image": "https://neurosciencenews.com/files/2026/05/learning-basal-ganglia-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Neurofeedback Trains Brain to Stop Depressive Rumination",
-      "link": "https://neurosciencenews.com/neurofeedback-rumination-depression-30677/",
-      "date": "13 May 2026",
-      "excerpt": "Researchers are using real-time fMRI neurofeedback to transform brain training into a video game that targets rumination. By teaching patients to regulate the coupling between the brain's self-referential and goal-directed centers, this pre",
-      "image": "https://neurosciencenews.com/files/2026/05/rumination-neurofeedback-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Donald Trump’s tariff wars are not just about trade",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/13/donald-trumps-tariff-wars-are-not-just-about-trade/",
+      "date": "13 May 2026",
+      "excerpt": "The return of tariffs to the centre of American foreign economic policy isn&#8217;t simply a turn to protectionism. It signals something more consequential: the weaponisation of trade as geopolitical strategy. Ahead of an LSE event on trade",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How stablecoins are extending the monetary power of the United States",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/12/how-stablecoins-are-extending-the-monetary-power-of-the-united-states/",
       "date": "12 May 2026",
@@ -263,13 +200,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Climate governance now shapes governments’ borrowing costs",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/05/climate-governance-now-shapes-governments-borrowing-costs/",
-      "date": "5 May 2026",
-      "excerpt": "Financial markets already price climate transition risk into sovereign bond yields. Carmelo Arena, Stefania Basiglio, Andrea Comandé, Giray Gozgor and Jing Li show how investors reward credible governance and green infrastructure, not clima",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Higher Europe air fares 'inevitable', says industry head",
+      "link": "https://www.bbc.com/news/articles/clyprnelzxzo?at_medium=RSS&at_campaign=rss",
+      "date": "13 May 2026",
+      "excerpt": "Flying by air will get more expensive as oil prices remain high after the US and Israel's conflict with Iran.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ab4/live/a416d180-4efc-11f1-85df-7fe19d922bf1.jpg"
     },
     {
       "source": "BBC Business",
@@ -310,20 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Shrinking Milka chocolate bar tricked consumers, says German court",
-      "link": "https://www.bbc.com/news/articles/crmp428zylko?at_medium=RSS&at_campaign=rss",
+      "title": "Why big tech is betting on cute mascots",
+      "link": "https://www.bbc.com/news/articles/c99l1zzp8xzo?at_medium=RSS&at_campaign=rss",
       "date": "13 May 2026",
-      "excerpt": "A court in Bremen has found the manufacturer of the classic Alpine Milk chocolate bar guilty of \"shrinkflation\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8868/live/0a7b1fb0-4ebe-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Not so dusty: How tech is changing woodworking",
-      "link": "https://www.bbc.com/news/articles/c747n11933eo?at_medium=RSS&at_campaign=rss",
-      "date": "11 May 2026",
-      "excerpt": "Woodworking shops have been transformed by tech to make tools safer and more precise.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1a6/live/ce922de0-3e23-11f1-ac78-2112837ce2aa.jpg"
+      "excerpt": "The likes of Apple, Microsoft and Google are all putting cartoon characters centre stage.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7cd8/live/30470f70-4d28-11f1-a2b1-9f4096205c97.png"
     }
   ]
 }
