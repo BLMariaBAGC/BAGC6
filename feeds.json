@@ -1,5 +1,5 @@
 {
-  "updated": "15 May 2026, 06:54 UTC",
+  "updated": "15 May 2026, 10:21 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,10 +274,19 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "British Gas pays £20m to settle probe into force-fitting of prepayment meters",
+      "title": "UK borrowing costs rise and pound falls as leadership drama continues",
+      "link": "https://www.bbc.com/news/articles/czr2pl5lj84o?at_medium=RSS&at_campaign=rss",
+      "date": "15 May 2026",
+      "excerpt": "Analysts say the moves have been fuelled by concerns a Burnham-led government would increase government borrowing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4109/live/013e27b0-5037-11f1-948b-c3db1a508f68.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "British Gas pays £20m over prepayment meter force-fitting scandal",
       "link": "https://www.bbc.com/news/articles/cq8p7l1y59lo?at_medium=RSS&at_campaign=rss",
       "date": "15 May 2026",
-      "excerpt": "Debt agents working for British Gas had broken into the homes of vulnerable customers to fit pre-payment energy meters.",
+      "excerpt": "The regulator say the energy supplier breached licence conditions aimed at protecting customers in vulnerable situations.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d64/live/4d3fa100-4fd5-11f1-b682-cf91850925ea.png"
     },
     {
@@ -301,7 +310,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Hotel owners expected a World Cup boom - so far it hasn't happened",
+      "title": "US hotel owners expected a World Cup boom - so far it hasn't happened",
       "link": "https://www.bbc.com/news/articles/cn0p2532xn4o?at_medium=RSS&at_campaign=rss",
       "date": "15 May 2026",
       "excerpt": "An industry body survey found hotels in World Cup host cities see the tournament as a \"non-event\".",
@@ -310,20 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why Modi wants Indians to buy less gold and take fewer foreign holidays",
-      "link": "https://www.bbc.com/news/articles/c775v7dlndyo?at_medium=RSS&at_campaign=rss",
-      "date": "14 May 2026",
-      "excerpt": "Modi has urged Indians to save dollars as war and oil shocks strain the rupee and economy further this year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e713/live/fe15e590-4e89-11f1-94b7-2b18c5340a3f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Inside the secretive and lucrative world of orchid breeding",
       "link": "https://www.bbc.com/news/articles/cly039rr2mgo?at_medium=RSS&at_campaign=rss",
       "date": "14 May 2026",
       "excerpt": "It can take a decade to bring a new orchid to market, so breeders keep their hi-tech processes secret.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52a4/live/047114b0-3fbb-11f1-b55d-0f258dce1735.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b721/live/63993a20-502e-11f1-8b8c-6d33e1d5abb6.jpg"
     }
   ]
 }
