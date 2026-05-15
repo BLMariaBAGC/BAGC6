@@ -1,5 +1,5 @@
 {
-  "updated": "15 May 2026, 17:25 UTC",
+  "updated": "15 May 2026, 19:27 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Novel Antibody Repairs Acute Spinal Cord Lesions",
+      "link": "https://neurosciencenews.com/ng101-antibody-spinal-cord-injury-regeneration-30702/",
+      "date": "15 May 2026",
+      "excerpt": "Can a targeted antibody reverse paralysis following a traumatic spinal cord injury? A landmark multinational clinical trial shows that the novel antibody NG101 preserves damaged nerve tissue and accelerates lesion regression in acute spinal",
+      "image": "https://neurosciencenews.com/files/2026/05/sci-antibody-repair-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Harsh Parenting Biologically Distorts Child Stress Regulation",
+      "link": "https://neurosciencenews.com/harsh-parenting-child-stress-30701/",
+      "date": "15 May 2026",
+      "excerpt": "A new study utilizes Respiratory Sinus Arrhythmia (RSA) monitoring to provide rare biological evidence of parent-child \"co-regulation.\" While less-harsh mothers naturally exit the regulatory driver's seat as their preschoolers age into inde",
+      "image": "https://neurosciencenews.com/files/2026/05/harsh-parenting-child-stress-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Wearable Polygraph Tracks Deep-Body Stress Signals",
+      "link": "https://neurosciencenews.com/wearable-polygraph-wireless-stress-30699/",
+      "date": "15 May 2026",
+      "excerpt": "A new ultra-lightweight device provides a multi-dimensional, real-time view of biophysical stress without needing access to bodily fluids.",
+      "image": "https://neurosciencenews.com/files/2026/05/stress-polygraph-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why 90% of Humans Share the Same Dominant Hand",
+      "link": "https://neurosciencenews.com/bipedalism-brain-handedness-30698/",
+      "date": "15 May 2026",
+      "excerpt": "Why is the human population overwhelmingly right-handed? A study solves this long-standing evolutionary puzzle by linking lateralized behavior directly to bipedalism and brain expansion.",
+      "image": "https://neurosciencenews.com/files/2026/05/handedness-bipedialism-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Rogue Antibodies Drive Tau Pathology",
       "link": "https://neurosciencenews.com/iglon5-encephalitis-hyperactivity-tau-30697/",
       "date": "15 May 2026",
@@ -108,42 +144,6 @@
       "date": "14 May 2026",
       "excerpt": "The study identified \"gene expression gradients\", overlapping chemical signals that give every brain region a unique molecular ID.",
       "image": "https://neurosciencenews.com/files/2026/05/genetics-brain-wire-map-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "NSAID Use in Pregnancy Not Linked to Major Birth Defects",
-      "link": "https://neurosciencenews.com/nsaids-pregnancy-neurodevelopment-30694/",
-      "date": "14 May 2026",
-      "excerpt": "Researchers found that NSAIDs (like ibuprofen, naproxen, and diclofenac) taken during the first trimester are NOT associated with an increased risk of major birth defects.",
-      "image": "https://neurosciencenews.com/files/2026/05/nsaid-pregnancy-neurodevelopment-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Childhood Adversity Blunts the Social Benefits of Intelligence",
-      "link": "https://neurosciencenews.com/childhood-disadvantage-intelligence-trust-30693/",
-      "date": "14 May 2026",
-      "excerpt": "We often assume that a higher IQ leads to better social outcomes, like being more trusting and cooperative. But new research suggests that your childhood environment might be the \"volume knob\" for that advantage.",
-      "image": "https://neurosciencenews.com/files/2026/05/childhood-adversity-intelligence-social-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "How Visual Neurons Organize Thousands of Synaptic Inputs",
-      "link": "https://neurosciencenews.com/visual-cortex-synaptic-organization-30691/",
-      "date": "14 May 2026",
-      "excerpt": "Researchers mapped the organizational \"rules\" of the visual cortex, revealing that synaptic inputs are meticulously arranged by distance, local clustering, and stimulus selectivity. By imaging the \"glow\" of individual synapses in mice, rese",
-      "image": "https://neurosciencenews.com/files/2026/05/visual-processing-cortex-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain-Stimulating Contact Lenses Match Prozac in Depression Study",
-      "link": "https://neurosciencenews.com/brain-stimulating-contact-lenses-depression-30690/",
-      "date": "14 May 2026",
-      "excerpt": "Researchers have created transparent, flexible contact lenses that treat depression using \"temporal interference\" electrical stimulation. In a landmark study, the lenses restored brain connectivity and boosted serotonin by 47%, matching the",
-      "image": "https://neurosciencenews.com/files/2026/05/depression-contacts-neurotech-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -301,20 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Beckhams become billionaires as Oasis make rich list for first time",
+      "link": "https://www.bbc.com/news/articles/ce8p4ywypx8o?at_medium=RSS&at_campaign=rss",
+      "date": "15 May 2026",
+      "excerpt": "The list is based off the paper's estimates of the minimum wealth of Britain’s 350 richest people or families.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f88/live/c92a9790-5055-11f1-b682-cf91850925ea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "X pledges quicker action on hate and terror content in the UK",
       "link": "https://www.bbc.com/news/articles/clyp9652v18o?at_medium=RSS&at_campaign=rss",
       "date": "15 May 2026",
       "excerpt": "Ofcom said the commitments were of particular importance after recent crimes targeting Jewish communities in the UK.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d12/live/72777cd0-505d-11f1-89a3-d1f559421220.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump and Xi conclude 'very successful' talks but no deals confirmed",
-      "link": "https://www.bbc.com/news/articles/clypj01189lo?at_medium=RSS&at_campaign=rss",
-      "date": "15 May 2026",
-      "excerpt": "There were plenty of choreographed ceremonies but no trade breakthroughs after the two-day visit.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0ee/live/9a4e0250-5077-11f1-8b8c-6d33e1d5abb6.jpg"
     },
     {
       "source": "BBC Business",
