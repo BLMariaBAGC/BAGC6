@@ -1,5 +1,5 @@
 {
-  "updated": "14 May 2026, 22:54 UTC",
+  "updated": "15 May 2026, 02:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Why Modi wants Indians to buy less gold and take fewer foreign holidays",
+      "link": "https://www.bbc.com/news/articles/c775v7dlndyo?at_medium=RSS&at_campaign=rss",
+      "date": "14 May 2026",
+      "excerpt": "Modi has urged Indians to save dollars as war and oil shocks strain the rupee and economy further this year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e713/live/fe15e590-4e89-11f1-94b7-2b18c5340a3f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "AI could put people off tech jobs and hurt the economy, warns Raspberry Pi boss",
+      "link": "https://www.bbc.com/news/articles/clypr8p2lewo?at_medium=RSS&at_campaign=rss",
+      "date": "14 May 2026",
+      "excerpt": "Eben Upton warns against claims that Artificial Intelligence will destroy vast numbers of computing roles over the coming years.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b124/live/7a8cb440-4fc1-11f1-b651-41ca043d3d3f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump brought top CEOs to Beijing but few big deals emerge",
+      "link": "https://www.bbc.com/news/articles/clypj01189lo?at_medium=RSS&at_campaign=rss",
+      "date": "15 May 2026",
+      "excerpt": "There was plenty of choreographed ceremonies but there no sweeping trade breakthrough as Trump met Xi in Beijing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c72/live/4dd0bfa0-4fe4-11f1-b682-cf91850925ea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "UK economy sees surprise growth in March despite Iran war",
       "link": "https://www.bbc.com/news/articles/cx213n20njzo?at_medium=RSS&at_campaign=rss",
       "date": "14 May 2026",
@@ -292,38 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump and Xi hold talks but no trade deal agreed",
-      "link": "https://www.bbc.com/news/articles/clypj01189lo?at_medium=RSS&at_campaign=rss",
-      "date": "14 May 2026",
-      "excerpt": "There was plenty of choreographed ceremonies, but there was no sweeping trade breakthrough as Trump met Xi in Beijing.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c72/live/4dd0bfa0-4fe4-11f1-b682-cf91850925ea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Warning higher Europe air fares 'inevitable' due to Iran war",
-      "link": "https://www.bbc.com/news/articles/clyprnelzxzo?at_medium=RSS&at_campaign=rss",
-      "date": "13 May 2026",
-      "excerpt": "Flying by air will get more expensive as oil prices remain high, says international industry body boss.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e0a/live/55139140-4f5b-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Honda makes its first annual loss in 70 years",
       "link": "https://www.bbc.com/news/articles/c794lj90jqpo?at_medium=RSS&at_campaign=rss",
       "date": "14 May 2026",
       "excerpt": "The firm will now pivot away from scrapping its target for all of its vehicles to be electric by 2040.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5247/live/ad483d20-4fba-11f1-8b8c-6d33e1d5abb6.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Big tech bets on new mascots in bid to seem more cuddly",
-      "link": "https://www.bbc.com/news/articles/c99l1zzp8xzo?at_medium=RSS&at_campaign=rss",
-      "date": "13 May 2026",
-      "excerpt": "The likes of Apple, Microsoft and Google are all putting cartoon characters centre stage.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7cd8/live/30470f70-4d28-11f1-a2b1-9f4096205c97.png"
     }
   ]
 }
