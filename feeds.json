@@ -1,5 +1,5 @@
 {
-  "updated": "15 May 2026, 02:57 UTC",
+  "updated": "15 May 2026, 06:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,11 +274,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why Modi wants Indians to buy less gold and take fewer foreign holidays",
-      "link": "https://www.bbc.com/news/articles/c775v7dlndyo?at_medium=RSS&at_campaign=rss",
-      "date": "14 May 2026",
-      "excerpt": "Modi has urged Indians to save dollars as war and oil shocks strain the rupee and economy further this year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e713/live/fe15e590-4e89-11f1-94b7-2b18c5340a3f.jpg"
+      "title": "British Gas pays £20m to settle probe into force-fitting of prepayment meters",
+      "link": "https://www.bbc.com/news/articles/cq8p7l1y59lo?at_medium=RSS&at_campaign=rss",
+      "date": "15 May 2026",
+      "excerpt": "Debt agents working for British Gas had broken into the homes of vulnerable customers to fit pre-payment energy meters.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d64/live/4d3fa100-4fd5-11f1-b682-cf91850925ea.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Claim, counter-claim and tech's seedy side exposed: Five things we learned in the Musk-Altman trial",
+      "link": "https://www.bbc.com/news/articles/cg7pj8p5mv4o?at_medium=RSS&at_campaign=rss",
+      "date": "15 May 2026",
+      "excerpt": "As the jury deliberates, this is what we found out during the weeks-long trial with two tech titans at its heart.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61c3/live/5604dcc0-5024-11f1-8b8c-6d33e1d5abb6.jpg"
     },
     {
       "source": "BBC Business",
@@ -292,38 +301,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump brought top CEOs to Beijing but few big deals emerge",
-      "link": "https://www.bbc.com/news/articles/clypj01189lo?at_medium=RSS&at_campaign=rss",
+      "title": "Hotel owners expected a World Cup boom - so far it hasn't happened",
+      "link": "https://www.bbc.com/news/articles/cn0p2532xn4o?at_medium=RSS&at_campaign=rss",
       "date": "15 May 2026",
-      "excerpt": "There was plenty of choreographed ceremonies but there no sweeping trade breakthrough as Trump met Xi in Beijing.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c72/live/4dd0bfa0-4fe4-11f1-b682-cf91850925ea.jpg"
+      "excerpt": "An industry body survey found hotels in World Cup host cities see the tournament as a \"non-event\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7bae/live/95af6540-4fb9-11f1-af25-433bf2cc2fce.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK economy sees surprise growth in March despite Iran war",
-      "link": "https://www.bbc.com/news/articles/cx213n20njzo?at_medium=RSS&at_campaign=rss",
+      "title": "Why Modi wants Indians to buy less gold and take fewer foreign holidays",
+      "link": "https://www.bbc.com/news/articles/c775v7dlndyo?at_medium=RSS&at_campaign=rss",
       "date": "14 May 2026",
-      "excerpt": "The economy grew by 0.3% in the month, official figures show, confounding analysts' forecasts of a small contraction.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1fe/live/5a756b80-4e9e-11f1-8afc-5fc3c33cbd56.jpg"
+      "excerpt": "Modi has urged Indians to save dollars as war and oil shocks strain the rupee and economy further this year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e713/live/fe15e590-4e89-11f1-94b7-2b18c5340a3f.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Faisal Islam: Six things we now know about the UK economy in charts",
-      "link": "https://www.bbc.com/news/articles/clyprjddgj3o?at_medium=RSS&at_campaign=rss",
+      "title": "Inside the secretive and lucrative world of orchid breeding",
+      "link": "https://www.bbc.com/news/articles/cly039rr2mgo?at_medium=RSS&at_campaign=rss",
       "date": "14 May 2026",
-      "excerpt": "The UK economy is showing resilience – it’s worth diving into the data in more detail to understand why.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a36a/live/8c5a58b0-4f82-11f1-ab27-43506702cb42.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Honda makes its first annual loss in 70 years",
-      "link": "https://www.bbc.com/news/articles/c794lj90jqpo?at_medium=RSS&at_campaign=rss",
-      "date": "14 May 2026",
-      "excerpt": "The firm will now pivot away from scrapping its target for all of its vehicles to be electric by 2040.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5247/live/ad483d20-4fba-11f1-8b8c-6d33e1d5abb6.png"
+      "excerpt": "It can take a decade to bring a new orchid to market, so breeders keep their hi-tech processes secret.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52a4/live/047114b0-3fbb-11f1-b55d-0f258dce1735.jpg"
     }
   ]
 }
