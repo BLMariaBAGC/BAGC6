@@ -1,5 +1,5 @@
 {
-  "updated": "15 May 2026, 14:03 UTC",
+  "updated": "15 May 2026, 17:25 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Rogue Antibodies Drive Tau Pathology",
+      "link": "https://neurosciencenews.com/iglon5-encephalitis-hyperactivity-tau-30697/",
+      "date": "15 May 2026",
+      "excerpt": "A new study establishes a direct causal link between IgLON5 antibodies and Tau pathology. By applying patient antibodies to mouse models, the team discovered that antibody-induced clustering of cell-surface IgLON5 proteins sparks profound n",
+      "image": "https://neurosciencenews.com/files/2026/05/autoimmune-tau-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Single Psilocybin Dose Sparks Rapid Depression Remission",
+      "link": "https://neurosciencenews.com/psilocybin-depression-remission-30696/",
+      "date": "15 May 2026",
+      "excerpt": "Can a single dose of psilocybin replace daily antidepressants? A new randomized clinical trial shows that a 25 mg dose of the psychedelic compound delivers rapid, clinically meaningful symptom reductions for common depression in just 48 hou",
+      "image": "https://neurosciencenews.com/files/2026/05/psilocybin-depression-remission-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Review of 60+ Alcohol-Caused Diseases Details Reversibility",
+      "link": "https://neurosciencenews.com/alcohol-health-harms-reversibility-30695/",
+      "date": "15 May 2026",
+      "excerpt": "A new study confirms that alcohol is a major cause of over 60 entirely attributable diseases and injuries, ranging from liver cirrhosis to dementia. By temporarily crippling the immune system and altering neurological judgment, alcohol incr",
+      "image": "https://neurosciencenews.com/files/2026/05/aud-neurology-reversable-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Decoding the Brain’s Genetic Wiring Map",
       "link": "https://neurosciencenews.com/genetic-wiring-map-brain-30694/",
       "date": "14 May 2026",
@@ -119,31 +146,22 @@
       "image": "https://neurosciencenews.com/files/2026/05/depression-contacts-neurotech-neuroscience-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Physical Stress Changes Your Voice and Speech Patterns",
-      "link": "https://neurosciencenews.com/physical-stress-vocal-patterns-30689/",
-      "date": "14 May 2026",
-      "excerpt": "A new study explains how physical exertion alters vocal pitch, timing, and stability, impacting speech recognition and the \"talk test\".",
-      "image": "https://neurosciencenews.com/files/2026/05/vocal-changes-physical-stress-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Do You Recognize Burnout in Your Organization?",
+      "link": "https://hbr.org/2026/05/do-you-recognize-burnout-in-your-organization",
+      "date": "15 May 2026",
+      "excerpt": "Burnout isn&#8217;t a personal failing. It&#8217;s a structural problem that leaders must solve.",
+      "image": ""
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Immune Cells Drive Compulsive Behavior",
-      "link": "https://neurosciencenews.com/microglia-calcium-signaling-anxiety-ocd-30687/",
-      "date": "14 May 2026",
-      "excerpt": "Is anxiety an immune response? New research reveals that Hoxb8 microglia, specialized immune cells in the brain, use calcium signaling to switch anxiety and grooming behaviors on and off.",
-      "image": "https://neurosciencenews.com/files/2026/05/microglia-compulsion-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Sleep Duration Linked to Accelerated Aging",
-      "link": "https://neurosciencenews.com/sleep-duration-organ-aging-clocks-30686/",
-      "date": "13 May 2026",
-      "excerpt": "Researchers have discovered a \"U-shaped\" link between sleep and the biological clocks of 17 different organ systems. Sleeping fewer than 6 hours or more than 8 hours accelerates the aging of your heart, lungs, and immune system. By analyzin",
-      "image": "https://neurosciencenews.com/files/2026/05/sleep-aging-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Should Your Subscription Business Use Auto-Renew?",
+      "link": "https://hbr.org/2026/05/should-your-subscription-business-use-auto-renew",
+      "date": "15 May 2026",
+      "excerpt": "Be intentional about one of your most powerful strategic levers.",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -200,33 +218,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Beware the Agentic Convergence Trap",
-      "link": "https://hbr.org/2026/05/beware-the-agentic-convergence-trap",
-      "date": "13 May 2026",
-      "excerpt": "When companies use the same AI tools to inform strategy, competitive advantages erode.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Leadership Skills That Make Transformation Stick",
-      "link": "https://hbr.org/podcast/2026/05/the-leadership-skills-that-make-transformation-stick",
-      "date": "12 May 2026",
-      "excerpt": "A conversation with BCG&#8217;s Julia Dhar about a mindset shift that leaders need to make.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How far does regulation determine how for-profit welfare services operate?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/15/how-far-does-regulation-determine-how-for-profit-welfare-services-operate/",
-      "date": "15 May 2026",
-      "excerpt": "What can social services in Denmark teach us about the limits of market regulation? Commercial firms now provide social care in many countries. But does the way they operate differ depending on how they are regulated? Anders Bach-Mortensen,",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "The rise of Hindu religious entrepreneurship – and what it tells us about decolonising Indian business",
@@ -272,6 +263,15 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Indian multinationals are succeeding in emerging markets without major foreign investment",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/07/how-indian-multinationals-are-succeeding-in-emerging-markets-without-major-foreign-investment/",
+      "date": "7 May 2026",
+      "excerpt": "In a world of rising geopolitical risk companies are looking for ways to grow internationally without making large irreversible commitments. Rishiraj Kashyap, Andreas Schotter, Prakash Satyavageeswaran and Elizabeth L. Rose suggest that Ind",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "UK borrowing costs rise and pound falls as leadership drama continues",
@@ -301,20 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump and Xi conclude 'very successful' talks but no deals confirmed",
-      "link": "https://www.bbc.com/news/articles/clypj01189lo?at_medium=RSS&at_campaign=rss",
+      "title": "X pledges quicker action on hate and terror content in the UK",
+      "link": "https://www.bbc.com/news/articles/clyp9652v18o?at_medium=RSS&at_campaign=rss",
       "date": "15 May 2026",
-      "excerpt": "There were plenty of choreographed ceremonies but no trade breakthroughs after the two-day visit.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca65/live/07c75920-5065-11f1-89a3-d1f559421220.jpg"
+      "excerpt": "Ofcom said the commitments were of particular importance after recent crimes targeting Jewish communities in the UK.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d12/live/72777cd0-505d-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Claim, counter-claim and tech's seedy side exposed: Five things we learned in the Musk-Altman trial",
-      "link": "https://www.bbc.com/news/articles/cg7pj8p5mv4o?at_medium=RSS&at_campaign=rss",
+      "title": "Trump and Xi conclude 'very successful' talks but no deals confirmed",
+      "link": "https://www.bbc.com/news/articles/clypj01189lo?at_medium=RSS&at_campaign=rss",
       "date": "15 May 2026",
-      "excerpt": "As the jury deliberates, this is what we found out during the weeks-long trial with two tech titans at its heart.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61c3/live/5604dcc0-5024-11f1-8b8c-6d33e1d5abb6.jpg"
+      "excerpt": "There were plenty of choreographed ceremonies but no trade breakthroughs after the two-day visit.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0ee/live/9a4e0250-5077-11f1-8b8c-6d33e1d5abb6.jpg"
     },
     {
       "source": "BBC Business",
