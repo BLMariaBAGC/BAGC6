@@ -1,6 +1,24 @@
 {
-  "updated": "15 May 2026, 10:21 UTC",
+  "updated": "15 May 2026, 14:03 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Is cannabis safe after 65? Stanford experts reveal 5 risks older adults should know",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260515002201.htm",
+      "date": "15 May 2026",
+      "excerpt": "Cannabis use among older adults is rising fast, but today’s marijuana is far more potent than many people realize — and experts warn the risks may be underestimated. Stanford Medicine specialists say modern cannabis can increase the chances",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "The brain’s “feel good” chemical may be secretly fueling tinnitus",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260515002155.htm",
+      "date": "15 May 2026",
+      "excerpt": "Scientists have uncovered evidence that serotonin — the same brain chemical boosted by many antidepressants — may actually worsen tinnitus. Using advanced light-based brain stimulation in mice, researchers identified a serotonin-driven circ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260509210654.htm",
       "date": "10 May 2026",
       "excerpt": "Scientists have uncovered a hidden “stop-scratching” signal in the nervous system that tells your brain when enough scratching is enough. The discovery centers on a molecule called TRPV4, which acts like part of an internal braking system f",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Researchers say AI chatbots may blur the line between reality and delusion",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260509210652.htm",
-      "date": "11 May 2026",
-      "excerpt": "A new study suggests AI chatbots may do more than spread misinformation — they can actively strengthen a user’s false beliefs. Because conversational AI often validates and builds on what users say, it can make distorted memories, conspirac",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Eating eggs could cut Alzheimer’s risk by 27%",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260506225214.htm",
-      "date": "7 May 2026",
-      "excerpt": "Eating eggs might do more than just start your day—it could help protect your brain. Researchers found that people 65 and older who eat eggs regularly have a significantly lower risk of developing Alzheimer’s disease, with daily or near-dai",
       "image": ""
     },
     {
@@ -148,6 +148,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Gen AI Could Fix Performance Reviews—or Make Them Even Worse",
+      "link": "https://hbr.org/2026/05/gen-ai-could-fix-performance-reviews-or-make-them-even-worse",
+      "date": "15 May 2026",
+      "excerpt": "Many managers now use AI to polish performance-review narratives about employees. The bigger opportunity is to use it to highlight what makes them exceptional.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "What Operating Rooms Can Teach Leaders About Team Design",
       "link": "https://hbr.org/2026/05/what-operating-rooms-can-teach-leaders-about-team-design",
       "date": "14 May 2026",
@@ -209,12 +218,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Should You Treat AI Like a Teammate?",
-      "link": "https://hbr.org/2026/05/should-you-treat-ai-like-a-teammate",
-      "date": "12 May 2026",
-      "excerpt": "In the May 11, 2026, edition of The Insider, managing editor Gretchen Gavett highlights a recent story about treating AI agents as coworkers, the results of the latest Insider Insights survey, and more.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How far does regulation determine how for-profit welfare services operate?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/15/how-far-does-regulation-determine-how-for-profit-welfare-services-operate/",
+      "date": "15 May 2026",
+      "excerpt": "What can social services in Denmark teach us about the limits of market regulation? Commercial firms now provide social care in many countries. But does the way they operate differ depending on how they are regulated? Anders Bach-Mortensen,",
       "image": ""
     },
     {
@@ -263,15 +272,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Indian multinationals are succeeding in emerging markets without major foreign investment",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/07/how-indian-multinationals-are-succeeding-in-emerging-markets-without-major-foreign-investment/",
-      "date": "7 May 2026",
-      "excerpt": "In a world of rising geopolitical risk companies are looking for ways to grow internationally without making large irreversible commitments. Rishiraj Kashyap, Andreas Schotter, Prakash Satyavageeswaran and Elizabeth L. Rose suggest that Ind",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "UK borrowing costs rise and pound falls as leadership drama continues",
@@ -292,29 +292,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Heathrow rival could lead expansion, watchdog says",
+      "link": "https://www.bbc.com/news/articles/cqxpz4q5vdvo?at_medium=RSS&at_campaign=rss",
+      "date": "15 May 2026",
+      "excerpt": "The aviation watchdog is considering new rules for Heathrow ahead of its possible expansion.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3ff/live/e8effad0-3f24-11f1-80a9-03674e4a073c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump and Xi conclude 'very successful' talks but no deals confirmed",
+      "link": "https://www.bbc.com/news/articles/clypj01189lo?at_medium=RSS&at_campaign=rss",
+      "date": "15 May 2026",
+      "excerpt": "There were plenty of choreographed ceremonies but no trade breakthroughs after the two-day visit.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca65/live/07c75920-5065-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Claim, counter-claim and tech's seedy side exposed: Five things we learned in the Musk-Altman trial",
       "link": "https://www.bbc.com/news/articles/cg7pj8p5mv4o?at_medium=RSS&at_campaign=rss",
       "date": "15 May 2026",
       "excerpt": "As the jury deliberates, this is what we found out during the weeks-long trial with two tech titans at its heart.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61c3/live/5604dcc0-5024-11f1-8b8c-6d33e1d5abb6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI could put people off tech jobs and hurt the economy, warns Raspberry Pi boss",
-      "link": "https://www.bbc.com/news/articles/clypr8p2lewo?at_medium=RSS&at_campaign=rss",
-      "date": "14 May 2026",
-      "excerpt": "Eben Upton warns against claims that Artificial Intelligence will destroy vast numbers of computing roles over the coming years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b124/live/7a8cb440-4fc1-11f1-b651-41ca043d3d3f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US hotel owners expected a World Cup boom - so far it hasn't happened",
-      "link": "https://www.bbc.com/news/articles/cn0p2532xn4o?at_medium=RSS&at_campaign=rss",
-      "date": "15 May 2026",
-      "excerpt": "An industry body survey found hotels in World Cup host cities see the tournament as a \"non-event\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7bae/live/95af6540-4fb9-11f1-af25-433bf2cc2fce.jpg"
     },
     {
       "source": "BBC Business",
