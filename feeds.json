@@ -1,5 +1,5 @@
 {
-  "updated": "16 May 2026, 07:25 UTC",
+  "updated": "16 May 2026, 08:36 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "'They took £20,000 I didn't owe': Parents hit by child maintenance errors",
+      "link": "https://www.bbc.com/news/articles/cq8wjn98y85o?at_medium=RSS&at_campaign=rss",
+      "date": "15 May 2026",
+      "excerpt": "John Hammond is one of 30 parents who told BBC Your Voice they'd experienced problems with the CMS.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/573b/live/7bb468b0-3fd9-11f1-ac78-2112837ce2aa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "UK borrowing costs rise and pound falls as leadership drama continues",
       "link": "https://www.bbc.com/news/articles/czr2pl5lj84o?at_medium=RSS&at_campaign=rss",
       "date": "15 May 2026",
@@ -306,15 +315,6 @@
       "date": "15 May 2026",
       "excerpt": "The list is based off the paper's estimates of the minimum wealth of Britain’s 350 richest people or families.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f88/live/c92a9790-5055-11f1-b682-cf91850925ea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "X pledges quicker action on hate and terror content in the UK",
-      "link": "https://www.bbc.com/news/articles/clyp9652v18o?at_medium=RSS&at_campaign=rss",
-      "date": "15 May 2026",
-      "excerpt": "Ofcom said the commitments were of particular importance after recent crimes targeting Jewish communities in the UK.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d12/live/72777cd0-505d-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
