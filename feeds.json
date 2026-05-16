@@ -74,6 +74,78 @@
       "image": ""
     },
     {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Novel Antibody Repairs Acute Spinal Cord Lesions",
+      "link": "https://neurosciencenews.com/ng101-antibody-spinal-cord-injury-regeneration-30702/",
+      "date": "15 May 2026",
+      "excerpt": "Can a targeted antibody reverse paralysis following a traumatic spinal cord injury? A landmark multinational clinical trial shows that the novel antibody NG101 preserves damaged nerve tissue and accelerates lesion regression in acute spinal",
+      "image": "https://neurosciencenews.com/files/2026/05/sci-antibody-repair-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Harsh Parenting Biologically Distorts Child Stress Regulation",
+      "link": "https://neurosciencenews.com/harsh-parenting-child-stress-30701/",
+      "date": "15 May 2026",
+      "excerpt": "A new study utilizes Respiratory Sinus Arrhythmia (RSA) monitoring to provide rare biological evidence of parent-child \"co-regulation.\" While less-harsh mothers naturally exit the regulatory driver's seat as their preschoolers age into inde",
+      "image": "https://neurosciencenews.com/files/2026/05/harsh-parenting-child-stress-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Wearable Polygraph Tracks Deep-Body Stress Signals",
+      "link": "https://neurosciencenews.com/wearable-polygraph-wireless-stress-30699/",
+      "date": "15 May 2026",
+      "excerpt": "A new ultra-lightweight device provides a multi-dimensional, real-time view of biophysical stress without needing access to bodily fluids.",
+      "image": "https://neurosciencenews.com/files/2026/05/stress-polygraph-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why 90% of Humans Share the Same Dominant Hand",
+      "link": "https://neurosciencenews.com/bipedalism-brain-handedness-30698/",
+      "date": "15 May 2026",
+      "excerpt": "Why is the human population overwhelmingly right-handed? A study solves this long-standing evolutionary puzzle by linking lateralized behavior directly to bipedalism and brain expansion.",
+      "image": "https://neurosciencenews.com/files/2026/05/handedness-bipedialism-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Rogue Antibodies Drive Tau Pathology",
+      "link": "https://neurosciencenews.com/iglon5-encephalitis-hyperactivity-tau-30697/",
+      "date": "15 May 2026",
+      "excerpt": "A new study establishes a direct causal link between IgLON5 antibodies and Tau pathology. By applying patient antibodies to mouse models, the team discovered that antibody-induced clustering of cell-surface IgLON5 proteins sparks profound n",
+      "image": "https://neurosciencenews.com/files/2026/05/autoimmune-tau-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Single Psilocybin Dose Sparks Rapid Depression Remission",
+      "link": "https://neurosciencenews.com/psilocybin-depression-remission-30696/",
+      "date": "15 May 2026",
+      "excerpt": "Can a single dose of psilocybin replace daily antidepressants? A new randomized clinical trial shows that a 25 mg dose of the psychedelic compound delivers rapid, clinically meaningful symptom reductions for common depression in just 48 hou",
+      "image": "https://neurosciencenews.com/files/2026/05/psilocybin-depression-remission-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Review of 60+ Alcohol-Caused Diseases Details Reversibility",
+      "link": "https://neurosciencenews.com/alcohol-health-harms-reversibility-30695/",
+      "date": "15 May 2026",
+      "excerpt": "A new study confirms that alcohol is a major cause of over 60 entirely attributable diseases and injuries, ranging from liver cirrhosis to dementia. By temporarily crippling the immune system and altering neurological judgment, alcohol incr",
+      "image": "https://neurosciencenews.com/files/2026/05/aud-neurology-reversable-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Decoding the Brain’s Genetic Wiring Map",
+      "link": "https://neurosciencenews.com/genetic-wiring-map-brain-30694/",
+      "date": "14 May 2026",
+      "excerpt": "The study identified \"gene expression gradients\", overlapping chemical signals that give every brain region a unique molecular ID.",
+      "image": "https://neurosciencenews.com/files/2026/05/genetics-brain-wire-map-neuroscience-1155x770.jpg"
+    },
+    {
       "source": "Harvard Business Review",
       "feedId": "hbr",
       "title": "Do You Recognize Burnout in Your Organization?",
