@@ -1,6 +1,15 @@
 {
-  "updated": "16 May 2026, 11:28 UTC",
+  "updated": "16 May 2026, 13:18 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists find hidden brain nutrient deficit that may fuel anxiety",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260515234759.htm",
+      "date": "16 May 2026",
+      "excerpt": "A major analysis of brain scans found that people with anxiety disorders have noticeably lower levels of choline, a nutrient crucial for healthy brain function. The strongest evidence appeared in the prefrontal cortex, the region tied to em",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -17,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260515002155.htm",
       "date": "15 May 2026",
       "excerpt": "Scientists have uncovered evidence that serotonin — the same brain chemical boosted by many antidepressants — may actually worsen tinnitus. Using advanced light-based brain stimulation in mice, researchers identified a serotonin-driven circ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists say just 30 minutes of exercise a week could transform your health",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260515002126.htm",
+      "date": "15 May 2026",
+      "excerpt": "You may not need hours at the gym to boost your health after all. Researchers say just 30 minutes of high-intensity exercise per week — broken into tiny bursts of effort that leave you out of breath — can dramatically improve cardiovascular",
       "image": ""
     },
     {
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260510234724.htm",
       "date": "10 May 2026",
       "excerpt": "An ancient Chinese exercise routine may be just as powerful as a daily brisk walk for lowering blood pressure — without equipment, gyms, or intense workouts. In a major clinical trial, adults with stage 1 hypertension who practiced baduanji",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Brain scans reveal a shocking difference between psychopaths and other people",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260510030946.htm",
-      "date": "10 May 2026",
-      "excerpt": "Scientists have uncovered a striking brain difference linked to psychopathy: people with psychopathic traits were found to have a striatum — a brain region tied to reward, motivation, and decision-making — that was about 10% larger on avera",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover the brain’s hidden “stop scratching” switch",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260509210654.htm",
-      "date": "10 May 2026",
-      "excerpt": "Scientists have uncovered a hidden “stop-scratching” signal in the nervous system that tells your brain when enough scratching is enough. The discovery centers on a molecule called TRPV4, which acts like part of an internal braking system f",
       "image": ""
     },
     {
