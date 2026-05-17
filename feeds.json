@@ -1,5 +1,5 @@
 {
-  "updated": "17 May 2026, 14:54 UTC",
+  "updated": "17 May 2026, 16:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Low-Level Air Pollution Linked to Cognitive Decline, Brain Damage",
+      "link": "https://neurosciencenews.com/low-level-air-pollution-cognitive-decline-30707/",
+      "date": "17 May 2026",
+      "excerpt": "Can breathing everyday air quietly damage your brain structure decades before cognitive symptoms appear? A new study reveals that long-term exposure to low levels of air pollution is directly linked to worse memory, comprehension, and proce",
+      "image": "https://neurosciencenews.com/files/2026/05/air-pollution-cognition-dementia-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why Young Teens Are Vulnerable to Conversational AI",
+      "link": "https://neurosciencenews.com/conversational-ai-adolescent-psychology-30706/",
+      "date": "17 May 2026",
+      "excerpt": "Are highly empathetic AI chatbots safe for developing minds? A national study reveals that 47.1% of American teens have experienced digital or emotional harm while using conversational AI.",
+      "image": "https://neurosciencenews.com/files/2026/05/ai-chatbot-neurodevelopment-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Overall Brain Health Protects Memory From Early Alzheimer’s",
       "link": "https://neurosciencenews.com/brain-health-cognitive-reserve-alzheimers-30705/",
       "date": "16 May 2026",
@@ -126,24 +144,6 @@
       "date": "15 May 2026",
       "excerpt": "A new ultra-lightweight device provides a multi-dimensional, real-time view of biophysical stress without needing access to bodily fluids.",
       "image": "https://neurosciencenews.com/files/2026/05/stress-polygraph-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why 90% of Humans Share the Same Dominant Hand",
-      "link": "https://neurosciencenews.com/bipedalism-brain-handedness-30698/",
-      "date": "15 May 2026",
-      "excerpt": "Why is the human population overwhelmingly right-handed? A study solves this long-standing evolutionary puzzle by linking lateralized behavior directly to bipedalism and brain expansion.",
-      "image": "https://neurosciencenews.com/files/2026/05/handedness-bipedialism-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Rogue Antibodies Drive Tau Pathology",
-      "link": "https://neurosciencenews.com/iglon5-encephalitis-hyperactivity-tau-30697/",
-      "date": "15 May 2026",
-      "excerpt": "A new study establishes a direct causal link between IgLON5 antibodies and Tau pathology. By applying patient antibodies to mouse models, the team discovered that antibody-induced clustering of cell-surface IgLON5 proteins sparks profound n",
-      "image": "https://neurosciencenews.com/files/2026/05/autoimmune-tau-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
