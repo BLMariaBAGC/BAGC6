@@ -1,6 +1,15 @@
 {
-  "updated": "17 May 2026, 06:42 UTC",
+  "updated": "17 May 2026, 09:45 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists reversed memory loss by recharging the brain’s tiny engines",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260515234803.htm",
+      "date": "16 May 2026",
+      "excerpt": "Researchers have shown for the first time that malfunctioning mitochondria — the cell’s energy generators — may directly cause cognitive decline in neurodegenerative diseases. By creating a new tool that temporarily boosts mitochondrial act",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +17,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260515234759.htm",
       "date": "16 May 2026",
       "excerpt": "A major analysis of brain scans found that people with anxiety disorders have noticeably lower levels of choline, a nutrient crucial for healthy brain function. The strongest evidence appeared in the prefrontal cortex, the region tied to em",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "The real reason exercise makes you stronger isn’t what you think",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260515233346.htm",
+      "date": "16 May 2026",
+      "excerpt": "Exercise may be training your brain just as much as your body. Researchers discovered that certain brain cells stay highly active even after a workout ends, and those lingering signals appear to help the body build endurance over time. In e",
       "image": ""
     },
     {
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260512202333.htm",
       "date": "13 May 2026",
       "excerpt": "The little pauses, “ums,” and moments when you struggle to find the right word may reveal far more about your brain than anyone realized. Researchers discovered that everyday speech patterns are closely tied to executive function — the ment",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "New psychedelic-like drugs could treat depression without making you trip",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260512202325.htm",
-      "date": "13 May 2026",
-      "excerpt": "UC Davis researchers created brand-new psychedelic-like compounds by shining UV light on amino acid-based molecules. These compounds activated key serotonin receptors tied to brain plasticity and mental health benefits, but surprisingly did",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This 800-year-old Chinese exercise helps lower blood pressure naturally",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260510234724.htm",
-      "date": "10 May 2026",
-      "excerpt": "An ancient Chinese exercise routine may be just as powerful as a daily brisk walk for lowering blood pressure — without equipment, gyms, or intense workouts. In a major clinical trial, adults with stage 1 hypertension who practiced baduanji",
       "image": ""
     },
     {
@@ -274,11 +274,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Robert paid £726 to skip the driving test waiting list. New laws mean others won't be able to",
+      "link": "https://www.bbc.com/news/articles/cx219pn5g70o?at_medium=RSS&at_campaign=rss",
+      "date": "16 May 2026",
+      "excerpt": "The government is cracking down on third parties who use bots to buy tests and resell them at inflated prices.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b80/live/c2ebd8a0-5053-11f1-8b8c-6d33e1d5abb6.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'They took £20,000 I didn't owe': Parents hit by child maintenance errors",
       "link": "https://www.bbc.com/news/articles/cq8wjn98y85o?at_medium=RSS&at_campaign=rss",
       "date": "15 May 2026",
       "excerpt": "John Hammond is one of 30 parents who told BBC Your Voice they'd experienced problems with the CMS.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/573b/live/7bb468b0-3fd9-11f1-ac78-2112837ce2aa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Swatch shuts stores after crowds queue for new watch",
+      "link": "https://www.bbc.com/news/articles/c1d2qldr0yko?at_medium=RSS&at_campaign=rss",
+      "date": "17 May 2026",
+      "excerpt": "Hundreds of people queue outside branches across the UK to get the £335 item.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/028d/live/abaf2870-512c-11f1-a5d4-1388da3b9f7b.png"
     },
     {
       "source": "BBC Business",
@@ -297,24 +315,6 @@
       "date": "15 May 2026",
       "excerpt": "The regulator say the energy supplier breached licence conditions aimed at protecting customers in vulnerable situations.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d64/live/4d3fa100-4fd5-11f1-b682-cf91850925ea.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Heathrow rival could lead expansion, watchdog says",
-      "link": "https://www.bbc.com/news/articles/cqxpz4q5vdvo?at_medium=RSS&at_campaign=rss",
-      "date": "15 May 2026",
-      "excerpt": "The aviation watchdog is considering new rules for Heathrow ahead of its possible expansion.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3ff/live/e8effad0-3f24-11f1-80a9-03674e4a073c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Beckhams become billionaires as Oasis make rich list for first time",
-      "link": "https://www.bbc.com/news/articles/ce8p4ywypx8o?at_medium=RSS&at_campaign=rss",
-      "date": "15 May 2026",
-      "excerpt": "The list is based off the paper's estimates of the minimum wealth of Britain’s 350 richest people or families.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f88/live/c92a9790-5055-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
