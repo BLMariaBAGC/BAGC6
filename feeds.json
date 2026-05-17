@@ -1,5 +1,5 @@
 {
-  "updated": "17 May 2026, 19:06 UTC",
+  "updated": "17 May 2026, 20:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Study Maps Brain Immune Cells to Block Melanoma Metastasis",
+      "link": "https://neurosciencenews.com/melanoma-brain-metastasis-il4-30709/",
+      "date": "17 May 2026",
+      "excerpt": "Can the brain's own immune system be engineered to lock out invading cancer cells? A multidisciplinary research team is investigating new myeloid-focused strategies to prevent melanoma from metastasizing to the brain.",
+      "image": "https://neurosciencenews.com/files/2026/05/il4-brain-cancer-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Combining Cannabis and Tobacco Triples Psychosis Risk",
       "link": "https://neurosciencenews.com/cannabis-tobacco-psychosis-30708/",
       "date": "17 May 2026",
@@ -135,15 +144,6 @@
       "date": "15 May 2026",
       "excerpt": "Can a targeted antibody reverse paralysis following a traumatic spinal cord injury? A landmark multinational clinical trial shows that the novel antibody NG101 preserves damaged nerve tissue and accelerates lesion regression in acute spinal",
       "image": "https://neurosciencenews.com/files/2026/05/sci-antibody-repair-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Harsh Parenting Biologically Distorts Child Stress Regulation",
-      "link": "https://neurosciencenews.com/harsh-parenting-child-stress-30701/",
-      "date": "15 May 2026",
-      "excerpt": "A new study utilizes Respiratory Sinus Arrhythmia (RSA) monitoring to provide rare biological evidence of parent-child \"co-regulation.\" While less-harsh mothers naturally exit the regulatory driver's seat as their preschoolers age into inde",
-      "image": "https://neurosciencenews.com/files/2026/05/harsh-parenting-child-stress-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
