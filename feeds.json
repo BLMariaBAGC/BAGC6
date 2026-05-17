@@ -1,5 +1,5 @@
 {
-  "updated": "17 May 2026, 16:55 UTC",
+  "updated": "17 May 2026, 19:06 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Combining Cannabis and Tobacco Triples Psychosis Risk",
+      "link": "https://neurosciencenews.com/cannabis-tobacco-psychosis-30708/",
+      "date": "17 May 2026",
+      "excerpt": "Does combining cannabis and tobacco accelerate the onset of schizophrenia? A multi-site study reveals that the co-use of cannabis and tobacco triggers a nearly threefold increased risk of developing psychotic disorders in individuals alread",
+      "image": "https://neurosciencenews.com/files/2026/05/cannabis-tobbaco-psychosis-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Low-Level Air Pollution Linked to Cognitive Decline, Brain Damage",
       "link": "https://neurosciencenews.com/low-level-air-pollution-cognitive-decline-30707/",
       "date": "17 May 2026",
@@ -135,15 +144,6 @@
       "date": "15 May 2026",
       "excerpt": "A new study utilizes Respiratory Sinus Arrhythmia (RSA) monitoring to provide rare biological evidence of parent-child \"co-regulation.\" While less-harsh mothers naturally exit the regulatory driver's seat as their preschoolers age into inde",
       "image": "https://neurosciencenews.com/files/2026/05/harsh-parenting-child-stress-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Wearable Polygraph Tracks Deep-Body Stress Signals",
-      "link": "https://neurosciencenews.com/wearable-polygraph-wireless-stress-30699/",
-      "date": "15 May 2026",
-      "excerpt": "A new ultra-lightweight device provides a multi-dimensional, real-time view of biophysical stress without needing access to bodily fluids.",
-      "image": "https://neurosciencenews.com/files/2026/05/stress-polygraph-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
