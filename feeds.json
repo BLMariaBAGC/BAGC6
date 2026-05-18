@@ -1,5 +1,5 @@
 {
-  "updated": "18 May 2026, 13:43 UTC",
+  "updated": "18 May 2026, 16:46 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Parkinson’s Drug Restores Memories in Alzheimer’s",
+      "link": "https://neurosciencenews.com/dopamine-levodopa-memory-alzheimers-30712/",
+      "date": "18 May 2026",
+      "excerpt": "Severe dopamine dysfunction in the entorhinal cortex is a primary, hidden mechanism behind Alzheimer's-related memory impairment. Researchers found that dopamine levels in this vital memory gateway drop to less than 20% of normal, causing l",
+      "image": "https://neurosciencenews.com/files/2026/05/levodopa-memory-alzheimers-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Novel Drug Target to Reverse Fragile X Syndrome Found",
+      "link": "https://neurosciencenews.com/epac2-target-fragile-x-30712/",
+      "date": "18 May 2026",
+      "excerpt": "Can an overactive synaptic protein hold the key to treating the most common genetic cause of autism? A new study identifies the protein EPAC2 as a potent drug target for reversing the behavioral and neurological deficits of Fragile X syndro",
+      "image": "https://neurosciencenews.com/files/2026/05/fragile-x-drug-target-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How the Brain Filters Calcium to Form Memories",
+      "link": "https://neurosciencenews.com/calcium-memory-dehydration-30711/",
+      "date": "18 May 2026",
+      "excerpt": "By collecting over 50,000 high-resolution cryo-EM movies, researchers visualized how a molecular sieve called the Asn cage filters calcium from magnesium based entirely on their hydration properties. While magnesium holds water too tightly ",
+      "image": "https://neurosciencenews.com/files/2026/05/dehydration-calciu-memory-learning-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Poor Sleep Linked to Alzheimer’s Risk",
+      "link": "https://neurosciencenews.com/poor-sleep-alzheimers-women-30710/",
+      "date": "18 May 2026",
+      "excerpt": "A new study researchers demonstrates that self-reported poor sleep is directly associated with worse visual memory and accelerated tau protein accumulation in older women, but only those with a high genetic risk.",
+      "image": "https://neurosciencenews.com/files/2026/05/alzheimers-sleep-woemn-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Study Maps Brain Immune Cells to Block Melanoma Metastasis",
       "link": "https://neurosciencenews.com/melanoma-brain-metastasis-il4-30709/",
       "date": "17 May 2026",
@@ -110,40 +146,13 @@
       "image": "https://neurosciencenews.com/files/2026/05/ai-chatbot-neurodevelopment-neuroscience-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Overall Brain Health Protects Memory From Early Alzheimer’s",
-      "link": "https://neurosciencenews.com/brain-health-cognitive-reserve-alzheimers-30705/",
-      "date": "16 May 2026",
-      "excerpt": "Why do some brains withstand the earliest onslaught of Alzheimer’s disease without showing cognitive decline? A new study demonstrates that maintaining good overall brain health can actively defend memory, attention, and executive function ",
-      "image": "https://neurosciencenews.com/files/2026/05/brain-health-alzheimers-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "SCI Redefined as a Broken Brain–Body–Environment Loop",
-      "link": "https://neurosciencenews.com/sci-systems-disorder-brain-body-loop-30704/",
-      "date": "16 May 2026",
-      "excerpt": "Is spinal cord injury a motor problem, or a broken system-wide conversation? A new study challenges traditional neuro-rehabilitation paradigms by redefining SCI as a systems-level disorder that disrupts the brain–body–environment loop.",
-      "image": "https://neurosciencenews.com/files/2026/05/sci-neurotech-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Axo-Axonic Synapses Drive Split-Second Fly Escape Reflexes",
-      "link": "https://neurosciencenews.com/axo-axonic-synapses-30703/",
-      "date": "16 May 2026",
-      "excerpt": "A new study researchers reveals a hidden wiring logic within the fruit fly connectome that enables split-second escape reflexes.",
-      "image": "https://neurosciencenews.com/files/2026/05/axo-axonic-fly-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Novel Antibody Repairs Acute Spinal Cord Lesions",
-      "link": "https://neurosciencenews.com/ng101-antibody-spinal-cord-injury-regeneration-30702/",
-      "date": "15 May 2026",
-      "excerpt": "Can a targeted antibody reverse paralysis following a traumatic spinal cord injury? A landmark multinational clinical trial shows that the novel antibody NG101 preserves damaged nerve tissue and accelerates lesion regression in acute spinal",
-      "image": "https://neurosciencenews.com/files/2026/05/sci-antibody-repair-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "A Breakthrough Board Presentation Can Win You the CEO Job",
+      "link": "https://hbr.org/2026/05/a-breakthrough-board-presentation-can-win-you-the-ceo-job",
+      "date": "18 May 2026",
+      "excerpt": "How to nail the most important interview of your career.",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -209,13 +218,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "It’s Hard to Use AI as a Team. These 3 Practices Can Help.",
-      "link": "https://hbr.org/2026/05/its-hard-to-use-ai-as-a-team-these-3-practices-can-help",
-      "date": "13 May 2026",
-      "excerpt": "How to overcome the awkward pitfalls of incorporating it into meetings.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
+      "date": "18 May 2026",
+      "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1-1024x576.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -263,15 +272,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Luxury brands have a language for uncertainty – not a strategy",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/08/luxury-brands-have-a-language-for-uncertainty-not-a-strategy/",
-      "date": "8 May 2026",
-      "excerpt": "The luxury industry has built an elegant vocabulary for navigating change including “strategic oscillation”, “temporal calibration” and “legacy-driven adaptation”. Jinju Heo argues that beneath the language lies an uncomfortable truth: most",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "UK growth forecast upgraded by IMF but risks remain",
@@ -283,11 +283,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Ford boss hints at return of Fiesta as an electric model",
+      "title": "Is the UK's once favourite car coming back as an EV?",
       "link": "https://www.bbc.com/news/articles/c759v6g1zp1o?at_medium=RSS&at_campaign=rss",
       "date": "18 May 2026",
       "excerpt": "The company has announced plans to build seven new models in Europe including a small electric hatchback.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7f6/live/5b06c100-52ba-11f1-8340-4151f348d713.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Tube strikes called off by RMT union",
+      "link": "https://www.bbc.com/news/articles/cze2wrk08kko?at_medium=RSS&at_campaign=rss",
+      "date": "18 May 2026",
+      "excerpt": "The Rail, Maritime and Transport (RMT) union calls off a series of 24-hour strikes starting on Tuesday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7093/live/a7f8c0f0-52bd-11f1-90ba-cb59a8072381.jpg"
     },
     {
       "source": "BBC Business",
@@ -301,20 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Global oil prices and bond yields rise after Trump warns Iran over stalled peace talks",
+      "title": "Jitters on oil and bond markets as US-Iran peace talks stall",
       "link": "https://www.bbc.com/news/articles/czx2ne2ryppo?at_medium=RSS&at_campaign=rss",
       "date": "18 May 2026",
       "excerpt": "Energy markets have been on a wild ride as the key Strait of Hormuz waterway remains effectively closed.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8116/live/f1cb53b0-5258-11f1-b1d3-07d4057a6cd2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Robert paid £726 to skip the driving test waiting list. New laws mean others won't be able to",
-      "link": "https://www.bbc.com/news/articles/cx219pn5g70o?at_medium=RSS&at_campaign=rss",
-      "date": "16 May 2026",
-      "excerpt": "The government is cracking down on third parties who use bots to buy tests and resell them at inflated prices.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b80/live/c2ebd8a0-5053-11f1-8b8c-6d33e1d5abb6.png"
     },
     {
       "source": "BBC Business",
