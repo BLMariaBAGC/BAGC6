@@ -1,5 +1,5 @@
 {
-  "updated": "18 May 2026, 16:46 UTC",
+  "updated": "18 May 2026, 19:42 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,78 +72,6 @@
       "date": "15 May 2026",
       "excerpt": "You may not need hours at the gym to boost your health after all. Researchers say just 30 minutes of high-intensity exercise per week — broken into tiny bursts of effort that leave you out of breath — can dramatically improve cardiovascular",
       "image": ""
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Parkinson’s Drug Restores Memories in Alzheimer’s",
-      "link": "https://neurosciencenews.com/dopamine-levodopa-memory-alzheimers-30712/",
-      "date": "18 May 2026",
-      "excerpt": "Severe dopamine dysfunction in the entorhinal cortex is a primary, hidden mechanism behind Alzheimer's-related memory impairment. Researchers found that dopamine levels in this vital memory gateway drop to less than 20% of normal, causing l",
-      "image": "https://neurosciencenews.com/files/2026/05/levodopa-memory-alzheimers-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Novel Drug Target to Reverse Fragile X Syndrome Found",
-      "link": "https://neurosciencenews.com/epac2-target-fragile-x-30712/",
-      "date": "18 May 2026",
-      "excerpt": "Can an overactive synaptic protein hold the key to treating the most common genetic cause of autism? A new study identifies the protein EPAC2 as a potent drug target for reversing the behavioral and neurological deficits of Fragile X syndro",
-      "image": "https://neurosciencenews.com/files/2026/05/fragile-x-drug-target-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "How the Brain Filters Calcium to Form Memories",
-      "link": "https://neurosciencenews.com/calcium-memory-dehydration-30711/",
-      "date": "18 May 2026",
-      "excerpt": "By collecting over 50,000 high-resolution cryo-EM movies, researchers visualized how a molecular sieve called the Asn cage filters calcium from magnesium based entirely on their hydration properties. While magnesium holds water too tightly ",
-      "image": "https://neurosciencenews.com/files/2026/05/dehydration-calciu-memory-learning-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Poor Sleep Linked to Alzheimer’s Risk",
-      "link": "https://neurosciencenews.com/poor-sleep-alzheimers-women-30710/",
-      "date": "18 May 2026",
-      "excerpt": "A new study researchers demonstrates that self-reported poor sleep is directly associated with worse visual memory and accelerated tau protein accumulation in older women, but only those with a high genetic risk.",
-      "image": "https://neurosciencenews.com/files/2026/05/alzheimers-sleep-woemn-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Study Maps Brain Immune Cells to Block Melanoma Metastasis",
-      "link": "https://neurosciencenews.com/melanoma-brain-metastasis-il4-30709/",
-      "date": "17 May 2026",
-      "excerpt": "Can the brain's own immune system be engineered to lock out invading cancer cells? A multidisciplinary research team is investigating new myeloid-focused strategies to prevent melanoma from metastasizing to the brain.",
-      "image": "https://neurosciencenews.com/files/2026/05/il4-brain-cancer-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Combining Cannabis and Tobacco Triples Psychosis Risk",
-      "link": "https://neurosciencenews.com/cannabis-tobacco-psychosis-30708/",
-      "date": "17 May 2026",
-      "excerpt": "Does combining cannabis and tobacco accelerate the onset of schizophrenia? A multi-site study reveals that the co-use of cannabis and tobacco triggers a nearly threefold increased risk of developing psychotic disorders in individuals alread",
-      "image": "https://neurosciencenews.com/files/2026/05/cannabis-tobbaco-psychosis-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Low-Level Air Pollution Linked to Cognitive Decline, Brain Damage",
-      "link": "https://neurosciencenews.com/low-level-air-pollution-cognitive-decline-30707/",
-      "date": "17 May 2026",
-      "excerpt": "Can breathing everyday air quietly damage your brain structure decades before cognitive symptoms appear? A new study reveals that long-term exposure to low levels of air pollution is directly linked to worse memory, comprehension, and proce",
-      "image": "https://neurosciencenews.com/files/2026/05/air-pollution-cognition-dementia-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Young Teens Are Vulnerable to Conversational AI",
-      "link": "https://neurosciencenews.com/conversational-ai-adolescent-psychology-30706/",
-      "date": "17 May 2026",
-      "excerpt": "Are highly empathetic AI chatbots safe for developing minds? A national study reveals that 47.1% of American teens have experienced digital or emotional harm while using conversational AI.",
-      "image": "https://neurosciencenews.com/files/2026/05/ai-chatbot-neurodevelopment-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,15 +148,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
-      "date": "18 May 2026",
-      "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1-1024x576.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How far does regulation determine how for-profit welfare services operate?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/15/how-far-does-regulation-determine-how-for-profit-welfare-services-operate/",
       "date": "15 May 2026",
@@ -272,6 +191,42 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Luxury brands have a language for uncertainty – not a strategy",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/08/luxury-brands-have-a-language-for-uncertainty-not-a-strategy/",
+      "date": "8 May 2026",
+      "excerpt": "The luxury industry has built an elegant vocabulary for navigating change including “strategic oscillation”, “temporal calibration” and “legacy-driven adaptation”. Jinju Heo argues that beneath the language lies an uncomfortable truth: most",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Jury tosses Elon Musk's lawsuit against OpenAI and its boss Sam Altman",
+      "link": "https://www.bbc.com/news/articles/cewpyv79pw1o?at_medium=RSS&at_campaign=rss",
+      "date": "18 May 2026",
+      "excerpt": "Jurors spent nearly a month hearing and viewing evidence in the high-profile trial, where Musk had accused Altman of \"stealing a charity\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c706/live/03fe60e0-52ef-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Elon Musk just lost another lawsuit. Will he keep fighting?",
+      "link": "https://www.bbc.com/news/articles/cqlpz4w6v13o?at_medium=RSS&at_campaign=rss",
+      "date": "18 May 2026",
+      "excerpt": "Musk's loss against OpenAI is the latest in a string of courtroom defeats.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5291/live/227907c0-52ed-11f1-b2aa-4dd7163d2cb4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "PlayStation Plus to raise monthly subscription by £1 in UK",
+      "link": "https://www.bbc.com/news/articles/c1e24z2q7xqo?at_medium=RSS&at_campaign=rss",
+      "date": "18 May 2026",
+      "excerpt": "The videogame firm says the increase is due to \"ongoing market conditions\"",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/992a/live/255446d0-52e3-11f1-a715-3d459a6fd9cd.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "UK growth forecast upgraded by IMF but risks remain",
@@ -279,33 +234,6 @@
       "date": "18 May 2026",
       "excerpt": "Growth has been upgraded from 0.8% to 1% for 2026 in the influential body's latest forecast.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d0a/live/b5f495b0-52a6-11f1-9ab8-af14435162fc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Is the UK's once favourite car coming back as an EV?",
-      "link": "https://www.bbc.com/news/articles/c759v6g1zp1o?at_medium=RSS&at_campaign=rss",
-      "date": "18 May 2026",
-      "excerpt": "The company has announced plans to build seven new models in Europe including a small electric hatchback.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7f6/live/5b06c100-52ba-11f1-8340-4151f348d713.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Tube strikes called off by RMT union",
-      "link": "https://www.bbc.com/news/articles/cze2wrk08kko?at_medium=RSS&at_campaign=rss",
-      "date": "18 May 2026",
-      "excerpt": "The Rail, Maritime and Transport (RMT) union calls off a series of 24-hour strikes starting on Tuesday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7093/live/a7f8c0f0-52bd-11f1-90ba-cb59a8072381.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "HS2 failings blamed on high-speed focus and political pressure",
-      "link": "https://www.bbc.com/news/articles/c936xeeye41o?at_medium=RSS&at_campaign=rss",
-      "date": "18 May 2026",
-      "excerpt": "A new reviews confirms the high-speed rail line's \"original sins\" include a technical design, changing political priorities and ballooning costs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97c2/live/20367190-527b-11f1-8b8c-6d33e1d5abb6.jpg"
     },
     {
       "source": "BBC Business",
