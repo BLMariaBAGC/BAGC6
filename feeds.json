@@ -1,6 +1,15 @@
 {
-  "updated": "18 May 2026, 08:01 UTC",
+  "updated": "18 May 2026, 13:43 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists think they’ve cracked the mystery of human right-handedness",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260517211429.htm",
+      "date": "18 May 2026",
+      "excerpt": "A new study suggests humans became overwhelmingly right-handed because of two major evolutionary shifts: walking on two legs and developing much larger brains. Researchers found that as human ancestors evolved, their right-hand preference s",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,84 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This daily habit could lower dementia risk by 35%, scientists say",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260512202350.htm",
-      "date": "13 May 2026",
-      "excerpt": "A huge long-term study found that drinking two to three cups of coffee a day was linked to a much lower risk of dementia, especially before age 75. Researchers say caffeine may help keep brain cells active while reducing inflammation and ha",
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Study Maps Brain Immune Cells to Block Melanoma Metastasis",
+      "link": "https://neurosciencenews.com/melanoma-brain-metastasis-il4-30709/",
+      "date": "17 May 2026",
+      "excerpt": "Can the brain's own immune system be engineered to lock out invading cancer cells? A multidisciplinary research team is investigating new myeloid-focused strategies to prevent melanoma from metastasizing to the brain.",
+      "image": "https://neurosciencenews.com/files/2026/05/il4-brain-cancer-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Combining Cannabis and Tobacco Triples Psychosis Risk",
+      "link": "https://neurosciencenews.com/cannabis-tobacco-psychosis-30708/",
+      "date": "17 May 2026",
+      "excerpt": "Does combining cannabis and tobacco accelerate the onset of schizophrenia? A multi-site study reveals that the co-use of cannabis and tobacco triggers a nearly threefold increased risk of developing psychotic disorders in individuals alread",
+      "image": "https://neurosciencenews.com/files/2026/05/cannabis-tobbaco-psychosis-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Low-Level Air Pollution Linked to Cognitive Decline, Brain Damage",
+      "link": "https://neurosciencenews.com/low-level-air-pollution-cognitive-decline-30707/",
+      "date": "17 May 2026",
+      "excerpt": "Can breathing everyday air quietly damage your brain structure decades before cognitive symptoms appear? A new study reveals that long-term exposure to low levels of air pollution is directly linked to worse memory, comprehension, and proce",
+      "image": "https://neurosciencenews.com/files/2026/05/air-pollution-cognition-dementia-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why Young Teens Are Vulnerable to Conversational AI",
+      "link": "https://neurosciencenews.com/conversational-ai-adolescent-psychology-30706/",
+      "date": "17 May 2026",
+      "excerpt": "Are highly empathetic AI chatbots safe for developing minds? A national study reveals that 47.1% of American teens have experienced digital or emotional harm while using conversational AI.",
+      "image": "https://neurosciencenews.com/files/2026/05/ai-chatbot-neurodevelopment-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Overall Brain Health Protects Memory From Early Alzheimer’s",
+      "link": "https://neurosciencenews.com/brain-health-cognitive-reserve-alzheimers-30705/",
+      "date": "16 May 2026",
+      "excerpt": "Why do some brains withstand the earliest onslaught of Alzheimer’s disease without showing cognitive decline? A new study demonstrates that maintaining good overall brain health can actively defend memory, attention, and executive function ",
+      "image": "https://neurosciencenews.com/files/2026/05/brain-health-alzheimers-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "SCI Redefined as a Broken Brain–Body–Environment Loop",
+      "link": "https://neurosciencenews.com/sci-systems-disorder-brain-body-loop-30704/",
+      "date": "16 May 2026",
+      "excerpt": "Is spinal cord injury a motor problem, or a broken system-wide conversation? A new study challenges traditional neuro-rehabilitation paradigms by redefining SCI as a systems-level disorder that disrupts the brain–body–environment loop.",
+      "image": "https://neurosciencenews.com/files/2026/05/sci-neurotech-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Axo-Axonic Synapses Drive Split-Second Fly Escape Reflexes",
+      "link": "https://neurosciencenews.com/axo-axonic-synapses-30703/",
+      "date": "16 May 2026",
+      "excerpt": "A new study researchers reveals a hidden wiring logic within the fruit fly connectome that enables split-second escape reflexes.",
+      "image": "https://neurosciencenews.com/files/2026/05/axo-axonic-fly-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Novel Antibody Repairs Acute Spinal Cord Lesions",
+      "link": "https://neurosciencenews.com/ng101-antibody-spinal-cord-injury-regeneration-30702/",
+      "date": "15 May 2026",
+      "excerpt": "Can a targeted antibody reverse paralysis following a traumatic spinal cord injury? A landmark multinational clinical trial shows that the novel antibody NG101 preserves damaged nerve tissue and accelerates lesion regression in acute spinal",
+      "image": "https://neurosciencenews.com/files/2026/05/sci-antibody-repair-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Keys to Succeeding Under a New Manager",
+      "link": "https://hbr.org/2026/05/the-keys-to-succeeding-under-a-new-manager",
+      "date": "18 May 2026",
+      "excerpt": "Leadership transitions offer a rare clean slate&#8212;if you&#8217;re intentional about creating a good impression.",
       "image": ""
     },
     {
@@ -137,15 +218,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Are You Meeting the Needs of the People You Lead?",
-      "link": "https://hbr.org/2026/05/are-you-meeting-the-needs-of-the-people-you-lead",
-      "date": "13 May 2026",
-      "excerpt": "The best leaders are not necessarily more charismatic or authentic. They are more attuned to what employees need, and when.",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "How far does regulation determine how for-profit welfare services operate?",
@@ -202,29 +274,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil prices rise after Trump warns Iran over stalled peace talks",
-      "link": "https://www.bbc.com/news/articles/czx2ne2ryppo?at_medium=RSS&at_campaign=rss",
+      "title": "UK growth forecast upgraded by IMF but risks remain",
+      "link": "https://www.bbc.com/news/articles/cm2p72mmddyo?at_medium=RSS&at_campaign=rss",
       "date": "18 May 2026",
-      "excerpt": "Energy markets have been on a wild ride as the key Strait of Hormuz waterway remains effectively closed.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8116/live/f1cb53b0-5258-11f1-b1d3-07d4057a6cd2.jpg"
+      "excerpt": "Growth has been upgraded from 0.8% to 1% for 2026 in the influential body's latest forecast.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d0a/live/b5f495b0-52a6-11f1-9ab8-af14435162fc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Ford boss hints at return of Fiesta as an electric model",
+      "link": "https://www.bbc.com/news/articles/c759v6g1zp1o?at_medium=RSS&at_campaign=rss",
+      "date": "18 May 2026",
+      "excerpt": "The company has announced plans to build seven new models in Europe including a small electric hatchback.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7f6/live/5b06c100-52ba-11f1-8340-4151f348d713.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "HS2 failings blamed on high-speed focus and political pressure",
       "link": "https://www.bbc.com/news/articles/c936xeeye41o?at_medium=RSS&at_campaign=rss",
-      "date": "17 May 2026",
+      "date": "18 May 2026",
       "excerpt": "A new reviews confirms the high-speed rail line's \"original sins\" include a technical design, changing political priorities and ballooning costs.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97c2/live/20367190-527b-11f1-8b8c-6d33e1d5abb6.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Instant AI answers can trivialise human intelligence, warns Royal Observatory",
-      "link": "https://www.bbc.com/news/articles/c2023l60370o?at_medium=RSS&at_campaign=rss",
+      "title": "Global oil prices and bond yields rise after Trump warns Iran over stalled peace talks",
+      "link": "https://www.bbc.com/news/articles/czx2ne2ryppo?at_medium=RSS&at_campaign=rss",
       "date": "18 May 2026",
-      "excerpt": "Paddy Rodgers said the Observatory's rich history showed the power of human knowledge and the need to avoid \"dependence\" on AI.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec05/live/8bea2980-5079-11f1-b637-39d6d94b351f.jpg"
+      "excerpt": "Energy markets have been on a wild ride as the key Strait of Hormuz waterway remains effectively closed.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8116/live/f1cb53b0-5258-11f1-b1d3-07d4057a6cd2.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +315,6 @@
       "date": "16 May 2026",
       "excerpt": "The government is cracking down on third parties who use bots to buy tests and resell them at inflated prices.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b80/live/c2ebd8a0-5053-11f1-8b8c-6d33e1d5abb6.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Swatch stores close for second day after crowds",
-      "link": "https://www.bbc.com/news/articles/c302vjqz563o?at_medium=RSS&at_campaign=rss",
-      "date": "17 May 2026",
-      "excerpt": "The launch of a new £335 pocket watch has drawn criticism after queues of shoppers built up again.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f067/live/d10f6f90-527f-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
