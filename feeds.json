@@ -1,5 +1,5 @@
 {
-  "updated": "18 May 2026, 21:11 UTC",
+  "updated": "18 May 2026, 22:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "New Math Method Inflates Alzheimer’s Drug Success by 29x",
+      "link": "https://neurosciencenews.com/inflates-alzheimers-drug-efficacy-30525/",
+      "date": "18 May 2026",
+      "excerpt": "A critical research lette exposes severe flaws in \"quantile aggregation\", a statistical technique recently used by pharmaceutical researchers to evaluate the drug donanemab.",
+      "image": "https://neurosciencenews.com/files/2026/05/alzheimers-drug-math-model-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Genetic Maps Target Root Causes of Multiple Sclerosis",
+      "link": "https://neurosciencenews.com/myelin-regeneration-ms-30723/",
+      "date": "18 May 2026",
+      "excerpt": "A new study provides the first direct empirical comparison of the two primary preclinical models for myelin loss and regeneration: cuprizone (CPZ) and lysophosphatidylcholine (LPC).",
+      "image": "https://neurosciencenews.com/files/2026/05/myelin-ms-genetics-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Cooperation Emerges Naturally Through Recognition",
+      "link": "https://neurosciencenews.com/game-theory-cooperation-memory-recognition-30722/",
+      "date": "18 May 2026",
+      "excerpt": "Is selfishness truly the ultimate winner in the evolutionary race? A new study upends 75 years of game theory by proving that cooperation emerges naturally when individuals can recognize their opponents.",
+      "image": "https://neurosciencenews.com/files/2026/05/cooperation-recognition-evolution-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Brain Rewires to Stabilize Walking During Visual Impairment",
       "link": "https://neurosciencenews.com/brain-rewires-sensorimotor-walking-blindness-30721/",
       "date": "18 May 2026",
@@ -117,33 +144,6 @@
       "date": "18 May 2026",
       "excerpt": "A new study reveals that hibernation triggers rapid, reversible structural changes in the visual processing centers of squirrels. While deep hibernation alters specific neuron populations, these structural shifts completely reverse within 1",
       "image": "https://neurosciencenews.com/files/2026/05/hibernation-brain-changes-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Thinking Longer Leads to Worse Decisions",
-      "link": "https://neurosciencenews.com/decision-speed-intuition-30715/",
-      "date": "18 May 2026",
-      "excerpt": "Does overthinking ruin strategic execution? A behavioral economics study demonstrates that faster decisions in professional chess are linked to higher decision-making quality.",
-      "image": "https://neurosciencenews.com/files/2026/05/overthinking-decision-making-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Added Sugar Restricts Full Memory Recovery After Dietary Switch",
-      "link": "https://neurosciencenews.com/hippocampal-memory-sugar-30714/",
-      "date": "18 May 2026",
-      "excerpt": "Can a healthy diet fully reverse the cognitive damage caused by years of junk food? A systematic review and meta-analysis reveals that while improving nutritional quality significantly benefits memory, the recovery is fundamentally incomple",
-      "image": "https://neurosciencenews.com/files/2026/05/sugar-hippocampus-memory-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Parkinson’s Drug Restores Memories in Alzheimer’s",
-      "link": "https://neurosciencenews.com/dopamine-levodopa-memory-alzheimers-30712/",
-      "date": "18 May 2026",
-      "excerpt": "Severe dopamine dysfunction in the entorhinal cortex is a primary, hidden mechanism behind Alzheimer's-related memory impairment. Researchers found that dopamine levels in this vital memory gateway drop to less than 20% of normal, causing l",
-      "image": "https://neurosciencenews.com/files/2026/05/levodopa-memory-alzheimers-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,15 +220,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
-      "date": "18 May 2026",
-      "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1-1024x576.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How far does regulation determine how for-profit welfare services operate?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/15/how-far-does-regulation-determine-how-for-profit-welfare-services-operate/",
       "date": "15 May 2026",
@@ -272,6 +263,24 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Luxury brands have a language for uncertainty – not a strategy",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/08/luxury-brands-have-a-language-for-uncertainty-not-a-strategy/",
+      "date": "8 May 2026",
+      "excerpt": "The luxury industry has built an elegant vocabulary for navigating change including “strategic oscillation”, “temporal calibration” and “legacy-driven adaptation”. Jinju Heo argues that beneath the language lies an uncomfortable truth: most",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Faisal Islam: Burnham seeks to calm markets by committing to fiscal rules",
+      "link": "https://www.bbc.com/news/articles/c0e2dl455d5o?at_medium=RSS&at_campaign=rss",
+      "date": "18 May 2026",
+      "excerpt": "Greater Manchester Mayor Andy Burnham is looking to manage the markets as well as the Makerfield byelection",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e83b/live/203c2430-52fa-11f1-a254-dfebbd019402.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Musk loses OpenAI court battle after jury finds he waited too long to sue",
@@ -292,29 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "New High Street crime unit to target gangs fronting shops after BBC investigation",
+      "link": "https://www.bbc.com/news/articles/ce3pzwx449no?at_medium=RSS&at_campaign=rss",
+      "date": "18 May 2026",
+      "excerpt": "It follows BBC News exposing drug gangs, money laundering, immigration crime, and ghost directors linked to shop fronts.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/137b/live/03bc4dd0-52fa-11f1-b682-cf91850925ea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Oil price slumps as Trump says he called off Iran attacks",
       "link": "https://www.bbc.com/news/articles/czx2ne2ryppo?at_medium=RSS&at_campaign=rss",
       "date": "18 May 2026",
       "excerpt": "Energy markets have been on a wild ride as the key Strait of Hormuz waterway remains effectively closed.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8116/live/f1cb53b0-5258-11f1-b1d3-07d4057a6cd2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "PlayStation Plus to raise monthly subscription by £1 in UK",
-      "link": "https://www.bbc.com/news/articles/c1e24z2q7xqo?at_medium=RSS&at_campaign=rss",
-      "date": "18 May 2026",
-      "excerpt": "The videogame firm says the increase is due to \"ongoing market conditions\"",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/992a/live/255446d0-52e3-11f1-a715-3d459a6fd9cd.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK growth forecast upgraded by IMF but risks remain",
-      "link": "https://www.bbc.com/news/articles/cm2p72mmddyo?at_medium=RSS&at_campaign=rss",
-      "date": "18 May 2026",
-      "excerpt": "Growth has been upgraded from 0.8% to 1% for 2026 in the influential body's latest forecast.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d0a/live/b5f495b0-52a6-11f1-9ab8-af14435162fc.jpg"
     },
     {
       "source": "BBC Business",
