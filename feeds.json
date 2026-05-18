@@ -1,5 +1,5 @@
 {
-  "updated": "18 May 2026, 19:42 UTC",
+  "updated": "18 May 2026, 21:11 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,6 +72,78 @@
       "date": "15 May 2026",
       "excerpt": "You may not need hours at the gym to boost your health after all. Researchers say just 30 minutes of high-intensity exercise per week — broken into tiny bursts of effort that leave you out of breath — can dramatically improve cardiovascular",
       "image": ""
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Rewires to Stabilize Walking During Visual Impairment",
+      "link": "https://neurosciencenews.com/brain-rewires-sensorimotor-walking-blindness-30721/",
+      "date": "18 May 2026",
+      "excerpt": "How does the human brain maintain walking stability when its primary navigational radar is abruptly turned off? Anew study maps the functional remodeling strategies the brain deploys during simulated visual impairment.",
+      "image": "https://neurosciencenews.com/files/2026/05/walking-visual-impairment-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Leucovorin Autism Prescriptions Surge 2,000% via Media Hype",
+      "link": "https://neurosciencenews.com/leucovorin-prescriptions-autism-30720/",
+      "date": "18 May 2026",
+      "excerpt": "A new study reveals that off-label prescriptions of leucovorin for children with autism spectrum disorder (ASD) surged by over 2,000% following viral media coverage and promotional statements from White House officials.",
+      "image": "https://neurosciencenews.com/files/2026/05/asd-offlable-prescription-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Connected Biochip Tracks How Diabetes Triggers Dementia",
+      "link": "https://neurosciencenews.com/glucobrain-organ-on-chip-diabetes-dementia-30719/",
+      "date": "18 May 2026",
+      "excerpt": "A new study launched the GlucoBrain project, a multi-disciplinary initiative to build a first-of-its-kind \"organ-on-chip\" device that bridges the gut, pancreas, and brain.",
+      "image": "https://neurosciencenews.com/files/2026/05/biochip-diabetes-dementia-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Switch for Recent Memory Retrieval Identified",
+      "link": "https://neurosciencenews.com/neural-switch-recent-memory-30718/",
+      "date": "18 May 2026",
+      "excerpt": "Neuroscientists identifies a specific \"neural switch\" that actively selects recent memories over past experiences.",
+      "image": "https://neurosciencenews.com/files/2026/05/recent-memory-recall-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Hibernation Triggers Rapid, Reversible Brain Changes",
+      "link": "https://neurosciencenews.com/hibernation-neural-plasticity-stroke-30716/",
+      "date": "18 May 2026",
+      "excerpt": "A new study reveals that hibernation triggers rapid, reversible structural changes in the visual processing centers of squirrels. While deep hibernation alters specific neuron populations, these structural shifts completely reverse within 1",
+      "image": "https://neurosciencenews.com/files/2026/05/hibernation-brain-changes-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Thinking Longer Leads to Worse Decisions",
+      "link": "https://neurosciencenews.com/decision-speed-intuition-30715/",
+      "date": "18 May 2026",
+      "excerpt": "Does overthinking ruin strategic execution? A behavioral economics study demonstrates that faster decisions in professional chess are linked to higher decision-making quality.",
+      "image": "https://neurosciencenews.com/files/2026/05/overthinking-decision-making-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Added Sugar Restricts Full Memory Recovery After Dietary Switch",
+      "link": "https://neurosciencenews.com/hippocampal-memory-sugar-30714/",
+      "date": "18 May 2026",
+      "excerpt": "Can a healthy diet fully reverse the cognitive damage caused by years of junk food? A systematic review and meta-analysis reveals that while improving nutritional quality significantly benefits memory, the recovery is fundamentally incomple",
+      "image": "https://neurosciencenews.com/files/2026/05/sugar-hippocampus-memory-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Parkinson’s Drug Restores Memories in Alzheimer’s",
+      "link": "https://neurosciencenews.com/dopamine-levodopa-memory-alzheimers-30712/",
+      "date": "18 May 2026",
+      "excerpt": "Severe dopamine dysfunction in the entorhinal cortex is a primary, hidden mechanism behind Alzheimer's-related memory impairment. Researchers found that dopamine levels in this vital memory gateway drop to less than 20% of normal, causing l",
+      "image": "https://neurosciencenews.com/files/2026/05/levodopa-memory-alzheimers-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -148,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
+      "date": "18 May 2026",
+      "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1-1024x576.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How far does regulation determine how for-profit welfare services operate?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/15/how-far-does-regulation-determine-how-for-profit-welfare-services-operate/",
       "date": "15 May 2026",
@@ -191,21 +272,12 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Luxury brands have a language for uncertainty – not a strategy",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/08/luxury-brands-have-a-language-for-uncertainty-not-a-strategy/",
-      "date": "8 May 2026",
-      "excerpt": "The luxury industry has built an elegant vocabulary for navigating change including “strategic oscillation”, “temporal calibration” and “legacy-driven adaptation”. Jinju Heo argues that beneath the language lies an uncomfortable truth: most",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Jury tosses Elon Musk's lawsuit against OpenAI and its boss Sam Altman",
+      "title": "Musk loses OpenAI court battle after jury finds he waited too long to sue",
       "link": "https://www.bbc.com/news/articles/cewpyv79pw1o?at_medium=RSS&at_campaign=rss",
       "date": "18 May 2026",
-      "excerpt": "Jurors spent nearly a month hearing and viewing evidence in the high-profile trial, where Musk had accused Altman of \"stealing a charity\".",
+      "excerpt": "Jurors spent weeks hearing about Musk's claim that Altman had \"stolen a charity.\"",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c706/live/03fe60e0-52ef-11f1-89a3-d1f559421220.jpg"
     },
     {
@@ -216,6 +288,15 @@
       "date": "18 May 2026",
       "excerpt": "Musk's loss against OpenAI is the latest in a string of courtroom defeats.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5291/live/227907c0-52ed-11f1-b2aa-4dd7163d2cb4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil price slumps as Trump says he called off Iran attacks",
+      "link": "https://www.bbc.com/news/articles/czx2ne2ryppo?at_medium=RSS&at_campaign=rss",
+      "date": "18 May 2026",
+      "excerpt": "Energy markets have been on a wild ride as the key Strait of Hormuz waterway remains effectively closed.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8116/live/f1cb53b0-5258-11f1-b1d3-07d4057a6cd2.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +315,6 @@
       "date": "18 May 2026",
       "excerpt": "Growth has been upgraded from 0.8% to 1% for 2026 in the influential body's latest forecast.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d0a/live/b5f495b0-52a6-11f1-9ab8-af14435162fc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Jitters on oil and bond markets as US-Iran peace talks stall",
-      "link": "https://www.bbc.com/news/articles/czx2ne2ryppo?at_medium=RSS&at_campaign=rss",
-      "date": "18 May 2026",
-      "excerpt": "Energy markets have been on a wild ride as the key Strait of Hormuz waterway remains effectively closed.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8116/live/f1cb53b0-5258-11f1-b1d3-07d4057a6cd2.jpg"
     },
     {
       "source": "BBC Business",
