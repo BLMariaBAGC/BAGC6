@@ -1,5 +1,5 @@
 {
-  "updated": "18 May 2026, 03:32 UTC",
+  "updated": "18 May 2026, 08:01 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,78 +72,6 @@
       "date": "13 May 2026",
       "excerpt": "A huge long-term study found that drinking two to three cups of coffee a day was linked to a much lower risk of dementia, especially before age 75. Researchers say caffeine may help keep brain cells active while reducing inflammation and ha",
       "image": ""
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Study Maps Brain Immune Cells to Block Melanoma Metastasis",
-      "link": "https://neurosciencenews.com/melanoma-brain-metastasis-il4-30709/",
-      "date": "17 May 2026",
-      "excerpt": "Can the brain's own immune system be engineered to lock out invading cancer cells? A multidisciplinary research team is investigating new myeloid-focused strategies to prevent melanoma from metastasizing to the brain.",
-      "image": "https://neurosciencenews.com/files/2026/05/il4-brain-cancer-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Combining Cannabis and Tobacco Triples Psychosis Risk",
-      "link": "https://neurosciencenews.com/cannabis-tobacco-psychosis-30708/",
-      "date": "17 May 2026",
-      "excerpt": "Does combining cannabis and tobacco accelerate the onset of schizophrenia? A multi-site study reveals that the co-use of cannabis and tobacco triggers a nearly threefold increased risk of developing psychotic disorders in individuals alread",
-      "image": "https://neurosciencenews.com/files/2026/05/cannabis-tobbaco-psychosis-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Low-Level Air Pollution Linked to Cognitive Decline, Brain Damage",
-      "link": "https://neurosciencenews.com/low-level-air-pollution-cognitive-decline-30707/",
-      "date": "17 May 2026",
-      "excerpt": "Can breathing everyday air quietly damage your brain structure decades before cognitive symptoms appear? A new study reveals that long-term exposure to low levels of air pollution is directly linked to worse memory, comprehension, and proce",
-      "image": "https://neurosciencenews.com/files/2026/05/air-pollution-cognition-dementia-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Young Teens Are Vulnerable to Conversational AI",
-      "link": "https://neurosciencenews.com/conversational-ai-adolescent-psychology-30706/",
-      "date": "17 May 2026",
-      "excerpt": "Are highly empathetic AI chatbots safe for developing minds? A national study reveals that 47.1% of American teens have experienced digital or emotional harm while using conversational AI.",
-      "image": "https://neurosciencenews.com/files/2026/05/ai-chatbot-neurodevelopment-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Overall Brain Health Protects Memory From Early Alzheimer’s",
-      "link": "https://neurosciencenews.com/brain-health-cognitive-reserve-alzheimers-30705/",
-      "date": "16 May 2026",
-      "excerpt": "Why do some brains withstand the earliest onslaught of Alzheimer’s disease without showing cognitive decline? A new study demonstrates that maintaining good overall brain health can actively defend memory, attention, and executive function ",
-      "image": "https://neurosciencenews.com/files/2026/05/brain-health-alzheimers-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "SCI Redefined as a Broken Brain–Body–Environment Loop",
-      "link": "https://neurosciencenews.com/sci-systems-disorder-brain-body-loop-30704/",
-      "date": "16 May 2026",
-      "excerpt": "Is spinal cord injury a motor problem, or a broken system-wide conversation? A new study challenges traditional neuro-rehabilitation paradigms by redefining SCI as a systems-level disorder that disrupts the brain–body–environment loop.",
-      "image": "https://neurosciencenews.com/files/2026/05/sci-neurotech-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Axo-Axonic Synapses Drive Split-Second Fly Escape Reflexes",
-      "link": "https://neurosciencenews.com/axo-axonic-synapses-30703/",
-      "date": "16 May 2026",
-      "excerpt": "A new study researchers reveals a hidden wiring logic within the fruit fly connectome that enables split-second escape reflexes.",
-      "image": "https://neurosciencenews.com/files/2026/05/axo-axonic-fly-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Novel Antibody Repairs Acute Spinal Cord Lesions",
-      "link": "https://neurosciencenews.com/ng101-antibody-spinal-cord-injury-regeneration-30702/",
-      "date": "15 May 2026",
-      "excerpt": "Can a targeted antibody reverse paralysis following a traumatic spinal cord injury? A landmark multinational clinical trial shows that the novel antibody NG101 preserves damaged nerve tissue and accelerates lesion regression in acute spinal",
-      "image": "https://neurosciencenews.com/files/2026/05/sci-antibody-repair-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -274,7 +202,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil prices rise after Trump warns 'clock is ticking' on Iran peace talks",
+      "title": "Oil prices rise after Trump warns Iran over stalled peace talks",
       "link": "https://www.bbc.com/news/articles/czx2ne2ryppo?at_medium=RSS&at_campaign=rss",
       "date": "18 May 2026",
       "excerpt": "Energy markets have been on a wild ride as the key Strait of Hormuz waterway remains effectively closed.",
@@ -287,7 +215,16 @@
       "link": "https://www.bbc.com/news/articles/c936xeeye41o?at_medium=RSS&at_campaign=rss",
       "date": "17 May 2026",
       "excerpt": "A new reviews confirms the high-speed rail line's \"original sins\" include a technical design, changing political priorities and ballooning costs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e29e/live/7de080e0-5237-11f1-ab05-b32c08414332.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97c2/live/20367190-527b-11f1-8b8c-6d33e1d5abb6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Instant AI answers can trivialise human intelligence, warns Royal Observatory",
+      "link": "https://www.bbc.com/news/articles/c2023l60370o?at_medium=RSS&at_campaign=rss",
+      "date": "18 May 2026",
+      "excerpt": "Paddy Rodgers said the Observatory's rich history showed the power of human knowledge and the need to avoid \"dependence\" on AI.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec05/live/8bea2980-5079-11f1-b637-39d6d94b351f.jpg"
     },
     {
       "source": "BBC Business",
@@ -305,23 +242,14 @@
       "link": "https://www.bbc.com/news/articles/c302vjqz563o?at_medium=RSS&at_campaign=rss",
       "date": "17 May 2026",
       "excerpt": "The launch of a new £335 pocket watch has drawn criticism after queues of shoppers built up again.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/964a/live/017beab0-51fd-11f1-8cef-69c0db7c54a0.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'They took £20,000 I didn't owe': Parents hit by child maintenance errors",
-      "link": "https://www.bbc.com/news/articles/cq8wjn98y85o?at_medium=RSS&at_campaign=rss",
-      "date": "15 May 2026",
-      "excerpt": "John Hammond is one of 30 parents who told BBC Your Voice they'd experienced problems with the CMS.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/573b/live/7bb468b0-3fd9-11f1-ac78-2112837ce2aa.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f067/live/d10f6f90-527f-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Why does Amazon have no Western rivals?",
       "link": "https://www.bbc.com/news/articles/cg7p5nr307mo?at_medium=RSS&at_campaign=rss",
-      "date": "17 May 2026",
+      "date": "18 May 2026",
       "excerpt": "The internet giant dwarfs other online retailers on both sides of the Atlantic.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa7e/live/9e8e8270-5088-11f1-89a3-d1f559421220.jpg"
     }
