@@ -1,5 +1,5 @@
 {
-  "updated": "17 May 2026, 22:52 UTC",
+  "updated": "18 May 2026, 03:32 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Oil prices rise after Trump warns 'clock is ticking' on Iran peace talks",
+      "link": "https://www.bbc.com/news/articles/czx2ne2ryppo?at_medium=RSS&at_campaign=rss",
+      "date": "18 May 2026",
+      "excerpt": "Energy markets have been on a wild ride as the key Strait of Hormuz waterway remains effectively closed.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8116/live/f1cb53b0-5258-11f1-b1d3-07d4057a6cd2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "HS2 failings blamed on high-speed focus and political pressure",
+      "link": "https://www.bbc.com/news/articles/c936xeeye41o?at_medium=RSS&at_campaign=rss",
+      "date": "17 May 2026",
+      "excerpt": "A new reviews confirms the high-speed rail line's \"original sins\" include a technical design, changing political priorities and ballooning costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e29e/live/7de080e0-5237-11f1-ab05-b32c08414332.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Robert paid £726 to skip the driving test waiting list. New laws mean others won't be able to",
       "link": "https://www.bbc.com/news/articles/cx219pn5g70o?at_medium=RSS&at_campaign=rss",
       "date": "16 May 2026",
@@ -301,29 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK borrowing costs rise and pound falls as leadership drama continues",
-      "link": "https://www.bbc.com/news/articles/czr2pl5lj84o?at_medium=RSS&at_campaign=rss",
-      "date": "15 May 2026",
-      "excerpt": "Analysts say the moves have been fuelled by concerns a Burnham-led government would increase government borrowing.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ac1/live/4d841640-5094-11f1-8eb4-7bbd1eefc905.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "British Gas pays £20m over prepayment meter force-fitting scandal",
-      "link": "https://www.bbc.com/news/articles/cq8p7l1y59lo?at_medium=RSS&at_campaign=rss",
-      "date": "15 May 2026",
-      "excerpt": "The regulator say the energy supplier breached licence conditions aimed at protecting customers in vulnerable situations.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d64/live/4d3fa100-4fd5-11f1-b682-cf91850925ea.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Inside the secretive and lucrative world of orchid breeding",
-      "link": "https://www.bbc.com/news/articles/cly039rr2mgo?at_medium=RSS&at_campaign=rss",
-      "date": "14 May 2026",
-      "excerpt": "It can take a decade to bring a new orchid to market, so breeders keep their hi-tech processes secret.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b721/live/63993a20-502e-11f1-8b8c-6d33e1d5abb6.jpg"
+      "title": "Why does Amazon have no Western rivals?",
+      "link": "https://www.bbc.com/news/articles/cg7p5nr307mo?at_medium=RSS&at_campaign=rss",
+      "date": "17 May 2026",
+      "excerpt": "The internet giant dwarfs other online retailers on both sides of the Atlantic.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa7e/live/9e8e8270-5088-11f1-89a3-d1f559421220.jpg"
     }
   ]
 }
