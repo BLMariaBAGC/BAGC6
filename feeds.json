@@ -1,5 +1,5 @@
 {
-  "updated": "19 May 2026, 11:48 UTC",
+  "updated": "19 May 2026, 11:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,20 +220,11 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Using LLMs to uncover Europe’s green investment blind spot",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/19/using-llms-to-uncover-europes-green-investment-blind-spot/",
-      "date": "19 May 2026",
-      "excerpt": "If green investment is defined too narrowly, businesses risk misreading where the transition is creating competitive advantage. Combining the use of LLM tools with the EU Taxonomy for Sustainable Activities, Juan Alvarez-Vilanova, Riccardo ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-EU-Taxonomy.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
       "date": "18 May 2026",
       "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure_1_new-1024x620.png"
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1-1024x576.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -272,6 +263,15 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1.jpg"
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How empty high streets contribute to support for populist parties in England",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/11/how-empty-high-streets-contribute-to-support-for-populist-parties-in-england/",
+      "date": "11 May 2026",
+      "excerpt": "How does decline in local neighbourhoods impact political discourse and competition? As the populist Reform UK make significant gains in local elections in England, Thiemo Fetzer, Prashant Garg and Jacob Edenhofer study UKIP, a predecessor ",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Petrol hits highest price since start of Iran war",
@@ -279,6 +279,15 @@
       "date": "19 May 2026",
       "excerpt": "The average price of unleaded has risen to 158.52p a litre, according to the RAC, who warn that it could rise further in the coming weeks.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28b1/live/f482fc20-5375-11f1-b319-63ed6ac90e5f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Swatch boss defends watch launch that sparked chaos and closures",
+      "link": "https://www.bbc.com/news/articles/cq6p0vzyvrmo?at_medium=RSS&at_campaign=rss",
+      "date": "19 May 2026",
+      "excerpt": "Nick Hayek Jr says the pocket watch launch saw \"overcrowding like hell\" at a small number of its UK stores.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a7dc/live/2c94b480-5378-11f1-ba02-4b5b8fc65c30.jpg"
     },
     {
       "source": "BBC Business",
@@ -306,15 +315,6 @@
       "date": "18 May 2026",
       "excerpt": "Jurors spent weeks hearing about Musk's claim that Altman had \"stolen a charity.\"",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c706/live/03fe60e0-52ef-11f1-89a3-d1f559421220.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Elon Musk has lost yet another legal battle. Why he'll still keep fighting",
-      "link": "https://www.bbc.com/news/articles/cqlpz4w6v13o?at_medium=RSS&at_campaign=rss",
-      "date": "19 May 2026",
-      "excerpt": "Musk has lost his high-profile lawsuit against OpenAI, but is not likely to change his aggressive style.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b634/live/37c3c920-536b-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
