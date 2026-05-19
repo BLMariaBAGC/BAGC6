@@ -1,5 +1,5 @@
 {
-  "updated": "18 May 2026, 22:59 UTC",
+  "updated": "19 May 2026, 03:25 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
+      "date": "18 May 2026",
+      "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1-1024x576.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How far does regulation determine how for-profit welfare services operate?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/15/how-far-does-regulation-determine-how-for-profit-welfare-services-operate/",
       "date": "15 May 2026",
@@ -263,15 +272,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Luxury brands have a language for uncertainty – not a strategy",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/08/luxury-brands-have-a-language-for-uncertainty-not-a-strategy/",
-      "date": "8 May 2026",
-      "excerpt": "The luxury industry has built an elegant vocabulary for navigating change including “strategic oscillation”, “temporal calibration” and “legacy-driven adaptation”. Jinju Heo argues that beneath the language lies an uncomfortable truth: most",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Faisal Islam: Burnham seeks to calm markets by committing to fiscal rules",
@@ -301,6 +301,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Standard Chartered to cut thousands of roles as AI use increases",
+      "link": "https://www.bbc.com/news/articles/crep3v8vzglo?at_medium=RSS&at_campaign=rss",
+      "date": "19 May 2026",
+      "excerpt": "The UK-headquartered banking giant aims to move some of the effected workers to other roles in the business.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf1/live/cbca9200-5322-11f1-b8d3-99e7585a0938.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "New High Street crime unit to target gangs fronting shops after BBC investigation",
       "link": "https://www.bbc.com/news/articles/ce3pzwx449no?at_medium=RSS&at_campaign=rss",
       "date": "18 May 2026",
@@ -310,20 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil price slumps as Trump says he called off Iran attacks",
-      "link": "https://www.bbc.com/news/articles/czx2ne2ryppo?at_medium=RSS&at_campaign=rss",
+      "title": "Robo-top: The machines that could make your next t-shirt",
+      "link": "https://www.bbc.com/news/articles/c0q2gkj97eko?at_medium=RSS&at_campaign=rss",
       "date": "18 May 2026",
-      "excerpt": "Energy markets have been on a wild ride as the key Strait of Hormuz waterway remains effectively closed.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8116/live/f1cb53b0-5258-11f1-b1d3-07d4057a6cd2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why does Amazon have no Western rivals?",
-      "link": "https://www.bbc.com/news/articles/cg7p5nr307mo?at_medium=RSS&at_campaign=rss",
-      "date": "18 May 2026",
-      "excerpt": "The internet giant dwarfs other online retailers on both sides of the Atlantic.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa7e/live/9e8e8270-5088-11f1-89a3-d1f559421220.jpg"
+      "excerpt": "Most clothes are made in Asia, but new machines could bring some of that work back to the West.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c642/live/2ac2db00-4d33-11f1-bd52-e755d604ece4.jpg"
     }
   ]
 }
