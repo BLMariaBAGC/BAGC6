@@ -1,5 +1,5 @@
 {
-  "updated": "19 May 2026, 13:42 UTC",
+  "updated": "19 May 2026, 14:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "What Really Gets in the Way of Change",
+      "link": "https://hbr.org/2026/05/what-really-gets-in-the-way-of-change",
+      "date": "19 May 2026",
+      "excerpt": "In the May 18, 2026, edition of The Insider, managing editor Gretchen Gavett highlights the traps that quietly undermine senior leaders.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How Stronger Privacy Laws Convinced Consumers to Share More Data",
+      "link": "https://hbr.org/2026/05/how-stronger-privacy-laws-convinced-consumers-to-share-more-data",
+      "date": "19 May 2026",
+      "excerpt": "An analysis of 16,000 U.S. customers in California and Virginia shows how further disclosures and permissions can actually reassure customers.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How to Break Free of Negative Thought Spirals",
+      "link": "https://hbr.org/podcast/2026/05/how-to-break-free-of-negative-thought-spirals",
+      "date": "19 May 2026",
+      "excerpt": "A conversation with journalist Donna Jackson Nakazawa about a common behavior that holds us back.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "A Breakthrough Board Presentation Can Win You the CEO Job",
       "link": "https://hbr.org/2026/05/a-breakthrough-board-presentation-can-win-you-the-ceo-job",
       "date": "18 May 2026",
@@ -188,33 +215,6 @@
       "link": "https://hbr.org/2026/05/gen-ai-could-fix-performance-reviews-or-make-them-even-worse",
       "date": "15 May 2026",
       "excerpt": "Many managers now use AI to polish performance-review narratives about employees. The bigger opportunity is to use it to highlight what makes them exceptional.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Operating Rooms Can Teach Leaders About Team Design",
-      "link": "https://hbr.org/2026/05/what-operating-rooms-can-teach-leaders-about-team-design",
-      "date": "14 May 2026",
-      "excerpt": "Organizations often deploy new tools when what they really need is a better way to structure collaboration.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Global Companies Lose When Decision-Making Revolves Around Headquarters",
-      "link": "https://hbr.org/2026/05/what-global-companies-lose-when-decision-making-revolves-around-headquarters",
-      "date": "14 May 2026",
-      "excerpt": "Research reveals two organizational strategies that consistently reduce the power imbalance between HQ and everyone else.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Redefining What Efficiency Means in the Age of AI",
-      "link": "https://hbr.org/podcast/2026/05/redefining-what-efficiency-means-in-the-age-of-ai",
-      "date": "13 May 2026",
-      "excerpt": "A conversation with neuroscientist Mithu Storoni about training our brains to work more effectively with AI.",
       "image": ""
     },
     {
