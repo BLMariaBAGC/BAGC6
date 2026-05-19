@@ -17,7 +17,7 @@ body{min-height:100vh;background:#FFFCF5;font-family:Lato,sans-serif;font-size:1
 .orb{position:fixed;border-radius:50%;pointer-events:none;z-index:0}
 .orb1{top:-15%;right:-8%;width:520px;height:520px;background:radial-gradient(circle,rgba(201,246,250,0.6) 0%,transparent 70%)}
 .orb2{bottom:-12%;left:-8%;width:440px;height:440px;background:radial-gradient(circle,rgba(61,133,140,0.12) 0%,transparent 70%)}
-#screen-chat{display:block;width:100%;max-width:740px;position:relative;z-index:1;animation:slideIn 0.4s ease both}
+#screen-chat{display:block;width:100%;max-width:100%;position:relative;z-index:1;animation:slideIn 0.4s ease both}
 /* HEADER */
 .hdr{text-align:center;margin-bottom:18px;position:relative;padding:24px 48px 20px;background:#3D858C;border-radius:18px}
 .hdr-nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
@@ -105,6 +105,43 @@ body{min-height:100vh;background:#FFFCF5;font-family:Lato,sans-serif;font-size:1
 #sbtn-map.off{background:#3D858C;color:rgba(255,252,245,0.35);cursor:not-allowed}
 .map-restart{text-align:center;padding:8px 0 4px;border-top:1px solid rgba(61,133,140,0.1);margin-top:4px}
 .map-restart .restart-btn{font-size:11px;padding:5px 14px;color:rgba(61,133,140,0.65);border-color:rgba(61,133,140,0.22)}
+
+/* ---- RESPONSIVE LAYOUT ---- */
+@media(max-width:900px){
+  body{align-items:flex-start;padding:16px 12px;}
+  .hdr{padding:20px 32px 18px;}
+  .nav-btn{width:50px;height:50px;}
+  .nav-btn svg{width:28px;height:28px;}
+}
+@media(max-width:768px){
+  body{padding:12px 10px;}
+  .hdr{padding:18px 22px 16px;border-radius:14px;}
+  .hdr-h1{font-size:clamp(26px,6vw,40px);}
+  .nav-btn{width:46px;height:46px;}
+  .nav-btn svg{width:24px;height:24px;}
+  .pc{flex:1 1 140px;padding:16px;}
+  .pc-t{font-size:17px;}
+  #msgs{height:360px;}
+}
+@media(max-width:600px){
+  body{padding:8px 8px;}
+  .hdr{padding:14px 16px 12px;border-radius:12px;}
+  .hdr-h1{font-size:clamp(22px,7vw,34px);}
+  .eyebrow{font-size:10px;letter-spacing:2.5px;}
+  .hdr-tag{font-size:16px;}
+  .hdr-hint{font-size:12px;}
+  .nav-btn{width:42px;height:42px;}
+  .nav-btn svg{width:22px;height:22px;}
+  .panel{border-radius:16px;}
+  .pc{flex:1 1 100%;padding:14px;}
+  .pcards{gap:8px;}
+  .mbub{max-width:88%;padding:12px 14px;font-size:15px;}
+  #msgs{height:320px;padding:16px 14px 8px;}
+  .inp-row{padding:12px 14px 14px;}
+  .qbtn{padding:8px 14px;font-size:13.5px;}
+  .map-cols{flex-direction:column;}
+  #msgs-map{max-height:180px;}
+}
 </style>
 </head>
 <body>
