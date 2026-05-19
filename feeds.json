@@ -1,5 +1,5 @@
 {
-  "updated": "19 May 2026, 08:31 UTC",
+  "updated": "19 May 2026, 10:10 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,11 +220,20 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Using LLMs to uncover Europe’s green investment blind spot",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/19/using-llms-to-uncover-europes-green-investment-blind-spot/",
+      "date": "19 May 2026",
+      "excerpt": "If green investment is defined too narrowly, businesses risk misreading where the transition is creating competitive advantage. Combining the use of LLM tools with the EU Taxonomy for Sustainable Activities, Juan Alvarez-Vilanova, Riccardo ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-EU-Taxonomy.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
       "date": "18 May 2026",
       "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1-1024x576.jpg"
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure_1_new-1024x620.png"
     },
     {
       "source": "LSE Business Review",
@@ -263,15 +272,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How empty high streets contribute to support for populist parties in England",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/11/how-empty-high-streets-contribute-to-support-for-populist-parties-in-england/",
-      "date": "11 May 2026",
-      "excerpt": "How does decline in local neighbourhoods impact political discourse and competition? As the populist Reform UK make significant gains in local elections in England, Thiemo Fetzer, Prashant Garg and Jacob Edenhofer study UKIP, a predecessor ",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "UK unemployment rate unexpectedly rises",
@@ -301,10 +301,10 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Elon Musk just lost another lawsuit. Will he keep fighting?",
+      "title": "Elon Musk has lost yet another legal battle. Why he'll still keep fighting",
       "link": "https://www.bbc.com/news/articles/cqlpz4w6v13o?at_medium=RSS&at_campaign=rss",
       "date": "19 May 2026",
-      "excerpt": "Musk's loss against OpenAI is the latest in a string of courtroom defeats.",
+      "excerpt": "Musk has lost his high-profile lawsuit against OpenAI, but is not likely to change his aggressive style.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5291/live/227907c0-52ed-11f1-b2aa-4dd7163d2cb4.jpg"
     },
     {
@@ -314,7 +314,7 @@
       "link": "https://www.bbc.com/news/articles/c0k2dz4y6gxo?at_medium=RSS&at_campaign=rss",
       "date": "19 May 2026",
       "excerpt": "Starbucks withdrew the campaign for its drink tumblers after many said it referenced a bloody crackdown.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bb8/live/0f644f40-532a-11f1-9c13-5d0b58370758.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb68/live/ba074aa0-535d-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
