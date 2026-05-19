@@ -1,5 +1,5 @@
 {
-  "updated": "19 May 2026, 12:06 UTC",
+  "updated": "19 May 2026, 12:09 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,11 +220,20 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Using LLMs to uncover Europe’s green investment blind spot",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/19/using-llms-to-uncover-europes-green-investment-blind-spot/",
+      "date": "19 May 2026",
+      "excerpt": "If green investment is defined too narrowly, businesses risk misreading where the transition is creating competitive advantage. Combining the use of LLM tools with the EU Taxonomy for Sustainable Activities, Juan Alvarez-Vilanova, Riccardo ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-EU-Taxonomy.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
       "date": "18 May 2026",
       "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1-1024x576.jpg"
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure_1_new-1024x620.png"
     },
     {
       "source": "LSE Business Review",
@@ -261,15 +270,6 @@
       "date": "12 May 2026",
       "excerpt": "Even as traditional indicators point to gradual de-dollarisation, a parallel shift is underway in digital finance. Thunj Chantramonklasri and Ryan Leary examine how the rapid rise of dollar-pegged stablecoins is creating a new form of “digi",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How empty high streets contribute to support for populist parties in England",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/11/how-empty-high-streets-contribute-to-support-for-populist-parties-in-england/",
-      "date": "11 May 2026",
-      "excerpt": "How does decline in local neighbourhoods impact political discourse and competition? As the populist Reform UK make significant gains in local elections in England, Thiemo Fetzer, Prashant Garg and Jacob Edenhofer study UKIP, a predecessor ",
-      "image": ""
     },
     {
       "source": "BBC Business",
