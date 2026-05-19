@@ -1,5 +1,5 @@
 {
-  "updated": "19 May 2026, 14:58 UTC",
+  "updated": "19 May 2026, 18:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Salt-Nicotine E-Cigarettes Triple Smoking Cessation Odds",
+      "link": "https://neurosciencenews.com/nicotine-ecigarettes-smoking-cessation-30728/",
+      "date": "19 May 2026",
+      "excerpt": "Can switching to a pod-based electronic cigarette serve as a highly effective off-ramp for chronic smokers? A randomized, placebo-controlled trial reveals that switching to a 5% salt-nicotine e-cigarette triples the likelihood of successful",
+      "image": "https://neurosciencenews.com/files/2026/05/vape-smoking-quit-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Adult Brain Recycles Prenatal Genetic Playbook for Memory",
+      "link": "https://neurosciencenews.com/hud-protein-embryonic-memory-genetics-30727/",
+      "date": "19 May 2026",
+      "excerpt": "Is adult neuroplasticity merely brain development in disguise? A new study reveals that mature neurons do not invent new mechanisms to learn and remember; instead, they re-engage an embryonic toolkit.",
+      "image": "https://neurosciencenews.com/files/2026/05/genetics-memory-neurodevelopment-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Buprenorphin and Ketamine Combo Provide Anti-Suicidal Effect",
+      "link": "https://neurosciencenews.com/buprenorphin-ketamine-antisuicidal-peychopharmacology-30736/",
+      "date": "19 May 2026",
+      "excerpt": "A sequential combination of a single ketamine infusion followed by four weeks of low-dose daily buprenorphine successfully extends the antisuicidal window of ketamine from one fleeting week to over a month.",
+      "image": "https://neurosciencenews.com/files/2026/05/ketamine-antisuicide-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "New Math Method Inflates Alzheimer’s Drug Success by 29x",
       "link": "https://neurosciencenews.com/inflates-alzheimers-drug-efficacy-30525/",
       "date": "18 May 2026",
@@ -117,33 +144,6 @@
       "date": "18 May 2026",
       "excerpt": "A new study reveals that off-label prescriptions of leucovorin for children with autism spectrum disorder (ASD) surged by over 2,000% following viral media coverage and promotional statements from White House officials.",
       "image": "https://neurosciencenews.com/files/2026/05/asd-offlable-prescription-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Connected Biochip Tracks How Diabetes Triggers Dementia",
-      "link": "https://neurosciencenews.com/glucobrain-organ-on-chip-diabetes-dementia-30719/",
-      "date": "18 May 2026",
-      "excerpt": "A new study launched the GlucoBrain project, a multi-disciplinary initiative to build a first-of-its-kind \"organ-on-chip\" device that bridges the gut, pancreas, and brain.",
-      "image": "https://neurosciencenews.com/files/2026/05/biochip-diabetes-dementia-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Switch for Recent Memory Retrieval Identified",
-      "link": "https://neurosciencenews.com/neural-switch-recent-memory-30718/",
-      "date": "18 May 2026",
-      "excerpt": "Neuroscientists identifies a specific \"neural switch\" that actively selects recent memories over past experiences.",
-      "image": "https://neurosciencenews.com/files/2026/05/recent-memory-recall-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Hibernation Triggers Rapid, Reversible Brain Changes",
-      "link": "https://neurosciencenews.com/hibernation-neural-plasticity-stroke-30716/",
-      "date": "18 May 2026",
-      "excerpt": "A new study reveals that hibernation triggers rapid, reversible structural changes in the visual processing centers of squirrels. While deep hibernation alters specific neuron populations, these structural shifts completely reverse within 1",
-      "image": "https://neurosciencenews.com/files/2026/05/hibernation-brain-changes-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -274,6 +274,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Supermarkets urged to limit food prices by government",
+      "link": "https://www.bbc.com/news/articles/c5y7qz806q3o?at_medium=RSS&at_campaign=rss",
+      "date": "19 May 2026",
+      "excerpt": "Any price caps would be voluntary apply to key groceries such as eggs, bread, and milk, the BBC understands.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba78/live/6c694910-53a3-11f1-962f-7dc94fa2f5d0.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "NS&I to begin contacting victims of lost funds scandal",
+      "link": "https://www.bbc.com/news/articles/cvgzrz59yz2o?at_medium=RSS&at_campaign=rss",
+      "date": "19 May 2026",
+      "excerpt": "Over 30,000 estates could not be accessed due to an error identifying all of a late customer's NS&I products.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e62/live/6312e380-5399-11f1-960b-071e01d068d2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "HS2 could cost up to £102.7bn and trains will be slower than first planned",
+      "link": "https://www.bbc.com/news/articles/c794xw7p2dqo?at_medium=RSS&at_campaign=rss",
+      "date": "19 May 2026",
+      "excerpt": "The new cost range and train speed are being announced as a \"reset\" of the delayed, over-budget and vastly scaled-back project is carried out.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c01/live/1535d640-52a4-11f1-8b8c-6d33e1d5abb6.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Petrol hits highest price since start of Iran war",
       "link": "https://www.bbc.com/news/articles/cdep64555wzo?at_medium=RSS&at_campaign=rss",
       "date": "19 May 2026",
@@ -292,38 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "HS2 costs could top £100bn and trains will be slower than first planned",
-      "link": "https://www.bbc.com/news/articles/c794xw7p2dqo?at_medium=RSS&at_campaign=rss",
-      "date": "19 May 2026",
-      "excerpt": "The new cost range and train speed are being announced as a \"reset\" of the delayed, over-budget and vastly scaled-back project is carried out.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c01/live/1535d640-52a4-11f1-8b8c-6d33e1d5abb6.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK unemployment rate unexpectedly rises",
-      "link": "https://www.bbc.com/news/articles/czx2plkvg45o?at_medium=RSS&at_campaign=rss",
-      "date": "19 May 2026",
-      "excerpt": "The number of UK job vacancies also fell to its lowest level in five years as the initial impact of the Iran war on businesses starts to be seen.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c9f/live/f6d43e60-52e1-11f1-b682-cf91850925ea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Robo-top: The machines that could make your next t-shirt",
       "link": "https://www.bbc.com/news/articles/c0q2gkj97eko?at_medium=RSS&at_campaign=rss",
       "date": "18 May 2026",
       "excerpt": "Most clothes are made in Asia, but new machines could bring some of that work back to the West.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c642/live/2ac2db00-4d33-11f1-bd52-e755d604ece4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Elon Musk has lost yet another legal battle. Why he'll still keep fighting",
-      "link": "https://www.bbc.com/news/articles/cqlpz4w6v13o?at_medium=RSS&at_campaign=rss",
-      "date": "19 May 2026",
-      "excerpt": "Musk has lost his high-profile lawsuit against OpenAI, but is not likely to change his aggressive style.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b634/live/37c3c920-536b-11f1-b682-cf91850925ea.jpg"
     }
   ]
 }
