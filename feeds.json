@@ -1,5 +1,5 @@
 {
-  "updated": "19 May 2026, 07:43 UTC",
+  "updated": "19 May 2026, 08:31 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
+      "date": "18 May 2026",
+      "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1-1024x576.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How far does regulation determine how for-profit welfare services operate?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/15/how-far-does-regulation-determine-how-for-profit-welfare-services-operate/",
       "date": "15 May 2026",
@@ -260,15 +269,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/11/how-empty-high-streets-contribute-to-support-for-populist-parties-in-england/",
       "date": "11 May 2026",
       "excerpt": "How does decline in local neighbourhoods impact political discourse and competition? As the populist Reform UK make significant gains in local elections in England, Thiemo Fetzer, Prashant Garg and Jacob Edenhofer study UKIP, a predecessor ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Luxury brands have a language for uncertainty – not a strategy",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/08/luxury-brands-have-a-language-for-uncertainty-not-a-strategy/",
-      "date": "8 May 2026",
-      "excerpt": "The luxury industry has built an elegant vocabulary for navigating change including “strategic oscillation”, “temporal calibration” and “legacy-driven adaptation”. Jinju Heo argues that beneath the language lies an uncomfortable truth: most",
       "image": ""
     },
     {
