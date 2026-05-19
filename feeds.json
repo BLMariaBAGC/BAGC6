@@ -1,5 +1,5 @@
 {
-  "updated": "19 May 2026, 03:25 UTC",
+  "updated": "19 May 2026, 07:43 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,15 +220,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
-      "date": "18 May 2026",
-      "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1-1024x576.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How far does regulation determine how for-profit welfare services operate?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/15/how-far-does-regulation-determine-how-for-profit-welfare-services-operate/",
       "date": "15 May 2026",
@@ -272,13 +263,31 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Luxury brands have a language for uncertainty – not a strategy",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/08/luxury-brands-have-a-language-for-uncertainty-not-a-strategy/",
+      "date": "8 May 2026",
+      "excerpt": "The luxury industry has built an elegant vocabulary for navigating change including “strategic oscillation”, “temporal calibration” and “legacy-driven adaptation”. Jinju Heo argues that beneath the language lies an uncomfortable truth: most",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK unemployment rate unexpectedly rises",
+      "link": "https://www.bbc.com/news/articles/czx2plkvg45o?at_medium=RSS&at_campaign=rss",
+      "date": "19 May 2026",
+      "excerpt": "The number of UK job vacancies also fell to its lowest level in five years as the initial impact of the Iran war on businesses starts to be seen.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c9f/live/f6d43e60-52e1-11f1-b682-cf91850925ea.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Faisal Islam: Burnham seeks to calm markets by committing to fiscal rules",
       "link": "https://www.bbc.com/news/articles/c0e2dl455d5o?at_medium=RSS&at_campaign=rss",
       "date": "18 May 2026",
       "excerpt": "Greater Manchester Mayor Andy Burnham is looking to manage the markets as well as the Makerfield byelection",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e83b/live/203c2430-52fa-11f1-a254-dfebbd019402.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/047e/live/e08dfec0-534f-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
@@ -294,27 +303,18 @@
       "feedId": "bbc",
       "title": "Elon Musk just lost another lawsuit. Will he keep fighting?",
       "link": "https://www.bbc.com/news/articles/cqlpz4w6v13o?at_medium=RSS&at_campaign=rss",
-      "date": "18 May 2026",
+      "date": "19 May 2026",
       "excerpt": "Musk's loss against OpenAI is the latest in a string of courtroom defeats.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5291/live/227907c0-52ed-11f1-b2aa-4dd7163d2cb4.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Standard Chartered to cut thousands of roles as AI use increases",
-      "link": "https://www.bbc.com/news/articles/crep3v8vzglo?at_medium=RSS&at_campaign=rss",
+      "title": "Starbucks Korea sacks CEO over controversial 'Tank Day' promotion",
+      "link": "https://www.bbc.com/news/articles/c0k2dz4y6gxo?at_medium=RSS&at_campaign=rss",
       "date": "19 May 2026",
-      "excerpt": "The UK-headquartered banking giant aims to move some of the effected workers to other roles in the business.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bf1/live/cbca9200-5322-11f1-b8d3-99e7585a0938.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "New High Street crime unit to target gangs fronting shops after BBC investigation",
-      "link": "https://www.bbc.com/news/articles/ce3pzwx449no?at_medium=RSS&at_campaign=rss",
-      "date": "18 May 2026",
-      "excerpt": "It follows BBC News exposing drug gangs, money laundering, immigration crime, and ghost directors linked to shop fronts.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/137b/live/03bc4dd0-52fa-11f1-b682-cf91850925ea.jpg"
+      "excerpt": "Starbucks withdrew the campaign for its drink tumblers after many said it referenced a bloody crackdown.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bb8/live/0f644f40-532a-11f1-9c13-5d0b58370758.jpg"
     },
     {
       "source": "BBC Business",
