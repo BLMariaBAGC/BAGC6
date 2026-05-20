@@ -1,5 +1,5 @@
 {
-  "updated": "20 May 2026, 18:15 UTC",
+  "updated": "20 May 2026, 21:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,6 +72,78 @@
       "date": "15 May 2026",
       "excerpt": "Cannabis use among older adults is rising fast, but today’s marijuana is far more potent than many people realize — and experts warn the risks may be underestimated. Stanford Medicine specialists say modern cannabis can increase the chances",
       "image": ""
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Schizophrenia Risk Gene Linked to Hyper-Excitable Neurons",
+      "link": "https://neurosciencenews.com/schizophrenia-znf804a-gene-synaptic-excitability-30743/",
+      "date": "20 May 2026",
+      "excerpt": "How do abstract genetic mutations physically alter human brain wiring? A functional genomics study bridges the gap between schizophrenia genetics and cellular neurobiology.",
+      "image": "https://neurosciencenews.com/files/2026/05/schizophrenia-hyperexcitability-genetics-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Healthy Weight and Quitting Smoking Reduce Dementia Risk",
+      "link": "https://neurosciencenews.com/smoking-cessation-weight-gain-dementia-30742/",
+      "date": "20 May 2026",
+      "excerpt": "Can the metabolic consequences of quitting smoking cancel out its long-term benefits for the human brain? A new longitudinal study establishes a powerful link between smoking cessation and a 16% reduction in dementia risk.",
+      "image": "https://neurosciencenews.com/files/2026/05/smoking-weight-dementia-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Using Physics Equations to Map Memory Distortions",
+      "link": "https://neurosciencenews.com/quantum-emotions-physics-memory-30741/",
+      "date": "20 May 2026",
+      "excerpt": "The study targets a fundamental cognitive mystery: why certain emotional micro-moments remain hyper-acute while our overarching chronological timeline fragments.",
+      "image": "https://neurosciencenews.com/files/2026/05/quantum-memory-distortion-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Real-Time Memory Test Created to Spot Alcohol Blackouts",
+      "link": "https://neurosciencenews.com/memory-test-alcohol-blackouts-30740/",
+      "date": "20 May 2026",
+      "excerpt": "Can a simple 15-minute memory check spot an alcohol-induced blackout as it happens? A pioneering study unveiled the first objective, real-time measure of alcohol-induced amnesia.",
+      "image": "https://neurosciencenews.com/files/2026/05/drinking-blackout-memory-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Alzheimer’s Risk Gene May Drive Aggressive ALS",
+      "link": "https://neurosciencenews.com/alzheimers-apoe4-gene-als-30739/",
+      "date": "20 May 2026",
+      "excerpt": "The APOE ε4 variant heavily influences how toxic phosphorylated TDP-43 (pTDP-43) pathology migrates across the central nervous system.",
+      "image": "https://neurosciencenews.com/files/2026/05/als-apoe4-genetics-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Can Handwriting Speed Forecast Cognitive Decline?",
+      "link": "https://neurosciencenews.com/digitized-handwriting-cognitive-decline-30738/",
+      "date": "20 May 2026",
+      "excerpt": "By observing older adults on a digitizing tablet, investigators found that simple motor tasks fail to reveal impairment, whereas complex verbal dictation acts as an intense executive stress test.",
+      "image": "https://neurosciencenews.com/files/2026/05/handwriting-speed-cognition-nuerosicence-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Parent Disapproval Destroys Childhood Best Friendships",
+      "link": "https://neurosciencenews.com/parental-disapproval-child-friendship-30737/",
+      "date": "20 May 2026",
+      "excerpt": "While maternal disapproval is highly effective at destroying childhood best friendships, it carries devastating hidden costs. By tracking 394 public-school students, investigators proved that maternal condemnation triples the odds of a frie",
+      "image": "https://neurosciencenews.com/files/2026/05/parental-voice-friendship-social-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Arthritis Drug Rescues Hard-to-Treat Depression",
+      "link": "https://neurosciencenews.com/immunotherapy-arthritis-il6-depression-30735/",
+      "date": "20 May 2026",
+      "excerpt": "The anti-inflammatory drug tocilizumab can successfully induce remission in patients struggling with treatment-resistant depression.",
+      "image": "https://neurosciencenews.com/files/2026/05/depression-il-6-immunotherapy-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -148,15 +220,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How an incentive to trade shapes social and community enterprises",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/20/how-an-incentive-to-trade-shapes-social-and-community-enterprises/",
-      "date": "20 May 2026",
-      "excerpt": "British policymakers&nbsp;argue that social&nbsp;organisations&nbsp;that&nbsp;earn&nbsp;their&nbsp;income are&nbsp;less dependent on grants, and more resilient. Others say that commercialisation&nbsp;corrupts the social goal.&nbsp;Kerryn Kr",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Using LLMs to uncover Europe’s green investment blind spot",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/19/using-llms-to-uncover-europes-green-investment-blind-spot/",
       "date": "19 May 2026",
@@ -200,6 +263,24 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How stablecoins are extending the monetary power of the United States",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/12/how-stablecoins-are-extending-the-monetary-power-of-the-united-states/",
+      "date": "12 May 2026",
+      "excerpt": "Even as traditional indicators point to gradual de-dollarisation, a parallel shift is underway in digital finance. Thunj Chantramonklasri and Ryan Leary examine how the rapid rise of dollar-pegged stablecoins is creating a new form of “digi",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK agrees £3.7bn trade deal with six Gulf states",
+      "link": "https://www.bbc.com/news/articles/c4g85dryv24o?at_medium=RSS&at_campaign=rss",
+      "date": "20 May 2026",
+      "excerpt": "The deal will remove an estimated £580m worth of tariffs from British exports, but rights groups are critical",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94d1/live/06552200-5477-11f1-b287-b773a2980223.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Supermarkets hit back over pressure to cap price of milk, bread and eggs",
@@ -215,7 +296,7 @@
       "link": "https://www.bbc.com/news/articles/c3021md6jq6o?at_medium=RSS&at_campaign=rss",
       "date": "20 May 2026",
       "excerpt": "Fuel duty was initially cut by 5p in March 2022, under the Conservative government.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b743/live/dbb3e9f0-543f-11f1-be9a-315565996c62.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e674/live/b3af4460-5479-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +315,6 @@
       "date": "20 May 2026",
       "excerpt": "Energy prices were lower due to the government's energy bill support package and lower wholesale prices before the Iran war.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec4b/live/4db8b530-5391-11f1-a6d5-ff84d685a95b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Boss of Sarah Ferguson-linked firm used royal links to threaten worker with jail",
-      "link": "https://www.bbc.com/news/articles/c4g8kv7ykv8o?at_medium=RSS&at_campaign=rss",
-      "date": "20 May 2026",
-      "excerpt": "In a recording obtained by the BBC, the worker was threatened with jail for allegedly hacking emails at lifestyle app vVoosh.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6d8/live/cef5a110-5410-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
