@@ -1,5 +1,5 @@
 {
-  "updated": "19 May 2026, 23:00 UTC",
+  "updated": "20 May 2026, 03:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -283,38 +283,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "UK loosens Russian oil sanctions as fuel prices rise",
+      "link": "https://www.bbc.com/news/articles/cy42x3g7r89o?at_medium=RSS&at_campaign=rss",
+      "date": "20 May 2026",
+      "excerpt": "The waiver reflects increasing supply concerns over certain fuels due to the effective blockade of the Strait of Hormuz.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26bc/live/302c5ff0-53d5-11f1-8a2e-c1781efb369b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Young drivers targeted by 'ghost brokers' selling fake car insurance online",
+      "link": "https://www.bbc.com/news/articles/c1w29zw0q44o?at_medium=RSS&at_campaign=rss",
+      "date": "19 May 2026",
+      "excerpt": "The finance watchdog warns bogus brokers are selling fake car insurance through social media.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c36/live/b81dea30-53aa-11f1-b682-cf91850925ea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK should set maximum working temperature rules, advisers say",
+      "link": "https://www.bbc.com/news/articles/cm2p1j4y0kro?at_medium=RSS&at_campaign=rss",
+      "date": "19 May 2026",
+      "excerpt": "Successive governments have failed to prepare the UK for extreme heat, the climate watchdog says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/476d/live/5bad1aa0-53a0-11f1-a184-d13a0f944f44.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Google to release first smart glasses since Google Glass flop",
       "link": "https://www.bbc.com/news/articles/cvgz1ynq1nqo?at_medium=RSS&at_campaign=rss",
       "date": "19 May 2026",
       "excerpt": "The glasses will go on sale sometime in autumn and allow Google's artificial intelligence product to interact with a user.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e90/live/b63e1cf0-53c6-11f1-8eca-7537a828d115.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "NS&I to begin contacting victims of lost funds scandal",
-      "link": "https://www.bbc.com/news/articles/cvgzrz59yz2o?at_medium=RSS&at_campaign=rss",
-      "date": "19 May 2026",
-      "excerpt": "Over 30,000 estates could not be accessed due to an error identifying all of a late customer's NS&I products.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e62/live/6312e380-5399-11f1-960b-071e01d068d2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "HS2 could cost up to £102.7bn and trains will be slower than first planned",
-      "link": "https://www.bbc.com/news/articles/c794xw7p2dqo?at_medium=RSS&at_campaign=rss",
-      "date": "19 May 2026",
-      "excerpt": "The new cost range and train speed are being announced as a \"reset\" of the delayed, over-budget and vastly scaled-back project is carried out.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c01/live/1535d640-52a4-11f1-8b8c-6d33e1d5abb6.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Faisal Islam: Why a full HS2 line could still be built despite the latest fiasco",
-      "link": "https://www.bbc.com/news/articles/cvgzrle9441o?at_medium=RSS&at_campaign=rss",
-      "date": "19 May 2026",
-      "excerpt": "The Transport Secretary has said the high-speed rail line will not be completed until 2039.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae90/live/07361bf0-53a2-11f1-962f-7dc94fa2f5d0.jpg"
     },
     {
       "source": "BBC Business",
