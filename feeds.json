@@ -1,5 +1,5 @@
 {
-  "updated": "20 May 2026, 21:51 UTC",
+  "updated": "20 May 2026, 23:11 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Getting Buy-In for Your Next Big Idea",
+      "link": "https://hbr.org/podcast/2026/05/getting-buy-in-for-your-next-big-idea",
+      "date": "20 May 2026",
+      "excerpt": "A conversation about practical strategies for influencing upward and navigating resistance without losing momentum.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Surprising Ways to Reduce Turnover in High-Pressure, High-Skill Jobs",
       "link": "https://hbr.org/2026/05/surprising-ways-to-reduce-turnover-in-high-pressure-high-skill-jobs",
       "date": "20 May 2026",
@@ -209,12 +218,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Keys to Succeeding Under a New Manager",
-      "link": "https://hbr.org/2026/05/the-keys-to-succeeding-under-a-new-manager",
-      "date": "18 May 2026",
-      "excerpt": "Leadership transitions offer a rare clean slate&#8212;if you&#8217;re intentional about creating a good impression.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How an incentive to trade shapes social and community enterprises",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/20/how-an-incentive-to-trade-shapes-social-and-community-enterprises/",
+      "date": "20 May 2026",
+      "excerpt": "British policymakers&nbsp;argue that social&nbsp;organisations&nbsp;that&nbsp;earn&nbsp;their&nbsp;income are&nbsp;less dependent on grants, and more resilient. Others say that commercialisation&nbsp;corrupts the social goal.&nbsp;Kerryn Kr",
       "image": ""
     },
     {
@@ -263,13 +272,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How stablecoins are extending the monetary power of the United States",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/12/how-stablecoins-are-extending-the-monetary-power-of-the-united-states/",
-      "date": "12 May 2026",
-      "excerpt": "Even as traditional indicators point to gradual de-dollarisation, a parallel shift is underway in digital finance. Thunj Chantramonklasri and Ryan Leary examine how the rapid rise of dollar-pegged stablecoins is creating a new form of “digi",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "SpaceX files for IPO that could make Elon Musk a trillionaire",
+      "link": "https://www.bbc.com/news/articles/cg4pe2953q1o?at_medium=RSS&at_campaign=rss",
+      "date": "20 May 2026",
+      "excerpt": "Musk's rocket-maker and satellite internet provider will trade under the ticker SPCX",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a257/live/e755c9b0-5497-11f1-b691-3398bf815b45.jpg"
     },
     {
       "source": "BBC Business",
@@ -306,15 +315,6 @@
       "date": "20 May 2026",
       "excerpt": "The change reflects increasing supply concerns over certain fuels due to the effective blockade of the Strait of Hormuz.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26bc/live/302c5ff0-53d5-11f1-8a2e-c1781efb369b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Inflation falls to 2.8% but is expected to rise from here",
-      "link": "https://www.bbc.com/news/articles/c4g0e0p4p2go?at_medium=RSS&at_campaign=rss",
-      "date": "20 May 2026",
-      "excerpt": "Energy prices were lower due to the government's energy bill support package and lower wholesale prices before the Iran war.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec4b/live/4db8b530-5391-11f1-a6d5-ff84d685a95b.jpg"
     },
     {
       "source": "BBC Business",
