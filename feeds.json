@@ -1,5 +1,5 @@
 {
-  "updated": "20 May 2026, 07:41 UTC",
+  "updated": "20 May 2026, 09:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,19 +274,10 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Lower gas and electricity bills behind UK inflation fall to 2.8%",
-      "link": "https://www.bbc.com/news/articles/c4g0e0p4p2go?at_medium=RSS&at_campaign=rss",
-      "date": "20 May 2026",
-      "excerpt": "Energy prices were lower due to the government's energy bill support package and lower wholesale prices before the Iran war.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec4b/live/4db8b530-5391-11f1-a6d5-ff84d685a95b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Supermarkets urged to limit food prices by government",
+      "title": "Supermarkets hit back over pressure to cap price of milk, bread and eggs",
       "link": "https://www.bbc.com/news/articles/c5y7qz806q3o?at_medium=RSS&at_campaign=rss",
-      "date": "19 May 2026",
-      "excerpt": "Any price caps would be voluntary apply to key groceries such as eggs, bread, and milk, the BBC understands.",
+      "date": "20 May 2026",
+      "excerpt": "A minister confirms talks have taken place but says there will be no mandatory cap on essential food prices.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba78/live/6c694910-53a3-11f1-962f-7dc94fa2f5d0.jpg"
     },
     {
@@ -301,20 +292,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'Ghost brokers' targeting 16 to 25 year-olds with fake car insurance online",
-      "link": "https://www.bbc.com/news/articles/c1w29zw0q44o?at_medium=RSS&at_campaign=rss",
+      "title": "Inflation falls to 2.8% but is expected to rise from here",
+      "link": "https://www.bbc.com/news/articles/c4g0e0p4p2go?at_medium=RSS&at_campaign=rss",
       "date": "20 May 2026",
-      "excerpt": "The finance watchdog warns bogus brokers are selling fake car insurance through social media.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c36/live/b81dea30-53aa-11f1-b682-cf91850925ea.jpg"
+      "excerpt": "Energy prices were lower due to the government's energy bill support package and lower wholesale prices before the Iran war.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec4b/live/4db8b530-5391-11f1-a6d5-ff84d685a95b.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "China confirms it will buy 200 Boeing jets after Trump-Xi summit",
-      "link": "https://www.bbc.com/news/articles/c98rjydlgp4o?at_medium=RSS&at_campaign=rss",
+      "title": "Boss of Sarah Ferguson-linked firm used royal links to threaten worker with jail",
+      "link": "https://www.bbc.com/news/articles/c4g8kv7ykv8o?at_medium=RSS&at_campaign=rss",
       "date": "20 May 2026",
-      "excerpt": "The two sides will also work towards an extension to the tariffs truce they agreed in October, China's Commerce Ministry said.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d222/live/242aab80-5402-11f1-bfc7-2fa927195bf0.jpg"
+      "excerpt": "In a recording obtained by the BBC, the worker was threatened with jail for allegedly hacking emails at lifestyle app vVoosh.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6d8/live/cef5a110-5410-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'Ghost brokers' targeting 17 to 25 year-olds with fake car insurance online",
+      "link": "https://www.bbc.com/news/articles/c1w29zw0q44o?at_medium=RSS&at_campaign=rss",
+      "date": "20 May 2026",
+      "excerpt": "The finance watchdog warns bogus brokers are selling fake car insurance through social media.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c36/live/b81dea30-53aa-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
