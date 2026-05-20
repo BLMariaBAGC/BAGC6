@@ -1,5 +1,5 @@
 {
-  "updated": "20 May 2026, 03:26 UTC",
+  "updated": "20 May 2026, 07:41 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Lower gas and electricity bills behind UK inflation fall to 2.8%",
+      "link": "https://www.bbc.com/news/articles/c4g0e0p4p2go?at_medium=RSS&at_campaign=rss",
+      "date": "20 May 2026",
+      "excerpt": "Energy prices were lower due to the government's energy bill support package and lower wholesale prices before the Iran war.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec4b/live/4db8b530-5391-11f1-a6d5-ff84d685a95b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Supermarkets urged to limit food prices by government",
       "link": "https://www.bbc.com/news/articles/c5y7qz806q3o?at_medium=RSS&at_campaign=rss",
       "date": "19 May 2026",
@@ -292,29 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Young drivers targeted by 'ghost brokers' selling fake car insurance online",
+      "title": "'Ghost brokers' targeting 16 to 25 year-olds with fake car insurance online",
       "link": "https://www.bbc.com/news/articles/c1w29zw0q44o?at_medium=RSS&at_campaign=rss",
-      "date": "19 May 2026",
+      "date": "20 May 2026",
       "excerpt": "The finance watchdog warns bogus brokers are selling fake car insurance through social media.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c36/live/b81dea30-53aa-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK should set maximum working temperature rules, advisers say",
-      "link": "https://www.bbc.com/news/articles/cm2p1j4y0kro?at_medium=RSS&at_campaign=rss",
-      "date": "19 May 2026",
-      "excerpt": "Successive governments have failed to prepare the UK for extreme heat, the climate watchdog says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/476d/live/5bad1aa0-53a0-11f1-a184-d13a0f944f44.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Google to release first smart glasses since Google Glass flop",
-      "link": "https://www.bbc.com/news/articles/cvgz1ynq1nqo?at_medium=RSS&at_campaign=rss",
-      "date": "19 May 2026",
-      "excerpt": "The glasses will go on sale sometime in autumn and allow Google's artificial intelligence product to interact with a user.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e90/live/b63e1cf0-53c6-11f1-8eca-7537a828d115.png"
+      "title": "China confirms it will buy 200 Boeing jets after Trump-Xi summit",
+      "link": "https://www.bbc.com/news/articles/c98rjydlgp4o?at_medium=RSS&at_campaign=rss",
+      "date": "20 May 2026",
+      "excerpt": "The two sides will also work towards an extension to the tariffs truce they agreed in October, China's Commerce Ministry said.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d222/live/242aab80-5402-11f1-bfc7-2fa927195bf0.jpg"
     },
     {
       "source": "BBC Business",
