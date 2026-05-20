@@ -1,5 +1,5 @@
 {
-  "updated": "20 May 2026, 09:43 UTC",
+  "updated": "20 May 2026, 09:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,6 +72,78 @@
       "date": "15 May 2026",
       "excerpt": "You may not need hours at the gym to boost your health after all. Researchers say just 30 minutes of high-intensity exercise per week — broken into tiny bursts of effort that leave you out of breath — can dramatically improve cardiovascular",
       "image": ""
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Advanced AI Passes the Turing Test for the First Time",
+      "link": "https://neurosciencenews.com/ai-passes-turing-test-30733/",
+      "date": "19 May 2026",
+      "excerpt": "Has the boundary between human consciousness and artificial imitation officially dissolved? A landmark study provides the first empirical proof of an AI system passing the Turing test.",
+      "image": "https://neurosciencenews.com/files/2026/05/ai-turing-test-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Peripheral White Blood Cells Fuel Schizophrenia",
+      "link": "https://neurosciencenews.com/neutrophils-c4a-schizophrenia-30723/",
+      "date": "19 May 2026",
+      "excerpt": "A new study reveals that neutrophils, the body's most common white blood cells, act as hidden factories for C4A, the single strongest common genetic risk protein linked to schizophrenia.",
+      "image": "https://neurosciencenews.com/files/2026/05/schizophrenia-white-blood-cells-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Neuroplex Tracks Nine Separate Brain Circuits in Real Time",
+      "link": "https://neurosciencenews.com/neuroplex-imaging-nine-neuronal-populations-30731/",
+      "date": "19 May 2026",
+      "excerpt": "How does the brain coordinate complex behaviors across multiple overlapping circuits simultaneously? A breakthrough imaging pipeline introduces Neuroplex, a method that tracks up to nine distinct neuronal populations in a single, freely mov",
+      "image": "https://neurosciencenews.com/files/2026/05/neuroblex-neuron-behavior-neurotech-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Forebrain Circuit Regulates Speech Gene to Build Voice",
+      "link": "https://neurosciencenews.com/forebrain-foxp2-speech-gene-30730/",
+      "date": "19 May 2026",
+      "excerpt": "A new study exposes a dynamic link between higher-order forebrain circuits and the activity-dependent regulation of Foxp2, a foundational gene heavily implicated in childhood apraxia of speech and communication disorders.",
+      "image": "https://neurosciencenews.com/files/2026/05/genetics-speech-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Tracking Facial Micromovements to Measure Pain",
+      "link": "https://neurosciencenews.com/ai-facial-micromovements-pain-30729/",
+      "date": "19 May 2026",
+      "excerpt": "A new study demonstrates that tracking high-speed facial micromovement spikes provides an objective, quantifiable metric for human discomfort.",
+      "image": "https://neurosciencenews.com/files/2026/05/pain-face-micromovement-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Salt-Nicotine E-Cigarettes Triple Smoking Cessation Odds",
+      "link": "https://neurosciencenews.com/nicotine-ecigarettes-smoking-cessation-30728/",
+      "date": "19 May 2026",
+      "excerpt": "Can switching to a pod-based electronic cigarette serve as a highly effective off-ramp for chronic smokers? A randomized, placebo-controlled trial reveals that switching to a 5% salt-nicotine e-cigarette triples the likelihood of successful",
+      "image": "https://neurosciencenews.com/files/2026/05/vape-smoking-quit-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Adult Brain Recycles Prenatal Genetic Playbook for Memory",
+      "link": "https://neurosciencenews.com/hud-protein-embryonic-memory-genetics-30727/",
+      "date": "19 May 2026",
+      "excerpt": "Is adult neuroplasticity merely brain development in disguise? A new study reveals that mature neurons do not invent new mechanisms to learn and remember; instead, they re-engage an embryonic toolkit.",
+      "image": "https://neurosciencenews.com/files/2026/05/genetics-memory-neurodevelopment-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Buprenorphin and Ketamine Combo Provide Anti-Suicidal Effect",
+      "link": "https://neurosciencenews.com/buprenorphin-ketamine-antisuicidal-peychopharmacology-30736/",
+      "date": "19 May 2026",
+      "excerpt": "A sequential combination of a single ketamine infusion followed by four weeks of low-dose daily buprenorphine successfully extends the antisuicidal window of ketamine from one fleeting week to over a month.",
+      "image": "https://neurosciencenews.com/files/2026/05/ketamine-antisuicide-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
