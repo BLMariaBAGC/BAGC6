@@ -1,5 +1,5 @@
 {
-  "updated": "21 May 2026, 07:50 UTC",
+  "updated": "21 May 2026, 11:18 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "EasyJet boss says summer flights won't be hit by jet fuel shortages",
+      "link": "https://www.bbc.com/news/articles/ckgplpd7px4o?at_medium=RSS&at_campaign=rss",
+      "date": "21 May 2026",
+      "excerpt": "The airline has seen no problems with fuel, but says people are booking later because of uncertainty caused by the Iran war.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f337/live/99359440-54e7-11f1-a391-35a366b074e8.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Free bus trips and chocolate tax cuts to be announced",
+      "link": "https://www.bbc.com/news/articles/cd7pzr88de1o?at_medium=RSS&at_campaign=rss",
+      "date": "21 May 2026",
+      "excerpt": "Chancellor Rachel Reeves will make a series of announcemenrs aimed at relieving cost-of-living pressures.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72cd/live/8366e0f0-54d9-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "UK agrees £3.7bn trade deal with six Gulf states",
       "link": "https://www.bbc.com/news/articles/c4g85dryv24o?at_medium=RSS&at_campaign=rss",
       "date": "21 May 2026",
@@ -283,38 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "SpaceX files for stock market debut that could make Elon Musk a trillionaire",
-      "link": "https://www.bbc.com/news/articles/cg4pe2953q1o?at_medium=RSS&at_campaign=rss",
+      "title": "Nvidia's latest record result fails to impress investors",
+      "link": "https://www.bbc.com/news/articles/c759x9pq3dpo?at_medium=RSS&at_campaign=rss",
       "date": "21 May 2026",
-      "excerpt": "Musk's rocket-maker and satellite internet provider will trade under the ticker SPCX",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a257/live/e755c9b0-5497-11f1-b691-3398bf815b45.jpg"
+      "excerpt": "The chip giant reported more stellar results but its shares fell after-hours as investors wonder if it can keep up its pace of growth amid greater competition.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6224/live/df6bd4b0-54f6-11f1-8285-a5e1daabf896.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Wes Streeting pledges 'wealth tax that works'",
-      "link": "https://www.bbc.com/news/articles/cm2pxz7de41o?at_medium=RSS&at_campaign=rss",
+      "title": "Chris Mason: Reeves' summer savings drive won't stretch to energy bills",
+      "link": "https://www.bbc.com/news/articles/c4g9r92n3eqo?at_medium=RSS&at_campaign=rss",
       "date": "21 May 2026",
-      "excerpt": "Wes Streeting is proposing reforms to capital gains tax, as part of his pitch for the Labour leadership.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0484/live/d27c4ad0-5494-11f1-a1d5-55f015dfb1f3.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Samsung strike on hold as workers push for AI bonus",
-      "link": "https://www.bbc.com/news/articles/c4g04qkqlk2o?at_medium=RSS&at_campaign=rss",
-      "date": "21 May 2026",
-      "excerpt": "The walkout, which was due to start on Thursday, has been suspended while union members vote on a tentative deal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/639b/live/8df67be0-54b9-11f1-aebe-91fb4001196b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Children in England to be offered free bus trips this August",
-      "link": "https://www.bbc.com/news/articles/cd7pzr88de1o?at_medium=RSS&at_campaign=rss",
-      "date": "21 May 2026",
-      "excerpt": "Chancellor Rachel Reeves is to reveal a £100m fare-free bus scheme designed to relieve cost-of-living pressures.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72cd/live/8366e0f0-54d9-11f1-89a3-d1f559421220.jpg"
+      "excerpt": "The chancellor is announcing measures aimed at easing the cost of living - but no help yet with energy bills.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/385a/live/e189d080-54e7-11f1-a391-35a366b074e8.jpg"
     },
     {
       "source": "BBC Business",
