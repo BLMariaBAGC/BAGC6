@@ -1,5 +1,5 @@
 {
-  "updated": "21 May 2026, 19:53 UTC",
+  "updated": "21 May 2026, 21:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Machine Learning Doubles Depression Remission Rate",
+      "link": "https://neurosciencenews.com/machine-learning-imap-depression-30744/",
+      "date": "21 May 2026",
+      "excerpt": "Can an algorithmic approach to lifestyle tracking radically improve depression treatment? A milestone clinical trial demonstrates that personalizing behavioral care via machine learning can nearly double standard therapy benchmarks.",
+      "image": "https://neurosciencenews.com/files/2026/05/depression-remission-ai-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Structured Programs Physically Slow Down Biological Aging",
+      "link": "https://neurosciencenews.com/structured-lifestyle-aging-30743/",
+      "date": "21 May 2026",
+      "excerpt": "A new study reveals that structured, multi-domain lifestyle interventions directly slow critical aspects of biological aging.",
+      "image": "https://neurosciencenews.com/files/2026/05/structured-lifestyle-aging-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Large Rewards Accelerate Learning Speed by Extending Brain Signals",
+      "link": "https://neurosciencenews.com/dopamine-accelerate-learning-reward-30742/",
+      "date": "21 May 2026",
+      "excerpt": "Large rewards radically accelerate learning speed by altering the timeline of dopamine signaling.",
+      "image": "https://neurosciencenews.com/files/2026/05/accelerated-learning-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Broken Sleep Rhythms: The Glymphatic Link to Dementia",
       "link": "https://neurosciencenews.com/sleep-rhythms-glymphatic-waste-dementia-30750/",
       "date": "21 May 2026",
@@ -117,33 +144,6 @@
       "date": "21 May 2026",
       "excerpt": "How does the duration of major depressive disorder permanently reshape human brain wiring? A new neuroimaging study demonstrates that the length of time a person remains depressed fundamentally alters functional brain connectivity.",
       "image": "https://neurosciencenews.com/files/2026/05/mdd-dmn-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Emoji-Based Test Screens Kids’ Social Skills",
-      "link": "https://neurosciencenews.com/emoji-test-social-skills-30744/",
-      "date": "21 May 2026",
-      "excerpt": "A new study introduces a highly reliable, 9-question screening tool designed to evaluate the social skills of children aged 3 to 5.",
-      "image": "https://neurosciencenews.com/files/2026/05/emoji-test-social-skills-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Schizophrenia Risk Gene Linked to Hyper-Excitable Neurons",
-      "link": "https://neurosciencenews.com/schizophrenia-znf804a-gene-synaptic-excitability-30743/",
-      "date": "20 May 2026",
-      "excerpt": "How do abstract genetic mutations physically alter human brain wiring? A functional genomics study bridges the gap between schizophrenia genetics and cellular neurobiology.",
-      "image": "https://neurosciencenews.com/files/2026/05/schizophrenia-hyperexcitability-genetics-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Healthy Weight and Quitting Smoking Reduce Dementia Risk",
-      "link": "https://neurosciencenews.com/smoking-cessation-weight-gain-dementia-30742/",
-      "date": "20 May 2026",
-      "excerpt": "Can the metabolic consequences of quitting smoking cancel out its long-term benefits for the human brain? A new longitudinal study establishes a powerful link between smoking cessation and a 16% reduction in dementia risk.",
-      "image": "https://neurosciencenews.com/files/2026/05/smoking-weight-dementia-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -301,20 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Meta settles social media addiction case with US school district",
+      "link": "https://www.bbc.com/news/articles/cgepze483pqo?at_medium=RSS&at_campaign=rss",
+      "date": "21 May 2026",
+      "excerpt": "The trial had been set as a test case for 1200 other school districts making similar claims.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1dae/live/cf277fa0-5546-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Walmart warns US shoppers are cutting spending as higher petrol prices bite",
       "link": "https://www.bbc.com/news/articles/cj9prkzwr8vo?at_medium=RSS&at_campaign=rss",
       "date": "21 May 2026",
       "excerpt": "The retail giant said it expects customers to cut back in the coming months due to higher pump prices.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3503/live/326576d0-5524-11f1-87e7-8195a3fea8aa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Government pledges £120m to support ceramics firms",
-      "link": "https://www.bbc.com/news/articles/cq6pv930r5go?at_medium=RSS&at_campaign=rss",
-      "date": "21 May 2026",
-      "excerpt": "Rob Flello, boss of Ceramics UK, says the support recognises the importance of the industry.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5f9/live/a638eff0-5467-11f1-90bc-1d92dab59cbe.jpg"
     },
     {
       "source": "BBC Business",
