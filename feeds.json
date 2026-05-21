@@ -1,6 +1,24 @@
 {
-  "updated": "21 May 2026, 11:22 UTC",
+  "updated": "21 May 2026, 13:35 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Common pesticide linked to hidden brain damage, scientists warn",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260520233218.htm",
+      "date": "21 May 2026",
+      "excerpt": "Scientists have uncovered alarming new evidence that a common insecticide may leave lasting marks on the developing brain before a child is even born. Researchers studying New York City children found that prenatal exposure to chlorpyrifos ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Childhood junk food may rewire the brain for life",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260520093807.htm",
+      "date": "21 May 2026",
+      "excerpt": "Eating too much junk food early in life may rewire the brain in ways that last into adulthood, even after switching to a healthier diet. Scientists found that high-fat, high-sugar diets changed feeding behavior and disrupted appetite-contro",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260515234759.htm",
       "date": "16 May 2026",
       "excerpt": "A major analysis of brain scans found that people with anxiety disorders have noticeably lower levels of choline, a nutrient crucial for healthy brain function. The strongest evidence appeared in the prefrontal cortex, the region tied to em",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "The real reason exercise makes you stronger isn’t what you think",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260515233346.htm",
-      "date": "16 May 2026",
-      "excerpt": "Exercise may be training your brain just as much as your body. Researchers discovered that certain brain cells stay highly active even after a workout ends, and those lingering signals appear to help the body build endurance over time. In e",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Is cannabis safe after 65? Stanford experts reveal 5 risks older adults should know",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260515002201.htm",
-      "date": "15 May 2026",
-      "excerpt": "Cannabis use among older adults is rising fast, but today’s marijuana is far more potent than many people realize — and experts warn the risks may be underestimated. Stanford Medicine specialists say modern cannabis can increase the chances",
       "image": ""
     },
     {
@@ -220,15 +220,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Why gender diversity on board committees matters more than on the board itself",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/21/why-gender-diversity-on-board-committees-matters-more-than-on-the-board-itself/",
-      "date": "21 May 2026",
-      "excerpt": "Diversity is a critical indicator of board effectiveness. But most metrics only assess the makeup of the full board. Adam Arian argues that since it is the committees that report to the board that wield the true influence, and often the com",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How an incentive to trade shapes social and community enterprises",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/20/how-an-incentive-to-trade-shapes-social-and-community-enterprises/",
       "date": "20 May 2026",
@@ -272,6 +263,33 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Donald Trump’s tariff wars are not just about trade",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/13/donald-trumps-tariff-wars-are-not-just-about-trade/",
+      "date": "13 May 2026",
+      "excerpt": "The return of tariffs to the centre of American foreign economic policy isn&#8217;t simply a turn to protectionism. It signals something more consequential: the weaponisation of trade as geopolitical strategy. Ahead of an LSE event on trade",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Cheaper theme park tickets and children's meals as VAT to be cut for some attractions this summer",
+      "link": "https://www.bbc.com/news/articles/cd7pzr88de1o?at_medium=RSS&at_campaign=rss",
+      "date": "21 May 2026",
+      "excerpt": "Chancellor Rachel Reeves made a series of announcements aimed at relieving cost-of-living pressures.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d854/live/6d2d41c0-5516-11f1-9e5e-fb37d8c40e64.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Chris Mason: VAT cut on summer fun - the announcement that didn't leak",
+      "link": "https://www.bbc.com/news/articles/c4g9r92n3eqo?at_medium=RSS&at_campaign=rss",
+      "date": "21 May 2026",
+      "excerpt": "Chancellor Rachel Reeves unveils measures aimed at helping families with the cost of living - but is it enough?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e0b/live/d7bd4fc0-550d-11f1-b682-cf91850925ea.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "EasyJet boss says summer flights won't be hit by jet fuel shortages",
@@ -283,11 +301,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Free bus trips and chocolate tax cuts to be announced",
-      "link": "https://www.bbc.com/news/articles/cd7pzr88de1o?at_medium=RSS&at_campaign=rss",
+      "title": "Government pledges £120m to support ceramics firms",
+      "link": "https://www.bbc.com/news/articles/cq6pv930r5go?at_medium=RSS&at_campaign=rss",
       "date": "21 May 2026",
-      "excerpt": "Chancellor Rachel Reeves will make a series of announcemenrs aimed at relieving cost-of-living pressures.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72cd/live/8366e0f0-54d9-11f1-89a3-d1f559421220.jpg"
+      "excerpt": "Rob Flello, boss of Ceramics UK, says the support recognises the importance of the industry.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5f9/live/a638eff0-5467-11f1-90bc-1d92dab59cbe.jpg"
     },
     {
       "source": "BBC Business",
@@ -297,24 +315,6 @@
       "date": "21 May 2026",
       "excerpt": "The deal will remove an estimated £580m worth of tariffs from British exports, but rights groups are critical",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94d1/live/06552200-5477-11f1-b287-b773a2980223.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Nvidia's latest record result fails to impress investors",
-      "link": "https://www.bbc.com/news/articles/c759x9pq3dpo?at_medium=RSS&at_campaign=rss",
-      "date": "21 May 2026",
-      "excerpt": "The chip giant reported more stellar results but its shares fell after-hours as investors wonder if it can keep up its pace of growth amid greater competition.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6224/live/df6bd4b0-54f6-11f1-8285-a5e1daabf896.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Chris Mason: Reeves' summer savings drive won't stretch to energy bills",
-      "link": "https://www.bbc.com/news/articles/c4g9r92n3eqo?at_medium=RSS&at_campaign=rss",
-      "date": "21 May 2026",
-      "excerpt": "The chancellor is announcing measures aimed at easing the cost of living - but no help yet with energy bills.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/385a/live/e189d080-54e7-11f1-a391-35a366b074e8.jpg"
     },
     {
       "source": "BBC Business",
