@@ -1,5 +1,5 @@
 {
-  "updated": "21 May 2026, 17:01 UTC",
+  "updated": "21 May 2026, 17:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Study Maps 175 Vicious Mental Health Loops",
+      "link": "https://neurosciencenews.com/vicious-cycles-mental-health-30748/",
+      "date": "21 May 2026",
+      "excerpt": "A new systems-epidemiology study maps how 29 separate biological, psychological, and social factors interact to trap young adults aged 18 to 40 in self-reinforcing psychiatric loops.",
+      "image": "https://neurosciencenews.com/files/2026/05/mental-health-loop-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Exercise Hormone May Protect Neurons in Multiple Sclerosis",
       "link": "https://neurosciencenews.com/hormone-irisin-neuroprotection-multiple-sclerosis-30746/",
       "date": "21 May 2026",
@@ -135,15 +144,6 @@
       "date": "20 May 2026",
       "excerpt": "Can a simple 15-minute memory check spot an alcohol-induced blackout as it happens? A pioneering study unveiled the first objective, real-time measure of alcohol-induced amnesia.",
       "image": "https://neurosciencenews.com/files/2026/05/drinking-blackout-memory-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Alzheimer’s Risk Gene May Drive Aggressive ALS",
-      "link": "https://neurosciencenews.com/alzheimers-apoe4-gene-als-30739/",
-      "date": "20 May 2026",
-      "excerpt": "The APOE ε4 variant heavily influences how toxic phosphorylated TDP-43 (pTDP-43) pathology migrates across the central nervous system.",
-      "image": "https://neurosciencenews.com/files/2026/05/als-apoe4-genetics-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,15 +220,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Is big tech facing its big tobacco moment?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/21/is-big-tech-facing-its-big-tobacco-moment/",
-      "date": "21 May 2026",
-      "excerpt": "Fines placed on social media firms for harming customers are increasing. But they are not yet large enough to change behaviour. Rukaiyat Adebusola Yusuf compares tech to tobacco and argues that if litigation, regulation and public pressure ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1024x561.png"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Why gender diversity on board committees matters more than on the board itself",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/21/why-gender-diversity-on-board-committees-matters-more-than-on-the-board-itself/",
       "date": "21 May 2026",
@@ -269,6 +260,15 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/15/how-far-does-regulation-determine-how-for-profit-welfare-services-operate/",
       "date": "15 May 2026",
       "excerpt": "What can social services in Denmark teach us about the limits of market regulation? Commercial firms now provide social care in many countries. But does the way they operate differ depending on how they are regulated? Anders Bach-Mortensen,",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The rise of Hindu religious entrepreneurship – and what it tells us about decolonising Indian business",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/14/the-rise-of-hindu-religious-entrepreneurship-and-what-it-tells-us-about-decolonising-indian-business/",
+      "date": "14 May 2026",
+      "excerpt": "Entrepreneurs in India are launching faith-tech businesses that format religious sources and experiences for modern consumers. Sreevas Sahasranamam and Anupama Kondayya find that these founders are seeking to reclaim Hindu culture and chall",
       "image": ""
     },
     {
