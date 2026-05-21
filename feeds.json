@@ -1,5 +1,5 @@
 {
-  "updated": "20 May 2026, 23:11 UTC",
+  "updated": "21 May 2026, 03:32 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -283,11 +283,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "TikTok and YouTube 'not safe enough' for kids, says Ofcom",
+      "link": "https://www.bbc.com/news/articles/cn0pky4zpxxo?at_medium=RSS&at_campaign=rss",
+      "date": "21 May 2026",
+      "excerpt": "YouTube said it worked with experts to provide appropriate experiences. TikTok said it was disappointed Ofcom had not acknowledged its safety features.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce53/live/9f67cd50-546b-11f1-97ab-4b256b476233.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "UK agrees £3.7bn trade deal with six Gulf states",
       "link": "https://www.bbc.com/news/articles/c4g85dryv24o?at_medium=RSS&at_campaign=rss",
-      "date": "20 May 2026",
+      "date": "21 May 2026",
       "excerpt": "The deal will remove an estimated £580m worth of tariffs from British exports, but rights groups are critical",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94d1/live/06552200-5477-11f1-b287-b773a2980223.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Samsung strike on hold as workers push for AI bonus",
+      "link": "https://www.bbc.com/news/articles/c4g04qkqlk2o?at_medium=RSS&at_campaign=rss",
+      "date": "21 May 2026",
+      "excerpt": "The walkout, which was due to start on Thursday, has been suspended while union members vote on a tentative deal.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/639b/live/8df67be0-54b9-11f1-aebe-91fb4001196b.jpg"
     },
     {
       "source": "BBC Business",
@@ -301,29 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Fuel duty freeze extended until the end of the year",
-      "link": "https://www.bbc.com/news/articles/c3021md6jq6o?at_medium=RSS&at_campaign=rss",
+      "title": "The fight against foreign developers buying Caribbean beaches",
+      "link": "https://www.bbc.com/news/articles/c62jp09p0l4o?at_medium=RSS&at_campaign=rss",
       "date": "20 May 2026",
-      "excerpt": "Fuel duty was initially cut by 5p in March 2022, under the Conservative government.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e674/live/b3af4460-5479-11f1-b682-cf91850925ea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK waters down new Russian oil sanctions as fuel prices rise",
-      "link": "https://www.bbc.com/news/articles/cy42x3g7r89o?at_medium=RSS&at_campaign=rss",
-      "date": "20 May 2026",
-      "excerpt": "The change reflects increasing supply concerns over certain fuels due to the effective blockade of the Strait of Hormuz.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26bc/live/302c5ff0-53d5-11f1-8a2e-c1781efb369b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Robo-top: The machines that could make your next t-shirt",
-      "link": "https://www.bbc.com/news/articles/c0q2gkj97eko?at_medium=RSS&at_campaign=rss",
-      "date": "18 May 2026",
-      "excerpt": "Most clothes are made in Asia, but new machines could bring some of that work back to the West.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c642/live/2ac2db00-4d33-11f1-bd52-e755d604ece4.jpg"
+      "excerpt": "Campaigners in Barbuda, Grenada and Jamaica say they can no longer access their coastlines.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4eb2/live/9b52e4c0-4a0c-11f1-b84b-1fec0953dd1e.jpg"
     }
   ]
 }
