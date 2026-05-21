@@ -1,5 +1,5 @@
 {
-  "updated": "21 May 2026, 15:21 UTC",
+  "updated": "21 May 2026, 17:01 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Exercise Hormone May Protect Neurons in Multiple Sclerosis",
+      "link": "https://neurosciencenews.com/hormone-irisin-neuroprotection-multiple-sclerosis-30746/",
+      "date": "21 May 2026",
+      "excerpt": "A new study reveals that the exercise hormone irisin directly shields neurons from inflammation-driven decay.",
+      "image": "https://neurosciencenews.com/files/2026/05/hormone-neuroprotection-MS-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Long-Term Depression Reverses Brain Network Connectivity",
+      "link": "https://neurosciencenews.com/brain-network-connectivity-mdd-30745/",
+      "date": "21 May 2026",
+      "excerpt": "How does the duration of major depressive disorder permanently reshape human brain wiring? A new neuroimaging study demonstrates that the length of time a person remains depressed fundamentally alters functional brain connectivity.",
+      "image": "https://neurosciencenews.com/files/2026/05/mdd-dmn-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Emoji-Based Test Screens Kids’ Social Skills",
+      "link": "https://neurosciencenews.com/emoji-test-social-skills-30744/",
+      "date": "21 May 2026",
+      "excerpt": "A new study introduces a highly reliable, 9-question screening tool designed to evaluate the social skills of children aged 3 to 5.",
+      "image": "https://neurosciencenews.com/files/2026/05/emoji-test-social-skills-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Schizophrenia Risk Gene Linked to Hyper-Excitable Neurons",
       "link": "https://neurosciencenews.com/schizophrenia-znf804a-gene-synaptic-excitability-30743/",
       "date": "20 May 2026",
@@ -117,33 +144,6 @@
       "date": "20 May 2026",
       "excerpt": "The APOE ε4 variant heavily influences how toxic phosphorylated TDP-43 (pTDP-43) pathology migrates across the central nervous system.",
       "image": "https://neurosciencenews.com/files/2026/05/als-apoe4-genetics-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Can Handwriting Speed Forecast Cognitive Decline?",
-      "link": "https://neurosciencenews.com/digitized-handwriting-cognitive-decline-30738/",
-      "date": "20 May 2026",
-      "excerpt": "By observing older adults on a digitizing tablet, investigators found that simple motor tasks fail to reveal impairment, whereas complex verbal dictation acts as an intense executive stress test.",
-      "image": "https://neurosciencenews.com/files/2026/05/handwriting-speed-cognition-nuerosicence-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Parent Disapproval Destroys Childhood Best Friendships",
-      "link": "https://neurosciencenews.com/parental-disapproval-child-friendship-30737/",
-      "date": "20 May 2026",
-      "excerpt": "While maternal disapproval is highly effective at destroying childhood best friendships, it carries devastating hidden costs. By tracking 394 public-school students, investigators proved that maternal condemnation triples the odds of a frie",
-      "image": "https://neurosciencenews.com/files/2026/05/parental-voice-friendship-social-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Arthritis Drug Rescues Hard-to-Treat Depression",
-      "link": "https://neurosciencenews.com/immunotherapy-arthritis-il6-depression-30735/",
-      "date": "20 May 2026",
-      "excerpt": "The anti-inflammatory drug tocilizumab can successfully induce remission in patients struggling with treatment-resistant depression.",
-      "image": "https://neurosciencenews.com/files/2026/05/depression-il-6-immunotherapy-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -301,20 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Walmart warns US shoppers are cutting spending as higher petrol prices bite",
+      "link": "https://www.bbc.com/news/articles/cj9prkzwr8vo?at_medium=RSS&at_campaign=rss",
+      "date": "21 May 2026",
+      "excerpt": "The retail giant said it expects customers to cut back in the coming months due to higher pump prices.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3503/live/326576d0-5524-11f1-87e7-8195a3fea8aa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Government pledges £120m to support ceramics firms",
       "link": "https://www.bbc.com/news/articles/cq6pv930r5go?at_medium=RSS&at_campaign=rss",
       "date": "21 May 2026",
       "excerpt": "Rob Flello, boss of Ceramics UK, says the support recognises the importance of the industry.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5f9/live/a638eff0-5467-11f1-90bc-1d92dab59cbe.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK agrees £3.7bn trade deal with six Gulf states",
-      "link": "https://www.bbc.com/news/articles/c4g85dryv24o?at_medium=RSS&at_campaign=rss",
-      "date": "21 May 2026",
-      "excerpt": "The deal will remove an estimated £580m worth of tariffs from British exports, but rights groups are critical",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94d1/live/06552200-5477-11f1-b287-b773a2980223.jpg"
     },
     {
       "source": "BBC Business",
