@@ -1,5 +1,5 @@
 {
-  "updated": "21 May 2026, 14:40 UTC",
+  "updated": "21 May 2026, 15:21 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Our Favorite Management Tips on Giving Feedback",
+      "link": "https://hbr.org/2026/05/our-favorite-management-tips-on-giving-feedback",
+      "date": "21 May 2026",
+      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Case for Hiring a Chief Resilience Officer",
+      "link": "https://hbr.org/2026/05/the-case-for-hiring-a-chief-resilience-officer",
+      "date": "21 May 2026",
+      "excerpt": "Modern disruptions rarely stay contained. It can help to have someone dedicated to coordinating recovery and adaptation across the enterprise.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "What Customer Workarounds Can Reveal About Your Business Model",
       "link": "https://hbr.org/2026/05/what-customer-workarounds-can-reveal-about-your-business-model",
       "date": "21 May 2026",
@@ -197,24 +215,6 @@
       "link": "https://hbr.org/2026/05/what-really-gets-in-the-way-of-change",
       "date": "19 May 2026",
       "excerpt": "In the May 18, 2026, edition of The Insider, managing editor Gretchen Gavett highlights the traps that quietly undermine senior leaders.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Stronger Privacy Laws Convinced Consumers to Share More Data",
-      "link": "https://hbr.org/2026/05/how-stronger-privacy-laws-convinced-consumers-to-share-more-data",
-      "date": "19 May 2026",
-      "excerpt": "An analysis of 16,000 U.S. customers in California and Virginia shows how further disclosures and permissions can actually reassure customers.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Break Free of Negative Thought Spirals",
-      "link": "https://hbr.org/podcast/2026/05/how-to-break-free-of-negative-thought-spirals",
-      "date": "19 May 2026",
-      "excerpt": "A conversation with journalist Donna Jackson Nakazawa about a common behavior that holds us back.",
       "image": ""
     },
     {
@@ -287,7 +287,7 @@
       "link": "https://www.bbc.com/news/articles/c4g9r92n3eqo?at_medium=RSS&at_campaign=rss",
       "date": "21 May 2026",
       "excerpt": "Chancellor Rachel Reeves unveils measures aimed at helping families with the cost of living - but is it enough?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e0b/live/d7bd4fc0-550d-11f1-b682-cf91850925ea.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e84/live/93362240-5527-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
