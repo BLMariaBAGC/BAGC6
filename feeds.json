@@ -1,5 +1,5 @@
 {
-  "updated": "21 May 2026, 03:32 UTC",
+  "updated": "21 May 2026, 07:50 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,29 +274,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "SpaceX files for IPO that could make Elon Musk a trillionaire",
+      "title": "UK agrees £3.7bn trade deal with six Gulf states",
+      "link": "https://www.bbc.com/news/articles/c4g85dryv24o?at_medium=RSS&at_campaign=rss",
+      "date": "21 May 2026",
+      "excerpt": "The deal will remove an estimated £580m worth of tariffs from British exports, but rights groups are critical",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94d1/live/06552200-5477-11f1-b287-b773a2980223.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "SpaceX files for stock market debut that could make Elon Musk a trillionaire",
       "link": "https://www.bbc.com/news/articles/cg4pe2953q1o?at_medium=RSS&at_campaign=rss",
-      "date": "20 May 2026",
+      "date": "21 May 2026",
       "excerpt": "Musk's rocket-maker and satellite internet provider will trade under the ticker SPCX",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a257/live/e755c9b0-5497-11f1-b691-3398bf815b45.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "TikTok and YouTube 'not safe enough' for kids, says Ofcom",
-      "link": "https://www.bbc.com/news/articles/cn0pky4zpxxo?at_medium=RSS&at_campaign=rss",
+      "title": "Wes Streeting pledges 'wealth tax that works'",
+      "link": "https://www.bbc.com/news/articles/cm2pxz7de41o?at_medium=RSS&at_campaign=rss",
       "date": "21 May 2026",
-      "excerpt": "YouTube said it worked with experts to provide appropriate experiences. TikTok said it was disappointed Ofcom had not acknowledged its safety features.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce53/live/9f67cd50-546b-11f1-97ab-4b256b476233.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK agrees £3.7bn trade deal with six Gulf states",
-      "link": "https://www.bbc.com/news/articles/c4g85dryv24o?at_medium=RSS&at_campaign=rss",
-      "date": "21 May 2026",
-      "excerpt": "The deal will remove an estimated £580m worth of tariffs from British exports, but rights groups are critical",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94d1/live/06552200-5477-11f1-b287-b773a2980223.jpg"
+      "excerpt": "Wes Streeting is proposing reforms to capital gains tax, as part of his pitch for the Labour leadership.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0484/live/d27c4ad0-5494-11f1-a1d5-55f015dfb1f3.jpg"
     },
     {
       "source": "BBC Business",
@@ -310,11 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Supermarkets hit back over pressure to cap price of milk, bread and eggs",
-      "link": "https://www.bbc.com/news/articles/c5y7qz806q3o?at_medium=RSS&at_campaign=rss",
-      "date": "20 May 2026",
-      "excerpt": "A minister confirms talks have taken place but says there will be no mandatory cap on essential food prices.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c11d/live/c5cfe140-542e-11f1-89a3-d1f559421220.png"
+      "title": "Children in England to be offered free bus trips this August",
+      "link": "https://www.bbc.com/news/articles/cd7pzr88de1o?at_medium=RSS&at_campaign=rss",
+      "date": "21 May 2026",
+      "excerpt": "Chancellor Rachel Reeves is to reveal a £100m fare-free bus scheme designed to relieve cost-of-living pressures.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72cd/live/8366e0f0-54d9-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
