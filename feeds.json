@@ -1,5 +1,5 @@
 {
-  "updated": "22 May 2026, 07:42 UTC",
+  "updated": "22 May 2026, 10:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Is big tech facing its big tobacco moment?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/21/is-big-tech-facing-its-big-tobacco-moment/",
+      "date": "21 May 2026",
+      "excerpt": "Fines placed on social media firms for harming customers are increasing. But they are not yet large enough to change behaviour. Rukaiyat Adebusola Yusuf compares tech to tobacco and argues that if litigation, regulation and public pressure ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1024x561.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Why gender diversity on board committees matters more than on the board itself",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/21/why-gender-diversity-on-board-committees-matters-more-than-on-the-board-itself/",
       "date": "21 May 2026",
@@ -263,30 +272,30 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The rise of Hindu religious entrepreneurship – and what it tells us about decolonising Indian business",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/14/the-rise-of-hindu-religious-entrepreneurship-and-what-it-tells-us-about-decolonising-indian-business/",
-      "date": "14 May 2026",
-      "excerpt": "Entrepreneurs in India are launching faith-tech businesses that format religious sources and experiences for modern consumers. Sreevas Sahasranamam and Anupama Kondayya find that these founders are seeking to reclaim Hindu culture and chall",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Stop blaming young people for being unemployed, says Amazon's UK boss",
       "link": "https://www.bbc.com/news/articles/c0l2x5351n4o?at_medium=RSS&at_campaign=rss",
-      "date": "21 May 2026",
+      "date": "22 May 2026",
       "excerpt": "John Boumphrey says the education system \"isn't necessarily producing young people who are ready for work\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2189/live/97f7c0d0-555a-11f1-89a3-d1f559421220.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bd6/live/041d2320-55c6-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Government borrowing higher than expected in April",
+      "title": "Morrisons planning to close 100 stores in next few months",
+      "link": "https://www.bbc.com/news/articles/c3623ny298xo?at_medium=RSS&at_campaign=rss",
+      "date": "22 May 2026",
+      "excerpt": "It said difficulties had been exacerbated by \"significant cost increases resulting from government policy choices\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fc0/live/abe5bee0-55b8-11f1-b056-a558b41349e8.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Borrowing in April hit highest level since Covid",
       "link": "https://www.bbc.com/news/articles/ce9py7nx8j4o?at_medium=RSS&at_campaign=rss",
       "date": "22 May 2026",
-      "excerpt": "Borrowing, the difference between spending and income from taxes, was £24.3bn last month.",
+      "excerpt": "Borrowing was higher than expected last month and retail sales fell as fuel prices surged.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46e2/live/7f7af790-5517-11f1-99cc-f1eed80582f5.jpg"
     },
     {
@@ -301,20 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'Monitoring the situation': Why young men are drawn to prediction markets",
+      "title": "'A crazy time to be alive': Why young men are drawn to prediction markets",
       "link": "https://www.bbc.com/news/articles/c93xv27kpwxo?at_medium=RSS&at_campaign=rss",
       "date": "21 May 2026",
       "excerpt": "Prediction markets are a fast-growing, multi-billion-dollar industry, and appeal disproportionately to young men",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99b7/live/be15f1f0-5506-11f1-8b8c-6d33e1d5abb6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Prepare for half-term queues at Dover due to EU border process, port says",
-      "link": "https://www.bbc.com/news/articles/cpqpygjwywjo?at_medium=RSS&at_campaign=rss",
-      "date": "21 May 2026",
-      "excerpt": "It is the first holiday period since the EU's new border system was fully implemented.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc71/live/e7cf8ab0-55a1-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
