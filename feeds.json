@@ -1,5 +1,5 @@
 {
-  "updated": "22 May 2026, 19:42 UTC",
+  "updated": "22 May 2026, 21:07 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Serotonin Proven to Reduce Cognitive Belief Stickiness in OCD",
+      "link": "https://neurosciencenews.com/serotonin-belief-stickiness-ocd-30751/",
+      "date": "22 May 2026",
+      "excerpt": "Serotonin is a key driver of cognitive flexibility by actively reducing \"belief stickiness\", the tendency to cling to outdated assumptions despite contradicting real-world evidence.",
+      "image": "https://neurosciencenews.com/files/2026/05/serotonin-ocd-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Psilocybin Resets Brain Pain Networks and Boosts Painkillers",
+      "link": "https://neurosciencenews.com/psilocybin-brain-pain-neurology-30750/",
+      "date": "22 May 2026",
+      "excerpt": "A single dose of psilocybin provides up to a month of nerve pain relief and fundamentally supercharges the efficacy of traditional painkillers.",
+      "image": "https://neurosciencenews.com/files/2026/05/psilocybin-pain-neuroscience-neurology-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Heart Attacks Release Toxin That Damages Brain Function",
       "link": "https://neurosciencenews.com/methylglyoxal-heart-attack-brain-30749/",
       "date": "22 May 2026",
@@ -126,24 +144,6 @@
       "date": "21 May 2026",
       "excerpt": "Can an algorithmic approach to lifestyle tracking radically improve depression treatment? A milestone clinical trial demonstrates that personalizing behavioral care via machine learning can nearly double standard therapy benchmarks.",
       "image": "https://neurosciencenews.com/files/2026/05/depression-remission-ai-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Structured Programs Physically Slow Down Biological Aging",
-      "link": "https://neurosciencenews.com/structured-lifestyle-aging-30743/",
-      "date": "21 May 2026",
-      "excerpt": "A new study reveals that structured, multi-domain lifestyle interventions directly slow critical aspects of biological aging.",
-      "image": "https://neurosciencenews.com/files/2026/05/structured-lifestyle-aging-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Large Rewards Accelerate Learning Speed by Extending Brain Signals",
-      "link": "https://neurosciencenews.com/dopamine-accelerate-learning-reward-30742/",
-      "date": "21 May 2026",
-      "excerpt": "Large rewards radically accelerate learning speed by altering the timeline of dopamine signaling.",
-      "image": "https://neurosciencenews.com/files/2026/05/accelerated-learning-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
