@@ -1,5 +1,5 @@
 {
-  "updated": "22 May 2026, 21:07 UTC",
+  "updated": "22 May 2026, 22:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -292,6 +292,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "From decades to years - AI could speed search for brain drugs hiding in plain sight",
+      "link": "https://www.bbc.com/news/articles/cdrp3zzzp71o?at_medium=RSS&at_campaign=rss",
+      "date": "22 May 2026",
+      "excerpt": "Researchers hope the work will help identify affordable, effective drugs to treat conditions like MND.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efef/live/f79080f0-4de8-11f1-9cc8-93479330ab4b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Trump wants new Fed chair to be 'totally independent'",
       "link": "https://www.bbc.com/news/articles/cvgz311dq3ko?at_medium=RSS&at_campaign=rss",
       "date": "22 May 2026",
@@ -306,15 +315,6 @@
       "date": "22 May 2026",
       "excerpt": "It said difficulties had been exacerbated by \"significant cost increases resulting from government policy choices\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fc0/live/abe5bee0-55b8-11f1-b056-a558b41349e8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK sees hottest day of year as bank holiday travellers face queues",
-      "link": "https://www.bbc.com/news/articles/cpqpygjwywjo?at_medium=RSS&at_campaign=rss",
-      "date": "22 May 2026",
-      "excerpt": "Temperatures hit 28.4C in parts of England on Friday, while delays have been reported at the Port of Dover and Birmingham Airport ahead of the bank holiday weekend.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9b2/live/321f77a0-55e9-11f1-9d25-db25c0e2fcc3.jpg"
     },
     {
       "source": "BBC Business",
