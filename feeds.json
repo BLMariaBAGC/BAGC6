@@ -1,5 +1,5 @@
 {
-  "updated": "22 May 2026, 17:49 UTC",
+  "updated": "22 May 2026, 19:42 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Heart Attacks Release Toxin That Damages Brain Function",
+      "link": "https://neurosciencenews.com/methylglyoxal-heart-attack-brain-30749/",
+      "date": "22 May 2026",
+      "excerpt": "Why do heart attacks so frequently trigger severe depression, anxiety, and accelerated dementia? A new study maps the \"heart-brain axis,\" proving that dying cardiac tissue releases a toxic metabolic byproduct called methylglyoxal (MG).",
+      "image": "https://neurosciencenews.com/files/2026/05/heart-toxin-brain-function-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Gut Signals Swap Sugar Cravings for Protein Selection",
+      "link": "https://neurosciencenews.com/gut-brain-axis-protein-sugar-30748/",
+      "date": "22 May 2026",
+      "excerpt": "How does the gastrointestinal tract track a lack of protein and command the brain to swap food preferences? A new study reveals a dual-track gut-brain signaling axis triggered by protein deficiency.",
+      "image": "https://neurosciencenews.com/files/2026/05/sugar-protein-diet-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Study Aims to Break GLP-1 Weight-Loss Plateaus",
       "link": "https://neurosciencenews.com/glp1-cellular-signaling-weight-loss-plateau-30747/",
       "date": "22 May 2026",
@@ -126,24 +144,6 @@
       "date": "21 May 2026",
       "excerpt": "Large rewards radically accelerate learning speed by altering the timeline of dopamine signaling.",
       "image": "https://neurosciencenews.com/files/2026/05/accelerated-learning-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Broken Sleep Rhythms: The Glymphatic Link to Dementia",
-      "link": "https://neurosciencenews.com/sleep-rhythms-glymphatic-waste-dementia-30750/",
-      "date": "21 May 2026",
-      "excerpt": "During non-REM sleep, synchronized chemical waves trigger rhythmic vascular movements known as vasomotion, pumping cerebrospinal fluid through the glymphatic system to flush out toxic amyloid-beta and tau proteins. When these rhythms are fr",
-      "image": "https://neurosciencenews.com/files/2026/05/glymphatic-dementia-sleep-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "RNA Origami and Nanopores Accurately Size ALS Genes",
-      "link": "https://neurosciencenews.com/rna-origami-nanopore-genetics-als-30749/",
-      "date": "21 May 2026",
-      "excerpt": "A new study introduces an innovative platform capable of accurately sizing the toxic repeat expansion mutations that drive muscular dystrophy, Huntington’s disease, and ALS.",
-      "image": "https://neurosciencenews.com/files/2026/05/rna-origarmi-ALS-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -292,6 +292,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Trump wants new Fed chair to be 'totally independent'",
+      "link": "https://www.bbc.com/news/articles/cvgz311dq3ko?at_medium=RSS&at_campaign=rss",
+      "date": "22 May 2026",
+      "excerpt": "The US president piled major pressure on Kevin Warsh's predecessor to cut interest rates.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e03a/live/d0384590-5605-11f1-8b8c-6d33e1d5abb6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Morrisons planning to close 100 stores in next few months",
       "link": "https://www.bbc.com/news/articles/c3623ny298xo?at_medium=RSS&at_campaign=rss",
       "date": "22 May 2026",
@@ -306,15 +315,6 @@
       "date": "22 May 2026",
       "excerpt": "Temperatures hit 28.4C in parts of England on Friday, while delays have been reported at the Port of Dover and Birmingham Airport ahead of the bank holiday weekend.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9b2/live/321f77a0-55e9-11f1-9d25-db25c0e2fcc3.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why thousands of stock trades tied to Trump are raising eyebrows",
-      "link": "https://www.bbc.com/news/videos/cd6pzg7z319o?at_medium=RSS&at_campaign=rss",
-      "date": "22 May 2026",
-      "excerpt": "The BBC's Michelle Fleury looks at trades disclosed by the president.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7998/live/b0ff00e0-55cb-11f1-8b8c-6d33e1d5abb6.jpg"
     },
     {
       "source": "BBC Business",
