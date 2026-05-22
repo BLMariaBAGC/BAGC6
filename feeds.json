@@ -1,6 +1,15 @@
 {
-  "updated": "22 May 2026, 10:48 UTC",
+  "updated": "22 May 2026, 14:35 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists warn that current vitamin B12 guidelines may be putting your brain at risk",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260522031001.htm",
+      "date": "22 May 2026",
+      "excerpt": "Getting enough vitamin B12 to meet current health guidelines may not actually be enough to protect the aging brain. Researchers at UC San Francisco found that older adults with “normal” but lower levels of active B12 showed signs of slower ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260517030404.htm",
       "date": "17 May 2026",
       "excerpt": "Scientists have discovered that the human body undergoes a dramatic internal transformation during extended fasting, with major changes appearing only after about three days without food. In a seven-day water-only fasting study, researchers",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists reversed memory loss by recharging the brain’s tiny engines",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260515234803.htm",
-      "date": "16 May 2026",
-      "excerpt": "Researchers have shown for the first time that malfunctioning mitochondria — the cell’s energy generators — may directly cause cognitive decline in neurodegenerative diseases. By creating a new tool that temporarily boosts mitochondrial act",
       "image": ""
     },
     {
@@ -148,6 +148,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The Best Manufacturers Build AI with Workers, Not for Them",
+      "link": "https://hbr.org/2026/05/the-best-manufacturers-build-ai-with-workers-not-for-them",
+      "date": "22 May 2026",
+      "excerpt": "Factories succeed with AI when workers help shape it, learn it on the job, and are measured by real performance.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How People Actually Get to the C-Suite in S&P 500 Companies",
+      "link": "https://hbr.org/2026/05/how-people-actually-get-to-the-c-suite-in-sp-500-companies",
+      "date": "22 May 2026",
+      "excerpt": "New research demystifies who gets these jobs and how they ascended.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Our Favorite Management Tips on Giving Feedback",
       "link": "https://hbr.org/2026/05/our-favorite-management-tips-on-giving-feedback",
       "date": "21 May 2026",
@@ -197,24 +215,6 @@
       "link": "https://hbr.org/2026/05/listen-for-the-silence-insights-from-a-long-serving-ceo",
       "date": "20 May 2026",
       "excerpt": "The Fortune 250&#8217;s longest-serving CEO, Dan Amos, shares the leadership lessons that he&#8217;s learned at the helm of Aflac for 36 years.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Supporting Your Employees’ Career Growth When Everyone Is Overwhelmed",
-      "link": "https://hbr.org/2026/05/supporting-your-employees-career-growth-when-everyone-is-overwhelmed",
-      "date": "20 May 2026",
-      "excerpt": "Teams facing constant pressure still need opportunities to build new skills, experiment, and prepare for what&#8217;s next.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Really Gets in the Way of Change",
-      "link": "https://hbr.org/2026/05/what-really-gets-in-the-way-of-change",
-      "date": "19 May 2026",
-      "excerpt": "In the May 18, 2026, edition of The Insider, managing editor Gretchen Gavett highlights the traps that quietly undermine senior leaders.",
       "image": ""
     },
     {
@@ -283,6 +283,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Bank boss sorry after describing workers as 'lower value human capital'",
+      "link": "https://www.bbc.com/news/articles/c98rqld1j3yo?at_medium=RSS&at_campaign=rss",
+      "date": "22 May 2026",
+      "excerpt": "The Standard Chartered boss said he values all colleagues and is committed to helping them cope with change.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2966/live/1d310e00-55e2-11f1-947c-0dd8001fb995.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Morrisons planning to close 100 stores in next few months",
       "link": "https://www.bbc.com/news/articles/c3623ny298xo?at_medium=RSS&at_campaign=rss",
       "date": "22 May 2026",
@@ -292,29 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Why thousands of stock trades tied to Trump are raising eyebrows",
+      "link": "https://www.bbc.com/news/videos/cd6pzg7z319o?at_medium=RSS&at_campaign=rss",
+      "date": "22 May 2026",
+      "excerpt": "The BBC's Michelle Fleury looks at trades disclosed by the president.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7998/live/b0ff00e0-55cb-11f1-8b8c-6d33e1d5abb6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Borrowing in April hit highest level since Covid",
       "link": "https://www.bbc.com/news/articles/ce9py7nx8j4o?at_medium=RSS&at_campaign=rss",
       "date": "22 May 2026",
       "excerpt": "Borrowing was higher than expected last month and retail sales fell as fuel prices surged.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46e2/live/7f7af790-5517-11f1-99cc-f1eed80582f5.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Musk's SpaceX postpones Starship launch as mega share sale looms",
-      "link": "https://www.bbc.com/news/articles/cy42w782ejvo?at_medium=RSS&at_campaign=rss",
-      "date": "22 May 2026",
-      "excerpt": "It comes just a day after the firm revealed plans for a record-breaking stock market debut.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bd0/live/9dc52e40-5586-11f1-b4ba-7bcbf1fd159f.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'A crazy time to be alive': Why young men are drawn to prediction markets",
-      "link": "https://www.bbc.com/news/articles/c93xv27kpwxo?at_medium=RSS&at_campaign=rss",
-      "date": "21 May 2026",
-      "excerpt": "Prediction markets are a fast-growing, multi-billion-dollar industry, and appeal disproportionately to young men",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99b7/live/be15f1f0-5506-11f1-8b8c-6d33e1d5abb6.jpg"
     },
     {
       "source": "BBC Business",
