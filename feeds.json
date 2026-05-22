@@ -1,5 +1,5 @@
 {
-  "updated": "22 May 2026, 14:35 UTC",
+  "updated": "22 May 2026, 17:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Study Aims to Break GLP-1 Weight-Loss Plateaus",
+      "link": "https://neurosciencenews.com/glp1-cellular-signaling-weight-loss-plateau-30747/",
+      "date": "22 May 2026",
+      "excerpt": "The weight-loss effects of semaglutide depend on boosting a signaling molecule called cAMP within appetite-regulating neurons in the area postrema.",
+      "image": "https://neurosciencenews.com/files/2026/05/glp1-plateau-neurons-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Microglia Overloaded with Fat Linked to Rapid MS",
+      "link": "https://neurosciencenews.com/foamy-microglia-multiple-sclerosis-30746/",
+      "date": "22 May 2026",
+      "excerpt": "Why do some multiple sclerosis patients deteriorate rapidly while others experience mild symptoms for decades? A post-mortem neuro-audit reveals that severe MS progression is linked to \"foamy microglia\", brain immune cells pathologically ov",
+      "image": "https://neurosciencenews.com/files/2026/05/fatty-microglia-ms-neurology-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Long COVID Brain Inflammation Decreases Over Time",
+      "link": "https://neurosciencenews.com/long-covid-brain-inflammation-30745/",
+      "date": "22 May 2026",
+      "excerpt": "Does persistent brain inflammation explain the prolonged fatigue and cognitive decline of Long COVID? A neuroimaging clinical trial demonstrates that widespread brain inflammation is not the primary driver of long-term symptoms.",
+      "image": "https://neurosciencenews.com/files/2026/05/neuroinflammation-long-covid-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Machine Learning Doubles Depression Remission Rate",
       "link": "https://neurosciencenews.com/machine-learning-imap-depression-30744/",
       "date": "21 May 2026",
@@ -117,33 +144,6 @@
       "date": "21 May 2026",
       "excerpt": "A new study introduces an innovative platform capable of accurately sizing the toxic repeat expansion mutations that drive muscular dystrophy, Huntington’s disease, and ALS.",
       "image": "https://neurosciencenews.com/files/2026/05/rna-origarmi-ALS-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Study Maps 175 Vicious Mental Health Loops",
-      "link": "https://neurosciencenews.com/vicious-cycles-mental-health-30748/",
-      "date": "21 May 2026",
-      "excerpt": "A new systems-epidemiology study maps how 29 separate biological, psychological, and social factors interact to trap young adults aged 18 to 40 in self-reinforcing psychiatric loops.",
-      "image": "https://neurosciencenews.com/files/2026/05/mental-health-loop-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Exercise Hormone May Protect Neurons in Multiple Sclerosis",
-      "link": "https://neurosciencenews.com/hormone-irisin-neuroprotection-multiple-sclerosis-30746/",
-      "date": "21 May 2026",
-      "excerpt": "A new study reveals that the exercise hormone irisin directly shields neurons from inflammation-driven decay.",
-      "image": "https://neurosciencenews.com/files/2026/05/hormone-neuroprotection-MS-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Long-Term Depression Reverses Brain Network Connectivity",
-      "link": "https://neurosciencenews.com/brain-network-connectivity-mdd-30745/",
-      "date": "21 May 2026",
-      "excerpt": "How does the duration of major depressive disorder permanently reshape human brain wiring? A new neuroimaging study demonstrates that the length of time a person remains depressed fundamentally alters functional brain connectivity.",
-      "image": "https://neurosciencenews.com/files/2026/05/mdd-dmn-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Precarious jobs caused by economic and political disruption are causing burnout among cabin crew",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/22/precarious-jobs-caused-by-economic-and-political-disruption-are-causing-burnout-among-cabin-crew/",
+      "date": "22 May 2026",
+      "excerpt": "Cabin crew keep us safe whilst flying. It is time to support better conditions for their future working lives. Stephanie Preston, Stephen Teo, John Blenkinsopp and Clare Cook&#8216;s study of aviation workers in Britain found that precariou",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Is big tech facing its big tobacco moment?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/21/is-big-tech-facing-its-big-tobacco-moment/",
       "date": "21 May 2026",
@@ -263,15 +272,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure_1_new-1024x620.png"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How far does regulation determine how for-profit welfare services operate?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/15/how-far-does-regulation-determine-how-for-profit-welfare-services-operate/",
-      "date": "15 May 2026",
-      "excerpt": "What can social services in Denmark teach us about the limits of market regulation? Commercial firms now provide social care in many countries. But does the way they operate differ depending on how they are regulated? Anders Bach-Mortensen,",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Stop blaming young people for being unemployed, says Amazon's UK boss",
@@ -301,20 +301,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "UK sees hottest day of year as bank holiday travellers face queues",
+      "link": "https://www.bbc.com/news/articles/cpqpygjwywjo?at_medium=RSS&at_campaign=rss",
+      "date": "22 May 2026",
+      "excerpt": "Temperatures hit 28.4C in parts of England on Friday, while delays have been reported at the Port of Dover and Birmingham Airport ahead of the bank holiday weekend.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9b2/live/321f77a0-55e9-11f1-9d25-db25c0e2fcc3.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Why thousands of stock trades tied to Trump are raising eyebrows",
       "link": "https://www.bbc.com/news/videos/cd6pzg7z319o?at_medium=RSS&at_campaign=rss",
       "date": "22 May 2026",
       "excerpt": "The BBC's Michelle Fleury looks at trades disclosed by the president.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7998/live/b0ff00e0-55cb-11f1-8b8c-6d33e1d5abb6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Borrowing in April hit highest level since Covid",
-      "link": "https://www.bbc.com/news/articles/ce9py7nx8j4o?at_medium=RSS&at_campaign=rss",
-      "date": "22 May 2026",
-      "excerpt": "Borrowing was higher than expected last month and retail sales fell as fuel prices surged.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46e2/live/7f7af790-5517-11f1-99cc-f1eed80582f5.jpg"
     },
     {
       "source": "BBC Business",
