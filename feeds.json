@@ -1,5 +1,5 @@
 {
-  "updated": "23 May 2026, 19:06 UTC",
+  "updated": "23 May 2026, 20:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,78 +72,6 @@
       "date": "17 May 2026",
       "excerpt": "Scientists have discovered that the human body undergoes a dramatic internal transformation during extended fasting, with major changes appearing only after about three days without food. In a seven-day water-only fasting study, researchers",
       "image": ""
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Region Discovered for Abstract Thought",
-      "link": "https://neurosciencenews.com/ventral-premotor-cortex-abstract-thinking-30753/",
-      "date": "23 May 2026",
-      "excerpt": "A new study provides the first direct neural evidence of \"compositional generalization,\" the cognitive capacity to recombine familiar elements into novel ideas.",
-      "image": "https://neurosciencenews.com/files/2026/05/abstract-thought-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Astrocyte Sodium Levels Vary to Match Local Synaptic Needs",
-      "link": "https://neurosciencenews.com/astrocyte-sodium-synapses-30752/",
-      "date": "23 May 2026",
-      "excerpt": "A new study upends decades of neuroscientific dogma by proving that sodium concentrations vary drastically within individual astrocytes and across their sub-cellular processes.",
-      "image": "https://neurosciencenews.com/files/2026/05/astrocyte-sodium-synapses-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Serotonin Proven to Reduce Cognitive Belief Stickiness in OCD",
-      "link": "https://neurosciencenews.com/serotonin-belief-stickiness-ocd-30751/",
-      "date": "22 May 2026",
-      "excerpt": "Serotonin is a key driver of cognitive flexibility by actively reducing \"belief stickiness\", the tendency to cling to outdated assumptions despite contradicting real-world evidence.",
-      "image": "https://neurosciencenews.com/files/2026/05/serotonin-ocd-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Psilocybin Resets Brain Pain Networks and Boosts Painkillers",
-      "link": "https://neurosciencenews.com/psilocybin-brain-pain-neurology-30750/",
-      "date": "22 May 2026",
-      "excerpt": "A single dose of psilocybin provides up to a month of nerve pain relief and fundamentally supercharges the efficacy of traditional painkillers.",
-      "image": "https://neurosciencenews.com/files/2026/05/psilocybin-pain-neuroscience-neurology-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Heart Attacks Release Toxin That Damages Brain Function",
-      "link": "https://neurosciencenews.com/methylglyoxal-heart-attack-brain-30749/",
-      "date": "22 May 2026",
-      "excerpt": "Why do heart attacks so frequently trigger severe depression, anxiety, and accelerated dementia? A new study maps the \"heart-brain axis,\" proving that dying cardiac tissue releases a toxic metabolic byproduct called methylglyoxal (MG).",
-      "image": "https://neurosciencenews.com/files/2026/05/heart-toxin-brain-function-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Gut Signals Swap Sugar Cravings for Protein Selection",
-      "link": "https://neurosciencenews.com/gut-brain-axis-protein-sugar-30748/",
-      "date": "22 May 2026",
-      "excerpt": "How does the gastrointestinal tract track a lack of protein and command the brain to swap food preferences? A new study reveals a dual-track gut-brain signaling axis triggered by protein deficiency.",
-      "image": "https://neurosciencenews.com/files/2026/05/sugar-protein-diet-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Study Aims to Break GLP-1 Weight-Loss Plateaus",
-      "link": "https://neurosciencenews.com/glp1-cellular-signaling-weight-loss-plateau-30747/",
-      "date": "22 May 2026",
-      "excerpt": "The weight-loss effects of semaglutide depend on boosting a signaling molecule called cAMP within appetite-regulating neurons in the area postrema.",
-      "image": "https://neurosciencenews.com/files/2026/05/glp1-plateau-neurons-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Microglia Overloaded with Fat Linked to Rapid MS",
-      "link": "https://neurosciencenews.com/foamy-microglia-multiple-sclerosis-30746/",
-      "date": "22 May 2026",
-      "excerpt": "Why do some multiple sclerosis patients deteriorate rapidly while others experience mild symptoms for decades? A post-mortem neuro-audit reveals that severe MS progression is linked to \"foamy microglia\", brain immune cells pathologically ov",
-      "image": "https://neurosciencenews.com/files/2026/05/fatty-microglia-ms-neurology-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
