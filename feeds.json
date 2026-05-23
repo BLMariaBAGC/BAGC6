@@ -1,5 +1,5 @@
 {
-  "updated": "23 May 2026, 16:57 UTC",
+  "updated": "23 May 2026, 18:44 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Brain Region Discovered for Abstract Thought",
+      "link": "https://neurosciencenews.com/ventral-premotor-cortex-abstract-thinking-30753/",
+      "date": "23 May 2026",
+      "excerpt": "A new study provides the first direct neural evidence of \"compositional generalization,\" the cognitive capacity to recombine familiar elements into novel ideas.",
+      "image": "https://neurosciencenews.com/files/2026/05/abstract-thought-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Astrocyte Sodium Levels Vary to Match Local Synaptic Needs",
+      "link": "https://neurosciencenews.com/astrocyte-sodium-synapses-30752/",
+      "date": "23 May 2026",
+      "excerpt": "A new study upends decades of neuroscientific dogma by proving that sodium concentrations vary drastically within individual astrocytes and across their sub-cellular processes.",
+      "image": "https://neurosciencenews.com/files/2026/05/astrocyte-sodium-synapses-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Serotonin Proven to Reduce Cognitive Belief Stickiness in OCD",
       "link": "https://neurosciencenews.com/serotonin-belief-stickiness-ocd-30751/",
       "date": "22 May 2026",
@@ -126,24 +144,6 @@
       "date": "22 May 2026",
       "excerpt": "Why do some multiple sclerosis patients deteriorate rapidly while others experience mild symptoms for decades? A post-mortem neuro-audit reveals that severe MS progression is linked to \"foamy microglia\", brain immune cells pathologically ov",
       "image": "https://neurosciencenews.com/files/2026/05/fatty-microglia-ms-neurology-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Long COVID Brain Inflammation Decreases Over Time",
-      "link": "https://neurosciencenews.com/long-covid-brain-inflammation-30745/",
-      "date": "22 May 2026",
-      "excerpt": "Does persistent brain inflammation explain the prolonged fatigue and cognitive decline of Long COVID? A neuroimaging clinical trial demonstrates that widespread brain inflammation is not the primary driver of long-term symptoms.",
-      "image": "https://neurosciencenews.com/files/2026/05/neuroinflammation-long-covid-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Machine Learning Doubles Depression Remission Rate",
-      "link": "https://neurosciencenews.com/machine-learning-imap-depression-30744/",
-      "date": "21 May 2026",
-      "excerpt": "Can an algorithmic approach to lifestyle tracking radically improve depression treatment? A milestone clinical trial demonstrates that personalizing behavioral care via machine learning can nearly double standard therapy benchmarks.",
-      "image": "https://neurosciencenews.com/files/2026/05/depression-remission-ai-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
