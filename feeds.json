@@ -1,5 +1,5 @@
 {
-  "updated": "24 May 2026, 23:11 UTC",
+  "updated": "24 May 2026, 23:34 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,20 +274,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'Six eggs used to be £1' - why everyday essentials cost so much more now",
-      "link": "https://www.bbc.com/news/articles/cd6pw4zg5p9o?at_medium=RSS&at_campaign=rss",
-      "date": "24 May 2026",
-      "excerpt": "Six supermarket brand eggs cost £1 in 2022. How much are they now, why have they gone up, and is anyone profiteering?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/633e/live/c1987f90-55e3-11f1-8b8c-6d33e1d5abb6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "'Shameful' more spent on benefits than jobs for young people, says Milburn",
       "link": "https://www.bbc.com/news/articles/crrpx4p1z71o?at_medium=RSS&at_campaign=rss",
       "date": "24 May 2026",
       "excerpt": "Reforms are needed of the welfare system to tackle the high numbers of young people not in work or education, says Alan Milburn.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ee3/live/a517c720-5699-11f1-9615-e14e530a4b81.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Indian billionaires buy foreign companies as growth slows at home",
+      "link": "https://www.bbc.com/news/articles/cwy21x20q23o?at_medium=RSS&at_campaign=rss",
+      "date": "24 May 2026",
+      "excerpt": "India Inc spent $18bn on global buyouts in 2025 and the deal value could cross $15bn in the first half of 2026.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6fbc/live/7f8666f0-541f-11f1-9a06-e9b999966857.jpg"
     },
     {
       "source": "BBC Business",
@@ -319,11 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Love factually: Dating start-ups promise to cut the cheats",
-      "link": "https://www.bbc.com/news/articles/cnvpme6811do?at_medium=RSS&at_campaign=rss",
-      "date": "21 May 2026",
-      "excerpt": "Frustration with fake dating profiles has spurred new dating services with different approaches.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2f1/live/e7462a50-4de9-11f1-ac78-2112837ce2aa.jpg"
+      "title": "'Six eggs used to be £1' - why everyday essentials cost so much more now",
+      "link": "https://www.bbc.com/news/articles/cd6pw4zg5p9o?at_medium=RSS&at_campaign=rss",
+      "date": "24 May 2026",
+      "excerpt": "Six supermarket brand eggs cost £1 in 2022. How much are they now, why have they gone up, and is anyone profiteering?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/633e/live/c1987f90-55e3-11f1-8b8c-6d33e1d5abb6.jpg"
     }
   ]
 }
