@@ -1,5 +1,5 @@
 {
-  "updated": "24 May 2026, 06:57 UTC",
+  "updated": "24 May 2026, 09:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -274,6 +274,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "'Six eggs used to be £1' - why everyday essentials cost so much more now",
+      "link": "https://www.bbc.com/news/articles/cd6pw4zg5p9o?at_medium=RSS&at_campaign=rss",
+      "date": "24 May 2026",
+      "excerpt": "Six supermarket brand eggs cost £1 in 2022. How much are they now, why have they gone up, and is anyone profiteering?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/633e/live/c1987f90-55e3-11f1-8b8c-6d33e1d5abb6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'Shameful' more spent on benefits than jobs for young people, says Milburn",
+      "link": "https://www.bbc.com/news/articles/crrpx4p1z71o?at_medium=RSS&at_campaign=rss",
+      "date": "23 May 2026",
+      "excerpt": "Reforms are needed of the welfare system to tackle the high numbers of young people not in work or education, says Alan Milburn.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ee3/live/a517c720-5699-11f1-9615-e14e530a4b81.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Stop blaming young people for being unemployed, says Amazon's UK boss",
       "link": "https://www.bbc.com/news/articles/c0l2x5351n4o?at_medium=RSS&at_campaign=rss",
       "date": "22 May 2026",
@@ -297,24 +315,6 @@
       "date": "22 May 2026",
       "excerpt": "Researchers hope the work will help identify affordable, effective drugs to treat conditions like MND.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efef/live/f79080f0-4de8-11f1-9cc8-93479330ab4b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump wants new Fed chair to be 'totally independent'",
-      "link": "https://www.bbc.com/news/articles/cvgz311dq3ko?at_medium=RSS&at_campaign=rss",
-      "date": "22 May 2026",
-      "excerpt": "The US president piled major pressure on Kevin Warsh's predecessor to cut interest rates.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e03a/live/d0384590-5605-11f1-8b8c-6d33e1d5abb6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Morrisons planning to close 100 stores in next few months",
-      "link": "https://www.bbc.com/news/articles/c3623ny298xo?at_medium=RSS&at_campaign=rss",
-      "date": "22 May 2026",
-      "excerpt": "It said difficulties had been exacerbated by \"significant cost increases resulting from government policy choices\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fc0/live/abe5bee0-55b8-11f1-b056-a558b41349e8.jpg"
     },
     {
       "source": "BBC Business",
