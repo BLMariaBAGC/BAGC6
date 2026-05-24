@@ -1,6 +1,15 @@
 {
-  "updated": "24 May 2026, 03:27 UTC",
+  "updated": "24 May 2026, 06:57 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover hidden driver of aging — Simple supplement reversed brain decline",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260524012959.htm",
+      "date": "24 May 2026",
+      "excerpt": "A newly identified brain protein may play a major role in how the body ages. Researchers discovered that declining levels of Menin in the hypothalamus triggered inflammation, memory problems, bone loss, and other aging-related changes in mi",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260517211429.htm",
       "date": "18 May 2026",
       "excerpt": "A new study suggests humans became overwhelmingly right-handed because of two major evolutionary shifts: walking on two legs and developing much larger brains. Researchers found that as human ancestors evolved, their right-hand preference s",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists reveal how seven days of fasting transforms the human body",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260517030404.htm",
-      "date": "17 May 2026",
-      "excerpt": "Scientists have discovered that the human body undergoes a dramatic internal transformation during extended fasting, with major changes appearing only after about three days without food. In a seven-day water-only fasting study, researchers",
       "image": ""
     },
     {
