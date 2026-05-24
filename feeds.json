@@ -1,5 +1,5 @@
 {
-  "updated": "24 May 2026, 19:14 UTC",
+  "updated": "24 May 2026, 20:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Humans Avoid Wasted Effort Rather Than Exertion",
+      "link": "https://neurosciencenews.com/humans-avoid-wasted-effort-30754/",
+      "date": "24 May 2026",
+      "excerpt": "A new study upends decades of motivational dogma by proving that the brain does not naturally avoid effort, but rather avoids wasted effort.",
+      "image": "https://neurosciencenews.com/files/2026/05/wasted-effort-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Brain Region Discovered for Abstract Thought",
       "link": "https://neurosciencenews.com/ventral-premotor-cortex-abstract-thinking-30753/",
       "date": "23 May 2026",
@@ -135,15 +144,6 @@
       "date": "22 May 2026",
       "excerpt": "The weight-loss effects of semaglutide depend on boosting a signaling molecule called cAMP within appetite-regulating neurons in the area postrema.",
       "image": "https://neurosciencenews.com/files/2026/05/glp1-plateau-neurons-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Microglia Overloaded with Fat Linked to Rapid MS",
-      "link": "https://neurosciencenews.com/foamy-microglia-multiple-sclerosis-30746/",
-      "date": "22 May 2026",
-      "excerpt": "Why do some multiple sclerosis patients deteriorate rapidly while others experience mild symptoms for decades? A post-mortem neuro-audit reveals that severe MS progression is linked to \"foamy microglia\", brain immune cells pathologically ov",
-      "image": "https://neurosciencenews.com/files/2026/05/fatty-microglia-ms-neurology-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
