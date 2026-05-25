@@ -1,5 +1,5 @@
 {
-  "updated": "25 May 2026, 21:04 UTC",
+  "updated": "25 May 2026, 22:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Constant Contact Increases Conflict in Confined Conditions",
+      "link": "https://neurosciencenews.com/confinement-proximity-paradox-conflict-30758/",
+      "date": "25 May 2026",
+      "excerpt": "Does frequent contact keep an isolated crew unified, or does it accelerate mental burnout? A behavioral study tracking a 10-month overwintering mission at Antarctica’s Concordia Station reveals that constant physical proximity in extreme co",
+      "image": "https://neurosciencenews.com/files/2026/05/confinment-conflict-psychology-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Compensator Wasps Proven to Save Colonies from Chaos",
       "link": "https://neurosciencenews.com/wasps-chaosconflict-evolution-20757/",
       "date": "25 May 2026",
@@ -135,15 +144,6 @@
       "date": "22 May 2026",
       "excerpt": "Serotonin is a key driver of cognitive flexibility by actively reducing \"belief stickiness\", the tendency to cling to outdated assumptions despite contradicting real-world evidence.",
       "image": "https://neurosciencenews.com/files/2026/05/serotonin-ocd-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Psilocybin Resets Brain Pain Networks and Boosts Painkillers",
-      "link": "https://neurosciencenews.com/psilocybin-brain-pain-neurology-30750/",
-      "date": "22 May 2026",
-      "excerpt": "A single dose of psilocybin provides up to a month of nerve pain relief and fundamentally supercharges the efficacy of traditional painkillers.",
-      "image": "https://neurosciencenews.com/files/2026/05/psilocybin-pain-neuroscience-neurology-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
