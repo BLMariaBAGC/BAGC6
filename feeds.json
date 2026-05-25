@@ -1,5 +1,5 @@
 {
-  "updated": "25 May 2026, 08:19 UTC",
+  "updated": "25 May 2026, 13:27 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Managers Are Struggling to Keep Up with the AI Productivity Boom",
+      "link": "https://hbr.org/2026/05/managers-are-struggling-to-keep-up-with-the-ai-productivity-boom",
+      "date": "25 May 2026",
+      "excerpt": "To avoid being a bottleneck, they need to change how they work, give feedback, and communicate.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The Best Manufacturers Build AI with Workers, Not for Them",
       "link": "https://hbr.org/2026/05/the-best-manufacturers-build-ai-with-workers-not-for-them",
       "date": "22 May 2026",
@@ -206,15 +215,6 @@
       "link": "https://hbr.org/2026/05/surprising-ways-to-reduce-turnover-in-high-pressure-high-skill-jobs",
       "date": "20 May 2026",
       "excerpt": "A study of ICU nurses over more than two years reveals how hospitals may be misreading the retention problem.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "“Listen for the Silence”: Insights from a Long-Serving CEO",
-      "link": "https://hbr.org/2026/05/listen-for-the-silence-insights-from-a-long-serving-ceo",
-      "date": "20 May 2026",
-      "excerpt": "The Fortune 250&#8217;s longest-serving CEO, Dan Amos, shares the leadership lessons that he&#8217;s learned at the helm of Aflac for 36 years.",
       "image": ""
     },
     {
