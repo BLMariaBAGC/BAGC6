@@ -1,5 +1,5 @@
 {
-  "updated": "25 May 2026, 19:27 UTC",
+  "updated": "25 May 2026, 21:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,6 +72,78 @@
       "date": "20 May 2026",
       "excerpt": "A newly identified enzyme called IDOL could become a major new target in the fight against Alzheimer’s disease. Researchers found that removing it from neurons sharply reduced amyloid plaques and improved key brain processes linked to resil",
       "image": ""
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Compensator Wasps Proven to Save Colonies from Chaos",
+      "link": "https://neurosciencenews.com/wasps-chaosconflict-evolution-20757/",
+      "date": "25 May 2026",
+      "excerpt": "Does a society require an orderly, rule-based succession plan to survive a leadership crisis? A new study demonstrates that tropical paper wasp (Polistes canadensis) colonies survive violent, chaotic power struggles thanks to a distinct gro",
+      "image": "https://neurosciencenews.com/files/2026/05/wasp-evolution-chaos-behavior-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Ear-Based Vagus Stimulation Boosts Brain Motor Zones",
+      "link": "https://neurosciencenews.com/tavns-vagus-nerve-motor-cortex-20756/",
+      "date": "25 May 2026",
+      "excerpt": "Transcutaneous auricular vagus nerve stimulation (taVNS) directly pairs with and enhances the human motor system during active movement.",
+      "image": "https://neurosciencenews.com/files/2026/05/motor-vagus-nerve-stimulation-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Laughter Rewires Brain Architecture and Lowers Cognitive Load",
+      "link": "https://neurosciencenews.com/laughter-cognitive-load-neuroscience-20755/",
+      "date": "25 May 2026",
+      "excerpt": "Can laughter and play do their most brilliant work at a molecular level to accelerate human learning? A new developmental study reveals that laughter is a complex biological phenomenon that fundamentally rewires early brain architecture.",
+      "image": "https://neurosciencenews.com/files/2026/05/laughter-cognitive-load-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Humans Avoid Wasted Effort Rather Than Exertion",
+      "link": "https://neurosciencenews.com/humans-avoid-wasted-effort-30754/",
+      "date": "24 May 2026",
+      "excerpt": "A new study upends decades of motivational dogma by proving that the brain does not naturally avoid effort, but rather avoids wasted effort.",
+      "image": "https://neurosciencenews.com/files/2026/05/wasted-effort-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Region Discovered for Abstract Thought",
+      "link": "https://neurosciencenews.com/ventral-premotor-cortex-abstract-thinking-30753/",
+      "date": "23 May 2026",
+      "excerpt": "A new study provides the first direct neural evidence of \"compositional generalization,\" the cognitive capacity to recombine familiar elements into novel ideas.",
+      "image": "https://neurosciencenews.com/files/2026/05/abstract-thought-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Astrocyte Sodium Levels Vary to Match Local Synaptic Needs",
+      "link": "https://neurosciencenews.com/astrocyte-sodium-synapses-30752/",
+      "date": "23 May 2026",
+      "excerpt": "A new study upends decades of neuroscientific dogma by proving that sodium concentrations vary drastically within individual astrocytes and across their sub-cellular processes.",
+      "image": "https://neurosciencenews.com/files/2026/05/astrocyte-sodium-synapses-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Serotonin Proven to Reduce Cognitive Belief Stickiness in OCD",
+      "link": "https://neurosciencenews.com/serotonin-belief-stickiness-ocd-30751/",
+      "date": "22 May 2026",
+      "excerpt": "Serotonin is a key driver of cognitive flexibility by actively reducing \"belief stickiness\", the tendency to cling to outdated assumptions despite contradicting real-world evidence.",
+      "image": "https://neurosciencenews.com/files/2026/05/serotonin-ocd-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Psilocybin Resets Brain Pain Networks and Boosts Painkillers",
+      "link": "https://neurosciencenews.com/psilocybin-brain-pain-neurology-30750/",
+      "date": "22 May 2026",
+      "excerpt": "A single dose of psilocybin provides up to a month of nerve pain relief and fundamentally supercharges the efficacy of traditional painkillers.",
+      "image": "https://neurosciencenews.com/files/2026/05/psilocybin-pain-neuroscience-neurology-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
