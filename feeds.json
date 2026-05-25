@@ -1,6 +1,15 @@
 {
-  "updated": "25 May 2026, 13:27 UTC",
+  "updated": "25 May 2026, 15:49 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover why Ozempic and Wegovy weight loss eventually plateaus",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260525000453.htm",
+      "date": "25 May 2026",
+      "excerpt": "New NIH research reveals that semaglutide sparks different responses inside appetite-controlling brain cells, offering fresh insight into why GLP-1 weight-loss drugs don’t work the same for everyone. Scientists also found a possible way to ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260519224334.htm",
       "date": "20 May 2026",
       "excerpt": "A newly identified enzyme called IDOL could become a major new target in the fight against Alzheimer’s disease. Researchers found that removing it from neurons sharply reduced amyloid plaques and improved key brain processes linked to resil",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover why Alzheimer’s risk hits women so much harder",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260519224312.htm",
-      "date": "20 May 2026",
-      "excerpt": "Women may be especially sensitive to the effects of common dementia risk factors, according to a new UC San Diego study of over 17,000 adults. Researchers say tailoring prevention strategies specifically for women could be key to reducing A",
       "image": ""
     },
     {
