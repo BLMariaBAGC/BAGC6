@@ -1,6 +1,15 @@
 {
-  "updated": "26 May 2026, 07:42 UTC",
+  "updated": "26 May 2026, 15:21 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists say they’ve reversed brain aging with a simple nasal spray",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260526022018.htm",
+      "date": "26 May 2026",
+      "excerpt": "Researchers at Texas A&M have developed a nasal spray that appears to reverse brain aging by calming inflammation and restoring the brain’s energy systems. After just two doses, memory and cognitive function improved for months, raising hop",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,111 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Childhood junk food may rewire the brain for life",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260520093807.htm",
-      "date": "21 May 2026",
-      "excerpt": "Eating too much junk food early in life may rewire the brain in ways that last into adulthood, even after switching to a healthier diet. Scientists found that high-fat, high-sugar diets changed feeding behavior and disrupted appetite-contro",
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Constant Contact Increases Conflict in Confined Conditions",
+      "link": "https://neurosciencenews.com/confinement-proximity-paradox-conflict-30758/",
+      "date": "25 May 2026",
+      "excerpt": "Does frequent contact keep an isolated crew unified, or does it accelerate mental burnout? A behavioral study tracking a 10-month overwintering mission at Antarctica’s Concordia Station reveals that constant physical proximity in extreme co",
+      "image": "https://neurosciencenews.com/files/2026/05/confinment-conflict-psychology-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Compensator Wasps Proven to Save Colonies from Chaos",
+      "link": "https://neurosciencenews.com/wasps-chaosconflict-evolution-20757/",
+      "date": "25 May 2026",
+      "excerpt": "Does a society require an orderly, rule-based succession plan to survive a leadership crisis? A new study demonstrates that tropical paper wasp (Polistes canadensis) colonies survive violent, chaotic power struggles thanks to a distinct gro",
+      "image": "https://neurosciencenews.com/files/2026/05/wasp-evolution-chaos-behavior-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Ear-Based Vagus Stimulation Boosts Brain Motor Zones",
+      "link": "https://neurosciencenews.com/tavns-vagus-nerve-motor-cortex-20756/",
+      "date": "25 May 2026",
+      "excerpt": "Transcutaneous auricular vagus nerve stimulation (taVNS) directly pairs with and enhances the human motor system during active movement.",
+      "image": "https://neurosciencenews.com/files/2026/05/motor-vagus-nerve-stimulation-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Laughter Rewires Brain Architecture and Lowers Cognitive Load",
+      "link": "https://neurosciencenews.com/laughter-cognitive-load-neuroscience-20755/",
+      "date": "25 May 2026",
+      "excerpt": "Can laughter and play do their most brilliant work at a molecular level to accelerate human learning? A new developmental study reveals that laughter is a complex biological phenomenon that fundamentally rewires early brain architecture.",
+      "image": "https://neurosciencenews.com/files/2026/05/laughter-cognitive-load-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Humans Avoid Wasted Effort Rather Than Exertion",
+      "link": "https://neurosciencenews.com/humans-avoid-wasted-effort-30754/",
+      "date": "24 May 2026",
+      "excerpt": "A new study upends decades of motivational dogma by proving that the brain does not naturally avoid effort, but rather avoids wasted effort.",
+      "image": "https://neurosciencenews.com/files/2026/05/wasted-effort-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Region Discovered for Abstract Thought",
+      "link": "https://neurosciencenews.com/ventral-premotor-cortex-abstract-thinking-30753/",
+      "date": "23 May 2026",
+      "excerpt": "A new study provides the first direct neural evidence of \"compositional generalization,\" the cognitive capacity to recombine familiar elements into novel ideas.",
+      "image": "https://neurosciencenews.com/files/2026/05/abstract-thought-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Astrocyte Sodium Levels Vary to Match Local Synaptic Needs",
+      "link": "https://neurosciencenews.com/astrocyte-sodium-synapses-30752/",
+      "date": "23 May 2026",
+      "excerpt": "A new study upends decades of neuroscientific dogma by proving that sodium concentrations vary drastically within individual astrocytes and across their sub-cellular processes.",
+      "image": "https://neurosciencenews.com/files/2026/05/astrocyte-sodium-synapses-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Serotonin Proven to Reduce Cognitive Belief Stickiness in OCD",
+      "link": "https://neurosciencenews.com/serotonin-belief-stickiness-ocd-30751/",
+      "date": "22 May 2026",
+      "excerpt": "Serotonin is a key driver of cognitive flexibility by actively reducing \"belief stickiness\", the tendency to cling to outdated assumptions despite contradicting real-world evidence.",
+      "image": "https://neurosciencenews.com/files/2026/05/serotonin-ocd-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How to Compete Against Agentic Startups",
+      "link": "https://hbr.org/2026/05/how-to-compete-against-agentic-startups",
+      "date": "26 May 2026",
+      "excerpt": "In the May 25, 2026, edition of The Insider, managing editor Gretchen Gavett highlights the technological advancements transforming the startup landscape.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What Leads Companies to Betray Their Own Principles",
+      "link": "https://hbr.org/podcast/2026/05/what-leads-companies-to-betray-their-own-principles",
+      "date": "26 May 2026",
+      "excerpt": "A conversation with entrepreneur Eric Ries about how organizations lose their integrity.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How Strong Teams Leverage Different Personality Types",
+      "link": "https://hbr.org/podcast/2026/05/how-strong-teams-leverage-different-personality-types",
+      "date": "26 May 2026",
+      "excerpt": "A multi-chapter case study explores what it takes to turn team tension into traction.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: What Message Are Your Headphones Sending Your Coworkers?",
+      "link": "https://hbr.org/2026/05/research-what-message-are-your-headphones-sending-your-coworkers",
+      "date": "26 May 2026",
+      "excerpt": "Listening to music probably helps you focus. But not everyone will see it that way.",
       "image": ""
     },
     {
@@ -110,94 +218,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Case for Hiring a Chief Resilience Officer",
-      "link": "https://hbr.org/2026/05/the-case-for-hiring-a-chief-resilience-officer",
-      "date": "21 May 2026",
-      "excerpt": "Modern disruptions rarely stay contained. It can help to have someone dedicated to coordinating recovery and adaptation across the enterprise.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Customer Workarounds Can Reveal About Your Business Model",
-      "link": "https://hbr.org/2026/05/what-customer-workarounds-can-reveal-about-your-business-model",
-      "date": "21 May 2026",
-      "excerpt": "How people actually access, use, and pay for your products or services can point you toward untapped potential.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Getting Buy-In for Your Next Big Idea",
-      "link": "https://hbr.org/podcast/2026/05/getting-buy-in-for-your-next-big-idea",
-      "date": "20 May 2026",
-      "excerpt": "A conversation about practical strategies for influencing upward and navigating resistance without losing momentum.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Surprising Ways to Reduce Turnover in High-Pressure, High-Skill Jobs",
-      "link": "https://hbr.org/2026/05/surprising-ways-to-reduce-turnover-in-high-pressure-high-skill-jobs",
-      "date": "20 May 2026",
-      "excerpt": "A study of ICU nurses over more than two years reveals how hospitals may be misreading the retention problem.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Precarious jobs caused by economic and political disruption are causing burnout among cabin crew",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/22/precarious-jobs-caused-by-economic-and-political-disruption-are-causing-burnout-among-cabin-crew/",
-      "date": "22 May 2026",
-      "excerpt": "Cabin crew keep us safe whilst flying. It is time to support better conditions for their future working lives. Stephanie Preston, Stephen Teo, John Blenkinsopp and Clare Cook&#8216;s study of aviation workers in Britain found that precariou",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is big tech facing its big tobacco moment?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/21/is-big-tech-facing-its-big-tobacco-moment/",
-      "date": "21 May 2026",
-      "excerpt": "Fines placed on social media firms for harming customers are increasing. But they are not yet large enough to change behaviour. Rukaiyat Adebusola Yusuf compares tech to tobacco and argues that if litigation, regulation and public pressure ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1024x561.png"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Why gender diversity on board committees matters more than on the board itself",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/21/why-gender-diversity-on-board-committees-matters-more-than-on-the-board-itself/",
-      "date": "21 May 2026",
-      "excerpt": "Diversity is a critical indicator of board effectiveness. But most metrics only assess the makeup of the full board. Adam Arian argues that since it is the committees that report to the board that wield the true influence, and often the com",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How an incentive to trade shapes social and community enterprises",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/20/how-an-incentive-to-trade-shapes-social-and-community-enterprises/",
-      "date": "20 May 2026",
-      "excerpt": "British policymakers&nbsp;argue that social&nbsp;organisations&nbsp;that&nbsp;earn&nbsp;their&nbsp;income are&nbsp;less dependent on grants, and more resilient. Others say that commercialisation&nbsp;corrupts the social goal.&nbsp;Kerryn Kr",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Using LLMs to uncover Europe’s green investment blind spot",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/19/using-llms-to-uncover-europes-green-investment-blind-spot/",
-      "date": "19 May 2026",
-      "excerpt": "If green investment is defined too narrowly, businesses risk misreading where the transition is creating competitive advantage. Combining the use of LLM tools with the EU Taxonomy for Sustainable Activities, Juan Alvarez-Vilanova, Riccardo ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-EU-Taxonomy.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
-      "date": "18 May 2026",
-      "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure_1_new-1024x620.png"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'Bullying' and 'overbearing' behaviour behind abrupt BP chairman removal",
+      "link": "https://www.bbc.com/news/articles/cjrppppwvwlo?at_medium=RSS&at_campaign=rss",
+      "date": "26 May 2026",
+      "excerpt": "BP declined to comment on whether bullying behaviour was part of the reason for his immediate dismissal.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0f3/live/d150e340-58ff-11f1-a656-5bf9ca1d9342.jpg"
     },
     {
       "source": "BBC Business",
@@ -206,16 +233,16 @@
       "link": "https://www.bbc.com/news/articles/c2024r6lzyro?at_medium=RSS&at_campaign=rss",
       "date": "26 May 2026",
       "excerpt": "Lord Wolfson tells the BBC Next now typically receives double the number of applicants for one role than it did two years ago.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac17/live/ec2c7fc0-55ef-11f1-a174-f9c47fab594e.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c37/live/ce1eeac0-58df-11f1-8b8c-6d33e1d5abb6.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Social media as bad for young people as smoking, top doctors say",
+      "title": "Streeting backs under-16s social media ban as government consultation concludes",
       "link": "https://www.bbc.com/news/articles/c5y7r9gqp6jo?at_medium=RSS&at_campaign=rss",
       "date": "26 May 2026",
-      "excerpt": "The Academy of Medical Royal Colleges says doctors should routinely check on screen time and social media use when seeing younger patients.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12d7/live/c842a850-55d6-11f1-bb1a-df2243910f20.jpg"
+      "excerpt": "The former health secretary accused regulators and politicians of being \"asleep at the wheel\" on the issue.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/605c/live/8006e290-58f6-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +261,6 @@
       "date": "25 May 2026",
       "excerpt": "Trump said on Saturday that an agreement would include the reopening of the Strait of Hormuz, without giving further details.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31c2/live/3949aed0-57ea-11f1-8305-4591ea57c76a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Beer boom goes flat as breweries call last orders",
-      "link": "https://www.bbc.com/news/articles/c9werp5keqlo?at_medium=RSS&at_campaign=rss",
-      "date": "25 May 2026",
-      "excerpt": "The UK's brewery scene is shrinking as pubs close, costs rise and drinking habits change.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d4f/live/bca26360-4892-11f1-9c3f-fddcc2cc89aa.jpg"
     },
     {
       "source": "BBC Business",
