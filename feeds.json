@@ -1,6 +1,15 @@
 {
-  "updated": "26 May 2026, 02:58 UTC",
+  "updated": "26 May 2026, 07:42 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "USC scientists discover a hidden Alzheimer’s trigger and a possible way to shut it down",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260525000504.htm",
+      "date": "26 May 2026",
+      "excerpt": "USC researchers have identified potential new drug compounds that may reduce the brain inflammation linked to Alzheimer’s disease, especially in people with the high-risk APOE4 gene. The compounds target cPLA2, an enzyme that seems to fuel ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260520093807.htm",
       "date": "21 May 2026",
       "excerpt": "Eating too much junk food early in life may rewire the brain in ways that last into adulthood, even after switching to a healthier diet. Scientists found that high-fat, high-sugar diets changed feeding behavior and disrupted appetite-contro",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists found a hidden Alzheimer’s trigger and shut it down",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260519224334.htm",
-      "date": "20 May 2026",
-      "excerpt": "A newly identified enzyme called IDOL could become a major new target in the fight against Alzheimer’s disease. Researchers found that removing it from neurons sharply reduced amyloid plaques and improved key brain processes linked to resil",
       "image": ""
     },
     {
@@ -204,7 +204,7 @@
       "feedId": "bbc",
       "title": "Next boss warns of 'dramatic' fall in entry-level jobs",
       "link": "https://www.bbc.com/news/articles/c2024r6lzyro?at_medium=RSS&at_campaign=rss",
-      "date": "25 May 2026",
+      "date": "26 May 2026",
       "excerpt": "Lord Wolfson tells the BBC Next now typically receives double the number of applicants for one role than it did two years ago.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac17/live/ec2c7fc0-55ef-11f1-a174-f9c47fab594e.jpg"
     },
@@ -216,6 +216,15 @@
       "date": "26 May 2026",
       "excerpt": "The Academy of Medical Royal Colleges says doctors should routinely check on screen time and social media use when seeing younger patients.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12d7/live/c842a850-55d6-11f1-bb1a-df2243910f20.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Ferrari unveils first fully electric car",
+      "link": "https://www.bbc.com/news/articles/cwy22rddy5no?at_medium=RSS&at_campaign=rss",
+      "date": "26 May 2026",
+      "excerpt": "The new Luce model has divided opinion on social media, and comes despite intense pressure from Chinese EV makers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d99/live/303f3030-58ad-11f1-9cb9-b10f27a755d1.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "25 May 2026",
       "excerpt": "The UK's brewery scene is shrinking as pubs close, costs rise and drinking habits change.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d4f/live/bca26360-4892-11f1-9c3f-fddcc2cc89aa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I live in survival mode': The rise of the multi-job workforce",
-      "link": "https://www.bbc.com/news/articles/c70vwr8z7pyo?at_medium=RSS&at_campaign=rss",
-      "date": "25 May 2026",
-      "excerpt": "More people are taking second jobs as rising costs and insecure work reshape how we earn a living.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a08c/live/f7103250-55c8-11f1-9a5f-8f70d4bfa4fc.jpg"
     },
     {
       "source": "BBC Business",
