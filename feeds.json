@@ -1,5 +1,5 @@
 {
-  "updated": "26 May 2026, 18:24 UTC",
+  "updated": "26 May 2026, 21:43 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Modified FDA Drug Blocks Pediatric Brain Tumor Relapse",
+      "link": "https://neurosciencenews.com/pyrvinium-pediatric-medulloblastoma-30765/",
+      "date": "26 May 2026",
+      "excerpt": "A new study isolates a dual-targeting framework to significantly prevent relapse in medulloblastoma, the most common malignant pediatric brain tumor.",
+      "image": "https://neurosciencenews.com/files/2026/05/medulablastoma-neuropharmacology-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Blood Proteins Identified That Predict Multiple Sclerosis Early",
+      "link": "https://neurosciencenews.com/blood-proteins-multiple-sclerosis-30764/",
+      "date": "26 May 2026",
+      "excerpt": "A new study has identified a distinct group of blood proteins that alter in individuals years before an MS diagnosis.",
+      "image": "https://neurosciencenews.com/files/2026/05/ms-blood-protein-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Gene Therapy Proven to Shield Brain from TDP-43 Damage",
+      "link": "https://neurosciencenews.com/syncav1-gene-therapy-tdp43-dementia-30763/",
+      "date": "26 May 2026",
+      "excerpt": "An experimental gene therapy called SynCav1 can protect the central nervous system from the cognitive decline linked to TDP-43-related proteinopathy, a primary driver of FTD, ALS, and over half of all Alzheimer’s cases.",
+      "image": "https://neurosciencenews.com/files/2026/05/tdp43-genetics-neuroscience-FTD-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Estrogen Loss May Drive Female Alzheimer’s",
+      "link": "https://neurosciencenews.com/estrogen-loss-extracellular-matrix-alzheimers-30762/",
+      "date": "26 May 2026",
+      "excerpt": "Post-menopausal estrogen loss triggers an environmental collapse in the \"extracellular matrix\" (ECM), the long-overlooked molecular scaffold that fills 20% of the brain's volume and regulates cellular communication within the hippocampus.",
+      "image": "https://neurosciencenews.com/files/2026/05/estrogen-dementia-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Brain Pathway Identified That Amplifies Nocebo Pain Responses",
       "link": "https://neurosciencenews.com/nocebo-effect-brain-pathway-pain-30761/",
       "date": "26 May 2026",
@@ -108,42 +144,6 @@
       "date": "25 May 2026",
       "excerpt": "Does frequent contact keep an isolated crew unified, or does it accelerate mental burnout? A behavioral study tracking a 10-month overwintering mission at Antarctica’s Concordia Station reveals that constant physical proximity in extreme co",
       "image": "https://neurosciencenews.com/files/2026/05/confinment-conflict-psychology-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Compensator Wasps Proven to Save Colonies from Chaos",
-      "link": "https://neurosciencenews.com/wasps-chaosconflict-evolution-20757/",
-      "date": "25 May 2026",
-      "excerpt": "Does a society require an orderly, rule-based succession plan to survive a leadership crisis? A new study demonstrates that tropical paper wasp (Polistes canadensis) colonies survive violent, chaotic power struggles thanks to a distinct gro",
-      "image": "https://neurosciencenews.com/files/2026/05/wasp-evolution-chaos-behavior-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Ear-Based Vagus Stimulation Boosts Brain Motor Zones",
-      "link": "https://neurosciencenews.com/tavns-vagus-nerve-motor-cortex-20756/",
-      "date": "25 May 2026",
-      "excerpt": "Transcutaneous auricular vagus nerve stimulation (taVNS) directly pairs with and enhances the human motor system during active movement.",
-      "image": "https://neurosciencenews.com/files/2026/05/motor-vagus-nerve-stimulation-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Laughter Rewires Brain Architecture and Lowers Cognitive Load",
-      "link": "https://neurosciencenews.com/laughter-cognitive-load-neuroscience-20755/",
-      "date": "25 May 2026",
-      "excerpt": "Can laughter and play do their most brilliant work at a molecular level to accelerate human learning? A new developmental study reveals that laughter is a complex biological phenomenon that fundamentally rewires early brain architecture.",
-      "image": "https://neurosciencenews.com/files/2026/05/laughter-cognitive-load-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Humans Avoid Wasted Effort Rather Than Exertion",
-      "link": "https://neurosciencenews.com/humans-avoid-wasted-effort-30754/",
-      "date": "24 May 2026",
-      "excerpt": "A new study upends decades of motivational dogma by proving that the brain does not naturally avoid effort, but rather avoids wasted effort.",
-      "image": "https://neurosciencenews.com/files/2026/05/wasted-effort-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -229,6 +229,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Post Office investigation could be delayed by five years, police warn",
+      "link": "https://www.bbc.com/news/articles/c2422y4ldymo?at_medium=RSS&at_campaign=rss",
+      "date": "26 May 2026",
+      "excerpt": "The commander leading the national police inquiry says the size of the investigation team would need to double in order to meet its current timeline",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/354f/live/e110a4c0-590c-11f1-af83-83e7141dcf5b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Next boss warns of 'dramatic' fall in entry-level jobs",
       "link": "https://www.bbc.com/news/articles/c2024r6lzyro?at_medium=RSS&at_campaign=rss",
       "date": "26 May 2026",
@@ -261,15 +270,6 @@
       "date": "25 May 2026",
       "excerpt": "Trump said on Saturday that an agreement would include the reopening of the Strait of Hormuz, without giving further details.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31c2/live/3949aed0-57ea-11f1-8305-4591ea57c76a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The rise of the fruit that tastes like custard",
-      "link": "https://www.bbc.com/news/articles/ce8pmrp0m47o?at_medium=RSS&at_campaign=rss",
-      "date": "25 May 2026",
-      "excerpt": "Custard apple plants are prized for their hardiness but exporting their delicate fruit is difficult.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3190/live/90f2c990-4ac1-11f1-b55d-0f258dce1735.jpg"
     }
   ]
 }
