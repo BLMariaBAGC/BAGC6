@@ -1,5 +1,5 @@
 {
-  "updated": "26 May 2026, 21:43 UTC",
+  "updated": "26 May 2026, 22:13 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -238,6 +238,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Better WiFi for hundreds of trains under government plans",
+      "link": "https://www.bbc.com/news/articles/c2d22929ww0o?at_medium=RSS&at_campaign=rss",
+      "date": "26 May 2026",
+      "excerpt": "Campaigners welcome the move but say passengers are mostly worried about train fares and delays.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/577c/live/f111b760-594d-11f1-8389-cfdbba49fbe7.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Next boss warns of 'dramatic' fall in entry-level jobs",
       "link": "https://www.bbc.com/news/articles/c2024r6lzyro?at_medium=RSS&at_campaign=rss",
       "date": "26 May 2026",
@@ -261,15 +270,6 @@
       "date": "26 May 2026",
       "excerpt": "The new Luce model has divided opinion on social media, and comes despite intense pressure from Chinese EV makers.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d99/live/303f3030-58ad-11f1-9cb9-b10f27a755d1.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil prices slide on hopes of US-Iran peace deal",
-      "link": "https://www.bbc.com/news/articles/c809m7g29r7o?at_medium=RSS&at_campaign=rss",
-      "date": "25 May 2026",
-      "excerpt": "Trump said on Saturday that an agreement would include the reopening of the Strait of Hormuz, without giving further details.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31c2/live/3949aed0-57ea-11f1-8305-4591ea57c76a.jpg"
     }
   ]
 }
