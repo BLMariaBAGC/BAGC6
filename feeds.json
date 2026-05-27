@@ -1,5 +1,5 @@
 {
-  "updated": "27 May 2026, 20:13 UTC",
+  "updated": "27 May 2026, 23:15 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "One in six young people will not be in work or training in five years without action, report warns",
+      "link": "https://www.bbc.com/news/articles/cy026x9jpd0o?at_medium=RSS&at_campaign=rss",
+      "date": "27 May 2026",
+      "excerpt": "A major review examining the causes of rising youth unemployment says getting on the career ladder is now \"out of reach\" for many.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fe3/live/cd580120-59b7-11f1-a709-a756a39103f6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Energy bills to rise for millions as impact of Iran war hits",
       "link": "https://www.bbc.com/news/articles/ce8pw464986o?at_medium=RSS&at_campaign=rss",
       "date": "27 May 2026",
@@ -234,15 +243,6 @@
       "date": "27 May 2026",
       "excerpt": "The new Luce model has divided opinion on social media, and comes despite intense pressure from Chinese EV makers.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d99/live/303f3030-58ad-11f1-9cb9-b10f27a755d1.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Instagram betting ads featuring Kane and Haaland banned",
-      "link": "https://www.bbc.com/news/articles/c3w220y2l8xo?at_medium=RSS&at_campaign=rss",
-      "date": "26 May 2026",
-      "excerpt": "The advertising watchdog said the adverts featuring top footballers had a strong appeal to under-18s.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a06/live/db897500-5915-11f1-8b8c-6d33e1d5abb6.jpg"
     }
   ]
 }
