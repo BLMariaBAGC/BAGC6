@@ -1,5 +1,5 @@
 {
-  "updated": "27 May 2026, 08:02 UTC",
+  "updated": "27 May 2026, 12:50 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,6 +220,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "What economic shocks mean matters as much as the shocks themselves",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/27/what-economic-shocks-mean-matters-as-much-as-the-shocks-themselves/",
+      "date": "27 May 2026",
+      "excerpt": "The stories firms, households and investors tell themselves about the economy can shape growth, investment and unemployment as much as policy or market structure. Biagio Bossone argues that this is not just a theoretical argument for macroe",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-one-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Precarious jobs caused by economic and political disruption are causing burnout among cabin crew",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/22/precarious-jobs-caused-by-economic-and-political-disruption-are-causing-burnout-among-cabin-crew/",
       "date": "22 May 2026",
@@ -263,15 +272,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-EU-Taxonomy.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Digital platforms are taking part in a battle between diffusion and differentiation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/18/digital-platforms-are-taking-part-in-a-battle-between-diffusion-and-differentiation/",
-      "date": "18 May 2026",
-      "excerpt": "To compete, digital platforms face a dilemma. Should they prioritise rapid growth or build unique features that competitors can’t easily copy? Marvin Hanisch and Curtis Goldsby outline the strategies in the battle between diffusion and diff",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure_1_new-1024x620.png"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Energy bills to rise for millions as impact of Iran war hits",
@@ -279,6 +279,15 @@
       "date": "27 May 2026",
       "excerpt": "A household using a typical amount of energy will pay £221 a year more, under the regulator's new price cap.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5706/live/64d08dd0-5993-11f1-b682-cf91850925ea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What will the energy cap changes mean for my bills?",
+      "link": "https://www.bbc.com/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
+      "date": "27 May 2026",
+      "excerpt": "Typical annual household bills will rise by 13% when the new energy cap takes effect on 1 July.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea71/live/6ac77140-f355-11ef-8c03-7dfdbeeb2526.jpg"
     },
     {
       "source": "BBC Business",
@@ -306,15 +315,6 @@
       "date": "27 May 2026",
       "excerpt": "The new Luce model has divided opinion on social media, and comes despite intense pressure from Chinese EV makers.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d99/live/303f3030-58ad-11f1-9cb9-b10f27a755d1.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Farmers' warning as milk prices fall below cost",
-      "link": "https://www.bbc.com/news/articles/c5ye37jrk3go?at_medium=RSS&at_campaign=rss",
-      "date": "27 May 2026",
-      "excerpt": "Farmers worry more family farms will be sold unless dairy prices rise quickly.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/02c0/live/55cb5740-5437-11f1-97ae-1b4b9bb4c9eb.jpg"
     },
     {
       "source": "BBC Business",
