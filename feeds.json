@@ -1,5 +1,5 @@
 {
-  "updated": "27 May 2026, 12:50 UTC",
+  "updated": "27 May 2026, 17:17 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260526233433.htm",
       "date": "27 May 2026",
       "excerpt": "Scientists in Japan have created powerful new vitamin K-based compounds that may help the brain regenerate lost neurons — a breakthrough that could one day change how diseases like Alzheimer’s and Parkinson’s are treated. By combining vitam",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Popular anti-aging drug combo caused severe brain damage in mice",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260526022024.htm",
+      "date": "27 May 2026",
+      "excerpt": "A drug combo widely explored for anti-aging may actually damage the brain, according to new mouse research showing severe loss of myelin and changes linked to “chemo brain.” Surprisingly, the damaged cells resembled those seen in multiple s",
       "image": ""
     },
     {
@@ -65,85 +74,31 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Think you’re bad at languages? Experts say these 5 myths are to blame",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260521072412.htm",
-      "date": "21 May 2026",
-      "excerpt": "Many people avoid learning a new language because they remember stressful grammar lessons or fear making mistakes. But language experts say communication, culture, and connection matter far more than perfection. Modern apps, entertainment, ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How Lenovo Built an AI-Powered Supply Chain",
+      "link": "https://hbr.org/2026/05/how-lenovo-built-an-ai-powered-supply-chain",
+      "date": "27 May 2026",
+      "excerpt": "The company&#8217;s transformation shows why building AI around integrated data and business goals matters more than chasing quick wins.",
       "image": ""
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Modified FDA Drug Blocks Pediatric Brain Tumor Relapse",
-      "link": "https://neurosciencenews.com/pyrvinium-pediatric-medulloblastoma-30765/",
-      "date": "26 May 2026",
-      "excerpt": "A new study isolates a dual-targeting framework to significantly prevent relapse in medulloblastoma, the most common malignant pediatric brain tumor.",
-      "image": "https://neurosciencenews.com/files/2026/05/medulablastoma-neuropharmacology-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "AI’s Impact on SaaS Will Be Uneven. Here’s What Leaders Need to Know.",
+      "link": "https://hbr.org/2026/05/ais-impact-on-saas-will-be-uneven-heres-what-leaders-need-to-know",
+      "date": "27 May 2026",
+      "excerpt": "A framework for evaluating whether companies should keep paying an external vendor, renegotiate, consolidate, or build SaaS tools in-house.",
+      "image": ""
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Blood Proteins Identified That Predict Multiple Sclerosis Early",
-      "link": "https://neurosciencenews.com/blood-proteins-multiple-sclerosis-30764/",
-      "date": "26 May 2026",
-      "excerpt": "A new study has identified a distinct group of blood proteins that alter in individuals years before an MS diagnosis.",
-      "image": "https://neurosciencenews.com/files/2026/05/ms-blood-protein-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Gene Therapy Proven to Shield Brain from TDP-43 Damage",
-      "link": "https://neurosciencenews.com/syncav1-gene-therapy-tdp43-dementia-30763/",
-      "date": "26 May 2026",
-      "excerpt": "An experimental gene therapy called SynCav1 can protect the central nervous system from the cognitive decline linked to TDP-43-related proteinopathy, a primary driver of FTD, ALS, and over half of all Alzheimer’s cases.",
-      "image": "https://neurosciencenews.com/files/2026/05/tdp43-genetics-neuroscience-FTD-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Estrogen Loss May Drive Female Alzheimer’s",
-      "link": "https://neurosciencenews.com/estrogen-loss-extracellular-matrix-alzheimers-30762/",
-      "date": "26 May 2026",
-      "excerpt": "Post-menopausal estrogen loss triggers an environmental collapse in the \"extracellular matrix\" (ECM), the long-overlooked molecular scaffold that fills 20% of the brain's volume and regulates cellular communication within the hippocampus.",
-      "image": "https://neurosciencenews.com/files/2026/05/estrogen-dementia-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Pathway Identified That Amplifies Nocebo Pain Responses",
-      "link": "https://neurosciencenews.com/nocebo-effect-brain-pathway-pain-30761/",
-      "date": "26 May 2026",
-      "excerpt": "Summary: Researchers mapped the precise brain pathway that drives the nocebo effect, the biological phenomenon where negative expectations actively amplify physical pain. The research reveals that anticipation, fear, or social observation t",
-      "image": "https://neurosciencenews.com/files/2026/05/nocebo-pain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Progenitor Cell Aging Rates Dictate Brain Layer Proportions",
-      "link": "https://neurosciencenews.com/wnt-signaling-cortical-layer-development-30760/",
-      "date": "26 May 2026",
-      "excerpt": "Cortical variations are dictated by the distinct \"aging rates\" of neural progenitor cells controlled by Wnt signaling pathways.",
-      "image": "https://neurosciencenews.com/files/2026/05/neural-progenitor-cells-neurodevelopment-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Speech Memories Depend on Sensation & Sound Over Motor Control",
-      "link": "https://neurosciencenews.com/sensory-cortex-speech-learning-20759/",
-      "date": "26 May 2026",
-      "excerpt": "Does mastering a new language or recovering speech after a neurological trauma depend on muscle memory or sensory feedback? A new study reveals that human speech learning is fundamentally sensory rather than motor in nature.",
-      "image": "https://neurosciencenews.com/files/2026/05/speech-learning-sensation-auditory-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Constant Contact Increases Conflict in Confined Conditions",
-      "link": "https://neurosciencenews.com/confinement-proximity-paradox-conflict-30758/",
-      "date": "25 May 2026",
-      "excerpt": "Does frequent contact keep an isolated crew unified, or does it accelerate mental burnout? A behavioral study tracking a 10-month overwintering mission at Antarctica’s Concordia Station reveals that constant physical proximity in extreme co",
-      "image": "https://neurosciencenews.com/files/2026/05/confinment-conflict-psychology-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: As Careers Get Longer, Midcareer Work Needs to Change",
+      "link": "https://hbr.org/2026/05/research-as-careers-get-longer-midcareer-work-needs-to-change",
+      "date": "27 May 2026",
+      "excerpt": "Your most experienced employees are burning out in their &#8220;pivotal 40s.&#8221;",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -188,33 +143,6 @@
       "link": "https://hbr.org/2026/05/managers-are-struggling-to-keep-up-with-the-ai-productivity-boom",
       "date": "25 May 2026",
       "excerpt": "To avoid being a bottleneck, they need to change how they work, give feedback, and communicate.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Best Manufacturers Build AI with Workers, Not for Them",
-      "link": "https://hbr.org/2026/05/the-best-manufacturers-build-ai-with-workers-not-for-them",
-      "date": "22 May 2026",
-      "excerpt": "Factories succeed with AI when workers help shape it, learn it on the job, and are measured by real performance.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How People Actually Get to the C-Suite in S&P 500 Companies",
-      "link": "https://hbr.org/2026/05/how-people-actually-get-to-the-c-suite-in-sp-500-companies",
-      "date": "22 May 2026",
-      "excerpt": "New research demystifies who gets these jobs and how they ascended.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Our Favorite Management Tips on Giving Feedback",
-      "link": "https://hbr.org/2026/05/our-favorite-management-tips-on-giving-feedback",
-      "date": "21 May 2026",
-      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
       "image": ""
     },
     {
@@ -278,16 +206,16 @@
       "link": "https://www.bbc.com/news/articles/ce8pw464986o?at_medium=RSS&at_campaign=rss",
       "date": "27 May 2026",
       "excerpt": "A household using a typical amount of energy will pay £221 a year more, under the regulator's new price cap.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5706/live/64d08dd0-5993-11f1-b682-cf91850925ea.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a1e/live/4d52c3f0-59d2-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What will the energy cap changes mean for my bills?",
-      "link": "https://www.bbc.com/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
+      "title": "How you can save money on your energy bill",
+      "link": "https://www.bbc.com/news/articles/cwy2e3wx7xwo?at_medium=RSS&at_campaign=rss",
       "date": "27 May 2026",
-      "excerpt": "Typical annual household bills will rise by 13% when the new energy cap takes effect on 1 July.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea71/live/6ac77140-f355-11ef-8c03-7dfdbeeb2526.jpg"
+      "excerpt": "Experts say action now can save money when the pinch comes this winter.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dcc/live/63478af0-59e2-11f1-ad45-03463f64a221.jpg"
     },
     {
       "source": "BBC Business",
