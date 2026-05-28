@@ -1,6 +1,15 @@
 {
-  "updated": "28 May 2026, 11:38 UTC",
+  "updated": "28 May 2026, 15:48 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A 100-year-old piano mystery has finally been solved",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260528073949.htm",
+      "date": "28 May 2026",
+      "excerpt": "For more than a century, pianists and music teachers have argued over whether a performer’s touch can actually change the tone color of a piano note — and now scientists say the answer is yes. Using a cutting-edge sensor system that tracked",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,93 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "USC scientists discover a hidden Alzheimer’s trigger and a possible way to shut it down",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260525000504.htm",
-      "date": "26 May 2026",
-      "excerpt": "USC researchers have identified potential new drug compounds that may reduce the brain inflammation linked to Alzheimer’s disease, especially in people with the high-risk APOE4 gene. The compounds target cPLA2, an enzyme that seems to fuel ",
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Paternal Anxiety Rewires Embryonic Growth Settings",
+      "link": "https://neurosciencenews.com/paternal-anxiety-embryonic-growth-30776/",
+      "date": "27 May 2026",
+      "excerpt": "Paternal stress prior to conception alters small molecular signals within sperm to dictate offspring development.",
+      "image": "https://neurosciencenews.com/files/2026/05/parental-stress-neurodevelopment-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Stem Cell Framework May Repair Traumatic Brain Injury",
+      "link": "https://neurosciencenews.com/stem-cell-therapy-tbi-30775/",
+      "date": "27 May 2026",
+      "excerpt": "A new study presents a comprehensive, multi-pronged framework utilizing stem cells, cell-free exosomes, and engineered tissue scaffolds to repair the injured central nervous system",
+      "image": "https://neurosciencenews.com/files/2026/05/stem-cell-tbi-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Can a Urine Test Predict Autism Early?",
+      "link": "https://neurosciencenews.com/urine-test-microbial-metabolites-autism-30773/",
+      "date": "27 May 2026",
+      "excerpt": "A new study introduces the “Microbially-Derived Metabolite (MDM) System,” a non-invasive urine test that tracks 17 small molecules produced by gut microorganisms to identify children at high risk for autism.",
+      "image": "https://neurosciencenews.com/files/2026/05/urine-test-asd-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Mapping the Glymphatic System with AI",
+      "link": "https://neurosciencenews.com/ai-glymphatic-fluid-velocity-30772/",
+      "date": "27 May 2026",
+      "excerpt": "Can we prevent neurodegenerative decline by auditing the brain’s internal cleansing system during deep sleep? A collaborative study leverages physics-informed artificial intelligence to track the fluid flow velocity of the glymphatic system",
+      "image": "https://neurosciencenews.com/files/2026/05/ai-glymphatic-mapping-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Can Neuroscience Measure True AI Consciousness?",
+      "link": "https://neurosciencenews.com/information-processing-consciousness-ai-30771/",
+      "date": "27 May 2026",
+      "excerpt": "Are modern neuroscientists genuinely measuring the spark of subjective experience, or are they merely tracking the mechanical gears of data processing? A landmark critical analysis reveals that current scientific methods are fundamentally i",
+      "image": "https://neurosciencenews.com/files/2026/05/ai-consciousness-science-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "AI Proves Language Evolves for Learnability",
+      "link": "https://neurosciencenews.com/ai-iterated-learning-deep-linear-networks-30770/",
+      "date": "27 May 2026",
+      "excerpt": "A new study using AI proves that language actively evolves over generations to become structured because it makes learning easier.",
+      "image": "https://neurosciencenews.com/files/2026/05/ai-language-evolution-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Teenage Lipid Dysfunction May Slow Brain Processing Speed",
+      "link": "https://neurosciencenews.com/teenage-lipid-processing-speed-30769/",
+      "date": "27 May 2026",
+      "excerpt": "Blood markers of dysfunctional lipid metabolism are directly associated with poorer cognitive function in 15–17-year-olds.",
+      "image": "https://neurosciencenews.com/files/2026/05/lipid-metabolism-cognition-neurodevelopment-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Rare Genetic Variants Drive Extreme Human Health Traits",
+      "link": "https://neurosciencenews.com/rare-genetic-variants-trait-extremes-60768/",
+      "date": "27 May 2026",
+      "excerpt": "Individuals occupying the far tails of complex health traits, such as cholesterol, blood glucose, age at menopause, and height, possess a fundamentally distinct genetic architecture.",
+      "image": "https://neurosciencenews.com/files/2026/05/genetics-health-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "10 Questions About Project-Driven Organizations, Answered",
+      "link": "https://hbr.org/2026/05/10-questions-about-project-driven-organizations-answered",
+      "date": "28 May 2026",
+      "excerpt": "Antonio Nieto-Rodriguez, author of &#8220;Powered by Projects,&#8221; on balancing operations with transformation, reducing hierarchy, and more.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Leading the Human-AI Organization",
+      "link": "https://hbr.org/2026/05/leading-the-human-ai-organization",
+      "date": "28 May 2026",
+      "excerpt": "Three CHROs on which skills matter most, how to build them at scale, and how to ensure leaders can guide organizations through rapid technological change.",
       "image": ""
     },
     {
@@ -119,22 +209,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Leads Companies to Betray Their Own Principles",
-      "link": "https://hbr.org/podcast/2026/05/what-leads-companies-to-betray-their-own-principles",
-      "date": "26 May 2026",
-      "excerpt": "A conversation with entrepreneur Eric Ries about how organizations lose their integrity.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Strong Teams Leverage Different Personality Types",
-      "link": "https://hbr.org/podcast/2026/05/how-strong-teams-leverage-different-personality-types",
-      "date": "26 May 2026",
-      "excerpt": "A multi-chapter case study explores what it takes to turn team tension into traction.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How countries write their AI strategies – mapping the many models of governance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/28/how-countries-write-their-ai-strategies-mapping-the-many-models-of-governance/",
+      "date": "28 May 2026",
+      "excerpt": "In penning their national AI strategies governments are not only deciding how to regulate AI. They are also defining what AI should deliver, from economic growth to public-sector transformation. A text-based analysis using x.Machina, the op",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-2.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -182,13 +263,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Using LLMs to uncover Europe’s green investment blind spot",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/19/using-llms-to-uncover-europes-green-investment-blind-spot/",
-      "date": "19 May 2026",
-      "excerpt": "If green investment is defined too narrowly, businesses risk misreading where the transition is creating competitive advantage. Combining the use of LLM tools with the EU Taxonomy for Sustainable Activities, Juan Alvarez-Vilanova, Riccardo ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-EU-Taxonomy.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'I've applied for more than 400 roles' - how young people are facing the job shortage",
+      "link": "https://www.bbc.com/news/articles/czx2qll4rlyo?at_medium=RSS&at_campaign=rss",
+      "date": "28 May 2026",
+      "excerpt": "The BBC has been hearing from young people who are struggling to find work about how they are tackling the challenge.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c28/live/6b0e7b10-59e5-11f1-b67e-59b55f58b612.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,20 +292,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Young people out of work or training costing UK £125bn as report warns of 'perfect storm'",
+      "title": "Opportunities shrinking for too many young people, says major report on 'lost generation'",
       "link": "https://www.bbc.com/news/articles/cy026x9jpd0o?at_medium=RSS&at_campaign=rss",
       "date": "28 May 2026",
-      "excerpt": "A report warns the UK is \"at risk of a lost generation\" with number of 16 to 24-year-olds out of work, education or training set to rise to 1.25 million by 2031.",
+      "excerpt": "A report warns the number of 16 to 24-year-olds out of work, education or training set to rise to 1.25 million by 2031.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fe3/live/cd580120-59b7-11f1-a709-a756a39103f6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil prices jump after US launches new attacks on Iran",
-      "link": "https://www.bbc.com/news/articles/cp3p62xddq4o?at_medium=RSS&at_campaign=rss",
-      "date": "28 May 2026",
-      "excerpt": "The strikes come despite a ceasefire between Tehran and Washington as the two countries hold peace talks.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9241/live/6fc5faf0-5a2d-11f1-b118-2f2910cff054.jpg"
     },
     {
       "source": "BBC Business",
@@ -238,11 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "How you can save money on your energy bill",
-      "link": "https://www.bbc.com/news/articles/cwy2e3wx7xwo?at_medium=RSS&at_campaign=rss",
-      "date": "27 May 2026",
-      "excerpt": "Experts say action now can save money when the pinch comes this winter.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dcc/live/63478af0-59e2-11f1-ad45-03463f64a221.jpg"
+      "title": "EU fines Temu €200m for allowing sale of illegal products",
+      "link": "https://www.bbc.com/news/articles/c1k2ydn1rz8o?at_medium=RSS&at_campaign=rss",
+      "date": "28 May 2026",
+      "excerpt": "The European Commission says the Chinese-owned online retailer failed to take account of risks from baby toys and faulty chargers sold on its platform.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b44/live/c457e920-5a82-11f1-8b8c-6d33e1d5abb6.jpg"
     }
   ]
 }
