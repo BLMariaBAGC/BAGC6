@@ -1,5 +1,5 @@
 {
-  "updated": "28 May 2026, 09:06 UTC",
+  "updated": "28 May 2026, 09:44 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -265,11 +265,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "One in six young people will not be in work or training in five years without action, report warns",
-      "link": "https://www.bbc.com/news/articles/cy026x9jpd0o?at_medium=RSS&at_campaign=rss",
+      "title": "Ousted BP chairman hits back at 'lies' about his behaviour",
+      "link": "https://www.bbc.com/news/articles/cy92rzn5v7vo?at_medium=RSS&at_campaign=rss",
       "date": "28 May 2026",
-      "excerpt": "A report warns the UK is \"at risk of a lost generation\" with number of 16 to 24-year-olds out of work, education or training set to rise to 1.25 million by 2031.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fe3/live/cd580120-59b7-11f1-a709-a756a39103f6.jpg"
+      "excerpt": "Albert Manifold said no-one should be \"allowed to hide behind anonymity\" when commenting on his time at BP.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c37/live/6c2f2ae0-5a75-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
@@ -283,20 +283,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "One in six young people will not be in work or training in five years without action, report warns",
+      "link": "https://www.bbc.com/news/articles/cy026x9jpd0o?at_medium=RSS&at_campaign=rss",
+      "date": "28 May 2026",
+      "excerpt": "A report warns the UK is \"at risk of a lost generation\" with number of 16 to 24-year-olds out of work, education or training set to rise to 1.25 million by 2031.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fe3/live/cd580120-59b7-11f1-a709-a756a39103f6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Oil prices jump after US launches new attacks on Iran",
       "link": "https://www.bbc.com/news/articles/cp3p62xddq4o?at_medium=RSS&at_campaign=rss",
       "date": "28 May 2026",
       "excerpt": "The strikes come despite a ceasefire between Tehran and Washington as the two countries hold peace talks.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9241/live/6fc5faf0-5a2d-11f1-b118-2f2910cff054.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How you can save money on your energy bill",
-      "link": "https://www.bbc.com/news/articles/cwy2e3wx7xwo?at_medium=RSS&at_campaign=rss",
-      "date": "27 May 2026",
-      "excerpt": "Experts say action now can save money when the pinch comes this winter.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dcc/live/63478af0-59e2-11f1-ad45-03463f64a221.jpg"
     },
     {
       "source": "BBC Business",
@@ -310,11 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why Fifa is being investigated over World Cup ticket prices",
-      "link": "https://www.bbc.com/news/videos/cx2164ldp0ko?at_medium=RSS&at_campaign=rss",
-      "date": "28 May 2026",
-      "excerpt": "New York and New Jersey are looking into the association after fans have reportedly been \"misled\" over ticket sales and seat locations.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c5a/live/1bc4f3c0-5a28-11f1-89a3-d1f559421220.jpg"
+      "title": "How you can save money on your energy bill",
+      "link": "https://www.bbc.com/news/articles/cwy2e3wx7xwo?at_medium=RSS&at_campaign=rss",
+      "date": "27 May 2026",
+      "excerpt": "Experts say action now can save money when the pinch comes this winter.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dcc/live/63478af0-59e2-11f1-ad45-03463f64a221.jpg"
     }
   ]
 }
