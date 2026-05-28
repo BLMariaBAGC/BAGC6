@@ -1,5 +1,5 @@
 {
-  "updated": "28 May 2026, 09:44 UTC",
+  "updated": "28 May 2026, 11:38 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,78 +72,6 @@
       "date": "26 May 2026",
       "excerpt": "USC researchers have identified potential new drug compounds that may reduce the brain inflammation linked to Alzheimer’s disease, especially in people with the high-risk APOE4 gene. The compounds target cPLA2, an enzyme that seems to fuel ",
       "image": ""
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Paternal Anxiety Rewires Embryonic Growth Settings",
-      "link": "https://neurosciencenews.com/paternal-anxiety-embryonic-growth-30776/",
-      "date": "27 May 2026",
-      "excerpt": "Paternal stress prior to conception alters small molecular signals within sperm to dictate offspring development.",
-      "image": "https://neurosciencenews.com/files/2026/05/parental-stress-neurodevelopment-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Stem Cell Framework May Repair Traumatic Brain Injury",
-      "link": "https://neurosciencenews.com/stem-cell-therapy-tbi-30775/",
-      "date": "27 May 2026",
-      "excerpt": "A new study presents a comprehensive, multi-pronged framework utilizing stem cells, cell-free exosomes, and engineered tissue scaffolds to repair the injured central nervous system",
-      "image": "https://neurosciencenews.com/files/2026/05/stem-cell-tbi-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Can a Urine Test Predict Autism Early?",
-      "link": "https://neurosciencenews.com/urine-test-microbial-metabolites-autism-30773/",
-      "date": "27 May 2026",
-      "excerpt": "A new study introduces the “Microbially-Derived Metabolite (MDM) System,” a non-invasive urine test that tracks 17 small molecules produced by gut microorganisms to identify children at high risk for autism.",
-      "image": "https://neurosciencenews.com/files/2026/05/urine-test-asd-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Mapping the Glymphatic System with AI",
-      "link": "https://neurosciencenews.com/ai-glymphatic-fluid-velocity-30772/",
-      "date": "27 May 2026",
-      "excerpt": "Can we prevent neurodegenerative decline by auditing the brain’s internal cleansing system during deep sleep? A collaborative study leverages physics-informed artificial intelligence to track the fluid flow velocity of the glymphatic system",
-      "image": "https://neurosciencenews.com/files/2026/05/ai-glymphatic-mapping-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Can Neuroscience Measure True AI Consciousness?",
-      "link": "https://neurosciencenews.com/information-processing-consciousness-ai-30771/",
-      "date": "27 May 2026",
-      "excerpt": "Are modern neuroscientists genuinely measuring the spark of subjective experience, or are they merely tracking the mechanical gears of data processing? A landmark critical analysis reveals that current scientific methods are fundamentally i",
-      "image": "https://neurosciencenews.com/files/2026/05/ai-consciousness-science-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "AI Proves Language Evolves for Learnability",
-      "link": "https://neurosciencenews.com/ai-iterated-learning-deep-linear-networks-30770/",
-      "date": "27 May 2026",
-      "excerpt": "A new study using AI proves that language actively evolves over generations to become structured because it makes learning easier.",
-      "image": "https://neurosciencenews.com/files/2026/05/ai-language-evolution-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Teenage Lipid Dysfunction May Slow Brain Processing Speed",
-      "link": "https://neurosciencenews.com/teenage-lipid-processing-speed-30769/",
-      "date": "27 May 2026",
-      "excerpt": "Blood markers of dysfunctional lipid metabolism are directly associated with poorer cognitive function in 15–17-year-olds.",
-      "image": "https://neurosciencenews.com/files/2026/05/lipid-metabolism-cognition-neurodevelopment-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Rare Genetic Variants Drive Extreme Human Health Traits",
-      "link": "https://neurosciencenews.com/rare-genetic-variants-trait-extremes-60768/",
-      "date": "27 May 2026",
-      "excerpt": "Individuals occupying the far tails of complex health traits, such as cholesterol, blood glucose, age at menopause, and height, possess a fundamentally distinct genetic architecture.",
-      "image": "https://neurosciencenews.com/files/2026/05/genetics-health-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -283,7 +211,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "One in six young people will not be in work or training in five years without action, report warns",
+      "title": "Young people out of work or training costing UK £125bn as report warns of 'perfect storm'",
       "link": "https://www.bbc.com/news/articles/cy026x9jpd0o?at_medium=RSS&at_campaign=rss",
       "date": "28 May 2026",
       "excerpt": "A report warns the UK is \"at risk of a lost generation\" with number of 16 to 24-year-olds out of work, education or training set to rise to 1.25 million by 2031.",
