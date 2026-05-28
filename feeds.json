@@ -1,5 +1,5 @@
 {
-  "updated": "28 May 2026, 18:34 UTC",
+  "updated": "28 May 2026, 21:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Study Exposes Risks of Emotional Bonds With AI Chatbots",
+      "link": "https://neurosciencenews.com/ai-mental-health-reddit-bond-paradox-30784/",
+      "date": "28 May 2026",
+      "excerpt": "Researchers analyzed over 4 million Reddit posts to demonstrate that while users embrace AI for emotional reassurance and behavioral coping, they view it strictly as a supplement to, not a replacement for, human therapy.",
+      "image": "https://neurosciencenews.com/files/2026/05/chatbot-mental-health-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Localized Synergistic Nanofibers Could Eliminate Glioblastoma",
+      "link": "https://neurosciencenews.com/nanomesh-synergistic-glioblastoma-treatment-30783/",
+      "date": "28 May 2026",
+      "excerpt": "A new study details a localized \"NanoMesh\" implant that delivers three synergistic drugs directly to the site of glioblastoma tumors.",
+      "image": "https://neurosciencenews.com/files/2026/05/nanomesh-glioblastoma-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Toggling Embodied Cognition via the Rubber Hand Illusion",
+      "link": "https://neurosciencenews.com/rubber-hand-illusion-self-concept-30782/",
+      "date": "28 May 2026",
+      "excerpt": "Utilizing the classic \"rubber hand illusion,\" researchers discovered that participants who scored low on scales of identity clarity and stability were highly vulnerable to the sensory trick, attempting to absorb the fake hand into their sel",
+      "image": "https://neurosciencenews.com/files/2026/05/runner-hand-body-cognition-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Economic Inequality May Drive Rising Youth Perfectionism",
+      "link": "https://neurosciencenews.com/economic-inequality-perfectionism-psychology-30781/",
+      "date": "28 May 2026",
+      "excerpt": "A new study evaluates data from 307 studies spanning 1989 to 2024 to prove that college students face vastly higher levels of perfectionism than previous generations. Rather than a simple drive for excellence, this generational surge is dom",
+      "image": "https://neurosciencenews.com/files/2026/05/youth-perfectionism-psychology-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Neuronal AcCoA Signaling Linked to Autophagy Defects in Alzheimer’s",
       "link": "https://neurosciencenews.com/neuronal-nutrient-sensing-accoa-mtorc1-30780/",
       "date": "28 May 2026",
@@ -108,42 +144,6 @@
       "date": "27 May 2026",
       "excerpt": "Paternal stress prior to conception alters small molecular signals within sperm to dictate offspring development.",
       "image": "https://neurosciencenews.com/files/2026/05/parental-stress-neurodevelopment-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Stem Cell Framework May Repair Traumatic Brain Injury",
-      "link": "https://neurosciencenews.com/stem-cell-therapy-tbi-30775/",
-      "date": "27 May 2026",
-      "excerpt": "A new study presents a comprehensive, multi-pronged framework utilizing stem cells, cell-free exosomes, and engineered tissue scaffolds to repair the injured central nervous system",
-      "image": "https://neurosciencenews.com/files/2026/05/stem-cell-tbi-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Can a Urine Test Predict Autism Early?",
-      "link": "https://neurosciencenews.com/urine-test-microbial-metabolites-autism-30773/",
-      "date": "27 May 2026",
-      "excerpt": "A new study introduces the “Microbially-Derived Metabolite (MDM) System,” a non-invasive urine test that tracks 17 small molecules produced by gut microorganisms to identify children at high risk for autism.",
-      "image": "https://neurosciencenews.com/files/2026/05/urine-test-asd-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Mapping the Glymphatic System with AI",
-      "link": "https://neurosciencenews.com/ai-glymphatic-fluid-velocity-30772/",
-      "date": "27 May 2026",
-      "excerpt": "Can we prevent neurodegenerative decline by auditing the brain’s internal cleansing system during deep sleep? A collaborative study leverages physics-informed artificial intelligence to track the fluid flow velocity of the glymphatic system",
-      "image": "https://neurosciencenews.com/files/2026/05/ai-glymphatic-mapping-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Can Neuroscience Measure True AI Consciousness?",
-      "link": "https://neurosciencenews.com/information-processing-consciousness-ai-30771/",
-      "date": "27 May 2026",
-      "excerpt": "Are modern neuroscientists genuinely measuring the spark of subjective experience, or are they merely tracking the mechanical gears of data processing? A landmark critical analysis reveals that current scientific methods are fundamentally i",
-      "image": "https://neurosciencenews.com/files/2026/05/ai-consciousness-science-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -211,6 +211,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How countries write their AI strategies – mapping the many models of governance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/28/how-countries-write-their-ai-strategies-mapping-the-many-models-of-governance/",
+      "date": "28 May 2026",
+      "excerpt": "In penning their national AI strategies governments are not only deciding how to regulate AI. They are also defining what AI should deliver, from economic growth to public-sector transformation. A text-based analysis using x.Machina, the op",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-2.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "What economic shocks mean matters as much as the shocks themselves",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/27/what-economic-shocks-mean-matters-as-much-as-the-shocks-themselves/",
       "date": "27 May 2026",
@@ -254,15 +263,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Using LLMs to uncover Europe’s green investment blind spot",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/19/using-llms-to-uncover-europes-green-investment-blind-spot/",
-      "date": "19 May 2026",
-      "excerpt": "If green investment is defined too narrowly, businesses risk misreading where the transition is creating competitive advantage. Combining the use of LLM tools with the EU Taxonomy for Sustainable Activities, Juan Alvarez-Vilanova, Riccardo ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-EU-Taxonomy.jpg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Opportunities shrinking for too many young people, says major report on 'lost generation'",
@@ -283,6 +283,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US government prepares to print $250 note featuring Trump's face",
+      "link": "https://www.bbc.com/news/articles/clypeyx6nemo?at_medium=RSS&at_campaign=rss",
+      "date": "28 May 2026",
+      "excerpt": "Federal law bars printing images of living people on US currency, but Trump allies in Congress are moving to make an exception.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97ed/live/f6126600-5ad9-11f1-8db2-c1599f6fe43e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Drag queen Pattie Gonia fights trademark lawsuit by Patagonia",
       "link": "https://www.bbc.com/news/articles/cx21427lvvvo?at_medium=RSS&at_campaign=rss",
       "date": "28 May 2026",
@@ -297,15 +306,6 @@
       "date": "28 May 2026",
       "excerpt": "Albert Manifold said no-one should be \"allowed to hide behind anonymity\" when commenting on his time at BP.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c37/live/6c2f2ae0-5a75-11f1-b682-cf91850925ea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The £5 coffee that tells a story of global economic turmoil",
-      "link": "https://www.bbc.com/news/articles/cr5pp1m6z06o?at_medium=RSS&at_campaign=rss",
-      "date": "28 May 2026",
-      "excerpt": "Coffees at some city centre outlets now cost £5. It's a story of tariffs, the climate, Gen Z cultural tastes, and savvy coffee farmers playing the market, writes Faisal Islam",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33c2/live/926ae700-59dd-11f1-8b8c-6d33e1d5abb6.jpg"
     },
     {
       "source": "BBC Business",
