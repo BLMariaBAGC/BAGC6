@@ -1,5 +1,5 @@
 {
-  "updated": "28 May 2026, 15:48 UTC",
+  "updated": "28 May 2026, 18:34 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Neuronal AcCoA Signaling Linked to Autophagy Defects in Alzheimer’s",
+      "link": "https://neurosciencenews.com/neuronal-nutrient-sensing-accoa-mtorc1-30780/",
+      "date": "28 May 2026",
+      "excerpt": "Neurons and glial cells utilize a specialized metabolic mechanism centered on leucine-derived acetyl-coenzyme A (AcCoA) to regulate the master growth hub, mTORC1.",
+      "image": "https://neurosciencenews.com/files/2026/05/accoa-aythophagy-alzheimers-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Autoimmunity Drives Long COVID Symptoms",
+      "link": "https://neurosciencenews.com/autoimmunity-long-covid-autoantibodies-30779/",
+      "date": "28 May 2026",
+      "excerpt": "A new study validates that circulating autoantibodies are the direct physiological drivers behind the chronic symptom burden in a distinct subset of long COVID patients.",
+      "image": "https://neurosciencenews.com/files/2026/05/long-covd-autoimmunity-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Contraceptive Drug May Reverse Spinal Paralysis",
+      "link": "https://neurosciencenews.com/organoids-lynestrenol-reverse-spinal-paralysis-30778/",
+      "date": "28 May 2026",
+      "excerpt": "A new study leverages 3D stem cell organoids to prove that previously \"irreversible\" central nervous system damage can, in fact, be reversed. By growing interconnected \"mini-brains\" and spinal cords in a dish for over a year, researchers is",
+      "image": "https://neurosciencenews.com/files/2026/05/sci-neurogenesis-neurosceince-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Paternal Anxiety Rewires Embryonic Growth Settings",
       "link": "https://neurosciencenews.com/paternal-anxiety-embryonic-growth-30776/",
       "date": "27 May 2026",
@@ -117,33 +144,6 @@
       "date": "27 May 2026",
       "excerpt": "Are modern neuroscientists genuinely measuring the spark of subjective experience, or are they merely tracking the mechanical gears of data processing? A landmark critical analysis reveals that current scientific methods are fundamentally i",
       "image": "https://neurosciencenews.com/files/2026/05/ai-consciousness-science-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "AI Proves Language Evolves for Learnability",
-      "link": "https://neurosciencenews.com/ai-iterated-learning-deep-linear-networks-30770/",
-      "date": "27 May 2026",
-      "excerpt": "A new study using AI proves that language actively evolves over generations to become structured because it makes learning easier.",
-      "image": "https://neurosciencenews.com/files/2026/05/ai-language-evolution-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Teenage Lipid Dysfunction May Slow Brain Processing Speed",
-      "link": "https://neurosciencenews.com/teenage-lipid-processing-speed-30769/",
-      "date": "27 May 2026",
-      "excerpt": "Blood markers of dysfunctional lipid metabolism are directly associated with poorer cognitive function in 15–17-year-olds.",
-      "image": "https://neurosciencenews.com/files/2026/05/lipid-metabolism-cognition-neurodevelopment-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Rare Genetic Variants Drive Extreme Human Health Traits",
-      "link": "https://neurosciencenews.com/rare-genetic-variants-trait-extremes-60768/",
-      "date": "27 May 2026",
-      "excerpt": "Individuals occupying the far tails of complex health traits, such as cholesterol, blood glucose, age at menopause, and height, possess a fundamentally distinct genetic architecture.",
-      "image": "https://neurosciencenews.com/files/2026/05/genetics-health-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -211,15 +211,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How countries write their AI strategies – mapping the many models of governance",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/28/how-countries-write-their-ai-strategies-mapping-the-many-models-of-governance/",
-      "date": "28 May 2026",
-      "excerpt": "In penning their national AI strategies governments are not only deciding how to regulate AI. They are also defining what AI should deliver, from economic growth to public-sector transformation. A text-based analysis using x.Machina, the op",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-2.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "What economic shocks mean matters as much as the shocks themselves",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/27/what-economic-shocks-mean-matters-as-much-as-the-shocks-themselves/",
       "date": "27 May 2026",
@@ -263,13 +254,40 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Using LLMs to uncover Europe’s green investment blind spot",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/19/using-llms-to-uncover-europes-green-investment-blind-spot/",
+      "date": "19 May 2026",
+      "excerpt": "If green investment is defined too narrowly, businesses risk misreading where the transition is creating competitive advantage. Combining the use of LLM tools with the EU Taxonomy for Sustainable Activities, Juan Alvarez-Vilanova, Riccardo ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-EU-Taxonomy.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Opportunities shrinking for too many young people, says major report on 'lost generation'",
+      "link": "https://www.bbc.com/news/articles/cy026x9jpd0o?at_medium=RSS&at_campaign=rss",
+      "date": "28 May 2026",
+      "excerpt": "A report warns the number of 16 to 24-year-olds out of work, education or training is set to rise to 1.25 million by 2031.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3298/live/8a627ad0-5abb-11f1-89a3-d1f559421220.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "'I've applied for more than 400 roles' - how young people are facing the job shortage",
       "link": "https://www.bbc.com/news/articles/czx2qll4rlyo?at_medium=RSS&at_campaign=rss",
       "date": "28 May 2026",
       "excerpt": "The BBC has been hearing from young people who are struggling to find work about how they are tackling the challenge.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c28/live/6b0e7b10-59e5-11f1-b67e-59b55f58b612.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2e9/live/c2d3e6c0-5aba-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Drag queen Pattie Gonia fights trademark lawsuit by Patagonia",
+      "link": "https://www.bbc.com/news/articles/cx21427lvvvo?at_medium=RSS&at_campaign=rss",
+      "date": "28 May 2026",
+      "excerpt": "The outdoor apparel firm says the performer broke an agreement not to use its branding in merchandise.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f61/live/b9e157a0-5aa6-11f1-b277-cd187c78657d.jpg"
     },
     {
       "source": "BBC Business",
@@ -292,29 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Opportunities shrinking for too many young people, says major report on 'lost generation'",
-      "link": "https://www.bbc.com/news/articles/cy026x9jpd0o?at_medium=RSS&at_campaign=rss",
-      "date": "28 May 2026",
-      "excerpt": "A report warns the number of 16 to 24-year-olds out of work, education or training set to rise to 1.25 million by 2031.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fe3/live/cd580120-59b7-11f1-a709-a756a39103f6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Is 'out of control' US tipping culture spreading overseas?",
       "link": "https://www.bbc.com/news/articles/cj6p0wrkpj8o?at_medium=RSS&at_campaign=rss",
       "date": "27 May 2026",
       "excerpt": "With US waiting staff getting cross at receiving less than 20%, tips are also on the rise elsewhere.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b48/live/fcd95050-5770-11f1-907e-c389fdeeba6e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "EU fines Temu €200m for allowing sale of illegal products",
-      "link": "https://www.bbc.com/news/articles/c1k2ydn1rz8o?at_medium=RSS&at_campaign=rss",
-      "date": "28 May 2026",
-      "excerpt": "The European Commission says the Chinese-owned online retailer failed to take account of risks from baby toys and faulty chargers sold on its platform.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b44/live/c457e920-5a82-11f1-8b8c-6d33e1d5abb6.jpg"
     }
   ]
 }
