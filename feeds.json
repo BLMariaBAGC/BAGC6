@@ -1,5 +1,5 @@
 {
-  "updated": "29 May 2026, 15:23 UTC",
+  "updated": "29 May 2026, 18:03 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Two Distinct Autism Subtypes Identified Via Brain Connectivity",
+      "link": "https://neurosciencenews.com/autism-subtypes-brain-connectivity-30786/",
+      "date": "29 May 2026",
+      "excerpt": "A new study leverages a multi-site database of over 1,900 fMRI scans to isolate at least two distinct subtypes of autism defined by their brain connectivity.",
+      "image": "https://neurosciencenews.com/files/2026/05/asd-brain-connectivity-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "The Brain Waste System Disrupted by Alzheimer’s Mapped",
+      "link": "https://neurosciencenews.com/glymphatic-brain-waste-clearance-30785/",
+      "date": "29 May 2026",
+      "excerpt": "A new study leverages an elegant genetic engineering technique to track the exact routes metabolic debris uses to exit the central nervous system.",
+      "image": "https://neurosciencenews.com/files/2026/05/glymphatic-system-alzheimers-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Study Exposes Risks of Emotional Bonds With AI Chatbots",
       "link": "https://neurosciencenews.com/ai-mental-health-reddit-bond-paradox-30784/",
       "date": "28 May 2026",
@@ -126,24 +144,6 @@
       "date": "28 May 2026",
       "excerpt": "A new study validates that circulating autoantibodies are the direct physiological drivers behind the chronic symptom burden in a distinct subset of long COVID patients.",
       "image": "https://neurosciencenews.com/files/2026/05/long-covd-autoimmunity-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Contraceptive Drug May Reverse Spinal Paralysis",
-      "link": "https://neurosciencenews.com/organoids-lynestrenol-reverse-spinal-paralysis-30778/",
-      "date": "28 May 2026",
-      "excerpt": "A new study leverages 3D stem cell organoids to prove that previously \"irreversible\" central nervous system damage can, in fact, be reversed. By growing interconnected \"mini-brains\" and spinal cords in a dish for over a year, researchers is",
-      "image": "https://neurosciencenews.com/files/2026/05/sci-neurogenesis-neurosceince-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Paternal Anxiety Rewires Embryonic Growth Settings",
-      "link": "https://neurosciencenews.com/paternal-anxiety-embryonic-growth-30776/",
-      "date": "27 May 2026",
-      "excerpt": "Paternal stress prior to conception alters small molecular signals within sperm to dictate offspring development.",
-      "image": "https://neurosciencenews.com/files/2026/05/parental-stress-neurodevelopment-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -211,6 +211,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Which market will dominate the semiconductor industry in the next decade?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/29/which-market-will-dominate-the-semiconductor-industry-in-the-next-decade/",
+      "date": "29 May 2026",
+      "excerpt": "While China is approaching self-sufficiency, America’s ambitions are restrained by structural limits and Europe’s regulatory clarity is undermined by strategic ambiguity. Bruno Sergi and Mark Esposito argue that the 2030s will not be won us",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Screenshot-2026-05-29-085733.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How countries write their AI strategies – mapping the many models of governance",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/28/how-countries-write-their-ai-strategies-mapping-the-many-models-of-governance/",
       "date": "28 May 2026",
@@ -251,15 +260,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/21/why-gender-diversity-on-board-committees-matters-more-than-on-the-board-itself/",
       "date": "21 May 2026",
       "excerpt": "Diversity is a critical indicator of board effectiveness. But most metrics only assess the makeup of the full board. Adam Arian argues that since it is the committees that report to the board that wield the true influence, and often the com",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How an incentive to trade shapes social and community enterprises",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/20/how-an-incentive-to-trade-shapes-social-and-community-enterprises/",
-      "date": "20 May 2026",
-      "excerpt": "British policymakers&nbsp;argue that social&nbsp;organisations&nbsp;that&nbsp;earn&nbsp;their&nbsp;income are&nbsp;less dependent on grants, and more resilient. Others say that commercialisation&nbsp;corrupts the social goal.&nbsp;Kerryn Kr",
       "image": ""
     },
     {
