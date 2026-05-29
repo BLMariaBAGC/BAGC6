@@ -1,5 +1,5 @@
 {
-  "updated": "29 May 2026, 18:55 UTC",
+  "updated": "29 May 2026, 19:14 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Scramblase CLPTM1L May Drive Glioblastoma",
+      "link": "https://neurosciencenews.com/life-metabolism-clptm1l-glioblastoma-30785/",
+      "date": "29 May 2026",
+      "excerpt": "A new study identifies an endoplasmic reticulum-localized lipid scramblase called CLPTM1L as the primary master regulator behind lipid raft formation in glioblastoma.",
+      "image": "https://neurosciencenews.com/files/2026/05/plasma-glioblsatoma-cancer-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Why Willpower Fails and How to Restore Focus",
       "link": "https://neurosciencenews.com/neurobiology-focus-proactive-control-30784/",
       "date": "29 May 2026",
@@ -135,15 +144,6 @@
       "date": "28 May 2026",
       "excerpt": "Utilizing the classic \"rubber hand illusion,\" researchers discovered that participants who scored low on scales of identity clarity and stability were highly vulnerable to the sensory trick, attempting to absorb the fake hand into their sel",
       "image": "https://neurosciencenews.com/files/2026/05/runner-hand-body-cognition-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Economic Inequality May Drive Rising Youth Perfectionism",
-      "link": "https://neurosciencenews.com/economic-inequality-perfectionism-psychology-30781/",
-      "date": "28 May 2026",
-      "excerpt": "A new study evaluates data from 307 studies spanning 1989 to 2024 to prove that college students face vastly higher levels of perfectionism than previous generations. Rather than a simple drive for excellence, this generational surge is dom",
-      "image": "https://neurosciencenews.com/files/2026/05/youth-perfectionism-psychology-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
