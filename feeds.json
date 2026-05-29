@@ -1,5 +1,5 @@
 {
-  "updated": "29 May 2026, 18:30 UTC",
+  "updated": "29 May 2026, 18:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Why Willpower Fails and How to Restore Focus",
+      "link": "https://neurosciencenews.com/neurobiology-focus-proactive-control-30784/",
+      "date": "29 May 2026",
+      "excerpt": "A new neurobiological framework reveals that the constant bombardment of digital notifications exploits our evolutionary dopamine pathways, making effortful focus increasingly difficult to sustain.",
+      "image": "https://neurosciencenews.com/files/2026/05/conscentration-willpower-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Unmasking the Epigenetic Disparity in Anxiety Disorders",
       "link": "https://neurosciencenews.com/hdac3-epigenetics-ptsd-anxiety-30783/",
       "date": "29 May 2026",
@@ -135,15 +144,6 @@
       "date": "28 May 2026",
       "excerpt": "A new study evaluates data from 307 studies spanning 1989 to 2024 to prove that college students face vastly higher levels of perfectionism than previous generations. Rather than a simple drive for excellence, this generational surge is dom",
       "image": "https://neurosciencenews.com/files/2026/05/youth-perfectionism-psychology-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Neuronal AcCoA Signaling Linked to Autophagy Defects in Alzheimer’s",
-      "link": "https://neurosciencenews.com/neuronal-nutrient-sensing-accoa-mtorc1-30780/",
-      "date": "28 May 2026",
-      "excerpt": "Neurons and glial cells utilize a specialized metabolic mechanism centered on leucine-derived acetyl-coenzyme A (AcCoA) to regulate the master growth hub, mTORC1.",
-      "image": "https://neurosciencenews.com/files/2026/05/accoa-aythophagy-alzheimers-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
