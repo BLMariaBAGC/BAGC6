@@ -1,6 +1,24 @@
 {
-  "updated": "28 May 2026, 23:14 UTC",
+  "updated": "29 May 2026, 03:26 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "CBD may slow Alzheimer’s by calming the brain’s immune system",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260528082507.htm",
+      "date": "28 May 2026",
+      "excerpt": "CBD may be doing far more than just easing pain or anxiety — new research suggests it could help fight Alzheimer’s disease by calming the brain’s runaway immune response. In experiments using Alzheimer’s mice, scientists found that inhaled ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Human organoids reveal how to reverse “irreversible” nerve damage",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260528082459.htm",
+      "date": "28 May 2026",
+      "excerpt": "Cambridge researchers created miniature brain-and-spinal-cord systems in the lab that can send signals and even trigger tiny muscle contractions. They discovered that human neurons gradually lose their ability to regrow after damage during ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260526233433.htm",
       "date": "27 May 2026",
       "excerpt": "Scientists in Japan have created powerful new vitamin K-based compounds that may help the brain regenerate lost neurons — a breakthrough that could one day change how diseases like Alzheimer’s and Parkinson’s are treated. By combining vitam",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Popular anti-aging drug combo caused severe brain damage in mice",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260526022024.htm",
-      "date": "27 May 2026",
-      "excerpt": "A drug combo widely explored for anti-aging may actually damage the brain, according to new mouse research showing severe loss of myelin and changes linked to “chemo brain.” Surprisingly, the damaged cells resembled those seen in multiple s",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists say they’ve reversed brain aging with a simple nasal spray",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260526022018.htm",
-      "date": "26 May 2026",
-      "excerpt": "Researchers at Texas A&M have developed a nasal spray that appears to reverse brain aging by calming inflammation and restoring the brain’s energy systems. After just two doses, memory and cognitive function improved for months, raising hop",
       "image": ""
     },
     {
@@ -292,6 +292,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "When trade soured, this American liquor maker moved to Canada",
+      "link": "https://www.bbc.com/news/articles/c2l22ypl909o?at_medium=RSS&at_campaign=rss",
+      "date": "28 May 2026",
+      "excerpt": "Phillips Distilling lost 70% of its Canadian business after provinces banned the sale of US liquor. It has since found a way to sell its products in Canada again.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a9d/live/c815fa50-5908-11f1-a656-5bf9ca1d9342.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Drag queen Pattie Gonia fights trademark lawsuit by Patagonia",
       "link": "https://www.bbc.com/news/articles/cx21427lvvvo?at_medium=RSS&at_campaign=rss",
       "date": "28 May 2026",
@@ -301,20 +310,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Ousted BP chairman hits back at 'lies' about his behaviour",
-      "link": "https://www.bbc.com/news/articles/cy92rzn5v7vo?at_medium=RSS&at_campaign=rss",
+      "title": "Humanoid robots 'the future' of car making, says BMW",
+      "link": "https://www.bbc.com/news/articles/cgmpwzzvxr2o?at_medium=RSS&at_campaign=rss",
       "date": "28 May 2026",
-      "excerpt": "Albert Manifold said no-one should be \"allowed to hide behind anonymity\" when commenting on his time at BP.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c37/live/6c2f2ae0-5a75-11f1-b682-cf91850925ea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Is 'out of control' US tipping culture spreading overseas?",
-      "link": "https://www.bbc.com/news/articles/cj6p0wrkpj8o?at_medium=RSS&at_campaign=rss",
-      "date": "27 May 2026",
-      "excerpt": "With US waiting staff getting cross at receiving less than 20%, tips are also on the rise elsewhere.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b48/live/fcd95050-5770-11f1-907e-c389fdeeba6e.jpg"
+      "excerpt": "BMW is introducing humanoid robots to a car plant in Europe, building on similar projects in the US.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c2f/live/48e23e10-4dd7-11f1-bd52-e755d604ece4.jpg"
     }
   ]
 }
