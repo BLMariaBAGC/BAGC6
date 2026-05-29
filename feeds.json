@@ -1,5 +1,5 @@
 {
-  "updated": "29 May 2026, 03:26 UTC",
+  "updated": "29 May 2026, 07:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -283,6 +283,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Blue Origin rocket explodes into huge ball of flame on Florida launch pad",
+      "link": "https://www.bbc.com/news/articles/cvgzl5wd8xeo?at_medium=RSS&at_campaign=rss",
+      "date": "29 May 2026",
+      "excerpt": "Amazon billionaire Jeff Bezos, who founded Blue Origin, said it was a \"very rough day\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3767/live/d8d6b8e0-5b09-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "US government prepares to print $250 note featuring Trump's face",
       "link": "https://www.bbc.com/news/articles/clypeyx6nemo?at_medium=RSS&at_campaign=rss",
       "date": "28 May 2026",
@@ -297,15 +306,6 @@
       "date": "28 May 2026",
       "excerpt": "Phillips Distilling lost 70% of its Canadian business after provinces banned the sale of US liquor. It has since found a way to sell its products in Canada again.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a9d/live/c815fa50-5908-11f1-a656-5bf9ca1d9342.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Drag queen Pattie Gonia fights trademark lawsuit by Patagonia",
-      "link": "https://www.bbc.com/news/articles/cx21427lvvvo?at_medium=RSS&at_campaign=rss",
-      "date": "28 May 2026",
-      "excerpt": "The outdoor apparel firm says the performer broke an agreement not to use its branding in merchandise.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f61/live/b9e157a0-5aa6-11f1-b277-cd187c78657d.jpg"
     },
     {
       "source": "BBC Business",
