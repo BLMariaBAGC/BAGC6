@@ -1,5 +1,5 @@
 {
-  "updated": "29 May 2026, 18:03 UTC",
+  "updated": "29 May 2026, 18:30 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Unmasking the Epigenetic Disparity in Anxiety Disorders",
+      "link": "https://neurosciencenews.com/hdac3-epigenetics-ptsd-anxiety-30783/",
+      "date": "29 May 2026",
+      "excerpt": "Can we permanently dismantle post-traumatic stress disorder by erasing the physical marks trauma leaves on our genes? Backed by a five-year, $3.2 million grant researchers are exploring the epigenetic architecture of the amygdala to decode ",
+      "image": "https://neurosciencenews.com/files/2026/05/epigenetics-anxiety-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Two Distinct Autism Subtypes Identified Via Brain Connectivity",
       "link": "https://neurosciencenews.com/autism-subtypes-brain-connectivity-30786/",
       "date": "29 May 2026",
@@ -135,15 +144,6 @@
       "date": "28 May 2026",
       "excerpt": "Neurons and glial cells utilize a specialized metabolic mechanism centered on leucine-derived acetyl-coenzyme A (AcCoA) to regulate the master growth hub, mTORC1.",
       "image": "https://neurosciencenews.com/files/2026/05/accoa-aythophagy-alzheimers-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Autoimmunity Drives Long COVID Symptoms",
-      "link": "https://neurosciencenews.com/autoimmunity-long-covid-autoantibodies-30779/",
-      "date": "28 May 2026",
-      "excerpt": "A new study validates that circulating autoantibodies are the direct physiological drivers behind the chronic symptom burden in a distinct subset of long COVID patients.",
-      "image": "https://neurosciencenews.com/files/2026/05/long-covd-autoimmunity-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
