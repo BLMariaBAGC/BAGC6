@@ -1,5 +1,5 @@
 {
-  "updated": "29 May 2026, 19:14 UTC",
+  "updated": "29 May 2026, 21:50 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "A Biological Signature of Consciousness Found",
+      "link": "https://neurosciencenews.com/thalamus-oscillation-consciousness-30787/",
+      "date": "29 May 2026",
+      "excerpt": "By capturing these pristine intracranial signals, the study introduces an objective, measurable biomarker to optimize deep-brain therapies and revolutionize our clinical understanding of conscious states.",
+      "image": "https://neurosciencenews.com/files/2026/05/consciousness-thalamus-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Low Folate and B12 Proven to Drive Chronic Fatigue",
+      "link": "https://neurosciencenews.com/homocysteine-fatigue-b12-folate-30786/",
+      "date": "29 May 2026",
+      "excerpt": "A new study evaluates approximately 600 healthy adult participants to demonstrate that a lack of folate (B9) and vitamin B12 is directly linked to chronic fatigue and motivation loss.",
+      "image": "https://neurosciencenews.com/files/2026/05/b12-folate-fatique-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Scramblase CLPTM1L May Drive Glioblastoma",
       "link": "https://neurosciencenews.com/life-metabolism-clptm1l-glioblastoma-30785/",
       "date": "29 May 2026",
@@ -126,24 +144,6 @@
       "date": "28 May 2026",
       "excerpt": "Researchers analyzed over 4 million Reddit posts to demonstrate that while users embrace AI for emotional reassurance and behavioral coping, they view it strictly as a supplement to, not a replacement for, human therapy.",
       "image": "https://neurosciencenews.com/files/2026/05/chatbot-mental-health-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Localized Synergistic Nanofibers Could Eliminate Glioblastoma",
-      "link": "https://neurosciencenews.com/nanomesh-synergistic-glioblastoma-treatment-30783/",
-      "date": "28 May 2026",
-      "excerpt": "A new study details a localized \"NanoMesh\" implant that delivers three synergistic drugs directly to the site of glioblastoma tumors.",
-      "image": "https://neurosciencenews.com/files/2026/05/nanomesh-glioblastoma-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Toggling Embodied Cognition via the Rubber Hand Illusion",
-      "link": "https://neurosciencenews.com/rubber-hand-illusion-self-concept-30782/",
-      "date": "28 May 2026",
-      "excerpt": "Utilizing the classic \"rubber hand illusion,\" researchers discovered that participants who scored low on scales of identity clarity and stability were highly vulnerable to the sensory trick, attempting to absorb the fake hand into their sel",
-      "image": "https://neurosciencenews.com/files/2026/05/runner-hand-body-cognition-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -274,6 +274,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Universal rejects billionaire Bill Ackman's takeover bid",
+      "link": "https://www.bbc.com/news/articles/cn8pnd9yj4eo?at_medium=RSS&at_campaign=rss",
+      "date": "29 May 2026",
+      "excerpt": "The music giant said Pershing Square's offer fundamentally undervalued the business.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1327/live/03a29b70-3265-11f1-bdf9-bf5479a63eec.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Top UK chefs call for cutting VAT for pubs and restaurants to 10%",
       "link": "https://www.bbc.com/news/articles/c78kg45yx0vo?at_medium=RSS&at_campaign=rss",
       "date": "29 May 2026",
@@ -297,15 +306,6 @@
       "date": "28 May 2026",
       "excerpt": "The BBC has been hearing from young people who are struggling to find work about how they are tackling the challenge.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2e9/live/c2d3e6c0-5aba-11f1-89a3-d1f559421220.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US government prepares to print $250 note featuring Trump's face",
-      "link": "https://www.bbc.com/news/articles/clypeyx6nemo?at_medium=RSS&at_campaign=rss",
-      "date": "28 May 2026",
-      "excerpt": "Federal law bars printing images of living people on US currency, but Trump allies in Congress are moving to make an exception.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97ed/live/f6126600-5ad9-11f1-8db2-c1599f6fe43e.jpg"
     },
     {
       "source": "BBC Business",
