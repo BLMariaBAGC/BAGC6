@@ -1,5 +1,5 @@
 {
-  "updated": "29 May 2026, 07:53 UTC",
+  "updated": "29 May 2026, 11:27 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -265,6 +265,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Top UK chefs call for 10% VAT cut for pubs and restaurants",
+      "link": "https://www.bbc.com/news/articles/c78kg45yx0vo?at_medium=RSS&at_campaign=rss",
+      "date": "29 May 2026",
+      "excerpt": "Tom Kerridge, Yotam Ottolenghi, Ravneet Gill and Simon Rogan told BBC Newsnight VAT should be slashed to 10% to ease mounting pressure on the hospitality industry.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/37dd/live/ea709f80-5b40-11f1-9f9e-2f9c8c5baaa2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Opportunities shrinking for too many young people, says major report on 'lost generation'",
       "link": "https://www.bbc.com/news/articles/cy026x9jpd0o?at_medium=RSS&at_campaign=rss",
       "date": "28 May 2026",
@@ -279,15 +288,6 @@
       "date": "28 May 2026",
       "excerpt": "The BBC has been hearing from young people who are struggling to find work about how they are tackling the challenge.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2e9/live/c2d3e6c0-5aba-11f1-89a3-d1f559421220.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Blue Origin rocket explodes into huge ball of flame on Florida launch pad",
-      "link": "https://www.bbc.com/news/articles/cvgzl5wd8xeo?at_medium=RSS&at_campaign=rss",
-      "date": "29 May 2026",
-      "excerpt": "Amazon billionaire Jeff Bezos, who founded Blue Origin, said it was a \"very rough day\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3767/live/d8d6b8e0-5b09-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
