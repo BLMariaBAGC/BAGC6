@@ -1,5 +1,5 @@
 {
-  "updated": "30 May 2026, 06:43 UTC",
+  "updated": "30 May 2026, 09:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,6 +72,78 @@
       "date": "28 May 2026",
       "excerpt": "A new brain imaging study has found no evidence of widespread brain inflammation in patients suffering from prolonged symptoms after COVID-19 infection. Instead, the most severe long COVID symptoms were associated with increased brain activ",
       "image": ""
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "A Biological Signature of Consciousness Found",
+      "link": "https://neurosciencenews.com/thalamus-oscillation-consciousness-30787/",
+      "date": "29 May 2026",
+      "excerpt": "By capturing these pristine intracranial signals, the study introduces an objective, measurable biomarker to optimize deep-brain therapies and revolutionize our clinical understanding of conscious states.",
+      "image": "https://neurosciencenews.com/files/2026/05/consciousness-thalamus-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Low Folate and B12 Proven to Drive Chronic Fatigue",
+      "link": "https://neurosciencenews.com/homocysteine-fatigue-b12-folate-30786/",
+      "date": "29 May 2026",
+      "excerpt": "A new study evaluates approximately 600 healthy adult participants to demonstrate that a lack of folate (B9) and vitamin B12 is directly linked to chronic fatigue and motivation loss.",
+      "image": "https://neurosciencenews.com/files/2026/05/b12-folate-fatique-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Scramblase CLPTM1L May Drive Glioblastoma",
+      "link": "https://neurosciencenews.com/life-metabolism-clptm1l-glioblastoma-30785/",
+      "date": "29 May 2026",
+      "excerpt": "A new study identifies an endoplasmic reticulum-localized lipid scramblase called CLPTM1L as the primary master regulator behind lipid raft formation in glioblastoma.",
+      "image": "https://neurosciencenews.com/files/2026/05/plasma-glioblsatoma-cancer-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why Willpower Fails and How to Restore Focus",
+      "link": "https://neurosciencenews.com/neurobiology-focus-proactive-control-30784/",
+      "date": "29 May 2026",
+      "excerpt": "A new neurobiological framework reveals that the constant bombardment of digital notifications exploits our evolutionary dopamine pathways, making effortful focus increasingly difficult to sustain.",
+      "image": "https://neurosciencenews.com/files/2026/05/conscentration-willpower-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Unmasking the Epigenetic Disparity in Anxiety Disorders",
+      "link": "https://neurosciencenews.com/hdac3-epigenetics-ptsd-anxiety-30783/",
+      "date": "29 May 2026",
+      "excerpt": "Can we permanently dismantle post-traumatic stress disorder by erasing the physical marks trauma leaves on our genes? Backed by a five-year, $3.2 million grant researchers are exploring the epigenetic architecture of the amygdala to decode ",
+      "image": "https://neurosciencenews.com/files/2026/05/epigenetics-anxiety-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Two Distinct Autism Subtypes Identified Via Brain Connectivity",
+      "link": "https://neurosciencenews.com/autism-subtypes-brain-connectivity-30786/",
+      "date": "29 May 2026",
+      "excerpt": "A new study leverages a multi-site database of over 1,900 fMRI scans to isolate at least two distinct subtypes of autism defined by their brain connectivity.",
+      "image": "https://neurosciencenews.com/files/2026/05/asd-brain-connectivity-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "The Brain Waste System Disrupted by Alzheimer’s Mapped",
+      "link": "https://neurosciencenews.com/glymphatic-brain-waste-clearance-30785/",
+      "date": "29 May 2026",
+      "excerpt": "A new study leverages an elegant genetic engineering technique to track the exact routes metabolic debris uses to exit the central nervous system.",
+      "image": "https://neurosciencenews.com/files/2026/05/glymphatic-system-alzheimers-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Study Exposes Risks of Emotional Bonds With AI Chatbots",
+      "link": "https://neurosciencenews.com/ai-mental-health-reddit-bond-paradox-30784/",
+      "date": "28 May 2026",
+      "excerpt": "Researchers analyzed over 4 million Reddit posts to demonstrate that while users embrace AI for emotional reassurance and behavioral coping, they view it strictly as a supplement to, not a replacement for, human therapy.",
+      "image": "https://neurosciencenews.com/files/2026/05/chatbot-mental-health-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
