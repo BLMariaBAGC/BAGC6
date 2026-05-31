@@ -1,5 +1,5 @@
 {
-  "updated": "30 May 2026, 22:56 UTC",
+  "updated": "31 May 2026, 03:39 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Ferrari wanted to take on Chinese EVs with the Luce - then the backlash started",
+      "link": "https://www.bbc.com/news/articles/c1l2y7j7454o?at_medium=RSS&at_campaign=rss",
+      "date": "30 May 2026",
+      "excerpt": "The brand's first EV has been heavily criticised, with some saying it has abandoned Ferrari's roots.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eda2/live/10992360-5a49-11f1-a7f6-656c5ce9b72d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Only three-quarters of first class mail delivered on time",
       "link": "https://www.bbc.com/news/articles/cy02jyxz26po?at_medium=RSS&at_campaign=rss",
       "date": "29 May 2026",
@@ -225,15 +234,6 @@
       "date": "28 May 2026",
       "excerpt": "A report warns the number of 16 to 24-year-olds out of work, education or training is set to rise to 1.25 million by 2031.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3298/live/8a627ad0-5abb-11f1-89a3-d1f559421220.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I've applied for more than 400 roles' - how young people are facing the job shortage",
-      "link": "https://www.bbc.com/news/articles/czx2qll4rlyo?at_medium=RSS&at_campaign=rss",
-      "date": "28 May 2026",
-      "excerpt": "The BBC has been hearing from young people who are struggling to find work about how they are tackling the challenge.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2e9/live/c2d3e6c0-5aba-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
