@@ -1,6 +1,15 @@
 {
-  "updated": "31 May 2026, 15:16 UTC",
+  "updated": "31 May 2026, 17:04 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists found the hidden switch fueling alzheimer’s brain inflammation",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260530053424.htm",
+      "date": "31 May 2026",
+      "excerpt": "Scientists at Scripps Research have uncovered a molecular “switch” that appears to fuel the damaging brain inflammation seen in Alzheimer’s disease. They found that a protein called STING becomes chemically altered in a way that keeps the b",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260527023214.htm",
       "date": "28 May 2026",
       "excerpt": "A newly identified protein called GPNMB may play a major role in helping Parkinson’s disease spread through the brain. Researchers discovered that immune cells release the protein in response to damaged neurons, creating a vicious cycle tha",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists thought brain inflammation was driving long COVID but the scans told a different story",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260527023206.htm",
-      "date": "28 May 2026",
-      "excerpt": "A new brain imaging study has found no evidence of widespread brain inflammation in patients suffering from prolonged symptoms after COVID-19 infection. Instead, the most severe long COVID symptoms were associated with increased brain activ",
       "image": ""
     },
     {
