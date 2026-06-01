@@ -1,5 +1,5 @@
 {
-  "updated": "01 Jun 2026, 15:55 UTC",
+  "updated": "01 Jun 2026, 20:17 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -71,6 +71,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260527023214.htm",
       "date": "28 May 2026",
       "excerpt": "A newly identified protein called GPNMB may play a major role in helping Parkinson’s disease spread through the brain. Researchers discovered that immune cells release the protein in response to damaged neurons, creating a vicious cycle tha",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Companies Are Using AI for Efficiency. They Should Use It to Grow.",
+      "link": "https://hbr.org/2026/06/companies-are-using-ai-for-efficiency-they-should-use-it-to-grow",
+      "date": "1 Jun 2026",
+      "excerpt": "Cost-cutting alone is shortsighted.",
       "image": ""
     },
     {
@@ -193,11 +202,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "AI giant Anthropic says it plans to list on US stock market",
+      "link": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jun 2026",
+      "excerpt": "The AI company behind Claude is set to offer the public shares of stock sometime this year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92f7/live/51e59160-5dd6-11f1-b682-cf91850925ea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Wise under investigation over money laundering control concerns",
       "link": "https://www.bbc.com/news/articles/cy42x8ye02vo?at_medium=RSS&at_campaign=rss",
       "date": "1 Jun 2026",
       "excerpt": "Wise says it is working with the Brussels prosecutor's office but that \"no specific findings have been shared with us to date\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76c5/live/ea1f58f0-5db6-11f1-8b6d-5b89cbb85786.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "OpenAI let ChatGPT aid and abet mass shooters, Florida lawsuit claims",
+      "link": "https://www.bbc.com/news/articles/czx2j0v8d2xo?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jun 2026",
+      "excerpt": "Florida Attorney General James Uthmeier alleges OpenAI and boss Sam Altman built a 'web of deceit'",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56df/live/5b04bfb0-5df3-11f1-9565-ef0970da1cfe.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,24 +243,6 @@
       "date": "1 Jun 2026",
       "excerpt": "Nine banks have been offered access to GPT 5.5 Cyber, as fierce rival Anthropic has blocked previews of its tool.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1da9/live/87ea54d0-5dae-11f1-8132-9508271dd882.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Put a £5 deposit on vapes to stop fires, say waste companies",
-      "link": "https://www.bbc.com/news/articles/c4g4vqex028o?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jun 2026",
-      "excerpt": "The industry body for waste companies says a refundable deposit would help boost vape recycling, but others disagree.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/520c/live/a9b4d820-5cea-11f1-81d4-4b01427112e9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "EasyJet says possible takeover bid 'opportunistic'",
-      "link": "https://www.bbc.com/news/articles/c042071p96po?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jun 2026",
-      "excerpt": "US investment firm Castlelake is considering making an offer for the budget airline.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bc7/live/ba364640-5d97-11f1-b199-9da46582c1b0.jpg"
     },
     {
       "source": "BBC Business",
