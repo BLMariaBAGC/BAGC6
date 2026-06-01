@@ -1,5 +1,5 @@
 {
-  "updated": "01 Jun 2026, 20:17 UTC",
+  "updated": "01 Jun 2026, 23:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,15 +137,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Shake Shack Balanced Digitalization with Its Hospitality Ethos",
-      "link": "https://hbr.org/podcast/2026/05/how-shake-shack-balanced-digitalization-with-its-hospitality-ethos",
-      "date": "27 May 2026",
-      "excerpt": "An inside look at how the leadership of the fast-casual chain sought to grow the business without losing its brand values.",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "Does Chapter 11 bankruptcy drive away customers – or did losing customers cause the bankruptcy?",
@@ -247,11 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Caribbean hot sauce producers warn of shortages and higher prices",
-      "link": "https://www.bbc.com/news/articles/cq8p1jy3vxlo?at_medium=RSS&at_campaign=rss",
-      "date": "31 May 2026",
-      "excerpt": "Manufacturers in Jamaica say the key chilli peppers they need are in limited supply.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e926/live/495ad160-5a78-11f1-8954-638c887fc9b3.png"
+      "title": "How 'confused' AI rollout hurts firms and baffles staff",
+      "link": "https://www.bbc.com/news/articles/c74d1ydv01eo?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jun 2026",
+      "excerpt": "Some firms are putting pressure on staff to use AI, but have not thought through their AI rollout.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7c7/live/85925530-5033-11f1-89a3-d1f559421220.jpg"
     }
   ]
 }
