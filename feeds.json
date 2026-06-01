@@ -1,5 +1,5 @@
 {
-  "updated": "01 Jun 2026, 03:54 UTC",
+  "updated": "01 Jun 2026, 09:24 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Does Chapter 11 bankruptcy drive away customers – or did losing customers cause the bankruptcy?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/01/does-chapter-11-bankruptcy-drive-away-customers-or-did-losing-customers-cause-the-bankruptcy/",
+      "date": "1 Jun 2026",
+      "excerpt": "Many firms continue to trade after bankruptcy. But how do their customers react when they file? Samuel Antill and Megan Hunter untangle the causes and the impact of the bankruptcy and show how customers’ attitudes depend on the nature of th",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Which market will dominate the semiconductor industry in the next decade?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/05/29/which-market-will-dominate-the-semiconductor-industry-in-the-next-decade/",
       "date": "29 May 2026",
@@ -182,18 +191,9 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1024x561.png"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Why gender diversity on board committees matters more than on the board itself",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/21/why-gender-diversity-on-board-committees-matters-more-than-on-the-board-itself/",
-      "date": "21 May 2026",
-      "excerpt": "Diversity is a critical indicator of board effectiveness. But most metrics only assess the makeup of the full board. Adam Arian argues that since it is the committees that report to the board that wield the true influence, and often the com",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Put a £5 deposit on vapes to stop littering, say waste companies",
+      "title": "Put a £5 deposit on vapes to stop fires, say waste companies",
       "link": "https://www.bbc.com/news/articles/c4g4vqex028o?at_medium=RSS&at_campaign=rss",
       "date": "1 Jun 2026",
       "excerpt": "The industry body for waste companies says a refundable deposit would help boost vape recycling, but others disagree.",
@@ -202,38 +202,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "A year of grief and waiting: What remains when a plane falls from the sky",
+      "title": "Nvidia announces new AI chip for personal computers",
+      "link": "https://www.bbc.com/news/articles/crmp9mppvzro?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jun 2026",
+      "excerpt": "The technology giant's boss Jensen Huang called the move the \"reinvention of the computer\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd19/live/7becaec0-5d7d-11f1-9ce5-234247f246fc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Why is Lidl opening a pub?",
+      "link": "https://www.bbc.com/news/articles/cze222z1300o?at_medium=RSS&at_campaign=rss",
+      "date": "31 May 2026",
+      "excerpt": "The debate about about what seems like a bizarre idea of having a cold pint after exploring the store's well known middle aisle.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0f1/live/c4f3ee10-58ed-11f1-afe0-d7f70885c2dd.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Tickets for festivals are getting more expensive - we compared them",
+      "link": "https://www.bbc.com/news/articles/cj9pgmw3yz2o?at_medium=RSS&at_campaign=rss",
+      "date": "30 May 2026",
+      "excerpt": "Reading and Leeds, Glastonbury, Parklife and Download have surged in price.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a8b/live/43500f60-5aa5-11f1-b277-cd187c78657d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "A year of grief after Air India crash: What remains when a plane falls from the sky",
       "link": "https://www.bbc.com/news/articles/ce9pp53ky42o?at_medium=RSS&at_campaign=rss",
       "date": "1 Jun 2026",
-      "excerpt": "A year after the Air India crash, a mother still speaks about her dead son in the present tense and a brother waits for answers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb02/live/44600940-5b28-11f1-b682-cf91850925ea.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Secret tunnels and unregistered workers: China's coal mine disaster is a reminder of darker days",
-      "link": "https://www.bbc.com/news/articles/cpwpeg57777o?at_medium=RSS&at_campaign=rss",
-      "date": "31 May 2026",
-      "excerpt": "China's worst coal mining disaster in 15 years comes amid an ambitious pivot towards green energy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2489/live/d26bb2d0-5b54-11f1-a62b-2f41c7c3a318.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ferrari wanted to take on Chinese EVs with the Luce - then the backlash started",
-      "link": "https://www.bbc.com/news/articles/c1l2y7j7454o?at_medium=RSS&at_campaign=rss",
-      "date": "30 May 2026",
-      "excerpt": "The brand's first EV has been heavily criticised, with some saying it has abandoned Ferrari's roots.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eda2/live/10992360-5a49-11f1-a7f6-656c5ce9b72d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Arrive three hours before flight home, airline boss tells UK holidaymakers",
-      "link": "https://www.bbc.com/news/articles/c8xw2kjlrlxo?at_medium=RSS&at_campaign=rss",
-      "date": "30 May 2026",
-      "excerpt": "Wizz Air CEO Yvonne Moynihan also advises passengers to carry portable chargers and water due to lengthy queues.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8636/live/c65f1bc0-5beb-11f1-a651-0ffec07d9b49.jpg"
+      "excerpt": "A mother still speaks about her son who died in the crash in the present tense and a brother waits for answers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bec0/live/edcaa0c0-5d81-11f1-9eb5-ab3a963c44d3.jpg"
     },
     {
       "source": "BBC Business",
