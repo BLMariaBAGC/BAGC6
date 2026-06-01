@@ -1,5 +1,5 @@
 {
-  "updated": "31 May 2026, 22:58 UTC",
+  "updated": "01 Jun 2026, 03:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Put a £5 deposit on vapes to stop littering, say waste companies",
+      "link": "https://www.bbc.com/news/articles/c4g4vqex028o?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jun 2026",
+      "excerpt": "The industry body for waste companies says a refundable deposit would help boost vape recycling, but others disagree.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/520c/live/a9b4d820-5cea-11f1-81d4-4b01427112e9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "A year of grief and waiting: What remains when a plane falls from the sky",
+      "link": "https://www.bbc.com/news/articles/ce9pp53ky42o?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jun 2026",
+      "excerpt": "A year after the Air India crash, a mother still speaks about her dead son in the present tense and a brother waits for answers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb02/live/44600940-5b28-11f1-b682-cf91850925ea.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Secret tunnels and unregistered workers: China's coal mine disaster is a reminder of darker days",
+      "link": "https://www.bbc.com/news/articles/cpwpeg57777o?at_medium=RSS&at_campaign=rss",
+      "date": "31 May 2026",
+      "excerpt": "China's worst coal mining disaster in 15 years comes amid an ambitious pivot towards green energy.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2489/live/d26bb2d0-5b54-11f1-a62b-2f41c7c3a318.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Ferrari wanted to take on Chinese EVs with the Luce - then the backlash started",
       "link": "https://www.bbc.com/news/articles/c1l2y7j7454o?at_medium=RSS&at_campaign=rss",
       "date": "30 May 2026",
@@ -211,38 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why Britain's notoriously bad train wi-fi might soon be a thing of the past",
-      "link": "https://www.bbc.com/news/articles/cn8pn4l03r7o?at_medium=RSS&at_campaign=rss",
-      "date": "30 May 2026",
-      "excerpt": "How bad is the signal on our trains? We spoke to commuters to find out.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9fdb/live/de998c10-5b42-11f1-89a3-d1f559421220.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How a borough in Merseyside is bucking the UK's youth unemployment trend",
-      "link": "https://www.bbc.com/news/articles/cd6p9yyg64vo?at_medium=RSS&at_campaign=rss",
-      "date": "30 May 2026",
-      "excerpt": "Could personalised early intervention help prevent under-16s falling into the Neet trap?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a24c/live/f7d58210-5b42-11f1-9f9e-2f9c8c5baaa2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ex-M&S chief to help government tackle youth unemployment",
-      "link": "https://www.bbc.com/news/articles/cg5p9y25qj1o?at_medium=RSS&at_campaign=rss",
-      "date": "30 May 2026",
-      "excerpt": "Marc Bolland will advise on getting young people into work after a review warned of a \"lost generation\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f4d/live/380a7120-5c55-11f1-998d-a9332a228e20.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Humanoid robots 'the future' of car making, says BMW",
-      "link": "https://www.bbc.com/news/articles/cgmpwzzvxr2o?at_medium=RSS&at_campaign=rss",
-      "date": "28 May 2026",
-      "excerpt": "BMW is introducing humanoid robots to a car plant in Europe, building on similar projects in the US.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c2f/live/48e23e10-4dd7-11f1-bd52-e755d604ece4.jpg"
+      "title": "Caribbean hot sauce producers warn of shortages and higher prices",
+      "link": "https://www.bbc.com/news/articles/cq8p1jy3vxlo?at_medium=RSS&at_campaign=rss",
+      "date": "31 May 2026",
+      "excerpt": "Manufacturers in Jamaica say the key chilli peppers they need are in limited supply.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e926/live/495ad160-5a78-11f1-8954-638c887fc9b3.png"
     }
   ]
 }
