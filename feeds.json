@@ -1,6 +1,15 @@
 {
-  "updated": "02 Jun 2026, 08:28 UTC",
+  "updated": "02 Jun 2026, 14:00 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your brain starts making social decisions before you do",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260602021629.htm",
+      "date": "2 Jun 2026",
+      "excerpt": "Researchers found that social behavior begins in the brain before it becomes visible as movement. In zebrafish, a coordinated pattern of activity spread across the brain several seconds before the animals approached another fish. A higher b",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Researchers block key protein that helps Parkinson’s spread through the brain",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260527023214.htm",
-      "date": "28 May 2026",
-      "excerpt": "A newly identified protein called GPNMB may play a major role in helping Parkinson’s disease spread through the brain. Researchers discovered that immune cells release the protein in response to damaged neurons, creating a vicious cycle tha",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Big Tech’s Looming Capability Crisis",
+      "link": "https://hbr.org/2026/06/big-techs-looming-capability-crisis",
+      "date": "2 Jun 2026",
+      "excerpt": "Lessons from radiology on how automating output shouldn&#8217;t mean eliminating checks and guardrails.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Reinventing an Organization to Do More With Less",
+      "link": "https://hbr.org/podcast/2026/06/reinventing-an-organization-to-do-more-with-less",
+      "date": "2 Jun 2026",
+      "excerpt": "A conversation with humanitarian leader Kelly T. Clements on spearheading change amid challenging circumstances.",
       "image": ""
     },
     {
@@ -119,21 +137,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "10 Questions About Project-Driven Organizations, Answered",
-      "link": "https://hbr.org/2026/05/10-questions-about-project-driven-organizations-answered",
-      "date": "28 May 2026",
-      "excerpt": "Antonio Nieto-Rodriguez, author of &#8220;Powered by Projects,&#8221; on balancing operations with transformation, reducing hierarchy, and more.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Leading the Human-AI Organization",
-      "link": "https://hbr.org/2026/05/leading-the-human-ai-organization",
-      "date": "28 May 2026",
-      "excerpt": "Three CHROs on which skills matter most, how to build them at scale, and how to ensure leaders can guide organizations through rapid technological change.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Feeling like an impostor at work might not just be a “you problem”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/02/feeling-like-an-impostor-at-work-might-not-just-be-a-you-problem/",
+      "date": "2 Jun 2026",
+      "excerpt": "Feeling like an imposter at work can be isolating. But research shows that it is not only common, but that it does not necessarily diminish with professional success.Timothy Holmes and Daniel Jolles argue that if so many capable people expe",
       "image": ""
     },
     {
@@ -182,13 +191,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is big tech facing its big tobacco moment?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/21/is-big-tech-facing-its-big-tobacco-moment/",
-      "date": "21 May 2026",
-      "excerpt": "Fines placed on social media firms for harming customers are increasing. But they are not yet large enough to change behaviour. Rukaiyat Adebusola Yusuf compares tech to tobacco and argues that if litigation, regulation and public pressure ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-1024x561.png"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Instagram AI chatbot tricked by hackers to give access to others' accounts",
+      "link": "https://www.bbc.com/news/articles/c98rzr72dpyo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jun 2026",
+      "excerpt": "Some reports have linked the incident to recent cases of high-profile Instagram accounts being hijacked.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04d6/live/0af82d50-5e74-11f1-9bb7-93b44936b5cf.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Third of people say uni degree not worth it, as student loan inquiry begins",
+      "link": "https://www.bbc.com/news/articles/c2e29gk73rjo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jun 2026",
+      "excerpt": "MPs will hear the concerns of graduates about the size of their student debts, and the interest rates.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f590/live/18b3b930-5e67-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
@@ -202,11 +220,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Third of people say uni degree not worth it, as student loan inquiry begins",
-      "link": "https://www.bbc.com/news/articles/c2e29gk73rjo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jun 2026",
-      "excerpt": "MPs will hear the concerns of graduates about the size of their student debts, and the interest rates.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e782/live/9b276620-5dcf-11f1-8df1-db1a767f3e1d.jpg"
+      "title": "Post Office scandal victim dedicates OBE to 'sub-postmasters we have lost'",
+      "link": "https://www.bbc.com/news/videos/cx2186r2vj8o?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jun 2026",
+      "excerpt": "The 92-year-old said she dedicate the OBE to 'all sub-postmasters we have lost'.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a9a/live/6d28ffa0-5e64-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,24 +234,6 @@
       "date": "2 Jun 2026",
       "excerpt": "Chinese firms have been vying to secure deals with big stars as they push to become global brands.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9abb/live/e05033c0-5e16-11f1-979c-f74a1f312f08.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "London Tube strikes go ahead after talks fail",
-      "link": "https://www.bbc.com/news/articles/c4g01xv08weo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "Members of the RMT union are on strike on Tuesday in a row over working hours, with further action planned for Thursday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4ef/live/1a5ee250-5dd1-11f1-ad28-eda8e494639c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "OpenAI let ChatGPT aid and abet mass shooters, Florida lawsuit claims",
-      "link": "https://www.bbc.com/news/articles/czx2j0v8d2xo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jun 2026",
-      "excerpt": "Florida Attorney General James Uthmeier alleges OpenAI and boss Sam Altman built a 'web of deceit'",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56df/live/5b04bfb0-5df3-11f1-9565-ef0970da1cfe.jpg"
     },
     {
       "source": "BBC Business",
