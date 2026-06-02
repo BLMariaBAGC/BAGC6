@@ -1,5 +1,5 @@
 {
-  "updated": "02 Jun 2026, 03:47 UTC",
+  "updated": "02 Jun 2026, 08:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,20 +193,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "AI giant Anthropic says it plans to list on US stock market",
+      "title": "AI giant Anthropic plans to sell shares in US as valuation nears $1tn",
       "link": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jun 2026",
-      "excerpt": "The AI company behind Claude is set to offer the public shares of stock sometime this year.",
+      "date": "2 Jun 2026",
+      "excerpt": "The AI company behind Claude is set to offer the public the chance to buy and sell shares in the firm later this year.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92f7/live/51e59160-5dd6-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Wise under investigation over money laundering control concerns",
-      "link": "https://www.bbc.com/news/articles/cy42x8ye02vo?at_medium=RSS&at_campaign=rss",
+      "title": "Third of people say uni degree not worth it, as student loan inquiry begins",
+      "link": "https://www.bbc.com/news/articles/c2e29gk73rjo?at_medium=RSS&at_campaign=rss",
       "date": "1 Jun 2026",
-      "excerpt": "Wise says it is working with the Brussels prosecutor's office but that \"no specific findings have been shared with us to date\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76c5/live/ea1f58f0-5db6-11f1-8b6d-5b89cbb85786.jpg"
+      "excerpt": "MPs will hear the concerns of graduates about the size of their student debts, and the interest rates.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e782/live/9b276620-5dcf-11f1-8df1-db1a767f3e1d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Steph Curry signs with Chinese brand after Under Armour split",
+      "link": "https://www.bbc.com/news/articles/cj9pky3ldddo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jun 2026",
+      "excerpt": "Chinese firms have been vying to secure deals with big stars as they push to become global brands.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9abb/live/e05033c0-5e16-11f1-979c-f74a1f312f08.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "London Tube strikes go ahead after talks fail",
+      "link": "https://www.bbc.com/news/articles/c4g01xv08weo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jun 2026",
+      "excerpt": "Members of the RMT union are on strike on Tuesday in a row over working hours, with further action planned for Thursday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4ef/live/1a5ee250-5dd1-11f1-ad28-eda8e494639c.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,24 +234,6 @@
       "date": "1 Jun 2026",
       "excerpt": "Florida Attorney General James Uthmeier alleges OpenAI and boss Sam Altman built a 'web of deceit'",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56df/live/5b04bfb0-5df3-11f1-9565-ef0970da1cfe.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Abusive passengers could be blacklisted from all airlines under new proposal",
-      "link": "https://www.bbc.com/news/articles/c707pknywjno?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jun 2026",
-      "excerpt": "The scheme would allow airlines to share information on disruptive passengers and potentially restrict their access to flights.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/059f/live/a92328f0-5dba-11f1-89a3-d1f559421220.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK banks blocked from cyber AI tool Mythos get offer from rival OpenAI",
-      "link": "https://www.bbc.com/news/articles/cm2p3j6lvn7o?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jun 2026",
-      "excerpt": "Nine banks have been offered access to GPT 5.5 Cyber, as fierce rival Anthropic has blocked previews of its tool.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1da9/live/87ea54d0-5dae-11f1-8132-9508271dd882.jpg"
     },
     {
       "source": "BBC Business",
