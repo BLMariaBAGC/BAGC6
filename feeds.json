@@ -1,5 +1,5 @@
 {
-  "updated": "02 Jun 2026, 18:09 UTC",
+  "updated": "02 Jun 2026, 22:21 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Water firm fined £1.8m over parasite outbreak",
+      "link": "https://www.bbc.com/news/articles/c62xevydk05o?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jun 2026",
+      "excerpt": "Four people were hospitalised and there were more than 140 cases of sickness and diarrhoea in Devon.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/560f/live/b8c07b00-5e9b-11f1-be30-5d712cf191bd.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Instagram AI chatbot tricked by hackers to give access to others' accounts",
       "link": "https://www.bbc.com/news/articles/c98rzr72dpyo?at_medium=RSS&at_campaign=rss",
       "date": "2 Jun 2026",
@@ -211,29 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Microsoft says new quantum chip 1,000 times more reliable than predecessor",
+      "link": "https://www.bbc.com/news/articles/cj4p7gyvp52o?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jun 2026",
+      "excerpt": "The tech giant predicts it will have a quantum computer that can solve commercially useful problems by the end of the decade.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/823e/live/9bf6bfd0-5e9a-11f1-95ff-f5086c3b3d40.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Third of people say uni degree not worth it, as student loan inquiry begins",
       "link": "https://www.bbc.com/news/articles/c2e29gk73rjo?at_medium=RSS&at_campaign=rss",
       "date": "2 Jun 2026",
       "excerpt": "MPs will hear the concerns of graduates about the size of their student debts, and the interest rates.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f590/live/18b3b930-5e67-11f1-b682-cf91850925ea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI giant Anthropic plans to sell shares in US as valuation nears $1tn",
-      "link": "https://www.bbc.com/news/articles/c0k203kzp10o?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "The AI company behind Claude is set to offer the public the chance to buy and sell shares in the firm later this year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92f7/live/51e59160-5dd6-11f1-b682-cf91850925ea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Post Office scandal victim dedicates OBE to 'sub-postmasters we have lost'",
-      "link": "https://www.bbc.com/news/videos/cx2186r2vj8o?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "The 92-year-old said she dedicate the OBE to 'all sub-postmasters we have lost'.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a9a/live/6d28ffa0-5e64-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
