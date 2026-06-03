@@ -1,6 +1,15 @@
 {
-  "updated": "03 Jun 2026, 08:55 UTC",
+  "updated": "03 Jun 2026, 14:26 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists reverse anxiety by fixing a tiny brain circuit",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260603015356.htm",
+      "date": "3 Jun 2026",
+      "excerpt": "A newly identified group of amygdala neurons appears to play a central role in anxiety and social behavior. Restoring normal activity in this tiny brain circuit reversed anxiety and social deficits in mice, revealing a promising new target ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +17,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260602021645.htm",
       "date": "2 Jun 2026",
       "excerpt": "A major study suggests that some of the groundwork for brain development may be shaped before birth through a surprising partnership between a baby’s genes and gut microbes. Researchers found that epigenetic changes present at birth can inf",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Brain scans reveal two distinct types of autism",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260602021634.htm",
+      "date": "3 Jun 2026",
+      "excerpt": "Scientists have uncovered evidence that autism may include at least two biologically distinct subtypes, each marked by a different pattern of brain communication. By combining brain scans from nearly 1,000 people with autism with insights f",
       "image": ""
     },
     {
@@ -56,21 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Vitamin B12 and folate deficiencies linked to chronic fatigue",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260528082501.htm",
-      "date": "28 May 2026",
-      "excerpt": "Feeling constantly drained might not just be about poor sleep or working too hard. Researchers in Japan found that low levels of key vitamins — especially vitamin B12 and folate — may quietly contribute to fatigue and lack of motivation, ev",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Human organoids reveal how to reverse “irreversible” nerve damage",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260528082459.htm",
-      "date": "28 May 2026",
-      "excerpt": "Cambridge researchers created miniature brain-and-spinal-cord systems in the lab that can send signals and even trigger tiny muscle contractions. They discovered that human neurons gradually lose their ability to regrow after damage during ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The U.S. Research Talent Pipeline Is in Trouble",
+      "link": "https://hbr.org/2026/06/the-u-s-research-talent-pipeline-is-in-trouble",
+      "date": "3 Jun 2026",
+      "excerpt": "Researchers training in the United States are thinking about working elsewhere. Here&#8217;s how American companies should respond.",
       "image": ""
     },
     {
@@ -125,15 +134,6 @@
       "link": "https://hbr.org/2026/06/how-people-are-really-using-ai-in-2026",
       "date": "1 Jun 2026",
       "excerpt": "One new risk became more salient: letting AI think for you.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "A Year of Insight and Inspiration",
-      "link": "https://hbr.org/2026/05/a-year-of-insight-and-inspiration",
-      "date": "29 May 2026",
-      "excerpt": "On the first anniversary HBR Executive&#8217;s launch, editor at large Adi Ignatius shares a few highlights from the past year of conversations with CEOs.",
       "image": ""
     },
     {
@@ -193,7 +193,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Three quarters of workers not on track for 'moderate' pension income, report suggests",
+      "title": "US announces new tariffs over forced labour concerns",
+      "link": "https://www.bbc.com/news/articles/cq6pe7nvldmo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Jun 2026",
+      "excerpt": "It comes after the US Supreme Court struck down many of US President Donald Trump's previous duties in February.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8644/live/78de3db0-5f27-11f1-9da4-8b99067aa239.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Three-quarters of workers not on track for 'moderate' pension income, report suggests",
       "link": "https://www.bbc.com/news/articles/c3928m30v89o?at_medium=RSS&at_campaign=rss",
       "date": "2 Jun 2026",
       "excerpt": "A newly-published report suggests a moderate lifestyle in retirement costs £32,700 for one person and £45,400 for two.",
@@ -211,29 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Publishers in UK can opt out of Google AI search results",
-      "link": "https://www.bbc.com/news/articles/c775pp26yz5o?at_medium=RSS&at_campaign=rss",
+      "title": "Universal park officially named as government pledges £1.3bn",
+      "link": "https://www.bbc.com/news/articles/cn8p3zjx7pzo?at_medium=RSS&at_campaign=rss",
       "date": "3 Jun 2026",
-      "excerpt": "The Competition and Markets Authority says it would put publishers \"in a stronger position to negotiate content deals with Google\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f805/live/92789b10-5e9d-11f1-be30-5d712cf191bd.jpg"
+      "excerpt": "The government's contribution is going towards upgrading local infrastructure and transport links.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0fb/live/f47dd0d0-5f4e-11f1-ae51-c396b5163a64.png"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "King told me Post Office scandal was 'dreadful', says oldest victim",
-      "link": "https://www.bbc.com/news/articles/czr2dlerv0zo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "Betty Brown says she is accepting the honour on behalf of all the victims of the scandal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d128/live/be4ec750-5eed-11f1-8b8c-6d33e1d5abb6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Microsoft testing wearable AI gadget aimed at office workers",
-      "link": "https://www.bbc.com/news/articles/cwy25x97wrxo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "The company said its own workers are testing a \"wearable access badge\" and a desktop device.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1a4/live/e0ba4220-5ec4-11f1-b588-45cc931ea6f1.png"
+      "title": "Lloyds, Halifax and Bank of Scotland back after online banking outage",
+      "link": "https://www.bbc.com/news/articles/c9d37gdxp7xo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Jun 2026",
+      "excerpt": "\"We're aware some customers are having issues with our app and online banking. We're really sorry about this,\" Lloyds Bank posted on X.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b4c/live/ed2896a0-5f3d-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
