@@ -1,5 +1,5 @@
 {
-  "updated": "02 Jun 2026, 22:21 UTC",
+  "updated": "03 Jun 2026, 03:56 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,11 +193,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Three quarters of workers not on track for 'moderate' pension income, report suggests",
+      "link": "https://www.bbc.com/news/articles/c3928m30v89o?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jun 2026",
+      "excerpt": "A newly-published report suggests a moderate lifestyle in retirement costs £32,700 for one person and £45,400 for two.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8519/live/55388150-5ea4-11f1-9c69-5be5e9be5821.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Puffin and bumblebee among 18 creatures shortlisted to feature on banknotes",
+      "link": "https://www.bbc.com/news/articles/cvgzrpe6mzjo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jun 2026",
+      "excerpt": "The Bank of England is asking the public which animals should appear on future banknotes.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c174/live/30ee9420-5dbd-11f1-b682-cf91850925ea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "King told me Post Office scandal was 'dreadful', says oldest victim",
       "link": "https://www.bbc.com/news/articles/czr2dlerv0zo?at_medium=RSS&at_campaign=rss",
       "date": "2 Jun 2026",
       "excerpt": "Betty Brown says she is accepting the honour on behalf of all the victims of the scandal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9871/live/0f06b3e0-5e78-11f1-929d-ad528af5a4c7.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d128/live/be4ec750-5eed-11f1-8b8c-6d33e1d5abb6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Microsoft testing wearable AI gadget aimed at office workers",
+      "link": "https://www.bbc.com/news/articles/cwy25x97wrxo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jun 2026",
+      "excerpt": "The company said its own workers are testing a \"wearable access badge\" and a desktop device.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1a4/live/e0ba4220-5ec4-11f1-b588-45cc931ea6f1.png"
     },
     {
       "source": "BBC Business",
@@ -207,33 +234,6 @@
       "date": "2 Jun 2026",
       "excerpt": "Four people were hospitalised and there were more than 140 cases of sickness and diarrhoea in Devon.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/560f/live/b8c07b00-5e9b-11f1-be30-5d712cf191bd.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Instagram AI chatbot tricked by hackers to give access to others' accounts",
-      "link": "https://www.bbc.com/news/articles/c98rzr72dpyo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "Some reports have linked the incident to recent cases of high-profile Instagram accounts being hijacked.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04d6/live/0af82d50-5e74-11f1-9bb7-93b44936b5cf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Microsoft says new quantum chip 1,000 times more reliable than predecessor",
-      "link": "https://www.bbc.com/news/articles/cj4p7gyvp52o?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "The tech giant predicts it will have a quantum computer that can solve commercially useful problems by the end of the decade.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/823e/live/9bf6bfd0-5e9a-11f1-95ff-f5086c3b3d40.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Third of people say uni degree not worth it, as student loan inquiry begins",
-      "link": "https://www.bbc.com/news/articles/c2e29gk73rjo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "MPs will hear the concerns of graduates about the size of their student debts, and the interest rates.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f590/live/18b3b930-5e67-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
