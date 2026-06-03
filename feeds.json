@@ -1,5 +1,5 @@
 {
-  "updated": "03 Jun 2026, 03:56 UTC",
+  "updated": "03 Jun 2026, 08:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Puffin and bumblebee among 18 creatures shortlisted to feature on banknotes",
+      "title": "The 18 creatures in the running to be on the new banknotes",
       "link": "https://www.bbc.com/news/articles/cvgzrpe6mzjo?at_medium=RSS&at_campaign=rss",
       "date": "2 Jun 2026",
       "excerpt": "The Bank of England is asking the public which animals should appear on future banknotes.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c174/live/30ee9420-5dbd-11f1-b682-cf91850925ea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Publishers in UK can opt out of Google AI search results",
+      "link": "https://www.bbc.com/news/articles/c775pp26yz5o?at_medium=RSS&at_campaign=rss",
+      "date": "3 Jun 2026",
+      "excerpt": "The Competition and Markets Authority says it would put publishers \"in a stronger position to negotiate content deals with Google\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f805/live/92789b10-5e9d-11f1-be30-5d712cf191bd.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "2 Jun 2026",
       "excerpt": "The company said its own workers are testing a \"wearable access badge\" and a desktop device.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1a4/live/e0ba4220-5ec4-11f1-b588-45cc931ea6f1.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Water firm fined £1.8m over parasite outbreak",
-      "link": "https://www.bbc.com/news/articles/c62xevydk05o?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "Four people were hospitalised and there were more than 140 cases of sickness and diarrhoea in Devon.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/560f/live/b8c07b00-5e9b-11f1-be30-5d712cf191bd.jpg"
     },
     {
       "source": "BBC Business",
