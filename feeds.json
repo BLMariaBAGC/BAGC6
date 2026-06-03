@@ -1,5 +1,5 @@
 {
-  "updated": "03 Jun 2026, 19:47 UTC",
+  "updated": "03 Jun 2026, 22:27 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How to Cultivate Your “Personal Power” as a Leader",
+      "link": "https://hbr.org/podcast/2026/06/how-to-cultivate-your-personal-power-as-a-leader",
+      "date": "3 Jun 2026",
+      "excerpt": "A conversation with Tulane University&#8217;s Chris Lipp on how to drive impact and influence regardless of where you sit on the org chart.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: When Consumers Have More Control Over Ads, They Respond Better",
+      "link": "https://hbr.org/2026/06/research-when-consumers-have-more-control-over-ads-they-respond-better",
+      "date": "3 Jun 2026",
+      "excerpt": "A smartly deployed choice menu can provide viewers, platforms, and advertisers more of what they all want.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: What Interruptions Reveal About Company Culture",
+      "link": "https://hbr.org/2026/06/research-what-interruptions-reveal-about-company-culture",
+      "date": "3 Jun 2026",
+      "excerpt": "Stop treating interruptions as isolated incidents and start reading them as data.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The U.S. Research Talent Pipeline Is in Trouble",
       "link": "https://hbr.org/2026/06/the-u-s-research-talent-pipeline-is-in-trouble",
       "date": "3 Jun 2026",
@@ -103,37 +130,10 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
-      "title": "Reinventing an Organization to Do More With Less",
+      "title": "Reinventing an Organization to Do More with Less",
       "link": "https://hbr.org/podcast/2026/06/reinventing-an-organization-to-do-more-with-less",
       "date": "2 Jun 2026",
       "excerpt": "A conversation with humanitarian leader Kelly T. Clements on spearheading change amid challenging circumstances.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Companies Are Using AI for Efficiency. They Should Use It to Grow.",
-      "link": "https://hbr.org/2026/06/companies-are-using-ai-for-efficiency-they-should-use-it-to-grow",
-      "date": "1 Jun 2026",
-      "excerpt": "Cost-cutting alone is shortsighted.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Turn Privacy Regulation into a Competitive Advantage",
-      "link": "https://hbr.org/2026/06/turn-privacy-regulation-into-a-competitive-advantage",
-      "date": "1 Jun 2026",
-      "excerpt": "New research shows how it reshapes the timing of costs and benefits.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How People Are Really Using AI in 2026",
-      "link": "https://hbr.org/2026/06/how-people-are-really-using-ai-in-2026",
-      "date": "1 Jun 2026",
-      "excerpt": "One new risk became more salient: letting AI think for you.",
       "image": ""
     },
     {
