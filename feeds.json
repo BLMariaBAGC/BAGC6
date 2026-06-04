@@ -1,5 +1,5 @@
 {
-  "updated": "04 Jun 2026, 03:51 UTC",
+  "updated": "04 Jun 2026, 08:19 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,11 +193,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "SpaceX says it’s worth $1.75tn as it nears stock market debut",
+      "title": "SpaceX says it's worth $1.75tn as it targets largest stock market debut",
       "link": "https://www.bbc.com/news/articles/cvgz237n40jo?at_medium=RSS&at_campaign=rss",
       "date": "4 Jun 2026",
-      "excerpt": "Elon Musk’s space exploration company set a target price for buyers earlier than expected.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d260/live/b4a84e40-5f99-11f1-994c-dd7b6299b2d3.jpg"
+      "excerpt": "Elon Musk’s space exploration company set a target share price for buyers earlier than expected.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5001/live/a6369a80-5fe2-11f1-a292-23ac7fbac375.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,15 +220,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The 18 creatures in the running to be on the new banknotes",
-      "link": "https://www.bbc.com/news/articles/cvgzrpe6mzjo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "The Bank of England is asking the public which animals should appear on future banknotes.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c174/live/30ee9420-5dbd-11f1-b682-cf91850925ea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Universal park officially named as government pledges £1.3bn",
       "link": "https://www.bbc.com/news/articles/cn8p3zjx7pzo?at_medium=RSS&at_campaign=rss",
       "date": "3 Jun 2026",
@@ -238,7 +229,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'It is by the grace of God that you find a diamond'",
+      "title": "The 18 creatures in the running to be on the new banknotes",
+      "link": "https://www.bbc.com/news/articles/cvgzrpe6mzjo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jun 2026",
+      "excerpt": "The Bank of England is asking the public which animals should appear on future banknotes.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c174/live/30ee9420-5dbd-11f1-b682-cf91850925ea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'By the grace of God': Miners dig on as lab-grown diamonds change market",
       "link": "https://www.bbc.com/news/articles/czx2jqvwp7go?at_medium=RSS&at_campaign=rss",
       "date": "3 Jun 2026",
       "excerpt": "The rising popularity of lab-grown diamonds heaps pressure on those hunting for the natural gems.",
