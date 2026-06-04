@@ -1,5 +1,5 @@
 {
-  "updated": "04 Jun 2026, 08:19 UTC",
+  "updated": "04 Jun 2026, 12:43 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How Chinese Firms Are Saving Western Brands",
+      "link": "https://hbr.org/2026/06/how-chinese-firms-are-saving-western-brands",
+      "date": "4 Jun 2026",
+      "excerpt": "Emerging-market firms are rewriting the rules of global competition.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How to Cultivate Your “Personal Power” as a Leader",
       "link": "https://hbr.org/podcast/2026/06/how-to-cultivate-your-personal-power-as-a-leader",
       "date": "3 Jun 2026",
@@ -139,10 +148,19 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Legal protections to free speech foster better entrepreneurship",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/03/legal-protections-to-free-speech-foster-better-entrepreneurship/",
+      "date": "3 Jun 2026",
+      "excerpt": "Startups rely on narratives rather than cash flows to attract investors. When firms can silence critics, such as journalists or whistleblowers, through lawsuits, weak ventures survive longer than they should. Swarnodeep Homroy and Panagiota",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Feeling like an impostor at work might not just be a “you problem”",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/02/feeling-like-an-impostor-at-work-might-not-just-be-a-you-problem/",
       "date": "2 Jun 2026",
-      "excerpt": "Feeling like an imposter at work can be isolating. But research shows that it is not only common, but that it does not necessarily diminish with professional success.Timothy Holmes and Daniel Jolles argue that if so many capable people expe",
+      "excerpt": "Feeling like an imposter at work can be isolating. But research shows that it is not only common, but that it does not necessarily diminish with professional success. Timothy Holmes and Daniel Jolles argue that if so many capable people exp",
       "image": ""
     },
     {
@@ -182,15 +200,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-one-1.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Precarious jobs caused by economic and political disruption are causing burnout among cabin crew",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/22/precarious-jobs-caused-by-economic-and-political-disruption-are-causing-burnout-among-cabin-crew/",
-      "date": "22 May 2026",
-      "excerpt": "Cabin crew keep us safe whilst flying. It is time to support better conditions for their future working lives. Stephanie Preston, Stephen Teo, John Blenkinsopp and Clare Cook&#8216;s study of aviation workers in Britain found that precariou",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "SpaceX says it's worth $1.75tn as it targets largest stock market debut",
@@ -202,11 +211,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US announces new tariffs over forced labour concerns",
-      "link": "https://www.bbc.com/news/articles/cq6pe7nvldmo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Jun 2026",
-      "excerpt": "It comes after the US Supreme Court struck down many of US President Donald Trump's previous duties in February.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8644/live/78de3db0-5f27-11f1-9da4-8b99067aa239.jpg"
+      "title": "'I lost thousands in savings and my partner's money is in limbo'",
+      "link": "https://www.bbc.com/news/articles/c15215lz3k0o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Jun 2026",
+      "excerpt": "The number of people withdrawing money from a LISA is outpacing the number using one to buy a home. Why?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bdb/live/65705f30-5e94-11f1-926a-77cd300adf90.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Who is Elon Musk and what is his net worth?",
+      "link": "https://www.bbc.com/news/articles/c0r1975ded7o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Jun 2026",
+      "excerpt": "The boss of X, Tesla and SpaceX is the world's richest person and has used his platform to make his views known on a vast array of topics.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cf7/live/b34f22f0-3c7a-11f0-a0e7-01d93af84155.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Universal park officially named as government pledges £1.3bn",
       "link": "https://www.bbc.com/news/articles/cn8p3zjx7pzo?at_medium=RSS&at_campaign=rss",
       "date": "3 Jun 2026",
       "excerpt": "The government's contribution is going towards upgrading local infrastructure and transport links.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0fb/live/f47dd0d0-5f4e-11f1-ae51-c396b5163a64.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The 18 creatures in the running to be on the new banknotes",
-      "link": "https://www.bbc.com/news/articles/cvgzrpe6mzjo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "The Bank of England is asking the public which animals should appear on future banknotes.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c174/live/30ee9420-5dbd-11f1-b682-cf91850925ea.jpg"
     },
     {
       "source": "BBC Business",
