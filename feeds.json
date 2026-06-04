@@ -1,5 +1,5 @@
 {
-  "updated": "04 Jun 2026, 12:43 UTC",
+  "updated": "04 Jun 2026, 16:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Your Company Needs an Energy Strategy for AI’s Next Phase",
+      "link": "https://hbr.org/2026/06/your-company-needs-an-energy-strategy-for-ais-next-phase",
+      "date": "4 Jun 2026",
+      "excerpt": "Organizations need a plan to measure, reduce, contract for, and strategically locate their compute.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How Chinese Firms Are Saving Western Brands",
       "link": "https://hbr.org/2026/06/how-chinese-firms-are-saving-western-brands",
       "date": "4 Jun 2026",
@@ -137,67 +146,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Reinventing an Organization to Do More with Less",
-      "link": "https://hbr.org/podcast/2026/06/reinventing-an-organization-to-do-more-with-less",
-      "date": "2 Jun 2026",
-      "excerpt": "A conversation with humanitarian leader Kelly T. Clements on spearheading change amid challenging circumstances.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Legal protections to free speech foster better entrepreneurship",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/03/legal-protections-to-free-speech-foster-better-entrepreneurship/",
-      "date": "3 Jun 2026",
-      "excerpt": "Startups rely on narratives rather than cash flows to attract investors. When firms can silence critics, such as journalists or whistleblowers, through lawsuits, weak ventures survive longer than they should. Swarnodeep Homroy and Panagiota",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Feeling like an impostor at work might not just be a “you problem”",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/02/feeling-like-an-impostor-at-work-might-not-just-be-a-you-problem/",
-      "date": "2 Jun 2026",
-      "excerpt": "Feeling like an imposter at work can be isolating. But research shows that it is not only common, but that it does not necessarily diminish with professional success. Timothy Holmes and Daniel Jolles argue that if so many capable people exp",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Does Chapter 11 bankruptcy drive away customers – or did losing customers cause the bankruptcy?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/01/does-chapter-11-bankruptcy-drive-away-customers-or-did-losing-customers-cause-the-bankruptcy/",
-      "date": "1 Jun 2026",
-      "excerpt": "Many firms continue to trade after bankruptcy. But how do their customers react when they file? Samuel Antill and Megan Hunter untangle the causes and the impact of the bankruptcy and show how customers’ attitudes depend on the nature of th",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Which market will dominate the semiconductor industry in the next decade?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/29/which-market-will-dominate-the-semiconductor-industry-in-the-next-decade/",
-      "date": "29 May 2026",
-      "excerpt": "While China is approaching self-sufficiency, America’s ambitions are restrained by structural limits and Europe’s regulatory clarity is undermined by strategic ambiguity. Bruno Sergi and Mark Esposito argue that the 2030s will not be won us",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Screenshot-2026-05-29-085733.png"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How countries write their AI strategies – mapping the many models of governance",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/28/how-countries-write-their-ai-strategies-mapping-the-many-models-of-governance/",
-      "date": "28 May 2026",
-      "excerpt": "In penning their national AI strategies governments are not only deciding how to regulate AI. They are also defining what AI should deliver, from economic growth to public-sector transformation. A text-based analysis using x.Machina, the op",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-2.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What economic shocks mean matters as much as the shocks themselves",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/27/what-economic-shocks-mean-matters-as-much-as-the-shocks-themselves/",
-      "date": "27 May 2026",
-      "excerpt": "The stories firms, households and investors tell themselves about the economy can shape growth, investment and unemployment as much as policy or market structure. Biagio Bossone argues that this is not just a theoretical argument for macroe",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-one-1.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Musk's SpaceX share sale: Four things you need to know",
+      "link": "https://www.bbc.com/news/articles/czx299wpp56o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Jun 2026",
+      "excerpt": "From next week individual investors can take a stake in Musk's rockets-to-AI company.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cd5/live/af032710-6022-11f1-95e8-2f6b295436fc.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,6 +166,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Why is government spending £1.3bn on Universal UK?",
+      "link": "https://www.bbc.com/news/articles/c1e2wdzn751o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Jun 2026",
+      "excerpt": "The government is committing many millions of pounds to the new theme park planned for Bedfordshire.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e8d8/live/87e21350-5f62-11f1-8b8c-6d33e1d5abb6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'I lost thousands in savings and my partner's money is in limbo'",
       "link": "https://www.bbc.com/news/articles/c15215lz3k0o?at_medium=RSS&at_campaign=rss",
       "date": "4 Jun 2026",
@@ -220,29 +184,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Three-quarters of workers not on track for 'moderate' pension income, report suggests",
-      "link": "https://www.bbc.com/news/articles/c3928m30v89o?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jun 2026",
-      "excerpt": "A newly-published report suggests a moderate lifestyle in retirement costs £32,700 for one person and £45,400 for two.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8519/live/55388150-5ea4-11f1-9c69-5be5e9be5821.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Who is Elon Musk and what is his net worth?",
       "link": "https://www.bbc.com/news/articles/c0r1975ded7o?at_medium=RSS&at_campaign=rss",
       "date": "4 Jun 2026",
       "excerpt": "The boss of X, Tesla and SpaceX is the world's richest person and has used his platform to make his views known on a vast array of topics.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cf7/live/b34f22f0-3c7a-11f0-a0e7-01d93af84155.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Universal park officially named as government pledges £1.3bn",
-      "link": "https://www.bbc.com/news/articles/cn8p3zjx7pzo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Jun 2026",
-      "excerpt": "The government's contribution is going towards upgrading local infrastructure and transport links.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0fb/live/f47dd0d0-5f4e-11f1-ae51-c396b5163a64.png"
     },
     {
       "source": "BBC Business",
