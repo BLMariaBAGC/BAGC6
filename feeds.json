@@ -1,5 +1,5 @@
 {
-  "updated": "03 Jun 2026, 22:27 UTC",
+  "updated": "04 Jun 2026, 03:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,6 +137,69 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Feeling like an impostor at work might not just be a “you problem”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/02/feeling-like-an-impostor-at-work-might-not-just-be-a-you-problem/",
+      "date": "2 Jun 2026",
+      "excerpt": "Feeling like an imposter at work can be isolating. But research shows that it is not only common, but that it does not necessarily diminish with professional success.Timothy Holmes and Daniel Jolles argue that if so many capable people expe",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Does Chapter 11 bankruptcy drive away customers – or did losing customers cause the bankruptcy?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/01/does-chapter-11-bankruptcy-drive-away-customers-or-did-losing-customers-cause-the-bankruptcy/",
+      "date": "1 Jun 2026",
+      "excerpt": "Many firms continue to trade after bankruptcy. But how do their customers react when they file? Samuel Antill and Megan Hunter untangle the causes and the impact of the bankruptcy and show how customers’ attitudes depend on the nature of th",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Which market will dominate the semiconductor industry in the next decade?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/29/which-market-will-dominate-the-semiconductor-industry-in-the-next-decade/",
+      "date": "29 May 2026",
+      "excerpt": "While China is approaching self-sufficiency, America’s ambitions are restrained by structural limits and Europe’s regulatory clarity is undermined by strategic ambiguity. Bruno Sergi and Mark Esposito argue that the 2030s will not be won us",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Screenshot-2026-05-29-085733.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How countries write their AI strategies – mapping the many models of governance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/28/how-countries-write-their-ai-strategies-mapping-the-many-models-of-governance/",
+      "date": "28 May 2026",
+      "excerpt": "In penning their national AI strategies governments are not only deciding how to regulate AI. They are also defining what AI should deliver, from economic growth to public-sector transformation. A text-based analysis using x.Machina, the op",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-2.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What economic shocks mean matters as much as the shocks themselves",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/27/what-economic-shocks-mean-matters-as-much-as-the-shocks-themselves/",
+      "date": "27 May 2026",
+      "excerpt": "The stories firms, households and investors tell themselves about the economy can shape growth, investment and unemployment as much as policy or market structure. Biagio Bossone argues that this is not just a theoretical argument for macroe",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-one-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Precarious jobs caused by economic and political disruption are causing burnout among cabin crew",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/22/precarious-jobs-caused-by-economic-and-political-disruption-are-causing-burnout-among-cabin-crew/",
+      "date": "22 May 2026",
+      "excerpt": "Cabin crew keep us safe whilst flying. It is time to support better conditions for their future working lives. Stephanie Preston, Stephen Teo, John Blenkinsopp and Clare Cook&#8216;s study of aviation workers in Britain found that precariou",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "SpaceX says it’s worth $1.75tn as it nears stock market debut",
+      "link": "https://www.bbc.com/news/articles/cvgz237n40jo?at_medium=RSS&at_campaign=rss",
+      "date": "4 Jun 2026",
+      "excerpt": "Elon Musk’s space exploration company set a target price for buyers earlier than expected.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d260/live/b4a84e40-5f99-11f1-994c-dd7b6299b2d3.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "US announces new tariffs over forced labour concerns",
@@ -175,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Lloyds, Halifax and Bank of Scotland back after online banking outage",
-      "link": "https://www.bbc.com/news/articles/c9d37gdxp7xo?at_medium=RSS&at_campaign=rss",
+      "title": "'It is by the grace of God that you find a diamond'",
+      "link": "https://www.bbc.com/news/articles/czx2jqvwp7go?at_medium=RSS&at_campaign=rss",
       "date": "3 Jun 2026",
-      "excerpt": "\"We're aware some customers are having issues with our app and online banking. We're really sorry about this,\" Lloyds Bank posted on X.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b4c/live/ed2896a0-5f3d-11f1-89a3-d1f559421220.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How 'confused' AI rollout hurts firms and baffles staff",
-      "link": "https://www.bbc.com/news/articles/c74d1ydv01eo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jun 2026",
-      "excerpt": "Some firms are putting pressure on staff to use AI, but have not thought through their AI rollout.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7c7/live/85925530-5033-11f1-89a3-d1f559421220.jpg"
+      "excerpt": "The rising popularity of lab-grown diamonds heaps pressure on those hunting for the natural gems.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/24bc/live/3c749e20-5e7b-11f1-ab70-cdbb605c4a31.jpg"
     }
   ]
 }
