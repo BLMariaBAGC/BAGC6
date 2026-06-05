@@ -1,5 +1,5 @@
 {
-  "updated": "05 Jun 2026, 16:28 UTC",
+  "updated": "05 Jun 2026, 19:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Why do workers from different countries exhibit resilience differently?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/05/why-do-workers-from-different-countries-exhibit-resilience-differently/",
+      "date": "5 Jun 2026",
+      "excerpt": "Even in the cutthroat world of investment banking, emotional strength is not enough to allow workers to cope with market turmoil. Organisational culture and social interactions matter. By comparing workplaces in Türkiye and Nigeria, Emmanue",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "What F1 and MotoGP Sprint races reveal about designing memorable experiences",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/04/what-f1-and-motogp-sprint-races-reveal-about-designing-memorable-experiences/",
       "date": "4 Jun 2026",
@@ -191,15 +200,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Screenshot-2026-05-29-085733.png"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How countries write their AI strategies – mapping the many models of governance",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/28/how-countries-write-their-ai-strategies-mapping-the-many-models-of-governance/",
-      "date": "28 May 2026",
-      "excerpt": "In penning their national AI strategies governments are not only deciding how to regulate AI. They are also defining what AI should deliver, from economic growth to public-sector transformation. A text-based analysis using x.Machina, the op",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-2.jpg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "We need to stop AI developing without humans, says Anthropic co-founder",
@@ -207,6 +207,15 @@
       "date": "5 Jun 2026",
       "excerpt": "Jack Clark tells BBC's Newsnight AI could get to the point where it develops without human input.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f663/live/f9d74be0-602c-11f1-95b8-61705f259545.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump to meet AI leaders to discuss US investment in their companies",
+      "link": "https://www.bbc.com/news/articles/c98r8r7dz5no?at_medium=RSS&at_campaign=rss",
+      "date": "5 Jun 2026",
+      "excerpt": "The US president said on Friday he expects to meet the leaders of top AI companies next week.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d3c/live/e9f73f00-610d-11f1-9134-bfd933b9750c.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "5 Jun 2026",
       "excerpt": "It is the third month in a row US jobs figures have beaten expectations.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d986/live/bdc2db70-60e4-11f1-82ca-1380a42b6773.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "British Heart Foundation plans to close 150 charity shops",
-      "link": "https://www.bbc.com/news/articles/cvgzg48d9q0o?at_medium=RSS&at_campaign=rss",
-      "date": "5 Jun 2026",
-      "excerpt": "The charity says it is facing \"an exceptionally challenging trading environment\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b5b/live/452c6a40-6068-11f1-89f7-47e36b8faab0.jpg"
     },
     {
       "source": "BBC Business",
