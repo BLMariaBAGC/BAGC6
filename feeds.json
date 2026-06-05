@@ -1,5 +1,5 @@
 {
-  "updated": "05 Jun 2026, 12:35 UTC",
+  "updated": "05 Jun 2026, 16:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Finding Your New Strategic Center",
+      "link": "https://hbr.org/2026/06/finding-your-new-strategic-center",
+      "date": "5 Jun 2026",
+      "excerpt": "Columbia Business School professor Rita McGrath previews &#8220;The Power of Strategic Centering,&#8221; an article from HBR&#8217;s upcoming July-August 2026.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "AI Is Rewriting the Economics of Outsourcing",
+      "link": "https://hbr.org/2026/06/ai-is-rewriting-the-economics-of-outsourcing",
+      "date": "5 Jun 2026",
+      "excerpt": "Companies must reconsider what they own and what they buy.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What a Fragmenting Digital Economy Means for Global Competition",
+      "link": "https://hbr.org/2026/06/what-a-fragmenting-digital-economy-means-for-global-competition",
+      "date": "5 Jun 2026",
+      "excerpt": "A new index of 125 countries reveals where innovation is growing and where it&#8217;s stalling out.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Your Company Needs an Energy Strategy for AI’s Next Phase",
       "link": "https://hbr.org/2026/06/your-company-needs-an-energy-strategy-for-ais-next-phase",
       "date": "4 Jun 2026",
@@ -116,42 +143,6 @@
       "link": "https://hbr.org/2026/06/research-what-interruptions-reveal-about-company-culture",
       "date": "3 Jun 2026",
       "excerpt": "Stop treating interruptions as isolated incidents and start reading them as data.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The U.S. Research Talent Pipeline Is in Trouble",
-      "link": "https://hbr.org/2026/06/the-u-s-research-talent-pipeline-is-in-trouble",
-      "date": "3 Jun 2026",
-      "excerpt": "Researchers training in the United States are thinking about working elsewhere. Here&#8217;s how American companies should respond.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Power of Knowing Your Stress Patterns",
-      "link": "https://hbr.org/2026/06/the-power-of-knowing-your-stress-patterns",
-      "date": "2 Jun 2026",
-      "excerpt": "In the June 1, 2026, edition of The Insider, managing editor Gretchen Gavett highlights how leaders can manage their stress responses and a reimagining of SaaS strategies in the age of AI.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Big Tech’s Looming Capability Crisis",
-      "link": "https://hbr.org/2026/06/big-techs-looming-capability-crisis",
-      "date": "2 Jun 2026",
-      "excerpt": "Lessons from radiology on how automating output shouldn&#8217;t mean eliminating checks and guardrails.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Why do workers from different countries exhibit resilience differently?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/05/why-do-workers-from-different-countries-exhibit-resilience-differently/",
-      "date": "5 Jun 2026",
-      "excerpt": "Even in the cutthroat world of investment banking, emotional strength is not enough to allow workers to cope with market turmoil. Organisational culture and social interactions matter. By comparing workplaces in Türkiye and Nigeria, Emmanue",
       "image": ""
     },
     {
@@ -200,6 +191,15 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Screenshot-2026-05-29-085733.png"
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How countries write their AI strategies – mapping the many models of governance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/28/how-countries-write-their-ai-strategies-mapping-the-many-models-of-governance/",
+      "date": "28 May 2026",
+      "excerpt": "In penning their national AI strategies governments are not only deciding how to regulate AI. They are also defining what AI should deliver, from economic growth to public-sector transformation. A text-based analysis using x.Machina, the op",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Figure-1-2.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "We need to stop AI developing without humans, says Anthropic co-founder",
@@ -220,29 +220,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Is there an AI stock market bubble, and is it ready to burst?",
+      "link": "https://www.bbc.com/news/videos/c1m2mr7gr27o?at_medium=RSS&at_campaign=rss",
+      "date": "5 Jun 2026",
+      "excerpt": "Despite the Iran war, inflation and debt fears, US markets keep hitting record highs, fueled largely by AI. BBC's Samira Hussain looks into whether that bubble will burst.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3047/live/39bcce30-6049-11f1-8b8c-6d33e1d5abb6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Hospitality jobs boom as US prepares for World Cup",
+      "link": "https://www.bbc.com/news/articles/cdxpx4gel1yo?at_medium=RSS&at_campaign=rss",
+      "date": "5 Jun 2026",
+      "excerpt": "It is the third month in a row US jobs figures have beaten expectations.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d986/live/bdc2db70-60e4-11f1-82ca-1380a42b6773.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "British Heart Foundation plans to close 150 charity shops",
       "link": "https://www.bbc.com/news/articles/cvgzg48d9q0o?at_medium=RSS&at_campaign=rss",
       "date": "5 Jun 2026",
       "excerpt": "The charity says it is facing \"an exceptionally challenging trading environment\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b5b/live/452c6a40-6068-11f1-89f7-47e36b8faab0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Single 20-somethings need AI to make first move on dating apps - Hinge boss",
-      "link": "https://www.bbc.com/news/articles/c052397y6ygo?at_medium=RSS&at_campaign=rss",
-      "date": "4 Jun 2026",
-      "excerpt": "Jackie Jantos says loneliness and lack of confidence were challenges for young adults looking for relationships.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d364/live/1376fe00-6033-11f1-9792-c579e9d62a5f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "China cracks down on soft porn, violence and materialism in viral micro dramas",
-      "link": "https://www.bbc.com/news/articles/clypy34pj6yo?at_medium=RSS&at_campaign=rss",
-      "date": "5 Jun 2026",
-      "excerpt": "Micro dramas have surged in popularity, but drawn criticism for often sensationalist content.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01fe/live/b7319ce0-6078-11f1-8ba8-b772d95cbb2a.jpg"
     },
     {
       "source": "BBC Business",
