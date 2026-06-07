@@ -1,5 +1,5 @@
 {
-  "updated": "07 Jun 2026, 11:27 UTC",
+  "updated": "07 Jun 2026, 11:39 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,6 +220,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Cosmeticorexia: How girls are falling down a skincare rabbit hole",
+      "link": "https://www.bbc.com/news/articles/cx212x41evwo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Jun 2026",
+      "excerpt": "Fuelled by social media, the market for children's skincare is booming. Experts fear for the long-term impact on girls",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36a1/live/95f7c8d0-60e4-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Fizzy drink cans recalled as they 'may rupture unexpectedly'",
       "link": "https://www.bbc.com/news/articles/ce8j0mxy28do?at_medium=RSS&at_campaign=rss",
       "date": "6 Jun 2026",
@@ -234,15 +243,6 @@
       "date": "5 Jun 2026",
       "excerpt": "Jack Clark tells BBC's Newsnight AI could get to the point where it develops without human input.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f663/live/f9d74be0-602c-11f1-95b8-61705f259545.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump to meet AI leaders to discuss US investment in their companies",
-      "link": "https://www.bbc.com/news/articles/c98r8r7dz5no?at_medium=RSS&at_campaign=rss",
-      "date": "5 Jun 2026",
-      "excerpt": "The US president said on Friday he expects to meet the leaders of top AI companies next week.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d3c/live/e9f73f00-610d-11f1-9134-bfd933b9750c.jpg"
     },
     {
       "source": "BBC Business",
