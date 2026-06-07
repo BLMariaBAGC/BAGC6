@@ -1,5 +1,5 @@
 {
-  "updated": "07 Jun 2026, 12:11 UTC",
+  "updated": "07 Jun 2026, 12:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "M&S launches new traineeship for 1,000 young people",
+      "link": "https://www.bbc.com/news/articles/cr7xr3dvxp9o?at_medium=RSS&at_campaign=rss",
+      "date": "7 Jun 2026",
+      "excerpt": "The scheme aims to tackle the \"growing challenge\" of young people not in employment, education, or training.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bb4/live/57ade640-6256-11f1-be00-fb33099ec41d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Cake sheds are making bakers £1,000 a week - but the dream might be over",
       "link": "https://www.bbc.com/news/articles/crlpwd2prd0o?at_medium=RSS&at_campaign=rss",
       "date": "6 Jun 2026",
@@ -234,15 +243,6 @@
       "date": "6 Jun 2026",
       "excerpt": "Dalston's Pineapple Soda as asking people to throw away affected cans of its pineapple drink over fears they could cause injury.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63c2/live/3d0d9b00-61b6-11f1-bd2b-bf85d34aede9.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "We need to stop AI developing without humans, says Anthropic co-founder",
-      "link": "https://www.bbc.com/news/articles/cx2124z7g45o?at_medium=RSS&at_campaign=rss",
-      "date": "5 Jun 2026",
-      "excerpt": "Jack Clark tells BBC's Newsnight AI could get to the point where it develops without human input.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f663/live/f9d74be0-602c-11f1-95b8-61705f259545.jpg"
     },
     {
       "source": "BBC Business",
