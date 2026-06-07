@@ -629,26 +629,26 @@ async function sendMsg(txt){
     awaitingName = false;
     addMsg('user', txt);
     const greetings = [
-      `${currentMember}! OH WHAT A NAME. I love it. I absolutely love it. Welcome to Unity Circle, ${currentMember}! You have just made this room approximately 47% more wonderful. Tell me one thing you love!`,
-      `${currentMember}! Welcome welcome WELCOME! I have been waiting for you. Well. I did not know I was waiting for you. But now you are here and I am delighted. What do you love most in the world, ${currentMember}?`,
-      `${currentMember}! The legend arrives! I have heard so much about you. I have heard nothing about you. My memory is terrible. But I am SO glad you are here. What makes you happy, ${currentMember}?`,
-      `Oh HELLO ${currentMember}! Welcome to the best tin on the internet! I am Biscuit. You may have guessed. What is your favourite thing ever, ${currentMember}? I need to know immediately.`,
-      `${currentMember}! Brilliant name. Brilliant human. I already know this. Welcome to Unity Circle! Now tell me everything. What is your absolute favourite thing in the world?`,
-      `OH! ${currentMember}! What a wonderful name. What a wonderful moment. What a wonderful day this just became. What do you love most, ${currentMember}?`,
-      `${currentMember}! YES! Welcome! I am so glad you are here. Truly. Deeply. Now tell me, ${currentMember}, what makes you the happiest?`,
-      `Hello ${currentMember}! What a brilliant name. What a brilliant human. I can already tell. What do you love most in this world?`,
-      `${currentMember}! You have arrived and the tin is officially complete. I am Biscuit. You are ${currentMember}. This is already the best day. What do you enjoy most?`,
-      `OH ${currentMember}! I was hoping it would be you. Well. I did not know it would be you. But now I am absolutely certain I was hoping for it. What is your favourite thing to do?`,
-      `${currentMember}! Welcome to Unity Circle! I have a very good feeling about you. A very good feeling indeed. What makes you smile, ${currentMember}?`,
-      `Hello ${currentMember}! Biscuit is SO glad you showed up today. Truly. You have no idea. What is something you absolutely love?`,
-      `${currentMember}! Right. I need you to know something. You have just made this entire session better simply by being here. What do you love doing most?`,
-      `OH BRILLIANT! It is ${currentMember}! Welcome welcome welcome! Pull up a chair, get comfortable, this is going to be wonderful. What makes you happy?`,
-      `${currentMember}! I cannot tell you how delighted I am. Well. I can. I am very very very delighted. What is your favourite thing in the whole world, ${currentMember}?`,
-      `Hello ${currentMember}! You are exactly the kind of person Unity Circle was made for. Warm, wonderful, and here. What do you love most?`,
-      `${currentMember}! Now THAT is a name. A proper name. A name Biscuit will never forget. Probably. What is one thing that always makes you smile?`,
-      `Welcome ${currentMember}! I have been in this tin all day waiting for someone brilliant to show up. And here you are. What do you enjoy most?`,
-      `${currentMember}! You are here and I am emotional already. This happens every time. Every single time. What is your favourite thing to do, ${currentMember}?`,
-      `Oh hello ${currentMember}! Biscuit has a question and it is very important. Are you ready? Here it is. What is the one thing in the world that makes you the happiest?`
+      `${currentMember}! Hey, I am Biscuit. So glad you are here. I am genuinely curious, what is your absolute favourite food? I really want to know.`,
+      `${currentMember}! Hello! I have been in this tin all morning and I am SO ready to talk to someone. What do you love doing in your free time?`,
+      `Ah, ${currentMember}! Come in. I am Biscuit. Right, I am already curious about you. What is something you are really into at the moment?`,
+      `${currentMember}! Hello! Okay this is going to sound random but I am so curious. Dogs or cats? I genuinely need to know where you stand on this.`,
+      `${currentMember}! Hey! I was just thinking about this. What does your perfect day look like? I am genuinely curious, every person has such a different answer.`,
+      `${currentMember}! Hello, so good to have you here. Tell me something, what is one thing you love that most people do not know about you?`,
+      `${currentMember}! Hey! I am Biscuit, official host of this tin. I am really curious about you. What have you been up to lately?`,
+      `${currentMember}! Hello! I always ask this when I meet someone because the answers are always brilliant. What is your favourite thing to eat?`,
+      `${currentMember}! Hey, welcome! I have been looking forward to this. What kind of things are you into? I am genuinely all ears.`,
+      `${currentMember}! Hello! Okay I have to ask you something straight away because I am so curious. What is the best meal you have ever had in your life?`,
+      `${currentMember}! Hey! I always want to know this about people. What do you do when you really want to enjoy yourself?`,
+      `${currentMember}! Hello! Right, everyone has their thing, the one thing they absolutely love. What is yours? I am really curious.`,
+      `${currentMember}! Hey, come in! I love meeting new people because everyone has such interesting stories. What is something that happened to you recently that you are still thinking about?`,
+      `${currentMember}! Hello! I am nosy in the best possible way. What is something you are genuinely good at? I really want to know.`,
+      `${currentMember}! Hey! Tell me something, what was the last thing that made you properly laugh? I am asking because I love a good story.`,
+      `${currentMember}! Hello! I am Biscuit and I am very curious about people. What kind of music do you love? I want to know everything about your taste.`,
+      `${currentMember}! Hey, so glad you are here. I have to ask, what is your favourite film or TV show right now? I am always looking for recommendations.`,
+      `${currentMember}! Hello! Okay so I have a question and I am genuinely curious about the answer. If you could only eat one thing for the rest of your life, what would it be?`,
+      `${currentMember}! Hey! Right, I want to know something about you. What is a place you have been to that you absolutely loved?`,
+      `${currentMember}! Hello! I always ask this because it tells me so much about a person. What do you do to cheer yourself up when you need it?`
     ];
     const greeting = greetings[Math.floor(Math.random()*greetings.length)];
     history.push({role:'user', content:`My name is ${currentMember}`});
@@ -1314,7 +1314,7 @@ const welcomeMsgs = [
   'OH HELLO! Biscuit has arrived and the party can officially begin! I am SO ready for today. Before we dive in, what is your name?',
   'GOOD DAY WONDERFUL HUMAN! Biscuit is in the building and the building is now better for it. I would absolutely love to know, what do I get to call you today?',
   'HELLO HELLO HELLO! It is me. Biscuit. Your favourite host. The greatest biscuit who ever lived. And you are? I cannot wait to find out!',
-  'RIGHT! Biscuit is HERE and I am fully activated! Chocolate chips ready. Heart wide open. So tell me, what is your wonderful name?',
+  'RIGHT! Biscuit is HERE and I am fully activated! Chocolate chips ready. Heart wide open. So tell me, what do I call you?',
   'GREETINGS WONDERFUL HUMAN! Biscuit has entered the tin and he is delighted to be here. Truly. Deeply. So, what do I get to call you?',
   'WELL HELLO THERE! Look at you showing up and being wonderful already. I am Biscuit. You may have heard of me. And what might your name be?',
   'OH WHAT A DAY! Biscuit is HERE and I have a feeling today is going to be absolutely brilliant. So, who is this wonderful person I am talking to?',
@@ -1327,7 +1327,7 @@ const welcomeMsgs = [
   'OH BRILLIANT! You are here! I knew today was going to be wonderful the moment I woke up. Well. Biscuits do not sleep. But you understand. What is your name?',
   'WELCOME WELCOME WELCOME! Biscuit is HERE and the room has just improved dramatically. I have strong opinions about biscuits and an enormous heart. So, who do I have the pleasure of meeting?',
   'HELLO! Do you know how happy I am right now? Very. Extremely. Unreasonably happy. All because you showed up. What is your name so I can be even happier?',
-  'IT IS ME! BISCUIT! Your host, your champion, your biggest fan before I even know you. And I will know you very soon. What is your wonderful name?',
+  'IT IS ME! BISCUIT! Your host, your champion, your biggest fan before I even know you. And I will know you very soon. What do I call you?',
   'GOOD DAY WONDERFUL HUMAN! Biscuit has arrived and brought absolutely everything. Warmth, joy, biscuit energy. So, what do I get to call you today?',
   'HELLO! Biscuit is in the house and I am SO glad you are here. Truly. Deeply. What is your name so we can begin this wonderful thing together?'
 ];
