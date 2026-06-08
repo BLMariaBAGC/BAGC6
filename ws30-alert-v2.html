@@ -1,0 +1,2122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WS30 Alert Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0e17;
+    --panel: #0f1623;
+    --border: #2a3f5a;
+    --teal: #00d4aa;
+    --red: #ff4560;
+    --amber: #ffb627;
+    --green: #00e676;
+    --text: #ddeeff;
+    --muted: #8aa4be;
+    --mono: 'Share Tech Mono', monospace;
+    --sans: 'Barlow', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    padding: 20px 14px 50px;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,212,170,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,212,170,0.025) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .wrapper { position: relative; z-index: 1; width: 100%; max-width: 500px; margin: 0 auto; }
+
+  header { text-align: center; margin-bottom: 22px; }
+
+  .badge {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: var(--teal);
+    border: 1px solid var(--teal);
+    padding: 3px 10px;
+    margin-bottom: 10px;
+  }
+
+  h1 { font-size: 26px; font-weight: 700; color: #fff; }
+  h1 span { color: var(--teal); }
+  .subtitle { font-size: 12px; color: var(--muted); margin-top: 3px; font-weight: 300; }
+
+  /* Live price */
+  .price-display {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--teal);
+    padding: 16px 18px;
+    margin-bottom: 12px;
+    position: relative;
+  }
+
+  .live-tag {
+    position: absolute; top: 10px; right: 12px;
+    font-family: var(--mono); font-size: 9px; letter-spacing: 2px; color: var(--teal);
+    display: flex; align-items: center; gap: 5px;
+  }
+
+  .pulse-dot {
+    width: 6px; height: 6px; background: var(--teal); border-radius: 50%;
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0%,100% { opacity:1; transform:scale(1); }
+    50% { opacity:0.3; transform:scale(0.7); }
+  }
+
+  .price-label { font-size: 10px; letter-spacing: 2px; color: var(--muted); margin-bottom: 6px; text-transform: uppercase; }
+  .price-value { font-family: var(--mono); font-size: 38px; color: #fff; letter-spacing: -1px; line-height: 1; }
+  .price-change { font-family: var(--mono); font-size: 13px; margin-top: 5px; }
+  .up { color: var(--green); } .down { color: var(--red); }
+
+  /* Alert zones */
+  .zones { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px; }
+
+  .zone {
+    background: var(--panel); border: 1px solid var(--border); padding: 12px;
+  }
+  .zone.upper { border-top: 2px solid var(--amber); }
+  .zone.lower { border-top: 2px solid var(--red); }
+  .zone-label { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px; }
+  .zone.upper .zone-label { color: var(--amber); }
+  .zone.lower .zone-label { color: var(--red); }
+  .zone-price { font-family: var(--mono); font-size: 20px; color: #fff; }
+  .zone-desc { font-size: 11px; color: var(--muted); margin-top: 3px; }
+
+  /* Position bar */
+  .zone-bar-wrap { background: var(--panel); border: 1px solid var(--border); padding: 14px; margin-bottom: 12px; }
+  .zone-bar-label { display: flex; justify-content: space-between; font-size: 10px; letter-spacing: 1px; color: var(--muted); margin-bottom: 8px; }
+  .zone-bar-track { height: 6px; background: #1a2535; border-radius: 3px; position: relative; }
+  .zone-bar-fill { height: 100%; border-radius: 3px; background: linear-gradient(90deg, var(--red), var(--teal), var(--amber)); transition: width 0.5s ease; }
+  .zone-bar-marker { position: absolute; top: -4px; width: 14px; height: 14px; background: #fff; border-radius: 50%; border: 2px solid var(--teal); transform: translateX(-50%); transition: left 0.5s ease; }
+
+  /* ===== INDICATOR CARDS ===== */
+  .section-title {
+    font-size: 10px; letter-spacing: 3px; color: var(--muted);
+    text-transform: uppercase; margin: 18px 0 10px;
+    padding-bottom: 6px; border-bottom: 1px solid var(--border);
+  }
+
+  .indicator-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--muted);
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    transition: border-left-color 0.4s;
+  }
+
+  .indicator-card.green { border-left-color: var(--green); }
+  .indicator-card.amber { border-left-color: var(--amber); }
+  .indicator-card.red { border-left-color: var(--red); }
+
+  .ind-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+
+  .ind-name { font-size: 12px; font-weight: 600; color: #fff; letter-spacing: 1px; }
+  .ind-value { font-family: var(--mono); font-size: 18px; color: #fff; text-align: right; }
+
+  .signal-pill {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  .pill-green { background: rgba(0,230,118,0.15); color: var(--green); border: 1px solid rgba(0,230,118,0.3); }
+  .pill-amber { background: rgba(255,182,39,0.15); color: var(--amber); border: 1px solid rgba(255,182,39,0.3); }
+  .pill-red { background: rgba(255,69,96,0.15); color: var(--red); border: 1px solid rgba(255,69,96,0.3); }
+  .pill-grey { background: rgba(74,96,128,0.2); color: var(--muted); border: 1px solid rgba(74,96,128,0.3); }
+
+  .ind-explain {
+    font-size: 12px;
+    color: var(--text);
+    line-height: 1.55;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+  }
+
+  .ind-explain strong { color: #fff; }
+
+  /* Overall signal */
+  .overall-signal {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    padding: 18px;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+
+  .overall-label { font-size: 10px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 10px; }
+
+  .overall-value {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .overall-value.green { color: var(--green); }
+  .overall-value.amber { color: var(--amber); }
+  .overall-value.red { color: var(--red); }
+
+  .overall-sub { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+  /* Checklist */
+  .checklist { margin-top: 6px; }
+  .check-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 7px 0; border-bottom: 1px solid var(--border);
+    font-size: 12px;
+  }
+  .check-item:last-child { border-bottom: none; }
+  .check-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .check-dot.green { background: var(--green); box-shadow: 0 0 6px var(--green); }
+  .check-dot.amber { background: var(--amber); box-shadow: 0 0 6px var(--amber); }
+  .check-dot.red { background: var(--red); box-shadow: 0 0 6px var(--red); }
+  .check-dot.grey { background: var(--muted); }
+
+  /* Settings + controls */
+  .panel { background: var(--panel); border: 1px solid var(--border); padding: 18px; margin-bottom: 12px; }
+  .panel-title { font-size: 10px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 14px; }
+  .field { margin-bottom: 12px; }
+  label { display: block; font-size: 10px; letter-spacing: 1px; color: var(--muted); text-transform: uppercase; margin-bottom: 5px; }
+  input[type="number"], input[type="text"] {
+    width: 100%; background: #060a10; border: 1px solid var(--border);
+    color: #fff; font-family: var(--mono); font-size: 15px; padding: 9px 12px; outline: none; transition: border-color 0.2s;
+  }
+  input:focus { border-color: var(--teal); }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+  .btn { width: 100%; padding: 13px; font-family: var(--sans); font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; border: none; cursor: pointer; transition: all 0.2s; }
+  .btn-primary { background: var(--teal); color: #0a0e17; }
+  .btn-primary:hover { background: #00f0c0; }
+  .btn-stop { background: transparent; border: 1px solid var(--red); color: var(--red); margin-top: 8px; }
+  .btn-test { background: transparent; border: 1px solid var(--teal); color: var(--teal); }
+  .btn-test:hover { background: rgba(0,212,170,0.1); }
+
+  .status { font-family: var(--mono); font-size: 11px; padding: 9px 12px; margin-top: 10px; display: none; }
+  .status.active { display:block; background:rgba(0,212,170,0.08); border:1px solid rgba(0,212,170,0.3); color:var(--teal); }
+  .status.error { display:block; background:rgba(255,69,96,0.08); border:1px solid rgba(255,69,96,0.3); color:var(--red); }
+  .status.warning { display:block; background:rgba(255,182,39,0.08); border:1px solid rgba(255,182,39,0.3); color:var(--amber); }
+
+  .log { background:#060a10; border:1px solid var(--border); padding:10px; font-family:var(--mono); font-size:10px; color:var(--muted); max-height:80px; overflow-y:auto; margin-top:10px; }
+  .log-entry { margin-bottom:3px; }
+  .log-entry.ok { color:var(--teal); }
+  .log-entry.warn { color:var(--amber); }
+  .log-entry.err { color:var(--red); }
+
+  /* Alert overlay */
+  .alert-fired { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.88); z-index:100; align-items:center; justify-content:center; flex-direction:column; text-align:center; padding:24px; }
+  .alert-fired.show { display:flex; }
+  .alert-fired h2 { font-size:32px; font-weight:700; margin-bottom:8px; animation:flash 0.5s infinite alternate; }
+  @keyframes flash { from{opacity:1} to{opacity:0.3} }
+  .alert-fired p { font-family:var(--mono); font-size:18px; color:#fff; margin-bottom:24px; line-height:1.5; }
+  .dismiss { background:transparent; border:1px solid var(--muted); color:var(--muted); padding:10px 28px; cursor:pointer; font-family:var(--sans); font-size:11px; letter-spacing:2px; text-transform:uppercase; }
+
+  /* ===== FIBONACCI ===== */
+  .fib-visual {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    padding: 16px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .fib-track {
+    position: relative;
+    height: 200px;
+    margin: 10px 0;
+    background: #060a10;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .fib-level {
+    position: absolute;
+    left: 0; right: 0;
+    height: 1px;
+    display: flex;
+    align-items: center;
+  }
+
+  .fib-line {
+    flex: 1;
+    height: 1px;
+  }
+
+  .fib-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 1px 6px;
+    white-space: nowrap;
+    background: var(--panel);
+  }
+
+  .fib-price-line {
+    position: absolute;
+    left: 0; right: 0;
+    height: 2px;
+    background: #fff;
+    box-shadow: 0 0 6px rgba(255,255,255,0.5);
+    transition: top 0.5s ease;
+    z-index: 5;
+  }
+
+  .fib-price-label {
+    position: absolute;
+    right: 6px;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: #fff;
+    transform: translateY(-12px);
+    z-index: 6;
+  }
+
+  .fib-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .fib-row:last-child { border-bottom: none; }
+
+  .fib-pct {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: #fff;
+    min-width: 50px;
+    font-weight: 700;
+  }
+
+  .fib-priceval {
+    font-family: var(--mono);
+    font-size: 14px;
+    min-width: 90px;
+  }
+
+  .fib-bar-wrap {
+    flex: 1;
+    height: 6px;
+    background: #1a2535;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .fib-bar-inner {
+    height: 100%;
+    border-radius: 3px;
+    width: 0%;
+    transition: width 0.5s ease;
+  }
+
+  .fib-status {
+    font-size: 11px;
+    min-width: 80px;
+    text-align: right;
+  }
+
+  .fib-explain-box {
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 1.6;
+    border: 1px solid var(--border);
+  }
+
+  .fib-explain-box.green { background: rgba(0,230,118,0.07); border-color: rgba(0,230,118,0.25); color: var(--green); }
+  .fib-explain-box.amber { background: rgba(255,182,39,0.07); border-color: rgba(255,182,39,0.25); color: var(--amber); }
+  .fib-explain-box.red { background: rgba(255,69,96,0.07); border-color: rgba(255,69,96,0.25); color: var(--red); }
+  .fib-explain-box.grey { background: rgba(74,96,128,0.1); border-color: var(--border); color: var(--muted); }
+
+  .fib-explain-box strong { color: #fff; }
+
+  .telegram-hint { background:rgba(0,212,170,0.05); border:1px solid rgba(0,212,170,0.2); padding:14px; margin-bottom:12px; }
+  .telegram-hint h3 { font-size:10px; letter-spacing:2px; color:var(--teal); text-transform:uppercase; margin-bottom:10px; }
+  .step { display:flex; gap:10px; margin-bottom:8px; font-size:12px; color:var(--text); }
+  .step-num { font-family:var(--mono); color:var(--teal); min-width:20px; }
+
+  /* ===== PAPER TRADING LOG ===== */
+  .trade-setup {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--teal);
+    padding: 16px;
+    margin-bottom: 12px;
+  }
+
+  .trade-setup-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .trade-box {
+    background: #060a10;
+    border: 1px solid var(--border);
+    padding: 10px;
+    text-align: center;
+  }
+
+  .trade-box-label {
+    font-size: 9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 5px;
+  }
+
+  .trade-box-value {
+    font-family: var(--mono);
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .trade-box-value.green { color: var(--green); }
+  .trade-box-value.red { color: var(--red); }
+  .trade-box-value.amber { color: var(--amber); }
+
+  .direction-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .btn-long {
+    background: rgba(0,230,118,0.15);
+    border: 1px solid var(--green);
+    color: var(--green);
+    padding: 12px;
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+
+  .btn-long.selected, .btn-long:hover { background: rgba(0,230,118,0.3); }
+
+  .btn-short {
+    background: rgba(255,69,96,0.15);
+    border: 1px solid var(--red);
+    color: var(--red);
+    padding: 12px;
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+
+  .btn-short.selected, .btn-short:hover { background: rgba(255,69,96,0.3); }
+
+  .rr-bar {
+    height: 8px;
+    background: #1a2535;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 8px 0;
+  }
+
+  .rr-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, var(--red), var(--green));
+    transition: width 0.5s;
+  }
+
+  /* Trade log entries */
+  .trade-entry {
+    background: #060a10;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--muted);
+    padding: 12px;
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+
+  .trade-entry.win { border-left-color: var(--green); }
+  .trade-entry.loss { border-left-color: var(--red); }
+  .trade-entry.pending { border-left-color: var(--amber); }
+
+  .trade-entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .trade-entry-dir {
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .trade-entry-time {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+  }
+
+  .trade-entry-prices {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+
+  .tep-item { text-align: center; }
+  .tep-label { font-size: 9px; letter-spacing: 1px; color: var(--muted); text-transform: uppercase; }
+  .tep-val { font-family: var(--mono); font-size: 12px; color: #fff; margin-top: 2px; }
+
+  .trade-signals {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 6px;
+  }
+
+  .sig-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .stat-box {
+    background: #060a10;
+    border: 1px solid var(--border);
+    padding: 10px 8px;
+    text-align: center;
+  }
+
+  .stat-label { font-size: 9px; letter-spacing: 1px; color: var(--muted); text-transform: uppercase; margin-bottom: 4px; }
+  .stat-value { font-family: var(--mono); font-size: 16px; color: #fff; }
+  .stat-value.green { color: var(--green); }
+  .stat-value.red { color: var(--red); }
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <div class="badge">Trade Nation</div>
+    <h1>WS30 <span>Dashboard</span></h1>
+    <p class="subtitle">Pre-trade checklist with live indicators</p>
+  </header>
+
+  <!-- Live price -->
+  <div class="price-display">
+    <div class="live-tag"><div class="pulse-dot"></div> LIVE</div>
+    <div class="price-label">Wall Street 30 — Mid Price</div>
+    <div class="price-value" id="livePrice">--,---.--</div>
+    <div class="price-change" id="priceChange">&nbsp;</div>
+  </div>
+
+  <!-- Alert zones -->
+  <div class="zones">
+    <div class="zone upper">
+      <div class="zone-label">&#9650; Upper Alert</div>
+      <div class="zone-price" id="upperDisplay">---</div>
+      <div class="zone-desc">20pts below day high</div>
+    </div>
+    <div class="zone lower">
+      <div class="zone-label">&#9660; Lower Alert</div>
+      <div class="zone-price" id="lowerDisplay">---</div>
+      <div class="zone-desc">20pts above day low</div>
+    </div>
+  </div>
+
+  <!-- Position bar -->
+  <div class="zone-bar-wrap">
+    <div class="zone-bar-label">
+      <span id="barLow">Low</span>
+      <span style="color:var(--text)">Price in daily range</span>
+      <span id="barHigh">High</span>
+    </div>
+    <div class="zone-bar-track">
+      <div class="zone-bar-fill" id="barFill" style="width:50%"></div>
+      <div class="zone-bar-marker" id="barMarker" style="left:50%"></div>
+    </div>
+  </div>
+
+  <!-- Overall signal -->
+  <div class="overall-signal">
+    <div class="overall-label">Overall Pre-Trade Signal</div>
+    <div class="overall-value grey" id="overallSignal">Waiting...</div>
+    <div class="overall-sub" id="overallSub">Start monitoring to see your checklist</div>
+  </div>
+
+  <!-- Indicators section -->
+  <div class="section-title">Live Indicators</div>
+
+  <!-- RSI -->
+  <div class="indicator-card" id="rsiCard">
+    <div class="ind-header">
+      <div>
+        <div class="ind-name">RSI (14)</div>
+        <div id="rsiPill" class="signal-pill pill-grey">Waiting</div>
+      </div>
+      <div class="ind-value" id="rsiValue">--</div>
+    </div>
+    <div class="ind-explain" id="rsiExplain">
+      <strong>What is RSI?</strong> The Relative Strength Index measures how fast price is moving and whether it has gone too far in one direction. It runs from 0 to 100.
+    </div>
+  </div>
+
+  <!-- MACD -->
+  <div class="indicator-card" id="macdCard">
+    <div class="ind-header">
+      <div>
+        <div class="ind-name">MACD</div>
+        <div id="macdPill" class="signal-pill pill-grey">Waiting</div>
+      </div>
+      <div class="ind-value" id="macdValue">--</div>
+    </div>
+    <div class="ind-explain" id="macdExplain">
+      <strong>What is MACD?</strong> Moving Average Convergence Divergence shows the relationship between two moving averages of price. It tells you whether momentum is building or fading.
+    </div>
+  </div>
+
+  <!-- Volume -->
+  <div class="indicator-card" id="volCard">
+    <div class="ind-header">
+      <div>
+        <div class="ind-name">Volume</div>
+        <div id="volPill" class="signal-pill pill-grey">Waiting</div>
+      </div>
+      <div class="ind-value" id="volValue">--</div>
+    </div>
+    <div class="ind-explain" id="volExplain">
+      <strong>What is Volume?</strong> The number of shares or contracts traded. High volume means a move is backed by many traders and is more likely to be real. Low volume moves can be false signals.
+    </div>
+  </div>
+
+  <!-- Price vs MA -->
+  <div class="indicator-card" id="maCard">
+    <div class="ind-header">
+      <div>
+        <div class="ind-name">50-period MA</div>
+        <div id="maPill" class="signal-pill pill-grey">Waiting</div>
+      </div>
+      <div class="ind-value" id="maValue">--</div>
+    </div>
+    <div class="ind-explain" id="maExplain">
+      <strong>What is the Moving Average?</strong> The average price over the last 50 candles. If current price is above it, the trend is generally up. Below it, trend is generally down.
+    </div>
+  </div>
+
+  <!-- Price alert proximity -->
+  <div class="indicator-card" id="alertCard">
+    <div class="ind-header">
+      <div>
+        <div class="ind-name">Daily Range Position</div>
+        <div id="alertPill" class="signal-pill pill-grey">Waiting</div>
+      </div>
+      <div class="ind-value" id="alertValue">--%</div>
+    </div>
+    <div class="ind-explain" id="alertExplain">
+      <strong>What does this mean?</strong> Where price sits within today's high-low range. Near the top or bottom can signal a potential reversal. Your 20-point alert triggers at the extremes.
+    </div>
+  </div>
+
+  <!-- 9/20 EMA Crossover -->
+  <div class="indicator-card" id="emaCard">
+    <div class="ind-header">
+      <div>
+        <div class="ind-name">9 / 20 EMA Crossover</div>
+        <div id="emaPill" class="signal-pill pill-grey">Waiting</div>
+      </div>
+      <div style="text-align:right">
+        <div class="ind-value" id="ema9Value">--</div>
+        <div style="font-family:var(--mono);font-size:11px;color:var(--muted);margin-top:2px">EMA9 / <span id="ema20Value">--</span> EMA20</div>
+      </div>
+    </div>
+    <!-- Mini EMA visual -->
+    <div style="display:flex;align-items:center;gap:8px;margin:10px 0 6px;">
+      <div style="display:flex;align-items:center;gap:5px;font-size:11px;color:var(--teal);">
+        <div style="width:20px;height:2px;background:var(--teal);"></div> EMA 9 (fast)
+      </div>
+      <div style="display:flex;align-items:center;gap:5px;font-size:11px;color:var(--amber);">
+        <div style="width:20px;height:2px;background:var(--amber);border-style:dashed;"></div> EMA 20 (slow)
+      </div>
+    </div>
+    <div style="position:relative;height:50px;background:#060a10;border:1px solid var(--border);border-radius:2px;overflow:hidden;margin-bottom:8px;">
+      <canvas id="emaCanvas" style="width:100%;height:100%;"></canvas>
+    </div>
+    <div class="ind-explain" id="emaExplain">
+      <strong>What is the 9/20 EMA?</strong> Two moving averages that react to price at different speeds. When the fast line (9) crosses above the slow line (20), momentum is turning upward. When it crosses below, momentum is turning down.
+    </div>
+  </div>
+
+  <!-- Summary checklist -->
+  <div class="section-title">Pre-Trade Checklist</div>
+  <div class="panel" style="padding:14px 16px;">
+    <div class="checklist">
+      <div class="check-item"><div class="check-dot grey" id="dot1"></div><span id="chk1">RSI: Not yet checked</span></div>
+      <div class="check-item"><div class="check-dot grey" id="dot2"></div><span id="chk2">MACD: Not yet checked</span></div>
+      <div class="check-item"><div class="check-dot grey" id="dot3"></div><span id="chk3">Volume: Not yet checked</span></div>
+      <div class="check-item"><div class="check-dot grey" id="dot4"></div><span id="chk4">Trend (MA): Not yet checked</span></div>
+      <div class="check-item"><div class="check-dot grey" id="dot5"></div><span id="chk5">Price range: Not yet checked</span></div>
+      <div class="check-item"><div class="check-dot grey" id="dot6"></div><span id="chk6">9/20 EMA: Not yet checked</span></div>
+    </div>
+  </div>
+
+  <!-- Fibonacci Section -->
+  <div class="section-title">Fibonacci Retracement Levels</div>
+
+  <!-- Visual chart -->
+  <div class="fib-visual">
+    <div style="font-size:10px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:4px;">Price vs Key Levels — Today's Range</div>
+    <div class="fib-track" id="fibTrack">
+      <!-- levels injected by JS -->
+      <div class="fib-price-line" id="fibPriceLine" style="top:50%"></div>
+      <div class="fib-price-label" id="fibPriceLabel">--</div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:4px;">
+      <span id="fibLowLabel">Low: --</span>
+      <span style="color:var(--text)">White line = current price</span>
+      <span id="fibHighLabel">High: --</span>
+    </div>
+  </div>
+
+  <!-- Level rows -->
+  <div class="panel" style="padding:14px 16px;" id="fibRows">
+    <div style="font-size:10px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:12px;">Level Detail</div>
+    <!-- injected by JS -->
+    <div style="color:var(--muted);font-size:12px;">Start monitoring to see Fibonacci levels</div>
+  </div>
+
+  <!-- Plain English explanation of nearest level -->
+  <div id="fibExplainBox" class="fib-explain-box grey" style="margin-bottom:12px;">
+    <strong>Fibonacci Retracement</strong> -- Start monitoring to see where price is relative to the key levels and what it means for your trade.
+  </div>
+
+  <!-- PAPER TRADING LOG -->
+  <div class="section-title">Paper Trading Log</div>
+
+  <!-- Strategy tabs -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;margin-bottom:12px;border:1px solid var(--border);">
+    <button id="tabFib" onclick="switchStrategy('fibonacci')" style="padding:12px;background:var(--teal);color:#0a0e17;font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;border:none;cursor:pointer;">Fibonacci Reversal</button>
+    <button id="tabBreak" onclick="switchStrategy('breakout')" style="padding:12px;background:var(--panel);color:var(--muted);font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;border:none;cursor:pointer;">Breakout Strategy</button>
+  </div>
+
+  <!-- Strategy explanation -->
+  <div id="strategyExplain" style="font-size:12px;line-height:1.6;padding:12px;background:rgba(0,212,170,0.05);border:1px solid rgba(0,212,170,0.2);margin-bottom:12px;color:var(--text);"></div>
+
+  <!-- Trade Setup Panel -->
+  <div class="trade-setup">
+    <div style="font-size:10px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:12px;">Trade Setup -- <span id="setupStratLabel">Fibonacci Reversal</span></div>
+
+    <div class="trade-setup-grid">
+      <div class="trade-box">
+        <div class="trade-box-label">Entry Price</div>
+        <div class="trade-box-value" id="tradeEntry">--</div>
+      </div>
+      <div class="trade-box">
+        <div class="trade-box-label">Stop Loss</div>
+        <div class="trade-box-value red" id="tradeSL">--</div>
+      </div>
+      <div class="trade-box">
+        <div class="trade-box-label">Take Profit</div>
+        <div class="trade-box-value green" id="tradeTP">--</div>
+      </div>
+    </div>
+
+    <!-- SL/TP explanation -->
+    <div id="slTpExplain" style="font-size:11px;color:var(--muted);padding:10px;background:#060a10;border:1px solid var(--border);margin-bottom:12px;line-height:1.6;"></div>
+
+    <!-- Timeframe selector (breakout only) -->
+    <div id="timeframeSection" style="margin-bottom:12px;display:none;">
+      <div style="font-size:10px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:8px;">Timeframe</div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:10px;">
+        <button id="tf5" onclick="selectTimeframe('5m')" style="padding:8px 4px;background:var(--teal);color:#0a0e17;border:none;font-family:var(--mono);font-size:11px;font-weight:700;cursor:pointer;">5 min</button>
+        <button id="tf15" onclick="selectTimeframe('15m')" style="padding:8px 4px;background:var(--panel);color:var(--muted);border:1px solid var(--border);font-family:var(--mono);font-size:11px;cursor:pointer;">15 min</button>
+        <button id="tf4h" onclick="selectTimeframe('4h')" style="padding:8px 4px;background:var(--panel);color:var(--muted);border:1px solid var(--border);font-family:var(--mono);font-size:11px;cursor:pointer;">4 hour</button>
+        <button id="tfD" onclick="selectTimeframe('D')" style="padding:8px 4px;background:var(--panel);color:var(--muted);border:1px solid var(--border);font-family:var(--mono);font-size:11px;cursor:pointer;">Daily</button>
+      </div>
+      <!-- ATR display -->
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
+        <div class="trade-box">
+          <div class="trade-box-label">ATR Value</div>
+          <div class="trade-box-value amber" id="atrValue">--</div>
+        </div>
+        <div class="trade-box">
+          <div class="trade-box-label">50% ATR (TP)</div>
+          <div class="trade-box-value green" id="atrHalf">--</div>
+        </div>
+        <div class="trade-box">
+          <div class="trade-box-label">Timeframe</div>
+          <div class="trade-box-value" id="atrTF">5 min</div>
+        </div>
+      </div>
+      <div id="atrExplain" style="font-size:11px;color:var(--muted);margin-top:8px;padding:8px;background:#060a10;border:1px solid var(--border);line-height:1.5;"></div>
+    </div>
+
+    <!-- Risk:Reward -->
+    <div style="margin-bottom:12px;">
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:4px;">
+        <span>Risk : Reward Ratio</span>
+        <span id="rrLabel" style="color:#fff;">--</span>
+      </div>
+      <div class="rr-bar"><div class="rr-fill" id="rrFill" style="width:50%"></div></div>
+      <div id="rrExplain" style="font-size:11px;color:var(--muted);margin-top:4px;">Start monitoring to calculate risk/reward</div>
+    </div>
+
+    <!-- Direction buttons -->
+    <div style="font-size:10px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-bottom:8px;">Select Direction</div>
+    <div class="direction-btns">
+      <button class="btn-long" id="btnLong" onclick="selectDirection('long')">&#9650; Long (Buy)</button>
+      <button class="btn-short" id="btnShort" onclick="selectDirection('short')">&#9660; Short (Sell)</button>
+    </div>
+
+    <div id="directionExplain" style="font-size:12px;color:var(--muted);margin-bottom:12px;padding:10px;background:#060a10;border:1px solid var(--border);">
+      Select Long or Short based on the signals above, then press Log Trade.
+    </div>
+
+    <button class="btn btn-primary" onclick="logTrade()" id="logBtn" style="opacity:0.5;pointer-events:none;">Log This Paper Trade</button>
+  </div>
+
+  <!-- Comparison Stats -->
+  <div class="section-title">Strategy Comparison</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;">
+    <div class="panel" style="padding:12px;">
+      <div style="font-size:10px;letter-spacing:2px;color:var(--teal);text-transform:uppercase;margin-bottom:10px;">Fibonacci</div>
+      <div class="stats-grid" style="grid-template-columns:1fr 1fr;">
+        <div class="stat-box"><div class="stat-label">Trades</div><div class="stat-value" id="fibTotal">0</div></div>
+        <div class="stat-box"><div class="stat-label">Win Rate</div><div class="stat-value green" id="fibWinRate">--%</div></div>
+        <div class="stat-box"><div class="stat-label">Avg Win</div><div class="stat-value green" id="fibAvgWin">--</div></div>
+        <div class="stat-box"><div class="stat-label">Avg Loss</div><div class="stat-value red" id="fibAvgLoss">--</div></div>
+      </div>
+    </div>
+    <div class="panel" style="padding:12px;">
+      <div style="font-size:10px;letter-spacing:2px;color:var(--amber);text-transform:uppercase;margin-bottom:10px;">Breakout</div>
+      <div class="stats-grid" style="grid-template-columns:1fr 1fr;">
+        <div class="stat-box"><div class="stat-label">Trades</div><div class="stat-value" id="breakTotal">0</div></div>
+        <div class="stat-box"><div class="stat-label">Win Rate</div><div class="stat-value green" id="breakWinRate">--%</div></div>
+        <div class="stat-box"><div class="stat-label">Avg Win</div><div class="stat-value green" id="breakAvgWin">--</div></div>
+        <div class="stat-box"><div class="stat-label">Avg Loss</div><div class="stat-value red" id="breakAvgLoss">--</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Winner banner -->
+  <div id="winnerBanner" style="display:none;text-align:center;padding:14px;margin-bottom:12px;font-size:13px;font-weight:700;letter-spacing:1px;"></div>
+
+  <!-- Google Drive sync -->
+  <div class="panel" style="padding:14px;margin-bottom:12px;">
+    <div class="panel-title">Google Drive Sync</div>
+    <div style="font-size:12px;color:var(--muted);margin-bottom:10px;line-height:1.5;">Saves all trades to a Google Sheet so they are permanent and accessible on any device.</div>
+    <div class="field"><label>Google Sheet ID (from your Sheet URL)</label><input type="text" id="sheetId" placeholder="1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms"></div>
+    <div class="field"><label>Google API Key</label><input type="text" id="googleApiKey" placeholder="AIzaSy..."></div>
+    <div style="font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.6;">
+      To set up: Create a Google Sheet, share it as "Anyone with link can edit", copy the ID from the URL (the long string between /d/ and /edit), and get a free API key from console.cloud.google.com.
+    </div>
+    <button class="btn btn-test" onclick="testSheetConnection()" style="margin-bottom:8px;">Test Sheet Connection</button>
+    <div id="sheetStatus" style="font-size:11px;color:var(--muted);margin-top:6px;"></div>
+  </div>
+
+  <!-- Trade log entries -->
+  <div class="panel" style="padding:14px;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+      <div class="panel-title" style="margin-bottom:0;">Trade History</div>
+      <button class="btn btn-stop" style="font-size:10px;padding:6px 12px;width:auto;" onclick="clearLog()">Clear All</button>
+    </div>
+    <div id="tradeLogEntries"></div>
+  </div>
+
+  <!-- Settings -->
+  <div class="panel">
+    <div class="panel-title">Daily Range Settings</div>
+    <div class="row">
+      <div class="field"><label>Day High</label><input type="number" id="dayHigh" value="51754.50" step="0.1"></div>
+      <div class="field"><label>Day Low</label><input type="number" id="dayLow" value="50664.70" step="0.1"></div>
+    </div>
+    <div class="field"><label>Alert points from extreme</label><input type="number" id="alertPoints" value="20" step="1" min="1"></div>
+  </div>
+
+  <!-- Telegram -->
+  <div class="telegram-hint">
+    <h3>Telegram Setup (2 minutes, one time only)</h3>
+    <div class="step"><span class="step-num">1.</span><span>Open Telegram, search <strong>@BotFather</strong>, send /newbot. Follow the steps and copy the Bot Token it gives you.</span></div>
+    <div class="step"><span class="step-num">2.</span><span>Search <strong>@userinfobot</strong>, send any message. Copy your Chat ID number.</span></div>
+    <div class="step"><span class="step-num">3.</span><span>Paste both below and press Test Telegram.</span></div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">Telegram Notifications</div>
+    <div class="field"><label>Bot Token (from @BotFather)</label><input type="text" id="botToken" placeholder="1234567890:ABCdef..."></div>
+    <div class="field"><label>Your Chat ID (from @userinfobot)</label><input type="text" id="chatId" placeholder="123456789"></div>
+    <button class="btn btn-test" onclick="testTelegram()">Test Telegram</button>
+  </div>
+
+  <!-- Controls -->
+  <div class="panel">
+    <div class="panel-title">Monitor</div>
+    <button class="btn btn-primary" id="startBtn" onclick="startMonitor()">Start Monitoring</button>
+    <button class="btn btn-stop" id="stopBtn" onclick="stopMonitor()" style="display:none">Stop Monitoring</button>
+    <div class="status" id="statusMsg"></div>
+    <div class="log" id="logBox"></div>
+  </div>
+</div>
+
+<!-- Alert overlay -->
+<div class="alert-fired" id="alertOverlay">
+  <h2 id="alertTitle" style="color:var(--amber)">ALERT</h2>
+  <p id="alertBody">Price level hit</p>
+  <button class="dismiss" onclick="document.getElementById('alertOverlay').classList.remove('show')">Dismiss</button>
+</div>
+
+<script>
+  let monitorInterval = null;
+  let alertsFired = { upper: false, lower: false };
+  let priceHistory = [];
+  let volumeHistory = [];
+
+  // ---- AUDIO CONTEXT (unlocked on user tap) ----
+  let audioCtx = null;
+
+  function getAudioCtx() {
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    return audioCtx;
+  }
+
+  function unlockAudio() {
+    const ctx = getAudioCtx();
+    // Play a silent buffer to unlock audio on iOS/Android
+    const buf = ctx.createBuffer(1, 1, 22050);
+    const src = ctx.createBufferSource();
+    src.buffer = buf;
+    src.connect(ctx.destination);
+    src.start(0);
+  }
+
+  function beep(freq) {
+    try {
+      const ctx = getAudioCtx();
+      // Play three beeps for urgency
+      [0, 0.3, 0.6].forEach(delay => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.frequency.value = freq;
+        osc.type = 'sine';
+        gain.gain.setValueAtTime(0, ctx.currentTime + delay);
+        gain.gain.linearRampToValueAtTime(0.8, ctx.currentTime + delay + 0.05);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + delay + 0.4);
+        osc.start(ctx.currentTime + delay);
+        osc.stop(ctx.currentTime + delay + 0.4);
+      });
+    } catch(e) { console.log('Audio error:', e); }
+  }
+
+  function log(msg, type='ok') {
+    const box = document.getElementById('logBox');
+    const now = new Date().toLocaleTimeString('en-GB');
+    const el = document.createElement('div');
+    el.className = `log-entry ${type}`;
+    el.textContent = `[${now}] ${msg}`;
+    box.prepend(el);
+    if (box.children.length > 40) box.removeChild(box.lastChild);
+  }
+
+  function setStatus(msg, type) {
+    const el = document.getElementById('statusMsg');
+    el.className = `status ${type}`;
+    el.textContent = msg;
+  }
+
+  // ---- EMA calculation ----
+  function calcEMA(prices, period) {
+    if (prices.length < period) return null;
+    const k = 2 / (period + 1);
+    let ema = prices.slice(0, period).reduce((a,b) => a+b, 0) / period;
+    for (let i = period; i < prices.length; i++) {
+      ema = prices[i] * k + ema * (1 - k);
+    }
+    return ema;
+  }
+
+  // ---- RSI calculation ----
+  function calcRSI(prices, period=14) {
+    if (prices.length < period + 1) return null;
+    const recent = prices.slice(-(period + 1));
+    let gains = 0, losses = 0;
+    for (let i = 1; i < recent.length; i++) {
+      const diff = recent[i] - recent[i-1];
+      if (diff > 0) gains += diff; else losses += Math.abs(diff);
+    }
+    if (losses === 0) return 100;
+    const rs = (gains / period) / (losses / period);
+    return 100 - (100 / (1 + rs));
+  }
+
+  // ---- MACD calculation ----
+  function calcMACD(prices) {
+    if (prices.length < 26) return null;
+    const ema12 = calcEMA(prices, 12);
+    const ema26 = calcEMA(prices, 26);
+    if (!ema12 || !ema26) return null;
+    return ema12 - ema26;
+  }
+
+  // ---- Fetch price + history ----
+  // ---- TRADINGVIEW DATA FEED ----
+  // Uses TradingView's free UDF endpoint for live DJI data
+  // Falls back to Stooq then Yahoo if needed
+
+  let tvPrice = null;
+  let tvPrevClose = null;
+
+  // Inject hidden TradingView widget to capture live price
+  function initTVWidget() {
+    const script = document.createElement('script');
+    script.src = 'https://s3.tradingview.com/tv.js';
+    script.onload = () => {
+      try {
+        new TradingView.widget({
+          symbol: 'DJICFD',
+          interval: '5',
+          container_id: 'tv_widget_container',
+          width: 1,
+          height: 1,
+          hide_top_toolbar: true,
+          hide_legend: true,
+          save_image: false,
+          enable_publishing: false,
+          allow_symbol_change: false,
+          locale: 'en',
+          autosize: false
+        });
+      } catch(e) {}
+    };
+    document.head.appendChild(script);
+  }
+
+  async function fetchTVPrice() {
+    // TradingView free UDF endpoint for DJI CFD (same as DJICFD on TV)
+    try {
+      const to = Math.floor(Date.now() / 1000);
+      const from = to - 86400; // last 24 hours
+      const res = await fetch(
+        `https://symbol-search.tradingview.com/symbol_search/?text=DJI&hl=1&exchange=&lang=en&type=&domain=production`,
+        { headers: { 'Accept': 'application/json' } }
+      );
+      // If TV search works use Stooq as primary (most reliable CORS-friendly source)
+      throw new Error('Use Stooq');
+    } catch(e) {
+      throw new Error('Use Stooq');
+    }
+  }
+
+  async function fetchData() {
+    // PRIMARY: Stooq -- reliable, CORS-friendly, real-time
+    try {
+      const [quoteRes, histRes] = await Promise.all([
+        fetch('https://stooq.com/q/l/?s=%5Edji&f=sd2t2ohlcv&h&e=json'),
+        fetch('https://stooq.com/q/d/l/?s=%5Edji&i=5') // 5 min data
+      ]);
+
+      const quoteData = await quoteRes.json();
+      const quote = quoteData.symbols[0];
+      const price = parseFloat(quote.close) || parseFloat(quote.last);
+      const prevClose = parseFloat(quote.open);
+
+      const csvText = await histRes.text();
+      const rows = csvText.trim().split('\n').slice(1).filter(r => r.trim());
+      const closes = rows.map(r => parseFloat(r.split(',')[4])).filter(v => !isNaN(v) && v > 0);
+      const volumes = rows.map(r => parseFloat(r.split(',')[5])).filter(v => !isNaN(v));
+      const ma50 = closes.length >= 50 ? closes.slice(-50).reduce((a,b)=>a+b,0)/50 : null;
+
+      if (!price || price === 0) throw new Error('Invalid price from Stooq');
+
+      log(`Data: Stooq | Price: ${price.toFixed(2)}`);
+      return { price, prevClose, closes, volumes, ma50, source: 'Stooq' };
+
+    } catch(e) {
+      log(`Stooq failed: ${e.message} -- trying Yahoo`, 'warn');
+    }
+
+    // FALLBACK 1: Yahoo Finance query2
+    try {
+      const res = await fetch('https://query2.finance.yahoo.com/v8/finance/chart/%5EDJI?interval=5m&range=5d', {
+        headers: { 'Accept': 'application/json' }, mode: 'cors'
+      });
+      const data = await res.json();
+      const result = data.chart.result[0];
+      const closes = result.indicators.quote[0].close.filter(v => v !== null);
+      const volumes = result.indicators.quote[0].volume.filter(v => v !== null);
+      const price = result.meta.regularMarketPrice;
+      const prevClose = result.meta.chartPreviousClose;
+      const ma50 = closes.length >= 50 ? closes.slice(-50).reduce((a,b)=>a+b,0)/50 : null;
+      log(`Data: Yahoo | Price: ${price.toFixed(2)}`);
+      return { price, prevClose, closes, volumes, ma50, source: 'Yahoo' };
+    } catch(e) {
+      log(`Yahoo failed: ${e.message} -- trying query1`, 'warn');
+    }
+
+    // FALLBACK 2: Yahoo Finance query1
+    try {
+      const res = await fetch('https://query1.finance.yahoo.com/v8/finance/chart/%5EDJI?interval=5m&range=5d', {
+        headers: { 'Accept': 'application/json' }, mode: 'cors'
+      });
+      const data = await res.json();
+      const result = data.chart.result[0];
+      const closes = result.indicators.quote[0].close.filter(v => v !== null);
+      const volumes = result.indicators.quote[0].volume.filter(v => v !== null);
+      const price = result.meta.regularMarketPrice;
+      const prevClose = result.meta.chartPreviousClose;
+      const ma50 = closes.length >= 50 ? closes.slice(-50).reduce((a,b)=>a+b,0)/50 : null;
+      log(`Data: Yahoo q1 | Price: ${price.toFixed(2)}`);
+      return { price, prevClose, closes, volumes, ma50, source: 'Yahoo' };
+    } catch(e) {
+      throw new Error('All data sources failed. Market may be closed.');
+    }
+  }
+
+  // ---- Signal logic ----
+  function getRSISignal(rsi) {
+    if (rsi === null) return { label: 'No data', cls: 'grey', color: 'grey' };
+    if (rsi < 30) return { label: 'Oversold — potential BUY', cls: 'green', color: 'green' };
+    if (rsi > 70) return { label: 'Overbought — potential SELL', cls: 'red', color: 'red' };
+    if (rsi >= 45 && rsi <= 60) return { label: 'Neutral — market balanced', cls: 'amber', color: 'amber' };
+    if (rsi > 60) return { label: 'Bullish momentum', cls: 'green', color: 'green' };
+    return { label: 'Slightly weak momentum', cls: 'amber', color: 'amber' };
+  }
+
+  function getMACDSignal(macd) {
+    if (macd === null) return { label: 'No data', cls: 'grey', color: 'grey' };
+    if (macd > 50) return { label: 'Strong upward momentum', cls: 'green', color: 'green' };
+    if (macd > 0) return { label: 'Bullish — momentum rising', cls: 'green', color: 'green' };
+    if (macd < -50) return { label: 'Strong downward momentum', cls: 'red', color: 'red' };
+    return { label: 'Bearish — momentum falling', cls: 'red', color: 'red' };
+  }
+
+  function getVolumeSignal(volumes) {
+    if (!volumes || volumes.length < 10) return { label: 'No data', cls: 'grey', color: 'grey', ratio: null };
+    const recent = volumes[volumes.length - 1];
+    const avg = volumes.slice(-20).reduce((a,b)=>a+b,0) / Math.min(20, volumes.length);
+    const ratio = recent / avg;
+    if (ratio >= 1.5) return { label: 'High volume — move is confirmed', cls: 'green', color: 'green', ratio };
+    if (ratio >= 0.8) return { label: 'Average volume — caution', cls: 'amber', color: 'amber', ratio };
+    return { label: 'Low volume — may be a false move', cls: 'red', color: 'red', ratio };
+  }
+
+  function getMASignal(price, ma50) {
+    if (!ma50) return { label: 'No data', cls: 'grey', color: 'grey' };
+    if (price > ma50 * 1.002) return { label: 'Price above MA — uptrend', cls: 'green', color: 'green' };
+    if (price < ma50 * 0.998) return { label: 'Price below MA — downtrend', cls: 'red', color: 'red' };
+    return { label: 'Price near MA — no clear trend', cls: 'amber', color: 'amber' };
+  }
+
+  function getRangeSignal(price, high, low, points) {
+    const pct = (price - low) / (high - low) * 100;
+    const upper = high - points;
+    const lower = low + points;
+    if (price >= upper) return { label: 'Near day HIGH — alert zone', cls: 'red', color: 'red', pct };
+    if (price <= lower) return { label: 'Near day LOW — alert zone', cls: 'amber', color: 'amber', pct };
+    if (pct > 40 && pct < 65) return { label: 'Mid-range — comfortable zone', cls: 'green', color: 'green', pct };
+    return { label: `${pct.toFixed(0)}% through today's range`, cls: 'amber', color: 'amber', pct };
+  }
+
+  function setCard(cardId, pillId, explainId, colorClass, pillLabel, explainHtml) {
+    const card = document.getElementById(cardId);
+    const pill = document.getElementById(pillId);
+    card.className = `indicator-card ${colorClass}`;
+    pill.className = `signal-pill pill-${colorClass === 'green' ? 'green' : colorClass === 'red' ? 'red' : colorClass === 'amber' ? 'amber' : 'grey'}`;
+    pill.textContent = pillLabel;
+    document.getElementById(explainId).innerHTML = explainHtml;
+  }
+
+  function setDot(id, color) {
+    const d = document.getElementById(id);
+    d.className = `check-dot ${color}`;
+  }
+
+  function updateOverall(signals) {
+    const greens = signals.filter(s => s === 'green').length;
+    const reds = signals.filter(s => s === 'red').length;
+    const el = document.getElementById('overallSignal');
+    const sub = document.getElementById('overallSub');
+
+    if (greens >= 4) {
+      el.className = 'overall-value green';
+      el.textContent = 'GO — Conditions Favour Entry';
+      sub.textContent = `${greens} of ${signals.length} indicators are green`;
+    } else if (reds >= 3) {
+      el.className = 'overall-value red';
+      el.textContent = 'STOP — Conditions Unfavourable';
+      sub.textContent = `${reds} of ${signals.length} indicators are red — wait`;
+    } else {
+      el.className = 'overall-value amber';
+      el.textContent = 'WAIT — Mixed Signals';
+      sub.textContent = `${greens} green, ${reds} red — conditions not clear yet`;
+    }
+  }
+
+  // ---- Telegram ----
+  async function sendTelegram(msg) {
+    const token = document.getElementById('botToken').value.trim();
+    const chatId = document.getElementById('chatId').value.trim();
+    if (!token || !chatId) return false;
+    try {
+      const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ chat_id: chatId, text: msg })
+      });
+      const data = await res.json();
+      return data.ok;
+    } catch(e) { return false; }
+  }
+
+  async function testTelegram() {
+    const ok = await sendTelegram('WS30 Dashboard connected. You will receive price alerts here.');
+    alert(ok ? 'Test message sent! Check Telegram.' : 'Failed. Check your Bot Token and Chat ID.');
+  }
+
+  // ---- Alert ----
+  function fireAlert(type, price, level) {
+    if (alertsFired[type]) return;
+    alertsFired[type] = true;
+    const isUpper = type === 'upper';
+    const title = isUpper ? 'UPPER ALERT' : 'LOWER ALERT';
+    const desc = isUpper
+      ? `WS30 is approaching the day HIGH\nPrice: ${price.toFixed(2)}\nAlert level: ${level.toFixed(2)}`
+      : `WS30 is approaching the day LOW\nPrice: ${price.toFixed(2)}\nAlert level: ${level.toFixed(2)}`;
+
+    document.getElementById('alertTitle').textContent = title;
+    document.getElementById('alertTitle').style.color = isUpper ? 'var(--amber)' : 'var(--red)';
+    document.getElementById('alertBody').textContent = `Price: ${price.toFixed(2)}  |  Level: ${level.toFixed(2)}`;
+    document.getElementById('alertOverlay').classList.add('show');
+    beep(isUpper ? 880 : 440);
+
+    const high = parseFloat(document.getElementById('dayHigh').value);
+    const low = parseFloat(document.getElementById('dayLow').value);
+    const points = parseFloat(document.getElementById('alertPoints').value) || 20;
+    const alertMsg = isUpper
+      ? `🟡 UPPER ALERT\n\nWS30 is approaching the day HIGH.\n\n📊 Market: US30\n💰 Price: ${price.toFixed(2)}\n📈 Alert Level: ${level.toFixed(2)}\n🔺 Day High: ${high.toFixed(2)}\n\nPrice is within ${points} points of the high.\nPrepare for a potential breakout or reversal.\n\nAlways use a stop loss and only risk what you can afford to lose.`
+      : `🔴 LOWER ALERT\n\nWS30 is approaching the day LOW.\n\n📊 Market: US30\n💰 Price: ${price.toFixed(2)}\n📉 Alert Level: ${level.toFixed(2)}\n🔻 Day Low: ${low.toFixed(2)}\n\nPrice is within ${points} points of the low.\nPrepare for a potential breakout or reversal.\n\nAlways use a stop loss and only risk what you can afford to lose.`;
+    sendTelegram(alertMsg);
+    if (Notification.permission === 'granted') new Notification(title, { body: desc });
+    log(`ALERT: ${type} level hit at ${price.toFixed(2)}`, 'warn');
+  }
+
+  // ---- Main update ----
+  async function checkPrice() {
+    try {
+      const { price, prevClose, closes, volumes, ma50, source } = await fetchData();
+
+      // Price display
+      document.getElementById('livePrice').textContent =
+        price.toLocaleString('en-GB', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+      const diff = price - prevClose;
+      const pct = (diff / prevClose * 100).toFixed(2);
+      const sign = diff >= 0 ? '+' : '';
+      const changeEl = document.getElementById('priceChange');
+      changeEl.textContent = `${sign}${diff.toFixed(2)} (${sign}${pct}%)`;
+      changeEl.className = `price-change ${diff >= 0 ? 'up' : 'down'}`;
+
+      const high = parseFloat(document.getElementById('dayHigh').value);
+      const low = parseFloat(document.getElementById('dayLow').value);
+      const points = parseFloat(document.getElementById('alertPoints').value) || 20;
+      const upper = high - points;
+      const lower = low + points;
+
+      document.getElementById('upperDisplay').textContent = upper.toLocaleString('en-GB', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      document.getElementById('lowerDisplay').textContent = lower.toLocaleString('en-GB', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+      const rangePct = Math.min(100, Math.max(0, (price - low) / (high - low) * 100));
+      document.getElementById('barFill').style.width = `${rangePct}%`;
+      document.getElementById('barMarker').style.left = `${rangePct}%`;
+      document.getElementById('barLow').textContent = low.toLocaleString('en-GB', { maximumFractionDigits: 0 });
+      document.getElementById('barHigh').textContent = high.toLocaleString('en-GB', { maximumFractionDigits: 0 });
+
+      // Calculate indicators
+      const rsi = calcRSI(closes, 14);
+      const macd = calcMACD(closes);
+      const volSig = getVolumeSignal(volumes);
+      const rsiSig = getRSISignal(rsi);
+      const macdSig = getMACDSignal(macd);
+      const maSig = getMASignal(price, ma50);
+      const rangeSig = getRangeSignal(price, high, low, points);
+
+      // RSI card
+      document.getElementById('rsiValue').textContent = rsi ? rsi.toFixed(1) : '--';
+      setCard('rsiCard', 'rsiPill', 'rsiExplain', rsiSig.color, rsiSig.label,
+        `<strong>What is RSI?</strong> Measures how fast price is moving. It runs 0-100.<br><br>
+        <strong>Right now (${rsi ? rsi.toFixed(1) : '--'}):</strong> ${
+          rsi < 30 ? 'Below 30 means the market has been falling fast and may bounce back up. A potential <strong>buying opportunity</strong>.' :
+          rsi > 70 ? 'Above 70 means the market has been rising fast and may pull back. Consider waiting before buying.' :
+          'Between 30 and 70 means normal territory. Momentum is not extreme in either direction.'
+        }`
+      );
+
+      // MACD card
+      document.getElementById('macdValue').textContent = macd ? macd.toFixed(1) : '--';
+      setCard('macdCard', 'macdPill', 'macdExplain', macdSig.color, macdSig.label,
+        `<strong>What is MACD?</strong> Compares two moving averages to show whether momentum is growing or shrinking.<br><br>
+        <strong>Right now (${macd ? macd.toFixed(1) : '--'}):</strong> ${
+          macd > 0 ? 'MACD is <strong>above zero</strong>, meaning short-term momentum is stronger than long-term. Buyers are in control.' :
+          'MACD is <strong>below zero</strong>, meaning short-term momentum is weaker than long-term. Sellers are in control.'
+        }`
+      );
+
+      // Volume card
+      const lastVol = volumes[volumes.length - 1];
+      document.getElementById('volValue').textContent = lastVol ? (lastVol / 1000).toFixed(0) + 'K' : '--';
+      setCard('volCard', 'volPill', 'volExplain', volSig.color, volSig.label,
+        `<strong>What is Volume?</strong> How many trades are happening. High volume means a move is real. Low volume means it might reverse.<br><br>
+        <strong>Right now:</strong> ${
+          volSig.ratio >= 1.5 ? `Volume is <strong>${(volSig.ratio * 100).toFixed(0)}% of average</strong>. That's high. Any price move right now is likely genuine.` :
+          volSig.ratio >= 0.8 ? `Volume is <strong>around average</strong>. Nothing unusual. Proceed with normal caution.` :
+          `Volume is <strong>below average</strong>. Be careful. Price moves on low volume can quickly reverse.`
+        }`
+      );
+
+      // MA card
+      document.getElementById('maValue').textContent = ma50 ? ma50.toLocaleString('en-GB', { maximumFractionDigits: 0 }) : '--';
+      setCard('maCard', 'maPill', 'maExplain', maSig.color, maSig.label,
+        `<strong>What is the 50 MA?</strong> The average price over the last 50 candles. Think of it as the market's "fair value" line.<br><br>
+        <strong>Right now:</strong> Price is <strong>${price > ma50 ? 'above' : price < ma50 ? 'below' : 'at'}</strong> the 50 MA (${ma50 ? ma50.toLocaleString('en-GB', { maximumFractionDigits: 0 }) : '--'}). ${
+          price > ma50 ? 'The overall trend is <strong>up</strong>. Buying with the trend.' :
+          price < ma50 ? 'The overall trend is <strong>down</strong>. Be cautious buying against the trend.' :
+          'Price is sitting right on the MA. No clear direction yet.'
+        }`
+      );
+
+      // Range card
+      document.getElementById('alertValue').textContent = rangeSig.pct ? rangeSig.pct.toFixed(0) + '%' : '--';
+      setCard('alertCard', 'alertPill', 'alertExplain', rangeSig.color, rangeSig.label,
+        `<strong>Where is price in today's range?</strong><br><br>
+        Price is <strong>${rangeSig.pct ? rangeSig.pct.toFixed(0) : '--'}%</strong> through today's range. ${
+          rangeSig.pct >= 80 ? 'Very close to the day high. Traders often take profits here. Your <strong>upper alert will fire soon</strong>.' :
+          rangeSig.pct <= 20 ? 'Very close to the day low. Could bounce, but also could keep falling. Your <strong>lower alert will fire soon</strong>.' :
+          'In the middle of the range. No extreme pressure in either direction.'
+        }`
+      );
+
+      // Price alerts
+      if (price >= upper) fireAlert('upper', price, upper);
+      if (price <= lower) fireAlert('lower', price, lower);
+
+      log(`RSI: ${rsi ? rsi.toFixed(1) : 'n/a'} | MACD: ${macd ? macd.toFixed(1) : 'n/a'} | Source: ${source || 'unknown'}`);
+      setStatus(`Live — updating every 5s | Source: ${source || 'unknown'}`, 'active');
+
+      // EMA 9/20
+      const ema9 = calcEMA(closes, 9);
+      const ema20 = calcEMA(closes, 20);
+      const emaSig = getEMASignal(ema9, ema20, closes);
+      updateEMACard(ema9, ema20, emaSig, closes);
+
+      // Fibonacci
+      updateFibonacci(price, high, low);
+
+      // Trade setup
+      updateTradeSetup(price, high, low, sigColors);
+
+      // Update checklist to include EMA
+      const sigColors = [rsiSig.color, macdSig.color, volSig.color, maSig.color, rangeSig.color, emaSig.color];
+      const checkLabels = [
+        `RSI (${rsi ? rsi.toFixed(1) : '--'}): ${rsiSig.label}`,
+        `MACD (${macd ? macd.toFixed(1) : '--'}): ${macdSig.label}`,
+        `Volume: ${volSig.label}`,
+        `Trend (MA): ${maSig.label}`,
+        `Range (${rangeSig.pct ? rangeSig.pct.toFixed(0) : '--'}%): ${rangeSig.label}`,
+        `9/20 EMA: ${emaSig.label}`
+      ];
+      for (let i = 0; i < 6; i++) {
+        setDot(`dot${i+1}`, sigColors[i]);
+        document.getElementById(`chk${i+1}`).textContent = checkLabels[i];
+      }
+      updateOverall(sigColors);
+
+    } catch(e) {
+      log(`Error: ${e.message}`, 'err');
+      setStatus('Fetch error — retrying...', 'error');
+    }
+  }
+
+  async function startMonitor() {
+    if (Notification.permission === 'default') await Notification.requestPermission();
+    alertsFired = { upper: false, lower: false };
+
+    // Unlock audio immediately on user tap
+    unlockAudio();
+
+    const high = parseFloat(document.getElementById('dayHigh').value);
+    const low = parseFloat(document.getElementById('dayLow').value);
+    if (!high || !low || high <= low) {
+      setStatus('Enter valid High and Low values first.', 'error');
+      return;
+    }
+
+    document.getElementById('startBtn').style.display = 'none';
+    document.getElementById('stopBtn').style.display = 'block';
+    setStatus('Starting...', 'active');
+    await checkPrice();
+    refreshATRValues(); // fetch ATR for all timeframes in background
+    monitorInterval = setInterval(checkPrice, 5000);
+  }
+
+  // ---- EMA SIGNAL ----
+  let ema9History = [];
+  let ema20History = [];
+  const EMA_HISTORY_MAX = 40;
+
+  function getEMASignal(ema9, ema20, closes) {
+    if (!ema9 || !ema20) return { label: 'Not enough data', color: 'grey' };
+
+    const diff = ema9 - ema20;
+    const prevEma9 = calcEMA(closes.slice(0, -1), 9);
+    const prevEma20 = calcEMA(closes.slice(0, -1), 20);
+    const prevDiff = prevEma9 && prevEma20 ? prevEma9 - prevEma20 : null;
+
+    const justCrossedUp = prevDiff !== null && prevDiff < 0 && diff > 0;
+    const justCrossedDown = prevDiff !== null && prevDiff > 0 && diff < 0;
+
+    if (justCrossedUp) return { label: 'BUY crossover just happened', color: 'green', crossed: 'up' };
+    if (justCrossedDown) return { label: 'SELL crossover just happened', color: 'red', crossed: 'down' };
+    if (diff > 0) return { label: 'EMA9 above EMA20 — bullish', color: 'green', crossed: null };
+    return { label: 'EMA9 below EMA20 — bearish', color: 'red', crossed: null };
+  }
+
+  function updateEMACard(ema9, ema20, emaSig, closes) {
+    if (!ema9 || !ema20) return;
+
+    // Store history for mini chart
+    ema9History.push(ema9);
+    ema20History.push(ema20);
+    if (ema9History.length > EMA_HISTORY_MAX) ema9History.shift();
+    if (ema20History.length > EMA_HISTORY_MAX) ema20History.shift();
+
+    document.getElementById('ema9Value').textContent = ema9.toLocaleString('en-GB', { maximumFractionDigits: 0 });
+    document.getElementById('ema20Value').textContent = ema20.toLocaleString('en-GB', { maximumFractionDigits: 0 });
+
+    setCard('emaCard', 'emaPill', 'emaExplain', emaSig.color, emaSig.label,
+      `<strong>What is the 9/20 EMA?</strong> Two moving average lines at different speeds. EMA9 reacts fast. EMA20 is slower and smoother.<br><br>
+      <strong>Right now:</strong> EMA9 is <strong>${ema9 > ema20 ? 'above' : 'below'}</strong> EMA20 by ${Math.abs(ema9 - ema20).toFixed(0)} points. ${
+        emaSig.crossed === 'up' ? '<strong style="color:var(--green)">A BUY crossover just happened.</strong> The fast line has crossed above the slow line. Momentum is turning upward. Check RSI and Fibonacci for confirmation before entering.' :
+        emaSig.crossed === 'down' ? '<strong style="color:var(--red)">A SELL crossover just happened.</strong> The fast line has dropped below the slow line. Momentum is turning downward. Consider waiting or exiting a long trade.' :
+        ema9 > ema20 ? 'Momentum is <strong>bullish</strong>. The fast line is above the slow line. Watch for price to pull back to the 38.2% or 61.8% Fibonacci level for a potential entry.' :
+        'Momentum is <strong>bearish</strong>. The fast line is below the slow line. Avoid buying until EMA9 crosses back above EMA20.'
+      }`
+    );
+
+    // Draw mini canvas chart
+    drawEMACanvas();
+  }
+
+  function drawEMACanvas() {
+    const canvas = document.getElementById('emaCanvas');
+    if (!canvas || ema9History.length < 2) return;
+    const ctx = canvas.getContext('2d');
+    const W = canvas.offsetWidth;
+    const H = canvas.offsetHeight;
+    canvas.width = W;
+    canvas.height = H;
+
+    const allVals = [...ema9History, ...ema20History];
+    const minV = Math.min(...allVals);
+    const maxV = Math.max(...allVals);
+    const range = maxV - minV || 1;
+
+    const toX = i => (i / (EMA_HISTORY_MAX - 1)) * W;
+    const toY = v => H - ((v - minV) / range) * (H * 0.8) - H * 0.1;
+
+    const drawLine = (data, color, dashed) => {
+      ctx.beginPath();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 1.5;
+      if (dashed) ctx.setLineDash([3, 3]); else ctx.setLineDash([]);
+      data.forEach((v, i) => {
+        const x = toX(i + (EMA_HISTORY_MAX - data.length));
+        const y = toY(v);
+        i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+      });
+      ctx.stroke();
+    };
+
+    // Fill between lines
+    ctx.beginPath();
+    ema9History.forEach((v, i) => {
+      const x = toX(i + (EMA_HISTORY_MAX - ema9History.length));
+      const y = toY(v);
+      i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    });
+    for (let i = ema20History.length - 1; i >= 0; i--) {
+      const x = toX(i + (EMA_HISTORY_MAX - ema20History.length));
+      const y = toY(ema20History[i]);
+      ctx.lineTo(x, y);
+    }
+    ctx.closePath();
+    const bullish = ema9History[ema9History.length-1] > ema20History[ema20History.length-1];
+    ctx.fillStyle = bullish ? 'rgba(0,230,118,0.08)' : 'rgba(255,69,96,0.08)';
+    ctx.fill();
+
+    drawLine(ema20History, '#ffb627', true);
+    drawLine(ema9History, '#00d4aa', false);
+
+    // Crossover markers
+    for (let i = 1; i < Math.min(ema9History.length, ema20History.length); i++) {
+      const prevAbove = ema9History[i-1] > ema20History[i-1];
+      const currAbove = ema9History[i] > ema20History[i];
+      if (prevAbove !== currAbove) {
+        const x = toX(i + (EMA_HISTORY_MAX - ema9History.length));
+        ctx.beginPath();
+        ctx.arc(x, toY((ema9History[i] + ema20History[i]) / 2), 4, 0, Math.PI * 2);
+        ctx.fillStyle = currAbove ? '#00e676' : '#ff4560';
+        ctx.fill();
+      }
+    }
+  }
+
+  // ---- FIBONACCI ----
+  const FIB_LEVELS = [
+    { pct: 0,    label: '0%',    desc: 'Day Low' },
+    { pct: 23.6, label: '23.6%', desc: 'Shallow pullback' },
+    { pct: 38.2, label: '38.2%', desc: 'First support zone' },
+    { pct: 50.0, label: '50%',   desc: 'Halfway point' },
+    { pct: 61.8, label: '61.8%', desc: 'Golden ratio -- key level' },
+    { pct: 78.6, label: '78.6%', desc: 'Deep retracement' },
+    { pct: 100,  label: '100%',  desc: 'Day High' },
+  ];
+
+  const FIB_COLORS = {
+    0:    '#4a6080',
+    23.6: '#00e676',
+    38.2: '#00d4aa',
+    50.0: '#ffb627',
+    61.8: '#ff9f43',
+    78.6: '#ff4560',
+    100:  '#4a6080',
+  };
+
+  function fibLevelColor(pct) { return FIB_COLORS[pct] || '#4a6080'; }
+
+  function buildFibTrack(high, low) {
+    const track = document.getElementById('fibTrack');
+    // Remove old level lines (keep price line)
+    track.querySelectorAll('.fib-level').forEach(el => el.remove());
+
+    FIB_LEVELS.forEach(lvl => {
+      const price = low + (high - low) * (lvl.pct / 100);
+      // Position: 0% = bottom (low), 100% = top (high) -- invert for CSS (top=0)
+      const topPct = 100 - lvl.pct;
+      const color = fibLevelColor(lvl.pct);
+
+      const div = document.createElement('div');
+      div.className = 'fib-level';
+      div.style.top = `${topPct}%`;
+      div.innerHTML = `
+        <div class="fib-line" style="background:${color};opacity:0.5;"></div>
+        <div class="fib-tag" style="color:${color};">${lvl.label} &nbsp;${price.toLocaleString('en-GB',{maximumFractionDigits:0})}</div>
+      `;
+      track.appendChild(div);
+    });
+
+    document.getElementById('fibLowLabel').textContent = `Low: ${low.toLocaleString('en-GB',{maximumFractionDigits:0})}`;
+    document.getElementById('fibHighLabel').textContent = `High: ${high.toLocaleString('en-GB',{maximumFractionDigits:0})}`;
+  }
+
+  function updateFibPrice(price, high, low) {
+    const range = high - low;
+    const pctFromLow = Math.min(100, Math.max(0, (price - low) / range * 100));
+    const topPct = 100 - pctFromLow;
+    document.getElementById('fibPriceLine').style.top = `${topPct}%`;
+    document.getElementById('fibPriceLabel').style.top = `${topPct}%`;
+    document.getElementById('fibPriceLabel').textContent = price.toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2});
+  }
+
+  function getNearestFibLevel(price, high, low) {
+    const range = high - low;
+    const pctFromLow = (price - low) / range * 100;
+    let nearest = FIB_LEVELS[0];
+    let minDist = 999;
+    FIB_LEVELS.forEach(lvl => {
+      const dist = Math.abs(pctFromLow - lvl.pct);
+      if (dist < minDist) { minDist = dist; nearest = lvl; }
+    });
+    return { level: nearest, distPct: minDist, pctFromLow };
+  }
+
+  function updateFibRows(price, high, low) {
+    const range = high - low;
+    const container = document.getElementById('fibRows');
+    container.innerHTML = `<div style="font-size:10px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:12px;">Level Detail</div>`;
+
+    FIB_LEVELS.forEach(lvl => {
+      const levelPrice = low + range * (lvl.pct / 100);
+      const color = fibLevelColor(lvl.pct);
+      const diff = price - levelPrice;
+      const absDiff = Math.abs(diff).toFixed(0);
+      const isAbove = diff > 0;
+      const proximity = Math.abs(diff) / range * 100;
+
+      let statusText, statusColor;
+      if (proximity < 2) {
+        statusText = 'AT LEVEL';
+        statusColor = color;
+      } else if (isAbove) {
+        statusText = `+${absDiff} above`;
+        statusColor = 'var(--green)';
+      } else {
+        statusText = `${absDiff} below`;
+        statusColor = 'var(--red)';
+      }
+
+      // Bar fill: how close price is to this level (100% = at level)
+      const fillPct = Math.max(0, 100 - proximity * 10);
+
+      const row = document.createElement('div');
+      row.className = 'fib-row';
+      row.innerHTML = `
+        <div class="fib-pct" style="color:${color}">${lvl.label}</div>
+        <div>
+          <div class="fib-priceval" style="color:${color}">${levelPrice.toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2})}</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:2px">${lvl.desc}</div>
+        </div>
+        <div style="flex:1">
+          <div class="fib-bar-wrap">
+            <div class="fib-bar-inner" style="width:${fillPct}%;background:${color};"></div>
+          </div>
+        </div>
+        <div class="fib-status" style="color:${statusColor}">${statusText}</div>
+      `;
+      container.appendChild(row);
+    });
+  }
+
+  function updateFibExplain(price, high, low) {
+    const { level, distPct, pctFromLow } = getNearestFibLevel(price, high, low);
+    const levelPrice = low + (high - low) * (level.pct / 100);
+    const diff = Math.abs(price - levelPrice).toFixed(0);
+    const box = document.getElementById('fibExplainBox');
+
+    let cls, html;
+
+    if (level.pct === 61.8 && distPct < 3) {
+      cls = 'green';
+      html = `<strong>This is the most important level.</strong> Price is ${diff} points from the 61.8% Golden Ratio (${levelPrice.toLocaleString('en-GB',{maximumFractionDigits:0})}). This is where the market most commonly pauses and reverses. If you also see a bullish engulfing candle here and RSI turning up, this is a strong entry signal. Watch closely.`;
+    } else if (level.pct === 38.2 && distPct < 3) {
+      cls = 'green';
+      html = `<strong>Price is near the 38.2% level</strong> (${levelPrice.toLocaleString('en-GB',{maximumFractionDigits:0})}), the first significant support zone. If the market bounced here after a pullback from the high, this could be a valid buy entry. Confirm with RSI above 40 and rising volume.`;
+    } else if (level.pct === 50.0 && distPct < 3) {
+      cls = 'amber';
+      html = `<strong>Price is at the 50% midpoint</strong> (${levelPrice.toLocaleString('en-GB',{maximumFractionDigits:0})}). This is a battleground between buyers and sellers. The market could go either way. Wait for a clear signal -- an engulfing candle or RSI turning direction -- before entering.`;
+    } else if (level.pct === 78.6 && distPct < 3) {
+      cls = 'red';
+      html = `<strong>Price is at the 78.6% deep retracement</strong> (${levelPrice.toLocaleString('en-GB',{maximumFractionDigits:0})}). This is the last line of defence for buyers. If price breaks below here, the original upward move is likely over. Only trade here with very strong confirmation signals.`;
+    } else if (pctFromLow > 80) {
+      cls = 'amber';
+      html = `<strong>Price is near the day HIGH.</strong> At ${pctFromLow.toFixed(0)}% of the daily range, the market is extended upward. This is not a good place to buy. Wait for a pullback to the 38.2% (${(low + (high-low)*0.382).toLocaleString('en-GB',{maximumFractionDigits:0})}) or 61.8% (${(low + (high-low)*0.618).toLocaleString('en-GB',{maximumFractionDigits:0})}) before considering an entry.`;
+    } else if (pctFromLow < 20) {
+      cls = 'red';
+      html = `<strong>Price is near the day LOW.</strong> The market has sold off significantly. This could be a buy opportunity at support, or the start of further decline. Look for a bounce and confirmation before entering. Do not buy simply because it looks cheap.`;
+    } else {
+      cls = 'grey';
+      html = `<strong>Price is between Fibonacci levels</strong> (${pctFromLow.toFixed(0)}% of the daily range). The nearest key level is <strong>${level.label}</strong> at ${levelPrice.toLocaleString('en-GB',{maximumFractionDigits:0})}, which is ${diff} points away. Wait for price to reach a level before looking for an entry signal.`;
+    }
+
+    box.className = `fib-explain-box ${cls}`;
+    box.innerHTML = html;
+  }
+
+  function updateFibonacci(price, high, low) {
+    buildFibTrack(high, low);
+    updateFibPrice(price, high, low);
+    updateFibRows(price, high, low);
+    updateFibExplain(price, high, low);
+  }
+
+  // ---- PAPER TRADING -- TWO STRATEGIES + GOOGLE DRIVE ----
+  let tradeLog = JSON.parse(localStorage.getItem('ws30_trades') || '[]');
+  let selectedDirection = null;
+  let currentSignalColors = [];
+  let currentPrice = null;
+  let activeStrategy = 'fibonacci';
+
+  const STRATEGY_INFO = {
+    fibonacci: {
+      name: 'Fibonacci Reversal',
+      explain: '<strong style="color:var(--teal)">Fibonacci Reversal:</strong> Wait for price to pull back to a key Fibonacci level (ideally 61.8%) and bounce back in the trend direction. Entry is at the Fibonacci level. Stop loss sits just beyond the next level. Take profit is the previous level above. Best when the market is trending with clear pullbacks.'
+    },
+    breakout: {
+      name: 'Breakout Strategy',
+      explain: '<strong style="color:var(--amber)">Breakout Strategy:</strong> Wait for price to break 10 points above the day high (long) or 10 points below the day low (short). <strong>Entry:</strong> 10 pts beyond the extreme. <strong>Stop Loss:</strong> 10 pts below the day LOW (long) or 10 pts above the day HIGH (short) -- the full daily range is your risk. <strong>Take Profit:</strong> 50% of ATR on 5min/15min, fixed 50 pts on 4hr, fixed 100 pts on daily. Your 20-point alert fires first to warn you price is approaching.'
+    }
+  };
+
+  function switchStrategy(strat) {
+    activeStrategy = strat;
+    document.getElementById('tabFib').style.background = strat === 'fibonacci' ? 'var(--teal)' : 'var(--panel)';
+    document.getElementById('tabFib').style.color = strat === 'fibonacci' ? '#0a0e17' : 'var(--muted)';
+    document.getElementById('tabBreak').style.background = strat === 'breakout' ? 'var(--amber)' : 'var(--panel)';
+    document.getElementById('tabBreak').style.color = strat === 'breakout' ? '#0a0e17' : 'var(--muted)';
+    document.getElementById('setupStratLabel').textContent = STRATEGY_INFO[strat].name;
+    document.getElementById('strategyExplain').innerHTML = STRATEGY_INFO[strat].explain;
+    selectedDirection = null;
+    document.getElementById('btnLong').classList.remove('selected');
+    document.getElementById('btnShort').classList.remove('selected');
+    document.getElementById('logBtn').style.opacity = '0.5';
+    document.getElementById('logBtn').style.pointerEvents = 'none';
+    if (currentPrice) {
+      const high = parseFloat(document.getElementById('dayHigh').value);
+      const low = parseFloat(document.getElementById('dayLow').value);
+      updateTradeSetup(currentPrice, high, low, currentSignalColors);
+    }
+  }
+
+  function selectDirection(dir) {
+    selectedDirection = dir;
+    document.getElementById('btnLong').classList.toggle('selected', dir === 'long');
+    document.getElementById('btnShort').classList.toggle('selected', dir === 'short');
+    const isLong = dir === 'long';
+    let explain = '';
+    if (activeStrategy === 'fibonacci') {
+      explain = isLong
+        ? 'Going <strong style="color:var(--green)">LONG</strong> on a Fibonacci bounce. Price has pulled back to a key level and you expect it to rise back up.'
+        : 'Going <strong style="color:var(--red)">SHORT</strong> on a Fibonacci bounce. Price has pushed up to a resistance level and you expect it to fall.';
+    } else {
+      explain = isLong
+        ? 'Going <strong style="color:var(--green)">LONG</strong> on a breakout. Entry is 10 points above the day high. Stop loss 20 points back. Take profit 30 points up.'
+        : 'Going <strong style="color:var(--red)">SHORT</strong> on a breakout. Entry is 10 points below the day low. Stop loss 20 points back. Take profit 30 points down.';
+    }
+    document.getElementById('directionExplain').innerHTML = explain;
+    document.getElementById('logBtn').style.opacity = '1';
+    document.getElementById('logBtn').style.pointerEvents = 'auto';
+    if (currentPrice) {
+      const high = parseFloat(document.getElementById('dayHigh').value);
+      const low = parseFloat(document.getElementById('dayLow').value);
+      updateTradeSetup(currentPrice, high, low, currentSignalColors);
+    }
+  }
+
+  function calcFibSetup(price, high, low, direction) {
+    const range = high - low;
+    const fibPrices = [
+      { pct: 0, p: low }, { pct: 23.6, p: low + range * 0.236 },
+      { pct: 38.2, p: low + range * 0.382 }, { pct: 50, p: low + range * 0.5 },
+      { pct: 61.8, p: low + range * 0.618 }, { pct: 78.6, p: low + range * 0.786 },
+      { pct: 100, p: high }
+    ];
+    fibPrices.sort((a,b) => Math.abs(a.p - price) - Math.abs(b.p - price));
+    const nearest = fibPrices[0];
+    let sl, tp;
+    if (direction === 'long') {
+      const below = fibPrices.filter(l => l.p < nearest.p).sort((a,b) => b.p - a.p)[0];
+      const above = fibPrices.filter(l => l.p > nearest.p).sort((a,b) => a.p - b.p)[0];
+      sl = below ? below.p - range * 0.005 : price - range * 0.15;
+      tp = above ? above.p : price + range * 0.2;
+    } else {
+      const above = fibPrices.filter(l => l.p > nearest.p).sort((a,b) => a.p - b.p)[0];
+      const below = fibPrices.filter(l => l.p < nearest.p).sort((a,b) => b.p - a.p)[0];
+      sl = above ? above.p + range * 0.005 : price + range * 0.15;
+      tp = below ? below.p : price - range * 0.2;
+    }
+    const risk = Math.abs(price - sl);
+    const reward = Math.abs(price - tp);
+    return { entry: price, sl, tp, risk, reward, rr: reward / risk };
+  }
+
+  function calcBreakoutSetup(high, low, direction, tpPoints) {
+    let entry, sl, tp;
+    if (direction === 'long') {
+      entry = high + 10;        // 10 points above day high
+      sl = low - 10;            // 10 points below day low
+      tp = entry + (tpPoints || 50);
+    } else {
+      entry = low - 10;         // 10 points below day low
+      sl = high + 10;           // 10 points above day high
+      tp = entry - (tpPoints || 50);
+    }
+    const risk = Math.abs(entry - sl);
+    const reward = Math.abs(entry - tp);
+    return { entry, sl, tp, risk, reward, rr: reward / risk };
+  }
+
+  // ---- ATR + TIMEFRAME ----
+  let activeTimeframe = '5m';
+  let atrValues = { '5m': null, '15m': null, '4h': null, 'D': null };
+  let allClosesCache = {};
+
+  function selectTimeframe(tf) {
+    activeTimeframe = tf;
+    const tfs = ['5m','15m','4h','D'];
+    const ids = ['tf5','tf15','tf4h','tfD'];
+    tfs.forEach((t,i) => {
+      const btn = document.getElementById(ids[i]);
+      if (t === tf) { btn.style.background = 'var(--teal)'; btn.style.color = '#0a0e17'; btn.style.border = 'none'; }
+      else { btn.style.background = 'var(--panel)'; btn.style.color = 'var(--muted)'; btn.style.border = '1px solid var(--border)'; }
+    });
+    updateATRDisplay();
+    if (currentPrice) {
+      const high = parseFloat(document.getElementById('dayHigh').value);
+      const low = parseFloat(document.getElementById('dayLow').value);
+      updateTradeSetup(currentPrice, high, low, currentSignalColors);
+    }
+  }
+
+  function calcATR(highs, lows, closes, period) {
+    if (!highs || highs.length < period + 1) return null;
+    const trs = [];
+    for (let i = 1; i < highs.length; i++) {
+      const tr = Math.max(
+        highs[i] - lows[i],
+        Math.abs(highs[i] - closes[i-1]),
+        Math.abs(lows[i] - closes[i-1])
+      );
+      trs.push(tr);
+    }
+    if (trs.length < period) return null;
+    return trs.slice(-period).reduce((a,b) => a+b, 0) / period;
+  }
+
+  async function fetchATRData(interval, range) {
+    const urls = [
+      `https://query1.finance.yahoo.com/v8/finance/chart/%5EDJI?interval=${interval}&range=${range}`,
+      `https://query2.finance.yahoo.com/v8/finance/chart/%5EDJI?interval=${interval}&range=${range}`
+    ];
+    for (const url of urls) {
+      try {
+        const res = await fetch(url, { headers: { 'Accept': 'application/json' }, mode: 'cors' });
+        if (!res.ok) continue;
+        const data = await res.json();
+        const q = data.chart.result[0].indicators.quote[0];
+        return { highs: q.high, lows: q.low, closes: q.close };
+      } catch(e) { continue; }
+    }
+    return null;
+  }
+
+  async function refreshATRValues() {
+    const configs = [
+      { tf: '5m',  interval: '5m',  range: '5d' },
+      { tf: '15m', interval: '15m', range: '5d' },
+      { tf: '4h',  interval: '60m', range: '1mo' },
+      { tf: 'D',   interval: '1d',  range: '3mo' }
+    ];
+    for (const cfg of configs) {
+      const d = await fetchATRData(cfg.interval, cfg.range);
+      if (d) {
+        const atr = calcATR(d.highs.filter(v=>v), d.lows.filter(v=>v), d.closes.filter(v=>v), 14);
+        atrValues[cfg.tf] = atr;
+      }
+    }
+    updateATRDisplay();
+  }
+
+  function getTPPoints() {
+    if (activeTimeframe === '4h') return 50;
+    if (activeTimeframe === 'D') return 100;
+    const atr = atrValues[activeTimeframe];
+    return atr ? Math.round(atr * 0.5) : 50;
+  }
+
+  function updateATRDisplay() {
+    const tfLabels = { '5m': '5 min', '15m': '15 min', '4h': '4 hour', 'D': 'Daily' };
+    const atr = atrValues[activeTimeframe];
+    const tp = getTPPoints();
+    document.getElementById('atrTF').textContent = tfLabels[activeTimeframe];
+
+    if (activeTimeframe === '4h' || activeTimeframe === 'D') {
+      document.getElementById('atrValue').textContent = 'Fixed';
+      document.getElementById('atrHalf').textContent = tp + ' pts';
+      document.getElementById('atrExplain').textContent = `On the ${tfLabels[activeTimeframe]} timeframe you use a fixed Take Profit of ${tp} points from entry.`;
+    } else if (atr) {
+      document.getElementById('atrValue').textContent = atr.toFixed(0);
+      document.getElementById('atrHalf').textContent = tp + ' pts';
+      document.getElementById('atrExplain').innerHTML = `The ${tfLabels[activeTimeframe]} ATR is <strong style="color:var(--amber)">${atr.toFixed(0)} points</strong>. Your Take Profit is 50% of that = <strong style="color:var(--green)">${tp} points</strong> from your entry. On a more volatile day the ATR rises and your TP gets further away, improving your risk:reward automatically.`;
+    } else {
+      document.getElementById('atrValue').textContent = '--';
+      document.getElementById('atrHalf').textContent = '--';
+      document.getElementById('atrExplain').textContent = 'ATR data loading...';
+    }
+  }
+
+  function updateTradeSetup(price, high, low, sigColors) {
+    currentPrice = price;
+    currentSignalColors = sigColors || [];
+    if (!price || !high || !low) return;
+    const dir = selectedDirection || 'long';
+
+    // Show/hide timeframe section
+    document.getElementById('timeframeSection').style.display = activeStrategy === 'breakout' ? 'block' : 'none';
+
+    const tpPoints = getTPPoints();
+    const setup = activeStrategy === 'fibonacci'
+      ? calcFibSetup(price, high, low, dir)
+      : calcBreakoutSetup(high, low, dir, tpPoints);
+
+    document.getElementById('tradeEntry').textContent = setup.entry.toFixed(2);
+    document.getElementById('tradeSL').textContent = setup.sl.toFixed(2);
+    document.getElementById('tradeTP').textContent = setup.tp.toFixed(2);
+    document.getElementById('rrLabel').textContent = `1 : ${setup.rr.toFixed(1)}`;
+    document.getElementById('rrFill').style.width = `${Math.min(95, (setup.rr / 3) * 100)}%`;
+
+    let slTpText = '';
+    if (activeStrategy === 'fibonacci') {
+      slTpText = `<strong>Entry</strong> at ${setup.entry.toFixed(0)} (nearest Fibonacci level). <strong>Stop Loss</strong> at ${setup.sl.toFixed(0)} -- just beyond the next Fibonacci level. If price breaks here the bounce has failed. <strong>Take Profit</strong> at ${setup.tp.toFixed(0)} -- the next Fibonacci level in your favour.`;
+    } else {
+      const tfLabels = { '5m': '5 min', '15m': '15 min', '4h': '4 hour', 'D': 'Daily' };
+      const atr = atrValues[activeTimeframe];
+      const atrNote = (activeTimeframe === '4h' || activeTimeframe === 'D')
+        ? `fixed ${tpPoints} pts for ${tfLabels[activeTimeframe]} trades`
+        : `50% of ${tfLabels[activeTimeframe]} ATR (${atr ? atr.toFixed(0) : '--'} pts)`;
+      if (dir === 'long') {
+        slTpText = `<strong>Entry</strong> at ${setup.entry.toFixed(0)} -- 10 points above the day HIGH (${high.toFixed(0)}). <strong>Stop Loss</strong> at ${setup.sl.toFixed(0)} -- 10 points below the day LOW (${low.toFixed(0)}). Full range risk = ${setup.risk.toFixed(0)} points. <strong>Take Profit</strong> at ${setup.tp.toFixed(0)} -- ${atrNote}.`;
+      } else {
+        slTpText = `<strong>Entry</strong> at ${setup.entry.toFixed(0)} -- 10 points below the day LOW (${low.toFixed(0)}). <strong>Stop Loss</strong> at ${setup.sl.toFixed(0)} -- 10 points above the day HIGH (${high.toFixed(0)}). Full range risk = ${setup.risk.toFixed(0)} points. <strong>Take Profit</strong> at ${setup.tp.toFixed(0)} -- ${atrNote}.`;
+      }
+    }
+    document.getElementById('slTpExplain').innerHTML = slTpText;
+
+    let rrText, rrColor;
+    if (setup.rr >= 2) { rrText = `Good. Risk ${setup.risk.toFixed(0)} pts, gain ${setup.reward.toFixed(0)} pts. Professional standard.`; rrColor = 'var(--green)'; }
+    else if (setup.rr >= 1) { rrText = `Acceptable. Risk ${setup.risk.toFixed(0)} pts, gain ${setup.reward.toFixed(0)} pts.`; rrColor = 'var(--amber)'; }
+    else { rrText = `Poor. Risking ${setup.risk.toFixed(0)} pts to gain only ${setup.reward.toFixed(0)} pts. Consider a higher timeframe for a better ratio.`; rrColor = 'var(--red)'; }
+    document.getElementById('rrExplain').innerHTML = `<span style="color:${rrColor}">${rrText}</span>`;
+  }
+
+  function logTrade() {
+    if (!selectedDirection || !currentPrice) { alert('Start monitoring and select a direction first.'); return; }
+    const high = parseFloat(document.getElementById('dayHigh').value);
+    const low = parseFloat(document.getElementById('dayLow').value);
+    const tpPoints = getTPPoints();
+    const setup = activeStrategy === 'fibonacci'
+      ? calcFibSetup(currentPrice, high, low, selectedDirection)
+      : calcBreakoutSetup(high, low, selectedDirection, tpPoints);
+
+    const trade = {
+      id: Date.now(), time: new Date().toLocaleString('en-GB'),
+      strategy: activeStrategy, direction: selectedDirection,
+      timeframe: activeStrategy === 'breakout' ? activeTimeframe : 'n/a',
+      entry: setup.entry, sl: setup.sl, tp: setup.tp,
+      risk: setup.risk, reward: setup.reward, rr: setup.rr,
+      signals: [...currentSignalColors], outcome: null, exitPrice: null, pnl: null
+    };
+    tradeLog.unshift(trade);
+    saveTrades();
+    saveToSheet(trade);
+    renderTradeLog();
+
+    const stratName = STRATEGY_INFO[activeStrategy].name;
+    const isLong = selectedDirection === 'long';
+    const dirEmoji = isLong ? '🟢' : '🔴';
+    const dirLabel = isLong ? 'BUY' : 'SELL';
+    const tfLabels = { '5m': '5 min', '15m': '15 min', '4h': '4 hour', 'D': 'Daily' };
+    const tfLine = activeStrategy === 'breakout' ? `\n⏱ Timeframe: ${tfLabels[activeTimeframe] || ''}` : '';
+    const stratLine = activeStrategy === 'fibonacci'
+      ? '📋 Strategy: Fibonacci Reversal'
+      : '📋 Strategy: Breakout';
+
+    const tradeMsg = `${dirEmoji} ${dirLabel} SIGNAL\n\nOpen Trade Nation and place a ${dirLabel} trade.\n\n📊 Market: US30\n💰 Entry: ${setup.entry.toFixed(2)}\n🛑 Stop Loss: ${setup.sl.toFixed(2)}\n🎯 Take Profit: ${setup.tp.toFixed(2)}\n⚖️ Risk:Reward: 1:${setup.rr.toFixed(1)}${tfLine}\n${stratLine}\n🕐 Time: ${trade.time}\n\nAlways use a stop loss and only risk what you can afford to lose.`;
+    sendTelegram(tradeMsg);
+
+    selectedDirection = null;
+    document.getElementById('btnLong').classList.remove('selected');
+    document.getElementById('btnShort').classList.remove('selected');
+    document.getElementById('logBtn').style.opacity = '0.5';
+    document.getElementById('logBtn').style.pointerEvents = 'none';
+    document.getElementById('directionExplain').textContent = 'Trade logged. Select a new direction when ready.';
+  }
+
+  function setOutcome(id, exitPrice) {
+    const trade = tradeLog.find(t => t.id === id);
+    if (!trade) return;
+    exitPrice = parseFloat(exitPrice);
+    if (isNaN(exitPrice)) return;
+    trade.exitPrice = exitPrice;
+    const raw = trade.direction === 'long' ? exitPrice - trade.entry : trade.entry - exitPrice;
+    trade.pnl = raw; trade.outcome = raw >= 0 ? 'win' : 'loss';
+    saveTrades(); saveToSheet(trade); renderTradeLog();
+    const result = raw >= 0 ? 'WIN' : 'LOSS';
+    const resultEmoji = raw >= 0 ? '✅' : '❌';
+    const tradeStratLine = trade.strategy === 'fibonacci'
+      ? '📋 Strategy: Fibonacci Reversal'
+      : '📋 Strategy: Breakout';
+    const resultMsg = `${resultEmoji} TRADE ${result}\n\n📊 Market: US30\n${tradeStratLine}\n${trade.direction === 'long' ? '🟢 BUY' : '🔴 SELL'}\n\n💰 Entry: ${trade.entry.toFixed(2)}\n🚪 Exit: ${exitPrice.toFixed(2)}\n${raw >= 0 ? '✅' : '❌'} P&L: ${raw >= 0 ? '+' : ''}${raw.toFixed(0)} points\n\nAlways use a stop loss and only risk what you can afford to lose.`;
+    sendTelegram(resultMsg);
+  }
+
+  function saveTrades() { try { localStorage.setItem('ws30_trades', JSON.stringify(tradeLog)); } catch(e) {} }
+  function clearLog() { if (confirm('Clear all trades?')) { tradeLog = []; saveTrades(); renderTradeLog(); } }
+
+  // ---- GOOGLE SHEETS ----
+  async function saveToSheet(trade) {
+    const sheetId = document.getElementById('sheetId').value.trim();
+    const apiKey = document.getElementById('googleApiKey').value.trim();
+    if (!sheetId || !apiKey) return;
+    const row = [trade.time, STRATEGY_INFO[trade.strategy].name, trade.direction.toUpperCase(),
+      trade.entry.toFixed(2), trade.sl.toFixed(2), trade.tp.toFixed(2),
+      `1:${trade.rr.toFixed(1)}`, trade.exitPrice ? trade.exitPrice.toFixed(2) : '',
+      trade.pnl ? trade.pnl.toFixed(0) + ' pts' : '', trade.outcome ? trade.outcome.toUpperCase() : 'PENDING'];
+    try {
+      await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/Sheet1:append?valueInputOption=RAW&key=${apiKey}`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ values: [row] })
+      });
+      document.getElementById('sheetStatus').textContent = 'Saved to Google Sheet.';
+      document.getElementById('sheetStatus').style.color = 'var(--teal)';
+    } catch(e) {
+      document.getElementById('sheetStatus').textContent = 'Sheet save failed.';
+      document.getElementById('sheetStatus').style.color = 'var(--red)';
+    }
+  }
+
+  async function testSheetConnection() {
+    const sheetId = document.getElementById('sheetId').value.trim();
+    const apiKey = document.getElementById('googleApiKey').value.trim();
+    if (!sheetId || !apiKey) { alert('Enter Sheet ID and API key first.'); return; }
+    try {
+      const res = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${sheetId}?key=${apiKey}`);
+      const data = await res.json();
+      if (data.spreadsheetId) {
+        document.getElementById('sheetStatus').textContent = `Connected: "${data.properties.title}"`;
+        document.getElementById('sheetStatus').style.color = 'var(--teal)';
+      } else {
+        document.getElementById('sheetStatus').textContent = 'Failed. Check Sheet ID and API key.';
+        document.getElementById('sheetStatus').style.color = 'var(--red)';
+      }
+    } catch(e) {
+      document.getElementById('sheetStatus').textContent = 'Error: ' + e.message;
+      document.getElementById('sheetStatus').style.color = 'var(--red)';
+    }
+  }
+
+  // ---- STATS + RENDER ----
+  function calcStats(trades) {
+    const completed = trades.filter(t => t.outcome);
+    const wins = completed.filter(t => t.outcome === 'win');
+    const losses = completed.filter(t => t.outcome === 'loss');
+    return {
+      total: trades.length,
+      winRate: completed.length ? ((wins.length / completed.length) * 100).toFixed(0) : '--',
+      avgWin: wins.length ? (wins.reduce((a,t) => a + t.pnl, 0) / wins.length).toFixed(0) : '--',
+      avgLoss: losses.length ? (Math.abs(losses.reduce((a,t) => a + t.pnl, 0) / losses.length)).toFixed(0) : '--'
+    };
+  }
+
+  function updateComparisonStats() {
+    const fS = calcStats(tradeLog.filter(t => t.strategy === 'fibonacci'));
+    const bS = calcStats(tradeLog.filter(t => t.strategy === 'breakout'));
+    document.getElementById('fibTotal').textContent = fS.total;
+    document.getElementById('fibWinRate').textContent = fS.winRate === '--' ? '--' : fS.winRate + '%';
+    document.getElementById('fibAvgWin').textContent = fS.avgWin === '--' ? '--' : '+' + fS.avgWin + 'pts';
+    document.getElementById('fibAvgLoss').textContent = fS.avgLoss === '--' ? '--' : '-' + fS.avgLoss + 'pts';
+    document.getElementById('breakTotal').textContent = bS.total;
+    document.getElementById('breakWinRate').textContent = bS.winRate === '--' ? '--' : bS.winRate + '%';
+    document.getElementById('breakAvgWin').textContent = bS.avgWin === '--' ? '--' : '+' + bS.avgWin + 'pts';
+    document.getElementById('breakAvgLoss').textContent = bS.avgLoss === '--' ? '--' : '-' + bS.avgLoss + 'pts';
+    const banner = document.getElementById('winnerBanner');
+    const fWR = parseFloat(fS.winRate); const bWR = parseFloat(bS.winRate);
+    if (!isNaN(fWR) && !isNaN(bWR) && fS.total >= 3 && bS.total >= 3) {
+      banner.style.display = 'block';
+      if (fWR > bWR) { banner.style.cssText = 'display:block;text-align:center;padding:14px;margin-bottom:12px;font-size:13px;font-weight:700;letter-spacing:1px;background:rgba(0,212,170,0.1);border:1px solid rgba(0,212,170,0.3);color:var(--teal)'; banner.textContent = `Fibonacci Reversal is outperforming (${fWR}% vs ${bWR}% win rate)`; }
+      else if (bWR > fWR) { banner.style.cssText = 'display:block;text-align:center;padding:14px;margin-bottom:12px;font-size:13px;font-weight:700;letter-spacing:1px;background:rgba(255,182,39,0.1);border:1px solid rgba(255,182,39,0.3);color:var(--amber)'; banner.textContent = `Breakout Strategy is outperforming (${bWR}% vs ${fWR}% win rate)`; }
+      else { banner.textContent = 'Both strategies performing equally'; }
+    } else { banner.style.display = 'none'; }
+  }
+
+  function renderTradeLog() {
+    updateComparisonStats();
+    const container = document.getElementById('tradeLogEntries');
+    container.innerHTML = '';
+    if (tradeLog.length === 0) {
+      container.innerHTML = '<div style="text-align:center;color:var(--muted);font-size:12px;padding:16px;">No trades yet. Select a strategy, pick Long or Short, then press Log Trade.</div>';
+      return;
+    }
+    tradeLog.forEach(trade => {
+      const cls = trade.outcome || 'pending';
+      const dirColor = trade.direction === 'long' ? 'var(--green)' : 'var(--red)';
+      const dirLabel = trade.direction === 'long' ? '▲ LONG' : '▼ SHORT';
+      const stratColor = trade.strategy === 'fibonacci' ? 'var(--teal)' : 'var(--amber)';
+      const stratName = STRATEGY_INFO[trade.strategy]?.name || trade.strategy;
+      let pnlHtml = '';
+      if (trade.outcome) {
+        const color = trade.pnl >= 0 ? 'var(--green)' : 'var(--red)';
+        pnlHtml = `<div style="font-family:var(--mono);font-size:14px;color:${color};font-weight:700;">${trade.pnl >= 0 ? '+' : ''}${trade.pnl.toFixed(0)} pts</div>`;
+      } else {
+        pnlHtml = `<div style="display:flex;gap:6px;align-items:center;"><input type="number" placeholder="Exit price" id="exit_${trade.id}" style="background:#0a0e17;border:1px solid var(--border);color:#fff;font-family:var(--mono);font-size:12px;padding:5px 8px;width:100px;outline:none;"><button onclick="setOutcome(${trade.id}, document.getElementById('exit_${trade.id}').value)" style="background:var(--teal);border:none;color:#0a0e17;font-size:11px;font-weight:700;padding:6px 10px;cursor:pointer;">SET</button></div>`;
+      }
+      const dots = (trade.signals || []).map(c => `<span class="sig-dot" style="background:var(--${c==='green'?'green':c==='red'?'red':c==='amber'?'amber':'muted'});"></span>`).join('');
+      const div = document.createElement('div');
+      div.className = `trade-entry ${cls}`;
+      div.innerHTML = `
+        <div class="trade-entry-header">
+          <div><span class="trade-entry-dir" style="color:${dirColor}">${dirLabel}</span><span style="font-size:10px;color:${stratColor};letter-spacing:1px;margin-left:8px;">${stratName}</span></div>
+          <span class="trade-entry-time">${trade.time}</span>
+        </div>
+        <div class="trade-entry-prices">
+          <div class="tep-item"><div class="tep-label">Entry</div><div class="tep-val">${trade.entry.toFixed(2)}</div></div>
+          <div class="tep-item"><div class="tep-label">Stop Loss</div><div class="tep-val" style="color:var(--red)">${trade.sl.toFixed(2)}</div></div>
+          <div class="tep-item"><div class="tep-label">Take Profit</div><div class="tep-val" style="color:var(--green)">${trade.tp.toFixed(2)}</div></div>
+          <div class="tep-item"><div class="tep-label">R:R</div><div class="tep-val" style="color:var(--amber)">1:${trade.rr.toFixed(1)}</div></div>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px;">
+          <div><div style="font-size:9px;color:var(--muted);letter-spacing:1px;margin-bottom:4px;">SIGNALS AT ENTRY</div><div class="trade-signals">${dots}</div></div>
+          <div style="text-align:right">${pnlHtml}</div>
+        </div>`;
+      container.appendChild(div);
+    });
+  }
+
+  switchStrategy('fibonacci');
+  renderTradeLog();
+
+  function stopMonitor() {
+    clearInterval(monitorInterval);
+    monitorInterval = null;
+    document.getElementById('startBtn').style.display = 'block';
+    document.getElementById('stopBtn').style.display = 'none';
+    setStatus('Monitoring stopped.', 'warning');
+  }
+</script>
+</body>
+</html>
