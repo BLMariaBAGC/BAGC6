@@ -1,5 +1,5 @@
 {
-  "updated": "07 Jun 2026, 23:30 UTC",
+  "updated": "08 Jun 2026, 03:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "I was applying for hundreds of jobs - this tip helped me get one",
-      "link": "https://www.bbc.com/news/articles/cd7pqwr5lqxo?at_medium=RSS&at_campaign=rss",
-      "date": "6 Jun 2026",
-      "excerpt": "Four people who weren't hearing back from job applications shared what they did differently to secure their first role.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3973/live/aebaa700-600f-11f1-89a3-d1f559421220.jpg"
+      "title": "Tech stocks plunge in Asia after record rally and renewed Middle East attacks",
+      "link": "https://www.bbc.com/news/articles/c78yd5g9qx0o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jun 2026",
+      "excerpt": "Markets in South Korea and Japan slid after a rally in tech stocks in recent weeks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfa4/live/426f4c70-62e1-11f1-9a4b-dd5933001427.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,6 +220,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Spain's visitor numbers hit new highs as tourists avoid Middle East",
+      "link": "https://www.bbc.com/news/articles/c4gvndd2qelo?at_medium=RSS&at_campaign=rss",
+      "date": "7 Jun 2026",
+      "excerpt": "The European country had 9.1 million international visitors in April, the most ever for that month.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd8/live/0fc580a0-5fe4-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'No dead ends': What the Dutch can teach us about tackling youth unemployment",
+      "link": "https://www.bbc.com/news/articles/cnvpn253re4o?at_medium=RSS&at_campaign=rss",
+      "date": "7 Jun 2026",
+      "excerpt": "The Netherlands has one of the world's lowest rates of 16 to 24-year-olds not in education, employment or training.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fd0/live/251e9ba0-60eb-11f1-92fe-5faf9b4f0321.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Tata Steel says new £1.25bn furnace may be delayed due to electrical issue",
       "link": "https://www.bbc.com/news/articles/ckg0w0lw451o?at_medium=RSS&at_campaign=rss",
       "date": "7 Jun 2026",
@@ -229,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Cake sheds are making bakers £1,000 a week - but the dream might be over",
-      "link": "https://www.bbc.com/news/articles/crlpwd2prd0o?at_medium=RSS&at_campaign=rss",
+      "title": "I was applying for hundreds of jobs - this tip helped me get one",
+      "link": "https://www.bbc.com/news/articles/cd7pqwr5lqxo?at_medium=RSS&at_campaign=rss",
       "date": "6 Jun 2026",
-      "excerpt": "They may have captured the public's imagination, but are councils coming for the cute cake cupboards?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9e9/live/6d0c2e30-5e77-11f1-929d-ad528af5a4c7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Cosmeticorexia: How girls are falling down a skincare rabbit hole",
-      "link": "https://www.bbc.com/news/articles/cx212x41evwo?at_medium=RSS&at_campaign=rss",
-      "date": "6 Jun 2026",
-      "excerpt": "Fuelled by social media, the market for children's skincare is booming. Experts fear for the long-term impact on girls",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36a1/live/95f7c8d0-60e4-11f1-89a3-d1f559421220.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The ancient trick making food waste useful and tasty",
-      "link": "https://www.bbc.com/news/articles/c78kmj2kyklo?at_medium=RSS&at_campaign=rss",
-      "date": "4 Jun 2026",
-      "excerpt": "Instead of throwing away byproducts of food processing, fermentation is making them valuable.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e61/live/8661ed20-5297-11f1-8b8c-6d33e1d5abb6.jpg"
+      "excerpt": "Four people who weren't hearing back from job applications shared what they did differently to secure their first role.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3973/live/aebaa700-600f-11f1-89a3-d1f559421220.jpg"
     }
   ]
 }
