@@ -1,5 +1,5 @@
 {
-  "updated": "08 Jun 2026, 14:06 UTC",
+  "updated": "08 Jun 2026, 15:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How C-Suite and Board Roles Are Being Reshaped Around AI",
+      "link": "https://hbr.org/2026/06/how-c-suite-and-board-roles-are-being-reshaped-around-ai",
+      "date": "8 Jun 2026",
+      "excerpt": "Old roles are evolving&#8212;and new ones are emerging.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "AI Has Broken Hiring. Here’s How to Fix It.",
       "link": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
       "date": "8 Jun 2026",
@@ -134,15 +143,6 @@
       "link": "https://hbr.org/2026/06/how-chinese-firms-are-saving-western-brands",
       "date": "4 Jun 2026",
       "excerpt": "Emerging-market firms are rewriting the rules of global competition.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Cultivate Your “Personal Power” as a Leader",
-      "link": "https://hbr.org/podcast/2026/06/how-to-cultivate-your-personal-power-as-a-leader",
-      "date": "3 Jun 2026",
-      "excerpt": "A conversation with Tulane University&#8217;s Chris Lipp on how to drive impact and influence regardless of where you sit on the org chart.",
       "image": ""
     },
     {
@@ -220,10 +220,10 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Stock markets fall on tech plunge and renewed Middle East attacks",
+      "title": "Stock market jitters remain amid tech fears and renewed Middle East attacks",
       "link": "https://www.bbc.com/news/articles/c78yd5g9qx0o?at_medium=RSS&at_campaign=rss",
       "date": "8 Jun 2026",
-      "excerpt": "Markets in Europe and Asia were hit by a tech sell-off, and oil rises as Iran and Israel launch attacks on each other.",
+      "excerpt": "Markets in Asia are hit by a tech sell-off, and oil is volatile as Iran and Israel launch attacks on each other.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfa4/live/426f4c70-62e1-11f1-9a4b-dd5933001427.jpg"
     },
     {
