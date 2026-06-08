@@ -1,5 +1,5 @@
 {
-  "updated": "08 Jun 2026, 03:51 UTC",
+  "updated": "08 Jun 2026, 08:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -205,26 +205,26 @@
       "title": "Tech stocks plunge in Asia after record rally and renewed Middle East attacks",
       "link": "https://www.bbc.com/news/articles/c78yd5g9qx0o?at_medium=RSS&at_campaign=rss",
       "date": "8 Jun 2026",
-      "excerpt": "Markets in South Korea and Japan slid after a rally in tech stocks in recent weeks.",
+      "excerpt": "Markets in South Korea and Japan are hit by a tech sell-off, and oil rises as Iran and Israel launch attacks at each other",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfa4/live/426f4c70-62e1-11f1-9a4b-dd5933001427.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "You may be saving for retirement without realising it. Here's how to check",
+      "link": "https://www.bbc.com/news/articles/c1k2kpdzjdzo?at_medium=RSS&at_campaign=rss",
+      "date": "7 Jun 2026",
+      "excerpt": "One simple check could ensure you are not missing out on free money which could help in later life.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f4ff/live/bf695a20-60d1-11f1-b808-9f0a293e0062.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "M&S launches new traineeship for 1,000 young people",
       "link": "https://www.bbc.com/news/articles/cr7xr3dvxp9o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Jun 2026",
+      "date": "8 Jun 2026",
       "excerpt": "The scheme aims to tackle the \"growing challenge\" of young people not in employment, education, or training.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bb4/live/57ade640-6256-11f1-be00-fb33099ec41d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Spain's visitor numbers hit new highs as tourists avoid Middle East",
-      "link": "https://www.bbc.com/news/articles/c4gvndd2qelo?at_medium=RSS&at_campaign=rss",
-      "date": "7 Jun 2026",
-      "excerpt": "The European country had 9.1 million international visitors in April, the most ever for that month.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd8/live/0fc580a0-5fe4-11f1-89a3-d1f559421220.jpg"
     },
     {
       "source": "BBC Business",
@@ -238,20 +238,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Spain's visitor numbers hit new highs as tourists avoid Middle East",
+      "link": "https://www.bbc.com/news/articles/c4gvndd2qelo?at_medium=RSS&at_campaign=rss",
+      "date": "7 Jun 2026",
+      "excerpt": "The European country had 9.1 million international visitors in April, the most ever for that month.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd8/live/0fc580a0-5fe4-11f1-89a3-d1f559421220.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Tata Steel says new £1.25bn furnace may be delayed due to electrical issue",
       "link": "https://www.bbc.com/news/articles/ckg0w0lw451o?at_medium=RSS&at_campaign=rss",
       "date": "7 Jun 2026",
       "excerpt": "Plans for £1.25bn steel-making furnace may be delayed by electrical connectivity problem, Tata says.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e41/live/a4253d50-626c-11f1-803e-eb6c61688af4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I was applying for hundreds of jobs - this tip helped me get one",
-      "link": "https://www.bbc.com/news/articles/cd7pqwr5lqxo?at_medium=RSS&at_campaign=rss",
-      "date": "6 Jun 2026",
-      "excerpt": "Four people who weren't hearing back from job applications shared what they did differently to secure their first role.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3973/live/aebaa700-600f-11f1-89a3-d1f559421220.jpg"
     }
   ]
 }
