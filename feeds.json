@@ -1,6 +1,15 @@
 {
-  "updated": "08 Jun 2026, 08:53 UTC",
+  "updated": "08 Jun 2026, 13:51 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover the brain chemical that helps you break bad habits",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260606075901.htm",
+      "date": "8 Jun 2026",
+      "excerpt": "Scientists have uncovered a key brain signal that helps us break old habits and adapt when circumstances suddenly change. By watching mice navigate a virtual maze, researchers found that disappointment—when an expected reward failed to appe",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Protein traffic jams may explain aging, memory loss, and Alzheimer’s",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260528082505.htm",
-      "date": "29 May 2026",
-      "excerpt": "Scientists at Stanford may have uncovered a hidden reason our brains decline with age. Studying the ultra-short-lived turquoise killifish, researchers discovered that the cellular machinery responsible for building proteins begins to jam an",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "AI Has Broken Hiring. Here’s How to Fix It.",
+      "link": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
+      "date": "8 Jun 2026",
+      "excerpt": "Hiring managers need new methods to assess authenticity and competence.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When Purpose Backfires",
+      "link": "https://hbr.org/2026/06/when-purpose-backfires",
+      "date": "8 Jun 2026",
+      "excerpt": "New research finds that employees who feel blocked from having impact are more likely to withdraw&#8212;and to quit.",
       "image": ""
     },
     {
@@ -128,22 +146,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: When Consumers Have More Control Over Ads, They Respond Better",
-      "link": "https://hbr.org/2026/06/research-when-consumers-have-more-control-over-ads-they-respond-better",
-      "date": "3 Jun 2026",
-      "excerpt": "A smartly deployed choice menu can provide viewers, platforms, and advertisers more of what they all want.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: What Interruptions Reveal About Company Culture",
-      "link": "https://hbr.org/2026/06/research-what-interruptions-reveal-about-company-culture",
-      "date": "3 Jun 2026",
-      "excerpt": "Stop treating interruptions as isolated incidents and start reading them as data.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Managing the geopolitics of Europe’s energy transition",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/08/managing-the-geopolitics-of-europes-energy-transition/",
+      "date": "8 Jun 2026",
+      "excerpt": "Geopolitics is disrupting the critical supply chains essential for the energy transition, not least in Europe. Ahead of an event at the LSE Festival Peter Hill introduces the Clean Technology Partnership Initiative, a framework which assess",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/LSE-Blogs-festival-banner_1024-x-196.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -191,31 +200,31 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Which market will dominate the semiconductor industry in the next decade?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/29/which-market-will-dominate-the-semiconductor-industry-in-the-next-decade/",
-      "date": "29 May 2026",
-      "excerpt": "While China is approaching self-sufficiency, America’s ambitions are restrained by structural limits and Europe’s regulatory clarity is undermined by strategic ambiguity. Bruno Sergi and Mark Esposito argue that the 2030s will not be won us",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Screenshot-2026-05-29-085733.png"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Tech stocks plunge in Asia after record rally and renewed Middle East attacks",
-      "link": "https://www.bbc.com/news/articles/c78yd5g9qx0o?at_medium=RSS&at_campaign=rss",
+      "title": "Starmer tells Apple and Google to ban nude images on children's phones",
+      "link": "https://www.bbc.com/news/articles/cly752ydjw6o?at_medium=RSS&at_campaign=rss",
       "date": "8 Jun 2026",
-      "excerpt": "Markets in South Korea and Japan are hit by a tech sell-off, and oil rises as Iran and Israel launch attacks at each other",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfa4/live/426f4c70-62e1-11f1-9a4b-dd5933001427.jpg"
+      "excerpt": "Firms will be expected to activate built-in features to stop children accessing sexually explicit images.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e75/live/86335d20-632c-11f1-a3f6-0f405eeda939.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "You may be saving for retirement without realising it. Here's how to check",
       "link": "https://www.bbc.com/news/articles/c1k2kpdzjdzo?at_medium=RSS&at_campaign=rss",
-      "date": "7 Jun 2026",
+      "date": "8 Jun 2026",
       "excerpt": "One simple check could ensure you are not missing out on free money which could help in later life.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f4ff/live/bf695a20-60d1-11f1-b808-9f0a293e0062.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Stock markets fall on tech plunge and renewed Middle East attacks",
+      "link": "https://www.bbc.com/news/articles/c78yd5g9qx0o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jun 2026",
+      "excerpt": "Markets in Europe and Asia were hit by a tech sell-off, and oil rises as Iran and Israel launch attacks on each other.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfa4/live/426f4c70-62e1-11f1-9a4b-dd5933001427.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "7 Jun 2026",
       "excerpt": "The European country had 9.1 million international visitors in April, the most ever for that month.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd8/live/0fc580a0-5fe4-11f1-89a3-d1f559421220.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Tata Steel says new £1.25bn furnace may be delayed due to electrical issue",
-      "link": "https://www.bbc.com/news/articles/ckg0w0lw451o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Jun 2026",
-      "excerpt": "Plans for £1.25bn steel-making furnace may be delayed by electrical connectivity problem, Tata says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e41/live/a4253d50-626c-11f1-803e-eb6c61688af4.jpg"
     }
   ]
 }
