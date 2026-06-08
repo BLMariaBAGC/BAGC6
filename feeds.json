@@ -1,5 +1,5 @@
 {
-  "updated": "08 Jun 2026, 17:13 UTC",
+  "updated": "08 Jun 2026, 17:31 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Managing the geopolitics of Europe’s energy transition",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/08/managing-the-geopolitics-of-europes-energy-transition/",
+      "date": "8 Jun 2026",
+      "excerpt": "Geopolitics is disrupting the critical supply chains essential for the energy transition, not least in Europe. Ahead of an event at the LSE Festival Peter Hill introduces the Clean Technology Partnership Initiative, a framework which assess",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/LSE-Blogs-festival-banner_1024-x-196.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Why do workers from different countries exhibit resilience differently?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/05/why-do-workers-from-different-countries-exhibit-resilience-differently/",
       "date": "5 Jun 2026",
@@ -191,13 +200,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Which market will dominate the semiconductor industry in the next decade?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/05/29/which-market-will-dominate-the-semiconductor-industry-in-the-next-decade/",
-      "date": "29 May 2026",
-      "excerpt": "While China is approaching self-sufficiency, America’s ambitions are restrained by structural limits and Europe’s regulatory clarity is undermined by strategic ambiguity. Bruno Sergi and Mark Esposito argue that the 2030s will not be won us",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/05/Screenshot-2026-05-29-085733.png"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Jailed crypto founder Sam Bankman-Fried seeks Trump pardon",
+      "link": "https://www.bbc.com/news/articles/cjwgd6jqd5do?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jun 2026",
+      "excerpt": "The former leader of crypto platform FTX, currently serving a 25-year sentence, on Monday officially applied to be pardoned.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a742/live/c593be00-6355-11f1-8b15-6100cfbc3083.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "8 Jun 2026",
       "excerpt": "The scheme aims to tackle the \"growing challenge\" of young people not in employment, education, or training.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bb4/live/57ade640-6256-11f1-be00-fb33099ec41d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'No dead ends': What the Dutch can teach us about tackling youth unemployment",
-      "link": "https://www.bbc.com/news/articles/cnvpn253re4o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Jun 2026",
-      "excerpt": "The Netherlands has one of the world's lowest rates of 16 to 24-year-olds not in education, employment or training.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fd0/live/251e9ba0-60eb-11f1-92fe-5faf9b4f0321.jpg"
     },
     {
       "source": "BBC Business",
