@@ -1,5 +1,5 @@
 {
-  "updated": "09 Jun 2026, 12:58 UTC",
+  "updated": "09 Jun 2026, 13:18 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The Founder Mindset: Tim Ferriss on Experiments, Risk, and Freedom",
+      "link": "https://hbr.org/podcast/2026/06/the-founder-mindset-tim-ferriss-on-experiments-risk-and-freedom",
+      "date": "9 Jun 2026",
+      "excerpt": "Tim Ferriss shows that entrepreneurial edge doesn&#8217;t come from learning; it comes from learning faster than the competition.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "We All Hate Meetings—Here’s How to Make Them Work",
+      "link": "https://hbr.org/podcast/2026/06/we-all-hate-meetings-heres-how-to-make-them-work",
+      "date": "9 Jun 2026",
+      "excerpt": "A conversation with Kayak cofounder Paul English on how better meetings can become a competitive advantage.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How C-Suite and Board Roles Are Being Reshaped Around AI",
       "link": "https://hbr.org/2026/06/how-c-suite-and-board-roles-are-being-reshaped-around-ai",
       "date": "8 Jun 2026",
@@ -125,24 +143,6 @@
       "link": "https://hbr.org/2026/06/what-a-fragmenting-digital-economy-means-for-global-competition",
       "date": "5 Jun 2026",
       "excerpt": "A new index of 125 countries reveals where innovation is growing and where it&#8217;s stalling out.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Your Company Needs an Energy Strategy for AI’s Next Phase",
-      "link": "https://hbr.org/2026/06/your-company-needs-an-energy-strategy-for-ais-next-phase",
-      "date": "4 Jun 2026",
-      "excerpt": "Organizations need a plan to measure, reduce, contract for, and strategically locate their compute.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Chinese Firms Are Saving Western Brands",
-      "link": "https://hbr.org/2026/06/how-chinese-firms-are-saving-western-brands",
-      "date": "4 Jun 2026",
-      "excerpt": "Emerging-market firms are rewriting the rules of global competition.",
       "image": ""
     },
     {
