@@ -1,5 +1,5 @@
 {
-  "updated": "09 Jun 2026, 18:02 UTC",
+  "updated": "09 Jun 2026, 20:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Version of AI tool 'too powerful for public' released to public",
+      "link": "https://www.bbc.com/news/articles/ckg701v1dp6o?at_medium=RSS&at_campaign=rss",
+      "date": "9 Jun 2026",
+      "excerpt": "Claude Fable 5 is a version of Anthropic's Claude Mythos, an AI program which caused a stir among technology, finance, and government leaders.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a65/live/82edf440-642b-11f1-a08b-a904eba6340c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "AI giants' race to raise funds heats up as ChatGPT-owner plans stock market debut",
       "link": "https://www.bbc.com/news/articles/cd958eqg1n5o?at_medium=RSS&at_campaign=rss",
       "date": "9 Jun 2026",
@@ -234,15 +243,6 @@
       "date": "9 Jun 2026",
       "excerpt": "The Pentagon list warns US firms of risks linked to working with flagged Chinese companies.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e75e/live/fed6e420-639c-11f1-a458-bdcf0d8cd59b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How driving test booking is changing for learner drivers",
-      "link": "https://www.bbc.com/news/articles/ckgpl9zdw3po?at_medium=RSS&at_campaign=rss",
-      "date": "8 Jun 2026",
-      "excerpt": "From 12 May, only learner drivers can book their own tests, not instructors.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/608d/live/68aa66d0-4dc5-11f1-ac78-2112837ce2aa.jpg"
     },
     {
       "source": "BBC Business",
