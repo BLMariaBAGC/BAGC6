@@ -1,6 +1,15 @@
 {
-  "updated": "10 Jun 2026, 03:33 UTC",
+  "updated": "10 Jun 2026, 08:06 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Popular joint supplement glucosamine linked to faster Alzheimer’s progression",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260610003044.htm",
+      "date": "10 Jun 2026",
+      "excerpt": "A major study suggests glucosamine, a popular supplement for joint pain, could be linked to faster progression from mild cognitive impairment to Alzheimer’s disease. Researchers found a 25% higher likelihood of developing dementia among glu",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260602021634.htm",
       "date": "3 Jun 2026",
       "excerpt": "Scientists have uncovered evidence that autism may include at least two biologically distinct subtypes, each marked by a different pattern of brain communication. By combining brain scans from nearly 1,000 people with autism with insights f",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your brain starts making social decisions before you do",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260602021629.htm",
-      "date": "2 Jun 2026",
-      "excerpt": "Researchers found that social behavior begins in the brain before it becomes visible as movement. In zebrafish, a coordinated pattern of activity spread across the brain several seconds before the animals approached another fish. A higher b",
       "image": ""
     },
     {
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Bill debt soars but many don't know help is available",
+      "link": "https://www.bbc.com/news/articles/cdjkevgv9rzo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Jun 2026",
+      "excerpt": "The majority of billpayers are unaware of special tariffs for water and broadband, the spending watchdog says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8541/live/b73af030-63f0-11f1-abe1-f36e5ae3bba8.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "World's largest chipmaker does not rule out price rises as costs increase",
       "link": "https://www.bbc.com/news/articles/ce3ez4zzzlvo?at_medium=RSS&at_campaign=rss",
       "date": "9 Jun 2026",
@@ -220,11 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Bill debt soars but many don't know help is available",
-      "link": "https://www.bbc.com/news/articles/cdjkevgv9rzo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Jun 2026",
-      "excerpt": "The majority of billpayers are unaware of special tariffs for water and broadband, the spending watchdog says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8541/live/b73af030-63f0-11f1-abe1-f36e5ae3bba8.jpg"
+      "title": "UK pint prices up 36% since last World Cup – here's why",
+      "link": "https://www.bbc.com/news/articles/c982107drq8o?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jun 2026",
+      "excerpt": "UK pint prices are up 36% since the last World Cup. We look at why beer now costs so much more.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e77e/live/521557a0-63ef-11f1-97a1-1f201aaa0cb9.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "9 Jun 2026",
       "excerpt": "The mask is not \"clinically proven to reduce wrinkles in four weeks\", the advertising watchdog finds.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e698/live/f5bbf290-63e2-11f1-a3a0-bfd230095adb.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Version of AI tool 'too powerful for public' released to public",
-      "link": "https://www.bbc.com/news/articles/ckg701v1dp6o?at_medium=RSS&at_campaign=rss",
-      "date": "9 Jun 2026",
-      "excerpt": "Claude Fable 5 is a version of Anthropic's Claude Mythos, an AI program which caused a stir among technology, finance, and government leaders.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a65/live/82edf440-642b-11f1-a08b-a904eba6340c.jpg"
     },
     {
       "source": "BBC Business",
