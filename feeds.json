@@ -1,5 +1,5 @@
 {
-  "updated": "10 Jun 2026, 20:27 UTC",
+  "updated": "10 Jun 2026, 23:23 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,10 +193,28 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Mike Ashley's Frasers offers £1.73bn to buy all of Hugo Boss",
+      "link": "https://www.bbc.com/news/articles/c07y92gplmyo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jun 2026",
+      "excerpt": "The retail group already owns just over a quarter of the German fashion brand but wants to buy the rest of it.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdd3/live/930ddea0-651e-11f1-ac28-17d6b833da1d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I'd have vetoed foreign sale of UK tech giant, says Business Secretary",
+      "link": "https://www.bbc.com/news/articles/cd0mg79ggm0o?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jun 2026",
+      "excerpt": "Peter Kyle's comments come as the government sets out how it would back British technology companies.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8351/live/77446c20-64bf-11f1-8e1d-bbbb1017d210.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Trump says he 'loves the inflation' as US prices rise at fastest rate in three years",
       "link": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
       "date": "10 Jun 2026",
-      "excerpt": "Consumers are increasingly feeling the strain of the US Israel war in Iran.",
+      "excerpt": "Consumers are increasingly feeling the strain of the US-Israel war in Iran.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fba/live/32abefd0-64f5-11f1-96e1-83394d865b23.jpg"
     },
     {
@@ -220,29 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Illegal mini-marts to shut for up to 12 months under law change prompted by BBC",
-      "link": "https://www.bbc.com/news/articles/cqj1rkqqrgro?at_medium=RSS&at_campaign=rss",
+      "title": "'A little goes a long way': New York's candy stores sweeten economic gloom",
+      "link": "https://www.bbc.com/news/articles/c30ylzlygngo?at_medium=RSS&at_campaign=rss",
       "date": "10 Jun 2026",
-      "excerpt": "Under current rules, shops breaking the law can only be closed for up to six months in England and Wales.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8084/live/8a0ee320-64ac-11f1-8e1d-bbbb1017d210.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "World's largest chipmaker does not rule out price rises as costs increase",
-      "link": "https://www.bbc.com/news/articles/ce3ez4zzzlvo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Jun 2026",
-      "excerpt": "In a rare interview, a senior executive at TSMC discusses the AI boom, the geopolitics of chips and what it means for the price of electronics.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0073/live/e8e49210-6424-11f1-a614-bb0f90cd931c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How to enjoy the World Cup - and keep your boss on side",
-      "link": "https://www.bbc.com/news/articles/c0r2yldw1vjo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Jun 2026",
-      "excerpt": "Football fans and bosses share their strategies to balance late night kick offs with work the next day.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5904/live/3e5cd850-641c-11f1-9216-c3eba4acaf31.jpg"
+      "excerpt": "While US consumer confidence is at an historic low the Big Apple's sweet shops are expanding.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da43/live/32545b10-6362-11f1-b1db-af71d47507d6.jpg"
     }
   ]
 }
