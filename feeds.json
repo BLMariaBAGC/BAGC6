@@ -1,5 +1,5 @@
 {
-  "updated": "10 Jun 2026, 15:36 UTC",
+  "updated": "10 Jun 2026, 15:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Where Does China Fit in Your Company’s Innovation Strategy?",
+      "link": "https://hbr.org/2026/06/where-does-china-fit-in-your-companys-innovation-strategy",
+      "date": "10 Jun 2026",
+      "excerpt": "How multinationals can leverage China&#8217;s innovation ecosystem to fuel R&#38;D efforts and mitigate risks.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Why Employees Aren’t Transparent About Their AI Usage",
       "link": "https://hbr.org/2026/06/why-employees-arent-transparent-about-their-ai-usage",
       "date": "10 Jun 2026",
@@ -125,15 +134,6 @@
       "link": "https://hbr.org/2026/06/how-c-suite-and-board-roles-are-being-reshaped-around-ai",
       "date": "8 Jun 2026",
       "excerpt": "Old roles are evolving&#8212;and new ones are emerging.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Has Broken Hiring. Here’s How to Fix It.",
-      "link": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
-      "date": "8 Jun 2026",
-      "excerpt": "Hiring managers need new methods to assess authenticity and competence.",
       "image": ""
     },
     {
