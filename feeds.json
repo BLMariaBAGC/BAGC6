@@ -1,6 +1,24 @@
 {
-  "updated": "10 Jun 2026, 08:06 UTC",
+  "updated": "10 Jun 2026, 12:55 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A classic brain test exposed AI's biggest weakness",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260610003049.htm",
+      "date": "10 Jun 2026",
+      "excerpt": "Researchers gave top AI models a classic attention test used in psychology and found a major flaw. While the models could correctly name colors in short lists, their performance deteriorated sharply as the task became longer and more comple",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists mapped every neural connection in a fruit fly and found a surprise",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260610003047.htm",
+      "date": "10 Jun 2026",
+      "excerpt": "A groundbreaking new connectome maps every neural connection in an adult fruit fly’s central nervous system, creating an unprecedented view of how the brain and body work together. The findings suggest that complex behaviors emerge from dis",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260603015356.htm",
       "date": "3 Jun 2026",
       "excerpt": "A newly identified group of amygdala neurons appears to play a central role in anxiety and social behavior. Restoring normal activity in this tiny brain circuit reversed anxiety and social deficits in mice, revealing a promising new target ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover gut bacteria that may help protect against autism and ADHD",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260602021645.htm",
-      "date": "2 Jun 2026",
-      "excerpt": "A major study suggests that some of the groundwork for brain development may be shaped before birth through a surprising partnership between a baby’s genes and gut microbes. Researchers found that epigenetic changes present at birth can inf",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Brain scans reveal two distinct types of autism",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260602021634.htm",
-      "date": "3 Jun 2026",
-      "excerpt": "Scientists have uncovered evidence that autism may include at least two biologically distinct subtypes, each marked by a different pattern of brain communication. By combining brain scans from nearly 1,000 people with autism with insights f",
       "image": ""
     },
     {
@@ -211,6 +211,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US inflation surges to three-year high of 4.2%",
+      "link": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jun 2026",
+      "excerpt": "Consumers are increasingly feeling the strain of the US Israel war in Iran.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c69/live/f9097760-64c8-11f1-8f51-b550443b533b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Illegal mini-marts to shut for up to 12 months under law change prompted by BBC",
+      "link": "https://www.bbc.com/news/articles/cqj1rkqqrgro?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jun 2026",
+      "excerpt": "Under current rules, shops breaking the law can only be closed for up to six months in England and Wales.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8084/live/8a0ee320-64ac-11f1-8e1d-bbbb1017d210.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "World's largest chipmaker does not rule out price rises as costs increase",
       "link": "https://www.bbc.com/news/articles/ce3ez4zzzlvo?at_medium=RSS&at_campaign=rss",
       "date": "9 Jun 2026",
@@ -234,24 +252,6 @@
       "date": "10 Jun 2026",
       "excerpt": "UK pint prices are up 36% since the last World Cup. We look at why beer now costs so much more.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e77e/live/521557a0-63ef-11f1-97a1-1f201aaa0cb9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Beauty Pie LED mask ad banned over misleading anti-wrinkle claim",
-      "link": "https://www.bbc.com/news/articles/c892lj7xn02o?at_medium=RSS&at_campaign=rss",
-      "date": "9 Jun 2026",
-      "excerpt": "The mask is not \"clinically proven to reduce wrinkles in four weeks\", the advertising watchdog finds.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e698/live/f5bbf290-63e2-11f1-a3a0-bfd230095adb.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Kalshi to make some users reveal job details to tackle insider trading",
-      "link": "https://www.bbc.com/news/articles/cx2vn7wp33po?at_medium=RSS&at_campaign=rss",
-      "date": "9 Jun 2026",
-      "excerpt": "After issues with insider trading, the prediction betting platform is adding new rules.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ffd3/live/4fd303f0-644b-11f1-b85d-d958efe4702d.jpg"
     }
   ]
 }
