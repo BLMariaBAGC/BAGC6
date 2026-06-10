@@ -1,6 +1,24 @@
 {
-  "updated": "09 Jun 2026, 23:16 UTC",
+  "updated": "10 Jun 2026, 03:33 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Cancer patients found a simple way to stay mentally sharp during chemotherapy",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260608040019.htm",
+      "date": "9 Jun 2026",
+      "excerpt": "“Chemo brain” affects up to 80% of people receiving chemotherapy, making everyday tasks harder. In a new trial, cancer patients who followed a home-based exercise program showed better attention and fewer noticeable cognitive problems than ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Ultra-processed foods may be stealing your focus even if you eat healthy",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260608040017.htm",
+      "date": "9 Jun 2026",
+      "excerpt": "A study of more than 2,100 adults found that eating more ultra-processed foods was linked to poorer attention and slower mental processing, even among people with otherwise healthy diets. Researchers also found higher consumption was associ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260602021629.htm",
       "date": "2 Jun 2026",
       "excerpt": "Researchers found that social behavior begins in the brain before it becomes visible as movement. In zebrafish, a coordinated pattern of activity spread across the brain several seconds before the animals approached another fish. A higher b",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists found the hidden switch fueling alzheimer’s brain inflammation",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260530053424.htm",
-      "date": "31 May 2026",
-      "excerpt": "Scientists at Scripps Research have uncovered a molecular “switch” that appears to fuel the damaging brain inflammation seen in Alzheimer’s disease. They found that a protein called STING becomes chemically altered in a way that keeps the b",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Caffeine reversed memory problems caused by sleep deprivation",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260529043654.htm",
-      "date": "30 May 2026",
-      "excerpt": "Scientists discovered that sleep deprivation damages a key brain circuit responsible for social memory, making it harder to recognize familiar individuals. In laboratory studies, caffeine restored communication between neurons in this pathw",
       "image": ""
     },
     {
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "World's largest chipmaker does not rule out price rises as costs increase",
+      "link": "https://www.bbc.com/news/articles/ce3ez4zzzlvo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Jun 2026",
+      "excerpt": "In a rare interview, a senior executive at TSMC discusses the AI boom, the geopolitics of chips and what it means for the price of electronics.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0073/live/e8e49210-6424-11f1-a614-bb0f90cd931c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "How to enjoy the World Cup - and keep your boss on side",
       "link": "https://www.bbc.com/news/articles/c0r2yldw1vjo?at_medium=RSS&at_campaign=rss",
       "date": "9 Jun 2026",
@@ -234,15 +243,6 @@
       "date": "9 Jun 2026",
       "excerpt": "Claude Fable 5 is a version of Anthropic's Claude Mythos, an AI program which caused a stir among technology, finance, and government leaders.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a65/live/82edf440-642b-11f1-a08b-a904eba6340c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "World's largest chipmaker does not rule out price rises as costs increase",
-      "link": "https://www.bbc.com/news/articles/ce3ez4zzzlvo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Jun 2026",
-      "excerpt": "In a rare interview, a senior executive at TSMC discusses the AI boom, the geopolitics of chips and what it means for the price of electronics.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0073/live/e8e49210-6424-11f1-a614-bb0f90cd931c.jpg"
     },
     {
       "source": "BBC Business",
