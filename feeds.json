@@ -1,5 +1,5 @@
 {
-  "updated": "10 Jun 2026, 16:56 UTC",
+  "updated": "10 Jun 2026, 20:27 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,20 +193,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Trump says he 'loves the inflation' as US prices rise at fastest rate in three years",
+      "link": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jun 2026",
+      "excerpt": "Consumers are increasingly feeling the strain of the US Israel war in Iran.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fba/live/32abefd0-64f5-11f1-96e1-83394d865b23.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "World Cup expected to be the biggest betting event in history",
+      "link": "https://www.bbc.com/news/articles/cwydgwdx83yo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jun 2026",
+      "excerpt": "The expansion of the number of games being played is set to drive a surge in the amount of bets placed on this year's World Cup.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5c6/live/70f3e630-64fa-11f1-96e1-83394d865b23.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Bill debt soars but many don't know help is available",
       "link": "https://www.bbc.com/news/articles/cdjkevgv9rzo?at_medium=RSS&at_campaign=rss",
       "date": "9 Jun 2026",
       "excerpt": "The majority of billpayers are unaware of special tariffs for water and broadband, the spending watchdog says.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8541/live/b73af030-63f0-11f1-abe1-f36e5ae3bba8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US inflation surges to three-year high of 4.2%",
-      "link": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Jun 2026",
-      "excerpt": "Consumers are increasingly feeling the strain of the US Israel war in Iran.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c69/live/f9097760-64c8-11f1-8f51-b550443b533b.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "9 Jun 2026",
       "excerpt": "Football fans and bosses share their strategies to balance late night kick offs with work the next day.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5904/live/3e5cd850-641c-11f1-9216-c3eba4acaf31.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK pint prices up 36% since last World Cup – here's why",
-      "link": "https://www.bbc.com/news/articles/c982107drq8o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Jun 2026",
-      "excerpt": "UK pint prices are up 36% since the last World Cup. We look at why beer now costs so much more.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e77e/live/521557a0-63ef-11f1-97a1-1f201aaa0cb9.jpg"
     }
   ]
 }
