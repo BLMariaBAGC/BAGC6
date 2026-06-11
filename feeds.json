@@ -1,5 +1,5 @@
 {
-  "updated": "11 Jun 2026, 13:57 UTC",
+  "updated": "11 Jun 2026, 17:37 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How to Actually Finish What You Need to Get Done",
+      "link": "https://hbr.org/podcast/2026/06/how-to-actually-finish-what-you-need-to-get-done",
+      "date": "11 Jun 2026",
+      "excerpt": "A conversation with entrepreneur Marc Zao-Sanders on how timeboxing can help you focus on what matters.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "For Hope to Inspire, It Has to Be Grounded in Organizational Reality",
+      "link": "https://hbr.org/2026/06/for-hope-to-inspire-it-has-to-be-grounded-in-organizational-reality",
+      "date": "11 Jun 2026",
+      "excerpt": "A guide for leaders.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How Do You Market to an AI Customer?",
       "link": "https://hbr.org/2026/06/how-do-you-market-to-an-ai-customer",
       "date": "11 Jun 2026",
@@ -119,21 +137,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Founder Mindset: Tim Ferriss on Experiments, Risk, and Freedom",
-      "link": "https://hbr.org/podcast/2026/06/the-founder-mindset-tim-ferriss-on-experiments-risk-and-freedom",
-      "date": "9 Jun 2026",
-      "excerpt": "Tim Ferriss shows that entrepreneurial edge doesn&#8217;t come from learning; it comes from learning faster than the competition.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "We All Hate Meetings—Here’s How to Make Them Work",
-      "link": "https://hbr.org/podcast/2026/06/we-all-hate-meetings-heres-how-to-make-them-work",
-      "date": "9 Jun 2026",
-      "excerpt": "A conversation with Kayak cofounder Paul English on how better meetings can become a competitive advantage.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Why staff surveys and organisational metrics can give leaders false comfort",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/11/why-staff-surveys-and-organisational-metrics-can-give-leaders-false-comfort/",
+      "date": "11 Jun 2026",
+      "excerpt": "In regulated industries cultural measurement is not optional. Bosses and boards are expected to monitor opinions and demonstrate oversight of behavioural and conduct risk. Yet surveys can mislead if interpreted incorrectly. And those who tr",
       "image": ""
     },
     {
@@ -180,15 +189,6 @@
       "date": "4 Jun 2026",
       "excerpt": "Adding more high-intensity moments can increase engagement in the moment but weaken what customers ultimately remember. By analysing the “Sprint” race formats introduced in Formula One and MotoGP, Jorge Pena Marin and G. Tomas M. Hult show ",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Moment-Density-Framework-1024x568.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Legal protections to free speech foster better entrepreneurship",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/03/legal-protections-to-free-speech-foster-better-entrepreneurship/",
-      "date": "3 Jun 2026",
-      "excerpt": "Startups rely on narratives rather than cash flows to attract investors. When firms can silence critics, such as journalists or whistleblowers, through lawsuits, weak ventures survive longer than they should. Swarnodeep Homroy and Panagiota",
-      "image": ""
     },
     {
       "source": "BBC Business",
