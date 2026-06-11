@@ -1,5 +1,5 @@
 {
-  "updated": "10 Jun 2026, 23:23 UTC",
+  "updated": "11 Jun 2026, 03:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "The furious dispute over what caused Air India flight 171 to crash",
+      "link": "https://www.bbc.com/news/articles/cwyk9exxp2qo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jun 2026",
+      "excerpt": "The final conclusions of the investigation have yet to be published, although more could become apparent in the coming days.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed7c/live/3e56e6a0-64a5-11f1-b1db-af71d47507d6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "I'd have vetoed foreign sale of UK tech giant, says Business Secretary",
       "link": "https://www.bbc.com/news/articles/cd0mg79ggm0o?at_medium=RSS&at_campaign=rss",
       "date": "10 Jun 2026",
@@ -213,7 +222,7 @@
       "feedId": "bbc",
       "title": "Trump says he 'loves the inflation' as US prices rise at fastest rate in three years",
       "link": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Jun 2026",
+      "date": "11 Jun 2026",
       "excerpt": "Consumers are increasingly feeling the strain of the US-Israel war in Iran.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fba/live/32abefd0-64f5-11f1-96e1-83394d865b23.jpg"
     },
@@ -225,15 +234,6 @@
       "date": "10 Jun 2026",
       "excerpt": "The expansion of the number of games being played is set to drive a surge in the amount of bets placed on this year's World Cup.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5c6/live/70f3e630-64fa-11f1-96e1-83394d865b23.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Bill debt soars but many don't know help is available",
-      "link": "https://www.bbc.com/news/articles/cdjkevgv9rzo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Jun 2026",
-      "excerpt": "The majority of billpayers are unaware of special tariffs for water and broadband, the spending watchdog says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8541/live/b73af030-63f0-11f1-abe1-f36e5ae3bba8.jpg"
     },
     {
       "source": "BBC Business",
