@@ -1,5 +1,5 @@
 {
-  "updated": "11 Jun 2026, 08:45 UTC",
+  "updated": "11 Jun 2026, 13:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How Do You Market to an AI Customer?",
+      "link": "https://hbr.org/2026/06/how-do-you-market-to-an-ai-customer",
+      "date": "11 Jun 2026",
+      "excerpt": "Your company needs to understand what the technology rewards, ignores, and trusts.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Where Does China Fit in Your Company’s Innovation Strategy?",
       "link": "https://hbr.org/2026/06/where-does-china-fit-in-your-companys-innovation-strategy",
       "date": "10 Jun 2026",
@@ -125,15 +134,6 @@
       "link": "https://hbr.org/podcast/2026/06/we-all-hate-meetings-heres-how-to-make-them-work",
       "date": "9 Jun 2026",
       "excerpt": "A conversation with Kayak cofounder Paul English on how better meetings can become a competitive advantage.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How C-Suite and Board Roles Are Being Reshaped Around AI",
-      "link": "https://hbr.org/2026/06/how-c-suite-and-board-roles-are-being-reshaped-around-ai",
-      "date": "8 Jun 2026",
-      "excerpt": "Old roles are evolving&#8212;and new ones are emerging.",
       "image": ""
     },
     {
@@ -197,16 +197,7 @@
       "link": "https://www.bbc.com/news/articles/czj87rvx349o?at_medium=RSS&at_campaign=rss",
       "date": "11 Jun 2026",
       "excerpt": "The UK's competition regulator is investigating the airline over charges it imposes on parents to sit next to their child.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af40/live/608cfde0-655e-11f1-a1f9-afd6f3de9cfa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Mike Ashley's Frasers offers £1.73bn to buy all of Hugo Boss",
-      "link": "https://www.bbc.com/news/articles/c07y92gplmyo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Jun 2026",
-      "excerpt": "The retail group already owns just over a quarter of the German fashion brand but wants to buy the rest of it.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a3d/live/8e087880-6568-11f1-b1db-af71d47507d6.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff23/live/748ee4d0-658a-11f1-b1db-af71d47507d6.png"
     },
     {
       "source": "BBC Business",
@@ -220,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Mike Ashley's Frasers offers £1.73bn to buy all of Hugo Boss",
+      "link": "https://www.bbc.com/news/articles/c07y92gplmyo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jun 2026",
+      "excerpt": "The retail group already owns just over a quarter of the German fashion brand but wants to buy the rest of it.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a3d/live/8e087880-6568-11f1-b1db-af71d47507d6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "I'd have vetoed foreign sale of UK tech giant, says Business Secretary",
       "link": "https://www.bbc.com/news/articles/cd0mg79ggm0o?at_medium=RSS&at_campaign=rss",
       "date": "10 Jun 2026",
@@ -229,16 +229,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump says he 'loves the inflation' as US prices rise at fastest rate in three years",
-      "link": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Jun 2026",
-      "excerpt": "Consumers are increasingly feeling the strain of the US-Israel war in Iran.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fba/live/32abefd0-64f5-11f1-96e1-83394d865b23.jpg"
+      "title": "SpaceX IPO: Preparing for the biggest liftoff yet?",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct8gld?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jun 2026",
+      "excerpt": "It’s not just about rockets: what SpaceX does and why its IPO matters",
+      "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0nr21xn.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'A little goes a long way': New York's candy stores sweeten economic gloom",
+      "title": "New candy stores are popping up across NYC. Why?",
       "link": "https://www.bbc.com/news/articles/c30ylzlygngo?at_medium=RSS&at_campaign=rss",
       "date": "10 Jun 2026",
       "excerpt": "While US consumer confidence is at an historic low the Big Apple's sweet shops are expanding.",
