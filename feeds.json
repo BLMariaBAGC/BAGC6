@@ -1,5 +1,5 @@
 {
-  "updated": "11 Jun 2026, 03:48 UTC",
+  "updated": "11 Jun 2026, 08:45 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,11 +193,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Ryanair investigated over charging parents to sit with children",
+      "link": "https://www.bbc.com/news/articles/czj87rvx349o?at_medium=RSS&at_campaign=rss",
+      "date": "11 Jun 2026",
+      "excerpt": "The UK's competition regulator is investigating the airline over charges it imposes on parents to sit next to their child.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af40/live/608cfde0-655e-11f1-a1f9-afd6f3de9cfa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Mike Ashley's Frasers offers £1.73bn to buy all of Hugo Boss",
       "link": "https://www.bbc.com/news/articles/c07y92gplmyo?at_medium=RSS&at_campaign=rss",
       "date": "10 Jun 2026",
       "excerpt": "The retail group already owns just over a quarter of the German fashion brand but wants to buy the rest of it.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdd3/live/930ddea0-651e-11f1-ac28-17d6b833da1d.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a3d/live/8e087880-6568-11f1-b1db-af71d47507d6.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "11 Jun 2026",
       "excerpt": "Consumers are increasingly feeling the strain of the US-Israel war in Iran.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fba/live/32abefd0-64f5-11f1-96e1-83394d865b23.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "World Cup expected to be the biggest betting event in history",
-      "link": "https://www.bbc.com/news/articles/cwydgwdx83yo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Jun 2026",
-      "excerpt": "The expansion of the number of games being played is set to drive a surge in the amount of bets placed on this year's World Cup.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5c6/live/70f3e630-64fa-11f1-96e1-83394d865b23.jpg"
     },
     {
       "source": "BBC Business",
