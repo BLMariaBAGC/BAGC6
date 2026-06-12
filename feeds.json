@@ -1,5 +1,5 @@
 {
-  "updated": "12 Jun 2026, 20:08 UTC",
+  "updated": "12 Jun 2026, 22:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'I was employee number one': SpaceX co-founder reacts to firm's market debut",
-      "link": "https://www.bbc.com/news/videos/cvgjx68nyvmo?at_medium=RSS&at_campaign=rss",
+      "title": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
+      "link": "https://www.bbc.com/news/articles/c4gypy3wwl7o?at_medium=RSS&at_campaign=rss",
       "date": "12 Jun 2026",
-      "excerpt": "The BBC's Michelle Fleury spoke to Tom Mueller, who was one of the company's founders alongside Elon Musk in 2002.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e6b/live/d55152a0-6641-11f1-8546-8f19e4fe30f4.jpg"
+      "excerpt": "Musk is now worth $1.11tn according to the Bloomberg rich list, while SpaceX listed on the Nasdaq stock exchange with a value of $2.2tn.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f94f/live/233c68e0-66a3-11f1-80bb-fb4d08542828.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,6 +216,15 @@
       "date": "12 Jun 2026",
       "excerpt": "The ban forms part of the government's package of sanctions on Moscow due to the ongoing war with Ukraine.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b2d/live/d76ca2d0-6694-11f1-ba1a-d91f8cef28c9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'I was employee number one': SpaceX co-founder reacts to firm's market debut",
+      "link": "https://www.bbc.com/news/videos/cvgjx68nyvmo?at_medium=RSS&at_campaign=rss",
+      "date": "12 Jun 2026",
+      "excerpt": "The BBC's Michelle Fleury spoke to Tom Mueller, who was one of the company's founders alongside Elon Musk in 2002.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e6b/live/d55152a0-6641-11f1-8546-8f19e4fe30f4.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "11 Jun 2026",
       "excerpt": "Agave plants grow wild in India and new distillers are using them to create a spirits industry.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4da3/live/edc38a50-58eb-11f1-b682-cf91850925ea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "My friends always want to split the bill equally, how do I say no?",
-      "link": "https://www.bbc.com/news/articles/czxqdznzy7ro?at_medium=RSS&at_campaign=rss",
-      "date": "11 Jun 2026",
-      "excerpt": "It is never easy to speak up when a fellow diner says \"let's just divide it!\"",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1fd/live/ba3a51f0-65bb-11f1-bdbe-7dc6d39617db.jpg"
     }
   ]
 }
