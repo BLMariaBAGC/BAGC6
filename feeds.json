@@ -1,6 +1,15 @@
 {
-  "updated": "12 Jun 2026, 12:52 UTC",
+  "updated": "12 Jun 2026, 16:43 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a surprising cancer link to Alzheimer’s disease",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260612032044.htm",
+      "date": "12 Jun 2026",
+      "excerpt": "Researchers discovered that mutations linked to blood cancers may help trigger Alzheimer’s disease by creating overly inflammatory immune cells in the brain. The unexpected finding could lead to new blood-based screening methods and potenti",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists reverse anxiety by fixing a tiny brain circuit",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260603015356.htm",
-      "date": "3 Jun 2026",
-      "excerpt": "A newly identified group of amygdala neurons appears to play a central role in anxiety and social behavior. Restoring normal activity in this tiny brain circuit reversed anxiety and social deficits in mice, revealing a promising new target ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Take a Break",
+      "link": "https://hbr.org/2026/06/take-a-break",
+      "date": "12 Jun 2026",
+      "excerpt": "Executives may believe their constant presence is indispensable, but HBS professor Ashley Whillans makes the case that time away is better for their own health&#8212;and the health of their organization.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How Gen AI is Disrupting B2B Buying Decisions",
+      "link": "https://hbr.org/2026/06/how-gen-ai-is-disrupting-b2b-buying-decisions",
+      "date": "12 Jun 2026",
+      "excerpt": "Organizations built around sales relationships and channel control must adapt to new types of recommendation systems.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "To Thrive Alongside AI, Focus on Mindset—Not Skillset",
+      "link": "https://hbr.org/2026/06/to-thrive-alongside-ai-focus-on-mindset-not-skillset",
+      "date": "12 Jun 2026",
+      "excerpt": "Many leaders are asking the wrong question when it comes to AI adoption.",
       "image": ""
     },
     {
@@ -116,24 +143,6 @@
       "link": "https://hbr.org/2026/06/why-employees-arent-transparent-about-their-ai-usage",
       "date": "10 Jun 2026",
       "excerpt": "Research finds that companies won&#8217;t benefit from AI gains until they create a culture of trust.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "New Data on How We’re Really Using AI",
-      "link": "https://hbr.org/2026/06/new-data-on-how-were-really-using-ai",
-      "date": "9 Jun 2026",
-      "excerpt": "In the June 8, 2026, edition of The Insider, managing editor Gretchen Gavett highlights the third installment of annual research on how people are really using AI.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "3 Ways to Rethink Your Build-or-Buy Strategy",
-      "link": "https://hbr.org/2026/06/3-ways-to-rethink-your-build-or-buy-strategy",
-      "date": "9 Jun 2026",
-      "excerpt": "Some capabilities need to be owned, while others can be acquired. The best leaders know how to make that distinction.",
       "image": ""
     },
     {
