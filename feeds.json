@@ -1,5 +1,5 @@
 {
-  "updated": "12 Jun 2026, 08:23 UTC",
+  "updated": "12 Jun 2026, 12:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,20 +193,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Watch: Three things to know about SpaceX's stock market debut",
+      "link": "https://www.bbc.com/news/videos/c4gyx0x1d5ro?at_medium=RSS&at_campaign=rss",
+      "date": "12 Jun 2026",
+      "excerpt": "The BBC's Samira Hussain explains everything you need to know about SpaceX's historic IPO.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f00f/live/3d03b190-6638-11f1-8e1d-bbbb1017d210.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "UK economy contracts as Iran war impact felt",
       "link": "https://www.bbc.com/news/articles/c77y47248k4o?at_medium=RSS&at_campaign=rss",
       "date": "12 Jun 2026",
       "excerpt": "The economy shrank slightly in April as the Iran war began to have an impact on businesses, official data shows.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ce7/live/edd669e0-657f-11f1-9f01-693d064aea27.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Elon Musk's SpaceX raises $75bn ahead of world's biggest stock market launch",
-      "link": "https://www.bbc.com/news/articles/cwy034q89j4o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Jun 2026",
-      "excerpt": "The public sale is also expected to make Elon Musk the world's first trillionaire.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3644/live/45626720-6636-11f1-b1db-af71d47507d6.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Ryanair investigated over charging parents to sit with children",
-      "link": "https://www.bbc.com/news/articles/czj87rvx349o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Jun 2026",
-      "excerpt": "The UK's competition regulator is investigating the airline over charges it imposes on parents to sit next to their child.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff23/live/748ee4d0-658a-11f1-b1db-af71d47507d6.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "India's 'blue gold' starts a new drinks industry",
       "link": "https://www.bbc.com/news/articles/cdrpe4vly5mo?at_medium=RSS&at_campaign=rss",
       "date": "11 Jun 2026",
       "excerpt": "Agave plants grow wild in India and new distillers are using them to create a spirits industry.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4da3/live/edc38a50-58eb-11f1-b682-cf91850925ea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Elon Musk's SpaceX raises $75bn ahead of world's biggest stock market launch",
+      "link": "https://www.bbc.com/news/articles/cwy034q89j4o?at_medium=RSS&at_campaign=rss",
+      "date": "12 Jun 2026",
+      "excerpt": "The public sale is also expected to make Elon Musk the world's first trillionaire.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3735/live/52638200-663c-11f1-b9fb-a3131f00d96e.jpg"
     }
   ]
 }
