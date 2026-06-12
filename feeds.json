@@ -1,5 +1,5 @@
 {
-  "updated": "12 Jun 2026, 16:43 UTC",
+  "updated": "12 Jun 2026, 20:08 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Watch: Three things to know about SpaceX's stock market debut",
-      "link": "https://www.bbc.com/news/videos/c4gyx0x1d5ro?at_medium=RSS&at_campaign=rss",
+      "title": "'I was employee number one': SpaceX co-founder reacts to firm's market debut",
+      "link": "https://www.bbc.com/news/videos/cvgjx68nyvmo?at_medium=RSS&at_campaign=rss",
       "date": "12 Jun 2026",
-      "excerpt": "The BBC's Samira Hussain explains everything you need to know about SpaceX's historic IPO.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f00f/live/3d03b190-6638-11f1-8e1d-bbbb1017d210.jpg"
+      "excerpt": "The BBC's Michelle Fleury spoke to Tom Mueller, who was one of the company's founders alongside Elon Musk in 2002.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e6b/live/d55152a0-6641-11f1-8546-8f19e4fe30f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK vows to phase out Russian diesel and jet fuel imports by new year",
+      "link": "https://www.bbc.com/news/articles/ceqdl8xre7qo?at_medium=RSS&at_campaign=rss",
+      "date": "12 Jun 2026",
+      "excerpt": "The ban forms part of the government's package of sanctions on Moscow due to the ongoing war with Ukraine.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b2d/live/d76ca2d0-6694-11f1-ba1a-d91f8cef28c9.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,15 +238,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "My friends always want to split the bill equally, how do I say no?",
-      "link": "https://www.bbc.com/news/articles/czxqdznzy7ro?at_medium=RSS&at_campaign=rss",
-      "date": "11 Jun 2026",
-      "excerpt": "It is never easy to speak up when a fellow diner says \"let's just divide it!\"",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1fd/live/ba3a51f0-65bb-11f1-bdbe-7dc6d39617db.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "India's 'blue gold' starts a new drinks industry",
       "link": "https://www.bbc.com/news/articles/cdrpe4vly5mo?at_medium=RSS&at_campaign=rss",
       "date": "11 Jun 2026",
@@ -247,11 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Elon Musk's SpaceX raises $75bn ahead of world's biggest stock market launch",
-      "link": "https://www.bbc.com/news/articles/cwy034q89j4o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Jun 2026",
-      "excerpt": "The public sale is also expected to make Elon Musk the world's first trillionaire.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3735/live/52638200-663c-11f1-b9fb-a3131f00d96e.jpg"
+      "title": "My friends always want to split the bill equally, how do I say no?",
+      "link": "https://www.bbc.com/news/articles/czxqdznzy7ro?at_medium=RSS&at_campaign=rss",
+      "date": "11 Jun 2026",
+      "excerpt": "It is never easy to speak up when a fellow diner says \"let's just divide it!\"",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1fd/live/ba3a51f0-65bb-11f1-bdbe-7dc6d39617db.jpg"
     }
   ]
 }
