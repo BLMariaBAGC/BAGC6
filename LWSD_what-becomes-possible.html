@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Becomes Possible | Maria Fuentes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --navy: #01293A;
+            --teal: #3D858C;
+            --teal-light: rgba(61,133,140,0.14);
+            --teal-border: rgba(61,133,140,0.25);
+            --turquoise: #C9F6FA;
+            --cream: #FAFAF7;
+            --cream-dim: rgba(250,250,247,0.65);
+            --cream-faint: rgba(250,250,247,0.35);
+            --cream-ghost: rgba(250,250,247,0.05);
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--navy);
+            color: var(--cream);
+            font-family: 'DM Sans', sans-serif;
+            min-height: 100vh;
+        }
+
+        .screen {
+            display: none;
+            min-height: 100vh;
+            padding: 64px 24px 80px;
+            animation: fadeUp 0.55s ease both;
+        }
+
+        .screen.active { display: block; }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(14px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .inner { max-width: 560px; margin: 0 auto; }
+
+        /* Typography */
+        .eyebrow {
+            font-size: 10px;
+            font-weight: 500;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--teal);
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(36px, 7vw, 54px);
+            font-weight: 300;
+            line-height: 1.1;
+            color: var(--cream);
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(26px, 5vw, 38px);
+            font-weight: 300;
+            line-height: 1.2;
+            color: var(--cream);
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(20px, 4vw, 28px);
+            font-weight: 400;
+            line-height: 1.35;
+            color: var(--cream);
+            margin-bottom: 14px;
+        }
+
+        .lead {
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 1.8;
+            color: var(--cream-dim);
+            margin-bottom: 20px;
+        }
+
+        .divider { width: 36px; height: 1px; background: var(--teal); margin: 28px 0; }
+        .divider.center { margin: 28px auto; }
+
+        /* Buttons */
+        .btn-primary {
+            display: block; width: 100%;
+            padding: 18px 24px;
+            background: var(--teal); color: var(--cream);
+            border: none;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 11px; font-weight: 500;
+            letter-spacing: 0.18em; text-transform: uppercase;
+            cursor: pointer; border-radius: 2px;
+            transition: background 0.25s, transform 0.15s;
+            text-align: center; text-decoration: none;
+        }
+        .btn-primary:hover { background: #4a9ea6; transform: translateY(-1px); }
+        .btn-primary:active { transform: translateY(0); }
+        .btn-primary:disabled { background: rgba(61,133,140,0.3); cursor: not-allowed; transform: none; }
+
+        .btn-outline {
+            display: block; width: 100%;
+            padding: 16px 24px;
+            background: transparent;
+            border: 1px solid var(--teal-border); color: var(--cream);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 11px; font-weight: 500;
+            letter-spacing: 0.18em; text-transform: uppercase;
+            cursor: pointer; border-radius: 2px;
+            transition: all 0.25s; margin-top: 12px;
+            text-align: center; text-decoration: none;
+        }
+        .btn-outline:hover { border-color: var(--teal); background: var(--teal-light); }
+
+        .btn-accent {
+            display: block; width: 100%;
+            padding: 18px 24px;
+            background: transparent;
+            border: 1px solid var(--teal); color: var(--turquoise);
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 18px; font-weight: 400;
+            cursor: pointer; border-radius: 2px;
+            transition: all 0.25s; margin-top: 16px;
+            text-align: center; text-decoration: none;
+        }
+        .btn-accent:hover { background: var(--teal-light); }
+
+        .btn-ghost {
+            background: none; border: none;
+            color: var(--cream-faint);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 12px; font-weight: 300;
+            cursor: pointer; padding: 16px 0;
+            display: block; margin: 8px auto 0;
+            text-decoration: underline; text-underline-offset: 3px;
+            transition: color 0.2s; text-align: center; width: 100%;
+        }
+        .btn-ghost:hover { color: var(--cream-dim); }
+
+        /* Path cards */
+        .path-grid { display: grid; gap: 14px; margin-top: 8px; }
+
+        .path-card {
+            background: var(--cream-ghost);
+            border: 1px solid var(--teal-border);
+            border-radius: 3px; padding: 28px 28px 24px;
+            cursor: pointer; transition: all 0.25s; text-align: left;
+        }
+        .path-card:hover { border-color: var(--teal); background: var(--teal-light); transform: translateY(-2px); }
+
+        .path-card-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 22px; font-weight: 400; color: var(--cream); margin-bottom: 8px;
+        }
+        .path-card-desc { font-size: 13px; font-weight: 300; color: var(--cream-dim); line-height: 1.6; }
+        .path-arrow { color: var(--teal); font-size: 18px; margin-top: 14px; display: block; }
+
+        /* Category cards */
+        .category-grid { display: grid; gap: 12px; margin-top: 8px; }
+
+        .cat-card {
+            background: var(--cream-ghost);
+            border: 1px solid var(--teal-border);
+            border-radius: 3px; padding: 22px 24px;
+            cursor: pointer; transition: all 0.22s;
+        }
+        .cat-card:hover { border-color: var(--teal); background: var(--teal-light); }
+
+        .cat-card-name {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 20px; font-weight: 500; color: var(--cream); margin-bottom: 6px;
+        }
+        .cat-card-desc { font-size: 13px; font-weight: 300; color: var(--cream-dim); line-height: 1.55; }
+
+        /* Diagnostic */
+        .progress-bar-wrap {
+            height: 2px; background: rgba(255,255,255,0.08);
+            border-radius: 2px; margin-bottom: 40px; overflow: hidden;
+        }
+        .progress-bar-fill { height: 100%; background: var(--teal); border-radius: 2px; transition: width 0.4s ease; }
+        .progress-text { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--cream-faint); margin-bottom: 10px; }
+
+        .question-block {
+            margin-bottom: 36px; padding-bottom: 36px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .question-block:last-of-type { border-bottom: none; }
+
+        .question-text {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 19px; font-weight: 400; line-height: 1.45;
+            color: var(--cream); margin-bottom: 20px;
+        }
+
+        .rating-row { display: flex; gap: 8px; flex-wrap: wrap; }
+
+        .rating-btn {
+            flex: 1; min-width: 52px;
+            padding: 12px 8px 10px;
+            background: transparent;
+            border: 1px solid rgba(61,133,140,0.3);
+            color: var(--cream-dim);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 11px; font-weight: 400;
+            cursor: pointer; border-radius: 2px;
+            transition: all 0.18s; text-align: center; line-height: 1.3;
+        }
+        .rating-btn .num {
+            display: block;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 20px; font-weight: 300; color: var(--cream); margin-bottom: 2px;
+        }
+        .rating-btn:hover { border-color: var(--teal); background: var(--teal-light); }
+        .rating-btn.selected { border-color: var(--teal); background: var(--teal-light); color: var(--cream); }
+
+        .rating-labels { display: flex; justify-content: space-between; margin-top: 8px; }
+        .rating-labels span { font-size: 10px; color: var(--cream-faint); letter-spacing: 0.05em; }
+
+        /* Reveal */
+        .reveal-category {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(32px, 6vw, 48px); font-weight: 300;
+            color: var(--turquoise); line-height: 1.15; margin-bottom: 20px;
+        }
+
+        /* Result screen */
+        .cost-block {
+            background: rgba(255,255,255,0.03);
+            border-left: 2px solid var(--teal);
+            padding: 22px 24px; margin-bottom: 36px;
+        }
+        .cost-block-label { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--teal); margin-bottom: 12px; }
+        .cost-block p { font-size: 14px; font-weight: 300; line-height: 1.8; color: var(--cream-dim); }
+
+        .possibilities-label { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--teal); margin-bottom: 20px; }
+
+        .possibility-item { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 20px; }
+        .possibility-mark { width: 2px; flex-shrink: 0; background: var(--teal); margin-top: 6px; min-height: 40px; }
+        .possibility-text {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 19px; font-weight: 400; line-height: 1.5; color: var(--cream);
+        }
+
+        .research-note {
+            padding: 18px 0; border-top: 1px solid rgba(255,255,255,0.07); margin: 36px 0;
+        }
+        .research-note p { font-size: 12px; font-weight: 300; line-height: 1.65; color: var(--cream-faint); }
+        .research-note strong { color: rgba(250,250,247,0.55); font-weight: 400; }
+
+        /* Exercise 3 inputs */
+        .ex3-section-label {
+            font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+            color: var(--teal); margin-bottom: 20px; margin-top: 36px; display: block;
+        }
+
+        .input-group { margin-bottom: 32px; }
+
+        .field-label {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 18px; font-weight: 400; color: var(--cream);
+            margin-bottom: 6px; display: block; line-height: 1.4;
+        }
+
+        .field-hint { font-size: 12px; font-weight: 300; color: var(--cream-dim); margin-bottom: 12px; display: block; }
+
+        .field-input {
+            width: 100%; background: transparent;
+            border: none; border-bottom: 1px solid rgba(61,133,140,0.4);
+            color: var(--cream);
+            font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 300;
+            padding: 10px 0 12px; outline: none;
+            transition: border-color 0.3s; resize: none;
+            word-break: break-word; overflow-wrap: break-word;
+            max-width: 100%; box-sizing: border-box;
+            display: block; line-height: 1.6;
+        }
+        textarea.field-input {
+            resize: none; overflow: hidden;
+            min-height: 44px;
+        }
+        .field-input:focus { border-bottom-color: var(--teal); }
+        .field-input::placeholder { color: rgba(250,250,247,0.2); font-style: italic; }
+
+        .completion-prefix {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 17px; font-weight: 300; font-style: italic;
+            color: var(--cream-dim); margin-bottom: 8px; display: block;
+        }
+
+        .dimension-block {
+            background: var(--cream-ghost);
+            border: 1px solid rgba(61,133,140,0.18);
+            border-radius: 3px; padding: 20px 22px; margin-bottom: 14px;
+        }
+
+        .dimension-icon {
+            font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase;
+            color: var(--teal); margin-bottom: 10px; display: block;
+        }
+
+        /* Reflection output */
+        .reflection-body {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 20px; font-weight: 300; line-height: 1.75;
+            color: var(--cream);
+            word-break: break-word; overflow-wrap: break-word;
+            white-space: normal;
+        }
+
+        .reflection-body p { margin-bottom: 24px; }
+
+        .reflection-cost {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 20px; font-weight: 400; line-height: 1.75;
+            color: var(--turquoise); margin-bottom: 24px;
+            word-break: break-word; overflow-wrap: break-word;
+            white-space: normal;
+        }
+
+        .reflection-close {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 22px; font-weight: 300; font-style: italic;
+            color: var(--cream); margin-bottom: 0;
+            border-top: 1px solid rgba(61,133,140,0.25);
+            padding-top: 28px; margin-top: 8px;
+            word-break: break-word; overflow-wrap: break-word;
+            white-space: normal;
+        }
+
+        #reflection-output {
+            word-break: break-word; overflow-wrap: break-word;
+            overflow: hidden; max-width: 100%;
+        }
+
+        /* Privacy note */
+        .privacy-note {
+            display: flex; align-items: flex-start; gap: 12px;
+            padding: 16px 18px;
+            background: rgba(61,133,140,0.06);
+            border-radius: 2px; margin-bottom: 28px;
+        }
+        .privacy-note-icon { color: var(--teal); font-size: 16px; margin-top: 2px; flex-shrink: 0; }
+        .privacy-note p { font-size: 12px; font-weight: 300; line-height: 1.6; color: var(--cream-dim); }
+
+        /* CTA block */
+        .cta-block { text-align: center; padding-top: 8px; }
+        .cta-block h3 { text-align: center; margin-bottom: 16px; }
+        .cta-block .lead { text-align: center; }
+        .cta-stack { display: flex; flex-direction: column; gap: 0; margin-top: 28px; }
+
+        /* Caveat */
+        .caveat {
+            font-size: 12px; font-weight: 300; line-height: 1.65;
+            color: var(--cream-faint); font-style: italic;
+            margin-top: 24px; padding-top: 24px;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+
+        /* Footer */
+        .site-footer { text-align: center; padding-top: 48px; margin-top: 16px; }
+        .site-footer p { font-size: 11px; color: var(--cream-faint); }
+        .site-footer a { color: var(--cream-faint); text-decoration: none; }
+
+        @media (max-width: 480px) {
+            .screen { padding: 48px 18px 64px; }
+            .rating-btn { min-width: 44px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ============================================================ -->
+<!-- SCREEN 1: WELCOME -->
+<!-- ============================================================ -->
+<div class="screen active" id="screen-welcome">
+    <div class="inner">
+        <span class="eyebrow">Maria Fuentes</span>
+        <h1>What Becomes<br>Possible</h1>
+        <div class="divider"></div>
+        <p class="lead">The pattern you identified today is not permanent. This tool shows you what research tells us shifts when the work is done, and then reflects your specific possible life back to you.</p>
+        <p class="lead">Three minutes. One pattern. A different view of what is ahead.</p>
+
+        <div class="path-grid" style="margin-top: 36px;">
+            <div class="path-card" onclick="showScreen('screen-select')">
+                <div class="path-card-title">I know my dominant pattern</div>
+                <div class="path-card-desc">You identified it in today's session. Go straight to what becomes possible for your pattern.</div>
+                <span class="path-arrow">&#8594;</span>
+            </div>
+            <div class="path-card" onclick="showScreen('screen-diagnostic')">
+                <div class="path-card-title">Help me identify my pattern</div>
+                <div class="path-card-desc">Answer 12 questions. The tool will identify your dominant pattern and show you what shifts when it does.</div>
+                <span class="path-arrow">&#8594;</span>
+            </div>
+        </div>
+
+        <div class="site-footer">
+            <p>&#169; Hypnotika Mente Ltd 2026 &middot; <a href="https://www.mariafuentes.co.uk">mariafuentes.co.uk</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- SCREEN 2A: SELECT YOUR PATTERN -->
+<!-- ============================================================ -->
+<div class="screen" id="screen-select">
+    <div class="inner">
+        <span class="eyebrow">Your Pattern</span>
+        <h2>Which pattern felt most familiar?</h2>
+        <p class="lead" style="margin-bottom: 28px;">Choose the one that created the strongest physical response when it was described.</p>
+
+        <div class="category-grid">
+            <div class="cat-card" onclick="goToResult(1)">
+                <div class="cat-card-name">Self-Worth</div>
+                <div class="cat-card-desc">I know I am capable, but something makes it hard to fully believe it.</div>
+            </div>
+            <div class="cat-card" onclick="goToResult(2)">
+                <div class="cat-card-name">Control and Responsibility</div>
+                <div class="cat-card-desc">I struggle to let go. If I do not do it, it will not be done right.</div>
+            </div>
+            <div class="cat-card" onclick="goToResult(3)">
+                <div class="cat-card-name">Belonging and Acceptance</div>
+                <div class="cat-card-desc">I sometimes feel like I do not fully belong in the rooms I am in.</div>
+            </div>
+            <div class="cat-card" onclick="goToResult(4)">
+                <div class="cat-card-name">Safety and Vulnerability</div>
+                <div class="cat-card-desc">Stepping into visibility feels more dangerous than it should.</div>
+            </div>
+        </div>
+
+        <button class="btn-ghost" onclick="showScreen('screen-welcome')">Back</button>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- SCREEN 2B: DIAGNOSTIC -->
+<!-- ============================================================ -->
+<div class="screen" id="screen-diagnostic">
+    <div class="inner">
+        <span class="eyebrow">Pattern Diagnostic</span>
+        <h2>Answer honestly.</h2>
+        <p class="lead" style="margin-bottom: 32px;">Rate each statement from 1 (Rarely) to 5 (Almost Always). Your first response is the most accurate.</p>
+
+        <p class="progress-text" id="progress-text">0 of 12 answered</p>
+        <div class="progress-bar-wrap"><div class="progress-bar-fill" id="progress-fill" style="width:0%"></div></div>
+
+        <div class="question-block">
+            <p class="question-text">1. When you receive praise for your work, your first instinct is to attribute it to luck or good timing rather than your own ability.</p>
+            <div class="rating-row" id="q1"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+        <div class="question-block">
+            <p class="question-text">2. You spend significantly more time preparing for situations that your experience already qualifies you for.</p>
+            <div class="rating-row" id="q2"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+        <div class="question-block">
+            <p class="question-text">3. Despite your track record, you regularly feel you are about to be found out.</p>
+            <div class="rating-row" id="q3"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+        <div class="question-block">
+            <p class="question-text">4. You find it genuinely difficult to delegate because you worry the work will not meet the standard you hold yourself to.</p>
+            <div class="rating-row" id="q4"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+        <div class="question-block">
+            <p class="question-text">5. When something goes wrong in your team or business, you feel personally responsible even when it is not yours to carry.</p>
+            <div class="rating-row" id="q5"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+        <div class="question-block">
+            <p class="question-text">6. You regularly take on more than is sustainable because releasing control creates too much anxiety.</p>
+            <div class="rating-row" id="q6"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+        <div class="question-block">
+            <p class="question-text">7. In certain rooms or situations, you feel like the one person who does not fully belong there.</p>
+            <div class="rating-row" id="q7"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+        <div class="question-block">
+            <p class="question-text">8. You adjust your tone, opinions, or behaviour depending on who is present.</p>
+            <div class="rating-row" id="q8"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+        <div class="question-block">
+            <p class="question-text">9. The thought of being disliked or rejected by colleagues or clients creates a level of anxiety that feels disproportionate to the situation.</p>
+            <div class="rating-row" id="q9"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+        <div class="question-block">
+            <p class="question-text">10. You regularly talk yourself out of opportunities before anyone else has the chance to respond to them.</p>
+            <div class="rating-row" id="q10"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+        <div class="question-block">
+            <p class="question-text">11. When you consider stepping into a more visible role, your first response is dread rather than excitement.</p>
+            <div class="rating-row" id="q11"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+        <div class="question-block">
+            <p class="question-text">12. You have stayed in safer positions longer than you wanted to because the risk of exposure felt too great.</p>
+            <div class="rating-row" id="q12"></div>
+            <div class="rating-labels"><span>Rarely</span><span>Almost Always</span></div>
+        </div>
+
+        <button class="btn-primary" id="reveal-btn" onclick="submitDiagnostic()" disabled>Reveal My Pattern</button>
+        <button class="btn-ghost" onclick="showScreen('screen-welcome')">Back</button>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- SCREEN 3: REVEAL -->
+<!-- ============================================================ -->
+<div class="screen" id="screen-reveal">
+    <div class="inner" style="text-align:center;">
+        <span class="eyebrow">Your Dominant Pattern</span>
+        <p class="lead" style="margin-bottom:24px;">Based on your responses, the pattern creating the most interference is:</p>
+        <div class="divider center"></div>
+        <div class="reveal-category" id="reveal-name"></div>
+        <p class="lead" id="reveal-desc" style="margin-top:20px; margin-bottom:36px;"></p>
+        <button class="btn-primary" id="reveal-cta">See What Becomes Possible</button>
+        <p class="caveat">This result reflects the pattern with the highest score across your responses. Most professionals carry elements of more than one pattern. This identifies where the most interference is currently occurring.</p>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- SCREENS 4-7: EXERCISE 2 RESULTS (one per category) -->
+<!-- ============================================================ -->
+
+<!-- RESULT 1: SELF-WORTH -->
+<div class="screen" id="screen-result-1">
+    <div class="inner">
+        <span class="eyebrow">Self-Worth</span>
+        <h2>What becomes possible when self-worth is no longer the question.</h2>
+        <div class="divider"></div>
+
+        <div class="cost-block">
+            <p class="cost-block-label">What this pattern has been costing</p>
+            <p>A systematic review of 62 studies found that professionals carrying this pattern experience consistently lower job satisfaction, reduced advancement rates, and higher burnout. A 2024 survey of 10,000 professionals found 71% of CEOs carry it. In the UK, 62% of working adults report the same. The pattern is common. The cost is not small.</p>
+        </div>
+
+        <p class="possibilities-label">What shifts when the pattern does</p>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You negotiate your rate or salary without the familiar contraction in your chest.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You step into visibility without the preparation overload that currently costs you hours.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You receive recognition and allow it to settle, rather than immediately finding reasons to discount it.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You move toward the next level without waiting to feel ready first.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">The evidence of your competence becomes something your brain actually uses.</div></div>
+
+        <div class="research-note">
+            <p><strong>Research foundation:</strong> Bravata et al. (2020) systematic review, Journal of General Internal Medicine. Korn Ferry Workforce 2024 Global Insights Report. UK national study, Funding Guru (2025).</p>
+        </div>
+
+        <button class="btn-accent" onclick="goToEx3(1)">Now make it personal &#8594;</button>
+        <button class="btn-ghost" onclick="showScreen('screen-welcome')">Start again</button>
+    </div>
+</div>
+
+<!-- RESULT 2: CONTROL -->
+<div class="screen" id="screen-result-2">
+    <div class="inner">
+        <span class="eyebrow">Control and Responsibility</span>
+        <h2>What becomes possible when you stop carrying it all.</h2>
+        <div class="divider"></div>
+
+        <div class="cost-block">
+            <p class="cost-block-label">What this pattern has been costing</p>
+            <p>Mental Health UK's 2026 Burnout Report found that 91% of UK adults report high or extreme stress levels, with one in five needing time off due to mental health. For professionals whose pattern says everything depends on them, the cost accumulates in strategic capacity, physical health, and the ability to lead rather than manage.</p>
+        </div>
+
+        <p class="possibilities-label">What shifts when the pattern does</p>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You delegate without the background hum of anxiety about whether it will be done properly.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You spend your energy on the work only you can do.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You lead from authority rather than from the exhausting need to prove nothing will fail without you.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">Your health stops paying the price the current pattern extracts.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You build a team that performs, because you let it.</div></div>
+
+        <div class="research-note">
+            <p><strong>Research foundation:</strong> Mental Health UK Burnout Report (2026). Research consistently links perfectionism-driven control patterns to burnout, reduced strategic output, and impaired team performance.</p>
+        </div>
+
+        <button class="btn-accent" onclick="goToEx3(2)">Now make it personal &#8594;</button>
+        <button class="btn-ghost" onclick="showScreen('screen-welcome')">Start again</button>
+    </div>
+</div>
+
+<!-- RESULT 3: BELONGING -->
+<div class="screen" id="screen-result-3">
+    <div class="inner">
+        <span class="eyebrow">Belonging and Acceptance</span>
+        <h2>What becomes possible when you stop managing the room.</h2>
+        <div class="divider"></div>
+
+        <div class="cost-block">
+            <p class="cost-block-label">What this pattern has been costing</p>
+            <p>Google's Project Aristotle found that the felt sense of belonging is the single strongest predictor of team performance, more than collective IQ, technical skills, or experience. When professionals spend energy managing how they are perceived rather than contributing what they know, the cost shows in their output, their influence, and the relationships they build.</p>
+        </div>
+
+        <p class="possibilities-label">What shifts when the pattern does</p>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You speak with the same confidence in a room of fifty as in a room of five.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You hold your position under challenge without the pull to disappear or over-explain.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You contribute ideas without the pre-filter of whether they will land well.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You stop modifying yourself for different audiences and let the consistency do the work.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">Your influence grows, because people feel who you actually are.</div></div>
+
+        <div class="research-note">
+            <p><strong>Research foundation:</strong> Google Project Aristotle. Edmondson, A.C. (1999). Psychological safety and learning behaviour in work teams. Administrative Science Quarterly, 44(2), 350-383.</p>
+        </div>
+
+        <button class="btn-accent" onclick="goToEx3(3)">Now make it personal &#8594;</button>
+        <button class="btn-ghost" onclick="showScreen('screen-welcome')">Start again</button>
+    </div>
+</div>
+
+<!-- RESULT 4: SAFETY -->
+<div class="screen" id="screen-result-4">
+    <div class="inner">
+        <span class="eyebrow">Safety and Vulnerability</span>
+        <h2>What becomes possible when visibility stops feeling like a threat.</h2>
+        <div class="divider"></div>
+
+        <div class="cost-block">
+            <p class="cost-block-label">What this pattern has been costing</p>
+            <p>Research found that approximately 47% of professionals say fear of failure holds them back at work, rising to 60 to 70% among highly educated professionals. Each avoided opportunity reinforces the neural pathway that says exposure is dangerous. The career you have built reflects your managed risk tolerance, not your actual capability.</p>
+        </div>
+
+        <p class="possibilities-label">What shifts when the pattern does</p>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You pursue the role that currently sits just out of reach.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You say yes to high-visibility opportunities before the self-doubt has time to respond.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You back your own ideas in rooms where the decisions are made.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">You build a body of work that reflects your actual capability rather than your caution.</div></div>
+        <div class="possibility-item"><div class="possibility-mark"></div><div class="possibility-text">The life you have been keeping yourself from starts to feel accessible.</div></div>
+
+        <div class="research-note">
+            <p><strong>Research foundation:</strong> Brassey, J. and van Witteloostuijn, A. research on fear of failure and career progression, via Workplace Insight (2019). Study of 1,000+ professionals.</p>
+        </div>
+
+        <button class="btn-accent" onclick="goToEx3(4)">Now make it personal &#8594;</button>
+        <button class="btn-ghost" onclick="showScreen('screen-welcome')">Start again</button>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- SCREENS 8-11: EXERCISE 3 INPUTS (one per category) -->
+<!-- ============================================================ -->
+
+<!-- EX3: SELF-WORTH -->
+<div class="screen" id="screen-ex3-1">
+    <div class="inner">
+        <span class="eyebrow">Exercise 3 &middot; Self-Worth</span>
+        <h2>Now make it yours.</h2>
+        <p class="lead">The pattern has been identified. The research has been shown. This is the part that makes it personal. Answer honestly. Take your time.</p>
+
+        <div class="privacy-note">
+            <span class="privacy-note-icon">&#8856;</span>
+            <p>Everything you enter here stays in your browser. Nothing is stored, sent, or shared anywhere. Your reflections are yours alone.</p>
+        </div>
+
+        <span class="ex3-section-label">Your aspirations</span>
+
+        <div class="input-group">
+            <span class="field-label">What role, opportunity, or conversation have you been putting off because you did not feel ready?</span>
+            <textarea class="field-input" id="ex3-1-q1" placeholder="e.g. presenting to the board, applying for director..." rows="2"></textarea>
+        </div>
+        <div class="input-group">
+            <span class="field-label">What would you charge, ask for, or claim if you fully believed you deserved it?</span>
+            <textarea class="field-input" id="ex3-1-q2" placeholder="e.g. double my current rate, the senior partner role..." rows="2"></textarea>
+        </div>
+        <div class="input-group">
+            <span class="field-label">What would you do first if this belief were gone tomorrow?</span>
+            <textarea class="field-input" id="ex3-1-q3" placeholder="e.g. send that proposal, have that conversation..." rows="2"></textarea>
+        </div>
+
+        <span class="ex3-section-label">The four dimensions</span>
+        <p class="lead" style="margin-bottom: 24px;">Complete each sentence. Your first answer is the most honest.</p>
+
+        <div class="dimension-block">
+            <span class="dimension-icon">Peace of mind</span>
+            <span class="completion-prefix">Without this pattern, my peace of mind would...</span>
+            <textarea class="field-input" id="ex3-1-peace" placeholder="e.g. feel quieter, stop keeping me awake at night..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Health</span>
+            <span class="completion-prefix">Without this pattern, my health would...</span>
+            <textarea class="field-input" id="ex3-1-health" placeholder="e.g. improve, I would have more energy, sleep better..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Relationships</span>
+            <span class="completion-prefix">Without this pattern, my closest relationships would...</span>
+            <textarea class="field-input" id="ex3-1-relations" placeholder="e.g. feel less strained, I would be more present..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Income and earnings</span>
+            <span class="completion-prefix">Without this pattern, my income would...</span>
+            <textarea class="field-input" id="ex3-1-earnings" placeholder="e.g. reflect my actual value, increase significantly..." rows="2"></textarea>
+        </div>
+
+        <button class="btn-primary" style="margin-top: 36px;" onclick="generateReflection(1)">Generate My Reflection</button>
+        <button class="btn-ghost" onclick="showScreen('screen-result-1')">Back</button>
+    </div>
+</div>
+
+<!-- EX3: CONTROL -->
+<div class="screen" id="screen-ex3-2">
+    <div class="inner">
+        <span class="eyebrow">Exercise 3 &middot; Control and Responsibility</span>
+        <h2>Now make it yours.</h2>
+        <p class="lead">The pattern has been identified. The research has been shown. This is the part that makes it personal. Answer honestly. Take your time.</p>
+
+        <div class="privacy-note">
+            <span class="privacy-note-icon">&#8856;</span>
+            <p>Everything you enter here stays in your browser. Nothing is stored, sent, or shared anywhere. Your reflections are yours alone.</p>
+        </div>
+
+        <span class="ex3-section-label">Your aspirations</span>
+
+        <div class="input-group">
+            <span class="field-label">What would you stop doing if you genuinely trusted others to carry their share?</span>
+            <textarea class="field-input" id="ex3-2-q1" placeholder="e.g. checking everything twice, doing others' work myself..." rows="2"></textarea>
+        </div>
+        <div class="input-group">
+            <span class="field-label">What could you focus on with your full energy if it were no longer all on you?</span>
+            <textarea class="field-input" id="ex3-2-q2" placeholder="e.g. the strategy, building the business, my own development..." rows="2"></textarea>
+        </div>
+        <div class="input-group">
+            <span class="field-label">What would change in how you lead if this belief were gone?</span>
+            <textarea class="field-input" id="ex3-2-q3" placeholder="e.g. I would trust my team, I would delegate without anxiety..." rows="2"></textarea>
+        </div>
+
+        <span class="ex3-section-label">The four dimensions</span>
+        <p class="lead" style="margin-bottom: 24px;">Complete each sentence. Your first answer is the most honest.</p>
+
+        <div class="dimension-block">
+            <span class="dimension-icon">Peace of mind</span>
+            <span class="completion-prefix">Without this pattern, my peace of mind would...</span>
+            <textarea class="field-input" id="ex3-2-peace" placeholder="e.g. feel quieter, stop keeping me awake at night..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Health</span>
+            <span class="completion-prefix">Without this pattern, my health would...</span>
+            <textarea class="field-input" id="ex3-2-health" placeholder="e.g. improve, I would have more energy, sleep better..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Relationships</span>
+            <span class="completion-prefix">Without this pattern, my closest relationships would...</span>
+            <textarea class="field-input" id="ex3-2-relations" placeholder="e.g. feel less strained, I would be more present..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Income and earnings</span>
+            <span class="completion-prefix">Without this pattern, my income would...</span>
+            <textarea class="field-input" id="ex3-2-earnings" placeholder="e.g. reflect my actual value, increase significantly..." rows="2"></textarea>
+        </div>
+
+        <button class="btn-primary" style="margin-top: 36px;" onclick="generateReflection(2)">Generate My Reflection</button>
+        <button class="btn-ghost" onclick="showScreen('screen-result-2')">Back</button>
+    </div>
+</div>
+
+<!-- EX3: BELONGING -->
+<div class="screen" id="screen-ex3-3">
+    <div class="inner">
+        <span class="eyebrow">Exercise 3 &middot; Belonging and Acceptance</span>
+        <h2>Now make it yours.</h2>
+        <p class="lead">The pattern has been identified. The research has been shown. This is the part that makes it personal. Answer honestly. Take your time.</p>
+
+        <div class="privacy-note">
+            <span class="privacy-note-icon">&#8856;</span>
+            <p>Everything you enter here stays in your browser. Nothing is stored, sent, or shared anywhere. Your reflections are yours alone.</p>
+        </div>
+
+        <span class="ex3-section-label">Your aspirations</span>
+
+        <div class="input-group">
+            <span class="field-label">What room or opportunity have you been keeping yourself out of?</span>
+            <textarea class="field-input" id="ex3-3-q1" placeholder="e.g. the senior leadership team, pitching at that level..." rows="2"></textarea>
+        </div>
+        <div class="input-group">
+            <span class="field-label">What would you say or contribute if you were not managing how you were perceived?</span>
+            <textarea class="field-input" id="ex3-3-q2" placeholder="e.g. my actual opinion, the idea I keep holding back..." rows="2"></textarea>
+        </div>
+        <div class="input-group">
+            <span class="field-label">What would be different in your professional relationships if this belief were gone?</span>
+            <textarea class="field-input" id="ex3-3-q3" placeholder="e.g. more genuine, less performance, more trust..." rows="2"></textarea>
+        </div>
+
+        <span class="ex3-section-label">The four dimensions</span>
+        <p class="lead" style="margin-bottom: 24px;">Complete each sentence. Your first answer is the most honest.</p>
+
+        <div class="dimension-block">
+            <span class="dimension-icon">Peace of mind</span>
+            <span class="completion-prefix">Without this pattern, my peace of mind would...</span>
+            <textarea class="field-input" id="ex3-3-peace" placeholder="e.g. feel quieter, stop keeping me awake at night..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Health</span>
+            <span class="completion-prefix">Without this pattern, my health would...</span>
+            <textarea class="field-input" id="ex3-3-health" placeholder="e.g. improve, I would have more energy, sleep better..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Relationships</span>
+            <span class="completion-prefix">Without this pattern, my closest relationships would...</span>
+            <textarea class="field-input" id="ex3-3-relations" placeholder="e.g. feel less strained, I would be more present..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Income and earnings</span>
+            <span class="completion-prefix">Without this pattern, my income would...</span>
+            <textarea class="field-input" id="ex3-3-earnings" placeholder="e.g. reflect my actual value, increase significantly..." rows="2"></textarea>
+        </div>
+
+        <button class="btn-primary" style="margin-top: 36px;" onclick="generateReflection(3)">Generate My Reflection</button>
+        <button class="btn-ghost" onclick="showScreen('screen-result-3')">Back</button>
+    </div>
+</div>
+
+<!-- EX3: SAFETY -->
+<div class="screen" id="screen-ex3-4">
+    <div class="inner">
+        <span class="eyebrow">Exercise 3 &middot; Safety and Vulnerability</span>
+        <h2>Now make it yours.</h2>
+        <p class="lead">The pattern has been identified. The research has been shown. This is the part that makes it personal. Answer honestly. Take your time.</p>
+
+        <div class="privacy-note">
+            <span class="privacy-note-icon">&#8856;</span>
+            <p>Everything you enter here stays in your browser. Nothing is stored, sent, or shared anywhere. Your reflections are yours alone.</p>
+        </div>
+
+        <span class="ex3-section-label">Your aspirations</span>
+
+        <div class="input-group">
+            <span class="field-label">What opportunity have you been saying no to because the risk felt too great?</span>
+            <textarea class="field-input" id="ex3-4-q1" placeholder="e.g. speaking publicly, launching my own business..." rows="2"></textarea>
+        </div>
+        <div class="input-group">
+            <span class="field-label">What would you back yourself on if visibility felt safe rather than threatening?</span>
+            <textarea class="field-input" id="ex3-4-q2" placeholder="e.g. my methodology, my ideas, my leadership..." rows="2"></textarea>
+        </div>
+        <div class="input-group">
+            <span class="field-label">What would your career look like in two years if you started saying yes?</span>
+            <textarea class="field-input" id="ex3-4-q3" placeholder="e.g. I would be leading a team, running my own firm..." rows="2"></textarea>
+        </div>
+
+        <span class="ex3-section-label">The four dimensions</span>
+        <p class="lead" style="margin-bottom: 24px;">Complete each sentence. Your first answer is the most honest.</p>
+
+        <div class="dimension-block">
+            <span class="dimension-icon">Peace of mind</span>
+            <span class="completion-prefix">Without this pattern, my peace of mind would...</span>
+            <textarea class="field-input" id="ex3-4-peace" placeholder="e.g. feel quieter, stop keeping me awake at night..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Health</span>
+            <span class="completion-prefix">Without this pattern, my health would...</span>
+            <textarea class="field-input" id="ex3-4-health" placeholder="e.g. improve, I would have more energy, sleep better..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Relationships</span>
+            <span class="completion-prefix">Without this pattern, my closest relationships would...</span>
+            <textarea class="field-input" id="ex3-4-relations" placeholder="e.g. feel less strained, I would be more present..." rows="2"></textarea>
+        </div>
+        <div class="dimension-block">
+            <span class="dimension-icon">Income and earnings</span>
+            <span class="completion-prefix">Without this pattern, my income would...</span>
+            <textarea class="field-input" id="ex3-4-earnings" placeholder="e.g. reflect my actual value, increase significantly..." rows="2"></textarea>
+        </div>
+
+        <button class="btn-primary" style="margin-top: 36px;" onclick="generateReflection(4)">Generate My Reflection</button>
+        <button class="btn-ghost" onclick="showScreen('screen-result-4')">Back</button>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- SCREEN 12: REFLECTION OUTPUT -->
+<!-- ============================================================ -->
+<div class="screen" id="screen-reflection">
+    <div class="inner">
+        <span class="eyebrow">Your Possible Life</span>
+        <h2>This is what is waiting on the other side.</h2>
+        <div class="divider"></div>
+
+        <div class="reflection-body" id="reflection-output"></div>
+
+        <div class="cta-block" style="margin-top: 52px;">
+            <h3>The pattern is not permanent.<br>The pathway can be rebuilt.</h3>
+            <p class="lead">This is not about positive thinking. It is about updating the circuit at the point it was first laid down. That is the work.</p>
+            <div class="cta-stack">
+                <a href="https://enquiries.mariafuentes.co.uk/conversation" class="btn-primary">Book a Conversation</a>
+                <a href="https://rewire.mariafuentes.co.uk/" class="btn-outline">Join The Rewire</a>
+                <button class="btn-accent" id="pdf-btn" onclick="downloadReflectionPDF()">&#8675; Download Your Reflection as PDF</button>
+                <button class="btn-ghost" onclick="showScreen('screen-welcome')">Start again</button>
+            </div>
+        </div>
+
+        <div class="site-footer">
+            <p>&#169; Hypnotika Mente Ltd 2026 &middot; <a href="https://www.mariafuentes.co.uk">mariafuentes.co.uk</a></p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // ─── Category data ───────────────────────────────────────────
+    const categories = {
+        1: { name: 'Self-Worth', desc: 'The belief that you are not quite enough, that your success is provisional, and that it is only a matter of time before someone notices.' },
+        2: { name: 'Control and Responsibility', desc: 'The belief that everything depends on you, that releasing control is the same as failure, and that the only safe position is to carry it all.' },
+        3: { name: 'Belonging and Acceptance', desc: 'The belief that you do not fully belong in the rooms you occupy, and that being truly seen would result in rejection.' },
+        4: { name: 'Safety and Vulnerability', desc: 'The belief that visibility is dangerous, that exposure leads to harm, and that staying smaller is the safest available strategy.' }
+    };
+
+    let currentCat = 1;
+    const answers = {};
+
+    // ─── Screen management ───────────────────────────────────────
+    function showScreen(id) {
+        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+        const t = document.getElementById(id);
+        if (t) { t.classList.add('active'); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    }
+
+    function goToResult(n) { currentCat = n; showScreen('screen-result-' + n); }
+    function goToEx3(n)    { currentCat = n; showScreen('screen-ex3-' + n); }
+
+    // ─── Build diagnostic rating buttons ─────────────────────────
+    function buildRatingButtons() {
+        for (let q = 1; q <= 12; q++) {
+            const c = document.getElementById('q' + q);
+            if (!c) continue;
+            for (let r = 1; r <= 5; r++) {
+                const btn = document.createElement('button');
+                btn.className = 'rating-btn';
+                btn.dataset.q = q; btn.dataset.r = r;
+                btn.innerHTML = '<span class="num">' + r + '</span>';
+                btn.onclick = () => selectRating(q, r);
+                c.appendChild(btn);
+            }
+        }
+    }
+
+    function selectRating(q, r) {
+        document.querySelectorAll('[data-q="' + q + '"]').forEach(b => b.classList.remove('selected'));
+        document.querySelector('[data-q="' + q + '"][data-r="' + r + '"]').classList.add('selected');
+        answers[q] = r;
+        updateProgress();
+    }
+
+    function updateProgress() {
+        const count = Object.keys(answers).length;
+        document.getElementById('progress-text').textContent = count + ' of 12 answered';
+        document.getElementById('progress-fill').style.width = Math.round((count / 12) * 100) + '%';
+        document.getElementById('reveal-btn').disabled = count < 12;
+    }
+
+    function submitDiagnostic() {
+        const scores = {
+            1: (answers[1]||0)+(answers[2]||0)+(answers[3]||0),
+            2: (answers[4]||0)+(answers[5]||0)+(answers[6]||0),
+            3: (answers[7]||0)+(answers[8]||0)+(answers[9]||0),
+            4: (answers[10]||0)+(answers[11]||0)+(answers[12]||0)
+        };
+        let dom = 1;
+        for (let i = 2; i <= 4; i++) { if (scores[i] > scores[dom]) dom = i; }
+        currentCat = dom;
+        const cat = categories[dom];
+        document.getElementById('reveal-name').textContent = cat.name;
+        document.getElementById('reveal-desc').textContent = cat.desc;
+        document.getElementById('reveal-cta').onclick = () => goToResult(dom);
+        showScreen('screen-reveal');
+    }
+
+    // ─── Reflection engine ───────────────────────────────────────
+    function val(id) {
+        const el = document.getElementById(id);
+        return el ? (el.value.trim() || null) : null;
+    }
+
+    const costLines = {
+        1: "Every day this continues is another negotiation avoided. Another opportunity held at arm's length. Another version of yourself that does not get expressed.",
+        2: "Every day this continues is another day you carry what was never yours to carry alone. Another team that cannot grow because you will not let it. Another hour of your health spent compensating.",
+        3: "Every day this continues is another room where your full voice stays managed. Another contribution that does not get made. Another relationship that stays at the surface.",
+        4: "Every day this continues is another opportunity you have already decided the answer to before it was even asked. Another version of your career that stays theoretical."
+    };
+
+    const qLabels = {
+        1: { q1: 'What do you want to do that you have been holding back?', q2: 'What do you know your work is worth?', q3: 'What becomes the next step available to you?' },
+        2: { q1: 'What would you stop doing?', q2: 'Where would your full energy go?', q3: 'How would you lead differently?' },
+        3: { q1: 'What room or situation would you walk into freely?', q2: 'What would you do differently?', q3: 'How would your professional relationships change?' },
+        4: { q1: 'What would you say yes to?', q2: 'What would you back yourself on?', q3: 'Where would you be in two years?' }
+    };
+
+    function buildFallback(n, r) {
+        let opening = '';
+        if (n === 1)      opening = (r.q1 ? 'You want to ' + r.q1 + '. ' : '') + (r.q2 ? 'You know your work is worth ' + r.q2 + '. ' : '') + (r.q3 ? 'And ' + r.q3 + ' is the next step.' : '');
+        else if (n === 2) opening = (r.q1 ? 'You would stop ' + r.q1 + '. ' : '') + (r.q2 ? 'Your full energy would go to ' + r.q2 + '. ' : '') + (r.q3 ? r.q3 + ' would become the natural way you lead.' : '');
+        else if (n === 3) opening = (r.q1 ? 'You would walk into ' + r.q1 + ' and belong there. ' : '') + (r.q2 ? 'You would ' + r.q2 + '. ' : '') + (r.q3 ? 'In your professional relationships, ' + r.q3 + '.' : '');
+        else              opening = (r.q1 ? 'You would say yes to ' + r.q1 + '. ' : '') + (r.q2 ? 'You would back yourself on ' + r.q2 + '. ' : '') + (r.q3 ? 'In two years, ' + r.q3 + '.' : '');
+        let dims = [];
+        if (r.peace)     dims.push('Your peace of mind would ' + r.peace + '.');
+        if (r.health)    dims.push('Your health would ' + r.health + '.');
+        if (r.relations) dims.push('The people closest to you would experience something different too: ' + r.relations + '.');
+        if (r.earnings)  dims.push('And your income would ' + r.earnings + '.');
+        const dimPara = dims.length > 0 ? 'Beyond what you would do, consider what you would feel. ' + dims.join(' ') : '';
+        return { opening, dimPara };
+    }
+
+    function buildCostPara(r) {
+        let items = [];
+        if (r.peace)     items.push('quiet mind');
+        if (r.health)    items.push('the energy');
+        if (r.relations) items.push('the relationships');
+        if (r.earnings)  items.push('the income');
+        const list = items.length > 0 ? items.join(', ') : 'all of that';
+        return 'Right now, the pattern is extracting the price across every one of those areas. The ' + list + '. Not because you are not capable. Because a belief formed long before you had the standing you have today is still making decisions on your behalf.';
+    }
+
+    function renderReflection(opening, dimPara, costPara, n) {
+        const close = 'That is not a description of who you are. That is a description of what the pattern has cost you so far. The question is not whether you deserve better. You already know the answer to that. The question is when you will act on it.';
+        let html = '';
+        if (opening.trim())  html += '<p class="reflection-body">' + opening + '</p>';
+        if (dimPara.trim())  html += '<p class="reflection-body">' + dimPara + '</p>';
+        if (costPara.trim()) html += '<p class="reflection-cost">' + costPara + '</p>';
+        html += '<p class="reflection-cost">' + (costLines[n] || '') + '</p>';
+        html += '<p class="reflection-close">' + close + '</p>';
+        document.getElementById('reflection-output').innerHTML = html;
+    }
+
+    async function generateReflection(n) {
+        document.getElementById('reflection-output').innerHTML = '<p class="reflection-body" style="opacity:0.45;font-style:italic;">Writing your reflection...</p>';
+        showScreen('screen-reflection');
+
+        const r = {
+            q1:       val('ex3-' + n + '-q1') || '',
+            q2:       val('ex3-' + n + '-q2') || '',
+            q3:       val('ex3-' + n + '-q3') || '',
+            peace:    val('ex3-' + n + '-peace') || '',
+            health:   val('ex3-' + n + '-health') || '',
+            relations:val('ex3-' + n + '-relations') || '',
+            earnings: val('ex3-' + n + '-earnings') || ''
+        };
+
+        const catName  = (categories[n] || {}).name || 'Your Belief Pattern';
+        const catDesc  = (categories[n] || {}).desc || '';
+        const labels   = qLabels[n] || qLabels[1];
+        const costPara = buildCostPara(r);
+
+        try {
+            const resp = await fetch('https://rewire-proxy.vercel.app/api/rewrite-reflection', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ catName, catDesc, labels, r })
+            });
+
+            let opening = '', dimPara = '';
+            if (resp.ok) {
+                const cd = await resp.json();
+                opening  = cd.opening  || '';
+                dimPara  = cd.dimPara  || '';
+            }
+            if (!opening) { const fb = buildFallback(n, r); opening = fb.opening; dimPara = fb.dimPara; }
+            renderReflection(opening, dimPara, costPara, n);
+        } catch(err) {
+            const fb = buildFallback(n, r);
+            renderReflection(fb.opening, fb.dimPara, costPara, n);
+        }
+    }
+
+    // ─── PDF Download ─────────────────────────────────────────────
+    async function downloadReflectionPDF() {
+        const btn  = document.getElementById('pdf-btn');
+        const orig = btn.innerHTML;
+        btn.disabled  = true;
+        btn.innerHTML = 'Writing your reflection...';
+
+        const n       = currentCat;
+        const catName = (categories[n] || {}).name || 'Your Belief Pattern';
+        const catDesc = (categories[n] || {}).desc || '';
+
+        // Collect raw answers
+        function v(id) { const el = document.getElementById(id); return el ? el.value.trim() : ''; }
+        const rawAnswers = {
+            q1:       v('ex3-' + n + '-q1'),
+            q2:       v('ex3-' + n + '-q2'),
+            q3:       v('ex3-' + n + '-q3'),
+            peace:    v('ex3-' + n + '-peace'),
+            health:   v('ex3-' + n + '-health'),
+            relations:v('ex3-' + n + '-relations'),
+            earnings: v('ex3-' + n + '-earnings')
+        };
+
+        // Category-specific question labels so Claude understands context
+        const qLabels = {
+            1: { q1: 'What do you want to do that you have been holding back?', q2: 'What do you know your work is worth?', q3: 'What becomes the next step available to you?' },
+            2: { q1: 'What would you stop doing?', q2: 'Where would your full energy go?', q3: 'How would you lead differently?' },
+            3: { q1: 'What room or situation would you walk into freely?', q2: 'What would you do differently?', q3: 'How would your professional relationships change?' },
+            4: { q1: 'What would you say yes to?', q2: 'What would you back yourself on?', q3: 'Where would you be in two years?' }
+        };
+        const labels = qLabels[n] || qLabels[1];
+
+        // Fixed paragraphs (not personalised, always correct)
+        const costLines = {
+            1: 'Every day this continues is another negotiation avoided. Another opportunity held at arm's length. Another version of yourself that does not get expressed.',
+            2: 'Every day this continues is another day you carry what was never yours to carry alone. Another team that cannot grow because you will not let it. Another hour of your health spent compensating.',
+            3: 'Every day this continues is another room where your full voice stays managed. Another contribution that does not get made. Another relationship that stays at the surface.',
+            4: 'Every day this continues is another opportunity you have already decided the answer to before it was even asked. Another version of your career that stays theoretical.'
+        };
+        const close = 'That is not a description of who you are. That is a description of what the pattern has cost you so far. The question is not whether you deserve better. You already know the answer to that. The question is when you will act on it.';
+
+        try {
+        try {
+            // Step 1: Rewrite answers as clean prose via dedicated endpoint
+            btn.innerHTML = 'Personalising your reflection...';
+            const claudeResp = await fetch('https://rewire-proxy.vercel.app/api/rewrite-reflection', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ catName, catDesc, labels, r: rawAnswers })
+            });
+
+            let opening = '', dimPara = '';
+            if (claudeResp.ok) {
+                const cd = await claudeResp.json();
+                opening = cd.opening || '';
+                dimPara = cd.dimPara || '';
+            }
+
+            // Fallback if Claude fails
+            if (!opening) {
+                const fb = buildFallback(n, rawAnswers);
+                opening = fb.opening;
+                dimPara = fb.dimPara;
+            }
+
+            const costPara = 'Right now, the pattern is extracting the price across every one of those areas. The ' + costList + '. Not because you are not capable. Because a belief formed long before you had the standing you have today is still making decisions on your behalf.';
+
+            // Step 2: Generate PDF
+            btn.innerHTML = 'Building your PDF...';
+            const pdfResp = await fetch('https://rewire-proxy.vercel.app/api/generate-wbp-pdf', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    category: catName,
+                    opening,
+                    dimPara,
+                    costPara,
+                    costLine: costLines[n] || '',
+                    close
+                })
+            });
+
+            if (!pdfResp.ok) throw new Error('PDF generation failed');
+            const blob = await pdfResp.blob();
+            const url  = URL.createObjectURL(blob);
+            const a    = document.createElement('a');
+            a.href     = url;
+            a.download = 'What-Becomes-Possible-Maria-Fuentes.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            btn.innerHTML = '&#10003; Downloaded';
+            setTimeout(() => { btn.innerHTML = orig; btn.disabled = false; }, 3000);
+
+        } catch (err) {
+            console.error(err);
+            btn.innerHTML = orig;
+            btn.disabled  = false;
+            alert('PDF generation is not available right now. Please try again shortly.');
+        }
+    }
+
+    // ─── Auto-resize textareas ────────────────────────────────────
+    function autoResize(el) {
+        el.style.height = 'auto';
+        el.style.height = el.scrollHeight + 'px';
+    }
+    document.addEventListener('input', function(e) {
+        if (e.target.tagName === 'TEXTAREA') autoResize(e.target);
+    });
+
+    // ─── Init ─────────────────────────────────────────────────────
+    buildRatingButtons();
+</script>
+</body>
+</html>
