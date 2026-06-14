@@ -1,6 +1,15 @@
 {
-  "updated": "14 Jun 2026, 08:14 UTC",
+  "updated": "14 Jun 2026, 11:55 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Why middle age is becoming a breaking point in the U.S.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260613215430.htm",
+      "date": "13 Jun 2026",
+      "excerpt": "A new international study finds that middle-aged Americans are lonelier, more depressed, and experiencing worse memory and health than earlier generations. Researchers say growing financial strain, weaker social supports, and chronic stress",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260610003049.htm",
       "date": "10 Jun 2026",
       "excerpt": "Researchers gave top AI models a classic attention test used in psychology and found a major flaw. While the models could correctly name colors in short lists, their performance deteriorated sharply as the task became longer and more comple",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists mapped every neural connection in a fruit fly and found a surprise",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260610003047.htm",
-      "date": "10 Jun 2026",
-      "excerpt": "A groundbreaking new connectome maps every neural connection in an adult fruit fly’s central nervous system, creating an unprecedented view of how the brain and body work together. The findings suggest that complex behaviors emerge from dis",
       "image": ""
     },
     {
@@ -220,6 +220,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Anthropic suspends new AI tools over US government security concerns",
+      "link": "https://www.bbc.com/news/articles/c932g3v3e13o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Jun 2026",
+      "excerpt": "Anthropic's Claude Fable 5, released publicly this week, sparked concerns about cybersecurity and hacking.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/54a1/live/35ba2f90-66c9-11f1-b891-a117aef409ef.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
       "link": "https://www.bbc.com/news/articles/c4gypy3wwl7o?at_medium=RSS&at_campaign=rss",
       "date": "12 Jun 2026",
@@ -243,15 +252,6 @@
       "date": "12 Jun 2026",
       "excerpt": "The BBC's Michelle Fleury spoke to Tom Mueller, who was one of the company's founders alongside Elon Musk in 2002.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e6b/live/d55152a0-6641-11f1-8546-8f19e4fe30f4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK economy contracts as Iran war impact felt",
-      "link": "https://www.bbc.com/news/articles/c77y47248k4o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Jun 2026",
-      "excerpt": "The economy shrank slightly in April as the Iran war began to have an impact on businesses, official data shows.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ce7/live/edd669e0-657f-11f1-9f01-693d064aea27.jpg"
     }
   ]
 }
