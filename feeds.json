@@ -1,5 +1,5 @@
 {
-  "updated": "14 Jun 2026, 17:19 UTC",
+  "updated": "14 Jun 2026, 19:24 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "UK electric car sales target set to be weakened",
+      "link": "https://www.bbc.com/news/articles/cx2dmwmj4dmo?at_medium=RSS&at_campaign=rss",
+      "date": "14 Jun 2026",
+      "excerpt": "The new target hasn't yet been decided, with different numbers under consideration, the BBC understands.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76a4/live/9d333710-6814-11f1-a177-65e13786d3a5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "UK and Japan agree £18bn investment deal",
       "link": "https://www.bbc.com/news/articles/cx2kjwgwxwlo?at_medium=RSS&at_campaign=rss",
       "date": "14 Jun 2026",
@@ -243,15 +252,6 @@
       "date": "12 Jun 2026",
       "excerpt": "Musk is now worth $1.11tn according to the Bloomberg rich list, while SpaceX listed on the Nasdaq stock exchange with a value of $2.2tn.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f94f/live/233c68e0-66a3-11f1-80bb-fb4d08542828.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK vows to phase out Russian diesel and jet fuel imports by new year",
-      "link": "https://www.bbc.com/news/articles/ceqdl8xre7qo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Jun 2026",
-      "excerpt": "The ban forms part of the government's package of sanctions on Moscow due to the ongoing war with Ukraine.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b2d/live/d76ca2d0-6694-11f1-ba1a-d91f8cef28c9.jpg"
     }
   ]
 }
