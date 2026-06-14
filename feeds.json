@@ -1,5 +1,5 @@
 {
-  "updated": "14 Jun 2026, 03:54 UTC",
+  "updated": "14 Jun 2026, 08:14 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -151,7 +151,7 @@
       "title": "Made in Britain, or designed in Britain? What Port Talbot teaches us about the green economy",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/13/made-in-britain-or-designed-in-britain-what-port-talbot-teaches-us-about-the-green-economy/",
       "date": "13 Jun 2026",
-      "excerpt": "Ahead of an event at the LSE Festival on 16 June Oliver Harman and Riccardo Crescenzi use the regeneration of Port Talbot, a steelworks in Wales, to illustrate Britain’s place in the global value chain and explain what wider lessons the pro",
+      "excerpt": "Ahead of an event at the LSE Festival on 16 June Oliver Harman and Riccardo Crescenzi use the regeneration of Port Talbot, a steelworks in Wales, to illustrate Britain&#8217;s place in the steel global value chain and explain what wider les",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/LSE-Blogs-festival-banner_1024-x-196-2.jpg"
     },
     {
@@ -202,6 +202,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Why the US economy keeps defying the odds",
+      "link": "https://www.bbc.com/news/articles/cwy031el03po?at_medium=RSS&at_campaign=rss",
+      "date": "14 Jun 2026",
+      "excerpt": "Why has the American economy continued to outperform so many of its peers, despite facing the same global shocks?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e0cd/live/4877abc0-6599-11f1-99b8-5530f29d65f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Elon Musk's stratospheric rise to trillionaire status - in charts",
+      "link": "https://www.bbc.com/news/articles/c4gyp523ly8o?at_medium=RSS&at_campaign=rss",
+      "date": "12 Jun 2026",
+      "excerpt": "The BBC breaks down how the tech mogul's fortune has grown.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/02a3/live/56817dd0-6680-11f1-b1db-af71d47507d6.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
       "link": "https://www.bbc.com/news/articles/c4gypy3wwl7o?at_medium=RSS&at_campaign=rss",
       "date": "12 Jun 2026",
@@ -234,24 +252,6 @@
       "date": "12 Jun 2026",
       "excerpt": "The economy shrank slightly in April as the Iran war began to have an impact on businesses, official data shows.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ce7/live/edd669e0-657f-11f1-9f01-693d064aea27.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why the economics make this the craziest World Cup ever",
-      "link": "https://www.bbc.com/news/articles/cpv32417nlwo?at_medium=RSS&at_campaign=rss",
-      "date": "11 Jun 2026",
-      "excerpt": "From trade wars to soaring ticket prices, the 2026 World Cup is unlike any before it. Faisal Islam explores what this tournament reveals about our changing global economy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf58/live/e0108980-65a7-11f1-b1db-af71d47507d6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "India's 'blue gold' starts a new drinks industry",
-      "link": "https://www.bbc.com/news/articles/cdrpe4vly5mo?at_medium=RSS&at_campaign=rss",
-      "date": "11 Jun 2026",
-      "excerpt": "Agave plants grow wild in India and new distillers are using them to create a spirits industry.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4da3/live/edc38a50-58eb-11f1-b682-cf91850925ea.jpg"
     }
   ]
 }
