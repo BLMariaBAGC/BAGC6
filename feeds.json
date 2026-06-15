@@ -1,5 +1,5 @@
 {
-  "updated": "14 Jun 2026, 23:08 UTC",
+  "updated": "15 Jun 2026, 04:06 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,42 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Oil prices slide after Pakistan announces deal between US and Iran",
+      "link": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Jun 2026",
+      "excerpt": "Under the agreement, the key Strait of Hormuz waterway will be reopened, US President Donald Trump said.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7640/live/4688b200-67d3-11f1-9c4b-77e30dd66647.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Millions of people can get discounts on their bills - here's how",
+      "link": "https://www.bbc.com/news/articles/c4gyplpyj00o?at_medium=RSS&at_campaign=rss",
+      "date": "14 Jun 2026",
+      "excerpt": "Lower social tariffs allow many people on benefits to get cheaper deals for water, broadband and phone.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf0a/live/99c89070-6585-11f1-be7e-9d9e15bac6ec.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Surge in scams as fraudsters use AI to target people",
+      "link": "https://www.bbc.com/news/articles/cwykp9ygxlvo?at_medium=RSS&at_campaign=rss",
+      "date": "14 Jun 2026",
+      "excerpt": "On average, nearly eight cases of fraud in which money is stolen are reported in the UK every minute.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5333/live/5995e9a0-6597-11f1-99b8-5530f29d65f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Is the convertible heading into the sunset?",
+      "link": "https://www.bbc.com/news/articles/cx212yy4er0o?at_medium=RSS&at_campaign=rss",
+      "date": "14 Jun 2026",
+      "excerpt": "UK drivers have taken a shine to the SUV but could the fate of the convertible be reversed?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1bc2/live/7082e5b0-641a-11f1-b8c4-d17e7970dcab.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "UK electric car sales target set to be weakened",
       "link": "https://www.bbc.com/news/articles/cx2dmwmj4dmo?at_medium=RSS&at_campaign=rss",
       "date": "14 Jun 2026",
@@ -211,47 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK and Japan agree £18bn investment deal",
-      "link": "https://www.bbc.com/news/articles/cx2kjwgwxwlo?at_medium=RSS&at_campaign=rss",
+      "title": "As more US business owners retire many are selling up to their staff",
+      "link": "https://www.bbc.com/news/articles/c0ey87z1ggjo?at_medium=RSS&at_campaign=rss",
       "date": "14 Jun 2026",
-      "excerpt": "Japanese firms will spend billions on UK infrastructure and offshore wind, Downing Street says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/539b/live/de1b20f0-67fe-11f1-9446-05fff8c055e2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why the US economy keeps defying the odds",
-      "link": "https://www.bbc.com/news/articles/cwy031el03po?at_medium=RSS&at_campaign=rss",
-      "date": "14 Jun 2026",
-      "excerpt": "Why has the American economy continued to outperform so many of its peers, despite facing the same global shocks?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e0cd/live/4877abc0-6599-11f1-99b8-5530f29d65f4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Elon Musk's stratospheric rise to trillionaire status - in charts",
-      "link": "https://www.bbc.com/news/articles/c4gyp523ly8o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Jun 2026",
-      "excerpt": "The BBC breaks down how the tech mogul's fortune has grown.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/02a3/live/56817dd0-6680-11f1-b1db-af71d47507d6.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Anthropic suspends new AI tools over US government security concerns",
-      "link": "https://www.bbc.com/news/articles/c932g3v3e13o?at_medium=RSS&at_campaign=rss",
-      "date": "13 Jun 2026",
-      "excerpt": "Anthropic's Claude Fable 5, released publicly this week, sparked concerns about cybersecurity and hacking.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/54a1/live/35ba2f90-66c9-11f1-b891-a117aef409ef.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Elon Musk becomes world's first trillionaire as SpaceX soars in stock market debut",
-      "link": "https://www.bbc.com/news/articles/c4gypy3wwl7o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Jun 2026",
-      "excerpt": "Musk is now worth $1.11tn according to the Bloomberg rich list, while SpaceX listed on the Nasdaq stock exchange with a value of $2.2tn.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f94f/live/233c68e0-66a3-11f1-80bb-fb4d08542828.jpg"
+      "excerpt": "Some six million bosses of American firms will be entering retirement between now and 2035.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c966/live/69f94f00-6671-11f1-b1db-af71d47507d6.jpg"
     }
   ]
 }
