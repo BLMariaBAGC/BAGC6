@@ -1,5 +1,5 @@
 {
-  "updated": "15 Jun 2026, 04:06 UTC",
+  "updated": "15 Jun 2026, 12:09 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil prices slide after Pakistan announces deal between US and Iran",
+      "title": "The US and Iran have agreed a deal. How soon could the economy go back to normal?",
+      "link": "https://www.bbc.com/news/articles/cd0p8me2m5do?at_medium=RSS&at_campaign=rss",
+      "date": "15 Jun 2026",
+      "excerpt": "Experts warn the impact of the war will continue to affect the global economy for months to come.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfa7/live/31930ca0-68a1-11f1-b9ac-e71b9be292bd.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil prices fall and shares jump after US-Iran deal announced",
       "link": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
       "date": "15 Jun 2026",
       "excerpt": "Under the agreement, the key Strait of Hormuz waterway will be reopened, US President Donald Trump said.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7640/live/4688b200-67d3-11f1-9c4b-77e30dd66647.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb2d/live/8be72110-6887-11f1-8c6b-f595710535a5.jpg"
     },
     {
       "source": "BBC Business",
@@ -215,12 +224,12 @@
       "link": "https://www.bbc.com/news/articles/c4gyplpyj00o?at_medium=RSS&at_campaign=rss",
       "date": "14 Jun 2026",
       "excerpt": "Lower social tariffs allow many people on benefits to get cheaper deals for water, broadband and phone.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf0a/live/99c89070-6585-11f1-be7e-9d9e15bac6ec.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26eb/live/b45a5990-6892-11f1-b1db-af71d47507d6.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Surge in scams as fraudsters use AI to target people",
+      "title": "Financial losses from scams hit £1.3bn a year as criminals turn to AI",
       "link": "https://www.bbc.com/news/articles/cwykp9ygxlvo?at_medium=RSS&at_campaign=rss",
       "date": "14 Jun 2026",
       "excerpt": "On average, nearly eight cases of fraud in which money is stolen are reported in the UK every minute.",
@@ -238,20 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK electric car sales target set to be weakened",
-      "link": "https://www.bbc.com/news/articles/cx2dmwmj4dmo?at_medium=RSS&at_campaign=rss",
-      "date": "14 Jun 2026",
-      "excerpt": "The new target hasn't yet been decided, with different numbers under consideration, the BBC understands.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76a4/live/9d333710-6814-11f1-a177-65e13786d3a5.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "As more US business owners retire many are selling up to their staff",
+      "title": "Why I sold my business to my staff",
       "link": "https://www.bbc.com/news/articles/c0ey87z1ggjo?at_medium=RSS&at_campaign=rss",
       "date": "14 Jun 2026",
-      "excerpt": "Some six million bosses of American firms will be entering retirement between now and 2035.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c966/live/69f94f00-6671-11f1-b1db-af71d47507d6.jpg"
+      "excerpt": "As more US company owners reach retirement age many are selling up to their employees.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10d8/live/38db3400-689d-11f1-8546-8f19e4fe30f4.jpg"
     }
   ]
 }
