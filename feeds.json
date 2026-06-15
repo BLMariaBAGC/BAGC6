@@ -1,6 +1,15 @@
 {
-  "updated": "15 Jun 2026, 12:09 UTC",
+  "updated": "15 Jun 2026, 18:23 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This popular brain supplement was linked to shorter lifespans in men",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260615025119.htm",
+      "date": "15 Jun 2026",
+      "excerpt": "A large-scale study suggests that men with higher levels of the amino acid tyrosine may have shorter lifespans, potentially losing close to a year of life expectancy. The finding is especially intriguing because tyrosine is commonly associa",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A classic brain test exposed AI's biggest weakness",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260610003049.htm",
-      "date": "10 Jun 2026",
-      "excerpt": "Researchers gave top AI models a classic attention test used in psychology and found a major flaw. While the models could correctly name colors in short lists, their performance deteriorated sharply as the task became longer and more comple",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Help Employees Get Better—Not Just Faster—with AI",
+      "link": "https://hbr.org/2026/06/help-employees-get-better-not-just-faster-with-ai",
+      "date": "15 Jun 2026",
+      "excerpt": "A four-step process to help people develop and apply their own judgment.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Pros and Cons of Continually Assessing Performance",
+      "link": "https://hbr.org/2026/06/the-pros-and-cons-of-continually-assessing-performance",
+      "date": "15 Jun 2026",
+      "excerpt": "AI is helping companies directly link assessment to coaching, reskilling, and workforce planning. But they need to be careful how they implement these systems.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How AI Companies Can Pay Fair Rates for the Content They Need",
+      "link": "https://hbr.org/2026/06/how-ai-companies-can-pay-fair-rates-for-the-content-they-need",
+      "date": "15 Jun 2026",
+      "excerpt": "A new framework for how big tech and the creator economy can come to a mutually beneficial arrangement.",
       "image": ""
     },
     {
@@ -119,31 +146,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Do You Market to an AI Customer?",
-      "link": "https://hbr.org/2026/06/how-do-you-market-to-an-ai-customer",
-      "date": "11 Jun 2026",
-      "excerpt": "Your company needs to understand what the technology rewards, ignores, and trusts.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Where Does China Fit in Your Company’s Innovation Strategy?",
-      "link": "https://hbr.org/2026/06/where-does-china-fit-in-your-companys-innovation-strategy",
-      "date": "10 Jun 2026",
-      "excerpt": "How multinationals can leverage China&#8217;s innovation ecosystem to fuel R&#38;D efforts and mitigate risks.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Employees Aren’t Transparent About Their AI Usage",
-      "link": "https://hbr.org/2026/06/why-employees-arent-transparent-about-their-ai-usage",
-      "date": "10 Jun 2026",
-      "excerpt": "Research finds that companies won&#8217;t benefit from AI gains until they create a culture of trust.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Societies must rethink not only what industrial policy aims to achieve, but how it is designed and governed – Mariana Mazzucato",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/15/societies-must-rethink-not-only-what-industrial-policy-aims-to-achieve-but-how-it-is-designed-and-governed-mariana-mazzucato/",
+      "date": "15 Jun 2026",
+      "excerpt": "Industrial policy is having a revival. But it needs a redesign. Ahead of an event at the LSE Festival on 15 June Mariana Mazzucato describes her “common good framework”, which shifts industrial policy away from a narrow focus on competitive",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/LSE-Blogs-festival-banner_1024-x-196-3.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -191,18 +200,9 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Managing the geopolitics of Europe’s energy transition",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/08/managing-the-geopolitics-of-europes-energy-transition/",
-      "date": "8 Jun 2026",
-      "excerpt": "Geopolitics is disrupting the critical supply chains essential for the energy transition, not least in Europe. Ahead of an event at the LSE Festival Peter Hill introduces the Clean Technology Partnership Initiative, a framework which assess",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/LSE-Blogs-festival-banner_1024-x-196.jpg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The US and Iran have agreed a deal. How soon could the economy go back to normal?",
+      "title": "How could the US-Iran deal affect oil prices and the cost of food?",
       "link": "https://www.bbc.com/news/articles/cd0p8me2m5do?at_medium=RSS&at_campaign=rss",
       "date": "15 Jun 2026",
       "excerpt": "Experts warn the impact of the war will continue to affect the global economy for months to come.",
@@ -220,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Millions of people can get discounts on their bills - here's how",
-      "link": "https://www.bbc.com/news/articles/c4gyplpyj00o?at_medium=RSS&at_campaign=rss",
-      "date": "14 Jun 2026",
-      "excerpt": "Lower social tariffs allow many people on benefits to get cheaper deals for water, broadband and phone.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26eb/live/b45a5990-6892-11f1-b1db-af71d47507d6.jpg"
+      "title": "What's happening to UK petrol and diesel prices now the US and Iran have a deal?",
+      "link": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Jun 2026",
+      "excerpt": "When the conflict began on 28 February, fuel costs jumped as the war disrupted the production and transportation of energy across the Middle East.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa1a/live/ef81f7f0-68a9-11f1-8570-238ff96d913c.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Financial losses from scams hit £1.3bn a year as criminals turn to AI",
-      "link": "https://www.bbc.com/news/articles/cwykp9ygxlvo?at_medium=RSS&at_campaign=rss",
-      "date": "14 Jun 2026",
-      "excerpt": "On average, nearly eight cases of fraud in which money is stolen are reported in the UK every minute.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5333/live/5995e9a0-6597-11f1-99b8-5530f29d65f4.jpg"
+      "title": "Anthropic to meet White House over AI tool suspension",
+      "link": "https://www.bbc.com/news/articles/c9w2p7ykp8yo?at_medium=RSS&at_campaign=rss",
+      "date": "15 Jun 2026",
+      "excerpt": "The sudden meeting was called after Anthropic had to block users from just-released AI models.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12c8/live/d654aa50-68dd-11f1-b1db-af71d47507d6.jpg"
     },
     {
       "source": "BBC Business",
@@ -242,7 +242,7 @@
       "link": "https://www.bbc.com/news/articles/cx212yy4er0o?at_medium=RSS&at_campaign=rss",
       "date": "14 Jun 2026",
       "excerpt": "UK drivers have taken a shine to the SUV but could the fate of the convertible be reversed?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1bc2/live/7082e5b0-641a-11f1-b8c4-d17e7970dcab.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e0de/live/5400c0d0-68b9-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
