@@ -1,5 +1,5 @@
 {
-  "updated": "15 Jun 2026, 18:23 UTC",
+  "updated": "15 Jun 2026, 22:17 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "SpaceX IPO raised $10bn more than thought",
+      "link": "https://www.bbc.com/news/articles/cgrk21wnvy9o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Jun 2026",
+      "excerpt": "The company's listing raised $87.5bn, compared with the $75bn it was initially thought.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62fc/live/fe9e1080-68e4-11f1-a322-77bd30adf518.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Oil prices fall and shares jump after US-Iran deal announced",
       "link": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
       "date": "15 Jun 2026",
@@ -234,15 +243,6 @@
       "date": "15 Jun 2026",
       "excerpt": "The sudden meeting was called after Anthropic had to block users from just-released AI models.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12c8/live/d654aa50-68dd-11f1-b1db-af71d47507d6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Is the convertible heading into the sunset?",
-      "link": "https://www.bbc.com/news/articles/cx212yy4er0o?at_medium=RSS&at_campaign=rss",
-      "date": "14 Jun 2026",
-      "excerpt": "UK drivers have taken a shine to the SUV but could the fate of the convertible be reversed?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e0de/live/5400c0d0-68b9-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
