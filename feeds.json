@@ -1,5 +1,5 @@
 {
-  "updated": "16 Jun 2026, 09:27 UTC",
+  "updated": "16 Jun 2026, 15:07 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Musk's SpaceX buys AI coding start-up for $60bn days after IPO",
+      "link": "https://www.bbc.com/news/articles/cvgd5g7d7gyo?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jun 2026",
+      "excerpt": "Elon Musk's firm agrees to buy Cursor, while a surge SpaceX's shares sees it overtake Amazon to become the world's fifth most valuable company.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d41/live/929b64a0-697a-11f1-8546-8f19e4fe30f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Thames Water moves step closer to nationalisation after government objects to rescue deal",
       "link": "https://www.bbc.com/news/articles/cly089d0wl7o?at_medium=RSS&at_campaign=rss",
       "date": "16 Jun 2026",
       "excerpt": "The environment secretary says the deal does not do enough for consumers or the environment.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8193/live/9e5a3f20-690a-11f1-8e1d-bbbb1017d210.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d51/live/73b4c540-696b-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,29 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "SpaceX IPO raised $10bn more than thought",
-      "link": "https://www.bbc.com/news/articles/cgrk21wnvy9o?at_medium=RSS&at_campaign=rss",
-      "date": "15 Jun 2026",
-      "excerpt": "The company's listing raised $87.5bn, compared with the $75bn it was initially thought.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62fc/live/fe9e1080-68e4-11f1-a322-77bd30adf518.jpg"
+      "title": "How the Iran war affects your money and bills",
+      "link": "https://www.bbc.com/news/articles/c2e4ygndjpwo?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jun 2026",
+      "excerpt": "The conflict in the Middle East has increased pressure on the cost of petrol, household energy bills and even food.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afaf/live/7cc7a4a0-1bc2-11f1-964c-87b629a369ca.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "How could the US-Iran deal affect oil prices and the cost of food?",
-      "link": "https://www.bbc.com/news/articles/cd0p8me2m5do?at_medium=RSS&at_campaign=rss",
-      "date": "15 Jun 2026",
-      "excerpt": "Experts warn the impact of the war will continue to affect the global economy for months to come.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfa7/live/31930ca0-68a1-11f1-b9ac-e71b9be292bd.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Is the convertible heading into the sunset?",
-      "link": "https://www.bbc.com/news/articles/cx212yy4er0o?at_medium=RSS&at_campaign=rss",
-      "date": "14 Jun 2026",
-      "excerpt": "UK drivers have taken a shine to the SUV but could the fate of the convertible be reversed?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e0de/live/5400c0d0-68b9-11f1-8e1d-bbbb1017d210.jpg"
+      "title": "Why is Thames Water in so much trouble?",
+      "link": "https://www.bbc.com/news/articles/cgleg70r7rno?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jun 2026",
+      "excerpt": "Thames Water's lenders have submitted a new rescue plan to save the firm, but how did it end up in this state?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddba/live/1cb52560-3bad-11f0-91a0-abc9c23352d4.png"
     },
     {
       "source": "BBC Business",
