@@ -1,6 +1,15 @@
 {
-  "updated": "16 Jun 2026, 15:07 UTC",
+  "updated": "16 Jun 2026, 19:32 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Copper drug clears toxic Alzheimer’s proteins and restores memory",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260615033835.htm",
+      "date": "16 Jun 2026",
+      "excerpt": "A copper-based compound restored the brain’s ability to clear toxic Alzheimer’s proteins, dramatically reducing amyloid buildup and improving memory in laboratory experiments. The findings point to a potentially fast-tracked new treatment s",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "New fentanyl vaccine blocks deadly overdoses before they start",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260612032029.htm",
-      "date": "13 Jun 2026",
-      "excerpt": "A new experimental vaccine developed by Scripps Research could offer a powerful new way to prevent fentanyl overdoses by stopping the drug before it reaches the brain. Rather than targeting only fentanyl itself, the vaccine trains the immun",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Why Decision-Making Frameworks Fail",
+      "link": "https://hbr.org/2026/06/gg-why-decision-making-frameworks-fail",
+      "date": "16 Jun 2026",
+      "excerpt": "In the June 15, 2026, edition of The Insider, managing editor Gretchen Gavett highlights recent pieces on why decision-rights frameworks fall apart, how &#8220;strategic centering&#8221; can anchor companies, and the hidden downside of lead",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Don’t Let AI Slop Muck Up Your Company’s Processes",
+      "link": "https://hbr.org/2026/06/dont-let-ai-slop-muck-up-your-companys-processes",
+      "date": "16 Jun 2026",
+      "excerpt": "Four steps leaders can take to protect one of their most valuable assets: organizational knowledge.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Right Way to Manage Rule Breakers",
+      "link": "https://hbr.org/podcast/2026/06/the-right-way-to-manage-rule-breakers",
+      "date": "16 Jun 2026",
+      "excerpt": "A conversation with Oxford&#8217;s Michael Gill about a counterintuitive approach to leadership.",
       "image": ""
     },
     {
@@ -116,33 +143,6 @@
       "link": "https://hbr.org/2026/06/how-gen-ai-is-disrupting-b2b-buying-decisions",
       "date": "12 Jun 2026",
       "excerpt": "Organizations built around sales relationships and channel control must adapt to new types of recommendation systems.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "To Thrive Alongside AI, Focus on Mindset—Not Skillset",
-      "link": "https://hbr.org/2026/06/to-thrive-alongside-ai-focus-on-mindset-not-skillset",
-      "date": "12 Jun 2026",
-      "excerpt": "Many leaders are asking the wrong question when it comes to AI adoption.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Actually Finish What You Need to Get Done",
-      "link": "https://hbr.org/podcast/2026/06/how-to-actually-finish-what-you-need-to-get-done",
-      "date": "11 Jun 2026",
-      "excerpt": "A conversation with entrepreneur Marc Zao-Sanders on how timeboxing can help you focus on what matters.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "For Hope to Inspire, It Has to Be Grounded in Organizational Reality",
-      "link": "https://hbr.org/2026/06/for-hope-to-inspire-it-has-to-be-grounded-in-organizational-reality",
-      "date": "11 Jun 2026",
-      "excerpt": "A guide for leaders.",
       "image": ""
     },
     {
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Musk's SpaceX buys AI coding start-up for $60bn days after IPO",
+      "title": "Musk's SpaceX overtakes Amazon to become world's fifth most valuable firm",
       "link": "https://www.bbc.com/news/articles/cvgd5g7d7gyo?at_medium=RSS&at_campaign=rss",
       "date": "16 Jun 2026",
-      "excerpt": "Elon Musk's firm agrees to buy Cursor, while a surge SpaceX's shares sees it overtake Amazon to become the world's fifth most valuable company.",
+      "excerpt": "Elon Musk's rocket firm has overtaken the retail and media empire in value after a surge in its share price.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d41/live/929b64a0-697a-11f1-8546-8f19e4fe30f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Struggling Pizza Hut chain to be sold for $2.7bn",
+      "link": "https://www.bbc.com/news/articles/c75yd6dy2vlo?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jun 2026",
+      "excerpt": "The decision comes after a prolonged period of difficulty for the chain, which has faced increasing competition from a range of rivals.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc30/live/7b572ab0-69a0-11f1-938e-83ab58a2163c.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "16 Jun 2026",
       "excerpt": "The conflict in the Middle East has increased pressure on the cost of petrol, household energy bills and even food.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afaf/live/7cc7a4a0-1bc2-11f1-964c-87b629a369ca.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why is Thames Water in so much trouble?",
-      "link": "https://www.bbc.com/news/articles/cgleg70r7rno?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jun 2026",
-      "excerpt": "Thames Water's lenders have submitted a new rescue plan to save the firm, but how did it end up in this state?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddba/live/1cb52560-3bad-11f0-91a0-abc9c23352d4.png"
     },
     {
       "source": "BBC Business",
