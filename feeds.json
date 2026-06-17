@@ -1,6 +1,24 @@
 {
-  "updated": "16 Jun 2026, 22:09 UTC",
+  "updated": "17 Jun 2026, 03:57 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "10 surprising ways diabetes and dementia are connected",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260616103128.htm",
+      "date": "16 Jun 2026",
+      "excerpt": "Diabetes and dementia appear to be closely intertwined, with each condition potentially influencing the other. Problems with insulin and glucose can affect the brain’s energy supply, increase inflammation, and damage blood vessels linked to",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists found an early depression clue hidden in children’s eyes",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260616102214.htm",
+      "date": "16 Jun 2026",
+      "excerpt": "Depression appears to change what children notice in the faces around them, but the effect depends on family history. Kids with a higher inherited risk became more focused on sadness, while lower-risk children lost some of their natural att",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260613034206.htm",
       "date": "13 Jun 2026",
       "excerpt": "A child psychologist says grandparents are more important than ever as youth mental health challenges continue to rise. He argues that children need supportive relationships, meaningful conversations, and a sense of purpose—not just pressur",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A hidden gene finally explains this rare neurological disorder",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260612032046.htm",
-      "date": "13 Jun 2026",
-      "excerpt": "Scientists have uncovered a surprising new genetic cause of a rare movement disorder after analyzing nearly 3,000 patients with conditions affecting coordination and muscle control. The team identified mutations in a gene called CD99L2, pre",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover a surprising cancer link to Alzheimer’s disease",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260612032044.htm",
-      "date": "12 Jun 2026",
-      "excerpt": "Researchers discovered that mutations linked to blood cancers may help trigger Alzheimer’s disease by creating overly inflammatory immune cells in the brain. The unexpected finding could lead to new blood-based screening methods and potenti",
       "image": ""
     },
     {
@@ -137,13 +137,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Gen AI is Disrupting B2B Buying Decisions",
-      "link": "https://hbr.org/2026/06/how-gen-ai-is-disrupting-b2b-buying-decisions",
-      "date": "12 Jun 2026",
-      "excerpt": "Organizations built around sales relationships and channel control must adapt to new types of recommendation systems.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Britain’s creative economy has suffered since Brexit",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/16/brexit-10-britains-creative-economy-has-suffered-since-brexit/",
+      "date": "16 Jun 2026",
+      "excerpt": "From loss of creative and business partnerships with European cultural organisations, to exclusion from European funding schemes and limiting touring opportunities, Charlotte Faucher shows the detrimental impact Brexit has had on Britain’s ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-1024x192.jpeg"
     },
     {
       "source": "LSE Business Review",
@@ -191,20 +191,20 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "It is time to permanently increase taxes on oil and gas companies",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/09/it-is-time-to-permanently-increase-taxes-on-oil-and-gas-companies/",
-      "date": "9 Jun 2026",
-      "excerpt": "The dramatic spike in oil and gas prices following the US-Israel war on Iran has prompted governments around the world to implement or consider higher taxes on oil and gas companies. Assessing the case for these taxes Ashfaq Khalfan argues ",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Cadbury chocolate-owner Mondelez defends staying in Russia",
+      "link": "https://www.bbc.com/news/articles/cy06d00jpn0o?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jun 2026",
+      "excerpt": "Mondelez boss Dirk Van de Put says it was the \"right decision\" to remain after the war with Ukraine.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a446/live/ac1d7340-6999-11f1-938e-83ab58a2163c.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Musk's SpaceX overtakes Amazon to become world's fifth most valuable firm",
       "link": "https://www.bbc.com/news/articles/cvgd5g7d7gyo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jun 2026",
+      "date": "17 Jun 2026",
       "excerpt": "Elon Musk's rocket firm has overtaken the retail and media empire in value after a surge in its share price.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d41/live/929b64a0-697a-11f1-8546-8f19e4fe30f4.jpg"
     },
@@ -229,29 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Japan raises interest rate to highest for 31 years",
-      "link": "https://www.bbc.com/news/articles/cjdgl213dpzo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jun 2026",
-      "excerpt": "The Bank of Japan has been raising rates from near-zero since 2024.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a76/live/d7e33c30-6872-11f1-8d7f-231b457c3604.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How the Iran war affects your money and bills",
-      "link": "https://www.bbc.com/news/articles/c2e4ygndjpwo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jun 2026",
-      "excerpt": "The conflict in the Middle East has increased pressure on the cost of petrol, household energy bills and even food.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afaf/live/7cc7a4a0-1bc2-11f1-964c-87b629a369ca.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "What is Helium-3 and could we get it from the moon?",
       "link": "https://www.bbc.com/news/articles/ce8jmg2e4kro?at_medium=RSS&at_campaign=rss",
       "date": "16 Jun 2026",
       "excerpt": "Helium-3 is expensive and demand is forecast to soar, so some are planning to mine it on the moon.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa72/live/b6a9ba10-688d-11f1-b1db-af71d47507d6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Japan raises interest rate to highest for 31 years",
+      "link": "https://www.bbc.com/news/articles/cjdgl213dpzo?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jun 2026",
+      "excerpt": "The Bank of Japan has been raising rates from near-zero since 2024.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a76/live/d7e33c30-6872-11f1-8d7f-231b457c3604.jpg"
     }
   ]
 }
