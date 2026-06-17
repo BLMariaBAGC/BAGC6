@@ -1,6 +1,15 @@
 {
-  "updated": "17 Jun 2026, 13:40 UTC",
+  "updated": "17 Jun 2026, 16:53 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Ozempic and Wegovy linked to surprising drop in violent behavior",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260617032152.htm",
+      "date": "17 Jun 2026",
+      "excerpt": "A Rutgers study suggests GLP-1 drugs such as Ozempic and Wegovy may weaken the link between impulsive tendencies and violent behavior. The surprising finding hints that these medications could affect how people act on impulses, though resea",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -42,7 +51,7 @@
       "feedId": "sciencedaily",
       "title": "Copper drug clears toxic Alzheimer’s proteins and restores memory",
       "link": "https://www.sciencedaily.com/releases/2026/06/260615033835.htm",
-      "date": "16 Jun 2026",
+      "date": "15 Jun 2026",
       "excerpt": "A copper-based compound restored the brain’s ability to clear toxic Alzheimer’s proteins, dramatically reducing amyloid buildup and improving memory in laboratory experiments. The findings point to a potentially fast-tracked new treatment s",
       "image": ""
     },
@@ -65,12 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your brain can keep improving into your 90s, study finds",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260613034222.htm",
-      "date": "13 Jun 2026",
-      "excerpt": "A three-year study of nearly 4,000 adults ranging from age 19 to 94 found that brain health can improve at any age, challenging the common belief that mental sharpness must decline as we get older. Participants spent just a few minutes a da",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "3 Forces Are Redefining the Transition from Manager to Leader",
+      "link": "https://hbr.org/2026/06/3-forces-are-redefining-the-transition-from-manager-to-leader",
+      "date": "17 Jun 2026",
+      "excerpt": "Updating a classic HBR framework.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Prevent Team Friction from Turning into Dysfunction",
+      "link": "https://hbr.org/2026/06/prevent-team-friction-from-turning-into-dysfunction",
+      "date": "17 Jun 2026",
+      "excerpt": "Lessons on avoiding communication breakdowns from one of Harvard Business School&#8217;s signature programs.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Why Speed and Trust Are Critical to Solving Hard Problems",
+      "link": "https://hbr.org/podcast/2026/06/why-speed-and-trust-are-critical-to-solving-hard-problems",
+      "date": "17 Jun 2026",
+      "excerpt": "A conversation with author Anne Morriss on why the slow and steady approach can leave issues unresolved.",
       "image": ""
     },
     {
@@ -107,33 +134,6 @@
       "link": "https://hbr.org/podcast/2026/06/the-right-way-to-manage-rule-breakers",
       "date": "16 Jun 2026",
       "excerpt": "A conversation with Oxford&#8217;s Michael Gill about a counterintuitive approach to leadership.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Help Employees Get Better—Not Just Faster—with AI",
-      "link": "https://hbr.org/2026/06/help-employees-get-better-not-just-faster-with-ai",
-      "date": "15 Jun 2026",
-      "excerpt": "A four-step process to help people develop and apply their own judgment.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Pros and Cons of Continually Assessing Performance",
-      "link": "https://hbr.org/2026/06/the-pros-and-cons-of-continually-assessing-performance",
-      "date": "15 Jun 2026",
-      "excerpt": "AI is helping companies directly link assessment to coaching, reskilling, and workforce planning. But they need to be careful how they implement these systems.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How AI Companies Can Pay Fair Rates for the Content They Need",
-      "link": "https://hbr.org/2026/06/how-ai-companies-can-pay-fair-rates-for-the-content-they-need",
-      "date": "15 Jun 2026",
-      "excerpt": "A new framework for how big tech and the creator economy can come to a mutually beneficial arrangement.",
       "image": ""
     },
     {
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Driving test wait time target will not be met until autumn next year",
+      "link": "https://www.bbc.com/news/articles/cd7wv0xqvryo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jun 2026",
+      "excerpt": "The Transport Secretary had been aiming to reduce the backlog to seven weeks by this autumn.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ff9/live/08534980-6a50-11f1-9ea9-fdea8f57a693.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Inflation unexpectedly steady as food price rises slow",
       "link": "https://www.bbc.com/news/articles/cyv0qpn9zvjo?at_medium=RSS&at_campaign=rss",
       "date": "17 Jun 2026",
@@ -220,15 +229,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'It's a unique scenario' - Inside Lidl's first ever pub",
-      "link": "https://www.bbc.com/news/articles/cj9gnljenpko?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jun 2026",
-      "excerpt": "The supermarket chain Lidl owns and operates The Middle Ale, a 'world first' for the brand.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1576/live/50303bc0-6422-11f1-b1db-af71d47507d6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "What is Helium-3 and could we get it from the moon?",
       "link": "https://www.bbc.com/news/articles/ce8jmg2e4kro?at_medium=RSS&at_campaign=rss",
       "date": "16 Jun 2026",
@@ -238,11 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Struggling Pizza Hut chain to be sold for $2.7bn",
-      "link": "https://www.bbc.com/news/articles/c75yd6dy2vlo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jun 2026",
-      "excerpt": "The decision comes after a prolonged period of difficulty for the chain, which has faced increasing competition from a range of rivals.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a2b/live/9b33f930-6a18-11f1-8e1d-bbbb1017d210.jpg"
+      "title": "'It's a unique scenario' - Inside Lidl's first ever pub",
+      "link": "https://www.bbc.com/news/articles/cj9gnljenpko?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jun 2026",
+      "excerpt": "The supermarket chain Lidl owns and operates The Middle Ale, a 'world first' for the brand.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1576/live/50303bc0-6422-11f1-b1db-af71d47507d6.jpg"
     }
   ]
 }
