@@ -1,5 +1,5 @@
 {
-  "updated": "17 Jun 2026, 03:57 UTC",
+  "updated": "17 Jun 2026, 09:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Inflation unexpectedly steady as food price rises slow",
+      "link": "https://www.bbc.com/news/articles/cyv0qpn9zvjo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jun 2026",
+      "excerpt": "Higher petrol prices were offset by slower price rises for meat, dairy and vegetables, according to the ONS.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03a8/live/2b655710-6983-11f1-8e1d-bbbb1017d210.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Cadbury chocolate-owner Mondelez defends staying in Russia",
       "link": "https://www.bbc.com/news/articles/cy06d00jpn0o?at_medium=RSS&at_campaign=rss",
       "date": "16 Jun 2026",
@@ -202,29 +211,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Musk's SpaceX overtakes Amazon to become world's fifth most valuable firm",
-      "link": "https://www.bbc.com/news/articles/cvgd5g7d7gyo?at_medium=RSS&at_campaign=rss",
+      "title": "Japan raids ice cream giants over price-fixing allegations",
+      "link": "https://www.bbc.com/news/articles/c0ly0k88e61o?at_medium=RSS&at_campaign=rss",
       "date": "17 Jun 2026",
-      "excerpt": "Elon Musk's rocket firm has overtaken the retail and media empire in value after a surge in its share price.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d41/live/929b64a0-697a-11f1-8546-8f19e4fe30f4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Struggling Pizza Hut chain to be sold for $2.7bn",
-      "link": "https://www.bbc.com/news/articles/c75yd6dy2vlo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jun 2026",
-      "excerpt": "The decision comes after a prolonged period of difficulty for the chain, which has faced increasing competition from a range of rivals.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc30/live/7b572ab0-69a0-11f1-938e-83ab58a2163c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Thames Water moves step closer to nationalisation after government objects to rescue deal",
-      "link": "https://www.bbc.com/news/articles/cly089d0wl7o?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jun 2026",
-      "excerpt": "The environment secretary says the deal does not do enough for consumers or the environment.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d51/live/73b4c540-696b-11f1-8e1d-bbbb1017d210.jpg"
+      "excerpt": "The investigation on alleged cartel pricing of ice cream comes as Japan faces record summer temperatures.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5129/live/adece430-6a2a-11f1-a5db-1fecb9f5cbdb.jpg"
     },
     {
       "source": "BBC Business",
@@ -238,11 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Japan raises interest rate to highest for 31 years",
-      "link": "https://www.bbc.com/news/articles/cjdgl213dpzo?at_medium=RSS&at_campaign=rss",
+      "title": "'It's a unique scenario' - Inside Lidl's first ever pub",
+      "link": "https://www.bbc.com/news/articles/cj9gnljenpko?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jun 2026",
+      "excerpt": "The supermarket chain Lidl owns and operates The Middle Ale, a 'world first' for the brand.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1576/live/50303bc0-6422-11f1-b1db-af71d47507d6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Struggling Pizza Hut chain to be sold for $2.7bn",
+      "link": "https://www.bbc.com/news/articles/c75yd6dy2vlo?at_medium=RSS&at_campaign=rss",
       "date": "16 Jun 2026",
-      "excerpt": "The Bank of Japan has been raising rates from near-zero since 2024.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a76/live/d7e33c30-6872-11f1-8d7f-231b457c3604.jpg"
+      "excerpt": "The decision comes after a prolonged period of difficulty for the chain, which has faced increasing competition from a range of rivals.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a2b/live/9b33f930-6a18-11f1-8e1d-bbbb1017d210.jpg"
     }
   ]
 }
