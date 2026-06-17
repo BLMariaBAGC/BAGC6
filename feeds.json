@@ -1,6 +1,15 @@
 {
-  "updated": "17 Jun 2026, 09:05 UTC",
+  "updated": "17 Jun 2026, 13:40 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A daily probiotic may help relieve depression and anxiety",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260617032149.htm",
+      "date": "17 Jun 2026",
+      "excerpt": "A small clinical trial suggests that probiotics may offer a surprising mental health boost for older adults with depression. Seniors who took a daily probiotic alongside their regular antidepressant treatment experienced slightly greater im",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +17,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260616103128.htm",
       "date": "16 Jun 2026",
       "excerpt": "Diabetes and dementia appear to be closely intertwined, with each condition potentially influencing the other. Problems with insulin and glucose can affect the brain’s energy supply, increase inflammation, and damage blood vessels linked to",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Common plastic chemical linked to lifelong anxiety in new study",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260616102221.htm",
+      "date": "17 Jun 2026",
+      "excerpt": "Exposure to a common plastic chemical before and shortly after birth may have lasting effects on behavior. Researchers found that male rats exposed early in life to DEHP—a plasticizer used in products ranging from medical devices to toys—sh",
       "image": ""
     },
     {
@@ -56,21 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Learning a musical instrument in your 70s could help protect memory",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260613034217.htm",
-      "date": "13 Jun 2026",
-      "excerpt": "Learning a musical instrument later in life may help keep the brain younger for longer. In a four-year study, older adults who continued practicing maintained their memory performance and showed less age-related brain shrinkage than those w",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Why grandparents matter more than ever for children's mental health",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260613034206.htm",
-      "date": "13 Jun 2026",
-      "excerpt": "A child psychologist says grandparents are more important than ever as youth mental health challenges continue to rise. He argues that children need supportive relationships, meaningful conversations, and a sense of purpose—not just pressur",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When Your Colleague Keeps Meddling in Your Work",
+      "link": "https://hbr.org/2026/06/when-your-colleague-keeps-meddling-in-your-work",
+      "date": "17 Jun 2026",
+      "excerpt": "Strategies for managing their behavior&#8212;and addressing what&#8217;s behind it.",
       "image": ""
     },
     {
@@ -128,13 +137,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Take a Break",
-      "link": "https://hbr.org/2026/06/take-a-break",
-      "date": "12 Jun 2026",
-      "excerpt": "Executives may believe their constant presence is indispensable, but HBS professor Ashley Whillans makes the case that time away is better for their own health&#8212;and the health of their organization.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Brexit shows how firms react when restrictions are placed on the way they reach customers",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/17/brexit10-brexit-shows-how-firms-react-when-restrictions-are-placed-on-the-way-they-reach-customers/",
+      "date": "17 Jun 2026",
+      "excerpt": "Brexit changed how British firms could sell services in the European Union. By studying how companies reacted, Holger Breinlich and Martina Magli show that many implemented workarounds, such as setting up affiliates abroad, but that those n",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-1-1024x192.jpeg"
     },
     {
       "source": "LSE Business Review",
@@ -182,15 +191,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The EU’s drive against greenwashing will only work if it fixes the market, not the consumer",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/10/the-eus-drive-against-greenwashing-will-only-work-if-it-fixes-the-market-not-the-consumer/",
-      "date": "10 Jun 2026",
-      "excerpt": "Firms that invest in real sustainability are losing ground to firms that invest only in green marketing. Stricter rules on environmental claims are the right response, argues Nazife Merve Hamzaoğlu, but only if regulators address the struct",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Inflation unexpectedly steady as food price rises slow",
@@ -220,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What is Helium-3 and could we get it from the moon?",
-      "link": "https://www.bbc.com/news/articles/ce8jmg2e4kro?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jun 2026",
-      "excerpt": "Helium-3 is expensive and demand is forecast to soar, so some are planning to mine it on the moon.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa72/live/b6a9ba10-688d-11f1-b1db-af71d47507d6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "'It's a unique scenario' - Inside Lidl's first ever pub",
       "link": "https://www.bbc.com/news/articles/cj9gnljenpko?at_medium=RSS&at_campaign=rss",
       "date": "17 Jun 2026",
       "excerpt": "The supermarket chain Lidl owns and operates The Middle Ale, a 'world first' for the brand.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1576/live/50303bc0-6422-11f1-b1db-af71d47507d6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What is Helium-3 and could we get it from the moon?",
+      "link": "https://www.bbc.com/news/articles/ce8jmg2e4kro?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jun 2026",
+      "excerpt": "Helium-3 is expensive and demand is forecast to soar, so some are planning to mine it on the moon.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa72/live/b6a9ba10-688d-11f1-b1db-af71d47507d6.jpg"
     },
     {
       "source": "BBC Business",
