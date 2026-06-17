@@ -1,5 +1,5 @@
 {
-  "updated": "17 Jun 2026, 20:09 UTC",
+  "updated": "17 Jun 2026, 23:22 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -128,24 +128,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Right Way to Manage Rule Breakers",
-      "link": "https://hbr.org/podcast/2026/06/the-right-way-to-manage-rule-breakers",
-      "date": "16 Jun 2026",
-      "excerpt": "A conversation with Oxford&#8217;s Michael Gill about a counterintuitive approach to leadership.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Brexit shows how firms react when restrictions are placed on the way they reach customers",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/17/brexit10-brexit-shows-how-firms-react-when-restrictions-are-placed-on-the-way-they-reach-customers/",
-      "date": "17 Jun 2026",
-      "excerpt": "Brexit changed how British firms could sell services in the European Union. By studying how companies reacted, Holger Breinlich and Martina Magli show that many implemented workarounds, such as setting up affiliates abroad, but that those n",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-1-1024x192.jpeg"
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "Britain’s creative economy has suffered since Brexit",
@@ -191,6 +173,24 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The EU’s drive against greenwashing will only work if it fixes the market, not the consumer",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/10/the-eus-drive-against-greenwashing-will-only-work-if-it-fixes-the-market-not-the-consumer/",
+      "date": "10 Jun 2026",
+      "excerpt": "Firms that invest in real sustainability are losing ground to firms that invest only in green marketing. Stricter rules on environmental claims are the right response, argues Nazife Merve Hamzaoğlu, but only if regulators address the struct",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Interest rates expected to be held by Bank of England",
+      "link": "https://www.bbc.com/news/articles/c33yzm5mdjpo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jun 2026",
+      "excerpt": "The Bank last cut interest rates in December but upheaval in the Middle East has stalled any further reductions.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a31/live/89a05f40-6a51-11f1-9ea9-fdea8f57a693.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Driving test wait time target will not be met until autumn next year",
@@ -229,20 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What is Helium-3 and could we get it from the moon?",
-      "link": "https://www.bbc.com/news/articles/ce8jmg2e4kro?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jun 2026",
-      "excerpt": "Helium-3 is expensive and demand is forecast to soar, so some are planning to mine it on the moon.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa72/live/b6a9ba10-688d-11f1-b1db-af71d47507d6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Japan raids ice cream giants over price-fixing allegations",
-      "link": "https://www.bbc.com/news/articles/c0ly0k88e61o?at_medium=RSS&at_campaign=rss",
+      "title": "'We had to get out of the way': The backlash over delivery robots",
+      "link": "https://www.bbc.com/news/articles/c0rygp005wjo?at_medium=RSS&at_campaign=rss",
       "date": "17 Jun 2026",
-      "excerpt": "The investigation on alleged cartel pricing of ice cream comes as Japan faces record summer temperatures.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5129/live/adece430-6a2a-11f1-a5db-1fecb9f5cbdb.jpg"
+      "excerpt": "As the delivery vehicles increasing take to US streets, bans and protest groups are springing up.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/415d/live/08ef66e0-64c8-11f1-be64-d7903260be26.jpg"
     }
   ]
 }
