@@ -1,5 +1,5 @@
 {
-  "updated": "18 Jun 2026, 08:44 UTC",
+  "updated": "18 Jun 2026, 12:50 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,9 +193,9 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Interest rates expected to be held by Bank of England",
+      "title": "Interest rates kept on hold at 3.75%",
       "link": "https://www.bbc.com/news/articles/c33yzm5mdjpo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jun 2026",
+      "date": "18 Jun 2026",
       "excerpt": "The Bank last cut interest rates in December but upheaval in the Middle East has stalled any further reductions.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a31/live/89a05f40-6a51-11f1-9ea9-fdea8f57a693.jpg"
     },
@@ -220,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Fed holds US interest rates steady as uncertainty over Trump's Iran deal remains",
-      "link": "https://www.bbc.com/news/articles/cdjkl78vd7lo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jun 2026",
-      "excerpt": "The Federal Reserve held rates between 3.5% and 3.75% after Kevin Warsh's first meeting in charge of the central bank.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8343/live/037d0fe0-6a7d-11f1-8e56-530bbb41ec43.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "'We had to get out of the way': The backlash over delivery robots",
       "link": "https://www.bbc.com/news/articles/c0rygp005wjo?at_medium=RSS&at_campaign=rss",
       "date": "17 Jun 2026",
       "excerpt": "As the delivery vehicles increasing take to US streets, bans and protest groups are springing up.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/415d/live/08ef66e0-64c8-11f1-be64-d7903260be26.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac7/live/532db500-6b0c-11f1-8546-8f19e4fe30f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Warsh to review how Fed works after holding US interest rates at first meeting",
+      "link": "https://www.bbc.com/news/articles/cdjkl78vd7lo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jun 2026",
+      "excerpt": "The Federal Reserve held rates between 3.5% and 3.75% after Kevin Warsh's first meeting in charge of the central bank.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8343/live/037d0fe0-6a7d-11f1-8e56-530bbb41ec43.jpg"
     }
   ]
 }
