@@ -1,5 +1,5 @@
 {
-  "updated": "18 Jun 2026, 12:50 UTC",
+  "updated": "18 Jun 2026, 16:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The Strongest Teams of AI Agents Will be Built Using Different Models",
+      "link": "https://hbr.org/2026/06/the-strongest-teams-of-ai-agents-will-be-built-using-different-models",
+      "date": "18 Jun 2026",
+      "excerpt": "Like diversity in human workforces, agentic diversity pays significant performance dividends.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Lessons from Chinese AI Firms on Owning Customers’ Habits",
+      "link": "https://hbr.org/2026/06/lessons-from-chinese-ai-firms-on-owning-customers-habits",
+      "date": "18 Jun 2026",
+      "excerpt": "Four strategic imperatives for leaders at Western companies.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "3 Forces Are Redefining the Transition from Manager to Leader",
       "link": "https://hbr.org/2026/06/3-forces-are-redefining-the-transition-from-manager-to-leader",
       "date": "17 Jun 2026",
@@ -110,22 +128,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Decision-Making Frameworks Fail",
-      "link": "https://hbr.org/2026/06/gg-why-decision-making-frameworks-fail",
-      "date": "16 Jun 2026",
-      "excerpt": "In the June 15, 2026, edition of The Insider, managing editor Gretchen Gavett highlights recent pieces on why decision-rights frameworks fall apart, how &#8220;strategic centering&#8221; can anchor companies, and the hidden downside of lead",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Don’t Let AI Slop Muck Up Your Company’s Processes",
-      "link": "https://hbr.org/2026/06/dont-let-ai-slop-muck-up-your-companys-processes",
-      "date": "16 Jun 2026",
-      "excerpt": "Four steps leaders can take to protect one of their most valuable assets: organizational knowledge.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How to improve the Bank of England’s forecasts",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/18/how-to-improve-the-bank-of-englands-forecasts/",
+      "date": "18 Jun 2026",
+      "excerpt": "The Bank of England’s forecasts use a suite of models and expert judgements to make predictions about the prospects for Britain’s economy. Their publication attracts huge media attention and are monitored closely by financial markets. But a",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Chart-1.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -173,13 +182,22 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/LSE-Blogs-festival-banner_1024-x-196-1.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Why staff surveys and organisational metrics can give leaders false comfort",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/11/why-staff-surveys-and-organisational-metrics-can-give-leaders-false-comfort/",
-      "date": "11 Jun 2026",
-      "excerpt": "In regulated industries cultural measurement is not optional. Bosses and boards are expected to monitor opinions and demonstrate oversight of behavioural and conduct risk. Yet surveys can mislead if interpreted incorrectly. And those who tr",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Interest rates held as Bank warns of impact of high energy prices",
+      "link": "https://www.bbc.com/news/articles/c33yzm5mdjpo?at_medium=RSS&at_campaign=rss",
+      "date": "18 Jun 2026",
+      "excerpt": "The Bank last cut interest rates in December but upheaval in the Middle East has stalled any further reductions.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2b6/live/e0ecbda0-6b16-11f1-9586-a5c59cd9139c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'Do not travel' advice for Dubai dropped",
+      "link": "https://www.bbc.com/news/articles/cddl29lg5gro?at_medium=RSS&at_campaign=rss",
+      "date": "18 Jun 2026",
+      "excerpt": "Thousands of Brits were left stranded in the Middle East when the US-Iran war broke out in early 2026.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d63f/live/ac6bc8f0-6b1b-11f1-be36-65d2d6d55e70.jpg"
     },
     {
       "source": "BBC Business",
@@ -193,15 +211,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Interest rates kept on hold at 3.75%",
-      "link": "https://www.bbc.com/news/articles/c33yzm5mdjpo?at_medium=RSS&at_campaign=rss",
-      "date": "18 Jun 2026",
-      "excerpt": "The Bank last cut interest rates in December but upheaval in the Middle East has stalled any further reductions.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a31/live/89a05f40-6a51-11f1-9ea9-fdea8f57a693.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Apple to raise prices as AI boom pushes up chip costs",
       "link": "https://www.bbc.com/news/articles/c3wyxvqdx1zo?at_medium=RSS&at_campaign=rss",
       "date": "18 Jun 2026",
@@ -211,11 +220,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why has Texas set its sights on London?",
-      "link": "https://www.bbc.com/news/articles/ckgpgvklkgko?at_medium=RSS&at_campaign=rss",
+      "title": "CrossCountry ranked Britain's worst train operator",
+      "link": "https://www.bbc.com/news/articles/c36y5ezr0k7o?at_medium=RSS&at_campaign=rss",
       "date": "18 Jun 2026",
-      "excerpt": "Texas, which once had an embassy in London, strengthens its ties with the capital by opening a new trade office.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88e7/live/3af5a9a0-6a8c-11f1-8e1d-bbbb1017d210.jpg"
+      "excerpt": "Transport Focus asks it to reduce delays and provide better information during disruption.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf21/live/b4873c50-6b0b-11f1-8546-8f19e4fe30f4.png"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "17 Jun 2026",
       "excerpt": "As the delivery vehicles increasing take to US streets, bans and protest groups are springing up.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac7/live/532db500-6b0c-11f1-8546-8f19e4fe30f4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Warsh to review how Fed works after holding US interest rates at first meeting",
-      "link": "https://www.bbc.com/news/articles/cdjkl78vd7lo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jun 2026",
-      "excerpt": "The Federal Reserve held rates between 3.5% and 3.75% after Kevin Warsh's first meeting in charge of the central bank.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8343/live/037d0fe0-6a7d-11f1-8e56-530bbb41ec43.jpg"
     }
   ]
 }
