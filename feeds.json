@@ -1,5 +1,5 @@
 {
-  "updated": "18 Jun 2026, 16:54 UTC",
+  "updated": "18 Jun 2026, 20:23 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Heathrow's 'critical' expansion blueprint released",
+      "link": "https://www.bbc.com/news/articles/cx2dem7y78no?at_medium=RSS&at_campaign=rss",
+      "date": "18 Jun 2026",
+      "excerpt": "A consultation is launched on the Heathrow expansion, outlining conditions for the project to go ahead.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a26/live/6ca7d030-6b32-11f1-bcc1-1395fad0ad8f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'Do not travel' advice for Dubai dropped",
       "link": "https://www.bbc.com/news/articles/cddl29lg5gro?at_medium=RSS&at_campaign=rss",
       "date": "18 Jun 2026",
@@ -216,15 +225,6 @@
       "date": "18 Jun 2026",
       "excerpt": "The firm's outgoing boss Tim Cook did not say when prices would rise or which products would be affected.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09cb/live/82d01bd0-6aa9-11f1-9a45-c56b5234f7dc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "CrossCountry ranked Britain's worst train operator",
-      "link": "https://www.bbc.com/news/articles/c36y5ezr0k7o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Jun 2026",
-      "excerpt": "Transport Focus asks it to reduce delays and provide better information during disruption.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf21/live/b4873c50-6b0b-11f1-8546-8f19e4fe30f4.png"
     },
     {
       "source": "BBC Business",
