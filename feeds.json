@@ -1,5 +1,5 @@
 {
-  "updated": "18 Jun 2026, 03:45 UTC",
+  "updated": "18 Jun 2026, 08:44 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -130,6 +130,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Brexit shows how firms react when restrictions are placed on the way they reach customers",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/17/brexit10-brexit-shows-how-firms-react-when-restrictions-are-placed-on-the-way-they-reach-customers/",
+      "date": "17 Jun 2026",
+      "excerpt": "Brexit changed how British firms could sell services in the European Union. By studying how companies reacted, Holger Breinlich and Martina Magli show that many implemented workarounds, such as setting up affiliates abroad, but that those n",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-1-1024x192.jpeg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Britain’s creative economy has suffered since Brexit",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/16/brexit-10-britains-creative-economy-has-suffered-since-brexit/",
       "date": "16 Jun 2026",
@@ -173,13 +182,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The EU’s drive against greenwashing will only work if it fixes the market, not the consumer",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/10/the-eus-drive-against-greenwashing-will-only-work-if-it-fixes-the-market-not-the-consumer/",
-      "date": "10 Jun 2026",
-      "excerpt": "Firms that invest in real sustainability are losing ground to firms that invest only in green marketing. Stricter rules on environmental claims are the right response, argues Nazife Merve Hamzaoğlu, but only if regulators address the struct",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Number of job vacancies hits five year-low",
+      "link": "https://www.bbc.com/news/articles/cm203nn7lzro?at_medium=RSS&at_campaign=rss",
+      "date": "18 Jun 2026",
+      "excerpt": "Latest figures suggest companies are becoming more cautious about taking on new staff.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfa3/live/df74ad20-6ad5-11f1-b76c-2b42b64a30ff.jpg"
     },
     {
       "source": "BBC Business",
@@ -196,17 +205,17 @@
       "title": "Apple to raise prices as AI boom pushes up chip costs",
       "link": "https://www.bbc.com/news/articles/c3wyxvqdx1zo?at_medium=RSS&at_campaign=rss",
       "date": "18 Jun 2026",
-      "excerpt": "The firm's outgoing boss Tim Cook did not say when prices will rise or which products will be affected.",
+      "excerpt": "The firm's outgoing boss Tim Cook did not say when prices would rise or which products would be affected.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09cb/live/82d01bd0-6aa9-11f1-9a45-c56b5234f7dc.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Driving test wait time target will not be met until autumn next year",
-      "link": "https://www.bbc.com/news/articles/cd7wv0xqvryo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jun 2026",
-      "excerpt": "The Transport Secretary had been aiming to reduce the backlog to seven weeks by this autumn.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ff9/live/08534980-6a50-11f1-9ea9-fdea8f57a693.jpg"
+      "title": "Why has Texas set its sights on London?",
+      "link": "https://www.bbc.com/news/articles/ckgpgvklkgko?at_medium=RSS&at_campaign=rss",
+      "date": "18 Jun 2026",
+      "excerpt": "Texas, which once had an embassy in London, strengthens its ties with the capital by opening a new trade office.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88e7/live/3af5a9a0-6a8c-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,15 +225,6 @@
       "date": "17 Jun 2026",
       "excerpt": "The Federal Reserve held rates between 3.5% and 3.75% after Kevin Warsh's first meeting in charge of the central bank.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8343/live/037d0fe0-6a7d-11f1-8e56-530bbb41ec43.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Inflation unexpectedly steady as food price rises slow",
-      "link": "https://www.bbc.com/news/articles/cyv0qpn9zvjo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jun 2026",
-      "excerpt": "Higher petrol prices were offset by slower price rises for meat, dairy and vegetables, according to the ONS.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03a8/live/2b655710-6983-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
