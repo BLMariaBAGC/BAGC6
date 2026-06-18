@@ -1,5 +1,5 @@
 {
-  "updated": "17 Jun 2026, 23:22 UTC",
+  "updated": "18 Jun 2026, 03:45 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Apple to raise prices as AI boom pushes up chip costs",
+      "link": "https://www.bbc.com/news/articles/c3wyxvqdx1zo?at_medium=RSS&at_campaign=rss",
+      "date": "18 Jun 2026",
+      "excerpt": "The firm's outgoing boss Tim Cook did not say when prices will rise or which products will be affected.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09cb/live/82d01bd0-6aa9-11f1-9a45-c56b5234f7dc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Driving test wait time target will not be met until autumn next year",
       "link": "https://www.bbc.com/news/articles/cd7wv0xqvryo?at_medium=RSS&at_campaign=rss",
       "date": "17 Jun 2026",
@@ -216,15 +225,6 @@
       "date": "17 Jun 2026",
       "excerpt": "Higher petrol prices were offset by slower price rises for meat, dairy and vegetables, according to the ONS.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03a8/live/2b655710-6983-11f1-8e1d-bbbb1017d210.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Cadbury chocolate-owner Mondelez defends staying in Russia",
-      "link": "https://www.bbc.com/news/articles/cy06d00jpn0o?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jun 2026",
-      "excerpt": "Mondelez boss Dirk Van de Put says it was the \"right decision\" to remain after the war with Ukraine.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a446/live/ac1d7340-6999-11f1-938e-83ab58a2163c.jpg"
     },
     {
       "source": "BBC Business",
