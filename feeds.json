@@ -1,6 +1,15 @@
 {
-  "updated": "19 Jun 2026, 04:07 UTC",
+  "updated": "19 Jun 2026, 10:23 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists May Have Found What Really Triggers Alzheimer’s Disease",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260617032209.htm",
+      "date": "18 Jun 2026",
+      "excerpt": "Scientists may have uncovered a hidden trigger behind Alzheimer’s disease. Instead of plaques being the root cause, amyloid beta appears to interfere with tau, a protein that helps keep neurons functioning properly. This disruption could se",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260615025119.htm",
       "date": "15 Jun 2026",
       "excerpt": "A large-scale study suggests that men with higher levels of the amino acid tyrosine may have shorter lifespans, potentially losing close to a year of life expectancy. The finding is especially intriguing because tyrosine is commonly associa",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Why middle age is becoming a breaking point in the U.S.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260613215430.htm",
-      "date": "13 Jun 2026",
-      "excerpt": "A new international study finds that middle-aged Americans are lonelier, more depressed, and experiencing worse memory and health than earlier generations. Researchers say growing financial strain, weaker social supports, and chronic stress",
       "image": ""
     },
     {
@@ -184,6 +184,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Plans to end gazumping with binding agreements in house sales shake-up",
+      "link": "https://www.bbc.com/news/articles/c6216g52p8wo?at_medium=RSS&at_campaign=rss",
+      "date": "19 Jun 2026",
+      "excerpt": "Sales agreements will be legally binding sooner and making sellers provide more home information up front are part of the planned changes.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91ea/live/9fc4e320-6bb1-11f1-8e5f-879143928516.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Warning over 'fragile' public finances as borrowing rises",
+      "link": "https://www.bbc.com/news/articles/cqx1e8nrwgvo?at_medium=RSS&at_campaign=rss",
+      "date": "19 Jun 2026",
+      "excerpt": "The UK borrowed £23.3bn in May, according to official figures, up almost a third on the same month last year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2738/live/ac4ba310-6ba5-11f1-ad4f-418bfa76e5cc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'I'd be put off if he asked to split it': Who should pay on a first date?",
+      "link": "https://www.bbc.com/news/articles/c74yl4gknzno?at_medium=RSS&at_campaign=rss",
+      "date": "19 Jun 2026",
+      "excerpt": "Some insist on splitting the bill, others say the asker should pay, while many still see a man paying as romantic.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bee/live/f9804710-6a44-11f1-8546-8f19e4fe30f4.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Brexit cost 6% of UK economy, Bank of England company data suggests",
       "link": "https://www.bbc.com/news/articles/cvg75npqkq4o?at_medium=RSS&at_campaign=rss",
       "date": "18 Jun 2026",
@@ -193,38 +220,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'He hid the a la carte menu': Who should pay on the first date",
-      "link": "https://www.bbc.com/news/articles/c74yl4gknzno?at_medium=RSS&at_campaign=rss",
-      "date": "18 Jun 2026",
-      "excerpt": "Some insist on splitting the bill, others say the asker should pay, while many still see a man paying as romantic.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bee/live/f9804710-6a44-11f1-8546-8f19e4fe30f4.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Five ways the Iran peace deal could affect you and your money",
       "link": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss",
-      "date": "18 Jun 2026",
-      "excerpt": "With fuel and gas prices having fallen in recent days, we look at how the end of hostitlities might affect you - in five charts.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0d6/live/f590fde0-6b28-11f1-bd3c-dfd1c36b4ceb.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Heathrow's 'critical' expansion blueprint released",
-      "link": "https://www.bbc.com/news/articles/cx2dem7y78no?at_medium=RSS&at_campaign=rss",
-      "date": "18 Jun 2026",
-      "excerpt": "A consultation is launched on the Heathrow expansion, outlining conditions for the project to go ahead.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a26/live/6ca7d030-6b32-11f1-bcc1-1395fad0ad8f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Interest rates held as Bank warns of impact of high energy prices",
-      "link": "https://www.bbc.com/news/articles/c33yzm5mdjpo?at_medium=RSS&at_campaign=rss",
-      "date": "18 Jun 2026",
-      "excerpt": "The Bank last cut interest rates in December but upheaval in the Middle East has stalled any further reductions.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2b6/live/e0ecbda0-6b16-11f1-9586-a5c59cd9139c.jpg"
+      "date": "19 Jun 2026",
+      "excerpt": "With fuel and gas prices having fallen in recent days, we look at how the end of hostilities might affect you - in five charts.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43c0/live/b7b89b50-6ba9-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
