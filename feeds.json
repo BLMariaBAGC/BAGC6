@@ -1,5 +1,5 @@
 {
-  "updated": "20 Jun 2026, 03:31 UTC",
+  "updated": "20 Jun 2026, 07:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -130,6 +130,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How ordinary business infrastructure supported a fraud network spanning America and Nigeria",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/19/how-ordinary-business-infrastructure-supported-a-fraud-network-spanning-america-and-nigeria/",
+      "date": "19 Jun 2026",
+      "excerpt": "The money stolen in online fraud is not hidden. It moves through the same banks and platforms legitimate businesses use. By studying the trial transcripts from a Delaware romance fraud and money laundering trial, Suleman Lazarus exposes how",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How to improve the Bank of England’s forecasts",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/18/how-to-improve-the-bank-of-englands-forecasts/",
       "date": "18 Jun 2026",
@@ -171,15 +180,6 @@
       "date": "13 Jun 2026",
       "excerpt": "Ahead of an event at the LSE Festival on 16 June Oliver Harman and Riccardo Crescenzi use the regeneration of Port Talbot, a steelworks in Wales, to illustrate Britain&#8217;s place in the steel global value chain and explain what wider les",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/LSE-Blogs-festival-banner_1024-x-196-2.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Wired to save the planet: rethinking energy in an electrified world",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/12/wired-to-save-the-planet-rethinking-energy-in-an-electrified-world/",
-      "date": "12 Jun 2026",
-      "excerpt": "Electricity has long been central to modern life. But the pace of electrification has accelerated in recent years. And to meet our net-zero target, it is crucial to decarbonise the power sector. Ahead of an event at the LSE Festival on 16 J",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/LSE-Blogs-festival-banner_1024-x-196-1.jpg"
     },
     {
       "source": "BBC Business",
