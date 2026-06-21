@@ -1,6 +1,24 @@
 {
-  "updated": "21 Jun 2026, 09:46 UTC",
+  "updated": "21 Jun 2026, 12:09 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Yale study finds nearly half of older adults improved with age",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260620100428.htm",
+      "date": "21 Jun 2026",
+      "excerpt": "A long-term Yale study is challenging one of the biggest myths about aging. Nearly half of adults over 65 improved physically, mentally, or both over time, despite the common belief that aging means constant decline. Researchers found that ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover neurons must break their DNA to build the brain",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260620100422.htm",
+      "date": "21 Jun 2026",
+      "excerpt": "As newborn neurons make their way through the developing brain, they must squeeze through incredibly tight spaces to reach their final destinations. Researchers discovered that this physical journey routinely causes some of the most severe ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260616102221.htm",
       "date": "17 Jun 2026",
       "excerpt": "Exposure to a common plastic chemical before and shortly after birth may have lasting effects on behavior. Researchers found that male rats exposed early in life to DEHP—a plasticizer used in products ranging from medical devices to toys—sh",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists found an early depression clue hidden in children’s eyes",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260616102214.htm",
-      "date": "16 Jun 2026",
-      "excerpt": "Depression appears to change what children notice in the faces around them, but the effect depends on family history. Kids with a higher inherited risk became more focused on sadness, while lower-risk children lost some of their natural att",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Copper drug clears toxic Alzheimer’s proteins and restores memory",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260615033835.htm",
-      "date": "15 Jun 2026",
-      "excerpt": "A copper-based compound restored the brain’s ability to clear toxic Alzheimer’s proteins, dramatically reducing amyloid buildup and improving memory in laboratory experiments. The findings point to a potentially fast-tracked new treatment s",
       "image": ""
     },
     {
