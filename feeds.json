@@ -1,6 +1,15 @@
 {
-  "updated": "21 Jun 2026, 12:09 UTC",
+  "updated": "21 Jun 2026, 15:49 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Tubulin prevents toxic brain protein clumps linked to Alzheimer’s and Parkinson’s",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260620100432.htm",
+      "date": "21 Jun 2026",
+      "excerpt": "Scientists at Baylor College of Medicine may have uncovered a promising new way to combat Alzheimer’s and Parkinson’s disease. Instead of trying to stop Tau and alpha-synuclein proteins from gathering into tiny droplets inside brain cells, ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260616103128.htm",
       "date": "16 Jun 2026",
       "excerpt": "Diabetes and dementia appear to be closely intertwined, with each condition potentially influencing the other. Problems with insulin and glucose can affect the brain’s energy supply, increase inflammation, and damage blood vessels linked to",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Common plastic chemical linked to lifelong anxiety in new study",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260616102221.htm",
-      "date": "17 Jun 2026",
-      "excerpt": "Exposure to a common plastic chemical before and shortly after birth may have lasting effects on behavior. Researchers found that male rats exposed early in life to DEHP—a plasticizer used in products ranging from medical devices to toys—sh",
       "image": ""
     },
     {
