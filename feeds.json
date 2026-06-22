@@ -1,6 +1,15 @@
 {
-  "updated": "22 Jun 2026, 11:50 UTC",
+  "updated": "22 Jun 2026, 16:55 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A common vitamin could help fight one of the deadliest brain cancers",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260622014313.htm",
+      "date": "22 Jun 2026",
+      "excerpt": "A clinical trial is exploring whether high doses of vitamin B3 could give patients with glioblastoma a better chance against the aggressive brain cancer. Scientists found that niacin may help revive immune cells that tumors shut down, allow",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "10 surprising ways diabetes and dementia are connected",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260616103128.htm",
-      "date": "16 Jun 2026",
-      "excerpt": "Diabetes and dementia appear to be closely intertwined, with each condition potentially influencing the other. Problems with insulin and glucose can affect the brain’s energy supply, increase inflammation, and damage blood vessels linked to",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The End of Cheap Capital",
+      "link": "https://hbr.org/2026/06/the-end-of-cheap-capital",
+      "date": "22 Jun 2026",
+      "excerpt": "And why it requires a return to the basics of business economics.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "LLMs Misunderstand Luxury Brands. Here’s How to Optimize Your Marketing Strategy for AI.",
+      "link": "https://hbr.org/2026/06/llms-misunderstand-luxury-brands-heres-how-to-optimize-your-marketing-strategy-for-ai",
+      "date": "22 Jun 2026",
+      "excerpt": "A playbook for translating the visual grammar, spatial logic, and cultural associations that make luxury brands coveted by consumers.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Our Favorite Management Tips on Decision-Making",
+      "link": "https://hbr.org/2026/06/our-favorite-management-tips-on-decision-making",
+      "date": "22 Jun 2026",
+      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
       "image": ""
     },
     {
@@ -110,22 +137,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "3 Forces Are Redefining the Transition from Manager to Leader",
-      "link": "https://hbr.org/2026/06/3-forces-are-redefining-the-transition-from-manager-to-leader",
-      "date": "17 Jun 2026",
-      "excerpt": "Updating a classic HBR framework.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Prevent Team Friction from Turning into Dysfunction",
-      "link": "https://hbr.org/2026/06/prevent-team-friction-from-turning-into-dysfunction",
-      "date": "17 Jun 2026",
-      "excerpt": "Lessons on avoiding communication breakdowns from one of Harvard Business School&#8217;s signature programs.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The impact of Brexit on the British food industry",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/22/brexit10-the-impact-of-brexit-on-the-british-food-industry/",
+      "date": "22 Jun 2026",
+      "excerpt": "While many famers initially supported Brexit, other parts of the food sector were distinctly sceptical or actively opposed. Ahead of the ten-year anniversary of the referendum Erik Millstone describes how Brexit harmed imports, exports, foo",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-2-1024x192.jpeg"
     },
     {
       "source": "LSE Business Review",
@@ -173,15 +191,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/LSE-Blogs-festival-banner_1024-x-196-3.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Made in Britain, or designed in Britain? What Port Talbot teaches us about the green economy",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/13/made-in-britain-or-designed-in-britain-what-port-talbot-teaches-us-about-the-green-economy/",
-      "date": "13 Jun 2026",
-      "excerpt": "Ahead of an event at the LSE Festival on 16 June Oliver Harman and Riccardo Crescenzi use the regeneration of Port Talbot, a steelworks in Wales, to illustrate Britain&#8217;s place in the steel global value chain and explain what wider les",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/LSE-Blogs-festival-banner_1024-x-196-2.jpg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "EasyJet says US bidder trying to buy it 'on the cheap' as it rejects £4.7bn offer",
@@ -189,6 +198,15 @@
       "date": "22 Jun 2026",
       "excerpt": "The airline describes the latest bid approach from Castlelake as \"highly opportunistic\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9343/live/682565d0-6e26-11f1-9fdc-51e252bb92b4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Alan Greenspan, architect of the modern American economy, dies aged 100",
+      "link": "https://www.bbc.com/news/articles/cjer7x7yl12o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jun 2026",
+      "excerpt": "As chairman of the Federal Reserve, Alan Greenspan became the world's most high-profile banker.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6171/live/0cbb2930-3d38-11ef-b4a6-3b1b50d91225.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,15 +234,6 @@
       "date": "22 Jun 2026",
       "excerpt": "The film's opening is a return to form for Disney and Pixar after facing notable challenges in recent years.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee2c/live/b9eb0fb0-6dee-11f1-8546-8f19e4fe30f4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I couldn't sleep when I heard the last bank would close'",
-      "link": "https://www.bbc.com/news/articles/c1ey6qy18jlo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jun 2026",
-      "excerpt": "When 84-year-old Maggie Dodd discovered that the last remaining bank in Lochgilphead was closing, she began to panic.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebf5/live/52770160-6bcb-11f1-8546-8f19e4fe30f4.png"
     },
     {
       "source": "BBC Business",
