@@ -1,5 +1,5 @@
 {
-  "updated": "22 Jun 2026, 16:55 UTC",
+  "updated": "22 Jun 2026, 20:44 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Tesla crash that killed a woman under US federal investigation",
+      "link": "https://www.bbc.com/news/articles/c07yp02mxyjo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jun 2026",
+      "excerpt": "A Tesla driver on Friday said he was using ‘self-driving’ technology after his vehicle sped into a Texas home.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f011/live/bacfac70-6e74-11f1-af12-adba0638fbd4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Alan Greenspan, architect of the modern American economy, dies aged 100",
       "link": "https://www.bbc.com/news/articles/cjer7x7yl12o?at_medium=RSS&at_campaign=rss",
       "date": "22 Jun 2026",
@@ -234,15 +243,6 @@
       "date": "22 Jun 2026",
       "excerpt": "The film's opening is a return to form for Disney and Pixar after facing notable challenges in recent years.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee2c/live/b9eb0fb0-6dee-11f1-8546-8f19e4fe30f4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Is Germany looking again at coal-powered electricity?",
-      "link": "https://www.bbc.com/news/articles/cy04ykxrj5eo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jun 2026",
-      "excerpt": "It had planned to abandon the fuel, but the higher cost of natural gas may make it think again.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/356e/live/61e1cb60-6a33-11f1-9b8b-e9d622652531.jpg"
     }
   ]
 }
