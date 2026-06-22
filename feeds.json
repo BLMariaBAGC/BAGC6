@@ -1,5 +1,5 @@
 {
-  "updated": "21 Jun 2026, 23:10 UTC",
+  "updated": "22 Jun 2026, 04:03 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,6 +184,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Fake romance to missed deliveries: How to protect yourself from three common scams",
+      "link": "https://www.bbc.com/news/articles/cx2xq1vngvdo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Jun 2026",
+      "excerpt": "Romance and investment fraud is at record levels but what can you do to prevent being caught out.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48af/live/9ee49dd0-6bc8-11f1-9e68-a372ce4118b0.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Toy Story 5 sees franchise's biggest ever opening weekend",
+      "link": "https://www.bbc.com/news/articles/cx2kqg958v1o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jun 2026",
+      "excerpt": "The film's opening is a return to form for Disney and Pixar after facing notable challenges in recent years.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee2c/live/b9eb0fb0-6dee-11f1-8546-8f19e4fe30f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Plans to end gazumping with binding agreements in house sales shake-up",
       "link": "https://www.bbc.com/news/articles/c6216g52p8wo?at_medium=RSS&at_campaign=rss",
       "date": "19 Jun 2026",
@@ -211,29 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'I'd be put off if he asked to split it': Who should pay on a first date?",
-      "link": "https://www.bbc.com/news/articles/c74yl4gknzno?at_medium=RSS&at_campaign=rss",
-      "date": "19 Jun 2026",
-      "excerpt": "Some insist on splitting the bill, others say the asker should pay, while many still see a man paying as romantic.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bee/live/f9804710-6a44-11f1-8546-8f19e4fe30f4.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Brexit cost 6% of UK economy, Bank of England company data suggests",
-      "link": "https://www.bbc.com/news/articles/cvg75npqkq4o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Jun 2026",
-      "excerpt": "Analysis showed how much the UK could have grown if it had not exited the EU.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d91a/live/1bd38900-6b5b-11f1-b47c-952f3223237b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The artificial ice pyramids saving India's mountain villages",
-      "link": "https://www.bbc.com/news/articles/c072414183go?at_medium=RSS&at_campaign=rss",
-      "date": "18 Jun 2026",
-      "excerpt": "Himalayan villages are creating artificial glaciers to guarantee water for their crops in the spring.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac70/live/f0de5b80-6015-11f1-89a3-d1f559421220.jpg"
+      "title": "Is Germany looking again at coal-powered electricity?",
+      "link": "https://www.bbc.com/news/articles/cy04ykxrj5eo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Jun 2026",
+      "excerpt": "It had planned to abandon the fuel, but the higher cost of natural gas may make it think again.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/356e/live/61e1cb60-6a33-11f1-9b8b-e9d622652531.jpg"
     }
   ]
 }
