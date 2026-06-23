@@ -1,5 +1,5 @@
 {
-  "updated": "23 Jun 2026, 11:13 UTC",
+  "updated": "23 Jun 2026, 14:44 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The 5 Types of AI Investment–and How to Capture Their Value",
+      "link": "https://hbr.org/2026/06/the-5-types-of-ai-investment-and-how-to-capture-their-value",
+      "date": "23 Jun 2026",
+      "excerpt": "Each has its own financial logic and strategic implications.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How School of Rock Created Structure in Order to Scale with Agility and Creativity",
+      "link": "https://hbr.org/podcast/2026/06/how-school-of-rock-created-structure-in-order-to-scale-with-agility-and-creativity",
+      "date": "23 Jun 2026",
+      "excerpt": "A conversation about how the music education company&#8217;s leaders empowered its franchisees while also driving better standardization.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Creating Products with Curiosity, Humility, and Play",
+      "link": "https://hbr.org/podcast/2026/06/creating-products-with-curiosity-humility-and-play",
+      "date": "23 Jun 2026",
+      "excerpt": "A conversation with Zynga founder Mark Pincus on creating a culture of innovation.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The End of Cheap Capital",
       "link": "https://hbr.org/2026/06/the-end-of-cheap-capital",
       "date": "22 Jun 2026",
@@ -116,24 +143,6 @@
       "link": "https://hbr.org/2026/06/how-to-design-agentic-systems-around-the-implicit-rules-that-govern-your-company",
       "date": "19 Jun 2026",
       "excerpt": "The firms that win will use agent deployment as an X-ray and redesign their organizations around what they find.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Strongest Teams of AI Agents Will be Built Using Different Models",
-      "link": "https://hbr.org/2026/06/the-strongest-teams-of-ai-agents-will-be-built-using-different-models",
-      "date": "18 Jun 2026",
-      "excerpt": "Like diversity in human workforces, agentic diversity pays significant performance dividends.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Lessons from Chinese AI Firms on Owning Customers’ Habits",
-      "link": "https://hbr.org/2026/06/lessons-from-chinese-ai-firms-on-owning-customers-habits",
-      "date": "18 Jun 2026",
-      "excerpt": "Four strategic imperatives for leaders at Western companies.",
       "image": ""
     },
     {
@@ -197,7 +206,16 @@
       "link": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
       "date": "23 Jun 2026",
       "excerpt": "The prime minister's resignation has fired the starting gun on the race to be in charge of the UK's finances.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e24c/live/b2fff860-6ee2-11f1-92d8-97879fd3f743.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72c1/live/b44abe80-6efb-11f1-b1db-af71d47507d6.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Stop pretending EU's new border system is working, says airports chief",
+      "link": "https://www.bbc.co.uk/news/articles/cn4rlzrdj14o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jun 2026",
+      "excerpt": "The head of Europe's airports lobby says concerns over EES are keeping him awake at night and he doesn't know how airports will cope over the summer.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dc4/live/06571000-3ccc-11f1-8076-af27da54a8f3.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,15 +238,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Tech giant Oracle cuts 21,000 jobs as it embraces AI",
-      "link": "https://www.bbc.co.uk/news/articles/c4gy0x0j5deo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jun 2026",
-      "excerpt": "The cuts are part of a wider trend among tech firms as they spend hundreds of billions of dollars on AI.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/011d/live/21b2c920-6e9a-11f1-ae80-bf13157382fa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Do you know your 'sweat score'? The rise of hydration tech",
       "link": "https://www.bbc.co.uk/news/articles/c5yz5z72lqgo?at_medium=RSS&at_campaign=rss",
       "date": "22 Jun 2026",
@@ -238,11 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Millions in UK could claim share of £3bn after Apple case given green light",
-      "link": "https://www.bbc.co.uk/news/articles/c932d1r0p96o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jun 2026",
-      "excerpt": "Apple rejected the suggestion its practices are anti-competitive, saying many customers rely on third-party alternatives.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0dc6/live/f6156250-6e58-11f1-b9d0-a3be33cbfa13.jpg"
+      "title": "Tech giant Oracle cuts 21,000 jobs as it embraces AI",
+      "link": "https://www.bbc.co.uk/news/articles/c4gy0x0j5deo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jun 2026",
+      "excerpt": "The cuts are part of a wider trend among tech firms as they spend hundreds of billions of dollars on AI.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/011d/live/21b2c920-6e9a-11f1-ae80-bf13157382fa.jpg"
     }
   ]
 }
