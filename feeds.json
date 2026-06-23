@@ -1,5 +1,5 @@
 {
-  "updated": "23 Jun 2026, 03:24 UTC",
+  "updated": "23 Jun 2026, 07:46 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,11 +193,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Tesla crash that killed a woman under US federal investigation",
-      "link": "https://www.bbc.com/news/articles/c07yp02mxyjo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jun 2026",
-      "excerpt": "A Tesla driver on Friday said he was using ‘self-driving’ technology after his vehicle sped into a Texas home.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f011/live/bacfac70-6e74-11f1-af12-adba0638fbd4.jpg"
+      "title": "Ticket reseller StubHub ordered to refund customers over hidden fees",
+      "link": "https://www.bbc.com/news/articles/cd6enx152jlo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jun 2026",
+      "excerpt": "The Competition and Markets Authority said StubHub must refund 50,000 customers and pay a fine.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55f6/live/fdf2e250-6e48-11f1-8a85-d1d176b992ab.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,38 +211,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US eases oil sanctions as Iran denies Vance claim on nuclear inspectors",
+      "title": "Can you refuse to work or send your kids to school during a heatwave?",
+      "link": "https://www.bbc.com/news/articles/c6217nv34rro?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jun 2026",
+      "excerpt": "As temperatures increase significantly over the next few days, these are your rights.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0e5/live/b38c6fd0-6eb4-11f1-8e1d-bbbb1017d210.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Tesla crash that killed a woman under US federal investigation",
+      "link": "https://www.bbc.com/news/articles/c07yp02mxyjo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jun 2026",
+      "excerpt": "A Tesla driver on Friday said he was using ‘self-driving’ technology after his vehicle sped into a Texas home.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f011/live/bacfac70-6e74-11f1-af12-adba0638fbd4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Iran says no new commitments on nuclear sites after Vance says inspectors to be invited back",
       "link": "https://www.bbc.com/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jun 2026",
+      "date": "23 Jun 2026",
       "excerpt": "Iran's foreign ministry says it made \"no new commitments\" on nuclear inspections after talks in Switzerland.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8a5/live/4c851ec0-6e8e-11f1-8e1d-bbbb1017d210.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66d4/live/4c1d6d60-6ebc-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "EasyJet says US bidder trying to buy it 'on the cheap' as it rejects £4.7bn offer",
-      "link": "https://www.bbc.com/news/articles/c30yz76834yo?at_medium=RSS&at_campaign=rss",
+      "title": "Do you know your 'sweat score'? The rise of hydration tech",
+      "link": "https://www.bbc.com/news/articles/c5yz5z72lqgo?at_medium=RSS&at_campaign=rss",
       "date": "22 Jun 2026",
-      "excerpt": "The airline describes the latest bid approach from Castlelake as \"highly opportunistic\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9343/live/682565d0-6e26-11f1-9fdc-51e252bb92b4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Alan Greenspan, architect of the modern American economy, dies aged 100",
-      "link": "https://www.bbc.com/news/articles/cjer7x7yl12o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jun 2026",
-      "excerpt": "As chairman of the Federal Reserve, Alan Greenspan became the world's most high-profile banker.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6171/live/0cbb2930-3d38-11ef-b4a6-3b1b50d91225.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Fake romance to missed deliveries: How to protect yourself from three common scams",
-      "link": "https://www.bbc.com/news/articles/cx2xq1vngvdo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jun 2026",
-      "excerpt": "Romance and investment fraud is at record levels but what can you do to prevent being caught out.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48af/live/9ee49dd0-6bc8-11f1-9e68-a372ce4118b0.jpg"
+      "excerpt": "Hydration tracking gadgets are flooding the market but is it too much information?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/385d/live/d8649f50-6be2-11f1-8546-8f19e4fe30f4.jpg"
     }
   ]
 }
