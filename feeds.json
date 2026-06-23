@@ -1,5 +1,5 @@
 {
-  "updated": "23 Jun 2026, 20:18 UTC",
+  "updated": "23 Jun 2026, 23:07 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Control without credibility – the post-Brexit migration paradox",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/23/brexit-10-control-without-credibility-the-post-brexit-migration-paradox/",
+      "date": "23 Jun 2026",
+      "excerpt": "On the tenth anniversary of Britain’s referendum on leaving the EU, Jonathan Portes looks at the impact of Brexit on immigration, a central tenant of the Leave campaign’s pledge to “take back control”. The country experienced a migration bo",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-3-1024x192.jpeg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "The impact of Brexit on the British food industry",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/22/brexit10-the-impact-of-brexit-on-the-british-food-industry/",
       "date": "22 Jun 2026",
@@ -191,13 +200,13 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-1024x192.jpeg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Societies must rethink not only what industrial policy aims to achieve, but how it is designed and governed – Mariana Mazzucato",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/15/societies-must-rethink-not-only-what-industrial-policy-aims-to-achieve-but-how-it-is-designed-and-governed-mariana-mazzucato/",
-      "date": "15 Jun 2026",
-      "excerpt": "Industrial policy is having a revival. But it needs a redesign. Ahead of an event at the LSE Festival on 15 June Mariana Mazzucato describes her “common good framework”, which shifts industrial policy away from a narrow focus on competitive",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/LSE-Blogs-festival-banner_1024-x-196-3.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "The economic challenges facing the next prime minister",
+      "link": "https://www.bbc.co.uk/news/articles/crkvj0ngzexo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jun 2026",
+      "excerpt": "Though the person in charge of the country will change, the fiscal issues remain the same.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61f4/live/c746c5a0-6f10-11f1-93e4-574a66c90712.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,24 +220,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Stop pretending EU's new border system is working, says airports chief",
-      "link": "https://www.bbc.co.uk/news/articles/cn4rlzrdj14o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jun 2026",
-      "excerpt": "The head of Europe's airports lobby says concerns over EES are keeping him awake at night and he doesn't know how airports will cope over the summer.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dc4/live/06571000-3ccc-11f1-8076-af27da54a8f3.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Meta halts worker tracking for AI training due to privacy fears",
-      "link": "https://www.bbc.co.uk/news/articles/cq615g3z36po?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jun 2026",
-      "excerpt": "The company had started just two months ago tracking workers’ computer usage for AI training data.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1db/live/ef7d0940-6f28-11f1-adf9-6fa2b518a522.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Tech stocks tumble on concerns over AI spending",
       "link": "https://www.bbc.co.uk/news/articles/c802gvxpyxzo?at_medium=RSS&at_campaign=rss",
       "date": "23 Jun 2026",
@@ -238,11 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Ticket reseller StubHub UK customers to get refunds over illegal hidden fees",
-      "link": "https://www.bbc.co.uk/news/articles/cd6enx152jlo?at_medium=RSS&at_campaign=rss",
+      "title": "E-commerce giant Alibaba sues US government over defence blacklist",
+      "link": "https://www.bbc.co.uk/news/articles/ckg0258vpvqo?at_medium=RSS&at_campaign=rss",
       "date": "23 Jun 2026",
-      "excerpt": "The Competition and Markets Authority said StubHub must refund 50,000 customers and pay a fine.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55f6/live/fdf2e250-6e48-11f1-8a85-d1d176b992ab.jpg"
+      "excerpt": "The e-commerce giant is suing the US defence department after it was added to a blacklist of firms with ties to the Chinese military.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb8e/live/2215d5d0-6f4c-11f1-8546-8f19e4fe30f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Meta halts worker tracking for AI training due to privacy fears",
+      "link": "https://www.bbc.co.uk/news/articles/cq615g3z36po?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jun 2026",
+      "excerpt": "The company had started just two months ago tracking workers’ computer usage for AI training data.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1db/live/ef7d0940-6f28-11f1-adf9-6fa2b518a522.jpg"
     },
     {
       "source": "BBC Business",
