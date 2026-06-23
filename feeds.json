@@ -1,5 +1,5 @@
 {
-  "updated": "22 Jun 2026, 23:17 UTC",
+  "updated": "23 Jun 2026, 03:24 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Tech giant Oracle cuts 21,000 jobs as it embraces AI",
+      "link": "https://www.bbc.com/news/articles/c4gy0x0j5deo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jun 2026",
+      "excerpt": "The cuts are part of a wider trend among tech firms as they spend hundreds of billions of dollars on AI.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/011d/live/21b2c920-6e9a-11f1-ae80-bf13157382fa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "US eases oil sanctions as Iran denies Vance claim on nuclear inspectors",
       "link": "https://www.bbc.com/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
       "date": "22 Jun 2026",
@@ -234,15 +243,6 @@
       "date": "21 Jun 2026",
       "excerpt": "Romance and investment fraud is at record levels but what can you do to prevent being caught out.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48af/live/9ee49dd0-6bc8-11f1-9e68-a372ce4118b0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "South East Water announces new chief executive",
-      "link": "https://www.bbc.com/news/articles/cr5jrr1n7ddo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jun 2026",
-      "excerpt": "John Halsall has previously worked for Thames Water, South West Water and Network Rail.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5d7/live/6d23e820-6e1e-11f1-806d-d1ff7e093f07.jpg"
     }
   ]
 }
