@@ -1,5 +1,5 @@
 {
-  "updated": "23 Jun 2026, 07:46 UTC",
+  "updated": "23 Jun 2026, 11:13 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,8 +193,17 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Ticket reseller StubHub ordered to refund customers over hidden fees",
-      "link": "https://www.bbc.com/news/articles/cd6enx152jlo?at_medium=RSS&at_campaign=rss",
+      "title": "Who could be the UK's next chancellor?",
+      "link": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jun 2026",
+      "excerpt": "The prime minister's resignation has fired the starting gun on the race to be in charge of the UK's finances.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e24c/live/b2fff860-6ee2-11f1-92d8-97879fd3f743.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Ticket reseller StubHub UK customers to get refunds over illegal hidden fees",
+      "link": "https://www.bbc.co.uk/news/articles/cd6enx152jlo?at_medium=RSS&at_campaign=rss",
       "date": "23 Jun 2026",
       "excerpt": "The Competition and Markets Authority said StubHub must refund 50,000 customers and pay a fine.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55f6/live/fdf2e250-6e48-11f1-8a85-d1d176b992ab.jpg"
@@ -202,17 +211,8 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Tech giant Oracle cuts 21,000 jobs as it embraces AI",
-      "link": "https://www.bbc.com/news/articles/c4gy0x0j5deo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jun 2026",
-      "excerpt": "The cuts are part of a wider trend among tech firms as they spend hundreds of billions of dollars on AI.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/011d/live/21b2c920-6e9a-11f1-ae80-bf13157382fa.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Can you refuse to work or send your kids to school during a heatwave?",
-      "link": "https://www.bbc.com/news/articles/c6217nv34rro?at_medium=RSS&at_campaign=rss",
+      "title": "Can you keep your kids off school or refuse to work during a heatwave?",
+      "link": "https://www.bbc.co.uk/news/articles/c6217nv34rro?at_medium=RSS&at_campaign=rss",
       "date": "23 Jun 2026",
       "excerpt": "As temperatures increase significantly over the next few days, these are your rights.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0e5/live/b38c6fd0-6eb4-11f1-8e1d-bbbb1017d210.jpg"
@@ -220,29 +220,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Tesla crash that killed a woman under US federal investigation",
-      "link": "https://www.bbc.com/news/articles/c07yp02mxyjo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jun 2026",
-      "excerpt": "A Tesla driver on Friday said he was using ‘self-driving’ technology after his vehicle sped into a Texas home.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f011/live/bacfac70-6e74-11f1-af12-adba0638fbd4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Iran says no new commitments on nuclear sites after Vance says inspectors to be invited back",
-      "link": "https://www.bbc.com/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
+      "title": "Tech giant Oracle cuts 21,000 jobs as it embraces AI",
+      "link": "https://www.bbc.co.uk/news/articles/c4gy0x0j5deo?at_medium=RSS&at_campaign=rss",
       "date": "23 Jun 2026",
-      "excerpt": "Iran's foreign ministry says it made \"no new commitments\" on nuclear inspections after talks in Switzerland.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66d4/live/4c1d6d60-6ebc-11f1-8e1d-bbbb1017d210.jpg"
+      "excerpt": "The cuts are part of a wider trend among tech firms as they spend hundreds of billions of dollars on AI.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/011d/live/21b2c920-6e9a-11f1-ae80-bf13157382fa.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Do you know your 'sweat score'? The rise of hydration tech",
-      "link": "https://www.bbc.com/news/articles/c5yz5z72lqgo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/c5yz5z72lqgo?at_medium=RSS&at_campaign=rss",
       "date": "22 Jun 2026",
       "excerpt": "Hydration tracking gadgets are flooding the market but is it too much information?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/385d/live/d8649f50-6be2-11f1-8546-8f19e4fe30f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Millions in UK could claim share of £3bn after Apple case given green light",
+      "link": "https://www.bbc.co.uk/news/articles/c932d1r0p96o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jun 2026",
+      "excerpt": "Apple rejected the suggestion its practices are anti-competitive, saying many customers rely on third-party alternatives.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0dc6/live/f6156250-6e58-11f1-b9d0-a3be33cbfa13.jpg"
     }
   ]
 }
