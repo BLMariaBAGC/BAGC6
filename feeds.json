@@ -1,5 +1,5 @@
 {
-  "updated": "24 Jun 2026, 17:52 UTC",
+  "updated": "24 Jun 2026, 19:43 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,13 +137,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How tricky is it to destroy an international financial centre? Brexit and the City of London",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/24/brexit-10-how-tricky-is-it-to-destroy-an-international-financial-centre-brexit-and-the-city-of-london/",
-      "date": "24 Jun 2026",
-      "excerpt": "The run up to the Brexit vote in 2016 included dire predictions about what leaving the EU would do to the City of London and the capital’s status as a premier global financial hub. Elizabeth Howell argues that whilst London’s international ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-4-1024x192.jpeg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How School of Rock Created Structure in Order to Scale with Agility and Creativity",
+      "link": "https://hbr.org/podcast/2026/06/how-school-of-rock-created-structure-in-order-to-scale-with-agility-and-creativity",
+      "date": "23 Jun 2026",
+      "excerpt": "A conversation about how the music education company&#8217;s leaders empowered its franchisees while also driving better standardization.",
+      "image": ""
     },
     {
       "source": "LSE Business Review",
@@ -189,6 +189,15 @@
       "date": "17 Jun 2026",
       "excerpt": "Brexit changed how British firms could sell services in the European Union. By studying how companies reacted, Holger Breinlich and Martina Magli show that many implemented workarounds, such as setting up affiliates abroad, but that those n",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-1-1024x192.jpeg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Britain’s creative economy has suffered since Brexit",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/16/brexit-10-britains-creative-economy-has-suffered-since-brexit/",
+      "date": "16 Jun 2026",
+      "excerpt": "From loss of creative and business partnerships with European cultural organisations, to exclusion from European funding schemes and limiting touring opportunities, Charlotte Faucher shows the detrimental impact Brexit has had on Britain’s ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-1024x192.jpeg"
     },
     {
       "source": "BBC Business",
