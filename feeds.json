@@ -1,5 +1,5 @@
 {
-  "updated": "24 Jun 2026, 10:47 UTC",
+  "updated": "24 Jun 2026, 14:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Does Your AI Have a Personality Problem?",
+      "link": "https://hbr.org/2026/06/does-your-ai-have-a-personality-problem",
+      "date": "24 Jun 2026",
+      "excerpt": "Why the way AI interacts with employees may matter as much as what it can do.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How Leaders Create the Conditions for Innovative Thinking",
+      "link": "https://hbr.org/podcast/2026/06/how-leaders-create-the-conditions-for-innovative-thinking",
+      "date": "24 Jun 2026",
+      "excerpt": "A conversation with Harvard Business School&#8217;s Linda Hill on why even visionaries need to make space for collaboration and trust.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Employees Aren’t Questioning AI Advice Enough",
+      "link": "https://hbr.org/2026/06/employees-arent-questioning-ai-advice-enough",
+      "date": "24 Jun 2026",
+      "excerpt": "A new study finds that people often actively avoid seeking additional information when it might complicate their decision or create moral discomfort.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "An Announcement from HBR On Leadership",
+      "link": "https://hbr.org/podcast/2026/06/an-announcement-from-hbr-on-leadership",
+      "date": "24 Jun 2026",
+      "excerpt": "The show is going on hiatus.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The 4 Types of Hope",
       "link": "https://hbr.org/2026/06/the-4-types-of-hope",
       "date": "23 Jun 2026",
@@ -107,42 +143,6 @@
       "link": "https://hbr.org/podcast/2026/06/creating-products-with-curiosity-humility-and-play",
       "date": "23 Jun 2026",
       "excerpt": "A conversation with Zynga founder Mark Pincus on creating a culture of innovation.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The End of Cheap Capital",
-      "link": "https://hbr.org/2026/06/the-end-of-cheap-capital",
-      "date": "22 Jun 2026",
-      "excerpt": "And why it requires a return to the basics of business economics.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "LLMs Misunderstand Luxury Brands. Here’s How to Optimize Your Content Strategy for AI.",
-      "link": "https://hbr.org/2026/06/llms-misunderstand-luxury-brands-heres-how-to-optimize-your-content-strategy-for-ai",
-      "date": "22 Jun 2026",
-      "excerpt": "A playbook for translating the visual grammar, spatial logic, and cultural associations that make luxury brands coveted by consumers.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Our Favorite Management Tips on Decision-Making",
-      "link": "https://hbr.org/2026/06/our-favorite-management-tips-on-decision-making",
-      "date": "22 Jun 2026",
-      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Is This the Time to Raise Prices?",
-      "link": "https://hbr.org/2026/06/is-this-the-time-to-raise-prices",
-      "date": "19 Jun 2026",
-      "excerpt": "With consumers worn out from years of price hikes, pricing strategist Rafi Mohammed argues in favor of a more creative approach to capturing value.",
       "image": ""
     },
     {
@@ -211,6 +211,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Who could be the UK's next chancellor?",
+      "link": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jun 2026",
+      "excerpt": "The prime minister's resignation has fired the starting gun on the race to be in charge of the UK's finances.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72c1/live/b44abe80-6efb-11f1-b1db-af71d47507d6.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Train passed red signal before fatal crash - report",
+      "link": "https://www.bbc.co.uk/news/articles/cly90nqpryko?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jun 2026",
+      "excerpt": "A preliminary report from the Independent Rail Accident Investigation Branch is published.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5faf/live/b8fcf050-6fc9-11f1-8546-8f19e4fe30f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Council tax debt rises to £9bn but here's how you can get help",
+      "link": "https://www.bbc.co.uk/news/articles/c0my4gwe3y2o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jun 2026",
+      "excerpt": "New figures show billions of pounds is owed to councils but the government has plans to reform the system.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f967/live/41bc0920-6fb2-11f1-9d49-f71d5004325f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Why are there holiday delay warnings over the EU's new border system?",
       "link": "https://www.bbc.co.uk/news/articles/c39rkpe8mj2o?at_medium=RSS&at_campaign=rss",
       "date": "24 Jun 2026",
@@ -220,38 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Burnham likely to replace Reeves if he becomes PM",
-      "link": "https://www.bbc.co.uk/news/articles/cwyl91qlyr1o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Jun 2026",
-      "excerpt": "Rachel Reeves would be offered a more junior cabinet role, the BBC understands.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5220/live/c2d025a0-6f94-11f1-8546-8f19e4fe30f4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Ten years on, Brexit's economic impact is becoming clearer",
       "link": "https://www.bbc.co.uk/news/articles/cyv0m164m84o?at_medium=RSS&at_campaign=rss",
       "date": "23 Jun 2026",
       "excerpt": "A decade ago, many economists argued the UK would sustain longer-term economic damage by leaving the EU. So what did happen?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d195/live/4f1879d0-6e4c-11f1-8e1d-bbbb1017d210.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US to probe petrol price gouging claims, Trump says",
-      "link": "https://www.bbc.co.uk/news/articles/cly790j1j6ro?at_medium=RSS&at_campaign=rss",
-      "date": "24 Jun 2026",
-      "excerpt": "The president's remarks come as global oil prices have fallen but remain higher than before the US-Israel war with Iran.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7d7/live/08937340-6f94-11f1-acc7-d7e31563f96c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Do you know your 'sweat score'? The rise of hydration tech",
-      "link": "https://www.bbc.co.uk/news/articles/c5yz5z72lqgo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jun 2026",
-      "excerpt": "Hydration tracking gadgets are flooding the market but is it too much information?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/385d/live/d8649f50-6be2-11f1-8546-8f19e4fe30f4.jpg"
     }
   ]
 }
