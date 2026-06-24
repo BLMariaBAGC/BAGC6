@@ -1,5 +1,5 @@
 {
-  "updated": "24 Jun 2026, 03:26 UTC",
+  "updated": "24 Jun 2026, 07:38 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -206,7 +206,25 @@
       "link": "https://www.bbc.co.uk/news/articles/crkvj0ngzexo?at_medium=RSS&at_campaign=rss",
       "date": "23 Jun 2026",
       "excerpt": "Though the person in charge of the country will change, the fiscal issues remain the same.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61f4/live/c746c5a0-6f10-11f1-93e4-574a66c90712.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d15/live/c0457bc0-6f97-11f1-8546-8f19e4fe30f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Burnham likely to replace Reeves if he becomes PM",
+      "link": "https://www.bbc.co.uk/news/articles/cwyl91qlyr1o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jun 2026",
+      "excerpt": "Rachel Reeves would be offered a more junior cabinet role, the BBC understands.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5220/live/c2d025a0-6f94-11f1-8546-8f19e4fe30f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US to probe petrol price gouging claims, Trump says",
+      "link": "https://www.bbc.co.uk/news/articles/cly790j1j6ro?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jun 2026",
+      "excerpt": "The president's remarks come as global oil prices have fallen but remain higher than before the US-Israel war with Iran.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7d7/live/08937340-6f94-11f1-acc7-d7e31563f96c.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,24 +234,6 @@
       "date": "23 Jun 2026",
       "excerpt": "A decade ago, many economists argued the UK would sustain longer-term economic damage by leaving the EU. So what did happen?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d195/live/4f1879d0-6e4c-11f1-8e1d-bbbb1017d210.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Stanford was their golden ticket - could AI help or hinder that?",
-      "link": "https://www.bbc.co.uk/news/articles/c872j82j2qyo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jun 2026",
-      "excerpt": "The BBC spoke with Stanford University graduates about what they really think about artificial intelligence.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3d3/live/bbd41bd0-6b4d-11f1-8e1d-bbbb1017d210.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Tech stocks tumble on concerns over AI spending",
-      "link": "https://www.bbc.co.uk/news/articles/c802gvxpyxzo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jun 2026",
-      "excerpt": "A sudden wave of selling in major tech shares triggers doubt over the sustainability of the AI boom.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd9a/live/e42cc720-6f2c-11f1-8b65-27158411943c.jpg"
     },
     {
       "source": "BBC Business",
