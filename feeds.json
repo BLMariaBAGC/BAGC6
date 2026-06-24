@@ -1,6 +1,24 @@
 {
-  "updated": "24 Jun 2026, 14:28 UTC",
+  "updated": "24 Jun 2026, 17:52 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover ancient brain cells that help block distractions",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260624025426.htm",
+      "date": "24 Jun 2026",
+      "excerpt": "Scientists have discovered a tiny group of neurons in an ancient brain region that acts like a built-in focus filter, helping the brain ignore distractions and zero in on what matters most. When researchers temporarily switched off these ne",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "The universe may be hiding conscious minds stranger than we can imagine",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260623083146.htm",
+      "date": "24 Jun 2026",
+      "excerpt": "What if consciousness isn’t limited to brains like ours? Philosophers Eric Schwitzgebel and Jeremy Pober argue that consciousness could arise in many different forms of life, even in beings built from radically different materials than thos",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists May Have Found What Really Triggers Alzheimer’s Disease",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260617032209.htm",
-      "date": "18 Jun 2026",
-      "excerpt": "Scientists may have uncovered a hidden trigger behind Alzheimer’s disease. Instead of plaques being the root cause, amyloid beta appears to interfere with tau, a protein that helps keep neurons functioning properly. This disruption could se",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Ozempic and Wegovy linked to surprising drop in violent behavior",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260617032152.htm",
-      "date": "17 Jun 2026",
-      "excerpt": "A Rutgers study suggests GLP-1 drugs such as Ozempic and Wegovy may weaken the link between impulsive tendencies and violent behavior. The surprising finding hints that these medications could affect how people act on impulses, though resea",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Startup Founders Need a New Sales Playbook",
+      "link": "https://hbr.org/2026/06/startup-founders-need-a-new-sales-playbook",
+      "date": "24 Jun 2026",
+      "excerpt": "Today&#8217;s buyers are overwhelmed by options, skeptical of claims, and slow to commit. This framework can help.",
       "image": ""
     },
     {
@@ -128,22 +137,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How School of Rock Created Structure in Order to Scale with Agility and Creativity",
-      "link": "https://hbr.org/podcast/2026/06/how-school-of-rock-created-structure-in-order-to-scale-with-agility-and-creativity",
-      "date": "23 Jun 2026",
-      "excerpt": "A conversation about how the music education company&#8217;s leaders empowered its franchisees while also driving better standardization.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Creating Products with Curiosity, Humility, and Play",
-      "link": "https://hbr.org/podcast/2026/06/creating-products-with-curiosity-humility-and-play",
-      "date": "23 Jun 2026",
-      "excerpt": "A conversation with Zynga founder Mark Pincus on creating a culture of innovation.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How tricky is it to destroy an international financial centre? Brexit and the City of London",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/24/brexit-10-how-tricky-is-it-to-destroy-an-international-financial-centre-brexit-and-the-city-of-london/",
+      "date": "24 Jun 2026",
+      "excerpt": "The run up to the Brexit vote in 2016 included dire predictions about what leaving the EU would do to the City of London and the capital’s status as a premier global financial hub. Elizabeth Howell argues that whilst London’s international ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-4-1024x192.jpeg"
     },
     {
       "source": "LSE Business Review",
@@ -191,13 +191,22 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-1-1024x192.jpeg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Britain’s creative economy has suffered since Brexit",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/16/brexit-10-britains-creative-economy-has-suffered-since-brexit/",
-      "date": "16 Jun 2026",
-      "excerpt": "From loss of creative and business partnerships with European cultural organisations, to exclusion from European funding schemes and limiting touring opportunities, Charlotte Faucher shows the detrimental impact Brexit has had on Britain’s ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-1024x192.jpeg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Baroness Mone among individuals sued to recover PPE Medpro millions",
+      "link": "https://www.bbc.co.uk/news/articles/c7vy1y7myn5o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jun 2026",
+      "excerpt": "The Baroness and her husband Doug Barrowman are among individuals being sued in a bid to recover some of the money owed to the government by the business.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a02/live/8edd50c0-dc18-11f0-babc-21f9e89ffedf.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Elon Musk loses trillionaire status as global tech rout hits SpaceX",
+      "link": "https://www.bbc.co.uk/news/articles/c8j2m2p8dgmo?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jun 2026",
+      "excerpt": "Elon Musk lost his trillionaire status on Tuesday after a brutal global tech rout erased billions from his wealth.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d58/live/c4d89e30-6ff4-11f1-91bd-23fe59e75f62.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,24 +243,6 @@
       "date": "24 Jun 2026",
       "excerpt": "New figures show billions of pounds is owed to councils but the government has plans to reform the system.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f967/live/41bc0920-6fb2-11f1-9d49-f71d5004325f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why are there holiday delay warnings over the EU's new border system?",
-      "link": "https://www.bbc.co.uk/news/articles/c39rkpe8mj2o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Jun 2026",
-      "excerpt": "The EU's much-delayed Entry/Exit System will change the way UK passengers travel to 29 countries.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35cd/live/973d0850-6fb1-11f1-8546-8f19e4fe30f4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ten years on, Brexit's economic impact is becoming clearer",
-      "link": "https://www.bbc.co.uk/news/articles/cyv0m164m84o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jun 2026",
-      "excerpt": "A decade ago, many economists argued the UK would sustain longer-term economic damage by leaving the EU. So what did happen?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d195/live/4f1879d0-6e4c-11f1-8e1d-bbbb1017d210.jpg"
     }
   ]
 }
