@@ -1,6 +1,15 @@
 {
-  "updated": "25 Jun 2026, 14:29 UTC",
+  "updated": "25 Jun 2026, 18:07 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "They knew the pill was fake but their memory still improved",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260625060159.htm",
+      "date": "25 Jun 2026",
+      "excerpt": "Healthy older adults experienced measurable improvements in memory, physical performance, and stress after taking placebo pills for just three weeks. The most surprising finding was that the placebo often worked even when participants knew ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -17,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260623083146.htm",
       "date": "24 Jun 2026",
       "excerpt": "What if consciousness isn’t limited to brains like ours? Philosophers Eric Schwitzgebel and Jeremy Pober argue that consciousness could arise in many different forms of life, even in beings built from radically different materials than thos",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This common vitamin deficiency can mimic normal aging",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260623083116.htm",
+      "date": "25 Jun 2026",
+      "excerpt": "Vitamin B12 is needed in microscopic amounts, but a shortage can have major effects on health and energy. The vitamin was first linked to a lifesaving liver treatment for pernicious anemia nearly 100 years ago. Today, researchers are findin",
       "image": ""
     },
     {
@@ -56,21 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "New brain study reveals speech learning works differently than we thought",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260619020514.htm",
-      "date": "23 Jun 2026",
-      "excerpt": "A new study suggests that learning and remembering speech relies more on how the brain processes sounds and sensations than on the areas that control mouth and face movements. The discovery could reshape speech therapy and help improve futu",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists reprogram brain immune cells to fight Alzheimer’s",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260619020506.htm",
-      "date": "19 Jun 2026",
-      "excerpt": "A newly identified molecule called OLE helped restore the brain’s immune cells to a more protective state in Alzheimer’s models. The treatment reduced toxic plaque buildup and improved memory, raising hopes for a new therapeutic approach.",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Great Leaders Question Philosophical Assumptions",
+      "link": "https://hbr.org/2026/06/great-leaders-question-philosophical-assumptions",
+      "date": "25 Jun 2026",
+      "excerpt": "Three philosophical proficiencies for leading in a world where old certainties are breaking down.",
       "image": ""
     },
     {
@@ -137,15 +146,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The 5 Types of AI Investment–and How to Capture Their Value",
-      "link": "https://hbr.org/2026/06/the-5-types-of-ai-investment-and-how-to-capture-their-value",
-      "date": "23 Jun 2026",
-      "excerpt": "Each has its own financial logic and strategic implications.",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "How tricky is it to destroy an international financial centre? Brexit and the City of London",
@@ -206,7 +206,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cdr4zy4e1n1o?at_medium=RSS&at_campaign=rss",
       "date": "25 Jun 2026",
       "excerpt": "The airline had typically charged adults a fee of £8 each way to sit with their young children.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56f5/live/20d1c620-7096-11f1-86cf-0fd142c2b6fb.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bff4/live/226c9520-70bc-11f1-b1db-af71d47507d6.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Apple hikes prices on some products by nearly 20%",
+      "link": "https://www.bbc.co.uk/news/articles/c3ryj81ywlro?at_medium=RSS&at_campaign=rss",
+      "date": "25 Jun 2026",
+      "excerpt": "Apple said it had \"never seen a component price increase this much, this quickly\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f1d/live/ee942300-70a0-11f1-a074-f75fb10ee765.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Reeves urges Burnham to 'stick to what I'm doing' on economy",
       "link": "https://www.bbc.co.uk/news/articles/cvgm9mj262qo?at_medium=RSS&at_campaign=rss",
       "date": "25 Jun 2026",
       "excerpt": "The chancellor throws her support behind the MP for Makerfield despite reports he could demote her if he becomes PM.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da97/live/28663c60-701c-11f1-8e1d-bbbb1017d210.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I've spent 30 years in recruitment - this is how to get a job",
-      "link": "https://www.bbc.co.uk/news/articles/c8r2vljglgno?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jun 2026",
-      "excerpt": "The recruitment agency boss shares his tips on getting noticed in a tougher jobs market.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b813/live/a1869260-6fb9-11f1-8dfa-636ee713b41c.jpg"
     },
     {
       "source": "BBC Business",
