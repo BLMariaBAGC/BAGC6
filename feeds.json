@@ -1,5 +1,5 @@
 {
-  "updated": "24 Jun 2026, 23:02 UTC",
+  "updated": "25 Jun 2026, 03:24 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "I've spent 30 years in recruitment - this is how to get a job",
+      "link": "https://www.bbc.co.uk/news/articles/c8r2vljglgno?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jun 2026",
+      "excerpt": "The recruitment agency boss shares his tips on getting noticed in a tougher jobs market.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b813/live/a1869260-6fb9-11f1-8dfa-636ee713b41c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "VAT cut on theme parks and kids' meals comes into force",
+      "link": "https://www.bbc.co.uk/news/articles/cwy05rnlpe9o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jun 2026",
+      "excerpt": "The government will reduce tax from 20% to 5% on a range of attractions as schools begin to break-up.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03f1/live/ff8d5100-6f0f-11f1-93e4-574a66c90712.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Baroness Mone among individuals sued to recover PPE Medpro millions",
       "link": "https://www.bbc.co.uk/news/articles/c7vy1y7myn5o?at_medium=RSS&at_campaign=rss",
       "date": "24 Jun 2026",
@@ -211,47 +229,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Elon Musk loses trillionaire status as global tech rout hits SpaceX",
-      "link": "https://www.bbc.co.uk/news/articles/c8j2m2p8dgmo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Jun 2026",
-      "excerpt": "Elon Musk lost his trillionaire status on Tuesday after a brutal global tech rout erased billions from his wealth.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d58/live/c4d89e30-6ff4-11f1-91bd-23fe59e75f62.jpg"
+      "title": "Anthropic accuses Chinese rival Alibaba of illicitly extracting AI capabilities",
+      "link": "https://www.bbc.co.uk/news/articles/cwyklykn5dwo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Jun 2026",
+      "excerpt": "The firm alleged that Alibaba used fraudulent accounts to access data from its Claude AI model.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7085/live/09a38e00-7034-11f1-a04c-33d78a0285d7.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The economic challenges facing the next prime minister",
-      "link": "https://www.bbc.co.uk/news/articles/crkvj0ngzexo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jun 2026",
-      "excerpt": "Though the person in charge of the country will change, the fiscal issues remain the same.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d15/live/c0457bc0-6f97-11f1-8546-8f19e4fe30f4.jpg"
+      "title": "Texas family sues Tesla over fatal crash into home",
+      "link": "https://www.bbc.co.uk/news/articles/c8x2rzke05yo?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jun 2026",
+      "excerpt": "A woman in her 70s was killed after a Tesla crashed directly into the family’s home.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14c8/live/fcfc06d0-7017-11f1-9ca7-8b09da4b9ec2.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Who could be the UK's next chancellor?",
-      "link": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
+      "title": "The legal fight to get equal pay for Germany's disabled workers",
+      "link": "https://www.bbc.co.uk/news/articles/cwy0v1d24elo?at_medium=RSS&at_campaign=rss",
       "date": "24 Jun 2026",
-      "excerpt": "The prime minister's resignation has fired the starting gun on the race to be in charge of the UK's finances.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72c1/live/b44abe80-6efb-11f1-b1db-af71d47507d6.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Train passed red signal before fatal crash - report",
-      "link": "https://www.bbc.co.uk/news/articles/cly90nqpryko?at_medium=RSS&at_campaign=rss",
-      "date": "24 Jun 2026",
-      "excerpt": "A preliminary report from the Independent Rail Accident Investigation Branch is published.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5faf/live/b8fcf050-6fc9-11f1-8546-8f19e4fe30f4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Council tax debt rises to £9bn but here's how you can get help",
-      "link": "https://www.bbc.co.uk/news/articles/c0my4gwe3y2o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Jun 2026",
-      "excerpt": "New figures show billions of pounds is owed to councils but the government has plans to reform the system.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f967/live/41bc0920-6fb2-11f1-9d49-f71d5004325f.jpg"
+      "excerpt": "A test case is seeking the minimum wage for 300,000 disabled people who currently get paid less.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c743/live/198a8d50-6e22-11f1-bf93-41ce9254b46a.jpg"
     }
   ]
 }
