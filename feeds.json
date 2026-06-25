@@ -1,5 +1,5 @@
 {
-  "updated": "25 Jun 2026, 10:40 UTC",
+  "updated": "25 Jun 2026, 14:29 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Teach Your AI How You Make Decisions",
+      "link": "https://hbr.org/2026/06/teach-your-ai-how-you-make-decisions",
+      "date": "25 Jun 2026",
+      "excerpt": "Companies need to translate tacit principles into structured guidance for agents.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Startup Founders Need a New Sales Playbook",
       "link": "https://hbr.org/2026/06/startup-founders-need-a-new-sales-playbook",
       "date": "24 Jun 2026",
@@ -137,15 +146,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How School of Rock Created Structure in Order to Scale with Agility and Creativity",
-      "link": "https://hbr.org/podcast/2026/06/how-school-of-rock-created-structure-in-order-to-scale-with-agility-and-creativity",
-      "date": "23 Jun 2026",
-      "excerpt": "A conversation about how the music education company&#8217;s leaders empowered its franchisees while also driving better standardization.",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "How tricky is it to destroy an international financial centre? Brexit and the City of London",
@@ -202,11 +202,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Reeves backs Burnham to become next prime minister",
-      "link": "https://www.bbc.co.uk/news/articles/cvgm9mj262qo?at_medium=RSS&at_campaign=rss",
+      "title": "Ryanair says it will reluctantly not charge parents to sit next to children",
+      "link": "https://www.bbc.co.uk/news/articles/cdr4zy4e1n1o?at_medium=RSS&at_campaign=rss",
       "date": "25 Jun 2026",
-      "excerpt": "The chancellor throws her support behind the MP for Makerfield despite reports he could demote her if he becomes PM.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da97/live/28663c60-701c-11f1-8e1d-bbbb1017d210.jpg"
+      "excerpt": "The airline had typically charged adults a fee of £8 each way to sit with their young children.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56f5/live/20d1c620-7096-11f1-86cf-0fd142c2b6fb.jpg"
     },
     {
       "source": "BBC Business",
@@ -215,7 +215,25 @@
       "link": "https://www.bbc.co.uk/news/articles/c0jy7d7wzv4o?at_medium=RSS&at_campaign=rss",
       "date": "25 Jun 2026",
       "excerpt": "Signs that traffic through the key Strait of Hormuz shipping route is gradually resuming has helped to push the oil price down.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7180/live/a13f7c30-7046-11f1-bb77-f7f099abe27b.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7800/live/6edd4700-7086-11f1-b1db-af71d47507d6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "How you can save money on your energy bill as debts rise",
+      "link": "https://www.bbc.co.uk/news/articles/cwy2e3wx7xwo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Jun 2026",
+      "excerpt": "Experts say support is available as total debt and arrears to suppliers hit a new record.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dcc/live/63478af0-59e2-11f1-ad45-03463f64a221.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Reeves urges Burnham to 'stick to what I'm doing' on economy",
+      "link": "https://www.bbc.co.uk/news/articles/cvgm9mj262qo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Jun 2026",
+      "excerpt": "The chancellor throws her support behind the MP for Makerfield despite reports he could demote her if he becomes PM.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da97/live/28663c60-701c-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,24 +243,6 @@
       "date": "25 Jun 2026",
       "excerpt": "The recruitment agency boss shares his tips on getting noticed in a tougher jobs market.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b813/live/a1869260-6fb9-11f1-8dfa-636ee713b41c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Price cuts on family summer days out come into force",
-      "link": "https://www.bbc.co.uk/news/articles/cwy05rnlpe9o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jun 2026",
-      "excerpt": "The government is reducing VAT from 20% to 5% on attractions and kids' meals as schools begin to break-up.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2b3/live/c31c93b0-705f-11f1-8e1d-bbbb1017d210.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Anthropic accuses Chinese rival Alibaba of illicitly extracting AI capabilities",
-      "link": "https://www.bbc.co.uk/news/articles/cwyklykn5dwo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jun 2026",
-      "excerpt": "The firm alleged that Alibaba used fraudulent accounts to access data from its Claude AI model.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7085/live/09a38e00-7034-11f1-a04c-33d78a0285d7.jpg"
     },
     {
       "source": "BBC Business",
