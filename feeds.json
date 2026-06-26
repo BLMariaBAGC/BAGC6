@@ -1,5 +1,5 @@
 {
-  "updated": "26 Jun 2026, 19:44 UTC",
+  "updated": "26 Jun 2026, 21:16 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -40,6 +40,15 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "Researchers discover why fructose doesn't satisfy hunger like glucose",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260623083106.htm",
+      "date": "26 Jun 2026",
+      "excerpt": "A new study found that fructose and glucose may look the same on a nutrition label, but the brain treats them very differently. In mice, glucose strongly reduced activity in hunger-promoting brain cells, while fructose had a much weaker eff",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "A common vitamin could help fight one of the deadliest brain cancers",
       "link": "https://www.sciencedaily.com/releases/2026/06/260622014313.htm",
       "date": "22 Jun 2026",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260620100428.htm",
       "date": "21 Jun 2026",
       "excerpt": "A long-term Yale study is challenging one of the biggest myths about aging. Nearly half of adults over 65 improved physically, mentally, or both over time, despite the common belief that aging means constant decline. Researchers found that ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover neurons must break their DNA to build the brain",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260620100422.htm",
-      "date": "21 Jun 2026",
-      "excerpt": "As newborn neurons make their way through the developing brain, they must squeeze through incredibly tight spaces to reach their final destinations. Researchers discovered that this physical journey routinely causes some of the most severe ",
       "image": ""
     },
     {
@@ -130,15 +130,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How to live and work in extreme heat",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/26/how-to-live-and-work-in-extreme-heat/",
-      "date": "26 Jun 2026",
-      "excerpt": "With Europe in the grip of an unusually intense heatwave, what can be learned from regions more used to extreme heat? Drawing on their research in South Asia Sohini Kar and Mahvish Shami argue that heat is not experienced equally, with info",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How the war in Iran changes China’s decarbonisation path",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/25/how-the-war-in-iran-changes-chinas-decarbonisation-path/",
       "date": "25 Jun 2026",
@@ -180,6 +171,15 @@
       "date": "19 Jun 2026",
       "excerpt": "The money stolen in online fraud is not hidden. It moves through the same banks and platforms legitimate businesses use. By studying the trial transcripts from a Delaware romance fraud and money laundering trial, Suleman Lazarus exposes how",
       "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How to improve the Bank of England’s forecasts",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/18/how-to-improve-the-bank-of-englands-forecasts/",
+      "date": "18 Jun 2026",
+      "excerpt": "The Bank of England’s forecasts use a suite of models and expert judgements to make predictions about the prospects for Britain’s economy. Their publication attracts huge media attention and are monitored closely by financial markets. But a",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Chart-1.jpg"
     },
     {
       "source": "BBC Business",
