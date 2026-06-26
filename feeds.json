@@ -1,5 +1,5 @@
 {
-  "updated": "26 Jun 2026, 14:21 UTC",
+  "updated": "26 Jun 2026, 17:45 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "AI Is Changing Cyber Risk. Here’s How SMBs Can Respond.",
+      "link": "https://hbr.org/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond",
+      "date": "26 Jun 2026",
+      "excerpt": "Amid a surge in cyberattacks, security expert Daniel Dobrygowski shares steps every small to midsize business can take to avoid being an easy target.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The Two-Organizations Problem",
       "link": "https://hbr.org/2026/06/the-two-organizations-problem",
       "date": "26 Jun 2026",
@@ -128,33 +137,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Leaders Create the Conditions for Innovative Thinking",
-      "link": "https://hbr.org/podcast/2026/06/how-leaders-create-the-conditions-for-innovative-thinking",
-      "date": "24 Jun 2026",
-      "excerpt": "A conversation with Harvard Business School&#8217;s Linda Hill on why even visionaries need to make space for collaboration and trust.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Employees Aren’t Questioning AI Advice Enough",
-      "link": "https://hbr.org/2026/06/employees-arent-questioning-ai-advice-enough",
-      "date": "24 Jun 2026",
-      "excerpt": "A new study finds that people often actively avoid seeking additional information when it might complicate their decision or create moral discomfort.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How to live and work in extreme heat",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/26/how-to-live-and-work-in-extreme-heat/",
-      "date": "26 Jun 2026",
-      "excerpt": "With Europe in the grip of an unusually intense heatwave, what can be learned from regions more used to extreme heat? Drawing on their research in South Asia Sohini Kar and Mahvish Shami argue that heat is not experienced equally, with info",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "How the war in Iran changes China’s decarbonisation path",
@@ -198,6 +180,15 @@
       "date": "19 Jun 2026",
       "excerpt": "The money stolen in online fraud is not hidden. It moves through the same banks and platforms legitimate businesses use. By studying the trial transcripts from a Delaware romance fraud and money laundering trial, Suleman Lazarus exposes how",
       "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How to improve the Bank of England’s forecasts",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/18/how-to-improve-the-bank-of-englands-forecasts/",
+      "date": "18 Jun 2026",
+      "excerpt": "The Bank of England’s forecasts use a suite of models and expert judgements to make predictions about the prospects for Britain’s economy. Their publication attracts huge media attention and are monitored closely by financial markets. But a",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Chart-1.jpg"
     },
     {
       "source": "BBC Business",
