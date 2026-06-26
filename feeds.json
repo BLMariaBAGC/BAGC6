@@ -1,5 +1,5 @@
 {
-  "updated": "26 Jun 2026, 17:45 UTC",
+  "updated": "26 Jun 2026, 19:44 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -128,12 +128,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Does Your AI Have a Personality Problem?",
-      "link": "https://hbr.org/2026/06/does-your-ai-have-a-personality-problem",
-      "date": "24 Jun 2026",
-      "excerpt": "Why the way AI interacts with employees may matter as much as what it can do.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How to live and work in extreme heat",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/26/how-to-live-and-work-in-extreme-heat/",
+      "date": "26 Jun 2026",
+      "excerpt": "With Europe in the grip of an unusually intense heatwave, what can be learned from regions more used to extreme heat? Drawing on their research in South Asia Sohini Kar and Mahvish Shami argue that heat is not experienced equally, with info",
       "image": ""
     },
     {
@@ -180,15 +180,6 @@
       "date": "19 Jun 2026",
       "excerpt": "The money stolen in online fraud is not hidden. It moves through the same banks and platforms legitimate businesses use. By studying the trial transcripts from a Delaware romance fraud and money laundering trial, Suleman Lazarus exposes how",
       "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How to improve the Bank of England’s forecasts",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/18/how-to-improve-the-bank-of-englands-forecasts/",
-      "date": "18 Jun 2026",
-      "excerpt": "The Bank of England’s forecasts use a suite of models and expert judgements to make predictions about the prospects for Britain’s economy. Their publication attracts huge media attention and are monitored closely by financial markets. But a",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Chart-1.jpg"
     },
     {
       "source": "BBC Business",
