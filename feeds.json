@@ -1,5 +1,5 @@
 {
-  "updated": "26 Jun 2026, 10:49 UTC",
+  "updated": "26 Jun 2026, 14:21 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The Two-Organizations Problem",
+      "link": "https://hbr.org/2026/06/the-two-organizations-problem",
+      "date": "26 Jun 2026",
+      "excerpt": "Successful leaders understand the gap between the organization that exists on paper and the one employees experience every day.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "AI Adoption Is Overloading Your Middle Managers",
+      "link": "https://hbr.org/2026/06/ai-adoption-is-overloading-your-middle-managers",
+      "date": "26 Jun 2026",
+      "excerpt": "They&#8217;re caught between executive ambition and operational reality, with little formal support.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Great Leaders Question Philosophical Assumptions",
       "link": "https://hbr.org/2026/06/great-leaders-question-philosophical-assumptions",
       "date": "25 Jun 2026",
@@ -128,21 +146,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "An Announcement from HBR On Leadership",
-      "link": "https://hbr.org/podcast/2026/06/an-announcement-from-hbr-on-leadership",
-      "date": "24 Jun 2026",
-      "excerpt": "The show is going on hiatus.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The 4 Types of Hope",
-      "link": "https://hbr.org/2026/06/the-4-types-of-hope",
-      "date": "23 Jun 2026",
-      "excerpt": "In the June 22, 2026 edition of The Insider, managing editor Gretchen Gavett highlights the benefits and pitfalls of hope as part of a leader&#8217;s toolkit.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How to live and work in extreme heat",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/26/how-to-live-and-work-in-extreme-heat/",
+      "date": "26 Jun 2026",
+      "excerpt": "With Europe in the grip of an unusually intense heatwave, what can be learned from regions more used to extreme heat? Drawing on their research in South Asia Sohini Kar and Mahvish Shami argue that heat is not experienced equally, with info",
       "image": ""
     },
     {
@@ -191,13 +200,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How to improve the Bank of England’s forecasts",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/18/how-to-improve-the-bank-of-englands-forecasts/",
-      "date": "18 Jun 2026",
-      "excerpt": "The Bank of England’s forecasts use a suite of models and expert judgements to make predictions about the prospects for Britain’s economy. Their publication attracts huge media attention and are monitored closely by financial markets. But a",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Chart-1.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I'm back at home again after uni - here's how I'm making it work",
+      "link": "https://www.bbc.co.uk/news/articles/cg53q6dl0plo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Jun 2026",
+      "excerpt": "Rising costs are forcing more young adults to live with their parents, here's how not to come to blows.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9469/live/74937fd0-6d79-11f1-a2ba-775ae811ce10.jpg"
     },
     {
       "source": "BBC Business",
@@ -206,16 +215,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cly716qd146o?at_medium=RSS&at_campaign=rss",
       "date": "25 Jun 2026",
       "excerpt": "Lithium battery fires are the number one safety risk to aircraft, yet the number of devices found in hold bags has nearly doubled in a year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1adb/live/414682f0-70ce-11f1-b217-6f3746be3039.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I'm back at home again after uni - here's how I'm making it work",
-      "link": "https://www.bbc.co.uk/news/articles/cg53q6dl0plo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jun 2026",
-      "excerpt": "Rising costs are forcing more young adults to live with their parents, here's how not to come to blows.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9469/live/74937fd0-6d79-11f1-a2ba-775ae811ce10.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6069/live/65830dd0-7161-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "What's happening to petrol prices now oil is back to pre-Iran war levels?",
+      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "date": "26 Jun 2026",
+      "excerpt": "When the conflict began on 28 February, fuel costs jumped as the war disrupted the production and transportation of energy across the Middle East.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28b1/live/f482fc20-5375-11f1-b319-63ed6ac90e5f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Who could be the UK's next chancellor?",
       "link": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
       "date": "26 Jun 2026",
       "excerpt": "The prime minister's resignation has fired the starting gun on the race to be in charge of the UK's finances.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72c1/live/b44abe80-6efb-11f1-b1db-af71d47507d6.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Teens who hacked TfL were known to police years before cyber-attack",
-      "link": "https://www.bbc.co.uk/news/articles/cx2kx8jr244o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jun 2026",
-      "excerpt": "Owen Flowers and Thalha Jubair were convicted for their roles in the attack, which led to large costs for Transport for London.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4a3/live/85237e00-6e54-11f1-b648-1b56797cb133.png"
     },
     {
       "source": "BBC Business",
