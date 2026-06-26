@@ -1,5 +1,5 @@
 {
-  "updated": "26 Jun 2026, 07:50 UTC",
+  "updated": "26 Jun 2026, 10:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,7 +202,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Warning over power bank fire risk on flights as summer holidays begin",
+      "title": "Power banks and vapes now biggest fire risk on planes",
       "link": "https://www.bbc.co.uk/news/articles/cly716qd146o?at_medium=RSS&at_campaign=rss",
       "date": "25 Jun 2026",
       "excerpt": "Lithium battery fires are the number one safety risk to aircraft, yet the number of devices found in hold bags has nearly doubled in a year.",
@@ -211,7 +211,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Yes, there have been rows but here's how I've made moving back home work",
+      "title": "I'm back at home again after uni - here's how I'm making it work",
       "link": "https://www.bbc.co.uk/news/articles/cg53q6dl0plo?at_medium=RSS&at_campaign=rss",
       "date": "25 Jun 2026",
       "excerpt": "Rising costs are forcing more young adults to live with their parents, here's how not to come to blows.",
@@ -229,6 +229,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Who could be the UK's next chancellor?",
+      "link": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Jun 2026",
+      "excerpt": "The prime minister's resignation has fired the starting gun on the race to be in charge of the UK's finances.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72c1/live/b44abe80-6efb-11f1-b1db-af71d47507d6.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Teens who hacked TfL were known to police years before cyber-attack",
       "link": "https://www.bbc.co.uk/news/articles/cx2kx8jr244o?at_medium=RSS&at_campaign=rss",
       "date": "25 Jun 2026",
@@ -238,18 +247,9 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Apple hikes some prices by nearly 20% while Xbox raises console cost",
-      "link": "https://www.bbc.co.uk/news/articles/c3ryj81ywlro?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jun 2026",
-      "excerpt": "Apple said it had \"never seen a component price increase this much, this quickly\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f1d/live/ee942300-70a0-11f1-a074-f75fb10ee765.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "The abundant but expensive energy source that's under your feet",
       "link": "https://www.bbc.co.uk/news/articles/cj3gj1n8yz8o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jun 2026",
+      "date": "26 Jun 2026",
       "excerpt": "Start-ups are taking fresh approaches to geothermal energy, but will the economics work?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbb7/live/a859fe20-6b03-11f1-b1db-af71d47507d6.jpg"
     }
