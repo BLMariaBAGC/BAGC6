@@ -1,5 +1,5 @@
 {
-  "updated": "25 Jun 2026, 23:16 UTC",
+  "updated": "26 Jun 2026, 03:32 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How the war in Iran changes China’s decarbonisation path",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/25/how-the-war-in-iran-changes-chinas-decarbonisation-path/",
+      "date": "25 Jun 2026",
+      "excerpt": "Higher prices and unstable supply of imported oil and gas incentivise China to burn more coal in the short term. That will increase its carbon emissions. But in the longer term, argues Mathias Larsen, the security implications of relying on",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How tricky is it to destroy an international financial centre? Brexit and the City of London",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/24/brexit-10-how-tricky-is-it-to-destroy-an-international-financial-centre-brexit-and-the-city-of-london/",
       "date": "24 Jun 2026",
@@ -191,13 +200,13 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Chart-1.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Brexit shows how firms react when restrictions are placed on the way they reach customers",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/17/brexit10-brexit-shows-how-firms-react-when-restrictions-are-placed-on-the-way-they-reach-customers/",
-      "date": "17 Jun 2026",
-      "excerpt": "Brexit changed how British firms could sell services in the European Union. By studying how companies reacted, Holger Breinlich and Martina Magli show that many implemented workarounds, such as setting up affiliates abroad, but that those n",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-1-1024x192.jpeg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Warning over power bank fire risk on flights as summer holidays begin",
+      "link": "https://www.bbc.co.uk/news/articles/cly716qd146o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Jun 2026",
+      "excerpt": "Lithium battery fires are the number one safety risk to aircraft, yet the number of devices found in hold bags has nearly doubled in a year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1adb/live/414682f0-70ce-11f1-b217-6f3746be3039.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Teens who hacked TfL were known to police years before cyber-attack",
+      "link": "https://www.bbc.co.uk/news/articles/cx2kx8jr244o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Jun 2026",
+      "excerpt": "Owen Flowers and Thalha Jubair were convicted for their roles in the attack, which led to large costs for Transport for London.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4a3/live/85237e00-6e54-11f1-b648-1b56797cb133.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Ryanair says it will reluctantly not charge parents to sit next to children",
       "link": "https://www.bbc.co.uk/news/articles/cdr4zy4e1n1o?at_medium=RSS&at_campaign=rss",
       "date": "25 Jun 2026",
       "excerpt": "The airline had typically charged adults a fee of £8 each way to sit with their young children.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bff4/live/226c9520-70bc-11f1-b1db-af71d47507d6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil price falls back to pre-Iran war levels",
-      "link": "https://www.bbc.co.uk/news/articles/c0jy7d7wzv4o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jun 2026",
-      "excerpt": "Signs that traffic through the key Strait of Hormuz shipping route is gradually resuming has helped to push the oil price down.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7800/live/6edd4700-7086-11f1-b1db-af71d47507d6.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "25 Jun 2026",
       "excerpt": "Start-ups are taking fresh approaches to geothermal energy, but will the economics work?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbb7/live/a859fe20-6b03-11f1-b1db-af71d47507d6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How you can save money on your energy bill as debts rise",
-      "link": "https://www.bbc.co.uk/news/articles/cwy2e3wx7xwo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jun 2026",
-      "excerpt": "Experts say support is available as total debt and arrears to suppliers hit a new record.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dcc/live/63478af0-59e2-11f1-ad45-03463f64a221.jpg"
     }
   ]
 }
