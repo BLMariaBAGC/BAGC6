@@ -1,5 +1,5 @@
 {
-  "updated": "26 Jun 2026, 03:32 UTC",
+  "updated": "26 Jun 2026, 07:50 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Asia stock markets slide as tech shares slump",
+      "link": "https://www.bbc.co.uk/news/articles/ce8jz40k00ro?at_medium=RSS&at_campaign=rss",
+      "date": "26 Jun 2026",
+      "excerpt": "Trading on South Korea's Kospi index was halted for the third time this week to prevent panic selling.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7de/live/1bd3b890-7118-11f1-b071-fbfa4a952290.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Teens who hacked TfL were known to police years before cyber-attack",
       "link": "https://www.bbc.co.uk/news/articles/cx2kx8jr244o?at_medium=RSS&at_campaign=rss",
       "date": "25 Jun 2026",
       "excerpt": "Owen Flowers and Thalha Jubair were convicted for their roles in the attack, which led to large costs for Transport for London.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4a3/live/85237e00-6e54-11f1-b648-1b56797cb133.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ryanair says it will reluctantly not charge parents to sit next to children",
-      "link": "https://www.bbc.co.uk/news/articles/cdr4zy4e1n1o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jun 2026",
-      "excerpt": "The airline had typically charged adults a fee of £8 each way to sit with their young children.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bff4/live/226c9520-70bc-11f1-b1db-af71d47507d6.jpg"
     },
     {
       "source": "BBC Business",
