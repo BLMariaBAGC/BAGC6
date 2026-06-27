@@ -1,5 +1,5 @@
 {
-  "updated": "26 Jun 2026, 23:03 UTC",
+  "updated": "27 Jun 2026, 02:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -130,6 +130,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How to live and work in extreme heat",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/26/how-to-live-and-work-in-extreme-heat/",
+      "date": "26 Jun 2026",
+      "excerpt": "With Europe in the grip of an unusually intense heatwave, what can be learned from regions more used to extreme heat? Drawing on their research in South Asia Sohini Kar and Mahvish Shami argue that heat is not experienced equally, with info",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How the war in Iran changes China’s decarbonisation path",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/25/how-the-war-in-iran-changes-chinas-decarbonisation-path/",
       "date": "25 Jun 2026",
@@ -173,22 +182,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How to improve the Bank of England’s forecasts",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/18/how-to-improve-the-bank-of-englands-forecasts/",
-      "date": "18 Jun 2026",
-      "excerpt": "The Bank of England’s forecasts use a suite of models and expert judgements to make predictions about the prospects for Britain’s economy. Their publication attracts huge media attention and are monitored closely by financial markets. But a",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Chart-1.jpg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Trump threatens 100% tariff on European nations over tech tax",
       "link": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
-      "date": "26 Jun 2026",
+      "date": "27 Jun 2026",
       "excerpt": "The US president says \"Numerous European countries\" have been discussing bringing in such a levy.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41d0/live/53fe5940-71a0-11f1-91d4-ab93ad9f4654.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Three unusual things about the King's tax bill",
+      "link": "https://www.bbc.co.uk/news/articles/ce8kg7zg09ko?at_medium=RSS&at_campaign=rss",
+      "date": "26 Jun 2026",
+      "excerpt": "King Charles paid £12.9m in tax for 2024-2025 - here's what we know about his unique tax situation.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6317/live/78d38340-7186-11f1-bcec-7f8ed2660388.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "26 Jun 2026",
       "excerpt": "When the conflict began on 28 February, fuel costs jumped as the war disrupted the production and transportation of energy across the Middle East.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28b1/live/f482fc20-5375-11f1-b319-63ed6ac90e5f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The abundant but expensive energy source that's under your feet",
-      "link": "https://www.bbc.co.uk/news/articles/cj3gj1n8yz8o?at_medium=RSS&at_campaign=rss",
-      "date": "26 Jun 2026",
-      "excerpt": "Start-ups are taking fresh approaches to geothermal energy, but will the economics work?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbb7/live/a859fe20-6b03-11f1-b1db-af71d47507d6.jpg"
     }
   ]
 }
