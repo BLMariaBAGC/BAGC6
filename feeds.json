@@ -1,5 +1,5 @@
 {
-  "updated": "28 Jun 2026, 03:37 UTC",
+  "updated": "28 Jun 2026, 07:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -49,28 +49,28 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "New vitamin B12 therapy shows promise against deadly brain cancer",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260622091518.htm",
+      "date": "27 Jun 2026",
+      "excerpt": "Researchers have identified a vitamin B12–based compound that can cross the blood-brain barrier and home in on glioblastoma tumors. In animal studies, the compound accumulated preferentially in tumor tissue and delivered sustained nitric ox",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Massive study links teen marijuana use to double the risk of serious mental illness",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260622091515.htm",
+      "date": "27 Jun 2026",
+      "excerpt": "Teens who use cannabis may face a substantially greater risk of developing serious mental health conditions, including psychotic and bipolar disorders, according to a study of more than 463,000 adolescents. Researchers found cannabis use of",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "A common vitamin could help fight one of the deadliest brain cancers",
       "link": "https://www.sciencedaily.com/releases/2026/06/260622014313.htm",
       "date": "22 Jun 2026",
       "excerpt": "A clinical trial is exploring whether high doses of vitamin B3 could give patients with glioblastoma a better chance against the aggressive brain cancer. Scientists found that niacin may help revive immune cells that tumors shut down, allow",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Tubulin prevents toxic brain protein clumps linked to Alzheimer’s and Parkinson’s",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260620100432.htm",
-      "date": "21 Jun 2026",
-      "excerpt": "Scientists at Baylor College of Medicine may have uncovered a promising new way to combat Alzheimer’s and Parkinson’s disease. Instead of trying to stop Tau and alpha-synuclein proteins from gathering into tiny droplets inside brain cells, ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Yale study finds nearly half of older adults improved with age",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260620100428.htm",
-      "date": "21 Jun 2026",
-      "excerpt": "A long-term Yale study is challenging one of the biggest myths about aging. Nearly half of adults over 65 improved physically, mentally, or both over time, despite the common belief that aging means constant decline. Researchers found that ",
       "image": ""
     },
     {
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Could you handle a 20-plus hour flight? This airline is banking on it",
+      "link": "https://www.bbc.co.uk/news/articles/cx2j7v51l5ko?at_medium=RSS&at_campaign=rss",
+      "date": "26 Jun 2026",
+      "excerpt": "Some analysts say the first non-stop London to Sydney flight is a major milestone - but would you buy a ticket?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22df/live/e20d5010-717d-11f1-b1db-af71d47507d6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Three unusual things about the King's tax bill",
       "link": "https://www.bbc.co.uk/news/articles/ce8kg7zg09ko?at_medium=RSS&at_campaign=rss",
       "date": "26 Jun 2026",
@@ -225,15 +234,6 @@
       "date": "26 Jun 2026",
       "excerpt": "Trading on South Korea's Kospi index was halted for the third time this week to prevent panic selling.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7de/live/1bd3b890-7118-11f1-b071-fbfa4a952290.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What's happening to petrol prices now oil is back to pre-Iran war levels?",
-      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "date": "26 Jun 2026",
-      "excerpt": "When the conflict began on 28 February, fuel costs jumped as the war disrupted the production and transportation of energy across the Middle East.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28b1/live/f482fc20-5375-11f1-b319-63ed6ac90e5f.jpg"
     }
   ]
 }
