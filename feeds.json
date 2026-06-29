@@ -1,5 +1,5 @@
 {
-  "updated": "29 Jun 2026, 03:42 UTC",
+  "updated": "29 Jun 2026, 08:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260625060159.htm",
       "date": "25 Jun 2026",
       "excerpt": "Healthy older adults experienced measurable improvements in memory, physical performance, and stress after taking placebo pills for just three weeks. The most surprising finding was that the placebo often worked even when participants knew ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Brain activity under anesthesia challenges what we know about consciousness",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260624025514.htm",
+      "date": "28 Jun 2026",
+      "excerpt": "The unconscious brain appears to be far more capable than scientists once believed. Researchers found that patients under general anesthesia could still process language at a sophisticated level, distinguishing nouns, verbs, and adjectives ",
       "image": ""
     },
     {
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260622091515.htm",
       "date": "27 Jun 2026",
       "excerpt": "Teens who use cannabis may face a substantially greater risk of developing serious mental health conditions, including psychotic and bipolar disorders, according to a study of more than 463,000 adolescents. Researchers found cannabis use of",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A common vitamin could help fight one of the deadliest brain cancers",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260622014313.htm",
-      "date": "22 Jun 2026",
-      "excerpt": "A clinical trial is exploring whether high doses of vitamin B3 could give patients with glioblastoma a better chance against the aggressive brain cancer. Scientists found that niacin may help revive immune cells that tumors shut down, allow",
       "image": ""
     },
     {
@@ -184,6 +184,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "South Korea unveils $880bn chip and AI investment plan",
+      "link": "https://www.bbc.co.uk/news/articles/c9q2pwzngjqo?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jun 2026",
+      "excerpt": "It comes as regional rivals like Taiwan, China and Japan are investing heavily in chip factories and other technology.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9182/live/a6bd7ef0-7384-11f1-9e21-8bd55db03589.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Got the tennis bug? How to play sport without paying",
+      "link": "https://www.bbc.co.uk/news/articles/crlw2xw1yy2o?at_medium=RSS&at_campaign=rss",
+      "date": "28 Jun 2026",
+      "excerpt": "As the world's best players begin play at Wimbledon, how can you get into sport on a budget.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbb2/live/cc51f620-714d-11f1-8836-a15622d321c0.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Rogue builder left our roof leaking and spent £30K we gave him in Lanzarote",
+      "link": "https://www.bbc.co.uk/news/articles/cze9wpny62go?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jun 2026",
+      "excerpt": "Christian Williams benefitted to the tune of £160,000 from offending - but had just £1 to pay back.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5182/live/20068a40-7330-11f1-873e-b188b9703f87.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Trump threatens 100% tariff on European nations over tech tax",
       "link": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
       "date": "27 Jun 2026",
@@ -207,33 +234,6 @@
       "date": "26 Jun 2026",
       "excerpt": "King Charles paid £12.9m in tax for 2024-2025 - here's what we know about his unique tax situation.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6317/live/78d38340-7186-11f1-bcec-7f8ed2660388.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Who could be the UK's next chancellor?",
-      "link": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Jun 2026",
-      "excerpt": "The prime minister's resignation has fired the starting gun on the race to be in charge of the UK's finances.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72c1/live/b44abe80-6efb-11f1-b1db-af71d47507d6.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I'm back at home again after uni - here's how I'm making it work",
-      "link": "https://www.bbc.co.uk/news/articles/cg53q6dl0plo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jun 2026",
-      "excerpt": "Rising costs are forcing more young adults to live with their parents, here's how not to come to blows.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9469/live/74937fd0-6d79-11f1-a2ba-775ae811ce10.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Got the tennis bug? How to play sport without paying",
-      "link": "https://www.bbc.co.uk/news/articles/crlw2xw1yy2o?at_medium=RSS&at_campaign=rss",
-      "date": "28 Jun 2026",
-      "excerpt": "As the world's best players begin play at Wimbledon, how can you get into sport on a budget.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbb2/live/cc51f620-714d-11f1-8836-a15622d321c0.png"
     }
   ]
 }
