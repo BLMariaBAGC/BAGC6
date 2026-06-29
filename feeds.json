@@ -1,5 +1,5 @@
 {
-  "updated": "29 Jun 2026, 08:57 UTC",
+  "updated": "29 Jun 2026, 14:02 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Tailor Your Digital Strategy to Reach Every Customer",
+      "link": "https://hbr.org/2026/06/tailor-your-digital-strategy-to-reach-every-customer",
+      "date": "29 Jun 2026",
+      "excerpt": "Leaders need to align design, decision rights, and governance with each go-to-market model to unlock growth.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How to Get AI to Surface Your Brand",
+      "link": "https://hbr.org/2026/06/how-to-get-ai-to-surface-your-brand",
+      "date": "29 Jun 2026",
+      "excerpt": "Focus on making product benefits easier to compare, verify, and connect to customer problems.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "AI Is Changing Cyber Risk. Here’s How SMBs Can Respond.",
       "link": "https://hbr.org/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond",
       "date": "26 Jun 2026",
@@ -107,24 +125,6 @@
       "link": "https://hbr.org/2026/06/great-leaders-question-philosophical-assumptions",
       "date": "25 Jun 2026",
       "excerpt": "Three philosophical proficiencies for leading in a world where old certainties are breaking down.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Teach Your AI How You Make Decisions",
-      "link": "https://hbr.org/2026/06/teach-your-ai-how-you-make-decisions",
-      "date": "25 Jun 2026",
-      "excerpt": "Companies need to translate tacit principles into structured guidance for agents.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Startup Founders Need a New Sales Playbook",
-      "link": "https://hbr.org/2026/06/startup-founders-need-a-new-sales-playbook",
-      "date": "24 Jun 2026",
-      "excerpt": "Today&#8217;s buyers are overwhelmed by options, skeptical of claims, and slow to commit. This framework can help.",
       "image": ""
     },
     {
@@ -184,6 +184,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "British American Tobacco to cut 9,000 jobs",
+      "link": "https://www.bbc.co.uk/news/articles/c3vyen243dno?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jun 2026",
+      "excerpt": "The company had said earlier this year it was planning savings to make it \"more digital and AI-focused\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a28/live/96128100-73a1-11f1-8e1d-bbbb1017d210.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Ford rehires human engineers after AI fails to match quality checks",
+      "link": "https://www.bbc.co.uk/news/articles/cgrkd41n2v9o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jun 2026",
+      "excerpt": "The car-maker found AI quality checks failed to match the skill of veteran technicians.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad26/live/e5db0a70-73ad-11f1-9da1-db101e3ae6ed.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "South Korea unveils $880bn chip and AI investment plan",
       "link": "https://www.bbc.co.uk/news/articles/c9q2pwzngjqo?at_medium=RSS&at_campaign=rss",
       "date": "29 Jun 2026",
@@ -193,9 +211,9 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Got the tennis bug? How to play sport without paying",
+      "title": "Inspired by Wimbledon and the World Cup? Here's how to play sport for free",
       "link": "https://www.bbc.co.uk/news/articles/crlw2xw1yy2o?at_medium=RSS&at_campaign=rss",
-      "date": "28 Jun 2026",
+      "date": "29 Jun 2026",
       "excerpt": "As the world's best players begin play at Wimbledon, how can you get into sport on a budget.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbb2/live/cc51f620-714d-11f1-8836-a15622d321c0.png"
     },
@@ -211,29 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump threatens 100% tariff on European nations over tech tax",
-      "link": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
-      "date": "27 Jun 2026",
-      "excerpt": "The US president says \"Numerous European countries\" have been discussing bringing in such a levy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41d0/live/53fe5940-71a0-11f1-91d4-ab93ad9f4654.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Could you handle a 20-plus hour flight? This airline is banking on it",
       "link": "https://www.bbc.co.uk/news/articles/cx2j7v51l5ko?at_medium=RSS&at_campaign=rss",
       "date": "26 Jun 2026",
       "excerpt": "Some analysts say the first non-stop London to Sydney flight is a major milestone - but would you buy a ticket?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22df/live/e20d5010-717d-11f1-b1db-af71d47507d6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Three unusual things about the King's tax bill",
-      "link": "https://www.bbc.co.uk/news/articles/ce8kg7zg09ko?at_medium=RSS&at_campaign=rss",
-      "date": "26 Jun 2026",
-      "excerpt": "King Charles paid £12.9m in tax for 2024-2025 - here's what we know about his unique tax situation.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6317/live/78d38340-7186-11f1-bcec-7f8ed2660388.jpg"
     }
   ]
 }
