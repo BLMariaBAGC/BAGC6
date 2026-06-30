@@ -1,6 +1,24 @@
 {
-  "updated": "30 Jun 2026, 03:30 UTC",
+  "updated": "30 Jun 2026, 07:51 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists may have finally found how Alzheimer's spreads through the brain",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260630020521.htm",
+      "date": "30 Jun 2026",
+      "excerpt": "A common brain protein may be giving Alzheimer’s disease an unexpected way to spread, carrying toxic Tau proteins from damaged neurons into healthy ones. By blocking these harmful protein packages before they reach new cells, researchers be",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists say creatine may help fight depression",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260630020231.htm",
+      "date": "30 Jun 2026",
+      "excerpt": "Creatine is best known as a muscle-building supplement, but scientists are now investigating whether it could also help treat depression by boosting the brain's energy supply. A new review examined five randomized clinical trials involving ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260623083106.htm",
       "date": "26 Jun 2026",
       "excerpt": "A new study found that fructose and glucose may look the same on a nutrition label, but the brain treats them very differently. In mice, glucose strongly reduced activity in hunger-promoting brain cells, while fructose had a much weaker eff",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "New vitamin B12 therapy shows promise against deadly brain cancer",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260622091518.htm",
-      "date": "27 Jun 2026",
-      "excerpt": "Researchers have identified a vitamin B12–based compound that can cross the blood-brain barrier and home in on glioblastoma tumors. In animal studies, the compound accumulated preferentially in tumor tissue and delivered sustained nitric ox",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Massive study links teen marijuana use to double the risk of serious mental illness",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260622091515.htm",
-      "date": "27 Jun 2026",
-      "excerpt": "Teens who use cannabis may face a substantially greater risk of developing serious mental health conditions, including psychotic and bipolar disorders, according to a study of more than 463,000 adolescents. Researchers found cannabis use of",
       "image": ""
     },
     {
@@ -128,13 +128,67 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The purpose of the corporation",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/29/the-purpose-of-the-corporation/",
+      "date": "29 Jun 2026",
+      "excerpt": "What is a company for? Is it explained by shareholder primacy’s maximising of profits or stakeholder theory’s integration of ethics into corporate purpose? In a new book Sandy Pepper argues that neither perspective fully satisfies, but that",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How to live and work in extreme heat",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/26/how-to-live-and-work-in-extreme-heat/",
+      "date": "26 Jun 2026",
+      "excerpt": "With Europe in the grip of an unusually intense heatwave, what can be learned from regions more used to extreme heat? Drawing on their research in South Asia Sohini Kar and Mahvish Shami argue that heat is not experienced equally, with info",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How the war in Iran changes China’s decarbonisation path",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/25/how-the-war-in-iran-changes-chinas-decarbonisation-path/",
+      "date": "25 Jun 2026",
+      "excerpt": "Higher prices and unstable supply of imported oil and gas incentivise China to burn more coal in the short term. That will increase its carbon emissions. But in the longer term, argues Mathias Larsen, the security implications of relying on",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How tricky is it to destroy an international financial centre? Brexit and the City of London",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/24/brexit-10-how-tricky-is-it-to-destroy-an-international-financial-centre-brexit-and-the-city-of-london/",
+      "date": "24 Jun 2026",
+      "excerpt": "The run up to the Brexit vote in 2016 included dire predictions about what leaving the EU would do to the City of London and the capital’s status as a premier global financial hub. Elizabeth Howell argues that whilst London’s international ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-4-1024x192.jpeg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Control without credibility – the post-Brexit migration paradox",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/23/brexit-10-control-without-credibility-the-post-brexit-migration-paradox/",
+      "date": "23 Jun 2026",
+      "excerpt": "On the tenth anniversary of Britain’s referendum on leaving the EU, Jonathan Portes looks at the impact of Brexit on immigration, a central tenant of the Leave campaign’s pledge to “take back control”. The country experienced a migration bo",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-3-1024x192.jpeg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The impact of Brexit on the British food industry",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/22/brexit10-the-impact-of-brexit-on-the-british-food-industry/",
+      "date": "22 Jun 2026",
+      "excerpt": "While many famers initially supported Brexit, other parts of the food sector were distinctly sceptical or actively opposed. Ahead of the ten-year anniversary of the referendum Erik Millstone describes how Brexit harmed imports, exports, foo",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-2-1024x192.jpeg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Homes harder to sell as high mortgage rates frustrate buyers",
       "link": "https://www.bbc.co.uk/news/articles/cdr4env2v14o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jun 2026",
+      "date": "30 Jun 2026",
       "excerpt": "Three in five homes listed for sale since January remain on the market, says property portal Zoopla.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3821/live/5bbec4e0-73c0-11f1-aaa1-3f07d3ad2c35.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b22e/live/367d6f50-744d-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
@@ -157,29 +211,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Hollywood director gets two and a half years in prison for defrauding Netflix",
+      "link": "https://www.bbc.co.uk/news/articles/cwy0rrnq317o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jun 2026",
+      "excerpt": "He was accused of using money for a Netflix show on lavish purchases like Rolls Royces and Ferraris.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78c9/live/30070100-73bb-11f1-aaa1-3f07d3ad2c35.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "India's biggest share sales tell the story of a country glued to its phones",
+      "link": "https://www.bbc.co.uk/news/articles/cdej6ej7w4go?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jun 2026",
+      "excerpt": "NSE and Jio Platforms embody the sweeping changes in how India has consumed, invested and transacted over the past decade.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cba/live/146405e0-72e6-11f1-b28d-37d67ec29837.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Burnham's 'Manchesterism' could change the UK, but is not yet a full economic plan",
       "link": "https://www.bbc.co.uk/news/articles/cpq3yxdyx9do?at_medium=RSS&at_campaign=rss",
       "date": "29 Jun 2026",
       "excerpt": "Andy Burnham's speech depicted a different way of seeing and running the UK, though there are many other questions about the detail.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7238/live/8ad52370-73cd-11f1-86e4-8d1ac421c5df.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Will Andy Burnham's devolution plan raise economic growth?",
-      "link": "https://www.bbc.co.uk/news/articles/c5yz4x9ew49o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jun 2026",
-      "excerpt": "BBC Verify has looked at what impact further devolution could be expected to have on the UK.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2216/live/3afab980-73de-11f1-b1db-af71d47507d6.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "British American Tobacco to cut 9,000 jobs",
-      "link": "https://www.bbc.co.uk/news/articles/c3vyen243dno?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jun 2026",
-      "excerpt": "The company had said earlier this year it was planning savings to make it \"more digital and AI-focused\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a28/live/96128100-73a1-11f1-8e1d-bbbb1017d210.jpg"
     }
   ]
 }
