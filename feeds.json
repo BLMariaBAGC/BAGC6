@@ -1,5 +1,5 @@
 {
-  "updated": "30 Jun 2026, 17:51 UTC",
+  "updated": "30 Jun 2026, 19:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The End of Independent Federal Agencies Will Change Your Business",
+      "link": "/2026/06/the-end-of-independent-federal-agencies-will-change-your-business",
+      "date": "30 Jun 2026",
+      "excerpt": "What leaders need to know about the Trump v. Slaughter decision.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "AI Is Squeezing Middle Managers",
       "link": "/2026/06/ai-is-squeezing-middle-managers",
       "date": "30 Jun 2026",
@@ -128,24 +137,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Is Changing Cyber Risk. Here’s How SMBs Can Respond.",
-      "link": "/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond",
-      "date": "26 Jun 2026",
-      "excerpt": "Amid a surge in cyberattacks, security expert Daniel Dobrygowski shares steps every small to midsize business can take to avoid being an easy target.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How different drug regulators construct global authority – and why it matters for firms",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/30/how-different-drug-regulators-construct-global-authority-and-why-it-matters-for-firms/",
-      "date": "29 Jun 2026",
-      "excerpt": "Global drug regulation is converging technically but diverging politically. America’s loosening grip on the global pharmaceutical system has created a newly competitive opportunities for the EU and China. Damien Ng argues that for countries",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "The purpose of the corporation",
@@ -191,6 +182,24 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-3-1024x192.jpeg"
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The impact of Brexit on the British food industry",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/22/brexit10-the-impact-of-brexit-on-the-british-food-industry/",
+      "date": "22 Jun 2026",
+      "excerpt": "While many famers initially supported Brexit, other parts of the food sector were distinctly sceptical or actively opposed. Ahead of the ten-year anniversary of the referendum Erik Millstone describes how Brexit harmed imports, exports, foo",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-2-1024x192.jpeg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Australia sues Amazon for making allegedly unfair contracts with subscribers",
+      "link": "https://www.bbc.co.uk/news/articles/c20yz9rzwy0o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jun 2026",
+      "excerpt": "The Australian Competition and Consumer Commission (ACCC) says Amazon has broken consumer protection law",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b21/live/28f27770-74a9-11f1-9c5b-41132a229f02.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Cruise passengers 'stranded' after air con failure to be flown home",
@@ -234,15 +243,6 @@
       "date": "29 Jun 2026",
       "excerpt": "He was accused of using money for a Netflix show on lavish purchases like Rolls Royces and Ferraris.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78c9/live/30070100-73bb-11f1-aaa1-3f07d3ad2c35.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Shetland backs plan to connect islands with £1.5bn undersea tunnels",
-      "link": "https://www.bbc.co.uk/news/articles/cvgl1egyl79o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jun 2026",
-      "excerpt": "The undersea links between some of the UK's most northerly islands could be in place within eight years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d222/live/b0610690-73f0-11f1-b1db-af71d47507d6.jpg"
     }
   ]
 }
