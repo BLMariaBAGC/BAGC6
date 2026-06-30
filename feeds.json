@@ -1,5 +1,5 @@
 {
-  "updated": "30 Jun 2026, 07:51 UTC",
+  "updated": "30 Jun 2026, 10:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Shetland set to back £1.5bn plan to connect islands with undersea tunnels",
+      "link": "https://www.bbc.co.uk/news/articles/cvgl1egyl79o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jun 2026",
+      "excerpt": "The undersea links between some of the UK's most northerly islands could be in place within eight years.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d222/live/b0610690-73f0-11f1-b1db-af71d47507d6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "India's biggest share sales tell the story of a country glued to its phones",
       "link": "https://www.bbc.co.uk/news/articles/cdej6ej7w4go?at_medium=RSS&at_campaign=rss",
       "date": "30 Jun 2026",
       "excerpt": "NSE and Jio Platforms embody the sweeping changes in how India has consumed, invested and transacted over the past decade.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cba/live/146405e0-72e6-11f1-b28d-37d67ec29837.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Burnham's 'Manchesterism' could change the UK, but is not yet a full economic plan",
-      "link": "https://www.bbc.co.uk/news/articles/cpq3yxdyx9do?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jun 2026",
-      "excerpt": "Andy Burnham's speech depicted a different way of seeing and running the UK, though there are many other questions about the detail.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7238/live/8ad52370-73cd-11f1-86e4-8d1ac421c5df.jpg"
     }
   ]
 }
