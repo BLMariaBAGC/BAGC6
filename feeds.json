@@ -1,5 +1,5 @@
 {
-  "updated": "30 Jun 2026, 10:55 UTC",
+  "updated": "30 Jun 2026, 14:14 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,8 +76,17 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How Top World Cup, NBA, and NFL Coaches Make Better Decisions Under Pressure",
+      "link": "/podcast/2026/06/how-top-world-cup-nba-and-nfl-coaches-make-better-decisions-under-pressure",
+      "date": "30 Jun 2026",
+      "excerpt": "A conversation with sports industry experts Alan McCall and Johann Bilsborough on preparing for the tough moments.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Your Talent Strategy Has to Keep Up with Your AI Transformation",
-      "link": "https://hbr.org/2026/06/your-talent-strategy-has-to-keep-up-with-your-ai-transformation",
+      "link": "/2026/06/your-talent-strategy-has-to-keep-up-with-your-ai-transformation",
       "date": "29 Jun 2026",
       "excerpt": "Three ways to design a long-term talent pipeline.",
       "image": ""
@@ -85,8 +94,17 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "When Evaluating an M&A Opportunity, Consider the Broader Digital Ecosystem",
+      "link": "/2026/06/when-evaluating-an-ma-opportunity-consider-the-broader-digital-ecosystem",
+      "date": "30 Jun 2026",
+      "excerpt": "Ask: To what extent would a prospective acquisition create value through app developers, data providers, and agent platforms?",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Tailor Your Digital Strategy to Reach Every Customer",
-      "link": "https://hbr.org/2026/06/tailor-your-digital-strategy-to-reach-every-customer",
+      "link": "/2026/06/tailor-your-digital-strategy-to-reach-every-customer",
       "date": "29 Jun 2026",
       "excerpt": "Leaders need to align design, decision rights, and governance with each go-to-market model to unlock growth.",
       "image": ""
@@ -95,7 +113,7 @@
       "source": "Harvard Business Review",
       "feedId": "hbr",
       "title": "How to Get AI to Surface Your Brand",
-      "link": "https://hbr.org/2026/06/how-to-get-ai-to-surface-your-brand",
+      "link": "/2026/06/how-to-get-ai-to-surface-your-brand",
       "date": "29 Jun 2026",
       "excerpt": "Focus on making product benefits easier to compare, verify, and connect to customer problems.",
       "image": ""
@@ -104,27 +122,18 @@
       "source": "Harvard Business Review",
       "feedId": "hbr",
       "title": "AI Is Changing Cyber Risk. Here’s How SMBs Can Respond.",
-      "link": "https://hbr.org/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond",
+      "link": "/2026/06/ai-is-changing-cyber-risk-heres-how-smbs-can-respond",
       "date": "26 Jun 2026",
       "excerpt": "Amid a surge in cyberattacks, security expert Daniel Dobrygowski shares steps every small to midsize business can take to avoid being an easy target.",
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Two-Organizations Problem",
-      "link": "https://hbr.org/2026/06/the-two-organizations-problem",
-      "date": "26 Jun 2026",
-      "excerpt": "Successful leaders understand the gap between the organization that exists on paper and the one employees experience every day.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Adoption Is Overloading Your Middle Managers",
-      "link": "https://hbr.org/2026/06/ai-adoption-is-overloading-your-middle-managers",
-      "date": "26 Jun 2026",
-      "excerpt": "They&#8217;re caught between executive ambition and operational reality, with little formal support.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How different drug regulators construct global authority – and why it matters for firms",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/30/how-different-drug-regulators-construct-global-authority-and-why-it-matters-for-firms/",
+      "date": "29 Jun 2026",
+      "excerpt": "Global drug regulation is converging technically but diverging politically. America’s loosening grip on the global pharmaceutical system has created a newly competitive opportunities for the EU and China. Damien Ng argues that for countries",
       "image": ""
     },
     {
@@ -173,15 +182,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-3-1024x192.jpeg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The impact of Brexit on the British food industry",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/22/brexit10-the-impact-of-brexit-on-the-british-food-industry/",
-      "date": "22 Jun 2026",
-      "excerpt": "While many famers initially supported Brexit, other parts of the food sector were distinctly sceptical or actively opposed. Ahead of the ten-year anniversary of the referendum Erik Millstone describes how Brexit harmed imports, exports, foo",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-2-1024x192.jpeg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Homes harder to sell as high mortgage rates frustrate buyers",
@@ -220,7 +220,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Shetland set to back £1.5bn plan to connect islands with undersea tunnels",
+      "title": "Shetland backs plan to connect islands with £1.5bn undersea tunnels",
       "link": "https://www.bbc.co.uk/news/articles/cvgl1egyl79o?at_medium=RSS&at_campaign=rss",
       "date": "30 Jun 2026",
       "excerpt": "The undersea links between some of the UK's most northerly islands could be in place within eight years.",
