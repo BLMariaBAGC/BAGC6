@@ -1,5 +1,5 @@
 {
-  "updated": "30 Jun 2026, 14:14 UTC",
+  "updated": "30 Jun 2026, 17:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "AI Is Squeezing Middle Managers",
+      "link": "/2026/06/ai-is-squeezing-middle-managers",
+      "date": "30 Jun 2026",
+      "excerpt": "In the June 29, 2026, edition of The Insider, managing editor Gretchen Gavett highlights how AI is quietly burying middle managers and why the era of cheap capital is ending.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When Evaluating an M&A Opportunity, Consider the Broader Digital Ecosystem",
+      "link": "/2026/06/when-evaluating-an-ma-opportunity-consider-the-broader-digital-ecosystem",
+      "date": "30 Jun 2026",
+      "excerpt": "Ask: To what extent would a prospective acquisition create value through app developers, data providers, and agent platforms?",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How Top World Cup, NBA, and NFL Coaches Make Better Decisions Under Pressure",
       "link": "/podcast/2026/06/how-top-world-cup-nba-and-nfl-coaches-make-better-decisions-under-pressure",
       "date": "30 Jun 2026",
@@ -89,15 +107,6 @@
       "link": "/2026/06/your-talent-strategy-has-to-keep-up-with-your-ai-transformation",
       "date": "29 Jun 2026",
       "excerpt": "Three ways to design a long-term talent pipeline.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When Evaluating an M&A Opportunity, Consider the Broader Digital Ecosystem",
-      "link": "/2026/06/when-evaluating-an-ma-opportunity-consider-the-broader-digital-ecosystem",
-      "date": "30 Jun 2026",
-      "excerpt": "Ask: To what extent would a prospective acquisition create value through app developers, data providers, and agent platforms?",
       "image": ""
     },
     {
@@ -184,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Cruise passengers 'stranded' after air con failure to be flown home",
+      "link": "https://www.bbc.co.uk/news/articles/cy0639x4dp8o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jun 2026",
+      "excerpt": "Tui has apologised and told passengers it has arranged flights home for tomorrow and a full refund.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/257b/live/e2d75360-7489-11f1-8546-8f19e4fe30f4.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Homes harder to sell as high mortgage rates frustrate buyers",
       "link": "https://www.bbc.co.uk/news/articles/cdr4env2v14o?at_medium=RSS&at_campaign=rss",
       "date": "30 Jun 2026",
@@ -225,15 +243,6 @@
       "date": "30 Jun 2026",
       "excerpt": "The undersea links between some of the UK's most northerly islands could be in place within eight years.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d222/live/b0610690-73f0-11f1-b1db-af71d47507d6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "India's biggest share sales tell the story of a country glued to its phones",
-      "link": "https://www.bbc.co.uk/news/articles/cdej6ej7w4go?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jun 2026",
-      "excerpt": "NSE and Jio Platforms embody the sweeping changes in how India has consumed, invested and transacted over the past decade.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cba/live/146405e0-72e6-11f1-b28d-37d67ec29837.jpg"
     }
   ]
 }
