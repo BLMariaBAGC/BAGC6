@@ -1,5 +1,5 @@
 {
-  "updated": "30 Jun 2026, 21:26 UTC",
+  "updated": "30 Jun 2026, 23:10 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Plea for households to read energy meter as prices rise",
+      "link": "https://www.bbc.co.uk/news/articles/c5yzqrpw2g8o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jun 2026",
+      "excerpt": "Household energy prices have risen by 13% a year as regulator Ofgem's latest price cap kicks in.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7116/live/a644e1c0-746f-11f1-b8da-6d87dfdc4508.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Why Gen Z are planning for life without a state pension",
+      "link": "https://www.bbc.co.uk/news/articles/c8e2yp1gg37o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jun 2026",
+      "excerpt": "Many younger people do not believe the state pension will exist when they are older",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a03/live/0c434d60-716c-11f1-8e1d-bbbb1017d210.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Australia sues Amazon for making allegedly unfair contracts with subscribers",
       "link": "https://www.bbc.co.uk/news/articles/c20yz9rzwy0o?at_medium=RSS&at_campaign=rss",
       "date": "30 Jun 2026",
@@ -225,24 +243,6 @@
       "date": "29 Jun 2026",
       "excerpt": "The Fire (Financially Independent, Retire Early) movement sees followers save as much as possible.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1662/live/8c9d1790-73e0-11f1-8546-8f19e4fe30f4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Chinese tycoon sentenced to 30 years in US jail",
-      "link": "https://www.bbc.co.uk/news/articles/cjeg15vw3z9o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jun 2026",
-      "excerpt": "Guo Wengui branded himself as a China critic, gaining followers who backed his fraudulent schemes.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c1d/live/f85c62b0-7417-11f1-8709-f3ededd8395d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Hollywood director gets two and a half years in prison for defrauding Netflix",
-      "link": "https://www.bbc.co.uk/news/articles/cwy0rrnq317o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jun 2026",
-      "excerpt": "He was accused of using money for a Netflix show on lavish purchases like Rolls Royces and Ferraris.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78c9/live/30070100-73bb-11f1-aaa1-3f07d3ad2c35.jpg"
     }
   ]
 }
