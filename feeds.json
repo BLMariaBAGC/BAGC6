@@ -1,5 +1,5 @@
 {
-  "updated": "01 Jul 2026, 00:35 UTC",
+  "updated": "01 Jul 2026, 00:42 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How different drug regulators construct global authority – and why it matters for firms",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/30/how-different-drug-regulators-construct-global-authority-and-why-it-matters-for-firms/",
+      "date": "29 Jun 2026",
+      "excerpt": "Global drug regulation is converging technically but diverging politically. America’s loosening grip on the global pharmaceutical system has created a newly competitive opportunities for the EU and China. Damien Ng argues that for countries",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "The purpose of the corporation",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/29/the-purpose-of-the-corporation/",
       "date": "29 Jun 2026",
@@ -182,13 +191,13 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-3-1024x192.jpeg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The impact of Brexit on the British food industry",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/22/brexit10-the-impact-of-brexit-on-the-british-food-industry/",
-      "date": "22 Jun 2026",
-      "excerpt": "While many famers initially supported Brexit, other parts of the food sector were distinctly sceptical or actively opposed. Ahead of the ten-year anniversary of the referendum Erik Millstone describes how Brexit harmed imports, exports, foo",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-2-1024x192.jpeg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump made more than $1bn from crypto in first year back in office",
+      "link": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jul 2026",
+      "excerpt": "It compares with more than $600m in total income that Trump reported in his last financial disclosure.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4736/live/00072a20-74dd-11f1-816e-6b18feb3817d.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "30 Jun 2026",
       "excerpt": "Tui has apologised and told passengers it has arranged flights home for tomorrow and a full refund.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/257b/live/e2d75360-7489-11f1-8546-8f19e4fe30f4.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Homes harder to sell as high mortgage rates frustrate buyers",
-      "link": "https://www.bbc.co.uk/news/articles/cdr4env2v14o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jun 2026",
-      "excerpt": "Three in five homes listed for sale since January remain on the market, says property portal Zoopla.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b22e/live/367d6f50-744d-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
