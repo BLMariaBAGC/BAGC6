@@ -743,8 +743,8 @@ Scenario: ${scenario.title}. Their role: ${userRole || "Not specified"}. Seniori
 ${seniorityCtx ? `Scoring standard: ${seniorityCtx} All feedback and scores must be calibrated to this level. What is strong at manager level may be insufficient at director level. Be honest about that gap.` : ""}
 Full conversation: ${fullConv}
 Return ONLY valid JSON:
-{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences overall performance calibrated to their seniority level, direct honest empowering","commStyle":"Primary communication style used","styleNotes":"1-2 sentences how this style served them at their level","strengths":["Strength 1 specific to their level","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences. Name the gap between current and excellent at ${seniorityLabel} level.","registerNote":"1 sentence on whether their language register matched their seniority level. Be honest.","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in scene","takeaway":"One powerful sentence to carry into the real conversation","nextStep":"One specific scenario or skill to practise next time. If their register was below their seniority level, recommend the Skills Lab Executive Presence module."}
-Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering.`;
+{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences overall performance calibrated to their seniority level, direct honest empowering","commStyle":"Primary communication style used","styleNotes":"1-2 sentences how this style served them at their level","strengths":["Strength 1 specific to their level","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences. Name the gap between current and excellent at ${seniorityLabel} level.","alternativeResponse":"A single example of what their WEAKEST moment in the conversation could have sounded like if handled at the level they are working toward. Write it as the actual words they could have said, in first person, 2-4 sentences. Make it feel achievable not perfect. Precede it with one sentence naming which moment this relates to.","skillsLabModule":"Based on the primary development area, recommend ONE of these exact values: leadership, communication, executive, thinking. Choose the one most relevant to what they most need to build.","registerNote":"1 sentence on whether their language register matched their seniority level. Be honest.","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in scene","takeaway":"One powerful sentence to carry into the real conversation","nextStep":"One specific scenario or skill to practise next time. If their register was below their seniority level, recommend the Skills Lab Executive Presence module."}
+Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never use em dashes.`;
     try {
       const reply = await callAI("You are a senior performance strategist specialising in leadership communication.", [{ role:"user", content:prompt }]);
       const parsed = JSON.parse(reply.replace(/```json|```/g,"").trim());
@@ -1325,6 +1325,45 @@ ${registerSection}
               <div style={s.debriefSectionTitle}>Next Time in the Lab</div>
               <div style={s.debriefCard}><div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", lineHeight:1.7 }}>{debrief.nextStep}</div></div>
             </div>
+
+            {debrief.alternativeResponse && (
+              <div style={{ marginBottom:32, background:"rgba(61,133,140,0.08)", border:`1px solid rgba(61,133,140,0.25)`, borderRadius:12, padding:"24px 22px" }}>
+                <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", letterSpacing:"0.18em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:12 }}>A Stronger Version of That Moment</div>
+                <div style={{ fontSize:"clamp(14px, 2.2vw, 18px)", color:"rgba(232,244,245,0.9)", lineHeight:1.75, fontFamily:"'Cormorant Garamond', Georgia, serif", fontStyle:"italic", marginBottom:16 }}>
+                  {debrief.alternativeResponse}
+                </div>
+                <div style={{ display:"flex", gap:10, flexWrap:"wrap" }}>
+                  {voiceEnabled && (
+                    <button
+                      onClick={() => speakText(debrief.alternativeResponse, true)}
+                      style={{ padding:"9px 16px", background:"transparent", border:`1px solid rgba(61,133,140,0.3)`, borderRadius:7, color:"rgba(232,244,245,0.75)", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(12px, 1.8vw, 15px)", cursor:"pointer" }}>
+                      🔊 Hear this read aloud
+                    </button>
+                  )}
+                  <button
+                    onClick={restartLab}
+                    style={{ padding:"9px 16px", background:TEAL, border:"none", borderRadius:7, color:DARKER, fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(12px, 1.8vw, 15px)", fontWeight:700, cursor:"pointer" }}>
+                    Try again with this in mind →
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {debrief.skillsLabModule && (
+              <div style={{ marginBottom:32, background:"rgba(212,168,83,0.06)", border:`1px solid rgba(212,168,83,0.2)`, borderRadius:12, padding:"22px 20px" }}>
+                <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", letterSpacing:"0.18em", textTransform:"uppercase", color:AMBER, fontWeight:600, marginBottom:10 }}>Build the Foundation in the Skills Lab</div>
+                <div style={{ fontSize:"clamp(13px, 2vw, 16px)", color:"rgba(232,244,245,0.75)", lineHeight:1.65, marginBottom:16 }}>
+                  {debrief.skillsLabModule === "leadership" && "Your development area points to Leadership Styles. Go to the Skills Lab to identify your default style and practise adapting it."}
+                  {debrief.skillsLabModule === "communication" && "Your development area points to Communication Styles. Go to the Skills Lab to build the vocabulary and drill the patterns that will serve you better."}
+                  {debrief.skillsLabModule === "executive" && "Your development area points to Executive Presence. Go to the Skills Lab to build the register and vocabulary of someone who speaks at boardroom level."}
+                  {debrief.skillsLabModule === "thinking" && "Your development area points to Thinking Frameworks. Go to the Skills Lab to sharpen how you think before you decide, argue or solve."}
+                </div>
+                <a href="https://bagc-6.vercel.app/rewire-skills-lab.html" target="_blank" rel="noreferrer"
+                  style={{ display:"inline-block", padding:"10px 18px", background:AMBER, border:"none", borderRadius:7, color:DARKER, fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(12px, 1.8vw, 15px)", fontWeight:700, cursor:"pointer", textDecoration:"none" }}>
+                  Go to Skills Lab →
+                </a>
+              </div>
+            )}
 
             {debrief.registerNote && (
               <div style={{ marginBottom:28, padding:"16px 20px", background:"rgba(212,168,83,0.07)", border:`1px solid rgba(212,168,83,0.2)`, borderRadius:10 }}>
