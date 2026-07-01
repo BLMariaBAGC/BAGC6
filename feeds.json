@@ -1,5 +1,5 @@
 {
-  "updated": "01 Jul 2026, 12:32 UTC",
+  "updated": "01 Jul 2026, 16:25 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The Case for Performance-First Management",
+      "link": "/2026/07/the-case-for-performance-first-management",
+      "date": "1 Jul 2026",
+      "excerpt": "Employees who say that their managers are performance-first report higher overall satisfaction with their experience.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When Developing an AI Strategy, Beware the Urgency Trap",
+      "link": "/2026/07/when-developing-an-ai-strategy-beware-the-urgency-trap",
+      "date": "1 Jul 2026",
+      "excerpt": "What organizations risk when they prioritize immediate challenges and quick wins.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Aspiring Leaders, Don’t Just Network Up",
+      "link": "/2026/07/aspiring-leaders-dont-just-network-up",
+      "date": "1 Jul 2026",
+      "excerpt": "Influence isn&#8217;t built on proximity to power alone.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The End of Independent Federal Agencies Will Change Your Business",
       "link": "/2026/06/the-end-of-independent-federal-agencies-will-change-your-business",
       "date": "30 Jun 2026",
@@ -108,87 +135,6 @@
       "date": "30 Jun 2026",
       "excerpt": "A conversation with sports industry experts Alan McCall and Johann Bilsborough on preparing for the tough moments.",
       "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Your Talent Strategy Has to Keep Up with Your AI Transformation",
-      "link": "/2026/06/your-talent-strategy-has-to-keep-up-with-your-ai-transformation",
-      "date": "29 Jun 2026",
-      "excerpt": "Three ways to design a long-term talent pipeline.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Tailor Your Digital Strategy to Reach Every Customer",
-      "link": "/2026/06/tailor-your-digital-strategy-to-reach-every-customer",
-      "date": "29 Jun 2026",
-      "excerpt": "Leaders need to align design, decision rights, and governance with each go-to-market model to unlock growth.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Get AI to Surface Your Brand",
-      "link": "/2026/06/how-to-get-ai-to-surface-your-brand",
-      "date": "29 Jun 2026",
-      "excerpt": "Focus on making product benefits easier to compare, verify, and connect to customer problems.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How different drug regulators construct global authority – and why it matters for firms",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/30/how-different-drug-regulators-construct-global-authority-and-why-it-matters-for-firms/",
-      "date": "29 Jun 2026",
-      "excerpt": "Global drug regulation is converging technically but diverging politically. America’s loosening grip on the global pharmaceutical system has created a newly competitive opportunities for the EU and China. Damien Ng argues that for countries",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The purpose of the corporation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/29/the-purpose-of-the-corporation/",
-      "date": "29 Jun 2026",
-      "excerpt": "What is a company for? Is it explained by shareholder primacy’s maximising of profits or stakeholder theory’s integration of ethics into corporate purpose? In a new book Sandy Pepper argues that neither perspective fully satisfies, but that",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How to live and work in extreme heat",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/26/how-to-live-and-work-in-extreme-heat/",
-      "date": "26 Jun 2026",
-      "excerpt": "With Europe in the grip of an unusually intense heatwave, what can be learned from regions more used to extreme heat? Drawing on their research in South Asia Sohini Kar and Mahvish Shami argue that heat is not experienced equally, with info",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How the war in Iran changes China’s decarbonisation path",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/25/how-the-war-in-iran-changes-chinas-decarbonisation-path/",
-      "date": "25 Jun 2026",
-      "excerpt": "Higher prices and unstable supply of imported oil and gas incentivise China to burn more coal in the short term. That will increase its carbon emissions. But in the longer term, argues Mathias Larsen, the security implications of relying on",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How tricky is it to destroy an international financial centre? Brexit and the City of London",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/24/brexit-10-how-tricky-is-it-to-destroy-an-international-financial-centre-brexit-and-the-city-of-london/",
-      "date": "24 Jun 2026",
-      "excerpt": "The run up to the Brexit vote in 2016 included dire predictions about what leaving the EU would do to the City of London and the capital’s status as a premier global financial hub. Elizabeth Howell argues that whilst London’s international ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-4-1024x192.jpeg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Control without credibility – the post-Brexit migration paradox",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/23/brexit-10-control-without-credibility-the-post-brexit-migration-paradox/",
-      "date": "23 Jun 2026",
-      "excerpt": "On the tenth anniversary of Britain’s referendum on leaving the EU, Jonathan Portes looks at the impact of Brexit on immigration, a central tenant of the Leave campaign’s pledge to “take back control”. The country experienced a migration bo",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-3-1024x192.jpeg"
     },
     {
       "source": "BBC Business",
