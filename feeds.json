@@ -1,5 +1,5 @@
 {
-  "updated": "01 Jul 2026, 08:49 UTC",
+  "updated": "01 Jul 2026, 12:32 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,11 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Anthropic says US lifts export ban on its advanced AI tools",
-      "link": "https://www.bbc.co.uk/news/articles/cdr42623e1do?at_medium=RSS&at_campaign=rss",
+      "title": "Up to 150 ex-WHSmith High Street stores to close as rescue deal approved",
+      "link": "https://www.bbc.co.uk/news/articles/cn751pkmgyxo?at_medium=RSS&at_campaign=rss",
       "date": "1 Jul 2026",
-      "excerpt": "Fable and Mythos were abruptly suspended in June over concerns that they could be used by hackers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b490/live/1a317af0-74e1-11f1-b04d-d9f777e609eb.jpg"
+      "excerpt": "The sweeping restructuring, approved by a court, will see steep rent cuts on most remaining stores.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d2a/live/fc9433c0-753a-11f1-8082-1b328ace839c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Brewery boss who banned phones and swearing from pubs dies aged 81",
+      "link": "https://www.bbc.co.uk/news/articles/c0ky1v2e275o?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jul 2026",
+      "excerpt": "Humphrey Smith had been at the helm of the Tadcaster brewer since the 1980s.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd9b/live/16a01630-7536-11f1-9510-1546718f668b.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "30 Jun 2026",
       "excerpt": "Many younger people do not believe the state pension will exist when they are older",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a03/live/0c434d60-716c-11f1-8e1d-bbbb1017d210.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Australia sues Amazon for making allegedly unfair contracts with subscribers",
-      "link": "https://www.bbc.co.uk/news/articles/c20yz9rzwy0o?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jul 2026",
-      "excerpt": "The Australian Competition and Consumer Commission (ACCC) says Amazon has broken consumer protection law",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b21/live/28f27770-74a9-11f1-9c5b-41132a229f02.jpg"
     },
     {
       "source": "BBC Business",
