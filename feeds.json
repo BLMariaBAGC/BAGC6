@@ -1,5 +1,5 @@
 {
-  "updated": "01 Jul 2026, 01:11 UTC",
+  "updated": "01 Jul 2026, 03:39 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -196,7 +196,7 @@
       "title": "Trump made more than $1bn from crypto in first year back in office",
       "link": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&at_campaign=rss",
       "date": "1 Jul 2026",
-      "excerpt": "The president earned millions more from real estate, Trump-themed Bibles, watches and other items.",
+      "excerpt": "The president's crypto income far outpaces his earnings from real estate and Trump-themed items such as watches.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4736/live/00072a20-74dd-11f1-816e-6b18feb3817d.jpg"
     },
     {
@@ -207,6 +207,15 @@
       "date": "30 Jun 2026",
       "excerpt": "Household energy prices have risen by 13% a year as regulator Ofgem's latest price cap kicks in.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7116/live/a644e1c0-746f-11f1-b8da-6d87dfdc4508.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Anthropic says US lifts export ban on its advanced AI tools",
+      "link": "https://www.bbc.co.uk/news/articles/cdr42623e1do?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jul 2026",
+      "excerpt": "Fable and Mythos were abruptly suspended in June over concerns that they could be used by hackers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b490/live/1a317af0-74e1-11f1-b04d-d9f777e609eb.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "1 Jul 2026",
       "excerpt": "The Australian Competition and Consumer Commission (ACCC) says Amazon has broken consumer protection law",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b21/live/28f27770-74a9-11f1-9c5b-41132a229f02.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Cruise passengers 'stranded' after air con failure to be flown home",
-      "link": "https://www.bbc.co.uk/news/articles/cy0639x4dp8o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jun 2026",
-      "excerpt": "Tui has apologised and told passengers it has arranged flights home for tomorrow and a full refund.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/257b/live/e2d75360-7489-11f1-8546-8f19e4fe30f4.png"
     },
     {
       "source": "BBC Business",
