@@ -1,5 +1,5 @@
 {
-  "updated": "01 Jul 2026, 16:25 UTC",
+  "updated": "01 Jul 2026, 19:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -22,10 +22,28 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "Scientists discover a surprising link between vitamin C and brain health",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260626030428.htm",
+      "date": "1 Jul 2026",
+      "excerpt": "Could something as simple as vitamin C help support a healthier aging brain? In a study of more than 2,000 older adults in Japan, researchers found that people with lower vitamin C levels in their blood also tended to have less gray matter ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "They knew the pill was fake but their memory still improved",
       "link": "https://www.sciencedaily.com/releases/2026/06/260625060159.htm",
       "date": "25 Jun 2026",
       "excerpt": "Healthy older adults experienced measurable improvements in memory, physical performance, and stress after taking placebo pills for just three weeks. The most surprising finding was that the placebo often worked even when participants knew ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Modern neuroscience is rediscovering an idea Freud had 130 years ago",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260625014811.htm",
+      "date": "1 Jul 2026",
+      "excerpt": "What if Sigmund Freud was onto something that modern neuroscience is only now beginning to explain? A new paper argues that today's leading theory of the brain—as a prediction machine constantly anticipating the world—closely mirrors ideas ",
       "image": ""
     },
     {
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260623083146.htm",
       "date": "24 Jun 2026",
       "excerpt": "What if consciousness isn’t limited to brains like ours? Philosophers Eric Schwitzgebel and Jeremy Pober argue that consciousness could arise in many different forms of life, even in beings built from radically different materials than thos",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This common vitamin deficiency can mimic normal aging",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260623083116.htm",
-      "date": "25 Jun 2026",
-      "excerpt": "Vitamin B12 is needed in microscopic amounts, but a shortage can have major effects on health and energy. The vitamin was first linked to a lifesaving liver treatment for pernicious anemia nearly 100 years ago. Today, researchers are findin",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Researchers discover why fructose doesn't satisfy hunger like glucose",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260623083106.htm",
-      "date": "26 Jun 2026",
-      "excerpt": "A new study found that fructose and glucose may look the same on a nutrition label, but the brain treats them very differently. In mice, glucose strongly reduced activity in hunger-promoting brain cells, while fructose had a much weaker eff",
       "image": ""
     },
     {
@@ -137,13 +137,85 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How different drug regulators construct global authority – and why it matters for firms",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/30/how-different-drug-regulators-construct-global-authority-and-why-it-matters-for-firms/",
+      "date": "29 Jun 2026",
+      "excerpt": "Global drug regulation is converging technically but diverging politically. America’s loosening grip on the global pharmaceutical system has created a newly competitive opportunities for the EU and China. Damien Ng argues that for countries",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The purpose of the corporation",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/29/the-purpose-of-the-corporation/",
+      "date": "29 Jun 2026",
+      "excerpt": "What is a company for? Is it explained by shareholder primacy’s maximising of profits or stakeholder theory’s integration of ethics into corporate purpose? In a new book Sandy Pepper argues that neither perspective fully satisfies, but that",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How to live and work in extreme heat",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/26/how-to-live-and-work-in-extreme-heat/",
+      "date": "26 Jun 2026",
+      "excerpt": "With Europe in the grip of an unusually intense heatwave, what can be learned from regions more used to extreme heat? Drawing on their research in South Asia Sohini Kar and Mahvish Shami argue that heat is not experienced equally, with info",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How the war in Iran changes China’s decarbonisation path",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/25/how-the-war-in-iran-changes-chinas-decarbonisation-path/",
+      "date": "25 Jun 2026",
+      "excerpt": "Higher prices and unstable supply of imported oil and gas incentivise China to burn more coal in the short term. That will increase its carbon emissions. But in the longer term, argues Mathias Larsen, the security implications of relying on",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How tricky is it to destroy an international financial centre? Brexit and the City of London",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/24/brexit-10-how-tricky-is-it-to-destroy-an-international-financial-centre-brexit-and-the-city-of-london/",
+      "date": "24 Jun 2026",
+      "excerpt": "The run up to the Brexit vote in 2016 included dire predictions about what leaving the EU would do to the City of London and the capital’s status as a premier global financial hub. Elizabeth Howell argues that whilst London’s international ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-4-1024x192.jpeg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Control without credibility – the post-Brexit migration paradox",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/23/brexit-10-control-without-credibility-the-post-brexit-migration-paradox/",
+      "date": "23 Jun 2026",
+      "excerpt": "On the tenth anniversary of Britain’s referendum on leaving the EU, Jonathan Portes looks at the impact of Brexit on immigration, a central tenant of the Leave campaign’s pledge to “take back control”. The country experienced a migration bo",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-3-1024x192.jpeg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump made more than $1bn from crypto in first year back in office",
-      "link": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&at_campaign=rss",
+      "title": "Bibles, Home Alone and perfume: Six surprising ways Trump made money in 2025",
+      "link": "https://www.bbc.co.uk/news/articles/cy9rg133lrjo?at_medium=RSS&at_campaign=rss",
       "date": "1 Jul 2026",
-      "excerpt": "The president's crypto income far outpaces his earnings from real estate and Trump-themed items such as watches.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ba7/live/0575aa80-7510-11f1-8e1d-bbbb1017d210.jpg"
+      "excerpt": "Official documents show the US president made billions of dollars as he returned to the White House.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/594f/live/8d250090-7572-11f1-9634-57b9e01d300c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Halifax brand to be scrapped after 173 years",
+      "link": "https://www.bbc.co.uk/news/articles/c24ydy4q0nzo?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jul 2026",
+      "excerpt": "Lloyds says it remains committed to the town of Halifax and very little will change for customers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c59/live/a65a42d0-7551-11f1-a0e5-ab9c63e24c99.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US blocks long-term renewal of North American trade deal",
+      "link": "https://www.bbc.co.uk/news/articles/ce8j2lmrvrdo?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jul 2026",
+      "excerpt": "US blocks 16-year North America trade deal renewal, triggering annual rolling reviews",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4da/live/64317d10-757e-11f1-b1b0-0d044d289b5c.jpg"
     },
     {
       "source": "BBC Business",
@@ -162,24 +234,6 @@
       "date": "1 Jul 2026",
       "excerpt": "The sweeping restructuring, approved by a court, will see steep rent cuts on most remaining stores.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d2a/live/fc9433c0-753a-11f1-8082-1b328ace839c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Brewery boss who banned phones and swearing from pubs dies aged 81",
-      "link": "https://www.bbc.co.uk/news/articles/c0ky1v2e275o?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jul 2026",
-      "excerpt": "Humphrey Smith had been at the helm of the Tadcaster brewer since the 1980s.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd9b/live/16a01630-7536-11f1-9510-1546718f668b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why Gen Z are planning for life without a state pension",
-      "link": "https://www.bbc.co.uk/news/articles/c8e2yp1gg37o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jun 2026",
-      "excerpt": "Many younger people do not believe the state pension will exist when they are older",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a03/live/0c434d60-716c-11f1-8e1d-bbbb1017d210.jpg"
     },
     {
       "source": "BBC Business",
