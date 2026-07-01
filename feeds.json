@@ -1,5 +1,5 @@
 {
-  "updated": "01 Jul 2026, 23:19 UTC",
+  "updated": "01 Jul 2026, 23:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Technological change means women in India are now increasingly outliving men",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/01/technological-change-means-women-in-india-are-now-increasingly-outliving-men/",
+      "date": "1 Jul 2026",
+      "excerpt": "India’s health transition has saved millions of lives. But progress may be creating an unexpected inequality: rising male excess mortality. Astrid Krenz and Holger Strulik uncover the “gender paradox of progress” happening not in spite of, ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How different drug regulators construct global authority – and why it matters for firms",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/30/how-different-drug-regulators-construct-global-authority-and-why-it-matters-for-firms/",
       "date": "29 Jun 2026",
@@ -180,15 +189,6 @@
       "date": "24 Jun 2026",
       "excerpt": "The run up to the Brexit vote in 2016 included dire predictions about what leaving the EU would do to the City of London and the capital’s status as a premier global financial hub. Elizabeth Howell argues that whilst London’s international ",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-4-1024x192.jpeg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Control without credibility – the post-Brexit migration paradox",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/23/brexit-10-control-without-credibility-the-post-brexit-migration-paradox/",
-      "date": "23 Jun 2026",
-      "excerpt": "On the tenth anniversary of Britain’s referendum on leaving the EU, Jonathan Portes looks at the impact of Brexit on immigration, a central tenant of the Leave campaign’s pledge to “take back control”. The country experienced a migration bo",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-3-1024x192.jpeg"
     },
     {
       "source": "BBC Business",
