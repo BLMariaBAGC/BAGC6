@@ -1,5 +1,5 @@
 {
-  "updated": "02 Jul 2026, 03:24 UTC",
+  "updated": "02 Jul 2026, 07:08 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "World Cup dreams shattered as StubHub tickets cancelled at last minute",
+      "link": "https://www.bbc.co.uk/news/articles/crkvlekgy07o?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jul 2026",
+      "excerpt": "Hundreds of fans who bought World Cup tickets on resale site StubHub say they have had them cancelled at the last minute.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e82/live/5992ae70-7573-11f1-9510-1546718f668b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Diesel sees biggest monthly fall in 26 years. What's happening to fuel prices?",
+      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "date": "1 Jul 2026",
+      "excerpt": "When the US-Israel war with Iran began, fuel costs jumped, but they are now plummeting as hope of lasting peace grows.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8143/live/f8d0c8b0-7572-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Singapore seizes $42m mansion over Nvidia chip smuggling",
+      "link": "https://www.bbc.co.uk/news/articles/cx2d9y18g73o?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jul 2026",
+      "excerpt": "The luxury home was seized as part of a probe into the illegal trade of servers containing AI semiconductors.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6671/live/b15f9170-75ca-11f1-9106-bb5823bc9ead.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Bibles, Home Alone and perfume: Six takeaways from Trump's 2025 finances",
       "link": "https://www.bbc.co.uk/news/articles/cy9rg133lrjo?at_medium=RSS&at_campaign=rss",
       "date": "1 Jul 2026",
@@ -206,34 +233,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cp8r1798kp7o?at_medium=RSS&at_campaign=rss",
       "date": "1 Jul 2026",
       "excerpt": "Kia told the BBC UK law prevented its location tracking function being used to live track vehicles.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9911/live/376d7550-75a5-11f1-8672-df1a6610885c.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Halifax brand to be scrapped after 173 years",
-      "link": "https://www.bbc.co.uk/news/articles/c24ydy4q0nzo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jul 2026",
-      "excerpt": "Lloyds says it remains committed to the town of Halifax and very little will change for customers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c59/live/a65a42d0-7551-11f1-a0e5-ab9c63e24c99.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US blocks long-term renewal of North American trade deal",
-      "link": "https://www.bbc.co.uk/news/articles/ce8j2lmrvrdo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jul 2026",
-      "excerpt": "US blocks 16-year North America trade deal renewal, triggering annual rolling reviews",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4da/live/64317d10-757e-11f1-b1b0-0d044d289b5c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Plea for households to read energy meter as prices rise",
-      "link": "https://www.bbc.co.uk/news/articles/c5yzqrpw2g8o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jun 2026",
-      "excerpt": "Household energy prices have risen by 13% a year as regulator Ofgem's latest price cap kicks in.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7116/live/a644e1c0-746f-11f1-b8da-6d87dfdc4508.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c12/live/954cafe0-75d9-11f1-a627-714adb4eed6e.jpg"
     },
     {
       "source": "BBC Business",
