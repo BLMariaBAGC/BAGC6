@@ -1,5 +1,5 @@
 {
-  "updated": "02 Jul 2026, 13:55 UTC",
+  "updated": "02 Jul 2026, 16:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The Business of Five-Star Service",
+      "link": "/2026/07/the-business-of-five-star-service",
+      "date": "2 Jul 2026",
+      "excerpt": "An HBR Executive Live conversation with Four Seasons CEO Alejandro Reynal.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Leadership Summit 2026: Mattel’s CEO on Driving Consumer Engagement and Cultural Impact",
       "link": "/podcast/2026/07/leadership-summit-2026-mattels-ceo-on-driving-consumer-engagement-and-cultural-impact",
       "date": "2 Jul 2026",
@@ -128,13 +137,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Is Squeezing Middle Managers",
-      "link": "/2026/06/ai-is-squeezing-middle-managers",
-      "date": "30 Jun 2026",
-      "excerpt": "In the June 29, 2026, edition of The Insider, managing editor Gretchen Gavett highlights how AI is quietly burying middle managers and why the era of cheap capital is ending.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can global trade contribute to world peace?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/02/how-can-global-trade-contribute-to-world-peace/",
+      "date": "2 Jul 2026",
+      "excerpt": "Using analysis of WTO membership and the Global Peace Index, Julia Croce argues that trade itself, and the organisations that govern it, have a significant role to play in fostering peace within and between fragile states. In an extract fro",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1024x655.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -182,30 +191,21 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How tricky is it to destroy an international financial centre? Brexit and the City of London",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/24/brexit-10-how-tricky-is-it-to-destroy-an-international-financial-centre-brexit-and-the-city-of-london/",
-      "date": "24 Jun 2026",
-      "excerpt": "The run up to the Brexit vote in 2016 included dire predictions about what leaving the EU would do to the City of London and the capital’s status as a premier global financial hub. Elizabeth Howell argues that whilst London’s international ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-4-1024x192.jpeg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Government rules out extending pub hours for England v Mexico game",
+      "title": "Pubs allowed to extend hours for 1am England clash",
       "link": "https://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss",
       "date": "2 Jul 2026",
-      "excerpt": "The 1am kick-off time for England's World Cup match on Sunday falls outside changes to licensing laws.",
+      "excerpt": "The government had initially said it would not relax licensing laws further than they already have been for the World Cup.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c933/live/1c5ebbb0-7614-11f1-ac6e-25f7e4f0c9b9.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "EU border delays 'not bearable' over summer, warns airport boss",
+      "title": "Ryanair warns of 'queue chaos' from new EU border system",
       "link": "https://www.bbc.co.uk/news/articles/c8x2y74wp9eo?at_medium=RSS&at_campaign=rss",
       "date": "2 Jul 2026",
-      "excerpt": "Holidaymakers face long waits under the EU's new Entry-Exit System, the head of Berlin's airport says.",
+      "excerpt": "The airline calls on European governments to postpone the EES system until after the summer holiday period.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7bf/live/f7cb11e0-7609-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
@@ -229,7 +229,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "World Cup dreams shattered as StubHub tickets cancelled at last minute",
+      "title": "'I spent $6,000 on a World Cup trip but was left stranded at the gate'",
       "link": "https://www.bbc.co.uk/news/articles/crkvlekgy07o?at_medium=RSS&at_campaign=rss",
       "date": "2 Jul 2026",
       "excerpt": "Hundreds of fans who bought World Cup tickets on resale site StubHub say they have had them cancelled at the last minute.",
