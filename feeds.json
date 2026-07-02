@@ -1,5 +1,5 @@
 {
-  "updated": "02 Jul 2026, 08:28 UTC",
+  "updated": "02 Jul 2026, 10:36 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "EU border delays 'not bearable' over summer, warns airport boss",
+      "link": "https://www.bbc.co.uk/news/articles/c8x2y74wp9eo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jul 2026",
+      "excerpt": "Holidaymakers face long waits under the EU's new Entry-Exit System, the head of Berlin's airport says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f02/live/25f4fb20-75f7-11f1-8c3f-e37c76e39331.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "World Cup dreams shattered as StubHub tickets cancelled at last minute",
       "link": "https://www.bbc.co.uk/news/articles/crkvlekgy07o?at_medium=RSS&at_campaign=rss",
       "date": "2 Jul 2026",
@@ -211,29 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Singapore seizes $42m mansion over Nvidia chip smuggling",
-      "link": "https://www.bbc.co.uk/news/articles/cx2d9y18g73o?at_medium=RSS&at_campaign=rss",
+      "title": "Google must pay €4.1bn fine for using Android to 'block' rivals",
+      "link": "https://www.bbc.co.uk/news/articles/cvgj0pp5p62o?at_medium=RSS&at_campaign=rss",
       "date": "2 Jul 2026",
-      "excerpt": "The luxury home was seized as part of a probe into the illegal trade of servers containing AI semiconductors.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6671/live/b15f9170-75ca-11f1-9106-bb5823bc9ead.jpg"
+      "excerpt": "A Google spokesperson said the judgement \"fails to recognise\" the firm's \"significant investment to ensure Android remains open.\"",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9620/live/1da00990-75f9-11f1-8c3f-e37c76e39331.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Bibles, Home Alone and perfume: Six takeaways from Trump's 2025 finances",
-      "link": "https://www.bbc.co.uk/news/articles/cy9rg133lrjo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jul 2026",
-      "excerpt": "Official documents show the US president made billions of dollars as he returned to the White House.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/594f/live/8d250090-7572-11f1-9634-57b9e01d300c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Don't expect trackers to save your stolen car, experts say",
-      "link": "https://www.bbc.co.uk/news/articles/cp8r1798kp7o?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jul 2026",
-      "excerpt": "Kia told the BBC UK law prevented its location tracking function being used to live track vehicles.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c12/live/954cafe0-75d9-11f1-a627-714adb4eed6e.jpg"
+      "title": "Why the expected fight over the North American trade deal never kicked off",
+      "link": "https://www.bbc.co.uk/news/articles/c70yd58y27yo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jul 2026",
+      "excerpt": "The US has confirmed it will not extend the agreement for another 16 years, but stopped short of more dramatic action.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/74d8/live/fc2ae000-75fd-11f1-b409-f16cfa99a4ec.jpg"
     },
     {
       "source": "BBC Business",
