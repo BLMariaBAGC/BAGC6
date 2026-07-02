@@ -1,5 +1,5 @@
 {
-  "updated": "02 Jul 2026, 16:05 UTC",
+  "updated": "02 Jul 2026, 18:45 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,15 +139,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How can global trade contribute to world peace?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/02/how-can-global-trade-contribute-to-world-peace/",
-      "date": "2 Jul 2026",
-      "excerpt": "Using analysis of WTO membership and the Global Peace Index, Julia Croce argues that trade itself, and the organisations that govern it, have a significant role to play in fostering peace within and between fragile states. In an extract fro",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1024x655.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Technological change means women in India are now increasingly outliving men",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/01/technological-change-means-women-in-india-are-now-increasingly-outliving-men/",
       "date": "1 Jul 2026",
@@ -191,13 +182,22 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How tricky is it to destroy an international financial centre? Brexit and the City of London",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/24/brexit-10-how-tricky-is-it-to-destroy-an-international-financial-centre-brexit-and-the-city-of-london/",
+      "date": "24 Jun 2026",
+      "excerpt": "The run up to the Brexit vote in 2016 included dire predictions about what leaving the EU would do to the City of London and the capital’s status as a premier global financial hub. Elizabeth Howell argues that whilst London’s international ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-4-1024x192.jpeg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Pubs allowed to extend hours for 1am England clash",
+      "title": "Pubs allowed to stay open until 5am for England Mexico match",
       "link": "https://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss",
       "date": "2 Jul 2026",
-      "excerpt": "The government had initially said it would not relax licensing laws further than they already have been for the World Cup.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c933/live/1c5ebbb0-7614-11f1-ac6e-25f7e4f0c9b9.jpg"
+      "excerpt": "The government had initially said it would not relax licensing laws further for the World Cup.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ab2/live/e30a5c40-7634-11f1-9510-1546718f668b.jpg"
     },
     {
       "source": "BBC Business",
