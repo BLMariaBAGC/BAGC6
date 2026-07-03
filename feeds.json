@@ -1,5 +1,5 @@
 {
-  "updated": "02 Jul 2026, 23:03 UTC",
+  "updated": "03 Jul 2026, 02:47 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How can global trade contribute to world peace?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/02/how-can-global-trade-contribute-to-world-peace/",
+      "date": "2 Jul 2026",
+      "excerpt": "Using analysis of WTO membership and the Global Peace Index, Julia Croce argues that trade itself, and the organisations that govern it, have a significant role to play in fostering peace within and between fragile states. In an extract fro",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1024x655.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Technological change means women in India are now increasingly outliving men",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/01/technological-change-means-women-in-india-are-now-increasingly-outliving-men/",
       "date": "1 Jul 2026",
@@ -182,13 +191,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How tricky is it to destroy an international financial centre? Brexit and the City of London",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/24/brexit-10-how-tricky-is-it-to-destroy-an-international-financial-centre-brexit-and-the-city-of-london/",
-      "date": "24 Jun 2026",
-      "excerpt": "The run up to the Brexit vote in 2016 included dire predictions about what leaving the EU would do to the City of London and the capital’s status as a premier global financial hub. Elizabeth Howell argues that whilst London’s international ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/06/Brexit-10th-banner-3-4-1024x192.jpeg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'We give up to £400': How much should you gift at a wedding?",
+      "link": "https://www.bbc.co.uk/news/articles/c78yj9p0m91o?at_medium=RSS&at_campaign=rss",
+      "date": "2 Jul 2026",
+      "excerpt": "Wedding lists are being replaced by cash requests, but guests are divided over how much to give.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ddb/live/ebaaa0d0-7544-11f1-80c5-0be6bd1362c3.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Car finance compensation payments delayed until next year",
-      "link": "https://www.bbc.co.uk/news/articles/c2l9vvj097lo?at_medium=RSS&at_campaign=rss",
+      "title": "AI is 'not smart' so what's next in artificial intelligence?",
+      "link": "https://www.bbc.co.uk/news/articles/cj6gr0xkyr3o?at_medium=RSS&at_campaign=rss",
       "date": "2 Jul 2026",
-      "excerpt": "Millions could be entitled to compensation as a result of commission arrangements between lenders and dealers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1582/live/8e71e720-a425-11f0-ba96-81d873a15aec.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Diesel sees biggest monthly fall in 26 years. What's happening to fuel prices?",
-      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "date": "1 Jul 2026",
-      "excerpt": "When the US-Israel war with Iran began, fuel costs jumped, but they are now plummeting as hope of lasting peace grows.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8143/live/f8d0c8b0-7572-11f1-b976-0b9c15b0ccfc.jpg"
+      "excerpt": "Leading AI researcher Yan LeCun has a start-up which is developing a more flexible AI system.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab90/live/3f28f8c0-6e1e-11f1-806d-d1ff7e093f07.jpg"
     }
   ]
 }
