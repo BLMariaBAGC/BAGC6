@@ -1,5 +1,5 @@
 {
-  "updated": "03 Jul 2026, 10:33 UTC",
+  "updated": "03 Jul 2026, 13:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How Four Seasons Turns Recruiting into Competitive Advantage",
+      "link": "/2026/07/how-four-seasons-turns-recruiting-into-competitive-advantage",
+      "date": "3 Jul 2026",
+      "excerpt": "Four Seasons CEO Alejandro Reynal tells HBR editor at large Adi Ignatius why the luxury hotel brand hires for attitude over experience.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The Business of Five-Star Service",
       "link": "/2026/07/the-business-of-five-star-service",
       "date": "2 Jul 2026",
@@ -128,24 +137,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The End of Independent Federal Agencies Will Change Your Business",
-      "link": "/2026/06/the-end-of-independent-federal-agencies-will-change-your-business",
-      "date": "30 Jun 2026",
-      "excerpt": "What leaders need to know about the Trump v. Slaughter decision.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Making sense of climate solutions to help finance the low-carbon transition",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/03/making-sense-of-climate-solutions-to-help-finance-the-low-carbon-transition/",
-      "date": "3 Jul 2026",
-      "excerpt": "Understanding exactly what constitutes a “climate solution” is challenging because definitions differ across frameworks and jurisdictions. Algirdas Brochard, Shafaq Ashraf, Ella Davies, Ákos Hajagos-Tóth, Valentin Jahn and Seyed Alireza Mod",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Table-1.jpg"
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "How can global trade contribute to world peace?",
@@ -191,13 +182,31 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How the war in Iran changes China’s decarbonisation path",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/25/how-the-war-in-iran-changes-chinas-decarbonisation-path/",
+      "date": "25 Jun 2026",
+      "excerpt": "Higher prices and unstable supply of imported oil and gas incentivise China to burn more coal in the short term. That will increase its carbon emissions. But in the longer term, argues Mathias Larsen, the security implications of relying on",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'Nobody wants a random dish': How much should you gift at a wedding?",
+      "title": "'Start work at 11' - but will other bosses be as flexible over England's 1am match?",
+      "link": "https://www.bbc.co.uk/news/articles/c8x27k180x8o?at_medium=RSS&at_campaign=rss",
+      "date": "3 Jul 2026",
+      "excerpt": "Employers are being urged to use their \"common sense\" to allow staff to work flexibly where they can.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/edfe/live/f0916630-76cd-11f1-b508-3b3f1f22a3c1.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "No-gift policy for Taylor Swift, but how much should you give at a wedding?",
       "link": "https://www.bbc.co.uk/news/articles/c78yj9p0m91o?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jul 2026",
+      "date": "3 Jul 2026",
       "excerpt": "Wedding lists are being replaced by cash requests, but guests are divided over how much to give.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a337/live/ce0b2760-75f9-11f1-8c3f-e37c76e39331.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed09/live/eee79ae0-76da-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "2 Jul 2026",
       "excerpt": "The government had initially said it would not relax licensing laws further for the World Cup.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/306d/live/0c455db0-76a5-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'Less than 10% sheep': How millions may have unknowingly eaten goat, skin and fat kebabs",
-      "link": "https://www.bbc.co.uk/news/articles/ce95y1zlzyxo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Jul 2026",
-      "excerpt": "Millions are likely to have eaten \"lamb\" kebabs that were actually made with goat, skin and fat.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5c2/live/ee508840-765c-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
