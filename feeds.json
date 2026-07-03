@@ -1,5 +1,5 @@
 {
-  "updated": "03 Jul 2026, 15:55 UTC",
+  "updated": "03 Jul 2026, 17:25 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Making sense of climate solutions to help finance the low-carbon transition",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/03/making-sense-of-climate-solutions-to-help-finance-the-low-carbon-transition/",
+      "date": "3 Jul 2026",
+      "excerpt": "Understanding exactly what constitutes a “climate solution” is challenging because definitions differ across frameworks and jurisdictions. Algirdas Brochard, Shafaq Ashraf, Ella Davies, Ákos Hajagos-Tóth, Valentin Jahn and Seyed Alireza Mod",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Table-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How can global trade contribute to world peace?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/02/how-can-global-trade-contribute-to-world-peace/",
       "date": "2 Jul 2026",
@@ -179,15 +188,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/26/how-to-live-and-work-in-extreme-heat/",
       "date": "26 Jun 2026",
       "excerpt": "With Europe in the grip of an unusually intense heatwave, what can be learned from regions more used to extreme heat? Drawing on their research in South Asia Sohini Kar and Mahvish Shami argue that heat is not experienced equally, with info",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How the war in Iran changes China’s decarbonisation path",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/25/how-the-war-in-iran-changes-chinas-decarbonisation-path/",
-      "date": "25 Jun 2026",
-      "excerpt": "Higher prices and unstable supply of imported oil and gas incentivise China to burn more coal in the short term. That will increase its carbon emissions. But in the longer term, argues Mathias Larsen, the security implications of relying on",
       "image": ""
     },
     {
