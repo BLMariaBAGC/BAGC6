@@ -1,5 +1,5 @@
 {
-  "updated": "03 Jul 2026, 02:47 UTC",
+  "updated": "03 Jul 2026, 07:18 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -49,6 +49,15 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "Scientists stunned as bumble bees solve a classic intelligence test",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260625014755.htm",
+      "date": "2 Jul 2026",
+      "excerpt": "Bumble bees astonished researchers by inventing a new way to reach a hidden reward, despite never being taught the trick. The discovery adds to growing evidence that these tiny insects are far smarter and more adaptable than once believed.",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "Brain activity under anesthesia challenges what we know about consciousness",
       "link": "https://www.sciencedaily.com/releases/2026/06/260624025514.htm",
       "date": "28 Jun 2026",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260624025426.htm",
       "date": "24 Jun 2026",
       "excerpt": "Scientists have discovered a tiny group of neurons in an ancient brain region that acts like a built-in focus filter, helping the brain ignore distractions and zero in on what matters most. When researchers temporarily switched off these ne",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "The universe may be hiding conscious minds stranger than we can imagine",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260623083146.htm",
-      "date": "24 Jun 2026",
-      "excerpt": "What if consciousness isn’t limited to brains like ours? Philosophers Eric Schwitzgebel and Jeremy Pober argue that consciousness could arise in many different forms of life, even in beings built from radically different materials than thos",
       "image": ""
     },
     {
@@ -193,7 +193,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'We give up to £400': How much should you gift at a wedding?",
+      "title": "'Our weddings guests gave us £4,000': How much should you gift to a honeymoon fund?",
       "link": "https://www.bbc.co.uk/news/articles/c78yj9p0m91o?at_medium=RSS&at_campaign=rss",
       "date": "2 Jul 2026",
       "excerpt": "Wedding lists are being replaced by cash requests, but guests are divided over how much to give.",
@@ -206,14 +206,14 @@
       "link": "https://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss",
       "date": "2 Jul 2026",
       "excerpt": "The government had initially said it would not relax licensing laws further for the World Cup.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ab2/live/e30a5c40-7634-11f1-9510-1546718f668b.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/306d/live/0c455db0-76a5-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Goat and skin in millions of 'lamb' kebabs compared to horsemeat lasagne scandal",
       "link": "https://www.bbc.co.uk/news/articles/ce95y1zlzyxo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jul 2026",
+      "date": "3 Jul 2026",
       "excerpt": "Millions are likely to have eaten \"lamb\" kebabs that were actually made with goat, skin and fat.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5c2/live/ee508840-765c-11f1-b976-0b9c15b0ccfc.jpg"
     },
@@ -229,11 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "World Cup boom falters as US hospitality jobs fall in June",
-      "link": "https://www.bbc.co.uk/news/articles/cr471w6ykxno?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jul 2026",
-      "excerpt": "There had been early signs of a jobs boom from the tournament, but hospitality jobs declined in June.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9dde/live/a833ef50-7616-11f1-ac6e-25f7e4f0c9b9.jpg"
+      "title": "Instagram running ads promoting child sexual abuse material in India, BBC finds",
+      "link": "https://www.bbc.co.uk/news/articles/cvgm4e0316zo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Jul 2026",
+      "excerpt": "The ads use terms including “rape” and “child video” and link to content on the messaging app Telegram.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fe2/live/b16ef2d0-755e-11f1-bd47-e1ebd62de3b7.jpg"
     },
     {
       "source": "BBC Business",
