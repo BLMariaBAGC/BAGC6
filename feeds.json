@@ -1,5 +1,5 @@
 {
-  "updated": "03 Jul 2026, 07:18 UTC",
+  "updated": "03 Jul 2026, 10:33 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Making sense of climate solutions to help finance the low-carbon transition",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/03/making-sense-of-climate-solutions-to-help-finance-the-low-carbon-transition/",
+      "date": "3 Jul 2026",
+      "excerpt": "Understanding exactly what constitutes a “climate solution” is challenging because definitions differ across frameworks and jurisdictions. Algirdas Brochard, Shafaq Ashraf, Ella Davies, Ákos Hajagos-Tóth, Valentin Jahn and Seyed Alireza Mod",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Table-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How can global trade contribute to world peace?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/02/how-can-global-trade-contribute-to-world-peace/",
       "date": "2 Jul 2026",
@@ -182,27 +191,36 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How the war in Iran changes China’s decarbonisation path",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/25/how-the-war-in-iran-changes-chinas-decarbonisation-path/",
-      "date": "25 Jun 2026",
-      "excerpt": "Higher prices and unstable supply of imported oil and gas incentivise China to burn more coal in the short term. That will increase its carbon emissions. But in the longer term, argues Mathias Larsen, the security implications of relying on",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'Our weddings guests gave us £4,000': How much should you gift to a honeymoon fund?",
+      "title": "'Nobody wants a random dish': How much should you gift at a wedding?",
       "link": "https://www.bbc.co.uk/news/articles/c78yj9p0m91o?at_medium=RSS&at_campaign=rss",
       "date": "2 Jul 2026",
       "excerpt": "Wedding lists are being replaced by cash requests, but guests are divided over how much to give.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ddb/live/ebaaa0d0-7544-11f1-80c5-0be6bd1362c3.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a337/live/ce0b2760-75f9-11f1-8c3f-e37c76e39331.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Pubs allowed to stay open until 5am for England Mexico match",
+      "title": "Tackle workplace sickness to unlock hidden growth, former John Lewis boss says",
+      "link": "https://www.bbc.co.uk/news/articles/cq61j11r577o?at_medium=RSS&at_campaign=rss",
+      "date": "3 Jul 2026",
+      "excerpt": "More than 250 of the UK's biggest employers have signed up to his 'Get Britain Working' taskforce.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/420a/live/847a2120-76c4-11f1-bd3f-0f791277aaa0.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Burnham says there is some room for movement on tax",
+      "link": "https://www.bbc.co.uk/news/articles/c5yz9j7v0z6o?at_medium=RSS&at_campaign=rss",
+      "date": "3 Jul 2026",
+      "excerpt": "But the likely next PM says he will stick to Labour's pledges to not raise VAT, income tax or national insurance.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6eb7/live/8e7bce30-7647-11f1-83d0-9b0728fe8be0.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Pubs allowed to stay open until 5am on Monday for England Mexico match",
       "link": "https://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss",
       "date": "2 Jul 2026",
       "excerpt": "The government had initially said it would not relax licensing laws further for the World Cup.",
@@ -211,29 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Goat and skin in millions of 'lamb' kebabs compared to horsemeat lasagne scandal",
+      "title": "'Less than 10% sheep': How millions may have unknowingly eaten goat, skin and fat kebabs",
       "link": "https://www.bbc.co.uk/news/articles/ce95y1zlzyxo?at_medium=RSS&at_campaign=rss",
       "date": "3 Jul 2026",
       "excerpt": "Millions are likely to have eaten \"lamb\" kebabs that were actually made with goat, skin and fat.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5c2/live/ee508840-765c-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ryanair warns of 'queue chaos' from new EU border system",
-      "link": "https://www.bbc.co.uk/news/articles/c8x2y74wp9eo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jul 2026",
-      "excerpt": "The airline calls on European governments to postpone the EES system until after the summer holiday period.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7bf/live/f7cb11e0-7609-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Instagram running ads promoting child sexual abuse material in India, BBC finds",
-      "link": "https://www.bbc.co.uk/news/articles/cvgm4e0316zo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Jul 2026",
-      "excerpt": "The ads use terms including “rape” and “child video” and link to content on the messaging app Telegram.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fe2/live/b16ef2d0-755e-11f1-bd47-e1ebd62de3b7.jpg"
     },
     {
       "source": "BBC Business",
