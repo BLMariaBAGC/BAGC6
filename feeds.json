@@ -1,5 +1,5 @@
 {
-  "updated": "05 Jul 2026, 07:23 UTC",
+  "updated": "05 Jul 2026, 10:10 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -40,6 +40,15 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "Scientists discover the deep sleep circuit that builds muscle, burns fat, and boosts the brain",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260626030433.htm",
+      "date": "5 Jul 2026",
+      "excerpt": "Researchers have identified the brain circuitry that links deep sleep with the release of growth hormone, revealing how the two regulate each other. The newly discovered feedback loop helps explain why poor sleep can interfere with growth, ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "Scientists discover a surprising link between vitamin C and brain health",
       "link": "https://www.sciencedaily.com/releases/2026/06/260626030428.htm",
       "date": "1 Jul 2026",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260625014811.htm",
       "date": "1 Jul 2026",
       "excerpt": "What if Sigmund Freud was onto something that modern neuroscience is only now beginning to explain? A new paper argues that today's leading theory of the brain—as a prediction machine constantly anticipating the world—closely mirrors ideas ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists stunned as bumble bees solve a classic intelligence test",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260625014755.htm",
-      "date": "2 Jul 2026",
-      "excerpt": "Bumble bees astonished researchers by inventing a new way to reach a hidden reward, despite never being taught the trick. The discovery adds to growing evidence that these tiny insects are far smarter and more adaptable than once believed.",
       "image": ""
     },
     {
