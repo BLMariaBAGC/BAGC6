@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Networking Lab</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
+  <style>* { box-sizing: border-box; margin: 0; padding: 0; } body { background: #01293A; }</style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel" data-presets="react">
+const { useState, useRef, useEffect } = React;
+
+// Load Google Fonts
+if (typeof document !== "undefined") {
+  const fontLink = document.createElement("link");
+  fontLink.rel = "stylesheet";
+  fontLink.href = "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap";
+  document.head.appendChild(fontLink);
+
+  // Suppress native mobile tap-highlight and focus outline on buttons so only the app's own selected state shows
+  if (!document.getElementById("rewire-tap-highlight-fix")) {
+    const styleTag = document.createElement("style");
+    styleTag.id = "rewire-tap-highlight-fix";
+    styleTag.textContent = `
+      button { -webkit-tap-highlight-color: transparent; outline: none; }
+      button:focus, button:focus-visible, button:active { outline: none; -webkit-tap-highlight-color: transparent; }
+    `;
+    document.head.appendChild(styleTag);
+  }
+}
+
+// Set this to your deployed Vercel proxy URL (e.g. "https://rewire-proxy.vercel.app")
+// before building a standalone deploy outside Claude.ai. Leave empty to keep calling
+// the Anthropic API directly, which only works inside the Claude.ai artifact sandbox.
+const PROXY_BASE_URL = "https://rewire-proxy.vercel.app";
+const BL_LOGO = "data:image/png;base64,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";
+
+const TEAL = "#3D858C";
+const NAVY = "#01293A";
+const DARK = "#0A1A20";
+const DARKER = "#060F14";
+const MIST = "#C9F6FA";
+const AMBER = "#D4A853";
+
+const CAT_LABELS = {
+  before: "Before the Event",
+  arrival: "Arrival",
+  starting: "Starting Conversations",
+  joining: "Joining Groups",
+  business: "Business Conversations",
+  difficult: "Difficult Situations",
+  followup: "Following Up",
+};
+
+const SCENARIOS = [
+  { id:"prep-intro", category:"before", title:"Preparing Your Introduction", desc:"Sharpen a natural 30-second introduction that opens conversation rather than closing it.", skills:["Clarity","Confidence"], role:"Networking Mentor", scene:"You have a networking event tomorrow. A trusted mentor has offered twenty minutes to help you sharpen your introduction. They will ask you to deliver it, then push: too long, too vague, too much job title, not enough hook. The goal is an introduction that invites a question back, not a rehearsed speech.", needsFocus:"certainty,significance" },
+  { id:"prep-objectives", category:"before", title:"Setting Your Objectives", desc:"Define what success actually looks like before you walk in, so the event has a purpose.", skills:["Clarity","Flow"], role:"Networking Mentor", scene:"Tomorrow evening is a business networking event. Your mentor asks the question most people never answer: what do you actually want from it? Vague answers like wanting to meet people will be challenged. By the end you should have two or three concrete, realistic objectives you can act on in the room.", needsFocus:"certainty,growth" },
+  { id:"prep-nerves", category:"before", title:"Managing Pre-Event Nerves", desc:"Turn the anxiety before an event into a plan you can walk in with.", skills:["Confidence","Flow"], role:"Experienced Networker", scene:"The event starts in an hour and the familiar dread is building: walking in alone, not knowing anyone, the fear of standing by the wall. An experienced networker you trust has ten minutes for you. Talk it through honestly and build a simple arrival plan: first five minutes, first conversation, one realistic goal.", needsFocus:"certainty,significance,connection" },
+  { id:"arrival-registration", category:"arrival", title:"Registration and First Impressions", desc:"Handle the welcome desk with warmth, and use the host as your first ally in the room.", skills:["Rapport","Confidence"], role:"Event Host", scene:"You arrive at the venue. The event host is at the registration desk with name badges. This is the easiest conversation of the night, and most people waste it. Hosts know everyone in the room. Handle the welcome naturally and see whether you can leave the desk with a name, a direction, or even an introduction.", needsFocus:"connection,certainty" },
+  { id:"arrival-busy-room", category:"arrival", title:"Walking into a Busy Room", desc:"Enter a room already full of conversation and find your first foothold.", skills:["Confidence","Rapport"], role:"Fellow Attendee", scene:"You walk in and the room is already loud: clusters of people mid-conversation, laughter, nobody looking at the door. Near the refreshments, another attendee is standing alone with a coffee, scanning the room just like you. This is your foothold. Approach and open.", needsFocus:"connection,significance,certainty" },
+  { id:"arrival-approached", category:"arrival", title:"When Someone Approaches You", desc:"Convert the moment someone walks up to you while you are standing alone.", skills:["Rapport","Listening"], role:"Approaching Attendee", scene:"You are standing alone with a drink, gathering yourself before your first approach, when someone walks up to you and opens with a friendly line. The pressure of approaching is gone, but now you have to hold and build the conversation. Make them glad they picked you.", needsFocus:"connection,significance" },
+  { id:"start-icebreak", category:"starting", title:"Breaking the Ice", desc:"Open a conversation with a stranger using the room itself, not a rehearsed line.", skills:["Rapport","Flow"], role:"Attendee in the Queue", scene:"You are in the coffee queue next to someone you have never met. You have roughly ninety seconds of natural proximity before you both walk away with your cups. The event, the venue, the speaker, the queue itself: everything around you is material. Open naturally and see if the conversation earns a continuation.", needsFocus:"connection,variety" },
+  { id:"start-intro", category:"starting", title:"Introducing Yourself Without a Script", desc:"Answer the inevitable question without reciting a job title, in a way that invites curiosity.", skills:["Clarity","Confidence"], role:"Curious Attendee", scene:"A friendly attendee has just asked the question you knew was coming: so, what do you do? The trap is the job-title recital that ends conversations. The skill is an answer that describes the problem you solve or the change you create, short enough to breathe, interesting enough that they ask the next question.", needsFocus:"significance,connection" },
+  { id:"intro-10s", category:"starting", title:"The 10-Second Answer", desc:"Answer 'what do you do?' in one breath, engineered purely to earn the next question.", skills:["Clarity","Confidence"], role:"Attendee Who Just Asked", scene:"Mid-conversation, the question lands: so, what do you do? You have roughly ten seconds before their attention decides. The objective is not to explain everything; it is curiosity. One or two sentences that make them lean in and ask more. The attendee will react honestly: if the answer is a job-title recital, their interest will visibly fade; if it hooks, they will dig.", needsFocus:"significance,connection" },
+  { id:"intro-30s", category:"starting", title:"The 30-Second Elevator Pitch", desc:"The classic networking introduction: who you are, who you help, and the result you create, in half a minute.", skills:["Clarity","Confidence"], role:"Attendee Who Asked About You", scene:"The conversation has opened and it is your moment: roughly thirty seconds of genuine attention to land who you are, who you help, and the change you create. Long enough for substance, short enough that every sentence must earn its place. The attendee is listening honestly: they will ask a follow-up if it lands, glaze politely if it becomes a speech, and interrupt if it runs long. Rehearsed-sounding delivery will be gently called out; this should sound like you, not a script.", needsFocus:"significance,certainty" },
+  { id:"intro-60s", category:"starting", title:"The 60-Second Introduction", desc:"Deliver the structured round-the-table introduction used at formal networking meetings.", skills:["Clarity","Flow"], role:"Meeting Facilitator", scene:"You are at a structured networking meeting and it is nearly your turn: sixty seconds, standing, everyone listening. Who you are, who you help, what result you create, and what a good referral looks like for you. The facilitator keeps time and will follow up with a question the room would be thinking. Rambling loses the room; structure with warmth wins it.", needsFocus:"significance,certainty,contribution" },
+  { id:"start-beyond-smalltalk", category:"starting", title:"Moving Beyond Small Talk", desc:"Turn pleasant weather-and-traffic chat into a conversation of actual substance.", skills:["Questions","Listening"], role:"Polite Attendee", scene:"You have been exchanging pleasantries with an attendee for a few minutes: the venue, the turnout, the journey in. It is pleasant and it is going nowhere. The skill is the pivot: a genuine question that invites them to talk about something they care about, without the gear change feeling abrupt.", needsFocus:"connection,growth" },
+  { id:"start-common-ground", category:"starting", title:"Finding Common Ground", desc:"Build a bridge with someone whose industry and world seem nothing like yours.", skills:["Questions","Rapport"], role:"Attendee from a Different Industry", scene:"You are talking with someone from a completely different sector: different industry, different customers, different world. The lazy move is to let the conversation die politely. The skill is finding the shared layer underneath: common challenges, common patterns, common people. Dig for it with genuine curiosity.", needsFocus:"connection,variety,growth" },
+  { id:"join-two", category:"joining", title:"Joining Two People Mid-Conversation", desc:"Approach two people already talking and earn your place in the exchange.", skills:["Confidence","Listening"], role:"One of Two Attendees", scene:"Two people are talking near the window. Their body language is open: angled outward, relaxed, not intimate. That is the signal a pair can be joined. Approach, wait for the natural beat, and enter without hijacking. You will be speaking with one of them; the other has just stepped away to take a call as you arrive.", needsFocus:"connection,significance,certainty" },
+  { id:"join-group", category:"joining", title:"Joining a Larger Group", desc:"Enter a group of four or five without interrupting, and become part of it rather than an audience.", skills:["Listening","Flow"], role:"Group Member", scene:"A group of five is mid-conversation and one of them catches your eye and half-steps aside: the invitation. You are now standing in the circle. The mistake is to either say nothing for five minutes or to seize the floor. Listen, find the thread, and contribute at the right moment. The group member next to you turns to include you.", needsFocus:"connection,significance" },
+  { id:"join-invited", category:"joining", title:"Being Brought into a Conversation", desc:"Handle the moment someone introduces you into their conversation with a third person.", skills:["Rapport","Clarity"], role:"The Person You Are Introduced To", scene:"Someone you met earlier tonight takes you warmly by the arm: there is someone you have to meet. Suddenly you are being introduced to their contact with a generous but slightly inaccurate description of what you do. Correct course gracefully, honour the introducer, and build the new connection on your own terms.", needsFocus:"significance,connection" },
+  { id:"biz-explain", category:"business", title:"Explaining What You Do", desc:"Describe your work so a stranger understands it, remembers it, and can repeat it to someone else.", skills:["Clarity","Confidence"], role:"Interested Attendee", scene:"An attendee is genuinely interested in what you do and keeps asking questions. This is the good problem: real curiosity, real attention. The test is whether you can explain your work in plain language, with a concrete example, so clearly that they could describe you accurately to a colleague on Monday. Jargon loses them; stories keep them.", needsFocus:"significance,contribution" },
+  { id:"biz-services", category:"business", title:"Talking About Your Services Without Selling", desc:"Discuss what you offer with a potential client in the room, without turning the conversation into a pitch.", skills:["Rapport","Clarity"], role:"Potential Client", scene:"The person you are speaking with fits your ideal client profile almost exactly, and they have just asked about your services. Every instinct says pitch. The room says do not. The skill is to be genuinely useful and interesting about what you do, plant the seed, and move toward a follow-up rather than a close. Networking events reward the second conversation, not the first.", needsFocus:"significance,certainty,contribution" },
+  { id:"biz-speaker", category:"business", title:"Approaching the Speaker After Their Talk", desc:"Get more than a handshake from the person everyone else is also queuing to meet.", skills:["Questions","Confidence"], role:"Event Speaker", scene:"The keynote has just finished and the speaker is surrounded by a loose queue of people offering the same compliment. You have perhaps ninety seconds when your turn comes. Generic praise gets a generic smile. A specific, thoughtful response to something they actually said gets remembered. Make your moment count and leave with a reason to follow up.", needsFocus:"significance,growth" },
+  { id:"biz-senior", category:"business", title:"Sixty Seconds with Someone Very Senior", desc:"Hold a brief, memorable exchange with the most senior person in the room without shrinking or performing.", skills:["Confidence","Clarity"], role:"Managing Director", scene:"You find yourself next to the managing director of a company you would love to work with. They are polite, guarded, and clearly used to being pitched at events. You have about a minute of natural conversation available. The goal is not to sell or impress: it is to be a person worth remembering, and perhaps earn permission to follow up.", needsFocus:"significance,certainty" },
+  { id:"intro-2min", category:"business", title:"The Two-Minute Business Conversation", desc:"Hold a natural business conversation where the other person interrupts, questions, and challenges as real people do.", skills:["Flow","Confidence"], role:"Engaged Attendee", scene:"This is not a pitch; it is a conversation. The attendee is genuinely engaged but conversational: they will interrupt with questions, change direction, challenge assumptions, and follow tangents, exactly as real networking conversations behave. The skill is holding your thread without a script: responsive, natural, and still landing the substance of what you do.", needsFocus:"significance,connection,variety" },
+  { id:"biz-product", category:"business", title:"Explaining One Product or Service", desc:"Present a single offer, a programme, workshop, or service, and survive the four questions everyone asks.", skills:["Clarity","Questions"], role:"Evaluating Attendee", scene:"The conversation has narrowed to one specific thing you offer: a programme, a workshop, a service, a membership. The attendee is interested but rigorous, and the four questions are coming: how is it different, who is it for, why you, and what results do people actually achieve? Vague answers will be politely probed. Specifics, examples, and outcomes are what land.", needsFocus:"significance,certainty,contribution" },
+  { id:"biz-already", category:"business", title:"We Already Work with Someone", desc:"Respond to the most common brush-off in networking without arguing or folding.", skills:["Rapport","Confidence"], role:"Attendee with an Existing Provider", scene:"You have just explained what you do and the reply arrives: we already work with someone for that. It is not hostile, it is a door closing politely. Arguing loses; agreeing and vanishing wastes the contact. The skill is the graceful third path: respect the incumbent, stay interesting, position yourself for the day the relationship changes, and keep the human connection alive.", needsFocus:"significance,certainty,connection" },
+  { id:"biz-interested", category:"business", title:"When Someone Becomes Interested", desc:"Convert genuine interest into a concrete next step: information, a meeting, or an introduction.", skills:["Flow","Clarity"], role:"Interested Prospect", scene:"It is happening: the person you are speaking with is genuinely interested. They may ask you to send information, suggest a meeting, or offer to introduce you to a colleague. Each of those forks needs handling: 'send me some information' can be a polite exit or a real opening, and the difference is how you respond. Secure something concrete with a date or a named next step before the room swallows you both.", needsFocus:"significance,certainty,contribution" },
+  { id:"biz-referral", category:"business", title:"Asking for an Introduction", desc:"Ask a well-connected contact to introduce you to someone specific, without making it awkward.", skills:["Clarity","Rapport"], role:"Well-Connected Attendee", scene:"You are talking with someone who clearly knows everyone in the room, and they know the person you most want to meet. Asking for an introduction feels grabby; not asking wastes the conversation. The skill is to make the ask specific, easy to grant, and framed around mutual value, so they can say yes in one sentence.", needsFocus:"connection,significance,contribution" },
+  { id:"diff-dominator", category:"difficult", title:"The Conversation Dominator", desc:"Reclaim space in a conversation with someone who talks over everything, without rudeness.", skills:["Confidence","Flow"], role:"Attendee Who Monopolises", scene:"You are trapped in a conversation with someone who has been talking about themselves for eight minutes: their business, their opinions, their diary. You have said perhaps four words. The exit alone is a skill; better still is redirecting the exchange into an actual dialogue, and then choosing whether it deserves more of your evening.", needsFocus:"significance,certainty" },
+  { id:"diff-seller", category:"difficult", title:"The Person Who Only Wants to Sell", desc:"Handle the attendee who treats you as a prospect from the first sentence.", skills:["Confidence","Rapport"], role:"Pushy Salesperson", scene:"Within a minute of meeting, this attendee has qualified your budget, name-dropped their clients, and reached for a brochure. You do not want their service, but you also do not want to be rude: this room talks. The skill is a boundary with grace: decline the pitch, keep the person, exit clean.", needsFocus:"certainty,connection" },
+  { id:"diff-different", category:"difficult", title:"What Makes You Different?", desc:"Handle the challenge every business gets: lots of companies do what you do, and your prices look high.", skills:["Confidence","Clarity"], role:"Challenging Attendee", scene:"The attendee is direct: there are lots of companies like yours, what makes you different? And when you answer, the follow-up is ready: that sounds expensive. This is not rudeness; it is the room testing whether you believe your own story. Defensiveness fails, discounting fails, and rehearsed slogans fail. Grounded specifics, calm conviction, and evidence are what pass.", needsFocus:"significance,certainty" },
+  { id:"diff-ignored", category:"difficult", title:"When Nobody Talks to You", desc:"Recover from being ignored or brushed off, and make the next approach anyway.", skills:["Confidence","Rapport"], role:"Initially Uninterested Attendee", scene:"It has been a bruising twenty minutes: one group closed ranks as you approached, one person gave you a single word and turned away. The voice saying 'leave' is getting louder. You choose one more approach: an attendee who initially seems uninterested, giving you very little. This is the resilience rep. Warmth, a genuine question, and persistence without neediness can turn it; and even if it stays flat, exiting with dignity is the win.", needsFocus:"significance,connection,certainty" },
+  { id:"diff-name-blank", category:"difficult", title:"Recovering from a Name Blank", desc:"Handle the moment someone greets you warmly by name and you have completely blanked on theirs.", skills:["Rapport","Flow"], role:"Attendee You Have Met Before", scene:"Someone crosses the room, greets you warmly by name, and references your last conversation in detail. You remember their face, the event, even what they told you about their business. Their name is gone. The clumsy move makes it worse; the honest, light-touch recovery makes it human. Navigate the moment and rebuild the thread.", needsFocus:"connection,significance" },
+  { id:"diff-silence", category:"difficult", title:"Rescuing an Awkward Silence", desc:"Recover a conversation that has stalled with someone reserved, without filling the air with noise.", skills:["Questions","Listening"], role:"Reserved Attendee", scene:"The conversation has run dry. The attendee you are with gives short answers, volunteers nothing, and the silences are stretching. They are not hostile, just closed. Panic-filling with chatter makes it worse. Good open questions, patience with the pauses, and genuine interest are what open reserved people. See what is underneath.", needsFocus:"connection,certainty" },
+  { id:"diff-exit", category:"difficult", title:"Leaving a Conversation Politely", desc:"End a pleasant conversation cleanly, so both of you leave feeling good about it.", skills:["Flow","Rapport"], role:"Talkative Attendee", scene:"The conversation has been perfectly pleasant and has now run its course, but the other person shows no sign of wrapping up, and the room is full of people you have not met. Most people stay trapped for fear of rudeness. The skill is the warm close: appreciation, a forward gesture, a clean exit that leaves the relationship better than an endless goodbye would.", needsFocus:"connection,certainty" },
+  { id:"follow-coffee", category:"followup", title:"The Follow-Up Coffee Meeting", desc:"Turn a promising event connection into a real relationship over coffee a week later.", skills:["Rapport","Questions"], role:"New Contact from the Event", scene:"You met this person at last week's event, the conversation was genuinely good, and the coffee you suggested is now happening. There is no room noise, no time pressure, and no script. The skill is moving from event acquaintance to actual professional relationship: deeper questions, real listening, and by the end, a natural sense of how you might be useful to each other.", needsFocus:"connection,growth,contribution" },
+  { id:"follow-meeting", category:"followup", title:"Turning a Contact into a Meeting", desc:"Move a warm contact toward a proper business conversation without sounding needy or salesy.", skills:["Clarity","Confidence"], role:"Warm Contact", scene:"You have met this person twice at events and the rapport is real. There is a genuine business reason to talk properly: a project where you could help. You have caught them for five minutes. Asking for the meeting feels like crossing a line from friendly to needy. It is not, if the ask is specific, low pressure, and framed around their interest. Make it.", needsFocus:"significance,certainty,contribution" },
+  { id:"follow-referral", category:"followup", title:"Generating a Referral", desc:"Ask a warm contact who values your work to refer you, specifically enough that they actually can.", skills:["Clarity","Rapport"], role:"Warm Contact Who Rates You", scene:"You are having coffee with a contact who genuinely rates what you do; they have said so more than once. They would refer you if they knew how. Most people never ask, or ask so vaguely ('if you know anyone...') that nothing ever comes. The skill is the specific, easy ask: who exactly, what to say, and how to make the introduction effortless for them.", needsFocus:"contribution,significance,connection" },
+  { id:"follow-reconnect", category:"followup", title:"Reconnecting After Months of Silence", desc:"Restart a relationship that went quiet, without the apology spiral or the pretence that no time has passed.", skills:["Rapport","Flow"], role:"Dormant Contact", scene:"Across the room is someone you connected well with almost a year ago. You said you would stay in touch. Neither of you did. The temptation is either to avoid them or to over-apologise. Both waste a warm connection. Approach, acknowledge the gap lightly, and pick the relationship back up where the goodwill still lives.", needsFocus:"connection,significance" },
+];
+
+const HUMAN_NEEDS = {
+  certainty: "Safety, stability, knowing what to expect",
+  variety: "Possibility, change, something to move toward",
+  significance: "Mattering, being seen, contribution recognised",
+  connection: "Belonging, genuinely heard, supported",
+  growth: "Moving forward, developing, not standing still",
+  contribution: "Purpose, meaning, impact beyond self",
+};
+
+const NEEDS_PROMPT = `HUMAN NEEDS AWARENESS: Every person in a workplace conversation is trying to meet fundamental human needs. Hold all six simultaneously and subtly honour the ones most at risk.
+- CERTAINTY: they need safety, to know what happens next. When at risk they become rigid or shut down.
+- VARIETY: they need possibility and openness, not dead ends.
+- SIGNIFICANCE: they need to feel they matter and are not being written off. Protect this even in difficult conversations.
+- CONNECTION: the sense someone is genuinely on their side and they are not alone.
+- GROWTH: this conversation should move them forward, not just hold them accountable.
+- CONTRIBUTION: their work means something, there is purpose to step up for.
+ETHICAL FOUNDATION: This tool exists to build people up. Never corner, shame or win at the expense of the person practising. Even in resistant or dismissive mode, remain a professional who ultimately respects the person opposite you.
+LANGUAGE RULE: NEVER use em dashes (the — character) under any circumstances whatsoever. Not once. Not ever. Replace every em dash with a comma, full stop, or colon. This is an absolute rule with no exceptions. Always use the Oxford comma in lists of three or more items (for example: certainty, growth, and contribution).`;
+
+const TONE_GROUPS = [
+  {
+    label: "Baseline",
+    color: "rgba(232,244,245,0.55)",
+    tones: [
+      { value:"neutral", label:"Neutral", note:"Measured, realistic" },
+    ],
+  },
+  {
+    label: "Cooperative",
+    color: TEAL,
+    tones: [
+      { value:"supportive", label:"Supportive", note:"Open, engaged and collaborative" },
+      { value:"curious", label:"Curious", note:"Interested but asking lots of questions" },
+      { value:"appreciative", label:"Appreciative", note:"Positive and encouraging" },
+    ],
+  },
+  {
+    label: "Challenging",
+    color: AMBER,
+    tones: [
+      { value:"resistant", label:"Resistant", note:"Pushes back and questions your position" },
+      { value:"sceptical", label:"Sceptical", note:"Needs convincing through evidence" },
+      { value:"defensive", label:"Defensive", note:"Protects themselves and avoids responsibility" },
+      { value:"impatient", label:"Impatient", note:"Wants quick answers and interrupts" },
+      { value:"distracted", label:"Distracted", note:"Scanning the room, half engaged" },
+      { value:"rushed", label:"Rushed", note:"Two minutes before they move on" },
+    ],
+  },
+  {
+    label: "Difficult",
+    color: "#C4685A",
+    tones: [
+      { value:"dismissive", label:"Dismissive", note:"Minimises what you say" },
+      { value:"passive-aggressive", label:"Passive-aggressive", note:"Appears agreeable but undermines indirectly" },
+      { value:"emotional", label:"Emotional", note:"Frustrated, upset or angry" },
+      { value:"dominant", label:"Dominant", note:"Controls the conversation" },
+      { value:"avoidant", label:"Avoidant", note:"Does not answer questions or changes the subject" },
+      { value:"silent", label:"Silent", note:"Gives very little away" },
+    ],
+  },
+];
+
+const TONE_OPTIONS = TONE_GROUPS.flatMap(g => g.tones);
+
+const TONE_INSTRUCTIONS = {
+  neutral: "Respond in a measured, realistic way. Be professional and fair but do not make things easy.",
+  supportive: "Be open, engaged and collaborative. Create good-faith dialogue, build on their points, and offer help where natural. Still ask meaningful questions so the practice has substance.",
+  curious: "Be genuinely interested and ask lots of questions. Probe for detail, reasoning and evidence. Your questions are curious rather than hostile, but they require the person to think and explain clearly.",
+  appreciative: "Be positive, warm and encouraging. Acknowledge what they do well within the conversation. Remain realistic: appreciation does not mean agreeing with everything, so still raise honest considerations gently.",
+  resistant: "Actively push back. Challenge their points. Be politely resistant and raise objections. Remain professional. If they respond with clarity, evidence and composure, allow your resistance to soften step by step.",
+  sceptical: "Be doubtful and need convincing through evidence. Question assumptions, ask for specifics, data or examples. Do not accept assertion alone. When they provide credible substance, acknowledge it and shift your position accordingly.",
+  defensive: "Protect yourself and avoid taking responsibility. Justify your actions, shift blame subtly and treat feedback as criticism at first. If the person creates safety, stays specific and avoids attacking you personally, gradually lower your guard and engage honestly.",
+  distracted: "You are physically present but only half engaged: scanning the room over their shoulder, glancing at your phone, greeting people passing by. Your attention must be EARNED. If the person is interesting, specific, or asks something that genuinely lands, give them progressively more of your focus. If they waffle, drift again. Never be rude, just realistically divided.",
+  rushed: "You have about two minutes before you genuinely need to move on: another conversation, a talk starting, a train to catch. Say so early and politely. Compress everything. If the person makes those two minutes count with crisp, memorable communication, become interested enough to offer a follow-up: a card, a coffee, a connection request. If they ramble, exit warmly but firmly.",
+  impatient: "Be time-pressed and brisk. Want quick answers, push for the point and occasionally interrupt with phrases like 'So what are you asking for?'. If they are concise and structured, give them proper attention. If they ramble, cut in again. Never be rude, only hurried.",
+  dismissive: "Be deflecting and minimising. Downplay what they say, change subject and give non-committal answers. Remain civil. If they hold their ground calmly and make the stakes concrete, begin to take them seriously.",
+  "passive-aggressive": "Appear agreeable on the surface while undermining indirectly. Use qualified agreement, faint praise, subtle digs and 'Fine, whatever works for everyone' style remarks. Never be openly hostile. If the person names the pattern calmly and invites honesty without attacking you, drop the mask by degrees and speak plainly.",
+  emotional: "You are emotionally charged. Choose ONE emotional lane for the entire scene based on what fits the scenario: frustrated, upset, or angry. Stay in that lane consistently rather than cycling between emotions. Express the emotion through realistic professional behaviour, not theatrics. If the person acknowledges the emotion, stays calm and shows they have heard you, gradually settle and become able to talk constructively.",
+  dominant: "Control the conversation. Talk over them, steer the agenda, make declarative statements and leave little room. Remain professional, never abusive. If the person holds their space assertively, interjects with confidence and refuses to be steamrolled, give ground and start treating them as an equal.",
+  avoidant: "Do not answer questions directly. Change the subject, give vague replies, defer decisions and slide away from commitment. Remain pleasant. If the person asks precise questions, closes escape routes politely and asks for specific commitments, allow yourself to be pinned down step by step.",
+  silent: "Give very little away. Reply in short, minimal answers. Offer no volunteered information, long pauses implied, one sentence at most unless genuinely drawn out. You are not hostile, just closed. If the person asks good open questions, tolerates the silence and creates genuine safety or interest, open up gradually and reward their effort with more.",
+};
+
+const TONE_ETHIC = "TONE RULE: Whatever the tone, you are always a character the person can succeed against. There is always a path through. If they communicate well, respond to it. Never become an immovable wall, never punish good communication, and never escalate beyond professional realism.";
+
+function getToneMeta(v) {
+  for (const g of TONE_GROUPS) {
+    const t = g.tones.find(t => t.value === v);
+    if (t) return { ...t, group: g.label };
+  }
+  return { value: v, label: v, note: "", group: "" };
+}
+
+const COUNTERPART_LEVELS = [
+  { value:"junior", label:"Junior to me", note:"Reports to you or is more junior" },
+  { value:"peer", label:"My peer", note:"Same level, no authority either way" },
+  { value:"senior", label:"Senior to me", note:"Your manager or above you" },
+  { value:"executive", label:"Very senior", note:"C-suite, board, or top leadership" },
+  { value:"external", label:"Client or external", note:"Customer, supplier, or partner" },
+];
+
+const COUNTERPART_REGISTER = {
+  junior: "You are JUNIOR to the person you are speaking with. They hold positional authority over you. Play this realistically: more careful with pushback, some deference in phrasing, but you still have your own perspective, feelings, and legitimate concerns. Do not be a pushover; junior people can still resist, deflect, or feel strongly.",
+  peer: "You are a PEER of the person you are speaking with. Neither of you has authority over the other. The dynamic is equal footing: you owe them professional courtesy but no deference, and social capital matters more than hierarchy.",
+  senior: "You are SENIOR to the person you are speaking with, such as their manager or above. You hold positional authority and you are comfortable in it. You speak with the ease of someone who does not need to win the exchange, you can interrupt more freely, and your time feels valuable. Do not be a cartoon boss; be a realistic senior figure.",
+  executive: "You are VERY SENIOR to the person you are speaking with: C-suite, board level, or top leadership. Your attention is scarce and expensive. You compress conversations, expect crisp answers, and notice waffle instantly. You respect people who are direct and prepared. Realistic executive presence, not caricature.",
+  external: "You are EXTERNAL to the person's organisation: a client, customer, supplier, or partner. There is no internal hierarchy between you, but there are commercial stakes. You think about your own organisation's interests, and your goodwill must be earned rather than assumed.",
+};
+
+const EVENT_TYPES = [
+  { value:"breakfast", label:"Business breakfast", note:"Early, informal, regulars know each other" },
+  { value:"chamber-breakfast", label:"Chamber of Commerce breakfast", note:"Local business community, structured" },
+  { value:"chamber-evening", label:"Chamber networking evening", note:"Drinks, mingling, local firms" },
+  { value:"lunch", label:"Networking lunch", note:"Seated or standing, midday pace" },
+  { value:"dinner", label:"Business dinner", note:"Seated, longer conversations, etiquette matters" },
+  { value:"conference", label:"Conference", note:"Talks, breaks, and crowded coffee stations" },
+  { value:"hr-conference", label:"HR or CIPD conference", note:"People professionals, L&D focus" },
+  { value:"leadership-conference", label:"Leadership conference", note:"Senior audience, big-picture talk" },
+  { value:"tradeshow", label:"Trade exhibition", note:"Stands, badges, and high footfall" },
+  { value:"expo", label:"Business expo", note:"Mixed exhibitors, browsing visitors" },
+  { value:"association", label:"Professional association", note:"Your industry, shared context" },
+  { value:"awards", label:"Awards evening", note:"Formal, celebratory, mixed seniority" },
+  { value:"coffee", label:"Coffee meeting", note:"One to one, no room to work" },
+  { value:"online", label:"Online networking", note:"Video room, breakouts, chat window" },
+];
+
+const OTHER_PARTY_ROLES = [
+  { value:"unspecified", label:"Any attendee", note:"Let the scenario decide" },
+  { value:"ceo", label:"CEO", note:"Top of the organisation" },
+  { value:"md", label:"Managing Director", note:"Runs the business day to day" },
+  { value:"hr-director", label:"HR Director", note:"People, culture, and policy" },
+  { value:"ld-manager", label:"L&D Manager", note:"Training and development budgets" },
+  { value:"ops-director", label:"Operations Director", note:"Delivery, process, efficiency" },
+  { value:"finance-director", label:"Finance Director", note:"Numbers, risk, return" },
+  { value:"marketing-director", label:"Marketing Director", note:"Brand, audience, growth" },
+  { value:"business-owner", label:"Business Owner", note:"Their name is on it" },
+  { value:"consultant", label:"Consultant", note:"Independent, well networked" },
+  { value:"recruiter", label:"Recruiter", note:"Talent, roles, and referrals" },
+  { value:"potential-client", label:"Potential client", note:"Could buy what you do" },
+  { value:"existing-client", label:"Existing client", note:"Already works with you" },
+  { value:"supplier", label:"Supplier", note:"Sells what you might need" },
+  { value:"investor", label:"Investor", note:"Deploys capital, thinks in returns" },
+  { value:"speaker", label:"Speaker", note:"Just came off the stage" },
+  { value:"exhibitor", label:"Exhibitor", note:"Working a stand, on duty" },
+];
+
+const RELATIONSHIP_GOALS = [
+  { value:"build-relationships", label:"Build relationships", note:"Long-term professional connections" },
+  { value:"meet-new", label:"Meet new people", note:"Widen the circle" },
+  { value:"find-clients", label:"Find clients", note:"Meet potential buyers of what you do" },
+  { value:"referrals", label:"Generate referrals", note:"People who send work your way" },
+  { value:"collaborators", label:"Find collaborators", note:"Partners for projects or ventures" },
+  { value:"recruiters", label:"Meet recruiters", note:"Career opportunities and visibility" },
+  { value:"suppliers", label:"Meet suppliers", note:"People whose services you may need" },
+  { value:"confidence", label:"Build confidence", note:"The event itself is the practice" },
+  { value:"learn", label:"Learn from others", note:"Insight, trends, and experience" },
+];
+
+const NETWORKING_EXPERIENCE = [
+  { value:"first", label:"First networking event", note:"This is all new" },
+  { value:"occasional", label:"Occasional networker", note:"A few events a year" },
+  { value:"regular", label:"Regular networker", note:"Monthly or more" },
+  { value:"experienced", label:"Experienced", note:"Comfortable, refining the craft" },
+];
+
+const CONVERSATION_GOALS = [
+  { value:"rapport", label:"Build rapport", note:"A genuine connection worth continuing" },
+  { value:"introduce", label:"Introduce yourself well", note:"Land who you are, memorably" },
+  { value:"understand", label:"Understand their business", note:"Learn what they do and need" },
+  { value:"exchange", label:"Exchange contact details", note:"Leave with a way to follow up" },
+  { value:"meeting", label:"Arrange a meeting", note:"Convert the chat into a diary entry" },
+  { value:"opportunities", label:"Identify opportunities", note:"Spot where you could work together" },
+  { value:"reconnect", label:"Reconnect", note:"Revive an existing relationship" },
+];
+
+const SENIORITY_LEVELS = [
+  { value:"professional", label:"Professional", note:"Specialist, team member, not yet managing others" },
+  { value:"manager", label:"Manager", note:"Team lead, people manager, first-line" },
+  { value:"senior-manager", label:"Senior Manager", note:"Head of function, senior people manager" },
+  { value:"director", label:"Director", note:"Director, VP, divisional lead" },
+  { value:"executive", label:"Executive", note:"C-suite, MD, Partner, Board level" },
+  { value:"business-owner", label:"Business Owner", note:"Founder, sole trader, running your own business" },
+];
+
+const SENIORITY_REGISTER = {
+  professional: "This person is a professional who does not yet manage others. They are a specialist, team member or high performer building their communication and influence skills. Score their communication against what strong professional performance looks like at this stage: clear expression of their ideas, constructive contribution, ability to hold their ground respectfully with peers and managers.",
+  manager: "This person operates at manager level. They manage a team and are accountable for team output. Score their communication against what effective leadership looks like at this level: clear direction, constructive feedback, credible presence with their team and peers.",
+  "senior-manager": "This person operates at senior manager level. They lead across teams or functions and need to influence upward as well as downward. Score their communication against what strong senior management looks like: strategic clarity, organisational awareness, ability to hold their ground with senior stakeholders.",
+  director: "This person operates at director or VP level. They are expected to operate with executive presence, speak in the language of business impact and risk, and influence at board level. Score their communication against what strong director-level performance looks like: boardroom register, strategic framing, authority without aggression.",
+  executive: "This person operates at executive level: C-suite, Managing Director, Partner or Board. They are expected to lead through ambiguity, shape organisational direction and communicate with complete authority and precision. Score against the highest professional register: every word should reflect strategic command.",
+  "business-owner": "This person owns and runs their own business. They do not answer to a hierarchy above them, but they are accountable to clients, staff, investors or their own standards. Score their communication against what strong founder or owner-level performance looks like: clarity of decision-making, confidence without a safety net, the ability to hold boundaries with clients or staff while protecting the relationship and the business.",
+};
+
+const CI_METRICS = [
+  { key:"confidence", label:"Confidence and Presence" },
+  { key:"rapport", label:"Rapport Building" },
+  { key:"questions", label:"Question Quality" },
+  { key:"listening", label:"Listening" },
+  { key:"clarity", label:"Clarity" },
+  { key:"flow", label:"Conversation Flow" },
+];
+
+const s = {
+  // Global
+  app: { background: DARKER, minHeight:"100vh", color:"#EEF8F9", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(14px, 2.2vw, 18px)" },
+  // Lobby
+  lobby: { maxWidth:960, margin:"0 auto", padding:"0 20px 60px" },
+  lobbyHeader: { padding:"40px 0 28px", borderBottom:`1px solid rgba(61,133,140,0.15)`, display:"flex", justifyContent:"space-between", alignItems:"flex-start", flexWrap:"wrap", gap:12 },
+  wordmarkSub: { fontSize:"clamp(9px, 1.4vw, 12px)", letterSpacing:"0.15em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:4 },
+  wordmarkMain: { fontSize:"clamp(22px, 3.5vw, 36px)", fontWeight:300, color:"#EEF8F9", letterSpacing:"0.04em", fontFamily:"'Cormorant Garamond', Georgia, serif", lineHeight:1.1 },
+  tagline: { fontSize:"clamp(14px, 2.2vw, 18px)", color:"rgba(232,244,245,0.78)", maxWidth:280, lineHeight:1.5, textAlign:"right" },
+  hero: { padding:"48px 0 36px", borderBottom:`1px solid rgba(61,133,140,0.15)` },
+  heroH1: { fontSize:"clamp(26px, 4.5vw, 52px)", fontWeight:300, lineHeight:1.15, marginBottom:16, color:"#EEF8F9", fontFamily:"'Cormorant Garamond', Georgia, serif" },
+  heroEm: { fontStyle:"italic", color: MIST },
+  heroP: { fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", maxWidth:480, lineHeight:1.7 },
+  section: { paddingTop:36 },
+  sectionLabel: { fontSize:"clamp(14px, 2.2vw, 18px)", letterSpacing:"0.2em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:24 },
+  pillsRow: { display:"flex", gap:8, flexWrap:"wrap", marginBottom:28 },
+  pill: { padding:"5px 14px", border:`1px solid rgba(61,133,140,0.25)`, borderRadius:20, fontSize:"clamp(14px, 2.2vw, 18px)", color:"rgba(232,244,245,0.8)", cursor:"pointer", background:"transparent", transition:"all 0.2s" },
+  pillActive: { borderColor:TEAL, color:MIST, background:"rgba(61,133,140,0.12)" },
+  grid: { display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(250px,1fr))", gap:12 },
+  card: { background:"rgba(61,133,140,0.07)", border:`1px solid rgba(61,133,140,0.12)`, borderRadius:10, padding:"20px 20px 16px", cursor:"pointer", transition:"all 0.2s", position:"relative", overflow:"hidden" },
+  cardCat: { fontSize:"clamp(14px, 2.2vw, 18px)", letterSpacing:"0.15em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:8 },
+  cardTitle: { fontSize:"clamp(13px, 2.1vw, 17px)", fontWeight:400, color:"#EEF8F9", marginBottom:8, lineHeight:1.3, fontFamily:"'Cormorant Garamond', Georgia, serif" },
+  cardDesc: { fontSize:"clamp(14px, 2.2vw, 18px)", color:"rgba(232,244,245,0.78)", lineHeight:1.55 },
+  cardFooter: { display:"flex", justifyContent:"space-between", alignItems:"center", marginTop:14, paddingTop:12, borderTop:`1px solid rgba(61,133,140,0.1)` },
+  skillTag: { fontSize:"clamp(14px, 2.2vw, 18px)", padding:"2px 8px", background:"rgba(212,168,83,0.12)", color:AMBER, borderRadius:10 },
+  // Setup
+  setup: { maxWidth:600, margin:"0 auto", padding:"40px 20px 60px" },
+  backBtn: { background:"none", border:"none", color:"rgba(232,244,245,0.75)", fontSize:"clamp(14px, 2.2vw, 18px)", cursor:"pointer", marginBottom:32, padding:0, display:"flex", alignItems:"center", gap:6 },
+  eyebrow: { fontSize:"clamp(14px, 2.2vw, 18px)", letterSpacing:"0.2em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:10 },
+  setupTitle: { fontSize:"clamp(24px, 3.6vw, 32px)", fontWeight:300, color:"#EEF8F9", marginBottom:10, lineHeight:1.2, fontFamily:"'Cormorant Garamond', Georgia, serif" },
+  setupDesc: { fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", marginBottom:32, lineHeight:1.65 },
+  fieldLabel: { display:"block", fontSize:"clamp(14px, 2.2vw, 18px)", color:"rgba(232,244,245,0.85)", marginBottom:7, letterSpacing:"0.04em" },
+  fieldInput: { width:"100%", background:"rgba(61,133,140,0.08)", border:`1px solid rgba(61,133,140,0.22)`, borderRadius:8, padding:"11px 14px", color:"#EEF8F9", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(13px, 2.1vw, 17px)", outline:"none", boxSizing:"border-box" },
+  toneGrid: { display:"grid", gridTemplateColumns:"1fr 1fr", gap:10 },
+  toneBtn: { border:`1px solid rgba(61,133,140,0.22)`, borderRadius:8, padding:"13px 15px", cursor:"pointer", background:"transparent", textAlign:"left", color:"#EEF8F9", transition:"all 0.2s" },
+  toneBtnActive: { borderColor:TEAL, background:"rgba(61,133,140,0.12)" },
+  startBtn: { width:"100%", padding:"15px", background:TEAL, border:"none", borderRadius:8, color:DARKER, fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(13px, 2vw, 16px)", fontWeight:700, cursor:"pointer", letterSpacing:"0.07em", textTransform:"uppercase", marginTop:8 },
+  // Lab
+  lab: { display:"flex", flexDirection:"row", height:"100vh", overflow:"hidden", background:DARKER, position:"relative" },
+  labMain: { flex:1, display:"flex", flexDirection:"column", borderRight:`1px solid rgba(61,133,140,0.12)`, minWidth:0, minHeight:0 },
+  topbar: { padding:"18px 24px", borderBottom:`1px solid rgba(61,133,140,0.12)`, display:"flex", alignItems:"center", justifyContent:"space-between", flexShrink:0 },
+  labEyebrow: { fontSize:"clamp(13px, 2.1vw, 17px)", letterSpacing:"0.18em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:4 },
+  labTitle: { fontSize:"clamp(14px, 2.2vw, 18px)", fontWeight:400, color:"#EEF8F9" },
+  labBtn: { padding:"6px 12px", border:`1px solid rgba(61,133,140,0.22)`, borderRadius:6, background:"transparent", color:"rgba(232,244,245,0.8)", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(13px, 2.1vw, 17px)", cursor:"pointer", whiteSpace:"nowrap" },
+  stageBar: { padding:"16px 24px", background:"rgba(212,168,83,0.1)", borderBottom:`1px solid rgba(212,168,83,0.18)`, flexShrink:0 },
+  stageText: { fontSize:"clamp(14px, 2.2vw, 18px)", color:"rgba(212,168,83,0.9)", lineHeight:1.65 },
+  convArea: { flex:1, overflowY:"auto", padding:"24px 20px", display:"flex", flexDirection:"column", gap:18, minHeight:0 },
+  msgUser: { alignSelf:"flex-end", maxWidth:"75%", display:"flex", flexDirection:"column", alignItems:"flex-end", gap:3 },
+  msgAi: { alignSelf:"flex-start", maxWidth:"75%", display:"flex", flexDirection:"column", gap:3 },
+  msgRole: { fontSize:"clamp(13px, 2.1vw, 17px)", letterSpacing:"0.12em", textTransform:"uppercase", color:"rgba(232,244,245,0.85)", padding:"0 4px" },
+  bubbleUser: { padding:"12px 16px", borderRadius:12, borderBottomRightRadius:4, background:TEAL, color:DARKER, fontSize:"clamp(13px, 2.1vw, 17px)", lineHeight:1.6 },
+  bubbleAi: { padding:"12px 16px", borderRadius:12, borderBottomLeftRadius:4, background:"rgba(61,133,140,0.1)", border:`1px solid rgba(61,133,140,0.15)`, color:"#EEF8F9", fontSize:"clamp(13px, 2.1vw, 17px)", lineHeight:1.6 },
+  bubbleNote: { padding:"10px 14px", borderRadius:10, background:"rgba(212,168,83,0.1)", border:`1px solid rgba(212,168,83,0.2)`, color:AMBER, fontSize:"clamp(14px, 2.2vw, 18px)", fontStyle:"italic", lineHeight:1.6, alignSelf:"center", maxWidth:"88%", textAlign:"center" },
+  inputArea: { padding:"14px 20px 18px", borderTop:`1px solid rgba(61,133,140,0.12)`, flexShrink:0 },
+  inputRow: { display:"flex", gap:8, alignItems:"flex-end" },
+  textInput: { flex:1, background:"rgba(61,133,140,0.08)", border:`1px solid rgba(61,133,140,0.22)`, borderRadius:10, padding:"11px 14px", color:"#EEF8F9", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(13px, 2.1vw, 17px)", resize:"none", outline:"none", lineHeight:1.5, minHeight:46 },
+  sendBtn: { width:44, height:44, background:TEAL, border:"none", borderRadius:10, color:DARKER, fontSize:"clamp(14px, 2.2vw, 18px)", cursor:"pointer", flexShrink:0, display:"flex", alignItems:"center", justifyContent:"center" },
+  inputHint: { fontSize:"clamp(14px, 2.2vw, 18px)", color:"rgba(232,244,245,0.82)", marginTop:6, display:"flex", gap:14 },
+  // Panel
+  panel: { width:280, flexShrink:0, display:"flex", flexDirection:"column", overflowY:"auto", background:DARK, transition:"transform 0.25s ease" },
+  panelSection: { padding:"18px 18px", borderBottom:`1px solid rgba(61,133,140,0.1)` },
+  panelTitle: { fontSize:"clamp(13px, 2.1vw, 17px)", letterSpacing:"0.18em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:14 },
+  metricRow: { display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:6 },
+  metricName: { fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)" },
+  metricScore: { fontSize:"clamp(14px, 2.2vw, 18px)", fontWeight:700, color:MIST },
+  barTrack: { height:3, background:"rgba(255,255,255,0.07)", borderRadius:2, overflow:"hidden", marginBottom:12 },
+  insightNote: { background:"rgba(212,168,83,0.1)", border:`1px solid rgba(212,168,83,0.18)`, borderRadius:8, padding:"10px 12px", fontSize:"clamp(14px, 2.2vw, 18px)", color:"rgba(212,168,83,0.9)", lineHeight:1.55, marginBottom:8 },
+  transcriptArea: { fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.75)", lineHeight:1.6, whiteSpace:"pre-wrap", maxHeight:160, overflowY:"auto", background:"rgba(0,0,0,0.2)", borderRadius:6, padding:"9px 11px", marginBottom:10 },
+  exportBtn: { width:"100%", padding:8, background:"transparent", border:`1px solid rgba(61,133,140,0.22)`, borderRadius:6, color:"rgba(232,244,245,0.8)", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(13px, 2.1vw, 17px)", cursor:"pointer" },
+  // Debrief
+  debrief: { maxWidth:700, margin:"0 auto", padding:"40px 20px 80px" },
+  debriefH1: { fontSize:"clamp(26px,4vw,40px)", fontWeight:300, color:"#EEF8F9", lineHeight:1.15, marginBottom:8, fontFamily:"'Cormorant Garamond', Georgia, serif" },
+  debriefSub: { fontSize:"clamp(13px, 2vw, 16px)", color:"rgba(232,244,245,0.82)", marginBottom:40 },
+  debriefSectionTitle: { fontSize:"clamp(13px, 2.1vw, 17px)", letterSpacing:"0.2em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:14 },
+  debriefCard: { background:"rgba(61,133,140,0.07)", border:`1px solid rgba(61,133,140,0.12)`, borderRadius:10, padding:20, marginBottom:14 },
+  debriefScoreGrid: { display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:10, marginBottom:14 },
+  scoreCard: { background:"rgba(61,133,140,0.07)", border:`1px solid rgba(61,133,140,0.12)`, borderRadius:8, padding:14 },
+  scoreName: { fontSize:"clamp(14px, 2.2vw, 18px)", color:"rgba(232,244,245,0.7)", marginBottom:8 },
+  scoreVal: { fontSize:"clamp(24px, 3.6vw, 32px)", fontWeight:300, color:MIST, lineHeight:1, marginBottom:8, fontFamily:"'Cormorant Garamond', Georgia, serif" },
+  needsGrid: { display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:8, marginBottom:14 },
+  needChip: { padding:"9px 12px", borderRadius:8, border:`1px solid rgba(61,133,140,0.12)`, background:"rgba(61,133,140,0.05)", textAlign:"center" },
+  needChipActive: { border:`1px solid ${TEAL}`, background:"rgba(61,133,140,0.15)" },
+  takeaway: { background:"rgba(61,133,140,0.1)", border:`1px solid ${TEAL}`, borderRadius:12, padding:22, marginBottom:28 },
+  takeawayLabel: { fontSize:"clamp(13px, 2.1vw, 17px)", letterSpacing:"0.18em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:10 },
+  takeawayText: { fontSize:"clamp(14px, 2.2vw, 18px)", fontWeight:300, color:"#EEF8F9", lineHeight:1.55, fontStyle:"italic", fontFamily:"'Cormorant Garamond', Georgia, serif" },
+  debriefActions: { display:"flex", gap:10, flexWrap:"wrap" },
+  debriefBtnPrimary: { padding:"13px 22px", background:TEAL, border:"none", borderRadius:8, color:DARKER, fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(14px, 2.2vw, 18px)", fontWeight:700, cursor:"pointer", letterSpacing:"0.05em", textTransform:"uppercase" },
+  debriefBtnSecondary: { padding:"13px 22px", background:"transparent", border:`1px solid rgba(61,133,140,0.3)`, borderRadius:8, color:"rgba(232,244,245,0.8)", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(14px, 2.2vw, 18px)", cursor:"pointer" },
+};
+
+function LevelPicker({ label, options, value, onChange, isOpen, onToggle, accent }) {
+  const selected = options.find(o => o.value === value);
+  const ac = accent || TEAL;
+  return (
+    <div style={{ marginBottom:16 }}>
+      <label style={{ ...s.fieldLabel, marginBottom:8, display:"block" }}>{label}</label>
+      <div style={{ border:`1px solid ${ac}55`, borderLeft:`5px solid ${ac}`, borderRadius:8, overflow:"hidden" }}>
+        <button
+          onClick={onToggle}
+          style={{ width:"100%", display:"flex", alignItems:"center", gap:10, padding:"14px 15px", background:`${ac}14`, border:"none", cursor:"pointer", color:"#EEF8F9", textAlign:"left", fontFamily:"'DM Sans', Arial, sans-serif" }}>
+          <span style={{ fontSize:"clamp(14px, 2.1vw, 17px)", fontWeight:700, color:ac }}>{selected ? selected.label : "Choose"}</span>
+          <span style={{ fontSize:"clamp(12px, 1.9vw, 14px)", color:"rgba(232,244,245,0.65)", overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>{selected ? selected.note : ""}</span>
+          <span style={{ marginLeft:"auto", fontSize:11, color:"rgba(232,244,245,0.6)", transform:isOpen ? "rotate(180deg)" : "none", transition:"transform 0.2s", flexShrink:0 }}>▼</span>
+        </button>
+        {isOpen && (
+          <div style={{ ...s.toneGrid, padding:"4px 10px 12px" }}>
+            {options.map(o => (
+              <button key={o.value} style={{ ...s.toneBtn, ...(value===o.value ? s.toneBtnActive : {}) }} onClick={() => { onChange(o.value); onToggle(); }}>
+                <div style={{ fontSize:"clamp(13px, 2vw, 16px)", fontWeight:500, marginBottom:3 }}>{o.label}</div>
+                <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.75)" }}>{o.note}</div>
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function Dots() {
+  return (
+    <div style={{ display:"flex", gap:5, padding:"12px 16px", alignItems:"center" }}>
+      {[0,1,2].map(i => (
+        <div key={i} style={{ width:6, height:6, borderRadius:"50%", background:TEAL, animation:`pulse 1.2s ${i*0.2}s infinite` }} />
+      ))}
+      <style>{`@keyframes pulse{0%,80%,100%{opacity:0.25;transform:scale(0.9)}40%{opacity:1;transform:scale(1.1)}}`}</style>
+    </div>
+  );
+}
+
+function App() {
+  const [view, setView] = useState("lobby");
+  const isEmbedded = (() => { try { return window.self !== window.top; } catch { return true; } })();
+  const openFullScreen = () => { try { window.open(window.location.href, "_blank", "noopener"); } catch {} };
+  const [catFilter, setCatFilter] = useState("all");
+  const [scenario, setScenario] = useState(null);
+  const [tone, setTone] = useState("neutral");
+  const [openToneGroup, setOpenToneGroup] = useState("Baseline");
+  const [userName, setUserName] = useState("");
+  const [userRole, setUserRole] = useState("");
+  const [otherPartyName, setOtherPartyName] = useState("");
+  const [otherPartyLevel, setOtherPartyLevel] = useState("peer");
+  const [openLevelPicker, setOpenLevelPicker] = useState(null);
+  const [eventType, setEventType] = useState("breakfast");
+  const [otherPartyRole, setOtherPartyRole] = useState("unspecified");
+  const [relationshipGoal, setRelationshipGoal] = useState("build-relationships");
+  const [networkingExperience, setNetworkingExperience] = useState("occasional");
+  const [conversationGoal, setConversationGoal] = useState("rapport");
+  const [userContext, setUserContext] = useState("");
+  const [messages, setMessages] = useState([]);
+  const [input, setInput] = useState("");
+  const [thinking, setThinking] = useState(false);
+  const [scores, setScores] = useState({});
+  const [insights, setInsights] = useState([]);
+  const [transcript, setTranscript] = useState("");
+  const [msgCount, setMsgCount] = useState(0);
+  const [seniority, setSeniority] = useState("professional");
+  const [panelOpen, setPanelOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [sceneExpanded, setSceneExpanded] = useState(false);
+  const [debrief, setDebrief] = useState(null);
+  const [debriefLoading, setDebriefLoading] = useState(false);
+  const [isListening, setIsListening] = useState(false);
+  const [voiceEnabled, setVoiceEnabled] = useState(false);
+  const voiceEnabledRef = useRef(false);
+  const setVoice = (val) => { setVoiceEnabled(val); voiceEnabledRef.current = val; };
+  const [elevenLabsKey, setElevenLabsKey] = useState("");
+  const [characterGender, setCharacterGender] = useState("female"); // "male" | "female", for roleplay character voice
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const convRef = useRef(null);
+  const historyRef = useRef([]);
+  const recognitionRef = useRef(null);
+  const audioRef = useRef(null);
+
+  // Voice character map - ElevenLabs voice IDs per scenario category
+  // Replace voice IDs with your ElevenLabs voices when ready
+  // Character voices: used only inside the roleplay itself, where the AI is playing
+  // the other person in the scene. Eddie and Grace currently cover all categories.
+  // Add distinct voice IDs per category here as more become available.
+  const EDDIE = { id:"VsQmyFHffusQDewmHB5v", name:"Eddie", desc:"Male roleplay voice" };
+  const GRACE = { id:"9TwzC887zQyDD4yBthzD", name:"Grace", desc:"Female roleplay voice" };
+
+  const VOICE_MAP = {
+    before:    { male: EDDIE, female: GRACE },
+    arrival:   { male: EDDIE, female: GRACE },
+    starting:  { male: EDDIE, female: GRACE },
+    joining:   { male: EDDIE, female: GRACE },
+    business:  { male: EDDIE, female: GRACE },
+    difficult: { male: EDDIE, female: GRACE },
+    followup:  { male: EDDIE, female: GRACE },
+    default:   { male: EDDIE, female: GRACE },
+  };
+
+  // Narrator voice: used for setup, teaching moments, insights and debrief narration.
+  // Consistent across every scenario, this is "the coach", not a character in the roleplay.
+  const NARRATOR_VOICE = { id: "av1BMOR1GPgThz9p4fLo", name: "Liam" };
+
+  function isMobileViewport() {
+    return typeof window !== "undefined" && window.innerWidth <= 700;
+  }
+
+  useEffect(() => {
+    if (view !== "lab") return;
+    if (isMobileViewport()) {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+    } else if (convRef.current) {
+      convRef.current.scrollTop = convRef.current.scrollHeight;
+    }
+  }, [messages, thinking]);
+
+  useEffect(() => {
+    if (view !== "lab") window.scrollTo({ top: 0, behavior: "instant" });
+    if (typeof document !== "undefined") {
+      const mobile = isMobileViewport();
+      if (view === "lab" && !mobile) {
+        document.documentElement.style.overflow = "hidden";
+        document.body.style.overflow = "hidden";
+        document.body.style.height = "100vh";
+      } else {
+        document.documentElement.style.overflow = "auto";
+        document.body.style.overflow = "auto";
+        document.body.style.height = "auto";
+      }
+    }
+  }, [view]);
+
+  const filtered = catFilter === "all" ? SCENARIOS : SCENARIOS.filter(s => s.category === catFilter);
+
+  function selectScenario(sc) {
+    setScenario(sc);
+    setOtherPartyName("");
+    setView("setup");
+  }
+
+  function getDisplayRole() {
+    if (otherPartyName.trim()) return otherPartyName.trim();
+    return scenario?.role || "";
+  }
+
+  async function callAI(systemPrompt, msgs) {
+    const url = PROXY_BASE_URL ? `${PROXY_BASE_URL}/api/claude` : "https://api.anthropic.com/v1/messages";
+    const res = await fetch(url, {
+      method:"POST",
+      headers:{ "Content-Type":"application/json" },
+      body: JSON.stringify({ model:"claude-sonnet-4-6", max_tokens:1000, system:systemPrompt, messages:msgs })
+    });
+    const data = await res.json();
+    const raw = data.content?.find(b => b.type === "text")?.text || "";
+    // Strip em dashes and asterisk stage directions
+    return raw
+      .replace(/\s*—\s*/g, ", ")
+      .replace(/,\s*,/g, ",")
+      .replace(/\*[^*]*\*/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  // ── SPEECH INPUT ──
+  function startListening() {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SpeechRecognition) {
+      alert("Voice input is not supported in this browser. Please use Chrome or Edge.");
+      return;
+    }
+    if (recognitionRef.current) { recognitionRef.current.stop(); }
+    const recognition = new SpeechRecognition();
+    recognition.continuous = true; // keeps listening through pauses
+    recognition.interimResults = true;
+    recognition.lang = "en-GB";
+    const existingInput = input.trim(); // capture what is already typed
+    recognition.onstart = () => setIsListening(true);
+    recognition.onresult = (e) => {
+      const transcript = Array.from(e.results).map(r => r[0].transcript).join("");
+      // Append to existing input rather than replacing it
+      const combined = existingInput ? existingInput + " " + transcript : transcript;
+      setInput(combined);
+    };
+    recognition.onend = () => { setIsListening(false); };
+    recognition.onerror = (e) => {
+      if (e.error !== "no-speech") setIsListening(false);
+    };
+    recognitionRef.current = recognition;
+    recognition.start();
+  }
+
+  function stopListening(autoSend = false) {
+    if (recognitionRef.current) {
+      recognitionRef.current.stop();
+      recognitionRef.current = null;
+    }
+    setIsListening(false);
+    if (autoSend) {
+      setTimeout(sendMessage, 300);
+    }
+  }
+
+  // ── SPEECH OUTPUT — mirrors Biscuit's proven approach ──
+  function stopSpeaking() {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.onended = null;
+      audioRef.current.onerror = null;
+      audioRef.current = null;
+    }
+    window.speechSynthesis.cancel();
+    setIsSpeaking(false);
+  }
+
+  // Biscuit-style: single fetch, play immediately, onended handles state
+  // For long narrator text only, we pre-split into sentences and chain them
+  async function speakText(text, isNarrator = false) {
+    if (!voiceEnabledRef.current) return;
+    if (!PROXY_BASE_URL) return;
+
+    // Clean text — strip stage directions and asterisks
+    const cleanText = text
+      .replace(/\*[^*]*\*/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (!cleanText) return;
+
+    // Stop anything currently playing — same as Biscuit's stopSpeak()
+    stopSpeaking();
+
+    const voiceConfig = isNarrator
+      ? NARRATOR_VOICE
+      : (VOICE_MAP[scenario?.category] || VOICE_MAP.default)[characterGender];
+
+    setIsSpeaking(true);
+
+    // For short text (character replies) — single call like Biscuit
+    // For long text (narrator scene) — split at sentence boundaries and chain
+    const MAX_LEN = 800;
+    const segments = cleanText.length <= MAX_LEN
+      ? [cleanText]
+      : (cleanText.match(/[^.!?]+[.!?]+|\S+/g) || [cleanText]).reduce((acc, s) => {
+          const last = acc[acc.length - 1];
+          if (last && (last + s).length <= MAX_LEN) { acc[acc.length - 1] = last + s; }
+          else acc.push(s);
+          return acc;
+        }, []);
+
+    // Play segments in sequence — fetch next while current is playing
+    const playSegment = async (index) => {
+      if (index >= segments.length || !voiceEnabledRef.current) {
+        setIsSpeaking(false);
+        return;
+      }
+      try {
+        const response = await fetch(`${PROXY_BASE_URL}/api/tts`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text: segments[index], voice_id: voiceConfig.id })
+        });
+        if (!response.ok) throw new Error("ElevenLabs error");
+        const blob = await response.blob();
+        const url = URL.createObjectURL(blob);
+        const audio = new Audio(url);
+        audioRef.current = audio;
+        audio.onended = () => {
+          URL.revokeObjectURL(url);
+          playSegment(index + 1); // chain next segment
+        };
+        audio.onerror = () => {
+          URL.revokeObjectURL(url);
+          setIsSpeaking(false);
+        };
+        audio.play();
+      } catch {
+        setIsSpeaking(false);
+      }
+    };
+
+    playSegment(0);
+  }
+
+  // speakTextAndWait — used in startLab/restartLab to await full completion
+  // before moving to next step (narrator must finish before character speaks)
+  function speakTextAndWait(text, isNarrator = false) {
+    return new Promise((resolve) => {
+      if (!voiceEnabledRef.current || !PROXY_BASE_URL) { resolve(); return; }
+
+      const cleanText = text.replace(/\*[^*]*\*/g, "").replace(/\s+/g, " ").trim();
+      if (!cleanText) { resolve(); return; }
+
+      stopSpeaking();
+
+      const voiceConfig = isNarrator
+        ? NARRATOR_VOICE
+        : (VOICE_MAP[scenario?.category] || VOICE_MAP.default)[characterGender];
+
+      setIsSpeaking(true);
+
+      const MAX_LEN = 800;
+      const segments = cleanText.length <= MAX_LEN
+        ? [cleanText]
+        : (cleanText.match(/[^.!?]+[.!?]+|\S+/g) || [cleanText]).reduce((acc, s) => {
+            const last = acc[acc.length - 1];
+            if (last && (last + s).length <= MAX_LEN) { acc[acc.length - 1] = last + s; }
+            else acc.push(s);
+            return acc;
+          }, []);
+
+      const playSegment = async (index) => {
+        if (index >= segments.length || !voiceEnabledRef.current) {
+          setIsSpeaking(false);
+          resolve();
+          return;
+        }
+        try {
+          const response = await fetch(`${PROXY_BASE_URL}/api/tts`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ text: segments[index], voice_id: voiceConfig.id })
+          });
+          if (!response.ok) throw new Error("ElevenLabs error");
+          const blob = await response.blob();
+          const url = URL.createObjectURL(blob);
+          const audio = new Audio(url);
+          audioRef.current = audio;
+          audio.onended = () => { URL.revokeObjectURL(url); playSegment(index + 1); };
+          audio.onerror = () => { URL.revokeObjectURL(url); setIsSpeaking(false); resolve(); };
+          audio.play();
+        } catch { setIsSpeaking(false); resolve(); }
+      };
+
+      playSegment(0);
+    });
+  }
+
+  function buildGreetingPrompt(sc, role, ctx, t) {
+    const needsList = (sc.needsFocus || "").split(",").map(n => n.trim()).filter(Boolean)
+      .map(n => n.charAt(0).toUpperCase() + n.slice(1) + (HUMAN_NEEDS[n] ? ` (${HUMAN_NEEDS[n]})` : "")).join("; ");
+    const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+    const genderInstruction = characterGender === "female"
+      ? "IMPORTANT: You are playing a FEMALE character. Use she/her. Do not play a male character under any circumstances."
+      : "IMPORTANT: You are playing a MALE character. Use he/him. Do not play a female character under any circumstances.";
+    const nameInstruction = otherPartyName.trim()
+      ? `Your character's name is: ${otherPartyName.trim()}. Use this name when you introduce yourself.`
+      : "Do NOT introduce yourself with a name. Do not invent a name. Simply introduce yourself by your role only.";
+    return `You are about to play the role of: ${sc.role} in a practice scenario called "${sc.title}".
+${genderInstruction}
+${nameInstruction}
+Before the scene begins, introduce yourself briefly and warmly as the character you will be playing. Keep it to 2-3 sentences. Then ask the person their name so you can address them properly throughout the session. Be natural and human, not robotic. Do not begin the actual scenario yet.
+${role ? `The person you will be speaking with works as: ${role}.` : ""}
+${seniorityCtx ? `Seniority context: ${seniorityCtx}` : ""}
+Your position relative to them: ${COUNTERPART_REGISTER[otherPartyLevel] || COUNTERPART_REGISTER.peer} Let this colour even your introduction.
+The setting is: ${(EVENT_TYPES.find(e => e.value === eventType) || {}).label || "a networking event"}.
+${otherPartyRole !== "unspecified" ? `You are professionally a ${(OTHER_PARTY_ROLES.find(r => r.value === otherPartyRole) || {}).label || ""}.` : ""}
+${ctx ? `What they want to work on: ${ctx}` : ""}
+${needsList ? `Primary needs most at risk: ${needsList}.` : ""}
+${NEEDS_PROMPT}
+Never refer to yourself as an AI. NEVER use em dashes. NEVER use asterisks or stage directions like *pauses* or *takes a breath*. Speak naturally as the character, no action descriptions.`;
+  }
+
+  async function startLab() {
+    const name = userName.trim() || "You";
+    setUserName(name);
+    historyRef.current = [];
+    setMessages([]);
+    setInsights([]);
+    setScores({});
+    setTranscript("");
+    setMsgCount(0);
+    setThinking(true);
+    setView("lab");
+
+    // Small delay to let React settle the view render before audio starts
+    await new Promise(r => setTimeout(r, 300));
+
+    try {
+      // Step 1: Narrator reads the scene fully before anything else
+      if (voiceEnabledRef.current && scenario?.scene) {
+        setMessages([{ type:"note", text:"🎭 Listen to the scene..." }]);
+        await speakTextAndWait(scenario.scene, true);
+        setMessages([]);
+      }
+      // Step 2: Only after narrator finishes, fetch the AI greeting
+      setThinking(true);
+      const greetPrompt = buildGreetingPrompt(scenario, userRole, userContext, tone);
+      const reply = await callAI(greetPrompt, [{ role:"user", content:"Begin. Introduce yourself briefly and warmly. Then ask for their name." }]);
+      historyRef.current = [{ role:"assistant", content:reply }];
+      setMessages([{ type:"ai", text:reply }]);
+      setTranscript(`${scenario.role}: ${reply}\n\n`);
+      setThinking(false);
+      // Step 3: Character speaks — fire and forget like Biscuit
+      speakText(reply, false);
+    } catch {
+      setMessages([{ type:"note", text:"Connection issue. Please try again." }]);
+      setThinking(false);
+    }
+  }
+
+  function buildScenePrompt(sc, role, ctx, t) {
+    const needsList = (sc.needsFocus || "").split(",").map(n => n.trim()).filter(Boolean)
+      .map(n => n.charAt(0).toUpperCase() + n.slice(1) + (HUMAN_NEEDS[n] ? ` (${HUMAN_NEEDS[n]})` : "")).join("; ");
+    const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+    const characterDesc = otherPartyName.trim() ? `${sc.role}, specifically described by the person you are speaking with as: ${otherPartyName.trim()}. Embody this specific description rather than a generic version of the role.` : sc.role;
+    return `You are roleplaying as: ${characterDesc}.
+Scenario: ${sc.title}.
+Scene: ${sc.scene}.
+${role ? `The person you are speaking with: ${role}.` : ""}
+${seniorityCtx ? `Seniority context: ${seniorityCtx} Calibrate your responses to match this level: the challenges, the stakes and the interpersonal dynamics of someone operating at this level.` : ""}
+YOUR POSITION RELATIVE TO THEM: ${COUNTERPART_REGISTER[otherPartyLevel] || COUNTERPART_REGISTER.peer} Let this power dynamic shape how you speak, interrupt, defer, or hold ground throughout the scene.
+${otherPartyRole !== "unspecified" ? `THEIR PROFESSIONAL IDENTITY: You are professionally a ${(OTHER_PARTY_ROLES.find(r => r.value === otherPartyRole) || {}).label || ""}. Combine this with your scenario role. Adapt your questions, concerns, priorities, and frame of reference to this profession: an HR Director asks about people and culture, a Finance Director asks about cost and return, an investor asks about scale and evidence.` : ""}
+EVENT SETTING: ${(EVENT_TYPES.find(e => e.value === eventType) || {}).label || "a networking event"} (${(EVENT_TYPES.find(e => e.value === eventType) || {}).note || ""}). Ground your behaviour, references, and pace in this setting: mention the surroundings naturally where it fits.
+THEIR GOAL: The person's goal for this conversation is to ${(CONVERSATION_GOALS.find(g => g.value === conversationGoal) || {}).label?.toLowerCase() || "build rapport"}. Give them realistic opportunities to pursue it, but never hand it to them: they must earn it through good networking behaviour.
+${ctx ? `What they want to work on: ${ctx}` : ""}
+Tone: ${TONE_INSTRUCTIONS[t]}
+${TONE_ETHIC}
+${needsList ? `Primary needs most at risk in this person: ${needsList}.` : ""}
+${NEEDS_PROMPT}
+RULES: Stay completely in character. No narration, no stage directions. Keep responses concise and natural (2-4 sentences). Never refer to yourself as an AI. NEVER use em dashes (—) under any circumstances. Replace every em dash with a comma, full stop, or colon. This is absolute. Use the Oxford comma in lists of three or more items.`;
+  }
+
+  async function sendMessage() {
+    if (thinking || !input.trim() || isSpeaking) return;
+    const text = input.trim();
+    setInput("");
+    const name = userName || "You";
+    setMessages(m => [...m, { type:"user", text }]);
+    historyRef.current = [...historyRef.current, { role:"user", content:text }];
+    // Capture name from early messages if not yet set
+    if (msgCount === 0 && !userName.trim()) {
+      const words = text.trim().split(/\s+/);
+      if (words.length <= 3) setUserName(text.trim());
+      else {
+        const nameMatch = text.match(/(?:i(?:'m| am)|my name(?:'s| is|:))\s+([A-Z][a-z]+)/i);
+        if (nameMatch) setUserName(nameMatch[1]);
+      }
+    }
+    setTranscript(t => t + `${name}: ${text}\n\n`);
+    setThinking(true);
+    const newCount = msgCount + 1;
+    setMsgCount(newCount);
+
+    try {
+      // First user message is name exchange - transition into scene after
+      const isNameExchange = msgCount === 1;
+      const sysPrompt = isNameExchange
+        ? buildScenePrompt(scenario, userRole, userContext, tone) + `\n\nThe person has just told you their name. Acknowledge it warmly and naturally, then begin the scenario scene immediately.`
+        : buildScenePrompt(scenario, userRole, userContext, tone);
+      const reply = await callAI(sysPrompt, historyRef.current.slice(-12));
+      historyRef.current = [...historyRef.current, { role:"assistant", content:reply }];
+      setMessages(m => [...m, { type:"ai", text:reply }]);
+      setTranscript(t => t + `${scenario.role}: ${reply}\n\n`);
+      speakText(reply);
+      if (newCount % 2 === 0) runAnalysis();
+    } catch { setMessages(m => [...m, { type:"note", text:"Connection issue. Please try again." }]); }
+    setThinking(false);
+  }
+
+  async function runAnalysis() {
+    const userMsgs = historyRef.current.filter(m => m.role === "user").map(m => m.content).join("\n\n");
+    if (!userMsgs) return;
+    const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+    const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
+    const prompt = `Analyse these messages from someone practising: "${scenario.title}".
+Their messages: ${userMsgs}
+Context: ${userContext || "Not specified"}
+${seniorityCtx ? `They operate at ${seniorityLabel} level. ${seniorityCtx} Score their communication against what excellent performance looks like at this specific level, not a generic standard.` : ""}
+The other person is playing a ${getToneMeta(tone).label} tone${getToneMeta(tone).group ? ` (${getToneMeta(tone).group})` : ""}. Credit skill shown in handling this specific behaviour.
+Return ONLY valid JSON, no markdown:
+{"confidence":72,"rapport":68,"questions":80,"listening":55,"clarity":65,"flow":60,"note":"One specific empowering performance insight in 1-2 sentences. Reference their level if relevant. Direct, warm, forward-looking. Second person."}
+Scores 0-100. Honest and calibrated against their seniority level. Frame as capability not criticism. A score of 75 at director level means something different from 75 at manager level.`;
+    try {
+      const reply = await callAI("You are a senior performance analyst specialising in professional communication at leadership level.", [{ role:"user", content:prompt }]);
+      const parsed = JSON.parse(reply.replace(/```json|```/g,"").trim());
+      setScores(parsed);
+      if (parsed.note) setInsights(i => [...i.slice(-3), parsed.note]);
+    } catch {}
+  }
+
+  async function getInsight() {
+    const userMsgs = historyRef.current.filter(m => m.role === "user").map(m => m.content).join("\n\n");
+    if (!userMsgs) { setMessages(m => [...m, { type:"note", text:"Have at least one exchange before requesting an insight." }]); return; }
+    setThinking(true);
+    const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
+    const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+    const prompt = `Senior performance strategist. Someone practising: "${scenario.title}".
+Their messages: ${userMsgs}. What they want to work on: ${userContext || "Not specified"}.
+${seniorityCtx ? `They operate at ${seniorityLabel} level. ${seniorityCtx}` : ""}
+Give ONE clear performance insight calibrated to their level. What are they doing that is or is not consistent with strong performance at ${seniorityLabel || "their"} level? 2-3 sentences. Direct, warm, forward-looking. Second person. No bullet points. Build them up.`;
+    try {
+      const reply = await callAI("You are a senior performance strategist with a neuroscience background specialising in leadership communication.", [{ role:"user", content:prompt }]);
+      setMessages(m => [...m, { type:"note", text:`Performance Insight: ${reply}` }]);
+      setInsights(i => [...i.slice(-3), reply]);
+      speakText(reply, true);
+    } catch { setMessages(m => [...m, { type:"note", text:"Could not retrieve insight. Please try again." }]); }
+    setThinking(false);
+  }
+
+  async function triggerDebrief() {
+    if (historyRef.current.filter(m => m.role === "user").length < 2) {
+      setMessages(m => [...m, { type:"note", text:"Complete a few more exchanges before requesting a debrief." }]);
+      return;
+    }
+    setDebriefLoading(true);
+    setDebrief(null);
+    setView("debrief");
+    const fullConv = historyRef.current.map(m => `${m.role === "user" ? (userName || "You") : scenario.role}: ${m.content}`).join("\n\n");
+    const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
+    const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+    const tm = getToneMeta(tone);
+    const prompt = `Senior performance strategist. A professional just completed a conversation practice session.
+Scenario: ${scenario.title}. Their role: ${userRole || "Not specified"}. Seniority level: ${seniorityLabel}. What they wanted to work on: ${userContext || "Not specified"}.
+Tone faced: ${tm.label}${tm.group ? ` (${tm.group} category)` : ""}. Character behaviour: ${TONE_INSTRUCTIONS[tone] || ""} The character was instructed to soften only if handled well. Calibrate your assessment to this: succeeding against a Difficult tone deserves more credit than succeeding against a Cooperative one, and assess specifically whether the person earned any shift in the character's behaviour.
+${seniorityCtx ? `Scoring standard: ${seniorityCtx} All feedback and scores must be calibrated to this level. What is strong at manager level may be insufficient at director level. Be honest about that gap.` : ""}
+Power dynamic: the other person was ${(COUNTERPART_LEVELS.find(l => l.value === otherPartyLevel) || {}).label || "a peer"} relative to them. Weigh this in your assessment: holding ground against someone senior or very senior deserves more credit than the same behaviour with a junior colleague, and managing downward well requires care rather than force.
+${otherPartyRole !== "unspecified" ? `The other person was professionally a ${(OTHER_PARTY_ROLES.find(r => r.value === otherPartyRole) || {}).label || ""}; assess how well the person adapted their language and content to that audience.` : ""}
+Event setting: ${(EVENT_TYPES.find(e => e.value === eventType) || {}).label || "a networking event"}. Their stated goal for this conversation: ${(CONVERSATION_GOALS.find(g => g.value === conversationGoal) || {}).label || "Build rapport"}. Assess their performance against THAT goal specifically, not a generic standard.
+Networking experience: they describe themselves as "${(NETWORKING_EXPERIENCE.find(x => x.value === networkingExperience) || {}).label || "an occasional networker"}". Calibrate accordingly: a first-time networker showing basic courage and completing the conversation deserves genuine recognition; an experienced networker is held to the standard of the craft.
+Full conversation: ${fullConv}
+Return ONLY valid JSON:
+{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences overall performance calibrated to their seniority level, direct honest empowering","commStyle":"Primary communication style used in 3-5 words, descriptive not judgmental (e.g. Hesitant but Honest, Direct and Structured, Warm but Vague)","styleNotes":"1-2 sentences how this style served them at their level","strengths":["Strength 1 specific to their level","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences. Name the gap between current and excellent at ${seniorityLabel} level.","alternativeResponse":"A single example of what their WEAKEST moment in the conversation could have sounded like if handled at the level they are working toward. Write it as the actual words they could have said, in first person, 2-4 sentences. Make it feel achievable not perfect. Precede it with one sentence naming which moment this relates to.","skillsLabModule":"Based on the primary development area, recommend ONE of these exact values: leadership, communication, executive, thinking. Choose the one most relevant to what they most need to build.","goalOutcome":"1-2 honest sentences on whether they achieved their stated conversation goal, and what made the difference either way.","lineBank":["2-4 of the person's own strongest phrases from this conversation, quoted verbatim or near-verbatim, that they should reuse at the real event. Only include phrases they actually said. If nothing qualifies, return an empty array."],"registerNote":"1 sentence on whether their language register matched their seniority level. Be honest.","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in scene","takeaway":"One powerful sentence to carry into the real conversation","nextStep":"One specific scenario or skill to practise next time. If their register was below their seniority level, recommend the Skills Lab Executive Presence module."}
+Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never use em dashes.`;
+    try {
+      const reply = await callAI("You are a senior performance strategist specialising in leadership communication.", [{ role:"user", content:prompt }]);
+      const parsed = JSON.parse(reply.replace(/```json|```/g,"").trim());
+      const cpLabel = (COUNTERPART_LEVELS.find(l => l.value === otherPartyLevel) || {}).label || "";
+      setDebrief({ ...parsed, scores, seniority: seniorityLabel, toneLabel: tm.label, toneGroup: tm.group, counterpartLabel: cpLabel });
+    } catch { setDebrief({ error:true }); }
+    setDebriefLoading(false);
+  }
+
+  function restartLab() {
+    historyRef.current = [];
+    setMessages([]);
+    setInsights([]);
+    setScores({});
+    setTranscript("");
+    setMsgCount(0);
+    setThinking(true);
+    setView("lab");
+    (async () => {
+      await new Promise(r => setTimeout(r, 300));
+      try {
+        if (voiceEnabledRef.current && scenario?.scene) {
+          setMessages([{ type:"note", text:"🎭 Listen to the scene..." }]);
+          await speakTextAndWait(scenario.scene, true);
+          setMessages([]);
+        }
+        setThinking(true);
+        const greetPrompt2 = buildGreetingPrompt(scenario, userRole, userContext, tone);
+        const reply = await callAI(greetPrompt2, [{ role:"user", content:"Begin. Introduce yourself briefly and warmly. Then ask for their name." }]);
+        historyRef.current = [{ role:"assistant", content:reply }];
+        setMessages([{ type:"ai", text:reply }]);
+        setTranscript(`${scenario.role}: ${reply}\n\n`);
+        setThinking(false);
+        speakText(reply, false);
+      } catch { setThinking(false); }
+    })();
+  }
+
+  function exportTranscript() {
+    const cpLabel = (COUNTERPART_LEVELS.find(l => l.value === otherPartyLevel) || {}).label || "";
+    const senLabel = (SENIORITY_LEVELS.find(l => l.value === seniority) || {}).label || "";
+    const tmX = getToneMeta(tone);
+    const evLabel = (EVENT_TYPES.find(e => e.value === eventType) || {}).label || "";
+    const goalLabel = (CONVERSATION_GOALS.find(g => g.value === conversationGoal) || {}).label || "";
+    const text = `NETWORKING LAB\nScenario: ${scenario.title}\nEvent: ${evLabel}\nGoal: ${goalLabel}\nYour level: ${senLabel}\nSpeaking to: ${cpLabel}\nTone: ${tmX.label}${tmX.group ? ` (${tmX.group})` : ""}\nDate: ${new Date().toLocaleDateString("en-GB")}\n\n${transcript}`;
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([text], { type:"text/plain" }));
+    a.download = `networking-transcript-${Date.now()}.txt`;
+    a.click();
+  }
+
+  async function exportDebriefPDF(d) {
+    try {
+      const response = await fetch(`${PROXY_BASE_URL}/api/generate-debrief-pdf`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          headline: d.headline,
+          scenario: scenario?.title,
+          seniority: [d.seniority, d.counterpartLabel ? `Speaking to: ${d.counterpartLabel}` : "", d.toneLabel ? `${d.toneLabel} tone` : ""].filter(Boolean).join("  |  "),
+          overall: d.overall,
+          commStyle: d.commStyle,
+          styleNotes: d.styleNotes,
+          strengths: d.strengths,
+          developmentArea: d.developmentArea,
+          needsAnalysis: d.needsAnalysis,
+          needsMostActive: d.needsMostActive,
+          registerNote: d.registerNote,
+          takeaway: d.takeaway,
+          nextStep: d.nextStep,
+          alternativeResponse: d.alternativeResponse,
+          scores: d.scores,
+        })
+      });
+      if (!response.ok) throw new Error("PDF failed");
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `Rewire-Debrief-${(scenario?.title||"debrief").replace(/\s+/g,"-")}.pdf`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(() => URL.revokeObjectURL(url), 5000);
+    } catch {
+      // Fallback to HTML version if proxy unavailable
+      const blob = new Blob([buildDebriefHTML(d)], { type:"text/html;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `Rewire-Debrief-${(scenario?.title||"debrief").replace(/\s+/g,"-")}.html`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(() => URL.revokeObjectURL(url), 5000);
+    }
+  }
+  function buildDebriefHTML(d) {
+    const date = new Date().toLocaleDateString("en-GB", { day:"numeric", month:"long", year:"numeric" });
+    const scoreRows = CI_METRICS.map(m => {
+      const val = d.scores?.[m.key] ?? "-";
+      const pct = typeof val === "number" ? val : 0;
+      const col = typeof val === "number" ? (val >= 71 ? "#4caf7d" : val >= 41 ? "#3D858C" : "#D4A853") : "#3D858C";
+      return `<tr><td style="padding:10px 0;color:#3D858C;font-size:13px;width:200px">${m.label}</td><td style="padding:10px 0 10px 12px"><div style="height:6px;background:#e0eff0;border-radius:3px;overflow:hidden"><div style="height:100%;width:${pct}%;background:${col};border-radius:3px"></div></div></td><td style="padding:10px 0 10px 12px;font-size:18px;font-weight:300;color:${col};text-align:right;min-width:40px;font-family:'Cormorant Garamond',Georgia,serif">${val}</td></tr>`;
+    }).join("");
+    const strengthsList = (d.strengths||[]).map(s => `<li style="margin-bottom:8px;font-size:14px;color:#1a2a30;line-height:1.6">${s}</li>`).join("");
+    const needsChips = Object.entries(HUMAN_NEEDS).map(([key]) => {
+      const active = (d.needsMostActive||[]).map(n=>n.toLowerCase()).includes(key);
+      return `<span style="display:inline-block;padding:6px 14px;margin:4px;border-radius:6px;font-size:12px;font-weight:500;border:1px solid ${active?"#3D858C":"#ddd"};background:${active?"#dff0f2":"#f5f5f5"};color:${active?"#01293A":"#888"}">${key.charAt(0).toUpperCase()+key.slice(1)}${active?" ✓":""}</span>`;
+    }).join("");
+    return `<!DOCTYPE html><html><head><meta charset="UTF-8"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"><title>Rewire Networking Lab Debrief</title><style>*{box-sizing:border-box;margin:0;padding:0}body{background:#fff;color:#1a2a30;font-family:'DM Sans',Arial,sans-serif;font-size:15px;line-height:1.6}.page{max-width:760px;margin:0 auto;padding:60px 50px 80px}.header{border-bottom:2px solid #3D858C;padding-bottom:28px;margin-bottom:40px}.eyebrow{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:10px}h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:42px;font-weight:300;color:#01293A;line-height:1.15;margin-bottom:8px}.sub{font-size:13px;color:#4a6570}.section{margin-bottom:36px}.sec-title{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:16px;padding-bottom:6px;border-bottom:1px solid #e0eff0}.card{background:#f5fafb;border:1px solid #c9e8ec;border-radius:10px;padding:22px;margin-bottom:12px;font-size:14px;color:#1a2a30;line-height:1.7}.comm-style{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:400;color:#01293A;margin-bottom:8px}ul{padding-left:20px}li{color:#1a2a30;font-size:14px;line-height:1.7;margin-bottom:6px}.takeaway{background:#f0f9fa;border-left:4px solid #3D858C;border-radius:0 10px 10px 0;padding:26px;margin-bottom:32px}.takeaway-label{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:12px}.takeaway-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;font-weight:300;color:#01293A;line-height:1.55;font-style:italic}.alt-response{background:#f0f9fa;border:1px solid #c9e8ec;border-radius:10px;padding:22px;margin-bottom:32px}.alt-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;font-weight:300;color:#01293A;line-height:1.65;font-style:italic}.amber-box{background:#fffbf0;border:1px solid #D4A853;border-radius:10px;padding:18px;margin-bottom:12px}.amber-label{font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#D4A853;font-weight:600;margin-bottom:8px}.amber-text{font-size:14px;color:#5a4010;line-height:1.7}.score-key{font-size:11px;color:#4a6570;margin-bottom:14px}.needs-note{font-size:12px;color:#4a6570;margin-bottom:12px;line-height:1.5}.footer{margin-top:60px;padding-top:20px;border-top:1px solid #e0eff0;font-size:11px;color:#4a6570;display:flex;justify-content:space-between}@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact}.page{padding:40px 30px}}</style></head><body><div class="page"><div class="header"><div class="eyebrow">Beyond Limits Made For More &nbsp;|&nbsp; Networking Lab Debrief</div><h1>${d.headline||"Networking Lab Debrief"}</h1><div class="sub">${scenario?.title||""} &nbsp;|&nbsp; ${d.toneLabel?d.toneLabel+" tone &nbsp;|&nbsp; ":""}${d.counterpartLabel?"Speaking to: "+d.counterpartLabel+" &nbsp;|&nbsp; ":""}${d.seniority?d.seniority+" &nbsp;|&nbsp; ":""}${date}${userName?" &nbsp;|&nbsp; "+userName:""}</div></div><div class="section"><div class="sec-title">Overall Performance</div><div class="card">${d.overall||""}</div></div><div class="section"><div class="sec-title">Networking Intelligence Scores</div><div class="score-key"><span style="color:#D4A853">■ 0-40 needs work</span> &nbsp; <span style="color:#3D858C">■ 41-70 developing</span> &nbsp; <span style="color:#4caf7d">■ 71-100 strong</span></div><div class="card"><table style="width:100%;border-collapse:collapse">${scoreRows}</table></div></div><div class="section"><div class="sec-title">Communication Style</div><div class="card"><div class="comm-style">${d.commStyle||""}</div><div style="font-size:14px;color:#1a2a30;line-height:1.7">${d.styleNotes||""}</div></div></div><div class="section"><div class="sec-title">What You Did Well</div><div class="card"><ul>${strengthsList}</ul></div></div><div class="section"><div class="sec-title">Primary Development Area</div><div class="card">${d.developmentArea||""}</div></div><div class="section"><div class="sec-title">Human Needs in the Scene</div><div class="needs-note">The needs most at stake for you in this conversation, not targets to meet but signals about what was driving the dynamic.</div><div style="margin-bottom:12px">${needsChips}</div><div class="card">${d.needsAnalysis||""}</div></div>${d.goalOutcome?`<div class="section"><div class="sec-title">Your Conversation Goal</div><div class="card">${d.goalOutcome}</div></div>`:""}${Array.isArray(d.lineBank)&&d.lineBank.length?`<div class="section"><div class="sec-title">Your Line Bank</div><div class="card">${d.lineBank.map(l=>`<div style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:17px;color:#01293A;padding:5px 0">&ldquo;${l}&rdquo;</div>`).join("")}</div></div>`:""}<div class="takeaway"><div class="takeaway-label">Take This Into the Real Conversation</div><div class="takeaway-text">${d.takeaway||""}</div></div><div class="section"><div class="sec-title">Next Time in the Lab</div><div class="card">${d.nextStep||""}</div></div>${d.alternativeResponse?`<div class="alt-response"><div class="alt-text">${d.alternativeResponse}</div></div>`:""} ${d.registerNote?`<div class="amber-box"><div class="amber-label">Register Note</div><div class="amber-text">${d.registerNote}</div></div>`:""}<div class="footer"><span>Beyond Limits Made For More &nbsp;|&nbsp; Networking Lab</span><span>${date}</span></div></div></body></html>`;
+  }
+
+  // ── LOBBY ──
+  if (view === "lobby") return (
+    <div style={s.app}>
+      <div style={s.lobby}>
+        {isEmbedded && (window.innerHeight < 640 || window.innerWidth < 560 ? (
+          <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", gap:12, flexWrap:"wrap", marginBottom:16, padding:"14px 16px", borderRadius:10, border:`1px solid rgba(61,133,140,0.4)`, background:"rgba(61,133,140,0.12)" }}>
+            <div style={{ fontSize:"clamp(13px, 2vw, 15px)", color:"#EEF8F9", lineHeight:1.5, flex:"1 1 200px" }}>The Lab works best in its own window on this device.</div>
+            <button onClick={openFullScreen}
+              style={{ padding:"10px 18px", borderRadius:8, border:"none", background:TEAL, color:"#fff", fontSize:"clamp(13px, 2vw, 15px)", fontWeight:500, cursor:"pointer", fontFamily:"'DM Sans', Arial, sans-serif", flexShrink:0 }}>
+              Open full screen ↗
+            </button>
+          </div>
+        ) : (
+          <div style={{ display:"flex", justifyContent:"flex-end", marginTop:24, marginBottom:14 }}>
+            <button onClick={openFullScreen}
+              style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"12px 20px", borderRadius:8, border:"none", background:TEAL, color:"#fff", fontSize:"clamp(13px, 2vw, 15px)", fontWeight:600, cursor:"pointer", fontFamily:"'DM Sans', Arial, sans-serif", boxShadow:"0 2px 10px rgba(0,0,0,0.35)" }}>
+              Open full screen ↗
+            </button>
+          </div>
+        ))}
+        <div style={s.lobbyHeader}>
+          <div style={{ display:"flex", alignItems:"center", gap:10, flexWrap:"nowrap", minWidth:0 }}>
+            <img src={BL_LOGO} alt="Beyond Limits" style={{ width:52, height:52, mixBlendMode:"screen", flexShrink:0 }} />
+            <div>
+              <div style={{ ...s.wordmarkSub, whiteSpace:"nowrap", overflow:"hidden", textOverflow:"ellipsis" }}>Beyond Limits Made For More &nbsp;|&nbsp; Performance Labs</div>
+              <div style={s.wordmarkMain}>Networking Lab</div>
+            </div>
+          </div>
+          <div style={{ ...s.tagline, marginLeft:"auto", textAlign:"right" }}>A private practice space to master the room before you walk into it.</div>
+        </div>
+        <div style={s.hero}>
+          <h1 style={s.heroH1}>Practise the room<br /><em style={s.heroEm}>before you walk into it.</em></h1>
+          <p style={s.heroP}>Choose a real networking situation. Step into the scene. Build the confidence before the event, not during it.</p>
+        </div>
+        <div style={s.section}>
+          <div style={s.sectionLabel}>Choose your scenario</div>
+          <div style={s.pillsRow}>
+            {["all", ...Object.keys(CAT_LABELS)].map(cat => (
+              <button key={cat} style={{ ...s.pill, ...(catFilter===cat ? s.pillActive : {}) }} onClick={() => {
+                setCatFilter(cat);
+                setTimeout(() => {
+                  const grid = document.getElementById("scenario-grid");
+                  if (grid) grid.scrollIntoView({ behavior:"smooth", block:"start" });
+                }, 50);
+              }}>
+                {cat === "all" ? "All" : CAT_LABELS[cat] || cat}
+              </button>
+            ))}
+          </div>
+          <div id="scenario-grid" style={s.grid}>
+            {filtered.map(sc => (
+              <div key={sc.id} style={s.card} onClick={() => selectScenario(sc)}
+                onMouseEnter={e => { e.currentTarget.style.borderColor=TEAL; e.currentTarget.style.background="rgba(61,133,140,0.12)"; }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor="rgba(61,133,140,0.12)"; e.currentTarget.style.background="rgba(61,133,140,0.07)"; }}>
+                <div style={s.cardCat}>{CAT_LABELS[sc.category]}</div>
+                <div style={s.cardTitle}>{sc.title}</div>
+                <div style={s.cardDesc}>{sc.desc}</div>
+                <div style={s.cardFooter}>
+                  <div style={{ display:"flex", gap:5, flexWrap:"wrap" }}>
+                    {sc.skills.map(sk => <span key={sk} style={s.skillTag}>{sk}</span>)}
+                  </div>
+                  <span style={{ color:TEAL, fontSize:"clamp(13px, 2vw, 16px)", opacity:0.7 }}>→</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
+  // ── SETUP ──
+  if (view === "setup") return (
+    <div style={s.app}>
+      <div style={s.setup}>
+        {isEmbedded && (
+          <div style={{ display:"flex", justifyContent:"flex-end", marginTop:24, marginBottom:4 }}>
+            <button onClick={openFullScreen}
+              style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"12px 20px", borderRadius:8, border:"none", background:TEAL, color:"#fff", fontSize:"clamp(13px, 2vw, 15px)", fontWeight:600, cursor:"pointer", fontFamily:"'DM Sans', Arial, sans-serif", boxShadow:"0 2px 10px rgba(0,0,0,0.35)" }}>
+              Open full screen ↗
+            </button>
+          </div>
+        )}
+        <button style={s.backBtn} onClick={() => setView("lobby")}>← Back to scenarios</button>
+        <div style={s.eyebrow}>{CAT_LABELS[scenario.category]}</div>
+        <div style={s.setupTitle}>{scenario.title}</div>
+        <div style={s.setupDesc}>{scenario.desc}</div>
+
+        <div style={{ marginBottom:22 }}>
+          <label style={{ ...s.fieldLabel, marginBottom:12 }}>Choose your experience</label>
+          <div style={s.toneGrid}>
+            <button
+              style={{ ...s.toneBtn,
+                border: !voiceEnabled ? `2px solid ${TEAL}` : "1px solid rgba(61,133,140,0.35)",
+                background: !voiceEnabled ? "rgba(61,133,140,0.28)" : "rgba(61,133,140,0.06)",
+                borderLeft: `5px solid ${TEAL}` }}
+              onClick={() => setVoice(false)}>
+              <div style={{ fontSize:"clamp(14px, 2.1vw, 17px)", fontWeight:600, marginBottom:3, color: !voiceEnabled ? MIST : "#EEF8F9" }}>Text Practice{!voiceEnabled ? "  ✓" : ""}</div>
+              <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.8)" }}>Rehearse in writing. Silent, ideal for the office or the commute.</div>
+            </button>
+            <button
+              style={{ ...s.toneBtn,
+                border: voiceEnabled ? `2px solid ${AMBER}` : "1px solid rgba(212,168,83,0.35)",
+                background: voiceEnabled ? "rgba(212,168,83,0.24)" : "rgba(212,168,83,0.06)",
+                borderLeft: `5px solid ${AMBER}` }}
+              onClick={() => setVoice(true)}>
+              <div style={{ fontSize:"clamp(14px, 2.1vw, 17px)", fontWeight:600, marginBottom:3, color: voiceEnabled ? AMBER : "#EEF8F9" }}>Voice Practice{voiceEnabled ? "  ✓" : ""}</div>
+              <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.8)" }}>Full spoken rehearsal. The character speaks and you reply aloud or by text.</div>
+            </button>
+          </div>
+        </div>
+
+        <div style={{ marginBottom:22 }}>
+          <label style={s.fieldLabel}>Your role and industry (optional)</label>
+          <input style={s.fieldInput} placeholder="e.g. Senior Account Manager, financial services" value={userRole} onChange={e => setUserRole(e.target.value)} />
+        </div>
+        <LevelPicker
+          label="Your level"
+          options={SENIORITY_LEVELS}
+          value={seniority}
+          onChange={setSeniority}
+          isOpen={openLevelPicker === "yours"}
+          onToggle={() => setOpenLevelPicker(openLevelPicker === "yours" ? null : "yours")}
+          accent={TEAL}
+        />
+        <div style={{ marginBottom:22 }}>
+          <label style={s.fieldLabel}>Name the person you are speaking to (optional)</label>
+          <input style={s.fieldInput} placeholder={`e.g. Sarah, my line manager`} value={otherPartyName} onChange={e => setOtherPartyName(e.target.value)} />
+          <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:"rgba(232,244,245,0.55)", marginTop:6 }}>If you leave this blank the character will not introduce themselves by name.</div>
+        </div>
+        <LevelPicker
+          label="Their level, relative to you"
+          options={COUNTERPART_LEVELS}
+          value={otherPartyLevel}
+          onChange={setOtherPartyLevel}
+          isOpen={openLevelPicker === "theirs"}
+          onToggle={() => setOpenLevelPicker(openLevelPicker === "theirs" ? null : "theirs")}
+          accent={MIST}
+        />
+        <LevelPicker
+          label="Who they are"
+          options={OTHER_PARTY_ROLES}
+          value={otherPartyRole}
+          onChange={setOtherPartyRole}
+          isOpen={openLevelPicker === "theirrole"}
+          onToggle={() => setOpenLevelPicker(openLevelPicker === "theirrole" ? null : "theirrole")}
+          accent={MIST}
+        />
+        <LevelPicker
+          label="Event type"
+          options={EVENT_TYPES}
+          value={eventType}
+          onChange={setEventType}
+          isOpen={openLevelPicker === "event"}
+          onToggle={() => setOpenLevelPicker(openLevelPicker === "event" ? null : "event")}
+          accent={TEAL}
+        />
+        <LevelPicker
+          label="Your networking experience"
+          options={NETWORKING_EXPERIENCE}
+          value={networkingExperience}
+          onChange={setNetworkingExperience}
+          isOpen={openLevelPicker === "experience"}
+          onToggle={() => setOpenLevelPicker(openLevelPicker === "experience" ? null : "experience")}
+          accent={TEAL}
+        />
+        <LevelPicker
+          label="Why you network"
+          options={RELATIONSHIP_GOALS}
+          value={relationshipGoal}
+          onChange={setRelationshipGoal}
+          isOpen={openLevelPicker === "relgoal"}
+          onToggle={() => setOpenLevelPicker(openLevelPicker === "relgoal" ? null : "relgoal")}
+          accent={TEAL}
+        />
+        <LevelPicker
+          label="Your goal for this conversation"
+          options={CONVERSATION_GOALS}
+          value={conversationGoal}
+          onChange={setConversationGoal}
+          isOpen={openLevelPicker === "convgoal"}
+          onToggle={() => setOpenLevelPicker(openLevelPicker === "convgoal" ? null : "convgoal")}
+          accent={AMBER}
+        />
+        <div style={{ marginBottom:22 }}>
+          <label style={s.fieldLabel}>What do you want to work on?</label>
+          <textarea style={{ ...s.fieldInput, minHeight:110, resize:"vertical", width:"100%", boxSizing:"border-box" }} placeholder="e.g. I go quiet when they push back. I want to hold my ground without getting defensive." value={userContext} onChange={e => setUserContext(e.target.value)} />
+        </div>
+        <div style={{ marginBottom:22 }}>
+          <label style={{ ...s.fieldLabel, marginBottom:12 }}>Who are you speaking to?</label>
+          <div style={s.toneGrid}>
+            <button
+              style={{ ...s.toneBtn, ...(characterGender==="female" ? s.toneBtnActive : {}) }}
+              onClick={() => setCharacterGender("female")}>
+              <div style={{ fontSize:"clamp(13px, 2vw, 16px)", fontWeight:500, marginBottom:3 }}>{voiceEnabled ? "Female voice" : "Female character"}</div>
+              <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.75)" }}>{voiceEnabled ? "Grace plays the other person" : "The other person is female"}</div>
+            </button>
+            <button
+              style={{ ...s.toneBtn, ...(characterGender==="male" ? s.toneBtnActive : {}) }}
+              onClick={() => setCharacterGender("male")}>
+              <div style={{ fontSize:"clamp(13px, 2vw, 16px)", fontWeight:500, marginBottom:3 }}>{voiceEnabled ? "Male voice" : "Male character"}</div>
+              <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.75)" }}>{voiceEnabled ? "Eddie plays the other person" : "The other person is male"}</div>
+            </button>
+          </div>
+          {voiceEnabled && (
+            <div style={{ marginTop:8, fontSize:"clamp(11px, 1.6vw, 13px)", color:"rgba(232,244,245,0.6)" }}>
+              Voice is on. The scene and character responses will be read aloud automatically.
+            </div>
+          )}
+        </div>
+        <div style={{ marginBottom:28 }}>
+          <label style={{ ...s.fieldLabel, marginBottom:12 }}>How do you want the other person to respond?</label>
+          {TONE_GROUPS.map(g => {
+            const isOpen = openToneGroup === g.label;
+            const selectedInGroup = g.tones.find(t => t.value === tone);
+            return (
+              <div key={g.label} style={{ marginBottom:10, border:`1px solid ${selectedInGroup ? "rgba(61,133,140,0.45)" : "rgba(61,133,140,0.22)"}`, borderRadius:8, overflow:"hidden" }}>
+                <button
+                  onClick={() => setOpenToneGroup(isOpen ? null : g.label)}
+                  style={{ width:"100%", display:"flex", alignItems:"center", gap:10, padding:"13px 15px", background: selectedInGroup ? "rgba(61,133,140,0.08)" : "transparent", border:"none", cursor:"pointer", color:"#EEF8F9", textAlign:"left" }}>
+                  <span style={{ width:8, height:8, borderRadius:"50%", background:g.color, flexShrink:0 }} />
+                  <span style={{ fontSize:"clamp(12px, 1.8vw, 14px)", letterSpacing:"0.1em", textTransform:"uppercase", fontWeight:500, flexShrink:0 }}>{g.label}</span>
+                  {selectedInGroup && !isOpen && (
+                    <span style={{ fontSize:"clamp(12px, 1.9vw, 14px)", color:TEAL, fontWeight:500, marginLeft:4, overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>{selectedInGroup.label}</span>
+                  )}
+                  <span style={{ marginLeft:"auto", fontSize:11, color:"rgba(232,244,245,0.55)", transform:isOpen ? "rotate(180deg)" : "none", transition:"transform 0.2s", flexShrink:0 }}>▼</span>
+                </button>
+                {isOpen && (
+                  <div style={{ ...s.toneGrid, padding:"4px 10px 12px" }}>
+                    {g.tones.map(t => (
+                      <button key={t.value} style={{ ...s.toneBtn, ...(tone===t.value ? s.toneBtnActive : {}) }} onClick={() => setTone(t.value)}>
+                        <div style={{ display:"flex", alignItems:"center", gap:7, marginBottom:3 }}>
+                          <span style={{ width:6, height:6, borderRadius:"50%", background:g.color, flexShrink:0 }} />
+                          <span style={{ fontSize:"clamp(13px, 2vw, 16px)", fontWeight:500 }}>{t.label}</span>
+                        </div>
+                        <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.75)" }}>{t.note}</div>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+        <button style={s.startBtn} onClick={startLab}>Enter the Lab</button>
+      </div>
+    </div>
+  );
+
+  // ── LAB ──
+  if (view === "lab") return (
+    <div style={s.lab} className="lab-root-mobile">
+      {/* Mobile panel overlay backdrop */}
+      {panelOpen && (
+        <div onClick={() => setPanelOpen(false)} style={{ position:"fixed", inset:0, background:"rgba(0,0,0,0.5)", zIndex:40, display:"none" }}
+          className="mobile-backdrop" />
+      )}
+      <style>{`
+        @media (max-width: 700px) {
+          .lab-panel { position: fixed !important; right: 0; top: 0; bottom: 0; z-index: 50; transform: translateX(${panelOpen ? "0" : "100%"}) !important; box-shadow: -4px 0 24px rgba(0,0,0,0.4); }
+          .mobile-backdrop { display: block !important; }
+          .panel-toggle { display: flex !important; }
+          .lab-border { border-right: none !important; }
+          .desktop-actions { display: none !important; }
+          .mobile-actions-trigger { display: flex !important; }
+          .stage-text-clamped { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+          .lab-root-mobile { height: auto !important; overflow: visible !important; display: block !important; }
+          .lab-main-mobile { height: auto !important; min-height: 100vh !important; overflow: visible !important; }
+          .lab-topbar-mobile { position: sticky !important; top: 0; z-index: 30; background: ${DARKER}; }
+          .conv-area-mobile { overflow-y: visible !important; flex: none !important; }
+          .input-area-mobile { position: sticky !important; bottom: 0; z-index: 25; background: ${DARKER}; }
+          .mobile-end-debrief { display: flex !important; position: sticky !important; bottom: 0; z-index: 24; }
+        }
+        @media (min-width: 701px) {
+          .panel-toggle { display: none !important; }
+          .mobile-actions-trigger { display: none !important; }
+        }
+      `}</style>
+
+      <div style={s.labMain} className="lab-border lab-main-mobile">
+        <div style={s.topbar} className="lab-topbar-mobile">
+          <div style={{ minWidth:0, flex:1 }}>
+            <div style={s.labEyebrow}>Networking Lab</div>
+            <div style={{ ...s.labTitle, overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>{scenario?.title}</div>
+          </div>
+          <div className="desktop-actions" style={{ display:"flex", gap:8, flexWrap:"wrap", alignItems:"center" }}>
+            <button className="panel-toggle" style={{ ...s.labBtn, display:"none" }} onClick={() => setPanelOpen(p => !p)}>
+              {panelOpen ? "✕ Close" : "📊 Scores"}
+            </button>
+            <button style={s.labBtn} onClick={getInsight}>Get insight</button>
+            <button style={{ ...s.labBtn, borderColor:AMBER, color:AMBER }} onClick={triggerDebrief}>End and debrief</button>
+            <button style={s.labBtn} onClick={restartLab}>Restart</button>
+            <button style={{ ...s.labBtn }} onClick={() => { stopSpeaking(); setView("lobby"); }}>Exit</button>
+          </div>
+          <button
+            className="mobile-actions-trigger"
+            style={{ display:"none", width:36, height:36, borderRadius:8, border:`1px solid rgba(61,133,140,0.3)`, background:"transparent", color:"rgba(232,244,245,0.8)", fontSize:"clamp(14px, 2.2vw, 18px)", cursor:"pointer", flexShrink:0, alignItems:"center", justifyContent:"center" }}
+            onClick={() => setMenuOpen(m => !m)}>
+            ⋮
+          </button>
+        </div>
+
+        {menuOpen && (
+          <div style={{ position:"absolute", top:64, right:16, zIndex:60, background:DARK, border:`1px solid rgba(61,133,140,0.25)`, borderRadius:10, padding:8, display:"flex", flexDirection:"column", gap:4, minWidth:170, boxShadow:"0 8px 24px rgba(0,0,0,0.4)" }}>
+            <button style={{ ...s.labBtn, textAlign:"left", border:"none" }} onClick={() => { setPanelOpen(true); setMenuOpen(false); }}>📊 Scores</button>
+            <button style={{ ...s.labBtn, textAlign:"left", border:"none" }} onClick={() => { getInsight(); setMenuOpen(false); }}>Get insight</button>
+            <button style={{ ...s.labBtn, textAlign:"left", border:"none", color:AMBER }} onClick={() => { triggerDebrief(); setMenuOpen(false); }}>End and debrief</button>
+            <button style={{ ...s.labBtn, textAlign:"left", border:"none" }} onClick={() => { restartLab(); setMenuOpen(false); }}>Restart</button>
+            <button style={{ ...s.labBtn, textAlign:"left", border:"none" }} onClick={() => { stopSpeaking(); setView("lobby"); }}>Exit</button>
+          </div>
+        )}
+
+        <div style={{ ...s.stageBar, display:"flex", alignItems:"flex-start", gap:10 }}>
+          <span style={{ fontSize:"clamp(13px, 2vw, 16px)", marginTop:2, flexShrink:0 }}>🎭</span>
+          <span style={{ ...s.stageText, flex:1 }} className={sceneExpanded ? "" : "stage-text-clamped"} onClick={() => setSceneExpanded(e => !e)}>{scenario?.scene}</span>
+          {voiceEnabled && (
+            <button
+              onClick={() => {
+                if (isSpeaking) {
+                  stopSpeaking();
+                } else {
+                  speakTextAndWait(scenario?.scene, true);
+                }
+              }}
+              style={{ flexShrink:0, background:"none", border:`1px solid rgba(212,168,83,0.3)`, borderRadius:6, color:AMBER, fontSize:"clamp(11px, 1.5vw, 13px)", cursor:"pointer", padding:"3px 8px", whiteSpace:"nowrap" }}>
+              {isSpeaking ? "⏸ Pause" : "🔊 Hear scene"}
+            </button>
+          )}
+        </div>
+        <div ref={convRef} style={s.convArea} className="conv-area-mobile">
+          {messages.map((m, i) => (
+            m.type === "note" ? (
+              <div key={i} style={s.bubbleNote}>{m.text}</div>
+            ) : m.type === "user" ? (
+              <div key={i} style={s.msgUser}>
+                <div style={s.msgRole}>{userName || "You"}</div>
+                <div style={s.bubbleUser}>{m.text}</div>
+              </div>
+            ) : (
+              <div key={i} style={s.msgAi}>
+                <div style={s.msgRole}>{getDisplayRole()}</div>
+                <div style={s.bubbleAi}>{m.text}</div>
+              </div>
+            )
+          ))}
+          {thinking && (
+            <div style={s.msgAi}>
+              <div style={s.msgRole}>{getDisplayRole()}</div>
+              <div style={s.bubbleAi}><Dots /></div>
+            </div>
+          )}
+        </div>
+        <div className="mobile-end-debrief" style={{ display:"none", gap:8, margin:"0 20px 10px" }}>
+          <button
+            style={{ flex:1, padding:"12px", background:"rgba(212,168,83,0.12)", border:`1px solid ${AMBER}`, borderRadius:10, color:AMBER, fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(13px, 2vw, 16px)", fontWeight:600, cursor:"pointer", letterSpacing:"0.03em" }}
+            onClick={triggerDebrief}>
+            End and Debrief
+          </button>
+          <button
+            style={{ padding:"12px 16px", background:"transparent", border:`1px solid rgba(61,133,140,0.3)`, borderRadius:10, color:"rgba(232,244,245,0.8)", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(13px, 2vw, 16px)", fontWeight:600, cursor:"pointer" }}
+            onClick={restartLab}>
+            ↺ Restart
+          </button>
+        </div>
+        <div style={s.inputArea} className="input-area-mobile">
+          <div style={s.inputRow}>
+            <textarea style={s.textInput} placeholder={isListening ? "Listening... speak now" : isSpeaking ? "Wait for the narrator to finish..." : "What do you say..."}
+              value={input}
+              onChange={e => setInput(e.target.value)}
+              onKeyDown={e => { if (e.key==="Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(); } }}
+              rows={1} />
+            <button
+              style={{ ...s.sendBtn, background: isListening ? "#c0536a" : isSpeaking ? AMBER : TEAL }}
+              onClick={isListening ? () => { stopListening(); setTimeout(sendMessage, 300); } : sendMessage}
+              disabled={thinking}>
+              {isListening ? "⏹" : "↑"}
+            </button>
+          </div>
+          <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginTop:8 }}>
+            <div style={s.inputHint}><span>Enter to send</span><span>Shift+Enter for new line</span></div>
+            <div style={{ display:"flex", gap:8, alignItems:"center" }}>
+              {isSpeaking && (
+                <button onClick={stopSpeaking} style={{ background:"none", border:"none", color:AMBER, fontSize:"clamp(13px, 2.1vw, 17px)", cursor:"pointer", padding:"2px 6px" }}>
+                  ⏹ Stop
+                </button>
+              )}
+              <button
+                onClick={isListening ? () => stopListening(true) : startListening}
+                disabled={isSpeaking}
+                style={{ padding:"11px 22px", borderRadius:8, border:"none", background: isListening ? "#c0536a" : isSpeaking ? "rgba(61,133,140,0.25)" : TEAL, color: isListening ? "#fff" : isSpeaking ? "rgba(232,244,245,0.4)" : "#fff", fontSize:"clamp(14px, 2.2vw, 17px)", fontWeight:600, fontFamily:"'DM Sans', Arial, sans-serif", cursor: isSpeaking ? "not-allowed" : "pointer", display:"flex", alignItems:"center", gap:7, boxShadow: isSpeaking ? "none" : "0 2px 8px rgba(0,0,0,0.3)" }}>
+                {isListening ? "🔴 Listening..." : isSpeaking ? "⏳ Wait..." : "🎤 Speak"}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={s.panel} className="lab-panel">
+        <div style={s.panelSection}>
+          <div style={s.panelTitle}>Networking Intelligence</div>
+          {CI_METRICS.map(m => {
+            const val = scores[m.key];
+            const barColor = val === undefined ? "rgba(61,133,140,0.3)" : val >= 71 ? "#4caf7d" : val >= 41 ? TEAL : AMBER;
+            const scoreColor = val === undefined ? "rgba(232,244,245,0.4)" : val >= 71 ? "#4caf7d" : val >= 41 ? MIST : AMBER;
+            return (
+              <div key={m.key} style={{ marginBottom:12 }}>
+                <div style={s.metricRow}>
+                  <span style={s.metricName}>{m.label}</span>
+                  <span style={{ ...s.metricScore, color: scoreColor }}>{val ?? "-"}</span>
+                </div>
+                <div style={s.barTrack}>
+                  <div style={{ height:"100%", borderRadius:2, background:barColor, width:`${val || 0}%`, transition:"width 0.8s ease" }} />
+                </div>
+              </div>
+            );
+          })}
+          <div style={{ fontSize:"clamp(14px, 2.2vw, 18px)", color:"rgba(232,244,245,0.85)", lineHeight:1.5, marginTop:4 }}>Scores update every two exchanges. They reflect patterns, not perfection.</div>
+        </div>
+        <div style={s.panelSection}>
+          <div style={s.panelTitle}>Live Performance Insights</div>
+          {insights.length === 0 ? <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.7)", fontStyle:"italic" }}>Insights will appear as you work through the scene.</div>
+            : insights.map((n, i) => <div key={i} style={s.insightNote}>{n}</div>)}
+        </div>
+        <div style={s.panelSection}>
+          <div style={s.panelTitle}>Voice Settings</div>
+          <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.78)", marginBottom:10, lineHeight:1.5 }}>
+            {voiceEnabled && !elevenLabsKey && !PROXY_BASE_URL ? "Using browser voice. Character voices need an ElevenLabs connection." : voiceEnabled ? `Character voice active. ${(VOICE_MAP[scenario?.category] || VOICE_MAP.default)[characterGender]?.name || "Voice"} is ready.` : "You are in Text Practice. Switch any time; the conversation continues where you are."}
+          </div>
+          <button onClick={() => setVoice(!voiceEnabled)}
+            style={{ width:"100%", padding:"12px 14px", borderRadius:8, border:"none", cursor:"pointer", fontFamily:"'DM Sans', Arial, sans-serif", fontWeight:600, fontSize:"clamp(13px, 2vw, 15px)", marginBottom:12, background: voiceEnabled ? "rgba(61,133,140,0.25)" : AMBER, color: voiceEnabled ? MIST : "#01293A" }}>
+            {voiceEnabled ? "Switch to Text Practice" : "Switch to Voice Practice"}
+          </button>
+          {voiceEnabled && (
+            <>
+              <div style={{ fontSize:"clamp(14px, 2.2vw, 18px)", letterSpacing:"0.1em", textTransform:"uppercase", color:"rgba(232,244,245,0.75)", marginBottom:8 }}>Who are you speaking to?</div>
+              <div style={{ display:"flex", gap:6, marginBottom:12 }}>
+                <button
+                  style={{ flex:1, padding:"8px", borderRadius:6, border:`1px solid ${characterGender==="female"?TEAL:"rgba(61,133,140,0.25)"}`, background: characterGender==="female"?"rgba(61,133,140,0.15)":"transparent", color: characterGender==="female"?MIST:"rgba(232,244,245,0.82)", fontSize:"clamp(13px, 2.1vw, 17px)", cursor:"pointer" }}
+                  onClick={() => setCharacterGender("female")}>
+                  Female voice
+                </button>
+                <button
+                  style={{ flex:1, padding:"8px", borderRadius:6, border:`1px solid ${characterGender==="male"?TEAL:"rgba(61,133,140,0.25)"}`, background: characterGender==="male"?"rgba(61,133,140,0.15)":"transparent", color: characterGender==="male"?MIST:"rgba(232,244,245,0.82)", fontSize:"clamp(13px, 2.1vw, 17px)", cursor:"pointer" }}
+                  onClick={() => setCharacterGender("male")}>
+                  Male voice
+                </button>
+              </div>
+              {!PROXY_BASE_URL && (
+                <input
+                  style={{ ...s.fieldInput, fontSize:"clamp(13px, 2.1vw, 17px)", padding:"8px 12px", marginBottom:0 }}
+                  placeholder="ElevenLabs API key (optional)"
+                  type="password"
+                  value={elevenLabsKey}
+                  onChange={e => setElevenLabsKey(e.target.value)}
+                />
+              )}
+            </>
+          )}
+        </div>
+        <div style={s.panelSection}>
+          <div style={s.panelTitle}>Transcript</div>
+          <div style={s.transcriptArea}>{transcript || "Your conversation will appear here."}</div>
+          <button style={s.exportBtn} onClick={exportTranscript}>Download transcript</button>
+        </div>
+      </div>
+    </div>
+  );
+
+  // ── DEBRIEF ──
+  if (view === "debrief") return (
+    <div style={s.app}>
+      <div style={s.debrief}>
+        {debriefLoading ? (
+          <div style={{ textAlign:"center", padding:"80px 0" }}>
+            <Dots />
+            <div style={{ color:"rgba(232,244,245,0.75)", fontSize:"clamp(13px, 2.1vw, 17px)", marginTop:16 }}>Preparing your debrief...</div>
+          </div>
+        ) : debrief?.error ? (
+          <div style={{ textAlign:"center", padding:"80px 0", color:"rgba(232,244,245,0.75)" }}>Could not generate debrief. <button style={s.debriefBtnSecondary} onClick={() => setView("lab")}>Return to Lab</button></div>
+        ) : debrief ? (
+          <>
+            <div style={{ marginBottom:36, paddingBottom:28, borderBottom:`1px solid rgba(61,133,140,0.15)` }}>
+              <div style={{ fontSize:"clamp(14px, 2.2vw, 18px)", letterSpacing:"0.2em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:12 }}>Networking Lab Debrief</div>
+              <div style={s.debriefH1}>{debrief.headline}</div>
+              <div style={s.debriefSub}>{scenario?.title} &nbsp;|&nbsp; {debrief.counterpartLabel ? `Speaking to: ${debrief.counterpartLabel}` : ""}{debrief.counterpartLabel ? " \u00A0|\u00A0 " : ""}{debrief.toneLabel ? `${debrief.toneLabel} tone` : ""}{debrief.toneLabel ? " \u00A0|\u00A0 " : ""}{new Date().toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"})}</div>
+            </div>
+
+            <div style={{ marginBottom:28 }}>
+              <div style={s.debriefSectionTitle}>Overall Performance</div>
+              <div style={s.debriefCard}><div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", lineHeight:1.7 }}>{debrief.overall}</div></div>
+            </div>
+
+            <div style={{ marginBottom:28 }}>
+              <div style={s.debriefSectionTitle}>Networking Intelligence Scores</div>
+              <div style={{ fontSize:"clamp(11px, 1.6vw, 13px)", color:"rgba(232,244,245,0.55)", marginBottom:14, lineHeight:1.5 }}>
+                Scores reflect how each skill showed up in this specific conversation, calibrated to your seniority level.
+                &nbsp; <span style={{ color:"rgba(212,168,83,0.8)" }}>■</span> 0–40 needs work &nbsp;
+                <span style={{ color:TEAL }}>■</span> 41–70 developing &nbsp;
+                <span style={{ color:"#4caf7d" }}>■</span> 71–100 strong
+              </div>
+              <div style={s.debriefScoreGrid}>
+                {CI_METRICS.map(m => {
+                  const val = debrief.scores?.[m.key] ?? null;
+                  const barColor = val === null ? "rgba(61,133,140,0.3)" : val >= 71 ? "#4caf7d" : val >= 41 ? TEAL : AMBER;
+                  return (
+                    <div key={m.key} style={s.scoreCard}>
+                      <div style={s.scoreName}>{m.label}</div>
+                      <div style={{ ...s.scoreVal, color: val === null ? "rgba(232,244,245,0.4)" : val >= 71 ? "#4caf7d" : val >= 41 ? MIST : AMBER }}>{val ?? "-"}</div>
+                      <div style={s.barTrack}><div style={{ height:"100%", borderRadius:2, background:barColor, width:`${val||0}%` }} /></div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div style={{ marginBottom:28 }}>
+              <div style={s.debriefSectionTitle}>Communication Style</div>
+              <div style={s.debriefCard}>
+                <div style={{ fontSize:"clamp(16px, 2.4vw, 20px)", fontWeight:400, color:MIST, marginBottom:8, fontFamily:"'Cormorant Garamond', Georgia, serif" }}>{debrief.commStyle}</div>
+                <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", lineHeight:1.7 }}>{debrief.styleNotes}</div>
+              </div>
+            </div>
+
+            <div style={{ marginBottom:28 }}>
+              <div style={s.debriefSectionTitle}>What You Did Well</div>
+              <div style={s.debriefCard}>
+                <ul style={{ paddingLeft:18, listStyle:"disc" }}>
+                  {(debrief.strengths||[]).map((s,i) => <li key={i} style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", lineHeight:1.65, marginBottom:6 }}>{s}</li>)}
+                </ul>
+              </div>
+            </div>
+
+            <div style={{ marginBottom:28 }}>
+              <div style={s.debriefSectionTitle}>Primary Development Area</div>
+              <div style={s.debriefCard}><div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", lineHeight:1.7 }}>{debrief.developmentArea}</div></div>
+            </div>
+
+            <div style={{ marginBottom:28 }}>
+              <div style={s.debriefSectionTitle}>Human Needs in the Scene</div>
+              <div style={{ fontSize:"clamp(12px, 1.7vw, 14px)", color:"rgba(232,244,245,0.55)", marginBottom:14, lineHeight:1.5 }}>
+                These are the needs that were most at stake for you in this conversation. Not targets to meet, but signals about what was driving the dynamic.
+              </div>
+              <div style={s.needsGrid}>
+                {Object.entries(HUMAN_NEEDS).map(([key, desc]) => {
+                  const active = (debrief.needsMostActive||[]).map(n=>n.toLowerCase()).includes(key);
+                  return (
+                    <div key={key} style={{ ...s.needChip, ...(active ? s.needChipActive : {}) }}>
+                      <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", fontWeight:500, color: active ? MIST : "rgba(232,244,245,0.75)", marginBottom:3 }}>{key.charAt(0).toUpperCase()+key.slice(1)}</div>
+                      {active && <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:TEAL }}>Active in scene</div>}
+                    </div>
+                  );
+                })}
+              </div>
+              <div style={s.debriefCard}><div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", lineHeight:1.7 }}>{debrief.needsAnalysis}</div></div>
+            </div>
+
+            <div style={s.takeaway}>
+              <div style={s.takeawayLabel}>Take This Into the Real Conversation</div>
+              <div style={s.takeawayText}>{debrief.takeaway}</div>
+            </div>
+
+            <div style={{ marginBottom:32 }}>
+              <div style={s.debriefSectionTitle}>Next Time in the Lab</div>
+              <div style={s.debriefCard}><div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", lineHeight:1.7 }}>{debrief.nextStep}</div></div>
+            </div>
+
+            {debrief.alternativeResponse && (
+              <div style={{ marginBottom:32, background:"rgba(61,133,140,0.08)", border:`1px solid rgba(61,133,140,0.25)`, borderRadius:12, padding:"24px 22px" }}>
+                <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", letterSpacing:"0.18em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:12 }}>A Stronger Version of That Moment</div>
+                <div style={{ fontSize:"clamp(14px, 2.2vw, 18px)", color:"rgba(232,244,245,0.9)", lineHeight:1.75, fontFamily:"'Cormorant Garamond', Georgia, serif", fontStyle:"italic", marginBottom:16 }}>
+                  {debrief.alternativeResponse}
+                </div>
+                <div style={{ display:"flex", gap:10, flexWrap:"wrap" }}>
+                  {voiceEnabled && (
+                    <button
+                      onClick={() => speakText(debrief.alternativeResponse, true)}
+                      style={{ padding:"9px 16px", background:"transparent", border:`1px solid rgba(61,133,140,0.3)`, borderRadius:7, color:"rgba(232,244,245,0.75)", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(12px, 1.8vw, 15px)", cursor:"pointer" }}>
+                      🔊 Hear this read aloud
+                    </button>
+                  )}
+                  <button
+                    onClick={restartLab}
+                    style={{ padding:"9px 16px", background:TEAL, border:"none", borderRadius:7, color:DARKER, fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(12px, 1.8vw, 15px)", fontWeight:700, cursor:"pointer" }}>
+                    Try again with this in mind →
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {debrief.skillsLabModule && (
+              <div style={{ marginBottom:32, background:"rgba(212,168,83,0.06)", border:`1px solid rgba(212,168,83,0.2)`, borderRadius:12, padding:"22px 20px" }}>
+                <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", letterSpacing:"0.18em", textTransform:"uppercase", color:AMBER, fontWeight:600, marginBottom:10 }}>Build the Foundation in the Skills Lab</div>
+                <div style={{ fontSize:"clamp(13px, 2vw, 16px)", color:"rgba(232,244,245,0.82)", lineHeight:1.65 }}>
+                  {debrief.skillsLabModule === "leadership" && "Your development area points to Leadership Styles. Go to the Rewire Skills Lab to identify your default style and practise adapting it to different situations."}
+                  {debrief.skillsLabModule === "communication" && "Your development area points to Communication Styles. Go to the Rewire Skills Lab to build the vocabulary and drill the patterns that will serve you better."}
+                  {debrief.skillsLabModule === "executive" && "Your development area points to Executive Presence. Go to the Rewire Skills Lab to build the register and vocabulary of someone who speaks at boardroom level."}
+                  {debrief.skillsLabModule === "thinking" && "Your development area points to Thinking Frameworks. Go to the Rewire Skills Lab to sharpen how you think before you decide, argue or solve."}
+                </div>
+              </div>
+            )}
+
+            {debrief.registerNote && (
+              <div style={{ marginBottom:28, padding:"16px 20px", background:"rgba(212,168,83,0.07)", border:`1px solid rgba(212,168,83,0.2)`, borderRadius:10 }}>
+                <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", letterSpacing:"0.18em", textTransform:"uppercase", color:AMBER, fontWeight:600, marginBottom:8 }}>Register Note</div>
+                <div style={{ fontSize:"clamp(13px, 2vw, 16px)", color:"rgba(232,244,245,0.82)", lineHeight:1.65 }}>{debrief.registerNote}</div>
+              </div>
+            )}
+
+            {debrief.goalOutcome && (
+              <div style={{ margin:"0 0 18px", padding:"18px 20px", borderRadius:10, border:"1px solid rgba(61,133,140,0.35)", background:"rgba(61,133,140,0.08)" }}>
+                <div style={{ fontSize:12, letterSpacing:"0.15em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:8 }}>Your Conversation Goal</div>
+                <div style={{ fontSize:"clamp(14px, 2.2vw, 17px)", lineHeight:1.6, color:"#EEF8F9" }}>{debrief.goalOutcome}</div>
+              </div>
+            )}
+            {Array.isArray(debrief.lineBank) && debrief.lineBank.length > 0 && (
+              <div style={{ margin:"0 0 18px", padding:"18px 20px", borderRadius:10, border:"1px solid rgba(212,168,83,0.4)", background:"rgba(212,168,83,0.07)" }}>
+                <div style={{ fontSize:12, letterSpacing:"0.15em", textTransform:"uppercase", color:AMBER, fontWeight:600, marginBottom:6 }}>Your Line Bank</div>
+                <div style={{ fontSize:"clamp(12px, 1.9vw, 14px)", color:"rgba(232,244,245,0.65)", marginBottom:10 }}>Your strongest phrases from this practice. Take them into the real room.</div>
+                {debrief.lineBank.map((l, i) => (
+                  <div key={i} style={{ fontFamily:"'Cormorant Garamond', Georgia, serif", fontStyle:"italic", fontSize:"clamp(16px, 2.5vw, 19px)", color:"#EEF8F9", padding:"7px 0", borderBottom: i < debrief.lineBank.length - 1 ? "1px solid rgba(212,168,83,0.15)" : "none" }}>&ldquo;{l}&rdquo;</div>
+                ))}
+              </div>
+            )}
+            <div style={s.debriefActions}>
+              <button style={s.debriefBtnPrimary} onClick={restartLab}>Practise This Scenario Again</button>
+              <button style={s.debriefBtnSecondary} onClick={() => exportDebriefPDF(debrief)}>Download Debrief</button>
+              <button style={s.debriefBtnSecondary} onClick={() => { stopSpeaking(); setView("lobby"); }}>Choose New Scenario</button>
+            </div>
+          </>
+        ) : null}
+      </div>
+    </div>
+  );
+
+  return null;
+}
+
+ReactDOM.render(React.createElement(App), document.getElementById("root"));
+  </script>
+</body>
+</html>
