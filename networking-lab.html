@@ -473,6 +473,9 @@ function App() {
   const convRef = useRef(null);
   const historyRef = useRef([]);
   const recognitionRef = useRef(null);
+  const voiceInputRef = useRef("");   // always holds the freshest transcribed text, no render lag
+  const autoSendRef = useRef(false);  // set when Stop Listening should send immediately once recognition truly ends
+  const sendMessageRef = useRef(() => {}); // always points at the current sendMessage, never a frozen one
   const audioRef = useRef(null);
 
   // Voice character map - ElevenLabs voice IDs per scenario category
@@ -578,8 +581,16 @@ function App() {
       // Append to existing input rather than replacing it
       const combined = existingInput ? existingInput + " " + transcript : transcript;
       setInput(combined);
+      voiceInputRef.current = combined; // update immediately, don't wait on React's render cycle
     };
-    recognition.onend = () => { setIsListening(false); };
+    recognition.onend = () => {
+      setIsListening(false);
+      if (autoSendRef.current) {
+        autoSendRef.current = false;
+        const finalText = voiceInputRef.current.trim();
+        if (finalText) sendMessageRef.current(finalText);
+      }
+    };
     recognition.onerror = (e) => {
       if (e.error !== "no-speech") setIsListening(false);
     };
@@ -588,13 +599,15 @@ function App() {
   }
 
   function stopListening(autoSend = false) {
+    autoSendRef.current = autoSend;
     if (recognitionRef.current) {
+      // .stop() is asynchronous — the engine still delivers any final result(s) before
+      // onend fires. Sending happens from onend, never from a fixed delay, so it never
+      // races ahead of the transcript actually arriving.
       recognitionRef.current.stop();
       recognitionRef.current = null;
-    }
-    setIsListening(false);
-    if (autoSend) {
-      setTimeout(sendMessage, 300);
+    } else {
+      setIsListening(false);
     }
   }
 
@@ -817,9 +830,9 @@ ${NEEDS_PROMPT}
 RULES: Stay completely in character. No narration, no stage directions. Keep responses concise and natural (2-4 sentences). Never refer to yourself as an AI. NEVER use em dashes (—) under any circumstances. Replace every em dash with a comma, full stop, or colon. This is absolute. Use the Oxford comma in lists of three or more items.`;
   }
 
-  async function sendMessage() {
-    if (thinking || !input.trim() || isSpeaking) return;
-    const text = input.trim();
+  async function sendMessage(overrideText) {
+    const text = (typeof overrideText === "string" ? overrideText : input).trim();
+    if (thinking || !text || isSpeaking) return;
     setInput("");
     const name = userName || "You";
     setMessages(m => [...m, { type:"user", text }]);
@@ -853,17 +866,28 @@ RULES: Stay completely in character. No narration, no stage directions. Keep res
     } catch { setMessages(m => [...m, { type:"note", text:"Connection issue. Please try again." }]); }
     setThinking(false);
   }
+  useEffect(() => { sendMessageRef.current = sendMessage; });
 
   async function runAnalysis() {
-    const userMsgs = historyRef.current.filter(m => m.role === "user").map(m => m.content).join("\n\n");
-    if (!userMsgs) return;
+    const userTurns = historyRef.current.filter(m => m.role === "user");
+    if (!userTurns.length) return null;
+    const speakerName = userName || "You";
+    const fullConvSoFar = historyRef.current.map(m => `${m.role === "user" ? speakerName : scenario.role}: ${m.content}`).join("\n\n");
     const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
     const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
-    const prompt = `Analyse these messages from someone practising: "${scenario.title}".
-Their messages: ${userMsgs}
+    const prompt = `Analyse ONLY "${speakerName}"'s turns below from someone practising: "${scenario.title}". The other person's turns are included purely for context, to judge how well "${speakerName}" listened to and built on them; never score the other person's behaviour.
+Full conversation so far:
+${fullConvSoFar}
 Context: ${userContext || "Not specified"}
 ${seniorityCtx ? `They operate at ${seniorityLabel} level. ${seniorityCtx} Score their communication against what excellent performance looks like at this specific level, not a generic standard.` : ""}
 The other person is playing a ${getToneMeta(tone).label} tone${getToneMeta(tone).group ? ` (${getToneMeta(tone).group})` : ""}. Credit skill shown in handling this specific behaviour.
+SCORING RUBRIC (0-100 each, evidence-based against only what "${speakerName}" actually said, never assume credit that is not there):
+- confidence: self-assured presence and ownership in how "${speakerName}" carries themselves, not the inherent merit of their work.
+- rapport: warmth, genuine interest in the other person, and connection-building language "${speakerName}" used.
+- questions: the quality of questions "${speakerName}" THEMSELVES asked the other person, never questions the other person asked them. If "${speakerName}" asked no genuine question anywhere in their turns, this must score low, in the 0-20 range, since initiating curiosity is the entire skill being measured here.
+- listening: evidence "${speakerName}" picked up on, referenced, or built on specific things the other person actually said, rather than only answering what they were asked.
+- clarity: how clean, concrete and jargon-free "${speakerName}"'s explanations were, judged by whether a stranger could follow and repeat them.
+- flow: how naturally "${speakerName}" kept the conversation moving without fragmenting, trailing off, or losing the thread.
 Return ONLY valid JSON, no markdown:
 {"confidence":72,"rapport":68,"questions":80,"listening":55,"clarity":65,"flow":60,"note":"One specific empowering performance insight in 1-2 sentences. Reference their level if relevant. Direct, warm, forward-looking. Second person."}
 Scores 0-100. Honest and calibrated against their seniority level. Frame as capability not criticism. A score of 75 at director level means something different from 75 at manager level.`;
@@ -872,7 +896,8 @@ Scores 0-100. Honest and calibrated against their seniority level. Frame as capa
       const parsed = JSON.parse(reply.replace(/```json|```/g,"").trim());
       setScores(parsed);
       if (parsed.note) setInsights(i => [...i.slice(-3), parsed.note]);
-    } catch {}
+      return parsed;
+    } catch { return null; }
   }
 
   async function getInsight() {
@@ -899,9 +924,11 @@ Give ONE clear performance insight calibrated to their level. What are they doin
       setMessages(m => [...m, { type:"note", text:"Complete a few more exchanges before requesting a debrief." }]);
       return;
     }
+    stopListening(false); // close out any lingering recognition session before leaving the lab view
     setDebriefLoading(true);
     setDebrief(null);
     setView("debrief");
+    const freshScores = await runAnalysis();
     const fullConv = historyRef.current.map(m => `${m.role === "user" ? (userName || "You") : scenario.role}: ${m.content}`).join("\n\n");
     const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
     const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
@@ -922,13 +949,15 @@ Valid need keys: certainty,variety,significance,connection,growth,contribution. 
       const reply = await callAI("You are a senior performance strategist specialising in leadership communication.", [{ role:"user", content:prompt }]);
       const parsed = JSON.parse(reply.replace(/```json|```/g,"").trim());
       const cpLabel = (COUNTERPART_LEVELS.find(l => l.value === otherPartyLevel) || {}).label || "";
-      setDebrief({ ...parsed, scores, seniority: seniorityLabel, toneLabel: tm.label, toneGroup: tm.group, counterpartLabel: cpLabel });
+      setDebrief({ ...parsed, scores: freshScores || scores, seniority: seniorityLabel, toneLabel: tm.label, toneGroup: tm.group, counterpartLabel: cpLabel });
     } catch { setDebrief({ error:true }); }
     setDebriefLoading(false);
   }
 
   function restartLab() {
     historyRef.current = [];
+    voiceInputRef.current = "";
+    autoSendRef.current = false;
     setMessages([]);
     setInsights([]);
     setScores({});
@@ -1406,7 +1435,7 @@ Valid need keys: certainty,variety,significance,connection,growth,contribution. 
               rows={1} />
             <button
               style={{ ...s.sendBtn, background: isListening ? "#c0536a" : isSpeaking ? AMBER : TEAL }}
-              onClick={isListening ? () => { stopListening(); setTimeout(sendMessage, 300); } : sendMessage}
+              onClick={isListening ? () => stopListening(true) : sendMessage}
               disabled={thinking}>
               {isListening ? "⏹" : "↑"}
             </button>
