@@ -1,5 +1,5 @@
 {
-  "updated": "05 Jul 2026, 17:24 UTC",
+  "updated": "05 Jul 2026, 18:25 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "EasyJet reaches 'agreement in principle' over potential takeover",
+      "link": "https://www.bbc.co.uk/news/articles/cgjxx7ngz51o?at_medium=RSS&at_campaign=rss",
+      "date": "5 Jul 2026",
+      "excerpt": "The low-cost airline had previously rejected four takeover offers from US investment firm Castlelake.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e030/live/4c0dc8e0-7873-11f1-ab53-3dbca6ef5ee1.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "What Sky buying ITV could mean for your favourite shows",
       "link": "https://www.bbc.co.uk/news/articles/c04yx44xq19o?at_medium=RSS&at_campaign=rss",
       "date": "4 Jul 2026",
@@ -234,15 +243,6 @@
       "date": "3 Jul 2026",
       "excerpt": "More than 250 of the UK's biggest employers have signed up to his 'Get Britain Working' taskforce.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/420a/live/847a2120-76c4-11f1-bd3f-0f791277aaa0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What could new rights for unmarried couples mean for your money?",
-      "link": "https://www.bbc.co.uk/news/articles/cx2vx4dvgzno?at_medium=RSS&at_campaign=rss",
-      "date": "4 Jul 2026",
-      "excerpt": "Co-habiting couples in England and Wales could be given more protections if they break up under new government proposals.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f64e/live/be7ea2f0-6bbc-11f1-8e1d-bbbb1017d210.jpg"
     }
   ]
 }
