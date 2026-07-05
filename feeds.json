@@ -1,5 +1,5 @@
 {
-  "updated": "05 Jul 2026, 02:54 UTC",
+  "updated": "05 Jul 2026, 07:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -17,6 +17,24 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260630020231.htm",
       "date": "30 Jun 2026",
       "excerpt": "Creatine is best known as a muscle-building supplement, but scientists are now investigating whether it could also help treat depression by boosting the brain's energy supply. A new review examined five randomized clinical trials involving ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover why some brains resist Alzheimer's",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260626125709.htm",
+      "date": "3 Jul 2026",
+      "excerpt": "Some brains appear to fight back against Alzheimer's by helping immature brain cells survive damage instead of succumbing to it. Understanding this natural resilience could point researchers toward entirely new ways to protect memory and sl",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Drinking to cope with stress may permanently rewire your brain",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260626030437.htm",
+      "date": "3 Jul 2026",
+      "excerpt": "Using alcohol to cope with stress when young may permanently alter the brain, making it harder to adapt to challenges and increasing the risk of returning to drinking later in life. Researchers also found signs of brain damage associated wi",
       "image": ""
     },
     {
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260625014755.htm",
       "date": "2 Jul 2026",
       "excerpt": "Bumble bees astonished researchers by inventing a new way to reach a hidden reward, despite never being taught the trick. The discovery adds to growing evidence that these tiny insects are far smarter and more adaptable than once believed.",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Brain activity under anesthesia challenges what we know about consciousness",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260624025514.htm",
-      "date": "28 Jun 2026",
-      "excerpt": "The unconscious brain appears to be far more capable than scientists once believed. Researchers found that patients under general anesthesia could still process language at a sophisticated level, distinguishing nouns, verbs, and adjectives ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover ancient brain cells that help block distractions",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260624025426.htm",
-      "date": "24 Jun 2026",
-      "excerpt": "Scientists have discovered a tiny group of neurons in an ancient brain region that acts like a built-in focus filter, helping the brain ignore distractions and zero in on what matters most. When researchers temporarily switched off these ne",
       "image": ""
     },
     {
