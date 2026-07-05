@@ -1,5 +1,5 @@
 {
-  "updated": "05 Jul 2026, 13:26 UTC",
+  "updated": "05 Jul 2026, 15:10 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "What Sky buying ITV could mean for your favourite shows",
+      "link": "https://www.bbc.co.uk/news/articles/c04yx44xq19o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Jul 2026",
+      "excerpt": "An announcement is expected imminently on Sky buying ITV's TV and streaming channels.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7d9/live/21b014a0-779b-11f1-a02d-cbd2f4813818.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "No-gift policy for Taylor Swift, but how much should you give at a wedding?",
       "link": "https://www.bbc.co.uk/news/articles/c78yj9p0m91o?at_medium=RSS&at_campaign=rss",
       "date": "3 Jul 2026",
       "excerpt": "Wedding lists are being replaced by cash requests, but guests are divided over how much to give.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed09/live/eee79ae0-76da-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Clay, kilns and the cost of survival for tile makers",
+      "link": "https://www.bbc.co.uk/news/articles/c982e3k9zw9o?at_medium=RSS&at_campaign=rss",
+      "date": "5 Jul 2026",
+      "excerpt": "While some firms lean into their heritage, others are modernising in the face of economic pressures.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/68ba/live/b23d4a20-6fde-11f1-b763-7be8e457290d.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,29 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Burnham says there is some room for movement on tax",
-      "link": "https://www.bbc.co.uk/news/articles/c5yz9j7v0z6o?at_medium=RSS&at_campaign=rss",
-      "date": "3 Jul 2026",
-      "excerpt": "But the likely next PM says he will stick to Labour's pledges to not raise VAT, income tax or national insurance.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6eb7/live/8e7bce30-7647-11f1-83d0-9b0728fe8be0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Pubs allowed to stay open until 5am on Monday for England Mexico match",
-      "link": "https://www.bbc.co.uk/news/articles/c1kyr8747m9o?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jul 2026",
-      "excerpt": "The government had initially said it would not relax licensing laws further for the World Cup.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/306d/live/0c455db0-76a5-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI is 'not smart' so what's next in artificial intelligence?",
-      "link": "https://www.bbc.co.uk/news/articles/cj6gr0xkyr3o?at_medium=RSS&at_campaign=rss",
-      "date": "2 Jul 2026",
-      "excerpt": "Leading AI researcher Yan LeCun has a start-up which is developing a more flexible AI system.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab90/live/3f28f8c0-6e1e-11f1-806d-d1ff7e093f07.jpg"
+      "title": "What could new rights for unmarried couples mean for your money?",
+      "link": "https://www.bbc.co.uk/news/articles/cx2vx4dvgzno?at_medium=RSS&at_campaign=rss",
+      "date": "4 Jul 2026",
+      "excerpt": "Co-habiting couples in England and Wales could be given more protections if they break up under new government proposals.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f64e/live/be7ea2f0-6bbc-11f1-8e1d-bbbb1017d210.jpg"
     }
   ]
 }
