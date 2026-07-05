@@ -7,7 +7,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
-  <style>* { box-sizing: border-box; margin: 0; padding: 0; } body { background: #01293A; }</style>
+  <style>* { box-sizing: border-box; margin: 0; padding: 0; } html, body { height: 100%; } body { background: #01293A; overflow: hidden; } #root { height: 100vh; height: 100dvh; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }</style>
 </head>
 <body>
   <div id="root"></div>
@@ -268,7 +268,7 @@ const CI_METRICS = [
 
 const s = {
   // Global
-  app: { background: DARKER, minHeight:"100vh", color:"#EEF8F9", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(14px, 2.2vw, 18px)" },
+  app: { background: DARKER, minHeight:"100%", color:"#EEF8F9", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(14px, 2.2vw, 18px)" },
   // Lobby
   lobby: { maxWidth:960, margin:"0 auto", padding:"0 20px 60px" },
   lobbyHeader: { padding:"40px 0 28px", borderBottom:`1px solid rgba(61,133,140,0.15)`, display:"flex", justifyContent:"space-between", alignItems:"flex-start", flexWrap:"wrap", gap:12 },
@@ -304,7 +304,7 @@ const s = {
   toneBtnActive: { borderColor:TEAL, background:"rgba(61,133,140,0.12)" },
   startBtn: { width:"100%", padding:"15px", background:TEAL, border:"none", borderRadius:8, color:DARKER, fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(13px, 2vw, 16px)", fontWeight:700, cursor:"pointer", letterSpacing:"0.07em", textTransform:"uppercase", marginTop:8 },
   // Lab
-  lab: { display:"flex", flexDirection:"row", height:"100vh", overflow:"hidden", background:DARKER, position:"relative" },
+  lab: { display:"flex", flexDirection:"row", height:"100%", overflow:"hidden", background:DARKER, position:"relative" },
   labMain: { flex:1, display:"flex", flexDirection:"column", borderRight:`1px solid rgba(61,133,140,0.12)`, minWidth:0, minHeight:0 },
   topbar: { padding:"18px 24px", borderBottom:`1px solid rgba(61,133,140,0.12)`, display:"flex", alignItems:"center", justifyContent:"space-between", flexShrink:0 },
   labEyebrow: { fontSize:"clamp(13px, 2.1vw, 17px)", letterSpacing:"0.18em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:4 },
@@ -466,14 +466,15 @@ function App() {
   useEffect(() => {
     if (view !== "lab") return;
     if (isMobileViewport()) {
-      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+      const rootEl = document.getElementById("root");
+      if (rootEl) rootEl.scrollTo({ top: rootEl.scrollHeight, behavior: "smooth" });
     } else if (convRef.current) {
       convRef.current.scrollTop = convRef.current.scrollHeight;
     }
   }, [messages, thinking]);
 
   useEffect(() => {
-    if (view !== "lab") window.scrollTo({ top: 0, behavior: "instant" });
+    if (view !== "lab") (document.getElementById("root") || window).scrollTo({ top: 0, behavior: "instant" });
     if (typeof document !== "undefined") {
       const mobile = isMobileViewport();
       if (view === "lab" && !mobile) {
