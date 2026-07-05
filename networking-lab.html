@@ -971,7 +971,7 @@ Valid need keys: certainty,variety,significance,connection,growth,contribution. 
 
   async function exportDebriefPDF(d) {
     try {
-      const response = await fetch(`${PROXY_BASE_URL}/api/generate-debrief-pdf`, {
+      const response = await fetch(`${PROXY_BASE_URL}/api/generate-networking-debrief-pdf`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -989,6 +989,8 @@ Valid need keys: certainty,variety,significance,connection,growth,contribution. 
           takeaway: d.takeaway,
           nextStep: d.nextStep,
           alternativeResponse: d.alternativeResponse,
+          goalOutcome: d.goalOutcome,
+          lineBank: d.lineBank,
           scores: d.scores,
         })
       });
@@ -997,7 +999,7 @@ Valid need keys: certainty,variety,significance,connection,growth,contribution. 
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `Rewire-Debrief-${(scenario?.title||"debrief").replace(/\s+/g,"-")}.pdf`;
+      a.download = `Networking-Debrief-${(scenario?.title||"debrief").replace(/\s+/g,"-")}.pdf`;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -1008,7 +1010,7 @@ Valid need keys: certainty,variety,significance,connection,growth,contribution. 
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `Rewire-Debrief-${(scenario?.title||"debrief").replace(/\s+/g,"-")}.html`;
+      a.download = `Networking-Debrief-${(scenario?.title||"debrief").replace(/\s+/g,"-")}.html`;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
