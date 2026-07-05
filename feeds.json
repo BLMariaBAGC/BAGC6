@@ -1,5 +1,5 @@
 {
-  "updated": "05 Jul 2026, 20:57 UTC",
+  "updated": "05 Jul 2026, 22:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -26,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260626125709.htm",
       "date": "3 Jul 2026",
       "excerpt": "Some brains appear to fight back against Alzheimer's by helping immature brain cells survive damage instead of succumbing to it. Understanding this natural resilience could point researchers toward entirely new ways to protect memory and sl",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists may have finally found how Alzheimer's kills brain cells",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260626124701.htm",
+      "date": "5 Jul 2026",
+      "excerpt": "Researchers have identified a previously overlooked mechanism of brain cell death that appears to play a major role in Alzheimer's disease and frontotemporal dementia. The finding could lead to new treatments aimed at slowing neuron loss by",
       "image": ""
     },
     {
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260625060159.htm",
       "date": "25 Jun 2026",
       "excerpt": "Healthy older adults experienced measurable improvements in memory, physical performance, and stress after taking placebo pills for just three weeks. The most surprising finding was that the placebo often worked even when participants knew ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Modern neuroscience is rediscovering an idea Freud had 130 years ago",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260625014811.htm",
-      "date": "1 Jul 2026",
-      "excerpt": "What if Sigmund Freud was onto something that modern neuroscience is only now beginning to explain? A new paper argues that today's leading theory of the brain—as a prediction machine constantly anticipating the world—closely mirrors ideas ",
       "image": ""
     },
     {
