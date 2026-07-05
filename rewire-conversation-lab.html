@@ -433,6 +433,9 @@ function App() {
   const convRef = useRef(null);
   const historyRef = useRef([]);
   const recognitionRef = useRef(null);
+  const voiceInputRef = useRef("");   // always holds the freshest transcribed text, no render lag
+  const autoSendRef = useRef(false);  // set when Stop Listening should send immediately once recognition truly ends
+  const sendMessageRef = useRef(() => {}); // always points at the current sendMessage, never a frozen one
   const audioRef = useRef(null);
 
   // Voice character map - ElevenLabs voice IDs per scenario category
@@ -539,8 +542,16 @@ function App() {
       // Append to existing input rather than replacing it
       const combined = existingInput ? existingInput + " " + transcript : transcript;
       setInput(combined);
+      voiceInputRef.current = combined; // update immediately, don't wait on React's render cycle
     };
-    recognition.onend = () => { setIsListening(false); };
+    recognition.onend = () => {
+      setIsListening(false);
+      if (autoSendRef.current) {
+        autoSendRef.current = false;
+        const finalText = voiceInputRef.current.trim();
+        if (finalText) sendMessageRef.current(finalText);
+      }
+    };
     recognition.onerror = (e) => {
       if (e.error !== "no-speech") setIsListening(false);
     };
@@ -549,13 +560,15 @@ function App() {
   }
 
   function stopListening(autoSend = false) {
+    autoSendRef.current = autoSend;
     if (recognitionRef.current) {
+      // .stop() is asynchronous — the engine still delivers any final result(s) before
+      // onend fires. Sending happens from onend, never from a fixed delay, so it never
+      // races ahead of the transcript actually arriving.
       recognitionRef.current.stop();
       recognitionRef.current = null;
-    }
-    setIsListening(false);
-    if (autoSend) {
-      setTimeout(sendMessage, 300);
+    } else {
+      setIsListening(false);
     }
   }
 
@@ -773,9 +786,9 @@ ${NEEDS_PROMPT}
 RULES: Stay completely in character. No narration, no stage directions. Keep responses concise and natural (2-4 sentences). Never refer to yourself as an AI. NEVER use em dashes (—) under any circumstances. Replace every em dash with a comma, full stop, or colon. This is absolute. Use the Oxford comma in lists of three or more items.`;
   }
 
-  async function sendMessage() {
-    if (thinking || !input.trim() || isSpeaking) return;
-    const text = input.trim();
+  async function sendMessage(overrideText) {
+    const text = (typeof overrideText === "string" ? overrideText : input).trim();
+    if (thinking || !text || isSpeaking) return;
     setInput("");
     const name = userName || "You";
     setMessages(m => [...m, { type:"user", text }]);
@@ -809,6 +822,7 @@ RULES: Stay completely in character. No narration, no stage directions. Keep res
     } catch { setMessages(m => [...m, { type:"note", text:"Connection issue. Please try again." }]); }
     setThinking(false);
   }
+  useEffect(() => { sendMessageRef.current = sendMessage; });
 
   async function runAnalysis() {
     const userMsgs = historyRef.current.filter(m => m.role === "user").map(m => m.content).join("\n\n");
@@ -855,6 +869,7 @@ Give ONE clear performance insight calibrated to their level. What are they doin
       setMessages(m => [...m, { type:"note", text:"Complete a few more exchanges before requesting a debrief." }]);
       return;
     }
+    stopListening(false); // close out any lingering recognition session before leaving the lab view
     setDebriefLoading(true);
     setDebrief(null);
     setView("debrief");
@@ -870,7 +885,8 @@ Power dynamic: the other person was ${(COUNTERPART_LEVELS.find(l => l.value === 
 Full conversation: ${fullConv}
 Return ONLY valid JSON:
 {"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences overall performance calibrated to their seniority level, direct honest empowering","commStyle":"Primary communication style used in 3-5 words, descriptive not judgmental (e.g. Hesitant but Honest, Direct and Structured, Warm but Vague)","styleNotes":"1-2 sentences how this style served them at their level","strengths":["Strength 1 specific to their level","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences. Name the gap between current and excellent at ${seniorityLabel} level.","alternativeResponse":"A single example of what their WEAKEST moment in the conversation could have sounded like if handled at the level they are working toward. Write it as the actual words they could have said, in first person, 2-4 sentences. Make it feel achievable not perfect. Precede it with one sentence naming which moment this relates to.","skillsLabModule":"Based on the primary development area, recommend ONE of these exact values: leadership, communication, executive, thinking. Choose the one most relevant to what they most need to build.","registerNote":"1 sentence on whether their language register matched their seniority level. Be honest.","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in scene","takeaway":"One powerful sentence to carry into the real conversation","nextStep":"One specific scenario or skill to practise next time. If their register was below their seniority level, recommend the Skills Lab Executive Presence module."}
-Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never use em dashes.`;
+Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never use em dashes.
+Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
     try {
       const reply = await callAI("You are a senior performance strategist specialising in leadership communication.", [{ role:"user", content:prompt }]);
       const parsed = JSON.parse(reply.replace(/```json|```/g,"").trim());
@@ -882,6 +898,8 @@ Valid need keys: certainty,variety,significance,connection,growth,contribution. 
 
   function restartLab() {
     historyRef.current = [];
+    voiceInputRef.current = "";
+    autoSendRef.current = false;
     setMessages([]);
     setInsights([]);
     setScores({});
@@ -1310,7 +1328,7 @@ Valid need keys: certainty,variety,significance,connection,growth,contribution. 
               rows={1} />
             <button
               style={{ ...s.sendBtn, background: isListening ? "#c0536a" : isSpeaking ? AMBER : TEAL }}
-              onClick={isListening ? () => { stopListening(); setTimeout(sendMessage, 300); } : sendMessage}
+              onClick={isListening ? () => stopListening(true) : sendMessage}
               disabled={thinking}>
               {isListening ? "⏹" : "↑"}
             </button>
