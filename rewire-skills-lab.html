@@ -2288,7 +2288,7 @@ Full drill: ${conv}
 Return ONLY valid JSON:
 {"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their seniority level, direct honest empowering","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences","registerNote":"1 honest sentence on whether their language matched their seniority level","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on how human needs played out in this drill","takeaway":"One powerful sentence to carry into the next real situation","nextDrill":"One specific thing to practise next time, named precisely"}
 
-Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never use em dashes.`;
+Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never use em dashes. Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
 }
 function buildLeadershipDebriefPrompt(messages, styleName, styleId, userName, userRole, userContext, scores, seniority) {
   const conv = messages.map(m => `${m.role === "user" ? userName || "You" : "Coach"}: ${m.content}`).join("\n\n");
@@ -2303,7 +2303,7 @@ Full drill: ${conv}
 Return ONLY valid JSON:
 {"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their level, direct honest empowering","defaultStyle":"The leadership style their responses most reflected (one of: Directive, Coaching, Democratic, Visionary, Pacesetting, Affiliative)","styleNotes":"1-2 sentences on how this default style served them in this drill at their level","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences","registerNote":"1 honest sentence on whether their leadership language matched their seniority level","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on how human needs played out in the scene","takeaway":"One powerful sentence to carry into the next real leadership moment","nextDrill":"One specific thing to practise next time in the Lab"}
 
-Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never inflate scores or use hollow praise.`;
+Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never inflate scores or use hollow praise. Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
 }
 function buildCommDebriefPrompt(messages, styleName, userName, userRole, userContext, scores, seniority) {
   const conv = messages.map(m => `${m.role === "user" ? userName || "You" : "Coach"}: ${m.content}`).join("\n\n");
@@ -2318,7 +2318,7 @@ Full drill: ${conv}
 Return ONLY valid JSON:
 {"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their level, direct honest empowering","detectedStyle":"The communication style most visible in their responses (one of: Assertive, Passive, Aggressive, Passive-Aggressive, Persuasive, Diplomatic)","styleNotes":"1-2 sentences on how this style served or limited them at their level","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences","registerNote":"1 honest sentence on whether their communication register matched their seniority level","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in the scene","takeaway":"One powerful sentence to carry into the next real conversation","nextDrill":"One specific thing to practise next time in the Lab"}
 
-Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering.`;
+Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
 }
 function buildExecDebriefPrompt(messages, scenarioLabel, userName, userRole, userContext, scores, seniority) {
   const conv = messages.map(m => `${m.role === "user" ? userName || "You" : "Coach"}: ${m.content}`).join("\n\n");
@@ -2333,7 +2333,7 @@ Full drill: ${conv}
 Return ONLY valid JSON:
 {"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their level, direct honest empowering","beforeAfter":{"before":"Example phrase from their responses that reflects their current register (quote exactly)","after":"How that same thought would sound in boardroom language at their level"},"strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences","hedgingExamples":["phrase that undermined authority if any - leave array empty if none found"],"needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in the scene","takeaway":"One powerful sentence to carry into the next senior conversation","nextDrill":"One specific thing to practise next time in the Lab"}
 
-Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering.`;
+Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
 }
 function buildThinkingDebriefPrompt(messages, frameworkLabel, frameworkTeachingFocus, userName, userRole, userContext, scores, seniority) {
   const conv = messages.map(m => `${m.role === "user" ? userName || "You" : "Coach"}: ${m.content}`).join("\n\n");
@@ -2348,7 +2348,7 @@ Full drill: ${conv}
 Return ONLY valid JSON:
 {"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance, direct honest empowering","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area, specific actionable empowering 2-3 sentences","blindSpot":"1-2 sentences naming a specific assumption or pattern in their thinking that the framework helped surface, or that they should watch for next time","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in the scene","takeaway":"One powerful sentence to carry into the next real decision or problem","nextDrill":"One specific thing to practise next time in the Lab"}
 
-Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering.`;
+Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
 }
 
 // ── STYLES ──
@@ -3430,6 +3430,9 @@ function App() {
   const assessmentResultRef = useRef(null);
   const assessmentQuestionRef = useRef(null);
   const recognitionRef = useRef(null);
+  const voiceInputRef = useRef("");
+  const autoSendRef = useRef(false);
+  const sendMessageRef = useRef(() => {});
   const audioRef = useRef(null);
   function isMobileViewport() {
     return typeof window !== "undefined" && window.innerWidth <= 700;
@@ -3527,9 +3530,18 @@ function App() {
     r.onstart = () => setIsListening(true);
     r.onresult = e => {
       const transcript = Array.from(e.results).map(r => r[0].transcript).join("");
-      setInput(existingInput ? existingInput + " " + transcript : transcript);
+      const combined = existingInput ? existingInput + " " + transcript : transcript;
+      setInput(combined);
+      voiceInputRef.current = combined;
     };
-    r.onend = () => setIsListening(false);
+    r.onend = () => {
+      setIsListening(false);
+      if (autoSendRef.current) {
+        autoSendRef.current = false;
+        const finalText = voiceInputRef.current.trim();
+        if (finalText) sendMessageRef.current(finalText);
+      }
+    };
     r.onerror = e => {
       if (e.error !== "no-speech") setIsListening(false);
     };
@@ -3537,12 +3549,13 @@ function App() {
     r.start();
   }
   function stopListening(autoSend = false) {
+    autoSendRef.current = autoSend;
     if (recognitionRef.current) {
       recognitionRef.current.stop();
       recognitionRef.current = null;
+    } else {
+      setIsListening(false);
     }
-    setIsListening(false);
-    if (autoSend) setTimeout(sendMessage, 300);
   }
   function chunkText(text, maxLen = 900) {
     const sentences = text.match(/[^.!?]+[.!?]+|\S+/g) || [text];
@@ -3954,9 +3967,9 @@ Be precise. Be empowering. Address them as ${userName || "you"}.`;
     } catch {}
     setThinking(false);
   }
-  async function sendMessage() {
-    if (thinking || !input.trim()) return;
-    const text = input.trim();
+  async function sendMessage(overrideText) {
+    const text = (typeof overrideText === "string" ? overrideText : input).trim();
+    if (thinking || !text) return;
     setInput("");
     setMessages(m => [...m, {
       type: "user",
@@ -4048,6 +4061,7 @@ Be precise. Be empowering. Address them as ${userName || "you"}.`;
     }
     setThinking(false);
   }
+  useEffect(() => { sendMessageRef.current = sendMessage; });
   async function runScoreAnalysis() {
     const userMsgs = historyRef.current.filter(m => m.role === "user").map(m => m.content).join("\n\n");
     if (!userMsgs) return;
@@ -4073,6 +4087,7 @@ Be precise. Be empowering. Address them as ${userName || "you"}.`;
   }
   async function triggerDebrief() {
     stopSpeaking();
+    stopListening(false);
     const userMsgCount = historyRef.current.filter(m => m.role === "user").length;
     if (userMsgCount < 2) {
       setMessages(m => [...m, {
@@ -4114,6 +4129,8 @@ Be precise. Be empowering. Address them as ${userName || "you"}.`;
   }
   function resetToSetup() {
     historyRef.current = [];
+    voiceInputRef.current = "";
+    autoSendRef.current = false;
     setMessages([]);
     setInsights([]);
     setScores({});
@@ -6067,10 +6084,7 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
         ...s.sendBtn,
         background: isListening ? "#c0536a" : isSpeaking ? AMBER : TEAL
       },
-      onClick: isListening ? () => {
-        stopListening();
-        setTimeout(sendMessage, 300);
-      } : sendMessage,
+      onClick: isListening ? () => stopListening(true) : sendMessage,
       disabled: thinking
     }, isListening ? "⏹" : "↑")), /*#__PURE__*/React.createElement("div", {
       style: {
