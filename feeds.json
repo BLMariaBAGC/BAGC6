@@ -1,5 +1,5 @@
 {
-  "updated": "06 Jul 2026, 21:26 UTC",
+  "updated": "06 Jul 2026, 23:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,10 +148,19 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Europe’s startup boom still needs an exit plan",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/06/europes-startup-boom-still-needs-an-exit-plan/",
+      "date": "6 Jul 2026",
+      "excerpt": "Europe is producing world-class founders, frontier technologies and ambitious scale-ups. The task now is to develop their exit plans. Juanita Gonzalez-Uribe and Robyn Klingler-Vidra argue that this will not be done by shaming founders into ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Making sense of climate solutions to help finance the low-carbon transition",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/03/making-sense-of-climate-solutions-to-help-finance-the-low-carbon-transition/",
       "date": "3 Jul 2026",
-      "excerpt": "Understanding exactly what constitutes a “climate solution” is challenging because definitions differ across frameworks and jurisdictions. Algirdas Brochard, Shafaq Ashraf, Ella Davies, Ákos Hajagos-Tóth, Valentin Jahn and Seyed Alireza Mod",
+      "excerpt": "Understanding exactly what constitutes a “climate solution” is challenging because definitions differ across frameworks and jurisdictions. Algirdas Brochard,&nbsp;Shafaq Ashraf,&nbsp;Ella Davies,&nbsp;Ákos Hajagos-Tóth,&nbsp;Valentin Jahn&n",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Table-1.jpg"
     },
     {
@@ -188,15 +197,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/29/the-purpose-of-the-corporation/",
       "date": "29 Jun 2026",
       "excerpt": "What is a company for? Is it explained by shareholder primacy’s maximising of profits or stakeholder theory’s integration of ethics into corporate purpose? In a new book Sandy Pepper argues that neither perspective fully satisfies, but that",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How to live and work in extreme heat",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/26/how-to-live-and-work-in-extreme-heat/",
-      "date": "26 Jun 2026",
-      "excerpt": "With Europe in the grip of an unusually intense heatwave, what can be learned from regions more used to extreme heat? Drawing on their research in South Asia Sohini Kar and Mahvish Shami argue that heat is not experienced equally, with info",
       "image": ""
     },
     {
