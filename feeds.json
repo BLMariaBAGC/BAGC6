@@ -1,5 +1,5 @@
 {
-  "updated": "05 Jul 2026, 22:59 UTC",
+  "updated": "06 Jul 2026, 03:21 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Three things you can do to stop EU border checks at the airport costing you",
+      "link": "https://www.bbc.co.uk/news/articles/cg4w39gvdw1o?at_medium=RSS&at_campaign=rss",
+      "date": "5 Jul 2026",
+      "excerpt": "Queues are expected at airports this summer owing to EU's new digital border control system.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c218/live/42cb6c30-76d7-11f1-a627-714adb4eed6e.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Wegovy weight loss pill now available in UK - here's what you need to know",
+      "link": "https://www.bbc.co.uk/news/articles/czj8w4pjd4yo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Jul 2026",
+      "excerpt": "The once-a-day pill, from the makers of the Wegovy weight-loss jab, can now be bought privately in UK pharmacies.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95e1/live/42e75270-76f4-11f1-b976-0b9c15b0ccfc.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Backlash after China bubble tea firm ordered to pay Louis Vuitton $1.5m",
+      "link": "https://www.bbc.co.uk/news/articles/cwykk095yzzo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Jul 2026",
+      "excerpt": "A court in China ruled that Molly Tea had infringed on the luxury brand's four-petal flower design.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/178e/live/55854630-78d9-11f1-973f-bf9fc4805cda.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "EasyJet reaches 'agreement in principle' over potential takeover",
       "link": "https://www.bbc.co.uk/news/articles/cgjxx7ngz51o?at_medium=RSS&at_campaign=rss",
       "date": "5 Jul 2026",
@@ -216,33 +243,6 @@
       "date": "4 Jul 2026",
       "excerpt": "An announcement is expected imminently on Sky buying ITV's TV and streaming channels.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7d9/live/21b014a0-779b-11f1-a02d-cbd2f4813818.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "No-gift policy for Taylor Swift, but how much should you give at a wedding?",
-      "link": "https://www.bbc.co.uk/news/articles/c78yj9p0m91o?at_medium=RSS&at_campaign=rss",
-      "date": "3 Jul 2026",
-      "excerpt": "Wedding lists are being replaced by cash requests, but guests are divided over how much to give.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed09/live/eee79ae0-76da-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Clay, kilns and the cost of survival for tile makers",
-      "link": "https://www.bbc.co.uk/news/articles/c982e3k9zw9o?at_medium=RSS&at_campaign=rss",
-      "date": "5 Jul 2026",
-      "excerpt": "While some firms lean into their heritage, others are modernising in the face of economic pressures.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/68ba/live/b23d4a20-6fde-11f1-b763-7be8e457290d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Tackle workplace sickness to unlock hidden growth, former John Lewis boss says",
-      "link": "https://www.bbc.co.uk/news/articles/cq61j11r577o?at_medium=RSS&at_campaign=rss",
-      "date": "3 Jul 2026",
-      "excerpt": "More than 250 of the UK's biggest employers have signed up to his 'Get Britain Working' taskforce.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/420a/live/847a2120-76c4-11f1-bd3f-0f791277aaa0.jpg"
     }
   ]
 }
