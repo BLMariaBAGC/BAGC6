@@ -1,5 +1,5 @@
 {
-  "updated": "06 Jul 2026, 13:42 UTC",
+  "updated": "06 Jul 2026, 16:50 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "AI Is Changing How Customers Choose Your Business",
+      "link": "/2026/07/ai-is-changing-how-customers-choose-your-business",
+      "date": "6 Jul 2026",
+      "excerpt": "How three SMBs&#8212;a manufacturer, a boutique hotel, and a B2B software company&#8212;are adapting.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Want Workers to Reskill? Show Them Who They Can Become.",
+      "link": "/2026/07/want-workers-to-reskill-show-them-who-they-can-become",
+      "date": "6 Jul 2026",
+      "excerpt": "New research underscores the importance of designing training with identity and employment outcomes in mind.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Performance Management Needs New Metrics in the AI Era",
       "link": "/2026/07/performance-management-needs-new-metrics-in-the-ai-era",
       "date": "6 Jul 2026",
@@ -125,24 +143,6 @@
       "link": "/2026/07/the-case-for-performance-first-management",
       "date": "1 Jul 2026",
       "excerpt": "Employees who say that their managers are performance-first report higher overall satisfaction with their experience.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When Developing an AI Strategy, Beware the Urgency Trap",
-      "link": "/2026/07/when-developing-an-ai-strategy-beware-the-urgency-trap",
-      "date": "1 Jul 2026",
-      "excerpt": "What organizations risk when they prioritize immediate challenges and quick wins.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Aspiring Leaders, Don’t Just Network Up",
-      "link": "/2026/07/aspiring-leaders-dont-just-network-up",
-      "date": "1 Jul 2026",
-      "excerpt": "Influence isn&#8217;t built on proximity to power alone.",
       "image": ""
     },
     {
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Microsoft cuts 4,800 jobs and shrinks Xbox in 'significant restructure'",
+      "link": "https://www.bbc.co.uk/news/articles/c36yy27rnpeo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Jul 2026",
+      "excerpt": "The sweeping layoffs equate to 2.1% of Microsoft's workforce, with 1,600 immediate job losses at Xbox.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc35/live/26aac8a0-794f-11f1-bfee-d367081f1131.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "ITV hits such as I'm a Celebrity to stay free to watch after Sky takeover",
       "link": "https://www.bbc.co.uk/news/articles/cx2wwgeg041o?at_medium=RSS&at_campaign=rss",
       "date": "6 Jul 2026",
@@ -243,15 +252,6 @@
       "date": "6 Jul 2026",
       "excerpt": "The low-cost airline had previously rejected four takeover offers from US investment firm Castlelake.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e030/live/4c0dc8e0-7873-11f1-ab53-3dbca6ef5ee1.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What Sky buying ITV could mean for your favourite shows",
-      "link": "https://www.bbc.co.uk/news/articles/c04yx44xq19o?at_medium=RSS&at_campaign=rss",
-      "date": "6 Jul 2026",
-      "excerpt": "Sky is set to buy ITV's TV and streaming channels for up to £1.6bn, the companies announced on Monday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7d9/live/21b014a0-779b-11f1-a02d-cbd2f4813818.png"
     }
   ]
 }
