@@ -1,5 +1,5 @@
 {
-  "updated": "07 Jul 2026, 14:28 UTC",
+  "updated": "07 Jul 2026, 17:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Competing in a World of Transient Advantage",
+      "link": "/2026/07/competing-in-a-world-of-transient-advantage",
+      "date": "7 Jul 2026",
+      "excerpt": "An HBR Executive Masterclass with Rita McGrath, Columbia Business School professor and author of &#8220;The End of Competitive Advantage.&#8221;",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Every Organization Has Two Realities",
       "link": "/2026/07/every-organization-has-two-realities",
       "date": "7 Jul 2026",
@@ -137,24 +146,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Four Seasons Turns Recruiting into Competitive Advantage",
-      "link": "/2026/07/how-four-seasons-turns-recruiting-into-competitive-advantage",
-      "date": "3 Jul 2026",
-      "excerpt": "Four Seasons CEO Alejandro Reynal tells HBR editor at large Adi Ignatius why the luxury hotel brand hires for attitude over experience.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Pakistan’s Virtual Assets Act is a step forward – but is it enough?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/07/pakistans-virtual-assets-act-is-a-step-forward-but-is-it-enough/",
-      "date": "7 Jul 2026",
-      "excerpt": "To regulate the country’s growing economy of virtual assets, in 2026 Pakistan passed its Virtual Assets Act. But while the legislation addresses real risks, a framework designed predominantly around enforcement may constrain the market it s",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "Europe’s startup boom still needs an exit plan",
@@ -197,6 +188,15 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/06/30/how-different-drug-regulators-construct-global-authority-and-why-it-matters-for-firms/",
       "date": "29 Jun 2026",
       "excerpt": "Global drug regulation is converging technically but diverging politically. America’s loosening grip on the global pharmaceutical system has created a newly competitive opportunities for the EU and China. Damien Ng argues that for countries",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The purpose of the corporation",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/29/the-purpose-of-the-corporation/",
+      "date": "29 Jun 2026",
+      "excerpt": "What is a company for? Is it explained by shareholder primacy’s maximising of profits or stakeholder theory’s integration of ethics into corporate purpose? In a new book Sandy Pepper argues that neither perspective fully satisfies, but that",
       "image": ""
     },
     {
