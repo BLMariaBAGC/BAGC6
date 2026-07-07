@@ -1,5 +1,5 @@
 {
-  "updated": "07 Jul 2026, 07:35 UTC",
+  "updated": "07 Jul 2026, 10:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "One million more UK homeowners set  to face higher mortgages",
+      "link": "https://www.bbc.co.uk/news/articles/cze9kpxx6d8o?at_medium=RSS&at_campaign=rss",
+      "date": "7 Jul 2026",
+      "excerpt": "Homeowners face paying £45 a month more on average when they move onto a new deal over the next two years.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20be/live/bb2fb490-79ea-11f1-9510-1546718f668b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Banks accused of pushing customers away from basic accounts",
       "link": "https://www.bbc.co.uk/news/articles/cgl33dyk7y9o?at_medium=RSS&at_campaign=rss",
       "date": "6 Jul 2026",
@@ -229,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Phone contract comparisons 'amounted to mis-selling' student loans, MPs say",
-      "link": "https://www.bbc.co.uk/news/articles/c4gy9lpylz9o?at_medium=RSS&at_campaign=rss",
-      "date": "6 Jul 2026",
-      "excerpt": "A new report says students were not well-enough informed that their loan terms could change retrospectively.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caee/live/a28950a0-7962-11f1-9ade-614b823fa1e3.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "'I wear it on my middle finger': The rise of the defiant divorce ring",
       "link": "https://www.bbc.co.uk/news/articles/c3wy56v4ge6o?at_medium=RSS&at_campaign=rss",
       "date": "6 Jul 2026",
       "excerpt": "Around the world women are marking their split with new - or repurposed engagement - rings.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9890/live/d3c50240-7624-11f1-ac11-19a4319081d7.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bda/live/5b5f1a60-79ef-11f1-a627-714adb4eed6e.jpg"
     },
     {
       "source": "BBC Business",
