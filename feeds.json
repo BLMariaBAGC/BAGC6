@@ -1,5 +1,5 @@
 {
-  "updated": "07 Jul 2026, 10:53 UTC",
+  "updated": "07 Jul 2026, 14:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Every Organization Has Two Realities",
+      "link": "/2026/07/every-organization-has-two-realities",
+      "date": "7 Jul 2026",
+      "excerpt": "In the July 6, 2026, edition of The Insider, managing editor Gretchen Gavett highlights the growing gap between the company leaders think they run and the one employees actually experience.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Are We Entering a New Age of Creativity with the Help of AI?",
+      "link": "/podcast/2026/07/are-we-entering-a-new-age-of-creativity-with-the-help-of-ai",
+      "date": "7 Jul 2026",
+      "excerpt": "Inside a case study about why The Atlantic chose to make a deal with OpenAI, and what it may mean for the future of journalism and new ideas.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Make the Business Case for Your Sustainability Initiative",
+      "link": "/2026/07/make-the-business-case-for-your-sustainability-initiative",
+      "date": "7 Jul 2026",
+      "excerpt": "Chief sustainability officers need to talk about cash flow, risk, and return.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How Leaders Can Use AI to Solve Real Business Problems",
+      "link": "/podcast/2026/07/how-leaders-can-use-ai-to-solve-real-business-problems",
+      "date": "7 Jul 2026",
+      "excerpt": "A conversation with journalist Josh Tyrangiel about treating AI as a strategic advantage, not just a tool.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "AI Is Changing How Customers Choose Your Business",
       "link": "/2026/07/ai-is-changing-how-customers-choose-your-business",
       "date": "6 Jul 2026",
@@ -110,39 +146,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Business of Five-Star Service",
-      "link": "/2026/07/the-business-of-five-star-service",
-      "date": "2 Jul 2026",
-      "excerpt": "An HBR Executive Live conversation with Four Seasons CEO Alejandro Reynal.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Leadership Summit 2026: Mattel’s CEO on Driving Consumer Engagement and Cultural Impact",
-      "link": "/podcast/2026/07/leadership-summit-2026-mattels-ceo-on-driving-consumer-engagement-and-cultural-impact",
-      "date": "2 Jul 2026",
-      "excerpt": "A conversation about what it takes to revamp a legacy brand.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: Navigating the Business Risks of Changing Pro-America Sentiment",
-      "link": "/2026/07/research-navigating-the-business-risks-of-changing-pro-america-sentiment",
-      "date": "2 Jul 2026",
-      "excerpt": "A study of 5,355 U.S. firms over 20 years found both opportunities and risks for companies that embrace these narratives&#8212;and those that try to stay on the sidelines.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Case for Performance-First Management",
-      "link": "/2026/07/the-case-for-performance-first-management",
-      "date": "1 Jul 2026",
-      "excerpt": "Employees who say that their managers are performance-first report higher overall satisfaction with their experience.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Pakistan’s Virtual Assets Act is a step forward – but is it enough?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/07/pakistans-virtual-assets-act-is-a-step-forward-but-is-it-enough/",
+      "date": "7 Jul 2026",
+      "excerpt": "To regulate the country’s growing economy of virtual assets, in 2026 Pakistan passed its Virtual Assets Act. But while the legislation addresses real risks, a framework designed predominantly around enforcement may constrain the market it s",
       "image": ""
     },
     {
@@ -191,22 +200,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The purpose of the corporation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/29/the-purpose-of-the-corporation/",
-      "date": "29 Jun 2026",
-      "excerpt": "What is a company for? Is it explained by shareholder primacy’s maximising of profits or stakeholder theory’s integration of ethics into corporate purpose? In a new book Sandy Pepper argues that neither perspective fully satisfies, but that",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "One million more UK homeowners set  to face higher mortgages",
       "link": "https://www.bbc.co.uk/news/articles/cze9kpxx6d8o?at_medium=RSS&at_campaign=rss",
       "date": "7 Jul 2026",
       "excerpt": "Homeowners face paying £45 a month more on average when they move onto a new deal over the next two years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20be/live/bb2fb490-79ea-11f1-9510-1546718f668b.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73f9/live/588d34b0-79fa-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Online gamblers betting more than £1,000 to face new checks",
+      "link": "https://www.bbc.co.uk/news/articles/cqj1xvy44xno?at_medium=RSS&at_campaign=rss",
+      "date": "7 Jul 2026",
+      "excerpt": "Punters who bet more than £1,000 online in a 24-hour window will have to undergo an assessment, the regulator says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce95/live/96ae89e0-79f7-11f1-bb84-55f328ecb8d7.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "6 Jul 2026",
       "excerpt": "Rachael Bews says she told on the way her child would not be allowed on site. Amazon has apologised for not communicating its policy clearly.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbef/live/e08a6570-79d4-11f1-a400-b302bc872d47.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Samsung profits jump 1,800% as AI chip sales soar",
-      "link": "https://www.bbc.co.uk/news/articles/c1kyy8yrpxdo?at_medium=RSS&at_campaign=rss",
-      "date": "7 Jul 2026",
-      "excerpt": "The firm's shares fell sharply on Tuesday as some investors had expected an even stronger performance.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63fa/live/777f2260-78cf-11f1-99f6-757fc101c54a.jpg"
     },
     {
       "source": "BBC Business",
