@@ -1,5 +1,5 @@
 {
-  "updated": "08 Jul 2026, 10:14 UTC",
+  "updated": "08 Jul 2026, 13:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Research: AI Is Changing What Employers Want from New Hires",
+      "link": "/2026/07/research-ai-is-changing-what-employers-want-from-new-hires",
+      "date": "8 Jul 2026",
+      "excerpt": "Three capabilities increasingly distinguish high-potential talent.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Are Your Job Postings Driving Away Creative Talent?",
+      "link": "/2026/07/are-your-job-postings-driving-away-creative-talent",
+      "date": "8 Jul 2026",
+      "excerpt": "New research shows that the way you talk about creativity in job postings can dramatically improve both the quantity and quality of applicants.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Competing In a World of Transient Advantage",
       "link": "/2026/07/competing-in-a-world-of-transient-advantage",
       "date": "7 Jul 2026",
@@ -116,24 +134,6 @@
       "link": "/podcast/2026/07/how-leaders-can-use-ai-to-solve-real-business-problems",
       "date": "7 Jul 2026",
       "excerpt": "A conversation with journalist Josh Tyrangiel about treating AI as a strategic advantage, not just a tool.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Is Changing How Customers Choose Your Business",
-      "link": "/2026/07/ai-is-changing-how-customers-choose-your-business",
-      "date": "6 Jul 2026",
-      "excerpt": "How three SMBs&#8212;a manufacturer, a boutique hotel, and a B2B software company&#8212;are adapting.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Want Workers to Reskill? Show Them Who They Can Become.",
-      "link": "/2026/07/want-workers-to-reskill-show-them-who-they-can-become",
-      "date": "6 Jul 2026",
-      "excerpt": "New research underscores the importance of designing training with identity and employment outcomes in mind.",
       "image": ""
     },
     {
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "From mouthwash to hair dye: How weight-loss jabs are changing shopping habits",
+      "link": "https://www.bbc.co.uk/news/articles/cy49w2knlrdo?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jul 2026",
+      "excerpt": "The BBC looks at how spending habits have shifted as users report feeling less hungry.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6272/live/5288e910-7a2c-11f1-9510-1546718f668b.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Hundreds of jobs at risk as John Lewis plans to cut some services",
       "link": "https://www.bbc.co.uk/news/articles/c30y4vqq4p6o?at_medium=RSS&at_campaign=rss",
       "date": "8 Jul 2026",
@@ -211,11 +220,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "From mouthwash to hair dye: How weight-loss jabs are changing shopping habits",
-      "link": "https://www.bbc.co.uk/news/articles/cy49w2knlrdo?at_medium=RSS&at_campaign=rss",
+      "title": "Outcry as Meta lets users make AI images from public Instagram profile pics",
+      "link": "https://www.bbc.co.uk/news/articles/cp9lee19y1yo?at_medium=RSS&at_campaign=rss",
       "date": "8 Jul 2026",
-      "excerpt": "The BBC looks at how spending habits have shifted as users report feeling less hungry.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6272/live/5288e910-7a2c-11f1-9510-1546718f668b.png"
+      "excerpt": "The tech giant said people can opt out - but privacy campaigners called it a \"recipe for disaster\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/690f/live/0b8f10a0-7ac4-11f1-b541-536d253827b8.png"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "7 Jul 2026",
       "excerpt": "23andMe compiles genetic profiles of people through DNA testing kits, but it was heavily criticised after a 2023 hack.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1dd9/live/d28bdfb0-7a3a-11f1-ab76-d75965dea4d1.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Airbnb data identifies illegal social home sublets",
-      "link": "https://www.bbc.co.uk/news/articles/c6211ng49zwo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Jul 2026",
-      "excerpt": "Nearly 6,000 social homes are thought to be illegally listed on short-term rental platforms.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cbdf/live/5e13f6d0-7a13-11f1-9a04-4dc3c0eb4aeb.jpg"
     }
   ]
 }
