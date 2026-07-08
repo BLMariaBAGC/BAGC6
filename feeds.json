@@ -1,5 +1,5 @@
 {
-  "updated": "08 Jul 2026, 13:59 UTC",
+  "updated": "08 Jul 2026, 16:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How to Ensure Your Company Acts on Your New Strategy",
+      "link": "/2026/07/how-to-ensure-your-company-acts-on-your-new-strategy",
+      "date": "8 Jul 2026",
+      "excerpt": "McKinsey research reveals three actions leaders can take to close the gap between strategy and execution.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Research: AI Is Changing What Employers Want from New Hires",
       "link": "/2026/07/research-ai-is-changing-what-employers-want-from-new-hires",
       "date": "8 Jul 2026",
@@ -116,24 +125,6 @@
       "link": "/podcast/2026/07/are-we-entering-a-new-age-of-creativity-with-the-help-of-ai",
       "date": "7 Jul 2026",
       "excerpt": "Inside a case study about why The Atlantic chose to make a deal with OpenAI, and what it may mean for the future of journalism and new ideas.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Make the Business Case for Your Sustainability Initiative",
-      "link": "/2026/07/make-the-business-case-for-your-sustainability-initiative",
-      "date": "7 Jul 2026",
-      "excerpt": "Chief sustainability officers need to talk about cash flow, risk, and return.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Leaders Can Use AI to Solve Real Business Problems",
-      "link": "/podcast/2026/07/how-leaders-can-use-ai-to-solve-real-business-problems",
-      "date": "7 Jul 2026",
-      "excerpt": "A conversation with journalist Josh Tyrangiel about treating AI as a strategic advantage, not just a tool.",
       "image": ""
     },
     {
@@ -211,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Online marketplaces still selling dozens of unsafe baby products, Which? finds",
+      "link": "https://www.bbc.co.uk/news/articles/c1dy11vvwk1o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jul 2026",
+      "excerpt": "Pillows, sleeping bags and feeders subject to safety notices were found on sites including Amazon and TikTok.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fecf/live/40016180-7ace-11f1-a130-2b898c796aa9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Hundreds of jobs at risk as John Lewis plans to cut some services",
       "link": "https://www.bbc.co.uk/news/articles/c30y4vqq4p6o?at_medium=RSS&at_campaign=rss",
       "date": "8 Jul 2026",
@@ -224,7 +224,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cp9lee19y1yo?at_medium=RSS&at_campaign=rss",
       "date": "8 Jul 2026",
       "excerpt": "The tech giant said people can opt out - but privacy campaigners called it a \"recipe for disaster\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/690f/live/0b8f10a0-7ac4-11f1-b541-536d253827b8.png"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2fa5/live/3d76fa30-7adb-11f1-bee8-53ce494e1abc.png"
     },
     {
       "source": "BBC Business",
@@ -234,15 +234,6 @@
       "date": "8 Jul 2026",
       "excerpt": "Servers at data centres in Sydney and Melbourne were to blame but the exact cause remains unknown.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f43d/live/8e1bb6a0-7a96-11f1-932b-1f29e7985956.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Victims of 23andMe data breach to get $47m payout, judge rules",
-      "link": "https://www.bbc.co.uk/news/articles/cn0vnx2192vo?at_medium=RSS&at_campaign=rss",
-      "date": "7 Jul 2026",
-      "excerpt": "23andMe compiles genetic profiles of people through DNA testing kits, but it was heavily criticised after a 2023 hack.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1dd9/live/d28bdfb0-7a3a-11f1-ab76-d75965dea4d1.jpg"
     }
   ]
 }
