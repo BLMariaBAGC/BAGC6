@@ -1,5 +1,5 @@
 {
-  "updated": "07 Jul 2026, 22:59 UTC",
+  "updated": "08 Jul 2026, 02:31 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,42 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Hundreds of jobs at risk as John Lewis plans to cut some services",
+      "link": "https://www.bbc.co.uk/news/articles/c30y4vqq4p6o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jul 2026",
+      "excerpt": "No final decision has been made but the job cuts will happen in the autumn if the redundancy plans are approved.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b4e/live/7543c880-7a68-11f1-b3a0-9d60633dee75.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "From mouthwash to hair dye: How weight-loss jabs are changing shopping habits",
+      "link": "https://www.bbc.co.uk/news/articles/cy49w2knlrdo?at_medium=RSS&at_campaign=rss",
+      "date": "7 Jul 2026",
+      "excerpt": "The BBC looks at how spending habits have shifted as users report feeling less hungry.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6272/live/5288e910-7a2c-11f1-9510-1546718f668b.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Victims of 23andMe data breach to get $47m payout, judge rules",
+      "link": "https://www.bbc.co.uk/news/articles/cn0vnx2192vo?at_medium=RSS&at_campaign=rss",
+      "date": "7 Jul 2026",
+      "excerpt": "23andMe compiles genetic profiles of people through DNA testing kits, but it was heavily criticised after a 2023 hack.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1dd9/live/d28bdfb0-7a3a-11f1-ab76-d75965dea4d1.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Package holidays to Dubai and Egypt cheaper as European prices creep up",
+      "link": "https://www.bbc.co.uk/news/articles/c17y81vnje5o?at_medium=RSS&at_campaign=rss",
+      "date": "7 Jul 2026",
+      "excerpt": "Family deals to many non-European destinations are cheaper this summer than last, as travel nerves have slowed bookings.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b635/live/a03a6a70-7a19-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "One million more UK homeowners set  to face higher mortgages",
       "link": "https://www.bbc.co.uk/news/articles/cze9kpxx6d8o?at_medium=RSS&at_campaign=rss",
       "date": "7 Jul 2026",
@@ -207,42 +243,6 @@
       "date": "7 Jul 2026",
       "excerpt": "Punters who bet more than £1,000 online in a 24-hour window will have to undergo an assessment, the regulator says.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce95/live/96ae89e0-79f7-11f1-bb84-55f328ecb8d7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Banks accused of pushing customers away from basic accounts",
-      "link": "https://www.bbc.co.uk/news/articles/cgl33dyk7y9o?at_medium=RSS&at_campaign=rss",
-      "date": "6 Jul 2026",
-      "excerpt": "Some of the UK's biggest banks have been failing their most vulnerable customers, according to the financial regulator.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/89f4/live/6a2491e0-7942-11f1-bfee-d367081f1131.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Amazon bars breastfeeding boss from business course",
-      "link": "https://www.bbc.co.uk/news/articles/cp9llgg5k8ro?at_medium=RSS&at_campaign=rss",
-      "date": "6 Jul 2026",
-      "excerpt": "Rachael Bews says she told on the way her child would not be allowed on site. Amazon has apologised for not communicating its policy clearly.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbef/live/e08a6570-79d4-11f1-a400-b302bc872d47.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I wear it on my middle finger': The rise of the defiant divorce ring",
-      "link": "https://www.bbc.co.uk/news/articles/c3wy56v4ge6o?at_medium=RSS&at_campaign=rss",
-      "date": "6 Jul 2026",
-      "excerpt": "Around the world women are marking their split with new - or repurposed engagement - rings.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bda/live/5b5f1a60-79ef-11f1-a627-714adb4eed6e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Robots available for rent: But what can they do?",
-      "link": "https://www.bbc.co.uk/news/articles/c4gymkg9lr2o?at_medium=RSS&at_campaign=rss",
-      "date": "6 Jul 2026",
-      "excerpt": "Robotics tech is changing fast, so for many it makes sense to rent a robot.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d48c/live/eaf47f10-6ed4-11f1-b1db-af71d47507d6.jpg"
     }
   ]
 }
