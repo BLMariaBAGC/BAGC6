@@ -1,5 +1,5 @@
 {
-  "updated": "08 Jul 2026, 02:31 UTC",
+  "updated": "08 Jul 2026, 06:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Pakistan’s Virtual Assets Act is a step forward – but is it enough?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/07/pakistans-virtual-assets-act-is-a-step-forward-but-is-it-enough/",
+      "date": "7 Jul 2026",
+      "excerpt": "To regulate the country’s growing economy of virtual assets, in 2026 Pakistan passed its Virtual Assets Act. But while the legislation addresses real risks, a framework designed predominantly around enforcement may constrain the market it s",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Europe’s startup boom still needs an exit plan",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/06/europes-startup-boom-still-needs-an-exit-plan/",
       "date": "6 Jul 2026",
@@ -182,13 +191,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The purpose of the corporation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/29/the-purpose-of-the-corporation/",
-      "date": "29 Jun 2026",
-      "excerpt": "What is a company for? Is it explained by shareholder primacy’s maximising of profits or stakeholder theory’s integration of ethics into corporate purpose? In a new book Sandy Pepper argues that neither perspective fully satisfies, but that",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Virgin Media fined £28m for preventing customers from cancelling contracts",
+      "link": "https://www.bbc.co.uk/news/articles/c982vm2jzl1o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jul 2026",
+      "excerpt": "Millions of phone calls from customers were \"likely mishandled\" over nearly a three-year period, the regulator says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d77b/live/5680ede0-7a92-11f1-932b-1f29e7985956.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,29 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Package holidays to Dubai and Egypt cheaper as European prices creep up",
-      "link": "https://www.bbc.co.uk/news/articles/c17y81vnje5o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Jul 2026",
-      "excerpt": "Family deals to many non-European destinations are cheaper this summer than last, as travel nerves have slowed bookings.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b635/live/a03a6a70-7a19-11f1-b976-0b9c15b0ccfc.jpg"
+      "title": "Airbnb data identifies illegal social home sublets",
+      "link": "https://www.bbc.co.uk/news/articles/c6211ng49zwo?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jul 2026",
+      "excerpt": "Nearly 6,000 social homes are thought to be illegally listed on short-term rental platforms.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cbdf/live/5e13f6d0-7a13-11f1-9a04-4dc3c0eb4aeb.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "One million more UK homeowners set  to face higher mortgages",
-      "link": "https://www.bbc.co.uk/news/articles/cze9kpxx6d8o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Jul 2026",
-      "excerpt": "Homeowners face paying £45 a month more on average when they move onto a new deal over the next two years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73f9/live/588d34b0-79fa-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Online gamblers betting more than £1,000 to face new checks",
-      "link": "https://www.bbc.co.uk/news/articles/cqj1xvy44xno?at_medium=RSS&at_campaign=rss",
-      "date": "7 Jul 2026",
-      "excerpt": "Punters who bet more than £1,000 online in a 24-hour window will have to undergo an assessment, the regulator says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce95/live/96ae89e0-79f7-11f1-bb84-55f328ecb8d7.jpg"
+      "title": "Australia dock workers call for 28-hour week in AI talks",
+      "link": "https://www.bbc.co.uk/news/articles/cd95wendvdeo?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jul 2026",
+      "excerpt": "A union says workers are \"in the crosshairs\" of automation as AI is being tested across ports.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03ee/live/e53155d0-7a64-11f1-8afe-8b17e9163080.jpg"
     }
   ]
 }
