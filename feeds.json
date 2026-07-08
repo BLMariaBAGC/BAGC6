@@ -1,5 +1,5 @@
 {
-  "updated": "08 Jul 2026, 06:26 UTC",
+  "updated": "08 Jul 2026, 09:03 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -197,7 +197,7 @@
       "link": "https://www.bbc.co.uk/news/articles/c982vm2jzl1o?at_medium=RSS&at_campaign=rss",
       "date": "8 Jul 2026",
       "excerpt": "Millions of phone calls from customers were \"likely mishandled\" over nearly a three-year period, the regulator says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d77b/live/5680ede0-7a92-11f1-932b-1f29e7985956.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6163/live/a8d3fc50-7aaa-11f1-aee6-0b2f8f1ef236.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,6 +220,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Trains and emergency calls affected after major outage at Australia's largest telecoms company",
+      "link": "https://www.bbc.co.uk/news/articles/cgevw0d95pdo?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jul 2026",
+      "excerpt": "Servers at data centres in Sydney and Melbourne were to blame but the exact cause remains unknown.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f43d/live/8e1bb6a0-7a96-11f1-932b-1f29e7985956.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Victims of 23andMe data breach to get $47m payout, judge rules",
       "link": "https://www.bbc.co.uk/news/articles/cn0vnx2192vo?at_medium=RSS&at_campaign=rss",
       "date": "7 Jul 2026",
@@ -234,15 +243,6 @@
       "date": "8 Jul 2026",
       "excerpt": "Nearly 6,000 social homes are thought to be illegally listed on short-term rental platforms.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cbdf/live/5e13f6d0-7a13-11f1-9a04-4dc3c0eb4aeb.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Australia dock workers call for 28-hour week in AI talks",
-      "link": "https://www.bbc.co.uk/news/articles/cd95wendvdeo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Jul 2026",
-      "excerpt": "A union says workers are \"in the crosshairs\" of automation as AI is being tested across ports.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03ee/live/e53155d0-7a64-11f1-8afe-8b17e9163080.jpg"
     }
   ]
 }
