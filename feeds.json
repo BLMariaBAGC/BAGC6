@@ -1,5 +1,5 @@
 {
-  "updated": "09 Jul 2026, 10:52 UTC",
+  "updated": "09 Jul 2026, 14:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The Office Amenity That Actually Improves Teamwork",
+      "link": "/2026/07/the-office-amenity-that-actually-improves-teamwork",
+      "date": "9 Jul 2026",
+      "excerpt": "Research on 6,000 workers shows how one investment helps people to do their best thinking.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Leadership Summit 2026: Honest Company CEO Carla Vernón on Leading with Focus in Turbulent Times",
+      "link": "/podcast/2026/07/leadership-summit-2026-honest-company-ceo-carla-vernon-on-leading-with-focus-in-turbulent-times-2",
+      "date": "9 Jul 2026",
+      "excerpt": "A conversation about the decision-making and communication required to take a mission-driven company to new heights.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When Companies in a Supply Chain Work on Different Timelines",
+      "link": "/2026/07/when-companies-in-a-supply-chain-work-on-different-timelines",
+      "date": "9 Jul 2026",
+      "excerpt": "Industries are increasingly split on how fast they work. Companies that redesign how they collaborate across time horizons will build a lasting advantage.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How to Ensure Your Company Acts on Your New Strategy",
       "link": "/2026/07/how-to-ensure-your-company-acts-on-your-new-strategy",
       "date": "8 Jul 2026",
@@ -98,33 +125,6 @@
       "link": "/2026/07/are-your-job-postings-driving-away-creative-talent",
       "date": "8 Jul 2026",
       "excerpt": "New research shows that the way you talk about creativity in job postings can dramatically improve both the quantity and quality of applicants.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Competing In a World of Transient Advantage",
-      "link": "/2026/07/competing-in-a-world-of-transient-advantage",
-      "date": "7 Jul 2026",
-      "excerpt": "An HBR Executive Masterclass with Rita McGrath, Columbia Business School professor and author of &#8220;The End of Competitive Advantage.&#8221;",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Every Organization Has Two Realities",
-      "link": "/2026/07/every-organization-has-two-realities",
-      "date": "7 Jul 2026",
-      "excerpt": "In the July 6, 2026, edition of The Insider, managing editor Gretchen Gavett highlights the growing gap between the company leaders think they run and the one employees actually experience.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Are We Entering a New Age of Creativity with the Help of AI?",
-      "link": "/podcast/2026/07/are-we-entering-a-new-age-of-creativity-with-the-help-of-ai",
-      "date": "7 Jul 2026",
-      "excerpt": "Inside a case study about why The Atlantic chose to make a deal with OpenAI, and what it may mean for the future of journalism and new ideas.",
       "image": ""
     },
     {
@@ -211,20 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Jackdaw boss warns of winter fuel shortages if gas field not approved",
-      "link": "https://www.bbc.co.uk/news/articles/cdx78n4nkvyo?at_medium=RSS&at_campaign=rss",
+      "title": "Porn site company fined £630,000 over failed age checks",
+      "link": "https://www.bbc.co.uk/news/articles/c07ylddnvmyo?at_medium=RSS&at_campaign=rss",
       "date": "9 Jul 2026",
-      "excerpt": "Adura says the UK government must approve North Sea production urgently to avoid domestic supply shortages.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1127/live/fbe04900-7b0c-11f1-bd97-bb877df31663.jpg"
+      "excerpt": "Ofcom has fined a slew of sites it says are failing to prevent children accessing their adult content.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a15f/live/ee3faaa0-7b86-11f1-881d-8fcf7e2296a7.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Life of Sizewell B extended by another 20 years",
-      "link": "https://www.bbc.co.uk/news/articles/c1dy1rdv17lo?at_medium=RSS&at_campaign=rss",
+      "title": "Jackdaw boss warns of winter fuel shortage risk if gas field not approved",
+      "link": "https://www.bbc.co.uk/news/articles/cdx78n4nkvyo?at_medium=RSS&at_campaign=rss",
       "date": "9 Jul 2026",
-      "excerpt": "The power plant was due to reach the end of its life in 2035 but will now continue until 2055.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/662f/live/b1f72150-7a0e-11f1-b151-87c0badc88c3.jpg"
+      "excerpt": "Adura says the UK government must approve North Sea production urgently to avoid domestic supply shortages.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1127/live/fbe04900-7b0c-11f1-bd97-bb877df31663.jpg"
     },
     {
       "source": "BBC Business",
