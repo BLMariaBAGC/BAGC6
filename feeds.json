@@ -1,5 +1,5 @@
 {
-  "updated": "09 Jul 2026, 14:54 UTC",
+  "updated": "09 Jul 2026, 15:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -71,6 +71,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260625060159.htm",
       "date": "25 Jun 2026",
       "excerpt": "Healthy older adults experienced measurable improvements in memory, physical performance, and stress after taking placebo pills for just three weeks. The most surprising finding was that the placebo often worked even when participants knew ",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "You Outsourced the AI—but You Still Own the Risk",
+      "link": "/2026/07/you-outsourced-the-ai-but-you-still-own-the-risk",
+      "date": "9 Jul 2026",
+      "excerpt": "Courts and regulators will still hold you responsible if AI tools discriminate, mishandle data, or harm customers.",
       "image": ""
     },
     {
