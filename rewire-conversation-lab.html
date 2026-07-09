@@ -37,6 +37,10 @@ if (typeof document !== "undefined") {
 // before building a standalone deploy outside Claude.ai. Leave empty to keep calling
 // the Anthropic API directly, which only works inside the Claude.ai artifact sandbox.
 const PROXY_BASE_URL = "https://rewire-proxy.vercel.app";
+// Corporate/B2B links can append ?audience=corporate to keep the Beyond Work category
+// out of the picker entirely, e.g. rewire.mariafuentes.co.uk/conversation-lab?audience=corporate
+// Default (no param) shows everything — existing Rewire member links are unaffected.
+const AUDIENCE_MODE = new URLSearchParams(window.location.search).get("audience");
 const BL_LOGO = "data:image/png;base64,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";
 
 const TEAL = "#3D858C";
@@ -55,6 +59,7 @@ const CAT_LABELS = {
   influence: "Influence",
   performance: "Performance",
   career: "Career",
+  personal: "Beyond Work",
 };
 
 const SCENARIOS = [
@@ -132,6 +137,16 @@ const SCENARIOS = [
   { id:"career-mentor", category:"career", title:"Asking for a Mentor", desc:"Make a direct request for mentorship from someone senior you respect.", skills:["Assertiveness","Influence"], role:"Senior Person you are asking to mentor you", scene:"There is someone senior whose career and judgment you respect and who you believe could significantly accelerate your development. You want to ask them to be a mentor. You are nervous about asking for their time and not sure how to frame the request so it is clear about what you need and why you are asking them specifically.", needsFocus:"significance,growth,connection" },
   { id:"career-redundancy", category:"career", title:"Responding to Redundancy", desc:"Handle a redundancy conversation with professionalism and clarity, even under shock.", skills:["Emotional Reg","Assertiveness"], role:"HR Representative or Manager delivering redundancy", scene:"You have been called into a meeting and informed that your role is being made redundant. The shock is real. The conversation that follows will establish terms, timelines and next steps. Your ability to stay present, ask the right questions and protect your interests is a skill. This is a rehearsal for that conversation, in a space where it is safe to feel the weight of it.", needsFocus:"certainty,significance,growth" },
   { id:"career-career-change", category:"career", title:"Explaining a Career Change", desc:"Articulate a non-linear career move in a way that makes sense to people who might question it.", skills:["Clarity","Influence"], role:"Interviewer or Senior Colleague", scene:"You are making or considering a career change that does not follow the obvious path: moving sector, stepping sideways, returning after a break or pivoting away from a specialism you built over years. The person in front of you is professional and not unkind, but they do not immediately see the logic. You need to make it coherent, confident and compelling without over-explaining.", needsFocus:"significance,certainty,growth,contribution" },
+
+  // ── BEYOND WORK ──
+  { id:"personal-boundary-parent", category:"personal", title:"Setting a Boundary with a Parent", desc:"Tell a parent you love that a pattern needs to change, without triggering guilt or reopening old wounds.", skills:["Assertiveness","Emotional Reg"], role:"Parent", scene:"Your mother calls most evenings, and lately the calls have become longer, heavier and harder to end. She leans on you for decisions she is capable of making herself, and hangs up hurt if you try to shorten the call. You love her. You are also exhausted. Tonight you have decided to say something about the pattern before resentment starts to show up as distance instead of honesty.", needsFocus:"certainty,significance", counterpartNeedsFocus:"certainty,connection" },
+  { id:"personal-partner-mental-load", category:"personal", title:"The Conversation Your Partner Has Been Waiting For", desc:"Address a recurring friction point in your relationship before it hardens into distance.", skills:["Listening","Emotional Reg"], role:"Partner", scene:"The same argument has resurfaced for the third time this month, always about the same thing: who carries the mental load of running the house. Neither of you is wrong exactly, but neither of you feels heard either. Your partner has gone quiet in the way that means they have given up trying to explain it again. Tonight you are the one opening it, and going first with listening rather than defending.", needsFocus:"connection,significance", counterpartNeedsFocus:"significance,connection" },
+  { id:"personal-sibling-tension", category:"personal", title:"The Family Gathering Nobody Wants to Have", desc:"Address old tension with a sibling before it surfaces, again, in front of the whole family.", skills:["Conflict Res","Emotional Reg"], role:"Sibling", scene:"A family event is two weeks away and everyone will be there, including your sister, with whom things have been strained since a comment she made at Christmas that neither of you has addressed. You do not want another year of politely avoiding each other over the same table. You have asked her for ten minutes before the event to clear the air, on your terms, calmly.", needsFocus:"certainty,significance", counterpartNeedsFocus:"significance,certainty" },
+  { id:"personal-friend-let-down", category:"personal", title:"When a Friend Lets You Down", desc:"Tell a friend they hurt you, without over-explaining it away or letting it quietly end the friendship instead.", skills:["Assertiveness","Clarity"], role:"Friend", scene:"A close friend cancelled on you for the second time at short notice for something that mattered to you, and did not seem to register how much it cost you. You are tempted to simply say it is fine and let the friendship quietly cool instead. You have decided this one is worth naming honestly, because you would rather risk an uncomfortable conversation than lose someone slowly through silence.", needsFocus:"significance,connection", counterpartNeedsFocus:"certainty,significance" },
+  { id:"personal-adult-child-money", category:"personal", title:"Saying No to Your Adult Child", desc:"Hold a boundary with your grown child around money or support, with love and without collapsing into guilt.", skills:["Assertiveness","Clarity"], role:"Adult Child", scene:"Your adult child has asked you for financial help again, the fourth time this year, and each time it has come with a plan that did not quite hold. You want to support them. You are also aware that saying yes every time is not helping them build the capability to not need to ask. This conversation is about holding a real no, with warmth, without turning it into a lecture.", needsFocus:"certainty,significance", counterpartNeedsFocus:"certainty,significance" },
+  { id:"personal-friend-drifted", category:"personal", title:"Reconnecting After Drifting Apart", desc:"Reach out to a friend you've lost touch with, without pretending the distance wasn't real.", skills:["Empathy","Clarity"], role:"Friend you've drifted from", scene:"You and a friend who used to be close have drifted over the past year or two: no falling out, just life, distance and neither of you reaching out first. You miss them. You are also aware that too much time has passed to pretend nothing changed. You have reached out to meet up, and now you are sitting across from them, both a little unsure how honest to be about the gap.", needsFocus:"connection,certainty", counterpartNeedsFocus:"significance,connection" },
+  { id:"personal-friend-competes", category:"personal", title:"When a Friend Competes Instead of Celebrates", desc:"Name a pattern of subtle one-upping or deflection when you share good news, without accusing them of jealousy outright.", skills:["Assertiveness","Emotional Reg"], role:"Friend", scene:"Every time you share something good, a promotion, good news, a win, this friend finds a way to top it or change the subject. It has happened enough times that it cannot be a coincidence anymore, and it is starting to make you edit what you share with them. You value the friendship. You want to name the pattern without turning it into an accusation.", needsFocus:"significance,connection", counterpartNeedsFocus:"significance,certainty" },
+  { id:"personal-friend-one-sided", category:"personal", title:"The One-Sided Friendship", desc:"Address a friendship that has quietly become mostly about their needs, without ending it out of resentment instead.", skills:["Assertiveness","Clarity"], role:"Friend", scene:"This friend reaches out reliably when they need something: advice, a favour, a shoulder. When things are going well for them, weeks pass with silence. You have noticed the pattern and you are tired of being the one who always shows up. You want to say something honest before you quietly start pulling away instead.", needsFocus:"significance,certainty", counterpartNeedsFocus:"certainty,connection" },
 ];
 
 const HUMAN_NEEDS = {
@@ -495,7 +510,8 @@ function App() {
     }
   }, [view]);
 
-  const filtered = catFilter === "all" ? SCENARIOS : SCENARIOS.filter(s => s.category === catFilter);
+  const VISIBLE_SCENARIOS = AUDIENCE_MODE === "corporate" ? SCENARIOS.filter(s => s.category !== "personal") : SCENARIOS;
+  const filtered = catFilter === "all" ? VISIBLE_SCENARIOS : VISIBLE_SCENARIOS.filter(s => s.category === catFilter);
 
   function selectScenario(sc) {
     setScenario(sc);
@@ -753,9 +769,11 @@ function App() {
   }
 
   function buildGreetingPrompt(sc, role, ctx, t) {
+    const isPersonal = sc.category === "personal";
+    const effectiveRole = isPersonal ? "" : role;
     const needsList = (sc.needsFocus || "").split(",").map(n => n.trim()).filter(Boolean)
       .map(n => n.charAt(0).toUpperCase() + n.slice(1) + (HUMAN_NEEDS[n] ? ` (${HUMAN_NEEDS[n]})` : "")).join("; ");
-    const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+    const seniorityCtx = isPersonal ? "" : (SENIORITY_REGISTER[seniority] || "");
     const genderInstruction = characterGender === "female"
       ? "IMPORTANT: You are playing a FEMALE character. Use she/her. Do not play a male character under any circumstances."
       : "IMPORTANT: You are playing a MALE character. Use he/him. Do not play a female character under any circumstances.";
@@ -766,7 +784,7 @@ function App() {
 ${genderInstruction}
 ${nameInstruction}
 Before the scene begins, introduce yourself briefly and warmly as the character you will be playing. Keep it to 2-3 sentences. Then ask the person their name so you can address them properly throughout the session. Be natural and human, not robotic. Do not begin the actual scenario yet.
-${role ? `The person you will be speaking with works as: ${role}.` : ""}
+${effectiveRole ? `The person you will be speaking with works as: ${effectiveRole}.` : ""}
 ${seniorityCtx ? `Seniority context: ${seniorityCtx}` : ""}
 Your position relative to them: ${COUNTERPART_REGISTER[otherPartyLevel] || COUNTERPART_REGISTER.peer} Let this colour even your introduction.
 ${ctx ? `What they want to work on: ${ctx}` : ""}
@@ -814,20 +832,25 @@ Never refer to yourself as an AI. NEVER use em dashes. NEVER use asterisks or st
   }
 
   function buildScenePrompt(sc, role, ctx, t) {
+    const isPersonal = sc.category === "personal";
+    const effectiveRole = isPersonal ? "" : role;
     const needsList = (sc.needsFocus || "").split(",").map(n => n.trim()).filter(Boolean)
       .map(n => n.charAt(0).toUpperCase() + n.slice(1) + (HUMAN_NEEDS[n] ? ` (${HUMAN_NEEDS[n]})` : "")).join("; ");
-    const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+    const counterpartNeedsList = (sc.counterpartNeedsFocus || "").split(",").map(n => n.trim()).filter(Boolean)
+      .map(n => n.charAt(0).toUpperCase() + n.slice(1) + (HUMAN_NEEDS[n] ? ` (${HUMAN_NEEDS[n]})` : "")).join("; ");
+    const seniorityCtx = isPersonal ? "" : (SENIORITY_REGISTER[seniority] || "");
     const characterDesc = otherPartyName.trim() ? `${sc.role}, specifically described by the person you are speaking with as: ${otherPartyName.trim()}. Embody this specific description rather than a generic version of the role.` : sc.role;
     return `You are roleplaying as: ${characterDesc}.
 Scenario: ${sc.title}.
 Scene: ${sc.scene}.
-${role ? `The person you are speaking with: ${role}.` : ""}
+${effectiveRole ? `The person you are speaking with: ${effectiveRole}.` : ""}
 ${seniorityCtx ? `Seniority context: ${seniorityCtx} Calibrate your responses to match this level: the challenges, the stakes and the interpersonal dynamics of someone operating at this level.` : ""}
-YOUR POSITION RELATIVE TO THEM: ${COUNTERPART_REGISTER[otherPartyLevel] || COUNTERPART_REGISTER.peer} Let this power dynamic shape how you speak, interrupt, defer, or hold ground throughout the scene.
+${isPersonal ? "" : `YOUR POSITION RELATIVE TO THEM: ${COUNTERPART_REGISTER[otherPartyLevel] || COUNTERPART_REGISTER.peer} Let this power dynamic shape how you speak, interrupt, defer, or hold ground throughout the scene.`}
 ${ctx ? `What they want to work on: ${ctx}` : ""}
 Tone: ${TONE_INSTRUCTIONS[t]}
 ${TONE_ETHIC}
-${needsList ? `Primary needs most at risk in this person: ${needsList}.` : ""}
+${needsList ? `Primary needs most at risk in the person you are speaking with: ${needsList}.` : ""}
+${counterpartNeedsList ? `Your own primary needs most at risk in this scene, as the character you are playing: ${counterpartNeedsList}. Let these drive your own reactions, defensiveness, openness or resistance throughout. This is what YOU need from this conversation, not just what they need.` : ""}
 ${NEEDS_PROMPT}
 RULES: Stay completely in character. No narration, no stage directions. Keep responses concise and natural (2-4 sentences). Never refer to yourself as an AI. NEVER use em dashes (—) under any circumstances. Replace every em dash with a comma, full stop, or colon. This is absolute. Use the Oxford comma in lists of three or more items.`;
   }
@@ -920,23 +943,26 @@ Give ONE clear performance insight calibrated to their level. What are they doin
     setDebrief(null);
     setView("debrief");
     const fullConv = historyRef.current.map(m => `${m.role === "user" ? (userName || "You") : scenario.role}: ${m.content}`).join("\n\n");
-    const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
-    const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+    const isPersonal = scenario.category === "personal";
+    const seniorityLabel = isPersonal ? "" : (SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "");
+    const seniorityCtx = isPersonal ? "" : (SENIORITY_REGISTER[seniority] || "");
+    const calibrationPhrase = isPersonal ? "what excellent, honest communication looks like in this relationship" : `${seniorityLabel} level`;
     const tm = getToneMeta(tone);
     const prompt = `Senior performance strategist. A professional just completed a conversation practice session.
-Scenario: ${scenario.title}. Their role: ${userRole || "Not specified"}. Seniority level: ${seniorityLabel}. What they wanted to work on: ${userContext || "Not specified"}.
+Scenario: ${scenario.title}. ${isPersonal ? "" : `Their role: ${userRole || "Not specified"}. Seniority level: ${seniorityLabel}. `}What they wanted to work on: ${userContext || "Not specified"}.
 Tone faced: ${tm.label}${tm.group ? ` (${tm.group} category)` : ""}. Character behaviour: ${TONE_INSTRUCTIONS[tone] || ""} The character was instructed to soften only if handled well. Calibrate your assessment to this: succeeding against a Difficult tone deserves more credit than succeeding against a Cooperative one, and assess specifically whether the person earned any shift in the character's behaviour.
 ${seniorityCtx ? `Scoring standard: ${seniorityCtx} All feedback and scores must be calibrated to this level. What is strong at manager level may be insufficient at director level. Be honest about that gap.` : ""}
-Power dynamic: the other person was ${(COUNTERPART_LEVELS.find(l => l.value === otherPartyLevel) || {}).label || "a peer"} relative to them. Weigh this in your assessment: holding ground against someone senior or very senior deserves more credit than the same behaviour with a junior colleague, and managing downward well requires care rather than force.
+${isPersonal ? "" : `Power dynamic: the other person was ${(COUNTERPART_LEVELS.find(l => l.value === otherPartyLevel) || {}).label || "a peer"} relative to them. Weigh this in your assessment: holding ground against someone senior or very senior deserves more credit than the same behaviour with a junior colleague, and managing downward well requires care rather than force.`}
+${scenario.counterpartNeedsFocus ? `The other person in this scene was built around these needs being most at stake for them: ${scenario.counterpartNeedsFocus}. Use this to ground your read of their side, alongside what actually happened in the conversation.` : ""}
 Full conversation: ${fullConv}
 Return ONLY valid JSON:
-{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences overall performance calibrated to their seniority level, direct honest empowering","commStyle":"Primary communication style used in 3-5 words, descriptive not judgmental (e.g. Hesitant but Honest, Direct and Structured, Warm but Vague)","styleNotes":"1-2 sentences how this style served them at their level","strengths":["Strength 1 specific to their level","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences. Name the gap between current and excellent at ${seniorityLabel} level.","alternativeResponse":"A single example of what their WEAKEST moment in the conversation could have sounded like if handled at the level they are working toward. Write it as the actual words they could have said, in first person, 2-4 sentences. Make it feel achievable not perfect. Precede it with one sentence naming which moment this relates to.","skillsLabModule":"Based on the primary development area, recommend ONE of these exact values: leadership, communication, executive, thinking. Choose the one most relevant to what they most need to build.","registerNote":"1 sentence on whether their language register matched their seniority level. Be honest.","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in scene","takeaway":"One powerful sentence to carry into the real conversation","nextStep":"One specific scenario or skill to practise next time. If their register was below their seniority level, recommend the Skills Lab Executive Presence module."}
+{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences overall performance calibrated to ${calibrationPhrase}, direct honest empowering","commStyle":"Primary communication style used in 3-5 words, descriptive not judgmental (e.g. Hesitant but Honest, Direct and Structured, Warm but Vague)","styleNotes":"1-2 sentences how this style served them here","strengths":["Strength 1 specific to this conversation","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area here, specific actionable empowering 2-3 sentences. Name the gap between current and ${calibrationPhrase}.","alternativeResponse":"A single example of what their WEAKEST moment in the conversation could have sounded like if handled at the level they are working toward. Write it as the actual words they could have said, in first person, 2-4 sentences. Make it feel achievable not perfect. Precede it with one sentence naming which moment this relates to.","skillsLabModule":"Based on the primary development area, recommend ONE of these exact values: leadership, communication, executive, thinking. Choose the one most relevant to what they most need to build.","registerNote":"1 sentence on whether their tone and language matched ${isPersonal ? "the warmth and directness this relationship calls for" : "their seniority level"}. Be honest.","needsMostActive":["need1","need2"],"counterpartNeedsMostActive":["need1","need2"],"needsAnalysis":"2-4 sentences. First, name the needs most at stake for THIS PERSON in the scene. Second, name the needs most at stake for the OTHER PERSON in the scene, reasoning from how that character spoke and reacted. Third, assess specifically whether this person's communication acknowledged or addressed the other person's needs, not only expressed their own. Good communication reads the other side, not just states your own case.","takeaway":"One powerful sentence to carry into the real conversation","nextStep":"One specific scenario or skill to practise next time. If their register was below their seniority level, recommend the Skills Lab Executive Presence module."}
 Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never use em dashes.
 Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
     try {
       const reply = await callAI("You are a senior performance strategist specialising in leadership communication.", [{ role:"user", content:prompt }]);
       const parsed = JSON.parse(reply.replace(/```json|```/g,"").trim());
-      const cpLabel = (COUNTERPART_LEVELS.find(l => l.value === otherPartyLevel) || {}).label || "";
+      const cpLabel = isPersonal ? "" : ((COUNTERPART_LEVELS.find(l => l.value === otherPartyLevel) || {}).label || "");
       setDebrief({ ...parsed, scores, seniority: seniorityLabel, toneLabel: tm.label, toneGroup: tm.group, counterpartLabel: cpLabel });
     } catch { setDebrief({ error:true }); }
     setDebriefLoading(false);
@@ -1004,6 +1030,7 @@ Write every field, including each item in strengths, in direct second person: "y
           developmentArea: d.developmentArea,
           needsAnalysis: d.needsAnalysis,
           needsMostActive: d.needsMostActive,
+          counterpartNeedsMostActive: d.counterpartNeedsMostActive,
           registerNote: d.registerNote,
           takeaway: d.takeaway,
           nextStep: d.nextStep,
@@ -1047,7 +1074,11 @@ Write every field, including each item in strengths, in direct second person: "y
       const active = (d.needsMostActive||[]).map(n=>n.toLowerCase()).includes(key);
       return `<span style="display:inline-block;padding:6px 14px;margin:4px;border-radius:6px;font-size:12px;font-weight:500;border:1px solid ${active?"#3D858C":"#ddd"};background:${active?"#dff0f2":"#f5f5f5"};color:${active?"#01293A":"#888"}">${key.charAt(0).toUpperCase()+key.slice(1)}${active?" ✓":""}</span>`;
     }).join("");
-    return `<!DOCTYPE html><html><head><meta charset="UTF-8"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"><title>Rewire Conversation Lab Debrief</title><style>*{box-sizing:border-box;margin:0;padding:0}body{background:#fff;color:#1a2a30;font-family:'DM Sans',Arial,sans-serif;font-size:15px;line-height:1.6}.page{max-width:760px;margin:0 auto;padding:60px 50px 80px}.header{border-bottom:2px solid #3D858C;padding-bottom:28px;margin-bottom:40px}.eyebrow{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:10px}h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:42px;font-weight:300;color:#01293A;line-height:1.15;margin-bottom:8px}.sub{font-size:13px;color:#4a6570}.section{margin-bottom:36px}.sec-title{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:16px;padding-bottom:6px;border-bottom:1px solid #e0eff0}.card{background:#f5fafb;border:1px solid #c9e8ec;border-radius:10px;padding:22px;margin-bottom:12px;font-size:14px;color:#1a2a30;line-height:1.7}.comm-style{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:400;color:#01293A;margin-bottom:8px}ul{padding-left:20px}li{color:#1a2a30;font-size:14px;line-height:1.7;margin-bottom:6px}.takeaway{background:#f0f9fa;border-left:4px solid #3D858C;border-radius:0 10px 10px 0;padding:26px;margin-bottom:32px}.takeaway-label{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:12px}.takeaway-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;font-weight:300;color:#01293A;line-height:1.55;font-style:italic}.alt-response{background:#f0f9fa;border:1px solid #c9e8ec;border-radius:10px;padding:22px;margin-bottom:32px}.alt-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;font-weight:300;color:#01293A;line-height:1.65;font-style:italic}.amber-box{background:#fffbf0;border:1px solid #D4A853;border-radius:10px;padding:18px;margin-bottom:12px}.amber-label{font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#D4A853;font-weight:600;margin-bottom:8px}.amber-text{font-size:14px;color:#5a4010;line-height:1.7}.score-key{font-size:11px;color:#4a6570;margin-bottom:14px}.needs-note{font-size:12px;color:#4a6570;margin-bottom:12px;line-height:1.5}.footer{margin-top:60px;padding-top:20px;border-top:1px solid #e0eff0;font-size:11px;color:#4a6570;display:flex;justify-content:space-between}@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact}.page{padding:40px 30px}}</style></head><body><div class="page"><div class="header"><div class="eyebrow">Beyond Limits Made For More &nbsp;|&nbsp; Conversation Lab Debrief</div><h1>${d.headline||"Conversation Lab Debrief"}</h1><div class="sub">${scenario?.title||""} &nbsp;|&nbsp; ${d.toneLabel?d.toneLabel+" tone &nbsp;|&nbsp; ":""}${d.counterpartLabel?"Speaking to: "+d.counterpartLabel+" &nbsp;|&nbsp; ":""}${d.seniority?d.seniority+" &nbsp;|&nbsp; ":""}${date}${userName?" &nbsp;|&nbsp; "+userName:""}</div></div><div class="section"><div class="sec-title">Overall Performance</div><div class="card">${d.overall||""}</div></div><div class="section"><div class="sec-title">Communication Intelligence Scores</div><div class="score-key"><span style="color:#D4A853">■ 0-40 needs work</span> &nbsp; <span style="color:#3D858C">■ 41-70 developing</span> &nbsp; <span style="color:#4caf7d">■ 71-100 strong</span></div><div class="card"><table style="width:100%;border-collapse:collapse">${scoreRows}</table></div></div><div class="section"><div class="sec-title">Communication Style</div><div class="card"><div class="comm-style">${d.commStyle||""}</div><div style="font-size:14px;color:#1a2a30;line-height:1.7">${d.styleNotes||""}</div></div></div><div class="section"><div class="sec-title">What You Did Well</div><div class="card"><ul>${strengthsList}</ul></div></div><div class="section"><div class="sec-title">Primary Development Area</div><div class="card">${d.developmentArea||""}</div></div><div class="section"><div class="sec-title">Human Needs in the Scene</div><div class="needs-note">The needs most at stake for you in this conversation, not targets to meet but signals about what was driving the dynamic.</div><div style="margin-bottom:12px">${needsChips}</div><div class="card">${d.needsAnalysis||""}</div></div><div class="takeaway"><div class="takeaway-label">Take This Into the Real Conversation</div><div class="takeaway-text">${d.takeaway||""}</div></div><div class="section"><div class="sec-title">Next Time in the Lab</div><div class="card">${d.nextStep||""}</div></div>${d.alternativeResponse?`<div class="alt-response"><div class="alt-text">${d.alternativeResponse}</div></div>`:""} ${d.registerNote?`<div class="amber-box"><div class="amber-label">Register Note</div><div class="amber-text">${d.registerNote}</div></div>`:""}<div class="footer"><span>Beyond Limits Made For More &nbsp;|&nbsp; Conversation Lab</span><span>${date}</span></div></div></body></html>`;
+    const counterpartNeedsChips = Object.entries(HUMAN_NEEDS).map(([key]) => {
+      const active = (d.counterpartNeedsMostActive||[]).map(n=>n.toLowerCase()).includes(key);
+      return `<span style="display:inline-block;padding:6px 14px;margin:4px;border-radius:6px;font-size:12px;font-weight:500;border:1px solid ${active?"#D4A853":"#ddd"};background:${active?"#fdf6e8":"#f5f5f5"};color:${active?"#7a5a1a":"#888"}">${key.charAt(0).toUpperCase()+key.slice(1)}${active?" ✓":""}</span>`;
+    }).join("");
+    return `<!DOCTYPE html><html><head><meta charset="UTF-8"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"><title>Rewire Conversation Lab Debrief</title><style>*{box-sizing:border-box;margin:0;padding:0}body{background:#fff;color:#1a2a30;font-family:'DM Sans',Arial,sans-serif;font-size:15px;line-height:1.6}.page{max-width:760px;margin:0 auto;padding:60px 50px 80px}.header{border-bottom:2px solid #3D858C;padding-bottom:28px;margin-bottom:40px}.eyebrow{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:10px}h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:42px;font-weight:300;color:#01293A;line-height:1.15;margin-bottom:8px}.sub{font-size:13px;color:#4a6570}.section{margin-bottom:36px}.sec-title{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:16px;padding-bottom:6px;border-bottom:1px solid #e0eff0}.card{background:#f5fafb;border:1px solid #c9e8ec;border-radius:10px;padding:22px;margin-bottom:12px;font-size:14px;color:#1a2a30;line-height:1.7}.comm-style{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:400;color:#01293A;margin-bottom:8px}ul{padding-left:20px}li{color:#1a2a30;font-size:14px;line-height:1.7;margin-bottom:6px}.takeaway{background:#f0f9fa;border-left:4px solid #3D858C;border-radius:0 10px 10px 0;padding:26px;margin-bottom:32px}.takeaway-label{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:12px}.takeaway-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;font-weight:300;color:#01293A;line-height:1.55;font-style:italic}.alt-response{background:#f0f9fa;border:1px solid #c9e8ec;border-radius:10px;padding:22px;margin-bottom:32px}.alt-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;font-weight:300;color:#01293A;line-height:1.65;font-style:italic}.amber-box{background:#fffbf0;border:1px solid #D4A853;border-radius:10px;padding:18px;margin-bottom:12px}.amber-label{font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#D4A853;font-weight:600;margin-bottom:8px}.amber-text{font-size:14px;color:#5a4010;line-height:1.7}.score-key{font-size:11px;color:#4a6570;margin-bottom:14px}.needs-note{font-size:12px;color:#4a6570;margin-bottom:12px;line-height:1.5}.footer{margin-top:60px;padding-top:20px;border-top:1px solid #e0eff0;font-size:11px;color:#4a6570;display:flex;justify-content:space-between}@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact}.page{padding:40px 30px}}</style></head><body><div class="page"><div class="header"><div class="eyebrow">Beyond Limits Made For More &nbsp;|&nbsp; Conversation Lab Debrief</div><h1>${d.headline||"Conversation Lab Debrief"}</h1><div class="sub">${scenario?.title||""} &nbsp;|&nbsp; ${d.toneLabel?d.toneLabel+" tone &nbsp;|&nbsp; ":""}${d.counterpartLabel?"Speaking to: "+d.counterpartLabel+" &nbsp;|&nbsp; ":""}${d.seniority?d.seniority+" &nbsp;|&nbsp; ":""}${date}${userName?" &nbsp;|&nbsp; "+userName:""}</div></div><div class="section"><div class="sec-title">Overall Performance</div><div class="card">${d.overall||""}</div></div><div class="section"><div class="sec-title">Communication Intelligence Scores</div><div class="score-key"><span style="color:#D4A853">■ 0-40 needs work</span> &nbsp; <span style="color:#3D858C">■ 41-70 developing</span> &nbsp; <span style="color:#4caf7d">■ 71-100 strong</span></div><div class="card"><table style="width:100%;border-collapse:collapse">${scoreRows}</table></div></div><div class="section"><div class="sec-title">Communication Style</div><div class="card"><div class="comm-style">${d.commStyle||""}</div><div style="font-size:14px;color:#1a2a30;line-height:1.7">${d.styleNotes||""}</div></div></div><div class="section"><div class="sec-title">What You Did Well</div><div class="card"><ul>${strengthsList}</ul></div></div><div class="section"><div class="sec-title">Primary Development Area</div><div class="card">${d.developmentArea||""}</div></div><div class="section"><div class="sec-title">Human Needs in the Scene</div><div class="needs-note">Good communication reads both sides. Here is what was most at stake for each of you, not targets to meet but signals about what was driving the dynamic.</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:6px">Your needs</div><div style="margin-bottom:12px">${needsChips}</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#D4A853;font-weight:600;margin-bottom:6px">Their needs</div><div style="margin-bottom:12px">${counterpartNeedsChips}</div><div class="card">${d.needsAnalysis||""}</div></div><div class="takeaway"><div class="takeaway-label">Take This Into the Real Conversation</div><div class="takeaway-text">${d.takeaway||""}</div></div><div class="section"><div class="sec-title">Next Time in the Lab</div><div class="card">${d.nextStep||""}</div></div>${d.alternativeResponse?`<div class="alt-response"><div class="alt-text">${d.alternativeResponse}</div></div>`:""} ${d.registerNote?`<div class="amber-box"><div class="amber-label">Register Note</div><div class="amber-text">${d.registerNote}</div></div>`:""}<div class="footer"><span>Beyond Limits Made For More &nbsp;|&nbsp; Conversation Lab</span><span>${date}</span></div></div></body></html>`;
   }
 
   // ── LOBBY ──
@@ -1087,7 +1118,7 @@ Write every field, including each item in strengths, in direct second person: "y
         <div style={s.section}>
           <div style={s.sectionLabel}>Choose your scenario</div>
           <div style={s.pillsRow}>
-            {["all","leadership","assertiveness","soft-skills","empathy","conflict","influence","performance","career"].map(cat => (
+            {["all","leadership","assertiveness","soft-skills","empathy","conflict","influence","performance","career", ...(AUDIENCE_MODE === "corporate" ? [] : ["personal"])].map(cat => (
               <button key={cat} style={{ ...s.pill, ...(catFilter===cat ? s.pillActive : {}) }} onClick={() => {
                 setCatFilter(cat);
                 setTimeout(() => {
@@ -1162,33 +1193,41 @@ Write every field, including each item in strengths, in direct second person: "y
           </div>
         </div>
 
-        <div style={{ marginBottom:22 }}>
-          <label style={s.fieldLabel}>Your role and industry (optional)</label>
-          <input style={s.fieldInput} placeholder="e.g. Senior Account Manager, financial services" value={userRole} onChange={e => setUserRole(e.target.value)} />
-        </div>
-        <LevelPicker
-          label="Your level"
-          options={SENIORITY_LEVELS}
-          value={seniority}
-          onChange={setSeniority}
-          isOpen={openLevelPicker === "yours"}
-          onToggle={() => setOpenLevelPicker(openLevelPicker === "yours" ? null : "yours")}
-          accent={TEAL}
-        />
+        {scenario?.category !== "personal" && (
+          <>
+            <div style={{ marginBottom:22 }}>
+              <label style={s.fieldLabel}>Your role and industry (optional)</label>
+              <input style={s.fieldInput} placeholder="e.g. Senior Account Manager, financial services" value={userRole} onChange={e => setUserRole(e.target.value)} />
+              <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:"rgba(232,244,245,0.55)", marginTop:6 }}>Used to make the roleplay feel real to your world.</div>
+            </div>
+            <LevelPicker
+              label="Your level"
+              options={SENIORITY_LEVELS}
+              value={seniority}
+              onChange={setSeniority}
+              isOpen={openLevelPicker === "yours"}
+              onToggle={() => setOpenLevelPicker(openLevelPicker === "yours" ? null : "yours")}
+              accent={TEAL}
+            />
+            <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:"rgba(232,244,245,0.55)", margin:"-14px 0 22px" }}>Used to calibrate how you're scored.</div>
+          </>
+        )}
         <div style={{ marginBottom:22 }}>
           <label style={s.fieldLabel}>Name the person you are speaking to (optional)</label>
           <input style={s.fieldInput} placeholder={`e.g. Sarah, my line manager`} value={otherPartyName} onChange={e => setOtherPartyName(e.target.value)} />
           <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:"rgba(232,244,245,0.55)", marginTop:6 }}>If you leave this blank the character will not introduce themselves by name.</div>
         </div>
-        <LevelPicker
-          label="Their level, relative to you"
-          options={COUNTERPART_LEVELS}
-          value={otherPartyLevel}
-          onChange={setOtherPartyLevel}
-          isOpen={openLevelPicker === "theirs"}
-          onToggle={() => setOpenLevelPicker(openLevelPicker === "theirs" ? null : "theirs")}
-          accent={MIST}
-        />
+        {scenario?.category !== "personal" && (
+          <LevelPicker
+            label="Their level, relative to you"
+            options={COUNTERPART_LEVELS}
+            value={otherPartyLevel}
+            onChange={setOtherPartyLevel}
+            isOpen={openLevelPicker === "theirs"}
+            onToggle={() => setOpenLevelPicker(openLevelPicker === "theirs" ? null : "theirs")}
+            accent={MIST}
+          />
+        )}
         <div style={{ marginBottom:22 }}>
           <label style={s.fieldLabel}>What do you want to work on?</label>
           <textarea style={{ ...s.fieldInput, minHeight:110, resize:"vertical", width:"100%", boxSizing:"border-box" }} placeholder="e.g. I go quiet when they push back. I want to hold my ground without getting defensive." value={userContext} onChange={e => setUserContext(e.target.value)} />
@@ -1263,6 +1302,7 @@ Write every field, including each item in strengths, in direct second person: "y
           className="mobile-backdrop" />
       )}
       <style>{`
+        .stage-expand-hint { display: none; }
         @media (max-width: 700px) {
           .lab-panel { position: fixed !important; right: 0; top: 0; bottom: 0; z-index: 50; transform: translateX(${panelOpen ? "0" : "100%"}) !important; box-shadow: -4px 0 24px rgba(0,0,0,0.4); }
           .mobile-backdrop { display: block !important; }
@@ -1271,6 +1311,7 @@ Write every field, including each item in strengths, in direct second person: "y
           .desktop-actions { display: none !important; }
           .mobile-actions-trigger { display: flex !important; }
           .stage-text-clamped { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+          .stage-expand-hint { display: block !important; font-size: 12px; color: ${AMBER}; opacity: 0.85; margin-top: 5px; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
           .lab-root-mobile { height: auto !important; overflow: visible !important; display: block !important; }
           .lab-main-mobile { height: auto !important; min-height: 100vh !important; overflow: visible !important; }
           .lab-topbar-mobile { position: sticky !important; top: 0; z-index: 30; background: ${DARKER}; }
@@ -1319,7 +1360,12 @@ Write every field, including each item in strengths, in direct second person: "y
 
         <div style={{ ...s.stageBar, display:"flex", alignItems:"flex-start", gap:10 }}>
           <span style={{ fontSize:"clamp(13px, 2vw, 16px)", marginTop:2, flexShrink:0 }}>🎭</span>
-          <span style={{ ...s.stageText, flex:1 }} className={sceneExpanded ? "" : "stage-text-clamped"} onClick={() => setSceneExpanded(e => !e)}>{scenario?.scene}</span>
+          <div style={{ flex:1 }}>
+            <span style={s.stageText} className={sceneExpanded ? "" : "stage-text-clamped"} onClick={() => setSceneExpanded(e => !e)}>{scenario?.scene}</span>
+            <div className="stage-expand-hint" onClick={() => setSceneExpanded(e => !e)}>
+              {sceneExpanded ? "▴ Show less" : "▾ Tap to read the full scene"}
+            </div>
+          </div>
           {voiceEnabled && (
             <button
               onClick={() => {
@@ -1544,8 +1590,9 @@ Write every field, including each item in strengths, in direct second person: "y
             <div style={{ marginBottom:28 }}>
               <div style={s.debriefSectionTitle}>Human Needs in the Scene</div>
               <div style={{ fontSize:"clamp(12px, 1.7vw, 14px)", color:"rgba(232,244,245,0.55)", marginBottom:14, lineHeight:1.5 }}>
-                These are the needs that were most at stake for you in this conversation. Not targets to meet, but signals about what was driving the dynamic.
+                Good communication reads both sides. Here's what was most at stake for each of you, not targets to meet, but signals about what was driving the dynamic.
               </div>
+              <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", letterSpacing:"0.1em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:8 }}>Your needs</div>
               <div style={s.needsGrid}>
                 {Object.entries(HUMAN_NEEDS).map(([key, desc]) => {
                   const active = (debrief.needsMostActive||[]).map(n=>n.toLowerCase()).includes(key);
@@ -1557,7 +1604,19 @@ Write every field, including each item in strengths, in direct second person: "y
                   );
                 })}
               </div>
-              <div style={s.debriefCard}><div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", lineHeight:1.7 }}>{debrief.needsAnalysis}</div></div>
+              <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", letterSpacing:"0.1em", textTransform:"uppercase", color:AMBER, fontWeight:600, margin:"16px 0 8px" }}>Their needs</div>
+              <div style={s.needsGrid}>
+                {Object.entries(HUMAN_NEEDS).map(([key, desc]) => {
+                  const active = (debrief.counterpartNeedsMostActive||[]).map(n=>n.toLowerCase()).includes(key);
+                  return (
+                    <div key={key} style={{ ...s.needChip, ...(active ? { border:`1px solid ${AMBER}`, background:"rgba(212,168,83,0.1)" } : {}) }}>
+                      <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", fontWeight:500, color: active ? AMBER : "rgba(232,244,245,0.75)", marginBottom:3 }}>{key.charAt(0).toUpperCase()+key.slice(1)}</div>
+                      {active && <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:AMBER }}>Active in scene</div>}
+                    </div>
+                  );
+                })}
+              </div>
+              <div style={{ ...s.debriefCard, marginTop:14 }}><div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", lineHeight:1.7 }}>{debrief.needsAnalysis}</div></div>
             </div>
 
             <div style={s.takeaway}>
