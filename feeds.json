@@ -1,5 +1,5 @@
 {
-  "updated": "09 Jul 2026, 21:46 UTC",
+  "updated": "09 Jul 2026, 23:09 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Finland’s co-operative banks offer a unique perspective on resilient finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/finlands-co-operative-banks-offer-a-unique-perspective-on-resilient-finance/",
+      "date": "9 Jul 2026",
+      "excerpt": "As climate, demographic and geopolitical disruptions intensify, financial systems are confronting pressures that traditional models increasingly struggle to capture. Ephraim Daka shows how Finland’s co‑operative banks offer a compelling len",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "World trade remains dangerously dependent on a handful of shipping lanes",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
       "date": "9 Jul 2026",
@@ -182,13 +191,13 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1024x655.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Technological change means women in India are now increasingly outliving men",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/01/technological-change-means-women-in-india-are-now-increasingly-outliving-men/",
-      "date": "1 Jul 2026",
-      "excerpt": "India’s health transition has saved millions of lives. But progress may be creating an unexpected inequality: rising male excess mortality. Astrid Krenz and Holger Strulik uncover the “gender paradox of progress” happening not in spite of, ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1.png"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "We saved £6,000 on holidays by swapping homes with strangers",
+      "link": "https://www.bbc.co.uk/news/articles/ce8kkerxz74o?at_medium=RSS&at_campaign=rss",
+      "date": "9 Jul 2026",
+      "excerpt": "The BBC looks at the growing trend of people swapping homes to cut holiday costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9834/live/74796a60-7b6a-11f1-936a-038dbfe02d14.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Porn site company fined £630,000 over failed age checks",
-      "link": "https://www.bbc.co.uk/news/articles/c07ylddnvmyo?at_medium=RSS&at_campaign=rss",
+      "title": "Pressure builds on Europe's biggest port to be greener",
+      "link": "https://www.bbc.co.uk/news/articles/c39y78rwrmno?at_medium=RSS&at_campaign=rss",
       "date": "9 Jul 2026",
-      "excerpt": "Ofcom has fined a slew of sites it says are failing to prevent children accessing their adult content.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a15f/live/ee3faaa0-7b86-11f1-881d-8fcf7e2296a7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Wealthy AI workers send San Francisco house prices soaring",
-      "link": "https://www.bbc.co.uk/news/articles/c9q29j47v9ro?at_medium=RSS&at_campaign=rss",
-      "date": "8 Jul 2026",
-      "excerpt": "The median cost of a home in the city is now $1.7m, a record high, according to the latest figures.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c6c/live/84338380-79eb-11f1-b976-0b9c15b0ccfc.jpg"
+      "excerpt": "A lawsuit demands that the Port of Rotterdam moves faster to cut its dependence on fossil fuel firms.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c82f/live/34e11c20-7397-11f1-b1db-af71d47507d6.jpg"
     }
   ]
 }
