@@ -1,5 +1,5 @@
 {
-  "updated": "09 Jul 2026, 21:21 UTC",
+  "updated": "09 Jul 2026, 21:46 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,15 +139,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Finland’s co-operative banks offer a unique perspective on resilient finance",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/finlands-co-operative-banks-offer-a-unique-perspective-on-resilient-finance/",
-      "date": "9 Jul 2026",
-      "excerpt": "As climate, demographic and geopolitical disruptions intensify, financial systems are confronting pressures that traditional models increasingly struggle to capture. Ephraim Daka shows how Finland’s co‑operative banks offer a compelling len",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "World trade remains dangerously dependent on a handful of shipping lanes",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
       "date": "9 Jul 2026",
@@ -189,6 +180,15 @@
       "date": "2 Jul 2026",
       "excerpt": "Using analysis of WTO membership and the Global Peace Index, Julia Croce argues that trade itself, and the organisations that govern it, have a significant role to play in fostering peace within and between fragile states. In an extract fro",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1024x655.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Technological change means women in India are now increasingly outliving men",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/01/technological-change-means-women-in-india-are-now-increasingly-outliving-men/",
+      "date": "1 Jul 2026",
+      "excerpt": "India’s health transition has saved millions of lives. But progress may be creating an unexpected inequality: rising male excess mortality. Astrid Krenz and Holger Strulik uncover the “gender paradox of progress” happening not in spite of, ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1.png"
     },
     {
       "source": "BBC Business",
