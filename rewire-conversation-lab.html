@@ -62,6 +62,25 @@ const CAT_LABELS = {
   personal: "Beyond Work",
 };
 
+// Beyond Work scenarios are grouped by situation, then broken out by relationship.
+// The grid shows one card per situation; picking one reveals only the relationships
+// that genuinely apply to it (e.g. Stranger only ever applies to Boundary).
+const SITUATION_GROUPS = {
+  boundary:     { title:"Setting a Boundary", desc:"Tell someone a pattern needs to change, without triggering guilt or escalating the moment.", skills:["Assertiveness","Emotional Reg"], order:["family","friend","partner","stranger"] },
+  disagreement: { title:"A Difficult Conversation", desc:"Hold a genuinely different view without it becoming about who's right.", skills:["Listening","Assertiveness"], order:["family","friend","partner"] },
+  gathering:    { title:"Tension at a Gathering", desc:"Navigate strain surfacing in front of everyone, without making a scene or avoiding it entirely.", skills:["Conflict Res","Emotional Reg"], order:["family","friend","partner"] },
+  letdown:      { title:"Being Let Down", desc:"Say honestly that someone hurt you, without over-explaining it away or quietly pulling back instead.", skills:["Assertiveness","Clarity"], order:["family","friend","partner"] },
+  rebuild:      { title:"Rebuilding a Relationship", desc:"Reach back out or reconnect, without pretending the distance was never there.", skills:["Empathy","Clarity"], order:["family","friend","partner"] },
+  onesided:     { title:"A One-Sided Relationship", desc:"Name an imbalance that's been building, without ending things out of quiet resentment instead.", skills:["Assertiveness","Clarity"], order:["family","friend","partner"] },
+  competing:    { title:"When Someone Competes or Puts You Down", desc:"Name a pattern of being undermined, without turning it into an accusation.", skills:["Assertiveness","Emotional Reg"], order:["family","friend","partner"] },
+};
+const RELATIONSHIP_LABELS = {
+  family:   { label:"A Family Member", sub:"Parent, sibling, adult child, or anyone you'll name" },
+  friend:   { label:"A Friend", sub:"Someone in your close circle" },
+  partner:  { label:"A Partner", sub:"Your partner or spouse" },
+  stranger: { label:"A Stranger", sub:"No ongoing relationship to protect" },
+};
+
 const SCENARIOS = [
   { id:"feedback", category:"leadership", title:"Giving Difficult Feedback", desc:"Address underperformance or behaviour with care and directness, without softening to the point of silence.", skills:["Assertiveness","Emotional Reg"], role:"Direct Report", scene:"You have called a 1:1 to address a performance issue that has been building for several weeks. Informal conversations have not shifted anything. The team member sits down already tense, arms folded, ready to explain rather than hear. You need to land the message clearly without triggering a defensive shutdown.", needsFocus:"significance,certainty", userInitiates:true },
   { id:"speaking-up", category:"leadership", title:"Speaking Up in a Meeting", desc:"Make your voice heard in a room that tends to talk over or past you.", skills:["Assertiveness","Influence"], role:"Meeting Chair", scene:"You are in a senior leadership meeting. A critical risk has been raised and then talked past. The room is moving toward a decision without properly addressing it. You have been quiet. The meeting chair is about to move on. This is the moment you choose to intervene.", needsFocus:"significance,connection" },
@@ -139,14 +158,42 @@ const SCENARIOS = [
   { id:"career-career-change", category:"career", title:"Explaining a Career Change", desc:"Articulate a non-linear career move in a way that makes sense to people who might question it.", skills:["Clarity","Influence"], role:"Interviewer or Senior Colleague", scene:"You are making or considering a career change that does not follow the obvious path: moving sector, stepping sideways, returning after a break or pivoting away from a specialism you built over years. The person in front of you is professional and not unkind, but they do not immediately see the logic. You need to make it coherent, confident and compelling without over-explaining.", needsFocus:"significance,certainty,growth,contribution" },
 
   // ── BEYOND WORK ──
-  { id:"personal-boundary-parent", category:"personal", title:"Setting a Boundary with a Parent", desc:"Tell a parent you love that a pattern needs to change, without triggering guilt or reopening old wounds.", skills:["Assertiveness","Emotional Reg"], role:"Parent", scene:"Your mother calls most evenings, and lately the calls have become longer, heavier and harder to end. She leans on you for decisions she is capable of making herself, and hangs up hurt if you try to shorten the call. You love her. You are also exhausted. Tonight you have decided to say something about the pattern before resentment starts to show up as distance instead of honesty.", needsFocus:"certainty,significance", counterpartNeedsFocus:"certainty,connection" },
-  { id:"personal-partner-mental-load", category:"personal", title:"The Conversation Your Partner Has Been Waiting For", desc:"Address a recurring friction point in your relationship before it hardens into distance.", skills:["Listening","Emotional Reg"], role:"Partner", scene:"The same argument has resurfaced for the third time this month, always about the same thing: who carries the mental load of running the house. Neither of you is wrong exactly, but neither of you feels heard either. Your partner has gone quiet in the way that means they have given up trying to explain it again. Tonight you are the one opening it, and going first with listening rather than defending.", needsFocus:"connection,significance", counterpartNeedsFocus:"significance,connection", userInitiates:true },
-  { id:"personal-sibling-tension", category:"personal", title:"The Family Gathering Nobody Wants to Have", desc:"Address old tension with a sibling before it surfaces, again, in front of the whole family.", skills:["Conflict Res","Emotional Reg"], role:"Sibling", scene:"A family event is two weeks away and everyone will be there, including your sister, with whom things have been strained since a comment she made at Christmas that neither of you has addressed. You do not want another year of politely avoiding each other over the same table. You have asked her for ten minutes before the event to clear the air, on your terms, calmly.", needsFocus:"certainty,significance", counterpartNeedsFocus:"significance,certainty", userInitiates:true },
-  { id:"personal-friend-let-down", category:"personal", title:"When a Friend Lets You Down", desc:"Tell a friend they hurt you, without over-explaining it away or letting it quietly end the friendship instead.", skills:["Assertiveness","Clarity"], role:"Friend", scene:"A close friend cancelled on you for the second time at short notice for something that mattered to you, and did not seem to register how much it cost you. You are tempted to simply say it is fine and let the friendship quietly cool instead. You have decided this one is worth naming honestly, because you would rather risk an uncomfortable conversation than lose someone slowly through silence.", needsFocus:"significance,connection", counterpartNeedsFocus:"certainty,significance", userInitiates:true },
-  { id:"personal-adult-child-money", category:"personal", title:"Saying No to Your Adult Child", desc:"Hold a boundary with your grown child around money or support, with love and without collapsing into guilt.", skills:["Assertiveness","Clarity"], role:"Adult Child", scene:"Your adult child has asked you for financial help again, the fourth time this year, and each time it has come with a plan that did not quite hold. You want to support them. You are also aware that saying yes every time is not helping them build the capability to not need to ask. This conversation is about holding a real no, with warmth, without turning it into a lecture.", needsFocus:"certainty,significance", counterpartNeedsFocus:"certainty,significance" },
-  { id:"personal-friend-drifted", category:"personal", title:"Reconnecting After Drifting Apart", desc:"Reach out to a friend you've lost touch with, without pretending the distance wasn't real.", skills:["Empathy","Clarity"], role:"Friend you've drifted from", scene:"You and a friend who used to be close have drifted over the past year or two: no falling out, just life, distance and neither of you reaching out first. You miss them. You are also aware that too much time has passed to pretend nothing changed. You have reached out to meet up, and now you are sitting across from them, both a little unsure how honest to be about the gap.", needsFocus:"connection,certainty", counterpartNeedsFocus:"significance,connection", userInitiates:true },
-  { id:"personal-friend-competes", category:"personal", title:"When a Friend Competes Instead of Celebrates", desc:"Name a pattern of subtle one-upping or deflection when you share good news, without accusing them of jealousy outright.", skills:["Assertiveness","Emotional Reg"], role:"Friend", scene:"Every time you share something good, a promotion, good news, a win, this friend finds a way to top it or change the subject. It has happened enough times that it cannot be a coincidence anymore, and it is starting to make you edit what you share with them. You value the friendship. You want to name the pattern without turning it into an accusation.", needsFocus:"significance,connection", counterpartNeedsFocus:"significance,certainty", userInitiates:true },
-  { id:"personal-friend-one-sided", category:"personal", title:"The One-Sided Friendship", desc:"Address a friendship that has quietly become mostly about their needs, without ending it out of resentment instead.", skills:["Assertiveness","Clarity"], role:"Friend", scene:"This friend reaches out to you reliably when they need something: advice, a favour, a shoulder. When things are going well for them, weeks pass without them getting in touch with you. You are the one who consistently checks in on them, remembers what is going on in their life and shows up when they need you, and you have noticed you rarely get the same back. You want to say something honest before you quietly start pulling away instead.", needsFocus:"significance,certainty", counterpartNeedsFocus:"certainty,connection", userInitiates:true },
+  // ── BEYOND WORK: 7 situations x relationship (family/friend/partner/stranger where applicable) ──
+  // Setting a Boundary
+  { id:"personal-boundary-family", situationGroup:"boundary", relationship:"family", category:"personal", title:"Setting a Boundary with a Family Member", desc:"Tell someone you love that a pattern needs to change, without triggering guilt or reopening old wounds.", skills:["Assertiveness","Emotional Reg"], role:"Family Member", familyRoleCustomizable:true, scene:"A parent calls most evenings, and lately the calls have become longer, heavier and harder to end. They lean on you for decisions they are capable of making themselves, and hang up hurt if you try to shorten the call. You love them. You are also exhausted. Tonight you have decided to say something about the pattern before resentment starts to show up as distance instead of honesty.", needsFocus:"certainty,significance", counterpartNeedsFocus:"certainty,connection" },
+  { id:"personal-boundary-friend", situationGroup:"boundary", relationship:"friend", category:"personal", title:"Setting a Boundary with a Friend", desc:"Name a pattern that's starting to cost you, without it becoming an ultimatum.", skills:["Assertiveness","Clarity"], role:"Friend", scene:"A friend has got into the habit of turning up late, changing plans at the last minute, or assuming you will always flex around them. You have let it go each time because none of it, on its own, feels worth a conversation. Together, it has started to feel like your time matters less than theirs. Tonight you are going to name the pattern, calmly, before it quietly becomes the norm.", needsFocus:"significance,certainty", counterpartNeedsFocus:"certainty,connection", userInitiates:true },
+  { id:"personal-boundary-partner", situationGroup:"boundary", relationship:"partner", category:"personal", title:"Setting a Boundary with a Partner", desc:"Be clear about a recurring pattern, rather than hinting at it again.", skills:["Assertiveness","Clarity"], role:"Partner", scene:"Your partner has a habit that affects you directly: checking their phone throughout dinner, making plans on your behalf without asking, spending in a way you have not agreed on. You have mentioned it before, lightly, without it really landing. This time you want to be clear rather than hint at it, because the pattern is starting to sit between you in a way that hinting has not fixed.", needsFocus:"certainty,significance", counterpartNeedsFocus:"certainty,significance", userInitiates:true },
+  { id:"personal-boundary-stranger", situationGroup:"boundary", relationship:"stranger", category:"personal", title:"Setting a Boundary with a Stranger", desc:"Hold a fair, reasonable position with someone you have no relationship to protect.", skills:["Assertiveness","Clarity"], role:"Stranger or Service Provider", scene:"Work you paid for was not done to what was agreed, and the person responsible is minimising it, suggesting it is not really a problem, or that you are being difficult about it. You have no ongoing relationship to protect here, only a fair outcome to reach. You are not looking for a fight, but you are not leaving without this being resolved properly either.", needsFocus:"certainty,significance", counterpartNeedsFocus:"certainty,significance", userInitiates:true },
+
+  // A Difficult Conversation / Disagreement
+  { id:"personal-disagreement-family", situationGroup:"disagreement", relationship:"family", category:"personal", title:"A Disagreement with a Family Member", desc:"Hold a genuinely different view without it becoming about old family roles.", skills:["Listening","Assertiveness"], role:"Family Member", familyRoleCustomizable:true, scene:"A parent needs more support than they used to, and you and a family member do not agree on what that support should look like. Old patterns are close to the surface: who has always done more, who lives closer, who gets a say. You want a decision that is actually about what your parent needs, not about old scorekeeping, and you are the one trying to keep it there.", needsFocus:"significance,certainty", counterpartNeedsFocus:"significance,certainty", userInitiates:true },
+  { id:"personal-disagreement-friend", situationGroup:"disagreement", relationship:"friend", category:"personal", title:"A Disagreement with a Friend", desc:"Work through two different versions of the same moment, without it becoming who's right.", skills:["Listening","Clarity"], role:"Friend", scene:"You and a friend remember something that happened between you quite differently, and it has started to cause real friction, resurfacing whenever it gets referenced. Neither of you is lying. You are each carrying a different version of the same moment. You have decided this needs a real conversation rather than another eye-roll and a change of subject.", needsFocus:"certainty,significance", counterpartNeedsFocus:"certainty,significance", userInitiates:true },
+  { id:"personal-disagreement-partner", situationGroup:"disagreement", relationship:"partner", category:"personal", title:"A Disagreement with a Partner", desc:"Address a recurring friction point before it hardens into distance.", skills:["Listening","Emotional Reg"], role:"Partner", scene:"The same argument has resurfaced for the third time this month, always about the same thing: who carries the mental load of running the house. Neither of you is wrong exactly, but neither of you feels heard either. Your partner has gone quiet in the way that means they have given up trying to explain it again. Tonight you are the one opening it, and going first with listening rather than defending.", needsFocus:"connection,significance", counterpartNeedsFocus:"significance,connection", userInitiates:true },
+
+  // Tension at a Gathering
+  { id:"personal-gathering-family", situationGroup:"gathering", relationship:"family", category:"personal", title:"Tension at a Family Gathering", desc:"Address old tension with a family member before it surfaces, again, in front of everyone.", skills:["Conflict Res","Emotional Reg"], role:"Family Member", familyRoleCustomizable:true, scene:"A family event is two weeks away and everyone will be there, including a family member with whom things have been strained since a comment made at Christmas that neither of you has addressed. You do not want another year of politely avoiding each other over the same table. You have asked for ten minutes before the event to clear the air, on your terms, calmly.", needsFocus:"certainty,significance", counterpartNeedsFocus:"significance,certainty", userInitiates:true },
+  { id:"personal-gathering-friend", situationGroup:"gathering", relationship:"friend", category:"personal", title:"Tension at a Gathering with Friends", desc:"Raise how a friend's habit of dominating the room is landing on you, before the next gathering.", skills:["Assertiveness","Clarity"], role:"Friend", scene:"You are hosting or attending a gathering where a friend, someone you are genuinely close to, has a habit of dominating the room in a way that leaves less space for everyone else, including you. It has happened enough times that you notice yourself bracing before these events. You want to raise it with them directly, before the next gathering, rather than just quietly managing around it again.", needsFocus:"significance,certainty", counterpartNeedsFocus:"significance,connection", userInitiates:true },
+  { id:"personal-gathering-partner", situationGroup:"gathering", relationship:"partner", category:"personal", title:"Tension at a Gathering with Your Partner", desc:"Name how your partner shows up differently around others, before the next gathering.", skills:["Assertiveness","Emotional Reg"], role:"Partner", scene:"Your partner behaves differently around your friends, or their own, than they do with just the two of you: withdrawn, overly critical, or trying too hard in a way that embarrasses you both. It has happened at enough gatherings now that you notice yourself managing the room instead of enjoying it. You want to name what you are seeing, gently but clearly, before the next one.", needsFocus:"significance,certainty", counterpartNeedsFocus:"certainty,significance", userInitiates:true },
+
+  // Being Let Down
+  { id:"personal-letdown-family", situationGroup:"letdown", relationship:"family", category:"personal", title:"Being Let Down by a Family Member", desc:"Say plainly what a broken commitment cost you, without it becoming a verdict on the relationship.", skills:["Assertiveness","Clarity"], role:"Family Member", familyRoleCustomizable:true, scene:"A family member said they would be there for something that mattered to you, and did not come through, again, with an explanation that felt more like an excuse than a reason. You have absorbed this kind of disappointment before without naming it, telling yourself that is just how they are. This time you want to say plainly what it cost you, without turning it into a verdict on the whole relationship.", needsFocus:"significance,connection", counterpartNeedsFocus:"certainty,significance", userInitiates:true },
+  { id:"personal-letdown-friend", situationGroup:"letdown", relationship:"friend", category:"personal", title:"Being Let Down by a Friend", desc:"Tell a friend they hurt you, without over-explaining it away or letting it quietly end the friendship instead.", skills:["Assertiveness","Clarity"], role:"Friend", scene:"A close friend cancelled on you for the second time at short notice for something that mattered to you, and did not seem to register how much it cost you. You are tempted to simply say it is fine and let the friendship quietly cool instead. You have decided this one is worth naming honestly, because you would rather risk an uncomfortable conversation than lose someone slowly through silence.", needsFocus:"significance,connection", counterpartNeedsFocus:"certainty,significance", userInitiates:true },
+  { id:"personal-letdown-partner", situationGroup:"letdown", relationship:"partner", category:"personal", title:"Being Let Down by a Partner", desc:"Say what a broken commitment cost you, without it turning into a fight about everything at once.", skills:["Assertiveness","Clarity"], role:"Partner", scene:"Your partner said they would handle something that mattered to you, and did not, leaving you to either pick it up yourself or watch it fall through. This is not the first time. You have quietly absorbed it before, telling yourself it is not worth the friction. Tonight you want to say clearly what it cost you, without it turning into a fight about everything at once.", needsFocus:"significance,certainty", counterpartNeedsFocus:"certainty,significance", userInitiates:true },
+
+  // Rebuilding a Relationship
+  { id:"personal-rebuild-family", situationGroup:"rebuild", relationship:"family", category:"personal", title:"Rebuilding a Relationship with a Family Member", desc:"Reach back out after a long silence, without pretending nothing happened.", skills:["Empathy","Clarity"], role:"Family Member", familyRoleCustomizable:true, scene:"You and a family member have drifted apart over something that was never properly resolved: a falling out, a long silence, a hurt that neither of you named clearly at the time. You miss the relationship as it used to be. You have reached out to talk, and now you are face to face, both a little unsure how honest to be about what happened.", needsFocus:"connection,certainty", counterpartNeedsFocus:"significance,connection", userInitiates:true },
+  { id:"personal-rebuild-friend", situationGroup:"rebuild", relationship:"friend", category:"personal", title:"Rebuilding a Friendship", desc:"Reach out to a friend you've lost touch with, without pretending the distance wasn't real.", skills:["Empathy","Clarity"], role:"Friend you've drifted from", scene:"You and a friend who used to be close have drifted over the past year or two: no falling out, just life, distance and neither of you reaching out first. You miss them. You are also aware that too much time has passed to pretend nothing changed. You have reached out to meet up, and now you are sitting across from them, both a little unsure how honest to be about the gap.", needsFocus:"connection,certainty", counterpartNeedsFocus:"significance,connection", userInitiates:true },
+  { id:"personal-rebuild-partner", situationGroup:"rebuild", relationship:"partner", category:"personal", title:"Rebuilding Closeness with a Partner", desc:"Name a growing distance out loud, rather than waiting for it to fix itself.", skills:["Empathy","Clarity"], role:"Partner", scene:"You and your partner have grown distant over recent months, not through any single event, more through both of you being tired, busy, and increasingly polite instead of close. Neither of you has said it out loud. You have decided tonight is the night you name the distance directly, because waiting for it to fix itself has not worked.", needsFocus:"connection,certainty", counterpartNeedsFocus:"connection,significance", userInitiates:true },
+
+  // A One-Sided Relationship
+  { id:"personal-onesided-family", situationGroup:"onesided", relationship:"family", category:"personal", title:"A One-Sided Relationship with a Family Member", desc:"Name an imbalance that's been building, without it hardening into quiet distance instead.", skills:["Assertiveness","Clarity"], role:"Family Member", familyRoleCustomizable:true, scene:"You have noticed that in your relationship with a family member, you are almost always the one who reaches out, remembers, and makes the effort, and you rarely get the same back. It has been this way for long enough that you no longer expect it to be different, which is itself the problem. You want to name the imbalance honestly before it hardens into quiet distance.", needsFocus:"significance,certainty", counterpartNeedsFocus:"certainty,connection", userInitiates:true },
+  { id:"personal-onesided-friend", situationGroup:"onesided", relationship:"friend", category:"personal", title:"A One-Sided Friendship", desc:"Address a friendship that has quietly become mostly about their needs, without ending it out of resentment instead.", skills:["Assertiveness","Clarity"], role:"Friend", scene:"This friend reaches out to you reliably when they need something: advice, a favour, a shoulder. When things are going well for them, weeks pass without them getting in touch with you. You are the one who consistently checks in on them, remembers what is going on in their life and shows up when they need you, and you have noticed you rarely get the same back. You want to say something honest before you quietly start pulling away instead.", needsFocus:"significance,certainty", counterpartNeedsFocus:"certainty,connection", userInitiates:true },
+  { id:"personal-onesided-partner", situationGroup:"onesided", relationship:"partner", category:"personal", title:"A One-Sided Relationship with a Partner", desc:"Name a pattern of carrying the relationship alone, without it sounding like an ultimatum.", skills:["Assertiveness","Clarity"], role:"Partner", scene:"You have noticed that in your relationship, you are consistently the one who plans, initiates, and keeps things moving, while your partner defaults to going along with whatever you arrange. It felt easy at first. Now it feels like carrying the relationship alone. You want to name the pattern honestly, without it sounding like an ultimatum.", needsFocus:"significance,connection", counterpartNeedsFocus:"certainty,significance", userInitiates:true },
+
+  // When Someone Competes or Puts You Down
+  { id:"personal-competing-family", situationGroup:"competing", relationship:"family", category:"personal", title:"When a Family Member Competes or Puts You Down", desc:"Name a pattern of being undermined, without turning it into an accusation.", skills:["Assertiveness","Emotional Reg"], role:"Family Member", familyRoleCustomizable:true, scene:"Whenever you share good news, a family member finds a way to top it, minimise it, or quietly change the subject back to themselves. It has happened often enough that you have started to hold back what you share with them. You value the relationship and do not want to make an accusation out of it, but you also do not want to keep quietly editing yourself around them.", needsFocus:"significance,connection", counterpartNeedsFocus:"significance,certainty", userInitiates:true },
+  { id:"personal-competing-friend", situationGroup:"competing", relationship:"friend", category:"personal", title:"When a Friend Competes Instead of Celebrates", desc:"Name a pattern of subtle one-upping or deflection when you share good news, without accusing them of jealousy outright.", skills:["Assertiveness","Emotional Reg"], role:"Friend", scene:"Every time you share something good, a promotion, good news, a win, this friend finds a way to top it or change the subject. It has happened enough times that it cannot be a coincidence anymore, and it is starting to make you edit what you share with them. You value the friendship. You want to name the pattern without turning it into an accusation.", needsFocus:"significance,connection", counterpartNeedsFocus:"significance,certainty", userInitiates:true },
+  { id:"personal-competing-partner", situationGroup:"competing", relationship:"partner", category:"personal", title:"When a Partner Competes or Puts You Down", desc:"Name a pattern of small undercutting comments, without it becoming a bigger fight than it needs to be.", skills:["Assertiveness","Emotional Reg"], role:"Partner", scene:"Your partner has a habit of undercutting you in small ways: a joke at your expense in front of others, a dismissive comment about something you are proud of, that they would likely call harmless if you named it. Individually, each moment feels too small to raise. Together, a pattern is forming that is starting to cost you. You want to name it clearly, without turning it into a much bigger fight than it needs to be.", needsFocus:"significance,certainty", counterpartNeedsFocus:"significance,certainty", userInitiates:true },
 ];
 
 const HUMAN_NEEDS = {
@@ -416,6 +463,7 @@ function App() {
   const isEmbedded = (() => { try { return window.self !== window.top; } catch { return true; } })();
   const openFullScreen = () => { try { window.open(window.location.href, "_blank", "noopener"); } catch {} };
   const [catFilter, setCatFilter] = useState("all");
+  const [pendingSituation, setPendingSituation] = useState(null); // situationGroup id awaiting a relationship choice
   const [scenario, setScenario] = useState(null);
   const [activeScene, setActiveScene] = useState(""); // tailored to userContext when provided, falls back to scenario.scene
   const [userStarts, setUserStarts] = useState(true); // who speaks first once names are exchanged — defaulted per scenario, always user-overridable
@@ -424,6 +472,7 @@ function App() {
   const [userName, setUserName] = useState("");
   const [userRole, setUserRole] = useState("");
   const [otherPartyName, setOtherPartyName] = useState("");
+  const [familyRelation, setFamilyRelation] = useState(""); // e.g. "my mother" — overrides the generic role for family-customizable scenarios
   const [otherPartyLevel, setOtherPartyLevel] = useState("peer");
   const [openLevelPicker, setOpenLevelPicker] = useState(null);
   const [userContext, setUserContext] = useState("");
@@ -514,10 +563,27 @@ function App() {
 
   const VISIBLE_SCENARIOS = AUDIENCE_MODE === "corporate" ? SCENARIOS.filter(s => s.category !== "personal") : SCENARIOS;
   const filtered = catFilter === "all" ? VISIBLE_SCENARIOS : VISIBLE_SCENARIOS.filter(s => s.category === catFilter);
+  const displayCards = (() => {
+    const out = [];
+    const seenGroups = new Set();
+    filtered.forEach(sc => {
+      if (sc.situationGroup) {
+        if (!seenGroups.has(sc.situationGroup)) {
+          seenGroups.add(sc.situationGroup);
+          const meta = SITUATION_GROUPS[sc.situationGroup];
+          out.push({ isGroup:true, situationGroup:sc.situationGroup, category:sc.category, title:meta.title, desc:meta.desc, skills:meta.skills });
+        }
+      } else {
+        out.push(sc);
+      }
+    });
+    return out;
+  })();
 
   function selectScenario(sc) {
     setScenario(sc);
     setOtherPartyName("");
+    setFamilyRelation("");
     setUserStarts(!!sc.userInitiates);
     setView("setup");
   }
@@ -549,12 +615,18 @@ function App() {
   // instead of leaving them staring at a generic scene that doesn't match their real
   // situation. Falls back to the original scene if no context was given, or if the
   // call fails for any reason — a session should never be blocked by this.
+  function getEffectiveRole(sc) {
+    return (sc.familyRoleCustomizable && familyRelation.trim()) ? familyRelation.trim() : sc.role;
+  }
+
   async function getActiveScene(sc, ctx) {
     if (!ctx || !ctx.trim()) return sc.scene;
     try {
+      const effectiveCharacterRole = getEffectiveRole(sc);
+      const roleWasSpecified = sc.familyRoleCustomizable && familyRelation.trim();
       const sys = "You write concise, present-tense scenario briefings for a professional communication practice tool. Match the tone, structure and length of the example exactly. Return ONLY the rewritten scene text, no preamble, no quotation marks around it.";
       const userMsg = `Rewrite this scene briefing so it reflects the specific real situation described below.
-HARD CONSTRAINT, never break this: the other person in this scene is the user's ${sc.role}. That relationship must not change under any circumstances, no matter what the specific situation describes or implies. Never turn this ${sc.role} into a different relationship (for example, never turn a parent into a sibling, a friend into a partner, or a colleague into a family member). If the specific situation uses a pronoun implying a different gender than the original scene assumed, only adjust the gendered wording (e.g. "mother" to "father", "she" to "he") while keeping the relationship itself, ${sc.role}, exactly the same.
+HARD CONSTRAINT, never break this: the other person in this scene is the user's ${effectiveCharacterRole}. That relationship must not change under any circumstances, no matter what the specific situation describes or implies. Never turn this ${effectiveCharacterRole} into a different relationship (for example, never turn a parent into a sibling, a friend into a partner, or a colleague into a family member).${roleWasSpecified ? "" : ` If the specific situation uses a pronoun implying a different gender than the original scene assumed, only adjust the gendered wording (e.g. "mother" to "father", "she" to "he") while keeping the relationship itself, ${effectiveCharacterRole}, exactly the same.`}
 ${sc.category === "personal" ? "This is a personal, non-workplace relationship. Do not introduce office, meeting, colleague, or professional framing of any kind, even if the specific situation described touches on work topics." : ""}
 Keep the same second-person present-tense style, roughly the same length (3-5 sentences), and the same "moment of choice" ending.
 Original scene: ${sc.scene}
@@ -815,7 +887,8 @@ Specific real situation to incorporate: ${ctx.trim()}`;
     const nameInstruction = otherPartyName.trim()
       ? `Your character's name is: ${otherPartyName.trim()}. Use this name when you introduce yourself.`
       : "Do NOT introduce yourself with a name. Do not invent a name. Simply introduce yourself by your role only.";
-    return `You are about to play the role of: ${sc.role} in a practice scenario called "${sc.title}".
+    const effectiveCharacterRole = getEffectiveRole(sc);
+    return `You are about to play the role of: ${effectiveCharacterRole} in a practice scenario called "${sc.title}".
 ${genderInstruction}
 ${nameInstruction}
 Before the scene begins, introduce yourself briefly and warmly as the character you will be playing. Keep it to 2-3 sentences. Then ask the person their name so you can address them properly throughout the session. Be natural and human, not robotic. Do not begin the actual scenario yet.
@@ -877,7 +950,8 @@ Never refer to yourself as an AI. NEVER use em dashes. NEVER use asterisks or st
     const counterpartNeedsList = (sc.counterpartNeedsFocus || "").split(",").map(n => n.trim()).filter(Boolean)
       .map(n => n.charAt(0).toUpperCase() + n.slice(1) + (HUMAN_NEEDS[n] ? ` (${HUMAN_NEEDS[n]})` : "")).join("; ");
     const seniorityCtx = isPersonal ? "" : (SENIORITY_REGISTER[seniority] || "");
-    const characterDesc = otherPartyName.trim() ? `${sc.role}, specifically described by the person you are speaking with as: ${otherPartyName.trim()}. Embody this specific description rather than a generic version of the role.` : sc.role;
+    const effectiveCharacterRole = getEffectiveRole(sc);
+    const characterDesc = otherPartyName.trim() ? `${effectiveCharacterRole}, specifically described by the person you are speaking with as: ${otherPartyName.trim()}. Embody this specific description rather than a generic version of the role.` : effectiveCharacterRole;
     return `You are roleplaying as: ${characterDesc}.
 Scenario: ${sc.title}.
 Scene: ${activeScene || sc.scene}.
@@ -1185,8 +1259,8 @@ Write every field, including each item in strengths, in direct second person: "y
             ))}
           </div>
           <div id="scenario-grid" style={s.grid}>
-            {filtered.map(sc => (
-              <div key={sc.id} style={s.card} onClick={() => selectScenario(sc)}
+            {displayCards.map(sc => (
+              <div key={sc.isGroup ? sc.situationGroup : sc.id} style={s.card} onClick={() => sc.isGroup ? setPendingSituation(sc.situationGroup) : selectScenario(sc)}
                 onMouseEnter={e => { e.currentTarget.style.borderColor=TEAL; e.currentTarget.style.background="rgba(61,133,140,0.12)"; }}
                 onMouseLeave={e => { e.currentTarget.style.borderColor="rgba(61,133,140,0.12)"; e.currentTarget.style.background="rgba(61,133,140,0.07)"; }}>
                 <div style={s.cardCat}>{CAT_LABELS[sc.category]}</div>
@@ -1201,6 +1275,30 @@ Write every field, including each item in strengths, in direct second person: "y
               </div>
             ))}
           </div>
+          {pendingSituation && (
+            <div style={{ position:"fixed", inset:0, background:"rgba(1,10,14,0.88)", zIndex:60, display:"flex", alignItems:"center", justifyContent:"center", padding:20 }} onClick={() => setPendingSituation(null)}>
+              <div style={{ background:NAVY, border:`1px solid rgba(61,133,140,0.3)`, borderRadius:14, padding:"32px 28px", maxWidth:520, width:"100%" }} onClick={e => e.stopPropagation()}>
+                <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:TEAL, cursor:"pointer", marginBottom:14 }} onClick={() => setPendingSituation(null)}>← Back to situations</div>
+                <div style={{ fontFamily:"'Cormorant Garamond', Georgia, serif", fontSize:"clamp(22px, 3.5vw, 28px)", color:"#EEF8F9", marginBottom:8 }}>{SITUATION_GROUPS[pendingSituation]?.title}</div>
+                <div style={{ fontSize:"clamp(13px, 2vw, 15px)", color:"rgba(232,244,245,0.7)", marginBottom:22 }}>Who is this with?</div>
+                <div style={{ display:"flex", flexDirection:"column", gap:10 }}>
+                  {(SITUATION_GROUPS[pendingSituation]?.order || []).map(rel => (
+                    <div key={rel} style={{ border:`1px solid rgba(61,133,140,0.3)`, borderRadius:9, padding:"14px 16px", cursor:"pointer", background:"rgba(61,133,140,0.06)" }}
+                      onClick={() => {
+                        const match = SCENARIOS.find(s => s.situationGroup === pendingSituation && s.relationship === rel);
+                        if (match) selectScenario(match);
+                        setPendingSituation(null);
+                      }}
+                      onMouseEnter={e => { e.currentTarget.style.borderColor=TEAL; e.currentTarget.style.background="rgba(61,133,140,0.15)"; }}
+                      onMouseLeave={e => { e.currentTarget.style.borderColor="rgba(61,133,140,0.3)"; e.currentTarget.style.background="rgba(61,133,140,0.06)"; }}>
+                      <div style={{ fontSize:"clamp(14px, 2.1vw, 17px)", fontWeight:600, color:"#EEF8F9" }}>{RELATIONSHIP_LABELS[rel]?.label}</div>
+                      <div style={{ fontSize:"clamp(12px, 1.7vw, 14px)", color:"rgba(232,244,245,0.6)" }}>{RELATIONSHIP_LABELS[rel]?.sub}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -1295,6 +1393,13 @@ Write every field, including each item in strengths, in direct second person: "y
           <input style={s.fieldInput} placeholder={scenario?.category === "personal" ? "e.g. Alex, my closest friend" : "e.g. Sarah, my line manager"} value={otherPartyName} onChange={e => setOtherPartyName(e.target.value)} />
           <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:"rgba(232,244,245,0.55)", marginTop:6 }}>If you leave this blank the character will not introduce themselves by name.</div>
         </div>
+        {scenario?.familyRoleCustomizable && (
+          <div style={{ marginBottom:22 }}>
+            <label style={s.fieldLabel}>Who is this? (optional)</label>
+            <input style={s.fieldInput} placeholder="e.g. my mother, my older brother, my son" value={familyRelation} onChange={e => setFamilyRelation(e.target.value)} />
+            <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:"rgba(232,244,245,0.55)", marginTop:6 }}>Tells the character who they are to you. Leave blank and they'll stay a general family member.</div>
+          </div>
+        )}
         {scenario?.category !== "personal" && (
           <LevelPicker
             label="Their level, relative to you"
@@ -1716,9 +1821,9 @@ Write every field, including each item in strengths, in direct second person: "y
                 <div style={{ display:"flex", gap:10, flexWrap:"wrap" }}>
                   {voiceEnabled && (
                     <button
-                      onClick={() => speakText(debrief.alternativeResponse, true)}
+                      onClick={() => { if (isSpeaking) { stopSpeaking(); } else { speakText(debrief.alternativeResponse, true); } }}
                       style={{ padding:"9px 16px", background:"transparent", border:`1px solid rgba(61,133,140,0.3)`, borderRadius:7, color:"rgba(232,244,245,0.75)", fontFamily:"'DM Sans', Arial, sans-serif", fontSize:"clamp(12px, 1.8vw, 15px)", cursor:"pointer" }}>
-                      🔊 Hear this read aloud
+                      {isSpeaking ? "⏸ Stop" : "🔊 Hear this read aloud"}
                     </button>
                   )}
                   <button
