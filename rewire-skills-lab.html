@@ -2279,14 +2279,24 @@ function buildNewModuleDebriefPrompt(moduleId, moduleTitle, messages, userName, 
   const conv = messages.map(m => `${m.role === "user" ? userName || "You" : "Coach"}: ${m.content}`).join("\n\n");
   const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
   const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+  const coachingLens = `COACHING LENS (this is how you think, never how you write — none of the following may ever appear as a name, label, technique, book, or method reference anywhere in your output. No matter how relevant a term feels, translate it into your own plain natural coaching voice instead of naming it):
+- A hard conversation usually has three tangled layers: what factually happened, what each person felt about it, and what it seemed to mean about who they are. A reaction that is bigger than the facts alone would explain is often the identity layer driving it, not the facts.
+- Before content can land, the emotional climate has to feel safe enough to hear it. People who feel judged, cornered, or diagnosed defend; people who feel respected and understood open up. Naming a shared goal, or the other person's likely reasonable or positive intent, before disagreeing, often does more work than the disagreement itself.
+- The clearest, least escalating way to say something hard follows a simple shape: describe the specific observable thing that happened, name the feeling it produced, name the need or value underneath that feeling, then make one specific, doable request. Absolutes ("always," "never") and character judgments escalate; specific, current description de-escalates.
+- Reflecting back what the other person actually said, in your own words, before responding to it, is often the single highest-leverage move available.
+- Genuine curiosity, expressed as an open question about the other person's reasoning or constraints, moves things forward faster than a well-built argument does.
+- Directness and warmth are not a trade-off. The strongest examples hold both at once: clear enough to act on, warm enough that the other person stays in the room for it.
+- A request lands best when it is anchored to something beyond pure preference: a shared standard, a prior agreement, or the actual impact, rather than just "I want."
+Use this lens to diagnose what actually went right or wrong. The lens shapes your thinking; it must never appear in the words you write.`;
   return `Senior performance strategist. A professional just completed a ${moduleTitle} drill in the Rewire Skills Lab.
 
 Role: ${userRole || "Not specified"}. Seniority level: ${seniorityLabel}. What they wanted to work on: ${userContext || "Not specified"}.
 ${seniorityCtx ? `Scoring standard: ${seniorityCtx} All feedback must be calibrated to this level.` : ""}
+${coachingLens}
 Full drill: ${conv}
 
 Return ONLY valid JSON:
-{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their seniority level, direct honest empowering","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences","registerNote":"1 honest sentence on whether their language matched their seniority level","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on how human needs played out in this drill","takeaway":"One powerful sentence to carry into the next real situation","nextDrill":"One specific thing to practise next time, named precisely"}
+{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their seniority level, direct honest empowering","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Diagnosed using the coaching lens (e.g. were facts, feelings and identity tangled together; was safety established; was a judgment made instead of a specific observation), described in plain language with no framework terms. Single most important development area at their level, specific actionable empowering 2-3 sentences","registerNote":"1 honest sentence on whether their language matched their seniority level","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on how human needs played out in this drill","takeaway":"One powerful sentence to carry into the next real situation","nextDrill":"One specific thing to practise next time, named precisely"}
 
 Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never use em dashes. Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
 }
@@ -2294,14 +2304,24 @@ function buildLeadershipDebriefPrompt(messages, styleName, styleId, userName, us
   const conv = messages.map(m => `${m.role === "user" ? userName || "You" : "Coach"}: ${m.content}`).join("\n\n");
   const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
   const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+  const coachingLens = `COACHING LENS (this is how you think, never how you write — none of the following may ever appear as a name, label, technique, book, or method reference anywhere in your output. No matter how relevant a term feels, translate it into your own plain natural coaching voice instead of naming it):
+- A hard conversation usually has three tangled layers: what factually happened, what each person felt about it, and what it seemed to mean about who they are. A reaction that is bigger than the facts alone would explain is often the identity layer driving it, not the facts.
+- Before content can land, the emotional climate has to feel safe enough to hear it. People who feel judged, cornered, or diagnosed defend; people who feel respected and understood open up. Naming a shared goal, or the other person's likely reasonable or positive intent, before disagreeing, often does more work than the disagreement itself.
+- The clearest, least escalating way to say something hard follows a simple shape: describe the specific observable thing that happened, name the feeling it produced, name the need or value underneath that feeling, then make one specific, doable request. Absolutes ("always," "never") and character judgments escalate; specific, current description de-escalates.
+- Reflecting back what the other person actually said, in your own words, before responding to it, is often the single highest-leverage move available.
+- Genuine curiosity, expressed as an open question about the other person's reasoning or constraints, moves things forward faster than a well-built argument does.
+- Directness and warmth are not a trade-off. The strongest examples hold both at once: clear enough to act on, warm enough that the other person stays in the room for it.
+- A request lands best when it is anchored to something beyond pure preference: a shared standard, a prior agreement, or the actual impact, rather than just "I want."
+Use this lens to diagnose what actually went right or wrong. The lens shapes your thinking; it must never appear in the words you write.`;
   return `Senior leadership development expert. A professional just completed a ${styleName} leadership drill.
 
 Role: ${userRole || "Not specified"}. Seniority level: ${seniorityLabel}. What they wanted to work on: ${userContext || "Not specified"}.
 ${seniorityCtx ? `Scoring standard: ${seniorityCtx} All feedback must be calibrated to this level.` : ""}
+${coachingLens}
 Full drill: ${conv}
 
 Return ONLY valid JSON:
-{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their level, direct honest empowering","defaultStyle":"The leadership style their responses most reflected (one of: Directive, Coaching, Democratic, Visionary, Pacesetting, Affiliative)","styleNotes":"1-2 sentences on how this default style served them in this drill at their level","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences","registerNote":"1 honest sentence on whether their leadership language matched their seniority level","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on how human needs played out in the scene","takeaway":"One powerful sentence to carry into the next real leadership moment","nextDrill":"One specific thing to practise next time in the Lab"}
+{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their level, direct honest empowering","defaultStyle":"The leadership style their responses most reflected (one of: Directive, Coaching, Democratic, Visionary, Pacesetting, Affiliative)","styleNotes":"1-2 sentences on how this default style served them in this drill at their level","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Diagnosed using the coaching lens (e.g. were facts, feelings and identity tangled together; was safety established; was a judgment made instead of a specific observation), described in plain language with no framework terms. Single most important development area at their level, specific actionable empowering 2-3 sentences","registerNote":"1 honest sentence on whether their leadership language matched their seniority level","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on how human needs played out in the scene","takeaway":"One powerful sentence to carry into the next real leadership moment","nextDrill":"One specific thing to practise next time in the Lab"}
 
 Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never inflate scores or use hollow praise. Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
 }
@@ -2309,14 +2329,24 @@ function buildCommDebriefPrompt(messages, styleName, userName, userRole, userCon
   const conv = messages.map(m => `${m.role === "user" ? userName || "You" : "Coach"}: ${m.content}`).join("\n\n");
   const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
   const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+  const coachingLens = `COACHING LENS (this is how you think, never how you write — none of the following may ever appear as a name, label, technique, book, or method reference anywhere in your output. No matter how relevant a term feels, translate it into your own plain natural coaching voice instead of naming it):
+- A hard conversation usually has three tangled layers: what factually happened, what each person felt about it, and what it seemed to mean about who they are. A reaction that is bigger than the facts alone would explain is often the identity layer driving it, not the facts.
+- Before content can land, the emotional climate has to feel safe enough to hear it. People who feel judged, cornered, or diagnosed defend; people who feel respected and understood open up. Naming a shared goal, or the other person's likely reasonable or positive intent, before disagreeing, often does more work than the disagreement itself.
+- The clearest, least escalating way to say something hard follows a simple shape: describe the specific observable thing that happened, name the feeling it produced, name the need or value underneath that feeling, then make one specific, doable request. Absolutes ("always," "never") and character judgments escalate; specific, current description de-escalates.
+- Reflecting back what the other person actually said, in your own words, before responding to it, is often the single highest-leverage move available.
+- Genuine curiosity, expressed as an open question about the other person's reasoning or constraints, moves things forward faster than a well-built argument does.
+- Directness and warmth are not a trade-off. The strongest examples hold both at once: clear enough to act on, warm enough that the other person stays in the room for it.
+- A request lands best when it is anchored to something beyond pure preference: a shared standard, a prior agreement, or the actual impact, rather than just "I want."
+Use this lens to diagnose what actually went right or wrong. The lens shapes your thinking; it must never appear in the words you write.`;
   return `Senior communication coach. A professional just completed a ${styleName} communication style drill.
 
 Role: ${userRole || "Not specified"}. Seniority level: ${seniorityLabel}. What they wanted to work on: ${userContext || "Not specified"}.
 ${seniorityCtx ? `Scoring standard: ${seniorityCtx} All feedback must be calibrated to this level.` : ""}
+${coachingLens}
 Full drill: ${conv}
 
 Return ONLY valid JSON:
-{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their level, direct honest empowering","detectedStyle":"The communication style most visible in their responses (one of: Assertive, Passive, Aggressive, Passive-Aggressive, Persuasive, Diplomatic)","styleNotes":"1-2 sentences on how this style served or limited them at their level","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences","registerNote":"1 honest sentence on whether their communication register matched their seniority level","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in the scene","takeaway":"One powerful sentence to carry into the next real conversation","nextDrill":"One specific thing to practise next time in the Lab"}
+{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their level, direct honest empowering","detectedStyle":"The communication style most visible in their responses (one of: Assertive, Passive, Aggressive, Passive-Aggressive, Persuasive, Diplomatic)","styleNotes":"1-2 sentences on how this style served or limited them at their level","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Diagnosed using the coaching lens (e.g. were facts, feelings and identity tangled together; was safety established; was a judgment made instead of a specific observation), described in plain language with no framework terms. Single most important development area at their level, specific actionable empowering 2-3 sentences","registerNote":"1 honest sentence on whether their communication register matched their seniority level","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in the scene","takeaway":"One powerful sentence to carry into the next real conversation","nextDrill":"One specific thing to practise next time in the Lab"}
 
 Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
 }
@@ -2324,14 +2354,24 @@ function buildExecDebriefPrompt(messages, scenarioLabel, userName, userRole, use
   const conv = messages.map(m => `${m.role === "user" ? userName || "You" : "Coach"}: ${m.content}`).join("\n\n");
   const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
   const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+  const coachingLens = `COACHING LENS (this is how you think, never how you write — none of the following may ever appear as a name, label, technique, book, or method reference anywhere in your output. No matter how relevant a term feels, translate it into your own plain natural coaching voice instead of naming it):
+- A hard conversation usually has three tangled layers: what factually happened, what each person felt about it, and what it seemed to mean about who they are. A reaction that is bigger than the facts alone would explain is often the identity layer driving it, not the facts.
+- Before content can land, the emotional climate has to feel safe enough to hear it. People who feel judged, cornered, or diagnosed defend; people who feel respected and understood open up. Naming a shared goal, or the other person's likely reasonable or positive intent, before disagreeing, often does more work than the disagreement itself.
+- The clearest, least escalating way to say something hard follows a simple shape: describe the specific observable thing that happened, name the feeling it produced, name the need or value underneath that feeling, then make one specific, doable request. Absolutes ("always," "never") and character judgments escalate; specific, current description de-escalates.
+- Reflecting back what the other person actually said, in your own words, before responding to it, is often the single highest-leverage move available.
+- Genuine curiosity, expressed as an open question about the other person's reasoning or constraints, moves things forward faster than a well-built argument does.
+- Directness and warmth are not a trade-off. The strongest examples hold both at once: clear enough to act on, warm enough that the other person stays in the room for it.
+- A request lands best when it is anchored to something beyond pure preference: a shared standard, a prior agreement, or the actual impact, rather than just "I want."
+Use this lens to diagnose what actually went right or wrong. The lens shapes your thinking; it must never appear in the words you write.`;
   return `Senior executive coach specialising in boardroom communication and executive presence. A professional just completed an Executive Presence drill: ${scenarioLabel}.
 
 Role: ${userRole || "Not specified"}. Seniority level: ${seniorityLabel}. What they wanted to work on: ${userContext || "Not specified"}.
 ${seniorityCtx ? `Scoring standard: ${seniorityCtx}` : ""}
+${coachingLens}
 Full drill: ${conv}
 
 Return ONLY valid JSON:
-{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their level, direct honest empowering","beforeAfter":{"before":"Example phrase from their responses that reflects their current register (quote exactly)","after":"How that same thought would sound in boardroom language at their level"},"strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences","hedgingExamples":["phrase that undermined authority if any - leave array empty if none found"],"needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in the scene","takeaway":"One powerful sentence to carry into the next senior conversation","nextDrill":"One specific thing to practise next time in the Lab"}
+{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance calibrated to their level, direct honest empowering","beforeAfter":{"before":"Example phrase from their responses that reflects their current register (quote exactly)","after":"How that same thought would sound in boardroom language at their level"},"strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Diagnosed using the coaching lens (e.g. were facts, feelings and identity tangled together; was safety established; was a judgment made instead of a specific observation), described in plain language with no framework terms. Single most important development area at their level, specific actionable empowering 2-3 sentences","hedgingExamples":["phrase that undermined authority if any - leave array empty if none found"],"needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in the scene","takeaway":"One powerful sentence to carry into the next senior conversation","nextDrill":"One specific thing to practise next time in the Lab"}
 
 Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
 }
@@ -2339,14 +2379,24 @@ function buildThinkingDebriefPrompt(messages, frameworkLabel, frameworkTeachingF
   const conv = messages.map(m => `${m.role === "user" ? userName || "You" : "Coach"}: ${m.content}`).join("\n\n");
   const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
   const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
+  const coachingLens = `COACHING LENS (this is how you think, never how you write — none of the following may ever appear as a name, label, technique, book, or method reference anywhere in your output. No matter how relevant a term feels, translate it into your own plain natural coaching voice instead of naming it):
+- A hard conversation usually has three tangled layers: what factually happened, what each person felt about it, and what it seemed to mean about who they are. A reaction that is bigger than the facts alone would explain is often the identity layer driving it, not the facts.
+- Before content can land, the emotional climate has to feel safe enough to hear it. People who feel judged, cornered, or diagnosed defend; people who feel respected and understood open up. Naming a shared goal, or the other person's likely reasonable or positive intent, before disagreeing, often does more work than the disagreement itself.
+- The clearest, least escalating way to say something hard follows a simple shape: describe the specific observable thing that happened, name the feeling it produced, name the need or value underneath that feeling, then make one specific, doable request. Absolutes ("always," "never") and character judgments escalate; specific, current description de-escalates.
+- Reflecting back what the other person actually said, in your own words, before responding to it, is often the single highest-leverage move available.
+- Genuine curiosity, expressed as an open question about the other person's reasoning or constraints, moves things forward faster than a well-built argument does.
+- Directness and warmth are not a trade-off. The strongest examples hold both at once: clear enough to act on, warm enough that the other person stays in the room for it.
+- A request lands best when it is anchored to something beyond pure preference: a shared standard, a prior agreement, or the actual impact, rather than just "I want."
+Use this lens to diagnose what actually went right or wrong. The lens shapes your thinking; it must never appear in the words you write.`;
   return `Senior thinking coach specialising in ${frameworkLabel} (${frameworkTeachingFocus}). A professional just completed a practice drill in this framework.
 
 Role: ${userRole || "Not specified"}. Seniority level: ${seniorityLabel}. What they wanted to work on: ${userContext || "Not specified"}.
 ${seniorityCtx ? `Scoring standard: ${seniorityCtx}` : ""}
+${coachingLens}
 Full drill: ${conv}
 
 Return ONLY valid JSON:
-{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance, direct honest empowering","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area, specific actionable empowering 2-3 sentences","blindSpot":"1-2 sentences naming a specific assumption or pattern in their thinking that the framework helped surface, or that they should watch for next time","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in the scene","takeaway":"One powerful sentence to carry into the next real decision or problem","nextDrill":"One specific thing to practise next time in the Lab"}
+{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences on overall performance, direct honest empowering","strengths":["Strength 1 specific","Strength 2 specific","Strength 3 specific"],"developmentArea":"Diagnosed using the coaching lens (e.g. were facts, feelings and identity tangled together; was safety established; was a judgment made instead of a specific observation), described in plain language with no framework terms. Single most important development area, specific actionable empowering 2-3 sentences","blindSpot":"1-2 sentences naming a specific assumption or pattern in their thinking that the framework helped surface, or that they should watch for next time","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in the scene","takeaway":"One powerful sentence to carry into the next real decision or problem","nextDrill":"One specific thing to practise next time in the Lab"}
 
 Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Write every field, including each item in strengths, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
 }
@@ -3454,6 +3504,9 @@ function App() {
   const voiceInputRef = useRef("");
   const autoSendRef = useRef(false);
   const sendMessageRef = useRef(() => {});
+  const manualStopRef = useRef(false);
+  const baseInputRef = useRef("");
+  const sessionFinalRef = useRef("");
   const audioRef = useRef(null);
   function isMobileViewport() {
     return typeof window !== "undefined" && window.innerWidth <= 700;
@@ -3536,6 +3589,66 @@ function App() {
   }
 
   // ── VOICE ──
+  function beginRecognitionSession() {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const r = new SR();
+    r.continuous = true; // keeps listening through pauses — see merge logic below for why this is now safe
+    r.interimResults = true;
+    r.lang = "en-GB";
+    r.onstart = () => setIsListening(true);
+    // This engine sometimes marks a growing restatement of the SAME utterance as
+    // "final" more than once ("how" -> "how you" -> "how you doing"), and sometimes
+    // marks a genuinely NEW, separate chunk as final. Those need opposite handling: a
+    // restatement should REPLACE what came before, new content should be APPENDED.
+    // Check whether the new text starts with what we already have: if so it's a
+    // restatement, replace; if not, it's new, append rather than risk dropping it.
+    let instanceFinal = "";
+    r.onresult = e => {
+      if (!e.results.length) return;
+      const last = e.results[e.results.length - 1];
+      const text = last[0].transcript.trim();
+      if (last.isFinal && text) {
+        const prevLower = instanceFinal.toLowerCase();
+        const textLower = text.toLowerCase();
+        if (!instanceFinal || textLower.startsWith(prevLower)) {
+          instanceFinal = text; // restatement (or first chunk) — replace
+        } else {
+          instanceFinal = instanceFinal + " " + text; // not a clean restatement — append, never drop
+        }
+      }
+      const interimPart = last.isFinal ? "" : text;
+      const combined = [baseInputRef.current, sessionFinalRef.current, instanceFinal, interimPart].filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
+      setInput(combined);
+      voiceInputRef.current = combined;
+    };
+    r.onend = () => {
+      if (instanceFinal) {
+        sessionFinalRef.current = sessionFinalRef.current ? sessionFinalRef.current + " " + instanceFinal : instanceFinal;
+      }
+      if (manualStopRef.current) {
+        setIsListening(false);
+        if (autoSendRef.current) {
+          autoSendRef.current = false;
+          const finalText = voiceInputRef.current.trim();
+          if (finalText) sendMessageRef.current(finalText);
+        }
+      } else {
+        // Belt-and-braces: some mobile browsers end a "continuous" session on their own
+        // after a pause regardless of the flag above. If the person hasn't pressed
+        // Stop, silently resume rather than going dead. With continuous:true this
+        // should be rare in normal use, keeping handoff-gap word loss rare too.
+        beginRecognitionSession();
+      }
+    };
+    r.onerror = e => {
+      if (e.error === "no-speech") return;
+      if (!manualStopRef.current && (e.error === "aborted" || e.error === "network")) return;
+      manualStopRef.current = true;
+      setIsListening(false);
+    };
+    recognitionRef.current = r;
+    r.start();
+  }
   function startListening() {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) {
@@ -3543,34 +3656,14 @@ function App() {
       return;
     }
     if (recognitionRef.current) recognitionRef.current.stop();
-    const r = new SR();
-    r.continuous = true;
-    r.interimResults = true;
-    r.lang = "en-GB";
-    const existingInput = input.trim();
-    r.onstart = () => setIsListening(true);
-    r.onresult = e => {
-      const transcript = Array.from(e.results).map(r => r[0].transcript).join("");
-      const combined = existingInput ? existingInput + " " + transcript : transcript;
-      setInput(combined);
-      voiceInputRef.current = combined;
-    };
-    r.onend = () => {
-      setIsListening(false);
-      if (autoSendRef.current) {
-        autoSendRef.current = false;
-        const finalText = voiceInputRef.current.trim();
-        if (finalText) sendMessageRef.current(finalText);
-      }
-    };
-    r.onerror = e => {
-      if (e.error !== "no-speech") setIsListening(false);
-    };
-    recognitionRef.current = r;
-    r.start();
+    manualStopRef.current = false;
+    baseInputRef.current = input.trim();
+    sessionFinalRef.current = "";
+    beginRecognitionSession();
   }
   function stopListening(autoSend = false) {
     autoSendRef.current = autoSend;
+    manualStopRef.current = true;
     if (recognitionRef.current) {
       recognitionRef.current.stop();
       recognitionRef.current = null;
@@ -4149,9 +4242,13 @@ Be precise. Be empowering. Address them as ${userName || "you"}.`;
     setDebriefLoading(false);
   }
   function resetToSetup() {
+    manualStopRef.current = true;
+    if (recognitionRef.current) { recognitionRef.current.stop(); recognitionRef.current = null; }
     historyRef.current = [];
     voiceInputRef.current = "";
     autoSendRef.current = false;
+    baseInputRef.current = "";
+    sessionFinalRef.current = "";
     setMessages([]);
     setInsights([]);
     setScores({});
@@ -6115,7 +6212,8 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
         marginTop: 8
       }
     }, /*#__PURE__*/React.createElement("div", {
-      style: s.inputHint
+      style: s.inputHint,
+      className: "skills-desktop-actions"
     }, /*#__PURE__*/React.createElement("span", null, "Enter to send"), /*#__PURE__*/React.createElement("span", null, "Shift+Enter for new line")), /*#__PURE__*/React.createElement("div", {
       style: {
         display: "flex",

@@ -476,6 +476,9 @@ function App() {
   const voiceInputRef = useRef("");   // always holds the freshest transcribed text, no render lag
   const autoSendRef = useRef(false);  // set when Stop Listening should send immediately once recognition truly ends
   const sendMessageRef = useRef(() => {}); // always points at the current sendMessage, never a frozen one
+  const manualStopRef = useRef(false); // true only once the person actually presses Stop
+  const baseInputRef = useRef("");     // what was already typed before this listening session started
+  const sessionFinalRef = useRef("");  // finalized speech accumulated across this whole session, incl. any mobile auto-restarts
   const audioRef = useRef(null);
 
   // Voice character map - ElevenLabs voice IDs per scenario category
@@ -563,6 +566,80 @@ function App() {
   }
 
   // ── SPEECH INPUT ──
+  function beginRecognitionSession() {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const recognition = new SpeechRecognition();
+    recognition.continuous = true; // keeps listening through pauses — see merge logic below for why this is now safe
+    recognition.interimResults = true;
+    recognition.lang = "en-GB";
+
+    recognition.onstart = () => setIsListening(true);
+
+    // This engine sometimes marks a growing restatement of the SAME utterance as
+    // "final" more than once ("how" -> "how you" -> "how you doing"), and sometimes
+    // marks a genuinely NEW, separate chunk as final ("how you doing" -> "because you
+    // have had a lot on your plate"). Those need opposite handling: a restatement
+    // should REPLACE what came before, new content should be APPENDED to it. Blindly
+    // replacing on every final result (an earlier version of this code) caused real
+    // content to be silently dropped whenever the engine produced a genuinely new
+    // chunk instead of a restatement. The fix: check whether the new text starts with
+    // what we already have. If it does, it's a restatement, replace. If it doesn't,
+    // it's new, append.
+    let instanceFinal = "";
+    recognition.onresult = (e) => {
+      if (!e.results.length) return;
+      const last = e.results[e.results.length - 1];
+      const text = last[0].transcript.trim();
+      if (last.isFinal && text) {
+        const prevLower = instanceFinal.toLowerCase();
+        const textLower = text.toLowerCase();
+        if (!instanceFinal || textLower.startsWith(prevLower)) {
+          instanceFinal = text; // restatement (or first chunk) — replace
+        } else {
+          instanceFinal = instanceFinal + " " + text; // not a clean restatement — treat as new content, append rather than risk dropping it
+        }
+      }
+      const interimPart = last.isFinal ? "" : text;
+      const combined = [baseInputRef.current, sessionFinalRef.current, instanceFinal, interimPart]
+        .filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
+      setInput(combined);
+      voiceInputRef.current = combined; // update immediately, don't wait on React's render cycle
+    };
+
+    recognition.onend = () => {
+      // Bank whatever this instance finalized exactly once, before it's discarded.
+      if (instanceFinal) {
+        sessionFinalRef.current = sessionFinalRef.current ? sessionFinalRef.current + " " + instanceFinal : instanceFinal;
+      }
+      if (manualStopRef.current) {
+        setIsListening(false);
+        if (autoSendRef.current) {
+          autoSendRef.current = false;
+          const finalText = voiceInputRef.current.trim();
+          if (finalText) sendMessageRef.current(finalText);
+        }
+      } else {
+        // Belt-and-braces: some mobile browsers end a "continuous" session on their
+        // own after a pause regardless of the flag above. If that happens and the
+        // person hasn't pressed Stop, silently start a new session so listening
+        // resumes rather than quietly going dead. With continuous:true this should be
+        // rare in normal use, which is what keeps handoff gaps (and the words lost in
+        // them) rare too.
+        beginRecognitionSession();
+      }
+    };
+
+    recognition.onerror = (e) => {
+      if (e.error === "no-speech") return; // a pause, not a real error — onend will decide what happens next
+      if (!manualStopRef.current && (e.error === "aborted" || e.error === "network")) return; // onend will restart it
+      manualStopRef.current = true;
+      setIsListening(false);
+    };
+
+    recognitionRef.current = recognition;
+    recognition.start();
+  }
+
   function startListening() {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) {
@@ -570,36 +647,15 @@ function App() {
       return;
     }
     if (recognitionRef.current) { recognitionRef.current.stop(); }
-    const recognition = new SpeechRecognition();
-    recognition.continuous = true; // keeps listening through pauses
-    recognition.interimResults = true;
-    recognition.lang = "en-GB";
-    const existingInput = input.trim(); // capture what is already typed
-    recognition.onstart = () => setIsListening(true);
-    recognition.onresult = (e) => {
-      const transcript = Array.from(e.results).map(r => r[0].transcript).join("");
-      // Append to existing input rather than replacing it
-      const combined = existingInput ? existingInput + " " + transcript : transcript;
-      setInput(combined);
-      voiceInputRef.current = combined; // update immediately, don't wait on React's render cycle
-    };
-    recognition.onend = () => {
-      setIsListening(false);
-      if (autoSendRef.current) {
-        autoSendRef.current = false;
-        const finalText = voiceInputRef.current.trim();
-        if (finalText) sendMessageRef.current(finalText);
-      }
-    };
-    recognition.onerror = (e) => {
-      if (e.error !== "no-speech") setIsListening(false);
-    };
-    recognitionRef.current = recognition;
-    recognition.start();
+    manualStopRef.current = false;
+    baseInputRef.current = input.trim(); // capture what is already typed
+    sessionFinalRef.current = "";
+    beginRecognitionSession();
   }
 
   function stopListening(autoSend = false) {
     autoSendRef.current = autoSend;
+    manualStopRef.current = true;
     if (recognitionRef.current) {
       // .stop() is asynchronous — the engine still delivers any final result(s) before
       // onend fires. Sending happens from onend, never from a fixed delay, so it never
@@ -933,6 +989,16 @@ Give ONE clear performance insight calibrated to their level. What are they doin
     const seniorityLabel = SENIORITY_LEVELS.find(l => l.value === seniority)?.label || "";
     const seniorityCtx = SENIORITY_REGISTER[seniority] || "";
     const tm = getToneMeta(tone);
+    const coachingLens = `COACHING LENS (this is how you think, never how you write — none of the following may ever appear as a name, label, technique, book, or method reference anywhere in your output. No matter how relevant a term feels, translate it into your own plain natural coaching voice instead of naming it):
+- A hard conversation usually has three tangled layers: what factually happened, what each person felt about it, and what it seemed to mean about who they are. A reaction that is bigger than the facts alone would explain is often the identity layer driving it, not the facts.
+- Before content can land, the emotional climate has to feel safe enough to hear it. People who feel judged, cornered, or diagnosed defend; people who feel respected and understood open up. Naming a shared goal, or the other person's likely reasonable or positive intent, before disagreeing, often does more work than the disagreement itself.
+- The clearest, least escalating way to say something hard follows a simple shape: describe the specific observable thing that happened, name the feeling it produced, name the need or value underneath that feeling, then make one specific, doable request. Absolutes ("always," "never") and character judgments escalate; specific, current description de-escalates.
+- Reflecting back what the other person actually said, in your own words, before responding to it, is often the single highest-leverage move available, and is frequently exactly what is missing from a weak moment.
+- Genuine curiosity, expressed as an open question about the other person's reasoning or constraints, moves things forward faster than a well-built argument does. Naming what the other person might already be worried about, before they have to say it, often lowers their guard.
+- Directness and warmth are not a trade-off. The strongest examples hold both at once: clear enough to act on, warm enough that the other person stays in the room for it.
+- A request lands best when it is anchored to something beyond pure preference: a shared standard, a prior agreement, or the actual impact, rather than just "I want."
+Use this lens to diagnose what actually went right or wrong in the conversation, and to construct the alternative example. The lens shapes your thinking; it must never appear in the words you write.`;
+    const altResponseGuidance = "A single example of what their WEAKEST moment in the conversation could have sounded like, built using the coaching lens above: stay factual rather than accusatory, create space to hear the other person's side and ask about their reasoning, and extend the benefit of the doubt unless their position was genuinely unreasonable. Once their side has been heard, model making a clear, specific request for what should happen differently going forward: acknowledge what they said first, then state plainly what you would appreciate changing. The goal is to resolve the issue while keeping the other person's willingness to work with you intact, not just to state your case clearly. Write it as the actual words they could have said, in first person, 2-4 sentences. Make it feel achievable not perfect. Precede it with one sentence naming which moment this relates to.";
     const prompt = `Senior performance strategist. A professional just completed a conversation practice session.
 Scenario: ${scenario.title}. Their role: ${userRole || "Not specified"}. Seniority level: ${seniorityLabel}. What they wanted to work on: ${userContext || "Not specified"}.
 Tone faced: ${tm.label}${tm.group ? ` (${tm.group} category)` : ""}. Character behaviour: ${TONE_INSTRUCTIONS[tone] || ""} The character was instructed to soften only if handled well. Calibrate your assessment to this: succeeding against a Difficult tone deserves more credit than succeeding against a Cooperative one, and assess specifically whether the person earned any shift in the character's behaviour.
@@ -941,9 +1007,11 @@ Power dynamic: the other person was ${(COUNTERPART_LEVELS.find(l => l.value === 
 ${otherPartyRole !== "unspecified" ? `The other person was professionally a ${(OTHER_PARTY_ROLES.find(r => r.value === otherPartyRole) || {}).label || ""}; assess how well the person adapted their language and content to that audience.` : ""}
 Event setting: ${(EVENT_TYPES.find(e => e.value === eventType) || {}).label || "a networking event"}. Their stated goal for this conversation: ${(CONVERSATION_GOALS.find(g => g.value === conversationGoal) || {}).label || "Build rapport"}. Assess their performance against THAT goal specifically, not a generic standard.
 Networking experience: they describe themselves as "${(NETWORKING_EXPERIENCE.find(x => x.value === networkingExperience) || {}).label || "an occasional networker"}". Calibrate accordingly: a first-time networker showing basic courage and completing the conversation deserves genuine recognition; an experienced networker is held to the standard of the craft.
+${scenario.counterpartNeedsFocus ? `The other person in this scene was built around these needs being most at stake for them: ${scenario.counterpartNeedsFocus}. Use this to ground your read of their side, alongside what actually happened in the conversation.` : ""}
+${coachingLens}
 Full conversation: ${fullConv}
 Return ONLY valid JSON:
-{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences overall performance calibrated to their seniority level, direct honest empowering","commStyle":"Primary communication style used in 3-5 words, descriptive not judgmental (e.g. Hesitant but Honest, Direct and Structured, Warm but Vague)","styleNotes":"1-2 sentences how this style served them at their level","strengths":["Strength 1 specific to their level","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, specific actionable empowering 2-3 sentences. Name the gap between current and excellent at ${seniorityLabel} level.","alternativeResponse":"A single example of what their WEAKEST moment in the conversation could have sounded like if handled at the level they are working toward. Write it as the actual words they could have said, in first person, 2-4 sentences. Make it feel achievable not perfect. Precede it with one sentence naming which moment this relates to.","skillsLabModule":"Based on the primary development area, recommend ONE of these exact values: leadership, communication, executive, thinking. Choose the one most relevant to what they most need to build.","goalOutcome":"1-2 honest sentences on whether they achieved their stated conversation goal, and what made the difference either way.","lineBank":["2-4 of the person's own strongest phrases from this conversation, quoted verbatim or near-verbatim, that they should reuse at the real event. Only include phrases they actually said. If nothing qualifies, return an empty array."],"registerNote":"1 sentence on whether their language register matched their seniority level. Be honest.","needsMostActive":["need1","need2"],"needsAnalysis":"1-2 sentences on human needs in scene","takeaway":"One powerful sentence to carry into the real conversation","nextStep":"One specific scenario or skill to practise next time. If their register was below their seniority level, recommend the Skills Lab Executive Presence module."}
+{"headline":"Short honest empowering headline 6-10 words","overall":"2-3 sentences overall performance calibrated to their seniority level, direct honest empowering","commStyle":"Primary communication style used in 3-5 words, descriptive not judgmental (e.g. Hesitant but Honest, Direct and Structured, Warm but Vague)","styleNotes":"1-2 sentences how this style served them at their level","strengths":["Strength 1 specific to their level","Strength 2 specific","Strength 3 specific"],"developmentArea":"Single most important development area at their level, diagnosed using the coaching lens (e.g. were facts, feelings and identity tangled together; was safety established before the hard part; was a judgment made instead of a specific observation). Specific actionable empowering 2-3 sentences, in plain language, no framework terms. Name the gap between current and excellent at ${seniorityLabel} level.","alternativeResponse":"${altResponseGuidance}","skillsLabModule":"Based on the primary development area, recommend ONE of these exact values: leadership, communication, executive, thinking. Choose the one most relevant to what they most need to build.","goalOutcome":"1-2 honest sentences on whether they achieved their stated conversation goal, and what made the difference either way.","lineBank":["2-4 of the person's own strongest phrases from this conversation, quoted verbatim or near-verbatim, that they should reuse at the real event. Only include phrases they actually said. If nothing qualifies, return an empty array."],"registerNote":"1 sentence on whether their language register matched their seniority level. Be honest.","needsMostActive":["need1","need2"],"counterpartNeedsMostActive":["need1","need2"],"needsAnalysis":"2-4 sentences. First, name the needs most at stake for THIS PERSON in the scene. Second, name the needs most at stake for the OTHER PERSON in the scene, reasoning from how that character spoke and reacted. Third, assess specifically whether this person's communication acknowledged or addressed the other person's needs, not only expressed their own. Good communication reads the other side, not just states your own case.","takeaway":"One powerful sentence to carry into the real conversation","nextStep":"One specific scenario or skill to practise next time. If their register was below their seniority level, recommend the Skills Lab Executive Presence module."}
 Valid need keys: certainty,variety,significance,connection,growth,contribution. Be honest, calibrated and empowering. Never use em dashes.
 Write every field, including each item in strengths and lineBank, in direct second person: "you", "your". Never refer to the person in the third person, never use "she", "he", "they" or their name to describe their own actions back to them.`;
     try {
@@ -956,9 +1024,13 @@ Write every field, including each item in strengths and lineBank, in direct seco
   }
 
   function restartLab() {
+    manualStopRef.current = true;
+    if (recognitionRef.current) { recognitionRef.current.stop(); recognitionRef.current = null; }
     historyRef.current = [];
     voiceInputRef.current = "";
     autoSendRef.current = false;
+    baseInputRef.current = "";
+    sessionFinalRef.current = "";
     setMessages([]);
     setInsights([]);
     setScores({});
@@ -1015,6 +1087,7 @@ Write every field, including each item in strengths and lineBank, in direct seco
           developmentArea: d.developmentArea,
           needsAnalysis: d.needsAnalysis,
           needsMostActive: d.needsMostActive,
+          counterpartNeedsMostActive: d.counterpartNeedsMostActive,
           registerNote: d.registerNote,
           takeaway: d.takeaway,
           nextStep: d.nextStep,
@@ -1060,7 +1133,11 @@ Write every field, including each item in strengths and lineBank, in direct seco
       const active = (d.needsMostActive||[]).map(n=>n.toLowerCase()).includes(key);
       return `<span style="display:inline-block;padding:6px 14px;margin:4px;border-radius:6px;font-size:12px;font-weight:500;border:1px solid ${active?"#3D858C":"#ddd"};background:${active?"#dff0f2":"#f5f5f5"};color:${active?"#01293A":"#888"}">${key.charAt(0).toUpperCase()+key.slice(1)}${active?" ✓":""}</span>`;
     }).join("");
-    return `<!DOCTYPE html><html><head><meta charset="UTF-8"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"><title>Rewire Networking Lab Debrief</title><style>*{box-sizing:border-box;margin:0;padding:0}body{background:#fff;color:#1a2a30;font-family:'DM Sans',Arial,sans-serif;font-size:15px;line-height:1.6}.page{max-width:760px;margin:0 auto;padding:60px 50px 80px}.header{border-bottom:2px solid #3D858C;padding-bottom:28px;margin-bottom:40px}.eyebrow{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:10px}h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:42px;font-weight:300;color:#01293A;line-height:1.15;margin-bottom:8px}.sub{font-size:13px;color:#4a6570}.section{margin-bottom:36px}.sec-title{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:16px;padding-bottom:6px;border-bottom:1px solid #e0eff0}.card{background:#f5fafb;border:1px solid #c9e8ec;border-radius:10px;padding:22px;margin-bottom:12px;font-size:14px;color:#1a2a30;line-height:1.7}.comm-style{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:400;color:#01293A;margin-bottom:8px}ul{padding-left:20px}li{color:#1a2a30;font-size:14px;line-height:1.7;margin-bottom:6px}.takeaway{background:#f0f9fa;border-left:4px solid #3D858C;border-radius:0 10px 10px 0;padding:26px;margin-bottom:32px}.takeaway-label{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:12px}.takeaway-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;font-weight:300;color:#01293A;line-height:1.55;font-style:italic}.alt-response{background:#f0f9fa;border:1px solid #c9e8ec;border-radius:10px;padding:22px;margin-bottom:32px}.alt-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;font-weight:300;color:#01293A;line-height:1.65;font-style:italic}.amber-box{background:#fffbf0;border:1px solid #D4A853;border-radius:10px;padding:18px;margin-bottom:12px}.amber-label{font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#D4A853;font-weight:600;margin-bottom:8px}.amber-text{font-size:14px;color:#5a4010;line-height:1.7}.score-key{font-size:11px;color:#4a6570;margin-bottom:14px}.needs-note{font-size:12px;color:#4a6570;margin-bottom:12px;line-height:1.5}.footer{margin-top:60px;padding-top:20px;border-top:1px solid #e0eff0;font-size:11px;color:#4a6570;display:flex;justify-content:space-between}@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact}.page{padding:40px 30px}}</style></head><body><div class="page"><div class="header"><div class="eyebrow">Beyond Limits Made For More &nbsp;|&nbsp; Networking Lab Debrief</div><h1>${d.headline||"Networking Lab Debrief"}</h1><div class="sub">${scenario?.title||""} &nbsp;|&nbsp; ${d.toneLabel?d.toneLabel+" tone &nbsp;|&nbsp; ":""}${d.counterpartLabel?"Speaking to: "+d.counterpartLabel+" &nbsp;|&nbsp; ":""}${d.seniority?d.seniority+" &nbsp;|&nbsp; ":""}${date}${userName?" &nbsp;|&nbsp; "+userName:""}</div></div><div class="section"><div class="sec-title">Overall Performance</div><div class="card">${d.overall||""}</div></div><div class="section"><div class="sec-title">Networking Intelligence Scores</div><div class="score-key"><span style="color:#D4A853">■ 0-40 needs work</span> &nbsp; <span style="color:#3D858C">■ 41-70 developing</span> &nbsp; <span style="color:#4caf7d">■ 71-100 strong</span></div><div class="card"><table style="width:100%;border-collapse:collapse">${scoreRows}</table></div></div><div class="section"><div class="sec-title">Communication Style</div><div class="card"><div class="comm-style">${d.commStyle||""}</div><div style="font-size:14px;color:#1a2a30;line-height:1.7">${d.styleNotes||""}</div></div></div><div class="section"><div class="sec-title">What You Did Well</div><div class="card"><ul>${strengthsList}</ul></div></div><div class="section"><div class="sec-title">Primary Development Area</div><div class="card">${d.developmentArea||""}</div></div><div class="section"><div class="sec-title">Human Needs in the Scene</div><div class="needs-note">The needs most at stake for you in this conversation, not targets to meet but signals about what was driving the dynamic.</div><div style="margin-bottom:12px">${needsChips}</div><div class="card">${d.needsAnalysis||""}</div></div>${d.goalOutcome?`<div class="section"><div class="sec-title">Your Conversation Goal</div><div class="card">${d.goalOutcome}</div></div>`:""}${Array.isArray(d.lineBank)&&d.lineBank.length?`<div class="section"><div class="sec-title">Your Line Bank</div><div class="card">${d.lineBank.map(l=>`<div style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:17px;color:#01293A;padding:5px 0">&ldquo;${l}&rdquo;</div>`).join("")}</div></div>`:""}<div class="takeaway"><div class="takeaway-label">Take This Into the Real Conversation</div><div class="takeaway-text">${d.takeaway||""}</div></div><div class="section"><div class="sec-title">Next Time in the Lab</div><div class="card">${d.nextStep||""}</div></div>${d.alternativeResponse?`<div class="alt-response"><div class="alt-text">${d.alternativeResponse}</div></div>`:""} ${d.registerNote?`<div class="amber-box"><div class="amber-label">Register Note</div><div class="amber-text">${d.registerNote}</div></div>`:""}<div class="footer"><span>Beyond Limits Made For More &nbsp;|&nbsp; Networking Lab</span><span>${date}</span></div></div></body></html>`;
+    const counterpartNeedsChips = Object.entries(HUMAN_NEEDS).map(([key]) => {
+      const active = (d.counterpartNeedsMostActive||[]).map(n=>n.toLowerCase()).includes(key);
+      return `<span style="display:inline-block;padding:6px 14px;margin:4px;border-radius:6px;font-size:12px;font-weight:500;border:1px solid ${active?"#D4A853":"#ddd"};background:${active?"#fdf6e8":"#f5f5f5"};color:${active?"#7a5a1a":"#888"}">${key.charAt(0).toUpperCase()+key.slice(1)}${active?" ✓":""}</span>`;
+    }).join("");
+    return `<!DOCTYPE html><html><head><meta charset="UTF-8"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"><title>Rewire Networking Lab Debrief</title><style>*{box-sizing:border-box;margin:0;padding:0}body{background:#fff;color:#1a2a30;font-family:'DM Sans',Arial,sans-serif;font-size:15px;line-height:1.6}.page{max-width:760px;margin:0 auto;padding:60px 50px 80px}.header{border-bottom:2px solid #3D858C;padding-bottom:28px;margin-bottom:40px}.eyebrow{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:10px}h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:42px;font-weight:300;color:#01293A;line-height:1.15;margin-bottom:8px}.sub{font-size:13px;color:#4a6570}.section{margin-bottom:36px}.sec-title{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:16px;padding-bottom:6px;border-bottom:1px solid #e0eff0}.card{background:#f5fafb;border:1px solid #c9e8ec;border-radius:10px;padding:22px;margin-bottom:12px;font-size:14px;color:#1a2a30;line-height:1.7}.comm-style{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:400;color:#01293A;margin-bottom:8px}ul{padding-left:20px}li{color:#1a2a30;font-size:14px;line-height:1.7;margin-bottom:6px}.takeaway{background:#f0f9fa;border-left:4px solid #3D858C;border-radius:0 10px 10px 0;padding:26px;margin-bottom:32px}.takeaway-label{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:12px}.takeaway-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;font-weight:300;color:#01293A;line-height:1.55;font-style:italic}.alt-response{background:#f0f9fa;border:1px solid #c9e8ec;border-radius:10px;padding:22px;margin-bottom:32px}.alt-text{font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;font-weight:300;color:#01293A;line-height:1.65;font-style:italic}.amber-box{background:#fffbf0;border:1px solid #D4A853;border-radius:10px;padding:18px;margin-bottom:12px}.amber-label{font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#D4A853;font-weight:600;margin-bottom:8px}.amber-text{font-size:14px;color:#5a4010;line-height:1.7}.score-key{font-size:11px;color:#4a6570;margin-bottom:14px}.needs-note{font-size:12px;color:#4a6570;margin-bottom:12px;line-height:1.5}.footer{margin-top:60px;padding-top:20px;border-top:1px solid #e0eff0;font-size:11px;color:#4a6570;display:flex;justify-content:space-between}@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact}.page{padding:40px 30px}}</style></head><body><div class="page"><div class="header"><div class="eyebrow">Beyond Limits Made For More &nbsp;|&nbsp; Networking Lab Debrief</div><h1>${d.headline||"Networking Lab Debrief"}</h1><div class="sub">${scenario?.title||""} &nbsp;|&nbsp; ${d.toneLabel?d.toneLabel+" tone &nbsp;|&nbsp; ":""}${d.counterpartLabel?"Speaking to: "+d.counterpartLabel+" &nbsp;|&nbsp; ":""}${d.seniority?d.seniority+" &nbsp;|&nbsp; ":""}${date}${userName?" &nbsp;|&nbsp; "+userName:""}</div></div><div class="section"><div class="sec-title">Overall Performance</div><div class="card">${d.overall||""}</div></div><div class="section"><div class="sec-title">Networking Intelligence Scores</div><div class="score-key"><span style="color:#D4A853">■ 0-40 needs work</span> &nbsp; <span style="color:#3D858C">■ 41-70 developing</span> &nbsp; <span style="color:#4caf7d">■ 71-100 strong</span></div><div class="card"><table style="width:100%;border-collapse:collapse">${scoreRows}</table></div></div><div class="section"><div class="sec-title">Communication Style</div><div class="card"><div class="comm-style">${d.commStyle||""}</div><div style="font-size:14px;color:#1a2a30;line-height:1.7">${d.styleNotes||""}</div></div></div><div class="section"><div class="sec-title">What You Did Well</div><div class="card"><ul>${strengthsList}</ul></div></div><div class="section"><div class="sec-title">Primary Development Area</div><div class="card">${d.developmentArea||""}</div></div><div class="section"><div class="sec-title">Human Needs in the Scene</div><div class="needs-note">Good communication reads both sides. Here is what was most at stake for each of you, not targets to meet but signals about what was driving the dynamic.</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#3D858C;font-weight:600;margin-bottom:6px">Your needs</div><div style="margin-bottom:12px">${needsChips}</div><div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#D4A853;font-weight:600;margin-bottom:6px">Their needs</div><div style="margin-bottom:12px">${counterpartNeedsChips}</div><div class="card">${d.needsAnalysis||""}</div></div>${d.goalOutcome?`<div class="section"><div class="sec-title">Your Conversation Goal</div><div class="card">${d.goalOutcome}</div></div>`:""}${Array.isArray(d.lineBank)&&d.lineBank.length?`<div class="section"><div class="sec-title">Your Line Bank</div><div class="card">${d.lineBank.map(l=>`<div style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:17px;color:#01293A;padding:5px 0">&ldquo;${l}&rdquo;</div>`).join("")}</div></div>`:""}<div class="takeaway"><div class="takeaway-label">Take This Into the Real Conversation</div><div class="takeaway-text">${d.takeaway||""}</div></div><div class="section"><div class="sec-title">Next Time in the Lab</div><div class="card">${d.nextStep||""}</div></div>${d.alternativeResponse?`<div class="alt-response"><div class="alt-text">${d.alternativeResponse}</div></div>`:""} ${d.registerNote?`<div class="amber-box"><div class="amber-label">Register Note</div><div class="amber-text">${d.registerNote}</div></div>`:""}<div class="footer"><span>Beyond Limits Made For More &nbsp;|&nbsp; Networking Lab</span><span>${date}</span></div></div></body></html>`;
   }
 
   // ── LOBBY ──
@@ -1321,6 +1398,7 @@ Write every field, including each item in strengths and lineBank, in direct seco
           className="mobile-backdrop" />
       )}
       <style>{`
+        .stage-expand-hint { display: none; }
         @media (max-width: 700px) {
           .lab-panel { position: fixed !important; right: 0; top: 0; bottom: 0; z-index: 50; transform: translateX(${panelOpen ? "0" : "100%"}) !important; box-shadow: -4px 0 24px rgba(0,0,0,0.4); }
           .mobile-backdrop { display: block !important; }
@@ -1329,6 +1407,7 @@ Write every field, including each item in strengths and lineBank, in direct seco
           .desktop-actions { display: none !important; }
           .mobile-actions-trigger { display: flex !important; }
           .stage-text-clamped { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+          .stage-expand-hint { display: block !important; font-size: 12px; color: ${AMBER}; opacity: 0.85; margin-top: 5px; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
           .lab-root-mobile { height: auto !important; overflow: visible !important; display: block !important; }
           .lab-main-mobile { height: auto !important; min-height: 100vh !important; overflow: visible !important; }
           .lab-topbar-mobile { position: sticky !important; top: 0; z-index: 30; background: ${DARKER}; }
@@ -1377,7 +1456,12 @@ Write every field, including each item in strengths and lineBank, in direct seco
 
         <div style={{ ...s.stageBar, display:"flex", alignItems:"flex-start", gap:10 }}>
           <span style={{ fontSize:"clamp(13px, 2vw, 16px)", marginTop:2, flexShrink:0 }}>🎭</span>
-          <span style={{ ...s.stageText, flex:1 }} className={sceneExpanded ? "" : "stage-text-clamped"} onClick={() => setSceneExpanded(e => !e)}>{scenario?.scene}</span>
+          <div style={{ flex:1 }}>
+            <span style={s.stageText} className={sceneExpanded ? "" : "stage-text-clamped"} onClick={() => setSceneExpanded(e => !e)}>{scenario?.scene}</span>
+            <div className="stage-expand-hint" onClick={() => setSceneExpanded(e => !e)}>
+              {sceneExpanded ? "▴ Show less" : "▾ Tap to read the full scene"}
+            </div>
+          </div>
           {voiceEnabled && (
             <button
               onClick={() => {
@@ -1442,7 +1526,7 @@ Write every field, including each item in strengths and lineBank, in direct seco
             </button>
           </div>
           <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginTop:8 }}>
-            <div style={s.inputHint}><span>Enter to send</span><span>Shift+Enter for new line</span></div>
+            <div style={s.inputHint} className="desktop-actions"><span>Enter to send</span><span>Shift+Enter for new line</span></div>
             <div style={{ display:"flex", gap:8, alignItems:"center" }}>
               {isSpeaking && (
                 <button onClick={stopSpeaking} style={{ background:"none", border:"none", color:AMBER, fontSize:"clamp(13px, 2.1vw, 17px)", cursor:"pointer", padding:"2px 6px" }}>
@@ -1602,8 +1686,9 @@ Write every field, including each item in strengths and lineBank, in direct seco
             <div style={{ marginBottom:28 }}>
               <div style={s.debriefSectionTitle}>Human Needs in the Scene</div>
               <div style={{ fontSize:"clamp(12px, 1.7vw, 14px)", color:"rgba(232,244,245,0.55)", marginBottom:14, lineHeight:1.5 }}>
-                These are the needs that were most at stake for you in this conversation. Not targets to meet, but signals about what was driving the dynamic.
+                Good communication reads both sides. Here's what was most at stake for each of you, not targets to meet, but signals about what was driving the dynamic.
               </div>
+              <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", letterSpacing:"0.1em", textTransform:"uppercase", color:TEAL, fontWeight:600, marginBottom:8 }}>Your needs</div>
               <div style={s.needsGrid}>
                 {Object.entries(HUMAN_NEEDS).map(([key, desc]) => {
                   const active = (debrief.needsMostActive||[]).map(n=>n.toLowerCase()).includes(key);
@@ -1615,7 +1700,19 @@ Write every field, including each item in strengths and lineBank, in direct seco
                   );
                 })}
               </div>
-              <div style={s.debriefCard}><div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", lineHeight:1.7 }}>{debrief.needsAnalysis}</div></div>
+              <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", letterSpacing:"0.1em", textTransform:"uppercase", color:AMBER, fontWeight:600, margin:"16px 0 8px" }}>Their needs</div>
+              <div style={s.needsGrid}>
+                {Object.entries(HUMAN_NEEDS).map(([key, desc]) => {
+                  const active = (debrief.counterpartNeedsMostActive||[]).map(n=>n.toLowerCase()).includes(key);
+                  return (
+                    <div key={key} style={{ ...s.needChip, ...(active ? { border:`1px solid ${AMBER}`, background:"rgba(212,168,83,0.1)" } : {}) }}>
+                      <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", fontWeight:500, color: active ? AMBER : "rgba(232,244,245,0.75)", marginBottom:3 }}>{key.charAt(0).toUpperCase()+key.slice(1)}</div>
+                      {active && <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:AMBER }}>Active in scene</div>}
+                    </div>
+                  );
+                })}
+              </div>
+              <div style={{ ...s.debriefCard, marginTop:14 }}><div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.85)", lineHeight:1.7 }}>{debrief.needsAnalysis}</div></div>
             </div>
 
             <div style={s.takeaway}>
