@@ -1,5 +1,5 @@
 {
-  "updated": "08 Jul 2026, 23:04 UTC",
+  "updated": "09 Jul 2026, 00:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,6 +184,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Why electric cars cost more to insure - and what's being done about it",
+      "link": "https://www.bbc.co.uk/news/articles/cgk6606j6zeo?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jul 2026",
+      "excerpt": "The insurance cost of electric vehicles is still putting many would-be buyers. So what can be done about it?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bac1/live/0041f990-7959-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I run the UK's biggest bank, here are five ways to manage your money",
+      "link": "https://www.bbc.co.uk/news/articles/cd7wldr3prro?at_medium=RSS&at_campaign=rss",
+      "date": "8 Jul 2026",
+      "excerpt": "The CEO of Lloyds Bank talks about how to save, budget, avoid scams and manage money in a relationship.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/47dd/live/7709e540-7ae6-11f1-9a9c-53fd8f110370.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Virgin Media fined after hanging up on customers trying to cancel contracts",
       "link": "https://www.bbc.co.uk/news/articles/c982vm2jzl1o?at_medium=RSS&at_campaign=rss",
       "date": "8 Jul 2026",
@@ -211,29 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Hundreds of jobs at risk as John Lewis plans to cut some services",
-      "link": "https://www.bbc.co.uk/news/articles/c30y4vqq4p6o?at_medium=RSS&at_campaign=rss",
+      "title": "Wealthy AI workers send San Francisco house prices soaring",
+      "link": "https://www.bbc.co.uk/news/articles/c9q29j47v9ro?at_medium=RSS&at_campaign=rss",
       "date": "8 Jul 2026",
-      "excerpt": "No final decision has been made but the job cuts will happen in the autumn if the redundancy plans are approved.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b4e/live/7543c880-7a68-11f1-b3a0-9d60633dee75.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Outcry as Meta lets users make AI images from public Instagram profile pics",
-      "link": "https://www.bbc.co.uk/news/articles/cp9lee19y1yo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Jul 2026",
-      "excerpt": "The tech giant said people can opt out - but privacy campaigners called it a \"recipe for disaster\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2fa5/live/3d76fa30-7adb-11f1-bee8-53ce494e1abc.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trains and emergency calls affected after major outage at Australia's largest telecoms company",
-      "link": "https://www.bbc.co.uk/news/articles/cgevw0d95pdo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Jul 2026",
-      "excerpt": "Servers at data centres in Sydney and Melbourne were to blame but the exact cause remains unknown.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f43d/live/8e1bb6a0-7a96-11f1-932b-1f29e7985956.jpg"
+      "excerpt": "The median cost of a home in the city is now $1.7m, a record high, according to the latest figures.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c6c/live/84338380-79eb-11f1-b976-0b9c15b0ccfc.jpg"
     }
   ]
 }
