@@ -553,7 +553,10 @@ function App() {
     if (!ctx || !ctx.trim()) return sc.scene;
     try {
       const sys = "You write concise, present-tense scenario briefings for a professional communication practice tool. Match the tone, structure and length of the example exactly. Return ONLY the rewritten scene text, no preamble, no quotation marks around it.";
-      const userMsg = `Rewrite this scene briefing so it reflects the specific real situation described below, while keeping the same relationship dynamic, the same second-person present-tense style, roughly the same length (3-5 sentences), and the same "moment of choice" ending.
+      const userMsg = `Rewrite this scene briefing so it reflects the specific real situation described below.
+HARD CONSTRAINT, never break this: the other person in this scene is the user's ${sc.role}. That relationship must not change under any circumstances, no matter what the specific situation describes or implies. Never turn this ${sc.role} into a different relationship (for example, never turn a parent into a sibling, a friend into a partner, or a colleague into a family member). If the specific situation uses a pronoun implying a different gender than the original scene assumed, only adjust the gendered wording (e.g. "mother" to "father", "she" to "he") while keeping the relationship itself, ${sc.role}, exactly the same.
+${sc.category === "personal" ? "This is a personal, non-workplace relationship. Do not introduce office, meeting, colleague, or professional framing of any kind, even if the specific situation described touches on work topics." : ""}
+Keep the same second-person present-tense style, roughly the same length (3-5 sentences), and the same "moment of choice" ending.
 Original scene: ${sc.scene}
 Specific real situation to incorporate: ${ctx.trim()}`;
       const reply = await callAI(sys, [{ role:"user", content:userMsg }]);
