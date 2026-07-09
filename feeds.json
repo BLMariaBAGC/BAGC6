@@ -1,5 +1,5 @@
 {
-  "updated": "09 Jul 2026, 07:34 UTC",
+  "updated": "09 Jul 2026, 10:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -128,6 +128,60 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "World trade remains dangerously dependent on a handful of shipping lanes",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
+      "date": "9 Jul 2026",
+      "excerpt": "The conflict in Iran has been reignited by disagreements about control of a critical shipping lane. But the Strait of Hormuz is not the only chokepoint making global trade vulnerable. Ferdinand Rauch, Stephan Maurer and Luke Milsom show jus",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Screenshot-2026-07-08-152221.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Pakistan’s Virtual Assets Act is a step forward – but is it enough?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/07/pakistans-virtual-assets-act-is-a-step-forward-but-is-it-enough/",
+      "date": "7 Jul 2026",
+      "excerpt": "To regulate the country’s growing economy of virtual assets, in 2026 Pakistan passed its Virtual Assets Act. But while the legislation addresses real risks, a framework designed predominantly around enforcement may constrain the market it s",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Europe’s startup boom still needs an exit plan",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/06/europes-startup-boom-still-needs-an-exit-plan/",
+      "date": "6 Jul 2026",
+      "excerpt": "Europe is producing world-class founders, frontier technologies and ambitious scale-ups. The task now is to develop their exit plans. Juanita Gonzalez-Uribe and Robyn Klingler-Vidra argue that this will not be done by shaming founders into ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Making sense of climate solutions to help finance the low-carbon transition",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/03/making-sense-of-climate-solutions-to-help-finance-the-low-carbon-transition/",
+      "date": "3 Jul 2026",
+      "excerpt": "Understanding exactly what constitutes a “climate solution” is challenging because definitions differ across frameworks and jurisdictions. Algirdas Brochard,&nbsp;Shafaq Ashraf,&nbsp;Ella Davies,&nbsp;Ákos Hajagos-Tóth,&nbsp;Valentin Jahn&n",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Table-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can global trade contribute to world peace?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/02/how-can-global-trade-contribute-to-world-peace/",
+      "date": "2 Jul 2026",
+      "excerpt": "Using analysis of WTO membership and the Global Peace Index, Julia Croce argues that trade itself, and the organisations that govern it, have a significant role to play in fostering peace within and between fragile states. In an extract fro",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1024x655.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Technological change means women in India are now increasingly outliving men",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/01/technological-change-means-women-in-india-are-now-increasingly-outliving-men/",
+      "date": "1 Jul 2026",
+      "excerpt": "India’s health transition has saved millions of lives. But progress may be creating an unexpected inequality: rising male excess mortality. Astrid Krenz and Holger Strulik uncover the “gender paradox of progress” happening not in spite of, ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1.png"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Why electric cars cost more to insure - and what's being done about it",
@@ -148,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "How can I get air conditioning in my home and how much does it cost?",
+      "link": "https://www.bbc.co.uk/news/articles/c2ey1p0jnmxo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Jul 2026",
+      "excerpt": "As summers in the UK get hotter, is it time for air conditioning to become a permanent feature in most homes?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea7d/live/da01c550-7479-11f1-9125-bd35be688627.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Jackdaw boss warns of winter fuel shortages if gas field not approved",
       "link": "https://www.bbc.co.uk/news/articles/cdx78n4nkvyo?at_medium=RSS&at_campaign=rss",
       "date": "9 Jul 2026",
@@ -162,15 +225,6 @@
       "date": "9 Jul 2026",
       "excerpt": "The power plant was due to reach the end of its life in 2035 but will now continue until 2055.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/662f/live/b1f72150-7a0e-11f1-b151-87c0badc88c3.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Virgin Media fined after hanging up on customers trying to cancel contracts",
-      "link": "https://www.bbc.co.uk/news/articles/c982vm2jzl1o?at_medium=RSS&at_campaign=rss",
-      "date": "8 Jul 2026",
-      "excerpt": "Millions of phone calls from customers were \"likely mishandled\" over nearly a three-year period, the regulator says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6fac/live/fce6af60-7ab2-11f1-9510-1546718f668b.jpg"
     },
     {
       "source": "BBC Business",
