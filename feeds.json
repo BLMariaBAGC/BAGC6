@@ -1,5 +1,5 @@
 {
-  "updated": "09 Jul 2026, 02:48 UTC",
+  "updated": "09 Jul 2026, 07:34 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -128,66 +128,12 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Pakistan’s Virtual Assets Act is a step forward – but is it enough?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/07/pakistans-virtual-assets-act-is-a-step-forward-but-is-it-enough/",
-      "date": "7 Jul 2026",
-      "excerpt": "To regulate the country’s growing economy of virtual assets, in 2026 Pakistan passed its Virtual Assets Act. But while the legislation addresses real risks, a framework designed predominantly around enforcement may constrain the market it s",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Europe’s startup boom still needs an exit plan",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/06/europes-startup-boom-still-needs-an-exit-plan/",
-      "date": "6 Jul 2026",
-      "excerpt": "Europe is producing world-class founders, frontier technologies and ambitious scale-ups. The task now is to develop their exit plans. Juanita Gonzalez-Uribe and Robyn Klingler-Vidra argue that this will not be done by shaming founders into ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Making sense of climate solutions to help finance the low-carbon transition",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/03/making-sense-of-climate-solutions-to-help-finance-the-low-carbon-transition/",
-      "date": "3 Jul 2026",
-      "excerpt": "Understanding exactly what constitutes a “climate solution” is challenging because definitions differ across frameworks and jurisdictions. Algirdas Brochard,&nbsp;Shafaq Ashraf,&nbsp;Ella Davies,&nbsp;Ákos Hajagos-Tóth,&nbsp;Valentin Jahn&n",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Table-1.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How can global trade contribute to world peace?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/02/how-can-global-trade-contribute-to-world-peace/",
-      "date": "2 Jul 2026",
-      "excerpt": "Using analysis of WTO membership and the Global Peace Index, Julia Croce argues that trade itself, and the organisations that govern it, have a significant role to play in fostering peace within and between fragile states. In an extract fro",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1024x655.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Technological change means women in India are now increasingly outliving men",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/01/technological-change-means-women-in-india-are-now-increasingly-outliving-men/",
-      "date": "1 Jul 2026",
-      "excerpt": "India’s health transition has saved millions of lives. But progress may be creating an unexpected inequality: rising male excess mortality. Astrid Krenz and Holger Strulik uncover the “gender paradox of progress” happening not in spite of, ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1.png"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How different drug regulators construct global authority – and why it matters for firms",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/06/30/how-different-drug-regulators-construct-global-authority-and-why-it-matters-for-firms/",
-      "date": "29 Jun 2026",
-      "excerpt": "Global drug regulation is converging technically but diverging politically. America’s loosening grip on the global pharmaceutical system has created a newly competitive opportunities for the EU and China. Damien Ng argues that for countries",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Why electric cars cost more to insure - and what's being done about it",
       "link": "https://www.bbc.co.uk/news/articles/cgk6606j6zeo?at_medium=RSS&at_campaign=rss",
       "date": "8 Jul 2026",
-      "excerpt": "The insurance cost of electric vehicles is still putting many would-be buyers. So what can be done about it?",
+      "excerpt": "The insurance cost of electric vehicles is still putting off many would-be buyers. So what can be done about it?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bac1/live/0041f990-7959-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
@@ -202,29 +148,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Jackdaw boss warns of winter fuel shortages if gas field not approved",
+      "link": "https://www.bbc.co.uk/news/articles/cdx78n4nkvyo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Jul 2026",
+      "excerpt": "Adura says the UK government must approve North Sea production urgently to avoid domestic supply shortages.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1127/live/fbe04900-7b0c-11f1-bd97-bb877df31663.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Life of Sizewell B extended by another 20 years",
+      "link": "https://www.bbc.co.uk/news/articles/c1dy1rdv17lo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Jul 2026",
+      "excerpt": "The power plant was due to reach the end of its life in 2035 but will now continue until 2055.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/662f/live/b1f72150-7a0e-11f1-b151-87c0badc88c3.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Virgin Media fined after hanging up on customers trying to cancel contracts",
       "link": "https://www.bbc.co.uk/news/articles/c982vm2jzl1o?at_medium=RSS&at_campaign=rss",
       "date": "8 Jul 2026",
       "excerpt": "Millions of phone calls from customers were \"likely mishandled\" over nearly a three-year period, the regulator says.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6fac/live/fce6af60-7ab2-11f1-9510-1546718f668b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "From mouthwash to hair dye: How weight-loss jabs are changing shopping habits",
-      "link": "https://www.bbc.co.uk/news/articles/cy49w2knlrdo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Jul 2026",
-      "excerpt": "The BBC looks at how spending habits have shifted as users report feeling less hungry.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6272/live/5288e910-7a2c-11f1-9510-1546718f668b.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Online marketplaces still selling dozens of unsafe baby products, Which? finds",
-      "link": "https://www.bbc.co.uk/news/articles/c1dy11vvwk1o?at_medium=RSS&at_campaign=rss",
-      "date": "8 Jul 2026",
-      "excerpt": "Pillows, sleeping bags and feeders subject to safety notices were found on sites including Amazon and TikTok.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fecf/live/40016180-7ace-11f1-a130-2b898c796aa9.jpg"
     },
     {
       "source": "BBC Business",
