@@ -546,27 +546,35 @@ function App() {
   function beginRecognitionSession() {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     const recognition = new SpeechRecognition();
-    recognition.continuous = false; // chained via auto-restart in onend instead — see note there
+    recognition.continuous = true; // keeps listening through pauses — see merge logic below for why this is now safe
     recognition.interimResults = true;
     recognition.lang = "en-GB";
 
     recognition.onstart = () => setIsListening(true);
 
-    // Recomputed from scratch on every event, from this instance's own e.results only.
-    // This engine (confirmed from field testing) marks multiple progressive
-    // restatements of the same utterance as "final" — each one already contains
-    // everything the previous one did, plus a bit more. Summing every final entry
-    // together (what an earlier version of this code did) duplicates that restated
-    // content on every step. The fix: never sum across entries. Only the LAST entry
-    // in e.results is trusted at any moment, and it always REPLACES instanceFinal
-    // rather than adding to it.
+    // This engine sometimes marks a growing restatement of the SAME utterance as
+    // "final" more than once ("how" -> "how you" -> "how you doing"), and sometimes
+    // marks a genuinely NEW, separate chunk as final ("how you doing" -> "because you
+    // have had a lot on your plate"). Those need opposite handling: a restatement
+    // should REPLACE what came before, new content should be APPENDED to it. Blindly
+    // replacing on every final result (an earlier version of this code) caused real
+    // content to be silently dropped whenever the engine produced a genuinely new
+    // chunk instead of a restatement. The fix: check whether the new text starts with
+    // what we already have. If it does, it's a restatement, replace. If it doesn't,
+    // it's new, append.
     let instanceFinal = "";
     recognition.onresult = (e) => {
       if (!e.results.length) return;
       const last = e.results[e.results.length - 1];
       const text = last[0].transcript.trim();
-      if (last.isFinal) {
-        instanceFinal = text; // replaces, never appends
+      if (last.isFinal && text) {
+        const prevLower = instanceFinal.toLowerCase();
+        const textLower = text.toLowerCase();
+        if (!instanceFinal || textLower.startsWith(prevLower)) {
+          instanceFinal = text; // restatement (or first chunk) — replace
+        } else {
+          instanceFinal = instanceFinal + " " + text; // not a clean restatement — treat as new content, append rather than risk dropping it
+        }
       }
       const interimPart = last.isFinal ? "" : text;
       const combined = [baseInputRef.current, sessionFinalRef.current, instanceFinal, interimPart]
@@ -588,10 +596,12 @@ function App() {
           if (finalText) sendMessageRef.current(finalText);
         }
       } else {
-        // continuous:false means every session ends after one utterance, by design —
-        // that's what avoids the overlapping-buffer duplication bug. Chaining a new
-        // session on every end (unless the person pressed Stop) is what recreates a
-        // continuous-feeling listening experience on top of that.
+        // Belt-and-braces: some mobile browsers end a "continuous" session on their
+        // own after a pause regardless of the flag above. If that happens and the
+        // person hasn't pressed Stop, silently start a new session so listening
+        // resumes rather than quietly going dead. With continuous:true this should be
+        // rare in normal use, which is what keeps handoff gaps (and the words lost in
+        // them) rare too.
         beginRecognitionSession();
       }
     };
