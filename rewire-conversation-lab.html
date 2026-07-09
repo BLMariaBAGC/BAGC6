@@ -453,7 +453,8 @@ function Dots() {
       {[0,1,2].map(i => (
         <div key={i} style={{ width:6, height:6, borderRadius:"50%", background:TEAL, animation:`pulse 1.2s ${i*0.2}s infinite` }} />
       ))}
-      <style>{`@keyframes pulse{0%,80%,100%{opacity:0.25;transform:scale(0.9)}40%{opacity:1;transform:scale(1.1)}}`}</style>
+      <style>{`@keyframes pulse{0%,80%,100%{opacity:0.25;transform:scale(0.9)}40%{opacity:1;transform:scale(1.1)}}
+        @keyframes micGlow{0%,100%{box-shadow:0 0 0 0 rgba(192,83,106,0.45)}50%{box-shadow:0 0 0 10px rgba(192,83,106,0)}}`}</style>
     </div>
   );
 }
@@ -490,6 +491,16 @@ function App() {
   const [debrief, setDebrief] = useState(null);
   const [debriefLoading, setDebriefLoading] = useState(false);
   const [isListening, setIsListening] = useState(false);
+  const wasListeningRef = useRef(false);
+  useEffect(() => {
+    if (!navigator.vibrate) return; // not supported on iOS Safari — silently does nothing there
+    if (isListening && !wasListeningRef.current) {
+      navigator.vibrate(60); // single short buzz: now listening
+    } else if (!isListening && wasListeningRef.current) {
+      navigator.vibrate([40, 40, 40]); // two quick pulses: stopped — deliberately different pattern from start
+    }
+    wasListeningRef.current = isListening;
+  }, [isListening]);
   const [voiceEnabled, setVoiceEnabled] = useState(false);
   const voiceEnabledRef = useRef(false);
   const setVoice = (val) => { setVoiceEnabled(val); voiceEnabledRef.current = val; };
@@ -1600,7 +1611,7 @@ Write every field, including each item in strengths, in direct second person: "y
         </div>
         <div style={s.inputArea} className="input-area-mobile">
           <div style={s.inputRow}>
-            <textarea style={s.textInput} placeholder={isListening ? "Listening... speak now" : isSpeaking ? "Wait for the narrator to finish..." : "What do you say..."}
+            <textarea style={{ ...s.textInput, ...(isListening ? { animation:"micGlow 1.6s ease-in-out infinite", borderColor:"#c0536a" } : {}) }} placeholder={isListening ? "Listening... speak now" : isSpeaking ? "Wait for the narrator to finish..." : "What do you say..."}
               value={input}
               onChange={e => setInput(e.target.value)}
               onKeyDown={e => { if (e.key==="Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(); } }}
@@ -1624,7 +1635,7 @@ Write every field, including each item in strengths, in direct second person: "y
                 onClick={isListening ? () => stopListening(true) : startListening}
                 disabled={isSpeaking}
                 style={{ padding:"11px 22px", borderRadius:8, border:"none", background: isListening ? "#c0536a" : isSpeaking ? "rgba(61,133,140,0.25)" : TEAL, color: isListening ? "#fff" : isSpeaking ? "rgba(232,244,245,0.4)" : "#fff", fontSize:"clamp(14px, 2.2vw, 17px)", fontWeight:600, fontFamily:"'DM Sans', Arial, sans-serif", cursor: isSpeaking ? "not-allowed" : "pointer", display:"flex", alignItems:"center", gap:7, boxShadow: isSpeaking ? "none" : "0 2px 8px rgba(0,0,0,0.3)" }}>
-                {isListening ? "🔴 Listening..." : isSpeaking ? "⏳ Wait..." : "🎤 Speak"}
+                {isListening ? "⏹ Tap to Stop" : isSpeaking ? "⏳ Wait..." : "🎤 Speak"}
               </button>
             </div>
           </div>
