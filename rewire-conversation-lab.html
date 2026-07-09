@@ -530,35 +530,40 @@ function App() {
   function beginRecognitionSession() {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     const recognition = new SpeechRecognition();
-    recognition.continuous = true; // keeps listening through pauses
+    recognition.continuous = false; // chained via auto-restart in onend instead — see note there
     recognition.interimResults = true;
     recognition.lang = "en-GB";
 
     recognition.onstart = () => setIsListening(true);
 
+    // Recomputed from scratch on every event, from this instance's own e.results only.
+    // This engine (confirmed from field testing) marks multiple progressive
+    // restatements of the same utterance as "final" — each one already contains
+    // everything the previous one did, plus a bit more. Summing every final entry
+    // together (what an earlier version of this code did) duplicates that restated
+    // content on every step. The fix: never sum across entries. Only the LAST entry
+    // in e.results is trusted at any moment, and it always REPLACES instanceFinal
+    // rather than adding to it.
+    let instanceFinal = "";
     recognition.onresult = (e) => {
-      // Only walk results from e.resultIndex onward — the ones this event is actually
-      // reporting — rather than re-joining the whole results list from scratch each
-      // time. That re-join-everything approach is what caused duplicated words on
-      // mobile, where the recognition engine re-chunks audio more aggressively than
-      // desktop Chrome does.
-      let interim = "";
-      for (let i = e.resultIndex; i < e.results.length; i++) {
-        const result = e.results[i];
-        if (result.isFinal) {
-          const piece = result[0].transcript.trim();
-          if (piece) sessionFinalRef.current = sessionFinalRef.current ? sessionFinalRef.current + " " + piece : piece;
-        } else {
-          interim += result[0].transcript;
-        }
+      if (!e.results.length) return;
+      const last = e.results[e.results.length - 1];
+      const text = last[0].transcript.trim();
+      if (last.isFinal) {
+        instanceFinal = text; // replaces, never appends
       }
-      const combined = [baseInputRef.current, sessionFinalRef.current, interim]
+      const interimPart = last.isFinal ? "" : text;
+      const combined = [baseInputRef.current, sessionFinalRef.current, instanceFinal, interimPart]
         .filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
       setInput(combined);
       voiceInputRef.current = combined; // update immediately, don't wait on React's render cycle
     };
 
     recognition.onend = () => {
+      // Bank whatever this instance finalized exactly once, before it's discarded.
+      if (instanceFinal) {
+        sessionFinalRef.current = sessionFinalRef.current ? sessionFinalRef.current + " " + instanceFinal : instanceFinal;
+      }
       if (manualStopRef.current) {
         setIsListening(false);
         if (autoSendRef.current) {
@@ -567,10 +572,10 @@ function App() {
           if (finalText) sendMessageRef.current(finalText);
         }
       } else {
-        // Many mobile browsers end a "continuous" session on their own after a pause,
-        // regardless of the continuous:true flag — this is a known platform gap, not
-        // a bug in this app. If the person hasn't pressed Stop, silently start a new
-        // session so listening feels uninterrupted instead of quietly going dead.
+        // continuous:false means every session ends after one utterance, by design —
+        // that's what avoids the overlapping-buffer duplication bug. Chaining a new
+        // session on every end (unless the person pressed Stop) is what recreates a
+        // continuous-feeling listening experience on top of that.
         beginRecognitionSession();
       }
     };
