@@ -1,5 +1,5 @@
 {
-  "updated": "09 Jul 2026, 17:53 UTC",
+  "updated": "09 Jul 2026, 18:24 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,15 +139,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Finland’s co-operative banks offer a unique perspective on resilient finance",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/finlands-co-operative-banks-offer-a-unique-perspective-on-resilient-finance/",
-      "date": "9 Jul 2026",
-      "excerpt": "As climate, demographic and geopolitical disruptions intensify, financial systems are confronting pressures that traditional models increasingly struggle to capture. Ephraim Daka shows how Finland’s co‑operative banks offer a compelling len",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "World trade remains dangerously dependent on a handful of shipping lanes",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
       "date": "9 Jul 2026",
@@ -191,6 +182,15 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1024x655.jpg"
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Technological change means women in India are now increasingly outliving men",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/01/technological-change-means-women-in-india-are-now-increasingly-outliving-men/",
+      "date": "1 Jul 2026",
+      "excerpt": "India’s health transition has saved millions of lives. But progress may be creating an unexpected inequality: rising male excess mortality. Astrid Krenz and Holger Strulik uncover the “gender paradox of progress” happening not in spite of, ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1.png"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Why electric cars cost more to insure - and what's being done about it",
@@ -198,6 +198,15 @@
       "date": "8 Jul 2026",
       "excerpt": "The insurance cost of electric vehicles is still putting off many would-be buyers. So what can be done about it?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bac1/live/0041f990-7959-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Interest rates may need to rise this year, says Bank of England economist",
+      "link": "https://www.bbc.co.uk/news/articles/c932ed8nv75o?at_medium=RSS&at_campaign=rss",
+      "date": "9 Jul 2026",
+      "excerpt": "Chief economist at the Bank of England says slower growth and inflationary pressures mean rate rise needed",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e9e/live/5a89b0f0-7bbb-11f1-8b3b-4de03d5aab17.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "9 Jul 2026",
       "excerpt": "Ofcom has fined a slew of sites it says are failing to prevent children accessing their adult content.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a15f/live/ee3faaa0-7b86-11f1-881d-8fcf7e2296a7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Jackdaw boss warns of winter fuel shortage risk if gas field not approved",
-      "link": "https://www.bbc.co.uk/news/articles/cdx78n4nkvyo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Jul 2026",
-      "excerpt": "Adura says the UK government must approve North Sea production urgently to avoid domestic supply shortages.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1127/live/fbe04900-7b0c-11f1-bd97-bb877df31663.jpg"
     },
     {
       "source": "BBC Business",
