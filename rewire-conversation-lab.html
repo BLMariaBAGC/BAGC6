@@ -436,6 +436,9 @@ function App() {
   const voiceInputRef = useRef("");   // always holds the freshest transcribed text, no render lag
   const autoSendRef = useRef(false);  // set when Stop Listening should send immediately once recognition truly ends
   const sendMessageRef = useRef(() => {}); // always points at the current sendMessage, never a frozen one
+  const manualStopRef = useRef(false); // true only once the person actually presses Stop
+  const baseInputRef = useRef("");     // what was already typed before this listening session started
+  const sessionFinalRef = useRef("");  // finalized speech accumulated across this whole session, incl. any mobile auto-restarts
   const audioRef = useRef(null);
 
   // Voice character map - ElevenLabs voice IDs per scenario category
@@ -524,6 +527,65 @@ function App() {
   }
 
   // ── SPEECH INPUT ──
+  function beginRecognitionSession() {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const recognition = new SpeechRecognition();
+    recognition.continuous = true; // keeps listening through pauses
+    recognition.interimResults = true;
+    recognition.lang = "en-GB";
+
+    recognition.onstart = () => setIsListening(true);
+
+    recognition.onresult = (e) => {
+      // Only walk results from e.resultIndex onward — the ones this event is actually
+      // reporting — rather than re-joining the whole results list from scratch each
+      // time. That re-join-everything approach is what caused duplicated words on
+      // mobile, where the recognition engine re-chunks audio more aggressively than
+      // desktop Chrome does.
+      let interim = "";
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        const result = e.results[i];
+        if (result.isFinal) {
+          const piece = result[0].transcript.trim();
+          if (piece) sessionFinalRef.current = sessionFinalRef.current ? sessionFinalRef.current + " " + piece : piece;
+        } else {
+          interim += result[0].transcript;
+        }
+      }
+      const combined = [baseInputRef.current, sessionFinalRef.current, interim]
+        .filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
+      setInput(combined);
+      voiceInputRef.current = combined; // update immediately, don't wait on React's render cycle
+    };
+
+    recognition.onend = () => {
+      if (manualStopRef.current) {
+        setIsListening(false);
+        if (autoSendRef.current) {
+          autoSendRef.current = false;
+          const finalText = voiceInputRef.current.trim();
+          if (finalText) sendMessageRef.current(finalText);
+        }
+      } else {
+        // Many mobile browsers end a "continuous" session on their own after a pause,
+        // regardless of the continuous:true flag — this is a known platform gap, not
+        // a bug in this app. If the person hasn't pressed Stop, silently start a new
+        // session so listening feels uninterrupted instead of quietly going dead.
+        beginRecognitionSession();
+      }
+    };
+
+    recognition.onerror = (e) => {
+      if (e.error === "no-speech") return; // a pause, not a real error — onend will decide what happens next
+      if (!manualStopRef.current && (e.error === "aborted" || e.error === "network")) return; // onend will restart it
+      manualStopRef.current = true;
+      setIsListening(false);
+    };
+
+    recognitionRef.current = recognition;
+    recognition.start();
+  }
+
   function startListening() {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) {
@@ -531,36 +593,15 @@ function App() {
       return;
     }
     if (recognitionRef.current) { recognitionRef.current.stop(); }
-    const recognition = new SpeechRecognition();
-    recognition.continuous = true; // keeps listening through pauses
-    recognition.interimResults = true;
-    recognition.lang = "en-GB";
-    const existingInput = input.trim(); // capture what is already typed
-    recognition.onstart = () => setIsListening(true);
-    recognition.onresult = (e) => {
-      const transcript = Array.from(e.results).map(r => r[0].transcript).join("");
-      // Append to existing input rather than replacing it
-      const combined = existingInput ? existingInput + " " + transcript : transcript;
-      setInput(combined);
-      voiceInputRef.current = combined; // update immediately, don't wait on React's render cycle
-    };
-    recognition.onend = () => {
-      setIsListening(false);
-      if (autoSendRef.current) {
-        autoSendRef.current = false;
-        const finalText = voiceInputRef.current.trim();
-        if (finalText) sendMessageRef.current(finalText);
-      }
-    };
-    recognition.onerror = (e) => {
-      if (e.error !== "no-speech") setIsListening(false);
-    };
-    recognitionRef.current = recognition;
-    recognition.start();
+    manualStopRef.current = false;
+    baseInputRef.current = input.trim(); // capture what is already typed
+    sessionFinalRef.current = "";
+    beginRecognitionSession();
   }
 
   function stopListening(autoSend = false) {
     autoSendRef.current = autoSend;
+    manualStopRef.current = true;
     if (recognitionRef.current) {
       // .stop() is asynchronous — the engine still delivers any final result(s) before
       // onend fires. Sending happens from onend, never from a fixed delay, so it never
@@ -897,9 +938,13 @@ Write every field, including each item in strengths, in direct second person: "y
   }
 
   function restartLab() {
+    manualStopRef.current = true;
+    if (recognitionRef.current) { recognitionRef.current.stop(); recognitionRef.current = null; }
     historyRef.current = [];
     voiceInputRef.current = "";
     autoSendRef.current = false;
+    baseInputRef.current = "";
+    sessionFinalRef.current = "";
     setMessages([]);
     setInsights([]);
     setScores({});
