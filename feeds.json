@@ -1,5 +1,5 @@
 {
-  "updated": "09 Jul 2026, 23:09 UTC",
+  "updated": "10 Jul 2026, 02:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,15 +139,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Finland’s co-operative banks offer a unique perspective on resilient finance",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/finlands-co-operative-banks-offer-a-unique-perspective-on-resilient-finance/",
-      "date": "9 Jul 2026",
-      "excerpt": "As climate, demographic and geopolitical disruptions intensify, financial systems are confronting pressures that traditional models increasingly struggle to capture. Ephraim Daka shows how Finland’s co‑operative banks offer a compelling len",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "World trade remains dangerously dependent on a handful of shipping lanes",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
       "date": "9 Jul 2026",
@@ -191,6 +182,15 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1024x655.jpg"
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Technological change means women in India are now increasingly outliving men",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/01/technological-change-means-women-in-india-are-now-increasingly-outliving-men/",
+      "date": "1 Jul 2026",
+      "excerpt": "India’s health transition has saved millions of lives. But progress may be creating an unexpected inequality: rising male excess mortality. Astrid Krenz and Holger Strulik uncover the “gender paradox of progress” happening not in spite of, ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1.png"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "We saved £6,000 on holidays by swapping homes with strangers",
@@ -198,6 +198,15 @@
       "date": "9 Jul 2026",
       "excerpt": "The BBC looks at the growing trend of people swapping homes to cut holiday costs.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9834/live/74796a60-7b6a-11f1-936a-038dbfe02d14.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Chip giant SK Hynix raises $26.5bn in mega US share sale",
+      "link": "https://www.bbc.co.uk/news/articles/c4gym70r0y4o?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jul 2026",
+      "excerpt": "The shares are set to start trading on the Nasdaq on Friday in what will be the largest ever debut by a foreign firm.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d06b/live/9a1e9c10-7bf4-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "8 Jul 2026",
       "excerpt": "The CEO of Lloyds Bank talks about how to save, budget, avoid scams and manage money in a relationship.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/47dd/live/7709e540-7ae6-11f1-9a9c-53fd8f110370.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How can I get air conditioning in my home and how much does it cost?",
-      "link": "https://www.bbc.co.uk/news/articles/c2ey1p0jnmxo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Jul 2026",
-      "excerpt": "As summers in the UK get hotter, is it time for air conditioning to become a permanent feature in most homes?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea7d/live/da01c550-7479-11f1-9125-bd35be688627.jpg"
     },
     {
       "source": "BBC Business",
