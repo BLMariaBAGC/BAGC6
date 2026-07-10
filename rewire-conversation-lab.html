@@ -491,6 +491,7 @@ function App() {
   const [debrief, setDebrief] = useState(null);
   const [debriefLoading, setDebriefLoading] = useState(false);
   const [isListening, setIsListening] = useState(false);
+  const [voiceError, setVoiceError] = useState("");
   const wasListeningRef = useRef(false);
   useEffect(() => {
     if (!navigator.vibrate) return; // not supported on iOS Safari — silently does nothing there
@@ -658,7 +659,7 @@ Specific real situation to incorporate: ${ctx.trim()}`;
     recognition.interimResults = true;
     recognition.lang = "en-GB";
 
-    recognition.onstart = () => setIsListening(true);
+    recognition.onstart = () => { setIsListening(true); setVoiceError(""); };
 
     // This engine sometimes marks a growing restatement of the SAME utterance as
     // "final" more than once ("how" -> "how you" -> "how you doing"), and sometimes
@@ -719,6 +720,15 @@ Specific real situation to incorporate: ${ctx.trim()}`;
       if (!manualStopRef.current && (e.error === "aborted" || e.error === "network")) return; // onend will restart it
       manualStopRef.current = true;
       setIsListening(false);
+      if (e.error === "not-allowed" || e.error === "service-not-allowed") {
+        setVoiceError("Microphone access was denied. Please allow microphone access in your browser settings, or switch to Text Practice.");
+      } else if (e.error === "audio-capture") {
+        setVoiceError("No microphone was found on this device. You can still use Text Practice.");
+      } else if (e.error === "network") {
+        setVoiceError("Voice recognition lost its connection. Please try again, or switch to Text Practice.");
+      } else {
+        setVoiceError("Voice input isn't working right now. Please try again, or switch to Text Practice.");
+      }
     };
 
     recognitionRef.current = recognition;
@@ -728,9 +738,10 @@ Specific real situation to incorporate: ${ctx.trim()}`;
   function startListening() {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) {
-      alert("Voice input is not supported in this browser. Please use Chrome or Edge.");
+      setVoiceError("Voice input isn't supported in this browser. It works best in Chrome, Edge or Samsung Internet — or switch to Text Practice.");
       return;
     }
+    setVoiceError("");
     if (recognitionRef.current) { recognitionRef.current.stop(); }
     manualStopRef.current = false;
     baseInputRef.current = input.trim(); // capture what is already typed
@@ -1354,6 +1365,11 @@ Write every field, including each item in strengths, in direct second person: "y
               <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.8)" }}>Full spoken rehearsal. The character speaks and you reply aloud or by text.</div>
             </button>
           </div>
+          {voiceEnabled && (
+            <div style={{ fontSize:"clamp(11px, 1.6vw, 13px)", color:"rgba(232,244,245,0.5)", marginTop:10, lineHeight:1.5 }}>
+              Voice works best in Chrome, Edge or Samsung Internet. Having trouble? Switch browsers, or use Text Practice instead.
+            </div>
+          )}
         </div>
 
         <div style={{ marginBottom:22 }}>
@@ -1610,6 +1626,12 @@ Write every field, including each item in strengths, in direct second person: "y
           </button>
         </div>
         <div style={s.inputArea} className="input-area-mobile">
+          {voiceError && (
+            <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", gap:10, background:"rgba(192,83,106,0.14)", border:"1px solid rgba(192,83,106,0.4)", borderRadius:8, padding:"10px 14px", marginBottom:10 }}>
+              <span style={{ fontSize:"clamp(12px, 1.8vw, 14px)", color:"#f2c6ce" }}>⚠ {voiceError}</span>
+              <span onClick={() => setVoiceError("")} style={{ cursor:"pointer", color:"rgba(242,198,206,0.7)", fontSize:16, lineHeight:1, padding:"0 4px" }}>✕</span>
+            </div>
+          )}
           <div style={s.inputRow}>
             <textarea style={{ ...s.textInput, ...(isListening ? { animation:"micGlow 1.6s ease-in-out infinite", borderColor:"#c0536a" } : {}) }} placeholder={isListening ? "Listening... speak now" : isSpeaking ? "Wait for the narrator to finish..." : "What do you say..."}
               value={input}

@@ -3467,6 +3467,7 @@ function App() {
   const [debrief, setDebrief] = useState(null);
   const [debriefLoading, setDebriefLoading] = useState(false);
   const [isListening, setIsListening] = useState(false);
+  const [voiceError, setVoiceError] = useState("");
   const [voiceEnabled, setVoiceEnabled] = useState(true);
   const voiceEnabledRef = useRef(true);
   const setVoice = val => {
@@ -3595,7 +3596,7 @@ function App() {
     r.continuous = true; // keeps listening through pauses — see merge logic below for why this is now safe
     r.interimResults = true;
     r.lang = "en-GB";
-    r.onstart = () => setIsListening(true);
+    r.onstart = () => { setIsListening(true); setVoiceError(""); };
     // This engine sometimes marks a growing restatement of the SAME utterance as
     // "final" more than once ("how" -> "how you" -> "how you doing"), and sometimes
     // marks a genuinely NEW, separate chunk as final. Those need opposite handling: a
@@ -3645,6 +3646,15 @@ function App() {
       if (!manualStopRef.current && (e.error === "aborted" || e.error === "network")) return;
       manualStopRef.current = true;
       setIsListening(false);
+      if (e.error === "not-allowed" || e.error === "service-not-allowed") {
+        setVoiceError("Microphone access was denied. Please allow microphone access in your browser settings, or switch to Text Practice.");
+      } else if (e.error === "audio-capture") {
+        setVoiceError("No microphone was found on this device. You can still use Text Practice.");
+      } else if (e.error === "network") {
+        setVoiceError("Voice recognition lost its connection. Please try again, or switch to Text Practice.");
+      } else {
+        setVoiceError("Voice input isn't working right now. Please try again, or switch to Text Practice.");
+      }
     };
     recognitionRef.current = r;
     r.start();
@@ -3652,9 +3662,10 @@ function App() {
   function startListening() {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) {
-      alert("Voice input requires Chrome or Edge.");
+      setVoiceError("Voice input isn't supported in this browser. It works best in Chrome, Edge or Samsung Internet — or switch to Text Practice.");
       return;
     }
+    setVoiceError("");
     if (recognitionRef.current) recognitionRef.current.stop();
     manualStopRef.current = false;
     baseInputRef.current = input.trim();
@@ -6183,7 +6194,14 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
     }, "↺ Restart")), /*#__PURE__*/React.createElement("div", {
       style: s.inputArea,
       className: "skills-input-mobile"
-    }, /*#__PURE__*/React.createElement("div", {
+    }, voiceError && /*#__PURE__*/React.createElement("div", {
+      style: { display:"flex", alignItems:"center", justifyContent:"space-between", gap:10, background:"rgba(192,83,106,0.14)", border:"1px solid rgba(192,83,106,0.4)", borderRadius:8, padding:"10px 14px", marginBottom:10 }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: { fontSize:"clamp(12px, 1.8vw, 14px)", color:"#f2c6ce" }
+    }, "⚠ " + voiceError), /*#__PURE__*/React.createElement("span", {
+      onClick: () => setVoiceError(""),
+      style: { cursor:"pointer", color:"rgba(242,198,206,0.7)", fontSize:16, lineHeight:1, padding:"0 4px" }
+    }, "✕")), /*#__PURE__*/React.createElement("div", {
       style: s.inputRow
     }, /*#__PURE__*/React.createElement("textarea", {
       style: s.textInput,
@@ -6241,7 +6259,7 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
         fontSize: "clamp(13px, 2.1vw, 17px)",
         cursor: "pointer"
       }
-    }, isListening ? "🔴 Listening..." : "🎤 Speak"), /*#__PURE__*/React.createElement("button", {
+    }, isListening ? "⏹ Tap to Stop" : "🎤 Speak"), /*#__PURE__*/React.createElement("button", {
       onClick: () => setVoice(!voiceEnabledRef.current),
       style: {
         padding: "5px 12px",
@@ -6252,7 +6270,9 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
         fontSize: "clamp(13px, 2.1vw, 17px)",
         cursor: "pointer"
       }
-    }, voiceEnabled ? "🔊 Voice on" : "🔇 Voice off"))))), /*#__PURE__*/React.createElement("div", {
+    }, voiceEnabled ? "🔊 Voice on" : "🔇 Voice off"))), voiceEnabled && /*#__PURE__*/React.createElement("div", {
+      style: { fontSize:"clamp(11px, 1.6vw, 13px)", color:"rgba(232,244,245,0.5)", marginTop:8, lineHeight:1.5 }
+    }, "Voice works best in Chrome, Edge or Samsung Internet. Having trouble? Switch browsers, or turn voice off and type instead."))), /*#__PURE__*/React.createElement("div", {
       style: s.panel,
       className: "skills-panel"
     }, /*#__PURE__*/React.createElement("div", {
