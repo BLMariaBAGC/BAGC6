@@ -1,5 +1,5 @@
 {
-  "updated": "10 Jul 2026, 07:33 UTC",
+  "updated": "10 Jul 2026, 10:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Finland’s co-operative banks offer a unique perspective on resilient finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/finlands-co-operative-banks-offer-a-unique-perspective-on-resilient-finance/",
+      "date": "9 Jul 2026",
+      "excerpt": "As climate, demographic and geopolitical disruptions intensify, financial systems are confronting pressures that traditional models increasingly struggle to capture. Ephraim Daka shows how Finland’s co‑operative banks offer a compelling len",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "World trade remains dangerously dependent on a handful of shipping lanes",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
       "date": "9 Jul 2026",
@@ -182,21 +191,12 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1024x655.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Technological change means women in India are now increasingly outliving men",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/01/technological-change-means-women-in-india-are-now-increasingly-outliving-men/",
-      "date": "1 Jul 2026",
-      "excerpt": "India’s health transition has saved millions of lives. But progress may be creating an unexpected inequality: rising male excess mortality. Astrid Krenz and Holger Strulik uncover the “gender paradox of progress” happening not in spite of, ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1.png"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "EasyJet agrees to rival £5.7bn takeover bid",
+      "title": "EasyJet agrees to surprise takeover bid as rival US firm swoops in",
       "link": "https://www.bbc.co.uk/news/articles/cgjxqq9jg8yo?at_medium=RSS&at_campaign=rss",
       "date": "10 Jul 2026",
-      "excerpt": "The airline says a bid from US firm Apollo has trumped a previous potential takeover offer from Castlelake.",
+      "excerpt": "The airline says a bid from US firm Apollo has trumped a recent takeover offer from Castlelake.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18e4/live/9e552290-7c30-11f1-b3bb-a3d4161295ad.jpg"
     },
     {
@@ -206,21 +206,21 @@
       "link": "https://www.bbc.co.uk/news/articles/cj6g41pzy41o?at_medium=RSS&at_campaign=rss",
       "date": "10 Jul 2026",
       "excerpt": "The ASA says adverts claiming small devices can rapidly cool rooms were too good to be true.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea4f/live/3385e7f0-7ba5-11f1-867f-b981d6d1f257.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40f4/live/3731f960-7c3c-11f1-9510-1546718f668b.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Vapes to have less enticing names to protect children, under UK plans",
+      "title": "Vapes to have less enticing names and flavours to protect children",
       "link": "https://www.bbc.co.uk/news/articles/c9v29d7vml7o?at_medium=RSS&at_campaign=rss",
       "date": "10 Jul 2026",
-      "excerpt": "People are being consulted about plans to stop vape companies using of enticing flavour descriptions that \"attract\" children into experimenting.",
+      "excerpt": "People are being consulted about plans to stop vape companies using enticing flavour descriptions that \"attract\" children into experimenting.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2b3/live/aaac8d00-7b93-11f1-897a-ebe8a20106d3.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "How we've saved thousands on our holidays by swapping homes with strangers",
+      "title": "We've saved £6,000 on holidays by swapping homes with strangers",
       "link": "https://www.bbc.co.uk/news/articles/ce8kkerxz74o?at_medium=RSS&at_campaign=rss",
       "date": "10 Jul 2026",
       "excerpt": "The BBC looks at the growing trend of people swapping homes to cut holiday costs.",
