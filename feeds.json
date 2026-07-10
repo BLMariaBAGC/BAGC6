@@ -1,5 +1,5 @@
 {
-  "updated": "10 Jul 2026, 14:21 UTC",
+  "updated": "10 Jul 2026, 17:45 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Digital banking creates a new kind of financial exclusion",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
+      "date": "10 Jul 2026",
+      "excerpt": "Rolling out digital banking without addressing algorithmic bias risks excluding the very populations it promises to uplift. Meghna Chotaliya uncovers a financial system that is technologically advanced and socially regressive at the same ti",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Finland’s co-operative banks offer a unique perspective on resilient finance",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/finlands-co-operative-banks-offer-a-unique-perspective-on-resilient-finance/",
       "date": "9 Jul 2026",
@@ -182,13 +191,13 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Table-1.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How can global trade contribute to world peace?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/02/how-can-global-trade-contribute-to-world-peace/",
-      "date": "2 Jul 2026",
-      "excerpt": "Using analysis of WTO membership and the Global Peace Index, Julia Croce argues that trade itself, and the organisations that govern it, have a significant role to play in fostering peace within and between fragile states. In an extract fro",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1024x655.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Major car firms found not to have installed emissions-cheating devices",
+      "link": "https://www.bbc.co.uk/news/articles/c0mye0d1297o?at_medium=RSS&at_campaign=rss",
+      "date": "10 Jul 2026",
+      "excerpt": "A High Court judge said some major car manufacturers did not install a device to cheat emissions testing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2090/live/3976f070-7c75-11f1-917a-91e958a7e786.jpg"
     },
     {
       "source": "BBC Business",
@@ -214,7 +223,7 @@
       "title": "Man nearly sucked out of window mid-air on Ryanair plane, passengers say",
       "link": "https://www.bbc.co.uk/news/articles/cgk65knkyzdo?at_medium=RSS&at_campaign=rss",
       "date": "10 Jul 2026",
-      "excerpt": "Ryanair confirm a passenger was given medical treatment after an incident on a Malta Air flight, which is owned by Ryanair.",
+      "excerpt": "The man's wife held onto his legs for around five minutes to stop him from being sucked out, officials say.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c20/live/34d39400-7c5d-11f1-802c-e767a91f6051.jpg"
     },
     {
@@ -225,15 +234,6 @@
       "date": "10 Jul 2026",
       "excerpt": "People are being consulted about plans to stop vape companies using enticing flavour descriptions that \"attract\" children into experimenting.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2b3/live/aaac8d00-7b93-11f1-897a-ebe8a20106d3.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "We've saved £6,000 on holidays by swapping homes with strangers",
-      "link": "https://www.bbc.co.uk/news/articles/ce8kkerxz74o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Jul 2026",
-      "excerpt": "The BBC looks at the growing trend of people swapping homes to cut holiday costs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f7b/live/c0c46b20-7c4d-11f1-912a-c3e242c0bef0.jpg"
     },
     {
       "source": "BBC Business",
