@@ -1,5 +1,5 @@
 {
-  "updated": "11 Jul 2026, 06:10 UTC",
+  "updated": "11 Jul 2026, 09:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Will Trump Accounts deliver for American children?",
+      "link": "https://www.bbc.co.uk/news/articles/ckg55v9e2y9o?at_medium=RSS&at_campaign=rss",
+      "date": "11 Jul 2026",
+      "excerpt": "The White House has hailed the project as giving new generations a stake in the American dream, but the scheme has its critics.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7442/live/ebd646e0-7a35-11f1-ab76-d75965dea4d1.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Major car firms found not to have installed emissions-cheating devices",
       "link": "https://www.bbc.co.uk/news/articles/c0mye0d1297o?at_medium=RSS&at_campaign=rss",
       "date": "10 Jul 2026",
@@ -234,15 +243,6 @@
       "date": "10 Jul 2026",
       "excerpt": "People are being consulted about plans to stop vape companies using enticing flavour descriptions that \"attract\" children into experimenting.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2b3/live/aaac8d00-7b93-11f1-897a-ebe8a20106d3.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Pressure builds on Europe's biggest port to be greener",
-      "link": "https://www.bbc.co.uk/news/articles/c39y78rwrmno?at_medium=RSS&at_campaign=rss",
-      "date": "9 Jul 2026",
-      "excerpt": "A lawsuit demands that the Port of Rotterdam moves faster to cut its dependence on fossil fuel firms.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c82f/live/34e11c20-7397-11f1-b1db-af71d47507d6.jpg"
     }
   ]
 }
