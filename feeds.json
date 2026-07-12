@@ -1,5 +1,5 @@
 {
-  "updated": "11 Jul 2026, 22:45 UTC",
+  "updated": "12 Jul 2026, 02:34 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260711010125.htm",
       "date": "11 Jul 2026",
       "excerpt": "Researchers found that every pregnancy rewires the brain in its own way, with a second pregnancy bringing a different pattern of changes than the first. The discoveries could lead to better ways to recognize and treat maternal mental health",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Yale scientists may have found how Parkinson's disease spreads through the brain",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260710003529.htm",
+      "date": "11 Jul 2026",
+      "excerpt": "Yale scientists discovered two neuron surface proteins that appear to help spread the toxic protein linked to Parkinson’s disease. Blocking these proteins in mice dramatically reduced disease progression, offering a potential new target for",
       "image": ""
     },
     {
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260626030437.htm",
       "date": "3 Jul 2026",
       "excerpt": "Using alcohol to cope with stress when young may permanently alter the brain, making it harder to adapt to challenges and increasing the risk of returning to drinking later in life. Researchers also found signs of brain damage associated wi",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover the deep sleep circuit that builds muscle, burns fat, and boosts the brain",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260626030433.htm",
-      "date": "5 Jul 2026",
-      "excerpt": "Researchers have identified the brain circuitry that links deep sleep with the release of growth hormone, revealing how the two regulate each other. The newly discovered feedback loop helps explain why poor sleep can interfere with growth, ",
       "image": ""
     },
     {
