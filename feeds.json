@@ -1,6 +1,15 @@
 {
-  "updated": "12 Jul 2026, 11:08 UTC",
+  "updated": "12 Jul 2026, 13:15 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover how the brain rewires itself to truly multitask",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
+      "date": "12 Jul 2026",
+      "excerpt": "Practice may do more than make perfect. Researchers found that extensive training physically reorganizes the brain, allowing learned tasks to bypass the prefrontal cortex and run through specialized circuits instead. By freeing the brain's ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +17,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260711010125.htm",
       "date": "11 Jul 2026",
       "excerpt": "Researchers found that every pregnancy rewires the brain in its own way, with a second pregnancy bringing a different pattern of changes than the first. The discoveries could lead to better ways to recognize and treat maternal mental health",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Alzheimer's tau protein has a surprising secret role in memory",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260710003535.htm",
+      "date": "12 Jul 2026",
+      "excerpt": "Researchers found that tau is essential for turning new experiences into lasting memories by helping organize the brain's memory-storing cells. The mouse study also revealed how abnormal tau may contribute to Alzheimer's by disrupting both ",
       "image": ""
     },
     {
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260626125709.htm",
       "date": "3 Jul 2026",
       "excerpt": "Some brains appear to fight back against Alzheimer's by helping immature brain cells survive damage instead of succumbing to it. Understanding this natural resilience could point researchers toward entirely new ways to protect memory and sl",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists may have finally found how Alzheimer's kills brain cells",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260626124701.htm",
-      "date": "5 Jul 2026",
-      "excerpt": "Researchers have identified a previously overlooked mechanism of brain cell death that appears to play a major role in Alzheimer's disease and frontotemporal dementia. The finding could lead to new treatments aimed at slowing neuron loss by",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Drinking to cope with stress may permanently rewire your brain",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260626030437.htm",
-      "date": "3 Jul 2026",
-      "excerpt": "Using alcohol to cope with stress when young may permanently alter the brain, making it harder to adapt to challenges and increasing the risk of returning to drinking later in life. Researchers also found signs of brain damage associated wi",
       "image": ""
     },
     {
