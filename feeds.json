@@ -1,5 +1,5 @@
 {
-  "updated": "12 Jul 2026, 06:32 UTC",
+  "updated": "12 Jul 2026, 09:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Reeves tells BBC: Burnham needs worked-through plan to govern from the start",
+      "link": "https://www.bbc.co.uk/news/articles/cwykdvgv4d4o?at_medium=RSS&at_campaign=rss",
+      "date": "11 Jul 2026",
+      "excerpt": "The Chancellor tells Laura Kuenssberg she will be handing over a stable economy to the incoming PM.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4172/live/943434a0-7d24-11f1-ba31-ed66fa13cdef.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Will Trump Accounts deliver for American children?",
       "link": "https://www.bbc.co.uk/news/articles/ckg55v9e2y9o?at_medium=RSS&at_campaign=rss",
       "date": "11 Jul 2026",
@@ -234,15 +243,6 @@
       "date": "10 Jul 2026",
       "excerpt": "The ASA says adverts claiming small devices can rapidly cool rooms were too good to be true.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40f4/live/3731f960-7c3c-11f1-9510-1546718f668b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Man nearly sucked out of window mid-air on Ryanair plane, passengers say",
-      "link": "https://www.bbc.co.uk/news/articles/cgk65knkyzdo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Jul 2026",
-      "excerpt": "The man's wife held onto his legs for around five minutes to stop him from being sucked out, officials say.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c20/live/34d39400-7c5d-11f1-802c-e767a91f6051.jpg"
     }
   ]
 }
