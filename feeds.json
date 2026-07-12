@@ -1,5 +1,5 @@
 {
-  "updated": "12 Jul 2026, 02:34 UTC",
+  "updated": "12 Jul 2026, 06:32 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "How Aldi is taking on US supermarkets with its $4 almond butter",
+      "link": "https://www.bbc.co.uk/news/articles/cly0l5d5xn7o?at_medium=RSS&at_campaign=rss",
+      "date": "12 Jul 2026",
+      "excerpt": "The German supermarket's $9bn US push targets urban hubs like Manhattan. Can its discount model match Walmart?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5e0/live/402e3660-7c59-11f1-ad56-219c1e341d26.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Will Trump Accounts deliver for American children?",
       "link": "https://www.bbc.co.uk/news/articles/ckg55v9e2y9o?at_medium=RSS&at_campaign=rss",
       "date": "11 Jul 2026",
@@ -234,15 +243,6 @@
       "date": "10 Jul 2026",
       "excerpt": "The man's wife held onto his legs for around five minutes to stop him from being sucked out, officials say.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c20/live/34d39400-7c5d-11f1-802c-e767a91f6051.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Vapes to have less enticing names and flavours to protect children",
-      "link": "https://www.bbc.co.uk/news/articles/c9v29d7vml7o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Jul 2026",
-      "excerpt": "People are being consulted about plans to stop vape companies using enticing flavour descriptions that \"attract\" children into experimenting.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2b3/live/aaac8d00-7b93-11f1-897a-ebe8a20106d3.jpg"
     }
   ]
 }
