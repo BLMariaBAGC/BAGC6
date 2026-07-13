@@ -1,5 +1,5 @@
 {
-  "updated": "13 Jul 2026, 14:29 UTC",
+  "updated": "13 Jul 2026, 17:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "U.S. and Japanese Companies Struggle with Different Parts of AI Adoption—and Offer Different Lessons for Making It Work",
+      "link": "/2026/07/u-s-and-japanese-companies-struggle-with-different-parts-of-ai-adoption-and-offer-different-lessons-for-making-it-work",
+      "date": "13 Jul 2026",
+      "excerpt": "In the U.S., companies move quickly, but struggle to create real returns; In Japan, deployment has moved slowly, but is often deep and fruitful.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "AI Adoption Is Testing Modular Firms",
       "link": "/2026/07/ai-adoption-is-testing-modular-firms",
       "date": "13 Jul 2026",
@@ -137,12 +146,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When Companies in a Supply Chain Work on Different Timelines",
-      "link": "/2026/07/when-companies-in-a-supply-chain-work-on-different-timelines",
-      "date": "9 Jul 2026",
-      "excerpt": "Industries are increasingly split on how fast they work. Companies that redesign how they collaborate across time horizons will build a lasting advantage.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What the art market reveals about the risks in on-chain finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
+      "date": "13 Jul 2026",
+      "excerpt": "Blockchain-based currencies can now buy almost anything, from digital art to a house. But those currencies are themselves volatile, and that volatility passes through to whatever trades on top of them. Ziwen Chen draws on the digital art ma",
       "image": ""
     },
     {
@@ -191,13 +200,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Making sense of climate solutions to help finance the low-carbon transition",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/03/making-sense-of-climate-solutions-to-help-finance-the-low-carbon-transition/",
-      "date": "3 Jul 2026",
-      "excerpt": "Understanding exactly what constitutes a “climate solution” is challenging because definitions differ across frameworks and jurisdictions. Algirdas Brochard,&nbsp;Shafaq Ashraf,&nbsp;Ella Davies,&nbsp;Ákos Hajagos-Tóth,&nbsp;Valentin Jahn&n",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Table-1.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Volkswagen planning to cut up to 100,000 jobs globally",
+      "link": "https://www.bbc.co.uk/news/articles/cx2wzpwn51lo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Jul 2026",
+      "excerpt": "The group, which includes Porsche and Audi, has faced a steep fall in profits and tough competition from China.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e86/live/076e2020-7ec9-11f1-af40-3101fe5a127d.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,20 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "10 years of Pokémon Go and the millions still trying to catch 'em all",
-      "link": "https://www.bbc.co.uk/news/articles/cevlwk4nrm7o?at_medium=RSS&at_campaign=rss",
+      "title": "UK-Switzerland deal to scrap roaming charges and allow Britons to use e-gates",
+      "link": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
       "date": "13 Jul 2026",
-      "excerpt": "Michael Steranka, vice president at the mobile game's owner Scopely, says it has always been about bringing people together.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c312/live/88ec5440-7be6-11f1-9010-bd4e2d0a26e0.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How Aldi is taking on US supermarkets with its $4 almond butter",
-      "link": "https://www.bbc.co.uk/news/articles/cly0l5d5xn7o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Jul 2026",
-      "excerpt": "The German supermarket's $9bn US push targets urban hubs like Manhattan. Can its discount model match Walmart?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5e0/live/402e3660-7c59-11f1-ad56-219c1e341d26.jpg"
+      "excerpt": "The UK signs a new services deal with Switzerland it says will increase exports by £5.2bn annually \"in the long run\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a579/live/e797f600-7ecc-11f1-a521-db2da184cdb6.jpg"
     },
     {
       "source": "BBC Business",
@@ -247,11 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Reeves tells BBC: Burnham needs worked-through plan to govern from the start",
-      "link": "https://www.bbc.co.uk/news/articles/cwykdvgv4d4o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Jul 2026",
-      "excerpt": "The Chancellor tells Laura Kuenssberg she will be handing over a stable economy to the incoming PM.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4172/live/943434a0-7d24-11f1-ba31-ed66fa13cdef.jpg"
+      "title": "How Aldi is taking on US supermarkets with its $4 almond butter",
+      "link": "https://www.bbc.co.uk/news/articles/cly0l5d5xn7o?at_medium=RSS&at_campaign=rss",
+      "date": "12 Jul 2026",
+      "excerpt": "The German supermarket's $9bn US push targets urban hubs like Manhattan. Can its discount model match Walmart?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5e0/live/402e3660-7c59-11f1-ad56-219c1e341d26.jpg"
     }
   ]
 }
