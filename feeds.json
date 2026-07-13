@@ -1,5 +1,5 @@
 {
-  "updated": "13 Jul 2026, 17:52 UTC",
+  "updated": "13 Jul 2026, 19:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,15 +148,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "What the art market reveals about the risks in on-chain finance",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
-      "date": "13 Jul 2026",
-      "excerpt": "Blockchain-based currencies can now buy almost anything, from digital art to a house. But those currencies are themselves volatile, and that volatility passes through to whatever trades on top of them. Ziwen Chen draws on the digital art ma",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Digital banking creates a new kind of financial exclusion",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
       "date": "10 Jul 2026",
@@ -200,6 +191,15 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Making sense of climate solutions to help finance the low-carbon transition",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/03/making-sense-of-climate-solutions-to-help-finance-the-low-carbon-transition/",
+      "date": "3 Jul 2026",
+      "excerpt": "Understanding exactly what constitutes a “climate solution” is challenging because definitions differ across frameworks and jurisdictions. Algirdas Brochard,&nbsp;Shafaq Ashraf,&nbsp;Ella Davies,&nbsp;Ákos Hajagos-Tóth,&nbsp;Valentin Jahn&n",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Table-1.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Volkswagen planning to cut up to 100,000 jobs globally",
@@ -207,6 +207,15 @@
       "date": "13 Jul 2026",
       "excerpt": "The group, which includes Porsche and Audi, has faced a steep fall in profits and tough competition from China.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e86/live/076e2020-7ec9-11f1-af40-3101fe5a127d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Paramount and Warner Bros sued to block $110bn mega merger",
+      "link": "https://www.bbc.co.uk/news/articles/cgev34lvgp4o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Jul 2026",
+      "excerpt": "A dozen US states are taking legal action to halt the largest media consolidation in Hollywood history.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78bd/live/e5f7dff0-7edf-11f1-931d-ab3863ef09cd.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,15 +238,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK-Switzerland deal to scrap roaming charges and allow Britons to use e-gates",
-      "link": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Jul 2026",
-      "excerpt": "The UK signs a new services deal with Switzerland it says will increase exports by £5.2bn annually \"in the long run\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a579/live/e797f600-7ecc-11f1-a521-db2da184cdb6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "New era for Gibraltar with removal of 118-year-old border controls with Spain",
       "link": "https://www.bbc.co.uk/news/articles/cwydz60j3eno?at_medium=RSS&at_campaign=rss",
       "date": "12 Jul 2026",
@@ -247,11 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "How Aldi is taking on US supermarkets with its $4 almond butter",
-      "link": "https://www.bbc.co.uk/news/articles/cly0l5d5xn7o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Jul 2026",
-      "excerpt": "The German supermarket's $9bn US push targets urban hubs like Manhattan. Can its discount model match Walmart?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5e0/live/402e3660-7c59-11f1-ad56-219c1e341d26.jpg"
+      "title": "UK-Switzerland deal to scrap roaming charges and allow Britons to use e-gates",
+      "link": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Jul 2026",
+      "excerpt": "The UK signs a new services deal with Switzerland it says will increase exports by £5.2bn annually \"in the long run\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a579/live/e797f600-7ecc-11f1-a521-db2da184cdb6.jpg"
     }
   ]
 }
