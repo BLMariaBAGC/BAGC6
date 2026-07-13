@@ -1,5 +1,5 @@
 {
-  "updated": "13 Jul 2026, 02:36 UTC",
+  "updated": "13 Jul 2026, 06:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "The SpaceX IPO made history. Is the excitement still there?",
+      "link": "https://www.bbc.co.uk/news/articles/c3wyj6e4210o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Jul 2026",
+      "excerpt": "A month on from the firm's stock market debut, the reality of how SpaceX currently makes money has seemed to come into clearer focus.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ab1/live/ee081470-7c79-11f1-b976-0b9c15b0ccfc.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
+      "link": "https://www.bbc.co.uk/news/articles/cevlr112pmgo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Jul 2026",
+      "excerpt": "Within hours of fresh US attacks, Iran said it had struck US military bases in Kuwait, Jordan and Bahrain.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c03f/live/5cc84d20-7e6a-11f1-bee8-53ce494e1abc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "10 years of Pokémon Go and the millions still trying to catch 'em all",
       "link": "https://www.bbc.co.uk/news/articles/cevlwk4nrm7o?at_medium=RSS&at_campaign=rss",
       "date": "13 Jul 2026",
@@ -216,24 +234,6 @@
       "date": "12 Jul 2026",
       "excerpt": "The German supermarket's $9bn US push targets urban hubs like Manhattan. Can its discount model match Walmart?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5e0/live/402e3660-7c59-11f1-ad56-219c1e341d26.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Reeves tells BBC: Burnham needs worked-through plan to govern from the start",
-      "link": "https://www.bbc.co.uk/news/articles/cwykdvgv4d4o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Jul 2026",
-      "excerpt": "The Chancellor tells Laura Kuenssberg she will be handing over a stable economy to the incoming PM.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4172/live/943434a0-7d24-11f1-ba31-ed66fa13cdef.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Will Trump Accounts deliver for American children?",
-      "link": "https://www.bbc.co.uk/news/articles/ckg55v9e2y9o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Jul 2026",
-      "excerpt": "The White House has hailed the project as giving new generations a stake in the American dream, but the scheme has its critics.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7442/live/ebd646e0-7a35-11f1-ab76-d75965dea4d1.jpg"
     },
     {
       "source": "BBC Business",
