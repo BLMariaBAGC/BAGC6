@@ -1,5 +1,5 @@
 {
-  "updated": "13 Jul 2026, 20:55 UTC",
+  "updated": "13 Jul 2026, 22:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,15 +202,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Volkswagen planning to cut up to 100,000 jobs globally",
-      "link": "https://www.bbc.co.uk/news/articles/cx2wzpwn51lo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Jul 2026",
-      "excerpt": "The group, which includes Porsche and Audi, has faced a steep fall in profits and tough competition from China.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e86/live/076e2020-7ec9-11f1-af40-3101fe5a127d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Paramount and Warner Bros sued to block $110bn mega merger",
       "link": "https://www.bbc.co.uk/news/articles/cgev34lvgp4o?at_medium=RSS&at_campaign=rss",
       "date": "13 Jul 2026",
@@ -220,10 +211,19 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Volkswagen planning to cut up to 100,000 jobs globally",
+      "link": "https://www.bbc.co.uk/news/articles/cx2wzpwn51lo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Jul 2026",
+      "excerpt": "The group, which includes Porsche and Audi, has faced a steep fall in profits and tough competition from China.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e86/live/076e2020-7ec9-11f1-af40-3101fe5a127d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
       "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
       "date": "13 Jul 2026",
-      "excerpt": "The US president also says Washington will impose a 20% charge on all cargo shipped through the Strait of Hormuz.",
+      "excerpt": "The US military later said it had started the third consecutive night of strikes on Iran.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg"
     },
     {
