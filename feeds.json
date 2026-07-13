@@ -1,5 +1,5 @@
 {
-  "updated": "12 Jul 2026, 22:44 UTC",
+  "updated": "13 Jul 2026, 02:36 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Why switching to save money is easier than you might think",
+      "link": "https://www.bbc.co.uk/news/articles/cd7w98n2y3eo?at_medium=RSS&at_campaign=rss",
+      "date": "12 Jul 2026",
+      "excerpt": "Changing your broadband or energy supplier, or even your bank, for a better deal is simpler than it used to be.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c16a/live/a606cc70-7c74-11f1-917a-91e958a7e786.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "10 years of Pokémon Go and the millions still trying to catch 'em all",
+      "link": "https://www.bbc.co.uk/news/articles/cevlwk4nrm7o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Jul 2026",
+      "excerpt": "Michael Steranka, vice president at the mobile game's owner Scopely, says it has always been about bringing people together.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c312/live/88ec5440-7be6-11f1-9010-bd4e2d0a26e0.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "How Aldi is taking on US supermarkets with its $4 almond butter",
       "link": "https://www.bbc.co.uk/news/articles/cly0l5d5xn7o?at_medium=RSS&at_campaign=rss",
       "date": "12 Jul 2026",
@@ -220,29 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Major car firms found not to have installed emissions-cheating devices",
-      "link": "https://www.bbc.co.uk/news/articles/c0mye0d1297o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Jul 2026",
-      "excerpt": "A High Court judge said some major car manufacturers did not install a device to cheat emissions testing.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2090/live/3976f070-7c75-11f1-917a-91e958a7e786.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "EasyJet agrees to surprise takeover bid as rival US firm swoops in",
-      "link": "https://www.bbc.co.uk/news/articles/cgjxqq9jg8yo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Jul 2026",
-      "excerpt": "The airline says a bid from US firm Apollo has trumped a recent takeover offer from Castlelake.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18e4/live/9e552290-7c30-11f1-b3bb-a3d4161295ad.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'Cool in 90 seconds' - the fake portable air conditioners sweeping the internet",
-      "link": "https://www.bbc.co.uk/news/articles/cj6g41pzy41o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Jul 2026",
-      "excerpt": "The ASA says adverts claiming small devices can rapidly cool rooms were too good to be true.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40f4/live/3731f960-7c3c-11f1-9510-1546718f668b.jpg"
+      "title": "New era for Gibraltar with removal of 118-year-old border controls with Spain",
+      "link": "https://www.bbc.co.uk/news/articles/cwydz60j3eno?at_medium=RSS&at_campaign=rss",
+      "date": "12 Jul 2026",
+      "excerpt": "It is hoped that free movement between the UK territory and Spain will provide an economic boost.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df71/live/aad05480-7c4a-11f1-bee8-53ce494e1abc.jpg"
     }
   ]
 }
