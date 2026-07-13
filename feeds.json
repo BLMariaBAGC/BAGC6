@@ -1,6 +1,15 @@
 {
-  "updated": "13 Jul 2026, 10:58 UTC",
+  "updated": "13 Jul 2026, 14:29 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Where you live could shape your dementia risk, massive study finds",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260713000753.htm",
+      "date": "13 Jul 2026",
+      "excerpt": "Researchers analyzing data from more than 214,000 people found that dementia risk factors differ widely across countries, challenging the idea of a one-size-fits-all prevention strategy. At the same time, they uncovered surprisingly consist",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +17,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
       "date": "12 Jul 2026",
       "excerpt": "Practice may do more than make perfect. Researchers found that extensive training physically reorganizes the brain, allowing learned tasks to bypass the prefrontal cortex and run through specialized circuits instead. By freeing the brain's ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discovered the brain doesn't make decisions the way we thought",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260712011757.htm",
+      "date": "13 Jul 2026",
+      "excerpt": "A new study suggests the brain begins making decisions much earlier than scientists previously thought. Researchers found that even primary sensory regions are influenced by higher brain areas through rapid feedback loops, rather than simpl",
       "image": ""
     },
     {
@@ -56,21 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "New MRI breakthrough reveals the brain and eye like never before",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260626125712.htm",
-      "date": "10 Jul 2026",
-      "excerpt": "Scientists have redesigned a key piece of MRI hardware using metamaterials, allowing existing scanners to produce clearer images of difficult-to-see parts of the body in less time. The breakthrough could improve diagnoses, make scans more c",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "AI Adoption Is Testing Modular Firms",
+      "link": "/2026/07/ai-adoption-is-testing-modular-firms",
+      "date": "13 Jul 2026",
+      "excerpt": "Modularity has helped firms manage complexity. But to stay competitive, they will need to be able to rapidly reconfigure their existing capabilities.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover why some brains resist Alzheimer's",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260626125709.htm",
-      "date": "3 Jul 2026",
-      "excerpt": "Some brains appear to fight back against Alzheimer's by helping immature brain cells survive damage instead of succumbing to it. Understanding this natural resilience could point researchers toward entirely new ways to protect memory and sl",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Great Leaders Know Which Emotions Their Feedback Will Trigger",
+      "link": "/2026/07/great-leaders-know-which-emotions-their-feedback-will-trigger",
+      "date": "13 Jul 2026",
+      "excerpt": "Different employees may respond differently to the same kind of feedback. These six techniques can ensure your message lands the right way.",
       "image": ""
     },
     {
@@ -125,15 +143,6 @@
       "link": "/2026/07/when-companies-in-a-supply-chain-work-on-different-timelines",
       "date": "9 Jul 2026",
       "excerpt": "Industries are increasingly split on how fast they work. Companies that redesign how they collaborate across time horizons will build a lasting advantage.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Ensure Your Company Acts on Your New Strategy",
-      "link": "/2026/07/how-to-ensure-your-company-acts-on-your-new-strategy",
-      "date": "8 Jul 2026",
-      "excerpt": "McKinsey research reveals three actions leaders can take to close the gap between strategy and execution.",
       "image": ""
     },
     {
