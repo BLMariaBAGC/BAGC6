@@ -1,5 +1,5 @@
 {
-  "updated": "13 Jul 2026, 06:51 UTC",
+  "updated": "13 Jul 2026, 10:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,29 +193,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why switching to save money is easier than you might think",
+      "title": "How to change bank, energy or broadband provider and save money",
       "link": "https://www.bbc.co.uk/news/articles/cd7w98n2y3eo?at_medium=RSS&at_campaign=rss",
       "date": "12 Jul 2026",
       "excerpt": "Changing your broadband or energy supplier, or even your bank, for a better deal is simpler than it used to be.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c16a/live/a606cc70-7c74-11f1-917a-91e958a7e786.png"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04b2/live/124d8cf0-7ea2-11f1-bee8-53ce494e1abc.png"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The SpaceX IPO made history. Is the excitement still there?",
+      "title": "The SpaceX IPO made history. One month on has it lost momentum?",
       "link": "https://www.bbc.co.uk/news/articles/c3wyj6e4210o?at_medium=RSS&at_campaign=rss",
       "date": "13 Jul 2026",
       "excerpt": "A month on from the firm's stock market debut, the reality of how SpaceX currently makes money has seemed to come into clearer focus.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ab1/live/ee081470-7c79-11f1-b976-0b9c15b0ccfc.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US and Iran trade fire as tensions rise over Strait of Hormuz",
-      "link": "https://www.bbc.co.uk/news/articles/cevlr112pmgo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Jul 2026",
-      "excerpt": "Within hours of fresh US attacks, Iran said it had struck US military bases in Kuwait, Jordan and Bahrain.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c03f/live/5cc84d20-7e6a-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,6 +234,15 @@
       "date": "12 Jul 2026",
       "excerpt": "It is hoped that free movement between the UK territory and Spain will provide an economic boost.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df71/live/aad05480-7c4a-11f1-bee8-53ce494e1abc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Reeves tells BBC: Burnham needs worked-through plan to govern from the start",
+      "link": "https://www.bbc.co.uk/news/articles/cwykdvgv4d4o?at_medium=RSS&at_campaign=rss",
+      "date": "11 Jul 2026",
+      "excerpt": "The Chancellor tells Laura Kuenssberg she will be handing over a stable economy to the incoming PM.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4172/live/943434a0-7d24-11f1-ba31-ed66fa13cdef.jpg"
     }
   ]
 }
