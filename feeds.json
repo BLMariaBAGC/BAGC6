@@ -1,5 +1,5 @@
 {
-  "updated": "13 Jul 2026, 22:54 UTC",
+  "updated": "14 Jul 2026, 02:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "What the art market reveals about the risks in on-chain finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
+      "date": "13 Jul 2026",
+      "excerpt": "Blockchain-based currencies can now buy almost anything, from digital art to a house. But those currencies are themselves volatile, and that volatility passes through to whatever trades on top of them. Ziwen Chen draws on the digital art ma",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Digital banking creates a new kind of financial exclusion",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
       "date": "10 Jul 2026",
@@ -191,21 +200,30 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Making sense of climate solutions to help finance the low-carbon transition",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/03/making-sense-of-climate-solutions-to-help-finance-the-low-carbon-transition/",
-      "date": "3 Jul 2026",
-      "excerpt": "Understanding exactly what constitutes a “climate solution” is challenging because definitions differ across frameworks and jurisdictions. Algirdas Brochard,&nbsp;Shafaq Ashraf,&nbsp;Ella Davies,&nbsp;Ákos Hajagos-Tóth,&nbsp;Valentin Jahn&n",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Table-1.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "The secretive crypto firm backed by Farage's biggest donor",
+      "link": "https://www.bbc.co.uk/news/articles/cg4w6wqye32o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Jul 2026",
+      "excerpt": "Tether is a giant in crytocurrency, an industry that Nigel Farage believes the UK should be embracing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ae0/live/c36317c0-7ef3-11f1-83a7-0959f8cc10cc.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Paramount and Warner Bros sued to block $110bn mega merger",
+      "title": "'I don't want to seem tight': How much should you give to the year-end teacher collection?",
+      "link": "https://www.bbc.co.uk/news/articles/ckg8x4vk04vo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Jul 2026",
+      "excerpt": "Collecting money for a joint present might overcome the competitive gift-giving, but it can still cause friction.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f19/live/cf46fe70-7c6a-11f1-b259-7334926d10bb.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "California leads lawsuit to block Paramount Warner Bros mega merger",
       "link": "https://www.bbc.co.uk/news/articles/cgev34lvgp4o?at_medium=RSS&at_campaign=rss",
       "date": "13 Jul 2026",
-      "excerpt": "A dozen US states are taking legal action to halt the largest media consolidation in Hollywood history.",
+      "excerpt": "The state, where the both studios have headquarters, has joined 11 others to halt the deal.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78bd/live/e5f7dff0-7edf-11f1-931d-ab3863ef09cd.jpg"
     },
     {
@@ -220,38 +238,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
+      "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
       "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "date": "13 Jul 2026",
-      "excerpt": "The US military later said it had started the third consecutive night of strikes on Iran.",
+      "date": "14 Jul 2026",
+      "excerpt": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the strait.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "How to change bank, energy or broadband provider and save money",
-      "link": "https://www.bbc.co.uk/news/articles/cd7w98n2y3eo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Jul 2026",
-      "excerpt": "Changing your broadband or energy supplier, or even your bank, for a better deal is simpler than it used to be.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04b2/live/124d8cf0-7ea2-11f1-bee8-53ce494e1abc.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The SpaceX IPO made history. One month on has it lost momentum?",
-      "link": "https://www.bbc.co.uk/news/articles/c3wyj6e4210o?at_medium=RSS&at_campaign=rss",
+      "title": "Is tracking your food purchases good for your health?",
+      "link": "https://www.bbc.co.uk/news/articles/cy8wlplellvo?at_medium=RSS&at_campaign=rss",
       "date": "13 Jul 2026",
-      "excerpt": "A month on from the firm's stock market debut, the reality of how SpaceX currently makes money has seemed to come into clearer focus.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ab1/live/ee081470-7c79-11f1-b976-0b9c15b0ccfc.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "New era for Gibraltar with removal of 118-year-old border controls with Spain",
-      "link": "https://www.bbc.co.uk/news/articles/cwydz60j3eno?at_medium=RSS&at_campaign=rss",
-      "date": "12 Jul 2026",
-      "excerpt": "It is hoped that free movement between the UK territory and Spain will provide an economic boost.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df71/live/aad05480-7c4a-11f1-bee8-53ce494e1abc.jpg"
+      "excerpt": "Food tracking apps are popular, but are they a good way to make us eat a healthier diet?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ac4/live/19124130-7492-11f1-8e1d-bbbb1017d210.jpg"
     }
   ]
 }
