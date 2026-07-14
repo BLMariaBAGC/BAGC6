@@ -100,7 +100,7 @@ const SENIORITY_REGISTER = {
 const MODULES = [{
   id: "leadership",
   title: "Leadership Styles",
-  tagline: "Isolate. Drill. Repeat.",
+  tagline: "Guided practice in adapting your style.",
   desc: "Identify your default style, then run targeted reps on the style the situation demands. Short, specific, repeatable.",
   pill: "Style switching",
   scoreKeys: ["presence", "clarity", "adaptability", "teamImpact"],
@@ -152,7 +152,8 @@ const MODULES = [{
     selfAwareness: "Self-Awareness",
     application: "Practical Application"
   },
-  available: true
+  available: true,
+  hidden: true
 }, {
   id: "prioritisation",
   title: "Prioritisation Under Pressure",
@@ -166,7 +167,8 @@ const MODULES = [{
     communication: "Communication of Priority",
     stakeholderAwareness: "Stakeholder Awareness"
   },
-  available: true
+  available: true,
+  hidden: true
 }, {
   id: "difficult-conversations",
   title: "Difficult Conversations",
@@ -180,11 +182,12 @@ const MODULES = [{
     clarity: "Clarity of Message",
     composure: "Composure"
   },
-  available: true
+  available: true,
+  hidden: true
 }, {
   id: "giving-feedback",
   title: "Giving Feedback",
-  tagline: "Isolate. Drill. Repeat.",
+  tagline: "Guided practice in delivering feedback.",
   desc: "Specific, honest, kind. Drill the feedback that needs to land without being softened to the point it is not heard.",
   pill: "Feedback delivery",
   scoreKeys: ["specificity", "directness", "empathy", "actionability"],
@@ -198,7 +201,7 @@ const MODULES = [{
 }, {
   id: "receiving-feedback",
   title: "Receiving Feedback",
-  tagline: "Isolate. Drill. Repeat.",
+  tagline: "Guided practice in receiving feedback.",
   desc: "Receiving feedback without shutting down, deflecting or over-apologising is a skill most people have never practised.",
   pill: "Feedback reception",
   scoreKeys: ["openness", "composure", "curiosity", "ownership"],
@@ -236,7 +239,8 @@ const MODULES = [{
     composure: "Composure",
     relationshipProtection: "Relationship Protection"
   },
-  available: true
+  available: true,
+  hidden: true
 }];
 
 // ── LEADERSHIP STYLES ──
@@ -3430,6 +3434,109 @@ function ExecReferenceExample({
     }
   }, ex.strong)));
 }
+// ══════════════════════════════════════════════════════════════════════════
+// SKILLS LAB REP-AND-RAMP ENGINE  (pilot: executive, communication, resilience)
+// A gym, not a simulator. One stimulus, one response, one correction, then again.
+// Difficulty rises through the SITUATION only, counterpart seniority and firmness,
+// never through the character attacking the person. Ceilings are enforced in code.
+// ══════════════════════════════════════════════════════════════════════════
+const REP_PILOT_MODULES = ["executive", "communication", "resilience"];
+function isRepModule(id) { return REP_PILOT_MODULES.includes(id); }
+
+const COUNTERPART_REGISTER = {
+  peer: "You are a PEER of the person. Neither of you has authority over the other. Equal footing: professional courtesy but no deference.",
+  senior: "You are SENIOR to the person, their manager or above. You hold positional authority and are comfortable in it. You can interrupt more freely and your time feels valuable. A realistic senior figure, not a cartoon boss.",
+  executive: "You are VERY SENIOR to the person: C-suite, board, or top leadership. Your attention is scarce and expensive. You compress conversations, expect crisp answers, and notice waffle instantly. Realistic executive presence, not caricature.",
+};
+const COUNTERPART_LABEL = { peer: "a peer", senior: "a senior manager", executive: "an executive" };
+
+// Ascending seniority. Floor is always peer (index 0), not user-set. Ceiling is executive.
+const DRILL_LEVEL_LADDER = ["peer", "senior", "executive"];
+const RAMP_LEVEL_CEILING = DRILL_LEVEL_LADDER.length - 1;
+
+// Ascending firmness, every rung professional-realistic and beatable. The cornering
+// tones (emotional, passive-aggressive, avoidant, silent) are deliberately NOT here,
+// so the auto-ramp can never reach them: a ladder-level guard on top of the index cap.
+const DRILL_TONE_LADDER = [
+  { value: "supportive", label: "Supportive", instruction: "Be open, engaged and collaborative. Still ask meaningful questions so the rep has substance." },
+  { value: "neutral", label: "Neutral", instruction: "Respond in a measured, realistic way. Professional and fair, but do not make it easy." },
+  { value: "sceptical", label: "Sceptical", instruction: "Be doubtful and need convincing through specifics. Do not accept assertion alone. Acknowledge credible substance when it comes." },
+  { value: "resistant", label: "Resistant", instruction: "Actively push back and raise objections, politely. If they respond with clarity and composure, let your resistance soften step by step." },
+  { value: "impatient", label: "Impatient", instruction: "Be time-pressed and brisk. Want the point quickly, occasionally cut in. If they are concise and structured, give them proper attention. Never rude, only hurried." },
+  { value: "dismissive", label: "Dismissive", instruction: "Downplay and minimise at first, civilly. If they hold their ground calmly and make the stakes concrete, begin to take them seriously." },
+  { value: "dominant", label: "Dominant", instruction: "Control the conversation and steer the agenda, professionally, never abusively. If they hold their space assertively and refuse to be steamrolled, give ground and treat them as an equal." },
+];
+const RAMP_TONE_CEILING = DRILL_TONE_LADDER.length - 1;
+
+// The user sets only where the firmness ramp STARTS.
+const DRILL_TONE_FLOORS = { cooperative: 0, neutral: 1, challenging: 3 };
+const DRILL_FLOOR_OPTIONS = [
+  { value: "cooperative", label: "Cooperative", note: "Start warm, then let it firm up as you succeed" },
+  { value: "neutral", label: "Neutral", note: "Start measured and realistic" },
+  { value: "challenging", label: "Challenging", note: "Start with real pushback from the first rep" },
+];
+
+// Hard ethical cap, wired into the machine AND stated in every prompt.
+const DRILL_TONE_ETHIC = "DIFFICULTY RULE: however senior or firm you are, you remain a character the person can succeed against. There is always a path through. If they communicate well, respond to it. Never become an immovable wall, never punish good communication, never attack the person, and never escalate beyond professional realism. Resistance rises only through your seniority and firmness, never through hostility toward them.";
+
+function rampFloor(floorKey) { return { levelIndex: 0, toneIndex: DRILL_TONE_FLOORS[floorKey] ?? 1 }; }
+function rampEscalate(state) {
+  return {
+    levelIndex: Math.min(state.levelIndex + 1, RAMP_LEVEL_CEILING),
+    toneIndex: Math.min(state.toneIndex + 1, RAMP_TONE_CEILING),
+  };
+}
+function rampAtCeiling(state) { return state.levelIndex >= RAMP_LEVEL_CEILING && state.toneIndex >= RAMP_TONE_CEILING; }
+function rampLevel(state) { return DRILL_LEVEL_LADDER[Math.min(state.levelIndex, RAMP_LEVEL_CEILING)]; }
+function rampTone(state) { return DRILL_TONE_LADDER[Math.min(state.toneIndex, RAMP_TONE_CEILING)]; }
+function rampDescribe(state) {
+  const lvl = COUNTERPART_LABEL[rampLevel(state)] || "a peer";
+  const tn = rampTone(state).label;
+  return `${tn} · ${lvl}`;
+}
+
+// The one dimension each pilot module judges. Single variable, never the full CI panel.
+const REP_SKILL = {
+  executive: { name: "boardroom register", pass: "spoke in confident, precise, strategically framed boardroom language with no hedging or over-technical detail", fail: "hedged, over-explained, used filler or technical language instead of confident boardroom register" },
+  communication: { name: "the target register", pass: "expressed their point clearly and directly in the target register without slipping into their old pattern", fail: "slipped out of the target register, either softening the message away or overpowering it" },
+  resilience: { name: "holding ground without defensiveness", pass: "held their position calmly and clearly under pressure without becoming defensive, apologetic, or aggressive", fail: "wobbled under pressure: went defensive, over-apologised, caved, or pushed back aggressively" },
+};
+
+// Counterpart opening line for a rep (they-bring-it-up). Regenerated at the CURRENT
+// difficulty each time the situation is re-run one notch harder after a pass.
+function buildRepStimulusPrompt(scene, state, userName, userRole, seniority) {
+  const level = rampLevel(state); const tone = rampTone(state);
+  return `You are running a single training rep in a professional skills gym. You play the OTHER PERSON in this situation, not a coach.
+
+SITUATION (fixed for this drill): ${scene.situation}
+Your role: ${scene.role}
+${userName ? `The person is called ${userName}.` : ""}${userRole ? ` Their role: ${userRole}.` : ""}
+
+YOUR SENIORITY: ${COUNTERPART_REGISTER[level] || COUNTERPART_REGISTER.peer}
+YOUR MANNER: ${tone.instruction}
+${DRILL_TONE_ETHIC}
+
+Open the rep: say ONE short, natural, in-character opening line (1 to 2 sentences) that puts the person on the spot in this situation. Do not coach, do not explain, do not break character, do not use the person's exact task words back at them. Just the line.`;
+}
+
+// Single-dimension judgement. Returns STRICT JSON with exactly one assessed variable,
+// plus an excellent version of the SAME response to imitate. Never a multi-metric panel.
+function buildRepJudgementPrompt(scene, counterpartLine, userResponse, state, seniority) {
+  const level = rampLevel(state); const tone = rampTone(state);
+  const skill = REP_SKILL[scene.module] || REP_SKILL.executive;
+  return `You are judging ONE rep in a skills gym. Assess EXACTLY ONE dimension: ${skill.name}. Ignore everything else. This is not a full debrief.
+
+SITUATION: ${scene.situation}
+The other person is ${COUNTERPART_LABEL[level] || "a peer"} and their manner was ${tone.label}. ${DRILL_TONE_ETHIC}
+${counterpartLine ? `The other person opened with: "${counterpartLine}"` : `The person had to open the conversation themselves.`}
+The person's response was: "${userResponse}"
+
+Calibrate the pass bar to that seniority and firmness: a response that would pass against a supportive peer can fail against a dominant executive. A PASS means they ${skill.pass}. A FAIL means they ${skill.fail}.
+
+Return ONLY this JSON, no preamble, no markdown:
+{"passed": true or false, "failure": "if failed, name the ONE specific thing that let them down in a few words, quoting their words where useful; empty string if passed", "micro": "one sentence, direct and specific, naming that single thing (or confirming what landed if passed). No lists, no second point.", "model": "an excellent version of THEIR response to this exact moment, in their voice, that they can say out loud to imitate. One to three sentences."}`;
+}
+
 function App() {
   const [view, setView] = useState("lobby");
   const [activeModule, setActiveModule] = useState(null);
@@ -3479,6 +3586,17 @@ function App() {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [nameInputVal, setNameInputVal] = useState("");
   const [seniority, setSeniority] = useState("professional");
+  // ── REP-AND-RAMP STATE (pilot modules) ──
+  const [userStarts, setUserStarts] = useState(false); // false = they bring it up (counterpart opens), the natural gym rep
+  const [repFloor, setRepFloor] = useState("neutral"); // starting firmness the user picks
+  const [repState, setRepState] = useState({ levelIndex: 0, toneIndex: 1 });
+  const [repScene, setRepScene] = useState(null);      // fixed situation for the whole ramp
+  const [repLine, setRepLine] = useState("");          // counterpart's current opening line
+  const [repPhase, setRepPhase] = useState("prompt");  // prompt | judging | feedback
+  const [repResult, setRepResult] = useState(null);    // { passed, failure, micro, model }
+  const [repRound, setRepRound] = useState(0);         // total reps attempted
+  const [repPasses, setRepPasses] = useState(0);       // successful reps
+  const repStateRef = useRef({ levelIndex: 0, toneIndex: 1 });
   const [panelOpen, setPanelOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [assessmentMode, setAssessmentMode] = useState(false);
@@ -4187,6 +4305,109 @@ Be precise. Be empowering. Address them as ${userName || "you"}.`;
     setThinking(false);
   }
   useEffect(() => { sendMessageRef.current = sendMessage; });
+
+  // ── REP-AND-RAMP DRILL ENGINE (pilot: executive, communication, resilience) ──
+  function buildRepScene() {
+    const mod = activeModule?.id;
+    if (mod === "executive") {
+      const d = EXEC_SCENARIOS.find(es => es.id === selectedScenario);
+      if (!d) return null;
+      return { module: "executive", label: d.label || "Executive Presence", role: "a senior stakeholder in the room", situation: d.scene, userGoal: d.objective || "" };
+    }
+    if (mod === "communication") {
+      const cs = COMM_STYLES.find(c => c.id === selectedStyle);
+      if (!cs) return null;
+      return { module: "communication", label: (cs.label || "") + " communication", role: cs.drill?.role || "the other person", situation: cs.drill?.scene || "", userGoal: cs.drill?.objective || "" };
+    }
+    if (mod === "resilience") {
+      return { module: "resilience", label: "Handling Pushback", role: "the person challenging your recommendation", situation: "You are presenting a recommendation to restructure a process that affects several teams. The other person is challenging your reasoning and testing whether you will hold your position.", userGoal: "Hold your ground calmly and clearly without becoming defensive, apologetic, or aggressive." };
+    }
+    return null;
+  }
+
+  async function genRepLine(st, scene) {
+    setRepPhase("prompt");
+    setRepLine("");
+    setThinking(true);
+    try {
+      const reply = await callAI(buildRepStimulusPrompt(scene, st, userName, userRole, seniority), [{ role: "user", content: "Open the rep now with your single in-character line." }]);
+      setRepLine(reply);
+      speakText(reply);
+    } catch {
+      setRepLine("(The other person is ready. Make your opening move.)");
+    }
+    setThinking(false);
+  }
+
+  function startRepDrill() {
+    const scene = buildRepScene();
+    if (!scene) return;
+    stopSpeaking();
+    setRepScene(scene);
+    const st = rampFloor(repFloor);
+    repStateRef.current = st;
+    setRepState(st);
+    setRepRound(0);
+    setRepPasses(0);
+    setRepResult(null);
+    setInput("");
+    setRepPhase("prompt");
+    setView("repdrill");
+    if (userStarts) {
+      setRepLine(""); // you open cold, no counterpart line
+    } else {
+      genRepLine(st, scene);
+    }
+  }
+
+  async function submitRep(overrideText) {
+    const text = (typeof overrideText === "string" ? overrideText : input).trim();
+    if (thinking || !text || repPhase === "judging") return;
+    setInput("");
+    setRepPhase("judging");
+    setThinking(true);
+    const st = repStateRef.current;
+    try {
+      const reply = await callAI(buildRepJudgementPrompt(repScene, repLine, text, st, seniority), [{ role: "user", content: "Judge this rep. Return only the JSON object." }]);
+      const parsed = JSON.parse(reply.replace(/```json|```/g, "").trim());
+      setRepResult({ passed: !!parsed.passed, failure: parsed.failure || "", micro: parsed.micro || "", model: parsed.model || "", attempt: text });
+      setRepRound(r => r + 1);
+      if (parsed.passed) setRepPasses(p => p + 1);
+    } catch {
+      setRepResult({ passed: false, failure: "", micro: "That rep did not come back cleanly. Take the same moment again.", model: "", attempt: text });
+    }
+    setRepPhase("feedback");
+    setThinking(false);
+  }
+
+  function continueRep() {
+    const passed = repResult?.passed;
+    setRepResult(null);
+    setInput("");
+    if (passed) {
+      // Pass: same situation, one notch more senior and firmer. Ceiling is clamped in code.
+      const next = rampEscalate(repStateRef.current);
+      repStateRef.current = next;
+      setRepState(next);
+      if (userStarts) { setRepPhase("prompt"); }
+      else { genRepLine(next, repScene); }
+    } else {
+      // Fail: retry the IDENTICAL stimulus at the same level with the correction applied.
+      // Do not regenerate the counterpart line, the rep must be the same rep.
+      setRepPhase("prompt");
+    }
+  }
+
+  function hearModel() { if (repResult?.model) speakText(repResult.model); }
+
+  function endRepDrill() {
+    stopSpeaking();
+    stopListening(false);
+    setRepResult(null);
+    setRepLine("");
+    setRepScene(null);
+    setView("lobby");
+  }
   async function runScoreAnalysis() {
     const userMsgs = historyRef.current.filter(m => m.role === "user").map(m => m.content).join("\n\n");
     if (!userMsgs) return;
@@ -4556,7 +4777,7 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
     style: s.sectionLabel
   }, "Choose a module"), /*#__PURE__*/React.createElement("div", {
     style: s.grid
-  }, MODULES.map(mod => /*#__PURE__*/React.createElement("div", {
+  }, MODULES.filter(m => !m.hidden).map(mod => /*#__PURE__*/React.createElement("div", {
     key: mod.id,
     style: mod.available ? s.moduleCard : s.moduleCardDisabled,
     onClick: () => {
@@ -5897,7 +6118,7 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
       fontSize: "clamp(13px, 2.1vw, 17px)",
       color: "rgba(232,244,245,0.75)"
     }
-  }, l.note))))), /*#__PURE__*/React.createElement("div", {
+  }, l.note))))), isRepModule(activeModule?.id) && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", { style: { marginBottom: 22 } }, /*#__PURE__*/React.createElement("label", { style: { ...s.fieldLabel, marginBottom: 12 } }, "Choose your experience"), /*#__PURE__*/React.createElement("div", { style: s.styleGrid }, /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, ...(!voiceEnabled ? s.styleBtnActive : {}) }, onClick: () => setVoice(false) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 500, marginBottom: 4 } }, "Text Practice" + (!voiceEnabled ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "Rehearse in writing. Silent, ideal for the office or the commute.")), /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, ...(voiceEnabled ? s.styleBtnActive : {}) }, onClick: () => setVoice(true) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 500, marginBottom: 4 } }, "Voice Practice" + (voiceEnabled ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "The other person speaks and you reply aloud or by text.")))), /*#__PURE__*/React.createElement("div", { style: { marginBottom: 22 } }, /*#__PURE__*/React.createElement("label", { style: { ...s.fieldLabel, marginBottom: 12 } }, "Who starts this rep?"), /*#__PURE__*/React.createElement("div", { style: s.styleGrid }, /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, ...(!userStarts ? s.styleBtnActive : {}) }, onClick: () => setUserStarts(false) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 500, marginBottom: 4 } }, "They bring it up" + (!userStarts ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "The other person opens and you respond. The natural rep.")), /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, ...(userStarts ? s.styleBtnActive : {}) }, onClick: () => setUserStarts(true) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 500, marginBottom: 4 } }, "I bring it up" + (userStarts ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "You open the moment cold, in your own words.")))), /*#__PURE__*/React.createElement("div", { style: { marginBottom: 22 } }, /*#__PURE__*/React.createElement("label", { style: { ...s.fieldLabel, marginBottom: 12 } }, "Starting firmness"), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", color: "rgba(232,244,245,0.6)", marginBottom: 12, lineHeight: 1.5 } }, "This sets where the ramp begins. Every rep you pass, the other person becomes one notch more senior and firmer, automatically."), /*#__PURE__*/React.createElement("div", { style: { display: "flex", flexDirection: "column", gap: 10 } }, DRILL_FLOOR_OPTIONS.map(o => /*#__PURE__*/React.createElement("button", { key: o.value, style: { ...s.styleBtn, textAlign: "left", ...(repFloor === o.value ? s.styleBtnActive : {}) }, onClick: () => setRepFloor(o.value) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 500, marginBottom: 4 } }, o.label), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, o.note))))), ), /*#__PURE__*/React.createElement("div", {
     style: {
       marginBottom: 28
     }
@@ -5967,10 +6188,12 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
       opacity: 1
     },
     disabled: activeModule?.id === "executive" ? !selectedScenario : activeModule?.id === "thinking" ? !selectedFramework : ["prioritisation", "difficult-conversations", "giving-feedback", "receiving-feedback", "resilience", "boundaries"].includes(activeModule?.id) ? false : !selectedStyle,
-    onClick: startDiagnostic
-  }, "Start the Diagnostic"))));
+    onClick: isRepModule(activeModule?.id) ? startRepDrill : startDiagnostic
+  }, isRepModule(activeModule?.id) ? "Start the Drill" : "Start the Diagnostic"))));
 
   // ── DRILL ──
+  if (view === "repdrill") return /*#__PURE__*/React.createElement("div", { style: s.app }, /*#__PURE__*/React.createElement("div", { style: s.setup }, /*#__PURE__*/React.createElement("div", { style: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 18, flexWrap: "wrap", gap: 10 } }, /*#__PURE__*/React.createElement("button", { style: s.backBtn, onClick: endRepDrill }, "\u2190 End drill"), /*#__PURE__*/React.createElement("div", { style: { display: "flex", gap: 12, alignItems: "center", flexWrap: "wrap" } }, /*#__PURE__*/React.createElement("span", { style: { fontSize: 12, letterSpacing: "0.1em", textTransform: "uppercase", color: AMBER, fontWeight: 700 } }, rampDescribe(repState)), /*#__PURE__*/React.createElement("span", { style: { fontSize: 12, color: "rgba(232,244,245,0.55)" } }, repPasses + " passed / " + repRound + " reps"))), /*#__PURE__*/React.createElement("div", { style: s.eyebrow }, (repScene?.label || "") + " \u00b7 Rep drill"), /*#__PURE__*/React.createElement("div", { style: { ...s.setupTitle, fontSize: "clamp(20px, 3vw, 26px)", marginBottom: 18 } }, activeModule?.title || ""), (repPhase === "prompt") && /*#__PURE__*/React.createElement(React.Fragment, null, (!userStarts) ? /*#__PURE__*/React.createElement("div", { style: { background: "rgba(61,133,140,0.08)", border: "1px solid rgba(61,133,140,0.28)", borderRadius: 12, padding: "20px 22px" } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", color: "rgba(201,246,250,0.7)", fontWeight: 600, marginBottom: 10 } }, "They open"), /*#__PURE__*/React.createElement("div", { style: { fontFamily: "\u0027Cormorant Garamond\u0027, Georgia, serif", fontSize: "clamp(18px, 3vw, 24px)", color: "#EEF8F9", lineHeight: 1.5 } }, (thinking && !repLine) ? "\u2026" : repLine)) : /*#__PURE__*/React.createElement("div", { style: { background: "rgba(61,133,140,0.08)", border: "1px solid rgba(61,133,140,0.28)", borderRadius: 12, padding: "20px 22px" } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", color: "rgba(201,246,250,0.7)", fontWeight: 600, marginBottom: 10 } }, "Your move, open it"), /*#__PURE__*/React.createElement("div", { style: { fontFamily: "\u0027Cormorant Garamond\u0027, Georgia, serif", fontSize: "clamp(18px, 3vw, 24px)", color: "#EEF8F9", lineHeight: 1.5 } }, repScene?.situation || "")), /*#__PURE__*/React.createElement("textarea", { style: { ...s.fieldInput, minHeight: 110, width: "100%", boxSizing: "border-box", marginTop: 16, resize: "vertical" }, placeholder: userStarts ? "Open the conversation in your own words\u2026" : "Your response\u2026", value: input, onChange: e => setInput(e.target.value), disabled: thinking }), /*#__PURE__*/React.createElement("div", { style: { display: "flex", gap: 10, marginTop: 12, flexWrap: "wrap" } }, /*#__PURE__*/React.createElement("button", { style: { ...s.startBtn, flex: 1, opacity: (thinking || !input.trim()) ? 0.5 : 1 }, disabled: thinking || !input.trim(), onClick: () => submitRep() }, "Submit rep \u2192"), voiceEnabled && /*#__PURE__*/React.createElement("button", { style: { minWidth: 64, background: isListening ? "rgba(212,168,83,0.2)" : "transparent", border: "1px solid " + (isListening ? AMBER : "rgba(61,133,140,0.4)"), color: isListening ? AMBER : "#C9F6FA", borderRadius: 8, fontSize: 15, cursor: "pointer" }, onClick: isListening ? () => stopListening(false) : startListening }, isListening ? "Stop" : "\ud83c\udfa4"))), (repPhase === "judging") && /*#__PURE__*/React.createElement("div", { style: { textAlign: "center", padding: "30px 0" } }, /*#__PURE__*/React.createElement(Dots, null), /*#__PURE__*/React.createElement("div", { style: { color: "rgba(232,244,245,0.6)", marginTop: 10, fontSize: 14 } }, "Judging the rep\u2026")), (repPhase === "feedback" && repResult) && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", { style: { background: repResult.passed ? "rgba(76,175,125,0.08)" : "rgba(212,168,83,0.08)", border: "1px solid " + (repResult.passed ? "rgba(76,175,125,0.35)" : "rgba(212,168,83,0.35)"), borderRadius: 12, padding: "20px 22px" } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", fontWeight: 700, color: repResult.passed ? "#4caf7d" : AMBER, marginBottom: 8 } }, repResult.passed ? "Passed" : "Not yet"), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(14px, 2.2vw, 17px)", color: "#EEF8F9", lineHeight: 1.6 } }, repResult.micro || "")), repResult.model && /*#__PURE__*/React.createElement("div", { style: { background: "rgba(61,133,140,0.07)", border: "1px solid rgba(61,133,140,0.22)", borderRadius: 12, padding: "18px 20px", marginTop: 14 } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", fontWeight: 600, color: TEAL, marginBottom: 8 } }, "Say it like this"), /*#__PURE__*/React.createElement("div", { style: { fontFamily: "\u0027Cormorant Garamond\u0027, Georgia, serif", fontSize: "clamp(16px, 2.6vw, 20px)", color: MIST, lineHeight: 1.5, fontStyle: "italic" } }, repResult.model), voiceEnabled && /*#__PURE__*/React.createElement("button", { style: { marginTop: 12, background: "transparent", border: "1px solid rgba(61,133,140,0.4)", color: "#C9F6FA", borderRadius: 8, padding: "8px 14px", fontSize: 13, cursor: "pointer", fontFamily: "\u0027DM Sans\u0027, Arial, sans-serif" }, onClick: hearModel }, "\u25b6 Hear it")), /*#__PURE__*/React.createElement("button", { style: { ...s.startBtn, marginTop: 16 }, onClick: continueRep }, repResult.passed ? (rampAtCeiling(repState) ? "Mastery rep, same level \u2192" : "Next rep, one notch harder \u2192") : "Run the same rep again \u2192"))));
+
   if (view === "drill") {
     const drillPhaseLabel = drillPhase === "diagnostic" ? "Diagnostic" : "Practice Drill";
     return /*#__PURE__*/React.createElement("div", {
