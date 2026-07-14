@@ -910,10 +910,14 @@ Specific real situation to incorporate: ${ctx.trim()}`;
       ? `Your character's name is: ${otherPartyName.trim()}. Use this name when you introduce yourself.`
       : "Do NOT introduce yourself with a name. Do not invent a name. Simply introduce yourself by your role only.";
     const effectiveCharacterRole = getEffectiveRole(sc);
+    const userNameInstruction = userName.trim()
+      ? `The person you are speaking with is called ${userName.trim()}. Greet them by name and use their name naturally, and sparingly, during the conversation. Do NOT ask them what their name is, you already know it.`
+      : "You do not know their name yet. Ask them for it as part of your introduction.";
     return `You are about to play the role of: ${effectiveCharacterRole} in a practice scenario called "${sc.title}".
 ${genderInstruction}
 ${nameInstruction}
-Before the scene begins, introduce yourself briefly and warmly as the character you will be playing. Keep it to 2-3 sentences. Then ask the person their name so you can address them properly throughout the session. Be natural and human, not robotic. Do not begin the actual scenario yet.
+${userNameInstruction}
+Before the scene begins, introduce yourself briefly and warmly as the character you will be playing. Keep it to 2-3 sentences. ${userName.trim() ? "Do not ask for their name." : "Then ask the person their name so you can address them properly."} Be natural and human, not robotic. Do not begin the actual scenario yet.
 ${effectiveRole ? `The person you will be speaking with works as: ${effectiveRole}.` : ""}
 ${seniorityCtx ? `Seniority context: ${seniorityCtx}` : ""}
 Your position relative to them: ${COUNTERPART_REGISTER[otherPartyLevel] || COUNTERPART_REGISTER.peer} Let this colour even your introduction.
@@ -924,8 +928,6 @@ Never refer to yourself as an AI. NEVER use em dashes. NEVER use asterisks or st
   }
 
   async function startLab() {
-    const name = userName.trim() || "You";
-    setUserName(name);
     historyRef.current = [];
     setMessages([]);
     setInsights([]);
@@ -951,7 +953,9 @@ Never refer to yourself as an AI. NEVER use em dashes. NEVER use asterisks or st
       // Step 2: Only after narrator finishes, fetch the AI greeting
       setThinking(true);
       const greetPrompt = buildGreetingPrompt(scenario, userRole, userContext, tone);
-      const reply = await callAI(greetPrompt, [{ role:"user", content:"Begin. Introduce yourself briefly and warmly. Then ask for their name." }]);
+      const reply = await callAI(greetPrompt, [{ role:"user", content: userName.trim()
+        ? `Begin. Introduce yourself briefly and warmly, and greet them by name as ${userName.trim()}. Do not ask them what their name is.`
+        : "Begin. Introduce yourself briefly and warmly. Then ask for their name." }]);
       historyRef.current = [{ role:"assistant", content:reply }];
       setMessages([{ type:"ai", text:reply }]);
       setTranscript(`${scenario.role}: ${reply}\n\n`);
@@ -977,6 +981,7 @@ Never refer to yourself as an AI. NEVER use em dashes. NEVER use asterisks or st
     return `You are roleplaying as: ${characterDesc}.
 Scenario: ${sc.title}.
 Scene: ${activeScene || sc.scene}.
+${userName.trim() ? `The person you are speaking with is called ${userName.trim()}. Use their name naturally and sparingly, the way a real person would.` : ""}
 ${effectiveRole ? `The person you are speaking with: ${effectiveRole}.` : ""}
 ${seniorityCtx ? `Seniority context: ${seniorityCtx} Calibrate your responses to match this level: the challenges, the stakes and the interpersonal dynamics of someone operating at this level.` : ""}
 ${isPersonal ? "" : `YOUR POSITION RELATIVE TO THEM: ${COUNTERPART_REGISTER[otherPartyLevel] || COUNTERPART_REGISTER.peer} Let this power dynamic shape how you speak, interrupt, defer, or hold ground throughout the scene.`}
@@ -1396,6 +1401,11 @@ Write every field, including each item in strengths, in direct second person: "y
           </div>
         </div>
 
+        <div style={{ marginBottom:22 }}>
+          <label style={s.fieldLabel}>Your name (optional)</label>
+          <input style={s.fieldInput} placeholder="e.g. Claire" value={userName} onChange={e => setUserName(e.target.value)} />
+          <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:"rgba(232,244,245,0.55)", marginTop:6 }}>So the other person can address you properly. If you leave this blank they will ask you for it at the start.</div>
+        </div>
         {scenario?.category !== "personal" && (
           <>
             <div style={{ marginBottom:22 }}>
@@ -1417,7 +1427,7 @@ Write every field, including each item in strengths, in direct second person: "y
         )}
         <div style={{ marginBottom:22 }}>
           <label style={s.fieldLabel}>Name the person you are speaking to (optional)</label>
-          <input style={s.fieldInput} placeholder={scenario?.category === "personal" ? "e.g. Alex, my closest friend" : "e.g. Sarah, my line manager"} value={otherPartyName} onChange={e => setOtherPartyName(e.target.value)} />
+          <input style={s.fieldInput} placeholder={scenario?.category === "personal" ? "e.g. Alex, my closest friend" : "e.g. Claire, my line manager"} value={otherPartyName} onChange={e => setOtherPartyName(e.target.value)} />
           <div style={{ fontSize:"clamp(11px, 1.5vw, 13px)", color:"rgba(232,244,245,0.55)", marginTop:6 }}>If you leave this blank the character will not introduce themselves by name.</div>
         </div>
         {scenario?.familyRoleCustomizable && (
