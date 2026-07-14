@@ -1,5 +1,5 @@
 {
-  "updated": "14 Jul 2026, 15:22 UTC",
+  "updated": "14 Jul 2026, 17:11 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -146,6 +146,69 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What the art market reveals about the risks in on-chain finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
+      "date": "13 Jul 2026",
+      "excerpt": "Blockchain-based currencies can now buy almost anything, from digital art to a house. But those currencies are themselves volatile, and that volatility passes through to whatever trades on top of them. Ziwen Chen draws on the digital art ma",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Digital banking creates a new kind of financial exclusion",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
+      "date": "10 Jul 2026",
+      "excerpt": "Rolling out digital banking without addressing algorithmic bias risks excluding the very populations it promises to uplift. Meghna Chotaliya uncovers a financial system that is technologically advanced and socially regressive at the same ti",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Finland’s co-operative banks offer a unique perspective on resilient finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/finlands-co-operative-banks-offer-a-unique-perspective-on-resilient-finance/",
+      "date": "9 Jul 2026",
+      "excerpt": "As climate, demographic and geopolitical disruptions intensify, financial systems are confronting pressures that traditional models increasingly struggle to capture. Ephraim Daka shows how Finland’s co‑operative banks offer a compelling len",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "World trade remains dangerously dependent on a handful of shipping lanes",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
+      "date": "9 Jul 2026",
+      "excerpt": "The conflict in Iran has been reignited by disagreements about control of a critical shipping lane. But the Strait of Hormuz is not the only chokepoint making global trade vulnerable. Ferdinand Rauch, Stephan Maurer and Luke Milsom show jus",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Screenshot-2026-07-08-152221.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Pakistan’s Virtual Assets Act is a step forward – but is it enough?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/07/pakistans-virtual-assets-act-is-a-step-forward-but-is-it-enough/",
+      "date": "7 Jul 2026",
+      "excerpt": "To regulate the country’s growing economy of virtual assets, in 2026 Pakistan passed its Virtual Assets Act. But while the legislation addresses real risks, a framework designed predominantly around enforcement may constrain the market it s",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Europe’s startup boom still needs an exit plan",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/06/europes-startup-boom-still-needs-an-exit-plan/",
+      "date": "6 Jul 2026",
+      "excerpt": "Europe is producing world-class founders, frontier technologies and ambitious scale-ups. The task now is to develop their exit plans. Juanita Gonzalez-Uribe and Robyn Klingler-Vidra argue that this will not be done by shaming founders into ",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Gas prices drive down US inflation - but will it last?",
+      "link": "https://www.bbc.co.uk/news/articles/c98289j7lg7o?at_medium=RSS&at_campaign=rss",
+      "date": "14 Jul 2026",
+      "excerpt": "While the US inflation rate fell in June, concerns remain over price rises increasing again due to the renewed conflict in the Middle East.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c00/live/75181c70-7f7d-11f1-b1fb-a927e22d7e8b.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "The mysterious crypto firm backed by Farage's biggest donor",
@@ -157,11 +220,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US inflation rate eases to 3.5% as gasoline prices fall",
-      "link": "https://www.bbc.co.uk/news/articles/c98289j7lg7o?at_medium=RSS&at_campaign=rss",
+      "title": "Port of Dover works to avoid summer travel chaos",
+      "link": "https://www.bbc.co.uk/news/articles/cp8l8zdn7k6o?at_medium=RSS&at_campaign=rss",
       "date": "14 Jul 2026",
-      "excerpt": "While the US inflation rate fell in June, concerns remain over price rises increasing again due to the renewed conflict in the Middle East.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c00/live/75181c70-7f7d-11f1-b1fb-a927e22d7e8b.jpg"
+      "excerpt": "It is hoped the long queues and delays seen over the May bank holiday will not be repeated.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcd1/live/0d3e7d10-7fa0-11f1-926f-c90d1bcfbc84.jpg"
     },
     {
       "source": "BBC Business",
@@ -180,15 +243,6 @@
       "date": "14 Jul 2026",
       "excerpt": "Healthcare staff were unable to properly protect themselves, or those in their care, from dangerous infections, says the latest inquiry report.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26b2/live/429dd230-7f4b-11f1-b7b5-4731f6422ba0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How much should you give to the year-end teacher collection?",
-      "link": "https://www.bbc.co.uk/news/articles/ckg8x4vk04vo?at_medium=RSS&at_campaign=rss",
-      "date": "14 Jul 2026",
-      "excerpt": "Collecting money for a joint present might overcome the competitive gift-giving, but it can still cause friction.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c4b/live/0ad498e0-7f67-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "source": "BBC Business",
