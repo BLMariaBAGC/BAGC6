@@ -1,5 +1,5 @@
 {
-  "updated": "14 Jul 2026, 22:01 UTC",
+  "updated": "14 Jul 2026, 22:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Doctors must drive the alignment of medical AI solutions",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
+      "date": "14 Jul 2026",
+      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "What the art market reveals about the risks in on-chain finance",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
       "date": "13 Jul 2026",
@@ -188,15 +197,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/07/pakistans-virtual-assets-act-is-a-step-forward-but-is-it-enough/",
       "date": "7 Jul 2026",
       "excerpt": "To regulate the country’s growing economy of virtual assets, in 2026 Pakistan passed its Virtual Assets Act. But while the legislation addresses real risks, a framework designed predominantly around enforcement may constrain the market it s",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Europe’s startup boom still needs an exit plan",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/06/europes-startup-boom-still-needs-an-exit-plan/",
-      "date": "6 Jul 2026",
-      "excerpt": "Europe is producing world-class founders, frontier technologies and ambitious scale-ups. The task now is to develop their exit plans. Juanita Gonzalez-Uribe and Robyn Klingler-Vidra argue that this will not be done by shaming founders into ",
       "image": ""
     },
     {
