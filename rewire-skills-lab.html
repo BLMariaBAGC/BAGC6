@@ -3471,9 +3471,9 @@ const RAMP_TONE_CEILING = DRILL_TONE_LADDER.length - 1;
 // The user sets only where the firmness ramp STARTS.
 const DRILL_TONE_FLOORS = { cooperative: 0, neutral: 1, challenging: 3 };
 const DRILL_FLOOR_OPTIONS = [
-  { value: "cooperative", label: "Cooperative", note: "Start warm, then let it firm up as you succeed" },
-  { value: "neutral", label: "Neutral", note: "Start measured and realistic" },
-  { value: "challenging", label: "Challenging", note: "Start with real pushback from the first rep" },
+  { value: "cooperative", label: "Cooperative", note: "", dot: TEAL },
+  { value: "neutral", label: "Neutral", note: "", dot: "rgba(232,244,245,0.55)" },
+  { value: "challenging", label: "Challenging", note: "", dot: AMBER },
 ];
 
 // Hard ethical cap, wired into the machine AND stated in every prompt.
@@ -3504,13 +3504,14 @@ const REP_SKILL = {
 
 // Counterpart opening line for a rep (they-bring-it-up). Regenerated at the CURRENT
 // difficulty each time the situation is re-run one notch harder after a pass.
-function buildRepStimulusPrompt(scene, state, userName, userRole, seniority) {
+function buildRepStimulusPrompt(scene, state, userName, userRole, seniority, otherName) {
   const level = rampLevel(state); const tone = rampTone(state);
   return `You are running a single training rep in a professional skills gym. You play the OTHER PERSON in this situation, not a coach.
 
 SITUATION (fixed for this drill): ${scene.situation}
 Your role: ${scene.role}
 ${userName ? `The person is called ${userName}.` : ""}${userRole ? ` Their role: ${userRole}.` : ""}
+${otherName ? `Your first name is ${otherName}. Use it naturally if you introduce yourself. Claim NO job title and NO fixed relationship to them: you are only a first name plus the seniority described below, which may differ from one rep to the next. Never say you have been promoted or reference an earlier rep.` : ""}
 
 YOUR SENIORITY: ${COUNTERPART_REGISTER[level] || COUNTERPART_REGISTER.peer}
 YOUR MANNER: ${tone.instruction}
@@ -3535,6 +3536,31 @@ Calibrate the pass bar to that seniority and firmness: a response that would pas
 
 Return ONLY this JSON, no preamble, no markdown:
 {"passed": true or false, "failure": "if failed, name the ONE specific thing that let them down in a few words, quoting their words where useful; empty string if passed", "micro": "one sentence, direct and specific, naming that single thing (or confirming what landed if passed). No lists, no second point.", "model": "an excellent version of THEIR response to this exact moment, in their voice, that they can say out loud to imitate. One to three sentences."}`;
+}
+
+// ── COLLAPSIBLE PICKER (ported from Conversation Lab LevelPicker) ──
+function Picker(props) {
+  const options = props.options || [];
+  const selected = options.find(o => o.value === props.value);
+  const ac = props.accent || TEAL;
+  return /*#__PURE__*/React.createElement("div", { style: { marginBottom: 22 } },
+    /*#__PURE__*/React.createElement("label", { style: { ...s.fieldLabel, marginBottom: 8, display: "block" } }, props.label),
+    /*#__PURE__*/React.createElement("div", { style: { border: "1px solid " + ac + "55", borderLeft: "5px solid " + ac, borderRadius: 8, overflow: "hidden" } },
+      /*#__PURE__*/React.createElement("button", { onClick: props.onToggle, style: { width: "100%", display: "flex", alignItems: "center", gap: 10, padding: "14px 15px", background: ac + "14", border: "none", cursor: "pointer", color: "#EEF8F9", textAlign: "left", fontFamily: "'DM Sans', Arial, sans-serif" } },
+        (selected && selected.dot) && /*#__PURE__*/React.createElement("span", { style: { width: 9, height: 9, borderRadius: "50%", background: selected.dot, flexShrink: 0, display: "inline-block" } }),
+        /*#__PURE__*/React.createElement("span", { style: { fontSize: "clamp(14px, 2.1vw, 17px)", fontWeight: 700, color: ac, flexShrink: 0 } }, selected ? selected.label : (props.placeholder || "Choose")),
+        /*#__PURE__*/React.createElement("span", { style: { fontSize: "clamp(12px, 1.9vw, 14px)", color: "rgba(232,244,245,0.65)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" } }, selected ? selected.note : ""),
+        /*#__PURE__*/React.createElement("span", { style: { marginLeft: "auto", fontSize: 11, color: "rgba(232,244,245,0.6)", transform: props.isOpen ? "rotate(180deg)" : "none", transition: "transform 0.2s", flexShrink: 0 } }, "\u25bc")
+      ),
+      props.isOpen && /*#__PURE__*/React.createElement("div", { style: { display: "flex", flexDirection: "column", gap: 8, padding: "6px 10px 12px" } },
+        options.map(o => /*#__PURE__*/React.createElement("button", { key: o.value, style: { ...s.styleBtn, textAlign: "left", ...(props.value === o.value ? s.styleBtnActive : {}) }, onClick: () => { props.onChange(o.value); props.onToggle(); } },
+          /*#__PURE__*/React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 8, marginBottom: 3 } }, (o.dot ? /*#__PURE__*/React.createElement("span", { style: { width: 9, height: 9, borderRadius: "50%", background: o.dot, flexShrink: 0, display: "inline-block" } }) : null), /*#__PURE__*/React.createElement("span", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 500 } }, o.label)),
+          o.note && /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, o.note)
+        ))
+      )
+    ),
+    props.helper && /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(11px, 1.5vw, 13px)", color: "rgba(232,244,245,0.55)", marginTop: 6 } }, props.helper)
+  );
 }
 
 function App() {
@@ -3589,6 +3615,9 @@ function App() {
   // ── REP-AND-RAMP STATE (pilot modules) ──
   const [userStarts, setUserStarts] = useState(false); // false = they bring it up (counterpart opens), the natural gym rep
   const [repFloor, setRepFloor] = useState("neutral"); // starting firmness the user picks
+  const [otherName, setOtherName] = useState(""); // counterpart first name (optional); their seniority still ramps
+  const [repLog, setRepLog] = useState([]); // running transcript of reps
+  const [showTranscript, setShowTranscript] = useState(false);
   const [repState, setRepState] = useState({ levelIndex: 0, toneIndex: 1 });
   const [repScene, setRepScene] = useState(null);      // fixed situation for the whole ramp
   const [repLine, setRepLine] = useState("");          // counterpart's current opening line
@@ -3597,6 +3626,7 @@ function App() {
   const [repRound, setRepRound] = useState(0);         // total reps attempted
   const [repPasses, setRepPasses] = useState(0);       // successful reps
   const repStateRef = useRef({ levelIndex: 0, toneIndex: 1 });
+  const [openPicker, setOpenPicker] = useState(null); // which collapsible Picker is open
   const [panelOpen, setPanelOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [assessmentMode, setAssessmentMode] = useState(false);
@@ -4330,7 +4360,7 @@ Be precise. Be empowering. Address them as ${userName || "you"}.`;
     setRepLine("");
     setThinking(true);
     try {
-      const reply = await callAI(buildRepStimulusPrompt(scene, st, userName, userRole, seniority), [{ role: "user", content: "Open the rep now with your single in-character line." }]);
+      const reply = await callAI(buildRepStimulusPrompt(scene, st, userName, userRole, seniority, otherName), [{ role: "user", content: "Open the rep now with your single in-character line." }]);
       setRepLine(reply);
       speakText(reply);
     } catch {
@@ -4350,6 +4380,8 @@ Be precise. Be empowering. Address them as ${userName || "you"}.`;
     setRepRound(0);
     setRepPasses(0);
     setRepResult(null);
+    setRepLog([]);
+    setShowTranscript(false);
     setInput("");
     setRepPhase("prompt");
     setView("repdrill");
@@ -4367,15 +4399,19 @@ Be precise. Be empowering. Address them as ${userName || "you"}.`;
     setRepPhase("judging");
     setThinking(true);
     const st = repStateRef.current;
+    const line = repLine;
+    let result;
     try {
-      const reply = await callAI(buildRepJudgementPrompt(repScene, repLine, text, st, seniority), [{ role: "user", content: "Judge this rep. Return only the JSON object." }]);
+      const reply = await callAI(buildRepJudgementPrompt(repScene, line, text, st, seniority), [{ role: "user", content: "Judge this rep. Return only the JSON object." }]);
       const parsed = JSON.parse(reply.replace(/```json|```/g, "").trim());
-      setRepResult({ passed: !!parsed.passed, failure: parsed.failure || "", micro: parsed.micro || "", model: parsed.model || "", attempt: text });
-      setRepRound(r => r + 1);
-      if (parsed.passed) setRepPasses(p => p + 1);
+      result = { passed: !!parsed.passed, failure: parsed.failure || "", micro: parsed.micro || "", model: parsed.model || "", attempt: text };
     } catch {
-      setRepResult({ passed: false, failure: "", micro: "That rep did not come back cleanly. Take the same moment again.", model: "", attempt: text });
+      result = { passed: false, failure: "", micro: "That rep did not come back cleanly. Take the same moment again.", model: "", attempt: text };
     }
+    setRepResult(result);
+    setRepRound(r => r + 1);
+    if (result.passed) setRepPasses(p => p + 1);
+    setRepLog(log => [...log, { round: log.length + 1, difficulty: rampDescribe(st), userStarts, line, response: text, passed: result.passed, micro: result.micro, model: result.model }]);
     setRepPhase("feedback");
     setThinking(false);
   }
@@ -4407,6 +4443,37 @@ Be precise. Be empowering. Address them as ${userName || "you"}.`;
     setRepLine("");
     setRepScene(null);
     setView("lobby");
+  }
+
+  function toggleRepVoice() {
+    const turningOn = !voiceEnabledRef.current;
+    setVoice(turningOn);
+    if (turningOn) { if (repPhase === "prompt" && repLine && !userStarts) speakText(repLine); }
+    else { stopSpeaking(); }
+  }
+
+  function downloadRepTranscript() {
+    if (!repLog.length) return;
+    const who = otherName || "Them";
+    const you = userName || "You";
+    const body = repLog.map(e => {
+      const parts = ["Rep " + e.round + "  (" + e.difficulty + ")"];
+      if (!e.userStarts && e.line) parts.push(who + ": " + e.line);
+      parts.push(you + ": " + e.response);
+      parts.push("Verdict: " + (e.passed ? "PASS" : "RETRY") + (e.micro ? "  " + e.micro : ""));
+      if (e.model) parts.push("Model answer: " + e.model);
+      return parts.join("\n");
+    }).join("\n\n");
+    const header = "REWIRE SKILLS LAB  \u00b7  Rep Drill\nModule: " + (activeModule?.title || "") + "\nDrill: " + (repScene?.label || "") + "\nDate: " + new Date().toLocaleDateString("en-GB") + "\nReps: " + repLog.filter(e => e.passed).length + " passed / " + repLog.length + "\n\n";
+    const blob = new Blob([header + body], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "skills-rep-drill-" + Date.now() + ".txt";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(() => URL.revokeObjectURL(url), 5000);
   }
   async function runScoreAnalysis() {
     const userMsgs = historyRef.current.filter(m => m.role === "user").map(m => m.content).join("\n\n");
@@ -5926,38 +5993,7 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
       setExecMode(null);
       setSelectedScenario(null);
     }
-  }, "← Back"), /*#__PURE__*/React.createElement("label", {
-    style: {
-      ...s.fieldLabel,
-      marginBottom: 14
-    }
-  }, "Choose your drill"), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: "flex",
-      flexDirection: "column",
-      gap: 10
-    }
-  }, EXEC_SCENARIOS.map(sc => /*#__PURE__*/React.createElement("button", {
-    key: sc.id,
-    style: {
-      ...s.styleBtn,
-      ...(selectedScenario === sc.id ? s.styleBtnActive : {}),
-      textAlign: "left"
-    },
-    onClick: () => setSelectedScenario(sc.id)
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      fontSize: "clamp(13px, 2vw, 16px)",
-      fontWeight: 500,
-      marginBottom: 4
-    }
-  }, sc.label), /*#__PURE__*/React.createElement("div", {
-    style: {
-      fontSize: "clamp(13px, 2.1vw, 17px)",
-      color: "rgba(232,244,245,0.75)",
-      lineHeight: 1.4
-    }
-  }, sc.objective.slice(0, 80), "...")))), selectedScenario && /*#__PURE__*/React.createElement("div", {
+  }, "← Back"), /*#__PURE__*/React.createElement(Picker, { label: "Choose your drill", placeholder: "Choose your drill", options: EXEC_SCENARIOS.map(sc => ({ value: sc.id, label: sc.label, note: sc.objective })), value: selectedScenario, onChange: setSelectedScenario, isOpen: openPicker === "drill", onToggle: () => setOpenPicker(openPicker === "drill" ? null : "drill"), accent: TEAL }), selectedScenario && /*#__PURE__*/React.createElement("div", {
     style: {
       marginTop: 16,
       background: "rgba(61,133,140,0.07)",
@@ -6089,36 +6125,7 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
     placeholder: "e.g. Head of Finance, professional services",
     value: userRole,
     onChange: e => setUserRole(e.target.value)
-  })), /*#__PURE__*/React.createElement("div", {
-    style: {
-      marginBottom: 22
-    }
-  }, /*#__PURE__*/React.createElement("label", {
-    style: {
-      ...s.fieldLabel,
-      marginBottom: 12
-    }
-  }, "Your level"), /*#__PURE__*/React.createElement("div", {
-    style: s.styleGrid
-  }, SENIORITY_LEVELS.map(l => /*#__PURE__*/React.createElement("button", {
-    key: l.value,
-    style: {
-      ...s.styleBtn,
-      ...(seniority === l.value ? s.styleBtnActive : {})
-    },
-    onClick: () => setSeniority(l.value)
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      fontSize: "clamp(13px, 2vw, 16px)",
-      fontWeight: 500,
-      marginBottom: 3
-    }
-  }, l.label), /*#__PURE__*/React.createElement("div", {
-    style: {
-      fontSize: "clamp(13px, 2.1vw, 17px)",
-      color: "rgba(232,244,245,0.75)"
-    }
-  }, l.note))))), isRepModule(activeModule?.id) && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", { style: { marginBottom: 22 } }, /*#__PURE__*/React.createElement("label", { style: { ...s.fieldLabel, marginBottom: 12 } }, "Choose your experience"), /*#__PURE__*/React.createElement("div", { style: s.styleGrid }, /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, ...(!voiceEnabled ? s.styleBtnActive : {}) }, onClick: () => setVoice(false) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 500, marginBottom: 4 } }, "Text Practice" + (!voiceEnabled ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "Rehearse in writing. Silent, ideal for the office or the commute.")), /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, ...(voiceEnabled ? s.styleBtnActive : {}) }, onClick: () => setVoice(true) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 500, marginBottom: 4 } }, "Voice Practice" + (voiceEnabled ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "The other person speaks and you reply aloud or by text.")))), /*#__PURE__*/React.createElement("div", { style: { marginBottom: 22 } }, /*#__PURE__*/React.createElement("label", { style: { ...s.fieldLabel, marginBottom: 12 } }, "Who starts this rep?"), /*#__PURE__*/React.createElement("div", { style: s.styleGrid }, /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, ...(!userStarts ? s.styleBtnActive : {}) }, onClick: () => setUserStarts(false) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 500, marginBottom: 4 } }, "They bring it up" + (!userStarts ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "The other person opens and you respond. The natural rep.")), /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, ...(userStarts ? s.styleBtnActive : {}) }, onClick: () => setUserStarts(true) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 500, marginBottom: 4 } }, "I bring it up" + (userStarts ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "You open the moment cold, in your own words.")))), /*#__PURE__*/React.createElement("div", { style: { marginBottom: 22 } }, /*#__PURE__*/React.createElement("label", { style: { ...s.fieldLabel, marginBottom: 12 } }, "Starting firmness"), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", color: "rgba(232,244,245,0.6)", marginBottom: 12, lineHeight: 1.5 } }, "This sets where the ramp begins. Every rep you pass, the other person becomes one notch more senior and firmer, automatically."), /*#__PURE__*/React.createElement("div", { style: { display: "flex", flexDirection: "column", gap: 10 } }, DRILL_FLOOR_OPTIONS.map(o => /*#__PURE__*/React.createElement("button", { key: o.value, style: { ...s.styleBtn, textAlign: "left", ...(repFloor === o.value ? s.styleBtnActive : {}) }, onClick: () => setRepFloor(o.value) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 500, marginBottom: 4 } }, o.label), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, o.note))))), ), /*#__PURE__*/React.createElement("div", {
+  })), /*#__PURE__*/React.createElement(Picker, { label: "Your level", helper: "Used to calibrate how you're scored.", options: SENIORITY_LEVELS, value: seniority, onChange: setSeniority, isOpen: openPicker === "level", onToggle: () => setOpenPicker(openPicker === "level" ? null : "level"), accent: TEAL }), isRepModule(activeModule?.id) && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", { style: { marginBottom: 22 } }, /*#__PURE__*/React.createElement("label", { style: { ...s.fieldLabel, marginBottom: 12 } }, "Choose your experience"), /*#__PURE__*/React.createElement("div", { style: s.styleGrid }, /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, border: !voiceEnabled ? "2px solid " + TEAL : "1px solid rgba(61,133,140,0.35)", background: !voiceEnabled ? "rgba(61,133,140,0.28)" : "rgba(61,133,140,0.06)", borderLeft: "5px solid " + TEAL }, onClick: () => setVoice(false) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 600, marginBottom: 4, color: !voiceEnabled ? MIST : "#EEF8F9" } }, "Text Practice" + (!voiceEnabled ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "Rehearse in writing. Silent, ideal for the office or the commute.")), /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, border: voiceEnabled ? "2px solid " + AMBER : "1px solid rgba(212,168,83,0.35)", background: voiceEnabled ? "rgba(212,168,83,0.24)" : "rgba(212,168,83,0.06)", borderLeft: "5px solid " + AMBER }, onClick: () => setVoice(true) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 600, marginBottom: 4, color: voiceEnabled ? AMBER : "#EEF8F9" } }, "Voice Practice" + (voiceEnabled ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "The other person speaks and you reply aloud or by text.")))), /*#__PURE__*/React.createElement("div", { style: { marginBottom: 22 } }, /*#__PURE__*/React.createElement("label", { style: { ...s.fieldLabel, marginBottom: 12 } }, "Who starts this rep?"), /*#__PURE__*/React.createElement("div", { style: s.styleGrid }, /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, border: userStarts ? "2px solid " + TEAL : "1px solid rgba(61,133,140,0.35)", background: userStarts ? "rgba(61,133,140,0.28)" : "rgba(61,133,140,0.06)", borderLeft: "5px solid " + TEAL }, onClick: () => setUserStarts(true) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 600, marginBottom: 4, color: userStarts ? MIST : "#EEF8F9" } }, "I bring it up" + (userStarts ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "You open the moment cold, in your own words.")), /*#__PURE__*/React.createElement("button", { style: { ...s.styleBtn, border: !userStarts ? "2px solid " + AMBER : "1px solid rgba(212,168,83,0.35)", background: !userStarts ? "rgba(212,168,83,0.24)" : "rgba(212,168,83,0.06)", borderLeft: "5px solid " + AMBER }, onClick: () => setUserStarts(false) }, /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2vw, 16px)", fontWeight: 600, marginBottom: 4, color: !userStarts ? AMBER : "#EEF8F9" } }, "They bring it up" + (!userStarts ? "  ✓" : "")), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(13px, 2.1vw, 17px)", color: "rgba(232,244,245,0.75)", lineHeight: 1.4 } }, "The other person opens and you respond. The natural rep.")))), /*#__PURE__*/React.createElement("div", { style: { marginBottom: 22 } }, /*#__PURE__*/React.createElement("label", { style: s.fieldLabel }, "Their name (optional)"), /*#__PURE__*/React.createElement("input", { style: s.fieldInput, placeholder: "e.g. Alex", value: otherName, onChange: e => setOtherName(e.target.value) }), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(11px, 1.5vw, 13px)", color: "rgba(232,244,245,0.55)", marginTop: 6 } }, "A first name only, so the person feels real. Leave off any job title: their seniority still rises as you pass, and a fixed title would fight that.")), /*#__PURE__*/React.createElement(Picker, { label: "Starting firmness", helper: "This sets where the ramp begins. Every rep you pass, the other person becomes one notch more senior and firmer, automatically.", options: DRILL_FLOOR_OPTIONS, value: repFloor, onChange: setRepFloor, isOpen: openPicker === "firmness", onToggle: () => setOpenPicker(openPicker === "firmness" ? null : "firmness"), accent: AMBER }), ), /*#__PURE__*/React.createElement("div", {
     style: {
       marginBottom: 28
     }
@@ -6164,7 +6171,7 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
       color: "rgba(232,244,245,0.75)",
       lineHeight: 1.4
     }
-  }, "Grace plays the other person")), /*#__PURE__*/React.createElement("button", {
+  }, (otherName ? otherName + " has a female voice" : "A female voice for the other person"))), /*#__PURE__*/React.createElement("button", {
     style: {
       ...s.styleBtn,
       ...(characterGender === "male" ? s.styleBtnActive : {})
@@ -6182,7 +6189,7 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
       color: "rgba(232,244,245,0.75)",
       lineHeight: 1.4
     }
-  }, "Eddie plays the other person")))), /*#__PURE__*/React.createElement("button", {
+  }, (otherName ? otherName + " has a male voice" : "A male voice for the other person"))))), /*#__PURE__*/React.createElement("button", {
     style: {
       ...s.startBtn,
       opacity: 1
@@ -6192,7 +6199,7 @@ ${d.registerNote ? `<div style="background:#fffbf0;border:1px solid #D4A853;bord
   }, isRepModule(activeModule?.id) ? "Start the Drill" : "Start the Diagnostic"))));
 
   // ── DRILL ──
-  if (view === "repdrill") return /*#__PURE__*/React.createElement("div", { style: s.app }, /*#__PURE__*/React.createElement("div", { style: s.setup }, /*#__PURE__*/React.createElement("div", { style: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 18, flexWrap: "wrap", gap: 10 } }, /*#__PURE__*/React.createElement("button", { style: s.backBtn, onClick: endRepDrill }, "\u2190 End drill"), /*#__PURE__*/React.createElement("div", { style: { display: "flex", gap: 12, alignItems: "center", flexWrap: "wrap" } }, /*#__PURE__*/React.createElement("span", { style: { fontSize: 12, letterSpacing: "0.1em", textTransform: "uppercase", color: AMBER, fontWeight: 700 } }, rampDescribe(repState)), /*#__PURE__*/React.createElement("span", { style: { fontSize: 12, color: "rgba(232,244,245,0.55)" } }, repPasses + " passed / " + repRound + " reps"))), /*#__PURE__*/React.createElement("div", { style: s.eyebrow }, (repScene?.label || "") + " \u00b7 Rep drill"), /*#__PURE__*/React.createElement("div", { style: { ...s.setupTitle, fontSize: "clamp(20px, 3vw, 26px)", marginBottom: 18 } }, activeModule?.title || ""), (repPhase === "prompt") && /*#__PURE__*/React.createElement(React.Fragment, null, (!userStarts) ? /*#__PURE__*/React.createElement("div", { style: { background: "rgba(61,133,140,0.08)", border: "1px solid rgba(61,133,140,0.28)", borderRadius: 12, padding: "20px 22px" } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", color: "rgba(201,246,250,0.7)", fontWeight: 600, marginBottom: 10 } }, "They open"), /*#__PURE__*/React.createElement("div", { style: { fontFamily: "\u0027Cormorant Garamond\u0027, Georgia, serif", fontSize: "clamp(18px, 3vw, 24px)", color: "#EEF8F9", lineHeight: 1.5 } }, (thinking && !repLine) ? "\u2026" : repLine)) : /*#__PURE__*/React.createElement("div", { style: { background: "rgba(61,133,140,0.08)", border: "1px solid rgba(61,133,140,0.28)", borderRadius: 12, padding: "20px 22px" } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", color: "rgba(201,246,250,0.7)", fontWeight: 600, marginBottom: 10 } }, "Your move, open it"), /*#__PURE__*/React.createElement("div", { style: { fontFamily: "\u0027Cormorant Garamond\u0027, Georgia, serif", fontSize: "clamp(18px, 3vw, 24px)", color: "#EEF8F9", lineHeight: 1.5 } }, repScene?.situation || "")), /*#__PURE__*/React.createElement("textarea", { style: { ...s.fieldInput, minHeight: 110, width: "100%", boxSizing: "border-box", marginTop: 16, resize: "vertical" }, placeholder: userStarts ? "Open the conversation in your own words\u2026" : "Your response\u2026", value: input, onChange: e => setInput(e.target.value), disabled: thinking }), /*#__PURE__*/React.createElement("div", { style: { display: "flex", gap: 10, marginTop: 12, flexWrap: "wrap" } }, /*#__PURE__*/React.createElement("button", { style: { ...s.startBtn, flex: 1, opacity: (thinking || !input.trim()) ? 0.5 : 1 }, disabled: thinking || !input.trim(), onClick: () => submitRep() }, "Submit rep \u2192"), voiceEnabled && /*#__PURE__*/React.createElement("button", { style: { minWidth: 64, background: isListening ? "rgba(212,168,83,0.2)" : "transparent", border: "1px solid " + (isListening ? AMBER : "rgba(61,133,140,0.4)"), color: isListening ? AMBER : "#C9F6FA", borderRadius: 8, fontSize: 15, cursor: "pointer" }, onClick: isListening ? () => stopListening(false) : startListening }, isListening ? "Stop" : "\ud83c\udfa4"))), (repPhase === "judging") && /*#__PURE__*/React.createElement("div", { style: { textAlign: "center", padding: "30px 0" } }, /*#__PURE__*/React.createElement(Dots, null), /*#__PURE__*/React.createElement("div", { style: { color: "rgba(232,244,245,0.6)", marginTop: 10, fontSize: 14 } }, "Judging the rep\u2026")), (repPhase === "feedback" && repResult) && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", { style: { background: repResult.passed ? "rgba(76,175,125,0.08)" : "rgba(212,168,83,0.08)", border: "1px solid " + (repResult.passed ? "rgba(76,175,125,0.35)" : "rgba(212,168,83,0.35)"), borderRadius: 12, padding: "20px 22px" } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", fontWeight: 700, color: repResult.passed ? "#4caf7d" : AMBER, marginBottom: 8 } }, repResult.passed ? "Passed" : "Not yet"), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(14px, 2.2vw, 17px)", color: "#EEF8F9", lineHeight: 1.6 } }, repResult.micro || "")), repResult.model && /*#__PURE__*/React.createElement("div", { style: { background: "rgba(61,133,140,0.07)", border: "1px solid rgba(61,133,140,0.22)", borderRadius: 12, padding: "18px 20px", marginTop: 14 } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", fontWeight: 600, color: TEAL, marginBottom: 8 } }, "Say it like this"), /*#__PURE__*/React.createElement("div", { style: { fontFamily: "\u0027Cormorant Garamond\u0027, Georgia, serif", fontSize: "clamp(16px, 2.6vw, 20px)", color: MIST, lineHeight: 1.5, fontStyle: "italic" } }, repResult.model), voiceEnabled && /*#__PURE__*/React.createElement("button", { style: { marginTop: 12, background: "transparent", border: "1px solid rgba(61,133,140,0.4)", color: "#C9F6FA", borderRadius: 8, padding: "8px 14px", fontSize: 13, cursor: "pointer", fontFamily: "\u0027DM Sans\u0027, Arial, sans-serif" }, onClick: hearModel }, "\u25b6 Hear it")), /*#__PURE__*/React.createElement("button", { style: { ...s.startBtn, marginTop: 16 }, onClick: continueRep }, repResult.passed ? (rampAtCeiling(repState) ? "Mastery rep, same level \u2192" : "Next rep, one notch harder \u2192") : "Run the same rep again \u2192"))));
+  if (view === "repdrill") return /*#__PURE__*/React.createElement("div", { style: s.app }, /*#__PURE__*/React.createElement("div", { style: s.setup }, /*#__PURE__*/React.createElement("div", { style: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 18, flexWrap: "wrap", gap: 10 } }, /*#__PURE__*/React.createElement("button", { style: s.backBtn, onClick: endRepDrill }, "\u2190 End drill"), /*#__PURE__*/React.createElement("div", { style: { display: "flex", gap: 12, alignItems: "center", flexWrap: "wrap" } }, /*#__PURE__*/React.createElement("span", { style: { fontSize: 12, letterSpacing: "0.1em", textTransform: "uppercase", color: AMBER, fontWeight: 700 } }, rampDescribe(repState)), /*#__PURE__*/React.createElement("span", { style: { fontSize: 12, color: "rgba(232,244,245,0.55)" } }, repPasses + " passed / " + repRound + " reps"))), /*#__PURE__*/React.createElement("div", { style: s.eyebrow }, (repScene?.label || "") + " \u00b7 Rep drill"), /*#__PURE__*/React.createElement("div", { style: { ...s.setupTitle, fontSize: "clamp(20px, 3vw, 26px)", marginBottom: 18 } }, activeModule?.title || ""), /*#__PURE__*/React.createElement("div", { style: { marginBottom: 16 } }, /*#__PURE__*/React.createElement("button", { style: { background: "rgba(212,168,83,0.14)", border: "1px solid rgba(212,168,83,0.4)", color: AMBER, borderRadius: 8, padding: "9px 16px", fontSize: "clamp(12px, 1.8vw, 14px)", fontWeight: 600, cursor: "pointer", fontFamily: "'DM Sans', Arial, sans-serif" }, onClick: toggleRepVoice }, voiceEnabled ? "Switch to Text Practice" : "Switch to Voice Practice")), (repPhase === "prompt") && /*#__PURE__*/React.createElement(React.Fragment, null, (!userStarts) ? /*#__PURE__*/React.createElement("div", { style: { background: "rgba(61,133,140,0.08)", border: "1px solid rgba(61,133,140,0.28)", borderRadius: 12, padding: "20px 22px" } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", color: "rgba(201,246,250,0.7)", fontWeight: 600, marginBottom: 10 } }, "They open"), /*#__PURE__*/React.createElement("div", { style: { fontFamily: "\u0027Cormorant Garamond\u0027, Georgia, serif", fontSize: "clamp(18px, 3vw, 24px)", color: "#EEF8F9", lineHeight: 1.5 } }, (thinking && !repLine) ? "\u2026" : repLine)) : /*#__PURE__*/React.createElement("div", { style: { background: "rgba(61,133,140,0.08)", border: "1px solid rgba(61,133,140,0.28)", borderRadius: 12, padding: "20px 22px" } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", color: "rgba(201,246,250,0.7)", fontWeight: 600, marginBottom: 10 } }, "Your move, open it"), /*#__PURE__*/React.createElement("div", { style: { fontFamily: "\u0027Cormorant Garamond\u0027, Georgia, serif", fontSize: "clamp(18px, 3vw, 24px)", color: "#EEF8F9", lineHeight: 1.5 } }, repScene?.situation || "")), /*#__PURE__*/React.createElement("textarea", { style: { ...s.fieldInput, minHeight: 110, width: "100%", boxSizing: "border-box", marginTop: 16, resize: "vertical" }, placeholder: userStarts ? "Open the conversation in your own words\u2026" : "Your response\u2026", value: input, onChange: e => setInput(e.target.value), disabled: thinking }), /*#__PURE__*/React.createElement("div", { style: { display: "flex", gap: 10, marginTop: 12, flexWrap: "wrap" } }, /*#__PURE__*/React.createElement("button", { style: { ...s.startBtn, flex: 1, opacity: (thinking || !input.trim()) ? 0.5 : 1 }, disabled: thinking || !input.trim(), onClick: () => submitRep() }, "Submit rep \u2192"), voiceEnabled && /*#__PURE__*/React.createElement("button", { style: { minWidth: 64, background: isListening ? "rgba(212,168,83,0.2)" : "transparent", border: "1px solid " + (isListening ? AMBER : "rgba(61,133,140,0.4)"), color: isListening ? AMBER : "#C9F6FA", borderRadius: 8, fontSize: 15, cursor: "pointer" }, onClick: isListening ? () => stopListening(false) : startListening }, isListening ? "Stop" : "\ud83c\udfa4"))), (repPhase === "judging") && /*#__PURE__*/React.createElement("div", { style: { textAlign: "center", padding: "30px 0" } }, /*#__PURE__*/React.createElement(Dots, null), /*#__PURE__*/React.createElement("div", { style: { color: "rgba(232,244,245,0.6)", marginTop: 10, fontSize: 14 } }, "Judging the rep\u2026")), (repPhase === "feedback" && repResult) && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", { style: { background: repResult.passed ? "rgba(76,175,125,0.08)" : "rgba(212,168,83,0.08)", border: "1px solid " + (repResult.passed ? "rgba(76,175,125,0.35)" : "rgba(212,168,83,0.35)"), borderRadius: 12, padding: "20px 22px" } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", fontWeight: 700, color: repResult.passed ? "#4caf7d" : AMBER, marginBottom: 8 } }, repResult.passed ? "Passed" : "Not yet"), /*#__PURE__*/React.createElement("div", { style: { fontSize: "clamp(14px, 2.2vw, 17px)", color: "#EEF8F9", lineHeight: 1.6 } }, repResult.micro || "")), repResult.model && /*#__PURE__*/React.createElement("div", { style: { background: "rgba(61,133,140,0.07)", border: "1px solid rgba(61,133,140,0.22)", borderRadius: 12, padding: "18px 20px", marginTop: 14 } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", fontWeight: 600, color: TEAL, marginBottom: 8 } }, "Say it like this"), /*#__PURE__*/React.createElement("div", { style: { fontFamily: "\u0027Cormorant Garamond\u0027, Georgia, serif", fontSize: "clamp(16px, 2.6vw, 20px)", color: MIST, lineHeight: 1.5, fontStyle: "italic" } }, repResult.model), voiceEnabled && /*#__PURE__*/React.createElement("button", { style: { marginTop: 12, background: "transparent", border: "1px solid rgba(61,133,140,0.4)", color: "#C9F6FA", borderRadius: 8, padding: "8px 14px", fontSize: 13, cursor: "pointer", fontFamily: "\u0027DM Sans\u0027, Arial, sans-serif" }, onClick: hearModel }, "\u25b6 Hear it")), /*#__PURE__*/React.createElement("button", { style: { ...s.startBtn, marginTop: 16 }, onClick: continueRep }, repResult.passed ? (rampAtCeiling(repState) ? "Mastery rep, same level \u2192" : "Next rep, one notch harder \u2192") : "Run the same rep again \u2192")), (repLog.length > 0) && /*#__PURE__*/React.createElement("div", { style: { marginTop: 24, borderTop: "1px solid rgba(61,133,140,0.2)", paddingTop: 16 } }, /*#__PURE__*/React.createElement("div", { style: { display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap" } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", color: TEAL, fontWeight: 700 } }, "Transcript"), /*#__PURE__*/React.createElement("div", { style: { display: "flex", gap: 8, flexWrap: "wrap" } }, /*#__PURE__*/React.createElement("button", { style: { background: "transparent", border: "1px solid rgba(61,133,140,0.4)", color: "#C9F6FA", borderRadius: 8, padding: "7px 12px", fontSize: 12, cursor: "pointer", fontFamily: "'DM Sans', Arial, sans-serif" }, onClick: () => setShowTranscript(!showTranscript) }, (showTranscript ? "Hide" : "Show") + " (" + repLog.length + ")"), /*#__PURE__*/React.createElement("button", { style: { background: "transparent", border: "1px solid rgba(61,133,140,0.4)", color: "#C9F6FA", borderRadius: 8, padding: "7px 12px", fontSize: 12, cursor: "pointer", fontFamily: "'DM Sans', Arial, sans-serif" }, onClick: downloadRepTranscript }, "Download transcript"))), showTranscript && /*#__PURE__*/React.createElement("div", { style: { marginTop: 14, maxHeight: 280, overflowY: "auto", display: "flex", flexDirection: "column", gap: 12, paddingRight: 4 } }, repLog.map((e, idx) => /*#__PURE__*/React.createElement("div", { key: idx, style: { background: "rgba(61,133,140,0.06)", border: "1px solid rgba(61,133,140,0.18)", borderRadius: 10, padding: "12px 14px" } }, /*#__PURE__*/React.createElement("div", { style: { fontSize: 11, letterSpacing: "0.1em", textTransform: "uppercase", color: e.passed ? "#4caf7d" : AMBER, fontWeight: 700, marginBottom: 6 } }, "Rep " + e.round + "  \u00b7  " + e.difficulty + "  \u00b7  " + (e.passed ? "Passed" : "Retry")), (!e.userStarts && e.line) && /*#__PURE__*/React.createElement("div", { style: { fontSize: 13, color: "rgba(232,244,245,0.7)", marginBottom: 4, lineHeight: 1.5 } }, (otherName || "Them") + ": " + e.line), /*#__PURE__*/React.createElement("div", { style: { fontSize: 13, color: "#EEF8F9", marginBottom: 4, lineHeight: 1.5 } }, (userName || "You") + ": " + e.response), e.micro && /*#__PURE__*/React.createElement("div", { style: { fontSize: 12, color: "rgba(232,244,245,0.55)", fontStyle: "italic", lineHeight: 1.5 } }, e.micro)))))));
 
   if (view === "drill") {
     const drillPhaseLabel = drillPhase === "diagnostic" ? "Diagnostic" : "Practice Drill";
