@@ -1,5 +1,5 @@
 {
-  "updated": "14 Jul 2026, 02:20 UTC",
+  "updated": "14 Jul 2026, 06:08 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "How US commerce secretary's Epstein links were uncovered by British whistleblower",
+      "link": "https://www.bbc.co.uk/news/articles/c9q28dlyxrzo?at_medium=RSS&at_campaign=rss",
+      "date": "14 Jul 2026",
+      "excerpt": "Simon Andriesz made the discovery about Howard Lutnick in publicly released Epstein files.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c2b7/live/dad63ca0-7e9b-11f1-bee8-53ce494e1abc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'I don't want to seem tight': How much should you give to the year-end teacher collection?",
       "link": "https://www.bbc.co.uk/news/articles/ckg8x4vk04vo?at_medium=RSS&at_campaign=rss",
       "date": "13 Jul 2026",
@@ -229,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Volkswagen planning to cut up to 100,000 jobs globally",
-      "link": "https://www.bbc.co.uk/news/articles/cx2wzpwn51lo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Jul 2026",
-      "excerpt": "The group, which includes Porsche and Audi, has faced a steep fall in profits and tough competition from China.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e86/live/076e2020-7ec9-11f1-af40-3101fe5a127d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UAE condemns Iran's 'brazen' attack on tankers as US launches fresh strikes",
-      "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
+      "title": "US burrito giant Chipotle opening first outlet in Mexico",
+      "link": "https://www.bbc.co.uk/news/articles/c0ryr89gp09o?at_medium=RSS&at_campaign=rss",
       "date": "14 Jul 2026",
-      "excerpt": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the strait.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg"
+      "excerpt": "Other US fast food brands have struggled to succeed in the countries their dishes originated.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f9ab/live/6119a2a0-7f2a-11f1-a2d1-357b5800ed69.jpg"
     },
     {
       "source": "BBC Business",
