@@ -1449,13 +1449,13 @@ Write every field, including each item in strengths, in direct second person: "y
               style={{ ...s.toneBtn, ...(characterGender==="female" ? s.toneBtnActive : {}) }}
               onClick={() => setCharacterGender("female")}>
               <div style={{ fontSize:"clamp(13px, 2vw, 16px)", fontWeight:500, marginBottom:3 }}>{voiceEnabled ? "Female voice" : "Female character"}</div>
-              <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.75)" }}>{voiceEnabled ? "Grace plays the other person" : "The other person is female"}</div>
+              <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.75)" }}>{voiceEnabled ? "A female voice plays the other person" : "The other person is female"}</div>
             </button>
             <button
               style={{ ...s.toneBtn, ...(characterGender==="male" ? s.toneBtnActive : {}) }}
               onClick={() => setCharacterGender("male")}>
               <div style={{ fontSize:"clamp(13px, 2vw, 16px)", fontWeight:500, marginBottom:3 }}>{voiceEnabled ? "Male voice" : "Male character"}</div>
-              <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.75)" }}>{voiceEnabled ? "Eddie plays the other person" : "The other person is male"}</div>
+              <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.75)" }}>{voiceEnabled ? "A male voice plays the other person" : "The other person is male"}</div>
             </button>
           </div>
           {voiceEnabled && (
@@ -1692,7 +1692,7 @@ Write every field, including each item in strengths, in direct second person: "y
         <div style={s.panelSection}>
           <div style={s.panelTitle}>Voice Settings</div>
           <div style={{ fontSize:"clamp(13px, 2.1vw, 17px)", color:"rgba(232,244,245,0.78)", marginBottom:10, lineHeight:1.5 }}>
-            {voiceEnabled && !elevenLabsKey && !PROXY_BASE_URL ? "Using browser voice. Character voices need an ElevenLabs connection." : voiceEnabled ? `Character voice active. ${(VOICE_MAP[scenario?.category] || VOICE_MAP.default)[characterGender]?.name || "Voice"} is ready.` : "You are in Text Practice. Switch any time; the conversation continues where you are."}
+            {voiceEnabled && !elevenLabsKey && !PROXY_BASE_URL ? "Using browser voice. Character voices need an ElevenLabs connection." : voiceEnabled ? "Character voice active. The other person will speak aloud." : "You are in Text Practice. Switch any time; the conversation continues where you are."}
           </div>
           <button onClick={() => setVoice(!voiceEnabled)}
             style={{ width:"100%", padding:"12px 14px", borderRadius:8, border:"none", cursor:"pointer", fontFamily:"'DM Sans', Arial, sans-serif", fontWeight:600, fontSize:"clamp(13px, 2vw, 15px)", marginBottom:12, background: voiceEnabled ? "rgba(61,133,140,0.25)" : AMBER, color: voiceEnabled ? MIST : "#01293A" }}>
