@@ -1,5 +1,5 @@
 {
-  "updated": "14 Jul 2026, 11:24 UTC",
+  "updated": "14 Jul 2026, 13:38 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The Best Teams Know When to Work Alone",
+      "link": "/2026/07/the-best-teams-know-when-to-work-alone",
+      "date": "14 Jul 2026",
+      "excerpt": "In this week&#8217;s The Insider newsletter, managing editor Gretchen Gavett writes about designing work around how teams actually perform best.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "AI Can Measure How ESG Really Impacts the Bottom Line",
+      "link": "/2026/07/ai-can-measure-how-esg-really-impacts-the-bottom-line",
+      "date": "14 Jul 2026",
+      "excerpt": "Large language models are making rigorous sustainability analysis dramatically faster and cheaper.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The New Rules for Becoming an Enterprise Leader",
       "link": "/podcast/2026/07/the-new-rules-for-becoming-an-enterprise-leader",
       "date": "14 Jul 2026",
@@ -125,24 +143,6 @@
       "link": "/2026/07/what-60-years-of-data-reveals-about-how-men-and-women-experience-leadership",
       "date": "10 Jul 2026",
       "excerpt": "Attitudes about women in leadership have improved since 1965. But there are still major differences in how men and women perceive evaluation, standards, and opportunity today.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "You Outsourced the AI—but You Still Own the Risk",
-      "link": "/2026/07/you-outsourced-the-ai-but-you-still-own-the-risk",
-      "date": "9 Jul 2026",
-      "excerpt": "Courts and regulators will still hold you responsible if AI tools discriminate, mishandle data, or harm customers.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Office Amenity That Actually Improves Teamwork",
-      "link": "/2026/07/the-office-amenity-that-actually-improves-teamwork",
-      "date": "9 Jul 2026",
-      "excerpt": "Research on 6,000 workers shows how one investment helps people to do their best thinking.",
       "image": ""
     },
     {
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US inflation rate eases to 3.5% as gasoline prices fall",
+      "link": "https://www.bbc.co.uk/news/articles/c98289j7lg7o?at_medium=RSS&at_campaign=rss",
+      "date": "14 Jul 2026",
+      "excerpt": "While the US inflation rate fell in June, concerns remain over price rises increasing again due to the renewed conflict in the Middle East.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c00/live/75181c70-7f7d-11f1-b1fb-a927e22d7e8b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "South East Water must pay £30.5m for supply failures",
       "link": "https://www.bbc.co.uk/news/articles/cevlvxgggxyo?at_medium=RSS&at_campaign=rss",
       "date": "14 Jul 2026",
@@ -220,29 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "How US commerce secretary's Epstein links were uncovered by British whistleblower",
-      "link": "https://www.bbc.co.uk/news/articles/c9q28dlyxrzo?at_medium=RSS&at_campaign=rss",
+      "title": "PPE failures left NHS staff poorly protected and wasted £10bn, Covid inquiry finds",
+      "link": "https://www.bbc.co.uk/news/articles/czrxrlydyzzo?at_medium=RSS&at_campaign=rss",
       "date": "14 Jul 2026",
-      "excerpt": "Simon Andriesz made the discovery about Howard Lutnick in publicly released Epstein files.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c2b7/live/dad63ca0-7e9b-11f1-bee8-53ce494e1abc.jpg"
+      "excerpt": "Healthcare staff were unable to properly protect themselves, or those in their care, from dangerous infections, says the latest inquiry report.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26b2/live/429dd230-7f4b-11f1-b7b5-4731f6422ba0.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "How to navigate the awkward year-end teacher 'thank you' collection",
+      "title": "How much should you give to the year-end teacher collection?",
       "link": "https://www.bbc.co.uk/news/articles/ckg8x4vk04vo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Jul 2026",
+      "date": "14 Jul 2026",
       "excerpt": "Collecting money for a joint present might overcome the competitive gift-giving, but it can still cause friction.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c4b/live/0ad498e0-7f67-11f1-bee8-53ce494e1abc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "California leads lawsuit to block Paramount Warner Bros mega merger",
-      "link": "https://www.bbc.co.uk/news/articles/cgev34lvgp4o?at_medium=RSS&at_campaign=rss",
-      "date": "14 Jul 2026",
-      "excerpt": "The state, where both studios have headquarters, has joined 11 others to halt the deal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78bd/live/e5f7dff0-7edf-11f1-931d-ab3863ef09cd.jpg"
     },
     {
       "source": "BBC Business",
