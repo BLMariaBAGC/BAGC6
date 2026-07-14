@@ -1,5 +1,5 @@
 {
-  "updated": "14 Jul 2026, 10:57 UTC",
+  "updated": "14 Jul 2026, 11:24 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The New Rules for Becoming an Enterprise Leader",
+      "link": "/podcast/2026/07/the-new-rules-for-becoming-an-enterprise-leader",
+      "date": "14 Jul 2026",
+      "excerpt": "A conversation with IMD&#8217;s Michael Watkins on how a key career transition has gotten trickier.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "U.S. and Japanese Companies Struggle with Different Parts of AI Adoption—and Offer Different Lessons for Making It Work",
       "link": "/2026/07/u-s-and-japanese-companies-struggle-with-different-parts-of-ai-adoption-and-offer-different-lessons-for-making-it-work",
       "date": "13 Jul 2026",
@@ -137,24 +146,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Leadership Summit 2026: Honest Company CEO Carla Vernón on Leading with Focus in Turbulent Times",
-      "link": "/podcast/2026/07/leadership-summit-2026-honest-company-ceo-carla-vernon-on-leading-with-focus-in-turbulent-times-2",
-      "date": "9 Jul 2026",
-      "excerpt": "A conversation about the decision-making and communication required to take a mission-driven company to new heights.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Doctors must drive the alignment of medical AI solutions",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
-      "date": "14 Jul 2026",
-      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "What the art market reveals about the risks in on-chain finance",
@@ -200,13 +191,22 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Europe’s startup boom still needs an exit plan",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/06/europes-startup-boom-still-needs-an-exit-plan/",
+      "date": "6 Jul 2026",
+      "excerpt": "Europe is producing world-class founders, frontier technologies and ambitious scale-ups. The task now is to develop their exit plans. Juanita Gonzalez-Uribe and Robyn Klingler-Vidra argue that this will not be done by shaming founders into ",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "The mysterious crypto firm backed by Farage's biggest donor",
       "link": "https://www.bbc.co.uk/news/articles/cg4w6wqye32o?at_medium=RSS&at_campaign=rss",
       "date": "13 Jul 2026",
       "excerpt": "Tether is a giant in crytocurrency, an industry that Nigel Farage believes the UK should be embracing.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40b9/live/1a5734b0-7f50-11f1-b976-0b9c15b0ccfc.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ae0/live/c36317c0-7ef3-11f1-83a7-0959f8cc10cc.jpg"
     },
     {
       "source": "BBC Business",
