@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thinking Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#01293A;--teal:#3D858C;--mist:#C9F6FA;--paper:#FBFAF8;
+    --line:rgba(1,41,58,0.12);--ink:#0F1E26;--muted:#5C7480;--flag:#B4472F;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:'DM Sans',Arial,sans-serif;
+    font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px 100px}
+
+  header.mast{background:var(--navy);color:#fff;padding:44px 22px 40px}
+  .mast-inner{max-width:760px;margin:0 auto}
+  .eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--mist);font-weight:500}
+  h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:clamp(38px,8vw,58px);
+    line-height:1.05;margin:10px 0 14px;letter-spacing:-0.01em}
+  .mast p{color:rgba(255,255,255,0.85);max-width:46ch}
+  .back{background:none;border:none;color:var(--mist);font-family:inherit;font-size:13px;
+    letter-spacing:.14em;text-transform:uppercase;cursor:pointer;padding:0;margin-bottom:16px;display:none}
+  .back.on{display:block}
+  .back:hover{color:#fff}
+
+  section{padding:38px 0;border-top:1px solid var(--line)}
+  section:first-of-type{border-top:none;padding-top:38px}
+  .stage-num{font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:var(--teal);
+    letter-spacing:.18em;text-transform:uppercase;font-weight:600;display:block;margin-bottom:6px}
+  h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:34px;line-height:1.15;color:var(--navy)}
+  .lede{color:var(--muted);max-width:54ch;margin-bottom:26px}
+  .hide{display:none}
+
+  /* Card rack */
+  .rack{display:grid;gap:10px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:2px;padding:20px;width:100%;
+    text-align:left;font-family:inherit;display:flex;gap:16px;align-items:flex-start;
+    transition:border-color .25s ease}
+  .card.live{cursor:pointer}
+  .card.live:hover{border-color:var(--teal)}
+  .card.live:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+  .card.soon{opacity:.5;cursor:default}
+  .card-no{font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;color:var(--teal);
+    line-height:1;min-width:30px;padding-top:2px}
+  .card.soon .card-no{color:var(--muted)}
+  .card-title{font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;color:var(--navy);
+    display:block;line-height:1.2}
+  .card-sub{font-size:14.5px;color:var(--muted);display:block;margin-top:4px}
+  .card-state{display:inline-block;margin-top:10px;font-size:10.5px;letter-spacing:.16em;
+    text-transform:uppercase;padding:3px 8px;border-radius:2px;font-weight:700}
+  .card-state.a{color:var(--teal);border:1px solid var(--mist);background:rgba(201,246,250,0.4)}
+  .card-state.b{color:var(--muted);border:1px solid var(--line)}
+
+  /* Vocabulary */
+  .terms{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  @media(max-width:600px){.terms{grid-template-columns:1fr}}
+  .term{background:#fff;border:1px solid var(--line);border-left:3px solid var(--mist);border-radius:2px;
+    padding:14px 16px;cursor:pointer;text-align:left;font-family:inherit;font-size:16px;width:100%;
+    transition:border-left-color .25s ease}
+  .term:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+  .term.open{border-left-color:var(--teal)}
+  .term-name{font-weight:700;color:var(--navy);display:flex;justify-content:space-between;gap:10px}
+  .tick{color:var(--teal);opacity:0;font-size:13px;transition:opacity .25s}
+  .term.open .tick{opacity:1}
+  .term-body{display:block;max-height:0;overflow:hidden;transition:max-height .3s ease,margin .3s ease}
+  .term.open .term-body{max-height:340px;margin-top:8px}
+  .term-def{display:block;font-size:14.5px}
+  .term-use{font-size:13.5px;color:var(--muted);font-style:italic;margin-top:6px;
+    padding-left:10px;border-left:2px solid var(--mist)}
+  .progress{display:flex;align-items:center;gap:12px;margin-top:20px;font-size:13.5px;color:var(--muted)}
+  .bar{flex:1;height:3px;background:var(--line);border-radius:2px;overflow:hidden}
+  .bar span{display:block;height:100%;width:0;background:var(--teal);transition:width .35s ease}
+
+  /* Lenses */
+  .areas{display:grid;gap:10px}
+  .area{background:#fff;border:1px solid var(--line);border-radius:2px;padding:18px;cursor:pointer;
+    text-align:left;width:100%;font-family:inherit;display:flex;gap:14px;align-items:flex-start;
+    transition:border-color .25s ease}
+  .area:hover{border-color:var(--teal)}
+  .area:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+  .area.active{border-color:var(--teal);border-left:3px solid var(--teal)}
+  .area-mark{font-family:'Cormorant Garamond',Georgia,serif;color:var(--teal);font-size:22px;
+    line-height:1;padding-top:2px;min-width:20px}
+  .area-title{font-weight:700;color:var(--navy);font-size:16.5px;display:block}
+  .area-sub{font-size:14px;color:var(--muted);display:block;margin-top:2px}
+
+  textarea{width:100%;min-height:130px;padding:16px;border:1px solid var(--line);border-radius:2px;
+    background:#fff;font-family:inherit;font-size:16px;line-height:1.6;color:var(--ink);resize:vertical}
+  textarea:focus{outline:2px solid var(--teal);outline-offset:-1px}
+  .meta{display:flex;justify-content:space-between;margin-top:8px;font-size:13px;color:var(--muted)}
+
+  .btn{margin-top:16px;background:var(--navy);color:#fff;border:none;border-radius:2px;padding:15px 26px;
+    font-family:inherit;font-size:15px;font-weight:700;cursor:pointer;transition:background .2s ease}
+  .btn:hover{background:var(--teal)}
+  .btn:disabled{opacity:.45;cursor:not-allowed}
+  .btn:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+  .actions{display:flex;gap:10px;flex-wrap:wrap}
+
+  .round-label{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);
+    font-weight:700;margin:30px 0 8px}
+  .challenge{background:var(--navy);color:#fff;border-radius:2px;padding:22px;
+    font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;line-height:1.4}
+  .challenge .hook{display:block;font-family:'DM Sans',Arial,sans-serif;font-size:13px;color:var(--mist);
+    font-style:italic;margin-bottom:10px;line-height:1.5}
+  .mine{background:#fff;border:1px solid var(--line);border-left:3px solid var(--mist);border-radius:2px;
+    padding:16px 18px;font-size:15.5px}
+  .clock{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:12px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--muted)}
+  .clock strong{font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;letter-spacing:0;color:var(--navy)}
+  .clock.low strong{color:var(--flag)}
+
+  .thinking{display:flex;align-items:center;gap:12px;margin-top:24px;color:var(--muted);font-size:14.5px}
+  .pulse{width:8px;height:8px;border-radius:50%;background:var(--teal);animation:p 1.2s ease-in-out infinite}
+  @keyframes p{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.2)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+  .verdict{font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;line-height:1.3;color:var(--navy);
+    border-left:3px solid var(--teal);padding-left:18px;margin-bottom:28px}
+  .caught{background:#fff;border:1px solid var(--line);border-left:3px solid var(--flag);border-radius:2px;
+    padding:18px;margin-bottom:28px}
+  .caught h4{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--flag);
+    font-weight:700;margin-bottom:10px}
+  .trap{margin-bottom:14px}
+  .trap:last-child{margin-bottom:0}
+  .trap-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;color:var(--navy)}
+  .trap-ev{font-style:italic;color:var(--muted);font-size:14px;margin:4px 0}
+  .scores{display:grid;gap:12px;margin-bottom:28px}
+  .score-row{display:grid;grid-template-columns:1fr 92px;gap:12px;align-items:center}
+  .score-name{font-size:14.5px;font-weight:500;color:var(--navy)}
+  .score-note{font-size:13.5px;color:var(--muted)}
+  .pips{display:flex;gap:4px;justify-content:flex-end}
+  .pip{width:14px;height:6px;border-radius:1px;background:var(--line)}
+  .pip.f{background:var(--teal)}
+  .block{margin-bottom:24px}
+  .block h4{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);
+    font-weight:700;margin-bottom:8px}
+  .break{background:#fff;border:1px solid var(--line);border-left:3px solid var(--flag);
+    padding:16px 18px;border-radius:2px}
+  .quote{font-style:italic;color:var(--muted);font-size:14.5px;margin-bottom:8px}
+  .question{background:rgba(201,246,250,0.4);border:1px solid var(--mist);padding:18px;border-radius:2px;
+    font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;line-height:1.4;color:var(--navy)}
+  .err{background:#fff;border-left:3px solid var(--flag);padding:16px;font-size:15px;margin-top:18px}
+  footer{background:var(--navy);color:rgba(255,255,255,0.85);padding:30px 22px;text-align:center;font-size:13px}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="mast-inner">
+    <button class="back" id="back">Back to the cards</button>
+    <div class="eyebrow" id="eyebrow">Thinking Lab</div>
+    <h1 id="title">Thinking Lab</h1>
+    <p id="strap">Train the mental habits behind better judgement, clearer decisions and stronger performance.</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- RACK -->
+  <section id="rack-view">
+    <span class="stage-num">The cards</span>
+    <h2>Choose what you want to train</h2>
+    <p class="lede">Every card follows the same shape. Learn the language, choose your ground, bring something real, then defend it.</p>
+    <div class="rack" id="rack"></div>
+  </section>
+
+  <!-- CARD -->
+  <div id="card-view" class="hide">
+    <section>
+      <span class="stage-num">Stage One</span>
+      <h2>Learn the language</h2>
+      <p class="lede" id="vocab-lede"></p>
+      <div class="terms" id="terms"></div>
+      <div class="progress"><div class="bar"><span id="bar"></span></div><span id="count"></span></div>
+    </section>
+
+    <section>
+      <span class="stage-num">Stage Two</span>
+      <h2>Choose how you want to be challenged</h2>
+      <p class="lede" id="area-lede"></p>
+      <div class="areas" id="areas"></div>
+    </section>
+
+    <section id="stage3" class="hide">
+      <span class="stage-num">Stage Three</span>
+      <h2 id="setup-h"></h2>
+      <p class="lede" id="setup-lede"></p>
+      <textarea id="setup"></textarea>
+      <div class="meta"><span id="setup-chars">0 characters</span><span id="setup-hint"></span></div>
+      <button class="btn" id="begin" disabled>Begin the challenge</button>
+    </section>
+
+    <section id="stage4" class="hide">
+      <span class="stage-num">Stage Four</span>
+      <h2>Hold your ground</h2>
+      <p class="lede">Four rounds. Each one comes back at whatever you just left exposed. Ninety seconds per answer.</p>
+      <div id="thread"></div>
+      <div id="live"></div>
+    </section>
+
+    <section id="stage5" class="hide">
+      <span class="stage-num">Debrief</span>
+      <h2 id="debrief-h"></h2>
+      <div class="verdict" id="verdict"></div>
+      <div class="caught hide" id="caught"><h4>Traps found in your own words</h4><div id="traps"></div></div>
+      <div class="scores" id="scores"></div>
+      <div class="block"><h4>What held</h4><p id="held"></p></div>
+      <div class="block hide" id="broke-block">
+        <h4>Where the reasoning broke</h4>
+        <div class="break"><div class="quote" id="broke-quote"></div><p id="broke"></p></div>
+      </div>
+      <div class="block hide" id="falsify-block">
+        <h4>What you would have to see to change your mind</h4><p id="falsify"></p>
+      </div>
+      <div class="block hide" id="missing-block">
+        <h4>The language you did not use</h4><p id="missing"></p>
+      </div>
+      <div class="block"><h4>Carry this back with you</h4><div class="question" id="question"></div></div>
+      <div class="actions">
+        <button class="btn" id="again">Run this card again</button>
+        <button class="btn" id="tocards" style="background:transparent;color:var(--navy);border:1px solid var(--line);font-weight:500">Back to the cards</button>
+      </div>
+    </section>
+  </div>
+
+</div>
+
+<footer>Beyond Limits, Made For More</footer>
+
+<script>
+/* ============================================================
+   CARD REGISTRY
+   The engine below is generic. To add a card, add an entry here.
+   ============================================================ */
+const CARDS = [
+{
+  id:"decision", live:true, no:"01",
+  title:"Decision Intelligence",
+  sub:"Make better decisions under uncertainty",
+  strap:"Bring a decision you are actually facing. Learn the language, then defend your thinking against someone who will not let it pass.",
+  vocabLede:"You cannot think clearly with words you do not own. Open each term, read how it behaves inside a real decision.",
+  areaLede:"The decision is yours. This only sets the ground the challenger will fight you on.",
+  setupH:"State your decision",
+  setupPlaceholder:"What is the decision, what are you leaning towards, and why? Write it as you would say it out loud.",
+  setupHint:"Give it enough to bite on",
+  subject:"a decision they are facing",
+  debriefH:"How you reasoned",
+  role:"You pressure-test how someone reasons about a real decision they are facing. You never give advice. You never tell them what to do. You ask questions that expose the weakest part of their reasoning.",
+  showTraps:false, showBroke:true, showMissing:true, showFalsify:false,
+  scores:["Assumption awareness","Use of evidence","Trade-off recognition","Reversibility judgement","Holding up under challenge"],
+  terms:[
+    {t:"Trade-off",d:"Every choice buys one thing by giving up another. Naming what you give up is the whole skill.",u:"We can have it fast or we can have it right. The trade-off is a fortnight."},
+    {t:"Opportunity cost",d:"The value of the best option you did not take. Not the money spent, the option closed.",u:"The contract pays well. Its opportunity cost is the six weeks I cannot spend on the product."},
+    {t:"Risk",d:"Exposure to loss you can describe. If you cannot describe it, you are not managing risk, you are hoping.",u:"The risk is not that it fails. The risk is that it fails after we have hired for it."},
+    {t:"Probability",d:"How likely something is, stated as a number rather than a feeling. Vague language hides bad odds.",u:"Not likely. Roughly one in five. Now we can argue about it properly."},
+    {t:"Assumption",d:"Something you are treating as true without checking. The most expensive part of most decisions.",u:"We assumed they would renew. Nobody asked them."},
+    {t:"Evidence",d:"What you actually observed, as opposed to what you concluded from it.",u:"The evidence is three cancelled meetings. The story is that they have gone cold."},
+    {t:"Confidence",d:"How sure you are. It should move when the evidence moves. Often it does not.",u:"My confidence went up and no new information arrived. That is a warning."},
+    {t:"Reversible decision",d:"A decision you can walk back cheaply. These should be made fast, with less deliberation than they usually get.",u:"It is reversible. Decide it today and correct it on Friday if it is wrong."},
+    {t:"Irreversible decision",d:"A decision you cannot undo, or can undo only at serious cost. These earn slowness.",u:"Once we tell the team, we cannot untell them. That one is irreversible."},
+    {t:"Consequences",d:"What follows, including what follows from what follows. Most people stop at the first order.",u:"The cut saves the quarter. The consequence is that the two people who could rebuild it leave."}
+  ],
+  areas:[
+    {t:"Decision-Making Under Pressure",s:"Reason well when the clock is against you",
+     lens:"Attack from time pressure. Force them to commit to a position before they feel ready. Compress their options. Ask what they would do if the answer were due in an hour."},
+    {t:"Trade-off Thinking",s:"Name what you are giving up, precisely",
+     lens:"Attack from trade-offs. Refuse to let them have both sides. Every time they claim a benefit, demand the price. Expose any place they are pretending a trade-off does not exist."},
+    {t:"Opportunity Cost",s:"Count the doors that close, not the money that moves",
+     lens:"Attack from opportunity cost. Ignore money already spent. Interrogate what this decision permanently closes off, and what the best forgone alternative actually was."},
+    {t:"Long-Term Consequences",s:"Follow the decision past its first effect",
+     lens:"Attack from second and third-order consequences. Concede the immediate effect, then push relentlessly on what follows from it, and what follows from that."},
+    {t:"Knowing When to Decide",s:"Separate what is reversible from what is not",
+     lens:"Attack from reversibility and timing. Ask whether this decision is reversible. If it is, challenge why they are agonising. If it is not, challenge why they are moving so fast."},
+    {t:"Probability Thinking",s:"Replace feelings with odds",
+     lens:"Attack from probability. Refuse all vague likelihood language. Demand explicit numbers for every claim about what might happen, then test whether those numbers are defensible."}
+  ]
+},
+{
+  id:"traps", live:true, no:"02",
+  title:"Thinking Traps",
+  sub:"Recognise the thinking errors that influence your judgement",
+  strap:"Bring a judgement you have already made. Learn the language, then find out which trap you walked into without noticing.",
+  vocabLede:"You cannot catch a bias you cannot name. Open each term, read how it behaves in the wild.",
+  areaLede:"The judgement is yours. This only sets the ground the challenger will fight you on.",
+  setupH:"State your judgement",
+  setupPlaceholder:"What have you concluded, about a person, a situation, or yourself? Write it as you would say it to a friend, including why you believe it.",
+  setupHint:"Be honest, not careful",
+  subject:"a judgement they have already reached and are confident about",
+  debriefH:"What you walked into",
+  role:"You pressure-test a judgement someone has already reached. You never give advice. You never tell them what to conclude. You ask questions that expose the bias underneath their certainty. Never name the bias you are hunting. Make them find it.",
+  showTraps:true, showBroke:false, showMissing:false, showFalsify:true,
+  scores:["Separating evidence from story","Willingness to be wrong","Reading other people's motives","Feeling kept apart from fact","Holding up under challenge"],
+  terms:[
+    {t:"Confirmation bias",d:"You notice what agrees with you and skim past what does not. It feels like being right.",u:"I read the two reviews that praised it and told myself the bad one was written by a crank."},
+    {t:"Anchoring",d:"The first number or idea you meet sets the frame, and everything after is judged against it.",u:"They opened at eighty thousand. Every figure since has felt like a win or a loss against eighty."},
+    {t:"Projection",d:"You assume the other person is thinking what you would be thinking in their place.",u:"I would have been furious, so I decided she was furious. She was busy."},
+    {t:"Emotional reasoning",d:"You treat a feeling as evidence. It feels true, therefore it is true.",u:"I feel like a fraud, so I must be underqualified. The feeling is not data."},
+    {t:"Availability bias",d:"What comes to mind easily feels more common than it is. Vivid beats frequent.",u:"One client left loudly, so I decided everyone was leaving. Nineteen stayed quietly."},
+    {t:"Halo effect",d:"One strong impression colours everything else about a person or thing.",u:"He presented brilliantly, so I assumed he could run the department."},
+    {t:"Negativity bias",d:"Bad information lands harder and stays longer than good information of equal weight.",u:"Nine people said it worked. I have thought about the tenth for a week."},
+    {t:"Sunk cost",d:"You keep going because of what you have already spent, which you cannot get back either way.",u:"Two years in. That is the reason to leave, not the reason to stay."},
+    {t:"Loss aversion",d:"Losing hurts roughly twice as much as gaining the same thing pleases. It makes you too cautious.",u:"I would not risk the small contract to win the large one. The odds said I should have."},
+    {t:"Recency bias",d:"The most recent event dominates your judgement of a long pattern.",u:"One bad month, and I forgot the eleven good ones behind it."}
+  ],
+  areas:[
+    {t:"Jumping to Conclusions",s:"Test the gap between what you saw and what you decided",
+     lens:"Attack the gap between observation and conclusion. Separate what they actually witnessed from the story they built on top of it. Force them to state the raw evidence with no interpretation attached."},
+    {t:"Assuming Intent",s:"Test what you have decided about someone else's motives",
+     lens:"Attack their reading of other people's motives. Every time they attribute intention, demand the evidence. Offer competing explanations that fit the same facts, particularly boring ones: tiredness, workload, misunderstanding."},
+    {t:"Confirmation Bias",s:"Test what you have been quietly ignoring",
+     lens:"Attack from confirmation bias. Ask what evidence they have looked for that would prove them wrong, and what they did with the evidence that did not fit. Ask who disagrees, and how seriously they took that person."},
+    {t:"Emotional Decisions",s:"Test where the feeling ends and the reasoning begins",
+     lens:"Attack from emotional reasoning. Find where a feeling is standing in for evidence. Ask what they would conclude from these exact facts if they felt nothing at all about them. Be gentle about the feeling and hard about the logic."},
+    {t:"Thinking Under Stress",s:"Test what pressure has done to your judgement",
+     lens:"Attack from the effects of stress. Ask what has narrowed: the options they can see, the timeframe they are thinking in, the people they are still listening to. Look for catastrophising and for recency bias."},
+    {t:"Challenging Assumptions",s:"Test what you have been treating as settled",
+     lens:"Attack their assumptions. Hunt for everything they treat as established fact without having checked it. Each round, surface one buried assumption and ask what it would mean if it were false."}
+  ]
+},
+{id:"problem",live:false,no:"03",title:"Problem Solving",sub:"Solve the real problem, not the symptom"},
+{id:"critical",live:false,no:"04",title:"Critical Thinking",sub:"Evaluate information more accurately"},
+{id:"reasoning",live:false,no:"05",title:"Reasoning",sub:"Think logically and explain your thinking clearly"},
+{id:"strategic",live:false,no:"06",title:"Strategic Thinking",sub:"Think beyond the immediate problem"},
+{id:"creative",live:false,no:"07",title:"Creative Thinking",sub:"Generate better options before making decisions"},
+{id:"models",live:false,no:"08",title:"Mental Models",sub:"Use timeless frameworks to understand complex situations"}
+];
+
+/* ============================================================
+   ENGINE
+   ============================================================ */
+const ROUNDS = 4;
+let card=null, lens=null, input="", history=[], round=0, timer=null, remaining=0;
+const $ = id => document.getElementById(id);
+
+/* Rack */
+CARDS.forEach(c=>{
+  const b=document.createElement(c.live?'button':'div');
+  b.className='card '+(c.live?'live':'soon');
+  if(c.live) b.type='button';
+  b.innerHTML=`<span class="card-no">${c.no}</span><span>
+    <span class="card-title">${c.title}</span>
+    <span class="card-sub">${c.sub}</span>
+    <span class="card-state ${c.live?'a':'b'}">${c.live?'Open':'In build'}</span></span>`;
+  if(c.live) b.addEventListener('click',()=>openCard(c));
+  $('rack').appendChild(b);
+});
+
+$('back').addEventListener('click',toRack);
+$('tocards').addEventListener('click',toRack);
+$('again').addEventListener('click',()=>openCard(card));
+
+function toRack(){
+  card=null;
+  $('card-view').classList.add('hide');
+  $('rack-view').classList.remove('hide');
+  $('back').classList.remove('on');
+  $('eyebrow').textContent='Thinking Lab';
+  $('title').textContent='Thinking Lab';
+  $('strap').textContent='Train the mental habits behind better judgement, clearer decisions and stronger performance.';
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function openCard(c){
+  card=c; lens=null; history=[]; round=0;
+  $('rack-view').classList.add('hide');
+  $('card-view').classList.remove('hide');
+  $('back').classList.add('on');
+  $('eyebrow').textContent='Thinking Lab';
+  $('title').textContent=c.title;
+  $('strap').textContent=c.strap;
+  $('vocab-lede').textContent=c.vocabLede;
+  $('area-lede').textContent=c.areaLede;
+  $('setup-h').textContent=c.setupH;
+  $('setup').placeholder=c.setupPlaceholder;
+  $('setup-hint').textContent=c.setupHint;
+  $('debrief-h').textContent=c.debriefH;
+  $('setup').value='';
+  $('begin').disabled=true;
+  $('setup-chars').textContent='0 characters';
+  $('thread').innerHTML=''; $('live').innerHTML='';
+  $('stage3').classList.add('hide');
+  $('stage4').classList.add('hide');
+  $('stage5').classList.add('hide');
+
+  const opened=new Set();
+  $('terms').innerHTML='';
+  $('bar').style.width='0';
+  $('count').textContent=`0 of ${c.terms.length} opened`;
+  c.terms.forEach((x,i)=>{
+    const b=document.createElement('button');
+    b.className='term'; b.type='button';
+    b.innerHTML=`<span class="term-name">${x.t}<span class="tick">read</span></span>
+      <span class="term-body"><span class="term-def">${x.d}</span><div class="term-use">${x.u}</div></span>`;
+    b.addEventListener('click',()=>{
+      b.classList.toggle('open');
+      if(b.classList.contains('open')) opened.add(i);
+      $('bar').style.width=(opened.size/c.terms.length*100)+'%';
+      $('count').textContent=`${opened.size} of ${c.terms.length} opened`;
+    });
+    $('terms').appendChild(b);
+  });
+
+  $('areas').innerHTML='';
+  c.areas.forEach((a,i)=>{
+    const b=document.createElement('button');
+    b.className='area'; b.type='button'; b.dataset.i=i;
+    b.innerHTML=`<span class="area-mark">&rsaquo;</span><span>
+      <span class="area-title">${a.t}</span><span class="area-sub">${a.s}</span></span>`;
+    b.addEventListener('click',()=>{
+      lens=a;
+      document.querySelectorAll('.area').forEach(el=>el.classList.toggle('active',el.dataset.i==i));
+      $('setup-lede').textContent=`You have chosen ${a.t}. Describe ${card.subject}. The challenger will come at it from that ground.`;
+      $('stage3').classList.remove('hide');
+      $('stage3').scrollIntoView({behavior:'smooth',block:'start'});
+    });
+    $('areas').appendChild(b);
+  });
+
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+$('setup').addEventListener('input',()=>{
+  const n=$('setup').value.trim().length;
+  $('setup-chars').textContent=`${n} characters`;
+  $('begin').disabled=n<60;
+});
+
+$('begin').addEventListener('click',async()=>{
+  input=$('setup').value.trim();
+  history=[]; round=0;
+  $('stage3').classList.add('hide');
+  $('stage4').classList.remove('hide');
+  $('thread').innerHTML='';
+  $('stage4').scrollIntoView({behavior:'smooth',block:'start'});
+  await nextChallenge();
+});
+
+const RULES = "Be relentless but never cruel. You respect them enough to be hard on them. If what they brought concerns their own worth or their own failings, stay hard on the reasoning and gentle with the person. Write in British English. Never use em dashes. Use commas, colons or full stops.";
+
+async function nextChallenge(){
+  round++;
+  $('live').innerHTML=`<div class="thinking"><span class="pulse"></span><span>Reading what you left exposed</span></div>`;
+  const transcript=history.map(h=>`CHALLENGER: ${h.q}\nTHEM: ${h.a}`).join('\n\n');
+  const prompt=`You are the challenger in a written thinking practice for senior professionals. ${card.role}
+
+YOUR GROUND OF ATTACK: ${lens.lens}
+
+WHAT THEY BROUGHT, IN THEIR WORDS:
+"""
+${input}
+"""
+
+${transcript ? `THE EXCHANGE SO FAR:\n${transcript}\n` : ''}
+This is round ${round} of ${ROUNDS}. ${round===1 ? 'Open by going straight at the softest point in how they framed it.' : 'Go at whatever they just left exposed. Do not repeat earlier ground. Escalate.'}
+
+Return ONLY a JSON object, no preamble, no markdown fences:
+{
+  "hook": "One short sentence, under 18 words, naming what you noticed in what they just wrote. Specific to their actual words.",
+  "challenge": "One question. Under 30 words. Sharp, direct, impossible to answer with a yes or a no."
+}
+
+${RULES}`;
+
+  try{
+    const d=await call(prompt);
+    $('live').innerHTML=`
+      <div class="round-label">Round ${round} of ${ROUNDS}</div>
+      <div class="challenge"><span class="hook">${d.hook}</span>${d.challenge}</div>
+      <textarea id="reply" placeholder="Answer it. Do not dodge."></textarea>
+      <div class="clock" id="clock"><span>Time remaining</span><strong id="tick">01:30</strong></div>
+      <button class="btn" id="send" disabled>Send answer</button>`;
+    const q=d.challenge;
+    $('reply').addEventListener('input',()=>{ $('send').disabled=$('reply').value.trim().length<15; });
+    $('send').addEventListener('click',()=>lockIn(q,d.hook));
+    startClock(90,()=>lockIn(q,d.hook));
+    $('reply').focus();
+  }catch(e){
+    $('live').innerHTML=`<div class="err">The challenger did not respond. Nothing is lost. Press begin again.</div>`;
+  }
+}
+
+function lockIn(q,hook){
+  stopClock();
+  const a=($('reply')?$('reply').value.trim():'')||"No answer given in the time.";
+  history.push({q,a,hook});
+  $('thread').insertAdjacentHTML('beforeend',`
+    <div class="round-label">Round ${history.length}</div>
+    <div class="challenge"><span class="hook">${hook}</span>${q}</div>
+    <div class="round-label">Your answer</div>
+    <div class="mine">${escapeHtml(a)}</div>`);
+  $('live').innerHTML='';
+  if(history.length>=ROUNDS){ debrief(); } else { nextChallenge(); }
+}
+
+function startClock(s,onEnd){
+  remaining=s;
+  timer=setInterval(()=>{
+    remaining--;
+    const m=String(Math.floor(remaining/60)).padStart(2,'0');
+    const sec=String(remaining%60).padStart(2,'0');
+    if($('tick')) $('tick').textContent=`${m}:${sec}`;
+    if($('clock')) $('clock').classList.toggle('low',remaining<=20);
+    if(remaining<=0){ stopClock(); onEnd(); }
+  },1000);
+}
+function stopClock(){ if(timer) clearInterval(timer); timer=null; }
+
+async function debrief(){
+  $('stage5').classList.remove('hide');
+  $('live').innerHTML=`<div class="thinking"><span class="pulse"></span><span>Reading the whole exchange</span></div>`;
+  $('stage5').scrollIntoView({behavior:'smooth',block:'start'});
+
+  const transcript=history.map((h,i)=>`ROUND ${i+1}\nCHALLENGER: ${h.q}\nTHEM: ${h.a}`).join('\n\n');
+  const vocab=card.terms.map(t=>t.t).join(', ');
+
+  const fields=[
+    `"verdict": "One or two sentences naming the single most important thing about how this person reasoned under pressure. Sharp and specific."`,
+    card.showTraps ? `"traps": [{"name":"the trap, named from the taught list","evidence":"a direct quote from their own words, under 15 words","how":"one or two sentences on exactly how it is operating here and what it is costing them"}]` : null,
+    `"scores": [${card.scores.map(s=>`{"name":"${s}","value":1-5,"note":"under 12 words"}`).join(',')}]`,
+    `"held": "Two or three sentences on what genuinely worked. Point to their actual words."`,
+    card.showBroke ? `"brokeQuote": "A short direct quote from their own answers, under 15 words, showing the moment the reasoning slipped."` : null,
+    card.showBroke ? `"broke": "Two or three sentences naming precisely what went wrong there and what it cost them."` : null,
+    card.showFalsify ? `"falsify": "Two or three sentences naming the specific, observable thing that would prove this wrong. Concrete enough to go and look for this week."` : null,
+    card.showMissing ? `"missing": "Two sentences naming which taught terms would have sharpened this, and how they would have been used on this specific case."` : null,
+    `"question": "One question, under 20 words, they should sit with before they act."`
+  ].filter(Boolean).join(',\n  ');
+
+  const prompt=`You are the debrief engine for a written thinking practice. You assess how a person reasons, never whether their conclusion is correct. There is no correct conclusion.
+
+CARD: ${card.title}
+GROUND THEY CHOSE: ${lens.t}
+WHAT THEY BROUGHT:
+"""
+${input}
+"""
+
+THE FULL EXCHANGE UNDER PRESSURE:
+${transcript}
+
+THE LANGUAGE THEY WERE TAUGHT: ${vocab}
+
+Assess the reasoning across the whole exchange. Watch what happened when they were pushed: did they sharpen, dodge, restate, or collapse. Quote their own words back to them. Be direct and warm, the way a demanding coach is warm. Never flatter. If the reasoning is thin, say so plainly and show them exactly where.
+${card.showTraps ? 'Only name a trap where you can quote their words as evidence. Two or three traps at most. If a trap is not clearly present, do not invent it.' : ''}
+
+Return ONLY a JSON object, no preamble, no markdown fences:
+{
+  ${fields}
+}
+
+${RULES}`;
+
+  try{
+    const d=await call(prompt);
+    $('live').innerHTML='';
+    $('verdict').textContent=d.verdict;
+
+    $('caught').classList.toggle('hide',!card.showTraps||!d.traps);
+    if(card.showTraps && d.traps){
+      $('traps').innerHTML=d.traps.map(t=>`<div class="trap">
+        <div class="trap-name">${t.name}</div>
+        <div class="trap-ev">"${t.evidence}"</div>
+        <div>${t.how}</div></div>`).join('');
+    }
+
+    $('scores').innerHTML=d.scores.map(s=>`
+      <div class="score-row">
+        <div><div class="score-name">${s.name}</div><div class="score-note">${s.note}</div></div>
+        <div class="pips">${[1,2,3,4,5].map(i=>`<span class="pip ${i<=s.value?'f':''}"></span>`).join('')}</div>
+      </div>`).join('');
+
+    $('held').textContent=d.held;
+
+    $('broke-block').classList.toggle('hide',!card.showBroke);
+    if(card.showBroke){ $('broke-quote').textContent='"'+d.brokeQuote+'"'; $('broke').textContent=d.broke; }
+
+    $('falsify-block').classList.toggle('hide',!card.showFalsify);
+    if(card.showFalsify) $('falsify').textContent=d.falsify;
+
+    $('missing-block').classList.toggle('hide',!card.showMissing);
+    if(card.showMissing) $('missing').textContent=d.missing;
+
+    $('question').textContent=d.question;
+  }catch(e){
+    $('live').innerHTML=`<div class="err">The debrief did not come back. Your exchange is above.</div>`;
+  }
+}
+
+async function call(prompt){
+  const res=await fetch("https://api.anthropic.com/v1/messages",{
+    method:"POST",headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({model:"claude-sonnet-4-6",max_tokens:1000,messages:[{role:"user",content:prompt}]})
+  });
+  const data=await res.json();
+  const raw=data.content.filter(b=>b.type==="text").map(b=>b.text).join("");
+  return JSON.parse(raw.replace(/```json/g,'').replace(/```/g,'').trim());
+}
+function escapeHtml(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+</script>
+</body>
+</html>
