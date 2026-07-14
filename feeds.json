@@ -1,78 +1,6 @@
 {
-  "updated": "14 Jul 2026, 19:16 UTC",
+  "updated": "14 Jul 2026, 20:41 UTC",
   "articles": [
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Where you live could shape your dementia risk, massive study finds",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260713000753.htm",
-      "date": "13 Jul 2026",
-      "excerpt": "Researchers analyzing data from more than 214,000 people found that dementia risk factors differ widely across countries, challenging the idea of a one-size-fits-all prevention strategy. At the same time, they uncovered surprisingly consist",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover how the brain rewires itself to truly multitask",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
-      "date": "12 Jul 2026",
-      "excerpt": "Practice may do more than make perfect. Researchers found that extensive training physically reorganizes the brain, allowing learned tasks to bypass the prefrontal cortex and run through specialized circuits instead. By freeing the brain's ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discovered the brain doesn't make decisions the way we thought",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260712011757.htm",
-      "date": "13 Jul 2026",
-      "excerpt": "A new study suggests the brain begins making decisions much earlier than scientists previously thought. Researchers found that even primary sensory regions are influenced by higher brain areas through rapid feedback loops, rather than simpl",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Second pregnancy changes the brain in surprising new ways",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260711010125.htm",
-      "date": "11 Jul 2026",
-      "excerpt": "Researchers found that every pregnancy rewires the brain in its own way, with a second pregnancy bringing a different pattern of changes than the first. The discoveries could lead to better ways to recognize and treat maternal mental health",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Alzheimer's tau protein has a surprising secret role in memory",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260710003535.htm",
-      "date": "12 Jul 2026",
-      "excerpt": "Researchers found that tau is essential for turning new experiences into lasting memories by helping organize the brain's memory-storing cells. The mouse study also revealed how abnormal tau may contribute to Alzheimer's by disrupting both ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Yale scientists may have found how Parkinson's disease spreads through the brain",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260710003529.htm",
-      "date": "11 Jul 2026",
-      "excerpt": "Yale scientists discovered two neuron surface proteins that appear to help spread the toxic protein linked to Parkinson’s disease. Blocking these proteins in mice dramatically reduced disease progression, offering a potential new target for",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists may have finally found how Alzheimer's spreads through the brain",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260630020521.htm",
-      "date": "30 Jun 2026",
-      "excerpt": "A common brain protein may be giving Alzheimer’s disease an unexpected way to spread, carrying toxic Tau proteins from damaged neurons into healthy ones. By blocking these harmful protein packages before they reach new cells, researchers be",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists say creatine may help fight depression",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260630020231.htm",
-      "date": "30 Jun 2026",
-      "excerpt": "Creatine is best known as a muscle-building supplement, but scientists are now investigating whether it could also help treat depression by boosting the brain's energy supply. A new review examined five randomized clinical trials involving ",
-      "image": ""
-    },
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
@@ -148,6 +76,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Doctors must drive the alignment of medical AI solutions",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
+      "date": "14 Jul 2026",
+      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "What the art market reveals about the risks in on-chain finance",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
       "date": "13 Jul 2026",
@@ -191,15 +128,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Europe’s startup boom still needs an exit plan",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/06/europes-startup-boom-still-needs-an-exit-plan/",
-      "date": "6 Jul 2026",
-      "excerpt": "Europe is producing world-class founders, frontier technologies and ambitious scale-ups. The task now is to develop their exit plans. Juanita Gonzalez-Uribe and Robyn Klingler-Vidra argue that this will not be done by shaming founders into ",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Billionaire Warren Buffett stops donations to Bill Gates charity",
@@ -211,7 +139,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump scraps threat of 20% fee on Hormuz cargo as US prepares to resume blockade of Iran ports",
+      "title": "Trump scraps threat of 20% fee on Hormuz cargo as US resumes blockade of Iran ports",
       "link": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss",
       "date": "14 Jul 2026",
       "excerpt": "Trump drops a 24-hour-old vow to charge cargo ships for using the Strait as the US continues its battle to break Iran's hold on the waterway.",
