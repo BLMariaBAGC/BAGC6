@@ -3654,6 +3654,7 @@ function App() {
   const autoSendRef = useRef(false);
   const sendMessageRef = useRef(() => {});
   const manualStopRef = useRef(false);
+  const wantListeningRef = useRef(false); // true only between Speak and Stop; blocks lingering auto-restart after Stop
   const baseInputRef = useRef("");
   const sessionFinalRef = useRef("");
   const audioRef = useRef(null);
@@ -3781,12 +3782,14 @@ function App() {
           const finalText = voiceInputRef.current.trim();
           if (finalText) sendMessageRef.current(finalText);
         }
-      } else {
+      } else if (wantListeningRef.current) {
         // Belt-and-braces: some mobile browsers end a "continuous" session on their own
-        // after a pause regardless of the flag above. If the person hasn't pressed
-        // Stop, silently resume rather than going dead. With continuous:true this
-        // should be rare in normal use, keeping handoff-gap word loss rare too.
+        // after a pause. Resume only if the person still wants to listen (has not pressed
+        // Stop). The wantListeningRef guard stops a lingering session from overwriting the
+        // box and blocking editing after Stop.
         beginRecognitionSession();
+      } else {
+        setIsListening(false);
       }
     };
     r.onerror = e => {
@@ -3816,6 +3819,7 @@ function App() {
     setVoiceError("");
     if (recognitionRef.current) recognitionRef.current.stop();
     manualStopRef.current = false;
+    wantListeningRef.current = true;
     baseInputRef.current = input.trim();
     sessionFinalRef.current = "";
     beginRecognitionSession();
@@ -3823,12 +3827,12 @@ function App() {
   function stopListening(autoSend = false) {
     autoSendRef.current = autoSend;
     manualStopRef.current = true;
+    wantListeningRef.current = false;
     if (recognitionRef.current) {
       recognitionRef.current.stop();
       recognitionRef.current = null;
-    } else {
-      setIsListening(false);
     }
+    setIsListening(false);
   }
   function chunkText(text, maxLen = 900) {
     const sentences = text.match(/[^.!?]+[.!?]+|\S+/g) || [text];
