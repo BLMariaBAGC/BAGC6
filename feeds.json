@@ -1,6 +1,15 @@
 {
-  "updated": "15 Jul 2026, 06:11 UTC",
+  "updated": "15 Jul 2026, 07:47 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Going to museums, movies, and theater may help your body stay younger",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260714225526.htm",
+      "date": "15 Jul 2026",
+      "excerpt": "Going to the cinema, visiting museums, or attending concerts may do more than entertain. Researchers found that older adults who regularly participated in cultural activities tended to have bodies that functioned like those of people about ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/06/260630020521.htm",
       "date": "30 Jun 2026",
       "excerpt": "A common brain protein may be giving Alzheimer’s disease an unexpected way to spread, carrying toxic Tau proteins from damaged neurons into healthy ones. By blocking these harmful protein packages before they reach new cells, researchers be",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists say creatine may help fight depression",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260630020231.htm",
-      "date": "30 Jun 2026",
-      "excerpt": "Creatine is best known as a muscle-building supplement, but scientists are now investigating whether it could also help treat depression by boosting the brain's energy supply. A new review examined five randomized clinical trials involving ",
       "image": ""
     },
     {
@@ -146,58 +146,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Doctors must drive the alignment of medical AI solutions",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
-      "date": "14 Jul 2026",
-      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What the art market reveals about the risks in on-chain finance",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
-      "date": "13 Jul 2026",
-      "excerpt": "Blockchain-based currencies can now buy almost anything, from digital art to a house. But those currencies are themselves volatile, and that volatility passes through to whatever trades on top of them. Ziwen Chen draws on the digital art ma",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Digital banking creates a new kind of financial exclusion",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
-      "date": "10 Jul 2026",
-      "excerpt": "Rolling out digital banking without addressing algorithmic bias risks excluding the very populations it promises to uplift. Meghna Chotaliya uncovers a financial system that is technologically advanced and socially regressive at the same ti",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Finland’s co-operative banks offer a unique perspective on resilient finance",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/finlands-co-operative-banks-offer-a-unique-perspective-on-resilient-finance/",
-      "date": "9 Jul 2026",
-      "excerpt": "As climate, demographic and geopolitical disruptions intensify, financial systems are confronting pressures that traditional models increasingly struggle to capture. Ephraim Daka shows how Finland’s co‑operative banks offer a compelling len",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "World trade remains dangerously dependent on a handful of shipping lanes",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
-      "date": "9 Jul 2026",
-      "excerpt": "The conflict in Iran has been reignited by disagreements about control of a critical shipping lane. But the Strait of Hormuz is not the only chokepoint making global trade vulnerable. Ferdinand Rauch, Stephan Maurer and Luke Milsom show jus",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Screenshot-2026-07-08-152221.png"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Pakistan’s Virtual Assets Act is a step forward – but is it enough?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/07/pakistans-virtual-assets-act-is-a-step-forward-but-is-it-enough/",
-      "date": "7 Jul 2026",
-      "excerpt": "To regulate the country’s growing economy of virtual assets, in 2026 Pakistan passed its Virtual Assets Act. But while the legislation addresses real risks, a framework designed predominantly around enforcement may constrain the market it s",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Thames Water returns to profit after raising bills",
+      "link": "https://www.bbc.co.uk/news/articles/c4gygy43103o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Jul 2026",
+      "excerpt": "The UK's largest water company reported a post-tax profit for the 12 months to the end of March, but its net debt also swelled.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0067/live/694e25f0-800f-11f1-855c-e18bf6105698.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,11 +175,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Midnight social media curfew proposed for older UK teens",
+      "title": "Midnight social media curfew proposed for UK teens aged 16 and 17",
       "link": "https://www.bbc.co.uk/news/articles/c982857nlrlo?at_medium=RSS&at_campaign=rss",
-      "date": "14 Jul 2026",
-      "excerpt": "Teenagers will be able to opt out of the restrictions - campaigners have criticised them as being piecemeal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5c4/live/12555540-7f8b-11f1-a47a-d94293d2b0e4.jpg"
+      "date": "15 Jul 2026",
+      "excerpt": "The government says it will improve teenagers' lives but campaigners call it a \"missed opportunity\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0dfe/live/cfa7c2f0-8016-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +189,6 @@
       "date": "14 Jul 2026",
       "excerpt": "The lily-padding trend sees young people repeatedly move jobs to try to advance in the workplace.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b112/live/176aa4b0-7c32-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "China economic growth falls sharply, missing target",
-      "link": "https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&at_campaign=rss",
-      "date": "15 Jul 2026",
-      "excerpt": "Weak demand domestically and the impact of the Iran war on oil prices overshadowed the country's strong exports.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8de/live/7e6a3480-7f40-11f1-ba68-9b76167cb04b.jpg"
     },
     {
       "source": "BBC Business",
