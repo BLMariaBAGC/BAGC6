@@ -1,5 +1,5 @@
 {
-  "updated": "15 Jul 2026, 02:13 UTC",
+  "updated": "15 Jul 2026, 06:11 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -146,12 +146,66 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Doctors must drive the alignment of medical AI solutions",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
+      "date": "14 Jul 2026",
+      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What the art market reveals about the risks in on-chain finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
+      "date": "13 Jul 2026",
+      "excerpt": "Blockchain-based currencies can now buy almost anything, from digital art to a house. But those currencies are themselves volatile, and that volatility passes through to whatever trades on top of them. Ziwen Chen draws on the digital art ma",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Digital banking creates a new kind of financial exclusion",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
+      "date": "10 Jul 2026",
+      "excerpt": "Rolling out digital banking without addressing algorithmic bias risks excluding the very populations it promises to uplift. Meghna Chotaliya uncovers a financial system that is technologically advanced and socially regressive at the same ti",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Finland’s co-operative banks offer a unique perspective on resilient finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/finlands-co-operative-banks-offer-a-unique-perspective-on-resilient-finance/",
+      "date": "9 Jul 2026",
+      "excerpt": "As climate, demographic and geopolitical disruptions intensify, financial systems are confronting pressures that traditional models increasingly struggle to capture. Ephraim Daka shows how Finland’s co‑operative banks offer a compelling len",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "World trade remains dangerously dependent on a handful of shipping lanes",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
+      "date": "9 Jul 2026",
+      "excerpt": "The conflict in Iran has been reignited by disagreements about control of a critical shipping lane. But the Strait of Hormuz is not the only chokepoint making global trade vulnerable. Ferdinand Rauch, Stephan Maurer and Luke Milsom show jus",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Screenshot-2026-07-08-152221.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Pakistan’s Virtual Assets Act is a step forward – but is it enough?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/07/pakistans-virtual-assets-act-is-a-step-forward-but-is-it-enough/",
+      "date": "7 Jul 2026",
+      "excerpt": "To regulate the country’s growing economy of virtual assets, in 2026 Pakistan passed its Virtual Assets Act. But while the legislation addresses real risks, a framework designed predominantly around enforcement may constrain the market it s",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Heating oil customers to get compensation after price hikes",
       "link": "https://www.bbc.co.uk/news/articles/cy494yypnv3o?at_medium=RSS&at_campaign=rss",
       "date": "14 Jul 2026",
-      "excerpt": "The cost of hearing oil spike following the US-Israel war with Iran which forced up crude prices.",
+      "excerpt": "The cost of heating oil spiked following the US-Israel war with Iran which forced up crude prices.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6cb5/live/a97b22b0-7f95-11f1-ac71-510b51a60620.jpg"
     },
     {
@@ -166,6 +220,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Midnight social media curfew proposed for older UK teens",
+      "link": "https://www.bbc.co.uk/news/articles/c982857nlrlo?at_medium=RSS&at_campaign=rss",
+      "date": "14 Jul 2026",
+      "excerpt": "Teenagers will be able to opt out of the restrictions - campaigners have criticised them as being piecemeal.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5c4/live/12555540-7f8b-11f1-a47a-d94293d2b0e4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "I changed jobs 10 times in 10 years to get the career I wanted",
       "link": "https://www.bbc.co.uk/news/articles/ce8kxgpe3kdo?at_medium=RSS&at_campaign=rss",
       "date": "14 Jul 2026",
@@ -175,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "From Wimbledon towels to Scotch: What India-UK trade deal could mean for shoppers",
-      "link": "https://www.bbc.co.uk/news/articles/c0kymrz0vkgo?at_medium=RSS&at_campaign=rss",
-      "date": "14 Jul 2026",
-      "excerpt": "The free trade agreement between the world's fifth and sixth largest economies has come into effect - can it deliver?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b761/live/c7a2b980-7e80-11f1-926f-c90d1bcfbc84.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Xbox workers stunned after jobs 'bloodbath'",
-      "link": "https://www.bbc.co.uk/news/articles/c932eynvq1do?at_medium=RSS&at_campaign=rss",
+      "title": "China economic growth falls sharply, missing target",
+      "link": "https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&at_campaign=rss",
       "date": "15 Jul 2026",
-      "excerpt": "The video game giant owned by Microsoft plans to let 3,200 workers go. Will it be a big reset or a system crash?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e23/live/fa524280-7f8c-11f1-bee8-53ce494e1abc.jpg"
+      "excerpt": "Weak demand domestically and the impact of the Iran war on oil prices overshadowed the country's strong exports.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8de/live/7e6a3480-7f40-11f1-ba68-9b76167cb04b.jpg"
     },
     {
       "source": "BBC Business",
