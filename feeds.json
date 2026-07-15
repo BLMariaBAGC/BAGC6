@@ -1,5 +1,5 @@
 {
-  "updated": "15 Jul 2026, 17:56 UTC",
+  "updated": "15 Jul 2026, 19:07 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -146,6 +146,60 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Football’s billion-dollar integrity problem",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/15/footballs-billion-dollar-integrity-problem/",
+      "date": "15 Jul 2026",
+      "excerpt": "High profile international sports competitions such as the World Cup depend on fair play. But the pressure, and money, behind such events can unintentionally distort efforts to truly level the playing field – even for referees using the tec",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Doctors must drive the alignment of medical AI solutions",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
+      "date": "14 Jul 2026",
+      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What the art market reveals about the risks in on-chain finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
+      "date": "13 Jul 2026",
+      "excerpt": "Blockchain-based currencies can now buy almost anything, from digital art to a house. But those currencies are themselves volatile, and that volatility passes through to whatever trades on top of them. Ziwen Chen draws on the digital art ma",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Digital banking creates a new kind of financial exclusion",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
+      "date": "10 Jul 2026",
+      "excerpt": "Rolling out digital banking without addressing algorithmic bias risks excluding the very populations it promises to uplift. Meghna Chotaliya uncovers a financial system that is technologically advanced and socially regressive at the same ti",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Finland’s co-operative banks offer a unique perspective on resilient finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/finlands-co-operative-banks-offer-a-unique-perspective-on-resilient-finance/",
+      "date": "9 Jul 2026",
+      "excerpt": "As climate, demographic and geopolitical disruptions intensify, financial systems are confronting pressures that traditional models increasingly struggle to capture. Ephraim Daka shows how Finland’s co‑operative banks offer a compelling len",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "World trade remains dangerously dependent on a handful of shipping lanes",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
+      "date": "9 Jul 2026",
+      "excerpt": "The conflict in Iran has been reignited by disagreements about control of a critical shipping lane. But the Strait of Hormuz is not the only chokepoint making global trade vulnerable. Ferdinand Rauch, Stephan Maurer and Luke Milsom show jus",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Screenshot-2026-07-08-152221.png"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "SpaceX share price drops below stock market debut",
@@ -153,6 +207,15 @@
       "date": "15 Jul 2026",
       "excerpt": "Share trading in Elon Musk’s rocket company has been volatile since it went public a month ago.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18a1/live/2b8ede90-806d-11f1-bf5f-a7a6eeea7412.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Salary information to be shown on job ads under new laws",
+      "link": "https://www.bbc.co.uk/news/articles/ckg7gg2zdexo?at_medium=RSS&at_campaign=rss",
+      "date": "15 Jul 2026",
+      "excerpt": "The government argues the move would help jobseekers and could reduce pay discrimination claims.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a965/live/a2688400-807a-11f1-b339-39b3d6faedee.jpg"
     },
     {
       "source": "BBC Business",
@@ -180,15 +243,6 @@
       "date": "15 Jul 2026",
       "excerpt": "Watt says he has made an offer to buy back the craft beer business months after it was sold to a US company.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b415/live/257ac930-8057-11f1-a142-eb8f669bef0c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "British Steel nationalisation takes step closer",
-      "link": "https://www.bbc.co.uk/news/articles/c5yzy3ng05lo?at_medium=RSS&at_campaign=rss",
-      "date": "15 Jul 2026",
-      "excerpt": "The new legislation would see Scunthorpe-based British Steel brought into public ownership.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7304/live/2d34b740-8029-11f1-926f-c90d1bcfbc84.jpg"
     },
     {
       "source": "BBC Business",
