@@ -1,5 +1,5 @@
 {
-  "updated": "15 Jul 2026, 20:57 UTC",
+  "updated": "15 Jul 2026, 22:56 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Football’s billion-dollar integrity problem",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/15/footballs-billion-dollar-integrity-problem/",
+      "date": "15 Jul 2026",
+      "excerpt": "High profile international sports competitions such as the World Cup depend on fair play. But the pressure, and money, behind such events can unintentionally distort efforts to truly level the playing field – even for referees using the tec",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Doctors must drive the alignment of medical AI solutions",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
       "date": "14 Jul 2026",
@@ -191,15 +200,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Screenshot-2026-07-08-152221.png"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Pakistan’s Virtual Assets Act is a step forward – but is it enough?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/07/pakistans-virtual-assets-act-is-a-step-forward-but-is-it-enough/",
-      "date": "7 Jul 2026",
-      "excerpt": "To regulate the country’s growing economy of virtual assets, in 2026 Pakistan passed its Virtual Assets Act. But while the legislation addresses real risks, a framework designed predominantly around enforcement may constrain the market it s",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "SpaceX share price drops below stock market debut",
@@ -207,6 +207,15 @@
       "date": "15 Jul 2026",
       "excerpt": "Share trading in Elon Musk’s rocket company has been volatile since it went public a month ago.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18a1/live/2b8ede90-806d-11f1-bf5f-a7a6eeea7412.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Buffett calls Bill Gates relationship with Epstein 'distasteful'",
+      "link": "https://www.bbc.co.uk/news/articles/cz97wx2zj78o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Jul 2026",
+      "excerpt": "The billionaire investor's firm has stopped giving donations to the Microsoft co-founder's charity.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40d0/live/4b8920c0-8090-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,6 +229,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Burnham faces crucial choice for chancellor as battle for No 11 continues",
+      "link": "https://www.bbc.co.uk/news/articles/ceqe55d0q9po?at_medium=RSS&at_campaign=rss",
+      "date": "15 Jul 2026",
+      "excerpt": "Whoever Burnham appoints to the key role will send a signal of his intent, writes Iain Watson.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/885c/live/2a9c0730-807a-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Cash-strapped Thames Water poses big test for Burnham",
       "link": "https://www.bbc.co.uk/news/articles/c4gygy43103o?at_medium=RSS&at_campaign=rss",
       "date": "15 Jul 2026",
@@ -229,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "EasyJet passengers stuck on tarmac for hours when plane couldn't refuel",
-      "link": "https://www.bbc.co.uk/news/articles/c3ryr25gvjdo?at_medium=RSS&at_campaign=rss",
-      "date": "15 Jul 2026",
-      "excerpt": "One passenger said she only got home at 06:00 after being stuck on the runway in the middle of the night.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6574/live/9beb8030-804f-11f1-8a74-43d9da26a654.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Brewdog co-founder James Watt launches bid to buy back beer firm",
       "link": "https://www.bbc.co.uk/news/articles/c7vyv2v2vmzo?at_medium=RSS&at_campaign=rss",
       "date": "15 Jul 2026",
       "excerpt": "Watt says he has made an offer to buy back the craft beer business months after it was sold to a US company.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b415/live/257ac930-8057-11f1-a142-eb8f669bef0c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Don't panic - five ways to stop your kids' endless scrolling",
-      "link": "https://www.bbc.co.uk/news/articles/c86e3q5j992o?at_medium=RSS&at_campaign=rss",
-      "date": "15 Jul 2026",
-      "excerpt": "Parenting experts share their tips on how to keep children's screen time under control.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5254/live/0894cae0-803f-11f1-8a74-43d9da26a654.jpg"
     }
   ]
 }
