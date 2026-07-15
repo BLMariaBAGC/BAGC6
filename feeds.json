@@ -1,5 +1,5 @@
 {
-  "updated": "15 Jul 2026, 17:19 UTC",
+  "updated": "15 Jul 2026, 17:34 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Football’s billion-dollar integrity problem",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/15/footballs-billion-dollar-integrity-problem/",
+      "date": "15 Jul 2026",
+      "excerpt": "High profile international sports competitions such as the World Cup depend on fair play. But the pressure, and money, behind such events can unintentionally distort efforts to truly level the playing field – even for referees using the tec",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Doctors must drive the alignment of medical AI solutions",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
       "date": "14 Jul 2026",
@@ -191,15 +200,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Screenshot-2026-07-08-152221.png"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Pakistan’s Virtual Assets Act is a step forward – but is it enough?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/07/pakistans-virtual-assets-act-is-a-step-forward-but-is-it-enough/",
-      "date": "7 Jul 2026",
-      "excerpt": "To regulate the country’s growing economy of virtual assets, in 2026 Pakistan passed its Virtual Assets Act. But while the legislation addresses real risks, a framework designed predominantly around enforcement may constrain the market it s",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Cash-strapped Thames Water poses big test for Burnham",
@@ -207,6 +207,15 @@
       "date": "15 Jul 2026",
       "excerpt": "Despite returning to profit after hiking bills 40%, the deeply troubled company is far from out of the woods.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12f3/live/57ae2360-805d-11f1-926f-c90d1bcfbc84.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "SpaceX share price drops below stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/clyl33q0yl0o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Jul 2026",
+      "excerpt": "Share trading in Elon Musk’s rocket company has been volatile since it went public a month ago.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18a1/live/2b8ede90-806d-11f1-bf5f-a7a6eeea7412.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "15 Jul 2026",
       "excerpt": "Parenting experts share their tips on how to keep children's screen time under control.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5254/live/0894cae0-803f-11f1-8a74-43d9da26a654.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Heating oil customers to get compensation after price hikes",
-      "link": "https://www.bbc.co.uk/news/articles/cy494yypnv3o?at_medium=RSS&at_campaign=rss",
-      "date": "14 Jul 2026",
-      "excerpt": "The cost of heating oil spiked following the US-Israel war with Iran which forced up crude prices.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6cb5/live/a97b22b0-7f95-11f1-ac71-510b51a60620.jpg"
     }
   ]
 }
