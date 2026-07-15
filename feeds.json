@@ -1,5 +1,5 @@
 {
-  "updated": "15 Jul 2026, 12:11 UTC",
+  "updated": "15 Jul 2026, 13:39 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "4 Hidden Traps of Team Dynamics",
+      "link": "/2026/07/4-hidden-traps-of-team-dynamics",
+      "date": "15 Jul 2026",
+      "excerpt": "How leaders can develop the skills they need to navigate differences on their teams with awareness, humility, and intention.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Are You Biased Toward Job Candidates Who Reply Quickly?",
+      "link": "/2026/07/are-you-biased-toward-job-candidates-who-reply-quickly",
+      "date": "15 Jul 2026",
+      "excerpt": "Research found that a candidate&#8217;s response time can shape hiring decisions as strongly as traditional qualifications.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The Best Teams Know When to Work Alone",
       "link": "/2026/07/the-best-teams-know-when-to-work-alone",
       "date": "14 Jul 2026",
@@ -125,24 +143,6 @@
       "link": "/2026/07/great-leaders-know-which-emotions-their-feedback-will-trigger",
       "date": "13 Jul 2026",
       "excerpt": "Different employees may respond differently to the same kind of feedback. These six techniques can ensure your message lands the right way.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Balancing Today’s Demands with Tomorrow’s Goals",
-      "link": "/2026/07/balancing-todays-demands-with-tomorrows-goals",
-      "date": "10 Jul 2026",
-      "excerpt": "Former Best Buy CEO Hubert Joly on how to plan for the long term during volatile times.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What 60 Years of Data Reveals About How Men and Women Experience Leadership",
-      "link": "/2026/07/what-60-years-of-data-reveals-about-how-men-and-women-experience-leadership",
-      "date": "10 Jul 2026",
-      "excerpt": "Attitudes about women in leadership have improved since 1965. But there are still major differences in how men and women perceive evaluation, standards, and opportunity today.",
       "image": ""
     },
     {
