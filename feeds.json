@@ -1,5 +1,5 @@
 {
-  "updated": "16 Jul 2026, 20:55 UTC",
+  "updated": "16 Jul 2026, 22:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,15 +148,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Not all renewables cut emissions equally everywhere",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/16/not-all-renewables-cut-emissions-equally-everywhere/",
-      "date": "16 Jul 2026",
-      "excerpt": "Renewables do not cut carbon emissions equally across countries or technologies. Analysing six energy sources in 27 OECD countries, Gaetano Perone finds that geothermal/biomass and hydropower deliver the strongest long-run reductions, follo",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1024x578.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Football’s billion-dollar integrity problem",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/15/footballs-billion-dollar-integrity-problem/",
       "date": "15 Jul 2026",
@@ -200,13 +191,22 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "World trade remains dangerously dependent on a handful of shipping lanes",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
+      "date": "9 Jul 2026",
+      "excerpt": "The conflict in Iran has been reignited by disagreements about control of a critical shipping lane. But the Strait of Hormuz is not the only chokepoint making global trade vulnerable. Ferdinand Rauch, Stephan Maurer and Luke Milsom show jus",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Screenshot-2026-07-08-152221.png"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "White House teleprompter operator accused of making $100k off Trump speech bets",
-      "link": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
+      "title": "Trump Media to sell early access to key social posts",
+      "link": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
       "date": "16 Jul 2026",
-      "excerpt": "A White House staffer has been accused of using inside knowledge of speeches to make nearly $100,000 on Kalshi.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/499c/live/7e558130-8147-11f1-badc-afcab3cff8b6.jpg"
+      "excerpt": "Trump Media is launching a fast, paid feed of the its social posts for Wall Street traders.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63f7/live/d8fe9a00-815a-11f1-926f-c90d1bcfbc84.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,6 +216,15 @@
       "date": "16 Jul 2026",
       "excerpt": "The Scunthorpe steelworks has been officially nationalised under new government powers passed this week.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dd4/live/ee156d40-80df-11f1-926f-c90d1bcfbc84.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "White House teleprompter operator accused of making $100k off Trump speech bets",
+      "link": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jul 2026",
+      "excerpt": "A White House staffer has been accused of using inside knowledge of speeches to make nearly $100,000 on Kalshi.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4840/live/ba1cb390-8161-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "16 Jul 2026",
       "excerpt": "The chief executive of Wild reveals what happens behind the scenes of social media posts.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e53/live/071acd70-80e1-11f1-bee8-53ce494e1abc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK economy returns to growth in May",
-      "link": "https://www.bbc.co.uk/news/articles/c8xnllq944go?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jul 2026",
-      "excerpt": "The modest growth reverses a slight contraction that had been seen the previous month.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec30/live/249c95d0-8065-11f1-bf5f-a7a6eeea7412.jpg"
     }
   ]
 }
