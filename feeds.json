@@ -1,5 +1,5 @@
 {
-  "updated": "16 Jul 2026, 13:45 UTC",
+  "updated": "16 Jul 2026, 15:37 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Research Roundup: The Death of the Cover Letter, Boring Meetings, Wide Salary Ranges, and More",
+      "link": "/2026/07/research-roundup-the-death-of-the-cover-letter-boring-meetings-wide-salary-ranges-and-more",
+      "date": "16 Jul 2026",
+      "excerpt": "Insights from across academia.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Leadership Summit 2026: AT&T CEO John Stankey on Developing Technology and Talent in the AI Era",
+      "link": "/podcast/2026/07/leadership-summit-2026-att-ceo-john-stankey-on-developing-technology-and-talent-in-the-ai-era",
+      "date": "16 Jul 2026",
+      "excerpt": "A conversation about balancing long-term institutional strengths with a rapidly evolving marketplace.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Stop AI from Eroding Your Brand",
       "link": "/2026/07/stop-ai-from-eroding-your-brand",
       "date": "16 Jul 2026",
@@ -125,24 +143,6 @@
       "link": "/podcast/2026/07/the-new-rules-for-becoming-an-enterprise-leader",
       "date": "14 Jul 2026",
       "excerpt": "A conversation with IMD&#8217;s Michael Watkins on how a key career transition has gotten trickier.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "U.S. and Japanese Companies Struggle with Different Parts of AI Adoption—and Offer Different Lessons for Making It Work",
-      "link": "/2026/07/u-s-and-japanese-companies-struggle-with-different-parts-of-ai-adoption-and-offer-different-lessons-for-making-it-work",
-      "date": "13 Jul 2026",
-      "excerpt": "In the U.S., companies move quickly, but struggle to create real returns; In Japan, deployment has moved slowly, but is often deep and fruitful.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Adoption Is Testing Modular Firms",
-      "link": "/2026/07/ai-adoption-is-testing-modular-firms",
-      "date": "13 Jul 2026",
-      "excerpt": "Modularity has helped firms manage complexity. But to stay competitive, they will need to be able to rapidly reconfigure their existing capabilities.",
       "image": ""
     },
     {
