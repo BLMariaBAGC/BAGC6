@@ -1,5 +1,5 @@
 {
-  "updated": "16 Jul 2026, 17:12 UTC",
+  "updated": "16 Jul 2026, 19:06 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "White House teleprompter operator accused of making $100k off Trump speech bets",
+      "link": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jul 2026",
+      "excerpt": "A White House staffer has been accused of using inside knowledge of speeches to make nearly $100,000 on Kalshi.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/499c/live/7e558130-8147-11f1-badc-afcab3cff8b6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "British Steel taken into public ownership to protect 'vital' UK supply",
       "link": "https://www.bbc.co.uk/news/articles/c5y680w62wno?at_medium=RSS&at_campaign=rss",
       "date": "16 Jul 2026",
@@ -243,15 +252,6 @@
       "date": "16 Jul 2026",
       "excerpt": "The modest growth reverses a slight contraction that had been seen the previous month.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec30/live/249c95d0-8065-11f1-bf5f-a7a6eeea7412.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "TikTok faces Ofcom investigation over child age checks",
-      "link": "https://www.bbc.co.uk/news/articles/ce8l1zk9dk9o?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jul 2026",
-      "excerpt": "It follows a review by the regulator in May that criticised the platform for not being \"safe enough\" for children.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c060/live/299cb270-80e4-11f1-a5c2-db1656c1a0a8.jpg"
     }
   ]
 }
