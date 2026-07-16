@@ -1,5 +1,5 @@
 {
-  "updated": "16 Jul 2026, 06:15 UTC",
+  "updated": "16 Jul 2026, 10:06 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,20 +202,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Government brings British Steel under public ownership",
+      "title": "British Steel taken into public ownership to protect 'vital' UK supply",
       "link": "https://www.bbc.co.uk/news/articles/c5y680w62wno?at_medium=RSS&at_campaign=rss",
       "date": "16 Jul 2026",
       "excerpt": "The Scunthorpe steelworks has been officially nationalised under new government powers passed this week.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a282/live/f9365770-80da-11f1-a5c2-db1656c1a0a8.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dd4/live/ee156d40-80df-11f1-926f-c90d1bcfbc84.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK economy returns to growth in May",
+      "link": "https://www.bbc.co.uk/news/articles/c8xnllq944go?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jul 2026",
+      "excerpt": "The modest growth reverses a slight contraction that had been seen the previous month.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec30/live/249c95d0-8065-11f1-bf5f-a7a6eeea7412.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Celebrity influencers paid up to £1m to advertise deodorant on Instagram",
       "link": "https://www.bbc.co.uk/news/articles/cvgegqrp656o?at_medium=RSS&at_campaign=rss",
-      "date": "15 Jul 2026",
+      "date": "16 Jul 2026",
       "excerpt": "The chief executive of Wild reveals what happens behind the scenes of social media posts.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa6c/live/202769c0-8057-11f1-a10f-077d9cf2208e.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e53/live/071acd70-80e1-11f1-bee8-53ce494e1abc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "TikTok faces Ofcom investigation over child age checks",
+      "link": "https://www.bbc.co.uk/news/articles/ce8l1zk9dk9o?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jul 2026",
+      "excerpt": "It follows a review by the regulator in May that criticised the platform for not being \"safe enough\" for children.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c060/live/299cb270-80e4-11f1-a5c2-db1656c1a0a8.jpg"
     },
     {
       "source": "BBC Business",
@@ -233,25 +251,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cz97wx2zj78o?at_medium=RSS&at_campaign=rss",
       "date": "15 Jul 2026",
       "excerpt": "The billionaire investor's firm has stopped giving donations to the Microsoft co-founder's charity.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40d0/live/4b8920c0-8090-11f1-bee8-53ce494e1abc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Salary information to be shown on job ads under new laws",
-      "link": "https://www.bbc.co.uk/news/articles/ckg7gg2zdexo?at_medium=RSS&at_campaign=rss",
-      "date": "15 Jul 2026",
-      "excerpt": "The government argues the move would help jobseekers and could reduce pay discrimination claims.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a965/live/a2688400-807a-11f1-b339-39b3d6faedee.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Burnham faces crucial choice for chancellor as battle for No 11 continues",
-      "link": "https://www.bbc.co.uk/news/articles/ceqe55d0q9po?at_medium=RSS&at_campaign=rss",
-      "date": "15 Jul 2026",
-      "excerpt": "Whoever Burnham appoints to the key role will send a signal of his intent, writes Iain Watson.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/885c/live/2a9c0730-807a-11f1-b976-0b9c15b0ccfc.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ae7/live/7accce10-80e3-11f1-a5c2-db1656c1a0a8.jpg"
     }
   ]
 }
