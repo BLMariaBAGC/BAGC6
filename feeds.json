@@ -1,5 +1,5 @@
 {
-  "updated": "16 Jul 2026, 10:06 UTC",
+  "updated": "16 Jul 2026, 13:45 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Stop AI from Eroding Your Brand",
+      "link": "/2026/07/stop-ai-from-eroding-your-brand",
+      "date": "16 Jul 2026",
+      "excerpt": "Research points to five ways companies can reduce the &#8220;brand debt&#8221; that AI can incur.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "4 Hidden Traps of Team Dynamics",
       "link": "/2026/07/4-hidden-traps-of-team-dynamics",
       "date": "15 Jul 2026",
@@ -134,15 +143,6 @@
       "link": "/2026/07/ai-adoption-is-testing-modular-firms",
       "date": "13 Jul 2026",
       "excerpt": "Modularity has helped firms manage complexity. But to stay competitive, they will need to be able to rapidly reconfigure their existing capabilities.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Great Leaders Know Which Emotions Their Feedback Will Trigger",
-      "link": "/2026/07/great-leaders-know-which-emotions-their-feedback-will-trigger",
-      "date": "13 Jul 2026",
-      "excerpt": "Different employees may respond differently to the same kind of feedback. These six techniques can ensure your message lands the right way.",
       "image": ""
     },
     {
@@ -211,11 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK economy returns to growth in May",
-      "link": "https://www.bbc.co.uk/news/articles/c8xnllq944go?at_medium=RSS&at_campaign=rss",
+      "title": "Investigation into parking tickets for drivers queuing at petrol stations",
+      "link": "https://www.bbc.co.uk/news/articles/cnvnyr75r48o?at_medium=RSS&at_campaign=rss",
       "date": "16 Jul 2026",
-      "excerpt": "The modest growth reverses a slight contraction that had been seen the previous month.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec30/live/249c95d0-8065-11f1-bf5f-a7a6eeea7412.jpg"
+      "excerpt": "It's part of a wider crackdown from the consumer regulator into potentially unfair practices by private parking operators.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebba/live/9f20ee20-80fe-11f1-b983-cbe246fcd5da.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Who is the frontrunner to be the UK's next chancellor?",
+      "link": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jul 2026",
+      "excerpt": "Andy Burnham will be moving into Downing Street next week, and a question remains over who will be his neighbour in Number 11.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78fd/live/b69ee8d0-80f0-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,29 +238,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "UK economy returns to growth in May",
+      "link": "https://www.bbc.co.uk/news/articles/c8xnllq944go?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jul 2026",
+      "excerpt": "The modest growth reverses a slight contraction that had been seen the previous month.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec30/live/249c95d0-8065-11f1-bf5f-a7a6eeea7412.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "TikTok faces Ofcom investigation over child age checks",
       "link": "https://www.bbc.co.uk/news/articles/ce8l1zk9dk9o?at_medium=RSS&at_campaign=rss",
       "date": "16 Jul 2026",
       "excerpt": "It follows a review by the regulator in May that criticised the platform for not being \"safe enough\" for children.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c060/live/299cb270-80e4-11f1-a5c2-db1656c1a0a8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "SpaceX share price drops below stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/clyl33q0yl0o?at_medium=RSS&at_campaign=rss",
-      "date": "15 Jul 2026",
-      "excerpt": "Share trading in Elon Musk’s rocket company has been volatile since it went public a month ago.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18a1/live/2b8ede90-806d-11f1-bf5f-a7a6eeea7412.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Buffett calls Bill Gates relationship with Epstein 'distasteful'",
-      "link": "https://www.bbc.co.uk/news/articles/cz97wx2zj78o?at_medium=RSS&at_campaign=rss",
-      "date": "15 Jul 2026",
-      "excerpt": "The billionaire investor's firm has stopped giving donations to the Microsoft co-founder's charity.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ae7/live/7accce10-80e3-11f1-a5c2-db1656c1a0a8.jpg"
     }
   ]
 }
