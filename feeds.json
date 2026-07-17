@@ -1,5 +1,5 @@
 {
-  "updated": "17 Jul 2026, 02:28 UTC",
+  "updated": "17 Jul 2026, 06:12 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Burnham's 'Manchesterism' got him to No 10 - but will it work for the UK?",
+      "link": "https://www.bbc.co.uk/news/articles/clyl3z2xld8o?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jul 2026",
+      "excerpt": "Economics editor Faisal Islam examines whether the north-west city can be a template for the entire country.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06f7/live/70ecfc50-811d-11f1-bee8-53ce494e1abc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "China hits out at British Steel nationalisation",
+      "link": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jul 2026",
+      "excerpt": "The UK government said taking the firm into public hands would safeguard \"a vital national capability\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72e5/live/17d2eee0-8181-11f1-a117-633a3b1f8a33.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The financial winners and losers from the World Cup",
       "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
       "date": "16 Jul 2026",
@@ -234,24 +252,6 @@
       "date": "16 Jul 2026",
       "excerpt": "The Scunthorpe steelworks has been officially nationalised under new government powers passed this week.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dd4/live/ee156d40-80df-11f1-926f-c90d1bcfbc84.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "White House teleprompter operator accused of making $100k off Trump speech bets",
-      "link": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jul 2026",
-      "excerpt": "A White House staffer has been accused of using inside knowledge of speeches to make nearly $100,000 on Kalshi.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4840/live/ba1cb390-8161-11f1-bee8-53ce494e1abc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Investigation into parking tickets for drivers queuing at petrol stations",
-      "link": "https://www.bbc.co.uk/news/articles/cnvnyr75r48o?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jul 2026",
-      "excerpt": "It's part of a wider crackdown from the consumer regulator into potentially unfair practices by private parking operators.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebba/live/9f20ee20-80fe-11f1-b983-cbe246fcd5da.jpg"
     }
   ]
 }
