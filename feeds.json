@@ -1,5 +1,5 @@
 {
-  "updated": "17 Jul 2026, 11:19 UTC",
+  "updated": "17 Jul 2026, 13:23 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How Highly Effective Global Teams Collaborate Across Cultures",
+      "link": "/2026/07/how-highly-effective-global-teams-collaborate-across-cultures",
+      "date": "17 Jul 2026",
+      "excerpt": "Seven elements determine how well teams work across time zones, languages, and cultural norms.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Research Roundup: The Death of the Cover Letter, Boring Meetings, Wide Salary Ranges, and More",
       "link": "/2026/07/research-roundup-the-death-of-the-cover-letter-boring-meetings-wide-salary-ranges-and-more",
       "date": "16 Jul 2026",
@@ -134,15 +143,6 @@
       "link": "/2026/07/ai-can-measure-how-esg-really-impacts-the-bottom-line",
       "date": "14 Jul 2026",
       "excerpt": "Large language models are making rigorous sustainability analysis dramatically faster and cheaper.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The New Rules for Becoming an Enterprise Leader",
-      "link": "/podcast/2026/07/the-new-rules-for-becoming-an-enterprise-leader",
-      "date": "14 Jul 2026",
-      "excerpt": "A conversation with IMD&#8217;s Michael Watkins on how a key career transition has gotten trickier.",
       "image": ""
     },
     {
@@ -224,7 +224,7 @@
       "link": "https://www.bbc.co.uk/news/articles/c5y66y40kgpo?at_medium=RSS&at_campaign=rss",
       "date": "17 Jul 2026",
       "excerpt": "The UK's only remaining plant making virgin steel has been taken into public ownership after years of uncertainty over its future.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/168d/live/505c0b90-16fa-11f0-a79b-a5d514d498b0.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd74/live/2edfb1c0-81e2-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "source": "BBC Business",
