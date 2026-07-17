@@ -1,6 +1,15 @@
 {
-  "updated": "17 Jul 2026, 06:12 UTC",
+  "updated": "17 Jul 2026, 09:54 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This sugar-coated therapy boosted survival against deadly brain cancer by 50% in mice",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260715083542.htm",
+      "date": "16 Jul 2026",
+      "excerpt": "A new experimental treatment may have found a way to outsmart glioblastoma’s toughest defense: the blood-brain barrier. Researchers used sugar-coated nanoparticles to ferry genetic instructions that restore a key tumor-suppressing protein d",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260711010125.htm",
       "date": "11 Jul 2026",
       "excerpt": "Researchers found that every pregnancy rewires the brain in its own way, with a second pregnancy bringing a different pattern of changes than the first. The discoveries could lead to better ways to recognize and treat maternal mental health",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Alzheimer's tau protein has a surprising secret role in memory",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260710003535.htm",
-      "date": "12 Jul 2026",
-      "excerpt": "Researchers found that tau is essential for turning new experiences into lasting memories by helping organize the brain's memory-storing cells. The mouse study also revealed how abnormal tau may contribute to Alzheimer's by disrupting both ",
       "image": ""
     },
     {
@@ -222,9 +222,9 @@
       "feedId": "bbc",
       "title": "The financial winners and losers from the World Cup",
       "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jul 2026",
-      "excerpt": "Big bucks are being made from the 2026 tournament off the field, but who is raking in the most?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99ff/live/e74f4460-8065-11f1-bf5f-a7a6eeea7412.jpg"
+      "date": "17 Jul 2026",
+      "excerpt": "Big bucks are being made from the 2026 tournament off the field, but who is raking in the most, and who is losing out?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4880/live/9307f700-81c1-11f1-926f-c90d1bcfbc84.jpg"
     },
     {
       "source": "BBC Business",
@@ -238,7 +238,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump Media to sell early access to key social posts",
+      "title": "Trump Media to sell instant access to 'market-moving' social posts",
       "link": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
       "date": "17 Jul 2026",
       "excerpt": "Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders.",
@@ -247,11 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "British Steel taken into public ownership to protect 'vital' UK supply",
-      "link": "https://www.bbc.co.uk/news/articles/c5y680w62wno?at_medium=RSS&at_campaign=rss",
+      "title": "White House teleprompter operator accused of making $100k from Trump speech bets",
+      "link": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
       "date": "16 Jul 2026",
-      "excerpt": "The Scunthorpe steelworks has been officially nationalised under new government powers passed this week.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dd4/live/ee156d40-80df-11f1-926f-c90d1bcfbc84.jpg"
+      "excerpt": "A White House staffer has been accused of using inside knowledge of speeches to make nearly $100,000 on Kalshi.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4840/live/ba1cb390-8161-11f1-bee8-53ce494e1abc.jpg"
     }
   ]
 }
