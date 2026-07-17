@@ -1,5 +1,5 @@
 {
-  "updated": "17 Jul 2026, 13:23 UTC",
+  "updated": "17 Jul 2026, 15:10 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Why Extreme Heat Is a Business Issue",
+      "link": "/2026/07/why-extreme-heat-is-a-business-issue",
+      "date": "17 Jul 2026",
+      "excerpt": "As record heat grips the U.S. and beyond, leaders need to assess their workforce&#8217;s vulnerability.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How Highly Effective Global Teams Collaborate Across Cultures",
       "link": "/2026/07/how-highly-effective-global-teams-collaborate-across-cultures",
       "date": "17 Jul 2026",
@@ -134,15 +143,6 @@
       "link": "/2026/07/the-best-teams-know-when-to-work-alone",
       "date": "14 Jul 2026",
       "excerpt": "In this week&#8217;s The Insider newsletter, managing editor Gretchen Gavett writes about designing work around how teams actually perform best.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Can Measure How ESG Really Impacts the Bottom Line",
-      "link": "/2026/07/ai-can-measure-how-esg-really-impacts-the-bottom-line",
-      "date": "14 Jul 2026",
-      "excerpt": "Large language models are making rigorous sustainability analysis dramatically faster and cheaper.",
       "image": ""
     },
     {
@@ -211,11 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Five headaches Andy Burnham will have to deal with as PM",
+      "link": "https://www.bbc.co.uk/news/articles/c62122pgjqdo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jul 2026",
+      "excerpt": "From defence spending to housing - the next UK leader has a series of challenges to deal with.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70f2/live/c74af560-8119-11f1-926f-c90d1bcfbc84.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "China hits out at British Steel nationalisation",
       "link": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
       "date": "17 Jul 2026",
       "excerpt": "The UK government said taking the firm into public hands would safeguard \"a vital national capability\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72e5/live/17d2eee0-8181-11f1-a117-633a3b1f8a33.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1b8/live/e08168e0-81e4-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "16 Jul 2026",
       "excerpt": "Sarah and her husband have shared one account for 25 years, but she says managing it falls to her.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/254d/live/67655330-7934-11f1-8d20-776ad947bebb.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Who is the frontrunner to be the UK's next chancellor?",
-      "link": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jul 2026",
-      "excerpt": "Andy Burnham will be moving into Downing Street next week, and a question remains over who will be his neighbour in Number 11.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e6e/live/26e9efa0-81c2-11f1-bee8-53ce494e1abc.jpg"
     }
   ]
 }
