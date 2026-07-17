@@ -1,5 +1,5 @@
 {
-  "updated": "17 Jul 2026, 17:08 UTC",
+  "updated": "17 Jul 2026, 19:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "An ambitious call to build sustainable AI",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/17/an-ambitious-call-to-build-sustainable-ai/",
+      "date": "17 Jul 2026",
+      "excerpt": "The perception of AI as “virtual” obscures its enormous industrial footprint and energy consumption. The next frontier of AI competitiveness will depend not only on scaling compute but on reducing energy per computation. In an extract from ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Not all renewables cut emissions equally everywhere",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/16/not-all-renewables-cut-emissions-equally-everywhere/",
       "date": "16 Jul 2026",
@@ -191,15 +200,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Finland’s co-operative banks offer a unique perspective on resilient finance",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/finlands-co-operative-banks-offer-a-unique-perspective-on-resilient-finance/",
-      "date": "9 Jul 2026",
-      "excerpt": "As climate, demographic and geopolitical disruptions intensify, financial systems are confronting pressures that traditional models increasingly struggle to capture. Ephraim Daka shows how Finland’s co‑operative banks offer a compelling len",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Burnham's 'Manchesterism' got him to No 10 - but will it work for the UK?",
@@ -216,6 +216,15 @@
       "date": "17 Jul 2026",
       "excerpt": "From defence spending to housing - the next UK leader has a series of challenges to deal with.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70f2/live/c74af560-8119-11f1-926f-c90d1bcfbc84.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Brewdog founder faces data complaints over efforts to buy back firm",
+      "link": "https://www.bbc.co.uk/news/articles/c4gw9pp0xlno?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jul 2026",
+      "excerpt": "The UK data watchdog has received complaints after James Watt reportedly contacted former shareholders.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fd4/live/fad99060-81fc-11f1-a927-670d17f8e943.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "17 Jul 2026",
       "excerpt": "Big bucks are being made from the 2026 tournament off the field, but who is raking in the most, and who is losing out?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4880/live/9307f700-81c1-11f1-926f-c90d1bcfbc84.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I wouldn't marry him until he paid off his debt, now I'm in charge of our money",
-      "link": "https://www.bbc.co.uk/news/articles/c5yz4wnz6jdo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jul 2026",
-      "excerpt": "Sarah and her husband have shared one account for 25 years, but she says managing it falls to her.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/254d/live/67655330-7934-11f1-8d20-776ad947bebb.jpg"
     }
   ]
 }
