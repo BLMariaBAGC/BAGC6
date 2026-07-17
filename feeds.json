@@ -1,5 +1,5 @@
 {
-  "updated": "17 Jul 2026, 15:10 UTC",
+  "updated": "17 Jul 2026, 17:08 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
+      "link": "https://www.bbc.co.uk/news/articles/cy9w4q8pgp0o?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jul 2026",
+      "excerpt": "The company has unveiled a massive new artificial intelligence model it says can take on top American firms.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c87/live/deb1fae0-81f6-11f1-8f4c-d74af0a2675b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "China hits out at British Steel nationalisation",
       "link": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
       "date": "17 Jul 2026",
       "excerpt": "The UK government said taking the firm into public hands would safeguard \"a vital national capability\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1b8/live/e08168e0-81e4-11f1-bee8-53ce494e1abc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why has British Steel been nationalised?",
-      "link": "https://www.bbc.co.uk/news/articles/c5y66y40kgpo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jul 2026",
-      "excerpt": "The UK's only remaining plant making virgin steel has been taken into public ownership after years of uncertainty over its future.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd74/live/2edfb1c0-81e2-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "source": "BBC Business",
