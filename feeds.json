@@ -1,5 +1,5 @@
 {
-  "updated": "17 Jul 2026, 09:54 UTC",
+  "updated": "17 Jul 2026, 11:19 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,6 +220,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Why has British Steel been nationalised?",
+      "link": "https://www.bbc.co.uk/news/articles/c5y66y40kgpo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Jul 2026",
+      "excerpt": "The UK's only remaining plant making virgin steel has been taken into public ownership after years of uncertainty over its future.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/168d/live/505c0b90-16fa-11f0-a79b-a5d514d498b0.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The financial winners and losers from the World Cup",
       "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
       "date": "17 Jul 2026",
@@ -238,20 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump Media to sell instant access to 'market-moving' social posts",
-      "link": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
+      "title": "Who is the frontrunner to be the UK's next chancellor?",
+      "link": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
       "date": "17 Jul 2026",
-      "excerpt": "Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a36/live/a22ce670-817e-11f1-a087-3f9df20b4f8a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "White House teleprompter operator accused of making $100k from Trump speech bets",
-      "link": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jul 2026",
-      "excerpt": "A White House staffer has been accused of using inside knowledge of speeches to make nearly $100,000 on Kalshi.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4840/live/ba1cb390-8161-11f1-bee8-53ce494e1abc.jpg"
+      "excerpt": "Andy Burnham will be moving into Downing Street next week, and a question remains over who will be his neighbour in Number 11.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e6e/live/26e9efa0-81c2-11f1-bee8-53ce494e1abc.jpg"
     }
   ]
 }
