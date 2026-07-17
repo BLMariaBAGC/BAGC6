@@ -1,5 +1,5 @@
 {
-  "updated": "16 Jul 2026, 22:55 UTC",
+  "updated": "17 Jul 2026, 02:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Not all renewables cut emissions equally everywhere",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/16/not-all-renewables-cut-emissions-equally-everywhere/",
+      "date": "16 Jul 2026",
+      "excerpt": "Renewables do not cut carbon emissions equally across countries or technologies. Analysing six energy sources in 27 OECD countries, Gaetano Perone finds that geothermal/biomass and hydropower deliver the strongest long-run reductions, follo",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1024x578.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Football’s billion-dollar integrity problem",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/15/footballs-billion-dollar-integrity-problem/",
       "date": "15 Jul 2026",
@@ -191,22 +200,31 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "World trade remains dangerously dependent on a handful of shipping lanes",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/09/world-trade-remains-dangerously-dependent-on-a-handful-of-shipping-lanes/",
-      "date": "9 Jul 2026",
-      "excerpt": "The conflict in Iran has been reignited by disagreements about control of a critical shipping lane. But the Strait of Hormuz is not the only chokepoint making global trade vulnerable. Ferdinand Rauch, Stephan Maurer and Luke Milsom show jus",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Screenshot-2026-07-08-152221.png"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "The financial winners and losers from the World Cup",
+      "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jul 2026",
+      "excerpt": "Big bucks are being made from the 2026 tournament off the field, but who is raking in the most?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99ff/live/e74f4460-8065-11f1-bf5f-a7a6eeea7412.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I wouldn't marry him until he paid off his debt, now I'm in charge of our money",
+      "link": "https://www.bbc.co.uk/news/articles/c5yz4wnz6jdo?at_medium=RSS&at_campaign=rss",
+      "date": "16 Jul 2026",
+      "excerpt": "Sarah and her husband have shared one account for 25 years, but she says managing it falls to her.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/254d/live/67655330-7934-11f1-8d20-776ad947bebb.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Trump Media to sell early access to key social posts",
       "link": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jul 2026",
-      "excerpt": "Trump Media is launching a fast, paid feed of the its social posts for Wall Street traders.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63f7/live/d8fe9a00-815a-11f1-926f-c90d1bcfbc84.jpg"
+      "date": "17 Jul 2026",
+      "excerpt": "Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a36/live/a22ce670-817e-11f1-a087-3f9df20b4f8a.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,24 +252,6 @@
       "date": "16 Jul 2026",
       "excerpt": "It's part of a wider crackdown from the consumer regulator into potentially unfair practices by private parking operators.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebba/live/9f20ee20-80fe-11f1-b983-cbe246fcd5da.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Who is the frontrunner to be the UK's next chancellor?",
-      "link": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jul 2026",
-      "excerpt": "Andy Burnham will be moving into Downing Street next week, and a question remains over who will be his neighbour in Number 11.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78fd/live/b69ee8d0-80f0-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Celebrity influencers paid up to £1m to advertise deodorant on Instagram",
-      "link": "https://www.bbc.co.uk/news/articles/cvgegqrp656o?at_medium=RSS&at_campaign=rss",
-      "date": "16 Jul 2026",
-      "excerpt": "The chief executive of Wild reveals what happens behind the scenes of social media posts.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e53/live/071acd70-80e1-11f1-bee8-53ce494e1abc.jpg"
     }
   ]
 }
