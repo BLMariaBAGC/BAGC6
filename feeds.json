@@ -1,6 +1,33 @@
 {
-  "updated": "18 Jul 2026, 13:09 UTC",
+  "updated": "18 Jul 2026, 14:49 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your fingers may hold a secret of human brain evolution",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260717033350.htm",
+      "date": "17 Jul 2026",
+      "excerpt": "A study of 225 newborns suggests prenatal estrogen may have played a role in the evolution of larger human brains. Boys with finger-length patterns linked to higher estrogen exposure before birth tended to have larger head circumferences, w",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Popular sugar substitutes linked to faster brain aging",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260717033213.htm",
+      "date": "18 Jul 2026",
+      "excerpt": "Several popular sugar substitutes may not be as harmless as they seem. Adults who consumed the most artificial sweeteners showed substantially faster declines in memory and thinking, especially if they were under 60 or had diabetes. The hig",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Mediterranean diet may activate tiny proteins that protect the heart and brain",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260716023605.htm",
+      "date": "17 Jul 2026",
+      "excerpt": "The Mediterranean diet may influence aging through tiny proteins produced inside the cell’s mitochondria. Older adults who followed the diet most closely had higher levels of humanin and SHMOOSE, which have been linked to heart and brain pr",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -44,33 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
       "date": "12 Jul 2026",
       "excerpt": "Practice may do more than make perfect. Researchers found that extensive training physically reorganizes the brain, allowing learned tasks to bypass the prefrontal cortex and run through specialized circuits instead. By freeing the brain's ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discovered the brain doesn't make decisions the way we thought",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260712011757.htm",
-      "date": "13 Jul 2026",
-      "excerpt": "A new study suggests the brain begins making decisions much earlier than scientists previously thought. Researchers found that even primary sensory regions are influenced by higher brain areas through rapid feedback loops, rather than simpl",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Common constipation drug may help clear depression brain fog",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260712011751.htm",
-      "date": "15 Jul 2026",
-      "excerpt": "An existing constipation drug may have an unexpected new use: helping clear the \"brain fog\" that often lingers after depression. In a small clinical trial, people with a history of depression who took the medication prucalopride for about a",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Second pregnancy changes the brain in surprising new ways",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260711010125.htm",
-      "date": "11 Jul 2026",
-      "excerpt": "Researchers found that every pregnancy rewires the brain in its own way, with a second pregnancy bringing a different pattern of changes than the first. The discoveries could lead to better ways to recognize and treat maternal mental health",
       "image": ""
     },
     {
