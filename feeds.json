@@ -1,5 +1,5 @@
 {
-  "updated": "18 Jul 2026, 09:22 UTC",
+  "updated": "18 Jul 2026, 11:01 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "'My buyers dropped their offer by £15,000 the day before exchange': Gazundering and how to avoid it",
+      "link": "https://www.bbc.co.uk/news/articles/c3d39r338m0o?at_medium=RSS&at_campaign=rss",
+      "date": "18 Jul 2026",
+      "excerpt": "It's a small but growing problem in the property market - here's how to protect yourself.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/847b/live/e25f5800-81e1-11f1-8b86-31ce3d5ecce7.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Burnham's 'Manchesterism' got him to No 10 - but will it work for the UK?",
       "link": "https://www.bbc.co.uk/news/articles/clyl3z2xld8o?at_medium=RSS&at_campaign=rss",
       "date": "17 Jul 2026",
@@ -243,15 +252,6 @@
       "date": "17 Jul 2026",
       "excerpt": "The UK government said taking the firm into public hands would safeguard \"a vital national capability\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1b8/live/e08168e0-81e4-11f1-bee8-53ce494e1abc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The financial winners and losers from the World Cup",
-      "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jul 2026",
-      "excerpt": "Big bucks are being made from the 2026 tournament off the field, but who is raking in the most, and who is losing out?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4880/live/9307f700-81c1-11f1-926f-c90d1bcfbc84.jpg"
     }
   ]
 }
