@@ -1,5 +1,5 @@
 {
-  "updated": "19 Jul 2026, 02:31 UTC",
+  "updated": "19 Jul 2026, 06:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -143,60 +143,6 @@
       "link": "/2026/07/the-best-teams-know-when-to-work-alone",
       "date": "14 Jul 2026",
       "excerpt": "In this week&#8217;s The Insider newsletter, managing editor Gretchen Gavett writes about designing work around how teams actually perform best.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "An ambitious call to build sustainable AI",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/17/an-ambitious-call-to-build-sustainable-ai/",
-      "date": "17 Jul 2026",
-      "excerpt": "The perception of AI as “virtual” obscures its enormous industrial footprint and energy consumption. The next frontier of AI competitiveness will depend not only on scaling compute but on reducing energy per computation. In an extract from ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Not all renewables cut emissions equally everywhere",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/16/not-all-renewables-cut-emissions-equally-everywhere/",
-      "date": "16 Jul 2026",
-      "excerpt": "Renewables do not cut carbon emissions equally across countries or technologies. Analysing six energy sources in 27 OECD countries, Gaetano Perone finds that geothermal/biomass and hydropower deliver the strongest long-run reductions, follo",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1024x578.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Football’s billion-dollar integrity problem",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/15/footballs-billion-dollar-integrity-problem/",
-      "date": "15 Jul 2026",
-      "excerpt": "High profile international sports competitions such as the World Cup depend on fair play. But the pressure, and money, behind such events can unintentionally distort efforts to truly level the playing field – even for referees using the tec",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Doctors must drive the alignment of medical AI solutions",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
-      "date": "14 Jul 2026",
-      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What the art market reveals about the risks in on-chain finance",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
-      "date": "13 Jul 2026",
-      "excerpt": "Blockchain-based currencies can now buy almost anything, from digital art to a house. But those currencies are themselves volatile, and that volatility passes through to whatever trades on top of them. Ziwen Chen draws on the digital art ma",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Digital banking creates a new kind of financial exclusion",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
-      "date": "10 Jul 2026",
-      "excerpt": "Rolling out digital banking without addressing algorithmic bias risks excluding the very populations it promises to uplift. Meghna Chotaliya uncovers a financial system that is technologically advanced and socially regressive at the same ti",
       "image": ""
     },
     {
