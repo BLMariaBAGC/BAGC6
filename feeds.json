@@ -1,5 +1,5 @@
 {
-  "updated": "19 Jul 2026, 16:56 UTC",
+  "updated": "19 Jul 2026, 19:02 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Chinese firm seeks compensation over British Steel nationalisation",
-      "link": "https://www.bbc.co.uk/news/articles/cwyj4ppqn41o?at_medium=RSS&at_campaign=rss",
+      "title": "Thames Water lenders preparing legal challenge in event of Burnham nationalisation",
+      "link": "https://www.bbc.co.uk/news/articles/cx278ed09nzo?at_medium=RSS&at_campaign=rss",
       "date": "19 Jul 2026",
-      "excerpt": "Jingye said it will take action \"through legal means to the very end\" after the UK government nationalised British Steel.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa42/live/7ad3f5d0-835b-11f1-926f-c90d1bcfbc84.jpg"
+      "excerpt": "The BBC understands creditors would would pursue payment in full of the outstanding debts, in the multi-billions of pounds.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c902/live/4610abb0-8386-11f1-8537-c5e158f8690c.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,6 +216,15 @@
       "date": "19 Jul 2026",
       "excerpt": "Ryanair has also warned passengers travelling to Europe this summer to prepare for extended waits.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9693/live/d4402e80-81d1-11f1-926f-c90d1bcfbc84.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Chinese firm seeks compensation over British Steel nationalisation",
+      "link": "https://www.bbc.co.uk/news/articles/cwyj4ppqn41o?at_medium=RSS&at_campaign=rss",
+      "date": "19 Jul 2026",
+      "excerpt": "Jingye said it will take action \"through legal means to the very end\" after the UK government nationalised British Steel.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa42/live/7ad3f5d0-835b-11f1-926f-c90d1bcfbc84.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "19 Jul 2026",
       "excerpt": "More than three million people in the UK work night shifts, which can greatly impact their health. What can be done to help them?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b5c/live/1c3f9550-8064-11f1-926f-c90d1bcfbc84.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Brewdog founder faces data complaints over efforts to buy back firm",
-      "link": "https://www.bbc.co.uk/news/articles/c4gw9pp0xlno?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jul 2026",
-      "excerpt": "The UK data watchdog has received complaints after James Watt reportedly contacted former shareholders.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fd4/live/fad99060-81fc-11f1-a927-670d17f8e943.jpg"
     }
   ]
 }
