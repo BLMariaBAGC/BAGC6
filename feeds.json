@@ -1,6 +1,15 @@
 {
-  "updated": "18 Jul 2026, 22:46 UTC",
+  "updated": "19 Jul 2026, 02:31 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Common antidepressant may ease long COVID’s crushing fatigue",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
+      "date": "18 Jul 2026",
+      "excerpt": "A low-cost antidepressant may offer new hope for people struggling with long COVID fatigue. In a randomized clinical trial involving 399 adults, fluvoxamine significantly reduced fatigue and improved quality of life compared with a placebo,",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260713000753.htm",
       "date": "13 Jul 2026",
       "excerpt": "Researchers analyzing data from more than 214,000 people found that dementia risk factors differ widely across countries, challenging the idea of a one-size-fits-all prevention strategy. At the same time, they uncovered surprisingly consist",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover how the brain rewires itself to truly multitask",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
-      "date": "12 Jul 2026",
-      "excerpt": "Practice may do more than make perfect. Researchers found that extensive training physically reorganizes the brain, allowing learned tasks to bypass the prefrontal cortex and run through specialized circuits instead. By freeing the brain's ",
       "image": ""
     },
     {
