@@ -1,5 +1,5 @@
 {
-  "updated": "19 Jul 2026, 06:28 UTC",
+  "updated": "19 Jul 2026, 09:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -146,6 +146,69 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "An ambitious call to build sustainable AI",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/17/an-ambitious-call-to-build-sustainable-ai/",
+      "date": "17 Jul 2026",
+      "excerpt": "The perception of AI as “virtual” obscures its enormous industrial footprint and energy consumption. The next frontier of AI competitiveness will depend not only on scaling compute but on reducing energy per computation. In an extract from ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Not all renewables cut emissions equally everywhere",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/16/not-all-renewables-cut-emissions-equally-everywhere/",
+      "date": "16 Jul 2026",
+      "excerpt": "Renewables do not cut carbon emissions equally across countries or technologies. Analysing six energy sources in 27 OECD countries, Gaetano Perone finds that geothermal/biomass and hydropower deliver the strongest long-run reductions, follo",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1024x578.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Football’s billion-dollar integrity problem",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/15/footballs-billion-dollar-integrity-problem/",
+      "date": "15 Jul 2026",
+      "excerpt": "High profile international sports competitions such as the World Cup depend on fair play. But the pressure, and money, behind such events can unintentionally distort efforts to truly level the playing field – even for referees using the tec",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Doctors must drive the alignment of medical AI solutions",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
+      "date": "14 Jul 2026",
+      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What the art market reveals about the risks in on-chain finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
+      "date": "13 Jul 2026",
+      "excerpt": "Blockchain-based currencies can now buy almost anything, from digital art to a house. But those currencies are themselves volatile, and that volatility passes through to whatever trades on top of them. Ziwen Chen draws on the digital art ma",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Digital banking creates a new kind of financial exclusion",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
+      "date": "10 Jul 2026",
+      "excerpt": "Rolling out digital banking without addressing algorithmic bias risks excluding the very populations it promises to uplift. Meghna Chotaliya uncovers a financial system that is technologically advanced and socially regressive at the same ti",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "New EU border system tripling time at passport control, airport boss says",
+      "link": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
+      "date": "19 Jul 2026",
+      "excerpt": "Ryanair has also warned passengers travelling to Europe this summer to prepare for extended waits.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9693/live/d4402e80-81d1-11f1-926f-c90d1bcfbc84.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "'My buyers dropped their offer by £15,000 the day before exchange': Gazundering and how to avoid it",
@@ -157,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Burnham's 'Manchesterism' got him to No 10 - but will it work for the UK?",
-      "link": "https://www.bbc.co.uk/news/articles/clyl3z2xld8o?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jul 2026",
-      "excerpt": "Economics editor Faisal Islam examines whether the north-west city can be a template for the entire country.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06f7/live/70ecfc50-811d-11f1-bee8-53ce494e1abc.jpg"
+      "title": "Is Burnham promising a new dawn for North Sea oil and gas?",
+      "link": "https://www.bbc.co.uk/news/articles/c4g3l22ry6wo?at_medium=RSS&at_campaign=rss",
+      "date": "19 Jul 2026",
+      "excerpt": "The incoming PM is expected to announce fresh support for the North Sea from day one of his premiership.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e322/live/b89a8640-82a7-11f1-84ea-29e7008b1ad8.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Five headaches Andy Burnham will have to deal with as PM",
-      "link": "https://www.bbc.co.uk/news/articles/c62122pgjqdo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jul 2026",
-      "excerpt": "From defence spending to housing - the next UK leader has a series of challenges to deal with.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70f2/live/c74af560-8119-11f1-926f-c90d1bcfbc84.png"
+      "title": "The hidden cost of the night shift and how to sleep it off",
+      "link": "https://www.bbc.co.uk/news/articles/cp9errxl97go?at_medium=RSS&at_campaign=rss",
+      "date": "19 Jul 2026",
+      "excerpt": "More than three million people in the UK work night shifts, which can greatly impact their health. What can be done to help them?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b5c/live/1c3f9550-8064-11f1-926f-c90d1bcfbc84.jpg"
     },
     {
       "source": "BBC Business",
@@ -184,20 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
-      "link": "https://www.bbc.co.uk/news/articles/cy9w4q8pgp0o?at_medium=RSS&at_campaign=rss",
+      "title": "The financial winners and losers from the World Cup",
+      "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
       "date": "17 Jul 2026",
-      "excerpt": "The company has unveiled a massive new artificial intelligence model it says can take on top American firms.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c87/live/deb1fae0-81f6-11f1-8f4c-d74af0a2675b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "China hits out at British Steel nationalisation",
-      "link": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
-      "date": "17 Jul 2026",
-      "excerpt": "The UK government said taking the firm into public hands would safeguard \"a vital national capability\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1b8/live/e08168e0-81e4-11f1-bee8-53ce494e1abc.jpg"
+      "excerpt": "Big bucks are being made from the 2026 tournament off the field, but who is raking in the most, and who is losing out?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4880/live/9307f700-81c1-11f1-926f-c90d1bcfbc84.jpg"
     }
   ]
 }
