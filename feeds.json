@@ -1,5 +1,5 @@
 {
-  "updated": "20 Jul 2026, 17:59 UTC",
+  "updated": "20 Jul 2026, 19:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,24 +137,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "4 Hidden Traps of Team Dynamics",
-      "link": "/2026/07/4-hidden-traps-of-team-dynamics",
-      "date": "15 Jul 2026",
-      "excerpt": "How leaders can develop the skills they need to navigate differences on their teams with awareness, humility, and intention.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Global trade imbalances are back – and increasingly financialised",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/20/global-trade-imbalances-are-back-and-increasingly-financialised/",
-      "date": "20 Jul 2026",
-      "excerpt": "International policymakers are&nbsp;becoming&nbsp;increasingly&nbsp;worried about global imbalances.&nbsp;Lessons from their last&nbsp;significant&nbsp;impact,&nbsp;before&nbsp;the&nbsp;global&nbsp;financial crisis, are useful. But&nbsp;the",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1.jpg"
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "An ambitious call to build sustainable AI",
@@ -200,6 +182,24 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Digital banking creates a new kind of financial exclusion",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
+      "date": "10 Jul 2026",
+      "excerpt": "Rolling out digital banking without addressing algorithmic bias risks excluding the very populations it promises to uplift. Meghna Chotaliya uncovers a financial system that is technologically advanced and socially regressive at the same ti",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "John Healey becomes chancellor weeks after shock resignation from defence job",
+      "link": "https://www.bbc.co.uk/news/articles/ce85y9lm81no?at_medium=RSS&at_campaign=rss",
+      "date": "20 Jul 2026",
+      "excerpt": "The former defence secretary is seen as a safe pair of hands - and is now in charge of the government's finances.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/220b/live/b25137b0-8460-11f1-8cf4-43aed99842b4.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Burnham has big ideas - but what will they cost?",
@@ -234,15 +234,6 @@
       "date": "20 Jul 2026",
       "excerpt": "The Chinese retailer allowed unsafe toys and counterfeit clothes to be sold on its site, says the EU.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00ee/live/51afee90-843a-11f1-9dde-1165f12cfa4b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "West Africa signs off $25bn mega gas-pipeline plan",
-      "link": "https://www.bbc.co.uk/news/articles/cwyr5rpglngo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Jul 2026",
-      "excerpt": "A 6,000km pipeline running along the Atlantic coast of 14 countries is to be built starting in 2028.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31bc/live/88ad9780-843f-11f1-926f-c90d1bcfbc84.jpg"
     },
     {
       "source": "BBC Business",
