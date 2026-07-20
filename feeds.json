@@ -1,5 +1,5 @@
 {
-  "updated": "20 Jul 2026, 06:43 UTC",
+  "updated": "20 Jul 2026, 10:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Ryanair profits drop as Iran war puts off passengers and lifts fuel costs",
+      "link": "https://www.bbc.co.uk/news/articles/cn8nldwj12jo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Jul 2026",
+      "excerpt": "The Irish airline said oil prices had increased costs meanwhile Brent crude surpassed $90.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f13/live/83464970-8414-11f1-b3ec-1d7f0502d196.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Jobs, benefits and taxes: What Andy Burnham means for your finances",
+      "link": "https://www.bbc.co.uk/news/articles/crkvj0ngzexo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Jul 2026",
+      "excerpt": "The person in charge of the country will change but the financial challenges remain the same.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa72/live/0bbd6980-840d-11f1-b7eb-cd20573e7f71.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Are you a parent missing out on £27 a week? Here's how to check",
       "link": "https://www.bbc.co.uk/news/articles/cz9l993wj5ko?at_medium=RSS&at_campaign=rss",
       "date": "19 Jul 2026",
       "excerpt": "Thousands of new parents fail to claim child benefit until it is too late to receive some of the money, HMRC says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98c9/live/dabd5170-8401-11f1-b976-0b9c15b0ccfc.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/880b/live/b0a6ea10-8413-11f1-b3ec-1d7f0502d196.jpg"
     },
     {
       "source": "BBC Business",
@@ -224,25 +242,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cr474z1qyn6o?at_medium=RSS&at_campaign=rss",
       "date": "19 Jul 2026",
       "excerpt": "Ravika is one of hundreds of women who are noticing early pregnancy signs through the data on their fitness trackers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/96bf/live/356d4010-7f8b-11f1-bee8-53ce494e1abc.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "New EU border system tripling time at passport control, airport boss says",
-      "link": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
-      "date": "19 Jul 2026",
-      "excerpt": "Ryanair has also warned passengers travelling to Europe this summer to prepare for extended waits.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9693/live/d4402e80-81d1-11f1-926f-c90d1bcfbc84.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Chinese firm seeks compensation over British Steel nationalisation",
-      "link": "https://www.bbc.co.uk/news/articles/cwyj4ppqn41o?at_medium=RSS&at_campaign=rss",
-      "date": "19 Jul 2026",
-      "excerpt": "Jingye said it will take action \"through legal means to the very end\" after the UK government nationalised British Steel.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa42/live/7ad3f5d0-835b-11f1-926f-c90d1bcfbc84.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/443f/live/4d8e16d0-8425-11f1-8aab-7b42b0ff0499.jpg"
     },
     {
       "source": "BBC Business",
