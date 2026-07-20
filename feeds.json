@@ -1,5 +1,5 @@
 {
-  "updated": "20 Jul 2026, 14:01 UTC",
+  "updated": "20 Jul 2026, 17:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,10 +202,19 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Burnham has big ideas - but what will they cost?",
+      "link": "https://www.bbc.co.uk/news/articles/c9357rlk494o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Jul 2026",
+      "excerpt": "Every tricky decision and trade off is being watched by the country and the markets at the same time",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77c9/live/dd3a3380-845d-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Burnham promises help with your money. How could it affect you?",
       "link": "https://www.bbc.co.uk/news/articles/cp9ezldrkkgo?at_medium=RSS&at_campaign=rss",
       "date": "20 Jul 2026",
-      "excerpt": "New Prime Minister Andy Burnham says he wants life to be more affordable, but how could he do it?",
+      "excerpt": "The new PM says he will look at how much people can earn before paying tax but admitted changing it would be difficult.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea7b/live/acd4de30-8439-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
@@ -220,29 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Jobs, benefits and taxes: What Andy Burnham means for your finances",
-      "link": "https://www.bbc.co.uk/news/articles/crkvj0ngzexo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Jul 2026",
-      "excerpt": "The person in charge of the country will change but the financial challenges remain the same.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa72/live/0bbd6980-840d-11f1-b7eb-cd20573e7f71.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AliExpress fined record €550m by EU for allowing sale of illegal products",
+      "title": "AliExpress fined record €550m by EU for allowing sale of illegal goods",
       "link": "https://www.bbc.co.uk/news/articles/cp8714286dpo?at_medium=RSS&at_campaign=rss",
       "date": "20 Jul 2026",
-      "excerpt": "It is the highest penalty imposed under the Digital Services Act and follows a two-year investigation.",
+      "excerpt": "The Chinese retailer allowed unsafe toys and counterfeit clothes to be sold on its site, says the EU.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00ee/live/51afee90-843a-11f1-9dde-1165f12cfa4b.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Are you a parent missing out on £27 a week? Here's how to check",
-      "link": "https://www.bbc.co.uk/news/articles/cz9l993wj5ko?at_medium=RSS&at_campaign=rss",
-      "date": "19 Jul 2026",
-      "excerpt": "Thousands of new parents fail to claim child benefit until it is too late to receive some of the money, HMRC says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/880b/live/b0a6ea10-8413-11f1-b3ec-1d7f0502d196.jpg"
+      "title": "West Africa signs off $25bn mega gas-pipeline plan",
+      "link": "https://www.bbc.co.uk/news/articles/cwyr5rpglngo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Jul 2026",
+      "excerpt": "A 6,000km pipeline running along the Atlantic coast of 14 countries is to be built starting in 2028.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31bc/live/88ad9780-843f-11f1-926f-c90d1bcfbc84.jpg"
     },
     {
       "source": "BBC Business",
