@@ -1,5 +1,5 @@
 {
-  "updated": "19 Jul 2026, 22:49 UTC",
+  "updated": "20 Jul 2026, 02:46 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Are you a parent missing out on £27 a week? Here's how to check",
+      "link": "https://www.bbc.co.uk/news/articles/cz9l993wj5ko?at_medium=RSS&at_campaign=rss",
+      "date": "19 Jul 2026",
+      "excerpt": "Thousands of new parents fail to claim child benefit until it is too late to receive some of the money, HMRC says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2958/live/13ecab20-805c-11f1-a10f-077d9cf2208e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Thames Water lenders preparing legal challenge in event of Burnham nationalisation",
       "link": "https://www.bbc.co.uk/news/articles/cx278ed09nzo?at_medium=RSS&at_campaign=rss",
       "date": "19 Jul 2026",
       "excerpt": "The BBC understands creditors would would pursue payment in full of the outstanding debts, in the multi-billions of pounds.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c902/live/4610abb0-8386-11f1-8537-c5e158f8690c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "My fitness tracker knew I was pregnant before I did",
+      "link": "https://www.bbc.co.uk/news/articles/cr474z1qyn6o?at_medium=RSS&at_campaign=rss",
+      "date": "19 Jul 2026",
+      "excerpt": "Ravika is one of hundreds of women who are noticing early pregnancy signs through the data on their fitness trackers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/96bf/live/356d4010-7f8b-11f1-bee8-53ce494e1abc.png"
     },
     {
       "source": "BBC Business",
@@ -229,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'My buyers dropped their offer by £15,000 the day before exchange': Gazundering and how to avoid it",
-      "link": "https://www.bbc.co.uk/news/articles/c3d39r338m0o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Jul 2026",
-      "excerpt": "It's a small but growing problem in the property market - here's how to protect yourself.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/847b/live/e25f5800-81e1-11f1-8b86-31ce3d5ecce7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Is Burnham promising a new dawn for North Sea oil and gas?",
-      "link": "https://www.bbc.co.uk/news/articles/c4g3l22ry6wo?at_medium=RSS&at_campaign=rss",
+      "title": "This farmer wanted to quit the cocaine industry - he couldn't",
+      "link": "https://www.bbc.co.uk/news/articles/c0kyml1zxz4o?at_medium=RSS&at_campaign=rss",
       "date": "19 Jul 2026",
-      "excerpt": "The incoming PM is expected to announce fresh support for the North Sea from day one of his premiership.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e322/live/b89a8640-82a7-11f1-84ea-29e7008b1ad8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The hidden cost of the night shift and how to sleep it off",
-      "link": "https://www.bbc.co.uk/news/articles/cp9errxl97go?at_medium=RSS&at_campaign=rss",
-      "date": "19 Jul 2026",
-      "excerpt": "More than three million people in the UK work night shifts, which can greatly impact their health. What can be done to help them?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b5c/live/1c3f9550-8064-11f1-926f-c90d1bcfbc84.jpg"
+      "excerpt": "Colombians who grow cocaine's raw material bemoan a lack of support to help them switch crops.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b142/live/ab70ef20-7f5c-11f1-bee8-53ce494e1abc.jpg"
     }
   ]
 }
