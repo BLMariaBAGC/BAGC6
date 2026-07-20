@@ -1,5 +1,5 @@
 {
-  "updated": "20 Jul 2026, 10:49 UTC",
+  "updated": "20 Jul 2026, 14:01 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -13,10 +13,28 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "Alzheimer’s breakthrough: Scientists restore two hours of sleep without clearing brain plaques",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260719035931.htm",
+      "date": "20 Jul 2026",
+      "excerpt": "Researchers have uncovered a surprising culprit behind sleep loss in Alzheimer’s disease: the brain’s own immune cells. In mice with amyloid plaques, overactive microglia triggered inflammation that kept the brain from getting enough deep, ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "Common antidepressant may ease long COVID’s crushing fatigue",
       "link": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
       "date": "18 Jul 2026",
       "excerpt": "A low-cost antidepressant may offer new hope for people struggling with long COVID fatigue. In a randomized clinical trial involving 399 adults, fluvoxamine significantly reduced fatigue and improved quality of life compared with a placebo,",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a protein that protects the brain from Alzheimer’s damage",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260718010140.htm",
+      "date": "20 Jul 2026",
+      "excerpt": "A protein called SORLA may act as a powerful defense against the toxic tau tangles involved in Alzheimer’s disease. Mice with extra SORLA had less tau accumulation, less brain atrophy, and healthier connections between neurons, while mice w",
       "image": ""
     },
     {
@@ -56,21 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "The hidden skeleton “gatekeeper” inside brain cells could help fight Alzheimer's",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260714225542.htm",
-      "date": "15 Jul 2026",
-      "excerpt": "Researchers have discovered that a microscopic skeleton inside neurons does much more than hold cells together. It acts as a gatekeeper that controls what brain cells absorb and when they absorb it. When this protective structure weakens, n",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Design AI Systems That Actually Strengthen Human Reasoning",
+      "link": "/2026/07/design-ai-systems-that-actually-strengthen-human-reasoning",
+      "date": "20 Jul 2026",
+      "excerpt": "Strategies to support critical thinking, organizational agility, and innovation.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Going to museums, movies, and theater may help your body stay younger",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260714225526.htm",
-      "date": "15 Jul 2026",
-      "excerpt": "Going to the cinema, visiting museums, or attending concerts may do more than entertain. Researchers found that older adults who regularly participated in cultural activities tended to have bodies that functioned like those of people about ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Frontline Workers Know How to Solve Your Organization’s Biggest Problems",
+      "link": "/2026/07/frontline-workers-know-how-to-solve-your-organizations-biggest-problems",
+      "date": "20 Jul 2026",
+      "excerpt": "A six-step process to translate employee ideas into action.",
       "image": ""
     },
     {
@@ -128,22 +146,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Are You Biased Toward Job Candidates Who Reply Quickly?",
-      "link": "/2026/07/are-you-biased-toward-job-candidates-who-reply-quickly",
-      "date": "15 Jul 2026",
-      "excerpt": "Research found that a candidate&#8217;s response time can shape hiring decisions as strongly as traditional qualifications.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Best Teams Know When to Work Alone",
-      "link": "/2026/07/the-best-teams-know-when-to-work-alone",
-      "date": "14 Jul 2026",
-      "excerpt": "In this week&#8217;s The Insider newsletter, managing editor Gretchen Gavett writes about designing work around how teams actually perform best.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Global trade imbalances are back – and increasingly financialised",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/20/global-trade-imbalances-are-back-and-increasingly-financialised/",
+      "date": "20 Jul 2026",
+      "excerpt": "International policymakers are&nbsp;becoming&nbsp;increasingly&nbsp;worried about global imbalances.&nbsp;Lessons from their last&nbsp;significant&nbsp;impact,&nbsp;before&nbsp;the&nbsp;global&nbsp;financial crisis, are useful. But&nbsp;the",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -191,13 +200,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Digital banking creates a new kind of financial exclusion",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
-      "date": "10 Jul 2026",
-      "excerpt": "Rolling out digital banking without addressing algorithmic bias risks excluding the very populations it promises to uplift. Meghna Chotaliya uncovers a financial system that is technologically advanced and socially regressive at the same ti",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Burnham promises help with your money. How could it affect you?",
+      "link": "https://www.bbc.co.uk/news/articles/cp9ezldrkkgo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Jul 2026",
+      "excerpt": "New Prime Minister Andy Burnham says he wants life to be more affordable, but how could he do it?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea7b/live/acd4de30-8439-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,29 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "AliExpress fined record €550m by EU for allowing sale of illegal products",
+      "link": "https://www.bbc.co.uk/news/articles/cp8714286dpo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Jul 2026",
+      "excerpt": "It is the highest penalty imposed under the Digital Services Act and follows a two-year investigation.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00ee/live/51afee90-843a-11f1-9dde-1165f12cfa4b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Are you a parent missing out on £27 a week? Here's how to check",
       "link": "https://www.bbc.co.uk/news/articles/cz9l993wj5ko?at_medium=RSS&at_campaign=rss",
       "date": "19 Jul 2026",
       "excerpt": "Thousands of new parents fail to claim child benefit until it is too late to receive some of the money, HMRC says.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/880b/live/b0a6ea10-8413-11f1-b3ec-1d7f0502d196.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Thames Water lenders preparing legal challenge in event of Burnham nationalisation",
-      "link": "https://www.bbc.co.uk/news/articles/cx278ed09nzo?at_medium=RSS&at_campaign=rss",
-      "date": "19 Jul 2026",
-      "excerpt": "The BBC understands creditors would would pursue payment in full of the outstanding debts, in the multi-billions of pounds.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c902/live/4610abb0-8386-11f1-8537-c5e158f8690c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "My fitness tracker knew I was pregnant before I did",
-      "link": "https://www.bbc.co.uk/news/articles/cr474z1qyn6o?at_medium=RSS&at_campaign=rss",
-      "date": "19 Jul 2026",
-      "excerpt": "Ravika is one of hundreds of women who are noticing early pregnancy signs through the data on their fitness trackers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/443f/live/4d8e16d0-8425-11f1-8aab-7b42b0ff0499.jpg"
     },
     {
       "source": "BBC Business",
