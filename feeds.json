@@ -1,5 +1,5 @@
 {
-  "updated": "21 Jul 2026, 13:44 UTC",
+  "updated": "21 Jul 2026, 15:41 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -197,7 +197,16 @@
       "link": "https://www.bbc.co.uk/news/articles/cjwxll8jyz8o?at_medium=RSS&at_campaign=rss",
       "date": "21 Jul 2026",
       "excerpt": "Homes will save around £45 a year through the cut announced on Andy Burnham's first full day as prime minister.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1d8/live/f32ce4c0-84c7-11f1-85ee-9979bc27393b.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c71b/live/5cd10c80-8509-11f1-bee8-53ce494e1abc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Ozempic-maker accuses rival of false advertising",
+      "link": "https://www.bbc.co.uk/news/articles/c3v0rzd2l17o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Jul 2026",
+      "excerpt": "Novo Nordisk has launched legal action accusing Eli Lilly of creating \"misleading\" ads, a claim its rival denies.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c4c/live/b65dcff0-8508-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,20 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK borrows less than expected in June but public finances remain a challenge",
-      "link": "https://www.bbc.co.uk/news/articles/cx2vd3qgjy9o?at_medium=RSS&at_campaign=rss",
+      "title": "UK's first sugar factory at risk of closure",
+      "link": "https://www.bbc.co.uk/news/articles/c8dnq6v5pvgo?at_medium=RSS&at_campaign=rss",
       "date": "21 Jul 2026",
-      "excerpt": "Public finances for last month were better than expected but the UK is carrying major debt.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4658/live/758afce0-84eb-11f1-993e-3dec65835866.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-      "link": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jul 2026",
-      "excerpt": "The duties mark a major escalation in trade tensions between the North American neighbours.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a06b/live/1dd117f0-84dc-11f1-b976-0b9c15b0ccfc.jpg"
+      "excerpt": "Over 100 jobs are at risk after British Sugar announced plans to shut one of its four factories.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0748/live/766430f0-850e-11f1-9ebc-53bc1d9d88bb.jpg"
     },
     {
       "source": "BBC Business",
