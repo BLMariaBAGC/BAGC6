@@ -1,6 +1,15 @@
 {
-  "updated": "21 Jul 2026, 10:23 UTC",
+  "updated": "21 Jul 2026, 13:44 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Watching too much TV in midlife may shrink the brain",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260721000822.htm",
+      "date": "21 Jul 2026",
+      "excerpt": "Watching television very often in midlife may be linked to troubling brain changes decades later. In a study of about 1,700 adults, frequent TV viewers later showed smaller brain regions involved in memory, decision-making, and visual proce",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,39 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This sugar-coated therapy boosted survival against deadly brain cancer by 50% in mice",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260715083542.htm",
-      "date": "16 Jul 2026",
-      "excerpt": "A new experimental treatment may have found a way to outsmart glioblastoma’s toughest defense: the blood-brain barrier. Researchers used sugar-coated nanoparticles to ferry genetic instructions that restore a key tumor-suppressing protein d",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Most Popular Articles of 2026 (So Far)",
+      "link": "/2026/07/the-most-popular-articles-of-2026-so-far",
+      "date": "21 Jul 2026",
+      "excerpt": "In this week&#8217;s The Insider newsletter, peruse anything you may have missed or revisit a favorite. &#160;",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How a Museum Marketing Team Used AI to Bring People Closer to Art",
+      "link": "/podcast/2026/07/how-a-museum-marketing-team-used-ai-to-bring-people-closer-to-art",
+      "date": "21 Jul 2026",
+      "excerpt": "An inside look at how the Harvard Art Museums team weighed the pros and cons of using AI-generated avatars to engage new visitors.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Responsible AI Is Becoming a Growth Strategy",
+      "link": "/2026/07/responsible-ai-is-becoming-a-growth-strategy",
+      "date": "21 Jul 2026",
+      "excerpt": "A playbook for turning good governance into a competitive edge.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Why Great Leaders Need More Than Good Judgment",
+      "link": "/podcast/2026/07/why-great-leaders-need-more-than-good-judgment",
+      "date": "21 Jul 2026",
+      "excerpt": "A conversation with Cornelia Choe and Marshall Goldsmith on why executives need to broaden their perspectives.",
       "image": ""
     },
     {
@@ -98,42 +134,6 @@
       "link": "/2026/07/why-extreme-heat-is-a-business-issue",
       "date": "17 Jul 2026",
       "excerpt": "As record heat grips the U.S. and beyond, leaders need to assess their workforce&#8217;s vulnerability.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Highly Effective Global Teams Collaborate Across Cultures",
-      "link": "/2026/07/how-highly-effective-global-teams-collaborate-across-cultures",
-      "date": "17 Jul 2026",
-      "excerpt": "Seven elements determine how well teams work across time zones, languages, and cultural norms.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research Roundup: The Death of the Cover Letter, Boring Meetings, Wide Salary Ranges, and More",
-      "link": "/2026/07/research-roundup-the-death-of-the-cover-letter-boring-meetings-wide-salary-ranges-and-more",
-      "date": "16 Jul 2026",
-      "excerpt": "Insights from across academia.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Leadership Summit 2026: AT&T CEO John Stankey on Developing Technology and Talent in the AI Era",
-      "link": "/podcast/2026/07/leadership-summit-2026-att-ceo-john-stankey-on-developing-technology-and-talent-in-the-ai-era",
-      "date": "16 Jul 2026",
-      "excerpt": "A conversation about balancing long-term institutional strengths with a rapidly evolving marketplace.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Stop AI from Eroding Your Brand",
-      "link": "/2026/07/stop-ai-from-eroding-your-brand",
-      "date": "16 Jul 2026",
-      "excerpt": "Research points to five ways companies can reduce the &#8220;brand debt&#8221; that AI can incur.",
       "image": ""
     },
     {
@@ -211,20 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK borrowing falls in June but public finances remain a challenge",
-      "link": "https://www.bbc.co.uk/news/articles/cx2vd3qgjy9o?at_medium=RSS&at_campaign=rss",
+      "title": "Ryanair broken window may have been caused by 'foreign object'",
+      "link": "https://www.bbc.co.uk/news/articles/cy9wq82q1pgo?at_medium=RSS&at_campaign=rss",
       "date": "21 Jul 2026",
-      "excerpt": "Public finances for last month were better than expected but the UK is carrying major debt.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4658/live/758afce0-84eb-11f1-993e-3dec65835866.png"
+      "excerpt": "Passenger Ljubisa Karović was partially sucked out of a cabin window on the Boeing aircraft.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0cbb/live/a414ae00-8507-11f1-8b9b-a724b687bb3b.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'I made £100,000 of TikTok sales in one day': The business of live shopping",
-      "link": "https://www.bbc.co.uk/news/articles/cm2j22w8k0po?at_medium=RSS&at_campaign=rss",
-      "date": "20 Jul 2026",
-      "excerpt": "Buying on social media livestreams is fast becoming regular consumer behaviour for many.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e6c/live/07f87140-8418-11f1-b3ec-1d7f0502d196.jpg"
+      "title": "UK borrows less than expected in June but public finances remain a challenge",
+      "link": "https://www.bbc.co.uk/news/articles/cx2vd3qgjy9o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Jul 2026",
+      "excerpt": "Public finances for last month were better than expected but the UK is carrying major debt.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4658/live/758afce0-84eb-11f1-993e-3dec65835866.png"
     },
     {
       "source": "BBC Business",
