@@ -1,5 +1,5 @@
 {
-  "updated": "20 Jul 2026, 22:58 UTC",
+  "updated": "21 Jul 2026, 02:29 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,6 +137,78 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "An ambitious call to build sustainable AI",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/17/an-ambitious-call-to-build-sustainable-ai/",
+      "date": "17 Jul 2026",
+      "excerpt": "The perception of AI as “virtual” obscures its enormous industrial footprint and energy consumption. The next frontier of AI competitiveness will depend not only on scaling compute but on reducing energy per computation. In an extract from ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Not all renewables cut emissions equally everywhere",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/16/not-all-renewables-cut-emissions-equally-everywhere/",
+      "date": "16 Jul 2026",
+      "excerpt": "Renewables do not cut carbon emissions equally across countries or technologies. Analysing six energy sources in 27 OECD countries, Gaetano Perone finds that geothermal/biomass and hydropower deliver the strongest long-run reductions, follo",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1024x578.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Football’s billion-dollar integrity problem",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/15/footballs-billion-dollar-integrity-problem/",
+      "date": "15 Jul 2026",
+      "excerpt": "High profile international sports competitions such as the World Cup depend on fair play. But the pressure, and money, behind such events can unintentionally distort efforts to truly level the playing field – even for referees using the tec",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Doctors must drive the alignment of medical AI solutions",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
+      "date": "14 Jul 2026",
+      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What the art market reveals about the risks in on-chain finance",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/13/what-the-art-market-reveals-about-the-risks-in-on-chain-finance/",
+      "date": "13 Jul 2026",
+      "excerpt": "Blockchain-based currencies can now buy almost anything, from digital art to a house. But those currencies are themselves volatile, and that volatility passes through to whatever trades on top of them. Ziwen Chen draws on the digital art ma",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Digital banking creates a new kind of financial exclusion",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
+      "date": "10 Jul 2026",
+      "excerpt": "Rolling out digital banking without addressing algorithmic bias risks excluding the very populations it promises to uplift. Meghna Chotaliya uncovers a financial system that is technologically advanced and socially regressive at the same ti",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Why Andy Burnham will find it so tricky to unite Britain",
+      "link": "https://www.bbc.co.uk/news/articles/c17y7r9yv1ro?at_medium=RSS&at_campaign=rss",
+      "date": "20 Jul 2026",
+      "excerpt": "Is there any common ground left?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c72/live/b768c240-8442-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'I made £100,000 of TikTok sales in one day': The business of live shopping",
+      "link": "https://www.bbc.co.uk/news/articles/cm2j22w8k0po?at_medium=RSS&at_campaign=rss",
+      "date": "20 Jul 2026",
+      "excerpt": "Buying on social media livestreams is fast becoming regular consumer behaviour for many.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e6c/live/07f87140-8418-11f1-b3ec-1d7f0502d196.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "John Healey becomes chancellor weeks after shock resignation from defence job",
@@ -157,15 +229,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Burnham promises help with your money. How could it affect you?",
-      "link": "https://www.bbc.co.uk/news/articles/cp9ezldrkkgo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Jul 2026",
-      "excerpt": "The new PM says he will look at how much people can earn before paying tax but admitted changing it would be difficult.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea7b/live/acd4de30-8439-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "The 20-somethings betting big on tech stocks",
       "link": "https://www.bbc.co.uk/news/articles/c20yz9v1llro?at_medium=RSS&at_campaign=rss",
       "date": "20 Jul 2026",
@@ -175,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump imposes 50% tariff on Canadian imports",
-      "link": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
+      "title": "Craft and keyboard: The trainees mastering tech and age-old skills",
+      "link": "https://www.bbc.co.uk/news/articles/cy8dg1kpj48o?at_medium=RSS&at_campaign=rss",
       "date": "20 Jul 2026",
-      "excerpt": "The duties mark a major escalation in trade tensions between the North American neighbours.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06cc/live/a320cf00-8481-11f1-926f-c90d1bcfbc84.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ryanair profits drop as Iran war puts off passengers and lifts fuel costs",
-      "link": "https://www.bbc.co.uk/news/articles/cn8nldwj12jo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Jul 2026",
-      "excerpt": "The Irish airline said oil prices had increased costs meanwhile Brent crude surpassed $90.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f13/live/83464970-8414-11f1-b3ec-1d7f0502d196.png"
+      "excerpt": "Firms have to balance hi-tech and age-old skills when training up young workers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c442/live/4bb808d0-7533-11f1-a627-714adb4eed6e.jpg"
     }
   ]
 }
