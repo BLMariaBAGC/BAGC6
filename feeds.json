@@ -1,5 +1,5 @@
 {
-  "updated": "21 Jul 2026, 06:26 UTC",
+  "updated": "21 Jul 2026, 10:23 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Global trade imbalances are back – and increasingly financialised",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/20/global-trade-imbalances-are-back-and-increasingly-financialised/",
+      "date": "20 Jul 2026",
+      "excerpt": "International policymakers are&nbsp;becoming&nbsp;increasingly&nbsp;worried about global imbalances.&nbsp;Lessons from their last&nbsp;significant&nbsp;impact,&nbsp;before&nbsp;the&nbsp;global&nbsp;financial crisis, are useful. But&nbsp;the",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "An ambitious call to build sustainable AI",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/17/an-ambitious-call-to-build-sustainable-ai/",
       "date": "17 Jul 2026",
@@ -182,15 +191,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Digital banking creates a new kind of financial exclusion",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/10/digital-banking-creates-a-new-kind-of-financial-exclusion/",
-      "date": "10 Jul 2026",
-      "excerpt": "Rolling out digital banking without addressing algorithmic bias risks excluding the very populations it promises to uplift. Meghna Chotaliya uncovers a financial system that is technologically advanced and socially regressive at the same ti",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "VAT to be cut from household electricity bills in October",
@@ -198,6 +198,24 @@
       "date": "21 Jul 2026",
       "excerpt": "Homes will save around £45 a year through the cut announced on Andy Burnham's first full day as prime minister.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1d8/live/f32ce4c0-84c7-11f1-85ee-9979bc27393b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Thames Water lenders offer 'golden share' to head off nationalisation",
+      "link": "https://www.bbc.co.uk/news/articles/clyv43x372wo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Jul 2026",
+      "excerpt": "The water supplier's lenders are trying to prevent the company from being taken over by the Burnham government",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdfa/live/1dd4c4a0-84e0-11f1-8a1f-271692b35cb6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK borrowing falls in June but public finances remain a challenge",
+      "link": "https://www.bbc.co.uk/news/articles/cx2vd3qgjy9o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Jul 2026",
+      "excerpt": "Public finances for last month were better than expected but the UK is carrying major debt.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4658/live/758afce0-84eb-11f1-993e-3dec65835866.png"
     },
     {
       "source": "BBC Business",
@@ -215,34 +233,16 @@
       "link": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
       "date": "21 Jul 2026",
       "excerpt": "The duties mark a major escalation in trade tensions between the North American neighbours.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d92/live/ef104d10-84c6-11f1-b976-0b9c15b0ccfc.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a06b/live/1dd117f0-84dc-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "John Healey becomes chancellor weeks after shock resignation from defence job",
-      "link": "https://www.bbc.co.uk/news/articles/ce85y9lm81no?at_medium=RSS&at_campaign=rss",
+      "title": "The 20-somethings betting big on tech stocks",
+      "link": "https://www.bbc.co.uk/news/articles/c20yz9v1llro?at_medium=RSS&at_campaign=rss",
       "date": "20 Jul 2026",
-      "excerpt": "The former defence secretary is seen as a safe pair of hands - and is now in charge of the government's finances.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/220b/live/b25137b0-8460-11f1-8cf4-43aed99842b4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Craft and keyboard: The trainees mastering tech and age-old skills",
-      "link": "https://www.bbc.co.uk/news/articles/cy8dg1kpj48o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Jul 2026",
-      "excerpt": "Firms have to balance hi-tech and age-old skills when training up young workers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c442/live/4bb808d0-7533-11f1-a627-714adb4eed6e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why Andy Burnham will find it so tricky to unite Britain",
-      "link": "https://www.bbc.co.uk/news/articles/c17y7r9yv1ro?at_medium=RSS&at_campaign=rss",
-      "date": "20 Jul 2026",
-      "excerpt": "Is there any common ground left?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c72/live/b768c240-8442-11f1-b976-0b9c15b0ccfc.jpg"
+      "excerpt": "The BBC hears from people about the risks and rewards of investing in technology shares.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/851d/live/dc840590-80bd-11f1-bee8-53ce494e1abc.jpg"
     }
   ]
 }
