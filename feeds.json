@@ -1,5 +1,5 @@
 {
-  "updated": "21 Jul 2026, 15:41 UTC",
+  "updated": "21 Jul 2026, 17:16 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Lindt's Easter chocolate sales fall after price hike",
+      "link": "https://www.bbc.co.uk/news/articles/c74gxj937mmo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Jul 2026",
+      "excerpt": "The Swiss chocolate maker adjusts its strategy in response to weaker demand after its price rises.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d419/live/28162270-8516-11f1-a08a-6d526d664753.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Ryanair broken window may have been caused by 'foreign object'",
       "link": "https://www.bbc.co.uk/news/articles/cy9wq82q1pgo?at_medium=RSS&at_campaign=rss",
       "date": "21 Jul 2026",
       "excerpt": "Passenger Ljubisa Karović was partially sucked out of a cabin window on the Boeing aircraft.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0cbb/live/a414ae00-8507-11f1-8b9b-a724b687bb3b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK's first sugar factory at risk of closure",
-      "link": "https://www.bbc.co.uk/news/articles/c8dnq6v5pvgo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jul 2026",
-      "excerpt": "Over 100 jobs are at risk after British Sugar announced plans to shut one of its four factories.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0748/live/766430f0-850e-11f1-9ebc-53bc1d9d88bb.jpg"
     },
     {
       "source": "BBC Business",
