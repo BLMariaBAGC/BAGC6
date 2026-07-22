@@ -1,5 +1,5 @@
 {
-  "updated": "22 Jul 2026, 06:25 UTC",
+  "updated": "22 Jul 2026, 10:22 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,7 +184,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Most bust fares in England to be capped at £2 from January",
+      "title": "Food prices have fallen – but inflation expected to rise from here",
+      "link": "https://www.bbc.co.uk/news/articles/ckg4xj8j5vjo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jul 2026",
+      "excerpt": "June's fall in inflation will be welcomed by the new prime minister but analysts warn the fall is temporary.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9fc/live/b4c56850-859a-11f1-a6e0-e3aa80f742c2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Most bus fares in England to be capped at £2 from January",
       "link": "https://www.bbc.co.uk/news/articles/cz64l78n5vpo?at_medium=RSS&at_campaign=rss",
       "date": "22 Jul 2026",
       "excerpt": "The government says the policy will \"help with the cost of living and give people the breathing space they need\"",
@@ -193,11 +202,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Will AI help you do your job or replace you?",
+      "title": "Will your job be replaced by AI? Here are the roles most affected",
       "link": "https://www.bbc.co.uk/news/articles/cn7nllr4vd6o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jul 2026",
+      "date": "22 Jul 2026",
       "excerpt": "Artificial Intelligence companies make vast claims about their tools replacing human labour - our charts show what's happening.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/280a/live/5a31cec0-8062-11f1-926f-c90d1bcfbc84.png"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83f9/live/4b60d010-85a5-11f1-b976-0b9c15b0ccfc.png"
     },
     {
       "source": "BBC Business",
@@ -215,7 +224,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss",
       "date": "21 Jul 2026",
       "excerpt": "The Tokyo Metropolitan Government wants workers to ditch the suit and tie for t-shirts, trainers - and shorts.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/423b/live/cc155220-8560-11f1-8e86-f3b77f0936bf.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd1c/live/66a05f50-84d6-11f1-8a1f-271692b35cb6.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "21 Jul 2026",
       "excerpt": "A select committee says it has heard \"overwhelming evidence\" that rising employment costs are reducing training and job vacancies.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/58b5/live/4a93adc0-8531-11f1-8767-6996ba4bb968.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Lower fuel prices help drive inflation down to 2.6%",
-      "link": "https://www.bbc.co.uk/news/articles/ckg4xj8j5vjo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
-      "excerpt": "Economists had expected inflation to fall slightly.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8708/live/b3df1320-84ee-11f1-8a12-25ab4abfbe1c.jpg"
     }
   ]
 }
