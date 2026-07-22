@@ -1,5 +1,5 @@
 {
-  "updated": "22 Jul 2026, 02:28 UTC",
+  "updated": "22 Jul 2026, 06:25 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260721000822.htm",
       "date": "21 Jul 2026",
       "excerpt": "Watching television very often in midlife may be linked to troubling brain changes decades later. In a study of about 1,700 adults, frequent TV viewers later showed smaller brain regions involved in memory, decision-making, and visual proce",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Magic mushrooms may reshape the brain long after the trip ends",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260719040005.htm",
+      "date": "22 Jul 2026",
+      "excerpt": "A single dose of psilocybin produced measurable changes in brain activity and possible changes in brain structure that lasted for up to a month. Participants who experienced the greatest increase in flexible, varied brain activity also repo",
       "image": ""
     },
     {
@@ -65,15 +74,6 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Mediterranean diet may activate tiny proteins that protect the heart and brain",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260716023605.htm",
-      "date": "17 Jul 2026",
-      "excerpt": "The Mediterranean diet may influence aging through tiny proteins produced inside the cell’s mitochondria. Older adults who followed the diet most closely had higher levels of humanin and SHMOOSE, which have been linked to heart and brain pr",
-      "image": ""
-    },
-    {
       "source": "Harvard Business Review",
       "feedId": "hbr",
       "title": "The Most Popular Articles of 2026 (So Far)",
@@ -128,6 +128,69 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Strong banks do not guarantee financial stability",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/21/strong-banks-do-not-guarantee-financial-stability/",
+      "date": "21 Jul 2026",
+      "excerpt": "Finance has changed since the global&nbsp;financial crisis, with a&nbsp;growing share of credit,&nbsp;liquidity&nbsp;and risk-taking now taking place outside traditional deposit-taking institutions.&nbsp;Gustavo Pessoa&nbsp;shows how next f",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Global trade imbalances are back – and increasingly financialised",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/20/global-trade-imbalances-are-back-and-increasingly-financialised/",
+      "date": "20 Jul 2026",
+      "excerpt": "International policymakers are&nbsp;becoming&nbsp;increasingly&nbsp;worried about global imbalances.&nbsp;Lessons from their last&nbsp;significant&nbsp;impact,&nbsp;before&nbsp;the&nbsp;global&nbsp;financial crisis, are useful. But&nbsp;the",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "An ambitious call to build sustainable AI",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/17/an-ambitious-call-to-build-sustainable-ai/",
+      "date": "17 Jul 2026",
+      "excerpt": "The perception of AI as “virtual” obscures its enormous industrial footprint and energy consumption. The next frontier of AI competitiveness will depend not only on scaling compute but on reducing energy per computation. In an extract from ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Not all renewables cut emissions equally everywhere",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/16/not-all-renewables-cut-emissions-equally-everywhere/",
+      "date": "16 Jul 2026",
+      "excerpt": "Renewables do not cut carbon emissions equally across countries or technologies. Analysing six energy sources in 27 OECD countries, Gaetano Perone finds that geothermal/biomass and hydropower deliver the strongest long-run reductions, follo",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1024x578.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Football’s billion-dollar integrity problem",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/15/footballs-billion-dollar-integrity-problem/",
+      "date": "15 Jul 2026",
+      "excerpt": "High profile international sports competitions such as the World Cup depend on fair play. But the pressure, and money, behind such events can unintentionally distort efforts to truly level the playing field – even for referees using the tec",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Doctors must drive the alignment of medical AI solutions",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
+      "date": "14 Jul 2026",
+      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Most bust fares in England to be capped at £2 from January",
+      "link": "https://www.bbc.co.uk/news/articles/cz64l78n5vpo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jul 2026",
+      "excerpt": "The government says the policy will \"help with the cost of living and give people the breathing space they need\"",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d97/live/7d511c80-8558-11f1-bd53-c7e815b2479a.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Will AI help you do your job or replace you?",
@@ -135,6 +198,24 @@
       "date": "21 Jul 2026",
       "excerpt": "Artificial Intelligence companies make vast claims about their tools replacing human labour - our charts show what's happening.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/280a/live/5a31cec0-8062-11f1-926f-c90d1bcfbc84.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'I can't afford to turn the oven on': 7.4m households struggling to buy essentials",
+      "link": "https://www.bbc.co.uk/news/articles/cglj9685nj0o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Jul 2026",
+      "excerpt": "As Andy Burnham promises “breathing space” for households, millions are unable to buy items such as clothing, heating and food.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a42d/live/6ae98c00-8529-11f1-8e99-5b188ca4e1b3.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Tokyo urges men to wear shorts to work, but some women say it's 'leg hair harassment'",
+      "link": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Jul 2026",
+      "excerpt": "The Tokyo Metropolitan Government wants workers to ditch the suit and tie for t-shirts, trainers - and shorts.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/423b/live/cc155220-8560-11f1-8e86-f3b77f0936bf.jpg"
     },
     {
       "source": "BBC Business",
@@ -148,38 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "VAT to be cut from household electricity bills in October",
-      "link": "https://www.bbc.co.uk/news/articles/cjwxll8jyz8o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jul 2026",
-      "excerpt": "Homes will save around £45 a year through the cut announced on Andy Burnham's first full day as prime minister.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c71b/live/5cd10c80-8509-11f1-bee8-53ce494e1abc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ozempic-maker accuses rival of false advertising",
-      "link": "https://www.bbc.co.uk/news/articles/c3v0rzd2l17o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jul 2026",
-      "excerpt": "Novo Nordisk has launched legal action accusing Eli Lilly of creating \"misleading\" ads, a claim its rival denies.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c4c/live/b65dcff0-8508-11f1-bee8-53ce494e1abc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Thames Water lenders offer 'golden share' to head off nationalisation",
-      "link": "https://www.bbc.co.uk/news/articles/clyv43x372wo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jul 2026",
-      "excerpt": "The water supplier's lenders are trying to prevent the company from being taken over by the Burnham government",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdfa/live/1dd4c4a0-84e0-11f1-8a1f-271692b35cb6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Lindt's Easter chocolate sales fall after price hike",
-      "link": "https://www.bbc.co.uk/news/articles/c74gxj937mmo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jul 2026",
-      "excerpt": "The Swiss chocolate maker adjusts its strategy in response to weaker demand after its price rises.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d419/live/28162270-8516-11f1-a08a-6d526d664753.jpg"
+      "title": "Lower fuel prices help drive inflation down to 2.6%",
+      "link": "https://www.bbc.co.uk/news/articles/ckg4xj8j5vjo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jul 2026",
+      "excerpt": "Economists had expected inflation to fall slightly.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8708/live/b3df1320-84ee-11f1-8a12-25ab4abfbe1c.jpg"
     }
   ]
 }
