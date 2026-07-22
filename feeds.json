@@ -1,5 +1,5 @@
 {
-  "updated": "22 Jul 2026, 17:15 UTC",
+  "updated": "22 Jul 2026, 19:14 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Aston Martin secures £550m loan deal",
+      "link": "https://www.bbc.co.uk/news/articles/cjejx083jkeo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jul 2026",
+      "excerpt": "The luxury car maker says the loans will be used to fund current and future product plans.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67d9/live/56b2dbc0-85f5-11f1-b976-0b9c15b0ccfc.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack",
       "link": "https://www.bbc.co.uk/news/articles/c3ek3gvdnj3o?at_medium=RSS&at_campaign=rss",
       "date": "22 Jul 2026",
       "excerpt": "It is one of the first publicly disclosed cyber-attacks carried out by AI without direct human involvement.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce5f/live/a84590f0-85cc-11f1-b1dd-bb44cb5bbbfd.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Most bus fares in England to be capped at £2 from January",
-      "link": "https://www.bbc.co.uk/news/articles/cz64l78n5vpo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
-      "excerpt": "The government says the policy will \"help with the cost of living and give people the breathing space they need\"",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/429a/live/76ab7ed0-85ed-11f1-b976-0b9c15b0ccfc.jpg"
     }
   ]
 }
