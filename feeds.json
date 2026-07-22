@@ -1,5 +1,5 @@
 {
-  "updated": "22 Jul 2026, 15:39 UTC",
+  "updated": "22 Jul 2026, 17:15 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -130,6 +130,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "The betrayal of diversity in Britain’s book business",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
+      "date": "22 Jul 2026",
+      "excerpt": "After the Black Lives Matter protests in 2020 many industries rushed to signal their commitment to diversity. In British book publishing this led to a wave of self-help books by and for black women. But, as diversity itself comes under atta",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Strong banks do not guarantee financial stability",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/21/strong-banks-do-not-guarantee-financial-stability/",
       "date": "21 Jul 2026",
@@ -173,15 +182,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Doctors must drive the alignment of medical AI solutions",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
-      "date": "14 Jul 2026",
-      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Some food prices have fallen – but inflation expected to rise from here",
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Former Lloyd's of London boss's relationship breached rules, firm says",
+      "link": "https://www.bbc.co.uk/news/articles/cre48d34ewzo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jul 2026",
+      "excerpt": "The insurance market's chairman said the CEO's conduct \"fell significantly below the standards expected of him\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4fb1/live/cb44b810-85d6-11f1-a532-1906bca6e773.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "I travel four hours on a bus per day - the bus fare cap will save me £500 a year",
       "link": "https://www.bbc.co.uk/news/articles/clyv4y3xdvgo?at_medium=RSS&at_campaign=rss",
       "date": "22 Jul 2026",
       "excerpt": "The BBC speaks to people around the country about their view on the newly-announced bus fare cap.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9116/live/3f1876b0-85c7-11f1-926f-c90d1bcfbc84.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62ae/live/b7590f10-85e8-11f1-926f-c90d1bcfbc84.png"
     },
     {
       "source": "BBC Business",
@@ -224,16 +233,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cz64l78n5vpo?at_medium=RSS&at_campaign=rss",
       "date": "22 Jul 2026",
       "excerpt": "The government says the policy will \"help with the cost of living and give people the breathing space they need\"",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d97/live/7d511c80-8558-11f1-bd53-c7e815b2479a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ex-Southern Water boss among four charged over alleged plan to manipulate water tests",
-      "link": "https://www.bbc.co.uk/news/articles/c36d0njy7jjo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
-      "excerpt": "Matthew Wright is accused alongside three others of trying to save the firm millions in penalties.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2360/live/1d6ecb70-85d3-11f1-bee8-53ce494e1abc.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/429a/live/76ab7ed0-85ed-11f1-b976-0b9c15b0ccfc.jpg"
     }
   ]
 }
