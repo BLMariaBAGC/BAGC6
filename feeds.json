@@ -1,6 +1,15 @@
 {
-  "updated": "22 Jul 2026, 10:22 UTC",
+  "updated": "22 Jul 2026, 13:47 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Lab-grown mini brains may predict which Alzheimer’s treatments will work",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260721000844.htm",
+      "date": "22 Jul 2026",
+      "excerpt": "Miniature brain models grown from patients’ cells revealed striking differences in how Alzheimer’s-related tissue responds to an antidepressant. The organoids and the particles they release could eventually guide more personalized treatment",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Popular sugar substitutes linked to faster brain aging",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260717033213.htm",
-      "date": "18 Jul 2026",
-      "excerpt": "Several popular sugar substitutes may not be as harmless as they seem. Adults who consumed the most artificial sweeteners showed substantially faster declines in memory and thinking, especially if they were under 60 or had diabetes. The hig",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Model the Transformation You Expect Employees to Deliver",
+      "link": "/2026/07/model-the-transformation-you-expect-employees-to-deliver",
+      "date": "22 Jul 2026",
+      "excerpt": "Employees follow what leaders do, not what they say.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When Employees Are Held Accountable for AI-Generated Decisions",
+      "link": "/2026/07/when-employees-are-held-accountable-for-ai-generated-decisions",
+      "date": "22 Jul 2026",
+      "excerpt": "Research finds that workers actively interpret, reshape, and mask AI&#8217;s decisions to protect their credibility and meet stakeholder expectations.",
       "image": ""
     },
     {
@@ -110,21 +128,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Design AI Systems That Actually Strengthen Human Reasoning",
-      "link": "/2026/07/design-ai-systems-that-actually-strengthen-human-reasoning",
-      "date": "20 Jul 2026",
-      "excerpt": "Strategies to support critical thinking, organizational agility, and innovation.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Frontline Workers Know How to Solve Your Organization’s Biggest Problems",
-      "link": "/2026/07/frontline-workers-know-how-to-solve-your-organizations-biggest-problems",
-      "date": "20 Jul 2026",
-      "excerpt": "A six-step process to translate employee ideas into action.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The betrayal of diversity in Britain’s book business",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
+      "date": "22 Jul 2026",
+      "excerpt": "After the Black Lives Matter protests in 2020 many industries rushed to signal their commitment to diversity. In British book publishing this led to a wave of self-help books by and for black women. But, as diversity itself comes under atta",
       "image": ""
     },
     {
@@ -173,31 +182,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Doctors must drive the alignment of medical AI solutions",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/14/doctors-must-drive-the-alignment-of-medical-ai-solutions/",
-      "date": "14 Jul 2026",
-      "excerpt": "AI in medicine has enormous potential. But the risks of getting it wrong are equally significant. Aurélie Jean, Philippe Benillouche, Thibaut Jacques and Mark Esposito explain that for AI solutions in healthcare to be trusted they must be d",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Food prices have fallen – but inflation expected to rise from here",
+      "title": "Some food prices have fallen – but inflation expected to rise from here",
       "link": "https://www.bbc.co.uk/news/articles/ckg4xj8j5vjo?at_medium=RSS&at_campaign=rss",
       "date": "22 Jul 2026",
       "excerpt": "June's fall in inflation will be welcomed by the new prime minister but analysts warn the fall is temporary.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9fc/live/b4c56850-859a-11f1-a6e0-e3aa80f742c2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Most bus fares in England to be capped at £2 from January",
-      "link": "https://www.bbc.co.uk/news/articles/cz64l78n5vpo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
-      "excerpt": "The government says the policy will \"help with the cost of living and give people the breathing space they need\"",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d97/live/7d511c80-8558-11f1-bd53-c7e815b2479a.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19da/live/ef0496f0-85bb-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,29 +202,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'I can't afford to turn the oven on': 7.4m households struggling to buy essentials",
-      "link": "https://www.bbc.co.uk/news/articles/cglj9685nj0o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jul 2026",
-      "excerpt": "As Andy Burnham promises “breathing space” for households, millions are unable to buy items such as clothing, heating and food.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a42d/live/6ae98c00-8529-11f1-8e99-5b188ca4e1b3.jpg"
+      "title": "I travel four hours on a bus per day - the bus fare cap will save me £500 a year",
+      "link": "https://www.bbc.co.uk/news/articles/clyv4y3xdvgo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jul 2026",
+      "excerpt": "The BBC speaks to people around the country about their view on the newly-announced bus fare cap.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9116/live/3f1876b0-85c7-11f1-926f-c90d1bcfbc84.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Tokyo urges men to wear shorts to work, but some women say it's 'leg hair harassment'",
-      "link": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jul 2026",
-      "excerpt": "The Tokyo Metropolitan Government wants workers to ditch the suit and tie for t-shirts, trainers - and shorts.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd1c/live/66a05f50-84d6-11f1-8a1f-271692b35cb6.jpg"
+      "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack",
+      "link": "https://www.bbc.co.uk/news/articles/c3ek3gvdnj3o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jul 2026",
+      "excerpt": "It is one of the first publicly disclosed cyber-attacks carried out by AI without direct human involvement.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce5f/live/a84590f0-85cc-11f1-b1dd-bb44cb5bbbfd.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Boost youth jobs by cutting employers' national insurance, MPs urge",
-      "link": "https://www.bbc.co.uk/news/articles/cy45p77l3zwo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Jul 2026",
-      "excerpt": "A select committee says it has heard \"overwhelming evidence\" that rising employment costs are reducing training and job vacancies.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/58b5/live/4a93adc0-8531-11f1-8767-6996ba4bb968.jpg"
+      "title": "Most bus fares in England to be capped at £2 from January",
+      "link": "https://www.bbc.co.uk/news/articles/cz64l78n5vpo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jul 2026",
+      "excerpt": "The government says the policy will \"help with the cost of living and give people the breathing space they need\"",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d97/live/7d511c80-8558-11f1-bd53-c7e815b2479a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Ex-Southern Water boss charged over alleged plan to manipulate water tests",
+      "link": "https://www.bbc.co.uk/news/articles/c36d0njy7jjo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jul 2026",
+      "excerpt": "Matthew Wright is accused of trying to save the company millions of pounds in penalties.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92fd/live/ca233c20-85ce-11f1-85bd-254f6de05e48.jpg"
     }
   ]
 }
