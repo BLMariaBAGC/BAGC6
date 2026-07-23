@@ -1,6 +1,15 @@
 {
-  "updated": "23 Jul 2026, 13:52 UTC",
+  "updated": "23 Jul 2026, 15:53 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover the hidden brain switch that assigns bees their jobs",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260722032117.htm",
+      "date": "22 Jul 2026",
+      "excerpt": "Researchers found that specific brain circuits help decide which jobs bees perform as they age. When those circuits were switched off, older worker bees began caring for the queen again instead of carrying out their normal later-life duties",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your fingers may hold a secret of human brain evolution",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260717033350.htm",
-      "date": "17 Jul 2026",
-      "excerpt": "A study of 225 newborns suggests prenatal estrogen may have played a role in the evolution of larger human brains. Boys with finger-length patterns linked to higher estrogen exposure before birth tended to have larger head circumferences, w",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Our Favorite Management Tips on Setting Strategy When the Path Is Unclear",
+      "link": "/2026/07/our-favorite-management-tips-on-setting-strategy-when-the-path-is-unclear",
+      "date": "23 Jul 2026",
+      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
       "image": ""
     },
     {
@@ -116,15 +125,6 @@
       "link": "/2026/07/the-most-popular-articles-of-2026-so-far",
       "date": "21 Jul 2026",
       "excerpt": "In this week&#8217;s The Insider newsletter, peruse anything you may have missed or revisit a favorite. &#160;",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How a Museum Marketing Team Used AI to Bring People Closer to Art",
-      "link": "/podcast/2026/07/how-a-museum-marketing-team-used-ai-to-bring-people-closer-to-art",
-      "date": "21 Jul 2026",
-      "excerpt": "An inside look at how the Harvard Art Museums team weighed the pros and cons of using AI-generated avatars to engage new visitors.",
       "image": ""
     },
     {
@@ -184,11 +184,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Oil prices hit $100 for the first time since May",
+      "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d668/live/b41122b0-867a-11f1-8c77-df97511a6b05.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Pubs cheer business rates relief while other firms 'left out in the cold'",
+      "link": "https://www.bbc.co.uk/news/articles/clyvnz4489wo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "Pubs welcomed the support package, while other High Street firms asked why they were left out.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2f4/live/dbb6a5c0-8697-11f1-9e03-bdd14c1ce63a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Gary Lineker among millionaires asking Andy Burnham to tax them more",
       "link": "https://www.bbc.co.uk/news/articles/cvgjp79m42go?at_medium=RSS&at_campaign=rss",
       "date": "23 Jul 2026",
       "excerpt": "A group including the former England footballer write to the new PM telling him \"we can afford it\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a6e/live/b0338440-8683-11f1-bee8-53ce494e1abc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Burnham says 20% business rates cut for English pubs 'a first step'",
+      "link": "https://www.bbc.co.uk/news/articles/cq6dg816464o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "Some hospitality firms will get a discount from next April but hotels and restaurants won't get a cut.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce25/live/79b699b0-86a2-11f1-a0b6-435e4178a497.png"
     },
     {
       "source": "BBC Business",
@@ -207,33 +234,6 @@
       "date": "23 Jul 2026",
       "excerpt": "Business leaders share their best career advice and the qualities they look for when recruiting new staff.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa14/live/ecd31450-85e4-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Firm hacked by rogue OpenAI models says it is 'a wake-up call'",
-      "link": "https://www.bbc.co.uk/news/articles/cdrvy3pn3r0o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
-      "excerpt": "A co-founder of start-up Hugging Face told the BBC that most firms are not aware that the \"game has changed\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c57c/live/927f2eb0-8645-11f1-bb06-cd4aa2d50a91.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Google burning through cash with spiralling AI costs",
-      "link": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
-      "excerpt": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f610/live/9cc8bdc0-8616-11f1-8dd8-4d5cff7c66df.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why the UK is dithering over what to do about e-scooters",
-      "link": "https://www.bbc.co.uk/news/articles/cn4nvn9w00no?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
-      "excerpt": "Why is it taking so long for the government to regulate them, and what are the consequences of delay?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7db6/live/f8819640-8423-11f1-bee8-53ce494e1abc.jpg"
     }
   ]
 }
