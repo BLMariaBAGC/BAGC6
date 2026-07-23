@@ -1,5 +1,5 @@
 {
-  "updated": "23 Jul 2026, 02:33 UTC",
+  "updated": "23 Jul 2026, 06:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,20 +184,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Some food prices have fallen – but inflation expected to rise from here",
-      "link": "https://www.bbc.co.uk/news/articles/ckg4xj8j5vjo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
-      "excerpt": "June's fall in inflation will be welcomed by the new prime minister but analysts warn the fall is temporary.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19da/live/ef0496f0-85bb-11f1-b976-0b9c15b0ccfc.jpg"
+      "title": "Firm hacked by rogue OpenAI models says it is 'a wake up call'",
+      "link": "https://www.bbc.co.uk/news/articles/cdrvy3pn3r0o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "A co-founder of start-up Hugging Face told the BBC that most firms are not aware that the \"game has changed\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c57c/live/927f2eb0-8645-11f1-bb06-cd4aa2d50a91.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Airport drop-off fees up by a third - here are the priciest",
       "link": "https://www.bbc.co.uk/news/articles/c2lqd72d4lqo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "The cost of parking closest to the terminal has hit £10 at two of the UK's airports.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7cb0/live/357c7500-865f-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Google burning through cash with spiralling AI costs",
+      "link": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
       "date": "22 Jul 2026",
-      "excerpt": "The cost of parking closest to the terminal just for a few minutes has hit £10 at two of the UK's busiest airports.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/37bb/live/4f2cc100-85f9-11f1-bee8-53ce494e1abc.jpg"
+      "excerpt": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f610/live/9cc8bdc0-8616-11f1-8dd8-4d5cff7c66df.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Some food prices have fallen – but inflation expected to rise from here",
+      "link": "https://www.bbc.co.uk/news/articles/ckg4xj8j5vjo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jul 2026",
+      "excerpt": "June's fall in inflation will be welcomed by the new prime minister but analysts warn the fall is temporary.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19da/live/ef0496f0-85bb-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,29 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Will your job be replaced by AI? Here are the roles most affected",
-      "link": "https://www.bbc.co.uk/news/articles/cn7nllr4vd6o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
-      "excerpt": "Artificial Intelligence companies make vast claims about their tools replacing human labour - our charts show what's happening.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83f9/live/4b60d010-85a5-11f1-b976-0b9c15b0ccfc.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Former Lloyd's of London boss's relationship breached rules, firm says",
       "link": "https://www.bbc.co.uk/news/articles/cre48d34ewzo?at_medium=RSS&at_campaign=rss",
       "date": "22 Jul 2026",
       "excerpt": "The insurance market's chairman said the CEO's conduct \"fell significantly below the standards expected of him\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4fb1/live/cb44b810-85d6-11f1-a532-1906bca6e773.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I travel four hours on a bus per day - the bus fare cap will save me £500 a year",
-      "link": "https://www.bbc.co.uk/news/articles/clyv4y3xdvgo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
-      "excerpt": "The BBC speaks to people around the country about their view on the newly-announced bus fare cap.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62ae/live/b7590f10-85e8-11f1-926f-c90d1bcfbc84.png"
     }
   ]
 }
