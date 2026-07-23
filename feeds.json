@@ -1,5 +1,5 @@
 {
-  "updated": "22 Jul 2026, 23:00 UTC",
+  "updated": "23 Jul 2026, 02:33 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Airport drop-off fees up by a third - here are the priciest",
+      "link": "https://www.bbc.co.uk/news/articles/c2lqd72d4lqo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Jul 2026",
+      "excerpt": "The cost of parking closest to the terminal just for a few minutes has hit £10 at two of the UK's busiest airports.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/37bb/live/4f2cc100-85f9-11f1-bee8-53ce494e1abc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "China's Moonshot AI stole from Anthropic, Trump tech adviser says",
+      "link": "https://www.bbc.co.uk/news/articles/c5ye2gyz0x4o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "The allegations come as Chinese AI companies are facing increased US government scrutiny.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b7e/live/ab7d6920-8629-11f1-8e14-33590a929431.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Will your job be replaced by AI? Here are the roles most affected",
       "link": "https://www.bbc.co.uk/news/articles/cn7nllr4vd6o?at_medium=RSS&at_campaign=rss",
       "date": "22 Jul 2026",
@@ -216,24 +234,6 @@
       "date": "22 Jul 2026",
       "excerpt": "The BBC speaks to people around the country about their view on the newly-announced bus fare cap.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62ae/live/b7590f10-85e8-11f1-926f-c90d1bcfbc84.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Aston Martin secures £550m loan deal",
-      "link": "https://www.bbc.co.uk/news/articles/cjejx083jkeo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
-      "excerpt": "The luxury car maker says the loans will be used to fund current and future product plans.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67d9/live/56b2dbc0-85f5-11f1-b976-0b9c15b0ccfc.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack",
-      "link": "https://www.bbc.co.uk/news/articles/c3ek3gvdnj3o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
-      "excerpt": "It is one of the first publicly disclosed cyber-attacks carried out by AI without direct human involvement.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce5f/live/a84590f0-85cc-11f1-b1dd-bb44cb5bbbfd.jpg"
     }
   ]
 }
