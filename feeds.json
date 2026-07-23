@@ -1,5 +1,5 @@
 {
-  "updated": "23 Jul 2026, 21:01 UTC",
+  "updated": "23 Jul 2026, 22:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,11 +184,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US announces tariffs on dozens of trade partners over 'forced labour' imports",
+      "link": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "The tariffs target around 60 trading partners over claims they failed to properly stop forced labour.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/02b7/live/fa2c0bc0-86b1-11f1-bb58-d3ffca85db6d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Oil prices hit $100 for the first time since May",
       "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
       "date": "23 Jul 2026",
       "excerpt": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d668/live/b41122b0-867a-11f1-8c77-df97511a6b05.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Lawmakers push for AI 'kill switch' after OpenAI goes rogue",
+      "link": "https://www.bbc.co.uk/news/articles/cx2vqj2e9x8o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "A new bill would let the US government order the shutdown of AI models that pose a public threat.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a255/live/1eacc3a0-86d9-11f1-bba7-35d3e67315de.jpg"
     },
     {
       "source": "BBC Business",
@@ -207,24 +225,6 @@
       "date": "23 Jul 2026",
       "excerpt": "A group including the former England footballer write to the new PM telling him \"we can afford it\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a6e/live/b0338440-8683-11f1-bee8-53ce494e1abc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Burnham says 20% business rates cut for English pubs 'a first step'",
-      "link": "https://www.bbc.co.uk/news/articles/cq6dg816464o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
-      "excerpt": "Some hospitality firms will get a discount from next April but hotels and restaurants won't get a cut.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce25/live/79b699b0-86a2-11f1-a0b6-435e4178a497.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Airport drop-off fees up by a third - here are the priciest",
-      "link": "https://www.bbc.co.uk/news/articles/c2lqd72d4lqo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
-      "excerpt": "The cost of parking closest to the terminal has hit £10 at two of the UK's airports.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7cb0/live/357c7500-865f-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
