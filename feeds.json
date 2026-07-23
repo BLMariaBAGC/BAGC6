@@ -1,5 +1,5 @@
 {
-  "updated": "23 Jul 2026, 17:19 UTC",
+  "updated": "23 Jul 2026, 19:12 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -130,15 +130,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "What AI’s usurping of the peer-reviewed publications means for medicine and pharmaceutical industry",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/23/what-ais-usurping-of-the-peer-reviewed-publications-means-for-medicine-and-pharmaceutical-industry/",
-      "date": "23 Jul 2026",
-      "excerpt": "For hundreds of years, modern science has relied on peer-reviewed publications to register, to certify and to distribute new claims. Demand is still growing. But Alex Bedenkov and David Ginkel show rapidly technologies like AI have changed ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "The betrayal of diversity in Britain’s book business",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
       "date": "22 Jul 2026",
@@ -180,6 +171,15 @@
       "date": "16 Jul 2026",
       "excerpt": "Renewables do not cut carbon emissions equally across countries or technologies. Analysing six energy sources in 27 OECD countries, Gaetano Perone finds that geothermal/biomass and hydropower deliver the strongest long-run reductions, follo",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1024x578.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Football’s billion-dollar integrity problem",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/15/footballs-billion-dollar-integrity-problem/",
+      "date": "15 Jul 2026",
+      "excerpt": "High profile international sports competitions such as the World Cup depend on fair play. But the pressure, and money, behind such events can unintentionally distort efforts to truly level the playing field – even for referees using the tec",
+      "image": ""
     },
     {
       "source": "BBC Business",
