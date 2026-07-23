@@ -1,5 +1,5 @@
 {
-  "updated": "23 Jul 2026, 06:28 UTC",
+  "updated": "23 Jul 2026, 10:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,11 +184,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Firm hacked by rogue OpenAI models says it is 'a wake up call'",
-      "link": "https://www.bbc.co.uk/news/articles/cdrvy3pn3r0o?at_medium=RSS&at_campaign=rss",
+      "title": "UK millionaires ask Andy Burnham to tax them more",
+      "link": "https://www.bbc.co.uk/news/articles/cvgjp79m42go?at_medium=RSS&at_campaign=rss",
       "date": "23 Jul 2026",
-      "excerpt": "A co-founder of start-up Hugging Face told the BBC that most firms are not aware that the \"game has changed\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c57c/live/927f2eb0-8645-11f1-bb06-cd4aa2d50a91.jpg"
+      "excerpt": "Former footballer Gary Lineker and producer Brian Eno write to the new PM telling him \"we can afford it\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a2a/live/73191cf0-8674-11f1-8c77-df97511a6b05.jpg"
     },
     {
       "source": "BBC Business",
@@ -202,38 +202,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Big bosses reveal the secret to getting hired",
+      "link": "https://www.bbc.co.uk/news/videos/cvgxelx3y78o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "Business leaders share their best career advice and the qualities they look for when recruiting new staff.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa14/live/ecd31450-85e4-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Firm hacked by rogue OpenAI models says it is 'a wake-up call'",
+      "link": "https://www.bbc.co.uk/news/articles/cdrvy3pn3r0o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "A co-founder of start-up Hugging Face told the BBC that most firms are not aware that the \"game has changed\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c57c/live/927f2eb0-8645-11f1-bb06-cd4aa2d50a91.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Google burning through cash with spiralling AI costs",
       "link": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
+      "date": "23 Jul 2026",
       "excerpt": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f610/live/9cc8bdc0-8616-11f1-8dd8-4d5cff7c66df.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Some food prices have fallen – but inflation expected to rise from here",
-      "link": "https://www.bbc.co.uk/news/articles/ckg4xj8j5vjo?at_medium=RSS&at_campaign=rss",
+      "title": "Why the UK is dithering over what to do about e-scooters",
+      "link": "https://www.bbc.co.uk/news/articles/cn4nvn9w00no?at_medium=RSS&at_campaign=rss",
       "date": "22 Jul 2026",
-      "excerpt": "June's fall in inflation will be welcomed by the new prime minister but analysts warn the fall is temporary.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19da/live/ef0496f0-85bb-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "China's Moonshot AI stole from Anthropic, Trump tech adviser says",
-      "link": "https://www.bbc.co.uk/news/articles/c5ye2gyz0x4o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
-      "excerpt": "The allegations come as Chinese AI companies are facing increased US government scrutiny.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b7e/live/ab7d6920-8629-11f1-8e14-33590a929431.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Former Lloyd's of London boss's relationship breached rules, firm says",
-      "link": "https://www.bbc.co.uk/news/articles/cre48d34ewzo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Jul 2026",
-      "excerpt": "The insurance market's chairman said the CEO's conduct \"fell significantly below the standards expected of him\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4fb1/live/cb44b810-85d6-11f1-a532-1906bca6e773.jpg"
+      "excerpt": "Why is it taking so long for the government to regulate them, and what are the consequences of delay?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7db6/live/f8819640-8423-11f1-bee8-53ce494e1abc.jpg"
     }
   ]
 }
