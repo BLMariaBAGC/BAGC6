@@ -1,5 +1,5 @@
 {
-  "updated": "24 Jul 2026, 06:23 UTC",
+  "updated": "24 Jul 2026, 10:14 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,7 +184,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US hits dozens of trading partners with new wave of tariffs",
+      "title": "US hits dozens of countries with new wave of tariffs",
       "link": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
       "date": "24 Jul 2026",
       "excerpt": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February.",
@@ -213,9 +213,18 @@
       "feedId": "bbc",
       "title": "UK mortgage rates rise to highest level for a month",
       "link": "https://www.bbc.co.uk/news/articles/c70gknr7z1eo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
+      "date": "24 Jul 2026",
       "excerpt": "Renewed tensions in the Middle East feed through to the costs faced by lenders, pushing up borrowing costs.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e21/live/4bc39dc0-869b-11f1-9e03-bdd14c1ce63a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Tech titan ordered to pay ex-wife $644m in divorce settlement",
+      "link": "https://www.bbc.co.uk/news/articles/ckg68jky65eo?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jul 2026",
+      "excerpt": "The divorce, involving the chairman of one of South Korea's biggest companies, has gripped the nation.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea53/live/d83d0260-8726-11f1-9733-edfe8d3e29a7.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "23 Jul 2026",
       "excerpt": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d668/live/b41122b0-867a-11f1-8c77-df97511a6b05.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Lawmakers push for AI 'kill switch' after OpenAI goes rogue",
-      "link": "https://www.bbc.co.uk/news/articles/cx2vqj2e9x8o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
-      "excerpt": "A new bill would let the US government order the shutdown of AI models that pose a public threat.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a255/live/1eacc3a0-86d9-11f1-bba7-35d3e67315de.jpg"
     }
   ]
 }
