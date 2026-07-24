@@ -1,5 +1,5 @@
 {
-  "updated": "23 Jul 2026, 22:53 UTC",
+  "updated": "24 Jul 2026, 02:29 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,11 +184,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US announces tariffs on dozens of trade partners over 'forced labour' imports",
+      "title": "US imposes tariffs on dozens of trade partners over 'forced labour' imports",
       "link": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
+      "date": "24 Jul 2026",
       "excerpt": "The tariffs target around 60 trading partners over claims they failed to properly stop forced labour.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/02b7/live/fa2c0bc0-86b1-11f1-bb58-d3ffca85db6d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK complacent about war threat, warns defence boss",
+      "link": "https://www.bbc.co.uk/news/articles/cx2lpjjpny9o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "The threat of attack has never been higher, the boss of Europe's biggest defence contractor has warned. Dr Charles Woodburn",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cf8/live/60e4b350-86a6-11f1-a0b6-435e4178a497.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "We split bills equally even when one of us earned a lot more",
+      "link": "https://www.bbc.co.uk/news/articles/cz05rdn1n80o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "Hannah and Max continued to pool finances after Max was made redundant but took \"drastic measures\" to cut spending.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22f0/live/f1261bc0-85d9-11f1-8f00-252bc70ad71a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK mortgage rates rise to highest level for a month",
+      "link": "https://www.bbc.co.uk/news/articles/c70gknr7z1eo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Jul 2026",
+      "excerpt": "Renewed tensions in the Middle East feed through to the costs faced by lenders, pushing up borrowing costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e21/live/4bc39dc0-869b-11f1-9e03-bdd14c1ce63a.jpg"
     },
     {
       "source": "BBC Business",
@@ -207,33 +234,6 @@
       "date": "23 Jul 2026",
       "excerpt": "A new bill would let the US government order the shutdown of AI models that pose a public threat.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a255/live/1eacc3a0-86d9-11f1-bba7-35d3e67315de.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Pubs cheer business rates relief while other firms 'left out in the cold'",
-      "link": "https://www.bbc.co.uk/news/articles/clyvnz4489wo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
-      "excerpt": "Pubs welcomed the support package, while other High Street firms asked why they were left out.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2f4/live/dbb6a5c0-8697-11f1-9e03-bdd14c1ce63a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Gary Lineker among millionaires asking Andy Burnham to tax them more",
-      "link": "https://www.bbc.co.uk/news/articles/cvgjp79m42go?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
-      "excerpt": "A group including the former England footballer write to the new PM telling him \"we can afford it\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a6e/live/b0338440-8683-11f1-bee8-53ce494e1abc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Big bosses reveal the secret to getting hired",
-      "link": "https://www.bbc.co.uk/news/videos/cvgxelx3y78o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
-      "excerpt": "Business leaders share their best career advice and the qualities they look for when recruiting new staff.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa14/live/ecd31450-85e4-11f1-b976-0b9c15b0ccfc.jpg"
     }
   ]
 }
