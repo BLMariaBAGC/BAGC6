@@ -1,5 +1,5 @@
 {
-  "updated": "24 Jul 2026, 22:58 UTC",
+  "updated": "25 Jul 2026, 02:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "ADHD has rewired the workplace. This is what it means for bosses and workers",
+      "link": "https://www.bbc.co.uk/news/articles/c70gq125xweo?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jul 2026",
+      "excerpt": "As ADHD diagnoses have risen, have workplaces caught up with the needs of the workforce?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e35e/live/f25d0fd0-8773-11f1-b8ee-9b3c26ad07bb.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Long overdue, life-changing or frivolous? Your thoughts on wedding rule changes",
+      "link": "https://www.bbc.co.uk/news/articles/cvg8wlwzjx9o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Jul 2026",
+      "excerpt": "The government wants to relax wedding laws so couples can get married almost anywhere.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77ee/live/cd7c6030-82c3-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Trump vows to investigate EU over fining of US tech companies",
       "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
       "date": "24 Jul 2026",
@@ -225,24 +243,6 @@
       "date": "24 Jul 2026",
       "excerpt": "Renewed tensions in the Middle East feed through to the costs faced by lenders, pushing up borrowing costs.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e21/live/4bc39dc0-869b-11f1-9e03-bdd14c1ce63a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK complacent about war threat, warns BAE boss",
-      "link": "https://www.bbc.co.uk/news/articles/cx2lpjjpny9o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Jul 2026",
-      "excerpt": "The threat of attack has never been higher, the boss of Europe's biggest defence contractor has warned. Dr Charles Woodburn",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d35f/live/d8f7aa60-8727-11f1-9733-edfe8d3e29a7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US hits dozens of countries with new wave of tariffs",
-      "link": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Jul 2026",
-      "excerpt": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78a1/live/d9a08500-875d-11f1-b2ab-0dd01740f9f6.jpg"
     }
   ]
 }
