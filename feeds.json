@@ -1,6 +1,24 @@
 {
-  "updated": "25 Jul 2026, 15:00 UTC",
+  "updated": "25 Jul 2026, 16:53 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Oral GLP-1 drugs may quiet the brain’s food craving circuit",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260724061439.htm",
+      "date": "25 Jul 2026",
+      "excerpt": "Newer oral drugs related to semaglutide medications such as Ozempic reduced pleasure-driven eating in mice by quieting a deep brain reward circuit. The finding could open new avenues for understanding food cravings and potentially treating ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A single dose reversed autism-like symptoms in adult mice within hours",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260724061436.htm",
+      "date": "25 Jul 2026",
+      "excerpt": "Even mild inflammation during pregnancy led mouse offspring to develop persistent brain overactivity, sensory sensitivity, repetitive behaviors, and increased seizure risk. Remarkably, one dose of rapamycin improved nearly all of these prob",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260723084856.htm",
       "date": "24 Jul 2026",
       "excerpt": "The longevity-linked APOE2 gene appears to protect brain cells by reducing DNA damage and helping neurons recover from stress. The finding could open a new path toward treatments that mimic APOE2’s defenses in people at higher genetic risk ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Superagers keep youthful memories but their DNA does not explain why",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260723084045.htm",
+      "date": "25 Jul 2026",
+      "excerpt": "Scientists expected SuperAgers might simply inherit fewer Alzheimer’s-related risks, but their genes looked much like those of typical older adults. Their extraordinary memories may instead come from still-unknown protective forces involvin",
       "image": ""
     },
     {
@@ -44,33 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260719040005.htm",
       "date": "22 Jul 2026",
       "excerpt": "A single dose of psilocybin produced measurable changes in brain activity and possible changes in brain structure that lasted for up to a month. Participants who experienced the greatest increase in flexible, varied brain activity also repo",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "The mysterious hum heard around the world may finally have an explanation",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260719040002.htm",
-      "date": "19 Jul 2026",
-      "excerpt": "The mysterious sound known as The Hum has been reported worldwide for decades, yet its source often remains impossible to find. Researchers tested whether people who hear it have exceptional low-frequency hearing or measurable sounds produc",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Alzheimer’s breakthrough: Scientists restore two hours of sleep without clearing brain plaques",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260719035931.htm",
-      "date": "20 Jul 2026",
-      "excerpt": "Researchers have uncovered a surprising culprit behind sleep loss in Alzheimer’s disease: the brain’s own immune cells. In mice with amyloid plaques, overactive microglia triggered inflammation that kept the brain from getting enough deep, ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Common antidepressant may ease long COVID’s crushing fatigue",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
-      "date": "18 Jul 2026",
-      "excerpt": "A low-cost antidepressant may offer new hope for people struggling with long COVID fatigue. In a randomized clinical trial involving 399 adults, fluvoxamine significantly reduced fatigue and improved quality of life compared with a placebo,",
       "image": ""
     },
     {
