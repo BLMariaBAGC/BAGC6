@@ -1,5 +1,5 @@
 {
-  "updated": "26 Jul 2026, 06:34 UTC",
+  "updated": "26 Jul 2026, 09:56 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Primark's new 'supermarket tactic' to woo customers in online price war",
+      "link": "https://www.bbc.co.uk/news/articles/c4g3x4j8pgro?at_medium=RSS&at_campaign=rss",
+      "date": "26 Jul 2026",
+      "excerpt": "Competition from ultra-cheap Chinese retailers and the cost of living crisis could be putting some people off shopping at the store, analysts say.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a888/live/501dd8b0-86b2-11f1-8c61-e72dd81a46e3.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "ADHD has rewired the workplace. This is what it means for bosses and workers",
       "link": "https://www.bbc.co.uk/news/articles/c70gq125xweo?at_medium=RSS&at_campaign=rss",
       "date": "24 Jul 2026",
@@ -211,11 +220,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Long overdue, life-changing or frivolous? Your thoughts on wedding rule changes",
-      "link": "https://www.bbc.co.uk/news/articles/cvg8wlwzjx9o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Jul 2026",
-      "excerpt": "The government wants to relax wedding laws so couples can get married almost anywhere.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77ee/live/cd7c6030-82c3-11f1-b976-0b9c15b0ccfc.jpg"
+      "title": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
+      "link": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss",
+      "date": "25 Jul 2026",
+      "excerpt": "Hugging Face said the hack was done at superhuman speed by an AI with little or no human guidance.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/658a/live/19bf2440-8770-11f1-b430-afa19a42b819.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Faisal Islam: The UK's Trump trade deal no longer looks world-beating",
-      "link": "https://www.bbc.co.uk/news/articles/c9v4ymwddwgo?at_medium=RSS&at_campaign=rss",
+      "title": "Paramount and Warner Bros pause $110bn merger amid legal challenge",
+      "link": "https://www.bbc.co.uk/news/articles/c8en74yz5e7o?at_medium=RSS&at_campaign=rss",
       "date": "24 Jul 2026",
-      "excerpt": "While the US tariffs imposed on the UK are effectively unchanged, other countries now have a better deal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35d6/live/046766f0-8768-11f1-aec4-5d4d96e3f4ec.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Watch: Another day, more Trump tariffs - but are they working?",
-      "link": "https://www.bbc.co.uk/news/videos/c5yw2xgnv2jo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Jul 2026",
-      "excerpt": "The BBC's Samira Hussain explains how President Trump's tariffs affect US economy, who pays the price, and whether they're working.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e698/live/f875fc40-873e-11f1-926f-c90d1bcfbc84.jpg"
+      "excerpt": "Until a judge reaches a final verdict – or until 1 June 2027 – the Hollywood studios will remain completely separate, competing operations.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d86/live/eb4a5a10-87a8-11f1-b4f4-2f10373ed74c.jpg"
     }
   ]
 }
