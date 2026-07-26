@@ -1,5 +1,5 @@
 {
-  "updated": "26 Jul 2026, 13:16 UTC",
+  "updated": "26 Jul 2026, 15:02 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,20 +193,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Gatwick Airport left without running water after major outage",
+      "link": "https://www.bbc.co.uk/news/articles/cdew2dnxlzzo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Jul 2026",
+      "excerpt": "Bottled water is being handed out to passengers and staff while the issue is investigated.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/409a/live/99bb0920-88f6-11f1-8824-a9ae603ecd1c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Rental searches for pet friendly properties drop after law change",
       "link": "https://www.bbc.co.uk/news/articles/cj3gd312d8yo?at_medium=RSS&at_campaign=rss",
       "date": "26 Jul 2026",
       "excerpt": "Agents say some renters wrongly believe permission to have a pet is guaranteed.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2116/live/a455cfa0-7c49-11f1-8ccc-df652c9169a7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Water supply issue affects Gatwick Airport",
-      "link": "https://www.bbc.co.uk/news/articles/cdew2dnxlzzo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Jul 2026",
-      "excerpt": "Bottled water is being handed out to passengers and staff while the issue is investigated.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/970a/live/b77ebe10-88de-11f1-aeef-edf7e578a56d.jpg"
     },
     {
       "source": "BBC Business",
