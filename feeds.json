@@ -1,5 +1,5 @@
 {
-  "updated": "27 Jul 2026, 02:43 UTC",
+  "updated": "27 Jul 2026, 07:27 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,20 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Water returns to Gatwick Airport after major outage",
-      "link": "https://www.bbc.co.uk/news/articles/cdew2dnxlzzo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Jul 2026",
-      "excerpt": "Gatwick Airport faced a day of disruptions with toilets and restaurants closed to passengers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d5d/live/c1411f80-8922-11f1-ba41-9bff51dd5d72.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Would you choose £50,000 over the chance of £1m?",
       "link": "https://www.bbc.co.uk/news/articles/cn0njd4e2evo?at_medium=RSS&at_campaign=rss",
       "date": "26 Jul 2026",
       "excerpt": "The vast majority of people - particularly women - answer a survey saying they'd take the certainty over chance.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3199/live/4c39d8c0-8757-11f1-95ec-a30de4e448c4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Chipmaker CXMT becomes mainland China's most valuable listed firm",
+      "link": "https://www.bbc.co.uk/news/articles/c9q9w3x9qn2o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Jul 2026",
+      "excerpt": "The company's shares soared by 470% in its market debut, as the AI boom drives chip demand.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0377/live/bb1db120-896a-11f1-a3ae-0dbbd1718109.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Water returns to Gatwick Airport after major outage",
+      "link": "https://www.bbc.co.uk/news/articles/cdew2dnxlzzo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Jul 2026",
+      "excerpt": "Gatwick Airport faced a day of disruptions with toilets and restaurants closed to passengers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d5d/live/c1411f80-8922-11f1-ba41-9bff51dd5d72.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Primark's new 'supermarket tactic' to woo customers in online price war",
       "link": "https://www.bbc.co.uk/news/articles/c4g3x4j8pgro?at_medium=RSS&at_campaign=rss",
       "date": "26 Jul 2026",
       "excerpt": "Competition from ultra-cheap Chinese retailers and the cost of living crisis could be putting some people off shopping at the store, analysts say.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a888/live/501dd8b0-86b2-11f1-8c61-e72dd81a46e3.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "ADHD has rewired the workplace. This is what it means for bosses and workers",
-      "link": "https://www.bbc.co.uk/news/articles/c70gq125xweo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Jul 2026",
-      "excerpt": "As ADHD diagnoses have risen, have workplaces caught up with the needs of the workforce?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e35e/live/f25d0fd0-8773-11f1-b8ee-9b3c26ad07bb.jpg"
     }
   ]
 }
