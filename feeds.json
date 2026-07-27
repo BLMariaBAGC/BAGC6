@@ -1,6 +1,15 @@
 {
-  "updated": "27 Jul 2026, 11:17 UTC",
+  "updated": "27 Jul 2026, 14:28 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Eating within 8 hours may help keep the aging brain sharp",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260727012125.htm",
+      "date": "27 Jul 2026",
+      "excerpt": "Eating within a shorter daily window may help protect certain thinking skills as people age. In a small six-month trial, older women who limited eating to about 8 to 9 hours a day performed better on planning and problem-solving tests than ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -17,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260726015254.htm",
       "date": "26 Jul 2026",
       "excerpt": "The Backrooms began as a single eerie image of empty yellow rooms, but internet users transformed it into a vast fictional world that feels disturbingly real. Through videos, games, maps, survival guides and social media stories, audiences ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your dreams aren’t random. Your brain is rewriting reality",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260725105731.htm",
+      "date": "27 Jul 2026",
+      "excerpt": "Dreams are not random mental noise. A large study of more than 3,700 dream and waking reports found that what we experience during sleep is shaped by both our personalities and the world around us. Rather than simply replaying daily events,",
       "image": ""
     },
     {
@@ -56,21 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover the hidden brain switch that assigns bees their jobs",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260722032117.htm",
-      "date": "22 Jul 2026",
-      "excerpt": "Researchers found that specific brain circuits help decide which jobs bees perform as they age. When those circuits were switched off, older worker bees began caring for the queen again instead of carrying out their normal later-life duties",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Don’t Let AI Make Bad Analytics Worse",
+      "link": "/2026/07/dont-let-ai-make-bad-analytics-worse",
+      "date": "27 Jul 2026",
+      "excerpt": "Companies need discipline to keep flawed analysis from scaling.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Lab-grown mini brains may predict which Alzheimer’s treatments will work",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260721000844.htm",
-      "date": "22 Jul 2026",
-      "excerpt": "Miniature brain models grown from patients’ cells revealed striking differences in how Alzheimer’s-related tissue responds to an antidepressant. The organoids and the particles they release could eventually guide more personalized treatment",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "3 Questions to Pressure-Test Your Priorities",
+      "link": "/2026/07/3-questions-to-pressure-test-your-priorities",
+      "date": "27 Jul 2026",
+      "excerpt": "How to make fewer, better, and clearer high-stakes decisions when everything seems urgent.",
       "image": ""
     },
     {
@@ -128,12 +146,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Model the Transformation You Expect Employees to Deliver",
-      "link": "/2026/07/model-the-transformation-you-expect-employees-to-deliver",
-      "date": "22 Jul 2026",
-      "excerpt": "Employees follow what leaders do, not what they say.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Fitness apps keep users engaged – but do they change habits?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
+      "date": "27 Jul 2026",
+      "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
       "image": ""
     },
     {
@@ -182,13 +200,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Not all renewables cut emissions equally everywhere",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/16/not-all-renewables-cut-emissions-equally-everywhere/",
-      "date": "16 Jul 2026",
-      "excerpt": "Renewables do not cut carbon emissions equally across countries or technologies. Analysing six energy sources in 27 OECD countries, Gaetano Perone finds that geothermal/biomass and hydropower deliver the strongest long-run reductions, follo",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1024x578.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "How wildfires in France and Spain might affect your travel plans",
+      "link": "https://www.bbc.co.uk/news/articles/ce3qv0ggndno?at_medium=RSS&at_campaign=rss",
+      "date": "27 Jul 2026",
+      "excerpt": "For those who have upcoming holidays to the affected regions, here is what you should know about how it might impact your plans.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd7b/live/3c068830-89ab-11f1-a44b-5525937994ba.jpg"
     },
     {
       "source": "BBC Business",
@@ -202,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Shein swings to $99m loss as Trump tariffs hit sales",
-      "link": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Jul 2026",
-      "excerpt": "The announcement comes as the fast fashion giant prepares for its stock market debut in Hong Kong.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a66/live/d66cf590-8950-11f1-aee1-9f17574ebbb3.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Would you choose £50,000 over the chance of £1m?",
       "link": "https://www.bbc.co.uk/news/articles/cn0njd4e2evo?at_medium=RSS&at_campaign=rss",
       "date": "26 Jul 2026",
       "excerpt": "The vast majority of people - particularly women - answer a survey saying they'd take the certainty over chance.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3199/live/4c39d8c0-8757-11f1-95ec-a30de4e448c4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Shein swings to $99m loss as Trump tariffs hit sales",
+      "link": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Jul 2026",
+      "excerpt": "The announcement comes as the fast fashion giant prepares for its stock market debut in Hong Kong.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a66/live/d66cf590-8950-11f1-aee1-9f17574ebbb3.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +252,6 @@
       "date": "27 Jul 2026",
       "excerpt": "The company's shares soared by nearly 470% in its market debut, as the AI boom drives chip demand.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0377/live/bb1db120-896a-11f1-a3ae-0dbbd1718109.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Rental searches for pet friendly properties drop after law change",
-      "link": "https://www.bbc.co.uk/news/articles/cj3gd312d8yo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Jul 2026",
-      "excerpt": "Agents say some renters wrongly believe permission to have a pet is guaranteed.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2116/live/a455cfa0-7c49-11f1-8ccc-df652c9169a7.jpg"
     }
   ]
 }
