@@ -1,5 +1,5 @@
 {
-  "updated": "27 Jul 2026, 07:27 UTC",
+  "updated": "27 Jul 2026, 11:17 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Oil price dives as US and Iran pause attacks",
+      "link": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Jul 2026",
+      "excerpt": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92a8/live/d2b46450-89a6-11f1-a85a-79136c2d298e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Shein swings to $99m loss as Trump tariffs hit sales",
       "link": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
       "date": "27 Jul 2026",
@@ -211,10 +220,19 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Chipmaker CXMT becomes mainland China's most valuable listed firm",
+      "title": "Businessman and philanthropist Sir Ian Wood dies aged 84",
+      "link": "https://www.bbc.co.uk/news/articles/ce3qv0p9105o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Jul 2026",
+      "excerpt": "The Aberdeen-based businessman turned his family's boat repair firm into an oil and gas engineering giant.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f7f/live/39e43050-899e-11f1-8c68-81d45f5a03af.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
       "link": "https://www.bbc.co.uk/news/articles/c9q9w3x9qn2o?at_medium=RSS&at_campaign=rss",
       "date": "27 Jul 2026",
-      "excerpt": "The company's shares soared by 470% in its market debut, as the AI boom drives chip demand.",
+      "excerpt": "The company's shares soared by nearly 470% in its market debut, as the AI boom drives chip demand.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0377/live/bb1db120-896a-11f1-a3ae-0dbbd1718109.jpg"
     },
     {
@@ -225,24 +243,6 @@
       "date": "26 Jul 2026",
       "excerpt": "Agents say some renters wrongly believe permission to have a pet is guaranteed.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2116/live/a455cfa0-7c49-11f1-8ccc-df652c9169a7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Water returns to Gatwick Airport after major outage",
-      "link": "https://www.bbc.co.uk/news/articles/cdew2dnxlzzo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Jul 2026",
-      "excerpt": "Gatwick Airport faced a day of disruptions with toilets and restaurants closed to passengers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d5d/live/c1411f80-8922-11f1-ba41-9bff51dd5d72.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Primark's new 'supermarket tactic' to woo customers in online price war",
-      "link": "https://www.bbc.co.uk/news/articles/c4g3x4j8pgro?at_medium=RSS&at_campaign=rss",
-      "date": "26 Jul 2026",
-      "excerpt": "Competition from ultra-cheap Chinese retailers and the cost of living crisis could be putting some people off shopping at the store, analysts say.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a888/live/501dd8b0-86b2-11f1-8c61-e72dd81a46e3.jpg"
     }
   ]
 }
