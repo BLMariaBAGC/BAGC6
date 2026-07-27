@@ -1,5 +1,5 @@
 {
-  "updated": "26 Jul 2026, 22:57 UTC",
+  "updated": "27 Jul 2026, 02:43 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,11 +193,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Shein swings to $99m loss as Trump tariffs hit sales",
+      "link": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Jul 2026",
+      "excerpt": "The announcement comes as the fast fashion giant prepares for its stock market debut in Hong Kong.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a66/live/d66cf590-8950-11f1-aee1-9f17574ebbb3.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Water returns to Gatwick Airport after major outage",
       "link": "https://www.bbc.co.uk/news/articles/cdew2dnxlzzo?at_medium=RSS&at_campaign=rss",
       "date": "26 Jul 2026",
       "excerpt": "Gatwick Airport faced a day of disruptions with toilets and restaurants closed to passengers.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d5d/live/c1411f80-8922-11f1-ba41-9bff51dd5d72.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Would you choose £50,000 over the chance of £1m?",
+      "link": "https://www.bbc.co.uk/news/articles/cn0njd4e2evo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Jul 2026",
+      "excerpt": "The vast majority of people - particularly women - answer a survey saying they'd take the certainty over chance.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3199/live/4c39d8c0-8757-11f1-95ec-a30de4e448c4.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,24 +243,6 @@
       "date": "24 Jul 2026",
       "excerpt": "As ADHD diagnoses have risen, have workplaces caught up with the needs of the workforce?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e35e/live/f25d0fd0-8773-11f1-b8ee-9b3c26ad07bb.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
-      "link": "https://www.bbc.co.uk/news/articles/cd9w22n9e4go?at_medium=RSS&at_campaign=rss",
-      "date": "25 Jul 2026",
-      "excerpt": "Hugging Face said the hack was done at superhuman speed by an AI with little or no human guidance.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/658a/live/19bf2440-8770-11f1-b430-afa19a42b819.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump vows to investigate EU over fining of US tech companies",
-      "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Jul 2026",
-      "excerpt": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\"",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92c8/live/180ebdb0-8787-11f1-9428-e17279226993.jpg"
     }
   ]
 }
