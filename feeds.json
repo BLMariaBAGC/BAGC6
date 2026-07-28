@@ -1,5 +1,5 @@
 {
-  "updated": "28 Jul 2026, 19:19 UTC",
+  "updated": "28 Jul 2026, 21:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "eBay agrees $56m settlement with bloggers over harassment case",
+      "link": "https://www.bbc.co.uk/news/articles/cj039p238r5o?at_medium=RSS&at_campaign=rss",
+      "date": "28 Jul 2026",
+      "excerpt": "Former eBay executives carried out \"unprecedented\" harassment over a critical newsletter.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f9c0/live/dd3d7670-8ac1-11f1-9997-a1a12b7801e6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Some parents on benefits to get up to £4,500 for child starting apprenticeship",
       "link": "https://www.bbc.co.uk/news/articles/cwy4v6e9d2go?at_medium=RSS&at_campaign=rss",
       "date": "28 Jul 2026",
@@ -243,15 +252,6 @@
       "date": "28 Jul 2026",
       "excerpt": "Overall, overcrowding in England and Wales fell slightly last year due to increased capacity, the government says.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a89/live/72a40b80-8a7b-11f1-82f1-411b076ec7a9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Johnson & Johnson offers up to $5.5bn to settle baby powder lawsuits",
-      "link": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss",
-      "date": "28 Jul 2026",
-      "excerpt": "The proposed settlement aims to close a years-long legal battle over claims its talcs products cause cancer.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32ec/live/92eec930-8a52-11f1-b2ab-0dd01740f9f6.jpg"
     }
   ]
 }
