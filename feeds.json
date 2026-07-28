@@ -1,5 +1,5 @@
 {
-  "updated": "28 Jul 2026, 21:04 UTC",
+  "updated": "28 Jul 2026, 22:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "The film industry underestimates the role of distributors in bringing projects to market",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/28/the-film-industry-underestimates-the-role-of-distributors-in-bringing-projects-to-market/",
+      "date": "28 Jul 2026",
+      "excerpt": "A strong&nbsp;film with famous names and clever technology&nbsp;is&nbsp;nothing&nbsp;if people cannot watch it.&nbsp;Good distributors are vital to bring projects to market.&nbsp;Angelo Tomaselli,&nbsp;Salvatore Torrisi&nbsp;and&nbsp;Joris ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Fitness apps keep users engaged – but do they change habits?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
       "date": "27 Jul 2026",
@@ -191,15 +200,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "An ambitious call to build sustainable AI",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/17/an-ambitious-call-to-build-sustainable-ai/",
-      "date": "17 Jul 2026",
-      "excerpt": "The perception of AI as “virtual” obscures its enormous industrial footprint and energy consumption. The next frontier of AI competitiveness will depend not only on scaling compute but on reducing energy per computation. In an extract from ",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "eBay agrees $56m settlement with bloggers over harassment case",
@@ -214,7 +214,7 @@
       "title": "Some parents on benefits to get up to £4,500 for child starting apprenticeship",
       "link": "https://www.bbc.co.uk/news/articles/cwy4v6e9d2go?at_medium=RSS&at_campaign=rss",
       "date": "28 Jul 2026",
-      "excerpt": "Some parents on benefits are incentivised to discourage their kids from taking on apprenticeships.",
+      "excerpt": "Some parents on benefits lose income if their children take on apprenticeships.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c6ce/live/12757a60-8aa2-11f1-951f-a70d41b77a63.jpg"
     },
     {
