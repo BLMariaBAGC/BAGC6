@@ -1,5 +1,5 @@
 {
-  "updated": "28 Jul 2026, 02:23 UTC",
+  "updated": "28 Jul 2026, 06:24 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,20 +202,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "New technical education routes to be offered at 14 in England",
+      "title": "Schools to offer technical subjects to pupils from age 14, Burnham says",
       "link": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss",
       "date": "28 Jul 2026",
-      "excerpt": "The government wants pupils to take subjects like AI and manufacturing which are linked to local jobs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb38/live/76a92500-89f7-11f1-ad85-33848ec6bcfe.jpg"
+      "excerpt": "The government wants pupils to take courses like AI and manufacturing which are linked to local jobs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e00c/live/b4de9dd0-8a49-11f1-9d58-5fb372bdafd2.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Johnson & Johnson offers up to $5.5bn to settle baby powder lawsuits",
+      "title": "Johnson & Johnson offers up to $5.5bn to settle US baby powder lawsuits",
       "link": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss",
       "date": "28 Jul 2026",
       "excerpt": "The proposed settlement aims to close a years-long legal battle over claims its talcs products cause cancer.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/988d/live/89834e70-8a1b-11f1-8e1d-ab6aa2cf2cd1.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Chip stocks slide in US and Asia as AI jitters rattle investors",
+      "link": "https://www.bbc.co.uk/news/articles/cly8zng43npo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Jul 2026",
+      "excerpt": "Trading on South Korea's Kospi index was paused temporarily on Tuesday morning after slumping by 8%.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e056/live/347f61f0-8a31-11f1-949c-5b05e00ab03c.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "27 Jul 2026",
       "excerpt": "Cracker Barrel CEO Julie Masino will exit following customer backlash over modern logo redesign.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c4d/live/c0977d80-89dc-11f1-9273-213dd08ab6f9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Cash recovered from ex-Nasa scientist turned scammer",
-      "link": "https://www.bbc.co.uk/news/articles/cj4k2x2qprwo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Jul 2026",
-      "excerpt": "John Burford was jailed in 2025 after taking more than £1m from his victims.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef94/live/4fb9c1a0-89d1-11f1-8d60-2d725522f827.jpg"
     },
     {
       "source": "BBC Business",
