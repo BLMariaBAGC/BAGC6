@@ -1,5 +1,5 @@
 {
-  "updated": "28 Jul 2026, 17:24 UTC",
+  "updated": "28 Jul 2026, 19:19 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -143,6 +143,60 @@
       "link": "/2026/07/our-favorite-management-tips-on-setting-strategy-when-the-path-is-unclear",
       "date": "23 Jul 2026",
       "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Fitness apps keep users engaged – but do they change habits?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
+      "date": "27 Jul 2026",
+      "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What AI’s usurping of the peer-reviewed publications means for medicine and pharmaceutical industry",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/23/what-ais-usurping-of-the-peer-reviewed-publications-means-for-medicine-and-pharmaceutical-industry/",
+      "date": "23 Jul 2026",
+      "excerpt": "For hundreds of years, modern science has relied on peer-reviewed publications to register, to certify and to distribute new claims. Demand is still growing. But Alex Bedenkov and David Ginkel show rapidly technologies like AI have changed ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The betrayal of diversity in Britain’s book business",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
+      "date": "22 Jul 2026",
+      "excerpt": "After the Black Lives Matter protests in 2020 many industries rushed to signal their commitment to diversity. In British book publishing this led to a wave of self-help books by and for black women. But, as diversity itself comes under atta",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Strong banks do not guarantee financial stability",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/21/strong-banks-do-not-guarantee-financial-stability/",
+      "date": "21 Jul 2026",
+      "excerpt": "Finance has changed since the global&nbsp;financial crisis, with a&nbsp;growing share of credit,&nbsp;liquidity&nbsp;and risk-taking now taking place outside traditional deposit-taking institutions.&nbsp;Gustavo Pessoa&nbsp;shows how next f",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Global trade imbalances are back – and increasingly financialised",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/20/global-trade-imbalances-are-back-and-increasingly-financialised/",
+      "date": "20 Jul 2026",
+      "excerpt": "International policymakers are&nbsp;becoming&nbsp;increasingly&nbsp;worried about global imbalances.&nbsp;Lessons from their last&nbsp;significant&nbsp;impact,&nbsp;before&nbsp;the&nbsp;global&nbsp;financial crisis, are useful. But&nbsp;the",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-1-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "An ambitious call to build sustainable AI",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/17/an-ambitious-call-to-build-sustainable-ai/",
+      "date": "17 Jul 2026",
+      "excerpt": "The perception of AI as “virtual” obscures its enormous industrial footprint and energy consumption. The next frontier of AI competitiveness will depend not only on scaling compute but on reducing energy per computation. In an extract from ",
       "image": ""
     },
     {
