@@ -1,5 +1,5 @@
 {
-  "updated": "28 Jul 2026, 10:31 UTC",
+  "updated": "28 Jul 2026, 14:01 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "What Makes Chinese Companies So Competitive?",
+      "link": "/podcast/2026/07/what-makes-chinese-companies-so-competitive",
+      "date": "28 Jul 2026",
+      "excerpt": "A conversation with researcher Dan Wang on how China&#8217;s engineering mindset drives innovation.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Don’t Let AI Make Bad Analytics Worse",
       "link": "/2026/07/dont-let-ai-make-bad-analytics-worse",
       "date": "27 Jul 2026",
@@ -134,15 +143,6 @@
       "link": "/2026/07/research-why-some-junior-employees-work-well-with-ai-and-others-dont",
       "date": "23 Jul 2026",
       "excerpt": "A new study found that foundational skills such as critical thinking, AI literacy, and domain knowledge weren&#8217;t clear indicators of success.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Leadership Summit 2026: Inspiring Grit and Growth Amid Unprecedented Change",
-      "link": "/podcast/2026/07/leadership-summit-2026-inspiring-grit-and-growth-amid-unprecedented-change",
-      "date": "23 Jul 2026",
-      "excerpt": "A conversation with University of Pennsylvania&#8217;s Angela Duckworth on how grit applies in a world of AI.",
       "image": ""
     },
     {
@@ -206,12 +206,12 @@
       "link": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss",
       "date": "28 Jul 2026",
       "excerpt": "The government wants pupils to take courses like AI and manufacturing which are linked to local jobs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e00c/live/b4de9dd0-8a49-11f1-9d58-5fb372bdafd2.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5eca/live/e45eb050-8a7a-11f1-b8ee-9b3c26ad07bb.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The way you look can help you get a job - here's how",
+      "title": "What you wear can help you get a job - here's how",
       "link": "https://www.bbc.co.uk/news/articles/c80neg5rd81o?at_medium=RSS&at_campaign=rss",
       "date": "28 Jul 2026",
       "excerpt": "While you need to answer the questions in an interview, your appearance and mannerisms are also crucial.",
