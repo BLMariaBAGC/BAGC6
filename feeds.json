@@ -1,5 +1,5 @@
 {
-  "updated": "29 Jul 2026, 19:12 UTC",
+  "updated": "29 Jul 2026, 20:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US interest rates held for fifth time in a row",
+      "title": "'No magic wand' to tackle high prices, Fed boss says as US interest rates held",
       "link": "https://www.bbc.co.uk/news/articles/cy07wgqjv08o?at_medium=RSS&at_campaign=rss",
       "date": "29 Jul 2026",
       "excerpt": "The Federal Reserve's decision, which was broadly expected, means rates remain between the 3.5% and 3.75%.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa1f/live/9a5f9640-8b56-11f1-8322-5bf52455cf04.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Charities unable to pay staff after fraud alert",
+      "link": "https://www.bbc.co.uk/news/articles/cz7dlelz711o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jul 2026",
+      "excerpt": "Security fears saw CAF Bank, which serves 14,000 UK charities, suspend its online banking portal.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c4a/live/13985170-1f8b-11f0-a007-45ee4cc6069d.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "29 Jul 2026",
       "excerpt": "UK's largest fast-food chain says it is changing its menu \"in line with changing tastes and trends\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d65a/live/f1815bb0-8b2a-11f1-841c-ef08db9db338.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Andy Burnham wants to fix social care - what are the options?",
-      "link": "https://www.bbc.co.uk/news/articles/cj4k54g0ldjo?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jul 2026",
-      "excerpt": "With Andy Burnham saying he wants to bring \"substantial change\" to social care in England, BBC Verify looks at what could be done.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1825/live/a24448b0-89c6-11f1-b8ee-9b3c26ad07bb.png"
     },
     {
       "source": "BBC Business",
