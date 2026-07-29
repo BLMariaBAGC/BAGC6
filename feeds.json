@@ -1,6 +1,15 @@
 {
-  "updated": "29 Jul 2026, 10:35 UTC",
+  "updated": "29 Jul 2026, 14:05 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your gut may help your brain decide what to remember",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260729010713.htm",
+      "date": "29 Jul 2026",
+      "excerpt": "Signals traveling from the gut to the brain may help turn meals into lasting memories. Rats showed stronger memory activity after consuming nutritious foods, but not after drinking sweet liquids with little or no nutritional value. Blocking",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Superagers keep youthful memories but their DNA does not explain why",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260723084045.htm",
-      "date": "25 Jul 2026",
-      "excerpt": "Scientists expected SuperAgers might simply inherit fewer Alzheimer’s-related risks, but their genes looked much like those of typical older adults. Their extraordinary memories may instead come from still-unknown protective forces involvin",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: How AI Agents Broaden the Scope of Knowledge Work",
+      "link": "/2026/07/research-how-ai-agents-broaden-the-scope-of-knowledge-work",
+      "date": "29 Jul 2026",
+      "excerpt": "Efficiency gains are only part of the story.",
       "image": ""
     },
     {
@@ -137,15 +146,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Our Favorite Management Tips on Setting Strategy When the Path Is Unclear",
-      "link": "/2026/07/our-favorite-management-tips-on-setting-strategy-when-the-path-is-unclear",
-      "date": "23 Jul 2026",
-      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "The film industry underestimates the role of distributors in bringing projects to market",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Is AI facing a big financial reckoning?",
+      "link": "https://www.bbc.co.uk/news/articles/cevm09wkgz0o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jul 2026",
+      "excerpt": "Sharp falls in the value of chip makers have stoked investor concerns that the euphoria around AI related companies is fading.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3471/live/5f73f4d0-8b52-11f1-8139-b39d1c7486b2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Ticket prices set to rise by 15p as Heathrow able to recover runway project money",
       "link": "https://www.bbc.co.uk/news/articles/cdx8ke9gpnko?at_medium=RSS&at_campaign=rss",
       "date": "29 Jul 2026",
@@ -211,47 +220,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Matcha and protein pivot pays off for Greggs as profits rise",
+      "link": "https://www.bbc.co.uk/news/articles/cx2r0nyx99yo?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jul 2026",
+      "excerpt": "UK's largest fast-food chain says it is changing its menu \"in line with changing tastes and trends\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d65a/live/f1815bb0-8b2a-11f1-841c-ef08db9db338.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Andy Burnham wants to fix social care - what are the options?",
+      "link": "https://www.bbc.co.uk/news/articles/cj4k54g0ldjo?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jul 2026",
+      "excerpt": "With Andy Burnham saying he wants to bring \"substantial change\" to social care in England, BBC Verify looks at what could be done.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1825/live/a24448b0-89c6-11f1-b8ee-9b3c26ad07bb.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Data centres could pay hundreds of millions in deposits for power demands",
+      "link": "https://www.bbc.co.uk/news/articles/c9q90q9qnn2o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jul 2026",
+      "excerpt": "The regulator said a fee of between £237,500 to £712,500 per megawatt should be charged for upcoming projects.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e2f/live/8ed23800-8b42-11f1-a7ab-8b30adf0800a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'Don't wait until you want revenge' - why prenups are on the rise",
       "link": "https://www.bbc.co.uk/news/articles/cgmkgvy3lv4o?at_medium=RSS&at_campaign=rss",
       "date": "28 Jul 2026",
       "excerpt": "More young couples are now signing prenups to set out who gets what in the event of divorce.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8625/live/297e27a0-84fa-11f1-8b9b-a724b687bb3b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Brits urged to avoid dangerous plug adaptors this summer - what to watch out for",
-      "link": "https://www.bbc.co.uk/news/articles/c5yeg1wegpno?at_medium=RSS&at_campaign=rss",
-      "date": "28 Jul 2026",
-      "excerpt": "Campaign group Electrical Safety First has urged those \"heading abroad this summer to think before they buy\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bcb4/live/f740c5a0-8a75-11f1-a7ab-8b30adf0800a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "OpenAI says its rogue AI tried to hack other companies",
-      "link": "https://www.bbc.co.uk/news/articles/c2el319vzr3o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jul 2026",
-      "excerpt": "The out-of-control AI found four logins which allowed it to access multiple unnamed online services.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52e9/live/3c2ddae0-8a9e-11f1-bdb4-61a481e25caf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Burnham has no scope to increase borrowing, think tank warns",
-      "link": "https://www.bbc.co.uk/news/articles/c62ev62381mo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Jul 2026",
-      "excerpt": "The Prime Minister has announced a series of cost-of-living measure since taking office but is facing questions about how he will fund them.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc77/live/c4407fe0-8aae-11f1-951f-a70d41b77a63.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The evidence that shows today's 20-somethings really do have it worse",
-      "link": "https://www.bbc.co.uk/news/articles/cy8mnvk4r48o?at_medium=RSS&at_campaign=rss",
-      "date": "28 Jul 2026",
-      "excerpt": "People in their 20s are facing a tougher start to adulthood than any generation in almost half a century, according to analysis for the BBC.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aff6/live/4463fc90-8b1a-11f1-b2ab-0dd01740f9f6.png"
     }
   ]
 }
