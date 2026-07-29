@@ -1,5 +1,5 @@
 {
-  "updated": "29 Jul 2026, 14:05 UTC",
+  "updated": "29 Jul 2026, 17:12 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Embrace AI Without Damaging Trust: Lessons from the “Financial Times”",
+      "link": "/2026/07/embrace-ai-without-damaging-trust-lessons-from-the-financial-times",
+      "date": "29 Jul 2026",
+      "excerpt": "An HBR Executive Masterclass with Harvard Business School professor Sandra J. Sucher.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Case for Hiring Job Hoppers",
+      "link": "/2026/07/the-case-for-hiring-job-hoppers",
+      "date": "29 Jul 2026",
+      "excerpt": "New research finds that these workers possess an unusually powerful capacity to adapt quickly and deliver results.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Research: How AI Agents Broaden the Scope of Knowledge Work",
       "link": "/2026/07/research-how-ai-agents-broaden-the-scope-of-knowledge-work",
       "date": "29 Jul 2026",
@@ -125,24 +143,6 @@
       "link": "/2026/07/glp-1s-and-the-high-cost-of-providing-health-care",
       "date": "24 Jul 2026",
       "excerpt": "As weight loss medications strain corporate health budgets, executives are weighing whether the medications&#8217; benefits justify their steep costs.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Mentoring Matters More in the AI Era",
-      "link": "/2026/07/why-mentoring-matters-more-in-the-ai-era",
-      "date": "24 Jul 2026",
-      "excerpt": "The automation of routine tasks is creating a development gap that structured, intentional mentoring can close.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Invisible Work Draining Your Best Employees",
-      "link": "/2026/07/the-invisible-work-draining-your-best-employees",
-      "date": "24 Jul 2026",
-      "excerpt": "Lightening the mental load your employees carry is less about reducing work itself than about redesigning how it is structured and distributed.",
       "image": ""
     },
     {
@@ -202,7 +202,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Is AI facing a big financial reckoning?",
+      "title": "Some tech shares are plunging - what does that mean for the AI revolution?",
       "link": "https://www.bbc.co.uk/news/articles/cevm09wkgz0o?at_medium=RSS&at_campaign=rss",
       "date": "29 Jul 2026",
       "excerpt": "Sharp falls in the value of chip makers have stoked investor concerns that the euphoria around AI related companies is fading.",
