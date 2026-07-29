@@ -1,5 +1,5 @@
 {
-  "updated": "29 Jul 2026, 20:52 UTC",
+  "updated": "29 Jul 2026, 22:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Meta shares fall as frustration grows over AI spending plans",
+      "link": "https://www.bbc.co.uk/news/articles/ckgd31l5yrdo?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jul 2026",
+      "excerpt": "Mark Zuckerberg said Meta intends to sell for the first time AI tools to other companies",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba2a/live/554a2820-8b94-11f1-9e6e-a18e6e88bf61.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Charities unable to pay staff after fraud alert",
       "link": "https://www.bbc.co.uk/news/articles/cz7dlelz711o?at_medium=RSS&at_campaign=rss",
       "date": "29 Jul 2026",
@@ -238,20 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Matcha and protein pivot pays off for Greggs as profits rise",
-      "link": "https://www.bbc.co.uk/news/articles/cx2r0nyx99yo?at_medium=RSS&at_campaign=rss",
+      "title": "The Chinese robot army transforming the UK's retail industry",
+      "link": "https://www.bbc.co.uk/news/articles/c0jl8v23qwgo?at_medium=RSS&at_campaign=rss",
       "date": "29 Jul 2026",
-      "excerpt": "UK's largest fast-food chain says it is changing its menu \"in line with changing tastes and trends\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d65a/live/f1815bb0-8b2a-11f1-841c-ef08db9db338.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'Don't wait until you want revenge' - why prenups are on the rise",
-      "link": "https://www.bbc.co.uk/news/articles/cgmkgvy3lv4o?at_medium=RSS&at_campaign=rss",
-      "date": "28 Jul 2026",
-      "excerpt": "More young couples are now signing prenups to set out who gets what in the event of divorce.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8625/live/297e27a0-84fa-11f1-8b9b-a724b687bb3b.jpg"
+      "excerpt": "Britain's weak productivity growth and labour shortages are creating an opportunity for China's robotics firms.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/96ad/live/c412f1a0-8708-11f1-94fc-011b42f226be.jpg"
     }
   ]
 }
