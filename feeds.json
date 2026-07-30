@@ -1,6 +1,15 @@
 {
-  "updated": "30 Jul 2026, 10:22 UTC",
+  "updated": "30 Jul 2026, 13:54 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "What if the brain does not create consciousness?",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260729043829.htm",
+      "date": "29 Jul 2026",
+      "excerpt": "Christof Koch is taking on one of science’s deepest mysteries: how the brain creates conscious experience, or whether it creates it at all. He argues that materialism has yet to solve this “hard problem” and will explore puzzling phenomena ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260724061436.htm",
       "date": "25 Jul 2026",
       "excerpt": "Even mild inflammation during pregnancy led mouse offspring to develop persistent brain overactivity, sensory sensitivity, repetitive behaviors, and increased seizure risk. Remarkably, one dose of rapamycin improved nearly all of these prob",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "APOE2 may protect the brain from Alzheimer’s and aging",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260723084856.htm",
-      "date": "24 Jul 2026",
-      "excerpt": "The longevity-linked APOE2 gene appears to protect brain cells by reducing DNA damage and helping neurons recover from stress. The finding could open a new path toward treatments that mimic APOE2’s defenses in people at higher genetic risk ",
       "image": ""
     },
     {
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US economic growth slows unexpectedly in second quarter",
+      "link": "https://www.bbc.co.uk/news/articles/cd0xvrmlx2eo?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jul 2026",
+      "excerpt": "The economy grew at an annual rate of 1.5% in the three months to June, down from 2.1% seen in the previous quarter.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e1b/live/73f6ba60-8c14-11f1-94b2-05bc97107049.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Virtual interviews don't show bosses your personality, says Burnham",
       "link": "https://www.bbc.co.uk/news/articles/c4g4dkr40deo?at_medium=RSS&at_campaign=rss",
       "date": "30 Jul 2026",
@@ -229,15 +238,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Beauty Pie founder on how she dropped out of university and built five beauty businesses",
-      "link": "https://www.bbc.co.uk/news/articles/c8jngmk93p9o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jul 2026",
-      "excerpt": "Marcia Kilgore, founder of Beauty Pie, shares her top tips on how to create a successful business.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0af0/live/8f2c56f0-8be7-11f1-b2ab-0dd01740f9f6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "The Chinese robot army transforming the UK's retail industry",
       "link": "https://www.bbc.co.uk/news/articles/c0jl8v23qwgo?at_medium=RSS&at_campaign=rss",
       "date": "29 Jul 2026",
@@ -247,11 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Interest rates expected to be held again by Bank of England",
-      "link": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
+      "title": "Beauty Pie founder on how she dropped out of university and built five beauty businesses",
+      "link": "https://www.bbc.co.uk/news/articles/c8jngmk93p9o?at_medium=RSS&at_campaign=rss",
       "date": "29 Jul 2026",
-      "excerpt": "It would be the fifth hold in a row, with the Bank rate standing at 3.75% - the lowest since February 2023.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38e0/live/7b090d20-8b3e-11f1-b2d7-b96c6bc9d7f5.jpg"
+      "excerpt": "Marcia Kilgore, founder of Beauty Pie, shares her top tips on how to create a successful business.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0af0/live/8f2c56f0-8be7-11f1-b2ab-0dd01740f9f6.jpg"
     }
   ]
 }
