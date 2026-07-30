@@ -1,5 +1,5 @@
 {
-  "updated": "30 Jul 2026, 21:06 UTC",
+  "updated": "30 Jul 2026, 23:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Andy Burnham to give regional mayors share of income tax",
+      "link": "https://www.bbc.co.uk/news/articles/c4g3eyg60e0o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jul 2026",
+      "excerpt": "The prime minister says the move will give power to \"every postcode\" but critics say the plans lack detail.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb9c/live/1884aea0-8c35-11f1-89bb-9b3e3c6f25f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Bank holds interest rates but says it is ready to raise them if Iran war escalates",
       "link": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
       "date": "30 Jul 2026",
@@ -220,20 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US economic growth sees surprise slowdown in second quarter",
-      "link": "https://www.bbc.co.uk/news/articles/cd0xvrmlx2eo?at_medium=RSS&at_campaign=rss",
+      "title": "Burnham says he told Trump UK will be pragmatic about North Sea oil",
+      "link": "https://www.bbc.co.uk/news/articles/c70gr75xzg5o?at_medium=RSS&at_campaign=rss",
       "date": "30 Jul 2026",
-      "excerpt": "The economy grew at an annual rate of 1.5% in the three months to June, down from 2.1% seen in the previous quarter.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c7d/live/d09a43a0-8c27-11f1-bdad-17769c057c64.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Virtual interviews don't show bosses your personality, says Burnham",
-      "link": "https://www.bbc.co.uk/news/articles/c4g4dkr40deo?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jul 2026",
-      "excerpt": "Interviews online may not allow young people to \"shine\" and communicate their \"passion\", the prime minister says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8736/live/ef68bc30-8beb-11f1-9127-6b0fc0b6fa67.jpg"
+      "excerpt": "Andy Burnham says he told the US president he couldn't ignore North Sea resources when people are struggling.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/656d/live/f6c95880-8c32-11f1-89bb-9b3e3c6f25f4.jpg"
     },
     {
       "source": "BBC Business",
@@ -247,11 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Shell profits double as oil prices rise due to Iran war",
-      "link": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_medium=RSS&at_campaign=rss",
+      "title": "India wants to join the strawberry superpowers",
+      "link": "https://www.bbc.co.uk/news/articles/c8x274xxxpwo?at_medium=RSS&at_campaign=rss",
       "date": "30 Jul 2026",
-      "excerpt": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efd5/live/6ade7670-8be2-11f1-9d57-5bf4695bf6fa.jpg"
+      "excerpt": "Indian strawberry farmers rely on varieties imported from the US and Europe, but that could change.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dc8/live/4bdd6170-7920-11f1-a627-714adb4eed6e.jpg"
     }
   ]
 }
