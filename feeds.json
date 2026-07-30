@@ -1,5 +1,5 @@
 {
-  "updated": "30 Jul 2026, 13:54 UTC",
+  "updated": "30 Jul 2026, 15:50 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US economic growth slows unexpectedly in second quarter",
+      "title": "Bank holds interest rates but says it is ready to raise them if Iran war escalates",
+      "link": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jul 2026",
+      "excerpt": "The Bank also expects the economy to grow more than previously forecast this year, although uncertainties remain because of the Iran war.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01e8/live/d51c5e70-8c29-11f1-a7ab-8b30adf0800a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US economic growth sees surprise slowdown in second quarter",
       "link": "https://www.bbc.co.uk/news/articles/cd0xvrmlx2eo?at_medium=RSS&at_campaign=rss",
       "date": "30 Jul 2026",
       "excerpt": "The economy grew at an annual rate of 1.5% in the three months to June, down from 2.1% seen in the previous quarter.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e1b/live/73f6ba60-8c14-11f1-94b2-05bc97107049.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c7d/live/d09a43a0-8c27-11f1-bdad-17769c057c64.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,6 +229,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Hundreds of jobs to go at Jaguar Land Rover",
+      "link": "https://www.bbc.co.uk/news/articles/cq6dmjv1jpdo?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jul 2026",
+      "excerpt": "The car giant says it expects fewer than 300 people will lose their jobs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70f8/live/37261730-8c0e-11f1-a7ab-8b30adf0800a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Shell profits double as oil prices rise due to Iran war",
       "link": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_medium=RSS&at_campaign=rss",
       "date": "30 Jul 2026",
@@ -229,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What happens here has a big impact on your money",
-      "link": "https://www.bbc.co.uk/news/videos/ckg4jxwkn2lo?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jul 2026",
-      "excerpt": "BBC business reporter Dearbail Jordan explains how it works from inside the Bank of England.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/618c/live/9a13a080-8b53-11f1-8322-5bf52455cf04.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "The Chinese robot army transforming the UK's retail industry",
       "link": "https://www.bbc.co.uk/news/articles/c0jl8v23qwgo?at_medium=RSS&at_campaign=rss",
       "date": "29 Jul 2026",
       "excerpt": "Britain's weak productivity growth and labour shortages are creating an opportunity for China's robotics firms.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/96ad/live/c412f1a0-8708-11f1-94fc-011b42f226be.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Beauty Pie founder on how she dropped out of university and built five beauty businesses",
-      "link": "https://www.bbc.co.uk/news/articles/c8jngmk93p9o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jul 2026",
-      "excerpt": "Marcia Kilgore, founder of Beauty Pie, shares her top tips on how to create a successful business.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0af0/live/8f2c56f0-8be7-11f1-b2ab-0dd01740f9f6.jpg"
     }
   ]
 }
