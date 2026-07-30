@@ -1,5 +1,5 @@
 {
-  "updated": "30 Jul 2026, 02:09 UTC",
+  "updated": "30 Jul 2026, 06:25 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,7 +220,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "I dropped out of university and built five beauty businesses. Here's how I did it",
+      "title": "Burnham says nuclear sub investment will protect UK and boost jobs",
+      "link": "https://www.bbc.co.uk/news/articles/crl70x0nxr9o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jul 2026",
+      "excerpt": "Speaking ahead of a visit to Barrow-in-Furness, the PM seeks to stress the economic benefits of defence spending.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c653/live/f6fd7a60-8b8e-11f1-9432-3dcf466331f0.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Beauty Pie founder on how she dropped out of university and built five beauty businesses",
       "link": "https://www.bbc.co.uk/news/articles/c8jngmk93p9o?at_medium=RSS&at_campaign=rss",
       "date": "29 Jul 2026",
       "excerpt": "Marcia Kilgore, founder of Beauty Pie, shares her top tips on how to create a successful business.",
@@ -234,15 +243,6 @@
       "date": "29 Jul 2026",
       "excerpt": "The Federal Reserve's decision, which was broadly expected, means rates remain between the 3.5% and 3.75%.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa1f/live/9a5f9640-8b56-11f1-8322-5bf52455cf04.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump considering AI controls after OpenAI hacking incidents",
-      "link": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jul 2026",
-      "excerpt": "It marks a change of tone for his administration, which has taken a more hands-off approach to the technology.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ade/live/8444b290-8ba7-11f1-97f2-db346fdb1706.jpg"
     },
     {
       "source": "BBC Business",
