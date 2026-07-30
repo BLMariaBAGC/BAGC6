@@ -1,5 +1,5 @@
 {
-  "updated": "29 Jul 2026, 22:57 UTC",
+  "updated": "30 Jul 2026, 02:09 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Interest rates expected to be held again by Bank of England",
+      "link": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jul 2026",
+      "excerpt": "It would be the fifth hold in a row, with the Bank rate standing at 3.75% - the lowest since February 2023.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38e0/live/7b090d20-8b3e-11f1-b2d7-b96c6bc9d7f5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What happens here has a big impact on your money",
+      "link": "https://www.bbc.co.uk/news/videos/ckg4jxwkn2lo?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jul 2026",
+      "excerpt": "BBC business reporter Dearbail Jordan explains how it works from inside the Bank of England.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/618c/live/9a13a080-8b53-11f1-8322-5bf52455cf04.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I dropped out of university and built five beauty businesses. Here's how I did it",
+      "link": "https://www.bbc.co.uk/news/articles/c8jngmk93p9o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Jul 2026",
+      "excerpt": "Marcia Kilgore, founder of Beauty Pie, shares her top tips on how to create a successful business.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db29/live/b3a50330-8a87-11f1-83c5-cf36fe4b083e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'No magic wand' to tackle high prices, Fed boss says as US interest rates held",
       "link": "https://www.bbc.co.uk/news/articles/cy07wgqjv08o?at_medium=RSS&at_campaign=rss",
       "date": "29 Jul 2026",
@@ -211,38 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Meta shares fall as frustration grows over AI spending plans",
-      "link": "https://www.bbc.co.uk/news/articles/ckgd31l5yrdo?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jul 2026",
-      "excerpt": "Mark Zuckerberg said Meta intends to sell for the first time AI tools to other companies",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba2a/live/554a2820-8b94-11f1-9e6e-a18e6e88bf61.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Charities unable to pay staff after fraud alert",
-      "link": "https://www.bbc.co.uk/news/articles/cz7dlelz711o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jul 2026",
-      "excerpt": "Security fears saw CAF Bank, which serves 14,000 UK charities, suspend its online banking portal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c4a/live/13985170-1f8b-11f0-a007-45ee4cc6069d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Some tech shares are plunging - what does that mean for the AI revolution?",
-      "link": "https://www.bbc.co.uk/news/articles/cevm09wkgz0o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jul 2026",
-      "excerpt": "Sharp falls in the value of chip makers have stoked investor concerns that the euphoria around AI related companies is fading.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3471/live/5f73f4d0-8b52-11f1-8139-b39d1c7486b2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ticket prices set to rise by 15p as Heathrow able to recover runway project money",
-      "link": "https://www.bbc.co.uk/news/articles/cdx8ke9gpnko?at_medium=RSS&at_campaign=rss",
-      "date": "29 Jul 2026",
-      "excerpt": "UK airport gets green light to charge airlines more to use the hub, which is expected to mean higher fares for flyers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/182d/live/7af18c50-8b24-11f1-a7ab-8b30adf0800a.jpg"
+      "title": "Trump considering AI controls after OpenAI hacking incidents",
+      "link": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Jul 2026",
+      "excerpt": "It marks a change of tone for his administration, which has taken a more hands-off approach to the technology.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ade/live/8444b290-8ba7-11f1-97f2-db346fdb1706.jpg"
     },
     {
       "source": "BBC Business",
