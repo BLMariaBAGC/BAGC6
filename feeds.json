@@ -1,5 +1,5 @@
 {
-  "updated": "31 Jul 2026, 10:36 UTC",
+  "updated": "31 Jul 2026, 14:00 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,60 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How the Best CEOs Lead Transformation",
+      "link": "/2026/07/how-the-best-ceos-lead-transformation",
+      "date": "31 Jul 2026",
+      "excerpt": "An HBR Executive Live conversation with Russell Reynolds Associates CEO Constantine Alexandrakis.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "AI and IT Teams Often Clash. But They Don’t Have To.",
+      "link": "/2026/07/ai-and-it-teams-often-clash-but-they-dont-have-to",
+      "date": "31 Jul 2026",
+      "excerpt": "How three companies resolved common conflicts.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Hidden Realities of AI Adoption",
+      "link": "/2026/07/the-hidden-realities-of-ai-adoption",
+      "date": "30 Jul 2026",
+      "excerpt": "A virtual roundtable with Kate Niederhoffer and Thomas Davenport, exclusively for HBR subscribers.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Introducing The Founder Mindset: Tim Ferriss on Experiments, Risk, and Freedom",
+      "link": "/podcast/2026/07/introducing-the-founder-mindset-tim-ferriss-on-experiments-risk-and-freedom",
+      "date": "30 Jul 2026",
+      "excerpt": "A new podcast from our colleagues at Harvard Business School Foundry.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "3 Warning Signs Your Supplier Is in Distress",
+      "link": "/2026/07/3-warning-signs-your-supplier-is-in-distress",
+      "date": "30 Jul 2026",
+      "excerpt": "Supplier weakness often appears first as a gradual retreat.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "AI and the Looming Competition for Margin",
+      "link": "/2026/07/ai-and-the-looming-competition-for-margin",
+      "date": "30 Jul 2026",
+      "excerpt": "If industries achieve productivity growth with AI, they&#8217;ll likely also see fierce price competition and margin erosion.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Embrace AI Without Damaging Trust: Lessons from the “Financial Times”",
       "link": "/2026/07/embrace-ai-without-damaging-trust-lessons-from-the-financial-times",
       "date": "29 Jul 2026",
@@ -89,60 +143,6 @@
       "link": "/2026/07/the-case-for-hiring-job-hoppers",
       "date": "29 Jul 2026",
       "excerpt": "New research finds that these workers possess an unusually powerful capacity to adapt quickly and deliver results.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: How AI Agents Broaden the Scope of Knowledge Work",
-      "link": "/2026/07/research-how-ai-agents-broaden-the-scope-of-knowledge-work",
-      "date": "29 Jul 2026",
-      "excerpt": "Efficiency gains are only part of the story.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Some Junior Employees Work Well with AI—and Others Don’t",
-      "link": "/2026/07/why-some-junior-employees-work-well-with-ai-and-others-dont-2",
-      "date": "28 Jul 2026",
-      "excerpt": "In this week&#8217;s The Insider newsletter, tech editor Tom Stackpole shares new research on AI&#8217;s impact on entry-level workers.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Makes Chinese Companies So Competitive?",
-      "link": "/podcast/2026/07/what-makes-chinese-companies-so-competitive",
-      "date": "28 Jul 2026",
-      "excerpt": "A conversation with researcher Dan Wang on how China&#8217;s engineering mindset drives innovation.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Don’t Let AI Make Bad Analytics Worse",
-      "link": "/2026/07/dont-let-ai-make-bad-analytics-worse",
-      "date": "27 Jul 2026",
-      "excerpt": "Companies need discipline to keep flawed analysis from scaling.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "3 Questions to Pressure-Test Your Priorities",
-      "link": "/2026/07/3-questions-to-pressure-test-your-priorities",
-      "date": "27 Jul 2026",
-      "excerpt": "How to make fewer, better, and clearer high-stakes decisions when everything seems urgent.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "GLP-1s and the High Cost of Providing Health Care",
-      "link": "/2026/07/glp-1s-and-the-high-cost-of-providing-health-care",
-      "date": "24 Jul 2026",
-      "excerpt": "As weight loss medications strain corporate health budgets, executives are weighing whether the medications&#8217; benefits justify their steep costs.",
       "image": ""
     },
     {
@@ -202,11 +202,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Passenger on British Airways mayday flight describes fear and shout of 'I don't want to die'",
+      "link": "https://www.bbc.co.uk/news/articles/cn9n2v3lwr0o?at_medium=RSS&at_campaign=rss",
+      "date": "31 Jul 2026",
+      "excerpt": "Edward Killiwick was on the flight that issued a distress call, before it landed safely at Heathrow earlier this month.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a427/live/adfea090-8cde-11f1-a7ab-8b30adf0800a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Sainsbury's agrees to sell Argos for £120m",
       "link": "https://www.bbc.co.uk/news/articles/cpw9yrl4p2qo?at_medium=RSS&at_campaign=rss",
       "date": "31 Jul 2026",
       "excerpt": "Under the terms of the deal, Argos will still operate in Sainsbury's shops, sell Habitat products, and offer Nectar points.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c864/live/8a78e550-8cc9-11f1-b2ab-0dd01740f9f6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK petrol prices hit highest level since Iran war began",
+      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "date": "31 Jul 2026",
+      "excerpt": "The price of unleaded hits 160p a litre, according to motoring group the RAC, as oil prices remain elevated.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8143/live/f8d0c8b0-7572-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,29 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Thames Water boss says leakage targets 'not realistic'",
-      "link": "https://www.bbc.co.uk/news/articles/c04kd3gl1gpo?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jul 2026",
-      "excerpt": "Chris Weston said Thames wanted \"to do better\" but some of its targets were not achievable.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ae1/live/89502af0-8c54-11f1-ba3e-21e9a16dd8e9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "'I pay £580 a month to live in a disused care home': Property guardians show us around",
       "link": "https://www.bbc.co.uk/news/articles/cj4kvge1pyvo?at_medium=RSS&at_campaign=rss",
       "date": "30 Jul 2026",
       "excerpt": "Could you live communally in a disused building in exchange for a heavily discounted rent? Property guardians show us around.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39df/live/81725880-842f-11f1-8db9-6b4471749e2a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "South Korean shares soar after chip stock rout",
-      "link": "https://www.bbc.co.uk/news/articles/c4gdzlzprv1o?at_medium=RSS&at_campaign=rss",
-      "date": "31 Jul 2026",
-      "excerpt": "It comes after a three-day rout that wiped hundreds of billions of dollars off the value of the country's stock market.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c71/live/858baa40-8c93-11f1-9acb-a168fa067df9.jpg"
     },
     {
       "source": "BBC Business",
