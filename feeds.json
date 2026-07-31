@@ -1,5 +1,5 @@
 {
-  "updated": "31 Jul 2026, 02:37 UTC",
+  "updated": "31 Jul 2026, 06:41 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,7 +211,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Anthropic says Claude AI hacked three firms during cyber tests",
+      "title": "South Korean shares soar after chip stock rout",
+      "link": "https://www.bbc.co.uk/news/articles/c4gdzlzprv1o?at_medium=RSS&at_campaign=rss",
+      "date": "31 Jul 2026",
+      "excerpt": "It comes after a three-day rout that wiped hundreds of billions of dollars off the value of the country's stock market.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c71/live/858baa40-8c93-11f1-9acb-a168fa067df9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Anthropic's Claude AI escapes tests to hack 3 organisations",
       "link": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po?at_medium=RSS&at_campaign=rss",
       "date": "31 Jul 2026",
       "excerpt": "It comes just days after rival OpenAI said rogue AI agents had breached other firms' networks.",
@@ -229,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Three things we learned about AI from Big Tech earnings",
+      "title": "Amazon and Apple just told us more about their AI plans - here are 3 things we learned",
       "link": "https://www.bbc.co.uk/news/articles/cp87m46g392o?at_medium=RSS&at_campaign=rss",
       "date": "31 Jul 2026",
       "excerpt": "Billions of dollars are being poured into a new wave of AI technology. But will it pay off?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f63b/live/04fbebb0-8c7f-11f1-8972-83c327826a89.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Apple warns of future 'supply constraints' for Mac, iPhone, iPad",
-      "link": "https://www.bbc.co.uk/news/articles/c204nw64xwno?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jul 2026",
-      "excerpt": "Shares of Apple plunged on a warning of slower sales in the coming months.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a0d/live/81d2aa70-8c52-11f1-ba3e-21e9a16dd8e9.jpg"
     },
     {
       "source": "BBC Business",
