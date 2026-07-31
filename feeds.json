@@ -1,5 +1,5 @@
 {
-  "updated": "31 Jul 2026, 14:00 UTC",
+  "updated": "31 Jul 2026, 17:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Are You Spending Wisely on AI?",
+      "link": "/2026/07/are-you-spending-wisely-on-ai",
+      "date": "31 Jul 2026",
+      "excerpt": "As AI costs spiral, HBS professor Iavor Bojinov offers a practical guide to help leaders weigh the tradeoffs between cost, capability, and security.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How the Best CEOs Lead Transformation",
       "link": "/2026/07/how-the-best-ceos-lead-transformation",
       "date": "31 Jul 2026",
@@ -134,15 +143,6 @@
       "link": "/2026/07/embrace-ai-without-damaging-trust-lessons-from-the-financial-times",
       "date": "29 Jul 2026",
       "excerpt": "An HBR Executive Masterclass with Harvard Business School professor Sandra J. Sucher.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Case for Hiring Job Hoppers",
-      "link": "/2026/07/the-case-for-hiring-job-hoppers",
-      "date": "29 Jul 2026",
-      "excerpt": "New research finds that these workers possess an unusually powerful capacity to adapt quickly and deliver results.",
       "image": ""
     },
     {
@@ -220,6 +220,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Budget to be held in October, Healey announces",
+      "link": "https://www.bbc.co.uk/news/articles/cjd4yz35x8go?at_medium=RSS&at_campaign=rss",
+      "date": "31 Jul 2026",
+      "excerpt": "The new chancellor pledged to move money and power out of Westminster, and into every postcode around Britain.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f911/live/99ae70c0-8ced-11f1-a573-93159e2b55da.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "UK petrol prices hit highest level since Iran war began",
       "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
       "date": "31 Jul 2026",
@@ -234,15 +243,6 @@
       "date": "31 Jul 2026",
       "excerpt": "The decision follows a review of BP's operations and is set to end 60 years of production in the region by the oil giant.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4bd0/live/1d87d880-8cb4-11f1-b49b-bb9fc846a015.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I pay £580 a month to live in a disused care home': Property guardians show us around",
-      "link": "https://www.bbc.co.uk/news/articles/cj4kvge1pyvo?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jul 2026",
-      "excerpt": "Could you live communally in a disused building in exchange for a heavily discounted rent? Property guardians show us around.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39df/live/81725880-842f-11f1-8db9-6b4471749e2a.jpg"
     },
     {
       "source": "BBC Business",
