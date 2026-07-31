@@ -1,5 +1,5 @@
 {
-  "updated": "31 Jul 2026, 17:26 UTC",
+  "updated": "31 Jul 2026, 19:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "AI firms must answer for rogue bots, says boss of hacked company",
+      "link": "https://www.bbc.co.uk/news/articles/cr7k49xjzzeo?at_medium=RSS&at_campaign=rss",
+      "date": "31 Jul 2026",
+      "excerpt": "Clement Delangue said he didn't want cyber attacks on other companies to become \"normalised\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b89/live/5e05acf0-8d01-11f1-9a29-416a24547568.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Sainsbury's agrees to sell Argos for £120m",
       "link": "https://www.bbc.co.uk/news/articles/cpw9yrl4p2qo?at_medium=RSS&at_campaign=rss",
       "date": "31 Jul 2026",
@@ -234,15 +243,6 @@
       "date": "31 Jul 2026",
       "excerpt": "The price of unleaded hits 160p a litre, according to motoring group the RAC, as oil prices remain elevated.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8143/live/f8d0c8b0-7572-11f1-b976-0b9c15b0ccfc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "BP puts North Sea business up for sale",
-      "link": "https://www.bbc.co.uk/news/articles/c62q7w003lro?at_medium=RSS&at_campaign=rss",
-      "date": "31 Jul 2026",
-      "excerpt": "The decision follows a review of BP's operations and is set to end 60 years of production in the region by the oil giant.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4bd0/live/1d87d880-8cb4-11f1-b49b-bb9fc846a015.jpg"
     },
     {
       "source": "BBC Business",
