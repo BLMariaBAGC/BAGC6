@@ -1,5 +1,5 @@
 {
-  "updated": "31 Jul 2026, 21:01 UTC",
+  "updated": "31 Jul 2026, 22:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Snapchat joins other popular platforms in fight against 'AI slop'",
+      "link": "https://www.bbc.co.uk/news/articles/c77g6dm5pr8o?at_medium=RSS&at_campaign=rss",
+      "date": "31 Jul 2026",
+      "excerpt": "Snapchat, YouTube, LinkedIn, and Substack are trying to combat the proliferation of fake AI content.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1ad/live/074af240-8d23-11f1-92b9-3b7efaf76067.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Passenger on British Airways mayday flight describes fear and shout of 'I don't want to die'",
       "link": "https://www.bbc.co.uk/news/articles/cn9n2v3lwr0o?at_medium=RSS&at_campaign=rss",
       "date": "31 Jul 2026",
@@ -234,15 +243,6 @@
       "date": "31 Jul 2026",
       "excerpt": "The new chancellor pledged to move money and power out of Westminster, and into every postcode around Britain.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f911/live/99ae70c0-8ced-11f1-a573-93159e2b55da.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK petrol prices hit highest level since Iran war began",
-      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
-      "date": "31 Jul 2026",
-      "excerpt": "The price of unleaded hits 160p a litre, according to motoring group the RAC, as oil prices remain elevated.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8143/live/f8d0c8b0-7572-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
