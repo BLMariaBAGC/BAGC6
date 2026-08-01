@@ -1,5 +1,5 @@
 {
-  "updated": "01 Aug 2026, 11:15 UTC",
+  "updated": "01 Aug 2026, 13:16 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Faisal Islam: Four reasons why Fifa's World Cup plan never stacked up",
+      "link": "https://www.bbc.co.uk/news/articles/clyvd8363wlo?at_medium=RSS&at_campaign=rss",
+      "date": "1 Aug 2026",
+      "excerpt": "The actual presentation of FIFA's plan to part-privatise the World Cup raises many more questions than it answers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f87/live/51e22a90-8d2c-11f1-a7ab-8b30adf0800a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Snapchat joins other popular platforms in fight against 'AI slop'",
       "link": "https://www.bbc.co.uk/news/articles/c77g6dm5pr8o?at_medium=RSS&at_campaign=rss",
       "date": "31 Jul 2026",
@@ -243,15 +252,6 @@
       "date": "1 Aug 2026",
       "excerpt": "The Chancellor said the Budget on 28 October would “meet our fiscal rules” and give families \"stability\" to plan for the future.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f911/live/99ae70c0-8ced-11f1-a573-93159e2b55da.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "India wants to join the strawberry superpowers",
-      "link": "https://www.bbc.co.uk/news/articles/c8x274xxxpwo?at_medium=RSS&at_campaign=rss",
-      "date": "30 Jul 2026",
-      "excerpt": "Indian strawberry farmers rely on varieties imported from the US and Europe, but that could change.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dc8/live/4bdd6170-7920-11f1-a627-714adb4eed6e.jpg"
     }
   ]
 }
