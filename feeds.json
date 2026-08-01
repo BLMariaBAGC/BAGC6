@@ -1,6 +1,42 @@
 {
-  "updated": "01 Aug 2026, 13:16 UTC",
+  "updated": "01 Aug 2026, 14:58 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Experts say blood pressure guidelines are missing half the equation",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260731034135.htm",
+      "date": "31 Jul 2026",
+      "excerpt": "A new report suggests that blood pressure may be controlled more effectively by increasing potassium while also cutting sodium. Potassium-rich foods can help balance sodium’s effects, but most people consume far less potassium than recommen",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "AI can tell if your brain is aging faster than you are",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260729051540.htm",
+      "date": "31 Jul 2026",
+      "excerpt": "A person’s sleeping brain may reveal warning signs of dementia long before memory problems begin. Researchers used machine learning to analyze EEG recordings from about 7,000 adults and found that an older-than-expected “brain age” was tied",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover how obesity may fuel Alzheimer’s disease",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260729051531.htm",
+      "date": "30 Jul 2026",
+      "excerpt": "Researchers have uncovered a possible biological pathway connecting obesity to Alzheimer’s disease. Obesity appears to raise levels of certain fat molecules that can travel to the brain, disrupt its immune defenses, and promote harmful amyl",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover why poor sleep may harm some brains more",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260729051529.htm",
+      "date": "31 Jul 2026",
+      "excerpt": "A gene involved in the brain’s overnight cleaning system may change how strongly poor sleep affects Alzheimer’s-related brain changes. The findings point toward more personalized prevention strategies based on both genetics and sleep habits",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -22,55 +58,19 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "Scientists find a simple routine linked to less pain and depression",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260729010705.htm",
+      "date": "30 Jul 2026",
+      "excerpt": "Keeping a regular daily schedule may help reduce pain and depression, especially among older adults with insomnia. Researchers found that consistent times for waking, eating, socializing, and sleeping were linked to better well-being regard",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "Eating within 8 hours may help keep the aging brain sharp",
       "link": "https://www.sciencedaily.com/releases/2026/07/260727012125.htm",
       "date": "27 Jul 2026",
       "excerpt": "Eating within a shorter daily window may help protect certain thinking skills as people age. In a small six-month trial, older women who limited eating to about 8 to 9 hours a day performed better on planning and problem-solving tests than ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A hidden Alzheimer’s tipping point may decide who gets dementia",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260726015257.htm",
-      "date": "26 Jul 2026",
-      "excerpt": "Scientists have identified a possible tipping point that helps determine whether Alzheimer’s-related brain changes lead to dementia. The key may lie in how the brain’s immune cells respond to plaques and tau, offering a promising new target",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Inside the Backrooms: The internet’s creepiest place is becoming a tourist attraction",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260726015254.htm",
-      "date": "26 Jul 2026",
-      "excerpt": "The Backrooms began as a single eerie image of empty yellow rooms, but internet users transformed it into a vast fictional world that feels disturbingly real. Through videos, games, maps, survival guides and social media stories, audiences ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your dreams aren’t random. Your brain is rewriting reality",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260725105731.htm",
-      "date": "27 Jul 2026",
-      "excerpt": "Dreams are not random mental noise. A large study of more than 3,700 dream and waking reports found that what we experience during sleep is shaped by both our personalities and the world around us. Rather than simply replaying daily events,",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Oral GLP-1 drugs may quiet the brain’s food craving circuit",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260724061439.htm",
-      "date": "25 Jul 2026",
-      "excerpt": "Newer oral drugs related to semaglutide medications such as Ozempic reduced pleasure-driven eating in mice by quieting a deep brain reward circuit. The finding could open new avenues for understanding food cravings and potentially treating ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A single dose reversed autism-like symptoms in adult mice within hours",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260724061436.htm",
-      "date": "25 Jul 2026",
-      "excerpt": "Even mild inflammation during pregnancy led mouse offspring to develop persistent brain overactivity, sensory sensitivity, repetitive behaviors, and increased seizure risk. Remarkably, one dose of rapamycin improved nearly all of these prob",
       "image": ""
     },
     {
