@@ -1,5 +1,5 @@
 {
-  "updated": "02 Aug 2026, 22:54 UTC",
+  "updated": "03 Aug 2026, 02:36 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "The change that may help you get a mortgage as a first-time buyer",
+      "link": "https://www.bbc.co.uk/news/articles/cp3rkzpl7ngo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Aug 2026",
+      "excerpt": "More relaxed mortgage regulation opens the door for some first-time buyers, but it comes with risk.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e565/live/1641fa60-8b60-11f1-b422-3b36120ef864.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US and Japan jointly intervene to prop up yen in rare move",
+      "link": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Aug 2026",
+      "excerpt": "Both countries have said that they will not hesitate to conduct joint interventions in the future.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717b/live/62dcb0b0-8ed3-11f1-b2f6-e1f7eea93d58.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "New Spider-Man film sees second-best global opening weekend ever",
+      "link": "https://www.bbc.co.uk/news/articles/c3w052le2elo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Aug 2026",
+      "excerpt": "The film's strong performance gives a much-needed boost for Disney ahead of the highly-anticipated release of Avengers: Doomsday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0d2/live/86e16b80-8ede-11f1-893f-93ecdb580a16.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Faisal Islam: Four reasons why Fifa's World Cup plan never stacked up",
       "link": "https://www.bbc.co.uk/news/articles/clyvd8363wlo?at_medium=RSS&at_campaign=rss",
       "date": "1 Aug 2026",
@@ -225,33 +252,6 @@
       "date": "31 Jul 2026",
       "excerpt": "Edward Killiwick was on the flight that issued a distress call, before it landed safely at Heathrow earlier this month.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a427/live/adfea090-8cde-11f1-a7ab-8b30adf0800a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI firms must answer for rogue bots, says boss of hacked company",
-      "link": "https://www.bbc.co.uk/news/articles/cr7k49xjzzeo?at_medium=RSS&at_campaign=rss",
-      "date": "31 Jul 2026",
-      "excerpt": "Clement Delangue said he didn't want cyber attacks on other companies to become \"normalised\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b89/live/5e05acf0-8d01-11f1-9a29-416a24547568.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Sainsbury's agrees to sell Argos for £120m",
-      "link": "https://www.bbc.co.uk/news/articles/cpw9yrl4p2qo?at_medium=RSS&at_campaign=rss",
-      "date": "31 Jul 2026",
-      "excerpt": "Under the terms of the deal, Argos will still operate in Sainsbury's shops, sell Habitat products, and offer Nectar points.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c864/live/8a78e550-8cc9-11f1-b2ab-0dd01740f9f6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Stick to spending limits, PM and chancellor tell ministers in joint memo",
-      "link": "https://www.bbc.co.uk/news/articles/cjd4yz35x8go?at_medium=RSS&at_campaign=rss",
-      "date": "1 Aug 2026",
-      "excerpt": "The Chancellor said the Budget on 28 October would “meet our fiscal rules” and give families \"stability\" to plan for the future.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f911/live/99ae70c0-8ced-11f1-a573-93159e2b55da.jpg"
     }
   ]
 }
