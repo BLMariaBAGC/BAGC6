@@ -1,5 +1,5 @@
 {
-  "updated": "03 Aug 2026, 14:33 UTC",
+  "updated": "03 Aug 2026, 17:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -146,58 +146,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What happens when employees who speak up are held back?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/30/what-happens-when-employees-who-speak-up-are-held-back/",
-      "date": "30 Jul 2026",
-      "excerpt": "Many organisational challenges, whether cultural,&nbsp;financial&nbsp;or operational, can be linked to difficulties in fostering open and honest upward communication.&nbsp;Silence can reflect fear, fatigue,&nbsp;uncertainty&nbsp;or the beli",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-2-1024x427.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The film industry underestimates the role of distributors in bringing projects to market",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/28/the-film-industry-underestimates-the-role-of-distributors-in-bringing-projects-to-market/",
-      "date": "28 Jul 2026",
-      "excerpt": "A strong&nbsp;film with famous names and clever technology&nbsp;is&nbsp;nothing&nbsp;if people cannot watch it.&nbsp;Good distributors are vital to bring projects to market.&nbsp;Angelo Tomaselli,&nbsp;Salvatore Torrisi&nbsp;and&nbsp;Joris ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Fitness apps keep users engaged – but do they change habits?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
-      "date": "27 Jul 2026",
-      "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What AI’s usurping of the peer-reviewed publications means for medicine and pharmaceutical industry",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/23/what-ais-usurping-of-the-peer-reviewed-publications-means-for-medicine-and-pharmaceutical-industry/",
-      "date": "23 Jul 2026",
-      "excerpt": "For hundreds of years, modern science has relied on peer-reviewed publications to register, to certify and to distribute new claims. Demand is still growing. But Alex Bedenkov and David Ginkel show rapidly technologies like AI have changed ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The betrayal of diversity in Britain’s book business",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
-      "date": "22 Jul 2026",
-      "excerpt": "After the Black Lives Matter protests in 2020 many industries rushed to signal their commitment to diversity. In British book publishing this led to a wave of self-help books by and for black women. But, as diversity itself comes under atta",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Strong banks do not guarantee financial stability",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/21/strong-banks-do-not-guarantee-financial-stability/",
-      "date": "21 Jul 2026",
-      "excerpt": "Finance has changed since the global&nbsp;financial crisis, with a&nbsp;growing share of credit,&nbsp;liquidity&nbsp;and risk-taking now taking place outside traditional deposit-taking institutions.&nbsp;Gustavo Pessoa&nbsp;shows how next f",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
+      "link": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss",
+      "date": "3 Aug 2026",
+      "excerpt": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5304/live/8eb45f90-8f4f-11f1-99e6-95543b07d23d.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +198,6 @@
       "date": "3 Aug 2026",
       "excerpt": "Both countries have said that they will not hesitate to conduct joint interventions in the future.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717b/live/62dcb0b0-8ed3-11f1-b2f6-e1f7eea93d58.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Faisal Islam: Four reasons why Fifa's World Cup plan never stacked up",
-      "link": "https://www.bbc.co.uk/news/articles/clyvd8363wlo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Aug 2026",
-      "excerpt": "The actual presentation of FIFA's plan to part-privatise the World Cup raises many more questions than it answers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f87/live/51e22a90-8d2c-11f1-a7ab-8b30adf0800a.jpg"
     }
   ]
 }
