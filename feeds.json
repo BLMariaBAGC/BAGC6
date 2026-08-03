@@ -1,5 +1,5 @@
 {
-  "updated": "03 Aug 2026, 02:36 UTC",
+  "updated": "03 Aug 2026, 06:56 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Almost £200,000 of fuel stolen from UK forecourts every day since Iran war began",
+      "link": "https://www.bbc.co.uk/news/articles/cy8mrrlkjppo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Aug 2026",
+      "excerpt": "Incidents of fuel being taken without payment have risen by a fifth in five months, according to industry analysis.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/42db/live/1194f890-8e8b-11f1-b8ee-9b3c26ad07bb.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US and Japan take action to prop up yen in rare joint move",
+      "link": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Aug 2026",
+      "excerpt": "Both countries have said that they will not hesitate to conduct joint interventions in the future.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717b/live/62dcb0b0-8ed3-11f1-b2f6-e1f7eea93d58.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The change that may help you get a mortgage as a first-time buyer",
       "link": "https://www.bbc.co.uk/news/articles/cp3rkzpl7ngo?at_medium=RSS&at_campaign=rss",
       "date": "2 Aug 2026",
@@ -211,20 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US and Japan jointly intervene to prop up yen in rare move",
-      "link": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Aug 2026",
-      "excerpt": "Both countries have said that they will not hesitate to conduct joint interventions in the future.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717b/live/62dcb0b0-8ed3-11f1-b2f6-e1f7eea93d58.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "New Spider-Man film sees second-best global opening weekend ever",
+      "title": "New Spider-Man film sees second-biggest ever global opening weekend",
       "link": "https://www.bbc.co.uk/news/articles/c3w052le2elo?at_medium=RSS&at_campaign=rss",
       "date": "3 Aug 2026",
-      "excerpt": "The film's strong performance gives a much-needed boost for Disney ahead of the highly-anticipated release of Avengers: Doomsday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0d2/live/86e16b80-8ede-11f1-893f-93ecdb580a16.jpg"
+      "excerpt": "The strong box office performance gives a boost to Disney ahead of the much-anticipated Avengers: Doomsday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcb2/live/d2005950-8f06-11f1-b8ee-9b3c26ad07bb.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "31 Jul 2026",
       "excerpt": "Snapchat, YouTube, LinkedIn, and Substack are trying to combat the proliferation of fake AI content.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1ad/live/074af240-8d23-11f1-92b9-3b7efaf76067.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Passenger on British Airways mayday flight describes fear and shout of 'I don't want to die'",
-      "link": "https://www.bbc.co.uk/news/articles/cn9n2v3lwr0o?at_medium=RSS&at_campaign=rss",
-      "date": "31 Jul 2026",
-      "excerpt": "Edward Killiwick was on the flight that issued a distress call, before it landed safely at Heathrow earlier this month.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a427/live/adfea090-8cde-11f1-a7ab-8b30adf0800a.jpg"
     }
   ]
 }
