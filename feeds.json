@@ -1,6 +1,24 @@
 {
-  "updated": "03 Aug 2026, 11:19 UTC",
+  "updated": "03 Aug 2026, 14:33 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Two new compounds could reveal hidden drivers of Alzheimer’s disease",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260802223437.htm",
+      "date": "3 Aug 2026",
+      "excerpt": "Vanderbilt researchers created the first selective compound designed to inhibit TAOK-1, a poorly understood protein connected to Alzheimer’s disease. They also discovered a second compound that activates the entire TAOK protein family, offe",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists may have found aging’s hidden trigger for brain disease",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260802223433.htm",
+      "date": "3 Aug 2026",
+      "excerpt": "Scientists have identified a molecular switch that may help explain why aging makes the brain more vulnerable to diseases such as ALS and Huntington’s. In worms, the protein EPS8 builds up with age and triggers signaling that encourages tox",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists find a simple routine linked to less pain and depression",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260729010705.htm",
-      "date": "30 Jul 2026",
-      "excerpt": "Keeping a regular daily schedule may help reduce pain and depression, especially among older adults with insomnia. Researchers found that consistent times for waking, eating, socializing, and sleeping were linked to better well-being regard",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What to Consider Before Giving Advice on a Global Team",
+      "link": "/2026/08/what-to-consider-before-giving-advice-on-a-global-team",
+      "date": "3 Aug 2026",
+      "excerpt": "Research on communication styles among American, Chinese, and Indian employees shows how they can interpret the same guidance in dramatically different ways&#8212;and lose trust as a result.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Eating within 8 hours may help keep the aging brain sharp",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260727012125.htm",
-      "date": "27 Jul 2026",
-      "excerpt": "Eating within a shorter daily window may help protect certain thinking skills as people age. In a small six-month trial, older women who limited eating to about 8 to 9 hours a day performed better on planning and problem-solving tests than ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Don’t Let AI Flatten Your Leadership Style",
+      "link": "/2026/08/dont-let-ai-flatten-your-leadership-style",
+      "date": "3 Aug 2026",
+      "excerpt": "How to protect your judgment, voice, and presence.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: Employees from Lower-Class Backgrounds Negotiate Less—and Face More Backlash",
+      "link": "/2026/08/research-employees-from-lower-class-backgrounds-negotiate-less-and-face-more-backlash",
+      "date": "3 Aug 2026",
+      "excerpt": "How leaders can redesign negotiation systems and address bias.",
       "image": ""
     },
     {
@@ -116,33 +143,6 @@
       "link": "/podcast/2026/07/introducing-the-founder-mindset-tim-ferriss-on-experiments-risk-and-freedom",
       "date": "30 Jul 2026",
       "excerpt": "A new podcast from our colleagues at Harvard Business School Foundry.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "3 Warning Signs Your Supplier Is in Distress",
-      "link": "/2026/07/3-warning-signs-your-supplier-is-in-distress",
-      "date": "30 Jul 2026",
-      "excerpt": "Supplier weakness often appears first as a gradual retreat.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI and the Looming Competition for Margin",
-      "link": "/2026/07/ai-and-the-looming-competition-for-margin",
-      "date": "30 Jul 2026",
-      "excerpt": "If industries achieve productivity growth with AI, they&#8217;ll likely also see fierce price competition and margin erosion.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Embrace AI Without Damaging Trust: Lessons from the “Financial Times”",
-      "link": "/2026/07/embrace-ai-without-damaging-trust-lessons-from-the-financial-times",
-      "date": "29 Jul 2026",
-      "excerpt": "An HBR Executive Masterclass with Harvard Business School professor Sandra J. Sucher.",
       "image": ""
     },
     {
@@ -211,20 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US and Japan take action to prop up yen in rare joint move",
-      "link": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Aug 2026",
-      "excerpt": "Both countries have said that they will not hesitate to conduct joint interventions in the future.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717b/live/62dcb0b0-8ed3-11f1-b2f6-e1f7eea93d58.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "It may be easier to get your first mortgage than you think - here's why",
       "link": "https://www.bbc.co.uk/news/articles/cp3rkzpl7ngo?at_medium=RSS&at_campaign=rss",
       "date": "3 Aug 2026",
       "excerpt": "More relaxed mortgage regulation opens the door for some first-time buyers, but it comes with risk.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a70a/live/c61f1110-8f26-11f1-b5a8-c9ccaae98ebb.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Xbox Series X price hiked by £170 due to rising memory chip costs",
+      "link": "https://www.bbc.co.uk/news/articles/czjlvrd9e43o?at_medium=RSS&at_campaign=rss",
+      "date": "3 Aug 2026",
+      "excerpt": "Xbox consoles now cost significantly more in the UK, with one model increasing in price by 43%.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77a2/live/784485e0-8f23-11f1-b5a8-c9ccaae98ebb.jpg"
     },
     {
       "source": "BBC Business",
@@ -238,20 +238,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US and Japan take action to prop up yen in rare joint move",
+      "link": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Aug 2026",
+      "excerpt": "Both countries have said that they will not hesitate to conduct joint interventions in the future.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717b/live/62dcb0b0-8ed3-11f1-b2f6-e1f7eea93d58.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Faisal Islam: Four reasons why Fifa's World Cup plan never stacked up",
       "link": "https://www.bbc.co.uk/news/articles/clyvd8363wlo?at_medium=RSS&at_campaign=rss",
       "date": "1 Aug 2026",
       "excerpt": "The actual presentation of FIFA's plan to part-privatise the World Cup raises many more questions than it answers.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f87/live/51e22a90-8d2c-11f1-a7ab-8b30adf0800a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Snapchat joins other popular platforms in fight against 'AI slop'",
-      "link": "https://www.bbc.co.uk/news/articles/c77g6dm5pr8o?at_medium=RSS&at_campaign=rss",
-      "date": "31 Jul 2026",
-      "excerpt": "Snapchat, YouTube, LinkedIn, and Substack are trying to combat the proliferation of fake AI content.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1ad/live/074af240-8d23-11f1-92b9-3b7efaf76067.jpg"
     }
   ]
 }
