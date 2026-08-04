@@ -1,6 +1,15 @@
 {
-  "updated": "04 Aug 2026, 02:21 UTC",
+  "updated": "04 Aug 2026, 06:25 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your brain may be wired to regain lost weight",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260803080902.htm",
+      "date": "3 Aug 2026",
+      "excerpt": "Weight loss is not simply a test of willpower. The human brain evolved to protect body fat during times of scarcity, and it can treat a previously higher weight as the new normal, triggering stronger hunger, cravings, and lower energy use a",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260729043829.htm",
       "date": "29 Jul 2026",
       "excerpt": "Christof Koch is taking on one of science’s deepest mysteries: how the brain creates conscious experience, or whether it creates it at all. He argues that materialism has yet to solve this “hard problem” and will explore puzzling phenomena ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your gut may help your brain decide what to remember",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260729010713.htm",
-      "date": "29 Jul 2026",
-      "excerpt": "Signals traveling from the gut to the brain may help turn meals into lasting memories. Rats showed stronger memory activity after consuming nutritious foods, but not after drinking sweet liquids with little or no nutritional value. Blocking",
       "image": ""
     },
     {
@@ -202,7 +202,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Half price rail travel extended to 18-year-olds",
+      "title": "Half-price rail travel extended to 18-year-olds",
       "link": "https://www.bbc.co.uk/news/articles/cy0jyln07r7o?at_medium=RSS&at_campaign=rss",
       "date": "3 Aug 2026",
       "excerpt": "They'll be able to buy the 16-17 Saver railcard up until the day before they turn 18.",
@@ -211,11 +211,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US states sue to block tariffs impacting dozens of countries",
+      "title": "US states sue to block Trump tariffs impacting dozens of countries",
       "link": "https://www.bbc.co.uk/news/articles/cy4kp8jd0ppo?at_medium=RSS&at_campaign=rss",
       "date": "4 Aug 2026",
       "excerpt": "The duties were imposed over claims that 60 US trading partners have failed to tackle forced labour.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6bc/live/e2d6f280-8f96-11f1-8063-579175a552d9.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5d5/live/ea554540-8fb7-11f1-a7ab-8b30adf0800a.jpg"
     },
     {
       "source": "BBC Business",
@@ -247,11 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What heatwaves mean for summer weddings – and how to plan for one",
+      "title": "How heatwaves are changing summer weddings - here's how to plan for one",
       "link": "https://www.bbc.co.uk/news/articles/cgr7qrdx4qwo?at_medium=RSS&at_campaign=rss",
       "date": "3 Aug 2026",
       "excerpt": "The wedding industry is facing last-minute costs to cope with the heat and October bookings are up.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e18d/live/f9161720-8f31-11f1-ac89-5b80aa0a0820.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cf8/live/e2ed0a60-8fc9-11f1-a7ab-8b30adf0800a.jpg"
     }
   ]
 }
