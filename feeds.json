@@ -1,5 +1,5 @@
 {
-  "updated": "04 Aug 2026, 21:10 UTC",
+  "updated": "04 Aug 2026, 23:01 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,19 +139,10 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Can teaching social skills improve social mobility?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/04/can-teaching-social-skills-improve-social-mobility/",
-      "date": "4 Aug 2026",
-      "excerpt": "Social mobility has stalled in America and Britain. And since the COVID-19 pandemic many young people face new disadvantages hindering their educational and professional prospects. Could social skills be the key to improving their opportuni",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "What happens when employees who speak up are held back?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/30/what-happens-when-employees-who-speak-up-are-held-back/",
       "date": "30 Jul 2026",
-      "excerpt": "Many organisational challenges, whether cultural, financial or operational, can be linked to difficulties in fostering open and honest upward communication. Silence can reflect fear, fatigue, uncertainty or the belief that speaking up will ",
+      "excerpt": "Many organisational challenges, whether cultural,&nbsp;financial&nbsp;or operational, can be linked to difficulties in fostering open and honest upward communication.&nbsp;Silence can reflect fear, fatigue,&nbsp;uncertainty&nbsp;or the beli",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-2-1024x427.jpg"
     },
     {
@@ -188,6 +179,15 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
       "date": "22 Jul 2026",
       "excerpt": "After the Black Lives Matter protests in 2020 many industries rushed to signal their commitment to diversity. In British book publishing this led to a wave of self-help books by and for black women. But, as diversity itself comes under atta",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Strong banks do not guarantee financial stability",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/21/strong-banks-do-not-guarantee-financial-stability/",
+      "date": "21 Jul 2026",
+      "excerpt": "Finance has changed since the global&nbsp;financial crisis, with a&nbsp;growing share of credit,&nbsp;liquidity&nbsp;and risk-taking now taking place outside traditional deposit-taking institutions.&nbsp;Gustavo Pessoa&nbsp;shows how next f",
       "image": ""
     },
     {
