@@ -1,5 +1,5 @@
 {
-  "updated": "04 Aug 2026, 06:25 UTC",
+  "updated": "04 Aug 2026, 10:35 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,10 +148,19 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Can teaching social skills improve social mobility?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/04/can-teaching-social-skills-improve-social-mobility/",
+      "date": "4 Aug 2026",
+      "excerpt": "Social mobility has stalled in America and Britain. And since the COVID-19 pandemic many young people face new disadvantages hindering their educational and professional prospects. Could social skills be the key to improving their opportuni",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "What happens when employees who speak up are held back?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/30/what-happens-when-employees-who-speak-up-are-held-back/",
       "date": "30 Jul 2026",
-      "excerpt": "Many organisational challenges, whether cultural,&nbsp;financial&nbsp;or operational, can be linked to difficulties in fostering open and honest upward communication.&nbsp;Silence can reflect fear, fatigue,&nbsp;uncertainty&nbsp;or the beli",
+      "excerpt": "Many organisational challenges, whether cultural, financial or operational, can be linked to difficulties in fostering open and honest upward communication. Silence can reflect fear, fatigue, uncertainty or the belief that speaking up will ",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-2-1024x427.jpg"
     },
     {
@@ -191,13 +200,31 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Strong banks do not guarantee financial stability",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/21/strong-banks-do-not-guarantee-financial-stability/",
-      "date": "21 Jul 2026",
-      "excerpt": "Finance has changed since the global&nbsp;financial crisis, with a&nbsp;growing share of credit,&nbsp;liquidity&nbsp;and risk-taking now taking place outside traditional deposit-taking institutions.&nbsp;Gustavo Pessoa&nbsp;shows how next f",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "BP's $5.7bn profit highest since 2022 as Iran war pushes up oil price",
+      "link": "https://www.bbc.co.uk/news/articles/cg5l11m02j3o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Aug 2026",
+      "excerpt": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0651/live/2e6f7a20-8fe0-11f1-bb3b-43bf44dc94d9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Apple issues new challenge against UK order for access to private user data",
+      "link": "https://www.bbc.co.uk/news/articles/cvg0kk3ek2vo?at_medium=RSS&at_campaign=rss",
+      "date": "4 Aug 2026",
+      "excerpt": "It is the latest development in the ongoing dispute between Apple and the Home Office over data privacy.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d2c/live/4e052df0-8fde-11f1-a999-eb18d79411a9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Why Trump Media's sale of fast access to market-moving social posts is controversial",
+      "link": "https://www.bbc.co.uk/news/articles/c4gdkl9zn8wo?at_medium=RSS&at_campaign=rss",
+      "date": "4 Aug 2026",
+      "excerpt": "Trump Media & Technology Group (TMTG) has set up a paid service to give Wall Street firms access to Truth Social's most influential accounts.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8b7/live/86169830-8fe0-11f1-bb3b-43bf44dc94d9.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,34 +247,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why is Trump Media selling early access to Trump's Truth Social posts?",
-      "link": "https://www.bbc.co.uk/news/videos/c74g0q8eey9o?at_medium=RSS&at_campaign=rss",
-      "date": "4 Aug 2026",
-      "excerpt": "The service reportedly costs up to $100,000 (£74,170) per month and offers access to posts from influential accounts milliseconds before they appear online.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d80/live/478d5910-8f99-11f1-b8ee-9b3c26ad07bb.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
-      "link": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss",
-      "date": "3 Aug 2026",
-      "excerpt": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5304/live/8eb45f90-8f4f-11f1-99e6-95543b07d23d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Tokenomics: Why making AI pay is tricky",
-      "link": "https://www.bbc.co.uk/news/articles/c872r52x7jgo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Aug 2026",
-      "excerpt": "Buyers of AI services are struggling to control costs and sellers are not sure how much to charge.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae1d/live/13ce3de0-79de-11f1-a627-714adb4eed6e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How heatwaves are changing summer weddings - here's how to plan for one",
+      "title": "Heatwaves are changing summer weddings - here's how to plan for one",
       "link": "https://www.bbc.co.uk/news/articles/cgr7qrdx4qwo?at_medium=RSS&at_campaign=rss",
       "date": "3 Aug 2026",
       "excerpt": "The wedding industry is facing last-minute costs to cope with the heat and October bookings are up.",
