@@ -1,5 +1,5 @@
 {
-  "updated": "04 Aug 2026, 10:35 UTC",
+  "updated": "04 Aug 2026, 14:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Why Great Turnarounds Start with Culture, Not Strategy",
+      "link": "/podcast/2026/08/why-great-turnarounds-start-with-culture-not-strategy",
+      "date": "4 Aug 2026",
+      "excerpt": "A conversation with Verizon CEO Dan Schulman on reshaping the telecom giant amid AI disruption.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "What to Consider Before Giving Advice on a Global Team",
       "link": "/2026/08/what-to-consider-before-giving-advice-on-a-global-team",
       "date": "3 Aug 2026",
@@ -137,30 +146,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Introducing The Founder Mindset: Tim Ferriss on Experiments, Risk, and Freedom",
-      "link": "/podcast/2026/07/introducing-the-founder-mindset-tim-ferriss-on-experiments-risk-and-freedom",
-      "date": "30 Jul 2026",
-      "excerpt": "A new podcast from our colleagues at Harvard Business School Foundry.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Can teaching social skills improve social mobility?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/04/can-teaching-social-skills-improve-social-mobility/",
-      "date": "4 Aug 2026",
-      "excerpt": "Social mobility has stalled in America and Britain. And since the COVID-19 pandemic many young people face new disadvantages hindering their educational and professional prospects. Could social skills be the key to improving their opportuni",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "What happens when employees who speak up are held back?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/30/what-happens-when-employees-who-speak-up-are-held-back/",
       "date": "30 Jul 2026",
-      "excerpt": "Many organisational challenges, whether cultural, financial or operational, can be linked to difficulties in fostering open and honest upward communication. Silence can reflect fear, fatigue, uncertainty or the belief that speaking up will ",
+      "excerpt": "Many organisational challenges, whether cultural,&nbsp;financial&nbsp;or operational, can be linked to difficulties in fostering open and honest upward communication.&nbsp;Silence can reflect fear, fatigue,&nbsp;uncertainty&nbsp;or the beli",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-2-1024x427.jpg"
     },
     {
@@ -200,22 +191,22 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Strong banks do not guarantee financial stability",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/21/strong-banks-do-not-guarantee-financial-stability/",
+      "date": "21 Jul 2026",
+      "excerpt": "Finance has changed since the global&nbsp;financial crisis, with a&nbsp;growing share of credit,&nbsp;liquidity&nbsp;and risk-taking now taking place outside traditional deposit-taking institutions.&nbsp;Gustavo Pessoa&nbsp;shows how next f",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "BP's $5.7bn profit highest since 2022 as Iran war pushes up oil price",
       "link": "https://www.bbc.co.uk/news/articles/cg5l11m02j3o?at_medium=RSS&at_campaign=rss",
       "date": "4 Aug 2026",
       "excerpt": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0651/live/2e6f7a20-8fe0-11f1-bb3b-43bf44dc94d9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Apple issues new challenge against UK order for access to private user data",
-      "link": "https://www.bbc.co.uk/news/articles/cvg0kk3ek2vo?at_medium=RSS&at_campaign=rss",
-      "date": "4 Aug 2026",
-      "excerpt": "It is the latest development in the ongoing dispute between Apple and the Home Office over data privacy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d2c/live/4e052df0-8fde-11f1-a999-eb18d79411a9.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d288/live/6e9f5aa0-8ff6-11f1-b2ab-0dd01740f9f6.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,11 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Half-price rail travel extended to 18-year-olds",
-      "link": "https://www.bbc.co.uk/news/articles/cy0jyln07r7o?at_medium=RSS&at_campaign=rss",
-      "date": "3 Aug 2026",
-      "excerpt": "They'll be able to buy the 16-17 Saver railcard up until the day before they turn 18.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c6b7/live/f96ea650-8f50-11f1-99e6-95543b07d23d.jpg"
+      "title": "Campaigners denied appeal over Gatwick expansion",
+      "link": "https://www.bbc.co.uk/news/articles/cjwx9y7dd27o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Aug 2026",
+      "excerpt": "An application to stop the two-runway operation is rejected, with judges calling it \"unarguable\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb50/live/cdbdae10-8fec-11f1-b2ab-0dd01740f9f6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Apple issues new challenge against UK order for access to private user data",
+      "link": "https://www.bbc.co.uk/news/articles/cvg0kk3ek2vo?at_medium=RSS&at_campaign=rss",
+      "date": "4 Aug 2026",
+      "excerpt": "It is the latest development in the ongoing dispute between Apple and the Home Office over data privacy.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d2c/live/4e052df0-8fde-11f1-a999-eb18d79411a9.jpg"
     },
     {
       "source": "BBC Business",
@@ -247,7 +247,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Heatwaves are changing summer weddings - here's how to plan for one",
+      "title": "Zinc dresses and ice creams - how to survive a heatwave wedding",
       "link": "https://www.bbc.co.uk/news/articles/cgr7qrdx4qwo?at_medium=RSS&at_campaign=rss",
       "date": "3 Aug 2026",
       "excerpt": "The wedding industry is facing last-minute costs to cope with the heat and October bookings are up.",
