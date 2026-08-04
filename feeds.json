@@ -1,5 +1,5 @@
 {
-  "updated": "04 Aug 2026, 14:05 UTC",
+  "updated": "04 Aug 2026, 17:46 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "A New Way to Measure Customer Referrals",
+      "link": "/2026/08/a-new-way-to-measure-customer-referrals",
+      "date": "4 Aug 2026",
+      "excerpt": "In this week&#8217;s The Insider newsletter, managing editor Gretchen Gavett covers why referrals deserve more strategic attention, why job-hopping employees may be undervalued hires, and what leaders are learning about AI&#8217;s real impa",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Climate Goals Are Worth Setting—Even If They’re Aspirational",
+      "link": "/2026/08/climate-goals-are-worth-setting-even-if-theyre-aspirational",
+      "date": "4 Aug 2026",
+      "excerpt": "New research shows how corporate emissions targets encourage suppliers to invest in climate innovations, advancing decarbonization.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Why Metaphysic AI Looked to Hollywood for a Digital Rights Model",
+      "link": "/podcast/2026/08/why-metaphysic-ai-looked-to-hollywood-for-a-digital-rights-model",
+      "date": "4 Aug 2026",
+      "excerpt": "When an individual&#8217;s work can be digitally captured, replicated, and monetized, who gets to lay claim to the value?",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Why Great Turnarounds Start with Culture, Not Strategy",
       "link": "/podcast/2026/08/why-great-turnarounds-start-with-culture-not-strategy",
       "date": "4 Aug 2026",
@@ -107,42 +134,6 @@
       "link": "/2026/08/research-employees-from-lower-class-backgrounds-negotiate-less-and-face-more-backlash",
       "date": "3 Aug 2026",
       "excerpt": "How leaders can redesign negotiation systems and address bias.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Are You Spending Wisely on AI?",
-      "link": "/2026/07/are-you-spending-wisely-on-ai",
-      "date": "31 Jul 2026",
-      "excerpt": "As AI costs spiral, HBS professor Iavor Bojinov offers a practical guide to help leaders weigh the tradeoffs between cost, capability, and security.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How the Best CEOs Lead Transformation",
-      "link": "/2026/07/how-the-best-ceos-lead-transformation",
-      "date": "31 Jul 2026",
-      "excerpt": "An HBR Executive Live conversation with Russell Reynolds Associates CEO Constantine Alexandrakis.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI and IT Teams Often Clash. But They Don’t Have To.",
-      "link": "/2026/07/ai-and-it-teams-often-clash-but-they-dont-have-to",
-      "date": "31 Jul 2026",
-      "excerpt": "How three companies resolved common conflicts.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Hidden Realities of AI Adoption",
-      "link": "/2026/07/the-hidden-realities-of-ai-adoption",
-      "date": "30 Jul 2026",
-      "excerpt": "A virtual roundtable with Kate Niederhoffer and Thomas Davenport, exclusively for HBR subscribers.",
       "image": ""
     },
     {
@@ -202,11 +193,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "BP's $5.7bn profit highest since 2022 as Iran war pushes up oil price",
-      "link": "https://www.bbc.co.uk/news/articles/cg5l11m02j3o?at_medium=RSS&at_campaign=rss",
+      "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
+      "link": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
       "date": "4 Aug 2026",
-      "excerpt": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d288/live/6e9f5aa0-8ff6-11f1-b2ab-0dd01740f9f6.jpg"
+      "excerpt": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e55/live/0e092f10-9012-11f1-aabc-c3c7aa714117.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,6 +207,15 @@
       "date": "4 Aug 2026",
       "excerpt": "Trump Media & Technology Group (TMTG) has set up a paid service to give Wall Street firms access to Truth Social's most influential accounts.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8b7/live/86169830-8fe0-11f1-bb3b-43bf44dc94d9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "BP's $5.7bn profit highest since 2022 as Iran war pushes up oil price",
+      "link": "https://www.bbc.co.uk/news/articles/cg5l11m02j3o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Aug 2026",
+      "excerpt": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d288/live/6e9f5aa0-8ff6-11f1-b2ab-0dd01740f9f6.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +234,6 @@
       "date": "4 Aug 2026",
       "excerpt": "It is the latest development in the ongoing dispute between Apple and the Home Office over data privacy.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d2c/live/4e052df0-8fde-11f1-a999-eb18d79411a9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US states sue to block Trump tariffs impacting dozens of countries",
-      "link": "https://www.bbc.co.uk/news/articles/cy4kp8jd0ppo?at_medium=RSS&at_campaign=rss",
-      "date": "4 Aug 2026",
-      "excerpt": "The duties were imposed over claims that 60 US trading partners have failed to tackle forced labour.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5d5/live/ea554540-8fb7-11f1-a7ab-8b30adf0800a.jpg"
     },
     {
       "source": "BBC Business",
