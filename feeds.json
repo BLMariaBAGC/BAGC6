@@ -1,5 +1,5 @@
 {
-  "updated": "04 Aug 2026, 23:01 UTC",
+  "updated": "05 Aug 2026, 02:21 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,112 +137,58 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What happens when employees who speak up are held back?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/30/what-happens-when-employees-who-speak-up-are-held-back/",
-      "date": "30 Jul 2026",
-      "excerpt": "Many organisational challenges, whether cultural,&nbsp;financial&nbsp;or operational, can be linked to difficulties in fostering open and honest upward communication.&nbsp;Silence can reflect fear, fatigue,&nbsp;uncertainty&nbsp;or the beli",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-2-1024x427.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The film industry underestimates the role of distributors in bringing projects to market",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/28/the-film-industry-underestimates-the-role-of-distributors-in-bringing-projects-to-market/",
-      "date": "28 Jul 2026",
-      "excerpt": "A strong&nbsp;film with famous names and clever technology&nbsp;is&nbsp;nothing&nbsp;if people cannot watch it.&nbsp;Good distributors are vital to bring projects to market.&nbsp;Angelo Tomaselli,&nbsp;Salvatore Torrisi&nbsp;and&nbsp;Joris ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Fitness apps keep users engaged – but do they change habits?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
-      "date": "27 Jul 2026",
-      "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What AI’s usurping of the peer-reviewed publications means for medicine and pharmaceutical industry",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/23/what-ais-usurping-of-the-peer-reviewed-publications-means-for-medicine-and-pharmaceutical-industry/",
-      "date": "23 Jul 2026",
-      "excerpt": "For hundreds of years, modern science has relied on peer-reviewed publications to register, to certify and to distribute new claims. Demand is still growing. But Alex Bedenkov and David Ginkel show rapidly technologies like AI have changed ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The betrayal of diversity in Britain’s book business",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
-      "date": "22 Jul 2026",
-      "excerpt": "After the Black Lives Matter protests in 2020 many industries rushed to signal their commitment to diversity. In British book publishing this led to a wave of self-help books by and for black women. But, as diversity itself comes under atta",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Strong banks do not guarantee financial stability",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/21/strong-banks-do-not-guarantee-financial-stability/",
-      "date": "21 Jul 2026",
-      "excerpt": "Finance has changed since the global&nbsp;financial crisis, with a&nbsp;growing share of credit,&nbsp;liquidity&nbsp;and risk-taking now taking place outside traditional deposit-taking institutions.&nbsp;Gustavo Pessoa&nbsp;shows how next f",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oil prices fall on hopes Strait of Hormuz could reopen",
-      "link": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
+      "title": "Fashion brand Jaded has ad banned for 'glamourising smoking'",
+      "link": "https://www.bbc.co.uk/news/articles/cly843vd3jmo?at_medium=RSS&at_campaign=rss",
       "date": "4 Aug 2026",
-      "excerpt": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e55/live/0e092f10-9012-11f1-aabc-c3c7aa714117.jpg"
+      "excerpt": "The advertising watchdog said Jaded London's marketing email made smoking seem appealing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/542f/live/f6658220-905a-11f1-a14e-21a96dfbd328.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why Trump Media's sale of fast access to market-moving social posts is controversial",
-      "link": "https://www.bbc.co.uk/news/articles/c4gdkl9zn8wo?at_medium=RSS&at_campaign=rss",
+      "title": "AI used new levels of 'autonomy and deception' to trick people in safety test",
+      "link": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss",
+      "date": "5 Aug 2026",
+      "excerpt": "The UK's AI Safety Institute said recent behaviour from Anthropic and OpenAI models was malicious and unprecedented.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ab1/live/974e85e0-905d-11f1-b2ab-0dd01740f9f6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Saudi-led group completes $55bn purchase of gaming giant EA",
+      "link": "https://www.bbc.co.uk/news/articles/cjejyl34345o?at_medium=RSS&at_campaign=rss",
       "date": "4 Aug 2026",
-      "excerpt": "Trump Media & Technology Group (TMTG) has set up a paid service to give Wall Street firms access to Truth Social's most influential accounts.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8b7/live/86169830-8fe0-11f1-bb3b-43bf44dc94d9.jpg"
+      "excerpt": "The deal takes the maker of titles including The Sims and EA FC into private ownership - and loads it with debt.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1afa/live/1dcd5c10-8f1c-11f1-9a6b-afa7ab10ffdf.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "BP's $5.7bn profit highest since 2022 as Iran war pushes up oil price",
-      "link": "https://www.bbc.co.uk/news/articles/cg5l11m02j3o?at_medium=RSS&at_campaign=rss",
+      "title": "The cost of being single – and how friends are teaming up to beat it",
+      "link": "https://www.bbc.co.uk/news/articles/cly7dqprlnvo?at_medium=RSS&at_campaign=rss",
       "date": "4 Aug 2026",
-      "excerpt": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d288/live/6e9f5aa0-8ff6-11f1-b2ab-0dd01740f9f6.jpg"
+      "excerpt": "Many singles face extra costs for housing, bills, food and holidays but there are ways to ease the burden.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfc3/live/a1894040-7ad7-11f1-81e2-67653cf46e84.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Campaigners denied appeal over Gatwick expansion",
-      "link": "https://www.bbc.co.uk/news/articles/cjwx9y7dd27o?at_medium=RSS&at_campaign=rss",
+      "title": "'I feel like I dug my own grave': The workers caught in the AI transition",
+      "link": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss",
       "date": "4 Aug 2026",
-      "excerpt": "An application to stop the two-runway operation is rejected, with judges calling it \"unarguable\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb50/live/cdbdae10-8fec-11f1-b2ab-0dd01740f9f6.jpg"
+      "excerpt": "AI is reshaping the Philippines' outsourcing industry, raising questions over the future of the industry.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d916/live/b72ddec0-8648-11f1-a268-d919c0699520.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Apple issues new challenge against UK order for access to private user data",
-      "link": "https://www.bbc.co.uk/news/articles/cvg0kk3ek2vo?at_medium=RSS&at_campaign=rss",
+      "title": "Could tech replace firefighters in the battle against wildfires?",
+      "link": "https://www.bbc.co.uk/news/articles/c62enveg1dpo?at_medium=RSS&at_campaign=rss",
       "date": "4 Aug 2026",
-      "excerpt": "It is the latest development in the ongoing dispute between Apple and the Home Office over data privacy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d2c/live/4e052df0-8fde-11f1-a999-eb18d79411a9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Zinc dresses and ice creams - how to survive a heatwave wedding",
-      "link": "https://www.bbc.co.uk/news/articles/cgr7qrdx4qwo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Aug 2026",
-      "excerpt": "The wedding industry is facing last-minute costs to cope with the heat and October bookings are up.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cf8/live/e2ed0a60-8fc9-11f1-a7ab-8b30adf0800a.jpg"
+      "excerpt": "Tech is being used to watch for wildfires but firefighters are still needed to put them out.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f7b/live/9039ecc0-8f10-11f1-a7ab-8b30adf0800a.jpg"
     }
   ]
 }
