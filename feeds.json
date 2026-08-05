@@ -1,6 +1,24 @@
 {
-  "updated": "05 Aug 2026, 10:31 UTC",
+  "updated": "05 Aug 2026, 14:03 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Sitting up straight may improve your mood and decision-making",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260804034624.htm",
+      "date": "5 Aug 2026",
+      "excerpt": "A simple change in posture may subtly affect how people feel and make decisions. Participants who sat upright reported greater feelings of pride and took more successful risks in a virtual balloon game than those who hunched over. Most did ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover the brain cells that keep you motivated",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260804034622.htm",
+      "date": "5 Aug 2026",
+      "excerpt": "A group of brain cells called orexin neurons appears to help us keep working when reaching a reward becomes increasingly difficult. Blocking their activity weakened motivation in rats, pointing to a possible new target for understanding why",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover why poor sleep may harm some brains more",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260729051529.htm",
-      "date": "31 Jul 2026",
-      "excerpt": "A gene involved in the brain’s overnight cleaning system may change how strongly poor sleep affects Alzheimer’s-related brain changes. The findings point toward more personalized prevention strategies based on both genetics and sleep habits",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "What if the brain does not create consciousness?",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260729043829.htm",
-      "date": "29 Jul 2026",
-      "excerpt": "Christof Koch is taking on one of science’s deepest mysteries: how the brain creates conscious experience, or whether it creates it at all. He argues that materialism has yet to solve this “hard problem” and will explore puzzling phenomena ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How Much Time Do Your Employees Spend Botsitting?",
+      "link": "/2026/08/how-much-time-do-your-employees-spend-botsitting",
+      "date": "5 Aug 2026",
+      "excerpt": "AI can automate hours of work each week, but it also requires substantial human oversight. Leaders need to account for that hidden labor.",
       "image": ""
     },
     {
@@ -128,12 +137,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: Employees from Lower-Class Backgrounds Negotiate Less—and Face More Backlash",
-      "link": "/2026/08/research-employees-from-lower-class-backgrounds-negotiate-less-and-face-more-backlash",
-      "date": "3 Aug 2026",
-      "excerpt": "How leaders can redesign negotiation systems and address bias.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Does it matter what you eat at work?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
+      "date": "5 Aug 2026",
+      "excerpt": "What, when, where and how we eat can signify many things. Eating healthily might impress your colleagues but doing so on a video call is unprofessional. Michael J. Matthews, Thomas K. Kelemen, Trevor Watkins and Mark Bolino describe the bio",
       "image": ""
     },
     {
@@ -182,18 +191,9 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The betrayal of diversity in Britain’s book business",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
-      "date": "22 Jul 2026",
-      "excerpt": "After the Black Lives Matter protests in 2020 many industries rushed to signal their commitment to diversity. In British book publishing this led to a wave of self-help books by and for black women. But, as diversity itself comes under atta",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Government to prioritise job creation in awarding public contracts under new rules",
+      "title": "Prioritise new jobs over green targets to win public contracts, firms told",
       "link": "https://www.bbc.co.uk/news/articles/ckgdmv7elg8o?at_medium=RSS&at_campaign=rss",
       "date": "5 Aug 2026",
       "excerpt": "The changes are part of government efforts to tackle the youth unemployment crisis.",
@@ -202,11 +202,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Farmers warn shoppers face smaller and more expensive vegetables due to hot weather",
+      "title": "Vegetables to get smaller and more expensive due to hot weather, farmers warn",
       "link": "https://www.bbc.co.uk/news/articles/c4gwv9590xeo?at_medium=RSS&at_campaign=rss",
       "date": "5 Aug 2026",
       "excerpt": "This year's harvest could be the worst on record due to the exceptionally dry spring and summer.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/07dd/live/9e4139a0-90ae-11f1-b35a-3be58eca94a8.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b52/live/461213f0-90bb-11f1-b8ee-9b3c26ad07bb.jpg"
     },
     {
       "source": "BBC Business",
