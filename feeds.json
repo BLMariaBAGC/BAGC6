@@ -1,5 +1,5 @@
 {
-  "updated": "05 Aug 2026, 02:21 UTC",
+  "updated": "05 Aug 2026, 06:25 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,31 +137,58 @@
       "image": ""
     },
     {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Fashion brand Jaded has ad banned for 'glamourising smoking'",
-      "link": "https://www.bbc.co.uk/news/articles/cly843vd3jmo?at_medium=RSS&at_campaign=rss",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Can teaching social skills improve social mobility?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/04/can-teaching-social-skills-improve-social-mobility/",
       "date": "4 Aug 2026",
-      "excerpt": "The advertising watchdog said Jaded London's marketing email made smoking seem appealing.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/542f/live/f6658220-905a-11f1-a14e-21a96dfbd328.jpg"
+      "excerpt": "Social mobility has stalled in America and Britain. And since the COVID-19 pandemic many young people face new disadvantages hindering their educational and professional prospects. Could social skills be the key to improving their opportuni",
+      "image": ""
     },
     {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI used new levels of 'autonomy and deception' to trick people in safety test",
-      "link": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go?at_medium=RSS&at_campaign=rss",
-      "date": "5 Aug 2026",
-      "excerpt": "The UK's AI Safety Institute said recent behaviour from Anthropic and OpenAI models was malicious and unprecedented.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ab1/live/974e85e0-905d-11f1-b2ab-0dd01740f9f6.jpg"
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What happens when employees who speak up are held back?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/30/what-happens-when-employees-who-speak-up-are-held-back/",
+      "date": "30 Jul 2026",
+      "excerpt": "Many organisational challenges, whether cultural, financial or operational, can be linked to difficulties in fostering open and honest upward communication. Silence can reflect fear, fatigue, uncertainty or the belief that speaking up will ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-2-1024x427.jpg"
     },
     {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Saudi-led group completes $55bn purchase of gaming giant EA",
-      "link": "https://www.bbc.co.uk/news/articles/cjejyl34345o?at_medium=RSS&at_campaign=rss",
-      "date": "4 Aug 2026",
-      "excerpt": "The deal takes the maker of titles including The Sims and EA FC into private ownership - and loads it with debt.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1afa/live/1dcd5c10-8f1c-11f1-9a6b-afa7ab10ffdf.jpg"
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The film industry underestimates the role of distributors in bringing projects to market",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/28/the-film-industry-underestimates-the-role-of-distributors-in-bringing-projects-to-market/",
+      "date": "28 Jul 2026",
+      "excerpt": "A strong&nbsp;film with famous names and clever technology&nbsp;is&nbsp;nothing&nbsp;if people cannot watch it.&nbsp;Good distributors are vital to bring projects to market.&nbsp;Angelo Tomaselli,&nbsp;Salvatore Torrisi&nbsp;and&nbsp;Joris ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Fitness apps keep users engaged – but do they change habits?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
+      "date": "27 Jul 2026",
+      "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What AI’s usurping of the peer-reviewed publications means for medicine and pharmaceutical industry",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/23/what-ais-usurping-of-the-peer-reviewed-publications-means-for-medicine-and-pharmaceutical-industry/",
+      "date": "23 Jul 2026",
+      "excerpt": "For hundreds of years, modern science has relied on peer-reviewed publications to register, to certify and to distribute new claims. Demand is still growing. But Alex Bedenkov and David Ginkel show rapidly technologies like AI have changed ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The betrayal of diversity in Britain’s book business",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
+      "date": "22 Jul 2026",
+      "excerpt": "After the Black Lives Matter protests in 2020 many industries rushed to signal their commitment to diversity. In British book publishing this led to a wave of self-help books by and for black women. But, as diversity itself comes under atta",
+      "image": ""
     },
     {
       "source": "BBC Business",
@@ -175,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "SpaceX's first-ever earnings show higher revenues and huge spending",
+      "link": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
+      "date": "5 Aug 2026",
+      "excerpt": "Elon Musk said during a call with financial analysts that people were \"underestimating\" his company.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'I feel like I dug my own grave': The workers caught in the AI transition",
       "link": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss",
       "date": "4 Aug 2026",
@@ -184,7 +220,25 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Could tech replace firefighters in the battle against wildfires?",
+      "title": "Fashion brand Jaded has ad banned for 'glamourising smoking'",
+      "link": "https://www.bbc.co.uk/news/articles/cly843vd3jmo?at_medium=RSS&at_campaign=rss",
+      "date": "4 Aug 2026",
+      "excerpt": "The advertising watchdog said Jaded London's marketing email made smoking seem appealing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/542f/live/f6658220-905a-11f1-a14e-21a96dfbd328.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
+      "link": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
+      "date": "5 Aug 2026",
+      "excerpt": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced talks had progressed to allow shipments to resume.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1518/live/b0431a30-907f-11f1-a7ab-8b30adf0800a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "How tech is helping firefighters in the battle against wildfires",
       "link": "https://www.bbc.co.uk/news/articles/c62enveg1dpo?at_medium=RSS&at_campaign=rss",
       "date": "4 Aug 2026",
       "excerpt": "Tech is being used to watch for wildfires but firefighters are still needed to put them out.",
