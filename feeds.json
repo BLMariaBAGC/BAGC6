@@ -1,5 +1,5 @@
 {
-  "updated": "05 Aug 2026, 17:26 UTC",
+  "updated": "05 Aug 2026, 19:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Trump's 'Liberation Day' tariff refunds hit $100bn",
+      "link": "https://www.bbc.co.uk/news/articles/cwyewn5wexvo?at_medium=RSS&at_campaign=rss",
+      "date": "5 Aug 2026",
+      "excerpt": "The repayments represent roughly 60% of all tariff revenue collected by the US government under the policy,",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15b1/live/c8099ce0-90f0-11f1-a7ab-8b30adf0800a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Vegetables to get smaller and more expensive due to hot weather, farmers warn",
       "link": "https://www.bbc.co.uk/news/articles/c4gwv9590xeo?at_medium=RSS&at_campaign=rss",
       "date": "5 Aug 2026",
@@ -225,15 +234,6 @@
       "date": "5 Aug 2026",
       "excerpt": "Elon Musk told investors that people were \"underestimating\" his company.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I feel like I dug my own grave': The workers caught in the AI transition",
-      "link": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss",
-      "date": "4 Aug 2026",
-      "excerpt": "AI is reshaping the Philippines' outsourcing industry, raising questions over the future of the industry.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d916/live/b72ddec0-8648-11f1-a268-d919c0699520.jpg"
     },
     {
       "source": "BBC Business",
