@@ -1,5 +1,5 @@
 {
-  "updated": "05 Aug 2026, 14:03 UTC",
+  "updated": "05 Aug 2026, 17:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How to Recognize When Your Customers Want You to Act",
+      "link": "/2026/08/how-to-recognize-when-your-customers-want-you-to-act",
+      "date": "5 Aug 2026",
+      "excerpt": "Four actions companies can take to better understand critical cues about timing.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Why Lateral Hires Rarely Become CEO",
+      "link": "/2026/08/why-lateral-hires-rarely-become-ceo",
+      "date": "5 Aug 2026",
+      "excerpt": "Organizations form collective judgments about who they trust to represent the institution long before boards formally choose a CEO.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How Much Time Do Your Employees Spend Botsitting?",
       "link": "/2026/08/how-much-time-do-your-employees-spend-botsitting",
       "date": "5 Aug 2026",
@@ -116,33 +134,6 @@
       "link": "/podcast/2026/08/why-great-turnarounds-start-with-culture-not-strategy",
       "date": "4 Aug 2026",
       "excerpt": "A conversation with Verizon CEO Dan Schulman on reshaping the telecom giant amid AI disruption.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What to Consider Before Giving Advice on a Global Team",
-      "link": "/2026/08/what-to-consider-before-giving-advice-on-a-global-team",
-      "date": "3 Aug 2026",
-      "excerpt": "Research on communication styles among American, Chinese, and Indian employees shows how they can interpret the same guidance in dramatically different ways&#8212;and lose trust as a result.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Don’t Let AI Flatten Your Leadership Style",
-      "link": "/2026/08/dont-let-ai-flatten-your-leadership-style",
-      "date": "3 Aug 2026",
-      "excerpt": "How to protect your judgment, voice, and presence.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Does it matter what you eat at work?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
-      "date": "5 Aug 2026",
-      "excerpt": "What, when, where and how we eat can signify many things. Eating healthily might impress your colleagues but doing so on a video call is unprofessional. Michael J. Matthews, Thomas K. Kelemen, Trevor Watkins and Mark Bolino describe the bio",
       "image": ""
     },
     {
@@ -188,6 +179,15 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/23/what-ais-usurping-of-the-peer-reviewed-publications-means-for-medicine-and-pharmaceutical-industry/",
       "date": "23 Jul 2026",
       "excerpt": "For hundreds of years, modern science has relied on peer-reviewed publications to register, to certify and to distribute new claims. Demand is still growing. But Alex Bedenkov and David Ginkel show rapidly technologies like AI have changed ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The betrayal of diversity in Britain’s book business",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
+      "date": "22 Jul 2026",
+      "excerpt": "After the Black Lives Matter protests in 2020 many industries rushed to signal their commitment to diversity. In British book publishing this led to a wave of self-help books by and for black women. But, as diversity itself comes under atta",
       "image": ""
     },
     {
