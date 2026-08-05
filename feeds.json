@@ -1,5 +1,5 @@
 {
-  "updated": "05 Aug 2026, 19:26 UTC",
+  "updated": "05 Aug 2026, 21:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Does it matter what you eat at work?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
+      "date": "5 Aug 2026",
+      "excerpt": "What, when, where and how we eat can signify many things. Eating healthily might impress your colleagues but doing so on a video call is unprofessional. Michael J. Matthews, Thomas K. Kelemen, Trevor Watkins and Mark Bolino describe the bio",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Can teaching social skills improve social mobility?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/04/can-teaching-social-skills-improve-social-mobility/",
       "date": "4 Aug 2026",
@@ -182,15 +191,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The betrayal of diversity in Britain’s book business",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
-      "date": "22 Jul 2026",
-      "excerpt": "After the Black Lives Matter protests in 2020 many industries rushed to signal their commitment to diversity. In British book publishing this led to a wave of self-help books by and for black women. But, as diversity itself comes under atta",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Prioritise new jobs over green targets to win public contracts, firms told",
@@ -202,10 +202,10 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump's 'Liberation Day' tariff refunds hit $100bn",
+      "title": "Trump administration pays back $100bn in 'Liberation Day' tariffs to businesses",
       "link": "https://www.bbc.co.uk/news/articles/cwyewn5wexvo?at_medium=RSS&at_campaign=rss",
       "date": "5 Aug 2026",
-      "excerpt": "The repayments represent roughly 60% of all tariff revenue collected by the US government under the policy,",
+      "excerpt": "It represents roughly 60% of all tariff revenue collected under the policy, with billions still to be repaid.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15b1/live/c8099ce0-90f0-11f1-a7ab-8b30adf0800a.jpg"
     },
     {
@@ -220,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Student loan repayment rates an 'unsustainable burden', chancellor told",
+      "link": "https://www.bbc.co.uk/news/articles/c5yed780epqo?at_medium=RSS&at_campaign=rss",
+      "date": "5 Aug 2026",
+      "excerpt": "More than 120 MPs and peers have asked John Healey to carry out an \"urgent review\" of repayments.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e8e/live/0a0f6920-90f7-11f1-b2ab-0dd01740f9f6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The cost of being single – and how friends are teaming up to beat it",
       "link": "https://www.bbc.co.uk/news/articles/cly7dqprlnvo?at_medium=RSS&at_campaign=rss",
       "date": "4 Aug 2026",
       "excerpt": "Many singles face extra costs for housing, bills, food and holidays but there are ways to ease the burden.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfc3/live/a1894040-7ad7-11f1-81e2-67653cf46e84.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
-      "link": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss",
-      "date": "5 Aug 2026",
-      "excerpt": "Elon Musk told investors that people were \"underestimating\" his company.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a14/live/a0d16bc0-903d-11f1-a691-e5bd21941ac1.jpg"
     },
     {
       "source": "BBC Business",
