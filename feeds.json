@@ -1,5 +1,5 @@
 {
-  "updated": "06 Aug 2026, 06:27 UTC",
+  "updated": "06 Aug 2026, 10:35 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Does it matter what you eat at work?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
+      "date": "5 Aug 2026",
+      "excerpt": "What, when, where and how we eat can signify many things. Eating healthily might impress your colleagues but doing so on a video call is unprofessional. Michael J. Matthews, Thomas K. Kelemen, Trevor Watkins and Mark Bolino describe the bio",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Can teaching social skills improve social mobility?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/04/can-teaching-social-skills-improve-social-mobility/",
       "date": "4 Aug 2026",
@@ -182,15 +191,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The betrayal of diversity in Britain’s book business",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/22/the-betrayal-of-diversity-in-britains-book-business/",
-      "date": "22 Jul 2026",
-      "excerpt": "After the Black Lives Matter protests in 2020 many industries rushed to signal their commitment to diversity. In British book publishing this led to a wave of self-help books by and for black women. But, as diversity itself comes under atta",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Cashing in on SpaceX: 'Every chance I get, I'll sell a little more'",
@@ -206,12 +206,12 @@
       "link": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss",
       "date": "6 Aug 2026",
       "excerpt": "Neither the US or Oman have commented on the proposed agreement on the vital waterway.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b45d/live/e272ff40-9104-11f1-a7ab-8b30adf0800a.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d689/live/d1fc7070-9171-11f1-b2ab-0dd01740f9f6.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Shorts, strappy tops and sandals: Can my boss tell me what to wear in summer?",
+      "title": "Shorts, strappy tops and sandals: What is acceptable to wear in the office?",
       "link": "https://www.bbc.co.uk/news/articles/cre49389g1qo?at_medium=RSS&at_campaign=rss",
       "date": "5 Aug 2026",
       "excerpt": "Here's how to style for success while keeping your cool - and where you and your boss stand on your wardrobe.",
@@ -220,7 +220,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Meta says AI model accessed the internet and hacked another firm",
+      "title": "Meta becomes latest firm to say its AI hacked another company",
       "link": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss",
       "date": "6 Aug 2026",
       "excerpt": "Meta is the latest company to disclose an AI agent breach, raising cyber-security concerns.",
@@ -229,11 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Winemakers prosper but veg farms wilt in the drought",
-      "link": "https://www.bbc.co.uk/news/articles/c141vjlyjgko?at_medium=RSS&at_campaign=rss",
+      "title": "Raleigh owner starts insolvency proceedings",
+      "link": "https://www.bbc.co.uk/news/articles/c4gv45w4j8eo?at_medium=RSS&at_campaign=rss",
       "date": "6 Aug 2026",
-      "excerpt": "Growers in the West of England search for new crops to grow in a changing climate.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81de/live/87127c20-90d7-11f1-a5b9-331adf7bef90.jpg"
+      "excerpt": "Accell, based in the Netherlands, has owned the famous bike brand since 2012.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afa1/live/08c11160-915e-11f1-a8f1-774cbc5e1a9f.png"
     },
     {
       "source": "BBC Business",
