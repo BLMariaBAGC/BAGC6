@@ -1,5 +1,5 @@
 {
-  "updated": "06 Aug 2026, 10:35 UTC",
+  "updated": "06 Aug 2026, 14:02 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -26,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260804034622.htm",
       "date": "5 Aug 2026",
       "excerpt": "A group of brain cells called orexin neurons appears to help us keep working when reaching a reward becomes increasingly difficult. Blocking their activity weakened motivation in rats, pointing to a possible new target for understanding why",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Nearly half of dementia cases may be linked to risks you can change",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260803080923.htm",
+      "date": "6 Aug 2026",
+      "excerpt": "A long-term brain study found that common risks such as smoking, high blood pressure, heart disease, and high blood lipids were strongly linked to damage associated with vascular dementia. The findings suggest that healthier lifestyle choic",
       "image": ""
     },
     {
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/07/260731034135.htm",
       "date": "31 Jul 2026",
       "excerpt": "A new report suggests that blood pressure may be controlled more effectively by increasing potassium while also cutting sodium. Potassium-rich foods can help balance sodium’s effects, but most people consume far less potassium than recommen",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "AI can tell if your brain is aging faster than you are",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260729051540.htm",
-      "date": "31 Jul 2026",
-      "excerpt": "A person’s sleeping brain may reveal warning signs of dementia long before memory problems begin. Researchers used machine learning to analyze EEG recordings from about 7,000 adults and found that an older-than-expected “brain age” was tied",
       "image": ""
     },
     {
@@ -211,11 +211,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Shorts, strappy tops and sandals: What is acceptable to wear in the office?",
+      "title": "Shorts, strappy tops and sandals: What is acceptable to wear to work?",
       "link": "https://www.bbc.co.uk/news/articles/cre49389g1qo?at_medium=RSS&at_campaign=rss",
-      "date": "5 Aug 2026",
+      "date": "6 Aug 2026",
       "excerpt": "Here's how to style for success while keeping your cool - and where you and your boss stand on your wardrobe.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3041/live/a08095f0-90e8-11f1-a7ab-8b30adf0800a.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8f3/live/c87b2650-9193-11f1-b2ab-0dd01740f9f6.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,7 +229,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Raleigh owner starts insolvency proceedings",
+      "title": "Owner of bike maker Raleigh files for insolvency",
       "link": "https://www.bbc.co.uk/news/articles/c4gv45w4j8eo?at_medium=RSS&at_campaign=rss",
       "date": "6 Aug 2026",
       "excerpt": "Accell, based in the Netherlands, has owned the famous bike brand since 2012.",
@@ -238,10 +238,10 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What's causing record high US beef prices?",
+      "title": "US beef prices have soared but farmers aren't making more money",
       "link": "https://www.bbc.co.uk/news/articles/cdrv0k0j662o?at_medium=RSS&at_campaign=rss",
       "date": "5 Aug 2026",
-      "excerpt": "The meat has never been more expensive, due to supply shortages, but no-one is making more money.",
+      "excerpt": "The meat has never been more expensive, due to supply shortages, but there's a big squeeze on profits.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56e1/live/48c00f90-8c1e-11f1-94b2-05bc97107049.jpg"
     }
   ]
