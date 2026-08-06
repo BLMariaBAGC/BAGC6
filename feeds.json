@@ -1,5 +1,5 @@
 {
-  "updated": "06 Aug 2026, 14:02 UTC",
+  "updated": "06 Aug 2026, 23:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "AI Experiments Need Domain Experts. Here’s How to Support Them.",
+      "link": "/2026/08/ai-experiments-need-domain-experts-heres-how-to-support-them",
+      "date": "6 Aug 2026",
+      "excerpt": "Without the right scaffolding, the people closest to the work often end up quietly dropping out of the innovation process.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How to Recognize When Your Customers Want You to Act",
       "link": "/2026/08/how-to-recognize-when-your-customers-want-you-to-act",
       "date": "5 Aug 2026",
@@ -125,15 +134,6 @@
       "link": "/podcast/2026/08/why-metaphysic-ai-looked-to-hollywood-for-a-digital-rights-model",
       "date": "4 Aug 2026",
       "excerpt": "When an individual&#8217;s work can be digitally captured, replicated, and monetized, who gets to lay claim to the value?",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Great Turnarounds Start with Culture, Not Strategy",
-      "link": "/podcast/2026/08/why-great-turnarounds-start-with-culture-not-strategy",
-      "date": "4 Aug 2026",
-      "excerpt": "A conversation with Verizon CEO Dan Schulman on reshaping the telecom giant amid AI disruption.",
       "image": ""
     },
     {
@@ -193,56 +193,56 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Aug 2026",
+      "excerpt": "A New Mexico judge ordered the Instagram, Facebook and Whatsapp parent company to pay another $567m for the way it has harmed children.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2d2/live/d094fb50-91ec-11f1-a12f-8b7b5ef58f56.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Argos is getting a makeover - but can it attract new shoppers?",
+      "link": "https://www.bbc.co.uk/news/articles/c2lqvwewgp2o?at_medium=RSS&at_campaign=rss",
+      "date": "6 Aug 2026",
+      "excerpt": "The retailer has been around for 50 years but struggled to compete with newer rivals such as Amazon. Can its new owners turn it around?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b55/live/2f63f710-91b3-11f1-af4d-5164294a85c7.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "EasyJet agrees to £5.7bn takeover by US firm",
+      "link": "https://www.bbc.co.uk/news/articles/cjejzjpy98wo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Aug 2026",
+      "excerpt": "The no-frills carrier agrees to be bought by US firm Apollo after a rival suitor drops out.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ef0/live/b3519660-91b6-11f1-a7ab-8b30adf0800a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "First OpenAI, now Meta - why do AI hacks keep happening?",
+      "link": "https://www.bbc.co.uk/news/articles/cp30989ee1wo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Aug 2026",
+      "excerpt": "A flood of companies are revealing AI models gained access to the internet - with real consequences.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19c4/live/1e741d30-91aa-11f1-9c12-47c0acd34ba6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Cashing in on SpaceX: 'Every chance I get, I'll sell a little more'",
       "link": "https://www.bbc.co.uk/news/articles/cm2g0j3y339o?at_medium=RSS&at_campaign=rss",
       "date": "6 Aug 2026",
       "excerpt": "Andre Lavoie joined SpaceX in 2009 as an engineer, now he's looking to cash in his shares in the company.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/59e8/live/c0b97ce0-910d-11f1-b61e-4f9456542bbf.png"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1c4/live/1885b310-91a6-11f1-b8ee-9b3c26ad07bb.png"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Iran says deal with Oman on Strait of Hormuz is in final stages",
-      "link": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss",
+      "title": "Why airlines are warning over lithium-ion batteries",
+      "link": "https://www.bbc.co.uk/news/articles/cwyl6yz719jo?at_medium=RSS&at_campaign=rss",
       "date": "6 Aug 2026",
-      "excerpt": "Neither the US or Oman have commented on the proposed agreement on the vital waterway.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d689/live/d1fc7070-9171-11f1-b2ab-0dd01740f9f6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Shorts, strappy tops and sandals: What is acceptable to wear to work?",
-      "link": "https://www.bbc.co.uk/news/articles/cre49389g1qo?at_medium=RSS&at_campaign=rss",
-      "date": "6 Aug 2026",
-      "excerpt": "Here's how to style for success while keeping your cool - and where you and your boss stand on your wardrobe.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8f3/live/c87b2650-9193-11f1-b2ab-0dd01740f9f6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Meta becomes latest firm to say its AI hacked another company",
-      "link": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss",
-      "date": "6 Aug 2026",
-      "excerpt": "Meta is the latest company to disclose an AI agent breach, raising cyber-security concerns.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f468/live/5910e320-9131-11f1-b387-374684edd409.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Owner of bike maker Raleigh files for insolvency",
-      "link": "https://www.bbc.co.uk/news/articles/c4gv45w4j8eo?at_medium=RSS&at_campaign=rss",
-      "date": "6 Aug 2026",
-      "excerpt": "Accell, based in the Netherlands, has owned the famous bike brand since 2012.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afa1/live/08c11160-915e-11f1-a8f1-774cbc5e1a9f.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US beef prices have soared but farmers aren't making more money",
-      "link": "https://www.bbc.co.uk/news/articles/cdrv0k0j662o?at_medium=RSS&at_campaign=rss",
-      "date": "5 Aug 2026",
-      "excerpt": "The meat has never been more expensive, due to supply shortages, but there's a big squeeze on profits.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56e1/live/48c00f90-8c1e-11f1-94b2-05bc97107049.jpg"
+      "excerpt": "The airline industry wants passengers to be careful when travelling with lithium ion batteries.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3bf5/live/f3675220-90ae-11f1-b2ab-0dd01740f9f6.jpg"
     }
   ]
 }
