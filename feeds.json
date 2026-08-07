@@ -1,5 +1,5 @@
 {
-  "updated": "07 Aug 2026, 20:38 UTC",
+  "updated": "07 Aug 2026, 22:32 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -134,6 +134,60 @@
       "link": "/2026/08/how-much-time-do-your-employees-spend-botsitting",
       "date": "5 Aug 2026",
       "excerpt": "AI can automate hours of work each week, but it also requires substantial human oversight. Leaders need to account for that hidden labor.",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Does it matter what you eat at work?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
+      "date": "5 Aug 2026",
+      "excerpt": "What, when, where and how we eat can signify many things. Eating healthily might impress your colleagues but doing so on a video call is unprofessional. Michael J. Matthews, Thomas K. Kelemen, Trevor Watkins and Mark Bolino describe the bio",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Can teaching social skills improve social mobility?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/04/can-teaching-social-skills-improve-social-mobility/",
+      "date": "4 Aug 2026",
+      "excerpt": "Social mobility has stalled in America and Britain. And since the COVID-19 pandemic many young people face new disadvantages hindering their educational and professional prospects. Could social skills be the key to improving their opportuni",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What happens when employees who speak up are held back?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/30/what-happens-when-employees-who-speak-up-are-held-back/",
+      "date": "30 Jul 2026",
+      "excerpt": "Many organisational challenges, whether cultural, financial or operational, can be linked to difficulties in fostering open and honest upward communication. Silence can reflect fear, fatigue, uncertainty or the belief that speaking up will ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-2-1024x427.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The film industry underestimates the role of distributors in bringing projects to market",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/28/the-film-industry-underestimates-the-role-of-distributors-in-bringing-projects-to-market/",
+      "date": "28 Jul 2026",
+      "excerpt": "A strong&nbsp;film with famous names and clever technology&nbsp;is&nbsp;nothing&nbsp;if people cannot watch it.&nbsp;Good distributors are vital to bring projects to market.&nbsp;Angelo Tomaselli,&nbsp;Salvatore Torrisi&nbsp;and&nbsp;Joris ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Fitness apps keep users engaged – but do they change habits?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
+      "date": "27 Jul 2026",
+      "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What AI’s usurping of the peer-reviewed publications means for medicine and pharmaceutical industry",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/23/what-ais-usurping-of-the-peer-reviewed-publications-means-for-medicine-and-pharmaceutical-industry/",
+      "date": "23 Jul 2026",
+      "excerpt": "For hundreds of years, modern science has relied on peer-reviewed publications to register, to certify and to distribute new claims. Demand is still growing. But Alex Bedenkov and David Ginkel show rapidly technologies like AI have changed ",
       "image": ""
     },
     {
