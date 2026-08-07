@@ -1,5 +1,5 @@
 {
-  "updated": "06 Aug 2026, 23:55 UTC",
+  "updated": "07 Aug 2026, 02:38 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -195,9 +195,9 @@
       "feedId": "bbc",
       "title": "Meta fined $567m in largest child safety ruling against social media giant",
       "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
-      "date": "6 Aug 2026",
+      "date": "7 Aug 2026",
       "excerpt": "A New Mexico judge ordered the Instagram, Facebook and Whatsapp parent company to pay another $567m for the way it has harmed children.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2d2/live/d094fb50-91ec-11f1-a12f-8b7b5ef58f56.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/635f/live/b98233a0-91fc-11f1-a7ab-8b30adf0800a.jpg"
     },
     {
       "source": "BBC Business",
@@ -207,6 +207,15 @@
       "date": "6 Aug 2026",
       "excerpt": "The retailer has been around for 50 years but struggled to compete with newer rivals such as Amazon. Can its new owners turn it around?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b55/live/2f63f710-91b3-11f1-af4d-5164294a85c7.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump imposes 15% tariff on key chip material to counter China",
+      "link": "https://www.bbc.co.uk/news/articles/cdrvn686dljo?at_medium=RSS&at_campaign=rss",
+      "date": "7 Aug 2026",
+      "excerpt": "The move aims to protect US firms as they face increasing competition from China's chip industry.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60dd/live/9a103bd0-91fb-11f1-952a-e58ebd1358f8.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "6 Aug 2026",
       "excerpt": "A flood of companies are revealing AI models gained access to the internet - with real consequences.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19c4/live/1e741d30-91aa-11f1-9c12-47c0acd34ba6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Cashing in on SpaceX: 'Every chance I get, I'll sell a little more'",
-      "link": "https://www.bbc.co.uk/news/articles/cm2g0j3y339o?at_medium=RSS&at_campaign=rss",
-      "date": "6 Aug 2026",
-      "excerpt": "Andre Lavoie joined SpaceX in 2009 as an engineer, now he's looking to cash in his shares in the company.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1c4/live/1885b310-91a6-11f1-b8ee-9b3c26ad07bb.png"
     },
     {
       "source": "BBC Business",
