@@ -1,6 +1,24 @@
 {
-  "updated": "07 Aug 2026, 08:56 UTC",
+  "updated": "07 Aug 2026, 10:50 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Wearable ultrasound patch boosts REM sleep without drugs or surgery",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260806050709.htm",
+      "date": "7 Aug 2026",
+      "excerpt": "A new wearable patch may help people reach REM sleep faster and remain there longer without medication or surgery. In a study of 28 participants, the device shortened the time to REM by 43 minutes and extended it by about 16 minutes. Resear",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a hidden brain shift that begins around age 50",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260806050700.htm",
+      "date": "6 Aug 2026",
+      "excerpt": "Beginning around age 50, the brain’s memory center appears to lose many of its longtime immune cells and replace them with more inflammatory ones. This surprising shift may help explain how normal aging sets the stage for Alzheimer’s diseas",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260802223437.htm",
       "date": "3 Aug 2026",
       "excerpt": "Vanderbilt researchers created the first selective compound designed to inhibit TAOK-1, a poorly understood protein connected to Alzheimer’s disease. They also discovered a second compound that activates the entire TAOK protein family, offe",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists may have found aging’s hidden trigger for brain disease",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260802223433.htm",
-      "date": "3 Aug 2026",
-      "excerpt": "Scientists have identified a molecular switch that may help explain why aging makes the brain more vulnerable to diseases such as ALS and Huntington’s. In worms, the protein EPS8 builds up with age and triggers signaling that encourages tox",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Experts say blood pressure guidelines are missing half the equation",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260731034135.htm",
-      "date": "31 Jul 2026",
-      "excerpt": "A new report suggests that blood pressure may be controlled more effectively by increasing potassium while also cutting sodium. Potassium-rich foods can help balance sodium’s effects, but most people consume far less potassium than recommen",
       "image": ""
     },
     {
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "AI has a serious image problem",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
+      "date": "7 Aug 2026",
+      "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Does it matter what you eat at work?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
       "date": "5 Aug 2026",
@@ -182,22 +191,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What AI’s usurping of the peer-reviewed publications means for medicine and pharmaceutical industry",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/23/what-ais-usurping-of-the-peer-reviewed-publications-means-for-medicine-and-pharmaceutical-industry/",
-      "date": "23 Jul 2026",
-      "excerpt": "For hundreds of years, modern science has relied on peer-reviewed publications to register, to certify and to distribute new claims. Demand is still growing. But Alex Bedenkov and David Ginkel show rapidly technologies like AI have changed ",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Meta fined $567m in largest child safety ruling against social media giant",
       "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
       "date": "7 Aug 2026",
       "excerpt": "The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/635f/live/b98233a0-91fc-11f1-a7ab-8b30adf0800a.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1611/live/29966380-9240-11f1-b2ab-0dd01740f9f6.jpg"
     },
     {
       "source": "BBC Business",
@@ -207,6 +207,15 @@
       "date": "6 Aug 2026",
       "excerpt": "The retailer has been around for 50 years but struggled to compete with newer rivals such as Amazon. Can its new owners turn it around?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b55/live/2f63f710-91b3-11f1-af4d-5164294a85c7.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects",
+      "link": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
+      "date": "7 Aug 2026",
+      "excerpt": "The RWE payout is the latest in a string of deals cancelling wind energy projects, a power source long derided by Trump.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5720/live/f30947f0-9240-11f1-8a95-af174e9f8ab7.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "6 Aug 2026",
       "excerpt": "The no-frills carrier agrees to be bought by US firm Apollo after a rival suitor drops out.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ef0/live/b3519660-91b6-11f1-a7ab-8b30adf0800a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "First OpenAI, now Meta - why do AI hacks keep happening?",
-      "link": "https://www.bbc.co.uk/news/articles/cp30989ee1wo?at_medium=RSS&at_campaign=rss",
-      "date": "6 Aug 2026",
-      "excerpt": "A flood of companies are revealing AI models gained access to the internet - with real consequences.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19c4/live/1e741d30-91aa-11f1-9c12-47c0acd34ba6.jpg"
     },
     {
       "source": "BBC Business",
