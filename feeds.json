@@ -1,5 +1,5 @@
 {
-  "updated": "07 Aug 2026, 10:50 UTC",
+  "updated": "07 Aug 2026, 12:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "How a 90-second power outage sparked  chaos for rail commuters",
+      "link": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&at_campaign=rss",
+      "date": "7 Aug 2026",
+      "excerpt": "The incident raised questions about how a disrupted power supply can have such a widespread impact.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ce6/live/d3c457f0-925d-11f1-b9ff-37ae3aba3894.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Meta fined $567m in largest child safety ruling against social media giant",
       "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
       "date": "7 Aug 2026",
@@ -225,15 +234,6 @@
       "date": "7 Aug 2026",
       "excerpt": "The move aims to protect US firms as they face increasing competition from China's chip industry.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60dd/live/9a103bd0-91fb-11f1-952a-e58ebd1358f8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "EasyJet agrees to £5.7bn takeover by US firm",
-      "link": "https://www.bbc.co.uk/news/articles/cjejzjpy98wo?at_medium=RSS&at_campaign=rss",
-      "date": "6 Aug 2026",
-      "excerpt": "The no-frills carrier agrees to be bought by US firm Apollo after a rival suitor drops out.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ef0/live/b3519660-91b6-11f1-a7ab-8b30adf0800a.jpg"
     },
     {
       "source": "BBC Business",
