@@ -1,6 +1,15 @@
 {
-  "updated": "07 Aug 2026, 12:57 UTC",
+  "updated": "07 Aug 2026, 14:50 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists tracked 12 people in Antarctica for 10 months—what happened could shape future Mars missions",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260806050722.htm",
+      "date": "7 Aug 2026",
+      "excerpt": "A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people. Frequent contact was linked to greater tension and mistrust, while the crew increasing",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -17,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260806050700.htm",
       "date": "6 Aug 2026",
       "excerpt": "Beginning around age 50, the brain’s memory center appears to lose many of its longtime immune cells and replace them with more inflammatory ones. This surprising shift may help explain how normal aging sets the stage for Alzheimer’s diseas",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "New autism therapy shows surprising benefits even in adult mice",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260805082508.htm",
+      "date": "7 Aug 2026",
+      "excerpt": "Blocking the glycine transporter SLC6A20 restored important brain signaling and improved social, communication, and repetitive behaviors in autism-related mouse models. The treatment also worked in human brain organoids and showed lasting e",
       "image": ""
     },
     {
@@ -56,21 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your brain may be wired to regain lost weight",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260803080902.htm",
-      "date": "3 Aug 2026",
-      "excerpt": "Weight loss is not simply a test of willpower. The human brain evolved to protect body fat during times of scarcity, and it can treat a previously higher weight as the new normal, triggering stronger hunger, cravings, and lower energy use a",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Algorithmic Shopping Is Here. Is Your Company Ready?",
+      "link": "/2026/08/algorithmic-shopping-is-here-is-your-company-ready",
+      "date": "7 Aug 2026",
+      "excerpt": "A five-pillar audit for the C-suite.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Two new compounds could reveal hidden drivers of Alzheimer’s disease",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260802223437.htm",
-      "date": "3 Aug 2026",
-      "excerpt": "Vanderbilt researchers created the first selective compound designed to inhibit TAOK-1, a poorly understood protein connected to Alzheimer’s disease. They also discovered a second compound that activates the entire TAOK protein family, offe",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: How Remote Work Is Narrowing Early-Career Opportunities",
+      "link": "/2026/08/research-how-remote-work-is-narrowing-early-career-opportunities",
+      "date": "7 Aug 2026",
+      "excerpt": "Companies are less willing to take a chance on rookie candidates, leaving fewer opportunities for the next generation.",
       "image": ""
     },
     {
@@ -119,33 +137,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Climate Goals Are Worth Setting—Even If They’re Aspirational",
-      "link": "/2026/08/climate-goals-are-worth-setting-even-if-theyre-aspirational",
-      "date": "4 Aug 2026",
-      "excerpt": "New research shows how corporate emissions targets encourage suppliers to invest in climate innovations, advancing decarbonization.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Metaphysic AI Looked to Hollywood for a Digital Rights Model",
-      "link": "/podcast/2026/08/why-metaphysic-ai-looked-to-hollywood-for-a-digital-rights-model",
-      "date": "4 Aug 2026",
-      "excerpt": "When an individual&#8217;s work can be digitally captured, replicated, and monetized, who gets to lay claim to the value?",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "AI has a serious image problem",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
-      "date": "7 Aug 2026",
-      "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "Does it matter what you eat at work?",
@@ -191,13 +182,31 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What AI’s usurping of the peer-reviewed publications means for medicine and pharmaceutical industry",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/23/what-ais-usurping-of-the-peer-reviewed-publications-means-for-medicine-and-pharmaceutical-industry/",
+      "date": "23 Jul 2026",
+      "excerpt": "For hundreds of years, modern science has relied on peer-reviewed publications to register, to certify and to distribute new claims. Demand is still growing. But Alex Bedenkov and David Ginkel show rapidly technologies like AI have changed ",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "How a 90-second power outage sparked  chaos for rail commuters",
       "link": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&at_campaign=rss",
       "date": "7 Aug 2026",
       "excerpt": "The incident raised questions about how a disrupted power supply can have such a widespread impact.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ce6/live/d3c457f0-925d-11f1-b9ff-37ae3aba3894.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2293/live/c553a680-9262-11f1-b2ab-0dd01740f9f6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Surprise fall in US jobs last month as slow summer continues",
+      "link": "https://www.bbc.co.uk/news/articles/c20j5rle717o?at_medium=RSS&at_campaign=rss",
+      "date": "7 Aug 2026",
+      "excerpt": "Analysts had expected an uptick in the number of jobs created, but the number of roles fell by 23,000 in July.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dbb4/live/44eb8470-925f-11f1-b9ff-37ae3aba3894.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,20 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects",
+      "title": "Trump administration to pay German firm $1.2bn to halt US wind projects",
       "link": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
       "date": "7 Aug 2026",
       "excerpt": "The RWE payout is the latest in a string of deals cancelling wind energy projects, a power source long derided by Trump.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5720/live/f30947f0-9240-11f1-8a95-af174e9f8ab7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump imposes 15% tariff on key chip material to counter China",
-      "link": "https://www.bbc.co.uk/news/articles/cdrvn686dljo?at_medium=RSS&at_campaign=rss",
-      "date": "7 Aug 2026",
-      "excerpt": "The move aims to protect US firms as they face increasing competition from China's chip industry.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60dd/live/9a103bd0-91fb-11f1-952a-e58ebd1358f8.jpg"
     },
     {
       "source": "BBC Business",
