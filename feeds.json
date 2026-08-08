@@ -1,6 +1,15 @@
 {
-  "updated": "08 Aug 2026, 06:48 UTC",
+  "updated": "08 Aug 2026, 08:37 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Teen cannabis use linked to slower memory and thinking growth",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260806050726.htm",
+      "date": "7 Aug 2026",
+      "excerpt": "Teens who start using cannabis may experience slower growth in memory, attention, language, and processing speed. Their abilities often developed normally at first, then began leveling off while nonusers continued improving. THC appeared to",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260804034622.htm",
       "date": "5 Aug 2026",
       "excerpt": "A group of brain cells called orexin neurons appears to help us keep working when reaching a reward becomes increasingly difficult. Blocking their activity weakened motivation in rats, pointing to a possible new target for understanding why",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Nearly half of dementia cases may be linked to risks you can change",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260803080923.htm",
-      "date": "6 Aug 2026",
-      "excerpt": "A long-term brain study found that common risks such as smoking, high blood pressure, heart disease, and high blood lipids were strongly linked to damage associated with vascular dementia. The findings suggest that healthier lifestyle choic",
       "image": ""
     },
     {
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "AI has a serious image problem",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
+      "date": "7 Aug 2026",
+      "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Does it matter what you eat at work?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
       "date": "5 Aug 2026",
@@ -179,15 +188,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
       "date": "27 Jul 2026",
       "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What AI’s usurping of the peer-reviewed publications means for medicine and pharmaceutical industry",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/23/what-ais-usurping-of-the-peer-reviewed-publications-means-for-medicine-and-pharmaceutical-industry/",
-      "date": "23 Jul 2026",
-      "excerpt": "For hundreds of years, modern science has relied on peer-reviewed publications to register, to certify and to distribute new claims. Demand is still growing. But Alex Bedenkov and David Ginkel show rapidly technologies like AI have changed ",
       "image": ""
     },
     {
