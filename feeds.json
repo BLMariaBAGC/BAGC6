@@ -1,5 +1,5 @@
 {
-  "updated": "08 Aug 2026, 10:29 UTC",
+  "updated": "08 Aug 2026, 12:42 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Is football AI-proof? Why tech investors wanted a slice of the World Cup",
+      "link": "https://www.bbc.co.uk/news/articles/cd7l4e3v238o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Aug 2026",
+      "excerpt": "What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2700/live/b51ae4b0-91b6-11f1-bab9-173de0e7d358.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "How a 90-second power outage sparked chaos for rail commuters",
       "link": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&at_campaign=rss",
       "date": "7 Aug 2026",
@@ -234,15 +243,6 @@
       "date": "6 Aug 2026",
       "excerpt": "The retailer has been around for 50 years but struggled to compete with newer rivals such as Amazon. Can its new owners turn it around?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b55/live/2f63f710-91b3-11f1-af4d-5164294a85c7.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why airlines are warning over lithium-ion batteries",
-      "link": "https://www.bbc.co.uk/news/articles/cwyl6yz719jo?at_medium=RSS&at_campaign=rss",
-      "date": "6 Aug 2026",
-      "excerpt": "The airline industry wants passengers to be careful when travelling with lithium ion batteries.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3bf5/live/f3675220-90ae-11f1-b2ab-0dd01740f9f6.jpg"
     }
   ]
 }
