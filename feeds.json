@@ -1,5 +1,5 @@
 {
-  "updated": "07 Aug 2026, 22:32 UTC",
+  "updated": "08 Aug 2026, 01:22 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "AI has a serious image problem",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
+      "date": "7 Aug 2026",
+      "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Does it matter what you eat at work?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
       "date": "5 Aug 2026",
@@ -179,15 +188,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
       "date": "27 Jul 2026",
       "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What AI’s usurping of the peer-reviewed publications means for medicine and pharmaceutical industry",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/23/what-ais-usurping-of-the-peer-reviewed-publications-means-for-medicine-and-pharmaceutical-industry/",
-      "date": "23 Jul 2026",
-      "excerpt": "For hundreds of years, modern science has relied on peer-reviewed publications to register, to certify and to distribute new claims. Demand is still growing. But Alex Bedenkov and David Ginkel show rapidly technologies like AI have changed ",
       "image": ""
     },
     {
