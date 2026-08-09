@@ -1,6 +1,33 @@
 {
-  "updated": "09 Aug 2026, 10:31 UTC",
+  "updated": "09 Aug 2026, 12:44 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Frequent cannabis users wake up with their “stress hormone” already elevated",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260808234953.htm",
+      "date": "9 Aug 2026",
+      "excerpt": "Frequent cannabis users may wake up with unusually high levels of the stress hormone cortisol, suggesting their daily stress rhythms could be disrupted. Researchers say the finding raises questions about whether using cannabis for stress re",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists say just 7 days of meditation can rewire your brain",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260807235243.htm",
+      "date": "8 Aug 2026",
+      "excerpt": "An intensive seven-day meditation retreat triggered striking changes across the brain and body, including shifts tied to neuroplasticity, immunity, metabolism, and natural pain relief. Participants also showed brain connectivity patterns re",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Stress can scramble your brain’s internal GPS, MRI study finds",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260807035151.htm",
+      "date": "8 Aug 2026",
+      "excerpt": "Stress may literally scramble the brain’s internal GPS. Researchers found that cortisol, a hormone released during stress, made people significantly worse at navigating a virtual environment and disrupted the precise activity of grid cells,",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -44,33 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260805082508.htm",
       "date": "7 Aug 2026",
       "excerpt": "Blocking the glycine transporter SLC6A20 restored important brain signaling and improved social, communication, and repetitive behaviors in autism-related mouse models. The treatment also worked in human brain organoids and showed lasting e",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "THC medication made PTSD nightmares disappear for more than a third of patients",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260805082450.htm",
-      "date": "5 Aug 2026",
-      "excerpt": "A prescription form of THC helped many people with PTSD escape recurring trauma-related nightmares, with more than one-third reporting that the nightmares disappeared completely after ten weeks. The results could point toward a long-awaited",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Sitting up straight may improve your mood and decision-making",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260804034624.htm",
-      "date": "5 Aug 2026",
-      "excerpt": "A simple change in posture may subtly affect how people feel and make decisions. Participants who sat upright reported greater feelings of pride and took more successful risks in a virtual balloon game than those who hunched over. Most did ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover the brain cells that keep you motivated",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260804034622.htm",
-      "date": "5 Aug 2026",
-      "excerpt": "A group of brain cells called orexin neurons appears to help us keep working when reaching a reward becomes increasingly difficult. Blocking their activity weakened motivation in rats, pointing to a possible new target for understanding why",
       "image": ""
     },
     {
