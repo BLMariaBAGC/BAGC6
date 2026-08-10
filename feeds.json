@@ -1,5 +1,5 @@
 {
-  "updated": "10 Aug 2026, 11:05 UTC",
+  "updated": "10 Aug 2026, 13:02 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -71,6 +71,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260805082508.htm",
       "date": "7 Aug 2026",
       "excerpt": "Blocking the glycine transporter SLC6A20 restored important brain signaling and improved social, communication, and repetitive behaviors in autism-related mouse models. The treatment also worked in human brain organoids and showed lasting e",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Predictable Executive Career Arc Is Over",
+      "link": "/2026/08/the-predictable-executive-career-arc-is-over",
+      "date": "10 Aug 2026",
+      "excerpt": "In an era of longer working lives and rapid technological change, leaders must prepare for many possible futures. Here&#8217;s how.",
       "image": ""
     },
     {
@@ -215,7 +224,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss",
       "date": "10 Aug 2026",
       "excerpt": "Tech companies are not modelling their own claims of the technology giving people more free time.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1075/live/0b27bfa0-8aa4-11f1-a7ab-8b30adf0800a.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1c0/live/bb9691e0-94b3-11f1-a7ab-8b30adf0800a.jpg"
     },
     {
       "source": "BBC Business",
@@ -241,7 +250,7 @@
       "title": "'You could smell someone' who worked at Raleigh",
       "link": "https://www.bbc.co.uk/news/articles/cx2kgwrv6gvo?at_medium=RSS&at_campaign=rss",
       "date": "10 Aug 2026",
-      "excerpt": "The company was more than just a employer, for years it was part of the fabric of Nottingham.",
+      "excerpt": "The company was more than just a employer. For years, it was part of the fabric of Nottingham.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a219/live/bec205e0-947f-11f1-9918-857a225fb14e.jpg"
     }
   ]
