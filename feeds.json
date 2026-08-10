@@ -1,5 +1,5 @@
 {
-  "updated": "10 Aug 2026, 09:17 UTC",
+  "updated": "10 Aug 2026, 11:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,7 +202,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Burnham brings forward ban on 'subscription traps' to ease cost of living",
+      "title": "Ban on 'subscription traps' brought forward by three months",
       "link": "https://www.bbc.co.uk/news/articles/cly5x9qlnvjo?at_medium=RSS&at_campaign=rss",
       "date": "10 Aug 2026",
       "excerpt": "The prime minister is embarking on a UK tour with a series of announcements aimed at easing living costs.",
@@ -238,11 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Could your tattoo stop you from getting a job?",
-      "link": "https://www.bbc.co.uk/news/articles/cpq81y7x1yeo?at_medium=RSS&at_campaign=rss",
+      "title": "'You could smell someone' who worked at Raleigh",
+      "link": "https://www.bbc.co.uk/news/articles/cx2kgwrv6gvo?at_medium=RSS&at_campaign=rss",
       "date": "10 Aug 2026",
-      "excerpt": "A quarter of the UK population – including the new prime minister – have at least one tattoo, but they still divide opinion in the workplace.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bfb/live/e03d1d30-90e8-11f1-b8ee-9b3c26ad07bb.jpg"
+      "excerpt": "The company was more than just a employer, for years it was part of the fabric of Nottingham.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a219/live/bec205e0-947f-11f1-9918-857a225fb14e.jpg"
     }
   ]
 }
