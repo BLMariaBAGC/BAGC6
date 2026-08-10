@@ -1,5 +1,5 @@
 {
-  "updated": "10 Aug 2026, 16:51 UTC",
+  "updated": "10 Aug 2026, 18:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,12 +137,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Recognize When Your Customers Want You to Act",
-      "link": "/2026/08/how-to-recognize-when-your-customers-want-you-to-act",
-      "date": "5 Aug 2026",
-      "excerpt": "Four actions companies can take to better understand critical cues about timing.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Accounting is evolving in exciting ways, but student numbers are falling",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/10/accounting-is-evolving-in-exciting-ways-but-student-numbers-are-falling/",
+      "date": "10 Aug 2026",
+      "excerpt": "Accounting now sits at the intersection of data analytics, governance, risk, sustainability and strategic decision-making. Despite this, the talent pipeline is narrowing just as more are needed. Using data from the United Kingdom and Irelan",
       "image": ""
     },
     {
@@ -188,15 +188,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/07/28/the-film-industry-underestimates-the-role-of-distributors-in-bringing-projects-to-market/",
       "date": "28 Jul 2026",
       "excerpt": "A strong&nbsp;film with famous names and clever technology&nbsp;is&nbsp;nothing&nbsp;if people cannot watch it.&nbsp;Good distributors are vital to bring projects to market.&nbsp;Angelo Tomaselli,&nbsp;Salvatore Torrisi&nbsp;and&nbsp;Joris ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Fitness apps keep users engaged – but do they change habits?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
-      "date": "27 Jul 2026",
-      "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
       "image": ""
     },
     {
