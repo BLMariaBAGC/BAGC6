@@ -1,5 +1,5 @@
 {
-  "updated": "10 Aug 2026, 14:55 UTC",
+  "updated": "10 Aug 2026, 16:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -229,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Taylor Farms recalls jalapeno products after salmonella outbreak",
+      "link": "https://www.bbc.co.uk/news/articles/cgljd9p6027o?at_medium=RSS&at_campaign=rss",
+      "date": "10 Aug 2026",
+      "excerpt": "Food producer Taylor Farms is recalling sandwiches, sauces and dips across 26 US states after a salmonella outbreak.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e3fb/live/f2b13e10-94cb-11f1-8dc4-8907761852f3.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Tech leaders say AI means less work - their staff say they work up to 90 hours a week",
       "link": "https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss",
       "date": "10 Aug 2026",
       "excerpt": "Tech companies are not modelling their own claims of the technology giving people more free time.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1c0/live/bb9691e0-94b3-11f1-a7ab-8b30adf0800a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "You could be missing out on £150 off your energy bill - here's how to check",
-      "link": "https://www.bbc.co.uk/news/articles/czjlk8wx771o?at_medium=RSS&at_campaign=rss",
-      "date": "9 Aug 2026",
-      "excerpt": "Some people need to ensure they are named on their energy bill before the deadline to qualify for help.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8926/live/34a4ae50-8cd0-11f1-97f5-93fc85ee9dc4.jpg"
     },
     {
       "source": "BBC Business",
