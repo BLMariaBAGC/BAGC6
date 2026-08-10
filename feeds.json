@@ -1,5 +1,5 @@
 {
-  "updated": "09 Aug 2026, 22:27 UTC",
+  "updated": "10 Aug 2026, 01:38 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,60 +137,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "AI has a serious image problem",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
-      "date": "7 Aug 2026",
-      "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Does it matter what you eat at work?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
-      "date": "5 Aug 2026",
-      "excerpt": "What, when, where and how we eat can signify many things. Eating healthily might impress your colleagues but doing so on a video call is unprofessional. Michael J. Matthews, Thomas K. Kelemen, Trevor Watkins and Mark Bolino describe the bio",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Can teaching social skills improve social mobility?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/04/can-teaching-social-skills-improve-social-mobility/",
-      "date": "4 Aug 2026",
-      "excerpt": "Social mobility has stalled in America and Britain. And since the COVID-19 pandemic many young people face new disadvantages hindering their educational and professional prospects. Could social skills be the key to improving their opportuni",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What happens when employees who speak up are held back?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/30/what-happens-when-employees-who-speak-up-are-held-back/",
-      "date": "30 Jul 2026",
-      "excerpt": "Many organisational challenges, whether cultural, financial or operational, can be linked to difficulties in fostering open and honest upward communication. Silence can reflect fear, fatigue, uncertainty or the belief that speaking up will ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-2-1024x427.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The film industry underestimates the role of distributors in bringing projects to market",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/28/the-film-industry-underestimates-the-role-of-distributors-in-bringing-projects-to-market/",
-      "date": "28 Jul 2026",
-      "excerpt": "A strong&nbsp;film with famous names and clever technology&nbsp;is&nbsp;nothing&nbsp;if people cannot watch it.&nbsp;Good distributors are vital to bring projects to market.&nbsp;Angelo Tomaselli,&nbsp;Salvatore Torrisi&nbsp;and&nbsp;Joris ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Fitness apps keep users engaged – but do they change habits?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
-      "date": "27 Jul 2026",
-      "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Is football AI-proof? Why tech investors wanted a slice of the World Cup",
@@ -198,6 +144,15 @@
       "date": "8 Aug 2026",
       "excerpt": "What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2700/live/b51ae4b0-91b6-11f1-bab9-173de0e7d358.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "You could be missing out on £150 off your energy bill - here's how to check",
+      "link": "https://www.bbc.co.uk/news/articles/czjlk8wx771o?at_medium=RSS&at_campaign=rss",
+      "date": "9 Aug 2026",
+      "excerpt": "Some people need to ensure they are named on their energy bill before the deadline to qualify for help.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8926/live/34a4ae50-8cd0-11f1-97f5-93fc85ee9dc4.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +189,6 @@
       "date": "7 Aug 2026",
       "excerpt": "The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1611/live/29966380-9240-11f1-b2ab-0dd01740f9f6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Raw images, no filters: Why MySpace fans want it back as relaunch hinted",
-      "link": "https://www.bbc.co.uk/news/articles/c4g64152v71o?at_medium=RSS&at_campaign=rss",
-      "date": "9 Aug 2026",
-      "excerpt": "Fans and creators say a revived MySpace must feel personal, not algorithm-driven.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70b8/live/75e1db80-9249-11f1-a7ab-8b30adf0800a.jpg"
     }
   ]
 }
