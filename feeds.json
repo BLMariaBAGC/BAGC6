@@ -1,5 +1,5 @@
 {
-  "updated": "10 Aug 2026, 07:28 UTC",
+  "updated": "10 Aug 2026, 09:17 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Thames Water gave finance boss a £1m signing-on fee",
+      "link": "https://www.bbc.co.uk/news/articles/c9d841yexe0o?at_medium=RSS&at_campaign=rss",
+      "date": "10 Aug 2026",
+      "excerpt": "The seven-figure payment was given to Steve Buck as part of package to persuade him to join the troubled utility company.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be7c/live/8dac15b0-9491-11f1-9ade-bb7c8a2b6bc0.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Burnham brings forward ban on 'subscription traps' to ease cost of living",
       "link": "https://www.bbc.co.uk/news/articles/cly5x9qlnvjo?at_medium=RSS&at_campaign=rss",
       "date": "10 Aug 2026",
@@ -225,15 +234,6 @@
       "date": "8 Aug 2026",
       "excerpt": "What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2700/live/b51ae4b0-91b6-11f1-bab9-173de0e7d358.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How a 90-second power outage sparked chaos for rail commuters",
-      "link": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Aug 2026",
-      "excerpt": "The incident raised questions about how a disrupted power supply can have such a widespread impact.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2293/live/c553a680-9262-11f1-b2ab-0dd01740f9f6.jpg"
     },
     {
       "source": "BBC Business",
