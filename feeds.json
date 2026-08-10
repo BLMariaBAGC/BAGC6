@@ -1,5 +1,5 @@
 {
-  "updated": "10 Aug 2026, 05:24 UTC",
+  "updated": "10 Aug 2026, 07:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,11 +193,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Is football AI-proof? Why tech investors wanted a slice of the World Cup",
-      "link": "https://www.bbc.co.uk/news/articles/cd7l4e3v238o?at_medium=RSS&at_campaign=rss",
-      "date": "8 Aug 2026",
-      "excerpt": "What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2700/live/b51ae4b0-91b6-11f1-bab9-173de0e7d358.jpg"
+      "title": "Burnham brings forward ban on 'subscription traps' to ease cost of living",
+      "link": "https://www.bbc.co.uk/news/articles/cly5x9qlnvjo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Aug 2026",
+      "excerpt": "The prime minister is embarking on a UK tour with a series of announcements aimed at easing living costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de42/live/c00a80e0-947e-11f1-870d-5d08c49babb2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Tech leaders say AI means less work - their staff say they work up to 90 hours a week",
+      "link": "https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss",
+      "date": "10 Aug 2026",
+      "excerpt": "Tech companies are not modelling their own claims of the technology giving people more free time.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1075/live/0b27bfa0-8aa4-11f1-a7ab-8b30adf0800a.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,6 +220,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Is football AI-proof? Why tech investors wanted a slice of the World Cup",
+      "link": "https://www.bbc.co.uk/news/articles/cd7l4e3v238o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Aug 2026",
+      "excerpt": "What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2700/live/b51ae4b0-91b6-11f1-bab9-173de0e7d358.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "How a 90-second power outage sparked chaos for rail commuters",
       "link": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&at_campaign=rss",
       "date": "7 Aug 2026",
@@ -220,29 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Goodwin considers selling part of defence business",
-      "link": "https://www.bbc.co.uk/news/articles/c20dgpl0z4jo?at_medium=RSS&at_campaign=rss",
-      "date": "7 Aug 2026",
-      "excerpt": "The firm is a key supplier of components to UK and US frigate and submarine programmes.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1769/live/f8457c70-926d-11f1-9f0c-8d4ddef91df6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Surprise fall in US jobs last month as slow summer continues",
-      "link": "https://www.bbc.co.uk/news/articles/c20j5rle717o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Aug 2026",
-      "excerpt": "Analysts had expected an uptick in the number of jobs created, but the number of roles fell by 23,000 in July.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dbb4/live/44eb8470-925f-11f1-b9ff-37ae3aba3894.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Meta fined $567m in largest child safety ruling against social media giant",
-      "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
-      "date": "7 Aug 2026",
-      "excerpt": "The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1611/live/29966380-9240-11f1-b2ab-0dd01740f9f6.jpg"
+      "title": "Could your tattoo stop you from getting a job?",
+      "link": "https://www.bbc.co.uk/news/articles/cpq81y7x1yeo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Aug 2026",
+      "excerpt": "A quarter of the UK population – including the new prime minister – have at least one tattoo, but they still divide opinion in the workplace.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bfb/live/e03d1d30-90e8-11f1-b8ee-9b3c26ad07bb.jpg"
     }
   ]
 }
