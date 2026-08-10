@@ -1,5 +1,5 @@
 {
-  "updated": "10 Aug 2026, 13:02 UTC",
+  "updated": "10 Aug 2026, 14:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "What You Can Learn from a Competitor’s Job Postings",
+      "link": "/2026/08/what-you-can-learn-from-a-competitors-job-postings",
+      "date": "10 Aug 2026",
+      "excerpt": "How to decipher one of the clearest signals of their strategic priorities.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What Does AI Talent Look for in an Employer?",
+      "link": "/2026/08/what-does-ai-talent-look-for-in-an-employer",
+      "date": "10 Aug 2026",
+      "excerpt": "Three leader attributes that candidates gravitated toward, according to an analysis of the talent-matching platform CoffeeSpace.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The Predictable Executive Career Arc Is Over",
       "link": "/2026/08/the-predictable-executive-career-arc-is-over",
       "date": "10 Aug 2026",
@@ -125,24 +143,6 @@
       "link": "/2026/08/how-to-recognize-when-your-customers-want-you-to-act",
       "date": "5 Aug 2026",
       "excerpt": "Four actions companies can take to better understand critical cues about timing.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Lateral Hires Rarely Become CEO",
-      "link": "/2026/08/why-lateral-hires-rarely-become-ceo",
-      "date": "5 Aug 2026",
-      "excerpt": "Organizations form collective judgments about who they trust to represent the institution long before boards formally choose a CEO.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Much Time Do Your Employees Spend Botsitting?",
-      "link": "/2026/08/how-much-time-do-your-employees-spend-botsitting",
-      "date": "5 Aug 2026",
-      "excerpt": "AI can automate hours of work each week, but it also requires substantial human oversight. Leaders need to account for that hidden labor.",
       "image": ""
     },
     {
@@ -220,6 +220,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Consortium advances talks for stake in Liverpool",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cgljd4kny9eo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Aug 2026",
+      "excerpt": "A group including Amazon founder Jeff Bezos advances its talks to buy about a 30% stake in Liverpool, BBC Sport has been told.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf9e/live/650f8d00-94b7-11f1-a7ab-8b30adf0800a.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Tech leaders say AI means less work - their staff say they work up to 90 hours a week",
       "link": "https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss",
       "date": "10 Aug 2026",
@@ -234,15 +243,6 @@
       "date": "9 Aug 2026",
       "excerpt": "Some people need to ensure they are named on their energy bill before the deadline to qualify for help.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8926/live/34a4ae50-8cd0-11f1-97f5-93fc85ee9dc4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Is football AI-proof? Why tech investors wanted a slice of the World Cup",
-      "link": "https://www.bbc.co.uk/news/articles/cd7l4e3v238o?at_medium=RSS&at_campaign=rss",
-      "date": "8 Aug 2026",
-      "excerpt": "What was the thinking of the investors backing the now-canned plan, and are such proposals in the future inevitable?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2700/live/b51ae4b0-91b6-11f1-bab9-173de0e7d358.jpg"
     },
     {
       "source": "BBC Business",
