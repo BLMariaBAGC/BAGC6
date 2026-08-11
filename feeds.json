@@ -1,5 +1,5 @@
 {
-  "updated": "11 Aug 2026, 12:58 UTC",
+  "updated": "11 Aug 2026, 14:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Why Family Businesses Lose Control",
+      "link": "/2026/08/why-family-businesses-lose-control",
+      "date": "11 Aug 2026",
+      "excerpt": "The problem usually isn&#8217;t poor leadership. It&#8217;s unprepared ownership.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "“Leadership Drift” Is Stalling Your AI Strategy",
       "link": "/2026/08/leadership-drift-is-stalling-your-ai-strategy",
       "date": "11 Aug 2026",
@@ -125,15 +134,6 @@
       "link": "/2026/08/crafting-strategy-in-the-age-of-ai",
       "date": "7 Aug 2026",
       "excerpt": "How human strategists can free up time and focus on using their unique judgment.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Algorithmic Shopping Is Here. Is Your Company Ready?",
-      "link": "/2026/08/algorithmic-shopping-is-here-is-your-company-ready",
-      "date": "7 Aug 2026",
-      "excerpt": "A five-pillar audit for the C-suite.",
       "image": ""
     },
     {
