@@ -1,5 +1,5 @@
 {
-  "updated": "11 Aug 2026, 08:51 UTC",
+  "updated": "11 Aug 2026, 10:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "'I started in my 20s and made £8,000': Why women are often better investors than men",
+      "link": "https://www.bbc.co.uk/news/articles/czdmgmzll1ro?at_medium=RSS&at_campaign=rss",
+      "date": "10 Aug 2026",
+      "excerpt": "Women can make higher returns but only about a quarter of UK women have investments, compared with about 40% of men.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9c7/live/957b4470-93ea-11f1-8231-7d4e2048054e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "More than 10 firms pay up to $100,000 a month for fast access to Truth Social posts",
       "link": "https://www.bbc.co.uk/news/articles/ce3q5nxpgk1o?at_medium=RSS&at_campaign=rss",
       "date": "11 Aug 2026",
@@ -211,9 +220,18 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Mars Bar from 1991 found - and it's 56% bigger than today's",
+      "link": "https://www.bbc.co.uk/news/articles/c1j1kjy7gewo?at_medium=RSS&at_campaign=rss",
+      "date": "11 Aug 2026",
+      "excerpt": "The woman who found the chocolate bar during a house clearance compares it with today's Mars Bars.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79f0/live/51bb04a0-94ad-11f1-afe9-fb1a837ec5d9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Councils to get more powers to stop vape and betting shops, PM announces",
       "link": "https://www.bbc.co.uk/news/articles/cvg90el9236o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Aug 2026",
+      "date": "11 Aug 2026",
       "excerpt": "Prime Minister Andy Burnham said town centres had been \"hollowed out\" by decades of decline.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db9b/live/dda47690-953e-11f1-ba5b-b1a600ddfa74.jpg"
     },
@@ -225,24 +243,6 @@
       "date": "10 Aug 2026",
       "excerpt": "The seven-figure payment was given to Steve Buck as part of package to persuade him to join the troubled utility company.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be7c/live/8dac15b0-9491-11f1-9ade-bb7c8a2b6bc0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ban on 'subscription traps' brought forward by three months",
-      "link": "https://www.bbc.co.uk/news/articles/cly5x9qlnvjo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Aug 2026",
-      "excerpt": "The prime minister is embarking on a UK tour with a series of announcements aimed at easing living costs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de42/live/c00a80e0-947e-11f1-870d-5d08c49babb2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I started in my 20s and made £8,000': Why women are often better investors than men",
-      "link": "https://www.bbc.co.uk/news/articles/czdmgmzll1ro?at_medium=RSS&at_campaign=rss",
-      "date": "10 Aug 2026",
-      "excerpt": "Women can make higher returns but only about a quarter of UK women have investments, compared with about 40% of men.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9c7/live/957b4470-93ea-11f1-8231-7d4e2048054e.jpg"
     }
   ]
 }
