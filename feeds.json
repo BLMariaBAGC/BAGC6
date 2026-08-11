@@ -1,5 +1,5 @@
 {
-  "updated": "11 Aug 2026, 07:02 UTC",
+  "updated": "11 Aug 2026, 08:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Accounting is evolving in exciting ways, but student numbers are falling",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/10/accounting-is-evolving-in-exciting-ways-but-student-numbers-are-falling/",
+      "date": "10 Aug 2026",
+      "excerpt": "Accounting now sits at the intersection of data analytics, governance, risk, sustainability and strategic decision-making. Despite this, the talent pipeline is narrowing just as more are needed. Using data from the United Kingdom and Irelan",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "AI has a serious image problem",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
       "date": "7 Aug 2026",
@@ -182,21 +191,12 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Fitness apps keep users engaged – but do they change habits?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
-      "date": "27 Jul 2026",
-      "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump Media reports $238m loss as crypto falls",
+      "title": "More than 10 firms pay up to $100,000 a month for fast access to Truth Social posts",
       "link": "https://www.bbc.co.uk/news/articles/ce3q5nxpgk1o?at_medium=RSS&at_campaign=rss",
       "date": "11 Aug 2026",
-      "excerpt": "The firm says it will refocus on social media, which includes a plan to sell faster access to Trump's posts.",
+      "excerpt": "Trump Media expects the controversial service, which launched this month, to provide a new revenue stream, as it posts a quarterly loss.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/391a/live/f6f964e0-9514-11f1-976d-475167c7f6ea.jpg"
     },
     {
@@ -204,7 +204,7 @@
       "feedId": "bbc",
       "title": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
       "link": "https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Aug 2026",
+      "date": "11 Aug 2026",
       "excerpt": "The money will be used to develop new data centres to house, operate, and cool miles of stacked computer chips that process AI data and actions.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13ae/live/d1192590-9504-11f1-bf69-07da70b136c8.jpg"
     },
