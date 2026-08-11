@@ -1,5 +1,5 @@
 {
-  "updated": "11 Aug 2026, 10:48 UTC",
+  "updated": "11 Aug 2026, 12:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "“Leadership Drift” Is Stalling Your AI Strategy",
+      "link": "/2026/08/leadership-drift-is-stalling-your-ai-strategy",
+      "date": "11 Aug 2026",
+      "excerpt": "Research highlights the unintentional and collective inertia that prevents leadership teams from making decisions.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Innovation Strategy Most Companies Miss",
+      "link": "/podcast/2026/08/the-innovation-strategy-most-companies-miss",
+      "date": "11 Aug 2026",
+      "excerpt": "A conversation with Dartmouth&#8217;s Vijay Govindarajan and MIT&#8217;s Amos Winter on why designing for emerging markets before developed ones can yield benefits.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "What You Can Learn from a Competitor’s Job Postings",
       "link": "/2026/08/what-you-can-learn-from-a-competitors-job-postings",
       "date": "10 Aug 2026",
@@ -116,24 +134,6 @@
       "link": "/2026/08/algorithmic-shopping-is-here-is-your-company-ready",
       "date": "7 Aug 2026",
       "excerpt": "A five-pillar audit for the C-suite.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: How Remote Work Is Narrowing Early-Career Opportunities",
-      "link": "/2026/08/research-how-remote-work-is-narrowing-early-career-opportunities",
-      "date": "7 Aug 2026",
-      "excerpt": "Companies are less willing to take a chance on rookie candidates, leaving fewer opportunities for the next generation.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Experiments Need Domain Experts. Here’s How to Support Them.",
-      "link": "/2026/08/ai-experiments-need-domain-experts-heres-how-to-support-them",
-      "date": "6 Aug 2026",
-      "excerpt": "Without the right scaffolding, the people closest to the work often end up quietly dropping out of the innovation process.",
       "image": ""
     },
     {
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "AI agent hacks gym to get its owner spot in pilates class",
+      "link": "https://www.bbc.co.uk/news/articles/cn0nww2qlp7o?at_medium=RSS&at_campaign=rss",
+      "date": "11 Aug 2026",
+      "excerpt": "The incident is being seen as the latest example of the AI tools going to any lengths to complete their tasks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b16/live/38886b20-9576-11f1-bfbd-3fe7d55dcf7b.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "More than 10 firms pay up to $100,000 a month for fast access to Truth Social posts",
       "link": "https://www.bbc.co.uk/news/articles/ce3q5nxpgk1o?at_medium=RSS&at_campaign=rss",
       "date": "11 Aug 2026",
@@ -220,29 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Mars Bar from 1991 found - and it's 56% bigger than today's",
+      "title": "Eclipse chasers scramble for glasses as stocks run low",
+      "link": "https://www.bbc.co.uk/news/articles/clyqxx27620o?at_medium=RSS&at_campaign=rss",
+      "date": "11 Aug 2026",
+      "excerpt": "Specialist glasses are all but sold out online ahead of the UK's most significant eclipse since 1999.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/432b/live/d0752bb0-9578-11f1-bfbd-3fe7d55dcf7b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Mars Bar from 1991 found – and it's 56% bigger than today's",
       "link": "https://www.bbc.co.uk/news/articles/c1j1kjy7gewo?at_medium=RSS&at_campaign=rss",
       "date": "11 Aug 2026",
       "excerpt": "The woman who found the chocolate bar during a house clearance compares it with today's Mars Bars.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79f0/live/51bb04a0-94ad-11f1-afe9-fb1a837ec5d9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Councils to get more powers to stop vape and betting shops, PM announces",
-      "link": "https://www.bbc.co.uk/news/articles/cvg90el9236o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Aug 2026",
-      "excerpt": "Prime Minister Andy Burnham said town centres had been \"hollowed out\" by decades of decline.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db9b/live/dda47690-953e-11f1-ba5b-b1a600ddfa74.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Thames Water gave finance boss a £1m signing-on fee",
-      "link": "https://www.bbc.co.uk/news/articles/c9d841yexe0o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Aug 2026",
-      "excerpt": "The seven-figure payment was given to Steve Buck as part of package to persuade him to join the troubled utility company.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be7c/live/8dac15b0-9491-11f1-9ade-bb7c8a2b6bc0.jpg"
     }
   ]
 }
