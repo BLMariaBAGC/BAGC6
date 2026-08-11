@@ -1,5 +1,5 @@
 {
-  "updated": "11 Aug 2026, 14:54 UTC",
+  "updated": "11 Aug 2026, 16:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Driving Change When You Lack Authority",
+      "link": "/2026/08/driving-change-when-you-lack-authority",
+      "date": "11 Aug 2026",
+      "excerpt": "In the August 10 edition of&#160;The Insider newsletter, managing editor Gretchen Gavett writes on influencing others when you lack formal authority, board relationships, and the hidden labor of &#8220;botsitting.&#8221;",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Why Family Businesses Lose Control",
       "link": "/2026/08/why-family-businesses-lose-control",
       "date": "11 Aug 2026",
@@ -128,12 +137,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Crafting Strategy in the Age of AI",
-      "link": "/2026/08/crafting-strategy-in-the-age-of-ai",
-      "date": "7 Aug 2026",
-      "excerpt": "How human strategists can free up time and focus on using their unique judgment.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How foreign ownership of sovereign debt affects inflation",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/11/how-foreign-ownership-of-sovereign-debt-affects-inflation/",
+      "date": "11 Aug 2026",
+      "excerpt": "While central banks typically analyse inflation through domestic demand, supply and expectations, they should also treat the financial account of the balance of payments as part of the inflation process. Using the Portfolio Theory of Inflat",
       "image": ""
     },
     {
@@ -152,7 +161,7 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
       "date": "7 Aug 2026",
       "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
-      "image": ""
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Slide1.jpeg"
     },
     {
       "source": "LSE Business Review",
@@ -160,7 +169,7 @@
       "title": "Does it matter what you eat at work?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
       "date": "5 Aug 2026",
-      "excerpt": "What, when, where and how we eat can signify many things. Eating healthily might impress your colleagues but doing so on a video call is unprofessional. Michael J. Matthews, Thomas K. Kelemen, Trevor Watkins and Mark Bolino describe the bio",
+      "excerpt": "What, when, where and how we eat can signify many things.&nbsp;Eating healthily might impress your&nbsp;colleagues&nbsp;but doing so on a video call is unprofessional.&nbsp;Michael J. Matthews,&nbsp;Thomas K. Kelemen,&nbsp;Trevor Watkins&nb",
       "image": ""
     },
     {
@@ -182,15 +191,6 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-2-1024x427.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The film industry underestimates the role of distributors in bringing projects to market",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/28/the-film-industry-underestimates-the-role-of-distributors-in-bringing-projects-to-market/",
-      "date": "28 Jul 2026",
-      "excerpt": "A strong&nbsp;film with famous names and clever technology&nbsp;is&nbsp;nothing&nbsp;if people cannot watch it.&nbsp;Good distributors are vital to bring projects to market.&nbsp;Angelo Tomaselli,&nbsp;Salvatore Torrisi&nbsp;and&nbsp;Joris ",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "'I started in my 20s and made £8,000': Why women are often better investors than men",
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "AI agent hacks gym to get its owner spot in pilates class",
+      "title": "AI agent hacks gym to get its user a spot in pilates class",
       "link": "https://www.bbc.co.uk/news/articles/cn0nww2qlp7o?at_medium=RSS&at_campaign=rss",
       "date": "11 Aug 2026",
       "excerpt": "The incident is being seen as the latest example of the AI tools going to any lengths to complete their tasks.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b16/live/38886b20-9576-11f1-bfbd-3fe7d55dcf7b.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "France bans unsolicited telemarketing calls",
+      "link": "https://www.bbc.co.uk/news/articles/cy5d11g72ppo?at_medium=RSS&at_campaign=rss",
+      "date": "11 Aug 2026",
+      "excerpt": "Cold calling is coming to an end in France, with one consumer group calling the ban a \"small revolution\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e97/live/62cc8120-9583-11f1-8636-978a48bd79b6.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "11 Aug 2026",
       "excerpt": "Specialist glasses are all but sold out online ahead of the UK's most significant eclipse since 1999.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/432b/live/d0752bb0-9578-11f1-bfbd-3fe7d55dcf7b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Mars Bar from 1991 found – and it's 56% bigger than today's",
-      "link": "https://www.bbc.co.uk/news/articles/c1j1kjy7gewo?at_medium=RSS&at_campaign=rss",
-      "date": "11 Aug 2026",
-      "excerpt": "The woman who found the chocolate bar during a house clearance compares it with today's Mars Bars.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79f0/live/51bb04a0-94ad-11f1-afe9-fb1a837ec5d9.jpg"
     }
   ]
 }
