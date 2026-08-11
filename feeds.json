@@ -1,5 +1,5 @@
 {
-  "updated": "11 Aug 2026, 16:55 UTC",
+  "updated": "11 Aug 2026, 18:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,15 +139,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How foreign ownership of sovereign debt affects inflation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/11/how-foreign-ownership-of-sovereign-debt-affects-inflation/",
-      "date": "11 Aug 2026",
-      "excerpt": "While central banks typically analyse inflation through domestic demand, supply and expectations, they should also treat the financial account of the balance of payments as part of the inflation process. Using the Portfolio Theory of Inflat",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Accounting is evolving in exciting ways, but student numbers are falling",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/10/accounting-is-evolving-in-exciting-ways-but-student-numbers-are-falling/",
       "date": "10 Aug 2026",
@@ -161,7 +152,7 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
       "date": "7 Aug 2026",
       "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Slide1.jpeg"
+      "image": ""
     },
     {
       "source": "LSE Business Review",
@@ -169,7 +160,7 @@
       "title": "Does it matter what you eat at work?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
       "date": "5 Aug 2026",
-      "excerpt": "What, when, where and how we eat can signify many things.&nbsp;Eating healthily might impress your&nbsp;colleagues&nbsp;but doing so on a video call is unprofessional.&nbsp;Michael J. Matthews,&nbsp;Thomas K. Kelemen,&nbsp;Trevor Watkins&nb",
+      "excerpt": "What, when, where and how we eat can signify many things. Eating healthily might impress your colleagues but doing so on a video call is unprofessional. Michael J. Matthews, Thomas K. Kelemen, Trevor Watkins and Mark Bolino describe the bio",
       "image": ""
     },
     {
@@ -189,6 +180,15 @@
       "date": "30 Jul 2026",
       "excerpt": "Many organisational challenges, whether cultural, financial or operational, can be linked to difficulties in fostering open and honest upward communication. Silence can reflect fear, fatigue, uncertainty or the belief that speaking up will ",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-2-1024x427.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The film industry underestimates the role of distributors in bringing projects to market",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/28/the-film-industry-underestimates-the-role-of-distributors-in-bringing-projects-to-market/",
+      "date": "28 Jul 2026",
+      "excerpt": "A strong&nbsp;film with famous names and clever technology&nbsp;is&nbsp;nothing&nbsp;if people cannot watch it.&nbsp;Good distributors are vital to bring projects to market.&nbsp;Angelo Tomaselli,&nbsp;Salvatore Torrisi&nbsp;and&nbsp;Joris ",
+      "image": ""
     },
     {
       "source": "BBC Business",
