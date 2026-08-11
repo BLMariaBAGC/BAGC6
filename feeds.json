@@ -1,5 +1,5 @@
 {
-  "updated": "11 Aug 2026, 05:04 UTC",
+  "updated": "11 Aug 2026, 07:02 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,15 +139,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Accounting is evolving in exciting ways, but student numbers are falling",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/10/accounting-is-evolving-in-exciting-ways-but-student-numbers-are-falling/",
-      "date": "10 Aug 2026",
-      "excerpt": "Accounting now sits at the intersection of data analytics, governance, risk, sustainability and strategic decision-making. Despite this, the talent pipeline is narrowing just as more are needed. Using data from the United Kingdom and Irelan",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "AI has a serious image problem",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
       "date": "7 Aug 2026",
@@ -191,13 +182,13 @@
       "image": ""
     },
     {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Nvidia gets $500bn from major investors to develop AI infrastructure",
-      "link": "https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Aug 2026",
-      "excerpt": "The money will be used to develop new data centres to house, operate, and cool miles of stacked computer chips that process AI data and actions.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13ae/live/d1192590-9504-11f1-bf69-07da70b136c8.jpg"
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Fitness apps keep users engaged – but do they change habits?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/27/fitness-apps-keep-users-engaged-but-do-they-change-habits/",
+      "date": "27 Jul 2026",
+      "excerpt": "Every day millions of us receive messages from health apps asking “Have you reached your goal today?” or “Keep going to maintain your streak”. But do these prompts actually encourage people to become more physically active? Beatrice Braut, ",
+      "image": ""
     },
     {
       "source": "BBC Business",
@@ -211,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Wall Street giants hand Nvidia $500bn to fund boom in AI projects",
+      "link": "https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Aug 2026",
+      "excerpt": "The money will be used to develop new data centres to house, operate, and cool miles of stacked computer chips that process AI data and actions.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13ae/live/d1192590-9504-11f1-bf69-07da70b136c8.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Councils to get more powers to stop vape and betting shops, PM announces",
       "link": "https://www.bbc.co.uk/news/articles/cvg90el9236o?at_medium=RSS&at_campaign=rss",
       "date": "10 Aug 2026",
       "excerpt": "Prime Minister Andy Burnham said town centres had been \"hollowed out\" by decades of decline.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43eb/live/ed0a0df0-94fa-11f1-9181-85140b8ce01b.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db9b/live/dda47690-953e-11f1-ba5b-b1a600ddfa74.jpg"
     },
     {
       "source": "BBC Business",
@@ -238,11 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Consortium advances talks for stake in Liverpool",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cgljd4kny9eo?at_medium=RSS&at_campaign=rss",
+      "title": "'I started in my 20s and made £8,000': Why women are often better investors than men",
+      "link": "https://www.bbc.co.uk/news/articles/czdmgmzll1ro?at_medium=RSS&at_campaign=rss",
       "date": "10 Aug 2026",
-      "excerpt": "A group including Amazon founder Jeff Bezos advances its talks to buy about a 30% stake in Liverpool, BBC Sport has been told.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf9e/live/650f8d00-94b7-11f1-a7ab-8b30adf0800a.png"
+      "excerpt": "Women can make higher returns but only about a quarter of UK women have investments, compared with about 40% of men.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9c7/live/957b4470-93ea-11f1-8231-7d4e2048054e.jpg"
     }
   ]
 }
