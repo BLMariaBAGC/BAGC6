@@ -1,5 +1,5 @@
 {
-  "updated": "12 Aug 2026, 04:04 UTC",
+  "updated": "12 Aug 2026, 07:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,10 +193,19 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "First 'pounds for pylons' energy bill discount sites revealed",
+      "title": "PM admits cost of living help is not enough and hints at further support",
+      "link": "https://www.bbc.co.uk/news/articles/cgmkee248vdo?at_medium=RSS&at_campaign=rss",
+      "date": "12 Aug 2026",
+      "excerpt": "The PM has announced a rake of measures to help people since taking office three weeks ago.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e306/live/9bc93290-9581-11f1-8636-978a48bd79b6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Homes near pylons to get £250 a year off energy bills – first sites revealed",
       "link": "https://www.bbc.co.uk/news/articles/c8rn42jp7d6o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Aug 2026",
-      "excerpt": "Households living within 1600ft of upgraded pylons will get £250 a year off their electricity bills.",
+      "date": "12 Aug 2026",
+      "excerpt": "Households living within 1,600ft of upgraded pylons will get £250 a year off their electricity bills.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cc1/live/a81a4a70-959f-11f1-870d-5d08c49babb2.jpg"
     },
     {
@@ -225,15 +234,6 @@
       "date": "11 Aug 2026",
       "excerpt": "A statement issued by the firm said \"John lived a fantastic life full of laughter and hard work\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18d0/live/ea163430-95bc-11f1-a556-013790f38050.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI agent hacks gym to get its user a spot in pilates class",
-      "link": "https://www.bbc.co.uk/news/articles/cn0nww2qlp7o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Aug 2026",
-      "excerpt": "The incident is being seen as the latest example of the AI tools going to any lengths to complete their tasks.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b16/live/38886b20-9576-11f1-bfbd-3fe7d55dcf7b.png"
     },
     {
       "source": "BBC Business",
