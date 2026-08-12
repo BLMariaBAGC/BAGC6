@@ -1,5 +1,5 @@
 {
-  "updated": "12 Aug 2026, 16:54 UTC",
+  "updated": "12 Aug 2026, 18:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Can sovereign wealth funds break Indonesia’s risk-averse innovation cycle?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/12/can-sovereign-wealth-funds-break-indonesias-risk-averse-innovation-cycle/",
+      "date": "12 Aug 2026",
+      "excerpt": "Why do some countries invest less in policy innovation than others? Namira Samir argues that policy courage and financial capacity shape governments’ willingness to innovate. Using Indonesia as a case study, she explores how a sovereign wea",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How foreign ownership of sovereign debt affects inflation",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/11/how-foreign-ownership-of-sovereign-debt-affects-inflation/",
       "date": "11 Aug 2026",
@@ -182,13 +191,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What happens when employees who speak up are held back?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/07/30/what-happens-when-employees-who-speak-up-are-held-back/",
-      "date": "30 Jul 2026",
-      "excerpt": "Many organisational challenges, whether cultural, financial or operational, can be linked to difficulties in fostering open and honest upward communication. Silence can reflect fear, fatigue, uncertainty or the belief that speaking up will ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/07/Figure-1-2-1024x427.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump sued over Truth Social's $100,000 early access service",
+      "link": "https://www.bbc.co.uk/news/articles/cq6dpm5y0yyo?at_medium=RSS&at_campaign=rss",
+      "date": "12 Aug 2026",
+      "excerpt": "The suit challenges Truth Social plan selling early access to Trump's market-moving posts.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00fb/live/14a782c0-966d-11f1-a6eb-474cf36e6c34.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Discord ordered to suspend livestreams in Brazil",
+      "link": "https://www.bbc.co.uk/news/articles/cgewpqxyrddo?at_medium=RSS&at_campaign=rss",
+      "date": "12 Aug 2026",
+      "excerpt": "Discord told the BBC it was \"thoughtfully reviewing\" the order by Brazil's data protection agency and it was \"committed to user safety\"",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da43/live/d62cadd0-966d-11f1-a6eb-474cf36e6c34.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,24 +234,6 @@
       "date": "11 Aug 2026",
       "excerpt": "British shoppers should expect to see more wonky vegetables due to repeated heatwaves.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b2e9/live/85ef6870-9583-11f1-870d-5d08c49babb2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Bakery buys comedian's former sites after closure",
-      "link": "https://www.bbc.co.uk/news/articles/cr491p70dv5o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Aug 2026",
-      "excerpt": "Bakery business Janes Pantry confirms its plans to reopen at least 20 of the Coughlans shops.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84e3/live/987b6fc0-7517-11f1-adcf-e1eef1a1ef9c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Homes near pylons to get £250 a year off energy bills – first sites revealed",
-      "link": "https://www.bbc.co.uk/news/articles/c8rn42jp7d6o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Aug 2026",
-      "excerpt": "Households living within 1,600ft of upgraded pylons will get £250 a year off their electricity bills.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cc1/live/a81a4a70-959f-11f1-870d-5d08c49babb2.jpg"
     },
     {
       "source": "BBC Business",
