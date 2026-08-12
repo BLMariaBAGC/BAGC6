@@ -1,5 +1,5 @@
 {
-  "updated": "12 Aug 2026, 13:03 UTC",
+  "updated": "12 Aug 2026, 14:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "AI Makes Building Easy. Choosing What to Build Is Harder.",
+      "link": "/2026/08/ai-makes-building-easy-choosing-what-to-build-is-harder",
+      "date": "12 Aug 2026",
+      "excerpt": "If everyone has access to similar AI tools, your team&#8217;s advantage isn&#8217;t technical capability&#8212;it&#8217;s understanding the problem.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Before Rolling Out a New Strategy, Assess Your Team’s Readiness",
+      "link": "/2026/08/before-rolling-out-a-new-strategy-assess-your-teams-readiness",
+      "date": "12 Aug 2026",
+      "excerpt": "Three conditions will determine whether you can execute the plan.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Driving Change When You Lack Authority",
       "link": "/2026/08/driving-change-when-you-lack-authority",
       "date": "11 Aug 2026",
@@ -116,24 +134,6 @@
       "link": "/2026/08/what-you-can-learn-from-a-competitors-job-postings",
       "date": "10 Aug 2026",
       "excerpt": "How to decipher one of the clearest signals of their strategic priorities.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Does AI Talent Look for in an Employer?",
-      "link": "/2026/08/what-does-ai-talent-look-for-in-an-employer",
-      "date": "10 Aug 2026",
-      "excerpt": "Three leader attributes that candidates gravitated toward, according to an analysis of the talent-matching platform CoffeeSpace.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Predictable Executive Career Arc Is Over",
-      "link": "/2026/08/the-predictable-executive-career-arc-is-over",
-      "date": "10 Aug 2026",
-      "excerpt": "In an era of longer working lives and rapid technological change, leaders must prepare for many possible futures. Here&#8217;s how.",
       "image": ""
     },
     {
@@ -193,16 +193,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "PM admits cost of living help is not enough and hints at further support",
-      "link": "https://www.bbc.co.uk/news/articles/cgmkee248vdo?at_medium=RSS&at_campaign=rss",
+      "title": "Burnham warned Iran war could hit UK growth next year",
+      "link": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
       "date": "12 Aug 2026",
-      "excerpt": "The PM has announced a rake of measures to help people since taking office three weeks ago.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e306/live/9bc93290-9581-11f1-8636-978a48bd79b6.jpg"
+      "excerpt": "The conflict in the Middle East has pushed up oil and fuel prices, and also disrupted supply chains.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf17/live/d73f4760-964e-11f1-870d-5d08c49babb2.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US inflation eases as food costs cool",
+      "title": "US inflation eases as food and fuel costs cool",
       "link": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss",
       "date": "12 Aug 2026",
       "excerpt": "Annual US inflation dipped to 3.4% in July, with food costs slowing and housing keeping prices slightly higher.",
@@ -220,11 +220,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Jaguar Land Rover owner Tata Group's chairman to step down",
-      "link": "https://www.bbc.co.uk/news/articles/c1512909pgpo?at_medium=RSS&at_campaign=rss",
+      "title": "Bakery buys comedian's former sites after closure",
+      "link": "https://www.bbc.co.uk/news/articles/cr491p70dv5o?at_medium=RSS&at_campaign=rss",
       "date": "12 Aug 2026",
-      "excerpt": "Chandrasekaran said he would not seek reappointment when his term ends due to a lack of support from the Tata Sons board.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2187/live/e1245d60-9621-11f1-adec-3f90c109009f.jpg"
+      "excerpt": "Bakery business Janes Pantry confirms its plans to reopen at least 20 of the Coughlans shops.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84e3/live/987b6fc0-7517-11f1-adcf-e1eef1a1ef9c.jpg"
     },
     {
       "source": "BBC Business",
