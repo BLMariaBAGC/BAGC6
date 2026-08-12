@@ -1,6 +1,51 @@
 {
-  "updated": "12 Aug 2026, 14:54 UTC",
+  "updated": "12 Aug 2026, 16:54 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "The adult brain can repair itself better than scientists thought",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260812015158.htm",
+      "date": "12 Aug 2026",
+      "excerpt": "The adult brain may be far better at repairing itself than scientists once believed. In mice, researchers discovered a special group of support cells called astrocytes that respond to damaged brain tissue by rebuilding lost cellular network",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a hidden brain rhythm that could improve Parkinson’s treatment",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260811011148.htm",
+      "date": "12 Aug 2026",
+      "excerpt": "Scientists have pinpointed a brain network—and its distinctive electrical rhythm—that appears to drive the benefits of deep brain stimulation for Parkinson’s disease. The discovery could lead to more precise, personalized stimulation settin",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "MIT neuroscientists discover the brain can reason without words",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260811011140.htm",
+      "date": "11 Aug 2026",
+      "excerpt": "MIT neuroscientists have found striking evidence that language and logical reasoning are powered by separate systems in the brain. Even people with severe language impairments caused by stroke were able to solve challenging logic puzzles as",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Ozempic may have revealed the brain’s hidden “craving center”",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260811011138.htm",
+      "date": "12 Aug 2026",
+      "excerpt": "Ozempic-like drugs appear to weaken more than hunger—they may also reduce cravings for alcohol and other addictive substances. Scientists are increasingly tracing this effect to the lateral septum, a brain region that helps connect memories",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Exercise may help the aging brain “take out the trash”",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260810015719.htm",
+      "date": "10 Aug 2026",
+      "excerpt": "Regular exercise may help the brain clear away harmful waste that can build up with age. Researchers found that physical activity supports several processes linked to the brain’s glymphatic cleanup system, including better sleep, lower infl",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -26,51 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260807035151.htm",
       "date": "8 Aug 2026",
       "excerpt": "Stress may literally scramble the brain’s internal GPS. Researchers found that cortisol, a hormone released during stress, made people significantly worse at navigating a virtual environment and disrupted the precise activity of grid cells,",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Teen cannabis use linked to slower memory and thinking growth",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260806050726.htm",
-      "date": "7 Aug 2026",
-      "excerpt": "Teens who start using cannabis may experience slower growth in memory, attention, language, and processing speed. Their abilities often developed normally at first, then began leveling off while nonusers continued improving. THC appeared to",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists tracked 12 people in Antarctica for 10 months—what happened could shape future Mars missions",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260806050722.htm",
-      "date": "7 Aug 2026",
-      "excerpt": "A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people. Frequent contact was linked to greater tension and mistrust, while the crew increasing",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Wearable ultrasound patch boosts REM sleep without drugs or surgery",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260806050709.htm",
-      "date": "7 Aug 2026",
-      "excerpt": "A new wearable patch may help people reach REM sleep faster and remain there longer without medication or surgery. In a study of 28 participants, the device shortened the time to REM by 43 minutes and extended it by about 16 minutes. Resear",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover a hidden brain shift that begins around age 50",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260806050700.htm",
-      "date": "6 Aug 2026",
-      "excerpt": "Beginning around age 50, the brain’s memory center appears to lose many of its longtime immune cells and replace them with more inflammatory ones. This surprising shift may help explain how normal aging sets the stage for Alzheimer’s diseas",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "New autism therapy shows surprising benefits even in adult mice",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260805082508.htm",
-      "date": "7 Aug 2026",
-      "excerpt": "Blocking the glycine transporter SLC6A20 restored important brain signaling and improved social, communication, and repetitive behaviors in autism-related mouse models. The treatment also worked in human brain organoids and showed lasting e",
       "image": ""
     },
     {
