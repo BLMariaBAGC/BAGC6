@@ -1,5 +1,5 @@
 {
-  "updated": "13 Aug 2026, 20:38 UTC",
+  "updated": "13 Aug 2026, 22:38 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "To cut plastic pollution, mandate recycled content and allow for trade and global circularity",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/13/to-cut-plastic-pollution-mandate-recycled-content-and-allow-for-trade-and-global-circularity/",
+      "date": "13 Aug 2026",
+      "excerpt": "The current oil crisis could accelerate the adoption of both renewable energy and recycled plastic as a hedge against future shocks. Cross-border trade in recyclable plastic and mandates for the quantity of recycled material that products m",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Can sovereign wealth funds break Indonesia’s risk-averse innovation cycle?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/12/can-sovereign-wealth-funds-break-indonesias-risk-averse-innovation-cycle/",
       "date": "12 Aug 2026",
@@ -182,13 +191,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Can teaching social skills improve social mobility?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/04/can-teaching-social-skills-improve-social-mobility/",
-      "date": "4 Aug 2026",
-      "excerpt": "Social mobility has stalled in America and Britain. And since the COVID-19 pandemic many young people face new disadvantages hindering their educational and professional prospects. Could social skills be the key to improving their opportuni",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'I lost $14,000 in a month': Investors hit by Korean stock market's wild swings",
+      "link": "https://www.bbc.co.uk/news/articles/c2k7zj4knwlo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Aug 2026",
+      "excerpt": "Some traders are reeling from heavy losses after a brutal correction in South Korea's stock market.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11e4/live/79e44fc0-94a0-11f1-870d-5d08c49babb2.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +234,6 @@
       "date": "13 Aug 2026",
       "excerpt": "Labour's employment rights bill crackdown on zero hours contracts could cost businesses up to £2.9bn a year, new official analysis has found.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36e9/live/4b9eef10-96ff-11f1-b72c-211ea4e0afc4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK economy grows but experts warn of challenging months ahead",
-      "link": "https://www.bbc.co.uk/news/articles/cx2d1gpx2k0o?at_medium=RSS&at_campaign=rss",
-      "date": "13 Aug 2026",
-      "excerpt": "Hot weather and the men's football World Cup boosted the economy but the Iran war may weigh on growth",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/500d/live/2856ec30-9702-11f1-a7ab-8b30adf0800a.jpg"
     },
     {
       "source": "BBC Business",
