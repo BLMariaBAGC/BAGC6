@@ -1,5 +1,5 @@
 {
-  "updated": "13 Aug 2026, 14:54 UTC",
+  "updated": "13 Aug 2026, 16:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Why Agentic AI Could Transform Procurement",
+      "link": "/2026/08/why-agentic-ai-could-transform-procurement",
+      "date": "13 Aug 2026",
+      "excerpt": "The combination of economic visibility, process structure, and persistent friction make it a huge opportunity.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "AI Makes Building Easy. Choosing What to Build Is Harder.",
       "link": "/2026/08/ai-makes-building-easy-choosing-what-to-build-is-harder",
       "date": "12 Aug 2026",
@@ -125,15 +134,6 @@
       "link": "/podcast/2026/08/the-innovation-strategy-most-companies-miss",
       "date": "11 Aug 2026",
       "excerpt": "A conversation with Dartmouth&#8217;s Vijay Govindarajan and MIT&#8217;s Amos Winter on why designing for emerging markets before developed ones can yield benefits.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What You Can Learn from a Competitor’s Job Postings",
-      "link": "/2026/08/what-you-can-learn-from-a-competitors-job-postings",
-      "date": "10 Aug 2026",
-      "excerpt": "How to decipher one of the clearest signals of their strategic priorities.",
       "image": ""
     },
     {
