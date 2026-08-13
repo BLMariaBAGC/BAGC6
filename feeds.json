@@ -1,5 +1,5 @@
 {
-  "updated": "13 Aug 2026, 10:58 UTC",
+  "updated": "13 Aug 2026, 13:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,11 +193,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK economy grows but experts warn of challenging months ahead",
-      "link": "https://www.bbc.co.uk/news/articles/cx2d1gpx2k0o?at_medium=RSS&at_campaign=rss",
+      "title": "Water bills set to rise for many after firms permitted extra funding",
+      "link": "https://www.bbc.co.uk/news/articles/cx2j1j5ypjdo?at_medium=RSS&at_campaign=rss",
       "date": "13 Aug 2026",
-      "excerpt": "Hot weather and the men's football World Cup boosted the economy but the Iran war may weigh on growth",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/500d/live/2856ec30-9702-11f1-a7ab-8b30adf0800a.jpg"
+      "excerpt": "Ofwat has given provisional approval for 13 water companies to charge customers more to pay for investments.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5082/live/9e05e030-9702-11f1-b72c-211ea4e0afc4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Harvey Nichols bought by Sports Direct owner",
+      "link": "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Aug 2026",
+      "excerpt": "Harvey Nichols was founded in 1831, but had appointed an administrator in June.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a892/live/8a5b37d0-9714-11f1-bb91-6bb44c42ed47.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Flock boss admits surveillance firm took too long to act over police abuse",
+      "link": "https://www.bbc.co.uk/news/articles/crrv1rjwgl9o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Aug 2026",
+      "excerpt": "US police officers have quit after using licence plate-reading cameras to track romantic partners.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8948/live/14cb2100-9715-11f1-bb91-6bb44c42ed47.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,29 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump sued over Truth Social's $100,000 early access service",
-      "link": "https://www.bbc.co.uk/news/articles/cq6dpm5y0yyo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Aug 2026",
-      "excerpt": "The suit challenges Truth Social plan selling early access to Trump's market-moving posts.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00fb/live/14a782c0-966d-11f1-a6eb-474cf36e6c34.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Twitch users outraged as Amazon uses their content to train AI in opt-out feature",
-      "link": "https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss",
+      "title": "UK economy grows but experts warn of challenging months ahead",
+      "link": "https://www.bbc.co.uk/news/articles/cx2d1gpx2k0o?at_medium=RSS&at_campaign=rss",
       "date": "13 Aug 2026",
-      "excerpt": "Users of the popular streaming platform criticised allowing Amazon to use their data by dafault.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6839/live/60b85d20-9702-11f1-b2ab-0dd01740f9f6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Discord ordered to suspend livestreams in Brazil",
-      "link": "https://www.bbc.co.uk/news/articles/cgewpqxyrddo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Aug 2026",
-      "excerpt": "Discord told the BBC it was \"thoughtfully reviewing\" the order by Brazil's data protection agency and it was \"committed to user safety\"",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da43/live/d62cadd0-966d-11f1-a6eb-474cf36e6c34.jpg"
+      "excerpt": "Hot weather and the men's football World Cup boosted the economy but the Iran war may weigh on growth",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/500d/live/2856ec30-9702-11f1-a7ab-8b30adf0800a.jpg"
     },
     {
       "source": "BBC Business",
