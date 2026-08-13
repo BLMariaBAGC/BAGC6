@@ -1,5 +1,5 @@
 {
-  "updated": "13 Aug 2026, 07:22 UTC",
+  "updated": "13 Aug 2026, 09:08 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,11 +193,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Economy grew in April to June as sun and World Cup helped some UK businesses",
+      "title": "UK economy grows between April and June but experts warn of challenges in coming months",
       "link": "https://www.bbc.co.uk/news/articles/cx2d1gpx2k0o?at_medium=RSS&at_campaign=rss",
       "date": "13 Aug 2026",
       "excerpt": "The UK economy grew by 0.4% with some firms reporting hot weather and sports helped growth in June.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f86/live/21ac6b90-96de-11f1-9b96-77d3dc534330.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa44/live/cf456350-96ee-11f1-bdf3-57bf9a99cb46.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,10 +211,10 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Twitch users can block Amazon from using content for AI",
+      "title": "Twitch faces backlash over Amazon using content to train AI",
       "link": "https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss",
       "date": "13 Aug 2026",
-      "excerpt": "Fans of the streaming platform criticised Twitch for letting Amazon use their content for AI training.",
+      "excerpt": "Users of the popular streaming platform criticised allowing Amazon to use their data by dafault.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19c0/live/3a5d4e80-96b0-11f1-a357-f9f53ca5007d.jpg"
     },
     {
@@ -229,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why Japanese firms are being so slow to use AI",
-      "link": "https://www.bbc.co.uk/news/articles/cwymw4434v7o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Aug 2026",
-      "excerpt": "Japanese risk aversion and conservatism blamed for slow AI take-up by the country's business sector.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ede/live/9f7531a0-8f41-11f1-8c3d-6f698d2b4d1e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Burnham warned Iran war could hit UK growth next year",
       "link": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
       "date": "12 Aug 2026",
       "excerpt": "The conflict in the Middle East has pushed up oil and fuel prices, and also disrupted supply chains.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf17/live/d73f4760-964e-11f1-870d-5d08c49babb2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Why Japanese firms are being so slow to use AI",
+      "link": "https://www.bbc.co.uk/news/articles/cwymw4434v7o?at_medium=RSS&at_campaign=rss",
+      "date": "12 Aug 2026",
+      "excerpt": "Japanese risk aversion and conservatism blamed for slow AI take-up by the country's business sector.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ede/live/9f7531a0-8f41-11f1-8c3d-6f698d2b4d1e.jpg"
     }
   ]
 }
