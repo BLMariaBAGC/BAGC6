@@ -1,5 +1,5 @@
 {
-  "updated": "13 Aug 2026, 22:38 UTC",
+  "updated": "14 Aug 2026, 01:45 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "I got an £89 refund – how to cancel and  avoid unwanted subscriptions",
+      "link": "https://www.bbc.co.uk/news/articles/ckg6x3n5erpo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Aug 2026",
+      "excerpt": "After the PM announced a crackdown on subscription traps, readers share how they got into and out of unwanted plans.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dae0/live/7d93c650-9568-11f1-8b14-5d44448d174a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'I lost $14,000 in a month': Investors hit by Korean stock market's wild swings",
       "link": "https://www.bbc.co.uk/news/articles/c2k7zj4knwlo?at_medium=RSS&at_campaign=rss",
       "date": "13 Aug 2026",
@@ -225,15 +234,6 @@
       "date": "13 Aug 2026",
       "excerpt": "US police officers have quit after using licence plate-reading cameras to track romantic partners.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/041d/live/7f342ef0-9720-11f1-bb91-6bb44c42ed47.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Zero hours crackdown could cost firms up to £2.9bn a year",
-      "link": "https://www.bbc.co.uk/news/articles/c0l525k76d0o?at_medium=RSS&at_campaign=rss",
-      "date": "13 Aug 2026",
-      "excerpt": "Labour's employment rights bill crackdown on zero hours contracts could cost businesses up to £2.9bn a year, new official analysis has found.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36e9/live/4b9eef10-96ff-11f1-b72c-211ea4e0afc4.jpg"
     },
     {
       "source": "BBC Business",
