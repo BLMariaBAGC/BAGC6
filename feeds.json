@@ -1,6 +1,60 @@
 {
-  "updated": "14 Aug 2026, 13:00 UTC",
+  "updated": "14 Aug 2026, 14:47 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A stress hormone may help the brain repair itself",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260814011044.htm",
+      "date": "14 Aug 2026",
+      "excerpt": "A surprising stress-related signal may help the brain repair itself after injury. Researchers found that myelin-producing precursor cells rapidly release the stress hormone CRH near damaged brain tissue, helping control how those cells matu",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Immune cells flood into the aging brain, Stanford scientists discover",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260814011033.htm",
+      "date": "14 Aug 2026",
+      "excerpt": "Scientists have discovered that the aging human brain may be far less isolated from the rest of the body than once believed. Stanford researchers found that large numbers of immune cells from the blood begin entering the brain as early as m",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Women taking estrogen had fewer signs of Alzheimer’s in their brains",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260814011028.htm",
+      "date": "14 Aug 2026",
+      "excerpt": "Women who used estrogen-only hormone therapy later in life were less likely to develop dementia and showed fewer signs of Alzheimer’s disease in their brains, according to a large study of more than 21,000 participants. Hormone therapy use ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A surprising brain discovery could help explain why we overeat fatty foods",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260813045531.htm",
+      "date": "13 Aug 2026",
+      "excerpt": "A protein inside appetite-controlling brain cells may play an important role in preventing overeating and obesity, particularly when high-fat foods are readily available. Unexpected differences between males and females could also help expl",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Why your brain keeps making the same decisions – even when better options exist",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260812015218.htm",
+      "date": "12 Aug 2026",
+      "excerpt": "Why do we keep making the same choices even when better options are available? Researchers found that simply repeating a decision can reshape what we prefer, causing familiar choices to feel better than alternatives. Instead of weighing eve",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Human brain cells are far more powerful than scientists thought",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260812015216.htm",
+      "date": "13 Aug 2026",
+      "excerpt": "A single human brain cell may be far more powerful than scientists once realized. Researchers found that cortical neurons can perform remarkably complex computations, giving them capabilities more like tiny biological computers than simple ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -20,57 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "MIT neuroscientists discover the brain can reason without words",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260811011140.htm",
-      "date": "11 Aug 2026",
-      "excerpt": "MIT neuroscientists have found striking evidence that language and logical reasoning are powered by separate systems in the brain. Even people with severe language impairments caused by stroke were able to solve challenging logic puzzles as",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Ozempic may have revealed the brain’s hidden “craving center”",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260811011138.htm",
-      "date": "12 Aug 2026",
-      "excerpt": "Ozempic-like drugs appear to weaken more than hunger—they may also reduce cravings for alcohol and other addictive substances. Scientists are increasingly tracing this effect to the lateral septum, a brain region that helps connect memories",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Exercise may help the aging brain “take out the trash”",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260810015719.htm",
-      "date": "10 Aug 2026",
-      "excerpt": "Regular exercise may help the brain clear away harmful waste that can build up with age. Researchers found that physical activity supports several processes linked to the brain’s glymphatic cleanup system, including better sleep, lower infl",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Frequent cannabis users wake up with their “stress hormone” already elevated",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260808234953.htm",
-      "date": "9 Aug 2026",
-      "excerpt": "Frequent cannabis users may wake up with unusually high levels of the stress hormone cortisol, suggesting their daily stress rhythms could be disrupted. Researchers say the finding raises questions about whether using cannabis for stress re",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists say just 7 days of meditation can rewire your brain",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260807235243.htm",
-      "date": "8 Aug 2026",
-      "excerpt": "An intensive seven-day meditation retreat triggered striking changes across the brain and body, including shifts tied to neuroplasticity, immunity, metabolism, and natural pain relief. Participants also showed brain connectivity patterns re",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Stress can scramble your brain’s internal GPS, MRI study finds",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260807035151.htm",
-      "date": "8 Aug 2026",
-      "excerpt": "Stress may literally scramble the brain’s internal GPS. Researchers found that cortisol, a hormone released during stress, made people significantly worse at navigating a virtual environment and disrupted the precise activity of grid cells,",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: The Innovation Problems AI Can’t Solve",
+      "link": "/2026/08/research-the-innovation-problems-ai-cant-solve",
+      "date": "14 Aug 2026",
+      "excerpt": "Generative AI speeds innovation, but it can also narrow thinking, reinforce bias, and distance teams from customers.",
       "image": ""
     },
     {
@@ -193,6 +202,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Electric vehicle sales targets could be cut after pressure from car makers",
+      "link": "https://www.bbc.co.uk/news/articles/c1l1yj0zd9no?at_medium=RSS&at_campaign=rss",
+      "date": "14 Aug 2026",
+      "excerpt": "The government says it is considering cutting the new electric car sales target from 80% to 50% by 2030.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab99/live/07185cc0-97e8-11f1-a76b-f1c27c51f3da.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Temporary ban on sale of disposable BBQs over wildfire risk",
+      "link": "https://www.bbc.co.uk/news/articles/c0jlyqdj6geo?at_medium=RSS&at_campaign=rss",
+      "date": "14 Aug 2026",
+      "excerpt": "Single-use grills pose a \"significant risk to the public\" in current drought and heatwave conditions, the government warns.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b53b/live/4aaee280-97eb-11f1-a76b-f1c27c51f3da.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Selena Gomez sued for alleged fraud over mental health company",
       "link": "https://www.bbc.co.uk/news/articles/c8jn2811we4o?at_medium=RSS&at_campaign=rss",
       "date": "14 Aug 2026",
@@ -225,24 +252,6 @@
       "date": "13 Aug 2026",
       "excerpt": "A preliminary report by US investigators says an engine fan blade broke on last month's flight from Greece to Germany.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1623/live/fc15b5f0-975d-11f1-9240-c70a29f1c818.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I lost $14,000 in a month': Investors hit by Korean stock market's wild swings",
-      "link": "https://www.bbc.co.uk/news/articles/c2k7zj4knwlo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Aug 2026",
-      "excerpt": "Some traders are reeling from heavy losses after a brutal correction in South Korea's stock market.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/deb9/live/fab7c360-8ee8-11f1-82dc-5d4d9e75125c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Water bills set to rise for many after firms permitted extra funding",
-      "link": "https://www.bbc.co.uk/news/articles/cx2j1j5ypjdo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Aug 2026",
-      "excerpt": "Ofwat has given provisional approval for 13 water companies to charge customers more to pay for investments.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5082/live/9e05e030-9702-11f1-b72c-211ea4e0afc4.jpg"
     }
   ]
 }
