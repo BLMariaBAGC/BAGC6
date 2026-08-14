@@ -1,5 +1,5 @@
 {
-  "updated": "14 Aug 2026, 10:56 UTC",
+  "updated": "14 Aug 2026, 13:00 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Selena Gomez sued for alleged fraud over mental health company",
+      "link": "https://www.bbc.co.uk/news/articles/c8jn2811we4o?at_medium=RSS&at_campaign=rss",
+      "date": "14 Aug 2026",
+      "excerpt": "Investors say the actor and singer did not take an \"active role\" in the company as promised.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfa5/live/c6ef47f0-97ae-11f1-bf42-fbbc01ed1ca6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "I got an £89 refund – how to cancel and  avoid unwanted subscriptions",
       "link": "https://www.bbc.co.uk/news/articles/ckg6x3n5erpo?at_medium=RSS&at_campaign=rss",
       "date": "14 Aug 2026",
@@ -234,15 +243,6 @@
       "date": "13 Aug 2026",
       "excerpt": "Ofwat has given provisional approval for 13 water companies to charge customers more to pay for investments.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5082/live/9e05e030-9702-11f1-b72c-211ea4e0afc4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Harvey Nichols bought by owner of Sports Direct",
-      "link": "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Aug 2026",
-      "excerpt": "The department store made famous by sitcom Absolutely Fabulous had warned it would cease trading.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4fcd/live/2351ff40-9720-11f1-870d-5d08c49babb2.jpg"
     }
   ]
 }
