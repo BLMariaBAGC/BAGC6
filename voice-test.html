@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Voice Test</title>
+<style>
+  body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; background: #1a1a2e; color: white; gap: 24px; }
+  h2 { margin: 0; font-size: 1.2rem; opacity: 0.7; }
+  p { margin: 0; font-style: italic; opacity: 0.5; font-size: 0.9rem; }
+  .buttons { display: flex; gap: 20px; }
+  button { padding: 18px 40px; font-size: 1.1rem; font-weight: bold; border: none; border-radius: 12px; cursor: pointer; transition: opacity 0.2s; }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+  #btnA { background: #e74c3c; color: white; }
+  #btnB { background: #3498db; color: white; }
+  #status { font-size: 0.95rem; opacity: 0.6; min-height: 1.2em; }
+</style>
+</head>
+<body>
+<h2>Biscuit Voice Test</h2>
+<p>"Hello Maria, it's Biscuit. I've been waiting for you."</p>
+<div class="buttons">
+  <button id="btnA" onclick="test('DvhK1yIWv9GpUpAD6dsU', 'A')">🔴 Voice A</button>
+  <button id="btnB" onclick="test('IKne3meq5aSn9XLyUdCD', 'B')">🔵 Voice B</button>
+</div>
+<div id="status">Press a button to hear the voice.</div>
+
+<script>
+const TEXT = "Hello Maria, it's Biscuit. I've been waiting for you.";
+
+async function test(voiceId, label) {
+  const btnA = document.getElementById('btnA');
+  const btnB = document.getElementById('btnB');
+  const status = document.getElementById('status');
+
+  btnA.disabled = true;
+  btnB.disabled = true;
+  status.textContent = `Fetching Voice ${label}...`;
+
+  try {
+    const response = await fetch('https://rewire-proxy.vercel.app/api/tts', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text: TEXT, voice_id: voiceId })
+    });
+
+    if (!response.ok) {
+      const err = await response.text();
+      status.textContent = `Error from proxy: ${response.status} — ${err}`;
+      return;
+    }
+
+    const blob = await response.blob();
+    const url = URL.createObjectURL(blob);
+    const audio = new Audio(url);
+    status.textContent = `Playing Voice ${label}…`;
+    audio.onended = () => { URL.revokeObjectURL(url); status.textContent = `Voice ${label} finished. Press a button to compare.`; };
+    audio.onerror = () => { status.textContent = `Audio playback error on Voice ${label}.`; };
+    audio.play();
+  } catch (e) {
+    status.textContent = `Request failed: ${e.message}`;
+  } finally {
+    btnA.disabled = false;
+    btnB.disabled = false;
+  }
+}
+</script>
+</body>
+</html>
