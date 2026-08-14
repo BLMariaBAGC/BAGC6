@@ -1,5 +1,5 @@
 {
-  "updated": "14 Aug 2026, 01:45 UTC",
+  "updated": "14 Aug 2026, 04:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US says dozens of countries helped China dodge Trump's tariffs",
+      "link": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
+      "date": "14 Aug 2026",
+      "excerpt": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8fc/live/12e1de40-977b-11f1-a8a8-85d648bbf002.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'I lost $14,000 in a month': Investors hit by Korean stock market's wild swings",
       "link": "https://www.bbc.co.uk/news/articles/c2k7zj4knwlo?at_medium=RSS&at_campaign=rss",
       "date": "13 Aug 2026",
@@ -234,15 +243,6 @@
       "date": "13 Aug 2026",
       "excerpt": "US police officers have quit after using licence plate-reading cameras to track romantic partners.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/041d/live/7f342ef0-9720-11f1-bb91-6bb44c42ed47.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why Japanese firms are being so slow to use AI",
-      "link": "https://www.bbc.co.uk/news/articles/cwymw4434v7o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Aug 2026",
-      "excerpt": "Japanese risk aversion and conservatism blamed for slow AI take-up by the country's business sector.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ede/live/9f7531a0-8f41-11f1-8c3d-6f698d2b4d1e.jpg"
     }
   ]
 }
