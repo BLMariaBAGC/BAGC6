@@ -1,5 +1,5 @@
 {
-  "updated": "14 Aug 2026, 14:47 UTC",
+  "updated": "14 Aug 2026, 15:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How to Develop a Game-Changing Worldview",
+      "link": "/2026/08/how-to-develop-a-game-changing-worldview",
+      "date": "14 Aug 2026",
+      "excerpt": "It will help you start thinking seriously about your company&#8217;s long-term strategy, says former Best Buy CEO Hubert Joly.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Research: The Innovation Problems AI Can’t Solve",
       "link": "/2026/08/research-the-innovation-problems-ai-cant-solve",
       "date": "14 Aug 2026",
@@ -134,15 +143,6 @@
       "link": "/2026/08/leadership-drift-is-stalling-your-ai-strategy",
       "date": "11 Aug 2026",
       "excerpt": "Research highlights the unintentional and collective inertia that prevents leadership teams from making decisions.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Innovation Strategy Most Companies Miss",
-      "link": "/podcast/2026/08/the-innovation-strategy-most-companies-miss",
-      "date": "11 Aug 2026",
-      "excerpt": "A conversation with Dartmouth&#8217;s Vijay Govindarajan and MIT&#8217;s Amos Winter on why designing for emerging markets before developed ones can yield benefits.",
       "image": ""
     },
     {
