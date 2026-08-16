@@ -1,6 +1,15 @@
 {
-  "updated": "16 Aug 2026, 10:19 UTC",
+  "updated": "16 Aug 2026, 12:33 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A little movement in midlife could pay off for your brain years later",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260814235839.htm",
+      "date": "16 Aug 2026",
+      "excerpt": "Exercise and healthy blood sugar levels in midlife may help slow cognitive decline decades later. Physical activity appeared especially beneficial for Mexican American adults, suggesting that some brain-protective factors may differ across ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260812015158.htm",
       "date": "12 Aug 2026",
       "excerpt": "The adult brain may be far better at repairing itself than scientists once believed. In mice, researchers discovered a special group of support cells called astrocytes that respond to damaged brain tissue by rebuilding lost cellular network",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover a hidden brain rhythm that could improve Parkinson’s treatment",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260811011148.htm",
-      "date": "12 Aug 2026",
-      "excerpt": "Scientists have pinpointed a brain network—and its distinctive electrical rhythm—that appears to drive the benefits of deep brain stimulation for Parkinson’s disease. The discovery could lead to more precise, personalized stimulation settin",
       "image": ""
     },
     {
