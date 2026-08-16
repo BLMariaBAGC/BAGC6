@@ -1,5 +1,5 @@
 {
-  "updated": "15 Aug 2026, 22:18 UTC",
+  "updated": "16 Aug 2026, 01:09 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "I survived two years as prime minister in a hit new game - then my cabinet deserted me",
+      "link": "https://www.bbc.co.uk/news/articles/cq56pzqy6jvo?at_medium=RSS&at_campaign=rss",
+      "date": "15 Aug 2026",
+      "excerpt": "Mobile game No 10: Full Confidence recently ranked above Minecraft on the UK App Store paid games chart",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a22/live/86235450-9731-11f1-870d-5d08c49babb2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Temporary ban on disposable BBQs as military deployed to help battle wildfires",
       "link": "https://www.bbc.co.uk/news/articles/c0jlyqdj6geo?at_medium=RSS&at_campaign=rss",
       "date": "15 Aug 2026",
@@ -243,15 +252,6 @@
       "date": "14 Aug 2026",
       "excerpt": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8fc/live/12e1de40-977b-11f1-a8a8-85d648bbf002.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Protein or pickled garlic? What's new in ice cream",
-      "link": "https://www.bbc.co.uk/news/articles/c9826zl0945o?at_medium=RSS&at_campaign=rss",
-      "date": "14 Aug 2026",
-      "excerpt": "There's a constant battle in ice cream to come up with new flavours and to keep costs down.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c67/live/6a1b9720-7c35-11f1-b976-0b9c15b0ccfc.jpg"
     }
   ]
 }
