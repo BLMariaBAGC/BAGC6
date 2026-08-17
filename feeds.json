@@ -1,5 +1,5 @@
 {
-  "updated": "17 Aug 2026, 12:38 UTC",
+  "updated": "17 Aug 2026, 14:24 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How to Respond to the Coming AI Cost Shock",
+      "link": "/2026/08/how-to-respond-to-the-coming-ai-cost-shock",
+      "date": "17 Aug 2026",
+      "excerpt": "Leaders must design new approaches to budgeting, workforce planning, and risk management.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "An Analysis of 1,000 Meetings Shows How the Best Leaders Shape Conversations",
+      "link": "/2026/08/an-analysis-of-1000-meetings-shows-how-the-best-leaders-shape-conversations",
+      "date": "17 Aug 2026",
+      "excerpt": "Every strategy, decision, and transformation begins as a conversation.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How to Develop a Game-Changing Worldview",
       "link": "/2026/08/how-to-develop-a-game-changing-worldview",
       "date": "14 Aug 2026",
@@ -128,33 +146,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Family Businesses Lose Control",
-      "link": "/2026/08/why-family-businesses-lose-control",
-      "date": "11 Aug 2026",
-      "excerpt": "The problem usually isn&#8217;t poor leadership. It&#8217;s unprepared ownership.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "“Leadership Drift” Is Stalling Your AI Strategy",
-      "link": "/2026/08/leadership-drift-is-stalling-your-ai-strategy",
-      "date": "11 Aug 2026",
-      "excerpt": "Research highlights the unintentional and collective inertia that prevents leadership teams from making decisions.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "ChatGPT or Zoom – which broke the career ladder?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/17/chatgpt-or-zoom-which-broke-the-career-ladder/",
-      "date": "17 Aug 2026",
-      "excerpt": "Entry-level hiring has fallen sharply across white-collar work. An emerging explanation has been that generative AI is to blame. Drawing on their new study of hundreds of millions of hires and job adverts, Peter John Lambert and Yannick Sch",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure1.jpg"
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "To cut plastic pollution, mandate recycled content and allow for trade and global circularity",
@@ -198,6 +189,15 @@
       "date": "7 Aug 2026",
       "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Slide1.jpeg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Does it matter what you eat at work?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
+      "date": "5 Aug 2026",
+      "excerpt": "What, when, where and how we eat can signify many things.&nbsp;Eating healthily might impress your&nbsp;colleagues&nbsp;but doing so on a video call is unprofessional.&nbsp;Michael J. Matthews,&nbsp;Thomas K. Kelemen,&nbsp;Trevor Watkins&nb",
+      "image": ""
     },
     {
       "source": "BBC Business",
