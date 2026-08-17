@@ -1,6 +1,24 @@
 {
-  "updated": "17 Aug 2026, 06:50 UTC",
+  "updated": "17 Aug 2026, 08:39 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists tracked kids for 8 years — the screen time result was unexpected",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260815064803.htm",
+      "date": "17 Aug 2026",
+      "excerpt": "An eight-year Finnish study found that children who spent more time on screens tended to show better cognitive processing as teenagers, challenging common assumptions about screen use. Researchers say the key may be balancing physical activ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A little-known protein may be fueling Alzheimer’s — and scientists found a way to block it",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260814235856.htm",
+      "date": "16 Aug 2026",
+      "excerpt": "An experimental Alzheimer’s compound prevented damaging protein clumps from forming in the brains of mice, helping nerve cells survive longer and reducing amyloid buildup. The treatment also appeared to improve heart health and slow some si",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260812015218.htm",
       "date": "12 Aug 2026",
       "excerpt": "Why do we keep making the same choices even when better options are available? Researchers found that simply repeating a decision can reshape what we prefer, causing familiar choices to feel better than alternatives. Instead of weighing eve",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Human brain cells are far more powerful than scientists thought",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260812015216.htm",
-      "date": "13 Aug 2026",
-      "excerpt": "A single human brain cell may be far more powerful than scientists once realized. Researchers found that cortical neurons can perform remarkably complex computations, giving them capabilities more like tiny biological computers than simple ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "The adult brain can repair itself better than scientists thought",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260812015158.htm",
-      "date": "12 Aug 2026",
-      "excerpt": "The adult brain may be far better at repairing itself than scientists once believed. In mice, researchers discovered a special group of support cells called astrocytes that respond to damaged brain tissue by rebuilding lost cellular network",
       "image": ""
     },
     {
@@ -206,7 +206,7 @@
       "link": "https://www.bbc.co.uk/news/articles/c5y3ex8ry82o?at_medium=RSS&at_campaign=rss",
       "date": "16 Aug 2026",
       "excerpt": "New research suggests staying put is costing British savers billions in missed interest every year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a01/live/cc8b5e60-9628-11f1-adec-3f90c109009f.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c5d/live/edf9fd50-9a0a-11f1-a7ab-8b30adf0800a.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,7 +220,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "If Meta loses this trial, Instagram and Facebook could change forever",
+      "title": "Instagram and Facebook could change forever if Meta loses child privacy trial",
       "link": "https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss",
       "date": "17 Aug 2026",
       "excerpt": "US states are suing the social media giant to force an overhaul of its platforms for young users.",
@@ -231,7 +231,7 @@
       "feedId": "bbc",
       "title": "Changing pubs into homes to be made harder under new rules",
       "link": "https://www.bbc.co.uk/news/articles/clyllg1v0kdo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Aug 2026",
+      "date": "17 Aug 2026",
       "excerpt": "The rules will come into force on Monday along with other changes to planning policy.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff85/live/bb0fc5c0-9981-11f1-a4eb-59b79ff5ff4f.jpg"
     },
