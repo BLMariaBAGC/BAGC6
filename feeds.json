@@ -1,5 +1,5 @@
 {
-  "updated": "17 Aug 2026, 10:29 UTC",
+  "updated": "17 Aug 2026, 12:38 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "ChatGPT or Zoom – which broke the career ladder?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/17/chatgpt-or-zoom-which-broke-the-career-ladder/",
+      "date": "17 Aug 2026",
+      "excerpt": "Entry-level hiring has fallen sharply across white-collar work. An emerging explanation has been that generative AI is to blame. Drawing on their new study of hundreds of millions of hires and job adverts, Peter John Lambert and Yannick Sch",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "To cut plastic pollution, mandate recycled content and allow for trade and global circularity",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/13/to-cut-plastic-pollution-mandate-recycled-content-and-allow-for-trade-and-global-circularity/",
       "date": "13 Aug 2026",
@@ -189,15 +198,6 @@
       "date": "7 Aug 2026",
       "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Slide1.jpeg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Does it matter what you eat at work?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/05/does-it-matter-what-you-eat-at-work/",
-      "date": "5 Aug 2026",
-      "excerpt": "What, when, where and how we eat can signify many things.&nbsp;Eating healthily might impress your&nbsp;colleagues&nbsp;but doing so on a video call is unprofessional.&nbsp;Michael J. Matthews,&nbsp;Thomas K. Kelemen,&nbsp;Trevor Watkins&nb",
-      "image": ""
     },
     {
       "source": "BBC Business",
