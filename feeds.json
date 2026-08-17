@@ -1,5 +1,5 @@
 {
-  "updated": "17 Aug 2026, 08:39 UTC",
+  "updated": "17 Aug 2026, 10:29 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Virgin takes step towards running Channel Tunnel rail services",
+      "link": "https://www.bbc.co.uk/news/articles/cjrvx4yye81o?at_medium=RSS&at_campaign=rss",
+      "date": "17 Aug 2026",
+      "excerpt": "Firm wants to run up to 20 daily journeys to Europe but it must get additional approval for overseas tracks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d0e/live/a809a810-9a12-11f1-a05c-fdd5e0ed226e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Ferrari's first ever electric car sold for record $40m",
       "link": "https://www.bbc.co.uk/news/articles/c77ggpgrp2do?at_medium=RSS&at_campaign=rss",
       "date": "17 Aug 2026",
@@ -234,15 +243,6 @@
       "date": "17 Aug 2026",
       "excerpt": "The rules will come into force on Monday along with other changes to planning policy.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff85/live/bb0fc5c0-9981-11f1-a4eb-59b79ff5ff4f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I survived two years as prime minister in a hit new game - then my cabinet deserted me",
-      "link": "https://www.bbc.co.uk/news/articles/cq56pzqy6jvo?at_medium=RSS&at_campaign=rss",
-      "date": "15 Aug 2026",
-      "excerpt": "Mobile game No 10: Full Confidence recently ranked above Minecraft on the UK App Store paid games chart",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a22/live/86235450-9731-11f1-870d-5d08c49babb2.jpg"
     },
     {
       "source": "BBC Business",
