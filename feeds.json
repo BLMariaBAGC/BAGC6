@@ -1,5 +1,5 @@
 {
-  "updated": "17 Aug 2026, 04:38 UTC",
+  "updated": "17 Aug 2026, 06:50 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,7 +202,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Ferrari's first ever electric car sold for record $40m at auction",
+      "title": "How switching your bank account could earn you up to £220",
+      "link": "https://www.bbc.co.uk/news/articles/c5y3ex8ry82o?at_medium=RSS&at_campaign=rss",
+      "date": "16 Aug 2026",
+      "excerpt": "New research suggests staying put is costing British savers billions in missed interest every year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a01/live/cc8b5e60-9628-11f1-adec-3f90c109009f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Ferrari's first ever electric car sold for record $40m",
       "link": "https://www.bbc.co.uk/news/articles/c77ggpgrp2do?at_medium=RSS&at_campaign=rss",
       "date": "17 Aug 2026",
       "excerpt": "The Luce's launch drew backlash from some commentators who said it broke from the brand's signature dramatic styling.",
@@ -213,8 +222,8 @@
       "feedId": "bbc",
       "title": "If Meta loses this trial, Instagram and Facebook could change forever",
       "link": "https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss",
-      "date": "16 Aug 2026",
-      "excerpt": "Thirty US states have sued Meta to force an overhaul of its platforms for young users.",
+      "date": "17 Aug 2026",
+      "excerpt": "US states are suing the social media giant to force an overhaul of its platforms for young users.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/078d/live/f51173c0-97c1-11f1-9963-d1f200dff659.jpg"
     },
     {
@@ -234,15 +243,6 @@
       "date": "15 Aug 2026",
       "excerpt": "Mobile game No 10: Full Confidence recently ranked above Minecraft on the UK App Store paid games chart",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a22/live/86235450-9731-11f1-870d-5d08c49babb2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Temporary ban on disposable BBQs as military deployed to help battle wildfires",
-      "link": "https://www.bbc.co.uk/news/articles/c0jlyqdj6geo?at_medium=RSS&at_campaign=rss",
-      "date": "15 Aug 2026",
-      "excerpt": "Single-use grills pose a \"significant risk to the public\" in current drought and heatwave conditions, the government warns.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b53b/live/4aaee280-97eb-11f1-a76b-f1c27c51f3da.jpg"
     },
     {
       "source": "BBC Business",
