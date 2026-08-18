@@ -1,6 +1,15 @@
 {
-  "updated": "18 Aug 2026, 04:32 UTC",
+  "updated": "18 Aug 2026, 06:38 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A therapy that “rewrites” childhood memories can ease fear of failure",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260815064833.htm",
+      "date": "18 Aug 2026",
+      "excerpt": "Childhood criticism can leave people carrying a fear of failure long into adulthood, but new research suggests those emotional patterns may be surprisingly flexible. Young adults who revisited painful memories through imagery-based therapy ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260813045531.htm",
       "date": "13 Aug 2026",
       "excerpt": "A protein inside appetite-controlling brain cells may play an important role in preventing overeating and obesity, particularly when high-fat foods are readily available. Unexpected differences between males and females could also help expl",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Why your brain keeps making the same decisions – even when better options exist",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260812015218.htm",
-      "date": "12 Aug 2026",
-      "excerpt": "Why do we keep making the same choices even when better options are available? Researchers found that simply repeating a decision can reshape what we prefer, causing familiar choices to feel better than alternatives. Instead of weighing eve",
       "image": ""
     },
     {
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Job vacancies at five-year low as smaller firms scale back recruitment",
+      "link": "https://www.bbc.co.uk/news/articles/cn9nwx090v9o?at_medium=RSS&at_campaign=rss",
+      "date": "18 Aug 2026",
+      "excerpt": "Small firms cite labour and operating costs as reasons for scaling back hiring, the UK's statistics body says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1774/live/6a464c30-9a27-11f1-90d9-9d833c0912f2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "To joke or not to joke?: How to write a good out-of-office message",
       "link": "https://www.bbc.co.uk/news/articles/c934xy32919o?at_medium=RSS&at_campaign=rss",
       "date": "17 Aug 2026",
@@ -220,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Virgin takes step towards running Channel Tunnel rail services",
-      "link": "https://www.bbc.co.uk/news/articles/cjrvx4yye81o?at_medium=RSS&at_campaign=rss",
+      "title": "Instagram and Facebook could change forever if Meta loses child privacy trial",
+      "link": "https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss",
       "date": "17 Aug 2026",
-      "excerpt": "Firm wants to run up to 20 daily journeys to Europe but it must get additional approval for overseas tracks.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d0e/live/a809a810-9a12-11f1-a05c-fdd5e0ed226e.jpg"
+      "excerpt": "US states are suing the social media giant to force an overhaul of its platforms for young users.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/078d/live/f51173c0-97c1-11f1-9963-d1f200dff659.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Fifa official sacked after Infantino plan criticism",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cn7n4d6vy03o?at_medium=RSS&at_campaign=rss",
-      "date": "17 Aug 2026",
-      "excerpt": "Senior Fifa figure Kevin Lamour is sacked by football's world governing body three weeks after criticising its president Gianni Infantino.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6644/live/a810eee0-9a71-11f1-b68f-817a5a696299.jpg"
+      "title": "Disabled people in England to get 24-hour free bus travel",
+      "link": "https://www.bbc.co.uk/news/articles/cjwx5vx21y2o?at_medium=RSS&at_campaign=rss",
+      "date": "18 Aug 2026",
+      "excerpt": "The change, which has been welcomed by campaign groups, will come into effect in England from April.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b0d/live/40b808b0-9aca-11f1-a74b-2f66a3b83590.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "17 Aug 2026",
       "excerpt": "The Berkshire film studio was previously home to iconic horror studio Hammer Films.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67d7/live/29b71560-9a58-11f1-ba0a-a16da249d30e.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Protein or pickled garlic? What's new in ice cream",
-      "link": "https://www.bbc.co.uk/news/articles/c9826zl0945o?at_medium=RSS&at_campaign=rss",
-      "date": "14 Aug 2026",
-      "excerpt": "There's a constant battle in ice cream to come up with new flavours and to keep costs down.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c67/live/6a1b9720-7c35-11f1-b976-0b9c15b0ccfc.jpg"
     }
   ]
 }
