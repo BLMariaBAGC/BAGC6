@@ -1,5 +1,5 @@
 {
-  "updated": "18 Aug 2026, 08:33 UTC",
+  "updated": "18 Aug 2026, 10:24 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Wetherspoons bans customers playing music from phones in pubs",
+      "link": "https://www.bbc.co.uk/news/articles/cnvnl8gy22lo?at_medium=RSS&at_campaign=rss",
+      "date": "18 Aug 2026",
+      "excerpt": "The pub chain says the decision followed complaints about \"other people's videos and amplified phone conversations\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cbc1/live/9e2442b0-9ae9-11f1-930b-57cfba7235f9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'I'm in Barbados': The dos and don'ts of writing an out-of-office reply",
       "link": "https://www.bbc.co.uk/news/articles/c934xy32919o?at_medium=RSS&at_campaign=rss",
       "date": "18 Aug 2026",
@@ -220,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Ferguson shipyard to cut a quarter of its workforce",
-      "link": "https://www.bbc.co.uk/news/articles/c20e2qe1lqpo?at_medium=RSS&at_campaign=rss",
+      "title": "Carney's final chance to convince Trump as US-Canada trade deadline looms",
+      "link": "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
       "date": "18 Aug 2026",
-      "excerpt": "Work on the second of two long-delayed CalMac ferries is drawing to a close at the state-owned yard in Port Glasgow.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36b7/live/4a68b7b0-9ade-11f1-a291-b542ee92de7c.png"
+      "excerpt": "Negotiators want a deal to avoid fresh US tariffs - though Canadians are not in the mood to offer many concessions.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1962/live/397b2430-9a87-11f1-b792-a710e56a11dc.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US-Canada trade talks 'intense' as new tariff deadline looms",
-      "link": "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
+      "title": "Ferguson shipyard to cut a quarter of its workforce",
+      "link": "https://www.bbc.co.uk/news/articles/c20e2qe1lqpo?at_medium=RSS&at_campaign=rss",
       "date": "18 Aug 2026",
-      "excerpt": "Mark Carney will need to sell Canadians on any concessions made to the US as negotiators scramble to reach a deal to avoid Trump’s latest tariffs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1962/live/397b2430-9a87-11f1-b792-a710e56a11dc.jpg"
+      "excerpt": "The state-owned yard on the Clyde will lose 70 of its 283 staff through a voluntary redundancy process.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7127/live/f9c38180-9adf-11f1-b792-a710e56a11dc.jpg"
     },
     {
       "source": "BBC Business",
@@ -242,16 +251,7 @@
       "link": "https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss",
       "date": "18 Aug 2026",
       "excerpt": "US states are suing the social media giant to force an overhaul of its platforms for young users.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/078d/live/f51173c0-97c1-11f1-9963-d1f200dff659.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Disabled people in England to get 24-hour free bus travel",
-      "link": "https://www.bbc.co.uk/news/articles/cjwx5vx21y2o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Aug 2026",
-      "excerpt": "The change, which has been welcomed by campaign groups, will come into effect in England from April.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40a9/live/530f3030-9ad2-11f1-aed2-8d6da8d75094.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c4d/live/36a87330-9aea-11f1-a291-b542ee92de7c.jpg"
     }
   ]
 }
