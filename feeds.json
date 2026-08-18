@@ -1,5 +1,5 @@
 {
-  "updated": "18 Aug 2026, 12:39 UTC",
+  "updated": "18 Aug 2026, 14:30 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Research: What Physical Retail Stores Deliver in a Digital Economy",
+      "link": "/2026/08/research-what-physical-retail-stores-deliver-in-a-digital-economy",
+      "date": "18 Aug 2026",
+      "excerpt": "The most successful retailers organize investments around enterprise-wide value, not the performance of individual channels.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Can an AI-Powered Scribe Curb Physician Burnout?",
+      "link": "/podcast/2026/08/can-an-ai-powered-scribe-curb-physician-burnout",
+      "date": "18 Aug 2026",
+      "excerpt": "The use of automated note-taking tools during patient visits holds promise in reducing physicans&#8217; administrative load&#8211;but the tradeoffs are complicated.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How to Respond to the Coming AI Cost Shock",
       "link": "/2026/08/how-to-respond-to-the-coming-ai-cost-shock",
       "date": "17 Aug 2026",
@@ -125,24 +143,6 @@
       "link": "/2026/08/ai-makes-building-easy-choosing-what-to-build-is-harder",
       "date": "12 Aug 2026",
       "excerpt": "If everyone has access to similar AI tools, your team&#8217;s advantage isn&#8217;t technical capability&#8212;it&#8217;s understanding the problem.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Before Rolling Out a New Strategy, Assess Your Team’s Readiness",
-      "link": "/2026/08/before-rolling-out-a-new-strategy-assess-your-teams-readiness",
-      "date": "12 Aug 2026",
-      "excerpt": "Three conditions will determine whether you can execute the plan.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Driving Change When You Lack Authority",
-      "link": "/2026/08/driving-change-when-you-lack-authority",
-      "date": "11 Aug 2026",
-      "excerpt": "In the August 10 edition of&#160;The Insider newsletter, managing editor Gretchen Gavett writes on influencing others when you lack formal authority, board relationships, and the hidden labor of &#8220;botsitting.&#8221;",
       "image": ""
     },
     {
@@ -229,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "From jumpers to slug pellets - how British wool is back in demand",
+      "link": "https://www.bbc.co.uk/news/articles/c8xnkjwdn5wo?at_medium=RSS&at_campaign=rss",
+      "date": "18 Aug 2026",
+      "excerpt": "An increased demand in wool has meant prices have increased more than 70% in the last year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78b5/live/3df8bb70-9ae7-11f1-930b-57cfba7235f9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Carney's final chance to convince Trump as US-Canada trade deadline looms",
       "link": "https://www.bbc.co.uk/news/articles/crl7600rpnko?at_medium=RSS&at_campaign=rss",
       "date": "18 Aug 2026",
       "excerpt": "Negotiators want a deal to avoid fresh US tariffs - though Canadians are not in the mood to offer many concessions.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1962/live/397b2430-9a87-11f1-b792-a710e56a11dc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ferguson shipyard to cut a quarter of its workforce",
-      "link": "https://www.bbc.co.uk/news/articles/c20e2qe1lqpo?at_medium=RSS&at_campaign=rss",
-      "date": "18 Aug 2026",
-      "excerpt": "The state-owned yard on the Clyde will lose 70 of its 283 staff through a voluntary redundancy process.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7127/live/f9c38180-9adf-11f1-b792-a710e56a11dc.jpg"
     },
     {
       "source": "BBC Business",
