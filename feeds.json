@@ -1,6 +1,15 @@
 {
-  "updated": "19 Aug 2026, 08:33 UTC",
+  "updated": "19 Aug 2026, 10:25 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Mysterious waves sweeping across your brain may help turn sensory chaos into what you see",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260816044827.htm",
+      "date": "18 Aug 2026",
+      "excerpt": "Traveling electrical waves sweeping across the brain may help determine what we notice, predict what comes next, and construct our internal picture of the world. Researchers now argue that these waves aren't just background activity—they co",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260814011028.htm",
       "date": "14 Aug 2026",
       "excerpt": "Women who used estrogen-only hormone therapy later in life were less likely to develop dementia and showed fewer signs of Alzheimer’s disease in their brains, according to a large study of more than 21,000 participants. Hormone therapy use ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A surprising brain discovery could help explain why we overeat fatty foods",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260813045531.htm",
-      "date": "13 Aug 2026",
-      "excerpt": "A protein inside appetite-controlling brain cells may play an important role in preventing overeating and obesity, particularly when high-fat foods are readily available. Unexpected differences between males and females could also help expl",
       "image": ""
     },
     {
@@ -146,58 +146,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "ChatGPT or Zoom – which broke the career ladder?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/17/chatgpt-or-zoom-which-broke-the-career-ladder/",
-      "date": "17 Aug 2026",
-      "excerpt": "Entry-level hiring has fallen sharply across white-collar work. An emerging explanation has been that generative AI is to blame. Drawing on their new study of hundreds of millions of hires and job adverts, Peter John Lambert and Yannick Sch",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure1.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Jump in energy bills drives UK inflation to highest rate for four months",
+      "link": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_medium=RSS&at_campaign=rss",
+      "date": "19 Aug 2026",
+      "excerpt": "A 2.9% rise in inflation had been widely expected by economists, with Chancellor John Healey saying the Iran war “continues to impact prices here at home”.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21dc/live/be9c8d40-9bb6-11f1-a291-b542ee92de7c.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "To cut plastic pollution, mandate recycled content and allow for trade and global circularity",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/13/to-cut-plastic-pollution-mandate-recycled-content-and-allow-for-trade-and-global-circularity/",
-      "date": "13 Aug 2026",
-      "excerpt": "The current oil crisis could accelerate the adoption of both renewable energy and recycled plastic as a hedge against future shocks. Cross-border trade in recyclable plastic and mandates for the quantity of recycled material that products m",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Can sovereign wealth funds break Indonesia’s risk-averse innovation cycle?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/12/can-sovereign-wealth-funds-break-indonesias-risk-averse-innovation-cycle/",
-      "date": "12 Aug 2026",
-      "excerpt": "Why do some countries invest less in policy innovation than others? Namira Samir argues that policy courage and financial capacity shape governments’ willingness to innovate. Using Indonesia as a case study, she explores how a sovereign wea",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How foreign ownership of sovereign debt affects inflation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/11/how-foreign-ownership-of-sovereign-debt-affects-inflation/",
-      "date": "11 Aug 2026",
-      "excerpt": "While central banks typically analyse inflation through domestic demand, supply and expectations, they should also treat the financial account of the balance of payments as part of the inflation process. Using the Portfolio Theory of Inflat",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Accounting is evolving in exciting ways, but student numbers are falling",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/10/accounting-is-evolving-in-exciting-ways-but-student-numbers-are-falling/",
-      "date": "10 Aug 2026",
-      "excerpt": "Accounting now sits at the intersection of data analytics, governance, risk, sustainability and strategic decision-making. Despite this, the talent pipeline is narrowing just as more are needed. Using data from the United Kingdom and Irelan",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "AI has a serious image problem",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
-      "date": "7 Aug 2026",
-      "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Slide1.jpeg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trainline, Virgin Atlantic and RED Driving School investigated over 'drip pricing'",
+      "link": "https://www.bbc.co.uk/news/articles/cwyjqe62574o?at_medium=RSS&at_campaign=rss",
+      "date": "19 Aug 2026",
+      "excerpt": "The consumer watchdog said they were trying to find out if the three companies were not showing full prices upfront to customers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6404/live/b3e6ea00-9ba5-11f1-a4e6-dfdb59e74cb0.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,15 +184,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Meta hooked children on Facebook and Instagram, US court hears",
-      "link": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Aug 2026",
-      "excerpt": "Meta argued social media addiction does not exist, as a trial stemming from a major lawsuit brought by US states started.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b4ee/live/4f771a70-9b84-11f1-bdab-bd265066e1df.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Mobile payments on the rise but cash decline slows",
       "link": "https://www.bbc.co.uk/news/articles/cd7l9en2qrjo?at_medium=RSS&at_campaign=rss",
       "date": "18 Aug 2026",
@@ -243,15 +198,6 @@
       "date": "18 Aug 2026",
       "excerpt": "The war in Ukraine has spurred people to consider putting vital infrastructure underground.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cffe/live/831c08d0-7b87-11f1-bee8-53ce494e1abc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Chinese robotics giant Unitree soars in stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c0qv4w9492zo?at_medium=RSS&at_campaign=rss",
-      "date": "19 Aug 2026",
-      "excerpt": "Shares in the world's biggest humanoid robot maker started trading on Shanghai's Star market on Wednesday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f5e/live/f165f440-9b6c-11f1-b1cb-859c01609bc4.jpg"
     }
   ]
 }
