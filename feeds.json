@@ -1,5 +1,5 @@
 {
-  "updated": "20 Aug 2026, 04:34 UTC",
+  "updated": "20 Aug 2026, 06:40 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -224,7 +224,16 @@
       "link": "https://www.bbc.co.uk/news/articles/cz97148eye0o?at_medium=RSS&at_campaign=rss",
       "date": "19 Aug 2026",
       "excerpt": "The co-founder of Little Moons shares her advice for anyone thinking about starting a business of their own.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b0d/live/04272360-9bd1-11f1-bb4d-1147ef2e78e5.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/942d/live/a6955b90-9c57-11f1-b109-879e35c24276.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison",
+      "link": "https://www.bbc.co.uk/news/articles/cd0x9mjjmgjo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Aug 2026",
+      "excerpt": "Hui's sentencing marks a key moment in the fallout from Evergrande's collapse, which shook China's property sector.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/576f/live/42ba6840-9c52-11f1-b275-a98fc45a1940.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "19 Aug 2026",
       "excerpt": "E-commerce, rising income levels and the world's largest youth population are fuelling India's beauty boom.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbd6/live/e0b60a90-9194-11f1-9e9c-c71e84be4584.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Jump in energy bills drives UK inflation to highest rate for four months",
-      "link": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_medium=RSS&at_campaign=rss",
-      "date": "19 Aug 2026",
-      "excerpt": "A 2.9% rise in inflation had been widely expected by economists, with Chancellor John Healey saying the Iran war “continues to impact prices here at home”.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21dc/live/be9c8d40-9bb6-11f1-a291-b542ee92de7c.jpg"
     }
   ]
 }
