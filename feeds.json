@@ -1,5 +1,5 @@
 {
-  "updated": "20 Aug 2026, 12:43 UTC",
+  "updated": "20 Aug 2026, 14:33 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,24 +220,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Danone €1bn takeover of Huel approved by watchdog",
-      "link": "https://www.bbc.co.uk/news/articles/crl7y671w8go?at_medium=RSS&at_campaign=rss",
-      "date": "20 Aug 2026",
-      "excerpt": "French firm says the acquisition of Huel will help it grow in the nutritional sector.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/460d/live/b579d640-9c7a-11f1-8413-79a38c9f8909.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump vows tougher economic measures on Iran and supporting countries",
-      "link": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Aug 2026",
-      "excerpt": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/725b/live/5ef21940-9c2a-11f1-aa8e-d328e95deb46.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "I quit my £80,000 job to make ice cream - here's how",
       "link": "https://www.bbc.co.uk/news/articles/cz97148eye0o?at_medium=RSS&at_campaign=rss",
       "date": "19 Aug 2026",
@@ -247,11 +229,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison",
-      "link": "https://www.bbc.co.uk/news/articles/cd0x9mjjmgjo?at_medium=RSS&at_campaign=rss",
+      "title": "Danone €1bn takeover of Huel approved by watchdog",
+      "link": "https://www.bbc.co.uk/news/articles/crl7y671w8go?at_medium=RSS&at_campaign=rss",
       "date": "20 Aug 2026",
-      "excerpt": "Hui's sentencing marks a key moment in the fallout from Evergrande's collapse, which shook China's property sector.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/576f/live/42ba6840-9c52-11f1-b275-a98fc45a1940.jpg"
+      "excerpt": "French firm says the acquisition of Huel will help it grow in the nutritional sector.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/460d/live/b579d640-9c7a-11f1-8413-79a38c9f8909.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Reform UK proposes tax rebates for firms to boost apprenticeships",
+      "link": "https://www.bbc.co.uk/news/articles/c86nz8n960go?at_medium=RSS&at_campaign=rss",
+      "date": "20 Aug 2026",
+      "excerpt": "Suella Braverman also advised student's \"not to get ripped off by the great university scam\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b45/live/3ff3d920-9c9d-11f1-aed2-8d6da8d75094.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump vows tougher economic measures on Iran and supporting countries",
+      "link": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Aug 2026",
+      "excerpt": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/725b/live/5ef21940-9c2a-11f1-aa8e-d328e95deb46.jpg"
     }
   ]
 }
