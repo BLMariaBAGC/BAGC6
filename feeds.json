@@ -1,6 +1,24 @@
 {
-  "updated": "20 Aug 2026, 01:05 UTC",
+  "updated": "20 Aug 2026, 02:53 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "AI-designed “intrabodies” could unlock new treatments for Alzheimer’s, Parkinson’s and MND",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260819041242.htm",
+      "date": "19 Aug 2026",
+      "excerpt": "Researchers have developed a new way to turn ordinary antibodies into tiny disease-fighting molecules that can work inside human cells, potentially opening new paths for treating Alzheimer’s, Parkinson’s, Huntington’s disease, and motor neu",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Researchers reveal deeper workings of brain’s information hub",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260819041224.htm",
+      "date": "19 Aug 2026",
+      "excerpt": "The brain has a remarkably flexible system for handling uncertainty and changing situations. Researchers found that the frontoparietal cortex constantly shifts how it communicates with other brain regions depending on what information is ne",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260814011044.htm",
       "date": "14 Aug 2026",
       "excerpt": "A surprising stress-related signal may help the brain repair itself after injury. Researchers found that myelin-producing precursor cells rapidly release the stress hormone CRH near damaged brain tissue, helping control how those cells matu",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Immune cells flood into the aging brain, Stanford scientists discover",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260814011033.htm",
-      "date": "14 Aug 2026",
-      "excerpt": "Scientists have discovered that the aging human brain may be far less isolated from the rest of the body than once believed. Stanford researchers found that large numbers of immune cells from the blood begin entering the brain as early as m",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Women taking estrogen had fewer signs of Alzheimer’s in their brains",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260814011028.htm",
-      "date": "14 Aug 2026",
-      "excerpt": "Women who used estrogen-only hormone therapy later in life were less likely to develop dementia and showed fewer signs of Alzheimer’s disease in their brains, according to a large study of more than 21,000 participants. Hormone therapy use ",
       "image": ""
     },
     {
@@ -213,7 +213,7 @@
       "feedId": "bbc",
       "title": "US national debt passes $40tn after doubling in a decade",
       "link": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
-      "date": "19 Aug 2026",
+      "date": "20 Aug 2026",
       "excerpt": "It comes after the interest rate on 30-year bonds reached the highest level in almost 20 years.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c600/live/6b7a29d0-9bff-11f1-aed2-8d6da8d75094.jpg"
     },
