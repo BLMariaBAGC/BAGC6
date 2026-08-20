@@ -1,6 +1,15 @@
 {
-  "updated": "20 Aug 2026, 10:26 UTC",
+  "updated": "20 Aug 2026, 12:43 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Schizophrenia’s lost brain connections follow a surprising pattern",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260820002443.htm",
+      "date": "20 Aug 2026",
+      "excerpt": "Specialized brain scans reveal that schizophrenia is linked to widespread loss of the synapses that connect brain cells, with the left side of the brain hit especially hard. The damage follows a surprisingly organized pattern tied to the br",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260814235839.htm",
       "date": "16 Aug 2026",
       "excerpt": "Exercise and healthy blood sugar levels in midlife may help slow cognitive decline decades later. Physical activity appeared especially beneficial for Mexican American adults, suggesting that some brain-protective factors may differ across ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A stress hormone may help the brain repair itself",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260814011044.htm",
-      "date": "14 Aug 2026",
-      "excerpt": "A surprising stress-related signal may help the brain repair itself after injury. Researchers found that myelin-producing precursor cells rapidly release the stress hormone CRH near damaged brain tissue, helping control how those cells matu",
       "image": ""
     },
     {
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Why strong codes of conduct and supporting those who speak out maintains confidence in the public sector",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/20/why-strong-codes-of-conduct-and-supporting-those-who-speak-out-maintains-confidence-in-the-public-sector/",
+      "date": "20 Aug 2026",
+      "excerpt": "Employees often notice problems long before failures become publicly visible. What determines whether those concerns are acted upon is not just individual courage but the signals sent by bosses about whether they will be. Using data from Au",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "ChatGPT or Zoom – which broke the career ladder?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/17/chatgpt-or-zoom-which-broke-the-career-ladder/",
       "date": "17 Aug 2026",
@@ -191,15 +200,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "AI has a serious image problem",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
-      "date": "7 Aug 2026",
-      "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Slide1.jpeg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Travelodge boss resigns as chain tackles security after sex assault at hotel",
@@ -211,20 +211,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump vows tougher economic measures on Iran and supporting countries",
-      "link": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Aug 2026",
-      "excerpt": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/725b/live/5ef21940-9c2a-11f1-aa8e-d328e95deb46.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "US national debt passes $40tn after doubling in a decade",
       "link": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
       "date": "20 Aug 2026",
       "excerpt": "It comes after the interest rate on 30-year bonds reached the highest level in almost 20 years.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c600/live/6b7a29d0-9bff-11f1-aed2-8d6da8d75094.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Danone €1bn takeover of Huel approved by watchdog",
+      "link": "https://www.bbc.co.uk/news/articles/crl7y671w8go?at_medium=RSS&at_campaign=rss",
+      "date": "20 Aug 2026",
+      "excerpt": "French firm says the acquisition of Huel will help it grow in the nutritional sector.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/460d/live/b579d640-9c7a-11f1-8413-79a38c9f8909.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump vows tougher economic measures on Iran and supporting countries",
+      "link": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Aug 2026",
+      "excerpt": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/725b/live/5ef21940-9c2a-11f1-aa8e-d328e95deb46.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "20 Aug 2026",
       "excerpt": "Hui's sentencing marks a key moment in the fallout from Evergrande's collapse, which shook China's property sector.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/576f/live/42ba6840-9c52-11f1-b275-a98fc45a1940.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Canada and US say they are finalising a trade deal",
-      "link": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Aug 2026",
-      "excerpt": "Prime Minister Carney hailed \"significant progress\" in trade talks as the two countries seek to hammer out final details ahead of a new weekend tariff deadline.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd23/live/184fdf20-9bf0-11f1-8470-d18257d2d589.jpg"
     }
   ]
 }
