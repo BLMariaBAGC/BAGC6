@@ -1,5 +1,5 @@
 {
-  "updated": "20 Aug 2026, 06:40 UTC",
+  "updated": "20 Aug 2026, 08:34 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -146,63 +146,18 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "ChatGPT or Zoom – which broke the career ladder?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/17/chatgpt-or-zoom-which-broke-the-career-ladder/",
-      "date": "17 Aug 2026",
-      "excerpt": "Entry-level hiring has fallen sharply across white-collar work. An emerging explanation has been that generative AI is to blame. Drawing on their new study of hundreds of millions of hires and job adverts, Peter John Lambert and Yannick Sch",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure1.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "To cut plastic pollution, mandate recycled content and allow for trade and global circularity",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/13/to-cut-plastic-pollution-mandate-recycled-content-and-allow-for-trade-and-global-circularity/",
-      "date": "13 Aug 2026",
-      "excerpt": "The current oil crisis could accelerate the adoption of both renewable energy and recycled plastic as a hedge against future shocks. Cross-border trade in recyclable plastic and mandates for the quantity of recycled material that products m",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Can sovereign wealth funds break Indonesia’s risk-averse innovation cycle?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/12/can-sovereign-wealth-funds-break-indonesias-risk-averse-innovation-cycle/",
-      "date": "12 Aug 2026",
-      "excerpt": "Why do some countries invest less in policy innovation than others? Namira Samir argues that policy courage and financial capacity shape governments’ willingness to innovate. Using Indonesia as a case study, she explores how a sovereign wea",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How foreign ownership of sovereign debt affects inflation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/11/how-foreign-ownership-of-sovereign-debt-affects-inflation/",
-      "date": "11 Aug 2026",
-      "excerpt": "While central banks typically analyse inflation through domestic demand, supply and expectations, they should also treat the financial account of the balance of payments as part of the inflation process. Using the Portfolio Theory of Inflat",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Accounting is evolving in exciting ways, but student numbers are falling",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/10/accounting-is-evolving-in-exciting-ways-but-student-numbers-are-falling/",
-      "date": "10 Aug 2026",
-      "excerpt": "Accounting now sits at the intersection of data analytics, governance, risk, sustainability and strategic decision-making. Despite this, the talent pipeline is narrowing just as more are needed. Using data from the United Kingdom and Irelan",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "AI has a serious image problem",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/07/ai-has-a-serious-image-problem/",
-      "date": "7 Aug 2026",
-      "excerpt": "When even AI bosses are worried about the impact of the technology, is it any wonder the public are scared? Analysing their major survey of British public opinion, Bobby Duffy and Elena Simperl argue that, while the risks should not be down",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Slide1.jpeg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Travelodge boss steps down after security issues in rooms",
+      "link": "https://www.bbc.co.uk/news/articles/c2k7e7zwxvyo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Aug 2026",
+      "excerpt": "Jo Boydell had been criticised for the company's handling of issues with its safety and security.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6abd/live/b8e96d70-9c6d-11f1-aed2-8d6da8d75094.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
+      "title": "Trump vows tougher economic measures on Iran and supporting countries",
       "link": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
       "date": "20 Aug 2026",
       "excerpt": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
@@ -243,15 +198,6 @@
       "date": "20 Aug 2026",
       "excerpt": "Prime Minister Carney hailed \"significant progress\" in trade talks as the two countries seek to hammer out final details ahead of a new weekend tariff deadline.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd23/live/184fdf20-9bf0-11f1-8470-d18257d2d589.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "India's Gen Z are driving up a mega boom in its beauty market",
-      "link": "https://www.bbc.co.uk/news/articles/cgr71kv9k95o?at_medium=RSS&at_campaign=rss",
-      "date": "19 Aug 2026",
-      "excerpt": "E-commerce, rising income levels and the world's largest youth population are fuelling India's beauty boom.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbd6/live/e0b60a90-9194-11f1-9e9c-c71e84be4584.jpg"
     }
   ]
 }
