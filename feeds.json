@@ -1,5 +1,5 @@
 {
-  "updated": "19 Aug 2026, 22:21 UTC",
+  "updated": "20 Aug 2026, 01:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,42 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Trump threatens 'tremendous economic consequences' on any country helping Iran",
+      "link": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Aug 2026",
+      "excerpt": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/725b/live/5ef21940-9c2a-11f1-aa8e-d328e95deb46.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US national debt passes $40tn after doubling in a decade",
+      "link": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
+      "date": "19 Aug 2026",
+      "excerpt": "It comes after the interest rate on 30-year bonds reached the highest level in almost 20 years.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c600/live/6b7a29d0-9bff-11f1-aed2-8d6da8d75094.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I quit my £80,000 job to make ice cream - here's how",
+      "link": "https://www.bbc.co.uk/news/articles/cz97148eye0o?at_medium=RSS&at_campaign=rss",
+      "date": "19 Aug 2026",
+      "excerpt": "The co-founder of Little Moons shares her advice for anyone thinking about starting a business of their own.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b0d/live/04272360-9bd1-11f1-bb4d-1147ef2e78e5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "India's Gen Z are driving up a mega boom in its beauty market",
+      "link": "https://www.bbc.co.uk/news/articles/cgr71kv9k95o?at_medium=RSS&at_campaign=rss",
+      "date": "19 Aug 2026",
+      "excerpt": "E-commerce, rising income levels and the world's largest youth population are fuelling India's beauty boom.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbd6/live/e0b60a90-9194-11f1-9e9c-c71e84be4584.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Inflation is heating up but don't expect another crisis",
       "link": "https://www.bbc.co.uk/news/articles/cj63jr5r09zo?at_medium=RSS&at_campaign=rss",
       "date": "19 Aug 2026",
@@ -216,42 +252,6 @@
       "date": "19 Aug 2026",
       "excerpt": "A 2.9% rise in inflation had been widely expected by economists, with Chancellor John Healey saying the Iran war “continues to impact prices here at home”.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21dc/live/be9c8d40-9bb6-11f1-a291-b542ee92de7c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trainline, Virgin Atlantic and RED Driving School investigated over 'drip pricing'",
-      "link": "https://www.bbc.co.uk/news/articles/cwyjqe62574o?at_medium=RSS&at_campaign=rss",
-      "date": "19 Aug 2026",
-      "excerpt": "The consumer watchdog said they were trying to find out if the three companies were not showing full prices upfront to customers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb7b/live/d50ea0f0-9bce-11f1-b109-879e35c24276.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US long-term borrowing costs ease after government steps in",
-      "link": "https://www.bbc.co.uk/news/articles/c70gp8252ejo?at_medium=RSS&at_campaign=rss",
-      "date": "19 Aug 2026",
-      "excerpt": "It comes after the interest rate on 30-year bonds reached the highest level in almost 20 years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c600/live/6b7a29d0-9bff-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Track defect found near derailment site - report",
-      "link": "https://www.bbc.co.uk/news/articles/c4gx12v8z51o?at_medium=RSS&at_campaign=rss",
-      "date": "19 Aug 2026",
-      "excerpt": "Initial findings from an RAIB investigation show an \"irregularity\" at the site near Lewes.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b5e2/live/2f124880-9b12-11f1-9341-0383083a41e3.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The critical tech staying safe by going underground",
-      "link": "https://www.bbc.co.uk/news/articles/c20ydrndr0wo?at_medium=RSS&at_campaign=rss",
-      "date": "18 Aug 2026",
-      "excerpt": "The war in Ukraine has spurred people to consider putting vital infrastructure underground.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cffe/live/831c08d0-7b87-11f1-bee8-53ce494e1abc.jpg"
     }
   ]
 }
