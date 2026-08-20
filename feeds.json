@@ -1,5 +1,5 @@
 {
-  "updated": "20 Aug 2026, 14:33 UTC",
+  "updated": "20 Aug 2026, 16:31 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "4 Steps to Transform the “Middle Office” with AI",
+      "link": "/2026/08/4-steps-to-transform-the-middle-office-with-ai",
+      "date": "20 Aug 2026",
+      "excerpt": "Most companies overlook the opportunities for AI to improve exception-heavy tasks such as contract reviews, risk management, and compliance.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Is Your Organizational Culture Too Nice?",
       "link": "/2026/08/is-your-organizational-culture-too-nice",
       "date": "19 Aug 2026",
@@ -134,15 +143,6 @@
       "link": "/2026/08/how-to-respond-to-the-coming-ai-cost-shock",
       "date": "17 Aug 2026",
       "excerpt": "Leaders must design new approaches to budgeting, workforce planning, and risk management.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How the Best Leaders Shape Conversations",
-      "link": "/2026/08/how-the-best-leaders-shape-conversations",
-      "date": "17 Aug 2026",
-      "excerpt": "Every strategy, decision, and transformation begins as a conversation.",
       "image": ""
     },
     {
