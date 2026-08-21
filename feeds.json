@@ -1,5 +1,5 @@
 {
-  "updated": "21 Aug 2026, 10:27 UTC",
+  "updated": "21 Aug 2026, 12:40 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260820002443.htm",
       "date": "20 Aug 2026",
       "excerpt": "Specialized brain scans reveal that schizophrenia is linked to widespread loss of the synapses that connect brain cells, with the left side of the brain hit especially hard. The damage follows a surprisingly organized pattern tied to the br",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Ozempic does something unexpected to the brain’s hunger neurons",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260820002436.htm",
+      "date": "20 Aug 2026",
+      "excerpt": "Ozempic may work in the brain in almost the opposite way scientists expected, activating hunger-linked neurons that appear essential for sustaining fat loss. The surprising discovery in mice could reveal new targets for developing even more",
       "image": ""
     },
     {
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260814235856.htm",
       "date": "16 Aug 2026",
       "excerpt": "An experimental Alzheimer’s compound prevented damaging protein clumps from forming in the brains of mice, helping nerve cells survive longer and reducing amyloid buildup. The treatment also appeared to improve heart health and slow some si",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A little movement in midlife could pay off for your brain years later",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260814235839.htm",
-      "date": "16 Aug 2026",
-      "excerpt": "Exercise and healthy blood sugar levels in midlife may help slow cognitive decline decades later. Physical activity appeared especially beneficial for Mexican American adults, suggesting that some brain-protective factors may differ across ",
       "image": ""
     },
     {
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Royal Mail misses delivery targets again but hails 'encouraging' signs",
+      "link": "https://www.bbc.co.uk/news/articles/c1w1rg208xdo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Aug 2026",
+      "excerpt": "The struggling firm said it had improved its performance but missed regulator-set delivery targets.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b693/live/e8990510-9d46-11f1-a3dc-c3f8cfe34ff8.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "UK borrows more than expected in July as Healey prepares for first Budget",
       "link": "https://www.bbc.co.uk/news/articles/cly8kzkyvwgo?at_medium=RSS&at_campaign=rss",
       "date": "21 Aug 2026",
@@ -225,15 +234,6 @@
       "date": "21 Aug 2026",
       "excerpt": "The crucial waterway's operator says low rainfall caused by the ocean pattern had led to the decision.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db42/live/677fca00-9d18-11f1-bd22-47519fb87a16.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why the US economy is ringing alarm bells",
-      "link": "https://www.bbc.co.uk/news/articles/c9d8z72nn02o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Aug 2026",
-      "excerpt": "The US hit a debt milestone this week, but just how worried should we be about the world's largest economy?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6d5b/live/f6865980-9cf0-11f1-a0c7-a733f826760a.jpg"
     },
     {
       "source": "BBC Business",
