@@ -1,6 +1,15 @@
 {
-  "updated": "22 Aug 2026, 12:33 UTC",
+  "updated": "22 Aug 2026, 14:18 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Multilingual people may have brains up to 13 years younger",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260821012226.htm",
+      "date": "22 Aug 2026",
+      "excerpt": "People who speak several languages may have brains that age more slowly, with four-language speakers showing brains that appeared about 13 years younger than those of monolinguals. Starting earlier and becoming highly fluent were also linke",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260815064803.htm",
       "date": "17 Aug 2026",
       "excerpt": "An eight-year Finnish study found that children who spent more time on screens tended to show better cognitive processing as teenagers, challenging common assumptions about screen use. Researchers say the key may be balancing physical activ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A little-known protein may be fueling Alzheimer’s — and scientists found a way to block it",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260814235856.htm",
-      "date": "16 Aug 2026",
-      "excerpt": "An experimental Alzheimer’s compound prevented damaging protein clumps from forming in the brains of mice, helping nerve cells survive longer and reducing amyloid buildup. The treatment also appeared to improve heart health and slow some si",
       "image": ""
     },
     {
