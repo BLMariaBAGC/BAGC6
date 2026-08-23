@@ -1,5 +1,5 @@
 {
-  "updated": "23 Aug 2026, 14:19 UTC",
+  "updated": "23 Aug 2026, 16:21 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -17,6 +17,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260822015138.htm",
       "date": "23 Aug 2026",
       "excerpt": "Older adults with mild cognitive impairment and sleep problems who took at least 5,000 IU of vitamin D daily scored more than 13% higher on a cognitive test than those taking none. The preliminary findings suggest vitamin D could be worth s",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A major Alzheimer’s risk gene may shrink brain cells years before symptoms",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260821012234.htm",
+      "date": "23 Aug 2026",
+      "excerpt": "Researchers have uncovered a possible reason why the Alzheimer’s risk gene APOE4 can disrupt the brain long before memory problems begin. In mice, APOE4 increased a protein called Nell2, shrinking neurons and making memory circuits unusuall",
       "image": ""
     },
     {
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260819041224.htm",
       "date": "19 Aug 2026",
       "excerpt": "The brain has a remarkably flexible system for handling uncertainty and changing situations. Researchers found that the frontoparietal cortex constantly shifts how it communicates with other brain regions depending on what information is ne",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Mysterious waves sweeping across your brain may help turn sensory chaos into what you see",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260816044827.htm",
-      "date": "18 Aug 2026",
-      "excerpt": "Traveling electrical waves sweeping across the brain may help determine what we notice, predict what comes next, and construct our internal picture of the world. Researchers now argue that these waves aren't just background activity—they co",
       "image": ""
     },
     {
