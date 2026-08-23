@@ -1,5 +1,5 @@
 {
-  "updated": "23 Aug 2026, 08:26 UTC",
+  "updated": "23 Aug 2026, 10:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "CrossCountry cancels UK services after power cut",
+      "link": "https://www.bbc.co.uk/news/articles/cy9w9y0lz5go?at_medium=RSS&at_campaign=rss",
+      "date": "23 Aug 2026",
+      "excerpt": "Customers say the disruption to virtually all UK CrossCountry services is the \"worst case scenario\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2055/live/eb901e80-9ec6-11f1-a815-1fffefa318e5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
       "link": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
       "date": "23 Aug 2026",
@@ -216,15 +225,6 @@
       "date": "23 Aug 2026",
       "excerpt": "Housing minister Matthew Pennycook said the change was \"essential\" for helping mayors \"effectively deliver new homes\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7205/live/1fb3cdf0-9d83-11f1-adf5-2dc21c9cc109.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "More students planning to live at home for university over 'insane' living costs",
-      "link": "https://www.bbc.co.uk/news/articles/c70gy180e8lo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Aug 2026",
-      "excerpt": "Students like Jessica say they worry about missing out on student life, but feel they have no choice but to stay at home.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c94d/live/f132db30-97db-11f1-bb4c-d758974ed97b.jpg"
     },
     {
       "source": "BBC Business",
