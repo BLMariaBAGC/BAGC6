@@ -1,6 +1,15 @@
 {
-  "updated": "23 Aug 2026, 02:59 UTC",
+  "updated": "23 Aug 2026, 04:33 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Quitting alcohol may prime the brain for relapse",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260822015148.htm",
+      "date": "22 Aug 2026",
+      "excerpt": "Mice that developed compulsive drinking after alcohol abstinence showed more than double the activity in a brain region associated with stress and addiction. Because the signal appeared before they drank again, researchers think it could ev",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260815064833.htm",
       "date": "18 Aug 2026",
       "excerpt": "Childhood criticism can leave people carrying a fear of failure long into adulthood, but new research suggests those emotional patterns may be surprisingly flexible. Young adults who revisited painful memories through imagery-based therapy ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists tracked kids for 8 years — the screen time result was unexpected",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260815064803.htm",
-      "date": "17 Aug 2026",
-      "excerpt": "An eight-year Finnish study found that children who spent more time on screens tended to show better cognitive processing as teenagers, challenging common assumptions about screen use. Researchers say the key may be balancing physical activ",
       "image": ""
     },
     {
