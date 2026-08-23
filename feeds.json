@@ -1,5 +1,5 @@
 {
-  "updated": "23 Aug 2026, 06:36 UTC",
+  "updated": "23 Aug 2026, 08:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,47 +184,47 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Royal Mail misses delivery targets again but hails 'encouraging' signs",
-      "link": "https://www.bbc.co.uk/news/articles/c1w1rg208xdo?at_medium=RSS&at_campaign=rss",
+      "title": "Struggling households need more help with bills, energy industry says",
+      "link": "https://www.bbc.co.uk/news/articles/cm2g5x7l4mko?at_medium=RSS&at_campaign=rss",
+      "date": "23 Aug 2026",
+      "excerpt": "Industry body Energy UK says the current support for households most in need does not go far enough.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ea9/live/7085b770-9d97-11f1-9233-8716b68cda7b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+      "link": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Aug 2026",
+      "excerpt": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b8b/live/0b4b35a0-9eba-11f1-8afa-6d906fcc4949.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Iran-linked hackers behind cyber attack that shut down power plant, reports say",
+      "link": "https://www.bbc.co.uk/news/articles/ce9793g34yvo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Aug 2026",
+      "excerpt": "The government says at no point was there a risk to the UK's energy system during the attack in July.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f5a/live/8ba750f0-9e95-11f1-b485-57ec149f4199.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Mayors to get powers to overrule local councils on planning decisions",
+      "link": "https://www.bbc.co.uk/news/articles/cy8m0gxexl4o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Aug 2026",
+      "excerpt": "Housing minister Matthew Pennycook said the change was \"essential\" for helping mayors \"effectively deliver new homes\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7205/live/1fb3cdf0-9d83-11f1-adf5-2dc21c9cc109.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "More students planning to live at home for university over 'insane' living costs",
+      "link": "https://www.bbc.co.uk/news/articles/c70gy180e8lo?at_medium=RSS&at_campaign=rss",
       "date": "21 Aug 2026",
-      "excerpt": "The struggling firm said it had improved its performance but missed regulator-set delivery targets.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b693/live/e8990510-9d46-11f1-a3dc-c3f8cfe34ff8.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'We have more work to do', says Canada negotiator as US trade deadline looms",
-      "link": "https://www.bbc.co.uk/news/articles/czjlr0evy0do?at_medium=RSS&at_campaign=rss",
-      "date": "22 Aug 2026",
-      "excerpt": "Negotiations to finalise a deal between the US and Canada are going down to the wire ahead of a Friday night deadline.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/064f/live/86495a50-9dbd-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US borrowing costs rise as attempts to ease rates prove short-lived",
-      "link": "https://www.bbc.co.uk/news/articles/cvg92p3ez17o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Aug 2026",
-      "excerpt": "Economists said there were ongoing concerns over the level of borrowing as national debt passed $40tn.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4911/live/003dd3f0-9d81-11f1-adf5-2dc21c9cc109.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Millennials have found it hard to buy homes – but things may be turning a corner",
-      "link": "https://www.bbc.co.uk/news/articles/cgewlld498xo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Aug 2026",
-      "excerpt": "Twenty-somethings are much less likely to own a home than previous generations. But data suggests things may be improving.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4a7/live/1acdc570-9cb6-11f1-b109-879e35c24276.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Stifling heat and broken toilets: TUI River Cruise passengers tell of their holiday hell",
-      "link": "https://www.bbc.co.uk/news/articles/cy07exrz5lpo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Aug 2026",
-      "excerpt": "Holidaymakers tell the BBC they paid for luxury breaks but faulty air conditioning left them in sweltering heat.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48ad/live/65eaf140-9cac-11f1-b366-155f83b9d1f8.jpg"
+      "excerpt": "Students like Jessica say they worry about missing out on student life, but feel they have no choice but to stay at home.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c94d/live/f132db30-97db-11f1-bb4c-d758974ed97b.jpg"
     },
     {
       "source": "BBC Business",
