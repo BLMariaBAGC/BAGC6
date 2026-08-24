@@ -1,5 +1,5 @@
 {
-  "updated": "24 Aug 2026, 20:27 UTC",
+  "updated": "24 Aug 2026, 22:22 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US-Canada trade war escalates as Trump threatens tariff hike on autos after Carney vows to retaliate",
+      "link": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Aug 2026",
+      "excerpt": "Mark Carney accused Trump of wanting to \"destroy\" Canada's auto industry, and said he would only resume trade talks if the US comes with the \"right attitude\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/59dc/live/1a42fea0-9ff8-11f1-be19-71b839ccdc73.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "70,000 social and affordable homes to be built across England as part of £39bn plan",
+      "link": "https://www.bbc.co.uk/news/articles/cnvly73jrrdo?at_medium=RSS&at_campaign=rss",
+      "date": "24 Aug 2026",
+      "excerpt": "Funding has been granted to Greater Manchester, the West Midlands and West Yorkshire as well as £6bn for London.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ec1/live/bb8353b0-a006-11f1-8317-891a2cbab3c5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Graduate job vacancies drop by almost 50% in a year, survey suggests",
       "link": "https://www.bbc.co.uk/news/articles/crerd8l3pw5o?at_medium=RSS&at_campaign=rss",
       "date": "24 Aug 2026",
@@ -216,24 +234,6 @@
       "date": "23 Aug 2026",
       "excerpt": "A survey on attitudes towards accents suggests that so-called \"accent bias\" is still an issue in many workplaces.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c25/live/273206a0-9f86-11f1-82a0-8dbe1008b861.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Manga-inspired theme park to be built near Paris",
-      "link": "https://www.bbc.co.uk/news/articles/c8r6xy3ryndo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Aug 2026",
-      "excerpt": "The construction of three new parks was given the green light after a €6bn investment from Saudi Arabia.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e189/live/13831e40-9ff5-11f1-b150-d3e6f0a6b415.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Rail companies sued for £5m over oil spill caused by derailment",
-      "link": "https://www.bbc.co.uk/news/articles/cwyz37zzp22o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Aug 2026",
-      "excerpt": "More than 400,000 litres of fuel spilled in the area causing an \"environmental disaster\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/127d/live/c72264d0-9fd0-11f1-a291-b542ee92de7c.jpg"
     }
   ]
 }
