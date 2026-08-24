@@ -1,5 +1,5 @@
 {
-  "updated": "24 Aug 2026, 01:08 UTC",
+  "updated": "24 Aug 2026, 03:00 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Shein aims for almost $27bn valuation in stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/cdeweewjdxno?at_medium=RSS&at_campaign=rss",
+      "date": "24 Aug 2026",
+      "excerpt": "The fast-fashion giant's shares are due to start trading in Hong Kong on 1 September.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e462/live/c906d120-9f60-11f1-8564-6b99aa01bb8b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Why students are being paid £2,000 to play computer games",
       "link": "https://www.bbc.co.uk/news/articles/cz647wlvg1do?at_medium=RSS&at_campaign=rss",
       "date": "23 Aug 2026",
@@ -225,15 +234,6 @@
       "date": "23 Aug 2026",
       "excerpt": "Customers say the disruption to virtually all UK CrossCountry services is the \"worst case scenario\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8766/live/9b0d2440-9ef2-11f1-aed4-af6fe65bfcd6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-      "link": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Aug 2026",
-      "excerpt": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b8b/live/0b4b35a0-9eba-11f1-8afa-6d906fcc4949.jpg"
     }
   ]
 }
