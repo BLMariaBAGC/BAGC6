@@ -1,6 +1,15 @@
 {
-  "updated": "24 Aug 2026, 12:43 UTC",
+  "updated": "24 Aug 2026, 14:38 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Too much or too little sleep may make your body age faster",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260823094156.htm",
+      "date": "24 Aug 2026",
+      "excerpt": "Both too little and too much sleep may be linked to faster aging throughout the body. Researchers analyzing 23 biological aging clocks found the lowest aging levels among people sleeping about 6.4 to 7.8 hours per day. Short or long sleep w",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Researchers reveal deeper workings of brain’s information hub",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260819041224.htm",
-      "date": "19 Aug 2026",
-      "excerpt": "The brain has a remarkably flexible system for handling uncertainty and changing situations. Researchers found that the frontoparietal cortex constantly shifts how it communicates with other brain regions depending on what information is ne",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Right Way to Deliver Bad Earnings News",
+      "link": "/2026/08/the-right-way-to-deliver-bad-earnings-news",
+      "date": "24 Aug 2026",
+      "excerpt": "IBM&#8217;s letter to investors about second quarter earnings shows the challenges of timing disclosure&#8212;and offers five lessons for leaders.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How to Spot a Toxic Leader—Before Hiring Them",
+      "link": "/2026/08/how-to-spot-a-toxic-leader-before-hiring-them",
+      "date": "24 Aug 2026",
+      "excerpt": "Six steps to help hiring managers evaluate candidates&#8217; interpersonal skills.",
       "image": ""
     },
     {
@@ -107,24 +125,6 @@
       "link": "/2026/08/is-your-organizational-culture-too-nice",
       "date": "19 Aug 2026",
       "excerpt": "When leaders prioritize harmony over candor, they risk undermining performance.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Is Undermining Leaders’ Judgment. Here’s What to Do About It.",
-      "link": "/2026/08/ai-is-undermining-leaders-judgment-heres-what-to-do-about-it",
-      "date": "19 Aug 2026",
-      "excerpt": "The tools designed to augment your decision-making could end up making it weaker.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Strategy Making Gets an AI Boost",
-      "link": "/2026/08/strategy-making-gets-an-ai-boost",
-      "date": "18 Aug 2026",
-      "excerpt": "In the August 17 edition of The Insider newsletter, managing editor Gretchen Gavett writes on how AI is changing strategy-making, the end of the traditional career arc, and more.",
       "image": ""
     },
     {
