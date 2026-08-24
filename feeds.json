@@ -1,5 +1,5 @@
 {
-  "updated": "24 Aug 2026, 03:00 UTC",
+  "updated": "24 Aug 2026, 04:40 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Nearly 3 million Teslas recalled in China over hidden door handles",
+      "link": "https://www.bbc.co.uk/news/articles/c4g6ggdg030o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Aug 2026",
+      "excerpt": "Other brands affected by the recall include Chinese carmakers XPeng, Xiaomi and Geely.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e1b/live/441b98f0-9f52-11f1-8ce1-5fe0b29a148d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'I didn't speak the Queen's English': Why people worry about their accents",
       "link": "https://www.bbc.co.uk/news/articles/c05q318501yo?at_medium=RSS&at_campaign=rss",
       "date": "23 Aug 2026",
@@ -225,15 +234,6 @@
       "date": "23 Aug 2026",
       "excerpt": "Industry body Energy UK says the current support for households most in need does not go far enough.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ea9/live/7085b770-9d97-11f1-9233-8716b68cda7b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "CrossCountry cancels 'almost all' UK services after power cut",
-      "link": "https://www.bbc.co.uk/news/articles/cy9w9y0lz5go?at_medium=RSS&at_campaign=rss",
-      "date": "23 Aug 2026",
-      "excerpt": "Customers say the disruption to virtually all UK CrossCountry services is the \"worst case scenario\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8766/live/9b0d2440-9ef2-11f1-aed4-af6fe65bfcd6.jpg"
     }
   ]
 }
