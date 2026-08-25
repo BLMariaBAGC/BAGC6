@@ -1,5 +1,5 @@
 {
-  "updated": "24 Aug 2026, 22:22 UTC",
+  "updated": "25 Aug 2026, 01:07 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -128,58 +128,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How can Africa’s mining champions become champions of development?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/21/how-can-africas-mining-champions-become-champions-of-development/",
-      "date": "21 Aug 2026",
-      "excerpt": "Africa’s mineral abundance has made mining a critical industry in much of the continent. But the models and structure of traditional firms often means that few of the benefits spill over into the wider economy. Is that now changing? Using c",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Why strong codes of conduct and supporting those who speak out maintains confidence in the public sector",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/20/why-strong-codes-of-conduct-and-supporting-those-who-speak-out-maintains-confidence-in-the-public-sector/",
-      "date": "20 Aug 2026",
-      "excerpt": "Employees often notice problems long before failures become publicly visible. What determines whether those concerns are acted upon is not just individual courage but the signals sent by bosses about whether they will be. Using data from Au",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "ChatGPT or Zoom – which broke the career ladder?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/17/chatgpt-or-zoom-which-broke-the-career-ladder/",
-      "date": "17 Aug 2026",
-      "excerpt": "Entry-level hiring has fallen sharply across white-collar work. An emerging explanation has been that generative AI is to blame. Drawing on their new study of hundreds of millions of hires and job adverts, Peter John Lambert and Yannick Sch",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure1.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "To cut plastic pollution, mandate recycled content and allow for trade and global circularity",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/13/to-cut-plastic-pollution-mandate-recycled-content-and-allow-for-trade-and-global-circularity/",
-      "date": "13 Aug 2026",
-      "excerpt": "The current oil crisis could accelerate the adoption of both renewable energy and recycled plastic as a hedge against future shocks. Cross-border trade in recyclable plastic and mandates for the quantity of recycled material that products m",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Can sovereign wealth funds break Indonesia’s risk-averse innovation cycle?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/12/can-sovereign-wealth-funds-break-indonesias-risk-averse-innovation-cycle/",
-      "date": "12 Aug 2026",
-      "excerpt": "Why do some countries invest less in policy innovation than others? Namira Samir argues that policy courage and financial capacity shape governments’ willingness to innovate. Using Indonesia as a case study, she explores how a sovereign wea",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How foreign ownership of sovereign debt affects inflation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/11/how-foreign-ownership-of-sovereign-debt-affects-inflation/",
-      "date": "11 Aug 2026",
-      "excerpt": "While central banks typically analyse inflation through domestic demand, supply and expectations, they should also treat the financial account of the balance of payments as part of the inflation process. Using the Portfolio Theory of Inflat",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "New 10p coin enters circulation - will you spot one?",
+      "link": "https://www.bbc.co.uk/news/articles/cn74lxrv110o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Aug 2026",
+      "excerpt": "The coin has been designed to feature King Charles III and a Scottish grouse close to extinction.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6769/live/d73e6830-9fbe-11f1-8648-8d7b77845e6d.jpg"
     },
     {
       "source": "BBC Business",
@@ -193,18 +148,27 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "'What you see is what you pay' - why some US restaurants are banning tips",
+      "link": "https://www.bbc.co.uk/news/articles/c4g36yze692o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Aug 2026",
+      "excerpt": "Tips are central to US dining culture but some eateries think that they are unfair.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2add/live/70cad1a0-9592-11f1-870d-5d08c49babb2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "US-Canada trade war escalates as Trump threatens tariff hike on autos after Carney vows to retaliate",
       "link": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Aug 2026",
+      "date": "25 Aug 2026",
       "excerpt": "Mark Carney accused Trump of wanting to \"destroy\" Canada's auto industry, and said he would only resume trade talks if the US comes with the \"right attitude\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/59dc/live/1a42fea0-9ff8-11f1-be19-71b839ccdc73.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e240/live/5807d190-a019-11f1-bdcd-87d2835ec878.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "70,000 social and affordable homes to be built across England as part of £39bn plan",
       "link": "https://www.bbc.co.uk/news/articles/cnvly73jrrdo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Aug 2026",
+      "date": "25 Aug 2026",
       "excerpt": "Funding has been granted to Greater Manchester, the West Midlands and West Yorkshire as well as £6bn for London.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ec1/live/bb8353b0-a006-11f1-8317-891a2cbab3c5.jpg"
     },
@@ -216,24 +180,6 @@
       "date": "24 Aug 2026",
       "excerpt": "Job site Adzuna said the number of graduate vacancies was the lowest since 2016",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7356/live/324f6630-9fb4-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Shein aims for almost $27bn valuation in stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/cdeweewjdxno?at_medium=RSS&at_campaign=rss",
-      "date": "24 Aug 2026",
-      "excerpt": "The fast-fashion giant's shares are due to start trading in Hong Kong on 1 September.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e462/live/c906d120-9f60-11f1-8564-6b99aa01bb8b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I didn't speak the Queen's English': Why people worry about their accents",
-      "link": "https://www.bbc.co.uk/news/articles/c05q318501yo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Aug 2026",
-      "excerpt": "A survey on attitudes towards accents suggests that so-called \"accent bias\" is still an issue in many workplaces.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c25/live/273206a0-9f86-11f1-82a0-8dbe1008b861.jpg"
     }
   ]
 }
