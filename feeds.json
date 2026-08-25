@@ -1,5 +1,5 @@
 {
-  "updated": "25 Aug 2026, 18:35 UTC",
+  "updated": "25 Aug 2026, 20:25 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "What Slows Innovation Down",
+      "link": "/2026/08/what-slows-innovation-down",
+      "date": "25 Aug 2026",
+      "excerpt": "In the August 24 edition of The Insider newsletter, managing editor Gretchen Gavett writes on how AI can actually deepen human bottlenecks, becoming a conversation steward, and more.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Do Your B2B Customers See the Value You Deliver?",
       "link": "/2026/08/do-your-b2b-customers-see-the-value-you-deliver",
       "date": "25 Aug 2026",
@@ -130,15 +139,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Global networking the ethical way: how to build trust and influence across cultures",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/25/global-networking-the-ethical-way-how-to-build-trust-and-influence-across-cultures/",
-      "date": "25 Aug 2026",
-      "excerpt": "Even when it is an important part of our jobs, many of us dislike networking. And doing it well is a skill. Not all networking creates the same kind of value, especially in global situations where success depends on understanding cultural d",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure-1.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How “trace hiring” can overcome the deluge of AI job applications",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/24/how-trace-hiring-can-overcome-the-deluge-of-ai-job-applications/",
       "date": "24 Aug 2026",
@@ -179,6 +179,15 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/13/to-cut-plastic-pollution-mandate-recycled-content-and-allow-for-trade-and-global-circularity/",
       "date": "13 Aug 2026",
       "excerpt": "The current oil crisis could accelerate the adoption of both renewable energy and recycled plastic as a hedge against future shocks. Cross-border trade in recyclable plastic and mandates for the quantity of recycled material that products m",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Can sovereign wealth funds break Indonesia’s risk-averse innovation cycle?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/12/can-sovereign-wealth-funds-break-indonesias-risk-averse-innovation-cycle/",
+      "date": "12 Aug 2026",
+      "excerpt": "Why do some countries invest less in policy innovation than others? Namira Samir argues that policy courage and financial capacity shape governments’ willingness to innovate. Using Indonesia as a case study, she explores how a sovereign wea",
       "image": ""
     },
     {
