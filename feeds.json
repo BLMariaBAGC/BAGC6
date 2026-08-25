@@ -1,5 +1,5 @@
 {
-  "updated": "25 Aug 2026, 02:55 UTC",
+  "updated": "25 Aug 2026, 04:35 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -130,6 +130,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How “trace hiring” can overcome the deluge of AI job applications",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/24/how-trace-hiring-can-overcome-the-deluge-of-ai-job-applications/",
+      "date": "24 Aug 2026",
+      "excerpt": "AI is overwhelming recruiters with a deluge of job applications. Marvin&nbsp;Starominski-Uehara argues that this problem demands a return to recruiters watching what people actually do. Here he presents a framework for making that visible a",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How can Africa’s mining champions become champions of development?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/21/how-can-africas-mining-champions-become-champions-of-development/",
       "date": "21 Aug 2026",
@@ -173,15 +182,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How foreign ownership of sovereign debt affects inflation",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/11/how-foreign-ownership-of-sovereign-debt-affects-inflation/",
-      "date": "11 Aug 2026",
-      "excerpt": "While central banks typically analyse inflation through domestic demand, supply and expectations, they should also treat the financial account of the balance of payments as part of the inflation process. Using the Portfolio Theory of Inflat",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Burnham refuses to rule out tax rises in autumn Budget",
@@ -211,10 +211,10 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
+      "title": "Iran says it is ready for what US calls 'greatest financial offensive ever'",
       "link": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Aug 2026",
-      "excerpt": "Scott Bessent says the US will sever all economic ties with the country and that any nation partnering with Iran financially will also be isolated.",
+      "date": "25 Aug 2026",
+      "excerpt": "The US calls its latest sanctions on Iran an \"economic D-Day\", but Tehran says it has a plan to counter them.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de12/live/09a94a20-9fe6-11f1-8ed1-41aaf1fca4f2.jpg"
     },
     {
