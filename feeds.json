@@ -1,5 +1,5 @@
 {
-  "updated": "25 Aug 2026, 10:29 UTC",
+  "updated": "25 Aug 2026, 12:41 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How People Without Formal Power Gain Influence",
+      "link": "/podcast/2026/08/how-people-without-formal-power-gain-influence",
+      "date": "25 Aug 2026",
+      "excerpt": "A conversation with author and entrepreneur Pamela Meyer on five ways executives can indirectly assert themselves.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The Right Way to Deliver Bad Earnings News",
       "link": "/2026/08/the-right-way-to-deliver-bad-earnings-news",
       "date": "24 Aug 2026",
@@ -116,15 +125,6 @@
       "link": "/2026/08/4-steps-to-transform-the-middle-office-with-ai",
       "date": "20 Aug 2026",
       "excerpt": "Most companies overlook the opportunities for AI to improve exception-heavy tasks such as contract reviews, risk management, and compliance.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Is Your Organizational Culture Too Nice?",
-      "link": "/2026/08/is-your-organizational-culture-too-nice",
-      "date": "19 Aug 2026",
-      "excerpt": "When leaders prioritize harmony over candor, they risk undermining performance.",
       "image": ""
     },
     {
@@ -211,7 +211,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "OnlyFans owner paid over $700m before his death",
+      "title": "OnlyFans owner was paid over $700m before his death",
       "link": "https://www.bbc.co.uk/news/articles/c8d3p2g2p05o?at_medium=RSS&at_campaign=rss",
       "date": "25 Aug 2026",
       "excerpt": "The site hosts a range of subscription-based content from cooking to fitness videos, but it is best known for pornography.",
