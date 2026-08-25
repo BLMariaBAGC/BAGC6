@@ -1,5 +1,5 @@
 {
-  "updated": "25 Aug 2026, 12:41 UTC",
+  "updated": "25 Aug 2026, 14:41 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,24 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260823094156.htm",
       "date": "24 Aug 2026",
       "excerpt": "Both too little and too much sleep may be linked to faster aging throughout the body. Researchers analyzing 23 biological aging clocks found the lowest aging levels among people sleeping about 6.4 to 7.8 hours per day. Short or long sleep w",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Depression may shut down the brain’s ability to make new neurons",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260823094135.htm",
+      "date": "25 Aug 2026",
+      "excerpt": "A major study found that adults with depression show disrupted production of new neurons in the hippocampus, potentially weakening the brain’s ability to separate new experiences from painful memories. The researchers also identified broad ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Shingles vaccine linked to 24% lower dementia risk",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260823015013.htm",
+      "date": "25 Aug 2026",
+      "excerpt": "Older adults who received the Shingrix shingles vaccine were 24% less likely to be diagnosed with dementia over four years in a study of more than 500,000 people. Researchers estimate the difference could amount to roughly one dementia case",
       "image": ""
     },
     {
@@ -56,21 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Ozempic does something unexpected to the brain’s hunger neurons",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260820002436.htm",
-      "date": "20 Aug 2026",
-      "excerpt": "Ozempic may work in the brain in almost the opposite way scientists expected, activating hunger-linked neurons that appear essential for sustaining fat loss. The surprising discovery in mice could reveal new targets for developing even more",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "AI-designed “intrabodies” could unlock new treatments for Alzheimer’s, Parkinson’s and MND",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260819041242.htm",
-      "date": "19 Aug 2026",
-      "excerpt": "Researchers have developed a new way to turn ordinary antibodies into tiny disease-fighting molecules that can work inside human cells, potentially opening new paths for treating Alzheimer’s, Parkinson’s, Huntington’s disease, and motor neu",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Do Your B2B Customers See the Value You Deliver?",
+      "link": "/2026/08/do-your-b2b-customers-see-the-value-you-deliver",
+      "date": "25 Aug 2026",
+      "excerpt": "Identify what you&#8217;re doing for customers, and embed that value quantification into the sales process.",
       "image": ""
     },
     {
@@ -119,13 +128,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "4 Steps to Transform the “Middle Office” with AI",
-      "link": "/2026/08/4-steps-to-transform-the-middle-office-with-ai",
-      "date": "20 Aug 2026",
-      "excerpt": "Most companies overlook the opportunities for AI to improve exception-heavy tasks such as contract reviews, risk management, and compliance.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Global networking the ethical way: how to build trust and influence across cultures",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/25/global-networking-the-ethical-way-how-to-build-trust-and-influence-across-cultures/",
+      "date": "25 Aug 2026",
+      "excerpt": "Even when it is an important part of our jobs, many of us dislike networking. And doing it well is a skill. Not all networking creates the same kind of value, especially in global situations where success depends on understanding cultural d",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure-1.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -173,15 +182,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Can sovereign wealth funds break Indonesia’s risk-averse innovation cycle?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/12/can-sovereign-wealth-funds-break-indonesias-risk-averse-innovation-cycle/",
-      "date": "12 Aug 2026",
-      "excerpt": "Why do some countries invest less in policy innovation than others? Namira Samir argues that policy courage and financial capacity shape governments’ willingness to innovate. Using Indonesia as a case study, she explores how a sovereign wea",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
@@ -223,7 +223,7 @@
       "title": "How Canada could hit back to hurt the US economy - and Trump",
       "link": "https://www.bbc.co.uk/news/articles/c05rj80ve56o?at_medium=RSS&at_campaign=rss",
       "date": "25 Aug 2026",
-      "excerpt": "What leverage does Canada, which sells about 70% of its goods to the US, actually have in this spiralling trade dispute?",
+      "excerpt": "What leverage does Canada, which sells about 70% of its exports to the US, actually have in this spiralling trade dispute?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b4c/live/df25db30-a01a-11f1-aed2-8d6da8d75094.jpg"
     },
     {
