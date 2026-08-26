@@ -1,5 +1,5 @@
 {
-  "updated": "26 Aug 2026, 03:01 UTC",
+  "updated": "26 Aug 2026, 04:36 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Why Tesla has been caught up in a massive car recall in China",
+      "link": "https://www.bbc.co.uk/news/articles/c9w4jx2rvgro?at_medium=RSS&at_campaign=rss",
+      "date": "26 Aug 2026",
+      "excerpt": "The country's biggest ever car recall affects more than four million vehicles made by Tesla, XPeng, Xiaomi and other firms.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/454c/live/fff5c310-a020-11f1-9a9c-a9fc171e125c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "AI gold rush draws crypto firms away from Bitcoin",
       "link": "https://www.bbc.co.uk/news/articles/c07ler8x9kpo?at_medium=RSS&at_campaign=rss",
       "date": "25 Aug 2026",
       "excerpt": "The price of Bitcoin has risen in August but is still far below its peak almost a year ago - and companies are refitting their mines.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c2d/live/88718a80-a07b-11f1-bfeb-dfb02ea642ef.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
-      "link": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Aug 2026",
-      "excerpt": "The US calls its latest sanctions on Iran an \"economic D-Day\", but Tehran says it has a plan to address them.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a97/live/68e58ff0-a057-11f1-b109-879e35c24276.jpg"
     },
     {
       "source": "BBC Business",
