@@ -1,5 +1,5 @@
 {
-  "updated": "26 Aug 2026, 12:46 UTC",
+  "updated": "26 Aug 2026, 14:41 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260823094156.htm",
       "date": "24 Aug 2026",
       "excerpt": "Both too little and too much sleep may be linked to faster aging throughout the body. Researchers analyzing 23 biological aging clocks found the lowest aging levels among people sleeping about 6.4 to 7.8 hours per day. Short or long sleep w",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Childhood trauma may leave a lasting “scar” inside brain cells",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260823094151.htm",
+      "date": "26 Aug 2026",
+      "excerpt": "Early-life stress may physically alter how DNA is packaged in the brain, leaving stress-related genes primed to activate more easily years later. In mice, researchers were able to block this effect, preventing the heightened anxiety and str",
       "image": ""
     },
     {
@@ -65,12 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Multilingual people may have brains up to 13 years younger",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260821012226.htm",
-      "date": "22 Aug 2026",
-      "excerpt": "People who speak several languages may have brains that age more slowly, with four-language speakers showing brains that appeared about 13 years younger than those of monolinguals. Starting earlier and becoming highly fluent were also linke",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Inside McDonald’s New Strategy",
+      "link": "/2026/08/inside-mcdonalds-new-strategy",
+      "date": "26 Aug 2026",
+      "excerpt": "An HBR Executive Live conversation with McDonald&#8217;s Chairman and CEO Chris Kempczinski.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: To Get Employees to Use a Benefit, Make Signing Up a Little Harder",
+      "link": "/2026/08/research-to-get-employees-to-use-a-benefit-make-signing-up-a-little-harder",
+      "date": "26 Aug 2026",
+      "excerpt": "Adding a small, meaningful amount of friction at sign-up can improve follow-through on behaviors that require ongoing effort.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "A Formula for Calculating Your Company’s Geopolitical Exposure",
+      "link": "/2026/08/a-formula-for-calculating-your-companys-geopolitical-exposure",
+      "date": "26 Aug 2026",
+      "excerpt": "The organizations that do the math will be several moves ahead.",
       "image": ""
     },
     {
@@ -116,24 +143,6 @@
       "link": "/2026/08/how-to-spot-a-toxic-leader-before-hiring-them",
       "date": "24 Aug 2026",
       "excerpt": "Six steps to help hiring managers evaluate candidates&#8217; interpersonal skills.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Missing Piece of Your Transformation Strategy",
-      "link": "/2026/08/the-missing-piece-of-your-transformation-strategy",
-      "date": "21 Aug 2026",
-      "excerpt": "Companies are increasingly dependent on a complex network of suppliers and other partners, but they aren&#8217;t significantly engaging them in their strategy work.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Science of Developing Creative Talent",
-      "link": "/2026/08/the-science-of-developing-creative-talent",
-      "date": "21 Aug 2026",
-      "excerpt": "An analysis of 15 years of data on more than 4,200 musicians and hundreds of labels points to three factors that help creative careers thrive.",
       "image": ""
     },
     {
@@ -211,29 +220,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "How parents can save on costs as the new school year starts",
+      "title": "Meta agrees to pay up to $17.1bn to settle social media case",
+      "link": "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Aug 2026",
+      "excerpt": "The deal has been reached during a California federal court trial over claims brought by 29 states.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa89/live/9a0f4c00-a152-11f1-aed2-8d6da8d75094.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Reform proposes £30 tax rebate for HMRC phone delays",
+      "link": "https://www.bbc.co.uk/news/articles/c804rd7leppo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Aug 2026",
+      "excerpt": "People on hold to HMRC for more than 30 minutes would get a tax credit under plans announced by Robert Jenrick.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d5b/live/551fe6a0-a147-11f1-a291-b542ee92de7c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Back to school: How parents can save on uniform costs",
       "link": "https://www.bbc.co.uk/news/articles/cedjqx6zdl0o?at_medium=RSS&at_campaign=rss",
       "date": "25 Aug 2026",
       "excerpt": "From baby banks to supermarket deals, there are many ways parents can ease the back-to-school burden.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41f1/live/60364e00-9fd8-11f1-b1e7-f78d213f1364.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Musk's rocket firm SpaceX to build $100bn launch facility",
-      "link": "https://www.bbc.co.uk/news/articles/cq5xel4v642o?at_medium=RSS&at_campaign=rss",
-      "date": "26 Aug 2026",
-      "excerpt": "It will be the firm's biggest site yet and aims to send rockets to space in 2029.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b26b/live/94e32ca0-a0ef-11f1-836e-f5015c2f83bc.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why Tesla has been caught up in a massive car recall in China",
-      "link": "https://www.bbc.co.uk/news/articles/c9w4jx2rvgro?at_medium=RSS&at_campaign=rss",
-      "date": "26 Aug 2026",
-      "excerpt": "The country's biggest ever car recall affects more than four million vehicles made by Tesla, XPeng, Xiaomi and other firms.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/454c/live/fff5c310-a020-11f1-9a9c-a9fc171e125c.jpg"
     },
     {
       "source": "BBC Business",
