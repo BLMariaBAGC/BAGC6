@@ -1,5 +1,5 @@
 {
-  "updated": "26 Aug 2026, 08:39 UTC",
+  "updated": "26 Aug 2026, 10:32 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Why we should all get used to high household energy bills",
+      "link": "https://www.bbc.co.uk/news/articles/c046peqrg9xo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Aug 2026",
+      "excerpt": "The government is under pressure to support billpayers when domestic energy prices predicted to rise further.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e325/live/86804f50-a11f-11f1-92eb-a9b3bbcf6f4a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "How parents can save on costs as the new school year starts",
       "link": "https://www.bbc.co.uk/news/articles/cedjqx6zdl0o?at_medium=RSS&at_campaign=rss",
       "date": "25 Aug 2026",
@@ -225,15 +234,6 @@
       "date": "26 Aug 2026",
       "excerpt": "The country's biggest ever car recall affects more than four million vehicles made by Tesla, XPeng, Xiaomi and other firms.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/454c/live/fff5c310-a020-11f1-9a9c-a9fc171e125c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI gold rush draws crypto firms away from Bitcoin",
-      "link": "https://www.bbc.co.uk/news/articles/c07ler8x9kpo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Aug 2026",
-      "excerpt": "The price of Bitcoin has risen in August but is still far below its peak almost a year ago - and companies are refitting their mines.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c2d/live/88718a80-a07b-11f1-bfeb-dfb02ea642ef.png"
     },
     {
       "source": "BBC Business",
