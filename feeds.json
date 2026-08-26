@@ -1,5 +1,5 @@
 {
-  "updated": "26 Aug 2026, 01:09 UTC",
+  "updated": "26 Aug 2026, 03:01 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260823094156.htm",
       "date": "24 Aug 2026",
       "excerpt": "Both too little and too much sleep may be linked to faster aging throughout the body. Researchers analyzing 23 biological aging clocks found the lowest aging levels among people sleeping about 6.4 to 7.8 hours per day. Short or long sleep w",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your brain may not actually “make” decisions",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260823094148.htm",
+      "date": "25 Aug 2026",
+      "excerpt": "A neuroscientist is challenging the idea that the brain contains a central system that actually “makes” our decisions. What we experience as choosing may instead emerge from the continuous interaction of perception, movement, the body, and ",
       "image": ""
     },
     {
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260821012226.htm",
       "date": "22 Aug 2026",
       "excerpt": "People who speak several languages may have brains that age more slowly, with four-language speakers showing brains that appeared about 13 years younger than those of monolinguals. Starting earlier and becoming highly fluent were also linke",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Schizophrenia’s lost brain connections follow a surprising pattern",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260820002443.htm",
-      "date": "20 Aug 2026",
-      "excerpt": "Specialized brain scans reveal that schizophrenia is linked to widespread loss of the synapses that connect brain cells, with the left side of the brain hit especially hard. The damage follows a surprisingly organized pattern tied to the br",
       "image": ""
     },
     {
@@ -139,15 +139,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Global networking the ethical way: how to build trust and influence across cultures",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/25/global-networking-the-ethical-way-how-to-build-trust-and-influence-across-cultures/",
-      "date": "25 Aug 2026",
-      "excerpt": "Even when it is an important part of our jobs, many of us dislike networking. And doing it well is a skill. Not all networking creates the same kind of value, especially in global situations where success depends on understanding cultural d",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure-1.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How “trace hiring” can overcome the deluge of AI job applications",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/24/how-trace-hiring-can-overcome-the-deluge-of-ai-job-applications/",
       "date": "24 Aug 2026",
@@ -191,6 +182,15 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Can sovereign wealth funds break Indonesia’s risk-averse innovation cycle?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/12/can-sovereign-wealth-funds-break-indonesias-risk-averse-innovation-cycle/",
+      "date": "12 Aug 2026",
+      "excerpt": "Why do some countries invest less in policy innovation than others? Namira Samir argues that policy courage and financial capacity shape governments’ willingness to innovate. Using Indonesia as a case study, she explores how a sovereign wea",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Winter energy prices expected to rise to three-year high",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Musk's rocket firm SpaceX to build $100bn launch facility",
+      "link": "https://www.bbc.co.uk/news/articles/cq5xel4v642o?at_medium=RSS&at_campaign=rss",
+      "date": "26 Aug 2026",
+      "excerpt": "It will be the firm's biggest site yet and aims to send rockets to space in 2029.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b26b/live/94e32ca0-a0ef-11f1-836e-f5015c2f83bc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "AI gold rush draws crypto firms away from Bitcoin",
       "link": "https://www.bbc.co.uk/news/articles/c07ler8x9kpo?at_medium=RSS&at_campaign=rss",
       "date": "25 Aug 2026",
@@ -225,15 +234,6 @@
       "date": "25 Aug 2026",
       "excerpt": "The US calls its latest sanctions on Iran an \"economic D-Day\", but Tehran says it has a plan to address them.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a97/live/68e58ff0-a057-11f1-b109-879e35c24276.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Who does Iran trade with and what could Trump's 'economic D-Day' mean?",
-      "link": "https://www.bbc.co.uk/news/articles/cqxvj1zd4qjo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Aug 2026",
-      "excerpt": "Iran is no stranger to US sanctions and has developed deep economic ties with several countries.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6358/live/a03a3710-a09f-11f1-84a9-276d1a8e5a22.jpg"
     },
     {
       "source": "BBC Business",
