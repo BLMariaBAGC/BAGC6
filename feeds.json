@@ -1,5 +1,5 @@
 {
-  "updated": "25 Aug 2026, 22:23 UTC",
+  "updated": "26 Aug 2026, 01:09 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Global networking the ethical way: how to build trust and influence across cultures",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/25/global-networking-the-ethical-way-how-to-build-trust-and-influence-across-cultures/",
+      "date": "25 Aug 2026",
+      "excerpt": "Even when it is an important part of our jobs, many of us dislike networking. And doing it well is a skill. Not all networking creates the same kind of value, especially in global situations where success depends on understanding cultural d",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How “trace hiring” can overcome the deluge of AI job applications",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/24/how-trace-hiring-can-overcome-the-deluge-of-ai-job-applications/",
       "date": "24 Aug 2026",
@@ -182,13 +191,31 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Can sovereign wealth funds break Indonesia’s risk-averse innovation cycle?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/12/can-sovereign-wealth-funds-break-indonesias-risk-averse-innovation-cycle/",
-      "date": "12 Aug 2026",
-      "excerpt": "Why do some countries invest less in policy innovation than others? Namira Samir argues that policy courage and financial capacity shape governments’ willingness to innovate. Using Indonesia as a case study, she explores how a sovereign wea",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Winter energy prices expected to rise to three-year high",
+      "link": "https://www.bbc.co.uk/news/articles/cqjkl1xvgw5o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Aug 2026",
+      "excerpt": "Millions of households will be affected by an increase in the energy price cap by regulator Ofgem.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b19a/live/2109aba0-a091-11f1-b11c-1bea5fc925f5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Back to school: How to save on uniform costs",
+      "link": "https://www.bbc.co.uk/news/articles/cedjqx6zdl0o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Aug 2026",
+      "excerpt": "From baby banks to supermarket deals, there are many ways parents can ease the back-to-school burden.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41f1/live/60364e00-9fd8-11f1-b1e7-f78d213f1364.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "AI gold rush draws crypto firms away from Bitcoin",
+      "link": "https://www.bbc.co.uk/news/articles/c07ler8x9kpo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Aug 2026",
+      "excerpt": "The price of Bitcoin has risen in August but is still far below its peak almost a year ago - and companies are refitting their mines.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c2d/live/88718a80-a07b-11f1-bfeb-dfb02ea642ef.png"
     },
     {
       "source": "BBC Business",
@@ -211,38 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Burnham refuses to rule out tax rises in autumn Budget",
-      "link": "https://www.bbc.co.uk/news/articles/cj06818jgzlo?at_medium=RSS&at_campaign=rss",
+      "title": "Firms scramble for battery power in Spain and Portugal",
+      "link": "https://www.bbc.co.uk/news/articles/cjrg10j721jo?at_medium=RSS&at_campaign=rss",
       "date": "25 Aug 2026",
-      "excerpt": "Experts have warned that he and Chancellor John Healey will have little room to manoeuvre in their first Budget.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3751/live/52c34ac0-a00f-11f1-a0ad-6fe9db05b013.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "New 10p coin enters circulation - will you spot one?",
-      "link": "https://www.bbc.co.uk/news/articles/cn74lxrv110o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Aug 2026",
-      "excerpt": "The coin has been designed to feature King Charles III and a Scottish grouse close to extinction.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6769/live/d73e6830-9fbe-11f1-8648-8d7b77845e6d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'What you see is what you pay' - why some US restaurants are banning tips",
-      "link": "https://www.bbc.co.uk/news/articles/c4g36yze692o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Aug 2026",
-      "excerpt": "Tips are central to US dining culture but some eateries think that they are unfair.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2add/live/70cad1a0-9592-11f1-870d-5d08c49babb2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "OnlyFans owner was paid over $700m before his death",
-      "link": "https://www.bbc.co.uk/news/articles/c8d3p2g2p05o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Aug 2026",
-      "excerpt": "The site hosts a range of subscription-based content from cooking to fitness videos, but it is best known for pornography.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e7a/live/91d81fb0-a064-11f1-ab55-41a63a22b55d.jpg"
+      "excerpt": "After last year's massive power failure Spanish and Portuguese firms are buying battery back ups.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee02/live/d89808b0-a056-11f1-b109-879e35c24276.jpg"
     }
   ]
 }
