@@ -1,5 +1,5 @@
 {
-  "updated": "26 Aug 2026, 19:43 UTC",
+  "updated": "26 Aug 2026, 22:42 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
+      "link": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
+      "date": "26 Aug 2026",
+      "excerpt": "OpenAI's cyber agents banded together to perform a hack during a security test.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f095/live/1bbd32b0-a191-11f1-9e49-ab6cded816f9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Nvidia revenue doubles on continued AI demand",
+      "link": "https://www.bbc.co.uk/news/articles/ce871n7lyvlo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Aug 2026",
+      "excerpt": "Chipmaker's $96bn quarter beat forecasts as demand for AI hardware continues to accelerate.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7234/live/2da1a9f0-a193-11f1-aed2-8d6da8d75094.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Household energy bills to hit three-year high as Ofgem announces 4% rise from October",
       "link": "https://www.bbc.co.uk/news/articles/cqjkl1xvgw5o?at_medium=RSS&at_campaign=rss",
       "date": "26 Aug 2026",
@@ -225,24 +243,6 @@
       "date": "26 Aug 2026",
       "excerpt": "The deal has been reached during a California federal court trial over claims brought by US states.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa89/live/9a0f4c00-a152-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Reform proposes £30 tax rebate for HMRC phone delays",
-      "link": "https://www.bbc.co.uk/news/articles/c804rd7leppo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Aug 2026",
-      "excerpt": "People on hold to HMRC for more than 30 minutes would get a tax credit under plans announced by Robert Jenrick.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d5b/live/551fe6a0-a147-11f1-a291-b542ee92de7c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Back to school: How parents can save on uniform costs",
-      "link": "https://www.bbc.co.uk/news/articles/cedjqx6zdl0o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Aug 2026",
-      "excerpt": "From baby banks to supermarket deals, there are many ways parents can ease the back-to-school burden.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41f1/live/60364e00-9fd8-11f1-b1e7-f78d213f1364.jpg"
     },
     {
       "source": "BBC Business",
