@@ -1,6 +1,24 @@
 {
-  "updated": "27 Aug 2026, 07:19 UTC",
+  "updated": "27 Aug 2026, 18:49 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Smart nanoparticles light up brain cancer and destroy what surgery misses",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260826060617.htm",
+      "date": "27 Aug 2026",
+      "excerpt": "Scientists created smart nanoparticles that can both illuminate hidden glioblastoma cells during surgery and destroy microscopic cancer left behind afterward. In mice, the treatment prevented recurrence and led to 100% survival at 60 days, ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a brain “brake” that can shut down chronic pain",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260826055442.htm",
+      "date": "27 Aug 2026",
+      "excerpt": "Researchers discovered a brain-based “brake” that can shut down chronic nerve pain in mice by calming an overactive pain circuit. Targeting this system more precisely could one day lead to powerful pain relief without affecting opioid recep",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This common vitamin was linked to 13% better cognitive scores",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260822015138.htm",
-      "date": "23 Aug 2026",
-      "excerpt": "Older adults with mild cognitive impairment and sleep problems who took at least 5,000 IU of vitamin D daily scored more than 13% higher on a cognitive test than those taking none. The preliminary findings suggest vitamin D could be worth s",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A major Alzheimer’s risk gene may shrink brain cells years before symptoms",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260821012234.htm",
-      "date": "23 Aug 2026",
-      "excerpt": "Researchers have uncovered a possible reason why the Alzheimer’s risk gene APOE4 can disrupt the brain long before memory problems begin. In mice, APOE4 increased a protein called Nell2, shrinking neurons and making memory circuits unusuall",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Our Favorite Management Tips on Learning from Failure",
+      "link": "/2026/08/our-favorite-management-tips-on-learning-from-failure",
+      "date": "27 Aug 2026",
+      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
       "image": ""
     },
     {
@@ -137,15 +146,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Spot a Toxic Leader—Before Hiring Them",
-      "link": "/2026/08/how-to-spot-a-toxic-leader-before-hiring-them",
-      "date": "24 Aug 2026",
-      "excerpt": "Six steps to help hiring managers evaluate candidates&#8217; interpersonal skills.",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "Global networking the ethical way: how to build trust and influence across cultures",
@@ -202,47 +202,47 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Meta's $18bn settlement may hasten reckoning for social media on child safety",
-      "link": "https://www.bbc.co.uk/news/articles/clyq4gxwe7go?at_medium=RSS&at_campaign=rss",
-      "date": "26 Aug 2026",
-      "excerpt": "Perhaps our days of doomscrolling are numbered, writes the BBC's technology editor Zoe Kleinman.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e8a1/live/dac60130-a193-11f1-9e49-ab6cded816f9.jpg"
+      "title": "Hackers steal data from millions of airport customers",
+      "link": "https://www.bbc.co.uk/news/articles/c7v4353rry7o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Aug 2026",
+      "excerpt": "About 8.7 million customers had their data accessed and a ransom was demanded.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f25f/live/59771ca0-a214-11f1-9090-b51af3a01fc2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What the Meta settlement means for the UK, and other questions after the deal",
+      "link": "https://www.bbc.co.uk/news/articles/cg49q4xydq0o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Aug 2026",
+      "excerpt": "Other social media firms are yet to respond, while the debate from campaigners is far from over.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3471/live/51e2ea60-a213-11f1-9090-b51af3a01fc2.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Plug-in solar panels are coming to a shop near you - here's what to know",
       "link": "https://www.bbc.co.uk/news/articles/c4g3y6398nwo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Aug 2026",
+      "date": "27 Aug 2026",
       "excerpt": "The UK government claimes panels could help homes \"significantly cut\" energy bills.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bb3/live/fda8dc80-a086-11f1-bfeb-dfb02ea642ef.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Experts' five tips to make a rented property feel like home",
+      "title": "One in eight young people still out of work or education ahead of major review",
+      "link": "https://www.bbc.co.uk/news/articles/c93epy2yev0o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Aug 2026",
+      "excerpt": "Just under one million young people in the UK are not in education, employment or training (Neet).",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/75c9/live/8d6a6890-a215-11f1-9090-b51af3a01fc2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "From lighting to vintage gems: Five ways to spruce up your rental",
       "link": "https://www.bbc.co.uk/news/articles/c3w0972z5d8o?at_medium=RSS&at_campaign=rss",
       "date": "26 Aug 2026",
       "excerpt": "Experts share tips on how to make a flat or house feel like your own without annoying the landlord.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ae4/live/33456200-a140-11f1-9311-09d4e1fc9016.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
-      "link": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
-      "date": "26 Aug 2026",
-      "excerpt": "OpenAI's cyber agents banded together to perform a hack during a security test.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f095/live/1bbd32b0-a191-11f1-9e49-ab6cded816f9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Nvidia revenue doubles on continued AI demand",
-      "link": "https://www.bbc.co.uk/news/articles/ce871n7lyvlo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Aug 2026",
-      "excerpt": "Chipmaker's $96bn quarter beat forecasts as demand for AI hardware continues to accelerate.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7234/live/2da1a9f0-a193-11f1-aed2-8d6da8d75094.jpg"
     },
     {
       "source": "BBC Business",
