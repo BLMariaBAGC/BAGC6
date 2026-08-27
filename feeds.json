@@ -1,5 +1,5 @@
 {
-  "updated": "26 Aug 2026, 22:42 UTC",
+  "updated": "27 Aug 2026, 07:19 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Meta's $18bn settlement may hasten reckoning for social media on child safety",
+      "link": "https://www.bbc.co.uk/news/articles/clyq4gxwe7go?at_medium=RSS&at_campaign=rss",
+      "date": "26 Aug 2026",
+      "excerpt": "Perhaps our days of doomscrolling are numbered, writes the BBC's technology editor Zoe Kleinman.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e8a1/live/dac60130-a193-11f1-9e49-ab6cded816f9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Plug-in solar panels are coming to a shop near you - here's what to know",
+      "link": "https://www.bbc.co.uk/news/articles/c4g3y6398nwo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Aug 2026",
+      "excerpt": "The UK government claimes panels could help homes \"significantly cut\" energy bills.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bb3/live/fda8dc80-a086-11f1-bfeb-dfb02ea642ef.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Experts' five tips to make a rented property feel like home",
+      "link": "https://www.bbc.co.uk/news/articles/c3w0972z5d8o?at_medium=RSS&at_campaign=rss",
+      "date": "26 Aug 2026",
+      "excerpt": "Experts share tips on how to make a flat or house feel like your own without annoying the landlord.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ae4/live/33456200-a140-11f1-9311-09d4e1fc9016.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
       "link": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
       "date": "26 Aug 2026",
@@ -220,38 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Household energy bills to hit three-year high as Ofgem announces 4% rise from October",
-      "link": "https://www.bbc.co.uk/news/articles/cqjkl1xvgw5o?at_medium=RSS&at_campaign=rss",
+      "title": "How Dolly Parton's business savvy helped her succeed far beyond the charts",
+      "link": "https://www.bbc.co.uk/news/articles/c0klj72p66lo?at_medium=RSS&at_campaign=rss",
       "date": "26 Aug 2026",
-      "excerpt": "A household using a typical amount of gas and electricity will pay £60 a year more, regulator Ofgem says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2272/live/4a74ec60-a123-11f1-b109-879e35c24276.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why high energy bills look like they are here to stay",
-      "link": "https://www.bbc.co.uk/news/articles/c046peqrg9xo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Aug 2026",
-      "excerpt": "The government is under pressure to support billpayers when domestic energy prices predicted to rise further.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28bb/live/486f7610-a13c-11f1-a291-b542ee92de7c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Meta to pay up to $18bn to settle claims its platforms harm children",
-      "link": "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Aug 2026",
-      "excerpt": "The deal has been reached during a California federal court trial over claims brought by US states.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa89/live/9a0f4c00-a152-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Firms scramble for battery power in Spain and Portugal",
-      "link": "https://www.bbc.co.uk/news/articles/cjrg10j721jo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Aug 2026",
-      "excerpt": "After last year's massive power failure Spanish and Portuguese firms are buying battery back ups.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee02/live/d89808b0-a056-11f1-b109-879e35c24276.jpg"
+      "excerpt": "While country music and films brought her fame, her entrepreneurial zeal brought her fortune.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40b0/live/6a960df0-a13a-11f1-9d37-9b3d56456ba1.jpg"
     }
   ]
 }
