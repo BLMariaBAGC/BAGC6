@@ -1,6 +1,15 @@
 {
-  "updated": "28 Aug 2026, 04:01 UTC",
+  "updated": "28 Aug 2026, 18:11 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Researchers followed 400,000 kids for 20 years and found a lasting pre-K advantage",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260828005213.htm",
+      "date": "28 Aug 2026",
+      "excerpt": "A 20-year study of 400,000 students found that children who attended public school pre-K earned better grades and test scores through high school than those in other childcare settings. Better-trained teachers and earlier exposure to struct",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Quitting alcohol may prime the brain for relapse",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260822015148.htm",
-      "date": "22 Aug 2026",
-      "excerpt": "Mice that developed compulsive drinking after alcohol abstinence showed more than double the activity in a brain region associated with stress and addiction. Because the signal appeared before they drank again, researchers think it could ev",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How McDonald’s Is Adapting to a Changing Economy",
+      "link": "/2026/08/how-mcdonalds-is-adapting-to-a-changing-economy",
+      "date": "28 Aug 2026",
+      "excerpt": "McDonald&#8217;s CEO &#38; Chairman Chris Kempczinski on implementing a new strategy at a company with 63 million global daily customers.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "AI Transformation Requires Redesigning Work, Not Cutting Roles",
+      "link": "/2026/08/ai-transformation-requires-redesigning-work-not-cutting-roles",
+      "date": "28 Aug 2026",
+      "excerpt": "If leaders default to headcount reduction, the result will be an organization that is smaller but not smarter.",
       "image": ""
     },
     {
@@ -128,21 +146,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How People Without Formal Power Gain Influence",
-      "link": "/podcast/2026/08/how-people-without-formal-power-gain-influence",
-      "date": "25 Aug 2026",
-      "excerpt": "A conversation with author and entrepreneur Pamela Meyer on five ways executives can indirectly assert themselves.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Right Way to Deliver Bad Earnings News",
-      "link": "/2026/08/the-right-way-to-deliver-bad-earnings-news",
-      "date": "24 Aug 2026",
-      "excerpt": "IBM&#8217;s letter to investors about second quarter earnings shows the challenges of timing disclosure&#8212;and offers five lessons for leaders.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What an early environmental regulation can teach us about the banking risks of today’s green transition",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/27/what-an-early-environmental-regulation-can-teach-us-about-the-banking-risks-of-todays-green-transition/",
+      "date": "27 Aug 2026",
+      "excerpt": "Climate policy is increasingly becoming banking policy.&nbsp;But when environmental regulation changes the risks facing borrowers, do banks simply lend less&nbsp;–&nbsp;or do they change how they create and&nbsp;allocate&nbsp;liquidity?&nbs",
       "image": ""
     },
     {
@@ -191,31 +200,22 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure1.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "To cut plastic pollution, mandate recycled content and allow for trade and global circularity",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/13/to-cut-plastic-pollution-mandate-recycled-content-and-allow-for-trade-and-global-circularity/",
-      "date": "13 Aug 2026",
-      "excerpt": "The current oil crisis could accelerate the adoption of both renewable energy and recycled plastic as a hedge against future shocks. Cross-border trade in recyclable plastic and mandates for the quantity of recycled material that products m",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I was spending £700 a month: How I beat my late-night shopping addiction",
+      "link": "https://www.bbc.co.uk/news/articles/czxqk1gwxn7o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Aug 2026",
+      "excerpt": "Younger generations are thought to be more susceptible to impulse spending. The BBC looks at ways to get it under control.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3444/live/d1483030-8ff3-11f1-a10e-47119dd4425c.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Military veterans told they owe thousands of pounds over clerical error",
-      "link": "https://www.bbc.co.uk/news/articles/c5y4512mlxdo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Aug 2026",
-      "excerpt": "Hundreds of former UK service personnel have had their pensions cut after being overpaid.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6743/live/e927f850-a15c-11f1-a291-b542ee92de7c.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Time is running out for cyber security, warn top tech firms",
-      "link": "https://www.bbc.co.uk/news/articles/cwyz11475l1o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Aug 2026",
-      "excerpt": "The letter warns cyber-attacks which use AI will become more sophisticated in a matter of months.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76e0/live/18ba43f0-a236-11f1-80a2-67c89a95284e.jpg"
+      "title": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
+      "link": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Aug 2026",
+      "excerpt": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5899/live/39824e70-a2fe-11f1-80b3-bf1a174ac193.jpg"
     },
     {
       "source": "BBC Business",
@@ -224,25 +224,25 @@
       "link": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
       "date": "28 Aug 2026",
       "excerpt": "The AI startup has been at loggerheads with the Pentagon over the use of AI by the US military.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f75a/live/b47df1f0-a28c-11f1-8826-af7227376736.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a72/live/1e9bf7b0-a299-11f1-b81f-99addc8c0403.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Selena Gomez pushes back against 'absurd' fraud claims",
+      "title": "Selena Gomez pushes back against 'frivolous' fraud claims",
       "link": "https://www.bbc.co.uk/news/articles/cz0z4k28804o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Aug 2026",
+      "date": "28 Aug 2026",
       "excerpt": "Selena Gomez's lawyer says the fraud case is \"absurd\" - but it is far from unusual for celebrity family business relationships to go wrong.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b96e/live/2b586050-a20e-11f1-9090-b51af3a01fc2.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "I was spending £700 a month: How I beat my late-night shopping addiction",
-      "link": "https://www.bbc.co.uk/news/articles/czxqk1gwxn7o?at_medium=RSS&at_campaign=rss",
+      "title": "Military veterans told they owe thousands of pounds over clerical error",
+      "link": "https://www.bbc.co.uk/news/articles/c5y4512mlxdo?at_medium=RSS&at_campaign=rss",
       "date": "27 Aug 2026",
-      "excerpt": "Younger generations are thought to be more susceptible to impulse spending. The BBC looks at ways to get it under control.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3444/live/d1483030-8ff3-11f1-a10e-47119dd4425c.jpg"
+      "excerpt": "Hundreds of former UK service personnel have had their pensions cut after being overpaid.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a26/live/e0fbfd20-a2bf-11f1-a291-b542ee92de7c.png"
     },
     {
       "source": "BBC Business",
