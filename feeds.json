@@ -1,6 +1,15 @@
 {
-  "updated": "29 Aug 2026, 02:42 UTC",
+  "updated": "29 Aug 2026, 10:46 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your sleep may be hiding an early clue to Alzheimer’s",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260828005218.htm",
+      "date": "28 Aug 2026",
+      "excerpt": "Frequent micro-awakenings during sleep were linked to higher genetic risk for Alzheimer’s in healthy middle-aged adults who had no symptoms. The discovery raises the possibility that subtle changes during sleep could offer an early warning ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260823094135.htm",
       "date": "25 Aug 2026",
       "excerpt": "A major study found that adults with depression show disrupted production of new neurons in the hippocampus, potentially weakening the brain’s ability to separate new experiences from painful memories. The researchers also identified broad ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Shingles vaccine linked to 24% lower dementia risk",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260823015013.htm",
-      "date": "25 Aug 2026",
-      "excerpt": "Older adults who received the Shingrix shingles vaccine were 24% less likely to be diagnosed with dementia over four years in a study of more than 500,000 people. Researchers estimate the difference could amount to roughly one dementia case",
       "image": ""
     },
     {
@@ -202,11 +202,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump says US has 'historic' deal to control 65bn barrels of Venezuela's oil",
+      "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
       "link": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
       "date": "29 Aug 2026",
-      "excerpt": "Venezuelan interim President Delcy Rodriguez says the deal will help revive her country's economy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0053/live/a9f70e80-a339-11f1-a0c7-f9810b5aa403.jpg"
+      "excerpt": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6691/live/b40e7f80-a356-11f1-a291-b542ee92de7c.jpg"
     },
     {
       "source": "BBC Business",
