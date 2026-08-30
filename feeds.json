@@ -1,5 +1,5 @@
 {
-  "updated": "30 Aug 2026, 03:39 UTC",
+  "updated": "30 Aug 2026, 09:43 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,20 +202,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
+      "title": "Trump hails 'historic' deal to control 65 billion barrels of Venezuelan oil",
       "link": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Aug 2026",
+      "date": "30 Aug 2026",
       "excerpt": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6691/live/b40e7f80-a356-11f1-a291-b542ee92de7c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Wife of man who died after turbulence sues airline",
-      "link": "https://www.bbc.co.uk/news/articles/cqlwrpey1epo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Aug 2026",
-      "excerpt": "Lawyers for Linda Kitchen say her husband was \"fatally injured\" after the flight dropped 6,000 ft.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9fd5/live/2730a430-a301-11f1-a291-b542ee92de7c.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,6 +216,15 @@
       "date": "28 Aug 2026",
       "excerpt": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5899/live/39824e70-a2fe-11f1-80b3-bf1a174ac193.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Wife of man who died after turbulence sues airline",
+      "link": "https://www.bbc.co.uk/news/articles/cqlwrpey1epo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Aug 2026",
+      "excerpt": "Lawyers for Linda Kitchen say her husband was \"fatally injured\" after the flight dropped 6,000 ft.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9fd5/live/2730a430-a301-11f1-a291-b542ee92de7c.jpg"
     },
     {
       "source": "BBC Business",
