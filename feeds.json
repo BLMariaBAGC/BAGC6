@@ -1,6 +1,15 @@
 {
-  "updated": "30 Aug 2026, 09:43 UTC",
+  "updated": "30 Aug 2026, 14:40 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "HEPA air purifiers may boost brain function after just one month",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260830000016.htm",
+      "date": "30 Aug 2026",
+      "excerpt": "Adults aged 40 and older performed about 12% faster on a test of executive function after using a HEPA air purifier at home for one month. The findings suggest that cleaner indoor air could offer a simple way to help protect the brain from ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260823094148.htm",
       "date": "25 Aug 2026",
       "excerpt": "A neuroscientist is challenging the idea that the brain contains a central system that actually “makes” our decisions. What we experience as choosing may instead emerge from the continuous interaction of perception, movement, the body, and ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Depression may shut down the brain’s ability to make new neurons",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260823094135.htm",
-      "date": "25 Aug 2026",
-      "excerpt": "A major study found that adults with depression show disrupted production of new neurons in the hippocampus, potentially weakening the brain’s ability to separate new experiences from painful memories. The researchers also identified broad ",
       "image": ""
     },
     {
