@@ -1,5 +1,5 @@
 {
-  "updated": "31 Aug 2026, 10:31 UTC",
+  "updated": "31 Aug 2026, 18:45 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260830000016.htm",
       "date": "30 Aug 2026",
       "excerpt": "Adults aged 40 and older performed about 12% faster on a test of executive function after using a HEPA air purifier at home for one month. The findings suggest that cleaner indoor air could offer a simple way to help protect the brain from ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists challenge a 70-year-old “lizard brain” myth",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260829235958.htm",
+      "date": "31 Aug 2026",
+      "excerpt": "A long-standing picture of brain evolution as newer, rational layers stacked on top of an ancient “lizard brain” may be deeply misleading. Researchers found that evolution instead appears to balance two competing styles of brain wiring, exp",
       "image": ""
     },
     {
@@ -65,12 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your brain may not actually “make” decisions",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260823094148.htm",
-      "date": "25 Aug 2026",
-      "excerpt": "A neuroscientist is challenging the idea that the brain contains a central system that actually “makes” our decisions. What we experience as choosing may instead emerge from the continuous interaction of perception, movement, the body, and ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How Japan’s Oldest Companies Navigate Uncertainty",
+      "link": "/2026/08/how-japans-oldest-companies-navigate-uncertainty",
+      "date": "31 Aug 2026",
+      "excerpt": "Five practices legacy companies in Japan have followed to build resilience amid volatility.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Store Isn’t Dead—but the Merchant Model Is",
+      "link": "/2026/08/the-store-isnt-dead-but-the-merchant-model-is",
+      "date": "31 Aug 2026",
+      "excerpt": "Retailers need to stop owning so much inventory risk and start operating more like platforms.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "You Need to Understand Your Employees’ Caregiving Responsibilities",
+      "link": "/2026/08/you-need-to-understand-your-employees-caregiving-responsibilities",
+      "date": "31 Aug 2026",
+      "excerpt": "Awareness can lead to more well-being, productivity, and enjoyment at work, higher commitment and retention, and even more rewarding and meaningful family lives.",
       "image": ""
     },
     {
@@ -116,33 +143,6 @@
       "link": "/2026/08/research-to-get-employees-to-use-a-benefit-make-signing-up-a-little-harder",
       "date": "26 Aug 2026",
       "excerpt": "Adding a small, meaningful amount of friction at sign-up can improve follow-through on behaviors that require ongoing effort.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "A Formula for Calculating Your Company’s Geopolitical Exposure",
-      "link": "/2026/08/a-formula-for-calculating-your-companys-geopolitical-exposure",
-      "date": "26 Aug 2026",
-      "excerpt": "The organizations that do the math will be several moves ahead.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Slows Innovation Down",
-      "link": "/2026/08/what-slows-innovation-down",
-      "date": "25 Aug 2026",
-      "excerpt": "In the August 24 edition of The Insider newsletter, managing editor Gretchen Gavett writes on how AI can actually deepen human bottlenecks, becoming a conversation steward, and more.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Do Your B2B Customers See the Value You Deliver?",
-      "link": "/2026/08/do-your-b2b-customers-see-the-value-you-deliver",
-      "date": "25 Aug 2026",
-      "excerpt": "Identify what you&#8217;re doing for customers, and embed that value quantification into the sales process.",
       "image": ""
     },
     {
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "AI could cause global economic downturn, Andrew Bailey warns G20",
+      "link": "https://www.bbc.co.uk/news/articles/c99dym3prl1o?at_medium=RSS&at_campaign=rss",
+      "date": "31 Aug 2026",
+      "excerpt": "The governor of the Bank of England warned of AI's “volatility” caused by energy shocks from the US-Iran war.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b34/live/537541c0-a556-11f1-aed2-8d6da8d75094.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'My parents won't lend me £10k but helped my brother': When families play financial favourites",
       "link": "https://www.bbc.co.uk/news/articles/cx279dml00ro?at_medium=RSS&at_campaign=rss",
       "date": "30 Aug 2026",
@@ -243,15 +252,6 @@
       "date": "28 Aug 2026",
       "excerpt": "Lawyers for Linda Kitchen say her husband was \"fatally injured\" after the flight dropped 6,000 ft.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9fd5/live/2730a430-a301-11f1-a291-b542ee92de7c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I was spending £700 a month: How I beat my late-night shopping addiction",
-      "link": "https://www.bbc.co.uk/news/articles/czxqk1gwxn7o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Aug 2026",
-      "excerpt": "Younger generations are thought to be more susceptible to impulse spending. The BBC looks at ways to get it under control.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3444/live/d1483030-8ff3-11f1-a10e-47119dd4425c.jpg"
     }
   ]
 }
