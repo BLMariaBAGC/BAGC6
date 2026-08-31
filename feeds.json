@@ -1,5 +1,5 @@
 {
-  "updated": "31 Aug 2026, 18:45 UTC",
+  "updated": "31 Aug 2026, 23:36 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Designing Experiences That Drive Results",
+      "link": "/2026/08/designing-experiences-that-drive-results",
+      "date": "31 Aug 2026",
+      "excerpt": "An HBR Executive Masterclass with researcher and author Marcus Buckingham.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How Japan’s Oldest Companies Navigate Uncertainty",
       "link": "/2026/08/how-japans-oldest-companies-navigate-uncertainty",
       "date": "31 Aug 2026",
@@ -125,24 +134,6 @@
       "link": "/2026/08/our-favorite-management-tips-on-learning-from-failure",
       "date": "27 Aug 2026",
       "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Inside McDonald’s New Strategy",
-      "link": "/2026/08/inside-mcdonalds-new-strategy",
-      "date": "26 Aug 2026",
-      "excerpt": "An HBR Executive Live conversation with McDonald&#8217;s Chairman and CEO Chris Kempczinski.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: To Get Employees to Use a Benefit, Make Signing Up a Little Harder",
-      "link": "/2026/08/research-to-get-employees-to-use-a-benefit-make-signing-up-a-little-harder",
-      "date": "26 Aug 2026",
-      "excerpt": "Adding a small, meaningful amount of friction at sign-up can improve follow-through on behaviors that require ongoing effort.",
       "image": ""
     },
     {
@@ -211,47 +202,47 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "How Shein lost its shine ahead of long-awaited stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c3v0qrz7z25o?at_medium=RSS&at_campaign=rss",
+      "date": "31 Aug 2026",
+      "excerpt": "The firm's Hong Kong listing on Tuesday comes after a years-long quest to sell shares in New York and London.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/560f/live/30249ee0-a502-11f1-bc78-771607c93ea6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Amazon rigged billions in ad pricing, lawsuit from states and US watchdog alleges",
+      "link": "https://www.bbc.co.uk/news/articles/cvgy91nvy27o?at_medium=RSS&at_campaign=rss",
+      "date": "31 Aug 2026",
+      "excerpt": "Amazon responded to the lawsuit, arguing the US Federal Trade Commission \"misunderstands\" their ad market.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06c0/live/06652f80-a574-11f1-b109-879e35c24276.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Japan Inc is betting big on India as China risks deepen",
+      "link": "https://www.bbc.co.uk/news/articles/cz64955d56po?at_medium=RSS&at_campaign=rss",
+      "date": "31 Aug 2026",
+      "excerpt": "Japanese companies are doubling down on India amid a shrinking domestic market and rising risks in China.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a495/live/0c5aa580-a2ba-11f1-a291-b542ee92de7c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Kushner states regret over World Cup sell-off plan",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c780w17lw02o?at_medium=RSS&at_campaign=rss",
+      "date": "31 Aug 2026",
+      "excerpt": "Venture capitalist Joshua Kushner says he would not have got involved in Fifa president Gianni Infantino's scrapped plan to sell off stakes in the World Cup if he had known how the football world reacted.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac98/live/245f6750-a568-11f1-a291-b542ee92de7c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'My parents won't lend me £10k but helped my brother': When families play financial favourites",
       "link": "https://www.bbc.co.uk/news/articles/cx279dml00ro?at_medium=RSS&at_campaign=rss",
       "date": "30 Aug 2026",
       "excerpt": "So-called financial favouritism can cause jealousy and resentment long into adulthood. Here is how experts say you can avoid it",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd9/live/fc8d0a40-9bba-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How the US-Canada trade war is being felt on both sides of the border",
-      "link": "https://www.bbc.co.uk/news/articles/c4g4r4lxx25o?at_medium=RSS&at_campaign=rss",
-      "date": "31 Aug 2026",
-      "excerpt": "The US-Canada trade war is being felt on both sides of the border.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b95/live/4a224cf0-a4af-11f1-aed2-8d6da8d75094.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump hails 'historic' deal to control 65 billion barrels of Venezuelan oil",
-      "link": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Aug 2026",
-      "excerpt": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6691/live/b40e7f80-a356-11f1-a291-b542ee92de7c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
-      "link": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Aug 2026",
-      "excerpt": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5899/live/39824e70-a2fe-11f1-80b3-bf1a174ac193.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Wife of man who died after turbulence sues airline",
-      "link": "https://www.bbc.co.uk/news/articles/cqlwrpey1epo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Aug 2026",
-      "excerpt": "Lawyers for Linda Kitchen say her husband was \"fatally injured\" after the flight dropped 6,000 ft.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9fd5/live/2730a430-a301-11f1-a291-b542ee92de7c.jpg"
     }
   ]
 }
