@@ -1,5 +1,5 @@
 {
-  "updated": "30 Aug 2026, 22:23 UTC",
+  "updated": "31 Aug 2026, 03:39 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "'My parents won't lend me £10k but helped my brother': When families play financial favourites",
+      "link": "https://www.bbc.co.uk/news/articles/cx279dml00ro?at_medium=RSS&at_campaign=rss",
+      "date": "30 Aug 2026",
+      "excerpt": "So-called financial favouritism can cause jealousy and resentment long into adulthood. Here is how experts say you can avoid it",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd9/live/fc8d0a40-9bba-11f1-aed2-8d6da8d75094.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "How the US-Canada trade war is being felt on both sides of the border",
+      "link": "https://www.bbc.co.uk/news/articles/c4g4r4lxx25o?at_medium=RSS&at_campaign=rss",
+      "date": "31 Aug 2026",
+      "excerpt": "The US-Canada trade war is being felt on both sides of the border.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b95/live/4a224cf0-a4af-11f1-aed2-8d6da8d75094.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Trump hails 'historic' deal to control 65 billion barrels of Venezuelan oil",
       "link": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
       "date": "30 Aug 2026",
@@ -234,24 +252,6 @@
       "date": "27 Aug 2026",
       "excerpt": "Younger generations are thought to be more susceptible to impulse spending. The BBC looks at ways to get it under control.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3444/live/d1483030-8ff3-11f1-a10e-47119dd4425c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump administration illegally retaliated against Anthropic, judge rules",
-      "link": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Aug 2026",
-      "excerpt": "The AI startup has been at loggerheads with the Pentagon over the use of AI by the US military.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a72/live/1e9bf7b0-a299-11f1-b81f-99addc8c0403.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Overcooked? Why robotic pizza makers are failing",
-      "link": "https://www.bbc.co.uk/news/articles/czxq0wgkkdjo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Aug 2026",
-      "excerpt": "A string of failures has sapped confidence that robots will take over production at pizza restaurants.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd79/live/5ce07230-8f43-11f1-b8ee-9b3c26ad07bb.jpg"
     }
   ]
 }
