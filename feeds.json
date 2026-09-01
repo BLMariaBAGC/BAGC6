@@ -1,6 +1,24 @@
 {
-  "updated": "01 Sep 2026, 09:09 UTC",
+  "updated": "01 Sep 2026, 14:30 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Mindfulness may lower blood pressure in just 8 weeks",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260901010721.htm",
+      "date": "1 Sep 2026",
+      "excerpt": "Mindfulness, gratitude, and optimism training may improve blood pressure, inflammation, and other heart-health measures within just eight to 12 weeks. The strongest programs paired daily practice with regular reinforcement, suggesting that ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists find a human-only gene that may help explain our brainpower",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260831015141.htm",
+      "date": "31 Aug 2026",
+      "excerpt": "Scientists discovered that human microglia, immune cells that help shape developing brain circuits, can take four to eight years to mature instead of just weeks as they do in mice. The unusually slow process may help explain how the human b",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -17,6 +35,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260829235958.htm",
       "date": "31 Aug 2026",
       "excerpt": "A long-standing picture of brain evolution as newer, rational layers stacked on top of an ancient “lizard brain” may be deeply misleading. Researchers found that evolution instead appears to balance two competing styles of brain wiring, exp",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Reaching 90 without dementia doesn’t mean you’re in the clear",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260829235953.htm",
+      "date": "1 Sep 2026",
+      "excerpt": "A study of people over 90 found that dementia risk remains strongly shaped by sex, race and genetics, with women and black participants facing notably higher risks. Intriguingly, some people stayed cognitively healthy despite carrying major",
       "image": ""
     },
     {
@@ -47,30 +74,39 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover a brain “brake” that can shut down chronic pain",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260826055442.htm",
-      "date": "27 Aug 2026",
-      "excerpt": "Researchers discovered a brain-based “brake” that can shut down chronic nerve pain in mice by calming an overactive pain circuit. Targeting this system more precisely could one day lead to powerful pain relief without affecting opioid recep",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Middle Managers Will Make or Break AI Adoption",
+      "link": "/2026/09/middle-managers-will-make-or-break-ai-adoption",
+      "date": "1 Sep 2026",
+      "excerpt": "Most managers fit one of five distinct profiles. Here&#8217;s what leaders need to know about how each responds to risk, evidence, incentives, and support.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Too much or too little sleep may make your body age faster",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260823094156.htm",
-      "date": "24 Aug 2026",
-      "excerpt": "Both too little and too much sleep may be linked to faster aging throughout the body. Researchers analyzing 23 biological aging clocks found the lowest aging levels among people sleeping about 6.4 to 7.8 hours per day. Short or long sleep w",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Your Transformation Doesn’t Need an Endpoint",
+      "link": "/2026/09/your-transformation-doesnt-need-an-endpoint",
+      "date": "1 Sep 2026",
+      "excerpt": "In the August 31 edition of The Insider newsletter, managing editor Gretchen Gavett writes on why organizational transformation is a learning journey, how to detect a toxic leader during an interview, and more.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Childhood trauma may leave a lasting “scar” inside brain cells",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260823094151.htm",
-      "date": "26 Aug 2026",
-      "excerpt": "Early-life stress may physically alter how DNA is packaged in the brain, leaving stress-related genes primed to activate more easily years later. In mice, researchers were able to block this effect, preventing the heightened anxiety and str",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Best of Cold Call: The Bumpy Road to Expanding a Fleet of Electric School Buses",
+      "link": "/podcast/2026/09/best-of-cold-call-the-bumpy-road-to-expanding-a-fleet-of-electric-school-buses",
+      "date": "1 Sep 2026",
+      "excerpt": "What it takes to maintain momentum and customer trust when scaling a complex transformation.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Are Great Leaders Truly Great—or Just Lucky?",
+      "link": "/podcast/2026/09/are-great-leaders-truly-great-or-just-lucky",
+      "date": "1 Sep 2026",
+      "excerpt": "A conversation with historian and author Jared Diamond on reframing how we think about influential leaders.",
       "image": ""
     },
     {
@@ -98,42 +134,6 @@
       "link": "/2026/08/the-store-isnt-dead-but-the-merchant-model-is",
       "date": "31 Aug 2026",
       "excerpt": "Retailers need to stop owning so much inventory risk and start operating more like platforms.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "You Need to Understand Your Employees’ Caregiving Responsibilities",
-      "link": "/2026/08/you-need-to-understand-your-employees-caregiving-responsibilities",
-      "date": "31 Aug 2026",
-      "excerpt": "Awareness can lead to more well-being, productivity, and enjoyment at work, higher commitment and retention, and even more rewarding and meaningful family lives.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How McDonald’s Is Adapting to a Changing Economy",
-      "link": "/2026/08/how-mcdonalds-is-adapting-to-a-changing-economy",
-      "date": "28 Aug 2026",
-      "excerpt": "McDonald&#8217;s CEO &#38; Chairman Chris Kempczinski on implementing a new strategy at a company with 63 million global daily customers.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Transformation Requires Redesigning Work, Not Cutting Roles",
-      "link": "/2026/08/ai-transformation-requires-redesigning-work-not-cutting-roles",
-      "date": "28 Aug 2026",
-      "excerpt": "If leaders default to headcount reduction, the result will be an organization that is smaller but not smarter.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Our Favorite Management Tips on Learning from Failure",
-      "link": "/2026/08/our-favorite-management-tips-on-learning-from-failure",
-      "date": "27 Aug 2026",
-      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
       "image": ""
     },
     {
@@ -193,7 +193,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Shein shares fall in long-awaited stock market debut",
+      "title": "UK long-term borrowing costs highest since 1998 ahead of October Budget",
+      "link": "https://www.bbc.co.uk/news/articles/c8d39vq779no?at_medium=RSS&at_campaign=rss",
+      "date": "1 Sep 2026",
+      "excerpt": "Higher borrowing costs have piled fresh pressure on Andy Burnham ahead of his first Budget.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b72/live/3d5d23f0-a5f9-11f1-8348-fb0cb1cd9761.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Shein valued at $26bn after long-awaited stock market debut",
       "link": "https://www.bbc.co.uk/news/articles/c3v0qrz7z25o?at_medium=RSS&at_campaign=rss",
       "date": "1 Sep 2026",
       "excerpt": "The firm's Hong Kong listing on Tuesday comes after a years-long quest to sell shares in New York and London.",
@@ -204,18 +213,9 @@
       "feedId": "bbc",
       "title": "AI could cause global economic downturn, Andrew Bailey warns G20",
       "link": "https://www.bbc.co.uk/news/articles/c99dym3prl1o?at_medium=RSS&at_campaign=rss",
-      "date": "31 Aug 2026",
+      "date": "1 Sep 2026",
       "excerpt": "The governor of the Bank of England warned of AI's “volatility” caused by energy shocks from the US-Iran war.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b34/live/537541c0-a556-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Amazon rigged $20bn worth of ad prices, US lawsuit alleges",
-      "link": "https://www.bbc.co.uk/news/articles/cvgy91nvy27o?at_medium=RSS&at_campaign=rss",
-      "date": "31 Aug 2026",
-      "excerpt": "Amazon responded to the lawsuit, arguing the US Federal Trade Commission \"misunderstands\" their ad market.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06c0/live/06652f80-a574-11f1-b109-879e35c24276.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,20 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Victoria Beckham's company makes its first profit after 18 years",
-      "link": "https://www.bbc.co.uk/news/articles/cj645yl6d6do?at_medium=RSS&at_campaign=rss",
-      "date": "31 Aug 2026",
-      "excerpt": "Beckham's fashion and beauty business makes a £7.3m operating profit after years of losses.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6918/live/636dc020-a55b-11f1-9acf-19576105f049.jpg"
+      "title": "Ikea cuts prices as customers struggle with rising cost of living",
+      "link": "https://www.bbc.co.uk/news/articles/cm279dk9r8no?at_medium=RSS&at_campaign=rss",
+      "date": "1 Sep 2026",
+      "excerpt": "The Swedish retailer has seen revenue decline as the rising cost of living reduces people's ability to buy new furniture.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e523/live/2eed8b50-a5fb-11f1-83fc-0df57e6b3866.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Kushner states regret over World Cup sell-off plan",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c780w17lw02o?at_medium=RSS&at_campaign=rss",
-      "date": "31 Aug 2026",
-      "excerpt": "Venture capitalist Joshua Kushner says he would not have got involved in Fifa president Gianni Infantino's scrapped plan to sell off stakes in the World Cup if he had known how the football world reacted.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac98/live/245f6750-a568-11f1-a291-b542ee92de7c.jpg"
+      "title": "I climbed the career ladder and got my dream job at 30 - then I hit burnout",
+      "link": "https://www.bbc.co.uk/news/articles/c5yvpr0751go?at_medium=RSS&at_campaign=rss",
+      "date": "1 Sep 2026",
+      "excerpt": "Just after Jo Hooper landed her dream role at 30, she struggled with burnout and had to take time off work.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b28d/live/b62f7fb0-a222-11f1-bd6a-3d72a7f54a3e.jpg"
     }
   ]
 }
