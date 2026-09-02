@@ -1,5 +1,5 @@
 {
-  "updated": "02 Sep 2026, 19:12 UTC",
+  "updated": "02 Sep 2026, 22:21 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Netherlands moves billions in gold to London in 'crisis preparedness' move",
+      "link": "https://www.bbc.co.uk/news/articles/cvgy51xlz39o?at_medium=RSS&at_campaign=rss",
+      "date": "2 Sep 2026",
+      "excerpt": "The Dutch central bank removes some of its gold reserves from the US and Canada, saying it is because of \"increasing geopolitical unrest\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14d7/live/19860b20-a6e6-11f1-b109-879e35c24276.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Lords call for AI 'kill switch' powers in UK",
       "link": "https://www.bbc.co.uk/news/articles/cn9wv80j9w9o?at_medium=RSS&at_campaign=rss",
       "date": "2 Sep 2026",
@@ -234,15 +243,6 @@
       "date": "1 Sep 2026",
       "excerpt": "The cost of dining out is getting increasingly hard to swallow - but clever planning can get you cheaper deals.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8874/live/950889e0-a6cc-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Will self-flying planes transform the skies?",
-      "link": "https://www.bbc.co.uk/news/articles/c1l123mmrg7o?at_medium=RSS&at_campaign=rss",
-      "date": "1 Sep 2026",
-      "excerpt": "Autonomous crop-spraying aircraft are leading the way in pilot-free flying.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a73/live/30054c70-971f-11f1-a7ab-8b30adf0800a.jpg"
     }
   ]
 }
