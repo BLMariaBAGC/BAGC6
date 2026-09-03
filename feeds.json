@@ -1,5 +1,5 @@
 {
-  "updated": "03 Sep 2026, 08:32 UTC",
+  "updated": "03 Sep 2026, 14:07 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/09/260901010721.htm",
       "date": "1 Sep 2026",
       "excerpt": "Mindfulness, gratitude, and optimism training may improve blood pressure, inflammation, and other heart-health measures within just eight to 12 weeks. The strongest programs paired daily practice with regular reinforcement, suggesting that ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "One immune switch may help drive aging across the body",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260901010717.htm",
+      "date": "3 Sep 2026",
+      "excerpt": "Aging may be partly fueled by immune cells losing their ability to clear away damaged, inflammation-promoting cells. Blocking a single receptor restored that cleanup process in mice, reducing inflammation and helping their organs, muscles, ",
       "image": ""
     },
     {
@@ -65,12 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Reaching 90 without dementia doesn’t mean you’re in the clear",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260829235953.htm",
-      "date": "1 Sep 2026",
-      "excerpt": "A study of people over 90 found that dementia risk remains strongly shaped by sex, race and genetics, with women and black participants facing notably higher risks. Intriguingly, some people stayed cognitively healthy despite carrying major",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: AI-Generated Ads Perform Worse Than Human-Made Ones—Even When Customers Can’t Tell Them Apart",
+      "link": "/2026/09/research-ai-generated-ads-perform-worse-than-human-made-ones-even-when-customers-cant-tell-them-apart",
+      "date": "3 Sep 2026",
+      "excerpt": "AI can lower the cost of producing work that looks acceptable. But a study of 3,000 U.S. consumers shows that it may be less effective than marketers might think.",
       "image": ""
     },
     {
@@ -193,9 +202,18 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Households warned gas price spike could pile fresh pressure on energy bills",
+      "link": "https://www.bbc.co.uk/news/articles/cm274mwxy1vo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Sep 2026",
+      "excerpt": "Experts warn low storage levels could push up gas prices further, leaving households with higher bills.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e55d/live/76f88ba0-a792-11f1-b64a-71b1e45ff5c7.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "B&Q and Five Guys among firms that paid staff below minimum wage",
       "link": "https://www.bbc.co.uk/news/articles/c39mv4vm7exo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Sep 2026",
+      "date": "3 Sep 2026",
       "excerpt": "More than 600 companies underpaid staff, with £4m returned to workers, according to the government.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1bcf/live/73721d70-a765-11f1-a291-b542ee92de7c.jpg"
     },
@@ -224,16 +242,7 @@
       "link": "https://www.bbc.co.uk/articles/cj647xd596xo?at_medium=RSS&at_campaign=rss",
       "date": "2 Sep 2026",
       "excerpt": "The pop star formerly known as Posh Spice has taken nearly two decades to turn a profit.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4225/live/c09d0e10-a770-11f1-993c-a325009c1935.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump $1 coin makes him first living president on US currency in a century",
-      "link": "https://www.bbc.co.uk/news/articles/c7507g9v992o?at_medium=RSS&at_campaign=rss",
-      "date": "3 Sep 2026",
-      "excerpt": "The US Mint special edition is stamped with a portrait of Trump alongside the words \"LIBERTY\" and \"IN GOD WE TRUST\"",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb6a/live/cc827800-a72f-11f1-b970-fbb8e613a3a7.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/24df/live/da8cbe80-a782-11f1-b109-879e35c24276.jpg"
     },
     {
       "source": "BBC Business",
