@@ -1,5 +1,5 @@
 {
-  "updated": "03 Sep 2026, 02:58 UTC",
+  "updated": "03 Sep 2026, 08:32 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -17,6 +17,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260831015154.htm",
       "date": "2 Sep 2026",
       "excerpt": "Persistent financial hardship in early and middle adulthood was linked to poorer thinking skills by the 50s and more signs of brain aging later in life. Researchers say years of chronic stress and financial worry may gradually take a toll o",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "ADHD may have a surprising creative advantage",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260831015150.htm",
+      "date": "2 Sep 2026",
+      "excerpt": "Some of the attention patterns that make ADHD challenging may also help spark creativity by allowing the brain to explore more ideas and unexpected connections. Researchers think creative activities could potentially channel this “defocused",
       "image": ""
     },
     {
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/08/260829235953.htm",
       "date": "1 Sep 2026",
       "excerpt": "A study of people over 90 found that dementia risk remains strongly shaped by sex, race and genetics, with women and black participants facing notably higher risks. Intriguingly, some people stayed cognitively healthy despite carrying major",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your sleep may be hiding an early clue to Alzheimer’s",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260828005218.htm",
-      "date": "28 Aug 2026",
-      "excerpt": "Frequent micro-awakenings during sleep were linked to higher genetic risk for Alzheimer’s in healthy middle-aged adults who had no symptoms. The discovery raises the possibility that subtle changes during sleep could offer an early warning ",
       "image": ""
     },
     {
@@ -197,25 +197,25 @@
       "link": "https://www.bbc.co.uk/news/articles/c39mv4vm7exo?at_medium=RSS&at_campaign=rss",
       "date": "2 Sep 2026",
       "excerpt": "More than 600 companies underpaid staff, with £4m returned to workers, according to the government.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d32/live/de8a8700-a6e8-11f1-b109-879e35c24276.png"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1bcf/live/73721d70-a765-11f1-a291-b542ee92de7c.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Almost half of households do not see benefits of economic growth, report says",
       "link": "https://www.bbc.co.uk/news/articles/crerw510gdzo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Sep 2026",
+      "date": "3 Sep 2026",
       "excerpt": "Analysis has found a \"stark\" gap in the spending power of households in the north and south of England on average.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6d15/live/ed462620-a6cd-11f1-b0c9-07afcdd8053c.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'I don't even like them': How much should you give to office gift collections?",
+      "title": "Stingy bosses and spare change: How much should you give to the office whip-round?",
       "link": "https://www.bbc.co.uk/news/articles/c2el0v48v0xo?at_medium=RSS&at_campaign=rss",
       "date": "2 Sep 2026",
       "excerpt": "Office whip-rounds are a staple of working life but they can raise a lot of awkward questions.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cbb4/live/9bba9250-a6f5-11f1-b109-879e35c24276.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/309d/live/9ac025f0-a767-11f1-b109-879e35c24276.jpg"
     },
     {
       "source": "BBC Business",
@@ -224,7 +224,7 @@
       "link": "https://www.bbc.co.uk/articles/cj647xd596xo?at_medium=RSS&at_campaign=rss",
       "date": "2 Sep 2026",
       "excerpt": "The pop star formerly known as Posh Spice has taken nearly two decades to turn a profit.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a24/live/c8818d00-a6de-11f1-b109-879e35c24276.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4225/live/c09d0e10-a770-11f1-993c-a325009c1935.jpg"
     },
     {
       "source": "BBC Business",
@@ -232,7 +232,7 @@
       "title": "Trump $1 coin makes him first living president on US currency in a century",
       "link": "https://www.bbc.co.uk/news/articles/c7507g9v992o?at_medium=RSS&at_campaign=rss",
       "date": "3 Sep 2026",
-      "excerpt": "The US Mint special edition is stamped with a portrait of Trump alongside the words \"In God we trust\".",
+      "excerpt": "The US Mint special edition is stamped with a portrait of Trump alongside the words \"LIBERTY\" and \"IN GOD WE TRUST\"",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb6a/live/cc827800-a72f-11f1-b970-fbb8e613a3a7.jpg"
     },
     {
