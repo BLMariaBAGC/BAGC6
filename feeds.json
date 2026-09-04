@@ -1,6 +1,42 @@
 {
-  "updated": "04 Sep 2026, 08:28 UTC",
+  "updated": "04 Sep 2026, 13:59 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A longer exhale may push your brain toward bolder decisions",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260904000320.htm",
+      "date": "4 Sep 2026",
+      "excerpt": "Slow breathing with a prolonged exhale made people more willing to take risks by changing heart activity and increasing the brain’s sensitivity to rewards. The findings suggest that something as simple as controlling your breath can directl",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists reveal the hidden instructions that build the human brain",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260904000308.htm",
+      "date": "4 Sep 2026",
+      "excerpt": "UCLA researchers have discovered two powerful influences that help guide how the human brain forms before birth. Radial glia, stem cells responsible for producing much of the cerebral cortex, change their behavior depending on how they proc",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Stanford scientists discover a seafood that can reverse signs of aging",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260902234518.htm",
+      "date": "4 Sep 2026",
+      "excerpt": "A substance found in edible sea squirts appeared to reverse several signs of aging in older mice. Plasmalogen supplements improved memory and learning, strengthened connections between brain cells, reduced inflammation, and even helped the ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "New injectable treatment helps the brain rebuild after stroke",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260902234512.htm",
+      "date": "3 Sep 2026",
+      "excerpt": "Duke researchers developed an injectable scaffold that helped stroke-damaged brains grow new blood vessels, support nerve regrowth, and recover movement in mice. The treatment appears to work partly by recruiting the body’s own immune cells",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -38,39 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Alzheimer’s may leave a mark on the brain long before plaques appear",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260831015144.htm",
-      "date": "2 Sep 2026",
-      "excerpt": "Brain changes associated with Alzheimer’s may begin at least seven years before amyloid plaques become detectable with current PET scans. Researchers uncovered the signal by tracking healthy older adults with repeated brain imaging over nea",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists find a human-only gene that may help explain our brainpower",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260831015141.htm",
-      "date": "31 Aug 2026",
-      "excerpt": "Scientists discovered that human microglia, immune cells that help shape developing brain circuits, can take four to eight years to mature instead of just weeks as they do in mice. The unusually slow process may help explain how the human b",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "HEPA air purifiers may boost brain function after just one month",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260830000016.htm",
-      "date": "30 Aug 2026",
-      "excerpt": "Adults aged 40 and older performed about 12% faster on a test of executive function after using a HEPA air purifier at home for one month. The findings suggest that cleaner indoor air could offer a simple way to help protect the brain from ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists challenge a 70-year-old “lizard brain” myth",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260829235958.htm",
-      "date": "31 Aug 2026",
-      "excerpt": "A long-standing picture of brain evolution as newer, rational layers stacked on top of an ancient “lizard brain” may be deeply misleading. Researchers found that evolution instead appears to balance two competing styles of brain wiring, exp",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "AI Is Blurring the Line Between Sales and Marketing",
+      "link": "/2026/09/ai-is-blurring-the-line-between-sales-and-marketing",
+      "date": "4 Sep 2026",
+      "excerpt": "How companies can create a more integrated customer journey.",
       "image": ""
     },
     {
@@ -137,13 +146,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Are Great Leaders Truly Great—or Just Lucky?",
-      "link": "/podcast/2026/09/are-great-leaders-truly-great-or-just-lucky",
-      "date": "1 Sep 2026",
-      "excerpt": "A conversation with historian and author Jared Diamond on reframing how we think about influential leaders.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Digital twins as a new foundation of competitive advantage",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/04/digital-twins-as-a-new-foundation-of-competitive-advantage/",
+      "date": "4 Sep 2026",
+      "excerpt": "AI-powered digital twins are not simply another stage of digital transformation. They represent a new organising logic for economic activity in data-rich environments. By categorising organisations according to twin maturity and ecosystem i",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -191,13 +200,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Why strong codes of conduct and supporting those who speak out maintains confidence in the public sector",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/20/why-strong-codes-of-conduct-and-supporting-those-who-speak-out-maintains-confidence-in-the-public-sector/",
-      "date": "20 Aug 2026",
-      "excerpt": "Employees often notice problems long before failures become publicly visible. What determines whether those concerns are acted upon is not just individual courage but the signals sent by bosses about whether they will be. Using data from Au",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Stock up on food to prepare for extreme weather, minister says",
+      "link": "https://www.bbc.co.uk/news/articles/cp931m8n3p5o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Sep 2026",
+      "excerpt": "Dame Angela Eagle warns the weather event could lead to extreme storms this winter.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4805/live/d3c90eb0-a85d-11f1-aed2-8d6da8d75094.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Surprisingly strong US jobs figures fuel rate rise bets",
+      "link": "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Sep 2026",
+      "excerpt": "The number of roles added to the US economy increased by 162,000 in August, almost triple the 56,000 forecast.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2654/live/080d87e0-a85f-11f1-ae45-e9984fc27c77.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,38 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Volkswagen board approves plan to cut another 50,000 jobs",
-      "link": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
-      "date": "4 Sep 2026",
-      "excerpt": "The group - which includes Audi, Porsche, Skoda as well as the VW brand - plans to cut a total of 100,000 posts by 2030.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1a3/live/90a60580-a7fd-11f1-b109-879e35c24276.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Argentine leader threatens to sanction oil firms and reiterates Falklands claim",
-      "link": "https://www.bbc.co.uk/news/articles/clyk18g1l8ko?at_medium=RSS&at_campaign=rss",
-      "date": "4 Sep 2026",
-      "excerpt": "Javier Milei reiterates his country's claim on the British overseas territory, saying the \"winds of change\" favour it.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14fb/live/08a50760-a827-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I lost my savings after a job interview scam'",
-      "link": "https://www.bbc.co.uk/news/articles/crk3xd8j3k5o?at_medium=RSS&at_campaign=rss",
-      "date": "3 Sep 2026",
-      "excerpt": "Jobseekers, especially Gen Z, are being targeted with fake, booby-trapped recruitment apps.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f931/live/69fc7270-a78f-11f1-9bb7-af8e8fd3d806.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Greggs, H&M and Space NK - how to get birthday freebies and why there's a catch",
+      "title": "Prosecco, cakes and beauty products - how to get birthday freebies and why there's a catch",
       "link": "https://www.bbc.co.uk/news/articles/c5y4jr4yr2eo?at_medium=RSS&at_campaign=rss",
       "date": "4 Sep 2026",
       "excerpt": "Cake, coffee, make-up and burgers are just some of the free things you can get on your birthday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d17d/live/a80be280-a82a-11f1-b109-879e35c24276.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7bc4/live/46d54550-a853-11f1-aed2-8d6da8d75094.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK petrol prices hit highest level since Iran war began",
+      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Sep 2026",
+      "excerpt": "The price of unleaded hits 163p a litre, according to motoring group the RAC, as oil prices remain elevated.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8143/live/f8d0c8b0-7572-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
