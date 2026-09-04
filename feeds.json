@@ -1,5 +1,5 @@
 {
-  "updated": "04 Sep 2026, 13:59 UTC",
+  "updated": "04 Sep 2026, 17:32 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Could You Benefit from a Digital Twin?",
+      "link": "/2026/09/could-you-benefit-from-a-digital-twin",
+      "date": "4 Sep 2026",
+      "excerpt": "In some workplaces, digital clones are advancing from novelty items to useful tools.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "AI Is Blurring the Line Between Sales and Marketing",
       "link": "/2026/09/ai-is-blurring-the-line-between-sales-and-marketing",
       "date": "4 Sep 2026",
@@ -134,15 +143,6 @@
       "link": "/2026/09/your-transformation-doesnt-need-an-endpoint",
       "date": "1 Sep 2026",
       "excerpt": "In the August 31 edition of The Insider newsletter, managing editor Gretchen Gavett writes on why organizational transformation is a learning journey, how to detect a toxic leader during an interview, and more.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Best of Cold Call: The Bumpy Road to Expanding a Fleet of Electric School Buses",
-      "link": "/podcast/2026/09/best-of-cold-call-the-bumpy-road-to-expanding-a-fleet-of-electric-school-buses",
-      "date": "1 Sep 2026",
-      "excerpt": "What it takes to maintain momentum and customer trust when scaling a complex transformation.",
       "image": ""
     },
     {
@@ -211,11 +211,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Surprisingly strong US jobs figures fuel rate rise bets",
+      "title": "Trump calls for interest rate cut after jobs figures raise hike bets",
       "link": "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o?at_medium=RSS&at_campaign=rss",
       "date": "4 Sep 2026",
-      "excerpt": "The number of roles added to the US economy increased by 162,000 in August, almost triple the 56,000 forecast.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2654/live/080d87e0-a85f-11f1-ae45-e9984fc27c77.jpg"
+      "excerpt": "The president's remarks came as stronger-than-expected jobs figures added to growing expectations that rates could be increased.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be4c/live/c74b2990-a883-11f1-824a-0fc4c5d895ae.jpg"
     },
     {
       "source": "BBC Business",
