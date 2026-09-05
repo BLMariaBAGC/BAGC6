@@ -1,5 +1,5 @@
 {
-  "updated": "05 Sep 2026, 16:31 UTC",
+  "updated": "05 Sep 2026, 19:56 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -143,6 +143,60 @@
       "link": "/2026/09/your-transformation-doesnt-need-an-endpoint",
       "date": "1 Sep 2026",
       "excerpt": "In the August 31 edition of The Insider newsletter, managing editor Gretchen Gavett writes on why organizational transformation is a learning journey, how to detect a toxic leader during an interview, and more.",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Digital twins as a new foundation of competitive advantage",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/04/digital-twins-as-a-new-foundation-of-competitive-advantage/",
+      "date": "4 Sep 2026",
+      "excerpt": "AI-powered digital twins are not simply another stage of digital transformation. They represent a new organising logic for economic activity in data-rich environments. By categorising organisations according to twin maturity and ecosystem i",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The Pope has a point – AI needs a referee that no one owns",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/02/the-pope-has-a-point-ai-needs-a-referee-that-no-one-owns/",
+      "date": "2 Sep 2026",
+      "excerpt": "The Vatican’s first encyclical on AI asks who should govern the technology in the common interest. Reading it as an argument about institutions rather than theology, Vsevolod Shabad argues that every secular candidate – above all the state ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What an early environmental regulation can teach us about the banking risks of today’s green transition",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/27/what-an-early-environmental-regulation-can-teach-us-about-the-banking-risks-of-todays-green-transition/",
+      "date": "27 Aug 2026",
+      "excerpt": "Climate policy is increasingly becoming banking policy.&nbsp;But when environmental regulation changes the risks facing borrowers, do banks simply lend less&nbsp;–&nbsp;or do they change how they create and&nbsp;allocate&nbsp;liquidity?&nbs",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Global networking the ethical way: how to build trust and influence across cultures",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/25/global-networking-the-ethical-way-how-to-build-trust-and-influence-across-cultures/",
+      "date": "25 Aug 2026",
+      "excerpt": "Even when it is an important part of our jobs, many of us dislike networking. And doing it well is a skill. Not all networking creates the same kind of value, especially in global situations where success depends on understanding cultural d",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How “trace hiring” can overcome the deluge of AI job applications",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/24/how-trace-hiring-can-overcome-the-deluge-of-ai-job-applications/",
+      "date": "24 Aug 2026",
+      "excerpt": "AI is overwhelming recruiters with a deluge of job applications. Marvin&nbsp;Starominski-Uehara argues that this problem demands a return to recruiters watching what people actually do. Here he presents a framework for making that visible a",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can Africa’s mining champions become champions of development?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/21/how-can-africas-mining-champions-become-champions-of-development/",
+      "date": "21 Aug 2026",
+      "excerpt": "Africa’s mineral abundance has made mining a critical industry in much of the continent. But the models and structure of traditional firms often means that few of the benefits spill over into the wider economy. Is that now changing? Using c",
       "image": ""
     },
     {
