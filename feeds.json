@@ -1,5 +1,5 @@
 {
-  "updated": "06 Sep 2026, 08:21 UTC",
+  "updated": "06 Sep 2026, 13:23 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,20 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Minister to meet Jaguar Land Rover boss as thousands of job cuts expected",
+      "link": "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&at_campaign=rss",
+      "date": "6 Sep 2026",
+      "excerpt": "The company is struggling with the impact of tariffs as well as the fallout from a major cyber attack last year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ded7/live/5b81c800-a9db-11f1-803f-7f2a9199ddc4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Stock up on food to prepare for extreme weather, minister says",
       "link": "https://www.bbc.co.uk/news/articles/cp931m8n3p5o?at_medium=RSS&at_campaign=rss",
       "date": "4 Sep 2026",
       "excerpt": "Dame Angela Eagle warns the weather event could lead to extreme storms this winter.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4805/live/d3c90eb0-a85d-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Jaguar Land Rover confirms planned job cuts",
-      "link": "https://www.bbc.co.uk/news/articles/c4gkr3p0ql7o?at_medium=RSS&at_campaign=rss",
-      "date": "5 Sep 2026",
-      "excerpt": "The firm says it needs to save about £1.7bn over the next two years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee01/live/b5506920-8c0f-11f1-b2ab-0dd01740f9f6.jpg"
     },
     {
       "source": "BBC Business",
