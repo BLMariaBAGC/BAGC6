@@ -1,6 +1,15 @@
 {
-  "updated": "06 Sep 2026, 19:59 UTC",
+  "updated": "06 Sep 2026, 22:04 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Popular brain supplement linked to shorter lifespan in men",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260904000330.htm",
+      "date": "6 Sep 2026",
+      "excerpt": "A large study involving more than 270,000 people has linked higher blood levels of the amino acid tyrosine to a shorter lifespan in men. Using both observational data and genetic analysis, researchers found that elevated tyrosine could pote",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -17,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/09/260904000308.htm",
       "date": "4 Sep 2026",
       "excerpt": "UCLA researchers have discovered two powerful influences that help guide how the human brain forms before birth. Radial glia, stem cells responsible for producing much of the cerebral cortex, change their behavior depending on how they proc",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This lifestyle program improved cognition 55% more than basic health advice",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260903064246.htm",
+      "date": "6 Sep 2026",
+      "excerpt": "Older adults at risk of dementia improved their memory and thinking after following lifestyle programs combining exercise, healthy eating, cognitive training, and social engagement. Those who received regular coaching and structured support",
       "image": ""
     },
     {
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/09/260901010721.htm",
       "date": "1 Sep 2026",
       "excerpt": "Mindfulness, gratitude, and optimism training may improve blood pressure, inflammation, and other heart-health measures within just eight to 12 weeks. The strongest programs paired daily practice with regular reinforcement, suggesting that ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "One immune switch may help drive aging across the body",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260901010717.htm",
-      "date": "3 Sep 2026",
-      "excerpt": "Aging may be partly fueled by immune cells losing their ability to clear away damaged, inflammation-promoting cells. Blocking a single receptor restored that cleanup process in mice, reducing inflammation and helping their organs, muscles, ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Money problems may age your brain faster",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260831015154.htm",
-      "date": "2 Sep 2026",
-      "excerpt": "Persistent financial hardship in early and middle adulthood was linked to poorer thinking skills by the 50s and more signs of brain aging later in life. Researchers say years of chronic stress and financial worry may gradually take a toll o",
       "image": ""
     },
     {
