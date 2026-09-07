@@ -1,5 +1,5 @@
 {
-  "updated": "07 Sep 2026, 15:29 UTC",
+  "updated": "07 Sep 2026, 19:35 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,7 +202,25 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why Jaguar Land Rover has decided change is needed",
+      "title": "Next wins key appeal to overturn £30m equal pay ruling",
+      "link": "https://www.bbc.co.uk/news/articles/c05r61rqe4yo?at_medium=RSS&at_campaign=rss",
+      "date": "7 Sep 2026",
+      "excerpt": "A judge ruled Next can pay warehouse workers more because it is harder to recruit and retain them.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83ff/live/152fc380-aacf-11f1-9f87-35997bdaf8f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Faisal Islam: Chancellor's attempts to boost vibes may limit tax rises",
+      "link": "https://www.bbc.co.uk/news/articles/c39mz7xlvjzo?at_medium=RSS&at_campaign=rss",
+      "date": "7 Sep 2026",
+      "excerpt": "The new leadership is trying to maintain both confidence and the promotion of economic animal spirits.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc41/live/b8f9f260-aaca-11f1-9f87-35997bdaf8f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Why the 'Temu Range Rover' is such a threat to Jaguar Land Rover",
       "link": "https://www.bbc.co.uk/news/articles/c5y4l22p262o?at_medium=RSS&at_campaign=rss",
       "date": "7 Sep 2026",
       "excerpt": "Job cuts come as JLR faces falling sales and intense Chinese competition while trying to switch to electric vehicles.",
@@ -211,7 +229,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Chancellor refuses to rule out tax hikes in October Budget",
+      "title": "Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs",
       "link": "https://www.bbc.co.uk/news/articles/cgjqg450w28o?at_medium=RSS&at_campaign=rss",
       "date": "7 Sep 2026",
       "excerpt": "John Healey detailed plans to spread growth more widely across the UK, ahead of his first Budget.",
@@ -225,24 +243,6 @@
       "date": "7 Sep 2026",
       "excerpt": "About one million people - mostly women - are owed pension tax relief and will be contacted by HMRC.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ff9/live/508ded00-a78a-11f1-9bb7-af8e8fd3d806.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Jaguar Land Rover to cut 4,000 jobs over next two years",
-      "link": "https://www.bbc.co.uk/news/articles/c36lx560jjko?at_medium=RSS&at_campaign=rss",
-      "date": "7 Sep 2026",
-      "excerpt": "The cuts come as the carmaker struggles with Chinese competition, US tariffs, and the transition to electric vehicles.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c067/live/5d770b70-aaa3-11f1-b109-879e35c24276.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "China to pump $54bn into state banks and insurers to boost economy",
-      "link": "https://www.bbc.co.uk/news/articles/cx2z37qj4wno?at_medium=RSS&at_campaign=rss",
-      "date": "7 Sep 2026",
-      "excerpt": "It comes as Beijing is aiming to reshape its economy in the face of a number of challenges.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6782/live/9df185f0-aa6b-11f1-a525-873a5928ac64.jpg"
     },
     {
       "source": "BBC Business",
