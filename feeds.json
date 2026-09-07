@@ -1,5 +1,5 @@
 {
-  "updated": "07 Sep 2026, 19:35 UTC",
+  "updated": "07 Sep 2026, 22:29 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "What two centuries of property tax records teach us about taxing wealth today",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/07/what-two-centuries-of-property-tax-records-teach-us-about-taxing-wealth-today/",
+      "date": "7 Sep 2026",
+      "excerpt": "What can policymakers facing pressure to tax wealth use as a model of how to do it? Sacha Dray, Camille Landais and Stefanie Stantcheva use America’s historic property tax to illustrate what policymakers can learn from past experiments of m",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Digital twins as a new foundation of competitive advantage",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/09/04/digital-twins-as-a-new-foundation-of-competitive-advantage/",
       "date": "4 Sep 2026",
@@ -188,15 +197,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/08/24/how-trace-hiring-can-overcome-the-deluge-of-ai-job-applications/",
       "date": "24 Aug 2026",
       "excerpt": "AI is overwhelming recruiters with a deluge of job applications. Marvin&nbsp;Starominski-Uehara argues that this problem demands a return to recruiters watching what people actually do. Here he presents a framework for making that visible a",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How can Africa’s mining champions become champions of development?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/21/how-can-africas-mining-champions-become-champions-of-development/",
-      "date": "21 Aug 2026",
-      "excerpt": "Africa’s mineral abundance has made mining a critical industry in much of the continent. But the models and structure of traditional firms often means that few of the benefits spill over into the wider economy. Is that now changing? Using c",
       "image": ""
     },
     {
