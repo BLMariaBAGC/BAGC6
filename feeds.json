@@ -1,5 +1,5 @@
 {
-  "updated": "06 Sep 2026, 22:04 UTC",
+  "updated": "07 Sep 2026, 02:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,47 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Chancellor to say UK economy 'turning a corner' despite debt concerns",
+      "link": "https://www.bbc.co.uk/news/articles/cgjqg450w28o?at_medium=RSS&at_campaign=rss",
+      "date": "6 Sep 2026",
+      "excerpt": "John Healey will detail plans to spread growth more widely across the UK, ahead of his first Budget.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a295/live/6f3c1770-aa2f-11f1-bdbb-8bb5df16290b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Minister to meet Jaguar Land Rover boss as thousands of job cuts expected",
       "link": "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&at_campaign=rss",
       "date": "6 Sep 2026",
-      "excerpt": "The company is struggling with the impact of tariffs as well as the fallout from a major cyber attack last year.",
+      "excerpt": "Speaking to the BBC, Business Secretary Jonathan Reynolds ruled out a bailout for the company.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/29df/live/f5cf25f0-984e-11f0-b742-5374a6e86615.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "The £70 refund letter that isn't a scam",
+      "link": "https://www.bbc.co.uk/news/articles/c23x0kd8eleo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Sep 2026",
+      "excerpt": "About one million people - mostly women - are owed pension tax relief and will be contacted by HMRC.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ff9/live/508ded00-a78a-11f1-9bb7-af8e8fd3d806.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Five dead after Amazon cargo plane crashes at Miami airport",
+      "link": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
+      "date": "7 Sep 2026",
+      "excerpt": "Five people are dead and five seriously injured after a Boeing 767-300 cargo plane \"overran\" the runway and caught fire, officials say.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8f2/live/4a70f2d0-aa39-11f1-9023-2129273d2865.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "China to pump $54bn into state banks and insurers to boost economy",
+      "link": "https://www.bbc.co.uk/news/articles/cx2z37qj4wno?at_medium=RSS&at_campaign=rss",
+      "date": "7 Sep 2026",
+      "excerpt": "It comes as Beijing is aiming to reshape its economy in the face of a number of challenges.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa90/live/53598b50-aa57-11f1-bd0c-f98b6f213356.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,42 +252,6 @@
       "date": "4 Sep 2026",
       "excerpt": "Dame Angela Eagle warns the weather event could lead to extreme storms this winter.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4805/live/d3c90eb0-a85d-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Aviation faces hotter, stormier skies – and passengers might have to accept more disruption",
-      "link": "https://www.bbc.co.uk/news/articles/cm274p8m88lo?at_medium=RSS&at_campaign=rss",
-      "date": "5 Sep 2026",
-      "excerpt": "Are people going to have to increasingly accept more delays and diversions as the effects of climate change intensify?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b63/live/c35016e0-a872-11f1-a291-b542ee92de7c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump calls for interest rate cut after jobs figures raise hike bets",
-      "link": "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o?at_medium=RSS&at_campaign=rss",
-      "date": "4 Sep 2026",
-      "excerpt": "The president's remarks came as stronger-than-expected jobs figures added to growing expectations that rates could be increased.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be4c/live/c74b2990-a883-11f1-824a-0fc4c5d895ae.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Controversial Jackdaw gas field set to be approved in weeks, sources say",
-      "link": "https://www.bbc.co.uk/news/articles/cj9xe09jz4eo?at_medium=RSS&at_campaign=rss",
-      "date": "4 Sep 2026",
-      "excerpt": "The government is set to give the go-ahead for the gas field off the coast of Aberdeen, the BBC understands.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ab0/live/294bf5d0-a7b1-11f1-b78b-6b70b0a83270.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "From 'dog fruit' to darling: India's avocado boom",
-      "link": "https://www.bbc.co.uk/news/articles/clyjzpgv29do?at_medium=RSS&at_campaign=rss",
-      "date": "4 Sep 2026",
-      "excerpt": "Demand for avocados is booming in India and local growers hope to grab more of the market.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/985c/live/f13cd3e0-96f7-11f1-870d-5d08c49babb2.jpg"
     }
   ]
 }
