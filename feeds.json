@@ -1,5 +1,5 @@
 {
-  "updated": "07 Sep 2026, 02:54 UTC",
+  "updated": "07 Sep 2026, 08:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,16 +202,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Chancellor to say UK economy 'turning a corner' despite debt concerns",
-      "link": "https://www.bbc.co.uk/news/articles/cgjqg450w28o?at_medium=RSS&at_campaign=rss",
-      "date": "6 Sep 2026",
-      "excerpt": "John Healey will detail plans to spread growth more widely across the UK, ahead of his first Budget.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a295/live/6f3c1770-aa2f-11f1-bdbb-8bb5df16290b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Minister to meet Jaguar Land Rover boss as thousands of job cuts expected",
+      "title": "Jaguar Land Rover boss to meet minister as thousands of job cuts expected",
       "link": "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&at_campaign=rss",
       "date": "6 Sep 2026",
       "excerpt": "Speaking to the BBC, Business Secretary Jonathan Reynolds ruled out a bailout for the company.",
@@ -222,7 +213,7 @@
       "feedId": "bbc",
       "title": "The £70 refund letter that isn't a scam",
       "link": "https://www.bbc.co.uk/news/articles/c23x0kd8eleo?at_medium=RSS&at_campaign=rss",
-      "date": "6 Sep 2026",
+      "date": "7 Sep 2026",
       "excerpt": "About one million people - mostly women - are owed pension tax relief and will be contacted by HMRC.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ff9/live/508ded00-a78a-11f1-9bb7-af8e8fd3d806.jpg"
     },
@@ -233,7 +224,7 @@
       "link": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
       "date": "7 Sep 2026",
       "excerpt": "Five people are dead and five seriously injured after a Boeing 767-300 cargo plane \"overran\" the runway and caught fire, officials say.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8f2/live/4a70f2d0-aa39-11f1-9023-2129273d2865.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d36/live/ead9f6b0-aa73-11f1-8722-09fc3b051866.jpg"
     },
     {
       "source": "BBC Business",
@@ -242,16 +233,25 @@
       "link": "https://www.bbc.co.uk/news/articles/cx2z37qj4wno?at_medium=RSS&at_campaign=rss",
       "date": "7 Sep 2026",
       "excerpt": "It comes as Beijing is aiming to reshape its economy in the face of a number of challenges.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa90/live/53598b50-aa57-11f1-bd0c-f98b6f213356.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6782/live/9df185f0-aa6b-11f1-a525-873a5928ac64.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Stock up on food to prepare for extreme weather, minister says",
-      "link": "https://www.bbc.co.uk/news/articles/cp931m8n3p5o?at_medium=RSS&at_campaign=rss",
-      "date": "4 Sep 2026",
-      "excerpt": "Dame Angela Eagle warns the weather event could lead to extreme storms this winter.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4805/live/d3c90eb0-a85d-11f1-aed2-8d6da8d75094.jpg"
+      "title": "Chancellor to say UK economy 'turning a corner' despite debt concerns",
+      "link": "https://www.bbc.co.uk/news/articles/cgjqg450w28o?at_medium=RSS&at_campaign=rss",
+      "date": "7 Sep 2026",
+      "excerpt": "John Healey will detail plans to spread growth more widely across the UK, ahead of his first Budget.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a295/live/6f3c1770-aa2f-11f1-bdbb-8bb5df16290b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Why are European countries moving their gold out of North America?",
+      "link": "https://www.bbc.co.uk/news/articles/cvgyn8q8gqxo?at_medium=RSS&at_campaign=rss",
+      "date": "5 Sep 2026",
+      "excerpt": "The Netherlands has relocated 86 tonnes of the shiny stuff - what's going on?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69ed/live/1f74ae20-a870-11f1-bbad-43eaf67b94b6.jpg"
     }
   ]
 }
