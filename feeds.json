@@ -1,5 +1,5 @@
 {
-  "updated": "07 Sep 2026, 08:54 UTC",
+  "updated": "07 Sep 2026, 15:29 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "AI Can Enhance Every Stage of Teamwork—Under Two Conditions",
+      "link": "/2026/09/ai-can-enhance-every-stage-of-teamwork-under-two-conditions",
+      "date": "7 Sep 2026",
+      "excerpt": "Intentionally incorporating AI before, during, and after meetings leads to better group outcomes, according to a new analysis.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Could You Benefit from a Digital Twin?",
       "link": "/2026/09/could-you-benefit-from-a-digital-twin",
       "date": "4 Sep 2026",
@@ -137,15 +146,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Your Transformation Doesn’t Need an Endpoint",
-      "link": "/2026/09/your-transformation-doesnt-need-an-endpoint",
-      "date": "1 Sep 2026",
-      "excerpt": "In the August 31 edition of The Insider newsletter, managing editor Gretchen Gavett writes on why organizational transformation is a learning journey, how to detect a toxic leader during an interview, and more.",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "Digital twins as a new foundation of competitive advantage",
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Jaguar Land Rover boss to meet minister as thousands of job cuts expected",
-      "link": "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&at_campaign=rss",
-      "date": "6 Sep 2026",
-      "excerpt": "Speaking to the BBC, Business Secretary Jonathan Reynolds ruled out a bailout for the company.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/29df/live/f5cf25f0-984e-11f0-b742-5374a6e86615.jpg"
+      "title": "Why Jaguar Land Rover has decided change is needed",
+      "link": "https://www.bbc.co.uk/news/articles/c5y4l22p262o?at_medium=RSS&at_campaign=rss",
+      "date": "7 Sep 2026",
+      "excerpt": "Job cuts come as JLR faces falling sales and intense Chinese competition while trying to switch to electric vehicles.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bb7/live/3ca652b0-aabd-11f1-b960-379ca4827622.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Chancellor refuses to rule out tax hikes in October Budget",
+      "link": "https://www.bbc.co.uk/news/articles/cgjqg450w28o?at_medium=RSS&at_campaign=rss",
+      "date": "7 Sep 2026",
+      "excerpt": "John Healey detailed plans to spread growth more widely across the UK, ahead of his first Budget.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/337d/live/666febe0-aaa6-11f1-9eba-7de947fa7cd1.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,11 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Five dead after Amazon cargo plane crashes at Miami airport",
-      "link": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
+      "title": "Jaguar Land Rover to cut 4,000 jobs over next two years",
+      "link": "https://www.bbc.co.uk/news/articles/c36lx560jjko?at_medium=RSS&at_campaign=rss",
       "date": "7 Sep 2026",
-      "excerpt": "Five people are dead and five seriously injured after a Boeing 767-300 cargo plane \"overran\" the runway and caught fire, officials say.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d36/live/ead9f6b0-aa73-11f1-8722-09fc3b051866.jpg"
+      "excerpt": "The cuts come as the carmaker struggles with Chinese competition, US tariffs, and the transition to electric vehicles.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c067/live/5d770b70-aaa3-11f1-b109-879e35c24276.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "7 Sep 2026",
       "excerpt": "It comes as Beijing is aiming to reshape its economy in the face of a number of challenges.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6782/live/9df185f0-aa6b-11f1-a525-873a5928ac64.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Chancellor to say UK economy 'turning a corner' despite debt concerns",
-      "link": "https://www.bbc.co.uk/news/articles/cgjqg450w28o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Sep 2026",
-      "excerpt": "John Healey will detail plans to spread growth more widely across the UK, ahead of his first Budget.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a295/live/6f3c1770-aa2f-11f1-bdbb-8bb5df16290b.jpg"
     },
     {
       "source": "BBC Business",
