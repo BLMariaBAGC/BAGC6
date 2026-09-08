@@ -1,5 +1,5 @@
 {
-  "updated": "08 Sep 2026, 14:08 UTC",
+  "updated": "08 Sep 2026, 19:15 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Welcome to AI Autumn",
+      "link": "/2026/09/welcome-to-ai-autumn",
+      "date": "8 Sep 2026",
+      "excerpt": "In the September 7 edition of The Insider newsletter, managing editor Gretchen Gavett writes on what&#8217;s next for HBR&#8217;s coverage of AI, shares new insights about blue ocean strategy, and more.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Is Your AI Training the Competition?",
+      "link": "/2026/09/is-your-ai-training-the-competition",
+      "date": "8 Sep 2026",
+      "excerpt": "Standard AI safeguards may fail to protect one of your company&#8217;s most valuable assets.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "A Leading Restaurateur on What It Takes to Scale a Winning Culture",
       "link": "/podcast/2026/09/a-leading-restaurateur-on-what-it-takes-to-scale-a-winning-culture",
       "date": "8 Sep 2026",
@@ -119,31 +137,67 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: How Curveball Questions Can Surface the Insight You’re Looking For",
-      "link": "/2026/09/research-how-curveball-questions-can-surface-the-insight-youre-looking-for",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What two centuries of property tax records teach us about taxing wealth today",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/07/what-two-centuries-of-property-tax-records-teach-us-about-taxing-wealth-today/",
+      "date": "7 Sep 2026",
+      "excerpt": "What can policymakers facing pressure to tax wealth use as a model of how to do it? Sacha Dray, Camille Landais and Stefanie Stantcheva use America’s historic property tax to illustrate what policymakers can learn from past experiments of m",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Digital twins as a new foundation of competitive advantage",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/04/digital-twins-as-a-new-foundation-of-competitive-advantage/",
+      "date": "4 Sep 2026",
+      "excerpt": "AI-powered digital twins are not simply another stage of digital transformation. They represent a new organising logic for economic activity in data-rich environments. By categorising organisations according to twin maturity and ecosystem i",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The Pope has a point – AI needs a referee that no one owns",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/02/the-pope-has-a-point-ai-needs-a-referee-that-no-one-owns/",
       "date": "2 Sep 2026",
-      "excerpt": "By disrupting the script, you&#8217;re more likely to get a revealing answer.",
+      "excerpt": "The Vatican’s first encyclical on AI asks who should govern the technology in the common interest. Reading it as an argument about institutions rather than theology, Vsevolod Shabad argues that every secular candidate – above all the state ",
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Happens When AI Starts Doing Business with AI?",
-      "link": "/2026/09/what-happens-when-ai-starts-doing-business-with-ai",
-      "date": "2 Sep 2026",
-      "excerpt": "Companies need new rules for governing what agents can see, decide, and do.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What an early environmental regulation can teach us about the banking risks of today’s green transition",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/27/what-an-early-environmental-regulation-can-teach-us-about-the-banking-risks-of-todays-green-transition/",
+      "date": "27 Aug 2026",
+      "excerpt": "Climate policy is increasingly becoming banking policy.&nbsp;But when environmental regulation changes the risks facing borrowers, do banks simply lend less&nbsp;–&nbsp;or do they change how they create and&nbsp;allocate&nbsp;liquidity?&nbs",
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Is the European Market Ready for Air Conditioning? Inside Midea’s Blue Ocean Strategy.",
-      "link": "/2026/09/is-the-european-market-ready-for-air-conditioning-inside-mideas-blue-ocean-strategy",
-      "date": "2 Sep 2026",
-      "excerpt": "How the company used AI to design a new system and unlock massive demand.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Global networking the ethical way: how to build trust and influence across cultures",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/25/global-networking-the-ethical-way-how-to-build-trust-and-influence-across-cultures/",
+      "date": "25 Aug 2026",
+      "excerpt": "Even when it is an important part of our jobs, many of us dislike networking. And doing it well is a skill. Not all networking creates the same kind of value, especially in global situations where success depends on understanding cultural d",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How “trace hiring” can overcome the deluge of AI job applications",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/24/how-trace-hiring-can-overcome-the-deluge-of-ai-job-applications/",
+      "date": "24 Aug 2026",
+      "excerpt": "AI is overwhelming recruiters with a deluge of job applications. Marvin&nbsp;Starominski-Uehara argues that this problem demands a return to recruiters watching what people actually do. Here he presents a framework for making that visible a",
       "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Sapporo to move some beer production from Canada to US after tariffs",
+      "link": "https://www.bbc.co.uk/news/articles/c87ve09pgqzo?at_medium=RSS&at_campaign=rss",
+      "date": "8 Sep 2026",
+      "excerpt": "The Japanese brewer plans to shift non-alcoholic beer brewing to the US from Canada as tariffs bite",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/940f/live/00423140-ab99-11f1-aed2-8d6da8d75094.jpg"
     },
     {
       "source": "BBC Business",
@@ -157,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Heathrow and Gatwick among airports hit by air traffic control problems",
+      "link": "https://www.bbc.co.uk/news/articles/ce8x3dp1zpxo?at_medium=RSS&at_campaign=rss",
+      "date": "8 Sep 2026",
+      "excerpt": "Departures from a number of airports have been affected by a technical problem affecting air traffic control provider Nats.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09a1/live/58e34b40-ab8f-11f1-aa04-efbf6a882854.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "AI will cure cancer in our lifetime, claims boss of UK chip giant",
       "link": "https://www.bbc.co.uk/news/articles/c0m39g7xzevo?at_medium=RSS&at_campaign=rss",
       "date": "8 Sep 2026",
@@ -166,38 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK's third-biggest taxpayer to leave for Greece",
-      "link": "https://www.bbc.co.uk/news/articles/cvgynjlzk8zo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Sep 2026",
-      "excerpt": "Chris Rokos plans to open an office in Athens, reports say, and was ranked third in the Sunday Times's list of the UK's top taxpayers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4254/live/73808720-ab5c-11f1-9647-01c7ddc5a2b1.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The firms turning recruitment into X Factor-style competitions",
-      "link": "https://www.bbc.co.uk/news/articles/cgk43mn42g7o?at_medium=RSS&at_campaign=rss",
-      "date": "8 Sep 2026",
-      "excerpt": "Applicants have to pitch their ideas on stage in front of a panel of judges and an audience. But is this exciting or unfair?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b8d/live/45ef6260-8c29-11f1-9488-69577cd5e4e0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Argentina to file criminal case against oil company operating in Falklands",
-      "link": "https://www.bbc.co.uk/news/articles/c8jd14glvneo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Sep 2026",
-      "excerpt": "The move comes days after President Javier Milei stepped up Argentina's claims of sovereignty over the Falklands.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f822/live/55e4d820-ab6a-11f1-9712-a14d469bace4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "'Tirana teeth': Albania hopes to be the new Turkey for dental work",
       "link": "https://www.bbc.co.uk/news/articles/cq63m88ymqro?at_medium=RSS&at_campaign=rss",
       "date": "8 Sep 2026",
       "excerpt": "The Balkan nation is aiming to become a new centre for medical tourism.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5af1/live/402b1c60-aaac-11f1-aed2-8d6da8d75094.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK's third-biggest taxpayer to leave for Greece",
+      "link": "https://www.bbc.co.uk/news/articles/cvgynjlzk8zo?at_medium=RSS&at_campaign=rss",
+      "date": "8 Sep 2026",
+      "excerpt": "Chris Rokos plans to open an office in Athens, reports say, and was ranked third in the Sunday Times's list of the UK's top taxpayers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4254/live/73808720-ab5c-11f1-9647-01c7ddc5a2b1.jpg"
     }
   ]
 }
