@@ -1,6 +1,33 @@
 {
-  "updated": "08 Sep 2026, 08:36 UTC",
+  "updated": "08 Sep 2026, 14:08 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Ozempic and Wegovy may have an unexpected mental health benefit",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260907201601.htm",
+      "date": "8 Sep 2026",
+      "excerpt": "Semaglutide, the drug behind Ozempic and Wegovy, may have benefits that extend well beyond weight loss and diabetes. In a large Swedish study of nearly 15,000 people with bipolar disorder, its use was linked to a 21% lower risk of psychiatr",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your personality may be more genetic than scientists realized",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260907201554.htm",
+      "date": "8 Sep 2026",
+      "excerpt": "More than 1,200 genetic variants have been linked to the Big Five personality traits, and many of the same variants are also associated with health, longevity, careers, income, and everyday habits. The findings reveal a surprisingly wide ge",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists say love follows hidden mathematical rules",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260906170140.htm",
+      "date": "7 Sep 2026",
+      "excerpt": "Could math help explain why some relationships survive life’s inevitable stresses while others slowly fall apart? Researchers have spent decades developing mathematical models that treat romantic feelings as changing systems, revealing patt",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -47,30 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Stanford scientists discover a seafood that can reverse signs of aging",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260902234518.htm",
-      "date": "4 Sep 2026",
-      "excerpt": "A substance found in edible sea squirts appeared to reverse several signs of aging in older mice. Plasmalogen supplements improved memory and learning, strengthened connections between brain cells, reduced inflammation, and even helped the ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "New injectable treatment helps the brain rebuild after stroke",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260902234512.htm",
-      "date": "3 Sep 2026",
-      "excerpt": "Duke researchers developed an injectable scaffold that helped stroke-damaged brains grow new blood vessels, support nerve regrowth, and recover movement in mice. The treatment appears to work partly by recruiting the body’s own immune cells",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Mindfulness may lower blood pressure in just 8 weeks",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260901010721.htm",
-      "date": "1 Sep 2026",
-      "excerpt": "Mindfulness, gratitude, and optimism training may improve blood pressure, inflammation, and other heart-health measures within just eight to 12 weeks. The strongest programs paired daily practice with regular reinforcement, suggesting that ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "A Leading Restaurateur on What It Takes to Scale a Winning Culture",
+      "link": "/podcast/2026/09/a-leading-restaurateur-on-what-it-takes-to-scale-a-winning-culture",
+      "date": "8 Sep 2026",
+      "excerpt": "A conversation with Shake Shack founder Danny Meyer on the principles he sticks to when growing an organization.",
       "image": ""
     },
     {
@@ -137,22 +146,22 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Middle Managers Will Make or Break AI Adoption",
-      "link": "/2026/09/middle-managers-will-make-or-break-ai-adoption",
-      "date": "1 Sep 2026",
-      "excerpt": "Most managers fit one of five distinct profiles. Here&#8217;s what leaders need to know about how each responds to risk, evidence, incentives, and support.",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Borrowers expecting mortgage rates to drop have hopes dashed",
+      "link": "https://www.bbc.co.uk/news/articles/c770v7y63r0o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Sep 2026",
+      "excerpt": "Major lenders have raised rates on new deals in recent days, leaving many borrowers needing to make a decision.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1d8/live/c8999ac0-ab71-11f1-9712-a14d469bace4.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The firms turning recruitment into X Factor-style competitions",
-      "link": "https://www.bbc.co.uk/news/articles/cgk43mn42g7o?at_medium=RSS&at_campaign=rss",
+      "title": "AI will cure cancer in our lifetime, claims boss of UK chip giant",
+      "link": "https://www.bbc.co.uk/news/articles/c0m39g7xzevo?at_medium=RSS&at_campaign=rss",
       "date": "8 Sep 2026",
-      "excerpt": "Applicants have to pitch their ideas on stage in front of a panel of judges and an audience. But is this exciting or unfair?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b8d/live/45ef6260-8c29-11f1-9488-69577cd5e4e0.jpg"
+      "excerpt": "Arm Holding's chief executive Rene Haas says artificial intelligence will find a solution to the disease.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/503e/live/149a0c90-ab66-11f1-aed2-8d6da8d75094.jpg"
     },
     {
       "source": "BBC Business",
@@ -166,38 +175,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
-      "link": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
+      "title": "The firms turning recruitment into X Factor-style competitions",
+      "link": "https://www.bbc.co.uk/news/articles/cgk43mn42g7o?at_medium=RSS&at_campaign=rss",
       "date": "8 Sep 2026",
-      "excerpt": "The tariffs will apply to $20bn worth of American products, jeopardising the stability of the world's largest bilateral trading relationship.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4970/live/57d86dc0-ab49-11f1-9191-cd98112fd46c.jpg"
+      "excerpt": "Applicants have to pitch their ideas on stage in front of a panel of judges and an audience. But is this exciting or unfair?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b8d/live/45ef6260-8c29-11f1-9488-69577cd5e4e0.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "AI will cure cancer in our lifetime, claims boss of UK chip giant",
-      "link": "https://www.bbc.co.uk/news/articles/c0m39g7xzevo?at_medium=RSS&at_campaign=rss",
-      "date": "7 Sep 2026",
-      "excerpt": "Arm Holding's chief executive Rene Haas says artificial intelligence will find a solution to the disease.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/192e/live/85ed8b30-aaa1-11f1-aed2-8d6da8d75094.jpg"
+      "title": "Argentina to file criminal case against oil company operating in Falklands",
+      "link": "https://www.bbc.co.uk/news/articles/c8jd14glvneo?at_medium=RSS&at_campaign=rss",
+      "date": "8 Sep 2026",
+      "excerpt": "The move comes days after President Javier Milei stepped up Argentina's claims of sovereignty over the Falklands.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f822/live/55e4d820-ab6a-11f1-9712-a14d469bace4.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'JLR job cuts a cause for uncertainty and worry'",
-      "link": "https://www.bbc.co.uk/news/articles/cq5x30003zdo?at_medium=RSS&at_campaign=rss",
+      "title": "'Tirana teeth': Albania hopes to be the new Turkey for dental work",
+      "link": "https://www.bbc.co.uk/news/articles/cq63m88ymqro?at_medium=RSS&at_campaign=rss",
       "date": "8 Sep 2026",
-      "excerpt": "Experts say they worry it could limit the company's ability to innovate in the future.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc2d/live/47e15190-aad9-11f1-aa35-df10e5ff32f4.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
-      "link": "https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&at_campaign=rss",
-      "date": "8 Sep 2026",
-      "excerpt": "The threat against one of Canada's largest companies comes amid an escalating trade war between the two neighbours.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7de/live/ac219160-ab15-11f1-8b63-e9fa771a3e80.jpg"
+      "excerpt": "The Balkan nation is aiming to become a new centre for medical tourism.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5af1/live/402b1c60-aaac-11f1-aed2-8d6da8d75094.jpg"
     }
   ]
 }
