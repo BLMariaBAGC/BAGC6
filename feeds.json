@@ -1,5 +1,5 @@
 {
-  "updated": "07 Sep 2026, 22:29 UTC",
+  "updated": "08 Sep 2026, 03:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "'I performed on stage to get my first job' - the firms turning recruitment into competitions",
+      "link": "https://www.bbc.co.uk/news/articles/cgk43mn42g7o?at_medium=RSS&at_campaign=rss",
+      "date": "7 Sep 2026",
+      "excerpt": "Applicants have to pitch their ideas on stage in front of a panel of judges and an audience. But is this exciting or unfair?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c9f/live/78649fd0-8be8-11f1-b8ee-9b3c26ad07bb.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "AI cancer cures slowed by chip shortage, says UK's biggest tech boss",
+      "link": "https://www.bbc.co.uk/news/articles/c0m39g7xzevo?at_medium=RSS&at_campaign=rss",
+      "date": "7 Sep 2026",
+      "excerpt": "The head of chip designer Arm says modelling how a DNA marker is impacted by cancer cannot be done now, but computers are \"going to solve it\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/192e/live/85ed8b30-aaa1-11f1-aed2-8d6da8d75094.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
+      "link": "https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Sep 2026",
+      "excerpt": "The threat against one of Canada's largest companies comes amid an escalating trade war between the two neighbours.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7de/live/ac219160-ab15-11f1-8b63-e9fa771a3e80.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Next wins key appeal to overturn £30m equal pay ruling",
       "link": "https://www.bbc.co.uk/news/articles/c05r61rqe4yo?at_medium=RSS&at_campaign=rss",
       "date": "7 Sep 2026",
@@ -225,33 +252,6 @@
       "date": "7 Sep 2026",
       "excerpt": "Job cuts come as JLR faces falling sales and intense Chinese competition while trying to switch to electric vehicles.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bb7/live/3ca652b0-aabd-11f1-b960-379ca4827622.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs",
-      "link": "https://www.bbc.co.uk/news/articles/cgjqg450w28o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Sep 2026",
-      "excerpt": "John Healey detailed plans to spread growth more widely across the UK, ahead of his first Budget.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/337d/live/666febe0-aaa6-11f1-9eba-7de947fa7cd1.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The £70 refund letter that isn't a scam",
-      "link": "https://www.bbc.co.uk/news/articles/c23x0kd8eleo?at_medium=RSS&at_campaign=rss",
-      "date": "7 Sep 2026",
-      "excerpt": "About one million people - mostly women - are owed pension tax relief and will be contacted by HMRC.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ff9/live/508ded00-a78a-11f1-9bb7-af8e8fd3d806.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why are European countries moving their gold out of North America?",
-      "link": "https://www.bbc.co.uk/news/articles/cvgyn8q8gqxo?at_medium=RSS&at_campaign=rss",
-      "date": "5 Sep 2026",
-      "excerpt": "The Netherlands has relocated 86 tonnes of the shiny stuff - what's going on?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69ed/live/1f74ae20-a870-11f1-bbad-43eaf67b94b6.jpg"
     }
   ]
 }
