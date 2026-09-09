@@ -1,5 +1,5 @@
 {
-  "updated": "09 Sep 2026, 14:09 UTC",
+  "updated": "09 Sep 2026, 19:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,10 +76,19 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "To Adopt AI at Scale, Employees Need to Trust Agents",
+      "link": "/2026/09/to-adopt-ai-at-scale-employees-need-to-trust-agents",
+      "date": "9 Sep 2026",
+      "excerpt": "Research suggests adoption improves when organizations are explicit about an agent&#8217;s capabilities&#8212;and limitations.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "AI Is Changing the Rules of Entrepreneurship",
       "link": "/2026/09/ai-is-changing-the-rules-of-entrepreneurship",
       "date": "9 Sep 2026",
-      "excerpt": "The era of lean start-ups is behind us. But abundance brings its own challenges.",
+      "excerpt": "The era of lean start-ups is behind us. Abundance brings its own challenges.",
       "image": ""
     },
     {
@@ -139,6 +148,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Air traffic failure was avoidable, says transport secretary",
+      "link": "https://www.bbc.co.uk/news/articles/c5y42v5n05do?at_medium=RSS&at_campaign=rss",
+      "date": "9 Sep 2026",
+      "excerpt": "Heidi Alexander orders an investigation into the glitch that caused more than 2,000 flight cancellations.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7de8/live/6b39d570-ac66-11f1-80f0-9795d1a5edbc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Apple unveils its first folding iPhone",
+      "link": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
+      "date": "9 Sep 2026",
+      "excerpt": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9b2/live/3e4171e0-ac7a-11f1-994b-c7df927931ed.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What are my rights if my flight is cancelled or delayed?",
+      "link": "https://www.bbc.co.uk/news/articles/c9qxnyengdjo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Sep 2026",
+      "excerpt": "Flights are cancelled owing to air traffic control problems, so what are your rights if you're affected?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a08/live/30e50cb0-ac29-11f1-bc1f-3f186ca4140c.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Learner drivers still forced to wait months to book tests",
       "link": "https://www.bbc.co.uk/news/articles/cx2z421xe0zo?at_medium=RSS&at_campaign=rss",
       "date": "9 Sep 2026",
@@ -157,38 +193,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What are my rights if my flight is cancelled or delayed?",
-      "link": "https://www.bbc.co.uk/news/articles/c9qxnyengdjo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Sep 2026",
-      "excerpt": "Flights are cancelled owing to air traffic control problems, so what are your rights if you're affected?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a08/live/30e50cb0-ac29-11f1-bc1f-3f186ca4140c.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
-      "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
-      "date": "9 Sep 2026",
-      "excerpt": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cace/live/40c59310-ac2a-11f1-9bd9-7b7da208bd5c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Should promotion depend on how workers use AI?",
       "link": "https://www.bbc.co.uk/news/articles/c1j1896e973o?at_medium=RSS&at_campaign=rss",
       "date": "8 Sep 2026",
       "excerpt": "More companies are tying career progression to AI use: is that fair?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb6c/live/d0ef5870-900c-11f1-aabc-c3c7aa714117.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I'm 27 and I've already written my will - here's why",
-      "link": "https://www.bbc.co.uk/news/articles/cn8np9wwe35o?at_medium=RSS&at_campaign=rss",
-      "date": "8 Sep 2026",
-      "excerpt": "For many young people making a will may not seem necessary, but here's why you shouldn't put it off.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/217a/live/df5f29c0-964d-11f1-a4de-8772188b26f6.jpg"
     }
   ]
 }
