@@ -1,5 +1,5 @@
 {
-  "updated": "09 Sep 2026, 08:37 UTC",
+  "updated": "09 Sep 2026, 14:09 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "AI Is Changing the Rules of Entrepreneurship",
+      "link": "/2026/09/ai-is-changing-the-rules-of-entrepreneurship",
+      "date": "9 Sep 2026",
+      "excerpt": "The era of lean start-ups is behind us. But abundance brings its own challenges.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Welcome to AI Autumn",
       "link": "/2026/09/welcome-to-ai-autumn",
       "date": "8 Sep 2026",
@@ -128,13 +137,22 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: AI-Generated Ads Perform Worse Than Human-Made Ones—Even When Customers Can’t Tell Them Apart",
-      "link": "/2026/09/research-ai-generated-ads-perform-worse-than-human-made-ones-even-when-customers-cant-tell-them-apart",
-      "date": "3 Sep 2026",
-      "excerpt": "AI can lower the cost of producing work that looks acceptable. But a study of 3,000 U.S. consumers shows that it may be less effective than marketers might think.",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Learner drivers still forced to wait months to book tests",
+      "link": "https://www.bbc.co.uk/news/articles/cx2z421xe0zo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Sep 2026",
+      "excerpt": "The Driver and Vehicle Standards Agency had been given a target to reduce average wait times to seven weeks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e4e/live/014ac6a0-aba4-11f1-8e72-a346833ed029.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Petrol prices rise by 5p over a week as Iran war sends oil higher",
+      "link": "https://www.bbc.co.uk/news/articles/cj4jwlx77lro?at_medium=RSS&at_campaign=rss",
+      "date": "9 Sep 2026",
+      "excerpt": "A litre of unleaded now costs 167.17p which is the biggest weekly increase since April, data shows.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87c7/live/6a7115c0-ac3b-11f1-b483-f5be285e6b7e.jpg"
     },
     {
       "source": "BBC Business",
@@ -148,29 +166,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "I'm 27 and I've already written my will - here's why",
-      "link": "https://www.bbc.co.uk/news/articles/cn8np9wwe35o?at_medium=RSS&at_campaign=rss",
-      "date": "8 Sep 2026",
-      "excerpt": "For many young people making a will may not seem necessary, but here's why you shouldn't put it off.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/217a/live/df5f29c0-964d-11f1-a4de-8772188b26f6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Cowboy builder tore my home apart and disappeared off the face of the Earth with £14k",
-      "link": "https://www.bbc.co.uk/news/articles/clykjmjm6m0o?at_medium=RSS&at_campaign=rss",
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
       "date": "9 Sep 2026",
-      "excerpt": "Victims of cowboy builders describe how they were exploited with one couple left \"scarred for life\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/012a/live/4a6058a0-ac08-11f1-afbf-77fe6d25f635.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Singaporean man pleads guilty in US to massive crypto heist",
-      "link": "https://www.bbc.co.uk/news/articles/crl6z03pr0do?at_medium=RSS&at_campaign=rss",
-      "date": "9 Sep 2026",
-      "excerpt": "Malone Lam and his associates used the proceeds of their crimes to fund a luxurious lifestyle, US authorities said.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c7a/live/c2fc9470-abfb-11f1-8c98-1196ec471ea3.jpg"
+      "excerpt": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cace/live/40c59310-ac2a-11f1-9bd9-7b7da208bd5c.jpg"
     },
     {
       "source": "BBC Business",
@@ -184,11 +184,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "OpenAI says it cracked 90-year-old maths problem in 88 hours",
-      "link": "https://www.bbc.co.uk/news/articles/cy7zygy3rl2o?at_medium=RSS&at_campaign=rss",
+      "title": "I'm 27 and I've already written my will - here's why",
+      "link": "https://www.bbc.co.uk/news/articles/cn8np9wwe35o?at_medium=RSS&at_campaign=rss",
       "date": "8 Sep 2026",
-      "excerpt": "OpenAI's claim that it solved parts of Navier-Stokes equations has quickly stirred controversy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22b2/live/38d45d10-abc3-11f1-a601-7d96c5d5b6ea.jpg"
+      "excerpt": "For many young people making a will may not seem necessary, but here's why you shouldn't put it off.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/217a/live/df5f29c0-964d-11f1-a4de-8772188b26f6.jpg"
     }
   ]
 }
