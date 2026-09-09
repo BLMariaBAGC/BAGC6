@@ -1,5 +1,5 @@
 {
-  "updated": "08 Sep 2026, 22:21 UTC",
+  "updated": "09 Sep 2026, 03:06 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,6 +137,87 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What two centuries of property tax records teach us about taxing wealth today",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/07/what-two-centuries-of-property-tax-records-teach-us-about-taxing-wealth-today/",
+      "date": "7 Sep 2026",
+      "excerpt": "What can policymakers facing pressure to tax wealth use as a model of how to do it? Sacha Dray, Camille Landais and Stefanie Stantcheva use America’s historic property tax to illustrate what policymakers can learn from past experiments of m",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Digital twins as a new foundation of competitive advantage",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/04/digital-twins-as-a-new-foundation-of-competitive-advantage/",
+      "date": "4 Sep 2026",
+      "excerpt": "AI-powered digital twins are not simply another stage of digital transformation. They represent a new organising logic for economic activity in data-rich environments. By categorising organisations according to twin maturity and ecosystem i",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The Pope has a point – AI needs a referee that no one owns",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/02/the-pope-has-a-point-ai-needs-a-referee-that-no-one-owns/",
+      "date": "2 Sep 2026",
+      "excerpt": "The Vatican’s first encyclical on AI asks who should govern the technology in the common interest. Reading it as an argument about institutions rather than theology, Vsevolod Shabad argues that every secular candidate – above all the state ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What an early environmental regulation can teach us about the banking risks of today’s green transition",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/27/what-an-early-environmental-regulation-can-teach-us-about-the-banking-risks-of-todays-green-transition/",
+      "date": "27 Aug 2026",
+      "excerpt": "Climate policy is increasingly becoming banking policy.&nbsp;But when environmental regulation changes the risks facing borrowers, do banks simply lend less&nbsp;–&nbsp;or do they change how they create and&nbsp;allocate&nbsp;liquidity?&nbs",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Global networking the ethical way: how to build trust and influence across cultures",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/25/global-networking-the-ethical-way-how-to-build-trust-and-influence-across-cultures/",
+      "date": "25 Aug 2026",
+      "excerpt": "Even when it is an important part of our jobs, many of us dislike networking. And doing it well is a skill. Not all networking creates the same kind of value, especially in global situations where success depends on understanding cultural d",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/08/Figure-1.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How “trace hiring” can overcome the deluge of AI job applications",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/08/24/how-trace-hiring-can-overcome-the-deluge-of-ai-job-applications/",
+      "date": "24 Aug 2026",
+      "excerpt": "AI is overwhelming recruiters with a deluge of job applications. Marvin&nbsp;Starominski-Uehara argues that this problem demands a return to recruiters watching what people actually do. Here he presents a framework for making that visible a",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US slaps import ban on Canadian alcohol, motorbikes and other goods",
+      "link": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
+      "date": "9 Sep 2026",
+      "excerpt": "It is the latest strike in a long trade war, and comes as Canadian counter-tariffs on US goods come into force.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/08b5/live/f578ba70-abe0-11f1-b727-455d73198a95.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I'm 27 and I've already written my will - here's why",
+      "link": "https://www.bbc.co.uk/news/articles/cn8np9wwe35o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Sep 2026",
+      "excerpt": "For many young people making a will may not seem necessary, but here's why you shouldn't put it off.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/217a/live/df5f29c0-964d-11f1-a4de-8772188b26f6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "More flight delays expected after hundreds cancelled by air traffic control glitch",
+      "link": "https://www.bbc.co.uk/news/articles/ce8x3dp1zpxo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Sep 2026",
+      "excerpt": "Departures from a number of airports are affected by a technical problem affecting air traffic control provider Nats.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0ba/live/df97f900-abc2-11f1-b109-879e35c24276.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "OpenAI says it cracked 90-year-old maths problem in 88 hours",
@@ -157,38 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Borrowers expecting mortgage rates to drop have hopes dashed",
-      "link": "https://www.bbc.co.uk/news/articles/c770v7y63r0o?at_medium=RSS&at_campaign=rss",
+      "title": "Should promotion depend on how workers use AI?",
+      "link": "https://www.bbc.co.uk/news/articles/c1j1896e973o?at_medium=RSS&at_campaign=rss",
       "date": "8 Sep 2026",
-      "excerpt": "Major lenders have raised rates on new deals in recent days, leaving many borrowers needing to make a decision.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1d8/live/c8999ac0-ab71-11f1-9712-a14d469bace4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "More flight delays expected after hundreds cancelled by air traffic control glitch",
-      "link": "https://www.bbc.co.uk/news/articles/ce8x3dp1zpxo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Sep 2026",
-      "excerpt": "Departures from a number of airports are affected by a technical problem affecting air traffic control provider Nats.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0ba/live/df97f900-abc2-11f1-b109-879e35c24276.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'Tirana teeth': Albania hopes to be the new Turkey for dental work",
-      "link": "https://www.bbc.co.uk/news/articles/cq63m88ymqro?at_medium=RSS&at_campaign=rss",
-      "date": "8 Sep 2026",
-      "excerpt": "The Balkan nation is aiming to become a new centre for medical tourism.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5af1/live/402b1c60-aaac-11f1-aed2-8d6da8d75094.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI will cure cancer in our lifetime, claims boss of UK chip giant",
-      "link": "https://www.bbc.co.uk/news/articles/c0m39g7xzevo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Sep 2026",
-      "excerpt": "Arm Holding's chief executive Rene Haas says artificial intelligence will find a solution to the disease.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/503e/live/149a0c90-ab66-11f1-aed2-8d6da8d75094.jpg"
+      "excerpt": "More companies are tying career progression to AI use: is that fair?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb6c/live/d0ef5870-900c-11f1-aabc-c3c7aa714117.jpg"
     }
   ]
 }
