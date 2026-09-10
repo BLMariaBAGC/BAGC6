@@ -1,5 +1,5 @@
 {
-  "updated": "10 Sep 2026, 03:06 UTC",
+  "updated": "10 Sep 2026, 08:38 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Primark finally set to launch home deliveries",
+      "link": "https://www.bbc.co.uk/news/articles/c89jdl0j5x4o?at_medium=RSS&at_campaign=rss",
+      "date": "10 Sep 2026",
+      "excerpt": "The retailer launches the service four years after making its first foray into internet shopping.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fd0/live/64817fa0-ace6-11f1-8d69-858c9dcdf738.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The one thing you need to do to succeed - according to top bosses",
       "link": "https://www.bbc.co.uk/news/articles/cn5dew594n6o?at_medium=RSS&at_campaign=rss",
       "date": "9 Sep 2026",
@@ -166,7 +175,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Apple's new boss starts with big gamble on costly first folding iPhone",
+      "title": "Apple's new boss starts with big gamble on $2,000 first folding iPhone",
       "link": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
       "date": "9 Sep 2026",
       "excerpt": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
@@ -175,25 +184,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Tax banks to give some households energy bill cut, unions tell Burnham",
-      "link": "https://www.bbc.co.uk/news/articles/c7v4lq969llo?at_medium=RSS&at_campaign=rss",
+      "title": "England's mayors to be given power to introduce tourist tax",
+      "link": "https://www.bbc.co.uk/news/articles/c3wjnv3z8nxo?at_medium=RSS&at_campaign=rss",
       "date": "10 Sep 2026",
-      "excerpt": "The TUC says a bank surcharge should be reversed - and estimates it would raise £9bn over four years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7248/live/d0a2e930-ac73-11f1-80f0-9795d1a5edbc.png"
+      "excerpt": "The government is expected to detail how local leaders will be able to impose levies on overnight stays.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7581/live/b9bf1460-acbd-11f1-b473-659b8af1c846.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What are my rights if my flight is cancelled or delayed?",
-      "link": "https://www.bbc.co.uk/news/articles/c9qxnyengdjo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Sep 2026",
-      "excerpt": "Flights are cancelled owing to air traffic control problems, so what are your rights if you're affected?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a08/live/30e50cb0-ac29-11f1-bc1f-3f186ca4140c.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI is becoming harder to control – can humans stay in charge?",
+      "title": "Can humans stay in control of AI?",
       "link": "https://www.bbc.co.uk/news/articles/c74edv9887eo?at_medium=RSS&at_campaign=rss",
       "date": "9 Sep 2026",
       "excerpt": "AI agents went on an uncontrolled hacking spree, leaving some in the industry worried",
