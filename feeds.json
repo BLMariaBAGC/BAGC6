@@ -1,5 +1,5 @@
 {
-  "updated": "10 Sep 2026, 14:03 UTC",
+  "updated": "10 Sep 2026, 18:56 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Is Your Strategic Plan Too Ambitious? Or Not Ambitious Enough?",
+      "link": "/2026/09/is-your-strategic-plan-too-ambitious-or-not-ambitious-enough",
+      "date": "10 Sep 2026",
+      "excerpt": "Eight questions to help you determine whether a strategy is bold enough to create meaningful growth&#8212;and realistic enough to execute.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "To Adopt AI at Scale, Employees Need to Trust Agents",
       "link": "/2026/09/to-adopt-ai-at-scale-employees-need-to-trust-agents",
       "date": "9 Sep 2026",
@@ -137,13 +146,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Is Blurring the Line Between Sales and Marketing",
-      "link": "/2026/09/ai-is-blurring-the-line-between-sales-and-marketing",
-      "date": "4 Sep 2026",
-      "excerpt": "How companies can create a more integrated customer journey.",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Oil, gas and borrowing costs surge as fears over Middle East escalate",
+      "link": "https://www.bbc.co.uk/news/articles/c5y48rz2nddo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Sep 2026",
+      "excerpt": "The price of oil jumps to $105 a barrel amid signs the Iran war will not be resolved quickly.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f162/live/08923520-ad29-11f1-980e-4fc6f1211def.jpg"
     },
     {
       "source": "BBC Business",
@@ -180,15 +189,6 @@
       "date": "10 Sep 2026",
       "excerpt": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/025b/live/d70047b0-acf9-11f1-a540-61c3f7fc4e6c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "England's mayors to get power to impose tourist tax",
-      "link": "https://www.bbc.co.uk/news/articles/c3wjnv3z8nxo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Sep 2026",
-      "excerpt": "Hospitality leaders warn the uncapped levy would risk jobs and push prices up for families holidaying in England.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/076b/live/05f504c0-ad18-11f1-bc1f-3f186ca4140c.jpg"
     },
     {
       "source": "BBC Business",
