@@ -1,5 +1,5 @@
 {
-  "updated": "10 Sep 2026, 18:56 UTC",
+  "updated": "10 Sep 2026, 22:14 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -157,6 +157,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Alstom to build new battery-electric train fleet",
+      "link": "https://www.bbc.co.uk/news/articles/cd94y7d7qyzo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Sep 2026",
+      "excerpt": "The government says the work will support thousands of jobs across the UK.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad58/live/9f602e80-ad47-11f1-ae59-91d2b63bf2a3.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Air traffic chaos and compensation: 'Shutdown cost us more than £1,000'",
       "link": "https://www.bbc.co.uk/news/articles/cy9znljypnjo?at_medium=RSS&at_campaign=rss",
       "date": "10 Sep 2026",
@@ -180,15 +189,6 @@
       "date": "9 Sep 2026",
       "excerpt": "What makes someone stand out in a crowded workplace? Six business leaders tell us what they look for.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/34f1/live/9e9bf960-ac71-11f1-a540-61c3f7fc4e6c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Apple's new boss starts with big gamble on £1,999 first folding iPhone",
-      "link": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Sep 2026",
-      "excerpt": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/025b/live/d70047b0-acf9-11f1-a540-61c3f7fc4e6c.jpg"
     },
     {
       "source": "BBC Business",
