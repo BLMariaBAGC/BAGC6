@@ -1,5 +1,5 @@
 {
-  "updated": "09 Sep 2026, 22:15 UTC",
+  "updated": "10 Sep 2026, 03:06 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "The one thing you need to do to succeed - according to top bosses",
+      "link": "https://www.bbc.co.uk/news/articles/cn5dew594n6o?at_medium=RSS&at_campaign=rss",
+      "date": "9 Sep 2026",
+      "excerpt": "What makes someone stand out in a crowded workplace? Six business leaders tell us what they look for.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/34f1/live/9e9bf960-ac71-11f1-a540-61c3f7fc4e6c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Air traffic failure was avoidable, says transport secretary",
       "link": "https://www.bbc.co.uk/news/articles/c5y42v5n05do?at_medium=RSS&at_campaign=rss",
       "date": "9 Sep 2026",
@@ -166,6 +175,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Tax banks to give some households energy bill cut, unions tell Burnham",
+      "link": "https://www.bbc.co.uk/news/articles/c7v4lq969llo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Sep 2026",
+      "excerpt": "The TUC says a bank surcharge should be reversed - and estimates it would raise £9bn over four years.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7248/live/d0a2e930-ac73-11f1-80f0-9795d1a5edbc.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "What are my rights if my flight is cancelled or delayed?",
       "link": "https://www.bbc.co.uk/news/articles/c9qxnyengdjo?at_medium=RSS&at_campaign=rss",
       "date": "9 Sep 2026",
@@ -175,29 +193,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Learner drivers still forced to wait months to book tests",
-      "link": "https://www.bbc.co.uk/news/articles/cx2z421xe0zo?at_medium=RSS&at_campaign=rss",
+      "title": "AI is becoming harder to control – can humans stay in charge?",
+      "link": "https://www.bbc.co.uk/news/articles/c74edv9887eo?at_medium=RSS&at_campaign=rss",
       "date": "9 Sep 2026",
-      "excerpt": "The Driver and Vehicle Standards Agency had been given a target to reduce average wait times to seven weeks.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e4e/live/014ac6a0-aba4-11f1-8e72-a346833ed029.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Petrol prices rise by 5p over a week as Iran war sends oil higher",
-      "link": "https://www.bbc.co.uk/news/articles/cj4jwlx77lro?at_medium=RSS&at_campaign=rss",
-      "date": "9 Sep 2026",
-      "excerpt": "A litre of unleaded now costs 167.17p which is the biggest weekly increase since April, data shows.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87c7/live/6a7115c0-ac3b-11f1-b483-f5be285e6b7e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Should promotion depend on how workers use AI?",
-      "link": "https://www.bbc.co.uk/news/articles/c1j1896e973o?at_medium=RSS&at_campaign=rss",
-      "date": "8 Sep 2026",
-      "excerpt": "More companies are tying career progression to AI use: is that fair?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb6c/live/d0ef5870-900c-11f1-aabc-c3c7aa714117.jpg"
+      "excerpt": "AI agents went on an uncontrolled hacking spree, leaving some in the industry worried",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dbe9/live/5e20f100-ac59-11f1-b1d1-571ed4d7ff2c.jpg"
     }
   ]
 }
