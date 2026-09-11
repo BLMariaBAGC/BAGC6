@@ -1,5 +1,5 @@
 {
-  "updated": "11 Sep 2026, 03:01 UTC",
+  "updated": "11 Sep 2026, 08:33 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "AI boom helps drive surprise UK growth in July",
+      "link": "https://www.bbc.co.uk/news/articles/cq5xjlvn71lo?at_medium=RSS&at_campaign=rss",
+      "date": "11 Sep 2026",
+      "excerpt": "The economy expanded by 0.4%, official figures show, whereas analysts had predicted no growth.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e509/live/199aa930-adb8-11f1-a540-61c3f7fc4e6c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "I asked my husband to pay into my pension when we had a child - here's why",
       "link": "https://www.bbc.co.uk/news/articles/cde02k65427o?at_medium=RSS&at_campaign=rss",
       "date": "10 Sep 2026",
@@ -157,11 +166,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Are interest rates on the way up again?",
+      "title": "Interest rates could rise again across the world – here's why",
       "link": "https://www.bbc.co.uk/news/articles/cew9nkx7v9eo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Sep 2026",
+      "date": "11 Sep 2026",
       "excerpt": "As countries grapple with energy costs pushing up inflation, this month will see how central banks respond.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6586/live/365b8a30-ad4a-11f1-8963-d14e6edce0d0.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Alstom to build new battery-electric train fleet",
+      "link": "https://www.bbc.co.uk/news/articles/cd94y7d7qyzo?at_medium=RSS&at_campaign=rss",
+      "date": "11 Sep 2026",
+      "excerpt": "The government says the work will support thousands of jobs across the UK.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad58/live/9f602e80-ad47-11f1-ae59-91d2b63bf2a3.png"
     },
     {
       "source": "BBC Business",
@@ -171,24 +189,6 @@
       "date": "10 Sep 2026",
       "excerpt": "The price of oil jumps to $105 a barrel amid signs the Iran war will not be resolved quickly.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f162/live/08923520-ad29-11f1-980e-4fc6f1211def.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Alstom to build new battery-electric train fleet",
-      "link": "https://www.bbc.co.uk/news/articles/cd94y7d7qyzo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Sep 2026",
-      "excerpt": "The government says the work will support thousands of jobs across the UK.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad58/live/9f602e80-ad47-11f1-ae59-91d2b63bf2a3.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Air traffic chaos and compensation: 'Shutdown cost us more than £1,000'",
-      "link": "https://www.bbc.co.uk/news/articles/cy9znljypnjo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Sep 2026",
-      "excerpt": "Flight disruption has ruined holidays and left passengers sleeping on airport floors - so what are their rights?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33d2/live/4c8e86c0-ad1a-11f1-a540-61c3f7fc4e6c.jpg"
     },
     {
       "source": "BBC Business",
