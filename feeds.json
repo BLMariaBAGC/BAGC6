@@ -1,6 +1,15 @@
 {
-  "updated": "11 Sep 2026, 08:33 UTC",
+  "updated": "11 Sep 2026, 14:02 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Study of 1.9 million people finds a striking link between ADHD and gut problems",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260911003840.htm",
+      "date": "11 Sep 2026",
+      "excerpt": "Researchers analyzing data from more than 1.9 million people found that ADHD is associated with substantially higher rates of digestive problems. People with ADHD had nearly double the odds of constipation, 58% higher odds of irritable bowe",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists find a weak spot in one of the deadliest brain cancers",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260903064242.htm",
-      "date": "6 Sep 2026",
-      "excerpt": "Researchers may have found a new way to weaken glioblastoma’s defenses against treatment. Blocking a protein called SET prevented tumors from forming in preclinical models, while targeting related proteins made cancer cells more vulnerable ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What Business Leaders Still Don’t Understand About China",
+      "link": "/2026/09/what-business-leaders-still-dont-understand-about-china",
+      "date": "11 Sep 2026",
+      "excerpt": "Harvard Business School professor Willy Shih shares insights for executives at Western companies on how to compete as the pace of innovation in China continues to increase.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Questions You Should Be Asking About the AI Bubble",
+      "link": "/2026/09/the-questions-you-should-be-asking-about-the-ai-bubble",
+      "date": "11 Sep 2026",
+      "excerpt": "What are the characteristics of this capital expenditure boom? What are the macroeconomic risks? And how can you lead through it?",
       "image": ""
     },
     {
@@ -128,22 +146,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Can Enhance Every Stage of Teamwork—Under Two Conditions",
-      "link": "/2026/09/ai-can-enhance-every-stage-of-teamwork-under-two-conditions",
-      "date": "7 Sep 2026",
-      "excerpt": "Intentionally incorporating AI before, during, and after meetings leads to better group outcomes, according to a new analysis.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Could You Benefit from a Digital Twin?",
-      "link": "/2026/09/could-you-benefit-from-a-digital-twin",
-      "date": "4 Sep 2026",
-      "excerpt": "In some workplaces, digital clones are advancing from novelty items to useful tools.",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US inflation holds steady as diesel prices pass $6 a gallon",
+      "link": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&at_campaign=rss",
+      "date": "11 Sep 2026",
+      "excerpt": "Prices in the US rose 3.4% in the 12 months to August, according to the latest official figures.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39dc/live/efa1fdd0-addb-11f1-8b98-35ffe039e825.jpg"
     },
     {
       "source": "BBC Business",
@@ -175,29 +184,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Alstom to build new battery-electric train fleet",
-      "link": "https://www.bbc.co.uk/news/articles/cd94y7d7qyzo?at_medium=RSS&at_campaign=rss",
-      "date": "11 Sep 2026",
-      "excerpt": "The government says the work will support thousands of jobs across the UK.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad58/live/9f602e80-ad47-11f1-ae59-91d2b63bf2a3.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Oil, gas and borrowing costs surge as fears over Middle East escalate",
-      "link": "https://www.bbc.co.uk/news/articles/c5y48rz2nddo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Sep 2026",
-      "excerpt": "The price of oil jumps to $105 a barrel amid signs the Iran war will not be resolved quickly.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f162/live/08923520-ad29-11f1-980e-4fc6f1211def.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Can Europe recharge its battery industry?",
       "link": "https://www.bbc.co.uk/news/articles/cjeg8ly0qd3o?at_medium=RSS&at_campaign=rss",
       "date": "10 Sep 2026",
       "excerpt": "Europe has some promising battery tech, but can it make up ground lost to Chinese battery giants?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac3e/live/cd5970d0-acf2-11f1-a540-61c3f7fc4e6c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Alstom to build new battery-electric train fleet",
+      "link": "https://www.bbc.co.uk/news/articles/cd94y7d7qyzo?at_medium=RSS&at_campaign=rss",
+      "date": "11 Sep 2026",
+      "excerpt": "The government says the work will support thousands of jobs across the UK.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9bb/live/3cc415a0-adb7-11f1-b1d1-571ed4d7ff2c.jpg"
     }
   ]
 }
