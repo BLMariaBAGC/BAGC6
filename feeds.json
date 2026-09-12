@@ -1,6 +1,15 @@
 {
-  "updated": "12 Sep 2026, 13:20 UTC",
+  "updated": "12 Sep 2026, 16:44 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists find Ozempic may slow aging itself",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260911214238.htm",
+      "date": "12 Sep 2026",
+      "excerpt": "Semaglutide helped older healthy mice live longer while improving memory, muscle function, blood sugar control, and several biological signs of aging. Its effects went beyond those seen with calorie restriction, raising the possibility that",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/09/260904000308.htm",
       "date": "4 Sep 2026",
       "excerpt": "UCLA researchers have discovered two powerful influences that help guide how the human brain forms before birth. Radial glia, stem cells responsible for producing much of the cerebral cortex, change their behavior depending on how they proc",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This lifestyle program improved cognition 55% more than basic health advice",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260903064246.htm",
-      "date": "6 Sep 2026",
-      "excerpt": "Older adults at risk of dementia improved their memory and thinking after following lifestyle programs combining exercise, healthy eating, cognitive training, and social engagement. Those who received regular coaching and structured support",
       "image": ""
     },
     {
