@@ -1,6 +1,15 @@
 {
-  "updated": "13 Sep 2026, 03:11 UTC",
+  "updated": "13 Sep 2026, 14:03 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists find a new layer of Alzheimer’s hidden in the genome",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260912220051.htm",
+      "date": "13 Sep 2026",
+      "excerpt": "Scientists found that the 3D organization of DNA is disrupted in several types of brain cells affected by Alzheimer’s disease, altering how important genes are switched on and off. The discovery reveals a previously underexplored layer of t",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/09/260904000320.htm",
       "date": "4 Sep 2026",
       "excerpt": "Slow breathing with a prolonged exhale made people more willing to take risks by changing heart activity and increasing the brain’s sensitivity to rewards. The findings suggest that something as simple as controlling your breath can directl",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists reveal the hidden instructions that build the human brain",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260904000308.htm",
-      "date": "4 Sep 2026",
-      "excerpt": "UCLA researchers have discovered two powerful influences that help guide how the human brain forms before birth. Radial glia, stem cells responsible for producing much of the cerebral cortex, change their behavior depending on how they proc",
       "image": ""
     },
     {
@@ -148,6 +148,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
+      "link": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Sep 2026",
+      "excerpt": "It comes as the AI firm's boss has called for the technology's development to be slowed down, citing \"serious\" risks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09f1/live/aaa670e0-af38-11f1-a540-61c3f7fc4e6c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
+      "link": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Sep 2026",
+      "excerpt": "A recent spate of stark warnings about the dangers of AI has been met with scepticism by executives and investors.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/203a/live/5d11e480-ae26-11f1-a540-61c3f7fc4e6c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+      "link": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+      "date": "12 Sep 2026",
+      "excerpt": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9256/live/a1802a30-aeb9-11f1-b1d1-571ed4d7ff2c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "US prices remain high as fuel costs squeeze household budgets",
       "link": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&at_campaign=rss",
       "date": "11 Sep 2026",
@@ -171,33 +198,6 @@
       "date": "12 Sep 2026",
       "excerpt": "Consumer group Which? has called the sale of jack mackerel, a cheaper, less nutritious species of fish, an example of \"skimpflation\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0d0/live/06b5b760-aeb2-11f1-ae38-d350b022f499.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Interest rates could rise again across the world – here's why",
-      "link": "https://www.bbc.co.uk/news/articles/cew9nkx7v9eo?at_medium=RSS&at_campaign=rss",
-      "date": "11 Sep 2026",
-      "excerpt": "As countries grapple with energy costs pushing up inflation, this month will see how central banks respond.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6586/live/365b8a30-ad4a-11f1-8963-d14e6edce0d0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI boom helps drive surprise UK growth in July",
-      "link": "https://www.bbc.co.uk/news/articles/cq5xjlvn71lo?at_medium=RSS&at_campaign=rss",
-      "date": "11 Sep 2026",
-      "excerpt": "The economy expanded by 0.4%, official figures show, whereas analysts had predicted no growth.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e509/live/199aa930-adb8-11f1-a540-61c3f7fc4e6c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Can Europe recharge its battery industry?",
-      "link": "https://www.bbc.co.uk/news/articles/cjeg8ly0qd3o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Sep 2026",
-      "excerpt": "Europe has some promising battery tech, but can it make up ground lost to Chinese battery giants?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac3e/live/cd5970d0-acf2-11f1-a540-61c3f7fc4e6c.jpg"
     }
   ]
 }
