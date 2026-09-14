@@ -1,6 +1,15 @@
 {
-  "updated": "14 Sep 2026, 09:33 UTC",
+  "updated": "14 Sep 2026, 16:08 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Hidden brain wiring may help keep the mind sharp as gray matter shrinks",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260913081921.htm",
+      "date": "14 Sep 2026",
+      "excerpt": "Scientists have discovered that the brain’s short-range wiring may help protect cognition even as gray matter shrinks with age. Healthier connections just beneath the brain’s surface were linked to better language skills and appeared to wea",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A longer exhale may push your brain toward bolder decisions",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260904000320.htm",
-      "date": "4 Sep 2026",
-      "excerpt": "Slow breathing with a prolonged exhale made people more willing to take risks by changing heart activity and increasing the brain’s sensitivity to rewards. The findings suggest that something as simple as controlling your breath can directl",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Leaders, Don’t Let Your Jokes Fall Flat",
+      "link": "/2026/09/leaders-dont-let-your-jokes-fall-flat",
+      "date": "14 Sep 2026",
+      "excerpt": "Research highlights three things to keep in mind before you make that quip.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Stop Automating Old Processes. Design New Ones Instead.",
+      "link": "/2026/09/stop-automating-old-processes-design-new-ones-instead",
+      "date": "14 Sep 2026",
+      "excerpt": "Leaders need to rethink workflows before introducing AI.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When Persuasion Is (and Isn’t) Manipulation",
+      "link": "/2026/09/when-persuasion-is-and-isnt-manipulation",
+      "date": "14 Sep 2026",
+      "excerpt": "A Q&#38;A with Colin Marshall, author of a new book about how to ethically and effectively change minds.",
       "image": ""
     },
     {
@@ -119,40 +146,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Welcome to AI Autumn",
-      "link": "/2026/09/welcome-to-ai-autumn",
-      "date": "8 Sep 2026",
-      "excerpt": "In the September 7 edition of The Insider newsletter, managing editor Gretchen Gavett writes on what&#8217;s next for HBR&#8217;s coverage of AI, shares new insights about blue ocean strategy, and more.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Is Your AI Training the Competition?",
-      "link": "/2026/09/is-your-ai-training-the-competition",
-      "date": "8 Sep 2026",
-      "excerpt": "Standard AI safeguards may fail to protect one of your company&#8217;s most valuable assets.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "A Leading Restaurateur on What It Takes to Scale a Winning Culture",
-      "link": "/podcast/2026/09/a-leading-restaurateur-on-what-it-takes-to-scale-a-winning-culture",
-      "date": "8 Sep 2026",
-      "excerpt": "A conversation with Shake Shack founder Danny Meyer on the principles he sticks to when growing an organization.",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'Culture shift' needed in how UK does business, PM urges",
-      "link": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
+      "title": "Petrol and diesel prices hit highest since 2022",
+      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
       "date": "14 Sep 2026",
-      "excerpt": "Burnham has said those who take risks should be backed by government, but his government has been criticised for increasing business costs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa04/live/90cf5970-af92-11f1-9dc8-673e33e35c20.jpg"
+      "excerpt": "The cost of filling up a vehicle has rebounded, according to the RAC, as oil prices remain elevated.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8143/live/f8d0c8b0-7572-11f1-b976-0b9c15b0ccfc.jpg"
     },
     {
       "source": "BBC Business",
@@ -175,20 +175,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Carney gambles on the world's biggest investors betting on Canada",
-      "link": "https://www.bbc.co.uk/news/articles/c0m3neyyzm7o?at_medium=RSS&at_campaign=rss",
-      "date": "13 Sep 2026",
-      "excerpt": "In the midst of a trade war with the US, the prime minister leveraged his connections in global finance to invite some of the world's biggest investors to Canada.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b067/live/866137e0-adff-11f1-b1d1-571ed4d7ff2c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Amazon pauses work with cargo firm after fatal crash",
-      "link": "https://www.bbc.co.uk/news/articles/cx2zg554w9ko?at_medium=RSS&at_campaign=rss",
+      "title": "'Culture shift' needed in how UK does business, PM urges",
+      "link": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
       "date": "14 Sep 2026",
-      "excerpt": "The 21 Air-operated jet overshot a runway at Miami International Airport and hit several vehicles.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e20/live/5e01de50-afdd-11f1-85da-1d41c9633ce8.jpg"
+      "excerpt": "Burnham says those who take risks should be backed by government, but his government has been criticised for increasing business costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa04/live/90cf5970-af92-11f1-9dc8-673e33e35c20.jpg"
     },
     {
       "source": "BBC Business",
@@ -198,6 +189,15 @@
       "date": "14 Sep 2026",
       "excerpt": "Existing laws are not equipped to address the risks to human rights being posed by artificial intelligence, UK politicians say.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd58/live/06bec250-b016-11f1-a540-61c3f7fc4e6c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Carney gambles on the world's biggest investors betting on Canada",
+      "link": "https://www.bbc.co.uk/news/articles/c0m3neyyzm7o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Sep 2026",
+      "excerpt": "In the midst of a trade war with the US, the prime minister leveraged his connections in global finance to invite some of the world's biggest investors to Canada.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b067/live/866137e0-adff-11f1-b1d1-571ed4d7ff2c.jpg"
     }
   ]
 }
