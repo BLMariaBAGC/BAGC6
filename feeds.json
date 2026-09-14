@@ -1,5 +1,5 @@
 {
-  "updated": "14 Sep 2026, 16:08 UTC",
+  "updated": "14 Sep 2026, 21:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder says",
+      "link": "https://www.bbc.co.uk/news/articles/cqgk5e2j0gg8o?at_medium=RSS&at_campaign=rss",
+      "date": "14 Sep 2026",
+      "excerpt": "Jack Clark says \"most labs have different ways of being able to pull the plug\", but says this may need to be a requirement.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33f7/live/2a9699c0-b06e-11f1-b1d1-571ed4d7ff2c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Government set to nationalise troubled steel firm",
+      "link": "https://www.bbc.co.uk/news/articles/cm9w47ngje9no?at_medium=RSS&at_campaign=rss",
+      "date": "14 Sep 2026",
+      "excerpt": "Production at SSUK sites in South Yorkshire and the West Midlands was paused earlier this year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/383f/live/2ff2a330-b057-11f1-9902-771b6dd8af6a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Petrol and diesel prices hit highest since 2022",
       "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
       "date": "14 Sep 2026",
@@ -170,7 +188,7 @@
       "link": "https://www.bbc.co.uk/news/articles/czezwd6xw0zo?at_medium=RSS&at_campaign=rss",
       "date": "14 Sep 2026",
       "excerpt": "What should new students consider to keep your belongings safe and covered by insurance?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2700/live/2436c9d0-adf1-11f1-ad53-0d91a06f3150.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69c0/live/560bcdd0-b05c-11f1-a540-61c3f7fc4e6c.jpg"
     },
     {
       "source": "BBC Business",
@@ -180,24 +198,6 @@
       "date": "14 Sep 2026",
       "excerpt": "Burnham says those who take risks should be backed by government, but his government has been criticised for increasing business costs.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa04/live/90cf5970-af92-11f1-9dc8-673e33e35c20.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "MPs and Lords call for new law to address AI threat to human rights",
-      "link": "https://www.bbc.co.uk/news/articles/cwyzvgj70y4o?at_medium=RSS&at_campaign=rss",
-      "date": "14 Sep 2026",
-      "excerpt": "Existing laws are not equipped to address the risks to human rights being posed by artificial intelligence, UK politicians say.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd58/live/06bec250-b016-11f1-a540-61c3f7fc4e6c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Carney gambles on the world's biggest investors betting on Canada",
-      "link": "https://www.bbc.co.uk/news/articles/c0m3neyyzm7o?at_medium=RSS&at_campaign=rss",
-      "date": "13 Sep 2026",
-      "excerpt": "In the midst of a trade war with the US, the prime minister leveraged his connections in global finance to invite some of the world's biggest investors to Canada.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b067/live/866137e0-adff-11f1-b1d1-571ed4d7ff2c.jpg"
     }
   ]
 }
