@@ -1,5 +1,5 @@
 {
-  "updated": "15 Sep 2026, 20:53 UTC",
+  "updated": "15 Sep 2026, 23:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,42 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Complaints to watchdog about water firms jump 84%",
+      "link": "https://www.bbc.co.uk/news/articles/cjy5z9l0395ro?at_medium=RSS&at_campaign=rss",
+      "date": "15 Sep 2026",
+      "excerpt": "Many complaints were about affordability, after customers saw steep hikes to bills.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/082a/live/80a19f50-b103-11f1-a451-6b1ff10ed362.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Nvidia boss says AI 'doesn't need new laws' as safety concerns grow",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Sep 2026",
+      "excerpt": "Jensen Huang's stance on AI safety contrasts with several current and former employees of AI-focused firm",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6b4/live/8aa4e810-b14c-11f1-a383-57f33d64a166.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK in talks about joining global defence bank led by Canada",
+      "link": "https://www.bbc.co.uk/news/articles/c6e30e98v7j1o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Sep 2026",
+      "excerpt": "Supporters of the scheme say the bank would enable governments to get cheaper loans to spend on defence projects.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/96d0/live/1ab4a860-b160-11f1-84df-a1b833410ec4.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "We are all new job starters - here's how we got through the first few days",
+      "link": "https://www.bbc.co.uk/news/articles/cm2qn163053o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Sep 2026",
+      "excerpt": "Four recent job starters share their tips on what helped them have a smooth transition and survive their first few days.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f76/live/ed4dd290-b126-11f1-b1d1-571ed4d7ff2c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "US borrowing costs hit highest level since 2007",
       "link": "https://www.bbc.co.uk/news/articles/cw804154z90ko?at_medium=RSS&at_campaign=rss",
       "date": "15 Sep 2026",
@@ -148,47 +184,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "State pension likely to top £13,000 a year as UK wage growth slows to 3.9%",
-      "link": "https://www.bbc.co.uk/news/articles/c2l8v7l0djqo?at_medium=RSS&at_campaign=rss",
+      "title": "The extreme engineering of aircraft windows",
+      "link": "https://www.bbc.co.uk/news/articles/c0lr69zeyrwo?at_medium=RSS&at_campaign=rss",
       "date": "15 Sep 2026",
-      "excerpt": "The rise has reignited the debate about the state pension's long-term affordability and generational fairness.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fa5/live/91781d40-b0ea-11f1-a540-61c3f7fc4e6c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
-      "link": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss",
-      "date": "15 Sep 2026",
-      "excerpt": "The US president's comments come after Anthropic co-founder Jack Clark told the BBC an AI \"kill switch\" may need to be mandatory.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c7fc/live/b2c645c0-b104-11f1-a540-61c3f7fc4e6c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I got paid $5,000 to move to a place I'd never heard of",
-      "link": "https://www.bbc.co.uk/news/articles/c3eq7485kewo?at_medium=RSS&at_campaign=rss",
-      "date": "14 Sep 2026",
-      "excerpt": "Relocation schemes offer support for people who want to swap big cities for a cheaper, quieter life.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6aca/live/2f2837d0-b016-11f1-b1d1-571ed4d7ff2c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells BBC",
-      "link": "https://www.bbc.co.uk/news/articles/cqgk5e2j0gg8o?at_medium=RSS&at_campaign=rss",
-      "date": "15 Sep 2026",
-      "excerpt": "US President Donald Trump dismisses calls to slow the development of AI, saying that claims of it \"taking over the World\" are a \"HOAX\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33f7/live/2a9699c0-b06e-11f1-b1d1-571ed4d7ff2c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Pubs in England and Wales to allow digital ID apps to prove age",
-      "link": "https://www.bbc.co.uk/news/articles/cm4gl6j53w19o?at_medium=RSS&at_campaign=rss",
-      "date": "14 Sep 2026",
-      "excerpt": "New rules introduced on Tuesday mean establishments will be able to accept digital ID apps alongside physical documents.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8927/live/27ccb940-b04b-11f1-89e4-0bbff5cb7e23.jpg"
+      "excerpt": "Few companies have the technology to make aircraft windows which are getting harder to make.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a08/live/b975d4a0-ac34-11f1-b1d1-571ed4d7ff2c.jpg"
     }
   ]
 }
