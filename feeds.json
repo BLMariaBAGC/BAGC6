@@ -1,5 +1,5 @@
 {
-  "updated": "15 Sep 2026, 17:55 UTC",
+  "updated": "15 Sep 2026, 20:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US borrowing costs hit highest level since 2007",
+      "link": "https://www.bbc.co.uk/news/articles/cw804154z90ko?at_medium=RSS&at_campaign=rss",
+      "date": "15 Sep 2026",
+      "excerpt": "The effective interest rate on US government bonds over 10 years, known as the 10-year Treasury yield, has risen as high as 5.04% but has eased back since.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0838/live/ae2bcee0-b12c-11f1-b199-f1c9bc04a179.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "State pension likely to top £13,000 a year as UK wage growth slows to 3.9%",
       "link": "https://www.bbc.co.uk/news/articles/c2l8v7l0djqo?at_medium=RSS&at_campaign=rss",
       "date": "15 Sep 2026",
@@ -180,15 +189,6 @@
       "date": "14 Sep 2026",
       "excerpt": "New rules introduced on Tuesday mean establishments will be able to accept digital ID apps alongside physical documents.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8927/live/27ccb940-b04b-11f1-89e4-0bbff5cb7e23.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI regulation faces political deadlock as calls grow for Congress to act",
-      "link": "https://www.bbc.co.uk/news/articles/ck20989806e9o?at_medium=RSS&at_campaign=rss",
-      "date": "15 Sep 2026",
-      "excerpt": "With Trump opposed and Congress divided, new safety legislation on AI is unlikely to pass anytime soon despite mounting pressure.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cc0/live/aa535ba0-b0a8-11f1-bc1f-3f186ca4140c.jpg"
     }
   ]
 }
