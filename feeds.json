@@ -1,6 +1,24 @@
 {
-  "updated": "15 Sep 2026, 13:07 UTC",
+  "updated": "15 Sep 2026, 17:55 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Smelling chocolate helped men complete more reps without feeling more tired",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260914102445.htm",
+      "date": "15 Sep 2026",
+      "excerpt": "Simply smelling chocolate helped men complete more leg extension repetitions without making the workout feel harder, with dark chocolate producing the strongest effect. The researchers think familiar food aromas may influence appetite and m",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a major brain shift between ages 50 and 75",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260914102441.htm",
+      "date": "15 Sep 2026",
+      "excerpt": "Scientists have uncovered sweeping changes in how the human brain controls and organizes its genome beginning in midlife, offering new clues to why aging sharply increases the risk of Alzheimer’s and other neurodegenerative diseases. One of",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists say love follows hidden mathematical rules",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260906170140.htm",
-      "date": "7 Sep 2026",
-      "excerpt": "Could math help explain why some relationships survive life’s inevitable stresses while others slowly fall apart? Researchers have spent decades developing mathematical models that treat romantic feelings as changing systems, revealing patt",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Popular brain supplement linked to shorter lifespan in men",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260904000330.htm",
-      "date": "6 Sep 2026",
-      "excerpt": "A large study involving more than 270,000 people has linked higher blood levels of the amino acid tyrosine to a shorter lifespan in men. Using both observational data and genetic analysis, researchers found that elevated tyrosine could pote",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Is Your Strategy Ambitious Enough?",
+      "link": "/2026/09/is-your-strategy-ambitious-enough",
+      "date": "15 Sep 2026",
+      "excerpt": "In the September 14 edition of The Insider newsletter, managing editor Gretchen Gavett writes on how to calibrate your strategy&#8217;s ambition, the risks of &#8220;AI Sherlocking,&#8221; and more.",
       "image": ""
     },
     {
@@ -125,24 +134,6 @@
       "link": "/2026/09/when-persuasion-is-and-isnt-manipulation",
       "date": "14 Sep 2026",
       "excerpt": "A Q&#38;A with Colin Marshall, author of a new book about how to ethically and effectively change minds.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Business Leaders Still Don’t Understand About China",
-      "link": "/2026/09/what-business-leaders-still-dont-understand-about-china",
-      "date": "11 Sep 2026",
-      "excerpt": "Harvard Business School professor Willy Shih shares insights for executives at Western companies on how to compete as the pace of innovation in China continues to increase.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Questions You Should Be Asking About the AI Bubble",
-      "link": "/2026/09/the-questions-you-should-be-asking-about-the-ai-bubble",
-      "date": "11 Sep 2026",
-      "excerpt": "What are the characteristics of this capital expenditure boom? What are the macroeconomic risks? And how can you lead through it?",
       "image": ""
     },
     {
