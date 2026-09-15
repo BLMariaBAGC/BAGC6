@@ -1,5 +1,5 @@
 {
-  "updated": "14 Sep 2026, 21:28 UTC",
+  "updated": "15 Sep 2026, 00:16 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,11 +148,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder says",
+      "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells BBC",
       "link": "https://www.bbc.co.uk/news/articles/cqgk5e2j0gg8o?at_medium=RSS&at_campaign=rss",
       "date": "14 Sep 2026",
       "excerpt": "Jack Clark says \"most labs have different ways of being able to pull the plug\", but says this may need to be a requirement.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33f7/live/2a9699c0-b06e-11f1-b1d1-571ed4d7ff2c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I got paid $5,000 to move to a place I'd never heard of",
+      "link": "https://www.bbc.co.uk/news/articles/c3eq7485kewo?at_medium=RSS&at_campaign=rss",
+      "date": "14 Sep 2026",
+      "excerpt": "Relocation schemes offer support for people who want to swap big cities for a cheaper, quieter life.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6aca/live/2f2837d0-b016-11f1-b1d1-571ed4d7ff2c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Pubs in England and Wales to allow digital ID apps to prove age",
+      "link": "https://www.bbc.co.uk/news/articles/cm4gl6j53w19o?at_medium=RSS&at_campaign=rss",
+      "date": "14 Sep 2026",
+      "excerpt": "New rules introduced on Tuesday mean establishments will be able to accept digital ID apps alongside physical documents.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8927/live/27ccb940-b04b-11f1-89e4-0bbff5cb7e23.jpg"
     },
     {
       "source": "BBC Business",
@@ -175,29 +193,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Rent rises set to speed up in gloomy forecast for tenants",
-      "link": "https://www.bbc.co.uk/news/articles/c4gqjv476qeo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Sep 2026",
-      "excerpt": "The cost of renting is expected to rise by 4% or 5% a year by December, says property website Zoopla.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2907/live/80eef250-b00e-11f1-a540-61c3f7fc4e6c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Heading off to uni? Here's what to insure against theft",
-      "link": "https://www.bbc.co.uk/news/articles/czezwd6xw0zo?at_medium=RSS&at_campaign=rss",
+      "title": "Pubs, hotels and gyms in Wales to get 30% business rates cut",
+      "link": "https://www.bbc.co.uk/news/articles/c6n9w87ejqn2o?at_medium=RSS&at_campaign=rss",
       "date": "14 Sep 2026",
-      "excerpt": "What should new students consider to keep your belongings safe and covered by insurance?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69c0/live/560bcdd0-b05c-11f1-a540-61c3f7fc4e6c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'Culture shift' needed in how UK does business, PM urges",
-      "link": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
-      "date": "14 Sep 2026",
-      "excerpt": "Burnham says those who take risks should be backed by government, but his government has been criticised for increasing business costs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa04/live/90cf5970-af92-11f1-9dc8-673e33e35c20.jpg"
+      "excerpt": "The cuts comes into effect in April, but the largest businesses will pay higher rates to fund the changes.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c736/live/8f2be3c0-b070-11f1-9819-95a805e73cfa.png"
     }
   ]
 }
