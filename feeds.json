@@ -1,5 +1,5 @@
 {
-  "updated": "16 Sep 2026, 16:08 UTC",
+  "updated": "16 Sep 2026, 20:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Research: Gen AI Is Collapsing Creative Processes",
+      "link": "/2026/09/research-gen-ai-is-collapsing-creative-processes",
+      "date": "16 Sep 2026",
+      "excerpt": "A year-long study found that while the technology can speed up work, it can also lead to unrealistic client expectations and costly reworks.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Will Your Organization Stand By Its Values—Even When It’s Hard?",
+      "link": "/2026/09/will-your-organization-stand-by-its-values-even-when-its-hard",
+      "date": "16 Sep 2026",
+      "excerpt": "The real test of organizational values comes when upholding them carries a cost.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "When There’s More Work Than Your Team Can Handle",
       "link": "/2026/09/when-theres-more-work-than-your-team-can-handle",
       "date": "16 Sep 2026",
@@ -119,24 +137,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Leaders, Don’t Let Your Jokes Fall Flat",
-      "link": "/2026/09/leaders-dont-let-your-jokes-fall-flat",
-      "date": "14 Sep 2026",
-      "excerpt": "Research highlights three things to keep in mind before you make that quip.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Stop Automating Old Processes. Design New Ones Instead.",
-      "link": "/2026/09/stop-automating-old-processes-design-new-ones-instead",
-      "date": "14 Sep 2026",
-      "excerpt": "Leaders need to rethink workflows before introducing AI.",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Petrol and diesel price rises push UK inflation higher",
@@ -175,20 +175,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK in talks about joining global defence bank led by Canada",
-      "link": "https://www.bbc.co.uk/news/articles/c6e30e98v7j1o?at_medium=RSS&at_campaign=rss",
-      "date": "15 Sep 2026",
-      "excerpt": "Supporters of the scheme say the bank would enable governments to get cheaper loans to spend on defence projects.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d8d/live/97804d80-b189-11f1-8867-6b6a7f037413.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "The extreme engineering of aircraft windows",
       "link": "https://www.bbc.co.uk/news/articles/c0lr69zeyrwo?at_medium=RSS&at_campaign=rss",
       "date": "15 Sep 2026",
       "excerpt": "Few companies have the technology to make aircraft windows which are getting harder to make.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a08/live/b975d4a0-ac34-11f1-b1d1-571ed4d7ff2c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK in talks about joining global defence bank led by Canada",
+      "link": "https://www.bbc.co.uk/news/articles/c6e30e98v7j1o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Sep 2026",
+      "excerpt": "Supporters of the scheme say the bank would enable governments to get cheaper loans to spend on defence projects.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d8d/live/97804d80-b189-11f1-8867-6b6a7f037413.jpg"
     }
   ]
 }
