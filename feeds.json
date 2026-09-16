@@ -1,6 +1,15 @@
 {
-  "updated": "16 Sep 2026, 10:50 UTC",
+  "updated": "16 Sep 2026, 16:08 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists recreated what mice saw from brain activity alone",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260914102449.htm",
+      "date": "16 Sep 2026",
+      "excerpt": "Scientists reconstructed videos from the brain activity of mice, producing 10-second clips based only on signals from neurons in the visual cortex. The breakthrough could help reveal how the brain reshapes what we see before it becomes our ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your personality may be more genetic than scientists realized",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260907201554.htm",
-      "date": "8 Sep 2026",
-      "excerpt": "More than 1,200 genetic variants have been linked to the Big Five personality traits, and many of the same variants are also associated with health, longevity, careers, income, and everyday habits. The findings reveal a surprisingly wide ge",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When There’s More Work Than Your Team Can Handle",
+      "link": "/2026/09/when-theres-more-work-than-your-team-can-handle",
+      "date": "16 Sep 2026",
+      "excerpt": "Leaders can&#8217;t simply absorb the extra work or push an already-overextended team harder.",
       "image": ""
     },
     {
@@ -128,22 +137,22 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When Persuasion Is (and Isn’t) Manipulation",
-      "link": "/2026/09/when-persuasion-is-and-isnt-manipulation",
-      "date": "14 Sep 2026",
-      "excerpt": "A Q&#38;A with Colin Marshall, author of a new book about how to ethically and effectively change minds.",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Petrol and diesel price rises push UK inflation higher",
       "link": "https://www.bbc.co.uk/news/articles/cv2dw7lw4rkpo?at_medium=RSS&at_campaign=rss",
       "date": "16 Sep 2026",
       "excerpt": "Summer holidays and disruption to global oil supplies by the Middle East conflict stoked price growth.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a3a/live/86274ed0-b102-11f1-a451-6b1ff10ed362.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d847/live/6dc55eb0-b1be-11f1-b1d1-571ed4d7ff2c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Henry Zeffman: Andy Burnham and his chancellor have a battle on their hands as the Budget approaches",
+      "link": "https://www.bbc.co.uk/news/articles/cwp93jp4p7xpo?at_medium=RSS&at_campaign=rss",
+      "date": "16 Sep 2026",
+      "excerpt": "The Budget is only six weeks away and the economy is undoubtedly the biggest challenge facing the prime minister.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a48e/live/4c8ed8e0-b1d0-11f1-8493-1910d79d53eb.png"
     },
     {
       "source": "BBC Business",
@@ -162,15 +171,6 @@
       "date": "16 Sep 2026",
       "excerpt": "Four recent job starters share their tips on what helped them have a smooth transition and survive their first few days.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f50f/live/a014dc20-b1b3-11f1-b1d1-571ed4d7ff2c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Complaints to watchdog about water firms soar",
-      "link": "https://www.bbc.co.uk/news/articles/cjy5z9l0395ro?at_medium=RSS&at_campaign=rss",
-      "date": "16 Sep 2026",
-      "excerpt": "Many complaints were about affordability, after customers saw steep hikes to bills.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/082a/live/80a19f50-b103-11f1-a451-6b1ff10ed362.jpg"
     },
     {
       "source": "BBC Business",
