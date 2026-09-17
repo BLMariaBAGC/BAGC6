@@ -1,6 +1,15 @@
 {
-  "updated": "17 Sep 2026, 13:02 UTC",
+  "updated": "17 Sep 2026, 17:55 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Textbooks may have misdrawn this basic brain structure for 100 years",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260915232138.htm",
+      "date": "17 Sep 2026",
+      "excerpt": "Scientists discovered that brain-cell axons may not be smooth tubes as textbooks have shown for more than a century, but instead naturally resemble strings of tiny pearls. Those pearl-like structures can change with neural activity and may ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,39 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Study of 1.9 million people finds a striking link between ADHD and gut problems",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260911003840.htm",
-      "date": "11 Sep 2026",
-      "excerpt": "Researchers analyzing data from more than 1.9 million people found that ADHD is associated with substantially higher rates of digestive problems. People with ADHD had nearly double the odds of constipation, 58% higher odds of irritable bowe",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What Leaders Need to Know About AI and Psychological Safety",
+      "link": "/2026/09/what-leaders-need-to-know-about-ai-and-psychological-safety",
+      "date": "17 Sep 2026",
+      "excerpt": "Four patterns to watch out for.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How AI Is Changing Talent, Not Just Tasks: Rethinking Where Human Judgment Matters Most",
+      "link": "/podcast/2026/09/how-ai-is-changing-talent-not-just-tasks-rethinking-where-human-judgment-matters-most",
+      "date": "17 Sep 2026",
+      "excerpt": "A conversation with Salesforce&#8217;s Paula Goldman about how AI is rewriting the talent playbook.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Hidden Costs of Monitoring Employees with AI",
+      "link": "/2026/09/the-hidden-costs-of-monitoring-employees-with-ai",
+      "date": "17 Sep 2026",
+      "excerpt": "Workplace surveillance tools are more accessible than ever. That&#8217;s exactly why leaders need to think harder about whether to use them.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: Work Stress Isn’t Always About Workload",
+      "link": "/2026/09/research-work-stress-isnt-always-about-workload",
+      "date": "17 Sep 2026",
+      "excerpt": "Ambiguity, conflict, and overload are all contributing factors&#8212;and each demands a different response from leadership.",
       "image": ""
     },
     {
@@ -101,54 +137,18 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Is Your Strategy Ambitious Enough?",
-      "link": "/2026/09/is-your-strategy-ambitious-enough",
-      "date": "15 Sep 2026",
-      "excerpt": "In the September 14 edition of The Insider newsletter, managing editor Gretchen Gavett writes on how to calibrate your strategy&#8217;s ambition, the risks of &#8220;AI Sherlocking,&#8221; and more.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "You Think You’re a Good Collaborator. Do the People You Manage Agree?",
-      "link": "/2026/09/you-think-youre-a-good-collaborator-do-the-people-you-manage-agree",
-      "date": "15 Sep 2026",
-      "excerpt": "Dominating conversations and micromanaging can derail leaders&#8217; efforts to be a team player.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How GEO Is Changing the Role of Brand Manager",
-      "link": "/podcast/2026/09/how-geo-is-changing-the-role-of-brand-manager",
-      "date": "15 Sep 2026",
-      "excerpt": "As AI increasingly mediates what consumers know, consider, and buy, how does a company&#8217;s marketing strategy have to change?",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What It Takes to Make Progress When the Future Feels Out of Control",
-      "link": "/podcast/2026/09/what-it-takes-to-make-progress-when-the-future-feels-out-of-control",
-      "date": "15 Sep 2026",
-      "excerpt": "A conversation with psychologist Martin Seligman on the power of agency in building a positive work culture.",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Interest rates held but Bank signals rise if energy prices stay high",
       "link": "https://www.bbc.co.uk/news/articles/cm4gjrxez1q0o?at_medium=RSS&at_campaign=rss",
       "date": "17 Sep 2026",
-      "excerpt": "Rates are held for the sixth time in a row but the Bank says they are likely to rise if high energy prices continue.",
+      "excerpt": "Rates are held for the sixth time in a row but the Bank of England says high energy prices make a future rise more likely.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a70/live/ce050920-b28f-11f1-8096-b33a1297275a.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Barclays staff push back at plans to reduce work-from-home days",
+      "title": "Barclays workers ask for more money to return to the office",
       "link": "https://www.bbc.co.uk/news/articles/cqlym1n9kpyvo?at_medium=RSS&at_campaign=rss",
       "date": "17 Sep 2026",
       "excerpt": "Unite union, which represents 36,000 Barclays staff, calls for a one-off payment to offset increased travel and childcare costs.",
@@ -166,20 +166,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Would you buy branded clothing from your favourite tech firm?",
-      "link": "https://www.bbc.co.uk/news/articles/cgqd9zkkvlyo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Sep 2026",
-      "excerpt": "Nvidia, OpenAI and Anthropic are all now selling their own limited edition fashion lines.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14e5/live/9ccd08c0-a76e-11f1-b109-879e35c24276.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Uncontrolled AI could lead to 'silicon species' rivalling humans, warns Microsoft",
       "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
       "date": "17 Sep 2026",
       "excerpt": "Mustafa Suleyman says he believes rival AI firm Anthropic is in effect teaching Claude it \"may be conscious\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4c4/live/26db17d0-b270-11f1-a430-4d16ee157c41.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Would you buy branded clothing from your favourite tech firm?",
+      "link": "https://www.bbc.co.uk/news/articles/cgqd9zkkvlyo?at_medium=RSS&at_campaign=rss",
+      "date": "16 Sep 2026",
+      "excerpt": "Nvidia, OpenAI and Anthropic are all now selling their own limited edition fashion lines.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14e5/live/9ccd08c0-a76e-11f1-b109-879e35c24276.jpg"
     },
     {
       "source": "BBC Business",
