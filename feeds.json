@@ -1,5 +1,5 @@
 {
-  "updated": "17 Sep 2026, 07:09 UTC",
+  "updated": "17 Sep 2026, 13:02 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,47 +139,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Interest rates hold expected but Bank of England facing tough choices",
+      "title": "Interest rates held but Bank signals rise if energy prices stay high",
       "link": "https://www.bbc.co.uk/news/articles/cm4gjrxez1q0o?at_medium=RSS&at_campaign=rss",
       "date": "17 Sep 2026",
-      "excerpt": "Forecasts of further rises in the inflation rate mean some analysts expect the Bank to act by the end of the year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a58a/live/dab4a350-b1be-11f1-bdcf-d393eb724fa3.jpg"
+      "excerpt": "Rates are held for the sixth time in a row but the Bank says they are likely to rise if high energy prices continue.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a70/live/ce050920-b28f-11f1-8096-b33a1297275a.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Tech treating AI like humans is mistaken and misguided, Microsoft boss tells BBC",
-      "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
+      "title": "Barclays staff push back at plans to reduce work-from-home days",
+      "link": "https://www.bbc.co.uk/news/articles/cqlym1n9kpyvo?at_medium=RSS&at_campaign=rss",
       "date": "17 Sep 2026",
-      "excerpt": "Mustafa Suleyman says he believes rival AI firm Anthropic is in effect teaching Claude it \"may be conscious\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77d3/live/116815e0-b25e-11f1-81c2-17e97ccb67a1.jpg"
+      "excerpt": "Unite union, which represents 36,000 Barclays staff, calls for a one-off payment to offset increased travel and childcare costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c4b/live/ea69b660-b28f-11f1-8096-b33a1297275a.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US interest rates raised for first time in three years",
-      "link": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
-      "date": "17 Sep 2026",
-      "excerpt": "Rates were hiked in a unanimous decision despite fierce opposition from President Donald Trump, who had called for a cut.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4317/live/97f51f30-b214-11f1-95f2-19e1a2e8eef2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "OpenAI reveals six more safety issues and unveils plan to disclose incidents",
-      "link": "https://www.bbc.co.uk/news/articles/cmpq0wj5g899o?at_medium=RSS&at_campaign=rss",
-      "date": "17 Sep 2026",
-      "excerpt": "The firm also announced a new system to track, investigate and disclose cases of models misbehaving, or \"misalignment\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a25/live/9ebbb350-b238-11f1-9f5d-fbda72f7de0b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I sent 200 DMs to companies - it was awkward but I got a job",
+      "title": "I sent 200 LinkedIn messages and got a job: How to nail networking",
       "link": "https://www.bbc.co.uk/news/articles/c9vgyd02mdvno?at_medium=RSS&at_campaign=rss",
-      "date": "16 Sep 2026",
+      "date": "17 Sep 2026",
       "excerpt": "From coffee chats to LinkedIn messages, here's how to network your way to your next job.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9a6/live/ceaaf840-b1ee-11f1-ac01-a9af2f94b2cc.png"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5553/live/d872bbd0-b27d-11f1-b1d1-571ed4d7ff2c.jpg"
     },
     {
       "source": "BBC Business",
@@ -189,6 +171,24 @@
       "date": "16 Sep 2026",
       "excerpt": "Nvidia, OpenAI and Anthropic are all now selling their own limited edition fashion lines.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14e5/live/9ccd08c0-a76e-11f1-b109-879e35c24276.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Uncontrolled AI could lead to 'silicon species' rivalling humans, warns Microsoft",
+      "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Sep 2026",
+      "excerpt": "Mustafa Suleyman says he believes rival AI firm Anthropic is in effect teaching Claude it \"may be conscious\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4c4/live/26db17d0-b270-11f1-a430-4d16ee157c41.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "OpenAI reveals six more safety issues and unveils plan to disclose incidents",
+      "link": "https://www.bbc.co.uk/news/articles/cmpq0wj5g899o?at_medium=RSS&at_campaign=rss",
+      "date": "17 Sep 2026",
+      "excerpt": "The firm also announced a new system to track, investigate and disclose cases of models misbehaving, or \"misalignment\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a25/live/9ebbb350-b238-11f1-9f5d-fbda72f7de0b.jpg"
     }
   ]
 }
