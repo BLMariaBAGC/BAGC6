@@ -1,5 +1,5 @@
 {
-  "updated": "17 Sep 2026, 23:54 UTC",
+  "updated": "18 Sep 2026, 03:13 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -157,6 +157,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Japan raises interest rate to new 31-year high to curb rising prices",
+      "link": "https://www.bbc.co.uk/news/articles/cqn74jeek06no?at_medium=RSS&at_campaign=rss",
+      "date": "18 Sep 2026",
+      "excerpt": "Central banks around the world have hiked rates as high energy prices are pushing up inflation.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bae8/live/de6aa0d0-b24a-11f1-ad58-cb8b59d51cf1.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Early Bowie music available to stream for first time",
       "link": "https://www.bbc.co.uk/news/articles/cm4gj5z9xvnqo?at_medium=RSS&at_campaign=rss",
       "date": "17 Sep 2026",
@@ -171,15 +180,6 @@
       "date": "17 Sep 2026",
       "excerpt": "Rates are held for the sixth time in a row but the Bank of England says high energy prices make a future rise more likely.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a70/live/ce050920-b28f-11f1-8096-b33a1297275a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Barclays workers ask for more money to return to the office",
-      "link": "https://www.bbc.co.uk/news/articles/cqlym1n9kpyvo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Sep 2026",
-      "excerpt": "Unite union, which represents 36,000 Barclays staff, calls for a one-off payment to offset increased travel and childcare costs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c4b/live/ea69b660-b28f-11f1-8096-b33a1297275a.jpg"
     },
     {
       "source": "BBC Business",
