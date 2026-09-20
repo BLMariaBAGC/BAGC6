@@ -1,5 +1,5 @@
 {
-  "updated": "20 Sep 2026, 20:19 UTC",
+  "updated": "20 Sep 2026, 23:50 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Will you get £13,000 a year when you stop working? Here's how to check",
+      "link": "https://www.bbc.co.uk/news/articles/crq5x74yv6dxo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Sep 2026",
+      "excerpt": "How to find out how much state pension you're likely to receive - and what you can do about it now.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc95/live/6d570970-b2a3-11f1-bd7d-0f16235ccc4c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Billionaire Man United owner loses moral high ground after tax exile, Labour chair says",
       "link": "https://www.bbc.co.uk/news/articles/cm0rexrwjj1vo?at_medium=RSS&at_campaign=rss",
       "date": "20 Sep 2026",
@@ -189,15 +198,6 @@
       "date": "20 Sep 2026",
       "excerpt": "Deputy leader Daisy Cooper also proposes a Growth and Defence Partnership with the EU in a speech to her party conference.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c80/live/a36260c0-b4e5-11f1-88d0-9b6aa3313295.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Billionaire Man United owner says he has lost confidence in the UK",
-      "link": "https://www.bbc.co.uk/news/articles/cm0463619r1no?at_medium=RSS&at_campaign=rss",
-      "date": "18 Sep 2026",
-      "excerpt": "Ineos founder Sir Jim Ratcliffe tells the BBC he thinks the country is \"on the slide\" and calls for more investment in the North Sea.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d178/live/30a2f140-b395-11f1-bf60-ad6e22c4842e.jpg"
     }
   ]
 }
