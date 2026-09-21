@@ -1,5 +1,5 @@
 {
-  "updated": "21 Sep 2026, 16:11 UTC",
+  "updated": "21 Sep 2026, 21:41 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,13 +137,31 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: Work Stress Isn’t Always About Workload",
-      "link": "/2026/09/research-work-stress-isnt-always-about-workload",
-      "date": "17 Sep 2026",
-      "excerpt": "Ambiguity, conflict, and overload are all contributing factors&#8212;and each demands a different response from leadership.",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Paramount settles lawsuit with US states, clearing way for $110bn merger with Warner Bros",
+      "link": "https://www.bbc.co.uk/news/articles/cm4gjr1qepr8o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Sep 2026",
+      "excerpt": "The deal includes an agreement to produce 30 films a year, or Paramount will be forced to sell off parts of its company.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b081/live/0dfb6860-b5ee-11f1-aff1-eb6baa3fda4f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Repeated air traffic control failures leave us in worrying territory",
+      "link": "https://www.bbc.co.uk/news/articles/cmde0pp22r5go?at_medium=RSS&at_campaign=rss",
+      "date": "21 Sep 2026",
+      "excerpt": "The question is whether all of these incidents were isolated and unavoidable, or whether they point to something more systemic.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b31/live/a4cf8470-b5d9-11f1-b1d1-571ed4d7ff2c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Flights at major US airports delayed after cable cut by construction workers",
+      "link": "https://www.bbc.co.uk/news/articles/ckvgyzzgvv4wo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Sep 2026",
+      "excerpt": "Verizon, which owns the cable, says it is working to repair it \"as quickly as possible\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4059/live/5d79f3b0-b5fe-11f1-8545-2d937b40d4bf.jpg"
     },
     {
       "source": "BBC Business",
@@ -151,7 +169,7 @@
       "title": "Airlines criticise air traffic control as second glitch causes more disruption",
       "link": "https://www.bbc.co.uk/news/articles/cqp80p78mxx5o?at_medium=RSS&at_campaign=rss",
       "date": "21 Sep 2026",
-      "excerpt": "Airlines are angry about the delays, with EasyJet saying the latest incident \"once again calls into question the resilience\" of the system.",
+      "excerpt": "Prime Minister Andy Burnham said further issues today \"cause even greater concern\" about the UK's air traffic control and the head of the organisation that runs it.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fc4/live/2a039960-b5d0-11f1-b1d1-571ed4d7ff2c.jpg"
     },
     {
@@ -166,38 +184,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Tories pledge to bring back tax-free shopping for tourists",
-      "link": "https://www.bbc.co.uk/news/articles/cmd68px5qqddo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Sep 2026",
-      "excerpt": "The party says scrapping the scheme in 2021 left the UK less competitive than European destinations.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fb95/live/de334f30-b5a2-11f1-abe6-535e7b14de4c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "UK should 'team up' with Canada in new Europe alliance, Canadian minister tells BBC",
       "link": "https://www.bbc.co.uk/news/articles/cmed7p06epxjo?at_medium=RSS&at_campaign=rss",
       "date": "21 Sep 2026",
       "excerpt": "It comes after European Commission President proposed \"opening the door\" for Canada to become an associate member of the EU.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c51b/live/83c73640-b509-11f1-91cc-c5691e33b858.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US and China discuss AI safety plan ahead of Trump-Xi summit",
-      "link": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Sep 2026",
-      "excerpt": "Top US and Chinese officials held talks in New York on Sunday ahead of a Trump-Xi summit this week.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8242/live/884826e0-b57f-11f1-b53e-014a16f73df2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Will you get £13,000 a year when you stop working? Here's how to check",
-      "link": "https://www.bbc.co.uk/news/articles/crq5x74yv6dxo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Sep 2026",
-      "excerpt": "How to find out how much state pension you're likely to receive - and what you can do about it now.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc95/live/6d570970-b2a3-11f1-bd7d-0f16235ccc4c.jpg"
     }
   ]
 }
