@@ -1,5 +1,5 @@
 {
-  "updated": "21 Sep 2026, 03:20 UTC",
+  "updated": "21 Sep 2026, 09:35 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "UK should 'team up' with Canada in new Europe alliance, Canadian minister tells BBC",
+      "link": "https://www.bbc.co.uk/news/articles/cmed7p06epxjo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Sep 2026",
+      "excerpt": "It comes after European Commission President proposed \"opening the door\" for Canada to become an associate member of the EU.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c51b/live/83c73640-b509-11f1-91cc-c5691e33b858.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US and China discuss AI safety plan ahead of Trump-Xi summit",
+      "link": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Sep 2026",
+      "excerpt": "Top US and Chinese officials held talks in New York on Sunday ahead of a Trump-Xi summit this week.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8242/live/884826e0-b57f-11f1-b53e-014a16f73df2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
       "link": "https://www.bbc.co.uk/news/articles/cr5ye7p13jg7o?at_medium=RSS&at_campaign=rss",
       "date": "21 Sep 2026",
@@ -159,7 +177,7 @@
       "feedId": "bbc",
       "title": "Will you get £13,000 a year when you stop working? Here's how to check",
       "link": "https://www.bbc.co.uk/news/articles/crq5x74yv6dxo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Sep 2026",
+      "date": "21 Sep 2026",
       "excerpt": "How to find out how much state pension you're likely to receive - and what you can do about it now.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc95/live/6d570970-b2a3-11f1-bd7d-0f16235ccc4c.jpg"
     },
@@ -180,24 +198,6 @@
       "date": "20 Sep 2026",
       "excerpt": "Sir Ed blamed Donald Trump's war with Iran for damaging the UK economy and pushing fuel prices up.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a664/live/49258400-b4e2-11f1-bc1f-3f186ca4140c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Not all AI workers think the tech could kill everyone",
-      "link": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo?at_medium=RSS&at_campaign=rss",
-      "date": "19 Sep 2026",
-      "excerpt": "In text exchanges and conversations, multiple people who have worked for leading companies are sceptical of the warnings.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae2c/live/f246e690-b3a3-11f1-84e0-d100e0413eb5.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Chiltern Railways renationalised after 30 years",
-      "link": "https://www.bbc.co.uk/news/articles/c68xk701d975o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Sep 2026",
-      "excerpt": "It joins Great British Railways as part of government plans to save money and improve services.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6a8/live/e6a8b090-b2ac-11f1-bc1f-3f186ca4140c.png"
     }
   ]
 }
