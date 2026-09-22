@@ -1,5 +1,5 @@
 {
-  "updated": "22 Sep 2026, 07:18 UTC",
+  "updated": "22 Sep 2026, 13:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,20 +139,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Borrowing surge puts pressure on chancellor ahead of Budget",
+      "title": "Sir Jim Ratcliffe suspends production at key UK plants blaming high gas prices",
+      "link": "https://www.bbc.co.uk/news/articles/cw305ynd69n6o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Sep 2026",
+      "excerpt": "Ineos said natural gas in the UK is twelve times more expensive than in the US.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e040/live/3904a2b0-b675-11f1-b711-df5e4d50c2fd.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Unexpected UK borrowing surge adds to pre-Budget pressure on chancellor",
       "link": "https://www.bbc.co.uk/news/articles/c68049m18435o?at_medium=RSS&at_campaign=rss",
       "date": "22 Sep 2026",
       "excerpt": "Borrowing was higher than expected in August as inflation piles pressure on the government ahead of the Budget.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a889/live/1fe48770-b5d8-11f1-8c16-65d8f060d73f.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/264a/live/22e11d00-b685-11f1-bc1f-3f186ca4140c.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Vet prescription fees capped under rule changes",
       "link": "https://www.bbc.co.uk/news/articles/cqzjz2gx18ggo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Sep 2026",
+      "date": "22 Sep 2026",
       "excerpt": "Vets must also tell clients if cheaper medicine is available online as part of the rule updates which surgeries have the coming months to bring in.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78b2/live/bfba1130-b64f-11f1-bc1f-3f186ca4140c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
+      "link": "https://www.bbc.co.uk/news/articles/c3wyz2rkgrx0o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Sep 2026",
+      "excerpt": "British Columbia has accused the company of failing to report the shooter's troubling interactions with ChatGPT to law enforcement.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be84/live/b73dbac0-b5ff-11f1-bc1f-3f186ca4140c.jpg"
     },
     {
       "source": "BBC Business",
@@ -166,29 +184,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Paramount settles lawsuit with US states, clearing way for $110bn merger with Warner Bros",
-      "link": "https://www.bbc.co.uk/news/articles/cm4gjr1qepr8o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Sep 2026",
-      "excerpt": "The deal includes an agreement to produce 30 films a year, or Paramount will be forced to sell off parts of its company.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b081/live/0dfb6860-b5ee-11f1-aff1-eb6baa3fda4f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Repeated air traffic control failures leave us in worrying territory",
-      "link": "https://www.bbc.co.uk/news/articles/cmde0pp22r5go?at_medium=RSS&at_campaign=rss",
-      "date": "21 Sep 2026",
-      "excerpt": "The question is whether all of these incidents were isolated and unavoidable, or whether they point to something more systemic.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b31/live/a4cf8470-b5d9-11f1-b1d1-571ed4d7ff2c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Airlines criticise air traffic control as second glitch causes more disruption",
-      "link": "https://www.bbc.co.uk/news/articles/cqp80p78mxx5o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Sep 2026",
-      "excerpt": "Prime Minister Andy Burnham said further issues \"cause even greater concern\" about the UK's air traffic control and the head of the organisation that runs it.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fc4/live/2a039960-b5d0-11f1-b1d1-571ed4d7ff2c.jpg"
+      "title": "Spain battles climate change on several fronts",
+      "link": "https://www.bbc.co.uk/news/articles/cwg59g3vz564o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Sep 2026",
+      "excerpt": "A summer of wildfires and heatwaves underlines the threats to the country's economy.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f5f/live/45cbd1b0-b271-11f1-b1d1-571ed4d7ff2c.jpg"
     }
   ]
 }
