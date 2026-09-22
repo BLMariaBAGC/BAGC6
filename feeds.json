@@ -1,5 +1,5 @@
 {
-  "updated": "21 Sep 2026, 21:41 UTC",
+  "updated": "22 Sep 2026, 00:35 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Vet prescription fees capped under rule changes",
+      "link": "https://www.bbc.co.uk/news/articles/cqzjz2gx18ggo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Sep 2026",
+      "excerpt": "Vets must also tell clients if cheaper medicine is available online as part of the rule updates which surgeries have the coming months to bring in.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/342d/live/bc86a7d0-b5dc-11f1-8c16-65d8f060d73f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I'd rather pay thousands on a holiday: Meet the pensioners spending the kids' inheritance",
+      "link": "https://www.bbc.co.uk/news/articles/cje8y3w2zdpo?at_medium=RSS&at_campaign=rss",
+      "date": "21 Sep 2026",
+      "excerpt": "The phenomenon sees retirees spend all their money on enjoying life to the full.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cdb/live/ffc48210-ac22-11f1-9bd9-7b7da208bd5c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Paramount settles lawsuit with US states, clearing way for $110bn merger with Warner Bros",
       "link": "https://www.bbc.co.uk/news/articles/cm4gjr1qepr8o?at_medium=RSS&at_campaign=rss",
       "date": "21 Sep 2026",
@@ -160,8 +178,8 @@
       "title": "Flights at major US airports delayed after cable cut by construction workers",
       "link": "https://www.bbc.co.uk/news/articles/ckvgyzzgvv4wo?at_medium=RSS&at_campaign=rss",
       "date": "21 Sep 2026",
-      "excerpt": "Verizon, which owns the cable, says it is working to repair it \"as quickly as possible\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4059/live/5d79f3b0-b5fe-11f1-8545-2d937b40d4bf.jpg"
+      "excerpt": "The cable had been repaired and airports are resuming normal operations, the US transportation secretary says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4d4/live/c9f5d180-b608-11f1-b1d1-571ed4d7ff2c.jpg"
     },
     {
       "source": "BBC Business",
@@ -171,24 +189,6 @@
       "date": "21 Sep 2026",
       "excerpt": "Prime Minister Andy Burnham said further issues today \"cause even greater concern\" about the UK's air traffic control and the head of the organisation that runs it.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fc4/live/2a039960-b5d0-11f1-b1d1-571ed4d7ff2c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What are my rights if my flight is cancelled or delayed?",
-      "link": "https://www.bbc.co.uk/news/articles/c9qxnyengdjo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Sep 2026",
-      "excerpt": "Flights are affected again owing to air traffic control problems, so what are your rights if you're affected?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a08/live/30e50cb0-ac29-11f1-bc1f-3f186ca4140c.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK should 'team up' with Canada in new Europe alliance, Canadian minister tells BBC",
-      "link": "https://www.bbc.co.uk/news/articles/cmed7p06epxjo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Sep 2026",
-      "excerpt": "It comes after European Commission President proposed \"opening the door\" for Canada to become an associate member of the EU.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c51b/live/83c73640-b509-11f1-91cc-c5691e33b858.jpg"
     }
   ]
 }
