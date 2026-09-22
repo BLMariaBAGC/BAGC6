@@ -1,5 +1,5 @@
 {
-  "updated": "22 Sep 2026, 17:56 UTC",
+  "updated": "22 Sep 2026, 20:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -128,15 +128,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Leaders Need to Know About AI and Psychological Safety",
-      "link": "/2026/09/what-leaders-need-to-know-about-ai-and-psychological-safety",
-      "date": "17 Sep 2026",
-      "excerpt": "Four patterns to watch out for.",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "How America’s tax code subsidises artificial intelligence",
@@ -202,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Trump says he would back ban on diesel exports",
+      "link": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Sep 2026",
+      "excerpt": "Republicans lawmakers have put pressure on the president to curb exports as diesel prices soar to record highs in the US.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c38/live/f49ca2e0-b6c3-11f1-8a9f-c7141bd7738d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "New EU industry rules would damage UK, warns Burnham",
       "link": "https://www.bbc.co.uk/news/articles/cv2dwylkl7weo?at_medium=RSS&at_campaign=rss",
       "date": "22 Sep 2026",
@@ -216,15 +216,6 @@
       "date": "22 Sep 2026",
       "excerpt": "The food delivery giant will pay a $131.5m settlement following a city probe into wage violations.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/121f/live/75694c90-b69a-11f1-a430-4d16ee157c41.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Davey promises tax cuts for millions if UK rejoins EU single market",
-      "link": "https://www.bbc.co.uk/news/articles/cj62e1wrpx73o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Sep 2026",
-      "excerpt": "The Lib Dem leader vows to raise tax thresholds if he becomes PM, in a speech to his party conference.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efbc/live/4e7c88d0-b696-11f1-bc1f-3f186ca4140c.jpg"
     },
     {
       "source": "BBC Business",
