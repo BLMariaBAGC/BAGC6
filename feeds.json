@@ -1,6 +1,15 @@
 {
-  "updated": "22 Sep 2026, 13:05 UTC",
+  "updated": "22 Sep 2026, 17:56 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Coffee doesn’t have to keep you awake to disrupt your sleep",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260922005719.htm",
+      "date": "22 Sep 2026",
+      "excerpt": "Caffeine may make sleep less restorative even when you fall asleep normally and stay in bed for eight hours, with EEG recordings revealing fewer of the slow brain waves associated with deep sleep. Individual sensitivity varies dramatically,",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Textbooks may have misdrawn this basic brain structure for 100 years",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260915232138.htm",
-      "date": "17 Sep 2026",
-      "excerpt": "Scientists discovered that brain-cell axons may not be smooth tubes as textbooks have shown for more than a century, but instead naturally resemble strings of tiny pearls. Those pearl-like structures can change with neural activity and may ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What to Do When There’s Too Much Work",
+      "link": "/2026/09/what-to-do-when-theres-too-much-work",
+      "date": "22 Sep 2026",
+      "excerpt": "When there&#8217;s more work than your team can handle, the fix may lie not in taking away work, but in rearranging and empowering your team.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What New CEOs Get Wrong About the Job",
+      "link": "/podcast/2026/09/what-new-ceos-get-wrong-about-the-job",
+      "date": "22 Sep 2026",
+      "excerpt": "A conversation with former HBS Dean Nitin Nohria on the expectations versus reality of the C-Suite.",
       "image": ""
     },
     {
@@ -119,21 +137,57 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How AI Is Changing Talent, Not Just Tasks: Rethinking Where Human Judgment Matters Most",
-      "link": "/podcast/2026/09/how-ai-is-changing-talent-not-just-tasks-rethinking-where-human-judgment-matters-most",
-      "date": "17 Sep 2026",
-      "excerpt": "A conversation with Salesforce&#8217;s Paula Goldman about how AI is rewriting the talent playbook.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How America’s tax code subsidises artificial intelligence",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/22/how-americas-tax-code-subsidises-artificial-intelligence/",
+      "date": "22 Sep 2026",
+      "excerpt": "The United States has a tax-base problem hiding in plain sight. Its fiscal system is built around labour income and artificial intelligence is beginning to reduce the economy’s dependence on labour. Paul Krake shows how the tax code makes h",
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Hidden Costs of Monitoring Employees with AI",
-      "link": "/2026/09/the-hidden-costs-of-monitoring-employees-with-ai",
-      "date": "17 Sep 2026",
-      "excerpt": "Workplace surveillance tools are more accessible than ever. That&#8217;s exactly why leaders need to think harder about whether to use them.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Why some firms adopt AI before others – skills and connectivity matter more than size",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/18/why-some-firms-adopt-ai-before-others-skills-and-connectivity-matter-more-than-size/",
+      "date": "18 Sep 2026",
+      "excerpt": "Which companies become early adopters of artificial intelligence, giving them a head start in the productivity race? By studying firms in Turkey, Nuriye Melisa Bilgin and Gianmarco Ottaviano find that firm size tells only part of the story.",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1-2-1024x809.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Why India’s health-tech market keeps failing to scale",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/15/why-indias-health-tech-market-keeps-failing-to-scale/",
+      "date": "15 Sep 2026",
+      "excerpt": "India’s health-tech sector lacks neither capital nor innovation but a reliable way to convert technically sound products into fundable businesses. Neha Nimble, Bhaskar Rajakumar, Gaurav Singh and Ramnath Ballala argue that the organisations",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Cybercrime laws do make banks safer",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/15/cybercrime-laws-do-make-banks-safer/",
+      "date": "15 Sep 2026",
+      "excerpt": "Attacks by hackers on banks and other financial systems are on the rise. In response, governments have enacted a patchwork of national and international legislation to criminalise hacking and fraud. By studying evidence from 132 countries D",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "We are sleepwalking into a soft skills crisis caused by AI",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/14/we-are-sleepwalking-into-a-soft-skills-crisis-caused-by-ai/",
+      "date": "14 Sep 2026",
+      "excerpt": "Artificial intelligence is not just changing what we do at work. It’s quietly eroding the human capabilities we’ll need most. Grace Lordan warns of workers using AI losing vital skills and suggests what employers and policymakers can do to ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The O-ring, geopolitics and the supply-side – a new era demands an updated framework",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/11/the-o-ring-geopolitics-and-the-supply-side-a-new-era-demands-an-updated-framework/",
+      "date": "11 Sep 2026",
+      "excerpt": "Ahead of a lecture at LSE, Peter Orszag and co-authors argue that we are in a new era, where Michael Kremer&#8217;s O-ring theory of economic development – the dominance of single points of failure – now operates at the scale of the world e",
       "image": ""
     },
     {
@@ -148,38 +202,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "New EU industry rules would damage UK, warns Burnham",
+      "link": "https://www.bbc.co.uk/news/articles/cv2dwylkl7weo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Sep 2026",
+      "excerpt": "The prime minister says he will raise his concerns when he meets the European Commission President later.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e9f0/live/e15023e0-b684-11f1-97fb-8d66d3951490.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'We screwed up': Doordash admits underpaying New York workers",
+      "link": "https://www.bbc.co.uk/news/articles/cjr4v72y6p4eo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Sep 2026",
+      "excerpt": "The food delivery giant will pay a $131.5m settlement following a city probe into wage violations.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/121f/live/75694c90-b69a-11f1-a430-4d16ee157c41.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Davey promises tax cuts for millions if UK rejoins EU single market",
+      "link": "https://www.bbc.co.uk/news/articles/cj62e1wrpx73o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Sep 2026",
+      "excerpt": "The Lib Dem leader vows to raise tax thresholds if he becomes PM, in a speech to his party conference.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efbc/live/4e7c88d0-b696-11f1-bc1f-3f186ca4140c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Unexpected UK borrowing surge adds to pre-Budget pressure on chancellor",
       "link": "https://www.bbc.co.uk/news/articles/c68049m18435o?at_medium=RSS&at_campaign=rss",
       "date": "22 Sep 2026",
       "excerpt": "Borrowing was higher than expected in August as inflation piles pressure on the government ahead of the Budget.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/264a/live/22e11d00-b685-11f1-bc1f-3f186ca4140c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Vet prescription fees capped under rule changes",
-      "link": "https://www.bbc.co.uk/news/articles/cqzjz2gx18ggo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Sep 2026",
-      "excerpt": "Vets must also tell clients if cheaper medicine is available online as part of the rule updates which surgeries have the coming months to bring in.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78b2/live/bfba1130-b64f-11f1-bc1f-3f186ca4140c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Canadian province sues OpenAI over Tumbler Ridge school shooting",
-      "link": "https://www.bbc.co.uk/news/articles/c3wyz2rkgrx0o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Sep 2026",
-      "excerpt": "British Columbia has accused the company of failing to report the shooter's troubling interactions with ChatGPT to law enforcement.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be84/live/b73dbac0-b5ff-11f1-bc1f-3f186ca4140c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I'd rather pay thousands on a holiday: Meet the pensioners spending the kids' inheritance",
-      "link": "https://www.bbc.co.uk/news/articles/cje8y3w2zdpo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Sep 2026",
-      "excerpt": "The phenomenon sees retirees spend all their money on enjoying life to the full.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cdb/live/ffc48210-ac22-11f1-9bd9-7b7da208bd5c.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b35/live/fba80dd0-b65b-11f1-b1d1-571ed4d7ff2c.jpg"
     },
     {
       "source": "BBC Business",
