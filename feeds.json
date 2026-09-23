@@ -1,5 +1,5 @@
 {
-  "updated": "22 Sep 2026, 23:58 UTC",
+  "updated": "23 Sep 2026, 04:33 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,7 +193,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "IMF tells advanced economies to 'bring debt down' as borrowing costs rise",
+      "title": "Will Trump's AI rebrand to 'super intelligence' catch on?",
+      "link": "https://www.bbc.co.uk/news/articles/cqy4z9pv4w0po?at_medium=RSS&at_campaign=rss",
+      "date": "23 Sep 2026",
+      "excerpt": "Some people close to the president have started to use the term but experts say it is unlikely to catch on.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/891c/live/a452a4e0-b6ed-11f1-af5e-b359cc50acc4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Rich nations must cut debt as global shocks push up borrowing costs, IMF chief tells BBC",
       "link": "https://www.bbc.co.uk/news/articles/cx305ymq4ldqo?at_medium=RSS&at_campaign=rss",
       "date": "22 Sep 2026",
       "excerpt": "In an interview with the BBC, Kristalina Georgieva says economic shocks had pushed \"debt levels up like a staircase not to heaven\".",
@@ -216,15 +225,6 @@
       "date": "22 Sep 2026",
       "excerpt": "Republicans lawmakers have put pressure on the president to curb exports as diesel prices soar to record highs in the US.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c38/live/f49ca2e0-b6c3-11f1-8a9f-c7141bd7738d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Watch: Trump floats rebranding artificial intelligence as super intelligence",
-      "link": "https://www.bbc.co.uk/news/videos/c8n5d9x10v14o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Sep 2026",
-      "excerpt": "\"The use of the word artificial makes it sound fake,\" he said told the UN. \"It's not fake, it's actually amazing.\"",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd34/live/958ea3f0-b69d-11f1-b1d1-571ed4d7ff2c.jpg"
     },
     {
       "source": "BBC Business",
