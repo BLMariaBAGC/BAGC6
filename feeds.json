@@ -1,6 +1,15 @@
 {
-  "updated": "25 Sep 2026, 09:22 UTC",
+  "updated": "25 Sep 2026, 14:59 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This “rare” autism-linked genetic disorder may be far more common than scientists thought",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260924020405.htm",
+      "date": "25 Sep 2026",
+      "excerpt": "A major analysis suggests Phelan-McDermid syndrome, a genetic disorder closely linked to autism, may affect about 1 in 7,300 people and more than 45,000 Americans. Researchers warn that thousands of cases may remain hidden because genetic t",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/09/260920222412.htm",
       "date": "21 Sep 2026",
       "excerpt": "Researchers have found evidence that long COVID may damage dopamine releasing neurons in the brain, potentially explaining persistent fatigue, low motivation, slowed movement, and memory difficulties. The discovery could lead to new treatme",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Stanford scientists discover the human brain may actually be two separate organs",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260920222352.htm",
-      "date": "21 Sep 2026",
-      "excerpt": "Scientists have found that the human brain develops from two distinct cellular systems, suggesting that evolution fused together two ancient nervous systems with very different jobs. The discovery also allowed researchers to grow human hind",
       "image": ""
     },
     {
@@ -193,6 +193,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
+      "link": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Sep 2026",
+      "excerpt": "The EU had said X \"deceives users\" by selling blue ticks without \"meaningfully verifying\" accounts.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fed0/live/93ad40c0-b8c1-11f1-ad1f-538855f30ba1.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK diesel price close to all-time high",
+      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Sep 2026",
+      "excerpt": "The average price of a litre of diesel at the pump stands at 198.32p, according to the RAC motoring body.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8143/live/f8d0c8b0-7572-11f1-b976-0b9c15b0ccfc.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Special agents' blood and urine test results stolen in FBI hack",
+      "link": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Sep 2026",
+      "excerpt": "Experts say the hack could leave agents vulnerable to scams, blackmail and targeted attacks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6dff/live/04222c60-b793-11f1-a7dc-51a9fb487fda.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'We're all broke': Would you chase a friend for £5?",
       "link": "https://www.bbc.co.uk/news/articles/cmly439q4y27o?at_medium=RSS&at_campaign=rss",
       "date": "24 Sep 2026",
@@ -207,33 +234,6 @@
       "date": "25 Sep 2026",
       "excerpt": "Milk yield was affected by a series of extreme heatwaves which led to poor grazing conditions, researchers say.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3125/live/7d6b4f20-b838-11f1-bc1f-3f186ca4140c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
-      "link": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Sep 2026",
-      "excerpt": "Despite diplomatic niceties and gifts, little was shared on substantial issues separating the leaders.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/602f/live/4a515750-b8a7-11f1-a430-4d16ee157c41.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-      "link": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Sep 2026",
-      "excerpt": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50c6/live/2164cc30-b804-11f1-97e1-83bf52ec4acd.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Scam hotel booking sent family to Wetherspoon pub",
-      "link": "https://www.bbc.co.uk/news/articles/c3zxzqyj24xeo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Sep 2026",
-      "excerpt": "Which? says staff are turning away up to 20 tourists a day after scammers used the pub's address.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/421b/live/4706b6d0-b8c0-11f1-8668-c7d18ac42397.jpg"
     },
     {
       "source": "BBC Business",
