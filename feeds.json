@@ -1,5 +1,5 @@
 {
-  "updated": "25 Sep 2026, 03:27 UTC",
+  "updated": "25 Sep 2026, 09:22 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,24 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "The financialisation of compute may reshape how the AI industry itself operates",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/25/the-financialisation-of-compute-may-reshape-how-the-ai-industry-itself-operates/",
+      "date": "25 Sep 2026",
+      "excerpt": "The graphics processing unit industry powering the artificial intelligence revolution is on the cusp of its own transformation. Daniel Hebert describes the excitement, as exchanges race to launch GPU compute futures, but offers a parallel f",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The US-China trade war reshaped Vietnam’s supply chains less than you would expect",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/24/the-us-china-trade-war-reshaped-vietnams-supply-chains-less-than-you-would-expect/",
+      "date": "24 Sep 2026",
+      "excerpt": "When the United States imposed tariffs on Chinese goods, Vietnam appeared to be one of the winners. But Tao Zou and Yundan Gong reveal a more complex picture in which firms responded in stages and, far from swapping China out, many firms le",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Train travel should be measured by human experience, not just efficiency",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/09/23/train-travel-should-be-measured-by-human-experience-not-just-efficiency/",
       "date": "23 Sep 2026",
@@ -173,24 +191,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Cybercrime laws do make banks safer",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/15/cybercrime-laws-do-make-banks-safer/",
-      "date": "15 Sep 2026",
-      "excerpt": "Attacks by hackers on banks and other financial systems are on the rise. In response, governments have enacted a patchwork of national and international legislation to criminalise hacking and fraud. By studying evidence from 132 countries D",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "We are sleepwalking into a soft skills crisis caused by AI",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/14/we-are-sleepwalking-into-a-soft-skills-crisis-caused-by-ai/",
-      "date": "14 Sep 2026",
-      "excerpt": "Artificial intelligence is not just changing what we do at work. It’s quietly eroding the human capabilities we’ll need most. Grace Lordan warns of workers using AI losing vital skills and suggests what employers and policymakers can do to ",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "'We're all broke': Would you chase a friend for £5?",
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Reported assaults on Britain's rail services rise by more than a third",
-      "link": "https://www.bbc.co.uk/news/articles/c6z0z5dz884lo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Sep 2026",
-      "excerpt": "Recorded incidents of violence and harassment against passengers and rail workers showed a sharp increase in the year to March.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b070/live/bbedba70-b811-11f1-9172-17f860da9de7.jpg"
+      "title": "Farmers down 240 million litres of milk after heat",
+      "link": "https://www.bbc.co.uk/news/articles/cjvgy7qd20wgo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Sep 2026",
+      "excerpt": "Milk yield was affected by a series of extreme heatwaves which led to poor grazing conditions, researchers say.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3125/live/7d6b4f20-b838-11f1-bc1f-3f186ca4140c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
+      "link": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Sep 2026",
+      "excerpt": "Despite diplomatic niceties and gifts, little was shared on substantial issues separating the leaders.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/602f/live/4a515750-b8a7-11f1-a430-4d16ee157c41.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,11 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "They were labelled 'pervert glasses'. Will a camera-free version transform their image?",
-      "link": "https://www.bbc.co.uk/news/articles/cwp80l0my1x2o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Sep 2026",
-      "excerpt": "Meta has unveiled audio-only smart glasses, with some questioning whether it is a response to the backlash over privacy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4bad/live/e6a022b0-b75a-11f1-bc1f-3f186ca4140c.jpg"
+      "title": "Scam hotel booking sent family to Wetherspoon pub",
+      "link": "https://www.bbc.co.uk/news/articles/c3zxzqyj24xeo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Sep 2026",
+      "excerpt": "Which? says staff are turning away up to 20 tourists a day after scammers used the pub's address.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/421b/live/4706b6d0-b8c0-11f1-8668-c7d18ac42397.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "24 Sep 2026",
       "excerpt": "Where do America's X-plane projects fit in an era of cheap drones?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44d0/live/25738d60-97e9-11f1-a7ab-8b30adf0800a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "£170 a bag? Protein users squeezed as prices soar",
-      "link": "https://www.bbc.co.uk/news/articles/cm93e2gz8y41o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Sep 2026",
-      "excerpt": "Consumers are feeling the pinch from the rising cost of protein.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c41f/live/b47daea0-b7e7-11f1-b1d1-571ed4d7ff2c.png"
     }
   ]
 }
