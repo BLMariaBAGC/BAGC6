@@ -1,5 +1,5 @@
 {
-  "updated": "25 Sep 2026, 14:59 UTC",
+  "updated": "25 Sep 2026, 19:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Why Your Employees Override AI",
+      "link": "/2026/09/why-your-employees-override-ai",
+      "date": "25 Sep 2026",
+      "excerpt": "These aren&#8217;t acts of resistance&#8212;they&#8217;re self-protection.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: How Speech Patterns Shape Opportunity at Work",
+      "link": "/2026/09/research-how-speech-patterns-shape-opportunity-at-work",
+      "date": "25 Sep 2026",
+      "excerpt": "Leaders often unintentionally favor employees whose speech and mannerisms are familiar.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "When Raising Prices Is Better Than Cutting Quality",
       "link": "/2026/09/when-raising-prices-is-better-than-cutting-quality",
       "date": "24 Sep 2026",
@@ -125,15 +143,6 @@
       "link": "/2026/09/closing-the-gap-between-ai-investment-and-financial-return",
       "date": "23 Sep 2026",
       "excerpt": "A simple equation can help leaders stay focused on the right use cases.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The More Accessible Information Is, the Less Employees Remember",
-      "link": "/2026/09/the-more-accessible-information-is-the-less-employees-remember",
-      "date": "23 Sep 2026",
-      "excerpt": "What managers need to know about the &#8220;connectivity tradeoff.&#8221;",
       "image": ""
     },
     {
@@ -193,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Sir David Beckham nets £38.5m after World Cup ad deals",
+      "link": "https://www.bbc.co.uk/news/articles/crkgww5j0yzwo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Sep 2026",
+      "excerpt": "His stake in DRJB Holdings has entitled him to almost half of its £85.5m in dividend payments.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b69/live/25d24650-b8f2-11f1-bd4a-e9ce4be469f6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
       "link": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&at_campaign=rss",
       "date": "25 Sep 2026",
@@ -225,15 +243,6 @@
       "date": "24 Sep 2026",
       "excerpt": "What's the smallest amount of money you would ask a friend to pay you back?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a1b/live/c8b49cd0-b053-11f1-89e4-0bbff5cb7e23.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Farmers down 240 million litres of milk after heat",
-      "link": "https://www.bbc.co.uk/news/articles/cjvgy7qd20wgo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Sep 2026",
-      "excerpt": "Milk yield was affected by a series of extreme heatwaves which led to poor grazing conditions, researchers say.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3125/live/7d6b4f20-b838-11f1-bc1f-3f186ca4140c.jpg"
     },
     {
       "source": "BBC Business",
