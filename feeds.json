@@ -1,5 +1,5 @@
 {
-  "updated": "25 Sep 2026, 19:49 UTC",
+  "updated": "25 Sep 2026, 23:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Man City found guilty of breaking financial rules",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cw7v44ezry5go?at_medium=RSS&at_campaign=rss",
+      "date": "25 Sep 2026",
+      "excerpt": "Manchester City have been found guilty of breaking the majority of the 115 financial rules they were accused of breaching.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f162/live/8ef99460-b91c-11f1-b1d1-571ed4d7ff2c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
       "link": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&at_campaign=rss",
       "date": "25 Sep 2026",
@@ -234,15 +243,6 @@
       "date": "25 Sep 2026",
       "excerpt": "Experts say the hack could leave agents vulnerable to scams, blackmail and targeted attacks.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6dff/live/04222c60-b793-11f1-a7dc-51a9fb487fda.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'We're all broke': Would you chase a friend for £5?",
-      "link": "https://www.bbc.co.uk/news/articles/cmly439q4y27o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Sep 2026",
-      "excerpt": "What's the smallest amount of money you would ask a friend to pay you back?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a1b/live/c8b49cd0-b053-11f1-89e4-0bbff5cb7e23.png"
     },
     {
       "source": "BBC Business",
