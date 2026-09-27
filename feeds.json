@@ -1,5 +1,5 @@
 {
-  "updated": "27 Sep 2026, 03:41 UTC",
+  "updated": "27 Sep 2026, 09:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Faisal Islam: The two big decisions the chancellor must make",
+      "link": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&at_campaign=rss",
+      "date": "26 Sep 2026",
+      "excerpt": "He must consider the longevity of Iran war economic pressures and how to sustain modest optimism, writes the BBC's Faisal Islam.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8047/live/4b558d20-b9f5-11f1-afb9-0ba46641015c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Heathrow Airport warns third runway could be delayed by four years",
+      "link": "https://www.bbc.co.uk/news/articles/crx2zz401935o?at_medium=RSS&at_campaign=rss",
+      "date": "26 Sep 2026",
+      "excerpt": "The UK's busiest airport cautions it may miss the government target of 2035 as ministers say the deadline has \"always been ambitious\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb83/live/ca71b050-a6f6-11f1-97e2-55b9ef1865bd.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "OpenAI bots meddled with multiple US government agency sites",
       "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
       "date": "26 Sep 2026",
@@ -229,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'We're all broke': Would you chase a friend for £5?",
-      "link": "https://www.bbc.co.uk/news/articles/cmly439q4y27o?at_medium=RSS&at_campaign=rss",
+      "title": "X-planes: Are they needed in the new era of drones?",
+      "link": "https://www.bbc.co.uk/news/articles/c9q92x359xdo?at_medium=RSS&at_campaign=rss",
       "date": "24 Sep 2026",
-      "excerpt": "What's the smallest amount of money you would ask a friend to pay you back?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a1b/live/c8b49cd0-b053-11f1-89e4-0bbff5cb7e23.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Sir David Beckham nets £38.5m after World Cup ad deals",
-      "link": "https://www.bbc.co.uk/news/articles/crkgww5j0yzwo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Sep 2026",
-      "excerpt": "His stake in DRJB Holdings has entitled him to almost half of its £85.5m in dividend payments.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b69/live/25d24650-b8f2-11f1-bd4a-e9ce4be469f6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
-      "link": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Sep 2026",
-      "excerpt": "The EU had said X \"deceives users\" by selling blue ticks without \"meaningfully verifying\" accounts.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fed0/live/93ad40c0-b8c1-11f1-ad1f-538855f30ba1.jpg"
+      "excerpt": "Where do America's X-plane projects fit in an era of cheap drones?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44d0/live/25738d60-97e9-11f1-a7ab-8b30adf0800a.jpg"
     }
   ]
 }
