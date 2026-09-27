@@ -1,6 +1,24 @@
 {
-  "updated": "27 Sep 2026, 09:48 UTC",
+  "updated": "27 Sep 2026, 14:58 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Glucosamine, a popular joint supplement, linked to faster Alzheimer’s progression",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
+      "date": "27 Sep 2026",
+      "excerpt": "A large health-record analysis found that glucosamine use was associated with a 25% higher likelihood of mild cognitive impairment progressing to dementia. Lab experiments suggest the popular joint supplement may intensify an abnormal sugar",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Why rheumatoid arthritis pain may persist even when inflammation is under control",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260925093208.htm",
+      "date": "27 Sep 2026",
+      "excerpt": "Pain and fatigue in rheumatoid arthritis can persist even after inflammation improves, with depression, poor sleep, obesity, smoking, and chronic pain potentially helping sustain symptoms. Researchers say identifying these hidden drivers co",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/09/260922005653.htm",
       "date": "23 Sep 2026",
       "excerpt": "A major Swedish study of 3.7 million people has found that rare TORCH infections passed from a pregnant woman to the fetus are linked to much higher risks of autism and intellectual disability later in life. Children with a congenital TORCH",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Stem cells reverse stroke damage and restore movement in mice",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260921081116.htm",
-      "date": "21 Sep 2026",
-      "excerpt": "Stem cell transplants helped regenerate stroke-damaged brain tissue in mice, producing new neurons and restoring lost motor function. The treatment also improved blood vessels, inflammation, and the blood-brain barrier, raising hopes that a",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists create a needle-thin brain implant that can do three jobs at once",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260920222416.htm",
-      "date": "21 Sep 2026",
-      "excerpt": "A new needle-thin brain implant can record neural activity, deliver drugs, and stimulate multiple brain regions using a single flexible fiber. Successful tests in mice suggest it could give scientists a more precise, less invasive way to st",
       "image": ""
     },
     {
@@ -202,20 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Andy Burnham refuses to back third runway at Heathrow",
+      "link": "https://www.bbc.co.uk/news/articles/cvrl6y8rx08wo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Sep 2026",
+      "excerpt": "Andy Burnham said he would wait for the results of a consultation on a scheme estimated to cost £33bn",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f28/live/79607810-ba63-11f1-ab5a-210fdaa1dd09.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Faisal Islam: The two big decisions the chancellor must make",
       "link": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&at_campaign=rss",
       "date": "26 Sep 2026",
       "excerpt": "He must consider the longevity of Iran war economic pressures and how to sustain modest optimism, writes the BBC's Faisal Islam.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8047/live/4b558d20-b9f5-11f1-afb9-0ba46641015c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Heathrow Airport warns third runway could be delayed by four years",
-      "link": "https://www.bbc.co.uk/news/articles/crx2zz401935o?at_medium=RSS&at_campaign=rss",
-      "date": "26 Sep 2026",
-      "excerpt": "The UK's busiest airport cautions it may miss the government target of 2035 as ministers say the deadline has \"always been ambitious\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb83/live/ca71b050-a6f6-11f1-97e2-55b9ef1865bd.jpg"
     },
     {
       "source": "BBC Business",
