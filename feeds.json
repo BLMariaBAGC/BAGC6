@@ -1,5 +1,5 @@
 {
-  "updated": "27 Sep 2026, 22:48 UTC",
+  "updated": "28 Sep 2026, 03:40 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Healey to promise 'new age of industrialisation' for UK in conference speech",
+      "link": "https://www.bbc.co.uk/news/articles/cjdx53edkglgo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Sep 2026",
+      "excerpt": "The chancellor will unveil policies aimed at boosting British shipbuilding in his speech to Labour's annual conference on Monday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44ef/live/05e9aa10-bac1-11f1-b327-372771fd59f2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Avanti West Coast main line to be nationalised",
+      "link": "https://www.bbc.co.uk/news/articles/c60qxk7d2539o?at_medium=RSS&at_campaign=rss",
+      "date": "28 Sep 2026",
+      "excerpt": "The move is part of a plan to improve rail infrastructure, cut train delays and improve experiences for passengers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80b4/live/50e80e00-badd-11f1-a82f-af5731f3a958.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "You need £17,000 for a first home - here's how to do it",
+      "link": "https://www.bbc.co.uk/news/articles/cqvgy09kep21o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Sep 2026",
+      "excerpt": "Here are four ways you can put money aside to save enough for a deposit on your first home.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/575c/live/fae572d0-bac9-11f1-84a6-95681df48b66.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Andy Burnham refuses to back third runway at Heathrow",
       "link": "https://www.bbc.co.uk/news/articles/cvrl6y8rx08wo?at_medium=RSS&at_campaign=rss",
       "date": "27 Sep 2026",
@@ -225,33 +252,6 @@
       "date": "26 Sep 2026",
       "excerpt": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe1e/live/6ddbd170-b954-11f1-96dc-f7c10dbde38b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Could an iced coffee freeze you out of the job market?",
-      "link": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&at_campaign=rss",
-      "date": "26 Sep 2026",
-      "excerpt": "Employees and recruiters weigh into the online debate around interview etiquette.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2add/live/03c9d510-b905-11f1-bc1f-3f186ca4140c.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Clubs seek legal advice over Man City charges compensation",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Sep 2026",
-      "excerpt": "Premier League clubs are seeking legal advice as to whether they would have a compensation claim over the Manchester City 115 charges case.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/588a/live/72e11970-b96b-11f1-b55e-350150ef61ab.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "X-planes: Are they needed in the new era of drones?",
-      "link": "https://www.bbc.co.uk/news/articles/c9q92x359xdo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Sep 2026",
-      "excerpt": "Where do America's X-plane projects fit in an era of cheap drones?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44d0/live/25738d60-97e9-11f1-a7ab-8b30adf0800a.jpg"
     }
   ]
 }
