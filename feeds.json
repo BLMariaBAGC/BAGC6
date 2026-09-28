@@ -1,6 +1,15 @@
 {
-  "updated": "28 Sep 2026, 10:33 UTC",
+  "updated": "28 Sep 2026, 19:14 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists just discovered what coffee really does to your gut and brain",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260927034331.htm",
+      "date": "28 Sep 2026",
+      "excerpt": "A new study suggests coffee may influence mood and brain function by changing the activity of microbes in the gut. Both caffeinated and decaf coffee were linked to lower stress, depression, and impulsivity, while also producing measurable c",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -31,6 +40,24 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "Scientists found a surprising driver of Alzheimer’s outside the brain",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260925093150.htm",
+      "date": "27 Sep 2026",
+      "excerpt": "Scientists found that immune cells contributing to Alzheimer’s-related brain damage may be activated in lymph nodes outside the brain before traveling into the nervous system. Blocking this pathway in mice dramatically reduced neurodegenera",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Resetting the body clock could help the brain recover after stroke",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260924020407.htm",
+      "date": "28 Sep 2026",
+      "excerpt": "Strengthening the body’s natural daily rhythms helped mice recover after stroke by improving the brain’s waste-clearing system and reducing lingering inflammation. The approach worked even when treatment began three days after the stroke, s",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "This “rare” autism-linked genetic disorder may be far more common than scientists thought",
       "link": "https://www.sciencedaily.com/releases/2026/09/260924020405.htm",
       "date": "25 Sep 2026",
@@ -44,33 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
       "date": "23 Sep 2026",
       "excerpt": "A large study tracking more than 95,000 people suggests that how you sleep may be linked to your risk of developing dozens of diseases. People who spent more time in REM sleep had lower risks of 83 conditions, including dementia, heart fail",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "When what you see doesn’t make sense, your brain does something remarkable",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260923035929.htm",
-      "date": "24 Sep 2026",
-      "excerpt": "The brain may have a built-in way to quickly settle disagreements between regions processing the same scene. Researchers found that matching signals between two visual areas lasted longer, while conflicting signals rapidly faded away. This ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Coffee doesn’t have to keep you awake to disrupt your sleep",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260922005719.htm",
-      "date": "22 Sep 2026",
-      "excerpt": "Caffeine may make sleep less restorative even when you fall asleep normally and stay in bed for eight hours, with EEG recordings revealing fewer of the slow brain waves associated with deep sleep. Individual sensitivity varies dramatically,",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Rare pregnancy infections may triple the risk of autism",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260922005653.htm",
-      "date": "23 Sep 2026",
-      "excerpt": "A major Swedish study of 3.7 million people has found that rare TORCH infections passed from a pregnant woman to the fetus are linked to much higher risks of autism and intellectual disability later in life. Children with a congenital TORCH",
       "image": ""
     },
     {
@@ -148,15 +148,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Organisational digital twins are coming",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/28/organisational-digital-twins-are-coming/",
-      "date": "28 Sep 2026",
-      "excerpt": "For years, digital twins helped organisations understand physical assets, allowing firms to experiment with before making changes in the real world. More recently digital twins simulate specific people and their expertise. Nowthe same logic",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "The financialisation of compute may reshape how the AI industry itself operates",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/09/25/the-financialisation-of-compute-may-reshape-how-the-ai-industry-itself-operates/",
       "date": "25 Sep 2026",
@@ -200,58 +191,67 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1-2-1024x809.jpg"
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Why India’s health-tech market keeps failing to scale",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/15/why-indias-health-tech-market-keeps-failing-to-scale/",
+      "date": "15 Sep 2026",
+      "excerpt": "India’s health-tech sector lacks neither capital nor innovation but a reliable way to convert technically sound products into fundable businesses. Neha Nimble, Bhaskar Rajakumar, Gaurav Singh and Ramnath Ballala argue that the organisations",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Why the PM could finally drop the triple lock pension pledge",
-      "link": "https://www.bbc.co.uk/news/articles/c6jdvmy1287yo?at_medium=RSS&at_campaign=rss",
+      "title": "UK tries to stop Trump's diesel export ban",
+      "link": "https://www.bbc.co.uk/news/articles/cmx2z3vgy5xwo?at_medium=RSS&at_campaign=rss",
       "date": "28 Sep 2026",
-      "excerpt": "Andy Burnham said that he would make tough decisions to fund a new national care service.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6613/live/8f3a1c10-bb1a-11f1-bd21-bdf910f2cec6.png"
+      "excerpt": "John Healey said the government is in talks with the US over Donald Trump's threat to stop exports.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/445a/live/ee159a80-bb5a-11f1-b3b3-91d0b491a464.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Healey to promise 'new age of industrialisation' for UK in conference speech",
-      "link": "https://www.bbc.co.uk/news/articles/cjdx53edkglgo?at_medium=RSS&at_campaign=rss",
+      "title": "What a US diesel export ban could mean for you",
+      "link": "https://www.bbc.co.uk/news/articles/cky9z3r00l9eo?at_medium=RSS&at_campaign=rss",
       "date": "28 Sep 2026",
-      "excerpt": "The chancellor will unveil policies aimed at boosting British shipbuilding in his speech to Labour's annual conference on Monday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44ef/live/05e9aa10-bac1-11f1-b327-372771fd59f2.jpg"
+      "excerpt": "The threatened proposal aims to protect US consumers from rising costs, but it could trigger major economic waves if it were to happen.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e413/live/471b3a50-bb5f-11f1-a430-4d16ee157c41.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "My hometown shows that high streets have to change or die",
-      "link": "https://www.bbc.co.uk/news/articles/crd689de186jo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Sep 2026",
-      "excerpt": "Aberdeen is launching an ambitious bid to revive its struggling centre. Could it offer lessons for other high streets?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7eb/live/7686be90-b8cb-11f1-a430-4d16ee157c41.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Tourism tax needs to be more flexible in Wales, warns expert",
-      "link": "https://www.bbc.co.uk/news/articles/cm4glxn32zypo?at_medium=RSS&at_campaign=rss",
+      "title": "Aldi boss says some of rivals' loyalty discounts 'dupe' customers",
+      "link": "https://www.bbc.co.uk/news/articles/c6dj4vkwg8j0o?at_medium=RSS&at_campaign=rss",
       "date": "28 Sep 2026",
-      "excerpt": "Anglesey, Conwy and Gwynedd councils have all put a pause on introducing the nightly tourist tax.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb00/live/bc487bd0-bb0a-11f1-a430-4d16ee157c41.jpg"
+      "excerpt": "Aldi is the only major supermarket chain that doesn't operate a loyalty scheme, which are hugely popular and used by millions of shoppers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9fb/live/1a3e24c0-bb64-11f1-b3b3-91d0b491a464.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Avanti West Coast services to be nationalised from March",
-      "link": "https://www.bbc.co.uk/news/articles/c60qxk7d2539o?at_medium=RSS&at_campaign=rss",
+      "title": "UK diesel price hits all-time high, the RAC says",
+      "link": "https://www.bbc.co.uk/news/articles/c6n4k987k981o?at_medium=RSS&at_campaign=rss",
       "date": "28 Sep 2026",
-      "excerpt": "The move is part of a plan to improve rail infrastructure, cut train delays and improve experiences for passengers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80b4/live/50e80e00-badd-11f1-a82f-af5731f3a958.jpg"
+      "excerpt": "The US-Israel war with Iran has caused fuel prices to soar due to disruption of global oil supplies.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c7b/live/e8d5cf70-bb20-11f1-bd21-bdf910f2cec6.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "OpenAI bots meddled with multiple US government agency sites",
-      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Sep 2026",
-      "excerpt": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe1e/live/6ddbd170-b954-11f1-96dc-f7c10dbde38b.jpg"
+      "title": "What is the Budget and what could be in it?",
+      "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
+      "date": "28 Sep 2026",
+      "excerpt": "Chancellor John Healey will set out his plans for UK taxes in October.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e2e/live/b81a2280-b8e8-11f1-ba42-19e1456ae537.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Why UK diesel prices have hit an all-time high",
+      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "date": "28 Sep 2026",
+      "excerpt": "The average price of a litre of diesel at the pump stands at 198.32p, according to the RAC motoring body.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8143/live/f8d0c8b0-7572-11f1-b976-0b9c15b0ccfc.jpg"
     }
   ]
 }
