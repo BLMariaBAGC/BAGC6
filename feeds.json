@@ -1,5 +1,5 @@
 {
-  "updated": "28 Sep 2026, 03:40 UTC",
+  "updated": "28 Sep 2026, 10:33 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Organisational digital twins are coming",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/28/organisational-digital-twins-are-coming/",
+      "date": "28 Sep 2026",
+      "excerpt": "For years, digital twins helped organisations understand physical assets, allowing firms to experiment with before making changes in the real world. More recently digital twins simulate specific people and their expertise. Nowthe same logic",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "The financialisation of compute may reshape how the AI industry itself operates",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/09/25/the-financialisation-of-compute-may-reshape-how-the-ai-industry-itself-operates/",
       "date": "25 Sep 2026",
@@ -191,58 +200,49 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1-2-1024x809.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Why India’s health-tech market keeps failing to scale",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/15/why-indias-health-tech-market-keeps-failing-to-scale/",
-      "date": "15 Sep 2026",
-      "excerpt": "India’s health-tech sector lacks neither capital nor innovation but a reliable way to convert technically sound products into fundable businesses. Neha Nimble, Bhaskar Rajakumar, Gaurav Singh and Ramnath Ballala argue that the organisations",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Why the PM could finally drop the triple lock pension pledge",
+      "link": "https://www.bbc.co.uk/news/articles/c6jdvmy1287yo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Sep 2026",
+      "excerpt": "Andy Burnham said that he would make tough decisions to fund a new national care service.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6613/live/8f3a1c10-bb1a-11f1-bd21-bdf910f2cec6.png"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Healey to promise 'new age of industrialisation' for UK in conference speech",
       "link": "https://www.bbc.co.uk/news/articles/cjdx53edkglgo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Sep 2026",
+      "date": "28 Sep 2026",
       "excerpt": "The chancellor will unveil policies aimed at boosting British shipbuilding in his speech to Labour's annual conference on Monday.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44ef/live/05e9aa10-bac1-11f1-b327-372771fd59f2.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Avanti West Coast main line to be nationalised",
+      "title": "My hometown shows that high streets have to change or die",
+      "link": "https://www.bbc.co.uk/news/articles/crd689de186jo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Sep 2026",
+      "excerpt": "Aberdeen is launching an ambitious bid to revive its struggling centre. Could it offer lessons for other high streets?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7eb/live/7686be90-b8cb-11f1-a430-4d16ee157c41.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Tourism tax needs to be more flexible in Wales, warns expert",
+      "link": "https://www.bbc.co.uk/news/articles/cm4glxn32zypo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Sep 2026",
+      "excerpt": "Anglesey, Conwy and Gwynedd councils have all put a pause on introducing the nightly tourist tax.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb00/live/bc487bd0-bb0a-11f1-a430-4d16ee157c41.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Avanti West Coast services to be nationalised from March",
       "link": "https://www.bbc.co.uk/news/articles/c60qxk7d2539o?at_medium=RSS&at_campaign=rss",
       "date": "28 Sep 2026",
       "excerpt": "The move is part of a plan to improve rail infrastructure, cut train delays and improve experiences for passengers.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80b4/live/50e80e00-badd-11f1-a82f-af5731f3a958.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "You need £17,000 for a first home - here's how to do it",
-      "link": "https://www.bbc.co.uk/news/articles/cqvgy09kep21o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Sep 2026",
-      "excerpt": "Here are four ways you can put money aside to save enough for a deposit on your first home.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/575c/live/fae572d0-bac9-11f1-84a6-95681df48b66.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Andy Burnham refuses to back third runway at Heathrow",
-      "link": "https://www.bbc.co.uk/news/articles/cvrl6y8rx08wo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Sep 2026",
-      "excerpt": "Andy Burnham said he would wait for the results of a consultation on a scheme estimated to cost £33bn",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f28/live/79607810-ba63-11f1-ab5a-210fdaa1dd09.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Faisal Islam: The two big decisions the chancellor must make",
-      "link": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&at_campaign=rss",
-      "date": "26 Sep 2026",
-      "excerpt": "He must consider the longevity of Iran war economic pressures and how to sustain modest optimism, writes the BBC's Faisal Islam.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8047/live/4b558d20-b9f5-11f1-afb9-0ba46641015c.jpg"
     },
     {
       "source": "BBC Business",
