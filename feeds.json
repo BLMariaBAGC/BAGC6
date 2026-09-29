@@ -1,5 +1,5 @@
 {
-  "updated": "29 Sep 2026, 14:36 UTC",
+  "updated": "29 Sep 2026, 20:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How Chewy Is Evolving Customer Obsession for the Digital Era",
+      "link": "/2026/09/how-chewy-is-evolving-customer-obsession-for-the-digital-era",
+      "date": "29 Sep 2026",
+      "excerpt": "An HBR Executive Live conversation with Chewy CEO Sumit Singh.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Leading with Resilient Optimism",
+      "link": "/2026/09/leading-with-resilient-optimism",
+      "date": "29 Sep 2026",
+      "excerpt": "In this week&#8217;s Insider newsletter, managing editor Gretchen Gavett covers resilient optimism, collaboration tools, the costs of regulatory scandals, and more.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "A Collection of HBR’s Most Insightful Research on AI at Work",
+      "link": "/2026/09/a-collection-of-hbrs-most-insightful-research-on-ai-at-work",
+      "date": "29 Sep 2026",
+      "excerpt": "Findings on how AI is reshaping expertise, complicating the productivity picture, and changing the role of human judgment.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Considering the Future of the BBC and Its Funding Model",
       "link": "/podcast/2026/09/considering-the-future-of-the-bbc-and-its-funding-model",
       "date": "29 Sep 2026",
@@ -119,139 +146,58 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: How Speech Patterns Shape Opportunity at Work",
-      "link": "/2026/09/research-how-speech-patterns-shape-opportunity-at-work",
-      "date": "25 Sep 2026",
-      "excerpt": "Leaders often unintentionally favor employees whose speech and mannerisms are familiar.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When Raising Prices Is Better Than Cutting Quality",
-      "link": "/2026/09/when-raising-prices-is-better-than-cutting-quality",
-      "date": "24 Sep 2026",
-      "excerpt": "Consumers may accept higher prices or smaller packages, but hidden quality cuts can damage trust and drive them away.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Bob Iger on Power, Succession, and Leading Disney Through Upheaval",
-      "link": "/2026/09/bob-iger-on-power-succession-and-leading-disney-through-upheaval",
-      "date": "24 Sep 2026",
-      "excerpt": "The former Disney CEO on the realities of leading a company as iconic&#8212;and complex&#8212;as Disney.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What happens now that Trump and Xi failed to write new AI rules?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/29/what-happens-now-that-trump-and-xi-failed-to-write-new-ai-rules/",
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Burnham vows to end existing pension triple lock in 2030 to help fund care",
+      "link": "https://www.bbc.co.uk/news/articles/cve8x724e9ezo?at_medium=RSS&at_campaign=rss",
       "date": "29 Sep 2026",
-      "excerpt": "Donald Trump and Xi Jinping did not decide who regulates AI. They, and other governments, passed the buck. Responsibility now lies with whoever in your organisation is asked to check the machine’s work before it goes out. Grace Lordan argue",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Organisational digital twins are coming",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/28/organisational-digital-twins-are-coming/",
-      "date": "28 Sep 2026",
-      "excerpt": "For years, digital twins helped organisations understand physical assets, allowing firms to experiment with before making changes in the real world. More recently digital twins simulate specific people and their expertise. Now the same logi",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The financialisation of compute may reshape how the AI industry itself operates",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/25/the-financialisation-of-compute-may-reshape-how-the-ai-industry-itself-operates/",
-      "date": "25 Sep 2026",
-      "excerpt": "The graphics processing unit industry powering the artificial intelligence revolution is on the cusp of its own transformation. Daniel Hebert describes the excitement, as exchanges race to launch GPU compute futures, but offers a parallel f",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The US-China trade war reshaped Vietnam’s supply chains less than you would expect",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/24/the-us-china-trade-war-reshaped-vietnams-supply-chains-less-than-you-would-expect/",
-      "date": "24 Sep 2026",
-      "excerpt": "When the United States imposed tariffs on Chinese goods, Vietnam appeared to be one of the winners. But Tao Zou and Yundan Gong reveal a more complex picture in which firms responded in stages and, far from swapping China out, many firms le",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Train travel should be measured by human experience, not just efficiency",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/23/train-travel-should-be-measured-by-human-experience-not-just-efficiency/",
-      "date": "23 Sep 2026",
-      "excerpt": "The economic case for high-speed rail is well known. But Francesca Pagliara argues that wellbeing, rather than simply speed, should be a measure of success for new projects. Good transport systems can stimulate economic activity. But their ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1-3.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How America’s tax code subsidises artificial intelligence",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/22/how-americas-tax-code-subsidises-artificial-intelligence/",
-      "date": "22 Sep 2026",
-      "excerpt": "The United States has a tax-base problem hiding in plain sight. Its fiscal system is built around labour income and artificial intelligence is beginning to reduce the economy’s dependence on labour. Paul Krake shows how the tax code makes h",
-      "image": ""
+      "excerpt": "The PM was at times emotional during his conference speech in which he outlined his long-term plan for the UK.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cae0/live/374a62f0-bc30-11f1-bc1f-3f186ca4140c.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Warning more homes will be uninsurable due to flood risk",
-      "link": "https://www.bbc.co.uk/news/articles/c60qxk288e57o?at_medium=RSS&at_campaign=rss",
+      "title": "Faisal Islam: Triple lock move is significant, but it's a gamble",
+      "link": "https://www.bbc.co.uk/news/articles/cwp93d078j8no?at_medium=RSS&at_campaign=rss",
       "date": "29 Sep 2026",
-      "excerpt": "Aviva boss Amanda Blanc said England was \"for sure\" building homes that might be uninsurable at some point in the future.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec74/live/d048b840-bb3a-11f1-a430-4d16ee157c41.jpg"
+      "excerpt": "I had expected him to try to forge a political consensus on this thorny issue at this stage, but he has gone further than that.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b85/live/cb267b10-bc23-11f1-bd53-1b67dc8fba34.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "OpenAI scraps rollout of new model over safety concerns",
-      "link": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+      "title": "Soho House venue under investigation for food safety",
+      "link": "https://www.bbc.co.uk/news/articles/cjly4dn9r21qo?at_medium=RSS&at_campaign=rss",
       "date": "29 Sep 2026",
-      "excerpt": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac1/live/580d3570-bbc8-11f1-bc1f-3f186ca4140c.jpg"
+      "excerpt": "A former chef contacted Hackney Council after complaining to managers at the members' club.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a0a/live/a4952850-bc20-11f1-a430-4d16ee157c41.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US ban on Canadian alcohol and dairy takes effect as trade war drags on",
-      "link": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss",
+      "title": "Oura pulls $15bn stock market listing days after announcement",
+      "link": "https://www.bbc.co.uk/news/articles/cjwyz5v190qwo?at_medium=RSS&at_campaign=rss",
       "date": "29 Sep 2026",
-      "excerpt": "It is the latest escalation in the Canada-US trade war after negotiations collapsed in late August, with no word on when talks may resume.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db51/live/1fd12340-bb7a-11f1-a430-4d16ee157c41.jpg"
+      "excerpt": "The wearable technology company had been expected to list its shares in the US.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc0e/live/21da3ca0-bc1d-11f1-a9cf-939723882d7f.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "I paid £30,000 for an 'influencer' degree. Here's why",
-      "link": "https://www.bbc.co.uk/news/articles/c61mvy1emr2zo?at_medium=RSS&at_campaign=rss",
+      "title": "What is the triple lock and why are people talking about it?",
+      "link": "https://www.bbc.co.uk/news/articles/cq6m03ld7nvo?at_medium=RSS&at_campaign=rss",
       "date": "29 Sep 2026",
-      "excerpt": "Content creation degrees aim to help people make money from social media, but are they worth the money?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/583f/live/bb83de50-bbf1-11f1-a430-4d16ee157c41.jpg"
+      "excerpt": "The triple lock guarantees that the state pension is not overtaken by inflation or wage increases.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c09/live/7224a110-bbf9-11f1-bc1f-3f186ca4140c.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK tries to stop Trump's diesel export ban",
-      "link": "https://www.bbc.co.uk/news/articles/cmx2z3vgy5xwo?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
+      "link": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
       "date": "29 Sep 2026",
-      "excerpt": "John Healey said the government is in talks with the US over Donald Trump's threat to stop exports.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/445a/live/ee159a80-bb5a-11f1-b3b3-91d0b491a464.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What a US diesel export ban could mean for you",
-      "link": "https://www.bbc.co.uk/news/articles/cky9z3r00l9eo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Sep 2026",
-      "excerpt": "The threatened proposal aims to protect US consumers from rising costs, but it could trigger major economic waves if it were to happen.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e413/live/471b3a50-bb5f-11f1-a430-4d16ee157c41.jpg"
+      "excerpt": "Sam Altman spoke in San Francisco during OpenAI’s yearly event for tech developers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d0f/live/83220850-bc2a-11f1-bd53-1b67dc8fba34.jpg"
     }
   ]
 }
