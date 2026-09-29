@@ -1,5 +1,5 @@
 {
-  "updated": "29 Sep 2026, 00:10 UTC",
+  "updated": "29 Sep 2026, 07:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -204,9 +204,9 @@
       "feedId": "bbc",
       "title": "Burnham to unveil public body to invest in electricity grid",
       "link": "https://www.bbc.co.uk/news/articles/cqn4k9nypxjro?at_medium=RSS&at_campaign=rss",
-      "date": "28 Sep 2026",
+      "date": "29 Sep 2026",
       "excerpt": "The prime minister will say he wants to reduce energy costs in his first conference speech as Labour leader.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0979/live/a9ce1040-bb83-11f1-a7f1-45ae25eeed0b.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6bac/live/19d68ae0-bbc8-11f1-bd21-bdf910f2cec6.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,10 +220,28 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Unis are offering degrees in content creation for £30,000. But are they worth it?",
+      "title": "OpenAI scraps rollout of new model over safety concerns",
+      "link": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+      "date": "29 Sep 2026",
+      "excerpt": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac1/live/580d3570-bbc8-11f1-bc1f-3f186ca4140c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
+      "link": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Sep 2026",
+      "excerpt": "It is the latest escalation in the Canada-US trade war after negotiations collapsed in late August, with no word on when talks may resume.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db51/live/1fd12340-bb7a-11f1-a430-4d16ee157c41.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Want to become an influencer? There's a £30,000 degree for that",
       "link": "https://www.bbc.co.uk/news/articles/c61mvy1emr2zo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Sep 2026",
-      "excerpt": "Content creation degrees aim to help people make money from their social media posts.",
+      "date": "29 Sep 2026",
+      "excerpt": "Content creation degrees aim to help people make money from social media, but are they worth the money?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3bd8/live/052c6f10-b754-11f1-bc1f-3f186ca4140c.jpg"
     },
     {
@@ -231,27 +249,9 @@
       "feedId": "bbc",
       "title": "UK tries to stop Trump's diesel export ban",
       "link": "https://www.bbc.co.uk/news/articles/cmx2z3vgy5xwo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Sep 2026",
+      "date": "29 Sep 2026",
       "excerpt": "John Healey said the government is in talks with the US over Donald Trump's threat to stop exports.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/445a/live/ee159a80-bb5a-11f1-b3b3-91d0b491a464.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What a US diesel export ban could mean for you",
-      "link": "https://www.bbc.co.uk/news/articles/cky9z3r00l9eo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Sep 2026",
-      "excerpt": "The threatened proposal aims to protect US consumers from rising costs, but it could trigger major economic waves if it were to happen.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e413/live/471b3a50-bb5f-11f1-a430-4d16ee157c41.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Aldi boss says some of rivals' loyalty discounts 'dupe' customers",
-      "link": "https://www.bbc.co.uk/news/articles/c6dj4vkwg8j0o?at_medium=RSS&at_campaign=rss",
-      "date": "28 Sep 2026",
-      "excerpt": "Aldi is the only major supermarket chain that doesn't operate a loyalty scheme, which are hugely popular and used by millions of shoppers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9fb/live/1a3e24c0-bb64-11f1-b3b3-91d0b491a464.jpg"
     }
   ]
 }
