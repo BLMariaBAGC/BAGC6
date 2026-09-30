@@ -1,5 +1,5 @@
 {
-  "updated": "29 Sep 2026, 20:26 UTC",
+  "updated": "30 Sep 2026, 01:03 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -146,13 +146,67 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What happens now that Trump and Xi failed to write new AI rules?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/29/what-happens-now-that-trump-and-xi-failed-to-write-new-ai-rules/",
+      "date": "29 Sep 2026",
+      "excerpt": "Donald Trump and Xi Jinping did not decide who regulates AI. They, and other governments, passed the buck. Responsibility now lies with whoever in your organisation is asked to check the machine’s work before it goes out. Grace Lordan argue",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Organisational digital twins are coming",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/28/organisational-digital-twins-are-coming/",
+      "date": "28 Sep 2026",
+      "excerpt": "For years, digital twins helped organisations understand physical assets, allowing firms to experiment with before making changes in the real world. More recently digital twins simulate specific people and their expertise. Now the same logi",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The financialisation of compute may reshape how the AI industry itself operates",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/25/the-financialisation-of-compute-may-reshape-how-the-ai-industry-itself-operates/",
+      "date": "25 Sep 2026",
+      "excerpt": "The graphics processing unit industry powering the artificial intelligence revolution is on the cusp of its own transformation. Daniel Hebert describes the excitement, as exchanges race to launch GPU compute futures, but offers a parallel f",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The US-China trade war reshaped Vietnam’s supply chains less than you would expect",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/24/the-us-china-trade-war-reshaped-vietnams-supply-chains-less-than-you-would-expect/",
+      "date": "24 Sep 2026",
+      "excerpt": "When the United States imposed tariffs on Chinese goods, Vietnam appeared to be one of the winners. But Tao Zou and Yundan Gong reveal a more complex picture in which firms responded in stages and, far from swapping China out, many firms le",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Train travel should be measured by human experience, not just efficiency",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/23/train-travel-should-be-measured-by-human-experience-not-just-efficiency/",
+      "date": "23 Sep 2026",
+      "excerpt": "The economic case for high-speed rail is well known. But Francesca Pagliara argues that wellbeing, rather than simply speed, should be a measure of success for new projects. Good transport systems can stimulate economic activity. But their ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1-3.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How America’s tax code subsidises artificial intelligence",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/22/how-americas-tax-code-subsidises-artificial-intelligence/",
+      "date": "22 Sep 2026",
+      "excerpt": "The United States has a tax-base problem hiding in plain sight. Its fiscal system is built around labour income and artificial intelligence is beginning to reduce the economy’s dependence on labour. Paul Krake shows how the tax code makes h",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Burnham vows to end existing pension triple lock in 2030 to help fund care",
-      "link": "https://www.bbc.co.uk/news/articles/cve8x724e9ezo?at_medium=RSS&at_campaign=rss",
+      "title": "Household energy bills forecast to see biggest rise in four years",
+      "link": "https://www.bbc.co.uk/news/articles/cwz0zvj4m1myo?at_medium=RSS&at_campaign=rss",
       "date": "29 Sep 2026",
-      "excerpt": "The PM was at times emotional during his conference speech in which he outlined his long-term plan for the UK.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cae0/live/374a62f0-bc30-11f1-bc1f-3f186ca4140c.jpg"
+      "excerpt": "A typical household faces an annual gas and electricity bill of £1,999 from January, based on a key forecast.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b79a/live/9a0501e0-bc24-11f1-bd53-1b67dc8fba34.jpg"
     },
     {
       "source": "BBC Business",
@@ -166,38 +220,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Soho House venue under investigation for food safety",
-      "link": "https://www.bbc.co.uk/news/articles/cjly4dn9r21qo?at_medium=RSS&at_campaign=rss",
+      "title": "'I like proving people wrong': The women taking up DIY and plumbing",
+      "link": "https://www.bbc.co.uk/news/articles/cm89jkn232xxo?at_medium=RSS&at_campaign=rss",
       "date": "29 Sep 2026",
-      "excerpt": "A former chef contacted Hackney Council after complaining to managers at the members' club.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a0a/live/a4952850-bc20-11f1-a430-4d16ee157c41.jpg"
+      "excerpt": "Female DIY experts and tradeswomen talk about their experiences of a traditionally male-dominated domain.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fbd/live/41b1ec30-bbff-11f1-a430-4d16ee157c41.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Oura pulls $15bn stock market listing days after announcement",
-      "link": "https://www.bbc.co.uk/news/articles/cjwyz5v190qwo?at_medium=RSS&at_campaign=rss",
+      "title": "Huel ad banned for suggesting its products could replace all conventional food",
+      "link": "https://www.bbc.co.uk/news/articles/c920v3y1gjgpo?at_medium=RSS&at_campaign=rss",
       "date": "29 Sep 2026",
-      "excerpt": "The wearable technology company had been expected to list its shares in the US.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc0e/live/21da3ca0-bc1d-11f1-a9cf-939723882d7f.jpg"
+      "excerpt": "The advertising watchdog said that viewers could assume from the ad that replacing all normal food with Huel was \"nutritionally appropriate\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd00/live/b8e0d640-bb4b-11f1-a071-65d2e11c8f4a.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What is the triple lock and why are people talking about it?",
-      "link": "https://www.bbc.co.uk/news/articles/cq6m03ld7nvo?at_medium=RSS&at_campaign=rss",
+      "title": "Chinese AI tool told researchers how to make bioweapons",
+      "link": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_medium=RSS&at_campaign=rss",
       "date": "29 Sep 2026",
-      "excerpt": "The triple lock guarantees that the state pension is not overtaken by inflation or wage increases.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c09/live/7224a110-bbf9-11f1-bc1f-3f186ca4140c.jpg"
+      "excerpt": "Mindgard said it discovered in July that Kimi models K2.6 and K3 Swarm could evade developer's safety limits.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/925f/live/79ba4b60-bc25-11f1-bd53-1b67dc8fba34.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
-      "link": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
+      "title": "The start-ups hoping to return battery making to the US",
+      "link": "https://www.bbc.co.uk/news/articles/cvgyexx4g8ro?at_medium=RSS&at_campaign=rss",
       "date": "29 Sep 2026",
-      "excerpt": "Sam Altman spoke in San Francisco during OpenAI’s yearly event for tech developers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d0f/live/83220850-bc2a-11f1-bd53-1b67dc8fba34.jpg"
+      "excerpt": "Batteries based on sodium-ion technology could be made in the US with locally sourced materials.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81ff/live/33895530-a5e8-11f1-a019-f3ea5e194221.png"
     }
   ]
 }
