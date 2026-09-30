@@ -1,6 +1,42 @@
 {
-  "updated": "30 Sep 2026, 07:58 UTC",
+  "updated": "30 Sep 2026, 14:48 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Cannabis users were twice as likely to commit violence, review finds",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260930020255.htm",
+      "date": "30 Sep 2026",
+      "excerpt": "A review of more than 265,000 people found that cannabis use was associated with higher rates of both committing violence and becoming a victim of it. The researchers say the link is significant but does not prove cannabis itself is the cau",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Creatine may help build muscle even without exercise, researchers find",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260928100547.htm",
+      "date": "29 Sep 2026",
+      "excerpt": "Creatine helped middle-aged adults gain muscle and strength even without a structured workout program in a new 12-week study. When combined with exercise and a calorie-reduced diet, it produced even greater strength gains while helping part",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Brain scans reveal which disorders are linked to faster brain aging",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260927225038.htm",
+      "date": "29 Sep 2026",
+      "excerpt": "A massive MRI study found that Alzheimer’s disease, mild cognitive impairment, psychiatric disorders, and addiction are associated with distinct patterns of accelerated brain aging. The strongest effects appeared in Alzheimer’s and mild cog",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Children at risk for depression get “stuck” on sad faces",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260927225022.htm",
+      "date": "29 Sep 2026",
+      "excerpt": "Depression may change which emotional faces children notice most, but the pattern appears to depend on family history. Children at higher familial risk became increasingly focused on sad faces, while lower-risk children with rising symptoms",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -35,42 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/09/260925093206.htm",
       "date": "26 Sep 2026",
       "excerpt": "Scientists discovered a surprising energy paradox in the brain during REM sleep, the stage most closely associated with dreaming. Blood supply to the brain begins increasing even before REM starts, but neurons’ immediately available energy,",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists found a surprising driver of Alzheimer’s outside the brain",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260925093150.htm",
-      "date": "27 Sep 2026",
-      "excerpt": "Scientists found that immune cells contributing to Alzheimer’s-related brain damage may be activated in lymph nodes outside the brain before traveling into the nervous system. Blocking this pathway in mice dramatically reduced neurodegenera",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Resetting the body clock could help the brain recover after stroke",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260924020407.htm",
-      "date": "28 Sep 2026",
-      "excerpt": "Strengthening the body’s natural daily rhythms helped mice recover after stroke by improving the brain’s waste-clearing system and reducing lingering inflammation. The approach worked even when treatment began three days after the stroke, s",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This “rare” autism-linked genetic disorder may be far more common than scientists thought",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260924020405.htm",
-      "date": "25 Sep 2026",
-      "excerpt": "A major analysis suggests Phelan-McDermid syndrome, a genetic disorder closely linked to autism, may affect about 1 in 7,300 people and more than 45,000 Americans. Researchers warn that thousands of cases may remain hidden because genetic t",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "More REM sleep linked to lower risk of 83 diseases",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
-      "date": "23 Sep 2026",
-      "excerpt": "A large study tracking more than 95,000 people suggests that how you sleep may be linked to your risk of developing dozens of diseases. People who spent more time in REM sleep had lower risks of 83 conditions, including dementia, heart fail",
       "image": ""
     },
     {
@@ -211,6 +211,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Regulating AI 'not the right place to start' says Bailey",
+      "link": "https://www.bbc.co.uk/news/articles/cvzez7k0pn40o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Sep 2026",
+      "excerpt": "AI needs \"rigorous\" testing and safeguards to contain risk, Andrew Bailey says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e249/live/7e528b30-bcb4-11f1-a3e9-bbda6f9b9e25.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Greggs to shut four factories and cut 740 jobs",
+      "link": "https://www.bbc.co.uk/news/articles/cm7802ylq973o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Sep 2026",
+      "excerpt": "The company says it needs to \"keep evolving alongside changing customer expectations\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fad1/live/985534f0-bca6-11f1-a3e9-bbda6f9b9e25.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Three takeaways from Trump's 'Super Intelligence' summit",
       "link": "https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_medium=RSS&at_campaign=rss",
       "date": "30 Sep 2026",
@@ -220,29 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "People troll my DIY but they just spur me on",
+      "title": "Doubters spur me on: why more women are taking up DIY",
       "link": "https://www.bbc.co.uk/news/articles/cm89jkn232xxo?at_medium=RSS&at_campaign=rss",
       "date": "30 Sep 2026",
       "excerpt": "Female DIY experts and tradeswomen talk about their experiences of a traditionally male-dominated domain.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/27c0/live/c0b51950-bbfd-11f1-90b9-913e4354ed35.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Huel ad banned for suggesting its products could replace all conventional food",
-      "link": "https://www.bbc.co.uk/news/articles/c920v3y1gjgpo?at_medium=RSS&at_campaign=rss",
-      "date": "29 Sep 2026",
-      "excerpt": "The advertising watchdog said that viewers could assume from the ad that replacing all normal food with Huel was \"nutritionally appropriate\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd00/live/b8e0d640-bb4b-11f1-a071-65d2e11c8f4a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Faisal Islam: Triple lock move is significant, but it's a gamble",
-      "link": "https://www.bbc.co.uk/news/articles/cwp93d078j8no?at_medium=RSS&at_campaign=rss",
-      "date": "29 Sep 2026",
-      "excerpt": "I had expected him to try to forge a political consensus on this thorny issue at this stage, but he has gone further than that.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b85/live/cb267b10-bc23-11f1-bd53-1b67dc8fba34.jpg"
     },
     {
       "source": "BBC Business",
