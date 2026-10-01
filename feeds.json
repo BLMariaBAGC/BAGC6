@@ -1,6 +1,33 @@
 {
-  "updated": "01 Oct 2026, 08:18 UTC",
+  "updated": "01 Oct 2026, 16:52 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This diet may slow brain aging by 2.5 years",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
+      "date": "1 Oct 2026",
+      "excerpt": "People who followed the MIND diet more closely showed slower brain shrinkage and less grey matter loss over time, with the strongest differences equivalent to about 2.5 years of delayed brain aging. Berries and poultry were linked with heal",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Alzheimer’s risk gene APOE4 may have a reversible weakness",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260930225450.htm",
+      "date": "1 Oct 2026",
+      "excerpt": "The Alzheimer’s risk gene APOE4 may actively damage brain blood vessels and sabotage the cellular systems that remove harmful proteins. Researchers were able to reverse some of these effects in experiments, revealing promising new targets f",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Could quitting ultra-processed food boost your mental health?",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260930225448.htm",
+      "date": "1 Oct 2026",
+      "excerpt": "People with depression who dramatically cut ultra-processed foods experienced notable improvements in their symptoms in a small preliminary study. Researchers suspect healthier eating may benefit the brain partly by reducing gut damage and ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -47,30 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Glucosamine, a popular joint supplement, linked to faster Alzheimer’s progression",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
-      "date": "27 Sep 2026",
-      "excerpt": "A large health-record analysis found that glucosamine use was associated with a 25% higher likelihood of mild cognitive impairment progressing to dementia. Lab experiments suggest the popular joint supplement may intensify an abnormal sugar",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Why Companies Should Support Crisis Volunteer Work",
+      "link": "/2026/10/why-companies-should-support-crisis-volunteer-work",
+      "date": "1 Oct 2026",
+      "excerpt": "Real experience handling high-stakes challenges can help employees build resilience, agility, and creativity in the workplace.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Why rheumatoid arthritis pain may persist even when inflammation is under control",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260925093208.htm",
-      "date": "27 Sep 2026",
-      "excerpt": "Pain and fatigue in rheumatoid arthritis can persist even after inflammation improves, with depression, poor sleep, obesity, smoking, and chronic pain potentially helping sustain symptoms. Researchers say identifying these hidden drivers co",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How AI Is Changing Cyber Threats—and Cybersecurity—for SMBs",
+      "link": "/2026/10/how-ai-is-changing-cyber-threats-and-cybersecurity-for-smbs",
+      "date": "1 Oct 2026",
+      "excerpt": "Five actions leaders can take.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "REM sleep paradox: Dreaming may drain the brain’s energy even as fuel supply rises",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260925093206.htm",
-      "date": "26 Sep 2026",
-      "excerpt": "Scientists discovered a surprising energy paradox in the brain during REM sleep, the stage most closely associated with dreaming. Blood supply to the brain begins increasing even before REM starts, but neurons’ immediately available energy,",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How AI Is Changing Innovation: Why Speed Alone Isn’t a Strategy",
+      "link": "/podcast/2026/10/how-ai-is-changing-innovation-why-speed-alone-isnt-a-strategy",
+      "date": "1 Oct 2026",
+      "excerpt": "A conversation with Cisco Chief Product Officer Jeetu Patel on exercising restraint while also building a culture of experimentation.",
       "image": ""
     },
     {
@@ -110,39 +137,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "A Collection of HBR’s Most Insightful Research on AI at Work",
-      "link": "/2026/09/a-collection-of-hbrs-most-insightful-research-on-ai-at-work",
-      "date": "29 Sep 2026",
-      "excerpt": "Findings on how AI is reshaping expertise, complicating the productivity picture, and changing the role of human judgment.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Considering the Future of the BBC and Its Funding Model",
-      "link": "/podcast/2026/09/considering-the-future-of-the-bbc-and-its-funding-model",
-      "date": "29 Sep 2026",
-      "excerpt": "Inside a case that explores what kind of structures will allow the venerated public broadcaster to survive: public ownership or privatization?",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Retail Legend Ron Johnson Learned from Apple’s Success and JCPenney’s Failure",
-      "link": "/podcast/2026/09/what-retail-legend-ron-johnson-learned-from-apples-success-and-jcpenneys-failure",
-      "date": "29 Sep 2026",
-      "excerpt": "A conversation with former Apple executive and JCPenney CEO Ron Johnson on successful transformation.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Is Reluctance to Step into Leadership a Sign of Maturity or a Red Flag?",
-      "link": "/2026/09/is-reluctance-to-step-into-leadership-a-sign-of-maturity-or-a-red-flag",
-      "date": "28 Sep 2026",
-      "excerpt": "Don&#8217;t mistake eagerness for readiness&#8212;or hesitation for a lack of ambition.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How much should you authorise your AI agent to do?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/01/how-much-should-you-authorise-your-ai-agent-to-do/",
+      "date": "1 Oct 2026",
+      "excerpt": "Agentic AI means that leaders must now decide how knowledge, authority and action are distributed between people and machines. Mark Dawson highlights a new teaching case where agents are treated not as software but as teammates. This metaph",
       "image": ""
     },
     {
@@ -191,15 +191,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Train travel should be measured by human experience, not just efficiency",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/23/train-travel-should-be-measured-by-human-experience-not-just-efficiency/",
-      "date": "23 Sep 2026",
-      "excerpt": "The economic case for high-speed rail is well known. But Francesca Pagliara argues that wellbeing, rather than simply speed, should be a measure of success for new projects. Good transport systems can stimulate economic activity. But their ",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1-3.jpg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "AI boom could trigger market shocks, Bank of England boss warns",
@@ -207,6 +198,24 @@
       "date": "1 Oct 2026",
       "excerpt": "Andrew Bailey says the central bank is watching the waves of cash being invested in artificial intelligence \"very carefully\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d849/live/8e2b1bb0-bd4c-11f1-a52c-0511052dc036.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2z23xj555o?at_medium=RSS&at_campaign=rss",
+      "date": "1 Oct 2026",
+      "excerpt": "The president wants AI to be called super intelligence - or SI - the same initials used by Slovenian domains.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ff7/live/977f2bf0-bd85-11f1-ab03-fd866f8788d0.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Travelodge failed sex assault victim 'at every stage'",
+      "link": "https://www.bbc.co.uk/news/articles/c93429dg425o?at_medium=RSS&at_campaign=rss",
+      "date": "1 Oct 2026",
+      "excerpt": "Room intrusions were still being reported at one-in-10 Travelodge hotels this summer, a review finds.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0380/live/6a80b640-bd8b-11f1-babe-4199b0e7ccea.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,15 +229,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Energy bills are rising by £60 a year - here's what you can do about it",
-      "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
-      "date": "1 Oct 2026",
-      "excerpt": "Household energy bills have risen again but there are ways to keep a lid on your expenditure.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b666/live/2db5aca0-bd6a-11f1-babe-4199b0e7ccea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Employers should teach primary-age children about work, says Milburn",
       "link": "https://www.bbc.co.uk/news/articles/cr2kwlw0p3v9o?at_medium=RSS&at_campaign=rss",
       "date": "1 Oct 2026",
@@ -238,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Household energy bills forecast to see biggest rise in four years",
-      "link": "https://www.bbc.co.uk/news/articles/cwz0zvj4m1myo?at_medium=RSS&at_campaign=rss",
-      "date": "30 Sep 2026",
-      "excerpt": "A typical household faces an annual gas and electricity bill of £1,999 from January, based on a key forecast.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00c4/live/78692c20-bc9a-11f1-a430-4d16ee157c41.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "The AI telling farmers when to harvest",
       "link": "https://www.bbc.co.uk/news/articles/cgk53dkmyxko?at_medium=RSS&at_campaign=rss",
       "date": "30 Sep 2026",
       "excerpt": "Will farmers want AI tools to help judge when to pick fruit, or is their own intuition enough?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/874b/live/cbc27c20-acfd-11f1-bc1f-3f186ca4140c.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0645/live/cb36dd30-bd80-11f1-bc2e-018d645d8d21.jpg"
     }
   ]
 }
