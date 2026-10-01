@@ -1,5 +1,5 @@
 {
-  "updated": "30 Sep 2026, 20:31 UTC",
+  "updated": "01 Oct 2026, 01:03 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -146,6 +146,78 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How global value chains are reshaping jobs in South Africa",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/30/how-global-value-chains-are-reshaping-jobs-in-south-africa/",
+      "date": "30 Sep 2026",
+      "excerpt": "Integration with global value chains can be critical to the manufacturing industries of developing countries. But what impact do those connections have on employment? By studying South Africa Gideon Ndubuisi and Solomon Owusu find that that",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "What happens now that Trump and Xi failed to write new AI rules?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/29/what-happens-now-that-trump-and-xi-failed-to-write-new-ai-rules/",
+      "date": "29 Sep 2026",
+      "excerpt": "Donald Trump and Xi Jinping did not decide who regulates AI. They, and other governments, passed the buck. Responsibility now lies with whoever in your organisation is asked to check the machine’s work before it goes out. Grace Lordan argue",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Organisational digital twins are coming",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/28/organisational-digital-twins-are-coming/",
+      "date": "28 Sep 2026",
+      "excerpt": "For years, digital twins helped organisations understand physical assets, allowing firms to experiment with before making changes in the real world. More recently digital twins simulate specific people and their expertise. Now the same logi",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The financialisation of compute may reshape how the AI industry itself operates",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/25/the-financialisation-of-compute-may-reshape-how-the-ai-industry-itself-operates/",
+      "date": "25 Sep 2026",
+      "excerpt": "The graphics processing unit industry powering the artificial intelligence revolution is on the cusp of its own transformation. Daniel Hebert describes the excitement, as exchanges race to launch GPU compute futures, but offers a parallel f",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The US-China trade war reshaped Vietnam’s supply chains less than you would expect",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/24/the-us-china-trade-war-reshaped-vietnams-supply-chains-less-than-you-would-expect/",
+      "date": "24 Sep 2026",
+      "excerpt": "When the United States imposed tariffs on Chinese goods, Vietnam appeared to be one of the winners. But Tao Zou and Yundan Gong reveal a more complex picture in which firms responded in stages and, far from swapping China out, many firms le",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Train travel should be measured by human experience, not just efficiency",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/23/train-travel-should-be-measured-by-human-experience-not-just-efficiency/",
+      "date": "23 Sep 2026",
+      "excerpt": "The economic case for high-speed rail is well known. But Francesca Pagliara argues that wellbeing, rather than simply speed, should be a measure of success for new projects. Good transport systems can stimulate economic activity. But their ",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/09/Figure-1-3.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Vape prices to rise as new tax takes effect",
+      "link": "https://www.bbc.co.uk/news/articles/c6j4jrjgv2j7o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Sep 2026",
+      "excerpt": "Vaping is about to becoming more expensive due to a new tax on products.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcfd/live/ac642720-bcc5-11f1-ae14-0b840f99ba59.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Energy bills are going up - here's what you can do about it",
+      "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Sep 2026",
+      "excerpt": "Household energy bills have risen again but there are ways to keep a lid on your expenditure.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/026a/live/81f6e9b0-8345-11f0-a34f-318be3fb0481.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Household energy bills forecast to see biggest rise in four years",
@@ -175,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Three takeaways from Trump's 'Super Intelligence' summit",
-      "link": "https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_medium=RSS&at_campaign=rss",
+      "title": "The AI telling farmers when to harvest",
+      "link": "https://www.bbc.co.uk/news/articles/cgk53dkmyxko?at_medium=RSS&at_campaign=rss",
       "date": "30 Sep 2026",
-      "excerpt": "The meeting at the White House came as some tech bosses and experts have called for tighter rules around AI.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af69/live/34e7c4c0-bc86-11f1-bc1f-3f186ca4140c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Doubters spur me on: why more women are taking up DIY",
-      "link": "https://www.bbc.co.uk/news/articles/cm89jkn232xxo?at_medium=RSS&at_campaign=rss",
-      "date": "30 Sep 2026",
-      "excerpt": "Female DIY experts and tradeswomen talk about their experiences of a traditionally male-dominated domain.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/27c0/live/c0b51950-bbfd-11f1-90b9-913e4354ed35.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The start-ups hoping to return battery making to the US",
-      "link": "https://www.bbc.co.uk/news/articles/cvgyexx4g8ro?at_medium=RSS&at_campaign=rss",
-      "date": "29 Sep 2026",
-      "excerpt": "Batteries based on sodium-ion technology could be made in the US with locally sourced materials.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81ff/live/33895530-a5e8-11f1-a019-f3ea5e194221.png"
+      "excerpt": "Will farmers want AI tools to help judge when to pick fruit, or is their own intuition enough?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/874b/live/cbc27c20-acfd-11f1-bc1f-3f186ca4140c.jpg"
     }
   ]
 }
