@@ -1,5 +1,5 @@
 {
-  "updated": "02 Oct 2026, 17:27 UTC",
+  "updated": "02 Oct 2026, 21:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Remembering Howard Stevenson, Who Transformed the Study of Entrepreneurship",
+      "link": "/2026/10/remembering-howard-stevenson-who-transformed-the-study-of-entrepreneurship",
+      "date": "2 Oct 2026",
+      "excerpt": "The longtime Harvard Business School professor shifted the field&#8217;s focus from risk-taking personalities to a mode of management.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Match Your Pace to the Moment",
       "link": "/2026/10/match-your-pace-to-the-moment-the-5-tempos-of-leadership",
       "date": "2 Oct 2026",
@@ -116,24 +125,6 @@
       "link": "/2026/10/why-companies-should-support-crisis-volunteer-work",
       "date": "1 Oct 2026",
       "excerpt": "Real experience handling high-stakes challenges can help employees build resilience, agility, and creativity in the workplace.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How AI Is Changing Cyber Threats—and Cybersecurity—for SMBs",
-      "link": "/2026/10/how-ai-is-changing-cyber-threats-and-cybersecurity-for-smbs",
-      "date": "1 Oct 2026",
-      "excerpt": "Five actions leaders can take.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How AI Is Changing Innovation: Why Speed Alone Isn’t a Strategy",
-      "link": "/podcast/2026/10/how-ai-is-changing-innovation-why-speed-alone-isnt-a-strategy",
-      "date": "1 Oct 2026",
-      "excerpt": "A conversation with Cisco Chief Product Officer Jeetu Patel on exercising restraint while also building a culture of experimentation.",
       "image": ""
     },
     {
@@ -193,6 +184,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+      "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Oct 2026",
+      "excerpt": "The coordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c16/live/be292300-be89-11f1-babe-4199b0e7ccea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK diesel prices top £2 a litre for first time, RAC says",
+      "link": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Oct 2026",
+      "excerpt": "The rise in global oil prices has been pushing up the pump prices of petrol and diesel in the UK.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95e2/live/57b2dba0-be95-11f1-babe-4199b0e7ccea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "US jobs market sees sharp slowdown ahead of midterm elections",
       "link": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
       "date": "2 Oct 2026",
@@ -220,29 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK diesel prices top £2 a litre for first time, RAC says",
-      "link": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Oct 2026",
-      "excerpt": "The rise in global oil prices has been pushing up the pump prices of petrol and diesel in the UK.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eafc/live/b2d4f150-bd71-11f1-8134-9503562e5ca9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "The wealthy Cuban Americans ready and waiting for Havana to fall",
       "link": "https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss",
       "date": "1 Oct 2026",
       "excerpt": "Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f157/live/3b2f3340-bca9-11f1-a3e9-bbda6f9b9e25.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "No more cereal at the end of the aisle? New rules in Scotland's supermarkets",
-      "link": "https://www.bbc.co.uk/news/articles/cmwyzye21463o?at_medium=RSS&at_campaign=rss",
-      "date": "2 Oct 2026",
-      "excerpt": "Restrictions are being put on products with high sugar, fat and salt content, but the meal deal lives on.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d82/live/328104a0-bd9c-11f1-a64c-550be9e3c66b.jpg"
     }
   ]
 }
