@@ -1,5 +1,5 @@
 {
-  "updated": "02 Oct 2026, 04:04 UTC",
+  "updated": "02 Oct 2026, 11:53 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "When do narcissistic chief executives make good decisions?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/02/when-do-narcissistic-chief-executives-make-good-decisions/",
+      "date": "2 Oct 2026",
+      "excerpt": "Most boards do not want narcissistic leaders and would avoid hiring a chief executive with such traits. But Philipp Richter’s review of the research suggests that might not always be the right decision. Narcissistic chief executives are as ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How much should you authorise your AI agent to do?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/01/how-much-should-you-authorise-your-ai-agent-to-do/",
       "date": "1 Oct 2026",
@@ -151,7 +160,7 @@
       "title": "How global value chains are reshaping jobs in South Africa",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/09/30/how-global-value-chains-are-reshaping-jobs-in-south-africa/",
       "date": "30 Sep 2026",
-      "excerpt": "Integration with global value chains can be critical to the manufacturing industries of developing countries. But what impact do those connections have on employment? By studying South Africa Gideon Ndubuisi and Solomon Owusu find that that",
+      "excerpt": "Integration into global value chains can be critical to the manufacturing industries of developing countries. But what impact do those connections have on employment? By studying South Africa Gideon Ndubuisi and Solomon Owusu find that the ",
       "image": ""
     },
     {
@@ -182,42 +191,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The US-China trade war reshaped Vietnam’s supply chains less than you would expect",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/24/the-us-china-trade-war-reshaped-vietnams-supply-chains-less-than-you-would-expect/",
-      "date": "24 Sep 2026",
-      "excerpt": "When the United States imposed tariffs on Chinese goods, Vietnam appeared to be one of the winners. But Tao Zou and Yundan Gong reveal a more complex picture in which firms responded in stages and, far from swapping China out, many firms le",
-      "image": ""
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US says Europe should ready fuel supplies as Trump threatens diesel ban",
-      "link": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Oct 2026",
-      "excerpt": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7842/live/887b3530-bdcc-11f1-b74d-89126d2b845a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "OpenAI fires workers for mishandling 'sensitive information'",
-      "link": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Oct 2026",
-      "excerpt": "The former employees were investigated for sharing data with an outside AI evaluation group.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/136d/live/561b92b0-bdf9-11f1-a76b-bdcdab65a1b7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Crypto thieves attack man in home and threaten to kill pregnant wife's baby in 'horrific' robbery",
-      "link": "https://www.bbc.co.uk/news/articles/c6eq84eygz0qo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Oct 2026",
-      "excerpt": "The man was beaten with hammers until he transferred hundreds of thousands of pounds of cryptocurrency.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc74/live/877de1e0-bdaa-11f1-babe-4199b0e7ccea.png"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "'It could cost me £10k but I need the money now': Why Gen Z are opting out of pensions",
@@ -233,7 +206,25 @@
       "link": "https://www.bbc.co.uk/news/articles/c6je85jzk9y7o?at_medium=RSS&at_campaign=rss",
       "date": "1 Oct 2026",
       "excerpt": "Several self-inflicted mistakes have cost the biggest sportswear brand on the planet in recent years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb88/live/f96c9360-bdc7-11f1-babe-4199b0e7ccea.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca3a/live/a79a57d0-be2a-11f1-bc2e-018d645d8d21.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK diesel price hits £2 a litre as US calls for EU to release more stocks",
+      "link": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Oct 2026",
+      "excerpt": "The RAC says diesel price rises are showing no signs of slowing, \"heaping more misery\" onto drivers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eafc/live/b2d4f150-bd71-11f1-8134-9503562e5ca9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Crypto thieves attack man in home and threaten to kill pregnant wife's baby in 'horrific' robbery",
+      "link": "https://www.bbc.co.uk/news/articles/c6eq84eygz0qo?at_medium=RSS&at_campaign=rss",
+      "date": "1 Oct 2026",
+      "excerpt": "The man was beaten with hammers until he transferred hundreds of thousands of pounds of cryptocurrency.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc74/live/877de1e0-bdaa-11f1-babe-4199b0e7ccea.png"
     },
     {
       "source": "BBC Business",
@@ -243,6 +234,15 @@
       "date": "1 Oct 2026",
       "excerpt": "Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f157/live/3b2f3340-bca9-11f1-a3e9-bbda6f9b9e25.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "OpenAI fires workers for 'mishandling sensitive information'",
+      "link": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Oct 2026",
+      "excerpt": "The former employees were investigated for sharing data with an outside AI evaluation group.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/136d/live/561b92b0-bdf9-11f1-a76b-bdcdab65a1b7.jpg"
     }
   ]
 }
