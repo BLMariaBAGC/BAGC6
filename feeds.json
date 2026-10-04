@@ -1,6 +1,24 @@
 {
-  "updated": "04 Oct 2026, 07:45 UTC",
+  "updated": "04 Oct 2026, 13:41 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your gut bacteria may reveal how fast your brain is aging",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261001214106.htm",
+      "date": "4 Oct 2026",
+      "excerpt": "A UCLA study links faster brain aging to specific gut bacteria and chemical byproducts, with older-looking brains also associated with poorer memory, focus, and mood. The findings suggest that biological signs of brain aging may appear deca",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This common vitamin could help fight one of the deadliest brain cancers",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261001095423.htm",
+      "date": "4 Oct 2026",
+      "excerpt": "High-dose vitamin B3 is showing intriguing early promise as an addition to standard glioblastoma treatment, with 82% of patients in a small trial remaining progression-free after six months. Researchers believe niacin may help revive immune",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/09/260928100547.htm",
       "date": "29 Sep 2026",
       "excerpt": "Creatine helped middle-aged adults gain muscle and strength even without a structured workout program in a new 12-week study. When combined with exercise and a calorie-reduced diet, it produced even greater strength gains while helping part",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Brain scans reveal which disorders are linked to faster brain aging",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260927225038.htm",
-      "date": "29 Sep 2026",
-      "excerpt": "A massive MRI study found that Alzheimer’s disease, mild cognitive impairment, psychiatric disorders, and addiction are associated with distinct patterns of accelerated brain aging. The strongest effects appeared in Alzheimer’s and mild cog",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Children at risk for depression get “stuck” on sad faces",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260927225022.htm",
-      "date": "29 Sep 2026",
-      "excerpt": "Depression may change which emotional faces children notice most, but the pattern appears to depend on family history. Children at higher familial risk became increasingly focused on sad faces, while lower-risk children with rising symptoms",
       "image": ""
     },
     {
