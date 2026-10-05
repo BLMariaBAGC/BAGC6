@@ -1,5 +1,5 @@
 {
-  "updated": "04 Oct 2026, 21:08 UTC",
+  "updated": "05 Oct 2026, 00:25 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,6 +184,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "The job interview question you don't have to answer",
+      "link": "https://www.bbc.co.uk/news/articles/cje3r35p0qeno?at_medium=RSS&at_campaign=rss",
+      "date": "4 Oct 2026",
+      "excerpt": "Experts explain what you should do if you are asked for your current salary during a job interview.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e493/live/17316b80-bd89-11f1-a2ad-3160f44bb180.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
       "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
       "date": "3 Oct 2026",
@@ -225,15 +234,6 @@
       "date": "1 Oct 2026",
       "excerpt": "A growing number of people are opting out of these schemes due to cost-of-living pressures.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/166e/live/9297b320-bcd4-11f1-9f83-d9975ff80416.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The wealthy Cuban Americans ready and waiting for Havana to fall",
-      "link": "https://www.bbc.co.uk/news/articles/ckrerylrlg9vo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Oct 2026",
-      "excerpt": "Cuban exiles in Florida are increasingly hopeful that regime change in Cuba is now on the horizon.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f157/live/3b2f3340-bca9-11f1-a3e9-bbda6f9b9e25.jpg"
     }
   ]
 }
