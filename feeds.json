@@ -1,5 +1,5 @@
 {
-  "updated": "05 Oct 2026, 00:25 UTC",
+  "updated": "05 Oct 2026, 08:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,6 +184,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "BT agrees rescue deal to buy broadband operator TalkTalk",
+      "link": "https://www.bbc.co.uk/news/articles/cvze4g06526ro?at_medium=RSS&at_campaign=rss",
+      "date": "5 Oct 2026",
+      "excerpt": "The takeover still needs to be approved by the regulator, but would give certainty to TalkTalk's millions of customers",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/729e/live/2c26c6a0-c088-11f1-a4af-19dbf5352a59.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "The job interview question you don't have to answer",
       "link": "https://www.bbc.co.uk/news/articles/cje3r35p0qeno?at_medium=RSS&at_campaign=rss",
       "date": "4 Oct 2026",
@@ -193,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-      "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Oct 2026",
-      "excerpt": "The co-ordinated release is aimed at heading off further price spikes and avoiding a ban on US diesel exports.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44c3/live/c89e9510-beff-11f1-babe-4199b0e7ccea.jpg"
+      "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+      "link": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+      "date": "5 Oct 2026",
+      "excerpt": "The president named his national intelligence chief as the taskforce's head as worries over AI grow.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a97/live/e8568220-c056-11f1-ba75-170165fdb734.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "How India became dangerously addicted to Chinese imports",
+      "link": "https://www.bbc.co.uk/news/articles/c5pve834grpno?at_medium=RSS&at_campaign=rss",
+      "date": "5 Oct 2026",
+      "excerpt": "India’s toy shops provide an unlikely barometer by which to measure its economic relationship with China.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/570e/live/a11df9f0-bc83-11f1-8bd0-b38b5eda40be.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,24 +234,6 @@
       "date": "2 Oct 2026",
       "excerpt": "The rise in global oil prices has been pushing up the pump prices of petrol and diesel in the UK.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea0f/live/8e1b93c0-beeb-11f1-ba3c-a5b1d911ee67.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US jobs market sees sharp slowdown ahead of midterm elections",
-      "link": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Oct 2026",
-      "excerpt": "Unemployment rose slightly as American employers paused hiring with midterm elections just a month away.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e78/live/ada3bbd0-be61-11f1-b36c-81ad410b221e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'It could cost me £10k but I need the money now': Why Gen Z are opting out of pensions",
-      "link": "https://www.bbc.co.uk/news/articles/c68xk0ndqz8jo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Oct 2026",
-      "excerpt": "A growing number of people are opting out of these schemes due to cost-of-living pressures.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/166e/live/9297b320-bcd4-11f1-9f83-d9975ff80416.png"
     }
   ]
 }
