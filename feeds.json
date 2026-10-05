@@ -1,6 +1,15 @@
 {
-  "updated": "05 Oct 2026, 08:20 UTC",
+  "updated": "05 Oct 2026, 19:02 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Vagus Nerve Stimulation Could Help New Skills Stick",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261002080034.htm",
+      "date": "5 Oct 2026",
+      "excerpt": "Stimulating the vagus nerve after practice helped mice develop stronger long-term motor learning, revealing a potentially important window when the brain is still locking in a new skill. The effect was linked to rhythmic changes in brain bl",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Creatine may help build muscle even without exercise, researchers find",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260928100547.htm",
-      "date": "29 Sep 2026",
-      "excerpt": "Creatine helped middle-aged adults gain muscle and strength even without a structured workout program in a new 12-week study. When combined with exercise and a calorie-reduced diet, it produced even greater strength gains while helping part",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: When Pay Fluctuates, Workers Walk Away",
+      "link": "/2026/10/research-when-pay-fluctuates-workers-walk-away",
+      "date": "5 Oct 2026",
+      "excerpt": "Four actions companies can take to reduce turnover and make workers feel more in control.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "There’s No Such Thing as an AI-Ready Culture",
+      "link": "/2026/10/theres-no-such-thing-as-an-ai-ready-culture",
+      "date": "5 Oct 2026",
+      "excerpt": "What organizations need is a culture of adaptability: the capacity to flex as strategy, technology, and work evolve.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What the Honda Super Cub Can Teach Us About Designing for Global Markets",
+      "link": "/2026/10/what-the-honda-super-cub-can-teach-us-about-designing-for-global-markets",
+      "date": "5 Oct 2026",
+      "excerpt": "Most companies approach emerging markets with one of three flawed strategies. The story of Honda&#8217;s best-selling motorcycle shows a better way.",
       "image": ""
     },
     {
@@ -107,24 +134,6 @@
       "link": "/2026/10/ai-is-making-verification-the-bottleneck-for-companies",
       "date": "2 Oct 2026",
       "excerpt": "Can your organization properly steer AI-generated output&#8212;and stand behind the results?",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Mindsets Leaders Need as AI Accelerates the Pace of Business",
-      "link": "/2026/10/the-mindsets-leaders-need-as-ai-accelerates-the-pace-of-business",
-      "date": "2 Oct 2026",
-      "excerpt": "Three mental shifts can help you adapt quickly, respond under pressure, and think creatively.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Companies Should Support Crisis Volunteer Work",
-      "link": "/2026/10/why-companies-should-support-crisis-volunteer-work",
-      "date": "1 Oct 2026",
-      "excerpt": "Real experience handling high-stakes challenges can help employees build resilience, agility, and creativity in the workplace.",
       "image": ""
     },
     {
@@ -184,11 +193,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Average five-year mortgage rate hits 6% for first time in three years",
+      "link": "https://www.bbc.co.uk/news/articles/c8r4yxpry5e9o?at_medium=RSS&at_campaign=rss",
+      "date": "5 Oct 2026",
+      "excerpt": "The cost of a new fixed-rate mortgage has been rising in recent weeks as lenders face higher costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb45/live/ddd7ea70-c0b3-11f1-babe-4199b0e7ccea.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+      "link": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
+      "date": "5 Oct 2026",
+      "excerpt": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c06c/live/0ca3aea0-c0c5-11f1-bc2e-018d645d8d21.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "BT agrees rescue deal to buy broadband operator TalkTalk",
       "link": "https://www.bbc.co.uk/news/articles/cvze4g06526ro?at_medium=RSS&at_campaign=rss",
       "date": "5 Oct 2026",
       "excerpt": "The takeover still needs to be approved by the regulator, but would give certainty to TalkTalk's millions of customers",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/729e/live/2c26c6a0-c088-11f1-a4af-19dbf5352a59.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb77/live/0d52c410-c0a9-11f1-a64c-550be9e3c66b.jpg"
     },
     {
       "source": "BBC Business",
@@ -202,38 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+      "title": "Shadow chancellor vows to cut at least one tax in every Tory budget",
+      "link": "https://www.bbc.co.uk/news/articles/cqj9kje82jm1o?at_medium=RSS&at_campaign=rss",
+      "date": "5 Oct 2026",
+      "excerpt": "Shadow ministers unveiled a series of policies on day two of the Conservative Party conference in Birmingham.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0364/live/ec07d040-c0d8-11f1-bdc6-179ac8d394b5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump chooses top spy boss to run new AI taskforce",
       "link": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
       "date": "5 Oct 2026",
-      "excerpt": "The president named his national intelligence chief as the taskforce's head as worries over AI grow.",
+      "excerpt": "The US president said his national intelligence chief will lead the group as worries over AI grow.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a97/live/e8568220-c056-11f1-ba75-170165fdb734.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How India became dangerously addicted to Chinese imports",
-      "link": "https://www.bbc.co.uk/news/articles/c5pve834grpno?at_medium=RSS&at_campaign=rss",
-      "date": "5 Oct 2026",
-      "excerpt": "India’s toy shops provide an unlikely barometer by which to measure its economic relationship with China.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/570e/live/a11df9f0-bc83-11f1-8bd0-b38b5eda40be.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Suppliers pile pressure on government over energy bills",
-      "link": "https://www.bbc.co.uk/news/articles/cq0ld88kzxw8o?at_medium=RSS&at_campaign=rss",
-      "date": "3 Oct 2026",
-      "excerpt": "Immediate action is needed to help households struggling with bills this winter, says trade body Energy UK.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/767f/live/4c61a230-be64-11f1-b36c-81ad410b221e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK diesel prices top £2 a litre for first time, RAC says",
-      "link": "https://www.bbc.co.uk/news/articles/crn8e86y5n0zo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Oct 2026",
-      "excerpt": "The rise in global oil prices has been pushing up the pump prices of petrol and diesel in the UK.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea0f/live/8e1b93c0-beeb-11f1-ba3c-a5b1d911ee67.jpg"
     }
   ]
 }
