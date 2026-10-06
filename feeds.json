@@ -1,5 +1,5 @@
 {
-  "updated": "06 Oct 2026, 01:06 UTC",
+  "updated": "06 Oct 2026, 08:33 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,11 +193,47 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "We're saving £100 a month into pensions for our toddler and baby - here's why",
+      "title": "We're saving £100 a month for our kids but they won't get it until they're 57",
       "link": "https://www.bbc.co.uk/news/articles/cme3r9eq2w0lo?at_medium=RSS&at_campaign=rss",
-      "date": "5 Oct 2026",
+      "date": "6 Oct 2026",
       "excerpt": "A growing number of parents are opening retirement funds for their children.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2e8/live/a8bdb430-bca0-11f1-bd53-81692d9847e1.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2237/live/74ea0660-c14e-11f1-bc2e-018d645d8d21.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Lego fraudster among last year's most high-profile insurance scammers",
+      "link": "https://www.bbc.co.uk/news/articles/cm86z9npj5deo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Oct 2026",
+      "excerpt": "The person was sentenced to 28 months in prison after an investigation found the claims were made up, the insurance trade body, the ABI said.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e41/live/98c51960-c0ba-11f1-9475-67b7bb314be1.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "OpenAI admits response to Australian government hacks 'not good enough'",
+      "link": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Oct 2026",
+      "excerpt": "Top executive Jason Kwon tells hearing company has added \"more precautions\" to its training environments.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d74c/live/d3ce6cd0-c13e-11f1-a64c-550be9e3c66b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Last call for the mall? How shopping centres are reinventing themselves",
+      "link": "https://www.bbc.co.uk/news/articles/ck9qrq1d19w4o?at_medium=RSS&at_campaign=rss",
+      "date": "6 Oct 2026",
+      "excerpt": "In the internet age, medium-sized retail hubs are looking for new ways to survive and thrive.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6cbe/live/c8efc2c0-be85-11f1-bc2e-018d645d8d21.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Wood Group offshore workers launch 48-hour strike in row over pay",
+      "link": "https://www.bbc.co.uk/news/articles/cm79pn0y8257o?at_medium=RSS&at_campaign=rss",
+      "date": "6 Oct 2026",
+      "excerpt": "The Unite union said workers had faced the threat of fire and rehire notices and of having their pay cut.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb6a/live/d2db7200-c0d5-11f1-bc2e-018d645d8d21.png"
     },
     {
       "source": "BBC Business",
@@ -207,42 +243,6 @@
       "date": "5 Oct 2026",
       "excerpt": "The cost of a new fixed-rate mortgage has been rising in recent weeks as lenders face higher costs.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb45/live/ddd7ea70-c0b3-11f1-babe-4199b0e7ccea.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
-      "link": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
-      "date": "5 Oct 2026",
-      "excerpt": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c06c/live/0ca3aea0-c0c5-11f1-bc2e-018d645d8d21.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Five reasons India's stock market is sinking even when its economy is growing",
-      "link": "https://www.bbc.co.uk/news/articles/cwp9g5p1gy7yo?at_medium=RSS&at_campaign=rss",
-      "date": "5 Oct 2026",
-      "excerpt": "The world's fastest growing major economy has one of the worst performing major equity markets in 2026.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f8e/live/e8ffe940-c09d-11f1-b72b-c3e328aa18ed.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "BT agrees rescue deal to buy broadband operator TalkTalk",
-      "link": "https://www.bbc.co.uk/news/articles/cvze4g06526ro?at_medium=RSS&at_campaign=rss",
-      "date": "5 Oct 2026",
-      "excerpt": "The takeover still needs to be approved by the regulator, but would give certainty to TalkTalk's millions of customers",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb77/live/0d52c410-c0a9-11f1-a64c-550be9e3c66b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump chooses top spy boss to run new AI taskforce",
-      "link": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
-      "date": "5 Oct 2026",
-      "excerpt": "The US president said his national intelligence chief will lead the group as worries over AI grow.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a97/live/e8568220-c056-11f1-ba75-170165fdb734.jpg"
     }
   ]
 }
