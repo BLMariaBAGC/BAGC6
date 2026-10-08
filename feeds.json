@@ -1,5 +1,5 @@
 {
-  "updated": "08 Oct 2026, 00:00 UTC",
+  "updated": "08 Oct 2026, 05:50 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Is your phone listening to you? “Everything is organised around the assumption that you will give up this data.”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/07/is-your-phone-listening-to-you-everything-is-organised-around-the-assumption-that-you-will-give-up-this-data/",
+      "date": "7 Oct 2026",
+      "excerpt": "In an edited extract from an interview with LSE, Nick Couldry describes how tech firms collect and use your data and where he sees shoots of resistance. Nick was talking to Charlotte Kelloway. In your book, Data Grab, you talk about how dat",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "AI is a dangerous risk we should take",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/05/ai-is-a-dangerous-risk-we-should-take/",
       "date": "5 Oct 2026",
@@ -191,13 +200,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Organisational digital twins are coming",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/28/organisational-digital-twins-are-coming/",
-      "date": "28 Sep 2026",
-      "excerpt": "For years, digital twins helped organisations understand physical assets, allowing firms to experiment with before making changes in the real world. More recently digital twins simulate specific people and their expertise. Now the same logi",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'Come all the way' back to EU, French finance minister tells UK",
+      "link": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
+      "date": "8 Oct 2026",
+      "excerpt": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52ca/live/bf40aff0-c2db-11f1-a64c-550be9e3c66b.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,10 +220,10 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Hedgehog among four chosen animals to feature on your new banknotes",
+      "title": "Hedgehog among four animals chosen to feature on new banknotes",
       "link": "https://www.bbc.co.uk/news/articles/cwe8ld517ry3o?at_medium=RSS&at_campaign=rss",
       "date": "7 Oct 2026",
-      "excerpt": "The decision comes after nearly half a million people cast their votes from a shortlist of 18 creatures.",
+      "excerpt": "The decision comes after nearly half a million people voted on a shortlist of 18 creatures.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab31/live/c6dee830-c277-11f1-babe-4199b0e7ccea.jpg"
     },
     {
@@ -229,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Boots sold in £7bn deal to Canadian billionaire family",
-      "link": "https://www.bbc.co.uk/news/articles/cwly0jyk2vl5o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Oct 2026",
-      "excerpt": "The sale of the High Street chain was announced on Wednesday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/882a/live/37402510-c257-11f1-ab30-1f92d324dff9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "OpenAI says teen ChatGPT use limited but research finds it an 'unacceptable risk'",
-      "link": "https://www.bbc.co.uk/news/articles/cwz0vrmxkvy4o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Oct 2026",
-      "excerpt": "The research found that important guardrails for teens using ChatGPT often failed.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8459/live/4bc569a0-c27f-11f1-98ea-35e6bf307fc9.jpg"
+      "title": "AI chip boom pushes Samsung profits to record $80bn",
+      "link": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Oct 2026",
+      "excerpt": "The tech giant is also expected to get a boost from its latest folding devices that were launched in August.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2882/live/c97d4d10-c2b4-11f1-a0fd-81bd2aaa775c.jpg"
     },
     {
       "source": "BBC Business",
