@@ -1,5 +1,5 @@
 {
-  "updated": "08 Oct 2026, 12:49 UTC",
+  "updated": "08 Oct 2026, 19:39 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How to Lead When Everyone Is Watching",
+      "link": "/2026/10/how-to-lead-when-everyone-is-watching",
+      "date": "8 Oct 2026",
+      "excerpt": "Advice for executives facing a public crisis from three leaders who&#8217;ve been there.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What Top Performers Do Differently with AI—and Why They See the Biggest Benefits",
+      "link": "/2026/10/what-top-performers-do-differently-with-ai-and-why-they-see-the-biggest-benefits",
+      "date": "8 Oct 2026",
+      "excerpt": "The most effective AI users go beyond automation, using the technology to rethink workflows, sharpen decisions, and build new capabilities.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How Copycats Can Reveal Your Competitive Advantage",
+      "link": "/2026/10/how-copycats-can-reveal-your-competitive-advantage",
+      "date": "8 Oct 2026",
+      "excerpt": "Lessons from Lululemon, Swatch, and Cluely on treating imitation like a mirror.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How AI Is Changing Strategy: Rethinking What Your Business Is Designed to Do",
+      "link": "/podcast/2026/10/how-ai-is-changing-strategy-rethinking-what-your-business-is-designed-to-do",
+      "date": "8 Oct 2026",
+      "excerpt": "A conversation with Wharton&#8217;s Ethan Mollick on redesigning organizations, embracing agents, and staying competitive.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The Politics of Sustainability Have Changed. The Business Case Hasn’t.",
       "link": "/2026/10/the-politics-of-sustainability-have-changed-the-business-case-hasnt",
       "date": "7 Oct 2026",
@@ -110,39 +146,21 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: Sleep Deprivation Is a Leadership Problem",
-      "link": "/2026/10/research-sleep-deprivation-is-a-leadership-problem",
-      "date": "6 Oct 2026",
-      "excerpt": "Nearly 40% of leaders report insufficient sleep four or more nights a week. The consequences extend beyond their own performance.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is your phone listening to you? “We must be more mindful of the kinds of companies we engage with”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/08/is-your-phone-listening-to-you-we-must-be-more-mindful-of-the-kinds-of-companies-we-engage-with/",
+      "date": "8 Oct 2026",
+      "excerpt": "In an edited extract from an interview with LSE, Carissa Véliz describes how tech firms collect and use your data, and explains why reading a physical book is a rebellious act of defiance in the digital age. Carissa was talking to Charlotte",
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Getting Your Boss to Buy into Your Strategy (from “Coaching Real Leaders”)",
-      "link": "/podcast/2026/10/getting-your-boss-to-buy-into-your-strategy-from-coaching-real-leaders",
-      "date": "6 Oct 2026",
-      "excerpt": "Host and executive coach Muriel Wilkins counsels an ambitious leader who needs to convince the company CEO to support her vision for her department&#8217;s future.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Optimism Is Now an Essential Leadership Skill",
-      "link": "/podcast/2026/10/optimism-is-now-an-essential-leadership-skill",
-      "date": "6 Oct 2026",
-      "excerpt": "A conversation with psychologist Michelle Gielan on maintaining a positive mindset when the work gets difficult.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: When Pay Fluctuates, Workers Walk Away",
-      "link": "/2026/10/research-when-pay-fluctuates-workers-walk-away",
-      "date": "5 Oct 2026",
-      "excerpt": "Four actions companies can take to reduce turnover and make workers feel more in control.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is your phone listening to you? Or do social media firms just know what to serve you?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/08/is-your-phone-listening-to-you-or-do-social-media-firms-just-know-what-to-serve-you/",
+      "date": "8 Oct 2026",
+      "excerpt": "In an edited transcript of an interview with LSE, Edgar Whitley explains why many people believe that their devices are listening to them, how to protect your privacy and how to confuse the algorithm. Edgar was talking to Charlotte Kelloway",
       "image": ""
     },
     {
@@ -182,33 +200,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How global value chains are reshaping jobs in South Africa",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/30/how-global-value-chains-are-reshaping-jobs-in-south-africa/",
-      "date": "30 Sep 2026",
-      "excerpt": "Integration into global value chains can be critical to the manufacturing industries of developing countries. But what impact do those connections have on employment? By studying South Africa Gideon Ndubuisi and Solomon Owusu find that the ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "What happens now that Trump and Xi failed to write new AI rules?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/09/29/what-happens-now-that-trump-and-xi-failed-to-write-new-ai-rules/",
-      "date": "29 Sep 2026",
-      "excerpt": "Donald Trump and Xi Jinping did not decide who regulates AI. They, and other governments, passed the buck. Responsibility now lies with whoever in your organisation is asked to check the machine’s work before it goes out. Grace Lordan argue",
-      "image": ""
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'Come all the way' back to EU, French finance minister tells UK",
-      "link": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-      "date": "8 Oct 2026",
-      "excerpt": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52ca/live/bf40aff0-c2db-11f1-a64c-550be9e3c66b.jpg"
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Asos hackers took more personal details than first revealed, BBC finds",
@@ -229,20 +220,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'Stop throwing shade' - the woman trying to stop firms leaving the UK",
-      "link": "https://www.bbc.co.uk/news/articles/cmgqwydpd4xwo?at_medium=RSS&at_campaign=rss",
-      "date": "7 Oct 2026",
-      "excerpt": "British people need more incentives to invest in big firms listed in the UK, Dame Julia Hoggett, boss of the London Stock Exchange, says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b546/live/c92b5bb0-c2e4-11f1-babe-4199b0e7ccea.jpg"
+      "title": "Adidas sues Australian label White Fox over four stripes design",
+      "link": "https://www.bbc.co.uk/news/articles/c9e8ld448km8o?at_medium=RSS&at_campaign=rss",
+      "date": "8 Oct 2026",
+      "excerpt": "The German sportswear brand wants the Sydney-based label to stop selling the clothes and pay damages.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/690e/live/fcec4c60-c33a-11f1-a64c-550be9e3c66b.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The wildlife winners set to appear on your banknotes revealed",
-      "link": "https://www.bbc.co.uk/news/articles/cwe8ld517ry3o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Oct 2026",
-      "excerpt": "The decision comes after nearly half a million people voted on a shortlist of 18 creatures.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0292/live/efc4fbc0-c2fb-11f1-a64c-550be9e3c66b.png"
+      "title": "Chrysler Building to get its crown restored after being sold",
+      "link": "https://www.bbc.co.uk/news/articles/c8g47z3r4dzvo?at_medium=RSS&at_campaign=rss",
+      "date": "8 Oct 2026",
+      "excerpt": "The distinctive Manhattan skyscraper will undergo a major renovation and provide a new supply of offices.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bdc/live/e92e06b0-c325-11f1-bc2e-018d645d8d21.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'Come all the way' back to EU, French finance minister tells UK",
+      "link": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
+      "date": "8 Oct 2026",
+      "excerpt": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52ca/live/bf40aff0-c2db-11f1-a64c-550be9e3c66b.jpg"
     },
     {
       "source": "BBC Business",
