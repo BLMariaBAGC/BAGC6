@@ -1,5 +1,5 @@
 {
-  "updated": "09 Oct 2026, 16:48 UTC",
+  "updated": "09 Oct 2026, 22:15 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
+      "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+      "date": "9 Oct 2026",
+      "excerpt": "Ukraine's president said allowing Russia to sell petroleum products would prolong a war that must be ended.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d61b/live/93d8fbd0-c41e-11f1-a175-8928617a734f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Burnham promises to curb non-compete rules in job contracts",
       "link": "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss",
       "date": "9 Oct 2026",
@@ -224,7 +233,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cv2d6x749lwro?at_medium=RSS&at_campaign=rss",
       "date": "9 Oct 2026",
       "excerpt": "The price of fuel has soared as the cost of living emerges as a key issue for millions of Americans.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b1a/live/12929650-c32c-11f1-9981-cf94ea240e40.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/146c/live/3ab50800-c33d-11f1-b521-0bbd7e4f1f2e.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +243,6 @@
       "date": "9 Oct 2026",
       "excerpt": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bc3/live/94309dd0-b36c-11f1-b1d1-571ed4d7ff2c.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Anthropic bans users from being 'cruel' to its AI systems",
-      "link": "https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Oct 2026",
-      "excerpt": "The firm said users can no longer engage in \"sustained and needless\" abusive behaviour towards the tech.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e673/live/aabc5740-c3db-11f1-95ba-dba767ffba7e.jpg"
     },
     {
       "source": "BBC Business",
