@@ -1,6 +1,15 @@
 {
-  "updated": "09 Oct 2026, 08:28 UTC",
+  "updated": "09 Oct 2026, 16:48 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Nearly 30,000 people tested quit-smoking methods. One stood out",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261006234524.htm",
+      "date": "8 Oct 2026",
+      "excerpt": "Nicotine e-cigarettes appear to help more smokers quit than patches, gum, and several other common approaches, according to a major review of 80 clinical trials. Researchers say regulated vaping products are not risk-free, but may be a sign",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your gut may be making a molecule that raises Alzheimer’s risk",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260930225459.htm",
-      "date": "3 Oct 2026",
-      "excerpt": "Scientists have linked a gut bacterial compound called ImP to greater Alzheimer’s risk, harmful brain protein buildup, and faster cognitive decline. The finding raises the possibility that reducing ImP in the blood could one day help slow o",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Sustainability Reporting Isn’t the Same as Risk Preparedness",
+      "link": "/2026/10/sustainability-reporting-isnt-the-same-as-risk-preparedness",
+      "date": "9 Oct 2026",
+      "excerpt": "How companies can use their disclosures to reshape strategy and operations.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Who Owns the Customer in the Age of AI Agents?",
+      "link": "/2026/10/who-owns-the-customer-in-the-age-of-ai-agents",
+      "date": "9 Oct 2026",
+      "excerpt": "As shoppers delegate more decisions to AI, engagement no longer guarantees strategic control.",
       "image": ""
     },
     {
@@ -125,24 +143,6 @@
       "link": "/2026/10/the-6-essential-skills-your-workforce-needs-to-keep-pace-with-ai",
       "date": "7 Oct 2026",
       "excerpt": "As AI reshapes jobs, organizations need to focus less on endless lists of skills and more on the capabilities that help employees work with and oversee AI effectively.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Your Executive Team Needs More Productive Conflict",
-      "link": "/2026/10/your-executive-team-needs-more-productive-conflict",
-      "date": "7 Oct 2026",
-      "excerpt": "How to encourage disagreement that surfaces different perspectives, enables better decisions, and helps achieve collective goals.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The AI Risk Your Company Is Overlooking",
-      "link": "/2026/10/the-ai-risk-your-company-is-overlooking",
-      "date": "6 Oct 2026",
-      "excerpt": "Your competitive edge lies in the ability to verify AI&#8217;s output.",
       "image": ""
     },
     {
@@ -202,6 +202,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Burnham promises to curb non-compete rules in job contracts",
+      "link": "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Oct 2026",
+      "excerpt": "The prime minister says restrictions on what workers can do after leaving roles have \"gone too far\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/887d/live/a06cb1b0-c3de-11f1-95ba-dba767ffba7e.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Ex-Deutsche Bank trader jailed for rigging rates has conviction overturned",
+      "link": "https://www.bbc.co.uk/news/articles/cqgkvj10k6lno?at_medium=RSS&at_campaign=rss",
+      "date": "9 Oct 2026",
+      "excerpt": "The Court of Appeal quashes the conviction of Christian Bittar, a former Deutsche Bank trader jailed in 2018.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/875d/live/70d424a0-c3ee-11f1-9a39-31b474234113.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Trump wants to reduce the cost of fuel as the midterms loom - will it work?",
       "link": "https://www.bbc.co.uk/news/articles/cv2d6x749lwro?at_medium=RSS&at_campaign=rss",
       "date": "9 Oct 2026",
@@ -211,38 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'Add me to WhatsApp' scam calls to be investigated",
-      "link": "https://www.bbc.co.uk/news/articles/cqd09g4l2k9yo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Oct 2026",
-      "excerpt": "The UK's data watchdog is investigating a spike in complaints about \"robo calls\" that appear to lead to a recruitment scam.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c7c/live/774c4850-c31a-11f1-bd97-fbe5a3482cde.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I don't know what my partner earns': How soon into dating should you reveal your salary?",
+      "title": "I've been with my boyfriend for two years and don't know his salary",
       "link": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Oct 2026",
+      "date": "9 Oct 2026",
       "excerpt": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bc3/live/94309dd0-b36c-11f1-b1d1-571ed4d7ff2c.png"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Mark Zuckerberg has an image problem - so why is Meta's business booming?",
-      "link": "https://www.bbc.co.uk/news/articles/cq8rzjv8g7ejo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Oct 2026",
-      "excerpt": "A new film paints the Meta founder as a villain. But the tech firm seems immune to bad publicity, writes our North America tech correspondent.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b64/live/f290d3b0-c300-11f1-bc2e-018d645d8d21.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
-      "link": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+      "title": "Anthropic bans users from being 'cruel' to its AI systems",
+      "link": "https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=RSS&at_campaign=rss",
       "date": "9 Oct 2026",
-      "excerpt": "Firmus said it had made the decision due to \"recent market volatility and prevailing market conditions\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0cb7/live/41bf1cb0-c380-11f1-b333-87955b7be3e7.jpg"
+      "excerpt": "The firm said users can no longer engage in \"sustained and needless\" abusive behaviour towards the tech.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e673/live/aabc5740-c3db-11f1-95ba-dba767ffba7e.jpg"
     },
     {
       "source": "BBC Business",
