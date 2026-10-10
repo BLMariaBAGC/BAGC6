@@ -1,5 +1,5 @@
 {
-  "updated": "09 Oct 2026, 22:15 UTC",
+  "updated": "10 Oct 2026, 04:21 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
+      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
       "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-      "date": "9 Oct 2026",
-      "excerpt": "Ukraine's president said allowing Russia to sell petroleum products would prolong a war that must be ended.",
+      "date": "10 Oct 2026",
+      "excerpt": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d61b/live/93d8fbd0-c41e-11f1-a175-8928617a734f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+      "link": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Oct 2026",
+      "excerpt": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9075/live/94a528a0-c422-11f1-9462-0fb8e72a616b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Boots has a new owner: Three ways it could affect you",
+      "link": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
+      "date": "9 Oct 2026",
+      "excerpt": "The stalwart of Britain's High Street has been sold to a Canadian billionaire family. What will that mean for you?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31cf/live/7e917260-c32a-11f1-9981-cf94ea240e40.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump wants to reduce the cost of fuel as the midterms loom - will it work?",
-      "link": "https://www.bbc.co.uk/news/articles/cv2d6x749lwro?at_medium=RSS&at_campaign=rss",
-      "date": "9 Oct 2026",
-      "excerpt": "The price of fuel has soared as the cost of living emerges as a key issue for millions of Americans.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/146c/live/3ab50800-c33d-11f1-b521-0bbd7e4f1f2e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "I've been with my boyfriend for two years and don't know his salary",
       "link": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
       "date": "9 Oct 2026",
       "excerpt": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bc3/live/94309dd0-b36c-11f1-b1d1-571ed4d7ff2c.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why are more roofs not made of solar tiles?",
-      "link": "https://www.bbc.co.uk/news/articles/cdr7n610rmzo?at_medium=RSS&at_campaign=rss",
-      "date": "8 Oct 2026",
-      "excerpt": "Solar tiles were touted as an attractive alternative to solar panels - why have they not taken off?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53f9/live/5f873b90-b0ea-11f1-8d94-cf0ec84c39cd.jpg"
     }
   ]
 }
