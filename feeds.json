@@ -1,6 +1,15 @@
 {
-  "updated": "10 Oct 2026, 16:58 UTC",
+  "updated": "10 Oct 2026, 21:09 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover 5 hidden brain patterns behind depression",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008005251.htm",
+      "date": "9 Oct 2026",
+      "excerpt": "Depression may not be one biological condition, but several distinct patterns of brain activity hiding under the same diagnosis. Researchers studying 263 people with depression identified five brain profiles, each showing different patterns",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +17,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261006234524.htm",
       "date": "8 Oct 2026",
       "excerpt": "Nicotine e-cigarettes appear to help more smokers quit than patches, gum, and several other common approaches, according to a major review of 80 clinical trials. Researchers say regulated vaping products are not risk-free, but may be a sign",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Loneliness may steal nearly 6 years of good health",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261006234514.htm",
+      "date": "10 Oct 2026",
+      "excerpt": "A large study suggests loneliness and social isolation can cost people years of healthy life, especially when it comes to mental health. Men experiencing both lost about 5.8 years free from depression and anxiety, while women lost roughly 3",
       "image": ""
     },
     {
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261001214106.htm",
       "date": "4 Oct 2026",
       "excerpt": "A UCLA study links faster brain aging to specific gut bacteria and chemical byproducts, with older-looking brains also associated with poorer memory, focus, and mood. The findings suggest that biological signs of brain aging may appear deca",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This common vitamin could help fight one of the deadliest brain cancers",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261001095423.htm",
-      "date": "4 Oct 2026",
-      "excerpt": "High-dose vitamin B3 is showing intriguing early promise as an addition to standard glioblastoma treatment, with 82% of patients in a small trial remaining progression-free after six months. Researchers believe niacin may help revive immune",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This diet may slow brain aging by 2.5 years",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
-      "date": "1 Oct 2026",
-      "excerpt": "People who followed the MIND diet more closely showed slower brain shrinkage and less grey matter loss over time, with the strongest differences equivalent to about 2.5 years of delayed brain aging. Berries and poultry were linked with heal",
       "image": ""
     },
     {
@@ -143,60 +143,6 @@
       "link": "/2026/10/the-6-essential-skills-your-workforce-needs-to-keep-pace-with-ai",
       "date": "7 Oct 2026",
       "excerpt": "As AI reshapes jobs, organizations need to focus less on endless lists of skills and more on the capabilities that help employees work with and oversee AI effectively.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Volatile bond markets and the case for more transparent quantitative tightening",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/09/volatile-bond-markets-and-the-case-for-more-transparent-quantitative-tightening/",
-      "date": "9 Oct 2026",
-      "excerpt": "The debate around quantitative tightening can be technical and confusing. It need not be. Costas Milas and Christopher Mahon argue that QT deserves the same scenario testing as the rest of monetary policy. But policymakers would still face ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is your phone listening to you? “We must be more mindful of the kinds of companies we engage with”",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/08/is-your-phone-listening-to-you-we-must-be-more-mindful-of-the-kinds-of-companies-we-engage-with/",
-      "date": "8 Oct 2026",
-      "excerpt": "In an edited extract from an interview with LSE, Carissa Véliz describes how tech firms collect and use your data, and explains why reading a physical book is a rebellious act of defiance in the digital age. Carissa was talking to Charlotte",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is your phone listening to you? Or do social media firms just know what to serve you?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/08/is-your-phone-listening-to-you-or-do-social-media-firms-just-know-what-to-serve-you/",
-      "date": "8 Oct 2026",
-      "excerpt": "In an edited transcript of an interview with LSE, Edgar Whitley explains why many people believe that their devices are listening to them, how to protect your privacy and how to confuse the algorithm. Edgar was talking to Charlotte Kelloway",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is your phone listening to you? “Everything is organised around the assumption that you will give up this data.”",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/07/is-your-phone-listening-to-you-everything-is-organised-around-the-assumption-that-you-will-give-up-this-data/",
-      "date": "7 Oct 2026",
-      "excerpt": "In an edited extract from an interview with LSE, Nick Couldry describes how tech firms collect and use your data and where he sees shoots of resistance. Nick was talking to Charlotte Kelloway. In your book, Data Grab, you talk about how dat",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "AI is a dangerous risk we should take",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/05/ai-is-a-dangerous-risk-we-should-take/",
-      "date": "5 Oct 2026",
-      "excerpt": "The risk from artificial intelligence must be judged by how it contributes to the portfolio of systemic risk that humanity already faces. Kevin R. James argues that rapid AI progress offers the best prospect for dealing with these risks now",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "When do narcissistic chief executives make good decisions?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/02/when-do-narcissistic-chief-executives-make-good-decisions/",
-      "date": "2 Oct 2026",
-      "excerpt": "Most boards do not want narcissistic leaders and would avoid hiring a chief executive with such traits. But Philipp Richter’s review of the research suggests that might not always be the right decision. Narcissistic chief executives are as ",
       "image": ""
     },
     {
