@@ -1,5 +1,5 @@
 {
-  "updated": "10 Oct 2026, 04:21 UTC",
+  "updated": "10 Oct 2026, 11:55 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Volatile bond markets and the case for more transparent quantitative tightening",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/09/volatile-bond-markets-and-the-case-for-more-transparent-quantitative-tightening/",
+      "date": "9 Oct 2026",
+      "excerpt": "The debate around quantitative tightening can be technical and confusing. It need not be. Costas Milas and Christopher Mahon argue that QT deserves the same scenario testing as the rest of monetary policy. But policymakers would still face ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Is your phone listening to you? “We must be more mindful of the kinds of companies we engage with”",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/08/is-your-phone-listening-to-you-we-must-be-more-mindful-of-the-kinds-of-companies-we-engage-with/",
       "date": "8 Oct 2026",
@@ -191,22 +200,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How much should you authorise your AI agent to do?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/01/how-much-should-you-authorise-your-ai-agent-to-do/",
-      "date": "1 Oct 2026",
-      "excerpt": "Agentic AI means that leaders must now decide how knowledge, authority and action are distributed between people and machines. Mark Dawson highlights a new teaching case where agents are treated not as software but as teammates. This metaph",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
       "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
       "date": "10 Oct 2026",
       "excerpt": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d61b/live/93d8fbd0-c41e-11f1-a175-8928617a734f.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2e6/live/71115e00-c499-11f1-b094-cb5c335b015a.jpg"
     },
     {
       "source": "BBC Business",
@@ -215,7 +215,7 @@
       "link": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
       "date": "9 Oct 2026",
       "excerpt": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9075/live/94a528a0-c422-11f1-9462-0fb8e72a616b.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/200a/live/11ffab00-c472-11f1-9fee-49b2288eef07.jpg"
     },
     {
       "source": "BBC Business",
@@ -224,7 +224,7 @@
       "link": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
       "date": "9 Oct 2026",
       "excerpt": "The stalwart of Britain's High Street has been sold to a Canadian billionaire family. What will that mean for you?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31cf/live/7e917260-c32a-11f1-9981-cf94ea240e40.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/120c/live/9c937870-c489-11f1-a915-a1cdb09cbaf6.jpg"
     },
     {
       "source": "BBC Business",
