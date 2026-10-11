@@ -1,5 +1,5 @@
 {
-  "updated": "11 Oct 2026, 16:08 UTC",
+  "updated": "11 Oct 2026, 21:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Citroen revives the 2CV for an electric age",
+      "link": "https://www.bbc.co.uk/news/articles/c620r33plgppo?at_medium=RSS&at_campaign=rss",
+      "date": "11 Oct 2026",
+      "excerpt": "The French firm is reinventing the classic model as carmakers come under pressure from Chinese rivals.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9db/live/c47fea70-c3f4-11f1-97a9-2d4b5e26e282.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
       "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
       "date": "10 Oct 2026",
@@ -243,15 +252,6 @@
       "date": "9 Oct 2026",
       "excerpt": "The prime minister says restrictions on what workers can do after leaving roles have \"gone too far\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/887d/live/a06cb1b0-c3de-11f1-95ba-dba767ffba7e.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ex-Deutsche Bank trader jailed for rigging rates has conviction overturned",
-      "link": "https://www.bbc.co.uk/news/articles/cqgkvj10k6lno?at_medium=RSS&at_campaign=rss",
-      "date": "9 Oct 2026",
-      "excerpt": "The Court of Appeal quashes the conviction of Christian Bittar, a former Deutsche Bank trader jailed in 2018.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/875d/live/70d424a0-c3ee-11f1-9a39-31b474234113.jpg"
     }
   ]
 }
