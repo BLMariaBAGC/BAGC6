@@ -1,5 +1,5 @@
 {
-  "updated": "11 Oct 2026, 08:17 UTC",
+  "updated": "11 Oct 2026, 16:08 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,6 +220,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
+      "link": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+      "date": "11 Oct 2026",
+      "excerpt": "It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92b1/live/fca86430-c56c-11f1-a64c-550be9e3c66b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Boots has a new owner: Three ways it could affect you",
       "link": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
       "date": "9 Oct 2026",
@@ -243,15 +252,6 @@
       "date": "9 Oct 2026",
       "excerpt": "The Court of Appeal quashes the conviction of Christian Bittar, a former Deutsche Bank trader jailed in 2018.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/875d/live/70d424a0-c3ee-11f1-9a39-31b474234113.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I've been with my boyfriend for two years and don't know his salary",
-      "link": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Oct 2026",
-      "excerpt": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bc3/live/94309dd0-b36c-11f1-b1d1-571ed4d7ff2c.png"
     }
   ]
 }
