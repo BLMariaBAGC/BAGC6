@@ -1,6 +1,15 @@
 {
-  "updated": "11 Oct 2026, 00:40 UTC",
+  "updated": "11 Oct 2026, 08:17 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists created a tiny device that can control your nerves to treat chronic pain",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008005253.htm",
+      "date": "10 Oct 2026",
+      "excerpt": "Scientists have developed a tiny, injectable device that can control nerve activity without surgery, batteries, or wires, potentially transforming treatment for chronic pain and movement disorders. Powered wirelessly from outside the body, ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261002080034.htm",
       "date": "5 Oct 2026",
       "excerpt": "Stimulating the vagus nerve after practice helped mice develop stronger long-term motor learning, revealing a potentially important window when the brain is still locking in a new skill. The effect was linked to rhythmic changes in brain bl",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your gut bacteria may reveal how fast your brain is aging",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261001214106.htm",
-      "date": "4 Oct 2026",
-      "excerpt": "A UCLA study links faster brain aging to specific gut bacteria and chemical byproducts, with older-looking brains also associated with poorer memory, focus, and mood. The findings suggest that biological signs of brain aging may appear deca",
       "image": ""
     },
     {
@@ -206,7 +206,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
       "date": "10 Oct 2026",
       "excerpt": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c49/live/850032c0-c470-11f1-94f2-dbc7ff6db92b.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d06b/live/625e43c0-c54b-11f1-b4f1-2359026a88ee.jpg"
     },
     {
       "source": "BBC Business",
