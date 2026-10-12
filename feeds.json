@@ -1,6 +1,33 @@
 {
-  "updated": "12 Oct 2026, 08:36 UTC",
+  "updated": "12 Oct 2026, 19:36 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists find hidden driver of aging and a simple amino acid that fights memory loss in mice",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261009025708.htm",
+      "date": "12 Oct 2026",
+      "excerpt": "Scientists discovered that declining levels of a protein called Menin may help drive aging, and restoring it in older mice reversed several age-related changes in just 30 days. Even more surprisingly, supplementing with a simple amino acid ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Just 10 minutes of daily exercise could unlock deeper sleep",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008102721.htm",
+      "date": "11 Oct 2026",
+      "excerpt": "Getting better sleep might be as simple as moving a little more every day. Researchers at The University of Texas at Austin found that people who exercised more frequently experienced more deep, restorative sleep, which is essential for bra",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "The hidden math of Alzheimer's could point to new treatments",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008102714.htm",
+      "date": "11 Oct 2026",
+      "excerpt": "Mathematics may hold unexpected clues to understanding Alzheimer’s disease. Scientists have developed a model showing how common metals like copper and zinc may influence the buildup of proteins associated with the disease, while also explo",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -47,30 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists say this simple habit could strengthen your marriage",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261004001843.htm",
-      "date": "6 Oct 2026",
-      "excerpt": "Couples who exercise together report better communication, healthier conflict resolution, and lower marital stress than those who work out alone. Even something as simple as taking a walk together may create valuable opportunities to talk, ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: When Being Authentic Undermines Your Leadership",
+      "link": "/2026/10/research-when-being-authentic-undermines-your-leadership",
+      "date": "12 Oct 2026",
+      "excerpt": "How to share the right things&#8212;in the right way.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "What happens in the brain when cannabis makes you anxious?",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261003234021.htm",
-      "date": "6 Oct 2026",
-      "excerpt": "Cannabinoids may intensify anxiety by removing a natural brake on specific neurons in the brain’s fear center, particularly during stressful situations. In mice, shutting down those neurons sharply reduced cannabinoid-related anxious behavi",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Vagus Nerve Stimulation Could Help New Skills Stick",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261002080034.htm",
-      "date": "5 Oct 2026",
-      "excerpt": "Stimulating the vagus nerve after practice helped mice develop stronger long-term motor learning, revealing a potentially important window when the brain is still locking in a new skill. The effect was linked to rhythmic changes in brain bl",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Your Company Needs a Plan for the First 72 Hours After a Cyberattack",
+      "link": "/2026/10/your-company-needs-a-plan-for-the-first-72-hours-after-a-cyberattack",
+      "date": "12 Oct 2026",
+      "excerpt": "Five steps to ensure the core of your business can get back up and running.",
       "image": ""
     },
     {
@@ -128,22 +146,13 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Politics of Sustainability Have Changed. The Business Case Hasn’t.",
-      "link": "/2026/10/the-politics-of-sustainability-have-changed-the-business-case-hasnt",
-      "date": "7 Oct 2026",
-      "excerpt": "Why companies are still adopting these strategies to lower costs, reduce risk, strengthen supply chains, improve productivity, and create new revenue opportunities.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The 6 Essential Skills Your Workforce Needs to Keep Pace with AI",
-      "link": "/2026/10/the-6-essential-skills-your-workforce-needs-to-keep-pace-with-ai",
-      "date": "7 Oct 2026",
-      "excerpt": "As AI reshapes jobs, organizations need to focus less on endless lists of skills and more on the capabilities that help employees work with and oversee AI effectively.",
-      "image": ""
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Don’t let your AI dashboard drive your corporate strategy",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/12/dont-let-your-ai-dashboard-drive-your-corporate-strategy/",
+      "date": "12 Oct 2026",
+      "excerpt": "AI-powered dashboards are pitched as the ultimate tool for chief executives looking for strategic agility. In practice they are crippling corporate leadership and undermining middle-management. Ch. Mahmood Anwar argues that to lead effectiv",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/10/Image-1-1024x640.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -191,15 +200,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "When do narcissistic chief executives make good decisions?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/02/when-do-narcissistic-chief-executives-make-good-decisions/",
-      "date": "2 Oct 2026",
-      "excerpt": "Most boards do not want narcissistic leaders and would avoid hiring a chief executive with such traits. But Philipp Richter’s review of the research suggests that might not always be the right decision. Narcissistic chief executives are as ",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Healey faces £35bn Budget challenge to meet spending pledges, says think tank",
@@ -211,29 +211,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
-      "link": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Oct 2026",
-      "excerpt": "Backdated paperwork also made the Russian oligarch’s yachts and mansions disappear from accounts, investigation finds.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6be9/live/bde30ef0-c600-11f1-bc2e-018d645d8d21.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump faces growing backlash over plans to import diesel from Russia",
-      "link": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
-      "date": "11 Oct 2026",
-      "excerpt": "Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c44f/live/e68c78a0-c5c9-11f1-9042-5f0794d5e895.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Debt advice that may leave you owing even more money",
+      "title": "How to avoid getting stung if you miss credit card payments",
       "link": "https://www.bbc.co.uk/news/articles/c84g1xz1l9ddo?at_medium=RSS&at_campaign=rss",
-      "date": "11 Oct 2026",
+      "date": "12 Oct 2026",
       "excerpt": "People are increasingly falling behind on credit card repayments, so here's the best way to get debt advice.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a441/live/c56267d0-c31b-11f1-bd97-fbe5a3482cde.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Fridges in French supermarkets hit by cyber attack",
+      "link": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+      "date": "12 Oct 2026",
+      "excerpt": "Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfaf/live/a3ced500-c63a-11f1-b99d-0127a94fa1d0.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "AI minister warns 'likely' UK's cyber defences will be breached",
+      "link": "https://www.bbc.co.uk/news/articles/cr78pe09y05xo?at_medium=RSS&at_campaign=rss",
+      "date": "12 Oct 2026",
+      "excerpt": "Kanishka Narayan said the government will use advanced AI to strengthen the UK against cyber attacks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd68/live/6a2ab470-c646-11f1-bc2e-018d645d8d21.jpg"
     },
     {
       "source": "BBC Business",
