@@ -1,6 +1,42 @@
 {
-  "updated": "13 Oct 2026, 08:56 UTC",
+  "updated": "13 Oct 2026, 17:20 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "The secret to handling stress better may start at breakfast",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261012185023.htm",
+      "date": "13 Oct 2026",
+      "excerpt": "Your daily routine could have a bigger impact on your ability to handle stress than you realize. A Binghamton University study of approximately 400 college students found that eating breakfast regularly, exercising, sleeping well, and takin",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists uncover a hidden map of the brain with 539 distinct regions",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261012185011.htm",
+      "date": "13 Oct 2026",
+      "excerpt": "Scientists have uncovered a hidden layer of organization in the brain by creating the first detailed 3D map of its lipids, the fatty molecules essential for brain structure and communication. By analyzing millions of measurements from mouse",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This tiny jurassic predator helped pave the way for the human brain",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261012185005.htm",
+      "date": "13 Oct 2026",
+      "excerpt": "A 165-million-year-old fossil has revealed an extraordinary Jurassic predator that may help explain how mammals developed one of their most important evolutionary advantages. Although only 20 inches long, Megacauda sungei was a heavyweight ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists find a surprising genetic twist behind octopus intelligence",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261011211552.htm",
+      "date": "12 Oct 2026",
+      "excerpt": "The remarkable intelligence of octopuses, squid, and cuttlefish may trace back to an ancient reshuffling of their DNA that created new connections between genes. Scientists discovered that these changes in the genome's 3D structure may have",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -38,39 +74,39 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover 5 hidden brain patterns behind depression",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261008005251.htm",
-      "date": "9 Oct 2026",
-      "excerpt": "Depression may not be one biological condition, but several distinct patterns of brain activity hiding under the same diagnosis. Researchers studying 263 people with depression identified five brain profiles, each showing different patterns",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What Is Customer Data Actually Telling You?",
+      "link": "/2026/10/what-is-customer-data-actually-telling-you",
+      "date": "13 Oct 2026",
+      "excerpt": "Use science, not intuition, to answer this question.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Nearly 30,000 people tested quit-smoking methods. One stood out",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261006234524.htm",
-      "date": "8 Oct 2026",
-      "excerpt": "Nicotine e-cigarettes appear to help more smokers quit than patches, gum, and several other common approaches, according to a major review of 80 clinical trials. Researchers say regulated vaping products are not risk-free, but may be a sign",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What Sets Great Strategists Apart in the AI Era",
+      "link": "/2026/10/what-sets-great-strategists-apart-in-the-ai-era",
+      "date": "13 Oct 2026",
+      "excerpt": "They cultivate &#8220;sticky knowledge&#8221;&#8212;insights that are difficult to articulate, transfer, or separate from their context.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Loneliness may steal nearly 6 years of good health",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261006234514.htm",
-      "date": "10 Oct 2026",
-      "excerpt": "A large study suggests loneliness and social isolation can cost people years of healthy life, especially when it comes to mental health. Men experiencing both lost about 5.8 years free from depression and anxiety, while women lost roughly 3",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Restructuring Mobile Game Giant Supercell for a Turnaround",
+      "link": "/podcast/2026/10/restructuring-mobile-game-giant-supercell-for-a-turnaround",
+      "date": "13 Oct 2026",
+      "excerpt": "When a company&#8217;s founding model starts holding it back, what should a CEO keep and what should go?",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Drug target could block brain inflammation linked to Alzheimer’s and Parkinson’s",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261005071515.htm",
-      "date": "7 Oct 2026",
-      "excerpt": "Blocking a receptor called P2X7 significantly reduced inflammation in human brain tissue, revealing a potential new treatment strategy for neurological and psychiatric disorders. The discovery could help researchers repurpose existing drugs",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Why Great Teams Don’t Need to Like Each Other",
+      "link": "/podcast/2026/10/why-great-teams-dont-need-to-like-each-other",
+      "date": "13 Oct 2026",
+      "excerpt": "A conversation with Wharton&#8217;s Adam Grant on what we get wrong about building organizational culture.",
       "image": ""
     },
     {
@@ -101,48 +137,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Who Owns the Customer in the Age of AI Agents?",
-      "link": "/2026/10/who-owns-the-customer-in-the-age-of-ai-agents",
-      "date": "9 Oct 2026",
-      "excerpt": "As shoppers delegate more decisions to AI, engagement no longer guarantees strategic control.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Lead When Everyone Is Watching",
-      "link": "/2026/10/how-to-lead-when-everyone-is-watching",
-      "date": "8 Oct 2026",
-      "excerpt": "Advice for executives facing a public crisis from three leaders who&#8217;ve been there.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Top Performers Do Differently with AI—and Why They See the Biggest Benefits",
-      "link": "/2026/10/what-top-performers-do-differently-with-ai-and-why-they-see-the-biggest-benefits",
-      "date": "8 Oct 2026",
-      "excerpt": "The most effective AI users go beyond automation, using the technology to rethink workflows, sharpen decisions, and build new capabilities.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Copycats Can Reveal Your Competitive Advantage",
-      "link": "/2026/10/how-copycats-can-reveal-your-competitive-advantage",
-      "date": "8 Oct 2026",
-      "excerpt": "Lessons from Lululemon, Swatch, and Cluely on treating imitation like a mirror.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How AI Is Changing Strategy: Rethinking What Your Business Is Designed to Do",
-      "link": "/podcast/2026/10/how-ai-is-changing-strategy-rethinking-what-your-business-is-designed-to-do",
-      "date": "8 Oct 2026",
-      "excerpt": "A conversation with Wharton&#8217;s Ethan Mollick on redesigning organizations, embracing agents, and staying competitive.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "America’s new banking risk regulation overlooks AI and shifts the burden of defence",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/13/americas-new-banking-risk-regulation-overlooks-ai-and-shifts-the-burden-of-defence/",
+      "date": "13 Oct 2026",
+      "excerpt": "The old model risk rulebook told banks in America how to design, validate and monitor the quantitative systems they rely on. The new one asks them to defend what they chose. This isn&#8217;t relaxation, argues Vikram Singh, it&#8217;s burde",
       "image": ""
     },
     {
@@ -191,31 +191,40 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "AI is a dangerous risk we should take",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/05/ai-is-a-dangerous-risk-we-should-take/",
-      "date": "5 Oct 2026",
-      "excerpt": "The risk from artificial intelligence must be judged by how it contributes to the portfolio of systemic risk that humanity already faces. Kevin R. James argues that rapid AI progress offers the best prospect for dealing with these risks now",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK growth forecast upgraded but energy prices and rates to hit in 2027",
-      "link": "https://www.bbc.co.uk/news/articles/cmglw0r21zexo?at_medium=RSS&at_campaign=rss",
+      "title": "Three things we've learnt about the UK economy from the IMF",
+      "link": "https://www.bbc.co.uk/news/articles/cmly05l1g15yo?at_medium=RSS&at_campaign=rss",
       "date": "13 Oct 2026",
-      "excerpt": "The prediction from the IMF comes as final preparations are being made for the first Budget under Prime Minister Andy Burnham.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a5e/live/c20b7a80-c6d2-11f1-9a39-31b474234113.jpg"
+      "excerpt": "The influential economics body has upgraded its UK growth forecast for this year, but risks remain.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9039/live/426755d0-c6fd-11f1-b4dd-e786ec6f11b1.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "I earn £120,000 a year making social media videos go viral",
-      "link": "https://www.bbc.co.uk/news/articles/c84g12v3lk20o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Oct 2026",
-      "excerpt": "Social media \"clippers\" make short, vertical videos that appear on the likes of Instagram and TikTok.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cf2/live/90f60900-c543-11f1-bc2e-018d645d8d21.jpg"
+      "title": "Bumble bought for $1.3bn in 'bet on the future of humanity'",
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Oct 2026",
+      "excerpt": "The dating app which recently ditched its \"women-first\" chat rule has been bought by an investment firm.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e542/live/77558740-c724-11f1-a64c-550be9e3c66b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Poundland in rescue talks as owners seek buyer",
+      "link": "https://www.bbc.co.uk/news/articles/ckr5ydvvln0mo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Oct 2026",
+      "excerpt": "The leadership team is attempting a buyout, but a union has warned the retailer could fall into administration instead.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9b1/live/c0667080-c6e7-11f1-bf38-57dc5cd42af2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "BA flight forced to turn back over cracked window",
+      "link": "https://www.bbc.co.uk/news/articles/cj1dwrxq1wndo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Oct 2026",
+      "excerpt": "British Airways said the plane landed safely at Gatwick and passengers were due to resume their journey.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d81/live/e303dfe0-c702-11f1-9783-ed95709f9dec.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,29 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Dating app Bumble in $1bn takeover talks, say reports",
-      "link": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss",
+      "title": "UK growth forecast upgraded but higher energy prices to hit economy next year",
+      "link": "https://www.bbc.co.uk/news/articles/cmglw0r21zexo?at_medium=RSS&at_campaign=rss",
       "date": "13 Oct 2026",
-      "excerpt": "The dating app which recently ditched its \"women-first\" chat rule could be bought by an investment firm.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18f2/live/ea016980-c6d9-11f1-a64c-550be9e3c66b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Publicly owned rail is popular. But is it making the trains run on time?",
-      "link": "https://www.bbc.co.uk/news/articles/ck5yn0n14r8do?at_medium=RSS&at_campaign=rss",
-      "date": "12 Oct 2026",
-      "excerpt": "Meeting travellers' expectations could be challenging, experts warn.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e85/live/da60e6b0-c646-11f1-a64c-550be9e3c66b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Healey faces £35bn Budget challenge to meet spending pledges, says think tank",
-      "link": "https://www.bbc.co.uk/news/articles/cm78pwdp3n5qo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Oct 2026",
-      "excerpt": "The Institute for Fiscal Studies says the government will need a \"top-up\" of billions of pounds if it wants to meet its spending plans.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d71/live/21ebf010-c606-11f1-a64c-550be9e3c66b.jpg"
+      "excerpt": "The prediction from the IMF comes as final preparations are being made for the first Budget under Prime Minister Andy Burnham.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a5e/live/c20b7a80-c6d2-11f1-9a39-31b474234113.jpg"
     }
   ]
 }
