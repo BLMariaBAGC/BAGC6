@@ -1,5 +1,5 @@
 {
-  "updated": "12 Oct 2026, 19:36 UTC",
+  "updated": "13 Oct 2026, 01:48 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,15 +148,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Don’t let your AI dashboard drive your corporate strategy",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/12/dont-let-your-ai-dashboard-drive-your-corporate-strategy/",
-      "date": "12 Oct 2026",
-      "excerpt": "AI-powered dashboards are pitched as the ultimate tool for chief executives looking for strategic agility. In practice they are crippling corporate leadership and undermining middle-management. Ch. Mahmood Anwar argues that to lead effectiv",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/10/Image-1-1024x640.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Volatile bond markets and the case for more transparent quantitative tightening",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/09/volatile-bond-markets-and-the-case-for-more-transparent-quantitative-tightening/",
       "date": "9 Oct 2026",
@@ -200,6 +191,51 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "When do narcissistic chief executives make good decisions?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/02/when-do-narcissistic-chief-executives-make-good-decisions/",
+      "date": "2 Oct 2026",
+      "excerpt": "Most boards do not want narcissistic leaders and would avoid hiring a chief executive with such traits. But Philipp Richter’s review of the research suggests that might not always be the right decision. Narcissistic chief executives are as ",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I earn £120,000 a year making social media videos go viral",
+      "link": "https://www.bbc.co.uk/news/articles/c84g12v3lk20o?at_medium=RSS&at_campaign=rss",
+      "date": "12 Oct 2026",
+      "excerpt": "Social media \"clippers\" make short, vertical videos that appear on the likes of Instagram and TikTok.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cf2/live/90f60900-c543-11f1-bc2e-018d645d8d21.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Heating oil customers face tough winter despite shake-up promise",
+      "link": "https://www.bbc.co.uk/news/articles/cxnv0z09r882o?at_medium=RSS&at_campaign=rss",
+      "date": "12 Oct 2026",
+      "excerpt": "Heating oil customers facing soaring bills are promised better regulation of the sector by the government.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5cf5/live/5a237390-c642-11f1-abff-0d918239b2e3.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Bumble shares soar after report dating firm in $1bn takeover talks",
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Oct 2026",
+      "excerpt": "The jump pushed Bumble's stock market valuation to more than $580m but that is still far below their peak of more than $14bn.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b3e/live/9d1f7420-c69f-11f1-8a85-c72eae042e5a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Publicly owned rail is popular. But is it making the trains run on time?",
+      "link": "https://www.bbc.co.uk/news/articles/ck5yn0n14r8do?at_medium=RSS&at_campaign=rss",
+      "date": "12 Oct 2026",
+      "excerpt": "Meeting travellers' expectations could be challenging, experts warn.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e85/live/da60e6b0-c646-11f1-a64c-550be9e3c66b.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Healey faces £35bn Budget challenge to meet spending pledges, says think tank",
@@ -216,42 +252,6 @@
       "date": "12 Oct 2026",
       "excerpt": "People are increasingly falling behind on credit card repayments, so here's the best way to get debt advice.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a441/live/c56267d0-c31b-11f1-bd97-fbe5a3482cde.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Fridges in French supermarkets hit by cyber attack",
-      "link": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Oct 2026",
-      "excerpt": "Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfaf/live/a3ced500-c63a-11f1-b99d-0127a94fa1d0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI minister warns 'likely' UK's cyber defences will be breached",
-      "link": "https://www.bbc.co.uk/news/articles/cr78pe09y05xo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Oct 2026",
-      "excerpt": "Kanishka Narayan said the government will use advanced AI to strengthen the UK against cyber attacks.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd68/live/6a2ab470-c646-11f1-bc2e-018d645d8d21.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Roofing scammers con homeowners out of thousands of pounds",
-      "link": "https://www.bbc.co.uk/news/articles/c6x29kydnzv0o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Oct 2026",
-      "excerpt": "One in 10 scams reported to Citizens Advice relate to fraudsters charging for work not done, or done badly.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da61/live/bdf1b350-c3ef-11f1-913a-eb4b8e15ad15.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI is less regulated than milk, says Microsoft president",
-      "link": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Oct 2026",
-      "excerpt": "Brad Smith calls for global rules on AI, and says the UK is in the \"best position\" to lead the charge.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg"
     }
   ]
 }
