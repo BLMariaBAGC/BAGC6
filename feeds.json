@@ -1,5 +1,5 @@
 {
-  "updated": "13 Oct 2026, 22:16 UTC",
+  "updated": "14 Oct 2026, 03:33 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,24 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Royal Mail losing 400 postal workers a week, says union",
+      "link": "https://www.bbc.co.uk/news/articles/cm5ynp0vz3p7o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Oct 2026",
+      "excerpt": "The CWU says more posties are leaving since a new delivery system was brought in, that it claims is not working in hundreds of offices.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6236/live/4d710eb0-c71d-11f1-a82f-35874a3aae81.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Is it OK for jobseekers or employers to use AI?",
+      "link": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Oct 2026",
+      "excerpt": "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say their peer group has no choice.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38df/live/64af4870-c6e7-11f1-bf38-57dc5cd42af2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Three things we've learnt about the UK economy from the IMF",
       "link": "https://www.bbc.co.uk/news/articles/cmly05l1g15yo?at_medium=RSS&at_campaign=rss",
       "date": "13 Oct 2026",
@@ -220,29 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Poundland in rescue talks as owners seek buyer",
-      "link": "https://www.bbc.co.uk/news/articles/ckr5ydvvln0mo?at_medium=RSS&at_campaign=rss",
+      "title": "How long will humans be needed for translation?",
+      "link": "https://www.bbc.co.uk/news/articles/c1wxdjx27ypo?at_medium=RSS&at_campaign=rss",
       "date": "13 Oct 2026",
-      "excerpt": "The leadership team is attempting a buyout, but a union has warned the retailer could fall into administration instead.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9b1/live/c0667080-c6e7-11f1-bf38-57dc5cd42af2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "BA flight forced to turn back over cracked window",
-      "link": "https://www.bbc.co.uk/news/articles/cj1dwrxq1wndo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Oct 2026",
-      "excerpt": "British Airways said the plane landed safely at Gatwick and passengers were due to resume their journey.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d81/live/e303dfe0-c702-11f1-9783-ed95709f9dec.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Heating oil customers face tough winter despite shake-up promise",
-      "link": "https://www.bbc.co.uk/news/articles/cxnv0z09r882o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Oct 2026",
-      "excerpt": "Heating oil customers facing soaring bills are promised better regulation of the sector by the government.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5cf5/live/5a237390-c642-11f1-abff-0d918239b2e3.jpg"
+      "excerpt": "AI dominates the translation business, but for high-stakes work, humans are still needed.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a40/live/7b9bd230-b0d8-11f1-b1d1-571ed4d7ff2c.jpg"
     }
   ]
 }
