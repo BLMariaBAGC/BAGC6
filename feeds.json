@@ -1,6 +1,15 @@
 {
-  "updated": "14 Oct 2026, 09:16 UTC",
+  "updated": "14 Oct 2026, 14:52 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists may have overlooked a hidden Alzheimer's culprit for decades",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261013015838.htm",
+      "date": "14 Oct 2026",
+      "excerpt": "For decades, scientists have focused on amyloid beta as a major culprit behind Alzheimer’s disease, spending billions of dollars developing treatments that have often delivered disappointing results. Now, researchers at UC Santa Cruz are dr",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "The hidden math of Alzheimer's could point to new treatments",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261008102714.htm",
-      "date": "11 Oct 2026",
-      "excerpt": "Mathematics may hold unexpected clues to understanding Alzheimer’s disease. Scientists have developed a model showing how common metals like copper and zinc may influence the buildup of proteins associated with the disease, while also explo",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How One Company Used Disciplined Chaos to Drive Innovation",
+      "link": "/2026/10/how-one-company-used-disciplined-chaos-to-drive-innovation",
+      "date": "14 Oct 2026",
+      "excerpt": "Six principles employed by Moroccan fertilizer company OCP to empower employees, test ideas, and build ventures within clear strategic guardrails.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Managers Need to Get Better at Killing Digital Products",
+      "link": "/2026/10/managers-need-to-get-better-at-killing-digital-products",
+      "date": "14 Oct 2026",
+      "excerpt": "Ask two questions: Will anyone notice the shutdown? And, if they do, will they be angry?",
       "image": ""
     },
     {
@@ -116,24 +134,6 @@
       "link": "/2026/10/research-when-being-authentic-undermines-your-leadership",
       "date": "12 Oct 2026",
       "excerpt": "How to share the right things&#8212;in the right way.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Your Company Needs a Plan for the First 72 Hours After a Cyberattack",
-      "link": "/2026/10/your-company-needs-a-plan-for-the-first-72-hours-after-a-cyberattack",
-      "date": "12 Oct 2026",
-      "excerpt": "Five steps to ensure the core of your business can get back up and running.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Sustainability Reporting Isn’t the Same as Risk Preparedness",
-      "link": "/2026/10/sustainability-reporting-isnt-the-same-as-risk-preparedness",
-      "date": "9 Oct 2026",
-      "excerpt": "How companies can use their disclosures to reshape strategy and operations.",
       "image": ""
     },
     {
@@ -193,47 +193,47 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Not building third runway would be 'huge missed opportunity', warns Heathrow boss",
-      "link": "https://www.bbc.co.uk/news/articles/ckdd8egder5ro?at_medium=RSS&at_campaign=rss",
+      "title": "Faisal Islam: What surprise praise for UK economy tells us about the Budget",
+      "link": "https://www.bbc.co.uk/news/articles/cx30eq0vyed4o?at_medium=RSS&at_campaign=rss",
       "date": "14 Oct 2026",
-      "excerpt": "Thomas Woldbye tells the Today progamme it would be \"good to know\" the government's position on the project, after comments made by the prime minister.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/645d/live/6faaea30-c74c-11f1-a64c-550be9e3c66b.jpg"
+      "excerpt": "On three occasions in the past 24 hours, top IMF officials have praised UK plans to reduce its annual levels of borrowing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31bf/live/83599ee0-c7b6-11f1-b41f-d7a6cb474575.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Hundreds of Royal Mail staff quitting each week under new efficiency plans",
-      "link": "https://www.bbc.co.uk/news/articles/cm5ynp0vz3p7o?at_medium=RSS&at_campaign=rss",
+      "title": "Driving test waits fall to two-year low - but still average 20 weeks",
+      "link": "https://www.bbc.co.uk/news/articles/c94g1kvz006ko?at_medium=RSS&at_campaign=rss",
       "date": "14 Oct 2026",
-      "excerpt": "The CWU says more posties are leaving since a new delivery system was brought in that it claims is not working in hundreds of offices.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4d4/live/9551bda0-c796-11f1-9a39-31b474234113.jpg"
+      "excerpt": "Learner drivers in September had to wait an average of 19.7 weeks, or around five months, for a practical test.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95a5/live/6ec3c040-c7d5-11f1-9671-5b70c6e774ea.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'I applied for 200 jobs' - How 'spray and pray' AI job applications can backfire",
-      "link": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=RSS&at_campaign=rss",
+      "title": "US inflation rises more than expected - here's what is happening with prices",
+      "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
       "date": "14 Oct 2026",
-      "excerpt": "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say their peer group has no choice.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38df/live/64af4870-c6e7-11f1-bf38-57dc5cd42af2.jpg"
+      "excerpt": "The pace of price rises increased to 3.7% in the year to September, driving by higher motor fuel costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd50/live/e1cf6860-c7cf-11f1-9e10-4dcbd31d4273.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Bank of America hit with $1.2bn fine for money laundering failings",
-      "link": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+      "title": "Civil servant faked illness with make-up to juggle five jobs, court hears",
+      "link": "https://www.bbc.co.uk/news/articles/cqgkvdyx5d6jo?at_medium=RSS&at_campaign=rss",
       "date": "14 Oct 2026",
-      "excerpt": "The bank inadequately flagged transactions linked to potential Chinese money laundering networks, the Treasury said.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d37/live/18ad5d80-c797-11f1-b506-c77373b53604.jpg"
+      "excerpt": "Kashim Chowdhury is accused of fraudulently juggling multiple government jobs while working from home.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2437/live/04805c60-c7c2-11f1-993a-152cbb068da1.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Bumble bought for $1.3bn in 'bet on the future of humanity'",
-      "link": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Oct 2026",
-      "excerpt": "The dating app which recently ditched its \"women-first\" chat rule has been bought by an investment firm.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e542/live/77558740-c724-11f1-a64c-550be9e3c66b.jpg"
+      "title": "Wayfair among firms fined millions for misleading sales tactics",
+      "link": "https://www.bbc.co.uk/news/articles/cqx298e5rr3po?at_medium=RSS&at_campaign=rss",
+      "date": "14 Oct 2026",
+      "excerpt": "The Competition and Markets Authority has fined Wayfair, Appliances Direct, and Gold's Gym £6m in total.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae51/live/acad1cb0-c7aa-11f1-a624-a3d8608fc192.jpg"
     },
     {
       "source": "BBC Business",
