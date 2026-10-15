@@ -1,6 +1,24 @@
 {
-  "updated": "15 Oct 2026, 08:50 UTC",
+  "updated": "15 Oct 2026, 14:39 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Mysterious brain activity under anesthesia challenges what we know about consciousness",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261015003440.htm",
+      "date": "15 Oct 2026",
+      "excerpt": "Even under general anesthesia, the human brain can analyze language, recognize different types of words, and predict what comes next in a story, according to a surprising discovery by Baylor researchers. The findings challenge our understan",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Strokes have nearly doubled among younger adults, and scientists aren't sure why",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261014015459.htm",
+      "date": "15 Oct 2026",
+      "excerpt": "Strokes are becoming alarmingly common among younger adults, with rates nearly doubling among people ages 20 to 54 over nearly three decades. Researchers found that blocked blood vessels in the brain accounted for much of the increase, whil",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261013015838.htm",
       "date": "14 Oct 2026",
       "excerpt": "For decades, scientists have focused on amyloid beta as a major culprit behind Alzheimer’s disease, spending billions of dollars developing treatments that have often delivered disappointing results. Now, researchers at UC Santa Cruz are dr",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Rare study reveals a striking divide inside an Alzheimer’s patient’s brain",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261013015814.htm",
+      "date": "15 Oct 2026",
+      "excerpt": "A rare examination of an Alzheimer’s patient’s brain revealed that regions cleared of amyloid plaques had remarkably little of the harmful tau buildup associated with memory loss, while neighboring areas showed extensive damage. The discove",
       "image": ""
     },
     {
@@ -47,30 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists find a surprising genetic twist behind octopus intelligence",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261011211552.htm",
-      "date": "12 Oct 2026",
-      "excerpt": "The remarkable intelligence of octopuses, squid, and cuttlefish may trace back to an ancient reshuffling of their DNA that created new connections between genes. Scientists discovered that these changes in the genome's 3D structure may have",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists find hidden driver of aging and a simple amino acid that fights memory loss in mice",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261009025708.htm",
-      "date": "12 Oct 2026",
-      "excerpt": "Scientists discovered that declining levels of a protein called Menin may help drive aging, and restoring it in older mice reversed several age-related changes in just 30 days. Even more surprisingly, supplementing with a simple amino acid ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Just 10 minutes of daily exercise could unlock deeper sleep",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261008102721.htm",
-      "date": "11 Oct 2026",
-      "excerpt": "Getting better sleep might be as simple as moving a little more every day. Researchers at The University of Texas at Austin found that people who exercised more frequently experienced more deep, restorative sleep, which is essential for bra",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Team Dynamics Weaken When Employees Turn to AI instead of Colleagues",
+      "link": "/2026/10/team-dynamics-weaken-when-employees-turn-to-ai-instead-of-colleagues",
+      "date": "15 Oct 2026",
+      "excerpt": "Displacing teammates with AI can lead to &#8220;relationslipping&#8221;&#8212;the pernicious erosion of a team&#8217;s working relationships.",
       "image": ""
     },
     {
@@ -119,24 +128,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Great Teams Don’t Need to Like Each Other",
-      "link": "/podcast/2026/10/why-great-teams-dont-need-to-like-each-other",
-      "date": "13 Oct 2026",
-      "excerpt": "A conversation with Wharton&#8217;s Adam Grant on what we get wrong about building organizational culture.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Stop relying on reviews of services and start looking for records",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/15/stop-relying-on-reviews-of-services-and-start-looking-for-records/",
-      "date": "15 Oct 2026",
-      "excerpt": "Many of us make important decisions, including about who should look after our children, based on reviews written by other customers. But how accurate are they? Shawn Redd shows that there is often little correlation between reviews and the",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
       "title": "America’s new banking risk regulation overlooks AI and shifts the burden of defence",
@@ -182,18 +173,36 @@
       "image": ""
     },
     {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK economy sees surprise growth in August ahead of Healey's first Budget",
-      "link": "https://www.bbc.co.uk/news/articles/ck8dz1me439no?at_medium=RSS&at_campaign=rss",
-      "date": "15 Oct 2026",
-      "excerpt": "The uptick helped the economy grow by 0.7% over the three months to August, official figures show.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c805/live/f9d54590-c862-11f1-811a-c519df8e0311.jpg"
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is your phone listening to you? “Everything is organised around the assumption that you will give up this data.”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/07/is-your-phone-listening-to-you-everything-is-organised-around-the-assumption-that-you-will-give-up-this-data/",
+      "date": "7 Oct 2026",
+      "excerpt": "In an edited extract from an interview with LSE, Nick Couldry describes how tech firms collect and use your data and where he sees shoots of resistance. Nick was talking to Charlotte Kelloway. In your book, Data Grab, you talk about how dat",
+      "image": ""
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
+      "title": "Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm",
+      "link": "https://www.bbc.co.uk/news/articles/cm79pe5yej7no?at_medium=RSS&at_campaign=rss",
+      "date": "15 Oct 2026",
+      "excerpt": "The culture secretary says the deal could affect free expression in the media and the variety of Britain's news landscape.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717e/live/d95f6d50-c898-11f1-b0a4-81e564f1cfaa.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Healey says surprise UK growth is 'sign of resilience' ahead of Budget",
+      "link": "https://www.bbc.co.uk/news/articles/ck8dz1me439no?at_medium=RSS&at_campaign=rss",
+      "date": "15 Oct 2026",
+      "excerpt": "The economy grew by 0.1% in August, defying analysts' expectations of a slight contraction.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b1e/live/a9237850-c87c-11f1-bc2e-018d645d8d21.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "AI giant Anthropic woos potential investors ahead of stock market debut",
       "link": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
       "date": "15 Oct 2026",
       "excerpt": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
@@ -220,19 +229,10 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Drop-off charges at UK airports to be reviewed after sharp increase",
-      "link": "https://www.bbc.co.uk/news/articles/cwp8gynk13rro?at_medium=RSS&at_campaign=rss",
-      "date": "14 Oct 2026",
-      "excerpt": "Confirming the review, the government said it was \"vital to ensure travel remains accessible and that passengers are treated fairly\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4555/live/2b5614e0-c7f6-11f1-970c-196b57378f40.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How a Chinese-made toy gets to a US retailer",
+      "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
       "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
       "date": "14 Oct 2026",
-      "excerpt": "With Christmas on the horizon, we trace children's toys from factories in China to US shelves.",
+      "excerpt": "With the festive season on the horizon, we trace toys from factories in China to US shelves.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0d2/live/df74c9d0-c54e-11f1-b4f1-2359026a88ee.jpg"
     }
   ]
