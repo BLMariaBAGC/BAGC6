@@ -1,5 +1,5 @@
 {
-  "updated": "14 Oct 2026, 23:04 UTC",
+  "updated": "15 Oct 2026, 03:13 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+      "date": "15 Oct 2026",
+      "excerpt": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91e4/live/ef62d030-c82d-11f1-949e-ffe1bf7985f3.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
       "link": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
       "date": "14 Oct 2026",
@@ -202,29 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "How backlash against data centres could shape the US midterm elections",
+      "link": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
+      "date": "14 Oct 2026",
+      "excerpt": "Democrats and Republicans alike are coming out against data centre development, amid growing backlash across the US.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ef9/live/8b1f1580-c813-11f1-b60d-ef789a67d4e2.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
       "link": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
       "date": "14 Oct 2026",
       "excerpt": "Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9074/live/83100400-c7bc-11f1-9a39-31b474234113.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Faisal Islam: What surprise praise for UK economy tells us about the Budget",
-      "link": "https://www.bbc.co.uk/news/articles/cx30eq0vyed4o?at_medium=RSS&at_campaign=rss",
-      "date": "14 Oct 2026",
-      "excerpt": "On three occasions in the past 24 hours, top IMF officials have praised UK plans to reduce its annual levels of borrowing.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31bf/live/83599ee0-c7b6-11f1-b41f-d7a6cb474575.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Driving test waits fall to two-year low - but still average 20 weeks",
-      "link": "https://www.bbc.co.uk/news/articles/c94g1kvz006ko?at_medium=RSS&at_campaign=rss",
-      "date": "14 Oct 2026",
-      "excerpt": "Learner drivers in September had to wait an average of 19.7 weeks, or around five months, for a practical test.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95a5/live/6ec3c040-c7d5-11f1-9671-5b70c6e774ea.jpg"
     },
     {
       "source": "BBC Business",
