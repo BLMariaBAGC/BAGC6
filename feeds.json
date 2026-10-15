@@ -1,5 +1,5 @@
 {
-  "updated": "15 Oct 2026, 18:11 UTC",
+  "updated": "15 Oct 2026, 18:41 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -130,15 +130,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Stop relying on reviews of services and start looking for records",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/15/stop-relying-on-reviews-of-services-and-start-looking-for-records/",
-      "date": "15 Oct 2026",
-      "excerpt": "Many of us make important decisions, including about who should look after our children, based on reviews written by other customers. But how accurate are they? Shawn Redd shows that there is often little correlation between reviews and the",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "America’s new banking risk regulation overlooks AI and shifts the burden of defence",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/13/americas-new-banking-risk-regulation-overlooks-ai-and-shifts-the-burden-of-defence/",
       "date": "13 Oct 2026",
@@ -179,6 +170,15 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/08/is-your-phone-listening-to-you-or-do-social-media-firms-just-know-what-to-serve-you/",
       "date": "8 Oct 2026",
       "excerpt": "In an edited transcript of an interview with LSE, Edgar Whitley explains why many people believe that their devices are listening to them, how to protect your privacy and how to confuse the algorithm. Edgar was talking to Charlotte Kelloway",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is your phone listening to you? “Everything is organised around the assumption that you will give up this data.”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/07/is-your-phone-listening-to-you-everything-is-organised-around-the-assumption-that-you-will-give-up-this-data/",
+      "date": "7 Oct 2026",
+      "excerpt": "In an edited extract from an interview with LSE, Nick Couldry describes how tech firms collect and use your data and where he sees shoots of resistance. Nick was talking to Charlotte Kelloway. In your book, Data Grab, you talk about how dat",
       "image": ""
     },
     {
