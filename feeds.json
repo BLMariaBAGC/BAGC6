@@ -1,5 +1,5 @@
 {
-  "updated": "15 Oct 2026, 22:53 UTC",
+  "updated": "16 Oct 2026, 03:08 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -130,6 +130,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Stop relying on reviews of services and start looking for records",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/15/stop-relying-on-reviews-of-services-and-start-looking-for-records/",
+      "date": "15 Oct 2026",
+      "excerpt": "Many of us make important decisions, including about who should look after our children, based on reviews written by other customers. But how accurate are they? Shawn Redd shows that there is often little correlation between reviews and the",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "America’s new banking risk regulation overlooks AI and shifts the burden of defence",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/13/americas-new-banking-risk-regulation-overlooks-ai-and-shifts-the-burden-of-defence/",
       "date": "13 Oct 2026",
@@ -173,15 +182,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is your phone listening to you? “Everything is organised around the assumption that you will give up this data.”",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/07/is-your-phone-listening-to-you-everything-is-organised-around-the-assumption-that-you-will-give-up-this-data/",
-      "date": "7 Oct 2026",
-      "excerpt": "In an edited extract from an interview with LSE, Nick Couldry describes how tech firms collect and use your data and where he sees shoots of resistance. Nick was talking to Charlotte Kelloway. In your book, Data Grab, you talk about how dat",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Banks say Healey is planning Budget tax raid on their profits",
@@ -189,6 +189,15 @@
       "date": "15 Oct 2026",
       "excerpt": "Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41e4/live/21134080-c8bd-11f1-bdfb-e3788aeae9ec.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I find it quite demoralising in store - why I do all my shopping online",
+      "link": "https://www.bbc.co.uk/news/articles/c36lk280kd1o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Oct 2026",
+      "excerpt": "After Primark announced plans for home delivery, we hear from women who never go into clothes stores.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e93/live/d56cced0-b75f-11f1-8e7f-6f99c81f3136.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,20 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "How backlash against data centres could shape the US midterm elections",
-      "link": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
-      "date": "14 Oct 2026",
-      "excerpt": "Democrats and Republicans alike are coming out against data centre development, amid growing backlash across the US.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ef9/live/8b1f1580-c813-11f1-b60d-ef789a67d4e2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
-      "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
-      "date": "14 Oct 2026",
-      "excerpt": "With the festive season on the horizon, we trace toys from factories in China to US shelves.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0d2/live/df74c9d0-c54e-11f1-b4f1-2359026a88ee.jpg"
+      "title": "Living with a stink? Technology might help",
+      "link": "https://www.bbc.co.uk/news/articles/cr6240q1w136o?at_medium=RSS&at_campaign=rss",
+      "date": "15 Oct 2026",
+      "excerpt": "Smells from rubbish dumps and industrial facilities are being more carefully monitored.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80ac/live/fbba3b20-c652-11f1-9a39-31b474234113.jpg"
     }
   ]
 }
