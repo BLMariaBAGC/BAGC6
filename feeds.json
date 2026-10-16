@@ -1,5 +1,5 @@
 {
-  "updated": "16 Oct 2026, 19:17 UTC",
+  "updated": "16 Oct 2026, 22:30 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -130,24 +130,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Ending modern slavery will take more than corporate reporting",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/ending-modern-slavery-will-take-more-than-corporate-reporting/",
-      "date": "16 Oct 2026",
-      "excerpt": "Modern slavery develops where global commercial pressures meet with local labour markets and vulnerable communities. Tackling it requires companies and public bodies to work together more effectively, argues Sepideh Parsa. The UK’s proposed",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The hidden uncertainty behind emissions data produced by British supermarkets",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/the-hidden-uncertainty-behind-emissions-data-produced-by-british-supermarkets/",
-      "date": "16 Oct 2026",
-      "excerpt": "British supermarkets publish Scope 3 carbon totals that include emissions from producing and transporting the products they sell. Those can mix suppliers’ records with estimates based on industry averages. New climate reporting standards fa",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Stop relying on reviews of services and start looking for records",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/15/stop-relying-on-reviews-of-services-and-start-looking-for-records/",
       "date": "15 Oct 2026",
@@ -179,6 +161,24 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/09/volatile-bond-markets-and-the-case-for-more-transparent-quantitative-tightening/",
       "date": "9 Oct 2026",
       "excerpt": "The debate around quantitative tightening can be technical and confusing. It need not be. Costas Milas and Christopher Mahon argue that QT deserves the same scenario testing as the rest of monetary policy. But policymakers would still face ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is your phone listening to you? “We must be more mindful of the kinds of companies we engage with”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/08/is-your-phone-listening-to-you-we-must-be-more-mindful-of-the-kinds-of-companies-we-engage-with/",
+      "date": "8 Oct 2026",
+      "excerpt": "In an edited extract from an interview with LSE, Carissa Véliz describes how tech firms collect and use your data, and explains why reading a physical book is a rebellious act of defiance in the digital age. Carissa was talking to Charlotte",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is your phone listening to you? Or do social media firms just know what to serve you?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/08/is-your-phone-listening-to-you-or-do-social-media-firms-just-know-what-to-serve-you/",
+      "date": "8 Oct 2026",
+      "excerpt": "In an edited transcript of an interview with LSE, Edgar Whitley explains why many people believe that their devices are listening to them, how to protect your privacy and how to confuse the algorithm. Edgar was talking to Charlotte Kelloway",
       "image": ""
     },
     {
