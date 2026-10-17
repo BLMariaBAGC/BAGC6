@@ -1,6 +1,24 @@
 {
-  "updated": "17 Oct 2026, 13:27 UTC",
+  "updated": "17 Oct 2026, 16:04 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm",
+      "date": "17 Oct 2026",
+      "excerpt": "Scientists have discovered a surprising two-way relationship between sleep and growth hormone, revealing how the brain carefully balances physical recovery with wakefulness. The findings could help explain why poor sleep harms metabolism an",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Brain cells meant to protect us may be fueling cognitive decline",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
+      "date": "17 Oct 2026",
+      "excerpt": "Scientists have uncovered a surprising cause of age-related cognitive decline involving brain cells previously thought to be entirely beneficial. As these cells become dysfunctional, they can produce abnormal amounts of myelin, disrupting n",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261012185023.htm",
       "date": "13 Oct 2026",
       "excerpt": "Your daily routine could have a bigger impact on your ability to handle stress than you realize. A Binghamton University study of approximately 400 college students found that eating breakfast regularly, exercising, sleeping well, and takin",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "AI can act exactly like a human, but we still don't think it's conscious",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261012185017.htm",
-      "date": "13 Oct 2026",
-      "excerpt": "A new study reveals that people draw a surprisingly sharp line between human consciousness and artificial intelligence, even when both behave identically. Researchers found that participants considered even the most responsive AI less consc",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists uncover a hidden map of the brain with 539 distinct regions",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261012185011.htm",
-      "date": "13 Oct 2026",
-      "excerpt": "Scientists have uncovered a hidden layer of organization in the brain by creating the first detailed 3D map of its lipids, the fatty molecules essential for brain structure and communication. By analyzing millions of measurements from mouse",
       "image": ""
     },
     {
