@@ -1,6 +1,42 @@
 {
-  "updated": "18 Oct 2026, 13:45 UTC",
+  "updated": "18 Oct 2026, 17:03 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Magic mushroom ingredient takes the fight out of aggressive fish",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261017230036.htm",
+      "date": "18 Oct 2026",
+      "excerpt": "A psychedelic compound found in magic mushrooms appears to have an unexpected effect: calming highly aggressive fish. Researchers discovered that low doses of psilocybin significantly reduced aggressive attacks in mangrove rivulus fish with",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a natural compound that could protect the brain from too much salt",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
+      "date": "18 Oct 2026",
+      "excerpt": "Eating too much salt may do more than raise blood pressure. It could also harm memory and social behavior. In a new study, Japanese researchers discovered that a soy-derived compound called LPC70 helped protect mice from several damaging ef",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Eating blueberries every day may have a surprising effect on your mood",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261017230028.htm",
+      "date": "18 Oct 2026",
+      "excerpt": "Eating blueberries every day could have surprising effects on mood, according to a small study that found greater reductions in depressive symptoms among older adults who consumed the fruit for three months. Researchers also detected change",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists uncover 3 key brain pathways linked to lasting depression relief",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261017230021.htm",
+      "date": "18 Oct 2026",
+      "excerpt": "Researchers have uncovered three brain pathways linked to lasting improvements in people receiving deep brain stimulation for severe, treatment-resistant depression. They also discovered that patients who failed to improve after two years s",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +44,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm",
       "date": "17 Oct 2026",
       "excerpt": "Scientists have discovered a surprising two-way relationship between sleep and growth hormone, revealing how the brain carefully balances physical recovery with wakefulness. The findings could help explain why poor sleep harms metabolism an",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists find a youth protein that helps aging brain cells act young again",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm",
+      "date": "17 Oct 2026",
+      "excerpt": "Scientists have discovered that a protein linked to youth helps protect the brain’s immune cells from age-related decline. Restoring the protein in older mice improved the cells’ ability to clear debris and reduced signs of inflammation, ra",
       "image": ""
     },
     {
@@ -26,51 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261015003440.htm",
       "date": "15 Oct 2026",
       "excerpt": "Even under general anesthesia, the human brain can analyze language, recognize different types of words, and predict what comes next in a story, according to a surprising discovery by Baylor researchers. The findings challenge our understan",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Yale scientists discover how stress changes the brain to make memories stronger",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261014015517.htm",
-      "date": "16 Oct 2026",
-      "excerpt": "Yale scientists have uncovered how the stress hormone cortisol helps the brain turn emotional experiences into stronger, longer-lasting memories. The discovery reveals that stress can reshape communication between brain networks involved in",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Strokes have nearly doubled among younger adults, and scientists aren't sure why",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261014015459.htm",
-      "date": "15 Oct 2026",
-      "excerpt": "Strokes are becoming alarmingly common among younger adults, with rates nearly doubling among people ages 20 to 54 over nearly three decades. Researchers found that blocked blood vessels in the brain accounted for much of the increase, whil",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists may have overlooked a hidden Alzheimer's culprit for decades",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261013015838.htm",
-      "date": "14 Oct 2026",
-      "excerpt": "For decades, scientists have focused on amyloid beta as a major culprit behind Alzheimer’s disease, spending billions of dollars developing treatments that have often delivered disappointing results. Now, researchers at UC Santa Cruz are dr",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Rare study reveals a striking divide inside an Alzheimer’s patient’s brain",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261013015814.htm",
-      "date": "15 Oct 2026",
-      "excerpt": "A rare examination of an Alzheimer’s patient’s brain revealed that regions cleared of amyloid plaques had remarkably little of the harmful tau buildup associated with memory loss, while neighboring areas showed extensive damage. The discove",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "The secret to handling stress better may start at breakfast",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261012185023.htm",
-      "date": "13 Oct 2026",
-      "excerpt": "Your daily routine could have a bigger impact on your ability to handle stress than you realize. A Binghamton University study of approximately 400 college students found that eating breakfast regularly, exercising, sleeping well, and takin",
       "image": ""
     },
     {
