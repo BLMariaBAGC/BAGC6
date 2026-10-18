@@ -1,5 +1,5 @@
 {
-  "updated": "18 Oct 2026, 03:02 UTC",
+  "updated": "18 Oct 2026, 08:32 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,6 +184,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "There's a crackdown on sports piracy - but is it already out of control?",
+      "link": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo?at_medium=RSS&at_campaign=rss",
+      "date": "18 Oct 2026",
+      "excerpt": "The sports industry's lucrative business model is being undermined by dodgy TV sticks and illegal streaming links, writes Theo Leggett.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b79/live/6d035b30-c94c-11f1-9a39-31b474234113.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Third runway at Heathrow Airport would drive growth, Healey says",
+      "link": "https://www.bbc.co.uk/news/articles/cw0k07d2nj43o?at_medium=RSS&at_campaign=rss",
+      "date": "17 Oct 2026",
+      "excerpt": "It comes after the prime minister refused to say whether he backed expansion.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/388f/live/422e53f0-c9fc-11f1-bb10-89ce65f72e2c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Faisal Islam: Why China and AI are worrying global finance bosses",
+      "link": "https://www.bbc.co.uk/news/articles/cm4g189jvnxjo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Oct 2026",
+      "excerpt": "At the IMF meeting in Bangkok this week finance and business leaders grappled with uncertainty.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ba8/live/ea5ead70-c986-11f1-b646-2b044167639a.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Banks expect to be hit with higher taxes in Budget",
       "link": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
       "date": "16 Oct 2026",
@@ -198,33 +225,6 @@
       "date": "16 Oct 2026",
       "excerpt": "Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b96f/live/01c77470-c963-11f1-bc2e-018d645d8d21.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I find it quite demoralising in store - why I do all my shopping online",
-      "link": "https://www.bbc.co.uk/news/articles/c36lk280kd1o?at_medium=RSS&at_campaign=rss",
-      "date": "15 Oct 2026",
-      "excerpt": "After Primark announced plans for home delivery, we hear from women who never go into clothes stores.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c7cc/live/e0cf8ba0-c92f-11f1-bc2e-018d645d8d21.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
-      "link": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-      "date": "16 Oct 2026",
-      "excerpt": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/139a/live/0f24b0c0-c8b3-11f1-bc2e-018d645d8d21.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm",
-      "link": "https://www.bbc.co.uk/news/articles/cm79pe5yej7no?at_medium=RSS&at_campaign=rss",
-      "date": "15 Oct 2026",
-      "excerpt": "The culture secretary says the deal could affect free expression in the media and the variety of Britain's news landscape.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717e/live/d95f6d50-c898-11f1-b0a4-81e564f1cfaa.jpg"
     },
     {
       "source": "BBC Business",
