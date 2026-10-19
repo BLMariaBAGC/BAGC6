@@ -1,5 +1,5 @@
 {
-  "updated": "19 Oct 2026, 16:47 UTC",
+  "updated": "19 Oct 2026, 21:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -130,6 +130,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "AI agents are ignoring their charters – that is exactly why we need them",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/19/ai-agents-are-ignoring-their-charters-that-is-exactly-why-we-need-them/",
+      "date": "19 Oct 2026",
+      "excerpt": "Anthropic, Microsoft and OpenAI have each published a charter setting out the values their AI models should hold. This summer, agents built by two of them did what those charters forbid. Each lab has different priorities, and their agents c",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/10/Screenshot-2026-10-19-104350-1.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Ending modern slavery will take more than corporate reporting",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/ending-modern-slavery-will-take-more-than-corporate-reporting/",
       "date": "16 Oct 2026",
@@ -142,7 +151,7 @@
       "title": "The hidden uncertainty behind emissions data produced by British supermarkets",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/the-hidden-uncertainty-behind-emissions-data-produced-by-british-supermarkets/",
       "date": "16 Oct 2026",
-      "excerpt": "British supermarkets publish Scope 3 carbon totals that include emissions from producing and transporting the products they sell. Those can mix suppliers’ records with estimates based on industry averages. New climate reporting standards fa",
+      "excerpt": "British supermarkets publish Scope 3 carbon totals that include emissions from producing and transporting the products they sell. Those can mix suppliers’ records with estimates based on industry averages. The UK’s new climate reporting sta",
       "image": ""
     },
     {
@@ -173,13 +182,31 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/10/Image-1-1024x640.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Volatile bond markets and the case for more transparent quantitative tightening",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/09/volatile-bond-markets-and-the-case-for-more-transparent-quantitative-tightening/",
-      "date": "9 Oct 2026",
-      "excerpt": "The debate around quantitative tightening can be technical and confusing. It need not be. Costas Milas and Christopher Mahon argue that QT deserves the same scenario testing as the rest of monetary policy. But policymakers would still face ",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Burnham vows end to 'rip-off parking charges' under new rules",
+      "link": "https://www.bbc.co.uk/news/articles/ck87ze7wl4qno?at_medium=RSS&at_campaign=rss",
+      "date": "19 Oct 2026",
+      "excerpt": "Penalties are seen as too harsh on motorists who are penalised for parking on private land.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b840/live/85d53a60-cbe1-11f1-9a39-31b474234113.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US bans DeepSeek AI from government use as tech tension with China continues",
+      "link": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss",
+      "date": "19 Oct 2026",
+      "excerpt": "DeepSeek is a powerful, popular and relatively inexpensive artificial intelligence model out of China.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76fb/live/a102f4a0-cbe9-11f1-ad7b-fd8c269705fe.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+      "link": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
+      "date": "19 Oct 2026",
+      "excerpt": "The Saudi government did not immediately respond to BBC requests for comment.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad18/live/95af9980-cbd2-11f1-aba9-2bb2608f11d9.png"
     },
     {
       "source": "BBC Business",
@@ -207,33 +234,6 @@
       "date": "19 Oct 2026",
       "excerpt": "More property asking prices are being cut than at any time in 15 years, data shared with the BBC shows.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f3e/live/90ae7a90-cb97-11f1-9a39-31b474234113.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Musk and Anthropic pledge public share giveaways",
-      "link": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
-      "date": "19 Oct 2026",
-      "excerpt": "Musk's announcement comes after Anthropic pledged to create a public benefit fund ahead of its blockbuster stock market listing.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/075f/live/77a0d170-cba0-11f1-9ee2-f74dfb8e54e5.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Bereaved families could face 'unjust' tax bill after civil service pension delays",
-      "link": "https://www.bbc.co.uk/news/articles/cq1m4zz9e44go?at_medium=RSS&at_campaign=rss",
-      "date": "19 Oct 2026",
-      "excerpt": "The chairman of Parliament's Public Accounts Committee says families should not be taxed through no fault of their own.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1735/live/c618ad10-cbae-11f1-821f-c5d07d801cca.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Don't fall for this - how to protect yourself from AI scams",
-      "link": "https://www.bbc.co.uk/news/articles/c60rl1xvjv89o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Oct 2026",
-      "excerpt": "Trading standards officers say AI is \"super-charging\" existing scams through clones and fake websites.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f70/live/9a6f8400-c98c-11f1-adc3-01d8629f0470.jpg"
     }
   ]
 }
