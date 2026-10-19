@@ -1,6 +1,51 @@
 {
-  "updated": "19 Oct 2026, 09:35 UTC",
+  "updated": "19 Oct 2026, 16:47 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
+      "date": "19 Oct 2026",
+      "excerpt": "Walking just 3,000 steps a day could help slow Alzheimer’s-related brain changes, according to new research. Scientists discovered that physical activity was linked to less buildup of harmful tau proteins and nearly half the cognitive and f",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Why some people escape Alzheimer’s despite carrying a high-risk gene",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261018205044.htm",
+      "date": "19 Oct 2026",
+      "excerpt": "Scientists have discovered why some people with a high genetic risk of Alzheimer’s remain mentally sharp into their 80s, uncovering a rare mutation that protects the brain from harmful protein buildup. The findings reveal a potential new wa",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists win 2026 Nobel Prize for controlling brain cells with light",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261018205037.htm",
+      "date": "19 Oct 2026",
+      "excerpt": "A discovery in tiny algae led to a Nobel Prize-winning breakthrough that allows scientists to switch brain cells on and off using light. The revolutionary technique has already helped researchers activate memories and is opening new possibi",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "\"Mind-blowing\" Alzheimer’s breakthrough: Two hours of sleep restored without clearing brain plaques",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+      "date": "19 Oct 2026",
+      "excerpt": "Scientists have uncovered an unexpected culprit behind sleep loss in Alzheimer’s disease: overactive immune cells in the brain. By temporarily removing these cells, researchers restored more than two hours of sleep per day in mice, revealin",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Modern neuroscience is rediscovering a surprising idea freud had 130 years ago",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261018084028.htm",
+      "date": "18 Oct 2026",
+      "excerpt": "Researchers have identified striking parallels between Sigmund Freud’s century-old theories and modern neuroscience, suggesting that the brain’s constant predictions shape how we experience reality. The findings could help explain why harmf",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -29,48 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists uncover 3 key brain pathways linked to lasting depression relief",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261017230021.htm",
-      "date": "18 Oct 2026",
-      "excerpt": "Researchers have uncovered three brain pathways linked to lasting improvements in people receiving deep brain stimulation for severe, treatment-resistant depression. They also discovered that patients who failed to improve after two years s",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Your AI Marketing Transformation Will Get Harder Before It Gets Easier",
+      "link": "/2026/10/your-ai-marketing-transformation-will-get-harder-before-it-gets-easier",
+      "date": "19 Oct 2026",
+      "excerpt": "Here are the challenges&#8212;and benefits&#8212;you can expect.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm",
-      "date": "17 Oct 2026",
-      "excerpt": "Scientists have discovered a surprising two-way relationship between sleep and growth hormone, revealing how the brain carefully balances physical recovery with wakefulness. The findings could help explain why poor sleep harms metabolism an",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists find a youth protein that helps aging brain cells act young again",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261016070646.htm",
-      "date": "17 Oct 2026",
-      "excerpt": "Scientists have discovered that a protein linked to youth helps protect the brain’s immune cells from age-related decline. Restoring the protein in older mice improved the cells’ ability to clear debris and reduced signs of inflammation, ra",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Brain cells meant to protect us may be fueling cognitive decline",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261015073222.htm",
-      "date": "17 Oct 2026",
-      "excerpt": "Scientists have uncovered a surprising cause of age-related cognitive decline involving brain cells previously thought to be entirely beneficial. As these cells become dysfunctional, they can produce abnormal amounts of myelin, disrupting n",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Mysterious brain activity under anesthesia challenges what we know about consciousness",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261015003440.htm",
-      "date": "15 Oct 2026",
-      "excerpt": "Even under general anesthesia, the human brain can analyze language, recognize different types of words, and predict what comes next in a story, according to a surprising discovery by Baylor researchers. The findings challenge our understan",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Loyal Customers Your Luxury Brand Is Overlooking",
+      "link": "/2026/10/the-loyal-customers-your-luxury-brand-is-overlooking",
+      "date": "19 Oct 2026",
+      "excerpt": "How to identify and engage with enthusiasts who buy your products on secondary markets.",
       "image": ""
     },
     {
@@ -107,24 +125,6 @@
       "link": "/2026/10/team-dynamics-weaken-when-employees-turn-to-ai-instead-of-colleagues",
       "date": "15 Oct 2026",
       "excerpt": "Displacing teammates with AI can lead to &#8220;relationslipping&#8221;&#8212;the pernicious erosion of a team&#8217;s working relationships.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How One Company Used Disciplined Chaos to Drive Innovation",
-      "link": "/2026/10/how-one-company-used-disciplined-chaos-to-drive-innovation",
-      "date": "14 Oct 2026",
-      "excerpt": "Six principles employed by Moroccan fertilizer company OCP to empower employees, test ideas, and build ventures within clear strategic guardrails.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Managers Need to Get Better at Killing Digital Products",
-      "link": "/2026/10/managers-need-to-get-better-at-killing-digital-products",
-      "date": "14 Oct 2026",
-      "excerpt": "Ask two questions: Will anyone notice the shutdown? And, if they do, will they be angry?",
       "image": ""
     },
     {
@@ -184,11 +184,47 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Vinted blocks French looters listing stolen goods for sale",
+      "link": "https://www.bbc.co.uk/news/articles/cm8xzrljv72ro?at_medium=RSS&at_campaign=rss",
+      "date": "19 Oct 2026",
+      "excerpt": "The platform said since the weekend it had \"taken immediate action to idenitify and remove listings linked to looting\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3138/live/44562b50-cbd0-11f1-aba9-2bb2608f11d9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Bikes 'not for jousting,' says Lime after duel video",
+      "link": "https://www.bbc.co.uk/news/articles/c9zrdpg7256yo?at_medium=RSS&at_campaign=rss",
+      "date": "19 Oct 2026",
+      "excerpt": "Footage emerged on social media of hundreds of people gathered in east London to watch a bike joust.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14f2/live/5715c480-cbcb-11f1-bc2e-018d645d8d21.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Home sellers cut asking prices on 3,000 properties a day",
       "link": "https://www.bbc.co.uk/news/articles/c84g13z6xx4eo?at_medium=RSS&at_campaign=rss",
-      "date": "18 Oct 2026",
+      "date": "19 Oct 2026",
       "excerpt": "More property asking prices are being cut than at any time in 15 years, data shared with the BBC shows.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f3e/live/90ae7a90-cb97-11f1-9a39-31b474234113.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Musk and Anthropic pledge public share giveaways",
+      "link": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+      "date": "19 Oct 2026",
+      "excerpt": "Musk's announcement comes after Anthropic pledged to create a public benefit fund ahead of its blockbuster stock market listing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/075f/live/77a0d170-cba0-11f1-9ee2-f74dfb8e54e5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Bereaved families could face 'unjust' tax bill after civil service pension delays",
+      "link": "https://www.bbc.co.uk/news/articles/cq1m4zz9e44go?at_medium=RSS&at_campaign=rss",
+      "date": "19 Oct 2026",
+      "excerpt": "The chairman of Parliament's Public Accounts Committee says families should not be taxed through no fault of their own.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1735/live/c618ad10-cbae-11f1-821f-c5d07d801cca.jpg"
     },
     {
       "source": "BBC Business",
@@ -198,42 +234,6 @@
       "date": "18 Oct 2026",
       "excerpt": "Trading standards officers say AI is \"super-charging\" existing scams through clones and fake websites.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f70/live/9a6f8400-c98c-11f1-adc3-01d8629f0470.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Microsoft pulls out of UK's largest AI data centre",
-      "link": "https://www.bbc.co.uk/news/articles/c9m26kl5y7epo?at_medium=RSS&at_campaign=rss",
-      "date": "18 Oct 2026",
-      "excerpt": "Tech firm Nscale says it is still committed to building the site in Essex.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46c0/live/18b0c090-cb13-11f1-a9ef-8b4e735f71f0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "China's growth accelerates as AI boom helps boost exports",
-      "link": "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=RSS&at_campaign=rss",
-      "date": "19 Oct 2026",
-      "excerpt": "Exports have helped offset weak spending at home, but trade tensions and AI doubts cloud its outlook.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7328/live/2759f110-cb64-11f1-a812-d3be2dbc962d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "People playing loud music on buses could face £100 fine",
-      "link": "https://www.bbc.co.uk/news/articles/cm89z008x7xdo?at_medium=RSS&at_campaign=rss",
-      "date": "19 Oct 2026",
-      "excerpt": "Antisocial behaviour on buses in England could lead to fines while a new campaign is also being launched for trains. A national campaign asking rail passengers \"share the carriage, not the noise\" is being launched.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1177/live/9c756160-cb95-11f1-a64c-550be9e3c66b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
-      "link": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Oct 2026",
-      "excerpt": "The boss of one of Ukraine's biggest steel companies says the country has been \"bundled together\" in measures aimed at curbing cheap imports.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/29eb/live/c667f2d0-c96f-11f1-80fc-ab418b149008.jpg"
     }
   ]
 }
