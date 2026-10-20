@@ -1,6 +1,24 @@
 {
-  "updated": "20 Oct 2026, 07:10 UTC",
+  "updated": "20 Oct 2026, 13:19 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your aging brain may be trading memory for something more valuable",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261019093357.htm",
+      "date": "20 Oct 2026",
+      "excerpt": "The aging brain may be undergoing a remarkable transformation rather than simply losing its abilities, shifting its focus from remembering details to understanding the bigger picture. Scientists suggest this change could be an evolutionary ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists find a way to fight Alzheimer’s brain damage without removing toxic tau",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261019093355.htm",
+      "date": "20 Oct 2026",
+      "excerpt": "Scientists have found a promising way to protect the brain from Alzheimer’s-related damage by blocking immune cells that contribute to the destruction of neurons. In mice, the treatment preserved roughly 40% more tissue in memory centers an",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover a natural compound that could protect the brain from too much salt",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
-      "date": "18 Oct 2026",
-      "excerpt": "Eating too much salt may do more than raise blood pressure. It could also harm memory and social behavior. In a new study, Japanese researchers discovered that a soy-derived compound called LPC70 helped protect mice from several damaging ef",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Leaders Must Speak Honestly About Aging at Work",
+      "link": "/2026/10/leaders-must-speak-honestly-about-aging-at-work",
+      "date": "20 Oct 2026",
+      "excerpt": "Avoiding candid conversations about succession and retirement can damage your organization in the long run.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Eating blueberries every day may have a surprising effect on your mood",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261017230028.htm",
-      "date": "18 Oct 2026",
-      "excerpt": "Eating blueberries every day could have surprising effects on mood, according to a small study that found greater reductions in depressive symptoms among older adults who consumed the fruit for three months. Researchers also detected change",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When You Feel Envy, Turn It Into Something Productive",
+      "link": "/podcast/2026/10/when-you-feel-envy-turn-it-into-something-productive",
+      "date": "20 Oct 2026",
+      "excerpt": "A conversation with author Stacy Kim on listening to yourself and your team.",
       "image": ""
     },
     {
@@ -110,27 +128,72 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "10 Pricing Strategies to Deal with Persistent Inflation",
-      "link": "/2026/10/10-pricing-strategies-to-deal-with-persistent-inflation",
-      "date": "15 Oct 2026",
-      "excerpt": "Passing costs on to consumers isn&#8217;t the only&#8212;or best&#8212;option.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "AI agents are ignoring their charters – that is exactly why we need them",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/19/ai-agents-are-ignoring-their-charters-that-is-exactly-why-we-need-them/",
+      "date": "19 Oct 2026",
+      "excerpt": "Anthropic, Microsoft and OpenAI have each published a charter setting out the values their AI models should hold. This summer, agents built by two of them did what those charters forbid. Each lab has different priorities, and their agents c",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/10/Screenshot-2026-10-19-104350-1.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Ending modern slavery will take more than corporate reporting",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/ending-modern-slavery-will-take-more-than-corporate-reporting/",
+      "date": "16 Oct 2026",
+      "excerpt": "Modern slavery develops where global commercial pressures meet with local labour markets and vulnerable communities. Tackling it requires companies and public bodies to work together more effectively, argues Sepideh Parsa. The UK’s proposed",
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Team Dynamics Weaken When Employees Turn to AI Instead of Colleagues",
-      "link": "/2026/10/team-dynamics-weaken-when-employees-turn-to-ai-instead-of-colleagues",
-      "date": "15 Oct 2026",
-      "excerpt": "Displacing teammates with AI can lead to &#8220;relationslipping&#8221;&#8212;the pernicious erosion of a team&#8217;s working relationships.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The hidden uncertainty behind emissions data produced by British supermarkets",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/the-hidden-uncertainty-behind-emissions-data-produced-by-british-supermarkets/",
+      "date": "16 Oct 2026",
+      "excerpt": "British supermarkets publish Scope 3 carbon totals that include emissions from producing and transporting the products they sell. Those can mix suppliers’ records with estimates based on industry averages. The UK’s new climate reporting sta",
       "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Stop relying on reviews of services and start looking for records",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/15/stop-relying-on-reviews-of-services-and-start-looking-for-records/",
+      "date": "15 Oct 2026",
+      "excerpt": "Many of us make important decisions, including about who should look after our children, based on reviews written by other customers. But how accurate are they? Shawn Redd shows that there is often little correlation between reviews and the",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "America’s new banking risk regulation overlooks AI and shifts the burden of defence",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/13/americas-new-banking-risk-regulation-overlooks-ai-and-shifts-the-burden-of-defence/",
+      "date": "13 Oct 2026",
+      "excerpt": "The old model risk rulebook told banks in America how to design, validate and monitor the quantitative systems they rely on. The new one asks them to defend what they chose. This isn&#8217;t relaxation, argues Vikram Singh, it&#8217;s burde",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Don’t let your AI dashboard drive your corporate strategy",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/12/dont-let-your-ai-dashboard-drive-your-corporate-strategy/",
+      "date": "12 Oct 2026",
+      "excerpt": "AI-powered dashboards are pitched as the ultimate tool for chief executives looking for strategic agility. In practice they are crippling corporate leadership and undermining middle-management. Ch. Mahmood Anwar argues that to lead effectiv",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/10/Image-1-1024x640.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Job vacancies fall as small firms cut back on recruitment",
+      "title": "Paddy Power cuts 1,400 jobs and blames betting tax rises",
+      "link": "https://www.bbc.co.uk/news/articles/cqzrdpkm3g84o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Oct 2026",
+      "excerpt": "The government increased taxes on online casino and sports betting in last year's Budget.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/826e/live/4d1d92e0-cc80-11f1-9a39-31b474234113.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Jobless rate falls but small firms cut back hiring",
       "link": "https://www.bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss",
       "date": "20 Oct 2026",
       "excerpt": "Small firms cite labour costs as a key factor in scaling back hiring, the Office for National Statistics says.",
@@ -151,15 +214,15 @@
       "title": "Burnham vows end to 'rip-off parking charges' under new rules",
       "link": "https://www.bbc.co.uk/news/articles/ck87ze7wl4qno?at_medium=RSS&at_campaign=rss",
       "date": "20 Oct 2026",
-      "excerpt": "Penalties are seen as too harsh on motorists who are penalised for parking on private land.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b840/live/85d53a60-cbe1-11f1-9a39-31b474234113.jpg"
+      "excerpt": "The changes come after concerns that penalties issued by private providers are too harsh and leave motorists unfairly punished.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a50c/live/322c6e70-cc62-11f1-9a39-31b474234113.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'I'm fed up of swiping': Why singles now want to meet IRL",
+      "title": "'I'm fed up of swiping': The singles choosing dating events over apps",
       "link": "https://www.bbc.co.uk/news/articles/cj62y9dnd6pwo?at_medium=RSS&at_campaign=rss",
-      "date": "19 Oct 2026",
+      "date": "20 Oct 2026",
       "excerpt": "The BBC hears from people who think dating events are better value for money than dating apps.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ca8/live/4a070320-cbc7-11f1-9a39-31b474234113.jpg"
     },
@@ -171,15 +234,6 @@
       "date": "20 Oct 2026",
       "excerpt": "Ahead of the midterms Trump has boasted about the performance of the US economy. BBC Verify looks at inflation, jobs and economic growth in the country.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/711c/live/8e797e10-cbd7-11f1-a64c-550be9e3c66b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Vinted blocks French looters listing stolen goods for sale",
-      "link": "https://www.bbc.co.uk/news/articles/cm8xzrljv72ro?at_medium=RSS&at_campaign=rss",
-      "date": "19 Oct 2026",
-      "excerpt": "The platform said since the weekend it had \"taken immediate action to idenitify and remove listings linked to looting\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3138/live/44562b50-cbd0-11f1-aba9-2bb2608f11d9.jpg"
     }
   ]
 }
