@@ -1,5 +1,5 @@
 {
-  "updated": "20 Oct 2026, 13:19 UTC",
+  "updated": "20 Oct 2026, 18:20 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How AI Erodes Teamwork",
+      "link": "/2026/10/how-ai-erodes-teamwork",
+      "date": "20 Oct 2026",
+      "excerpt": "In this week&#8217;s Insider newsletter, HBR editor Gretchen Gavett shares the results of a new survey on &#8220;relationslipping,&#8221; invites subscribers to a roundtable event on cybersecurity, and more.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Lessons from UPS’s Transformation",
+      "link": "/2026/10/lessons-from-upss-transformation",
+      "date": "20 Oct 2026",
+      "excerpt": "How leaders can successfully pivot a failing business model&#8212;while keeping profit margins high and teams aligned.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Leaders Must Speak Honestly About Aging at Work",
       "link": "/2026/10/leaders-must-speak-honestly-about-aging-at-work",
       "date": "20 Oct 2026",
@@ -110,21 +128,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Most Consequential Move a New CEO Can Make",
-      "link": "/2026/10/the-most-consequential-move-a-new-ceo-can-make",
-      "date": "16 Oct 2026",
-      "excerpt": "A false step can send the company in the wrong direction, alienate key stakeholders, and squander the credibility needed to get anything done.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Turn Vibe-Coded Prototypes Into Tools Your Company Can Actually Use",
-      "link": "/2026/10/turn-vibe-coded-prototypes-into-tools-your-company-can-actually-use",
-      "date": "16 Oct 2026",
-      "excerpt": "Lessons from companies that got it right.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How organisations can stimulate sustainable behaviour",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/20/how-organisations-can-stimulate-sustainable-behaviour/",
+      "date": "20 Oct 2026",
+      "excerpt": "Employees who are concerned about climate change may not know how to translate this into action at work. Berend van der Kolk, Eelke Wiersma and Willemijn Odekerken find that such employees can be stimulated to engage in sustainable behaviou",
       "image": ""
     },
     {
@@ -173,13 +182,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Don’t let your AI dashboard drive your corporate strategy",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/12/dont-let-your-ai-dashboard-drive-your-corporate-strategy/",
-      "date": "12 Oct 2026",
-      "excerpt": "AI-powered dashboards are pitched as the ultimate tool for chief executives looking for strategic agility. In practice they are crippling corporate leadership and undermining middle-management. Ch. Mahmood Anwar argues that to lead effectiv",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/10/Image-1-1024x640.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Google resolves cloud outage affecting UK banks and websites",
+      "link": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Oct 2026",
+      "excerpt": "Revolut was one of the hardest hit, with banking services going down for many customers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f03a/live/ea64c5b0-ccac-11f1-8789-fd6bb060c3f9.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK government to make Jackdaw gas field announcement",
+      "link": "https://www.bbc.co.uk/news/articles/cvze4wx3elj1o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Oct 2026",
+      "excerpt": "The long-awaited decision about the controversial North Sea field is expected on Wednesday morning.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f31e/live/85d6bcc0-ccac-11f1-8789-fd6bb060c3f9.jpg"
     },
     {
       "source": "BBC Business",
@@ -189,6 +207,15 @@
       "date": "20 Oct 2026",
       "excerpt": "The government increased taxes on online casino and sports betting in last year's Budget.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/826e/live/4d1d92e0-cc80-11f1-9a39-31b474234113.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Union attacks NatWest plans to get workers back to the office",
+      "link": "https://www.bbc.co.uk/news/articles/cmly0qwnlgdvo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Oct 2026",
+      "excerpt": "The bank says workers will be required to attend the office at least two days a week from February.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ac8/live/b29c3c60-cc8b-11f1-bed8-c51b95c602ec.jpg"
     },
     {
       "source": "BBC Business",
@@ -207,33 +234,6 @@
       "date": "20 Oct 2026",
       "excerpt": "Influential Labour figures had been pushing for equalising CGT and income tax, but critics have said this could drive wealthy people out of Britain.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95e7/live/6cd357a0-cc17-11f1-b7d0-7f346cefa9a9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Burnham vows end to 'rip-off parking charges' under new rules",
-      "link": "https://www.bbc.co.uk/news/articles/ck87ze7wl4qno?at_medium=RSS&at_campaign=rss",
-      "date": "20 Oct 2026",
-      "excerpt": "The changes come after concerns that penalties issued by private providers are too harsh and leave motorists unfairly punished.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a50c/live/322c6e70-cc62-11f1-9a39-31b474234113.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I'm fed up of swiping': The singles choosing dating events over apps",
-      "link": "https://www.bbc.co.uk/news/articles/cj62y9dnd6pwo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Oct 2026",
-      "excerpt": "The BBC hears from people who think dating events are better value for money than dating apps.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ca8/live/4a070320-cbc7-11f1-9a39-31b474234113.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How is the US economy really doing under President Trump?",
-      "link": "https://www.bbc.co.uk/news/articles/cv98ze40jz18o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Oct 2026",
-      "excerpt": "Ahead of the midterms Trump has boasted about the performance of the US economy. BBC Verify looks at inflation, jobs and economic growth in the country.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/711c/live/8e797e10-cbd7-11f1-a64c-550be9e3c66b.jpg"
     }
   ]
 }
