@@ -1,5 +1,5 @@
 {
-  "updated": "21 Oct 2026, 14:50 UTC",
+  "updated": "21 Oct 2026, 19:54 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "When Restrictive Cybersecurity Policies Backfire",
+      "link": "/2026/10/when-restrictive-cybersecurity-policies-backfire",
+      "date": "21 Oct 2026",
+      "excerpt": "Six experiments involving more than 2,800 people show how rules meant to reduce risk can end up weakening employees&#8217; belief in digital threats.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Deployment Failure Holding Back Your AI Investments",
+      "link": "/2026/10/the-deployment-failure-holding-back-your-ai-investments",
+      "date": "21 Oct 2026",
+      "excerpt": "New research suggests that AI systems are most valuable when rolled out across functions, not just within them.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How AI Erodes Teamwork",
       "link": "/2026/10/how-ai-erodes-teamwork",
       "date": "20 Oct 2026",
@@ -116,15 +134,6 @@
       "link": "/2026/10/your-ai-marketing-transformation-will-get-harder-before-it-gets-easier",
       "date": "19 Oct 2026",
       "excerpt": "Here are the challenges&#8212;and benefits&#8212;you can expect.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Loyal Customers Your Luxury Brand Is Overlooking",
-      "link": "/2026/10/the-loyal-customers-your-luxury-brand-is-overlooking",
-      "date": "19 Oct 2026",
-      "excerpt": "How to identify and engage with enthusiasts who buy your products on secondary markets.",
       "image": ""
     },
     {
@@ -202,20 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Civil servant admits he 'made mistakes' juggling five government jobs",
-      "link": "https://www.bbc.co.uk/news/articles/cmze4w63ly42o?at_medium=RSS&at_campaign=rss",
+      "title": "Meta fined $25bn for 'lies' over user data privacy",
+      "link": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
       "date": "21 Oct 2026",
-      "excerpt": "Kashim Chowdhury was contracted for 183 hours a week, more than the number of hours in seven days.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca73/live/aa125910-cd46-11f1-8177-0f8bd59b54c4.jpg"
+      "excerpt": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6026/live/1fd68c80-cd78-11f1-bc2e-018d645d8d21.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What is happening to UK prices?",
-      "link": "https://www.bbc.co.uk/news/articles/c17rgd8e9gjo?at_medium=RSS&at_campaign=rss",
+      "title": "Burnham proposes plan to cut standing charges from gas bills",
+      "link": "https://www.bbc.co.uk/news/articles/cw0541p65dyzo?at_medium=RSS&at_campaign=rss",
       "date": "21 Oct 2026",
-      "excerpt": "UK inflation rose in September, pushed up by higher petrol and diesel prices.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73aa/live/9eb3d5f0-a8dd-11f0-a522-95977dce8b09.jpg"
+      "excerpt": "The prime minister provided little detail, and there are questions over shifting the fees onto unit costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b7c/live/04502cf0-cd5a-11f1-b962-b7ff822cde72.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,11 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What is the Budget and what could be in it?",
-      "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
-      "date": "20 Oct 2026",
-      "excerpt": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e2e/live/b81a2280-b8e8-11f1-ba42-19e1456ae537.jpg"
+      "title": "Civil servant admits he 'made mistakes' juggling five government jobs",
+      "link": "https://www.bbc.co.uk/news/articles/cmze4w63ly42o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Oct 2026",
+      "excerpt": "Kashim Chowdhury was contracted for 183 hours a week, more than the number of hours in seven days.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca73/live/aa125910-cd46-11f1-8177-0f8bd59b54c4.jpg"
     }
   ]
 }
