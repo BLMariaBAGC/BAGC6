@@ -1,5 +1,5 @@
 {
-  "updated": "21 Oct 2026, 19:54 UTC",
+  "updated": "21 Oct 2026, 23:00 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,15 +139,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How vulnerable are you to digital scams driven by deepfake content?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/21/how-vulnerable-are-you-to-digital-scams-driven-by-deepfake-content/",
-      "date": "21 Oct 2026",
-      "excerpt": "The recent proliferation of artificial intelligence tools has made creating characters and voices, used by criminals to convince people to part with their money, more common than ever. Lauro Accioly and Julia Caldeira show how new technolog",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How organisations can stimulate sustainable behaviour",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/20/how-organisations-can-stimulate-sustainable-behaviour/",
       "date": "20 Oct 2026",
@@ -191,6 +182,15 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "America’s new banking risk regulation overlooks AI and shifts the burden of defence",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/13/americas-new-banking-risk-regulation-overlooks-ai-and-shifts-the-burden-of-defence/",
+      "date": "13 Oct 2026",
+      "excerpt": "The old model risk rulebook told banks in America how to design, validate and monitor the quantitative systems they rely on. The new one asks them to defend what they chose. This isn&#8217;t relaxation, argues Vikram Singh, it&#8217;s burde",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge",
@@ -211,20 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Websites taken down worldwide as critical cyber-security update issued",
+      "link": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Oct 2026",
+      "excerpt": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6136/live/b103d880-cd90-11f1-b1e7-39558e114359.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Meta fined $25bn for 'lies' over user data privacy",
       "link": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
       "date": "21 Oct 2026",
       "excerpt": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6026/live/1fd68c80-cd78-11f1-bc2e-018d645d8d21.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Burnham proposes plan to cut standing charges from gas bills",
-      "link": "https://www.bbc.co.uk/news/articles/cw0541p65dyzo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Oct 2026",
-      "excerpt": "The prime minister provided little detail, and there are questions over shifting the fees onto unit costs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b7c/live/04502cf0-cd5a-11f1-b962-b7ff822cde72.jpg"
     },
     {
       "source": "BBC Business",
@@ -238,11 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Civil servant admits he 'made mistakes' juggling five government jobs",
-      "link": "https://www.bbc.co.uk/news/articles/cmze4w63ly42o?at_medium=RSS&at_campaign=rss",
+      "title": "Burnham proposes plan to cut standing charges from gas bills",
+      "link": "https://www.bbc.co.uk/news/articles/cw0541p65dyzo?at_medium=RSS&at_campaign=rss",
       "date": "21 Oct 2026",
-      "excerpt": "Kashim Chowdhury was contracted for 183 hours a week, more than the number of hours in seven days.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca73/live/aa125910-cd46-11f1-8177-0f8bd59b54c4.jpg"
+      "excerpt": "The prime minister provided little detail, and there are questions over shifting the fees onto unit costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b7c/live/04502cf0-cd5a-11f1-b962-b7ff822cde72.jpg"
     }
   ]
 }
