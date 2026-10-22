@@ -1,5 +1,5 @@
 {
-  "updated": "22 Oct 2026, 19:43 UTC",
+  "updated": "22 Oct 2026, 22:57 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,10 +148,19 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How street protests can spark entrepreneurship",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/22/how-street-protests-in-china-can-spark-entrepreneurship/",
+      "date": "22 Oct 2026",
+      "excerpt": "Social unrest in China can create unexpected economic opportunities – not because entrepreneurs respond to protests themselves, but because of how local governments respond to them. Jeremy Lei Xu, Milo Shaoqing Wang, Shon R. Hiatt and Haemi",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How vulnerable are you to digital scams driven by deepfake content?",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/21/how-vulnerable-are-you-to-digital-scams-driven-by-deepfake-content/",
       "date": "21 Oct 2026",
-      "excerpt": "The recent proliferation of artificial intelligence tools has made creating characters and voices, used by criminals to convince people to part with their money, more common than ever. Lauro Accioly and Julia Caldeira show how new technolog",
+      "excerpt": "The recent proliferation of artificial intelligence tools has made creating characters and voices, used by criminals to convince us to part with our money, more common than ever. Lauro Accioly and Julia Caldeira show how new technology has ",
       "image": ""
     },
     {
@@ -188,15 +197,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/the-hidden-uncertainty-behind-emissions-data-produced-by-british-supermarkets/",
       "date": "16 Oct 2026",
       "excerpt": "British supermarkets publish Scope 3 carbon totals that include emissions from producing and transporting the products they sell. Those can mix suppliers’ records with estimates based on industry averages. The UK’s new climate reporting sta",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Stop relying on reviews of services and start looking for records",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/15/stop-relying-on-reviews-of-services-and-start-looking-for-records/",
-      "date": "15 Oct 2026",
-      "excerpt": "Many of us make important decisions, including about who should look after our children, based on reviews written by other customers. But how accurate are they? Shawn Redd shows that there is often little correlation between reviews and the",
       "image": ""
     },
     {
