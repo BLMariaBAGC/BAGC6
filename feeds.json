@@ -1,5 +1,5 @@
 {
-  "updated": "21 Oct 2026, 23:00 UTC",
+  "updated": "22 Oct 2026, 03:18 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How vulnerable are you to digital scams driven by deepfake content?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/21/how-vulnerable-are-you-to-digital-scams-driven-by-deepfake-content/",
+      "date": "21 Oct 2026",
+      "excerpt": "The recent proliferation of artificial intelligence tools has made creating characters and voices, used by criminals to convince people to part with their money, more common than ever. Lauro Accioly and Julia Caldeira show how new technolog",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How organisations can stimulate sustainable behaviour",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/20/how-organisations-can-stimulate-sustainable-behaviour/",
       "date": "20 Oct 2026",
@@ -182,31 +191,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "America’s new banking risk regulation overlooks AI and shifts the burden of defence",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/13/americas-new-banking-risk-regulation-overlooks-ai-and-shifts-the-burden-of-defence/",
-      "date": "13 Oct 2026",
-      "excerpt": "The old model risk rulebook told banks in America how to design, validate and monitor the quantitative systems they rely on. The new one asks them to defend what they chose. This isn&#8217;t relaxation, argues Vikram Singh, it&#8217;s burde",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge",
-      "link": "https://www.bbc.co.uk/news/articles/cm3wv9pn22e5o?at_medium=RSS&at_campaign=rss",
+      "title": "The 'trillion pound' oil fund the government believes Britain could have built",
+      "link": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss",
       "date": "21 Oct 2026",
-      "excerpt": "The economic figures released on Wednesday show the constraints for John Healey as he puts the finishing touches to his Budget.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d837/live/21441720-cd34-11f1-935f-b9c228680c6f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Inflation and government borrowing highest for a year ahead of next week's Budget",
-      "link": "https://www.bbc.co.uk/news/articles/c6gel2xv4493o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Oct 2026",
-      "excerpt": "Inflation accelerated to 3.5% from 3.1% in the year to September, according to the Office for National Statistics (ONS).",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/295f/live/2e2e9560-cd3d-11f1-9a39-31b474234113.jpg"
+      "excerpt": "For the first time, the Treasury calculates how much the UK could have raised by investing North Sea proceeds.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/219e/live/8e724170-cda0-11f1-9a39-31b474234113.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,20 +220,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The tech helping crack decades-old cold cases",
-      "link": "https://www.bbc.co.uk/news/articles/c370pzdkw77jo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Oct 2026",
-      "excerpt": "Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d033/live/5b8c8300-c16c-11f1-babe-4199b0e7ccea.jpg"
+      "title": "Airbnb hosts can no longer make guests strip beds and wash dishes under new rules",
+      "link": "https://www.bbc.co.uk/news/articles/c6n049gg75r4o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Oct 2026",
+      "excerpt": "The updated policy will apply to all reservations booked on the accommodation site on or after 20 November.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5a8/live/221cd660-cda1-11f1-96a8-11b361e3c25f.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Burnham proposes plan to cut standing charges from gas bills",
-      "link": "https://www.bbc.co.uk/news/articles/cw0541p65dyzo?at_medium=RSS&at_campaign=rss",
+      "title": "The grads ditching the UK for a fresh start abroad",
+      "link": "https://www.bbc.co.uk/news/articles/cmzxj4e8w44vo?at_medium=RSS&at_campaign=rss",
       "date": "21 Oct 2026",
-      "excerpt": "The prime minister provided little detail, and there are questions over shifting the fees onto unit costs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b7c/live/04502cf0-cd5a-11f1-b962-b7ff822cde72.jpg"
+      "excerpt": "With graduate jobs hard to come by, more young adults are reported to be considering emigrating.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a70c/live/920779f0-cd4f-11f1-a64c-550be9e3c66b.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+      "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
+      "date": "21 Oct 2026",
+      "excerpt": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a691/live/0777e580-cd28-11f1-bc2e-018d645d8d21.png"
     }
   ]
 }
