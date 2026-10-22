@@ -1,5 +1,5 @@
 {
-  "updated": "22 Oct 2026, 14:51 UTC",
+  "updated": "22 Oct 2026, 19:43 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Our Favorite Management Tips on Delegating Effectively",
+      "link": "/2026/10/our-favorite-management-tips-on-delegating",
+      "date": "22 Oct 2026",
+      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Leaders Need to Grapple with Employee Ambivalence on AI",
       "link": "/2026/10/leaders-need-to-grapple-with-employee-ambivalence-on-ai",
       "date": "22 Oct 2026",
@@ -137,13 +146,85 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How vulnerable are you to digital scams driven by deepfake content?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/21/how-vulnerable-are-you-to-digital-scams-driven-by-deepfake-content/",
+      "date": "21 Oct 2026",
+      "excerpt": "The recent proliferation of artificial intelligence tools has made creating characters and voices, used by criminals to convince people to part with their money, more common than ever. Lauro Accioly and Julia Caldeira show how new technolog",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How organisations can stimulate sustainable behaviour",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/20/how-organisations-can-stimulate-sustainable-behaviour/",
+      "date": "20 Oct 2026",
+      "excerpt": "Employees who are concerned about climate change may not know how to translate this into action at work. Berend van der Kolk, Eelke Wiersma and Willemijn Odekerken find that such employees can be stimulated to engage in sustainable behaviou",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "AI agents are ignoring their charters – that is exactly why we need them",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/19/ai-agents-are-ignoring-their-charters-that-is-exactly-why-we-need-them/",
+      "date": "19 Oct 2026",
+      "excerpt": "Anthropic, Microsoft and OpenAI have each published a charter setting out the values their AI models should hold. This summer, agents built by two of them did what those charters forbid. Each lab has different priorities, and their agents c",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/10/Screenshot-2026-10-19-104350-1.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Ending modern slavery will take more than corporate reporting",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/ending-modern-slavery-will-take-more-than-corporate-reporting/",
+      "date": "16 Oct 2026",
+      "excerpt": "Modern slavery develops where global commercial pressures meet with local labour markets and vulnerable communities. Tackling it requires companies and public bodies to work together more effectively, argues Sepideh Parsa. The UK’s proposed",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The hidden uncertainty behind emissions data produced by British supermarkets",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/the-hidden-uncertainty-behind-emissions-data-produced-by-british-supermarkets/",
+      "date": "16 Oct 2026",
+      "excerpt": "British supermarkets publish Scope 3 carbon totals that include emissions from producing and transporting the products they sell. Those can mix suppliers’ records with estimates based on industry averages. The UK’s new climate reporting sta",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Stop relying on reviews of services and start looking for records",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/15/stop-relying-on-reviews-of-services-and-start-looking-for-records/",
+      "date": "15 Oct 2026",
+      "excerpt": "Many of us make important decisions, including about who should look after our children, based on reviews written by other customers. But how accurate are they? Shawn Redd shows that there is often little correlation between reviews and the",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
+      "link": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
+      "date": "22 Oct 2026",
+      "excerpt": "The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0031/live/77724130-ce2e-11f1-9f18-490cec60aa0f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'I wasn't thinking straight' says five jobs civil servant",
+      "link": "https://www.bbc.co.uk/news/articles/cmx23dwp3qzro?at_medium=RSS&at_campaign=rss",
+      "date": "22 Oct 2026",
+      "excerpt": "Kashim Chowdhury is accused of fraudulently juggling multiple public sector jobs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a08/live/66d2ad60-ce29-11f1-9f18-490cec60aa0f.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
       "link": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss",
       "date": "22 Oct 2026",
       "excerpt": "The bank says it is using more AI leading to a 5% reduction in its workforce.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d20/live/5fb48ff0-622b-11f0-8e4a-613b923287ab.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8549/live/51056ff0-ce37-11f1-9a39-31b474234113.jpg"
     },
     {
       "source": "BBC Business",
@@ -166,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Is an 'AI war' complicating your job search?",
-      "link": "https://www.bbc.co.uk/news/articles/cm9qzgg5z89no?at_medium=RSS&at_campaign=rss",
+      "title": "What is PHP and why did it spark a global cyber-security scramble?",
+      "link": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
       "date": "22 Oct 2026",
-      "excerpt": "How fair are AI recruitment tools that help decide our future, and what happens when we click \"apply\"?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b0fd/live/7fe856d0-cca1-11f1-94e6-edd4c60b2e1d.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Websites taken down worldwide as critical cyber-security update issued",
-      "link": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Oct 2026",
-      "excerpt": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6136/live/b103d880-cd90-11f1-b1e7-39558e114359.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "No order, no seat: Starbucks China rolls out new store policy",
-      "link": "https://www.bbc.co.uk/news/articles/ckzd6rjmlzvmo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Oct 2026",
-      "excerpt": "Starbucks says it is improving customers' in-store experience as it competes with homegrown rivals.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d52a/live/22a66e60-cdc5-11f1-ae0b-3f5d64e6a869.jpg"
+      "excerpt": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fccd/live/bf4a03d0-ce15-11f1-9a39-31b474234113.jpg"
     }
   ]
 }
