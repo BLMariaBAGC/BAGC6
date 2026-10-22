@@ -1,6 +1,24 @@
 {
-  "updated": "22 Oct 2026, 09:09 UTC",
+  "updated": "22 Oct 2026, 14:51 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a surprising secret behind the human brain’s wrinkles",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261021231235.htm",
+      "date": "22 Oct 2026",
+      "excerpt": "Scientists have discovered why common marmosets have unusually small, smooth brains despite starting development much like other primates. The secret lies in subtle changes to brain-building cells that slow neuron production, revealing new ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Millions take fish oil for brain health. A two-year study found no benefit",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261020085427.htm",
+      "date": "22 Oct 2026",
+      "excerpt": "A surprising two-year clinical trial found that fish oil supplements successfully delivered omega-3s to the brain but failed to improve memory or protect against Alzheimer's-related brain shrinkage. Researchers suspect that getting these nu",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Modern neuroscience is rediscovering a surprising idea freud had 130 years ago",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261018084028.htm",
-      "date": "18 Oct 2026",
-      "excerpt": "Researchers have identified striking parallels between Sigmund Freud’s century-old theories and modern neuroscience, suggesting that the brain’s constant predictions shape how we experience reality. The findings could help explain why harmf",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Magic mushroom ingredient takes the fight out of aggressive fish",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261017230036.htm",
-      "date": "18 Oct 2026",
-      "excerpt": "A psychedelic compound found in magic mushrooms appears to have an unexpected effect: calming highly aggressive fish. Researchers discovered that low doses of psilocybin significantly reduced aggressive attacks in mangrove rivulus fish with",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Leaders Need to Grapple with Employee Ambivalence on AI",
+      "link": "/2026/10/leaders-need-to-grapple-with-employee-ambivalence-on-ai",
+      "date": "22 Oct 2026",
+      "excerpt": "Your job isn&#8217;t to project positivity. It&#8217;s to acknowledge the tension, create a safe sandbox, and reinvest the gains.",
       "image": ""
     },
     {
@@ -128,69 +137,6 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Your AI Marketing Transformation Will Get Harder Before It Gets Easier",
-      "link": "/2026/10/your-ai-marketing-transformation-will-get-harder-before-it-gets-easier",
-      "date": "19 Oct 2026",
-      "excerpt": "Here are the challenges&#8212;and benefits&#8212;you can expect.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How street protests can spark entrepreneurship",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/22/how-street-protests-in-china-can-spark-entrepreneurship/",
-      "date": "22 Oct 2026",
-      "excerpt": "Social unrest in China can create unexpected economic opportunities – not because entrepreneurs respond to protests themselves, but because of how local governments respond to them. Jeremy Lei Xu, Milo Shaoqing Wang, Shon R. Hiatt and Haemi",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How vulnerable are you to digital scams driven by deepfake content?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/21/how-vulnerable-are-you-to-digital-scams-driven-by-deepfake-content/",
-      "date": "21 Oct 2026",
-      "excerpt": "The recent proliferation of artificial intelligence tools has made creating characters and voices, used by criminals to convince us to part with our money, more common than ever. Lauro Accioly and Julia Caldeira show how new technology has ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How organisations can stimulate sustainable behaviour",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/20/how-organisations-can-stimulate-sustainable-behaviour/",
-      "date": "20 Oct 2026",
-      "excerpt": "Employees who are concerned about climate change may not know how to translate this into action at work. Berend van der Kolk, Eelke Wiersma and Willemijn Odekerken find that such employees can be stimulated to engage in sustainable behaviou",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "AI agents are ignoring their charters – that is exactly why we need them",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/19/ai-agents-are-ignoring-their-charters-that-is-exactly-why-we-need-them/",
-      "date": "19 Oct 2026",
-      "excerpt": "Anthropic, Microsoft and OpenAI have each published a charter setting out the values their AI models should hold. This summer, agents built by two of them did what those charters forbid. Each lab has different priorities, and their agents c",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/10/Screenshot-2026-10-19-104350-1.png"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Ending modern slavery will take more than corporate reporting",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/ending-modern-slavery-will-take-more-than-corporate-reporting/",
-      "date": "16 Oct 2026",
-      "excerpt": "Modern slavery develops where global commercial pressures meet with local labour markets and vulnerable communities. Tackling it requires companies and public bodies to work together more effectively, argues Sepideh Parsa. The UK’s proposed",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The hidden uncertainty behind emissions data produced by British supermarkets",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/the-hidden-uncertainty-behind-emissions-data-produced-by-british-supermarkets/",
-      "date": "16 Oct 2026",
-      "excerpt": "British supermarkets publish Scope 3 carbon totals that include emissions from producing and transporting the products they sell. Those can mix suppliers’ records with estimates based on industry averages. The UK’s new climate reporting sta",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
@@ -198,6 +144,15 @@
       "date": "22 Oct 2026",
       "excerpt": "The bank says it is using more AI leading to a 5% reduction in its workforce.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d20/live/5fb48ff0-622b-11f0-8e4a-613b923287ab.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Tank barrel production returns to UK after 20 years",
+      "link": "https://www.bbc.co.uk/news/articles/cm70pj51zdk4o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Oct 2026",
+      "excerpt": "The defence secretary says the UK is \"back in the business of making weapons\" for its armed forces.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57ea/live/ff2243b0-ce05-11f1-8991-296181d7e3de.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +180,6 @@
       "date": "21 Oct 2026",
       "excerpt": "The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6136/live/b103d880-cd90-11f1-b1e7-39558e114359.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What is PHP and why did it spark a global cyber-security scramble?",
-      "link": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Oct 2026",
-      "excerpt": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15df/live/bbb61e90-cddc-11f1-bc2e-018d645d8d21.jpg"
     },
     {
       "source": "BBC Business",
