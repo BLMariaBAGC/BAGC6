@@ -1,5 +1,5 @@
 {
-  "updated": "23 Oct 2026, 03:24 UTC",
+  "updated": "23 Oct 2026, 09:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Grid operator says lights will stay on this winter after concerns",
+      "title": "Lights will stay on this winter, grid operator says after concerns",
       "link": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Oct 2026",
+      "date": "23 Oct 2026",
       "excerpt": "The assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4ec/live/bd0928a0-ce22-11f1-9f18-490cec60aa0f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'I'm 96 and have 15 million followers': The grannies taking over TikTok",
+      "link": "https://www.bbc.co.uk/news/articles/c63r5xpezz51o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Oct 2026",
+      "excerpt": "Grandma Droniak, Nonna Gracie, Viv Truran and Barbara Costello have all found fame on social media in their later years.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c74/live/1831c620-ce40-11f1-9a39-31b474234113.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,7 +229,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
+      "title": "L'Oreal says weight loss drugs are impacting beauty and skincare sales",
       "link": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
       "date": "22 Oct 2026",
       "excerpt": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
@@ -238,20 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
-      "link": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Oct 2026",
-      "excerpt": "The bank says it is using more AI leading to a 5% reduction in its workforce.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8549/live/51056ff0-ce37-11f1-9a39-31b474234113.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Tank barrel production returns to UK after 20 years",
-      "link": "https://www.bbc.co.uk/news/articles/cm70pj51zdk4o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Oct 2026",
-      "excerpt": "The defence secretary says the UK is \"back in the business of making weapons\" for its armed forces.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57ea/live/ff2243b0-ce05-11f1-8991-296181d7e3de.jpg"
+      "title": "The Indian workers filming their work to train AI",
+      "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Oct 2026",
+      "excerpt": "Indian workers are being paid to film themselves at work and the footage is used to train AI.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c6fc/live/3dab9740-bbe0-11f1-bd21-bdf910f2cec6.jpg"
     }
   ]
 }
