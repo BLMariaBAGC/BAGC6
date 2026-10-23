@@ -1,6 +1,33 @@
 {
-  "updated": "23 Oct 2026, 09:05 UTC",
+  "updated": "23 Oct 2026, 14:39 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Breakthrough PTSD treatment achieves 68% remission rate in clinical trial",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261022081309.htm",
+      "date": "23 Oct 2026",
+      "excerpt": "A newly FDA-cleared PTSD treatment uses personalized brain mapping and magnetic stimulation to target abnormal brain activity, with a clinical trial reporting a 52% reduction in symptoms and 68% remission. Researchers believe the technology",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a surprising double benefit of exercise for Parkinson’s",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261022081306.htm",
+      "date": "23 Oct 2026",
+      "excerpt": "A seven-year study found that people with Parkinson’s disease who were more physically active experienced slower declines in memory, thinking, and movement abilities. Those exercising more than eight hours per week showed almost no average ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a hidden messaging system deep inside the brain",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261022081304.htm",
+      "date": "23 Oct 2026",
+      "excerpt": "A tiny region deep within the brain has surprised scientists by revealing a remarkably sophisticated communication system. Previously thought to broadcast the same chemical signal throughout the brain, this region actually sends targeted me",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -44,33 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
       "date": "19 Oct 2026",
       "excerpt": "Walking just 3,000 steps a day could help slow Alzheimer’s-related brain changes, according to new research. Scientists discovered that physical activity was linked to less buildup of harmful tau proteins and nearly half the cognitive and f",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Why some people escape Alzheimer’s despite carrying a high-risk gene",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261018205044.htm",
-      "date": "19 Oct 2026",
-      "excerpt": "Scientists have discovered why some people with a high genetic risk of Alzheimer’s remain mentally sharp into their 80s, uncovering a rare mutation that protects the brain from harmful protein buildup. The findings reveal a potential new wa",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists win 2026 Nobel Prize for controlling brain cells with light",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261018205037.htm",
-      "date": "19 Oct 2026",
-      "excerpt": "A discovery in tiny algae led to a Nobel Prize-winning breakthrough that allows scientists to switch brain cells on and off using light. The revolutionary technique has already helped researchers activate memories and is opening new possibi",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "\"Mind-blowing\" Alzheimer’s breakthrough: Two hours of sleep restored without clearing brain plaques",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
-      "date": "19 Oct 2026",
-      "excerpt": "Scientists have uncovered an unexpected culprit behind sleep loss in Alzheimer’s disease: overactive immune cells in the brain. By temporarily removing these cells, researchers restored more than two hours of sleep per day in mice, revealin",
       "image": ""
     },
     {
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Earnings limit of up to £140K for first-time buyers loan scheme",
+      "link": "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Oct 2026",
+      "excerpt": "The Your First Home scheme will offer government-backed loans for those buying new-builds in England.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1887/live/ab960500-cec9-11f1-bed9-e3a2c35dfdd6.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Lights will stay on this winter, grid operator says after concerns",
       "link": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss",
       "date": "23 Oct 2026",
@@ -234,15 +243,6 @@
       "date": "22 Oct 2026",
       "excerpt": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I wasn't thinking straight' says five jobs civil servant",
-      "link": "https://www.bbc.co.uk/news/articles/cmx23dwp3qzro?at_medium=RSS&at_campaign=rss",
-      "date": "22 Oct 2026",
-      "excerpt": "Kashim Chowdhury is accused of fraudulently juggling multiple public sector jobs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a08/live/66d2ad60-ce29-11f1-9f18-490cec60aa0f.jpg"
     },
     {
       "source": "BBC Business",
