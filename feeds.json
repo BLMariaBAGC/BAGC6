@@ -1,5 +1,5 @@
 {
-  "updated": "22 Oct 2026, 22:57 UTC",
+  "updated": "23 Oct 2026, 03:24 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,11 +202,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Grid operator says lights will stay on this winter after concerns",
+      "link": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Oct 2026",
+      "excerpt": "The assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4ec/live/bd0928a0-ce22-11f1-9f18-490cec60aa0f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
       "link": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
       "date": "22 Oct 2026",
       "excerpt": "The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0031/live/77724130-ce2e-11f1-9f18-490cec60aa0f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
+      "link": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Oct 2026",
+      "excerpt": "The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,24 +252,6 @@
       "date": "22 Oct 2026",
       "excerpt": "The defence secretary says the UK is \"back in the business of making weapons\" for its armed forces.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57ea/live/ff2243b0-ce05-11f1-8991-296181d7e3de.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The 'trillion pound' oil fund the government believes Britain could have built",
-      "link": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss",
-      "date": "21 Oct 2026",
-      "excerpt": "For the first time, the Treasury calculates how much the UK could have raised by investing North Sea proceeds.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/219e/live/8e724170-cda0-11f1-9a39-31b474234113.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What is PHP and why did it spark a global cyber-security scramble?",
-      "link": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Oct 2026",
-      "excerpt": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fccd/live/bf4a03d0-ce15-11f1-9a39-31b474234113.jpg"
     }
   ]
 }
