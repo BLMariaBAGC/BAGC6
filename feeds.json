@@ -1,5 +1,5 @@
 {
-  "updated": "23 Oct 2026, 22:52 UTC",
+  "updated": "24 Oct 2026, 03:18 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -146,6 +146,78 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How street protests can spark entrepreneurship",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/22/how-street-protests-in-china-can-spark-entrepreneurship/",
+      "date": "22 Oct 2026",
+      "excerpt": "Social unrest in China can create unexpected economic opportunities – not because entrepreneurs respond to protests themselves, but because of how local governments respond to them. Jeremy Lei Xu, Milo Shaoqing Wang, Shon R. Hiatt and Haemi",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How vulnerable are you to digital scams driven by deepfake content?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/21/how-vulnerable-are-you-to-digital-scams-driven-by-deepfake-content/",
+      "date": "21 Oct 2026",
+      "excerpt": "The recent proliferation of artificial intelligence tools has made creating characters and voices, used by criminals to convince us to part with our money, more common than ever. Lauro Accioly and Julia Caldeira show how new technology has ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How organisations can stimulate sustainable behaviour",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/20/how-organisations-can-stimulate-sustainable-behaviour/",
+      "date": "20 Oct 2026",
+      "excerpt": "Employees who are concerned about climate change may not know how to translate this into action at work. Berend van der Kolk, Eelke Wiersma and Willemijn Odekerken find that such employees can be stimulated to engage in sustainable behaviou",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "AI agents are ignoring their charters – that is exactly why we need them",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/19/ai-agents-are-ignoring-their-charters-that-is-exactly-why-we-need-them/",
+      "date": "19 Oct 2026",
+      "excerpt": "Anthropic, Microsoft and OpenAI have each published a charter setting out the values their AI models should hold. This summer, agents built by two of them did what those charters forbid. Each lab has different priorities, and their agents c",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/10/Screenshot-2026-10-19-104350-1.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Ending modern slavery will take more than corporate reporting",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/ending-modern-slavery-will-take-more-than-corporate-reporting/",
+      "date": "16 Oct 2026",
+      "excerpt": "Modern slavery develops where global commercial pressures meet with local labour markets and vulnerable communities. Tackling it requires companies and public bodies to work together more effectively, argues Sepideh Parsa. The UK’s proposed",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The hidden uncertainty behind emissions data produced by British supermarkets",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/the-hidden-uncertainty-behind-emissions-data-produced-by-british-supermarkets/",
+      "date": "16 Oct 2026",
+      "excerpt": "British supermarkets publish Scope 3 carbon totals that include emissions from producing and transporting the products they sell. Those can mix suppliers’ records with estimates based on industry averages. The UK’s new climate reporting sta",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "How does the UK state pension compare with other countries?",
+      "link": "https://www.bbc.co.uk/news/articles/c3gr84w85glyo?at_medium=RSS&at_campaign=rss",
+      "date": "24 Oct 2026",
+      "excerpt": "Do British pensioners have it better or worse than those in other countries?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a29/live/b390e000-ce14-11f1-9f55-cdc56e9c248c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+      "link": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
+      "date": "24 Oct 2026",
+      "excerpt": "The chancellor will unveil AI spending aimed at shoring up the UK's defences in Wednesday's Budget.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43e7/live/343404d0-cf00-11f1-accf-3309656ad0bb.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Civil servant who juggled five jobs says he was 'surprised' to be charged with fraud",
@@ -159,7 +231,7 @@
       "feedId": "bbc",
       "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
       "link": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Oct 2026",
+      "date": "24 Oct 2026",
       "excerpt": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1860/live/f6b62750-cf1d-11f1-9796-954775b3a434.jpg"
     },
@@ -171,24 +243,6 @@
       "date": "23 Oct 2026",
       "excerpt": "The Your First Home scheme will offer government-backed loans for those buying new-builds in England.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1887/live/ab960500-cec9-11f1-bed9-e3a2c35dfdd6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Lights will stay on this winter, grid operator says after concerns",
-      "link": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Oct 2026",
-      "excerpt": "The assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4ec/live/bd0928a0-ce22-11f1-9f18-490cec60aa0f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I'm 96 and have 15 million followers': The grannies taking over TikTok",
-      "link": "https://www.bbc.co.uk/news/articles/c63r5xpezz51o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Oct 2026",
-      "excerpt": "Grandma Droniak, Nonna Gracie, Viv Truran and Barbara Costello have all found fame on social media in their later years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c74/live/1831c620-ce40-11f1-9a39-31b474234113.jpg"
     },
     {
       "source": "BBC Business",
