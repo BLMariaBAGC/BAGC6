@@ -1,5 +1,5 @@
 {
-  "updated": "24 Oct 2026, 20:13 UTC",
+  "updated": "24 Oct 2026, 23:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Rosebank: Life on the oil field at the centre of a political storm",
+      "link": "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss",
+      "date": "24 Oct 2026",
+      "excerpt": "Scotland editor James Cook finds out what life is like on board a ship in an untapped oil field awaiting its fate.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60a5/live/584f1ed0-cfb0-11f1-9012-0172b9f73a72.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "How does the UK state pension compare with other countries?",
       "link": "https://www.bbc.co.uk/news/articles/c3gr84w85glyo?at_medium=RSS&at_campaign=rss",
       "date": "24 Oct 2026",
@@ -234,15 +243,6 @@
       "date": "24 Oct 2026",
       "excerpt": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1860/live/f6b62750-cf1d-11f1-9796-954775b3a434.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Earnings limit of up to £140K for first-time buyers loan scheme",
-      "link": "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Oct 2026",
-      "excerpt": "The Your First Home scheme will offer government-backed loans for those buying new-builds in England.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1887/live/ab960500-cec9-11f1-bed9-e3a2c35dfdd6.jpg"
     },
     {
       "source": "BBC Business",
