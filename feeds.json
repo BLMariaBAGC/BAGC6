@@ -1,5 +1,5 @@
 {
-  "updated": "26 Oct 2026, 03:14 UTC",
+  "updated": "26 Oct 2026, 09:41 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Is freelance work, or the four-day week, the best way to reclaim our time?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/26/is-freelance-work-or-the-four-day-week-the-best-way-to-reclaim-our-time/",
+      "date": "26 Oct 2026",
+      "excerpt": "Many workers choose to work as freelancers to avoid intense and long work hours. But that is not always what they get. See Pok Loa finds that many freelance workers feel intense pressure to be busy both at work and at leisure. He describes ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How street protests can spark entrepreneurship",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/10/22/how-street-protests-in-china-can-spark-entrepreneurship/",
       "date": "22 Oct 2026",
@@ -191,15 +200,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The hidden uncertainty behind emissions data produced by British supermarkets",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/16/the-hidden-uncertainty-behind-emissions-data-produced-by-british-supermarkets/",
-      "date": "16 Oct 2026",
-      "excerpt": "British supermarkets publish Scope 3 carbon totals that include emissions from producing and transporting the products they sell. Those can mix suppliers’ records with estimates based on industry averages. The UK’s new climate reporting sta",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Healey's Budget needs to sustain the stronger economy through gathering clouds",
@@ -211,11 +211,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Data centre debate heats up ahead of US midterms - here's what you need to know",
+      "title": "Big, noisy and coming to a town near you - why the data centre backlash is growing",
       "link": "https://www.bbc.co.uk/news/articles/cq2e9we7w2ejo?at_medium=RSS&at_campaign=rss",
       "date": "25 Oct 2026",
       "excerpt": "Data centres are the lifeblood of our digital world, but there are growing concerns about their environmental impact. The BBC explores their rise in charts.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/68b2/live/52453c80-cc82-11f1-bc2e-018d645d8d21.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What is the Budget and what could be in it?",
+      "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
+      "date": "26 Oct 2026",
+      "excerpt": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e2e/live/b81a2280-b8e8-11f1-ba42-19e1456ae537.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Salon owners urge Budget VAT cut as staffing pressures grow",
+      "link": "https://www.bbc.co.uk/news/articles/c60rlp8kkz1zo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Oct 2026",
+      "excerpt": "Marcus Perkins, who owns a hair and beauty salon in Brierley Hill, says he is scared for the future.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e9f/live/05bfe810-d114-11f1-921d-7d7921390179.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,24 +252,6 @@
       "date": "25 Oct 2026",
       "excerpt": "Scotland editor James Cook finds out what life is like on board a ship in an untapped oil field awaiting its fate.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60a5/live/584f1ed0-cfb0-11f1-9012-0172b9f73a72.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Are California voters about to impose 'world's first' tax on billionaires?",
-      "link": "https://www.bbc.co.uk/news/articles/ck4g1jg4n9dno?at_medium=RSS&at_campaign=rss",
-      "date": "23 Oct 2026",
-      "excerpt": "Voters are about to decide if the mega-rich among them should hand over billions of dollars to pay for improvements to healthcare.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b0f/live/ff750910-ce7d-11f1-bc2e-018d645d8d21.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The Indian workers filming their work to train AI",
-      "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Oct 2026",
-      "excerpt": "Indian workers are being paid to film themselves at work and the footage is used to train AI.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c6fc/live/3dab9740-bbe0-11f1-bd21-bdf910f2cec6.jpg"
     }
   ]
 }
