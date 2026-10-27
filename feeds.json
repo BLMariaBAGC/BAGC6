@@ -1,5 +1,5 @@
 {
-  "updated": "27 Oct 2026, 15:42 UTC",
+  "updated": "27 Oct 2026, 20:25 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,51 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Finding the Brain’s Mood Switch in Bipolar Disorder",
+      "link": "https://neurosciencenews.com/mood-switch-bipolar-neuroscience-32349/",
+      "date": "27 Oct 2026",
+      "excerpt": "What causes the sudden transition between depression and mania in bipolar disorder? Researchers at USC, Stanford, and Johns Hopkins received a $4.5M BD² grant to study \"retrosplenial switch cells\"—a unique neuronal population that may contr",
+      "image": "https://neurosciencenews.com/files/2026/10/bipolar-mood-switch-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How Ego and Self-Image Change Brain Sync",
+      "link": "https://neurosciencenews.com/social-embarassment-ego-brain-synch-32348/",
+      "date": "27 Oct 2026",
+      "excerpt": "Why do some individuals struggle with genuine empathy? Brain scans show that people with high grandiose traits fail to synchronize their brain activity with others when watching someone lose face or experience social vulnerability.",
+      "image": "https://neurosciencenews.com/files/2026/10/ego-self-image-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Walking Speed Sharpens Visual Sensitivity to Backward Motion",
+      "link": "https://neurosciencenews.com/walking-speed-visual-sensitivity-backward-motion-32347/",
+      "date": "27 Oct 2026",
+      "excerpt": "Why is the brain extra sensitive to backward motion while walking? Research shows that at typical walking speeds, our visual system detects smaller speed changes in contracting optic flow, functioning as a vital reflex to prevent backward f",
+      "image": "https://neurosciencenews.com/files/2026/10/walking-speed-backwards-motion-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why the Left Brain Controls the Right Body",
+      "link": "https://neurosciencenews.com/brain-cross-wiring-evolution-32346/",
+      "date": "27 Oct 2026",
+      "excerpt": "Why does the left side of your brain control the right side of your body? Neuroscientists at the University of Minnesota propose that the brain’s cross-wiring originated from the optical inversion of ancient eyes, which forced motor and sen",
+      "image": "https://neurosciencenews.com/files/2026/10/left-brain-right-side-control-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Wearable Vagus Nerve Devices Rewire Depressive Brains",
+      "link": "https://neurosciencenews.com/wearable-vagus-nerve-stimulation-depression-32345/",
+      "date": "27 Oct 2026",
+      "excerpt": "Vagus nerve stimulation is a proven treatment for depression, but it has historically required surgery. A comprehensive review in Med-X shows how wearable ear and neck bioelectronics are transforming non-invasive VNS into an accessible, AI-",
+      "image": "https://neurosciencenews.com/files/2026/10/vns-depression-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Brain Stimulation Stops Sexual Objectification",
       "link": "https://neurosciencenews.com/brain-stimulation-objectification-32344/",
       "date": "26 Oct 2026",
@@ -101,49 +146,13 @@
       "image": "https://neurosciencenews.com/files/2026/10/adaption-autism-neuroscience-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Cocktail Party Effect: Why Emotion Cuts Through Noise",
-      "link": "https://neurosciencenews.com/cocktail-party-effect-why-emotion-cuts-through-noise/",
-      "date": "26 Oct 2026",
-      "excerpt": "How does your brain pick out one voice in a crowded room? A new study reveals that emotional relevance amplifies neural speech tracking, while fragmented topic changes force the brain to work harder and longer to decode meaning.",
-      "image": "https://neurosciencenews.com/files/2026/10/cocktail-party-effect-emotion-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Daily Exercise Weakens the Grip of Genetic Risk for Depression",
-      "link": "https://neurosciencenews.com/daily-exercise-genetics-depression-32340/",
-      "date": "26 Oct 2026",
-      "excerpt": "Can daily movement offset your DNA? A nationwide study of NIH All of Us data published in Nature Mental Health reveals that higher daily steps and moderate-to-vigorous exercise significantly reduce depression severity in people with high ge",
-      "image": "https://neurosciencenews.com/files/2026/10/Exercise-Weakens-the-Genetic-Grip-of-Depression-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Amyloid Fibrils Protect the Father’s Genetic Message",
-      "link": "https://neurosciencenews.com/amyloid-fibrils-genetics-sperm-cells-neuroscience-32339/",
-      "date": "26 Oct 2026",
-      "excerpt": "Amyloid proteins are infamous for driving Alzheimer's disease, but neuroscientists discovered they play a vital role in reproduction. In semen, amyloid fibrils act as natural escorts that bind, protect, and deliver epigenetic RNA directly i",
-      "image": "https://neurosciencenews.com/files/2026/10/amyloid-fibrils-sperm-genetics-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Psilocybin Replaces Lost Synapses in Depressed Brains",
-      "link": "https://neurosciencenews.com/psilocybin-depression-synapses-32338/",
-      "date": "24 Oct 2026",
-      "excerpt": "Does healing the brain with psychedelics require a \"trip\"? A new study shows psilocybin drives synaptic plasticity through Layer 5 pyramidal neurons independently of hallucinogenic signaling, opening the door to non-hallucinogenic depressio",
-      "image": "https://neurosciencenews.com/files/2026/10/synapses-depression-psilocybin-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Neural Chip Powers Adaptive DBS for Depression",
-      "link": "https://neurosciencenews.com/dbs-depression-neurotech-32338/",
-      "date": "23 Oct 2026",
-      "excerpt": "Treating psychiatric illnesses with deep brain stimulation requires tracking multi-region brain networks. EPFL researchers developed LogSync, an ultra-low-power system-on-chip operating under 200 microwatts that decodes oscillatory synchron",
-      "image": "https://neurosciencenews.com/files/2026/10/depression-dbs-neurotech-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Why Managers Misread Rankings",
+      "link": "/2026/10/why-managers-misread-rankings",
+      "date": "27 Oct 2026",
+      "excerpt": "The length of the list can distort the information it’s meant to convey.",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -197,15 +206,6 @@
       "link": "/2026/10/visions-of-geopolitical-stability",
       "date": "23 Oct 2026",
       "excerpt": "Eurasia Group&#8217;s Ian Bremmer on why we may be on the brink of a more stable business environment.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The C-Suite Behaviors That Stall AI Transformations",
-      "link": "/2026/10/the-c-suite-behaviors-that-stall-ai-transformations",
-      "date": "23 Oct 2026",
-      "excerpt": "Because AI crosses functional boundaries, executives must learn to share authority, resources, and accountability.",
       "image": ""
     },
     {
