@@ -1,6 +1,24 @@
 {
-  "updated": "27 Oct 2026, 09:35 UTC",
+  "updated": "27 Oct 2026, 15:42 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a surprising clue to why some brains resist Alzheimer’s",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261025222538.htm",
+      "date": "27 Oct 2026",
+      "excerpt": "Why do some people stay mentally sharp even when their brains show signs of Alzheimer’s disease? Scientists in the Netherlands may have uncovered an important clue hidden in a rare group of immature brain cells. Researchers discovered that ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Mayo Clinic discovers new ways to fight the “zombie” cells that drive aging",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261025073049.htm",
+      "date": "26 Oct 2026",
+      "excerpt": "Mayo Clinic scientists have uncovered surprising new insights into “zombie cells,” aging cells that linger in the body and contribute to inflammation and disease. Seven studies reveal why these cells are harmful and identify new strategies ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261022081306.htm",
       "date": "23 Oct 2026",
       "excerpt": "A seven-year study found that people with Parkinson’s disease who were more physically active experienced slower declines in memory, thinking, and movement abilities. Those exercising more than eight hours per week showed almost no average ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover a hidden messaging system deep inside the brain",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261022081304.htm",
-      "date": "23 Oct 2026",
-      "excerpt": "A tiny region deep within the brain has surprised scientists by revealing a remarkably sophisticated communication system. Previously thought to broadcast the same chemical signal throughout the brain, this region actually sends targeted me",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Glioblastoma breakthrough reveals how brain cancer cells become more aggressive",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261022081300.htm",
-      "date": "23 Oct 2026",
-      "excerpt": "Scientists discovered that the thick, sticky fluid surrounding glioblastoma tumors can make brain cancer cells smaller, more flexible, and better at invading surrounding tissue. Even more troubling, some of these changes persist after the c",
       "image": ""
     },
     {
@@ -148,6 +148,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Why Restrictive Cybersecurity Policies Backfire",
+      "link": "/2026/10/why-restrictive-cybersecurity-policies-backfire",
+      "date": "27 Oct 2026",
+      "excerpt": "In this week&#8217;s Insider newsletter, HBR tech editor Thomas Stackpole shares research on how employees perceive cybersecurity warnings, tips on mastering delegation, and more.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How the CEO of Rolls-Royce Turned an Underperforming Company Around",
+      "link": "/podcast/2026/10/how-the-ceo-of-rolls-royce-turned-an-underperforming-company-around",
+      "date": "27 Oct 2026",
+      "excerpt": "A conversation about Tufan Erginbilgic setting an iconic, engineering-focused brand back on the road to financial health.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Staying Principled in a Time of Uncertainty",
+      "link": "/podcast/2026/10/staying-principled-in-a-time-of-uncertainty",
+      "date": "27 Oct 2026",
+      "excerpt": "A conversation with former American Express CEO Kenneth Chenault on leadership in a challenging environment.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "3 Paths to Delivering Shareholder Returns with AI",
       "link": "/2026/10/3-paths-to-delivering-shareholder-returns-with-ai",
       "date": "26 Oct 2026",
@@ -179,33 +206,6 @@
       "link": "/2026/10/the-c-suite-behaviors-that-stall-ai-transformations",
       "date": "23 Oct 2026",
       "excerpt": "Because AI crosses functional boundaries, executives must learn to share authority, resources, and accountability.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Our Favorite Management Tips on Delegating Effectively",
-      "link": "/2026/10/our-favorite-management-tips-on-delegating",
-      "date": "22 Oct 2026",
-      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Leaders Need to Grapple with Employee Ambivalence on AI",
-      "link": "/2026/10/leaders-need-to-grapple-with-employee-ambivalence-on-ai",
-      "date": "22 Oct 2026",
-      "excerpt": "Your job isn&#8217;t to project positivity. It&#8217;s to acknowledge the tension, create a safe sandbox, and reinvest the gains.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When Restrictive Cybersecurity Policies Backfire",
-      "link": "/2026/10/when-restrictive-cybersecurity-policies-backfire",
-      "date": "21 Oct 2026",
-      "excerpt": "Six experiments involving more than 2,800 people show how rules meant to reduce risk can end up weakening employees&#8217; belief in digital threats.",
       "image": ""
     },
     {
@@ -265,7 +265,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "'I'm a single mum on £41,000 and limit my weekly shop to £40.' What do you want from the Budget?",
+      "title": "I'm a single mum on £41,000 and limit my weekly shop to £40 - it's hard",
       "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
       "date": "27 Oct 2026",
       "excerpt": "People earning from £380 a month to £150,000 a year tell the BBC what they want to see in this year's Budget.",
@@ -274,11 +274,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Budget measures to include fuel duty freeze and food tariff cuts",
+      "title": "Minimum wage set to rise but 18-20 year-olds will not get bigger increase",
       "link": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss",
       "date": "27 Oct 2026",
-      "excerpt": "The BBC understands the government will also freeze fuel duty again in the Budget.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c2c/live/35815a70-d173-11f1-9d71-6d5ae0660afe.jpg"
+      "excerpt": "Chancellor John Healey will reveal the new pay rates in the Budget, and has also announced measures to help households with the cost of living.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4419/live/b4233800-d211-11f1-93e1-3b657b665bcf.jpg"
     },
     {
       "source": "BBC Business",
@@ -301,16 +301,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Major Chinese brands drop Mbappé as backlash grows over Mao joke",
+      "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
       "link": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
       "date": "27 Oct 2026",
-      "excerpt": "He allegedly said his \"favourite meme\" is \"the one where they put my face on a Chinese dictator\".",
+      "excerpt": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e10e/live/f7b26730-d1c6-11f1-9381-5f06d29fdf11.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Apple says it will replace iPhone Duo handsets with screen problems",
+      "title": "Apple to replace iPhone Duos affected by screen problem",
       "link": "https://www.bbc.co.uk/news/articles/c893zwlev2xpo?at_medium=RSS&at_campaign=rss",
       "date": "27 Oct 2026",
       "excerpt": "Photos shared online showed faults appearing on the screens of Apple's first foldable device.",
