@@ -1,5 +1,5 @@
 {
-  "updated": "28 Oct 2026, 07:54 UTC",
+  "updated": "28 Oct 2026, 14:50 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -72,78 +72,6 @@
       "date": "23 Oct 2026",
       "excerpt": "A newly FDA-cleared PTSD treatment uses personalized brain mapping and magnetic stimulation to target abnormal brain activity, with a clinical trial reporting a 52% reduction in symptoms and 68% remission. Researchers believe the technology",
       "image": ""
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Finding the Brain’s Mood Switch in Bipolar Disorder",
-      "link": "https://neurosciencenews.com/mood-switch-bipolar-neuroscience-32349/",
-      "date": "27 Oct 2026",
-      "excerpt": "What causes the sudden transition between depression and mania in bipolar disorder? Researchers at USC, Stanford, and Johns Hopkins received a $4.5M BD² grant to study \"retrosplenial switch cells\"—a unique neuronal population that may contr",
-      "image": "https://neurosciencenews.com/files/2026/10/bipolar-mood-switch-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "How Ego and Self-Image Change Brain Sync",
-      "link": "https://neurosciencenews.com/social-embarassment-ego-brain-synch-32348/",
-      "date": "27 Oct 2026",
-      "excerpt": "Why do some individuals struggle with genuine empathy? Brain scans show that people with high grandiose traits fail to synchronize their brain activity with others when watching someone lose face or experience social vulnerability.",
-      "image": "https://neurosciencenews.com/files/2026/10/ego-self-image-brain-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Walking Speed Sharpens Visual Sensitivity to Backward Motion",
-      "link": "https://neurosciencenews.com/walking-speed-visual-sensitivity-backward-motion-32347/",
-      "date": "27 Oct 2026",
-      "excerpt": "Why is the brain extra sensitive to backward motion while walking? Research shows that at typical walking speeds, our visual system detects smaller speed changes in contracting optic flow, functioning as a vital reflex to prevent backward f",
-      "image": "https://neurosciencenews.com/files/2026/10/walking-speed-backwards-motion-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why the Left Brain Controls the Right Body",
-      "link": "https://neurosciencenews.com/brain-cross-wiring-evolution-32346/",
-      "date": "27 Oct 2026",
-      "excerpt": "Why does the left side of your brain control the right side of your body? Neuroscientists at the University of Minnesota propose that the brain’s cross-wiring originated from the optical inversion of ancient eyes, which forced motor and sen",
-      "image": "https://neurosciencenews.com/files/2026/10/left-brain-right-side-control-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Wearable Vagus Nerve Devices Rewire Depressive Brains",
-      "link": "https://neurosciencenews.com/wearable-vagus-nerve-stimulation-depression-32345/",
-      "date": "27 Oct 2026",
-      "excerpt": "Vagus nerve stimulation is a proven treatment for depression, but it has historically required surgery. A comprehensive review in Med-X shows how wearable ear and neck bioelectronics are transforming non-invasive VNS into an accessible, AI-",
-      "image": "https://neurosciencenews.com/files/2026/10/vns-depression-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Stimulation Stops Sexual Objectification",
-      "link": "https://neurosciencenews.com/brain-stimulation-objectification-32344/",
-      "date": "26 Oct 2026",
-      "excerpt": "Sexualized images of women are often processed visually like objects rather than people. A new study shows that 10 minutes of non-invasive brain stimulation restores holistic human recognition, temporarily erasing this objectification bias.",
-      "image": "https://neurosciencenews.com/files/2026/10/brain-stimulation-objectification-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "The Brain Anchors Others’ Experiences to Our Own Mental Maps",
-      "link": "https://neurosciencenews.com/social-experience-memory-learning-32343/",
-      "date": "26 Oct 2026",
-      "excerpt": "How does watching someone else get hurt teach us to avoid danger? Researchers at the Social Brain Lab discovered that hippocampal place cells link spatial coordinates to another individual's emotional distress, consolidating the memory duri",
-      "image": "https://neurosciencenews.com/files/2026/10/social-experience-learning-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Adapting to Change Is Harder in Autism",
-      "link": "https://neurosciencenews.com/adaption-autism-neuroscience-32342/",
-      "date": "26 Oct 2026",
-      "excerpt": "Autistic individuals show dampened brain responses to negative feedback and confidence, explaining cognitive adaptation challenges.",
-      "image": "https://neurosciencenews.com/files/2026/10/adaption-autism-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -265,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Your pay, energy bills and savings: How the Budget affects you",
+      "link": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Oct 2026",
+      "excerpt": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79ee/live/d1c1f870-d1fc-11f1-b093-bfeeb34f4026.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "I get £4,062 a year and am trying my best - here's what I want from the Budget",
       "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
       "date": "28 Oct 2026",
@@ -274,29 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Energy bill help, minimum wage rise and bank taxes - what could be in the Budget?",
+      "title": "Budget 2026: Key points at a glance",
       "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
       "date": "28 Oct 2026",
-      "excerpt": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
+      "excerpt": "Here’s what you need to know from John Healey’s first Budget, as the chancellor sets out the government’s tax and spending plans.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a8c/live/b075b800-d21f-11f1-b441-2b33b063138f.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Minimum wage set to rise but 18-20 year-olds will not get bigger increase",
-      "link": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss",
-      "date": "27 Oct 2026",
-      "excerpt": "Chancellor John Healey will reveal the new pay rates in the Budget, and has also announced measures to help households with the cost of living.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4419/live/b4233800-d211-11f1-93e1-3b657b665bcf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-      "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
+      "title": "How much is the minimum wage?",
+      "link": "https://www.bbc.co.uk/news/articles/cy7e8mpdxpro?at_medium=RSS&at_campaign=rss",
       "date": "28 Oct 2026",
-      "excerpt": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7eaf/live/69ded4d0-d26f-11f1-a4f1-4fff2e6cf5f3.jpg"
+      "excerpt": "What are the National Minimum Wage and the National Living Wage, and how much are they worth?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2639/live/ce1249e0-a9c2-11f0-8da2-811fba9518ff.jpg"
     },
     {
       "source": "BBC Business",
@@ -310,11 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "China's families are now supporting more old people than kids",
-      "link": "https://www.bbc.co.uk/news/articles/cr20wzwyzl1qo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Oct 2026",
-      "excerpt": "The latest figures mark a major milestone as Beijing grapples with an ageing population.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39b9/live/b1569840-d105-11f1-8441-f1b8954c52d9.jpg"
+      "title": "You may get the right to find out what your colleagues earn - here's why",
+      "link": "https://www.bbc.co.uk/news/articles/cmq8nwvj92jdo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Oct 2026",
+      "excerpt": "Employees should legally be able to find out what their co-workers are earning, the UK's equality watchdog says",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f46a/live/ff9b0180-d2b8-11f1-8cf0-c5d120932f9f.jpg"
     }
   ]
 }
