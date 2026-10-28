@@ -1,6 +1,15 @@
 {
-  "updated": "28 Oct 2026, 00:57 UTC",
+  "updated": "28 Oct 2026, 07:54 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "The autistic brain processes faces differently than scientists thought",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm",
+      "date": "27 Oct 2026",
+      "excerpt": "A major new study reveals that autistic children’s brains process faces differently, and those differences may begin earlier than scientists previously thought. Researchers found that brain signals associated with recognizing faces become m",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261022081309.htm",
       "date": "23 Oct 2026",
       "excerpt": "A newly FDA-cleared PTSD treatment uses personalized brain mapping and magnetic stimulation to target abnormal brain activity, with a clinical trial reporting a 52% reduction in symptoms and 68% remission. Researchers believe the technology",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover a surprising double benefit of exercise for Parkinson’s",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261022081306.htm",
-      "date": "23 Oct 2026",
-      "excerpt": "A seven-year study found that people with Parkinson’s disease who were more physically active experienced slower declines in memory, thinking, and movement abilities. Those exercising more than eight hours per week showed almost no average ",
       "image": ""
     },
     {
@@ -274,6 +274,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Energy bill help, minimum wage rise and bank taxes - what could be in the Budget?",
+      "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
+      "date": "28 Oct 2026",
+      "excerpt": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a8c/live/b075b800-d21f-11f1-b441-2b33b063138f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Minimum wage set to rise but 18-20 year-olds will not get bigger increase",
       "link": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss",
       "date": "27 Oct 2026",
@@ -283,29 +292,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "China's families are now supporting more old people than kids",
-      "link": "https://www.bbc.co.uk/news/articles/cr20wzwyzl1qo?at_medium=RSS&at_campaign=rss",
-      "date": "27 Oct 2026",
-      "excerpt": "The latest figures mark a major milestone as Beijing grapples with an ageing population.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39b9/live/b1569840-d105-11f1-8441-f1b8954c52d9.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Donald Trump's biggest economic problem looks strangely familiar",
-      "link": "https://www.bbc.co.uk/news/articles/cwvg0ddz1z77o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Oct 2026",
-      "excerpt": "Donald Trump heads into the US midterm elections with an issue similar to his political foe Joe Biden.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8781/live/0baf72c0-cc7a-11f1-a64c-550be9e3c66b.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Rise in sales of radios and tinned foods, say retailers, after call to stock up",
-      "link": "https://www.bbc.co.uk/news/articles/c5rmy84np001o?at_medium=RSS&at_campaign=rss",
-      "date": "27 Oct 2026",
-      "excerpt": "Figures obtained by BBC Newsnight show large spikes in sales of torches, radios and power banks.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4b0/live/8d5e0a00-d1cc-11f1-837e-832a94a7445c.jpg"
+      "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+      "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Oct 2026",
+      "excerpt": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7eaf/live/69ded4d0-d26f-11f1-a4f1-4fff2e6cf5f3.jpg"
     },
     {
       "source": "BBC Business",
@@ -315,6 +306,15 @@
       "date": "28 Oct 2026",
       "excerpt": "As drone deliveries become more commonplace, their makers are looking for ways to make them quieter.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5b2/live/ad407780-c7b4-11f1-a64c-550be9e3c66b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "China's families are now supporting more old people than kids",
+      "link": "https://www.bbc.co.uk/news/articles/cr20wzwyzl1qo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Oct 2026",
+      "excerpt": "The latest figures mark a major milestone as Beijing grapples with an ageing population.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39b9/live/b1569840-d105-11f1-8441-f1b8954c52d9.jpg"
     }
   ]
 }
