@@ -1,5 +1,5 @@
 {
-  "updated": "28 Oct 2026, 14:50 UTC",
+  "updated": "28 Oct 2026, 20:45 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -74,6 +74,105 @@
       "image": ""
     },
     {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why Some People Love Hugs While Others Hate Them",
+      "link": "https://neurosciencenews.com/hugs-emotion-empathy-psychology-32356/",
+      "date": "28 Oct 2026",
+      "excerpt": "Why do some hugs stay with us while others fade away? A survey of more than 15,000 UK adults published in PLOS One shows that 70% remember hugs for comfort, with empathy, relationship attachment styles, and body perception dictating how tou",
+      "image": "https://neurosciencenews.com/files/2026/10/hug-emotion-empathy-social-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Nearly Half of Distressed Adults Use AI for Therapy",
+      "link": "https://neurosciencenews.com/ai-llm-psychology-therapy-32355/",
+      "date": "28 Oct 2026",
+      "excerpt": "Are chatbots becoming informal therapists? A new study reveals that nearly half of adults experiencing severe psychological distress turn to generative AI tools for emotional support, raising urgent questions about clinical safety.",
+      "image": "https://neurosciencenews.com/files/2026/10/ai-therapy-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Breathing “Thin Air” May Protect Against Parkinson’s",
+      "link": "https://neurosciencenews.com/hypoxia-parkinsons-neurology-32353/",
+      "date": "28 Oct 2026",
+      "excerpt": "Can breathing thin mountain air help Parkinson's patients? Researchers demonstrated that 39 minutes of controlled intermittent hypoxia safely lowers stress hormones, raises anti-inflammatory adiponectin, and protects BDNF levels without dis",
+      "image": "https://neurosciencenews.com/files/2026/10/hypoxia-parkinsons-inflammation-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Developing Fetal Brain Weeds Out Genetically Flawed Neurons",
+      "link": "https://neurosciencenews.com/developing-brain-genetics-neurons-32352/",
+      "date": "28 Oct 2026",
+      "excerpt": "Why does the prenatal brain overproduce millions of neurons only to eliminate them? A landmark Nature study led by Harvard Medical School and Boston Children’s Hospital shows that the developing brain uses competitive synaptic pruning to we",
+      "image": "https://neurosciencenews.com/files/2026/10/genetics-neurodevelopment-neurons-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Brain Scans Fail to Predict How Well Individuals Regulate Emotions",
+      "link": "https://neurosciencenews.com/prefrontal-cortex-emotion-neuroimaging-32351/",
+      "date": "28 Oct 2026",
+      "excerpt": "A 2,175-person study led by CIMH reveals prefrontal cortex activation does not reflect how well an individual regulates emotions via cognitive reappraisal.",
+      "image": "https://neurosciencenews.com/files/2026/10/emotion-prefrontal-cortex-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "CTE Affected 75% of Deceased NFL Veterans",
+      "link": "https://neurosciencenews.com/cte-nfl-tbi-concussion-neurology-32350/",
+      "date": "28 Oct 2026",
+      "excerpt": "How common is CTE among professional football players? A new study corrects for brain donation selection bias, estimating that 74.5% of all NFL players who died between 2008 and 2023 had chronic traumatic encephalopathy.",
+      "image": "https://neurosciencenews.com/files/2026/10/Repetitive-Hits-Left-75-of-NFL-Players-With-CTE-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Finding the Brain’s Mood Switch in Bipolar Disorder",
+      "link": "https://neurosciencenews.com/mood-switch-bipolar-neuroscience-32349/",
+      "date": "27 Oct 2026",
+      "excerpt": "What causes the sudden transition between depression and mania in bipolar disorder? Researchers at USC, Stanford, and Johns Hopkins received a $4.5M BD² grant to study \"retrosplenial switch cells\"—a unique neuronal population that may contr",
+      "image": "https://neurosciencenews.com/files/2026/10/bipolar-mood-switch-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "How Ego and Self-Image Change Brain Sync",
+      "link": "https://neurosciencenews.com/social-embarassment-ego-brain-synch-32348/",
+      "date": "27 Oct 2026",
+      "excerpt": "Why do some individuals struggle with genuine empathy? Brain scans show that people with high grandiose traits fail to synchronize their brain activity with others when watching someone lose face or experience social vulnerability.",
+      "image": "https://neurosciencenews.com/files/2026/10/ego-self-image-brain-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Building a Winning Organization",
+      "link": "/2026/10/building-a-winning-organization",
+      "date": "28 Oct 2026",
+      "excerpt": "An HBR Executive Live conversation with David M. Rubenstein.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Empower Your Most Curious Employees to Drive Your Digital Transformation",
+      "link": "/2026/10/empower-your-most-curious-employees-to-drive-your-digital-transformation",
+      "date": "28 Oct 2026",
+      "excerpt": "The employees most eager to experiment with AI and other emerging technologies can accelerate your company’s digital transformation—if you know how to harness them.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Your Company’s Fraud Defenses Aren’t Ready for AI Threats",
+      "link": "/2026/10/your-companys-fraud-defenses-arent-ready-for-ai-threats",
+      "date": "28 Oct 2026",
+      "excerpt": "Criminals are using the technology to exploit gaps between functions. Three questions can help leaders close them.",
+      "image": ""
+    },
+    {
       "source": "Harvard Business Review",
       "feedId": "hbr",
       "title": "Why Managers Misread Rankings",
@@ -110,30 +209,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "3 Paths to Delivering Shareholder Returns with AI",
-      "link": "/2026/10/3-paths-to-delivering-shareholder-returns-with-ai",
-      "date": "26 Oct 2026",
-      "excerpt": "Lessons from a study of more than 600 publicly traded U.S. companies.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "To Build Effective Cyber Resilience, Invest in Trust",
-      "link": "/2026/10/to-build-effective-cyber-resilience-invest-in-trust",
-      "date": "26 Oct 2026",
-      "excerpt": "New research shows that spending on compliance isn&#8217;t enough.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Visions of Geopolitical Stability",
-      "link": "/2026/10/visions-of-geopolitical-stability",
-      "date": "23 Oct 2026",
-      "excerpt": "Eurasia Group&#8217;s Ian Bremmer on why we may be on the brink of a more stable business environment.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Restructures are on the rise – but organisations ignore the repair work that makes them function",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/28/restructures-are-on-the-rise-but-organisations-ignore-the-repair-work-that-makes-them-function/",
+      "date": "28 Oct 2026",
+      "excerpt": "Organisations budget for the redesign but not for the work of making the new design liveable. Alice Stephenson argues that this uncosted repair labour is both essential to whether a restructure succeeds and likely to fall disproportionately",
       "image": ""
     },
     {
@@ -182,13 +263,31 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "AI agents are ignoring their charters – that is exactly why we need them",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/19/ai-agents-are-ignoring-their-charters-that-is-exactly-why-we-need-them/",
-      "date": "19 Oct 2026",
-      "excerpt": "Anthropic, Microsoft and OpenAI have each published a charter setting out the values their AI models should hold. This summer, agents built by two of them did what those charters forbid. Each lab has different priorities, and their agents c",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/10/Screenshot-2026-10-19-104350-1.png"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
+      "link": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
+      "date": "28 Oct 2026",
+      "excerpt": "The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab01/live/ce128db0-d2fc-11f1-a701-fddedf244c16.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What we now know about the UK economy in four charts",
+      "link": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss",
+      "date": "28 Oct 2026",
+      "excerpt": "The Office for Budget Responsibility says higher energy prices will impact everything from prices and living standards to economic growth.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/302d/live/da4a7910-d2ea-11f1-8d86-83eebc838351.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What the Budget offers for under 25s - and what it leaves out",
+      "link": "https://www.bbc.co.uk/news/articles/c60e05yn3w9zo?at_medium=RSS&at_campaign=rss",
+      "date": "28 Oct 2026",
+      "excerpt": "The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f96e/live/0a45b830-d2de-11f1-93e1-3b657b665bcf.jpg"
     },
     {
       "source": "BBC Business",
@@ -197,52 +296,25 @@
       "link": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
       "date": "28 Oct 2026",
       "excerpt": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79ee/live/d1c1f870-d1fc-11f1-b093-bfeeb34f4026.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5846/live/65892820-d2e4-11f1-8d3a-ef62f316044e.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "I get £4,062 a year and am trying my best - here's what I want from the Budget",
-      "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
+      "title": "Dharshini David: Healey buys himself some time, but big questions still unanswered",
+      "link": "https://www.bbc.co.uk/news/articles/cqe9l4px0yzxo?at_medium=RSS&at_campaign=rss",
       "date": "28 Oct 2026",
-      "excerpt": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they want to see in this year's Budget.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1484/live/60f61940-d225-11f1-93e1-3b657b665bcf.jpg"
+      "excerpt": "The chancellor talked of charting a new course for Britain, but the impact of Iran war has limited his options.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/426f/live/d5d2d7e0-d21f-11f1-b8e4-17c9744a7f8e.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Budget 2026: Key points at a glance",
-      "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
+      "title": "Will I get the £100 energy payment and when will I receive it?",
+      "link": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
       "date": "28 Oct 2026",
-      "excerpt": "Here’s what you need to know from John Healey’s first Budget, as the chancellor sets out the government’s tax and spending plans.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a8c/live/b075b800-d21f-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How much is the minimum wage?",
-      "link": "https://www.bbc.co.uk/news/articles/cy7e8mpdxpro?at_medium=RSS&at_campaign=rss",
-      "date": "28 Oct 2026",
-      "excerpt": "What are the National Minimum Wage and the National Living Wage, and how much are they worth?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2639/live/ce1249e0-a9c2-11f0-8da2-811fba9518ff.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'An annoying buzz': The search for stealthier drones",
-      "link": "https://www.bbc.co.uk/news/articles/ck1exgejq3xvo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Oct 2026",
-      "excerpt": "As drone deliveries become more commonplace, their makers are looking for ways to make them quieter.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5b2/live/ad407780-c7b4-11f1-a64c-550be9e3c66b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "You may get the right to find out what your colleagues earn - here's why",
-      "link": "https://www.bbc.co.uk/news/articles/cmq8nwvj92jdo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Oct 2026",
-      "excerpt": "Employees should legally be able to find out what their co-workers are earning, the UK's equality watchdog says",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f46a/live/ff9b0180-d2b8-11f1-8cf0-c5d120932f9f.jpg"
+      "excerpt": "Here is what you need to know about the payment that millions will receive from January.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c06e/live/66b0c920-d2ed-11f1-8d86-83eebc838351.jpg"
     }
   ]
 }
