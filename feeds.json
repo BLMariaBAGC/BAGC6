@@ -1,6 +1,33 @@
 {
-  "updated": "29 Oct 2026, 08:00 UTC",
+  "updated": "29 Oct 2026, 16:34 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Six popular sugar substitutes linked to faster brain aging",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261028234238.htm",
+      "date": "29 Oct 2026",
+      "excerpt": "A study of nearly 13,000 adults found that people consuming the most artificial sweeteners experienced a 62% faster decline in memory and thinking skills, equivalent to approximately 1.6 additional years of brain aging. Six popular sweetene",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Less than 42 minutes of bright daylight linked to higher dementia risk",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261028232707.htm",
+      "date": "29 Oct 2026",
+      "excerpt": "Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found that higher daytime light exposure was associated with a 16% lower risk of dementia, with lo",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A single brain signal may explain schizophrenia's most puzzling symptoms",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261028232659.htm",
+      "date": "29 Oct 2026",
+      "excerpt": "Scientists have identified a weakened brain signal that may connect several seemingly unrelated symptoms of schizophrenia, including sensory processing difficulties, disorganized speech, and greater symptom severity. The surprising discover",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -47,31 +74,13 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This mysterious mushroom makes people see hundreds of tiny humans",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261024222021.htm",
-      "date": "25 Oct 2026",
-      "excerpt": "For nearly a century, people in distant parts of the world have reported a bizarre experience after eating certain wild mushrooms: seeing dozens or even hundreds of tiny, colorful humans moving through the real world. Now, scientists have i",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Popular cannabis sleep gummies may have a hidden dark side",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261024221952.htm",
-      "date": "25 Oct 2026",
-      "excerpt": "A cannabis-derived ingredient commonly found in sleep gummies may be more habit-forming than previously thought, with new research showing that repeated exposure caused tolerance and withdrawal symptoms in mice. Scientists warn that CBN may",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Mediterranean diet may boost tiny proteins that protect the heart and brain",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261023003337.htm",
-      "date": "24 Oct 2026",
-      "excerpt": "Scientists have uncovered a surprising new clue to why the Mediterranean diet is so good for the heart, brain, and healthy aging. Researchers at USC found that older adults who closely followed the diet had higher levels of two tiny protein",
-      "image": ""
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Why Females Prefer Warmer Rooms",
+      "link": "https://neurosciencenews.com/temperature-trpm2-trpm8-neuroscience-32357/",
+      "date": "29 Oct 2026",
+      "excerpt": "Why do women generally prefer the thermostat set higher than men? Researchers at King’s College London discovered that two thermosensitive ion channels, TRPM2 and TRPM8, are molecularly tuned to activate at warmer temperatures in females, r",
+      "image": "https://neurosciencenews.com/files/2026/10/feamle-temperature-preference-neuroscience-1155x770.jpg"
     },
     {
       "source": "Neuroscience News",
@@ -137,13 +146,22 @@
       "image": "https://neurosciencenews.com/files/2026/10/bipolar-mood-switch-neuroscience-1155x770.jpg"
     },
     {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "How Ego and Self-Image Change Brain Sync",
-      "link": "https://neurosciencenews.com/social-embarassment-ego-brain-synch-32348/",
-      "date": "27 Oct 2026",
-      "excerpt": "Why do some individuals struggle with genuine empathy? Brain scans show that people with high grandiose traits fail to synchronize their brain activity with others when watching someone lose face or experience social vulnerability.",
-      "image": "https://neurosciencenews.com/files/2026/10/ego-self-image-brain-neuroscience-1155x770.jpg"
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The 10 Most Popular HBR Articles of October 2026",
+      "link": "/2026/10/the-10-most-popular-hbr-articles-of-october-2026",
+      "date": "29 Oct 2026",
+      "excerpt": "Our subscribers’ top reads on AI, CEO leadership, productive conflict, and more.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "To Make a New Strategy Stick, Executives Need Shared Emotional Investment",
+      "link": "/2026/10/to-make-a-new-strategy-stick-executives-need-shared-emotional-investment",
+      "date": "29 Oct 2026",
+      "excerpt": "A new direction only becomes powerful when leaders have wrestled with the fears, hopes, and conflicts it can evoke.",
+      "image": ""
     },
     {
       "source": "Harvard Business Review",
@@ -197,15 +215,6 @@
       "link": "/podcast/2026/10/how-the-ceo-of-rolls-royce-turned-an-underperforming-company-around",
       "date": "27 Oct 2026",
       "excerpt": "A conversation about Tufan Erginbilgic setting an iconic, engineering-focused brand back on the road to financial health.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Staying Principled in a Time of Uncertainty",
-      "link": "/podcast/2026/10/staying-principled-in-a-time-of-uncertainty",
-      "date": "27 Oct 2026",
-      "excerpt": "A conversation with former American Express CEO Kenneth Chenault on leadership in a challenging environment.",
       "image": ""
     },
     {
@@ -265,6 +274,42 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Poundland's future hangs in the balance as chain edges towards collapse",
+      "link": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Oct 2026",
+      "excerpt": "Poundland's bosses is filing a notice of intention to appoint administrators to the business.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd3d/live/2cdccc40-d378-11f1-bf63-739fb2907d03.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'Painful' years ahead, think tanks warn, as living standards set to fall",
+      "link": "https://www.bbc.co.uk/news/articles/c6z7x8214np7o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Oct 2026",
+      "excerpt": "Budget forecasts show growth in living standards grinding almost to a halt.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45cd/live/c93e7220-d385-11f1-b5f4-fd541fd21001.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Faisal Islam: This Budget was micro and that was deliberate",
+      "link": "https://www.bbc.co.uk/news/articles/cwx283zynnv3o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Oct 2026",
+      "excerpt": "Chancellor John Healey's plans fall short of radical action to create a promised new economic model.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ec0/live/8d883540-d3a3-11f1-a5cd-49637fcbd4e4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Bereaved families will not face tax bill over pension delays under new rules",
+      "link": "https://www.bbc.co.uk/news/articles/cr5yn9zwnp3qo?at_medium=RSS&at_campaign=rss",
+      "date": "29 Oct 2026",
+      "excerpt": "Campaigners had warned some families could face an unfair financial penalty because of delays which were not their fault.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d97f/live/92781b20-d3a7-11f1-a5cd-49637fcbd4e4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
       "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
       "date": "29 Oct 2026",
@@ -274,47 +319,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What we now know about the UK economy in four charts",
-      "link": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss",
-      "date": "28 Oct 2026",
-      "excerpt": "The Office for Budget Responsibility says higher energy prices will impact everything from prices and living standards to economic growth.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/302d/live/da4a7910-d2ea-11f1-8d86-83eebc838351.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What the Budget offers for under 25s - and what it leaves out",
-      "link": "https://www.bbc.co.uk/news/articles/c60e05yn3w9zo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Oct 2026",
-      "excerpt": "The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f96e/live/0a45b830-d2de-11f1-93e1-3b657b665bcf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Your pay, energy bills and savings: How the Budget affects you",
-      "link": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
-      "date": "28 Oct 2026",
-      "excerpt": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84cd/live/e88146a0-d365-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
-      "link": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
-      "date": "28 Oct 2026",
-      "excerpt": "The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab01/live/ce128db0-d2fc-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I live with a ghost': Japan's haunted homes attract bargain hunters",
+      "title": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
       "link": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
       "date": "29 Oct 2026",
       "excerpt": "Properties where someone has died in tragic circumstances can have big reductions in price.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c40/live/5436ab40-cc8d-11f1-bed8-c51b95c602ec.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e19a/live/79bf7e60-d385-11f1-93e1-3b657b665bcf.jpg"
     }
   ]
 }
