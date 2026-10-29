@@ -1,5 +1,5 @@
 {
-  "updated": "29 Oct 2026, 16:34 UTC",
+  "updated": "29 Oct 2026, 22:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Neuroscience News",
       "feedId": "neuronews",
+      "title": "Premature Birth Alters Cerebellar Wiring",
+      "link": "https://neurosciencenews.com/premature-birth-cerebellar-wiring-32361/",
+      "date": "29 Oct 2026",
+      "excerpt": "Why do premature infants face motor and language delays even without brain injuries? A landmark Science study led by Children's National reveals that developing outside the womb rewires the molecular programs of cerebellar Purkinje and gran",
+      "image": "https://neurosciencenews.com/files/2026/10/preterm-cerebral-development-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "New Transporter Bypasses Blood-Brain Barrier to Deliver Creatine",
+      "link": "https://neurosciencenews.com/bbb-transporter-ceatine-neurology-32360/",
+      "date": "29 Oct 2026",
+      "excerpt": "How can drugs bypass the brain's tightest security checkpoint? Researchers at the University of Eastern Finland discovered that hijacking the sodium-dependent multivitamin transporter (SMVT) allows creatine derivatives to cross the blood-br",
+      "image": "https://neurosciencenews.com/files/2026/10/creatine-transportation-bbb-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Living Near Industrial Water Polluters Linked to Higher Risk of PSP",
+      "link": "https://neurosciencenews.com/industrial-water-polluters-psp-32359/",
+      "date": "29 Oct 2026",
+      "excerpt": "Can industrial water runoff trigger atypical parkinsonism? A 25-year study of 500,000 adults published in Neurology shows that living near facilities emitting pesticides, heavy metals, and organic pollutants is linked to a higher risk of pr",
+      "image": "https://neurosciencenews.com/files/2026/10/psp-water-pollution-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
+      "title": "Unreliable Labels Still Bias Decisions",
+      "link": "https://neurosciencenews.com/unreliable-labels-decision-making-psychology-32358/",
+      "date": "29 Oct 2026",
+      "excerpt": "Do fact-checking badges stop bad information from swaying our minds? Cognitive psychology experiments reveal that even when a source is labeled as a 50% coin-flip, it still biases human choices, despite users knowing better.",
+      "image": "https://neurosciencenews.com/files/2026/10/unreliable-labels-decision-making-neuroscience-1155x770.jpg"
+    },
+    {
+      "source": "Neuroscience News",
+      "feedId": "neuronews",
       "title": "Why Females Prefer Warmer Rooms",
       "link": "https://neurosciencenews.com/temperature-trpm2-trpm8-neuroscience-32357/",
       "date": "29 Oct 2026",
@@ -108,42 +144,6 @@
       "date": "28 Oct 2026",
       "excerpt": "Can breathing thin mountain air help Parkinson's patients? Researchers demonstrated that 39 minutes of controlled intermittent hypoxia safely lowers stress hormones, raises anti-inflammatory adiponectin, and protects BDNF levels without dis",
       "image": "https://neurosciencenews.com/files/2026/10/hypoxia-parkinsons-inflammation-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Developing Fetal Brain Weeds Out Genetically Flawed Neurons",
-      "link": "https://neurosciencenews.com/developing-brain-genetics-neurons-32352/",
-      "date": "28 Oct 2026",
-      "excerpt": "Why does the prenatal brain overproduce millions of neurons only to eliminate them? A landmark Nature study led by Harvard Medical School and Boston Children’s Hospital shows that the developing brain uses competitive synaptic pruning to we",
-      "image": "https://neurosciencenews.com/files/2026/10/genetics-neurodevelopment-neurons-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Brain Scans Fail to Predict How Well Individuals Regulate Emotions",
-      "link": "https://neurosciencenews.com/prefrontal-cortex-emotion-neuroimaging-32351/",
-      "date": "28 Oct 2026",
-      "excerpt": "A 2,175-person study led by CIMH reveals prefrontal cortex activation does not reflect how well an individual regulates emotions via cognitive reappraisal.",
-      "image": "https://neurosciencenews.com/files/2026/10/emotion-prefrontal-cortex-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "CTE Affected 75% of Deceased NFL Veterans",
-      "link": "https://neurosciencenews.com/cte-nfl-tbi-concussion-neurology-32350/",
-      "date": "28 Oct 2026",
-      "excerpt": "How common is CTE among professional football players? A new study corrects for brain donation selection bias, estimating that 74.5% of all NFL players who died between 2008 and 2023 had chronic traumatic encephalopathy.",
-      "image": "https://neurosciencenews.com/files/2026/10/Repetitive-Hits-Left-75-of-NFL-Players-With-CTE-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Finding the Brain’s Mood Switch in Bipolar Disorder",
-      "link": "https://neurosciencenews.com/mood-switch-bipolar-neuroscience-32349/",
-      "date": "27 Oct 2026",
-      "excerpt": "What causes the sudden transition between depression and mania in bipolar disorder? Researchers at USC, Stanford, and Johns Hopkins received a $4.5M BD² grant to study \"retrosplenial switch cells\"—a unique neuronal population that may contr",
-      "image": "https://neurosciencenews.com/files/2026/10/bipolar-mood-switch-neuroscience-1155x770.jpg"
     },
     {
       "source": "Harvard Business Review",
@@ -200,85 +200,31 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Restrictive Cybersecurity Policies Backfire",
-      "link": "/2026/10/why-restrictive-cybersecurity-policies-backfire",
-      "date": "27 Oct 2026",
-      "excerpt": "In this week&#8217;s Insider newsletter, HBR tech editor Thomas Stackpole shares research on how employees perceive cybersecurity warnings, tips on mastering delegation, and more.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How the CEO of Rolls-Royce Turned an Underperforming Company Around",
-      "link": "/podcast/2026/10/how-the-ceo-of-rolls-royce-turned-an-underperforming-company-around",
-      "date": "27 Oct 2026",
-      "excerpt": "A conversation about Tufan Erginbilgic setting an iconic, engineering-focused brand back on the road to financial health.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Restructures are on the rise – but organisations ignore the repair work that makes them function",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/28/restructures-are-on-the-rise-but-organisations-ignore-the-repair-work-that-makes-them-function/",
-      "date": "28 Oct 2026",
-      "excerpt": "Organisations budget for the redesign but not for the work of making the new design liveable. Alice Stephenson argues that this uncosted repair labour is both essential to whether a restructure succeeds and likely to fall disproportionately",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The “bamboo ceiling” is a management problem, not a diversity one",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/27/the-bamboo-ceiling-is-a-management-problem-not-a-diversity-one/",
-      "date": "27 Oct 2026",
-      "excerpt": "Twenty years ago the term “bamboo ceiling” was first used to describe the barriers to Asian Americans leading multinational firms. And the numbers have barely moved since. But Eugene Cha-Navarro argues that the traits blamed for holding Asi",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is freelance work, or the four-day week, the best way to reclaim our time?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/26/is-freelance-work-or-the-four-day-week-the-best-way-to-reclaim-our-time/",
-      "date": "26 Oct 2026",
-      "excerpt": "Many workers choose to work as freelancers to avoid intense and long work hours. But that is not always what they get. See Pok Loa finds that many freelance workers feel intense pressure to be busy both at work and at leisure. He describes ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How street protests can spark entrepreneurship",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/22/how-street-protests-in-china-can-spark-entrepreneurship/",
-      "date": "22 Oct 2026",
-      "excerpt": "Social unrest in China can create unexpected economic opportunities – not because entrepreneurs respond to protests themselves, but because of how local governments respond to them. Jeremy Lei Xu, Milo Shaoqing Wang, Shon R. Hiatt and Haemi",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How vulnerable are you to digital scams driven by deepfake content?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/21/how-vulnerable-are-you-to-digital-scams-driven-by-deepfake-content/",
-      "date": "21 Oct 2026",
-      "excerpt": "The recent proliferation of artificial intelligence tools has made creating characters and voices, used by criminals to convince us to part with our money, more common than ever. Lauro Accioly and Julia Caldeira show how new technology has ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How organisations can stimulate sustainable behaviour",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/20/how-organisations-can-stimulate-sustainable-behaviour/",
-      "date": "20 Oct 2026",
-      "excerpt": "Employees who are concerned about climate change may not know how to translate this into action at work. Berend van der Kolk, Eelke Wiersma and Willemijn Odekerken find that such employees can be stimulated to engage in sustainable behaviou",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Oct 2026",
+      "excerpt": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI search summaries were affecting ad revenue.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3304/live/1c4d6e00-d3d4-11f1-b441-2b33b063138f.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Poundland's future hangs in the balance as chain edges towards collapse",
+      "title": "Burnham 'ready to support' Poundland staff as retailer faces collapse",
       "link": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
       "date": "29 Oct 2026",
-      "excerpt": "Poundland's bosses is filing a notice of intention to appoint administrators to the business.",
+      "excerpt": "Poundland's bosses are filing a notice of intention to appoint administrators to the business.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd3d/live/2cdccc40-d378-11f1-bf63-739fb2907d03.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US interest rates held steady and economy grows - what it means for you",
+      "link": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+      "date": "29 Oct 2026",
+      "excerpt": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/47d7/live/753fb120-d30d-11f1-ad4f-5d2bbacf0caf.jpg"
     },
     {
       "source": "BBC Business",
@@ -287,7 +233,7 @@
       "link": "https://www.bbc.co.uk/news/articles/c6z7x8214np7o?at_medium=RSS&at_campaign=rss",
       "date": "29 Oct 2026",
       "excerpt": "Budget forecasts show growth in living standards grinding almost to a halt.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45cd/live/c93e7220-d385-11f1-b5f4-fd541fd21001.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7565/live/8d520610-d3cf-11f1-b441-2b33b063138f.jpg"
     },
     {
       "source": "BBC Business",
@@ -301,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Bereaved families will not face tax bill over pension delays under new rules",
-      "link": "https://www.bbc.co.uk/news/articles/cr5yn9zwnp3qo?at_medium=RSS&at_campaign=rss",
-      "date": "29 Oct 2026",
-      "excerpt": "Campaigners had warned some families could face an unfair financial penalty because of delays which were not their fault.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d97f/live/92781b20-d3a7-11f1-a5cd-49637fcbd4e4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
-      "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
-      "date": "29 Oct 2026",
-      "excerpt": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5570/live/b5261da0-d304-11f1-a9bf-3316693f55f0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
       "link": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
       "date": "29 Oct 2026",
       "excerpt": "Properties where someone has died in tragic circumstances can have big reductions in price.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e19a/live/79bf7e60-d385-11f1-93e1-3b657b665bcf.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af03/live/714dcfb0-d3cc-11f1-93e1-3b657b665bcf.png"
     }
   ]
 }
