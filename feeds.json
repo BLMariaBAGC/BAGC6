@@ -1,5 +1,5 @@
 {
-  "updated": "29 Oct 2026, 01:32 UTC",
+  "updated": "29 Oct 2026, 08:00 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -8,6 +8,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm",
       "date": "27 Oct 2026",
       "excerpt": "A major new study reveals that autistic children’s brains process faces differently, and those differences may begin earlier than scientists previously thought. Researchers found that brain signals associated with recognizing faces become m",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Your blood pressure could be dangerous even when your numbers look normal",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
+      "date": "28 Oct 2026",
+      "excerpt": "Researchers have discovered a small group of brain cells that prevents dangerous blood pressure swings, even when average readings appear normal. The finding reveals a hidden source of cardiovascular risk and could open the door to new trea",
       "image": ""
     },
     {
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261023003337.htm",
       "date": "24 Oct 2026",
       "excerpt": "Scientists have uncovered a surprising new clue to why the Mediterranean diet is so good for the heart, brain, and healthy aging. Researchers at USC found that older adults who closely followed the diet had higher levels of two tiny protein",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Breakthrough PTSD treatment achieves 68% remission rate in clinical trial",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261022081309.htm",
-      "date": "23 Oct 2026",
-      "excerpt": "A newly FDA-cleared PTSD treatment uses personalized brain mapping and magnetic stimulation to target abnormal brain activity, with a clinical trial reporting a 52% reduction in symptoms and 68% remission. Researchers believe the technology",
       "image": ""
     },
     {
@@ -209,6 +209,60 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Restructures are on the rise – but organisations ignore the repair work that makes them function",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/28/restructures-are-on-the-rise-but-organisations-ignore-the-repair-work-that-makes-them-function/",
+      "date": "28 Oct 2026",
+      "excerpt": "Organisations budget for the redesign but not for the work of making the new design liveable. Alice Stephenson argues that this uncosted repair labour is both essential to whether a restructure succeeds and likely to fall disproportionately",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The “bamboo ceiling” is a management problem, not a diversity one",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/27/the-bamboo-ceiling-is-a-management-problem-not-a-diversity-one/",
+      "date": "27 Oct 2026",
+      "excerpt": "Twenty years ago the term “bamboo ceiling” was first used to describe the barriers to Asian Americans leading multinational firms. And the numbers have barely moved since. But Eugene Cha-Navarro argues that the traits blamed for holding Asi",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is freelance work, or the four-day week, the best way to reclaim our time?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/26/is-freelance-work-or-the-four-day-week-the-best-way-to-reclaim-our-time/",
+      "date": "26 Oct 2026",
+      "excerpt": "Many workers choose to work as freelancers to avoid intense and long work hours. But that is not always what they get. See Pok Loa finds that many freelance workers feel intense pressure to be busy both at work and at leisure. He describes ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How street protests can spark entrepreneurship",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/22/how-street-protests-in-china-can-spark-entrepreneurship/",
+      "date": "22 Oct 2026",
+      "excerpt": "Social unrest in China can create unexpected economic opportunities – not because entrepreneurs respond to protests themselves, but because of how local governments respond to them. Jeremy Lei Xu, Milo Shaoqing Wang, Shon R. Hiatt and Haemi",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How vulnerable are you to digital scams driven by deepfake content?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/21/how-vulnerable-are-you-to-digital-scams-driven-by-deepfake-content/",
+      "date": "21 Oct 2026",
+      "excerpt": "The recent proliferation of artificial intelligence tools has made creating characters and voices, used by criminals to convince us to part with our money, more common than ever. Lauro Accioly and Julia Caldeira show how new technology has ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How organisations can stimulate sustainable behaviour",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/20/how-organisations-can-stimulate-sustainable-behaviour/",
+      "date": "20 Oct 2026",
+      "excerpt": "Employees who are concerned about climate change may not know how to translate this into action at work. Berend van der Kolk, Eelke Wiersma and Willemijn Odekerken find that such employees can be stimulated to engage in sustainable behaviou",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
@@ -216,15 +270,6 @@
       "date": "29 Oct 2026",
       "excerpt": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5570/live/b5261da0-d304-11f1-a9bf-3316693f55f0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
-      "link": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
-      "date": "28 Oct 2026",
-      "excerpt": "The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab01/live/ce128db0-d2fc-11f1-a701-fddedf244c16.jpg"
     },
     {
       "source": "BBC Business",
@@ -251,7 +296,16 @@
       "link": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
       "date": "28 Oct 2026",
       "excerpt": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5846/live/65892820-d2e4-11f1-8d3a-ef62f316044e.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84cd/live/e88146a0-d365-11f1-b441-2b33b063138f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
+      "link": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
+      "date": "28 Oct 2026",
+      "excerpt": "The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab01/live/ce128db0-d2fc-11f1-a701-fddedf244c16.jpg"
     },
     {
       "source": "BBC Business",
