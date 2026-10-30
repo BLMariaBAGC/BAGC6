@@ -1,5 +1,5 @@
 {
-  "updated": "30 Oct 2026, 12:08 UTC",
+  "updated": "30 Oct 2026, 18:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -17,6 +17,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261028232707.htm",
       "date": "29 Oct 2026",
       "excerpt": "Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found that higher daytime light exposure was associated with a 16% lower risk of dementia, with lo",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover why chronic back pain feels so personal",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261028232706.htm",
+      "date": "29 Oct 2026",
+      "excerpt": "A surprising discovery at UC San Diego suggests that chronic lower back pain may become deeply embedded in the brain's sense of personal identity. Researchers found that movement-triggered pain activates a brain network associated with self",
       "image": ""
     },
     {
@@ -65,193 +74,85 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
-      "date": "25 Oct 2026",
-      "excerpt": "A common, inexpensive medication could hold an unexpected clue to preventing dementia. Researchers found that older adults with a specific genetic profile had a 70% lower relative risk of dementia when taking low-dose aspirin, even though p",
-      "image": ""
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Premature Birth Alters Cerebellar Wiring",
-      "link": "https://neurosciencenews.com/premature-birth-cerebellar-wiring-32361/",
-      "date": "29 Oct 2026",
-      "excerpt": "Why do premature infants face motor and language delays even without brain injuries? A landmark Science study led by Children's National reveals that developing outside the womb rewires the molecular programs of cerebellar Purkinje and gran",
-      "image": "https://neurosciencenews.com/files/2026/10/preterm-cerebral-development-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "New Transporter Bypasses Blood-Brain Barrier to Deliver Creatine",
-      "link": "https://neurosciencenews.com/bbb-transporter-ceatine-neurology-32360/",
-      "date": "29 Oct 2026",
-      "excerpt": "How can drugs bypass the brain's tightest security checkpoint? Researchers at the University of Eastern Finland discovered that hijacking the sodium-dependent multivitamin transporter (SMVT) allows creatine derivatives to cross the blood-br",
-      "image": "https://neurosciencenews.com/files/2026/10/creatine-transportation-bbb-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Living Near Industrial Water Polluters Linked to Higher Risk of PSP",
-      "link": "https://neurosciencenews.com/industrial-water-polluters-psp-32359/",
-      "date": "29 Oct 2026",
-      "excerpt": "Can industrial water runoff trigger atypical parkinsonism? A 25-year study of 500,000 adults published in Neurology shows that living near facilities emitting pesticides, heavy metals, and organic pollutants is linked to a higher risk of pr",
-      "image": "https://neurosciencenews.com/files/2026/10/psp-water-pollution-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Unreliable Labels Still Bias Decisions",
-      "link": "https://neurosciencenews.com/unreliable-labels-decision-making-psychology-32358/",
-      "date": "29 Oct 2026",
-      "excerpt": "Do fact-checking badges stop bad information from swaying our minds? Cognitive psychology experiments reveal that even when a source is labeled as a 50% coin-flip, it still biases human choices, despite users knowing better.",
-      "image": "https://neurosciencenews.com/files/2026/10/unreliable-labels-decision-making-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Females Prefer Warmer Rooms",
-      "link": "https://neurosciencenews.com/temperature-trpm2-trpm8-neuroscience-32357/",
-      "date": "29 Oct 2026",
-      "excerpt": "Why do women generally prefer the thermostat set higher than men? Researchers at King’s College London discovered that two thermosensitive ion channels, TRPM2 and TRPM8, are molecularly tuned to activate at warmer temperatures in females, r",
-      "image": "https://neurosciencenews.com/files/2026/10/feamle-temperature-preference-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Why Some People Love Hugs While Others Hate Them",
-      "link": "https://neurosciencenews.com/hugs-emotion-empathy-psychology-32356/",
-      "date": "28 Oct 2026",
-      "excerpt": "Why do some hugs stay with us while others fade away? A survey of more than 15,000 UK adults published in PLOS One shows that 70% remember hugs for comfort, with empathy, relationship attachment styles, and body perception dictating how tou",
-      "image": "https://neurosciencenews.com/files/2026/10/hug-emotion-empathy-social-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Nearly Half of Distressed Adults Use AI for Therapy",
-      "link": "https://neurosciencenews.com/ai-llm-psychology-therapy-32355/",
-      "date": "28 Oct 2026",
-      "excerpt": "Are chatbots becoming informal therapists? A new study reveals that nearly half of adults experiencing severe psychological distress turn to generative AI tools for emotional support, raising urgent questions about clinical safety.",
-      "image": "https://neurosciencenews.com/files/2026/10/ai-therapy-neuroscience-1155x770.jpg"
-    },
-    {
-      "source": "Neuroscience News",
-      "feedId": "neuronews",
-      "title": "Breathing “Thin Air” May Protect Against Parkinson’s",
-      "link": "https://neurosciencenews.com/hypoxia-parkinsons-neurology-32353/",
-      "date": "28 Oct 2026",
-      "excerpt": "Can breathing thin mountain air help Parkinson's patients? Researchers demonstrated that 39 minutes of controlled intermittent hypoxia safely lowers stress hormones, raises anti-inflammatory adiponectin, and protects BDNF levels without dis",
-      "image": "https://neurosciencenews.com/files/2026/10/hypoxia-parkinsons-inflammation-neuroscience-1155x770.jpg"
-    },
-    {
       "source": "Harvard Business Review",
       "feedId": "hbr",
-      "title": "The 10 Most Popular HBR Articles of October 2026",
-      "link": "/2026/10/the-10-most-popular-hbr-articles-of-october-2026",
-      "date": "29 Oct 2026",
-      "excerpt": "Our subscribers’ top reads on AI, CEO leadership, productive conflict, and more.",
+      "title": "Are Microsoft’s Voluntary Buyouts a Sign of What’s to Come?",
+      "link": "/2026/10/are-microsofts-voluntary-buyouts-a-sign-of-whats-to-come",
+      "date": "30 Oct 2026",
+      "excerpt": "A Q&#38;A with University of Colorado Denver’s Wayne Cascio on how companies can preserve morale and retain talent—and whether employees should accept the offer.",
       "image": ""
     },
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
-      "title": "To Make a New Strategy Stick, Executives Need Shared Emotional Investment",
-      "link": "/2026/10/to-make-a-new-strategy-stick-executives-need-shared-emotional-investment",
-      "date": "29 Oct 2026",
-      "excerpt": "A new direction only becomes powerful when leaders have wrestled with the fears, hopes, and conflicts it can evoke.",
+      "title": "Employee Engagement Is Tanking. These HBR Articles Can Help.",
+      "link": "/2026/10/employee-engagement-is-tanking-these-hbr-articles-can-help",
+      "date": "30 Oct 2026",
+      "excerpt": "Eight articles to help you understand what employees need to feel motivated, valued, and invested in their work.",
       "image": ""
     },
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
-      "title": "Building a Winning Organization",
-      "link": "/2026/10/building-a-winning-organization",
-      "date": "28 Oct 2026",
-      "excerpt": "An HBR Executive Live conversation with David M. Rubenstein.",
+      "title": "How to Prepare for AI-Powered Cyber Threats",
+      "link": "/2026/10/how-to-prepare-for-ai-powered-cyber-threats",
+      "date": "30 Oct 2026",
+      "excerpt": "A subscriber-exclusive roundtable about how AI is changing cybersecurity—and new ways to build resilience.",
       "image": ""
     },
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
-      "title": "Empower Your Most Curious Employees to Drive Your Digital Transformation",
-      "link": "/2026/10/empower-your-most-curious-employees-to-drive-your-digital-transformation",
-      "date": "28 Oct 2026",
-      "excerpt": "The employees most eager to experiment with AI and other emerging technologies can accelerate your company’s digital transformation—if you know how to harness them.",
+      "title": "Build the Mindset That Keeps Your Team Moving Forward",
+      "link": "/2026/10/build-the-mindset-that-keeps-your-team-moving-forward",
+      "date": "30 Oct 2026",
+      "excerpt": "An HBR Executive Masterclass with positive psychology researcher Michelle Gielan.",
       "image": ""
     },
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
-      "title": "Your Company’s Fraud Defenses Aren’t Ready for AI Threats",
-      "link": "/2026/10/your-companys-fraud-defenses-arent-ready-for-ai-threats",
-      "date": "28 Oct 2026",
-      "excerpt": "Criminals are using the technology to exploit gaps between functions. Three questions can help leaders close them.",
+      "title": "Coping with Uncertainty’s Toll",
+      "link": "/2026/10/coping-with-uncertaintys-toll",
+      "date": "30 Oct 2026",
+      "excerpt": "IMD professor and executive coach Michael Watkins explains how executives can equip their organizations—and themselves—to lead through ongoing uncertainty.",
       "image": ""
     },
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
-      "title": "Why Managers Misread Rankings",
-      "link": "/2026/10/why-managers-misread-rankings",
-      "date": "27 Oct 2026",
-      "excerpt": "The length of the list can distort the information it’s meant to convey.",
+      "title": "When Something Goes Wrong with Your Most Popular Product",
+      "link": "/2026/10/when-something-goes-wrong-with-your-most-popular-product",
+      "date": "30 Oct 2026",
+      "excerpt": "Three strategies for avoiding the “popularity trap.”",
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Lessons from the Singaporean model of entrepreneurship",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/29/lessons-from-the-singaporean-model-of-entrepreneurship/",
-      "date": "29 Oct 2026",
-      "excerpt": "Singapore’s economic clout belies its tiny size. Boya Yang shows how its development raises questions about the practice of entrepreneurship, and government’s role in creating the opportunities, support mechanisms and skills that entreprene",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+      "date": "30 Oct 2026",
+      "excerpt": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Restructures are on the rise – but organisations ignore the repair work that makes them function",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/28/restructures-are-on-the-rise-but-organisations-ignore-the-repair-work-that-makes-them-function/",
-      "date": "28 Oct 2026",
-      "excerpt": "Organisations budget for the redesign but not for the work of making the new design liveable. Alice Stephenson argues that this uncosted repair labour is both essential to whether a restructure succeeds and likely to fall disproportionately",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What we know about Binance's $6.3bn hack",
+      "link": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+      "date": "30 Oct 2026",
+      "excerpt": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ae1/live/ab354520-d460-11f1-b441-2b33b063138f.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The “bamboo ceiling” is a management problem, not a diversity one",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/27/the-bamboo-ceiling-is-a-management-problem-not-a-diversity-one/",
-      "date": "27 Oct 2026",
-      "excerpt": "Twenty years ago the term “bamboo ceiling” was first used to describe the barriers to Asian Americans leading multinational firms. And the numbers have barely moved since. But Eugene Cha-Navarro argues that the traits blamed for holding Asi",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is freelance work, or the four-day week, the best way to reclaim our time?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/26/is-freelance-work-or-the-four-day-week-the-best-way-to-reclaim-our-time/",
-      "date": "26 Oct 2026",
-      "excerpt": "Many workers choose to work as freelancers to avoid intense and long work hours. But that is not always what they get. See Pok Loa finds that many freelance workers feel intense pressure to be busy both at work and at leisure. He describes ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How street protests can spark entrepreneurship",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/22/how-street-protests-in-china-can-spark-entrepreneurship/",
-      "date": "22 Oct 2026",
-      "excerpt": "Social unrest in China can create unexpected economic opportunities – not because entrepreneurs respond to protests themselves, but because of how local governments respond to them. Jeremy Lei Xu, Milo Shaoqing Wang, Shon R. Hiatt and Haemi",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How vulnerable are you to digital scams driven by deepfake content?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/21/how-vulnerable-are-you-to-digital-scams-driven-by-deepfake-content/",
-      "date": "21 Oct 2026",
-      "excerpt": "The recent proliferation of artificial intelligence tools has made creating characters and voices, used by criminals to convince us to part with our money, more common than ever. Lauro Accioly and Julia Caldeira show how new technology has ",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "City of London chief tops UK Black Powerlist",
+      "link": "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss",
+      "date": "30 Oct 2026",
+      "excerpt": "Ian Thomas, who heads the City of London Corporation, tops the Black Powerlist in its 21st year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d4/live/4a441ff0-d48a-11f1-9a20-f717db279e3e.jpg"
     },
     {
       "source": "BBC Business",
@@ -265,33 +166,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Yorkshire Water boss resigns after firm downgraded",
-      "link": "https://www.bbc.co.uk/news/articles/ckzd623pldqgo?at_medium=RSS&at_campaign=rss",
-      "date": "30 Oct 2026",
-      "excerpt": "Nicola Shaw, who has led the company since 2022, will step down in January, it is announced.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7dbf/live/d8f7e870-d44a-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Streeting denies 'kicking can down the road' in defence spending row",
-      "link": "https://www.bbc.co.uk/news/articles/cw62yrzxjnk4o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Oct 2026",
-      "excerpt": "The government is under pressure to set out a path to greater defence spending, as ministers unveil plans to boost UK firms.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e71/live/d6dac2e0-d44c-11f1-93e1-3b657b665bcf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Google value plunges by $500bn as its own AI search hits ad sales",
-      "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Oct 2026",
-      "excerpt": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3304/live/1c4d6e00-d3d4-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "How video game remakes tap the power of nostalgia",
       "link": "https://www.bbc.co.uk/news/articles/cm9qz428nnljo?at_medium=RSS&at_campaign=rss",
       "date": "30 Oct 2026",
@@ -301,11 +175,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Burnham 'ready to support' Poundland staff as retailer faces collapse",
-      "link": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
-      "date": "29 Oct 2026",
-      "excerpt": "Poundland's bosses are filing a notice of intention to appoint administrators to the business.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd3d/live/2cdccc40-d378-11f1-bf63-739fb2907d03.jpg"
+      "title": "Yorkshire Water boss resigns after firm downgraded",
+      "link": "https://www.bbc.co.uk/news/articles/ckzd623pldqgo?at_medium=RSS&at_campaign=rss",
+      "date": "30 Oct 2026",
+      "excerpt": "Nicola Shaw, who has led the company since 2022, will step down in January, it is announced.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7dbf/live/d8f7e870-d44a-11f1-b441-2b33b063138f.jpg"
     }
   ]
 }
