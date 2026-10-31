@@ -1,6 +1,15 @@
 {
-  "updated": "31 Oct 2026, 11:41 UTC",
+  "updated": "31 Oct 2026, 16:49 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
+      "date": "30 Oct 2026",
+      "excerpt": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with the highest-risk individuals facing a 38% chance of impairment within five years and an e",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261025222538.htm",
       "date": "27 Oct 2026",
       "excerpt": "Why do some people stay mentally sharp even when their brains show signs of Alzheimer’s disease? Scientists in the Netherlands may have uncovered an important clue hidden in a rare group of immature brain cells. Researchers discovered that ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Mayo Clinic discovers new ways to fight the “zombie” cells that drive aging",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261025073049.htm",
-      "date": "26 Oct 2026",
-      "excerpt": "Mayo Clinic scientists have uncovered surprising new insights into “zombie cells,” aging cells that linger in the body and contribute to inflammation and disease. Seven studies reveal why these cells are harmful and identify new strategies ",
       "image": ""
     },
     {
