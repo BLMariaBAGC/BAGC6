@@ -125,7 +125,7 @@
 
 <div class="toolbar">
   <div class="toolbar-inner">
-    <span class="toolbar-label">Week 2: Identity Awareness</span>
+    <span class="toolbar-label">Level 2: Identity Awareness</span>
   </div>
 </div>
 
@@ -246,7 +246,7 @@
 </div>
 
 <div class="footer">
-  &copy; Hypnotika Mente Ltd 2026 &nbsp;|&nbsp; Maria Fuentes &nbsp;|&nbsp; Week 2: Identity Awareness &nbsp;|&nbsp; Private and Confidential
+  &copy; Hypnotika Mente Ltd 2026 &nbsp;|&nbsp; Maria Fuentes &nbsp;|&nbsp; Level 2: Identity Awareness &nbsp;|&nbsp; Private and Confidential
 </div>
 
 <script>
@@ -304,7 +304,7 @@
         if (nm) info.push('Name: ' + nm);
         if (dt) info.push('Date: ' + dt);
         if (info.length) doc.text(info.join('     '), mg+34, 46);
-        else doc.text('Week 2: Identity Awareness  \u2022  mariafuentes.co.uk', pW-mg, 46, {align:'right'});
+        else doc.text('Level 2: Identity Awareness  \u2022  mariafuentes.co.uk', pW-mg, 46, {align:'right'});
       }
       function drawPageHeader() {
         fc(1,41,58); doc.rect(0,0,pW,18,'F');
@@ -317,7 +317,7 @@
       function drawFooter() {
         fc(1,41,58); doc.rect(0,pH-12,pW,12,'F');
         doc.setFont('helvetica','normal'); doc.setFontSize(7.5); tc(201,246,250);
-        doc.text('\u00A9 Hypnotika Mente Ltd 2026  \u2022  Week 2: Identity Awareness  \u2022  Private and Confidential', pW/2, pH-5, {align:'center'});
+        doc.text('\u00A9 Hypnotika Mente Ltd 2026  \u2022  Level 2: Identity Awareness  \u2022  Private and Confidential', pW/2, pH-5, {align:'center'});
       }
       function newPage() { drawFooter(); doc.addPage(); drawPageHeader(); return 28; }
       function checkY(y, needed) { return (y+needed > pH-18) ? newPage() : y; }
