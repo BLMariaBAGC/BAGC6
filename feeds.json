@@ -1,6 +1,33 @@
 {
-  "updated": "01 Nov 2026, 08:41 UTC",
+  "updated": "01 Nov 2026, 16:34 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Common pesticide linked to 2.5 times the risk of Parkinson’s disease",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261031013035.htm",
+      "date": "1 Nov 2026",
+      "excerpt": "A UCLA study found that long-term exposure to a common pesticide was linked to more than 2.5 times the risk of Parkinson's disease. Scientists also uncovered how the chemical damages brain cells and identified a promising way to protect the",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists use sound waves to deliver a new attack on deadly brain cancer",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261030003017.htm",
+      "date": "1 Nov 2026",
+      "excerpt": "Scientists at the University of Virginia have developed a promising new strategy to fight glioblastoma, one of the deadliest and most difficult-to-treat forms of brain cancer. Their experimental approach combines focused ultrasound, tiny na",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a surprising brain benefit of eating peanuts every day",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261030003001.htm",
+      "date": "1 Nov 2026",
+      "excerpt": "A surprising new study suggests that eating peanuts every day could help support brain health and memory in older adults. Researchers found that consuming about two servings of unsalted, skin-roasted peanuts daily for 16 weeks improved insu",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -44,33 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261028232659.htm",
       "date": "29 Oct 2026",
       "excerpt": "Scientists have identified a weakened brain signal that may connect several seemingly unrelated symptoms of schizophrenia, including sensory processing difficulties, disorganized speech, and greater symptom severity. The surprising discover",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "The autistic brain processes faces differently than scientists thought",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm",
-      "date": "27 Oct 2026",
-      "excerpt": "A major new study reveals that autistic children’s brains process faces differently, and those differences may begin earlier than scientists previously thought. Researchers found that brain signals associated with recognizing faces become m",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Your blood pressure could be dangerous even when your numbers look normal",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
-      "date": "28 Oct 2026",
-      "excerpt": "Researchers have discovered a small group of brain cells that prevents dangerous blood pressure swings, even when average readings appear normal. The finding reveals a hidden source of cardiovascular risk and could open the door to new trea",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover a surprising clue to why some brains resist Alzheimer’s",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261025222538.htm",
-      "date": "27 Oct 2026",
-      "excerpt": "Why do some people stay mentally sharp even when their brains show signs of Alzheimer’s disease? Scientists in the Netherlands may have uncovered an important clue hidden in a rare group of immature brain cells. Researchers discovered that ",
       "image": ""
     },
     {
@@ -184,11 +184,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-      "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-      "date": "30 Oct 2026",
-      "excerpt": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61df/live/2d4de870-d487-11f1-b441-2b33b063138f.jpg"
+      "title": "No more washing up: How Airbnb's new house rules have divided hosts and guests",
+      "link": "https://www.bbc.co.uk/news/articles/ckjwez8g5dyeo?at_medium=RSS&at_campaign=rss",
+      "date": "1 Nov 2026",
+      "excerpt": "Airbnb hosts must stop asking guests to wash-up or take out bins under rules coming into force in November.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52bf/live/c3b77ec0-d3b5-11f1-a340-478c8f3b9e55.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+      "date": "1 Nov 2026",
+      "excerpt": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,15 +225,6 @@
       "date": "30 Oct 2026",
       "excerpt": "Ian Thomas, who heads the City of London Corporation, tops the Black Powerlist in its 21st year.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d4/live/4a441ff0-d48a-11f1-9a20-f717db279e3e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How Poundland grew from a market stall to a high street giant",
-      "link": "https://www.bbc.co.uk/news/articles/cw07304l5je7o?at_medium=RSS&at_campaign=rss",
-      "date": "30 Oct 2026",
-      "excerpt": "The retail giant - which started life at a Wolverhampton market - is now at threat of collapse.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8062/live/2dd0c130-d3d0-11f1-9c32-1532a6164171.jpg"
     },
     {
       "source": "BBC Business",
