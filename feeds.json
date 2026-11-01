@@ -1,5 +1,5 @@
 {
-  "updated": "01 Nov 2026, 16:34 UTC",
+  "updated": "01 Nov 2026, 21:41 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -184,6 +184,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Thousands of jobs at Virgin Media O2 to be cut",
+      "link": "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss",
+      "date": "1 Nov 2026",
+      "excerpt": "The broadband provider has not finalised the number of roles to be axed but it will likely be a sizeable chunk of its workforce, the BBC understands.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac17/live/9ec7c8b0-d610-11f1-bdc5-33a5057f63d4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "No more washing up: How Airbnb's new house rules have divided hosts and guests",
       "link": "https://www.bbc.co.uk/news/articles/ckjwez8g5dyeo?at_medium=RSS&at_campaign=rss",
       "date": "1 Nov 2026",
@@ -225,15 +234,6 @@
       "date": "30 Oct 2026",
       "excerpt": "Ian Thomas, who heads the City of London Corporation, tops the Black Powerlist in its 21st year.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d4/live/4a441ff0-d48a-11f1-9a20-f717db279e3e.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How video game remakes tap the power of nostalgia",
-      "link": "https://www.bbc.co.uk/news/articles/cm9qz428nnljo?at_medium=RSS&at_campaign=rss",
-      "date": "30 Oct 2026",
-      "excerpt": "Video games are good at triggering nostalgia, a key reason why classic games keep getting remade.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f80/live/10dfbd10-c949-11f1-bc2e-018d645d8d21.jpg"
     }
   ]
 }
