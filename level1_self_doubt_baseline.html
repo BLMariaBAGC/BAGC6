@@ -77,6 +77,8 @@
 .sp-next{display:block;text-align:center;border:2px solid var(--teal);background:var(--teal);color:#fff;text-decoration:none;font-size:15px;font-weight:600;padding:14px 32px;border-radius:8px;margin:26px auto 0;width:fit-content;max-width:100%;box-sizing:border-box;transition:all .2s;}
 .sp-next:hover{background:var(--navy);border-color:var(--navy);}
 
+.sp-back{display:block;margin:14px auto 0;}
+
   .scale-row { background:var(--white); border-radius:12px; padding:18px 22px; margin-bottom:12px; box-shadow:0 2px 10px rgba(1,41,58,0.07); }
   .scale-row .q { font-size:15.5px; color:var(--navy); margin-bottom:10px; line-height:1.55; }
   .scale-row .q b { color:var(--teal); font-weight:600; margin-right:6px; }
@@ -123,7 +125,8 @@
 <div class="nav-buttons"><button class="btn btn-secondary" onclick="go(3)">Back</button><button class="btn btn-primary btn-large" onclick="go(5)">Complete the Exercise &rarr;</button></div></div><div class="view" id="v5"><div class="celebrate-banner"><span class="confetti">&#127775;</span><h2>Your Starting Point Is Recorded</h2><p>You now have an honest measure of where self-doubt is shaping your choices. Keep your PDF somewhere safe. You will need your total again in Level 8.</p></div>
 <div class="takeaway-list"><div class="takeaway"><div class="t-dot"></div><div class="t-content"><h4>This is a snapshot, not a verdict</h4><p>Your score describes patterns, not who you are. Patterns can change, and this programme is designed to change them.</p></div></div><div class="takeaway"><div class="t-dot"></div><div class="t-content"><h4>Your lowest areas are your focus</h4><p>Notice how often the exercises in the coming levels touch the areas you scored lowest. That is where your biggest gains will come from.</p></div></div><div class="takeaway"><div class="t-dot"></div><div class="t-content"><h4>Score again in Level 8</h4><p>Open this page again in Level 8, choose &quot;Level 8 closing score&quot;, and enter your Level 1 total to see your change.</p></div></div></div>
 <div class="dl-wrap"><button class="btn btn-primary btn-large" onclick="downloadPDF()">&#8595;&nbsp; Download My Baseline as PDF</button><p>Keep this safe. You will compare against it in Level 8.</p></div>
-<span class="restart-link" onclick="restartEx()">Start the exercise again</span><a class="sp-next" href="level1_stress_signature.html">Next: Step 3, Catch It Early (My Stress Signature) &rarr;</a></div>
+<a class="sp-next" href="level1_stress_signature.html">Next: Step 3, Catch It Early (My Stress Signature) &rarr;</a><button class="btn btn-secondary sp-back" onclick="go(4)">&larr; Back to my answers</button>
+<span class="restart-link" onclick="restartEx()">Start the exercise again</span></div>
 </div>
 <div class="footer">Maria Fuentes &nbsp;|&nbsp; mariafuentes.co.uk &nbsp;|&nbsp; &copy; Hypnotika Mente Ltd 2026</div>
 <script>
