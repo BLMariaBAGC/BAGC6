@@ -292,13 +292,13 @@ body{font-family:"DM Sans",sans-serif;background:var(--cream);color:var(--navy);
       </div>
       <div class="ccircle cpres" id="cpres">
         <div style="font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#C9F6FA;margin-bottom:4px;">You, today</div>
-        <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:#C9F6FA;font-weight:600;line-height:1.3;">Present<br>and free</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:#C9F6FA;font-weight:600;line-height:1.3;">Present<br>and choosing</div>
       </div>
     </div>
     <button class="cutbtn" id="cutbtn" onclick="cutCord()">&#9986;&nbsp; Cut the tie</button>
     <div class="pcut" id="pcut">
-      <div class="pcut-lbl">The cord is cut. The tie no longer holds.<br>Write what is true from the other side of this.</div>
-      <textarea class="ta tad" id="release_words" rows="4" placeholder="e.g. I have released the belief that getting rich would cost me relationships. That was a younger version of me protecting something fragile. My relationships are not conditional on me staying small. The cord is cut. I choose to carry something different from here..."></textarea>
+      <div class="pcut-lbl">You have chosen to cut the tie that held you.<br>Each time the old belief pulls at you, cut it again in your mind. Every cut loosens it a little more.<br>Write what you choose to carry forward from here.</div>
+      <textarea class="ta tad" id="release_words" rows="4" placeholder="e.g. I am choosing to let go of the belief that getting rich would cost me relationships. That was a younger version of me protecting something fragile. My relationships are not conditional on me staying small. When the old pull comes back, I will cut the tie again. I choose to carry something different from here..."></textarea>
     </div>
   </div>
   <div class="nav"><button class="btn btn-s" onclick="go(4)">Back</button><button class="btn btn-p btn-lg" onclick="go(6)">Install the New Belief &rarr;</button></div>
@@ -326,8 +326,8 @@ body{font-family:"DM Sans",sans-serif;background:var(--cream);color:var(--navy);
 <div class="view" id="v7">
   <div class="comp-h">
     <div class="chk">&#10003;</div>
-    <h2>This Belief Has Been Released</h2>
-    <p>You have named it, checked its authority, spoken to it directly, cut the cord, and installed something new in its place. That is the complete sequence.</p>
+    <h2>You Have Begun to Release This Belief</h2>
+    <p>You have named it, checked its authority, spoken to it directly, cut the cord, and installed something new in its place. That is the complete sequence. Keep cutting the tie in your mind whenever the old belief pulls at you. Each time, it holds a little less.</p>
   </div>
   <div class="dl-wrap" style="margin-top:0;margin-bottom:0;">
     <button class="btn btn-p btn-lg" onclick="downloadPDF()" id="dlBtn">&#8595;&nbsp; Download This Session</button>
@@ -612,7 +612,7 @@ function downloadPDF(){
   // ── PAGE 3 ──
   y=newPg('Steps 4 and 5: Release and Renewal');
 
-  y=secBar(y,'STEP 4: THE CORD IS CUT');
+  y=secBar(y,'STEP 4: CUTTING THE CORD');
 
   // Visual cord diagram (severed)
   y=chk(y,38,'Cord');
@@ -623,7 +623,7 @@ function downloadPDF(){
   doc.setFont('helvetica','bold');doc.setFontSize(7);tc(130,180,185);
   doc.text('THEN',cx2-52,cy3-3,{align:'center'});
   doc.setFont('helvetica','italic');doc.setFontSize(7.5);tc(150,195,200);
-  doc.text('Released',cx2-52,cy3+4,{align:'center'});
+  doc.text('Letting go',cx2-52,cy3+4,{align:'center'});
   // Present circle (glowing teal)
   fc(61,133,140);dc(201,246,250);lw(0.8);
   doc.circle(cx2+52,cy3,16,'FD');lw(0.1);
@@ -649,7 +649,7 @@ function downloadPDF(){
   }
   y+=42;
 
-  y=fld(y,'From the other side of this',gv('release_words'),'Release');
+  y=fld(y,'What I choose to carry forward',gv('release_words'),'Release');
   y+=6;
 
   // STEP 5
