@@ -109,6 +109,10 @@ body{font-family:"Inter",sans-serif;background:var(--cream);color:var(--navy);}
 .highest-val{font-size:14.5px;color:var(--navy);}
 .highest-score{font-family:"Cormorant Garamond",serif;font-size:32px;font-weight:700;color:var(--red);}
 .book-btn{display:block;text-align:center;background:var(--teal);color:#fff;text-decoration:none;font-size:15px;font-weight:600;padding:16px 42px;border-radius:8px;margin:0 auto;transition:all 0.2s;font-family:"Inter",sans-serif;width:fit-content;}
+.sp-note{background:#fff;border:1.5px solid var(--teal);border-radius:10px;padding:14px 20px;margin-bottom:22px;font-size:14px;line-height:1.6;color:var(--navy);}
+.sp-note .sp-step{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--teal);margin-bottom:4px;}
+.sp-next{display:block;text-align:center;border:2px solid var(--teal);color:var(--navy);text-decoration:none;font-size:15px;font-weight:600;padding:14px 32px;border-radius:8px;margin:26px auto 0;width:fit-content;transition:all .2s;}
+.sp-next:hover{background:var(--lt);}
 .book-btn:hover{background:var(--navy);transform:translateY(-2px);}
 .dl-wrap{text-align:center;margin:24px 0 0;}
 .dl-wrap p{font-size:13px;color:var(--teal);margin-top:10px;font-style:italic;}
@@ -204,6 +208,7 @@ body{font-family:"Inter",sans-serif;background:var(--cream);color:var(--navy);}
 
 <!-- VIEW 1: INTRODUCTION -->
 <div class="view active" id="v1">
+  <div class="sp-note"><span class="sp-step">Your Starting Point &middot; Step 1 of 3: Map It</span>This exercise maps what is happening inside you: your thoughts, emotions, behaviours, and body. Next, the Self-Doubt Baseline gives you a score you can measure progress against, and My Stress Signature shows you how to catch the pattern early.</div>
   <div class="navy-box">
     <h2>You are not the problem. Your programming is.</h2>
     <p>You are a capable, intelligent, and accomplished individual. That is not in question. The people who work through this exercise are precisely that: busy professionals, senior leaders, and high-achieving individuals who know their value in the world.</p>
@@ -213,7 +218,7 @@ body{font-family:"Inter",sans-serif;background:var(--cream);color:var(--navy);}
   </div>
 
   <div class="callout">
-    <p>Over the next four sections, you will map four categories of internal experience: your negative emotions, negative behaviours, negative beliefs, and negative physical symptoms. For each one, you will rate the intensity from 0 to 10.</p>
+    <p>Over the next four sections, you will map four categories of internal experience: your negative thoughts and beliefs, negative emotions, negative behaviours, and negative physical symptoms. For each one, you will rate the intensity from 0 to 10.</p>
   </div>
 
   <div class="key-instruction">
@@ -226,13 +231,44 @@ body{font-family:"Inter",sans-serif;background:var(--cream);color:var(--navy);}
   <div class="nav-buttons"><span></span><button class="btn btn-primary btn-large" onclick="go(2)">Begin &rarr;</button></div>
 </div>
 
-<!-- VIEW 2: NEGATIVE EMOTIONS -->
+<!-- VIEW 2: NEGATIVE THOUGHTS AND BELIEFS -->
 <div class="view" id="v2">
+  <div class="cat-header cat-beliefs">
+    <div class="cat-icon">&#9670;</div>
+    <div>
+      <div class="cat-title">Negative Thoughts and Beliefs</div>
+      <div class="cat-sub">Section 1 of 4</div>
+    </div>
+  </div>
+
+  <div class="key-instruction">
+    <div class="ki-title">Remember</div>
+    <div class="ki-text">Rate how <strong>true this feels in your gut</strong>, not what your intellect argues back. You may know a belief is irrational. Rate it anyway. That gut-level truth is what we are mapping.</div>
+  </div>
+
+  <p class="section-sub" style="margin-bottom:18px;">What do you think and believe about yourself, others, and what is possible for your life? These thoughts and beliefs feel like facts but they are not. List them honestly and rate how strongly each one feels true to you right now.</p>
+
+  <div class="callout warn">
+    <p><strong>Examples to consider:</strong> "I am not good enough." "I do not deserve success." "It is too late for me." "If I succeed I will lose people." "I am fundamentally flawed." "I am not smart enough." "Money is difficult to come by." "I cannot trust people." "I always end up alone."</p>
+  </div>
+
+  <div class="entries" id="entries_beliefs"></div>
+  <button class="add-btn" onclick="addEntry('beliefs')">&#43;&nbsp; Add another belief</button>
+  <div class="entry-count" id="count_beliefs"></div>
+
+  <div class="nav-buttons">
+    <button class="btn btn-secondary" onclick="go(1)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(3)">Next &rarr;</button>
+  </div>
+</div>
+
+<!-- VIEW 3: NEGATIVE EMOTIONS -->
+<div class="view" id="v3">
   <div class="cat-header cat-emotions">
     <div class="cat-icon">&#9673;</div>
     <div>
       <div class="cat-title">Negative Emotions</div>
-      <div class="cat-sub">Section 1 of 4</div>
+      <div class="cat-sub">Section 2 of 4</div>
     </div>
   </div>
 
@@ -252,18 +288,18 @@ body{font-family:"Inter",sans-serif;background:var(--cream);color:var(--navy);}
   <div class="entry-count" id="count_emotions"></div>
 
   <div class="nav-buttons">
-    <button class="btn btn-secondary" onclick="go(1)">Back</button>
-    <button class="btn btn-primary btn-large" onclick="go(3)">Next &rarr;</button>
+    <button class="btn btn-secondary" onclick="go(2)">Back</button>
+    <button class="btn btn-primary btn-large" onclick="go(4)">Next &rarr;</button>
   </div>
 </div>
 
-<!-- VIEW 3: NEGATIVE BEHAVIOURS -->
-<div class="view" id="v3">
+<!-- VIEW 4: NEGATIVE BEHAVIOURS -->
+<div class="view" id="v4">
   <div class="cat-header cat-behaviours">
     <div class="cat-icon">&#9632;</div>
     <div>
       <div class="cat-title">Negative Behaviours</div>
-      <div class="cat-sub">Section 2 of 4</div>
+      <div class="cat-sub">Section 3 of 4</div>
     </div>
   </div>
 
@@ -281,37 +317,6 @@ body{font-family:"Inter",sans-serif;background:var(--cream);color:var(--navy);}
   <div class="entries" id="entries_behaviours"></div>
   <button class="add-btn" onclick="addEntry('behaviours')">&#43;&nbsp; Add another behaviour</button>
   <div class="entry-count" id="count_behaviours"></div>
-
-  <div class="nav-buttons">
-    <button class="btn btn-secondary" onclick="go(2)">Back</button>
-    <button class="btn btn-primary btn-large" onclick="go(4)">Next &rarr;</button>
-  </div>
-</div>
-
-<!-- VIEW 4: NEGATIVE BELIEFS -->
-<div class="view" id="v4">
-  <div class="cat-header cat-beliefs">
-    <div class="cat-icon">&#9670;</div>
-    <div>
-      <div class="cat-title">Negative Beliefs</div>
-      <div class="cat-sub">Section 3 of 4</div>
-    </div>
-  </div>
-
-  <div class="key-instruction">
-    <div class="ki-title">Remember</div>
-    <div class="ki-text">Rate how <strong>true this feels in your gut</strong>, not what your intellect argues back. You may know a belief is irrational. Rate it anyway. That gut-level truth is what we are mapping.</div>
-  </div>
-
-  <p class="section-sub" style="margin-bottom:18px;">What do you believe about yourself, others, and what is possible for your life? These beliefs feel like facts but they are not. List them honestly and rate how strongly each one feels true to you right now.</p>
-
-  <div class="callout warn">
-    <p><strong>Examples to consider:</strong> "I am not good enough." "I do not deserve success." "It is too late for me." "If I succeed I will lose people." "I am fundamentally flawed." "I am not smart enough." "Money is difficult to come by." "I cannot trust people." "I always end up alone."</p>
-  </div>
-
-  <div class="entries" id="entries_beliefs"></div>
-  <button class="add-btn" onclick="addEntry('beliefs')">&#43;&nbsp; Add another belief</button>
-  <div class="entry-count" id="count_beliefs"></div>
 
   <div class="nav-buttons">
     <button class="btn btn-secondary" onclick="go(3)">Back</button>
@@ -380,18 +385,19 @@ body{font-family:"Inter",sans-serif;background:var(--cream);color:var(--navy);}
     <p>Your complete internal landscape saved as a personal reference for your journey.</p>
   </div>
   <span class="rl" onclick="restartEx()">Start again</span>
+  <a class="sp-next" href="level1_self_doubt_baseline.html">Next: Step 2, Score It (your Self-Doubt Baseline) &rarr;</a>
 </div>
 
 </div>
 <div class="footer">Maria Fuentes &nbsp;|&nbsp; mariafuentes.co.uk &nbsp;|&nbsp; &copy; Hypnotika Mente Ltd 2026</div>
 <script>
 var TOTAL=6;
-var labels=['Introduction','Negative Emotions','Negative Behaviours','Negative Beliefs','Physical Symptoms','Your Internal Landscape'];
+var labels=['Introduction','Thoughts and Beliefs','Negative Emotions','Negative Behaviours','Physical Symptoms','Your Internal Landscape'];
 var counts=['','1 of 4','2 of 4','3 of 4','4 of 4','Complete'];
 var CATS={
+  beliefs:{label:'Negative Thoughts and Beliefs',icon:'\u25c6',accent:'#7B5EA7'},
   emotions:{label:'Negative Emotions',icon:'\u25cb',accent:'#C87070'},
   behaviours:{label:'Negative Behaviours',icon:'\u25a0',accent:'#C89A3D'},
-  beliefs:{label:'Negative Beliefs',icon:'\u25c6',accent:'#7B5EA7'},
   physical:{label:'Physical Symptoms',icon:'\u25b3',accent:'#4A9E72'}
 };
 var data={emotions:[],behaviours:[],beliefs:[],physical:[]};
@@ -462,7 +468,7 @@ function updateCount(cat){
 }
 
 // initialise each category with 3 starter rows
-['emotions','behaviours','beliefs','physical'].forEach(function(cat){
+['beliefs','emotions','behaviours','physical'].forEach(function(cat){
   [1,2,3].forEach(function(){addEntry(cat);});
 });
 
@@ -541,7 +547,7 @@ function buildSummary(){
 }
 
 function restartEx(){
-  ['emotions','behaviours','beliefs','physical'].forEach(function(cat){
+  ['beliefs','emotions','behaviours','physical'].forEach(function(cat){
     var c=document.getElementById('entries_'+cat);
     c.innerHTML='';
     [1,2,3].forEach(function(){addEntry(cat);});
@@ -554,9 +560,9 @@ function restartEx(){
 function downloadPDF(){
   // Collect directly from DOM
   var catMeta=[
+    {id:'beliefs',   label:'Negative Thoughts and Beliefs', accent:[123,94,167],  bg:[249,245,255]},
     {id:'emotions',  label:'Negative Emotions',      accent:[200,112,112], bg:[255,244,244]},
     {id:'behaviours',label:'Negative Behaviours',     accent:[200,154,61],  bg:[255,248,236]},
-    {id:'beliefs',   label:'Negative Beliefs',        accent:[123,94,167],  bg:[249,245,255]},
     {id:'physical',  label:'Physical Symptoms',       accent:[74,158,114],  bg:[235,247,240]}
   ];
   var allData={};
