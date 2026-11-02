@@ -1,6 +1,24 @@
 {
-  "updated": "02 Nov 2026, 08:52 UTC",
+  "updated": "02 Nov 2026, 19:40 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Extra weight may be aging your brain faster than you think",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261101010559.htm",
+      "date": "2 Nov 2026",
+      "excerpt": "A major 24-year study involving more than 8,200 adults suggests that excess body weight may accelerate brain aging, leading to faster declines in memory, concentration, and decision-making skills. The connection was particularly strong amon",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists find surprisingly little evidence that medical cannabis helps you sleep",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261031221157.htm",
+      "date": "1 Nov 2026",
+      "excerpt": "A major new review challenges the growing enthusiasm for medical cannabis as an insomnia treatment, finding little reliable evidence that it improves sleep quality, sleep duration, or daytime functioning. Researchers caution that this doesn",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover why chronic back pain feels so personal",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261028232706.htm",
-      "date": "29 Oct 2026",
-      "excerpt": "A surprising discovery at UC San Diego suggests that chronic lower back pain may become deeply embedded in the brain's sense of personal identity. Researchers found that movement-triggered pain activates a brain network associated with self",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: When Workers Adapt Their Resumes to Fit the Political Moment",
+      "link": "/2026/11/research-when-workers-adapt-their-resumes-to-fit-the-political-moment",
+      "date": "2 Nov 2026",
+      "excerpt": "A study of 2.9 million U.S. workers found that employers tend to favor candidates who share their political leanings—even when they’re less qualified for the job.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A single brain signal may explain schizophrenia's most puzzling symptoms",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261028232659.htm",
-      "date": "29 Oct 2026",
-      "excerpt": "Scientists have identified a weakened brain signal that may connect several seemingly unrelated symptoms of schizophrenia, including sensory processing difficulties, disorganized speech, and greater symptom severity. The surprising discover",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Boards Need Conflict to Make Better Decisions. Here’s What Holds Them Back.",
+      "link": "/2026/11/boards-need-conflict-to-make-better-decisions-heres-what-holds-them-back",
+      "date": "2 Nov 2026",
+      "excerpt": "Research suggests that concerns about status, relationships with fellow directors, and the CEO’s reaction can discourage directors from sharing valuable insights.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The “Human-in-the-Loop” Fallacy",
+      "link": "/2026/11/the-human-in-the-loop-fallacy",
+      "date": "2 Nov 2026",
+      "excerpt": "Why putting people in charge of checking AI’s work is a losing strategy—and what leaders need to do instead.",
       "image": ""
     },
     {
@@ -110,31 +137,85 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Coping with Uncertainty’s Toll",
-      "link": "/2026/10/coping-with-uncertaintys-toll",
-      "date": "30 Oct 2026",
-      "excerpt": "IMD professor and executive coach Michael Watkins explains how executives can equip their organizations—and themselves—to lead through ongoing uncertainty.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Employees have no incentive to disclose how productive AI makes them",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/02/employees-have-no-incentive-to-disclose-how-productive-ai-makes-them/",
+      "date": "2 Nov 2026",
+      "excerpt": "The harder a company pushes to measure individual AI productivity, the stronger the reason it gives each employee using it to keep that productivity out of view. So the gains leaders most need to see become the ones employees have the least",
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When Something Goes Wrong with Your Most Popular Product",
-      "link": "/2026/10/when-something-goes-wrong-with-your-most-popular-product",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Mixed emotions can make work more difficult for pregnant employees",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/30/mixed-emotions-can-make-work-more-difficult-for-pregnant-employees/",
       "date": "30 Oct 2026",
-      "excerpt": "Three strategies for avoiding the “popularity trap.”",
+      "excerpt": "Emotional ambivalence – the simultaneous experience of positive and negative feelings at work – may undermine employees navigating complex work situations. Dave Arena Jr., Phoenix Chen, Allie Gabriel and Kristen Jones find that among pregna",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Lessons from the Singaporean model of entrepreneurship",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/29/lessons-from-the-singaporean-model-of-entrepreneurship/",
+      "date": "29 Oct 2026",
+      "excerpt": "Singapore’s economic clout belies its tiny size. Boya Yang shows how its development raises questions about the practice of entrepreneurship, and government’s role in creating the opportunities, support mechanisms and skills that entreprene",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Restructures are on the rise – but organisations ignore the repair work that makes them function",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/28/restructures-are-on-the-rise-but-organisations-ignore-the-repair-work-that-makes-them-function/",
+      "date": "28 Oct 2026",
+      "excerpt": "Organisations budget for the redesign but not for the work of making the new design liveable. Alice Stephenson argues that this uncosted repair labour is both essential to whether a restructure succeeds and likely to fall disproportionately",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The “bamboo ceiling” is a management problem, not a diversity one",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/27/the-bamboo-ceiling-is-a-management-problem-not-a-diversity-one/",
+      "date": "27 Oct 2026",
+      "excerpt": "Twenty years ago the term “bamboo ceiling” was first used to describe the barriers to Asian Americans leading multinational firms. And the numbers have barely moved since. But Eugene Cha-Navarro argues that the traits blamed for holding Asi",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is freelance work, or the four-day week, the best way to reclaim our time?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/26/is-freelance-work-or-the-four-day-week-the-best-way-to-reclaim-our-time/",
+      "date": "26 Oct 2026",
+      "excerpt": "Many workers choose to work as freelancers to avoid intense and long work hours. But that is not always what they get. See Pok Loa finds that many freelance workers feel intense pressure to be busy both at work and at leisure. He describes ",
       "image": ""
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Ryanair may freeze workers' pay and raise fares on higher fuel prices",
+      "title": "Ryanair says it may freeze workers' pay and raise airfares",
       "link": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
       "date": "2 Nov 2026",
       "excerpt": "The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/895b/live/a85523b0-d691-11f1-8f56-0b6ab08f384e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Shop freezers in seven European countries hit by cyber-attack",
+      "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Nov 2026",
+      "excerpt": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31c7/live/152ec730-d6c3-11f1-93e1-3b657b665bcf.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Poundland's former owner offers to invest as minister prepares to meet board",
+      "link": "https://www.bbc.co.uk/news/articles/ck1wv1j0xgywo?at_medium=RSS&at_campaign=rss",
+      "date": "2 Nov 2026",
+      "excerpt": "Wolverhampton's Steve Smith said he wants to put some money back into the firm he started.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e116/live/dde58360-d6ca-11f1-ac20-7783925c811f.jpg"
     },
     {
       "source": "BBC Business",
@@ -162,24 +243,6 @@
       "date": "1 Nov 2026",
       "excerpt": "The broadband firm has not finalised numbers but it is likely be a sizeable chunk of staff, the BBC understands.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac17/live/9ec7c8b0-d610-11f1-bdc5-33a5057f63d4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "No more washing up: How Airbnb's new house rules have divided hosts and guests",
-      "link": "https://www.bbc.co.uk/news/articles/ckjwez8g5dyeo?at_medium=RSS&at_campaign=rss",
-      "date": "1 Nov 2026",
-      "excerpt": "Airbnb hosts must stop asking guests to wash-up or take out bins under rules coming into force in November.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf37/live/68e1e930-d68b-11f1-93e1-3b657b665bcf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-      "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
-      "date": "31 Oct 2026",
-      "excerpt": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg"
     }
   ]
 }
