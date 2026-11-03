@@ -1,6 +1,24 @@
 {
-  "updated": "03 Nov 2026, 11:36 UTC",
+  "updated": "03 Nov 2026, 13:23 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists identify two overlooked skills that predict reading success",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261102202845.htm",
+      "date": "3 Nov 2026",
+      "excerpt": "A massive new study reveals that intelligence plays a surprisingly limited role in children's reading success, while visual processing showed no meaningful connection at all. Instead, the strongest predictors are sound recognition, vocabula",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "The brain’s hidden fear mechanism may explain anxiety and PTSD",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261102202833.htm",
+      "date": "3 Nov 2026",
+      "excerpt": "A surprising new discovery suggests that fear may cause the brain to blur the line between danger and safety rather than distinguish them more clearly. By observing brain activity in mice using augmented reality, scientists found that memor",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover a surprising brain benefit of eating peanuts every day",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261030003001.htm",
-      "date": "1 Nov 2026",
-      "excerpt": "A surprising new study suggests that eating peanuts every day could help support brain health and memory in older adults. Researchers found that consuming about two servings of unsalted, skin-roasted peanuts daily for 16 weeks improved insu",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
-      "date": "30 Oct 2026",
-      "excerpt": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with the highest-risk individuals facing a 38% chance of impairment within five years and an e",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Topics We Avoid at Work—and How to Start Talking About Them",
+      "link": "/podcast/2026/11/the-topics-we-avoid-at-work-and-how-to-start-talking-about-them",
+      "date": "3 Nov 2026",
+      "excerpt": "A conversation with HBS senior lecturer Christina Wing on raising sensitive subjects with clarity and respect.",
       "image": ""
     },
     {
@@ -119,12 +128,57 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Prepare for AI-Powered Cyber Threats",
-      "link": "/2026/10/how-to-prepare-for-ai-powered-cyber-threats",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Employees have no incentive to disclose how productive AI makes them",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/02/employees-have-no-incentive-to-disclose-how-productive-ai-makes-them/",
+      "date": "2 Nov 2026",
+      "excerpt": "The harder a company pushes to measure individual AI productivity, the stronger the reason it gives each employee using it to keep that productivity out of view. So the gains leaders most need to see become the ones employees have the least",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Mixed emotions can make work more difficult for pregnant employees",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/30/mixed-emotions-can-make-work-more-difficult-for-pregnant-employees/",
       "date": "30 Oct 2026",
-      "excerpt": "A subscriber-exclusive roundtable about how AI is changing cybersecurity—and new ways to build resilience.",
+      "excerpt": "Emotional ambivalence – the simultaneous experience of positive and negative feelings at work – may undermine employees navigating complex work situations. Dave Arena Jr., Phoenix Chen, Allie Gabriel and Kristen Jones find that among pregna",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Lessons from the Singaporean model of entrepreneurship",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/29/lessons-from-the-singaporean-model-of-entrepreneurship/",
+      "date": "29 Oct 2026",
+      "excerpt": "Singapore’s economic clout belies its tiny size. Boya Yang shows how its development raises questions about the practice of entrepreneurship, and government’s role in creating the opportunities, support mechanisms and skills that entreprene",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Restructures are on the rise – but organisations ignore the repair work that makes them function",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/28/restructures-are-on-the-rise-but-organisations-ignore-the-repair-work-that-makes-them-function/",
+      "date": "28 Oct 2026",
+      "excerpt": "Organisations budget for the redesign but not for the work of making the new design liveable. Alice Stephenson argues that this uncosted repair labour is both essential to whether a restructure succeeds and likely to fall disproportionately",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The “bamboo ceiling” is a management problem, not a diversity one",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/27/the-bamboo-ceiling-is-a-management-problem-not-a-diversity-one/",
+      "date": "27 Oct 2026",
+      "excerpt": "Twenty years ago the term “bamboo ceiling” was first used to describe the barriers to Asian Americans leading multinational firms. And the numbers have barely moved since. But Eugene Cha-Navarro argues that the traits blamed for holding Asi",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is freelance work, or the four-day week, the best way to reclaim our time?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/26/is-freelance-work-or-the-four-day-week-the-best-way-to-reclaim-our-time/",
+      "date": "26 Oct 2026",
+      "excerpt": "Many workers choose to work as freelancers to avoid intense and long work hours. But that is not always what they get. See Pok Loa finds that many freelance workers feel intense pressure to be busy both at work and at leisure. He describes ",
       "image": ""
     },
     {
