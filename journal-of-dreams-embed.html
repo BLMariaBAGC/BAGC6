@@ -1,0 +1,357 @@
+<!-- ===============================================================
+     JOURNAL OF DREAMS · Rippily room version (paste into one Embed)
+     Everything is scoped to #jod-room so it cannot restyle the room.
+     The book opens each time the layer is shown. Close it with the
+     room's own red cross (layer toggle).
+=============================================================== -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<style>
+#jod-room, #jod-room *, #jod-room *::before, #jod-room *::after { box-sizing: border-box; margin: 0; padding: 0; }
+#jod-room {
+  position: absolute; inset: 0;
+  container-type: size;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  overflow: hidden;
+}
+#jod-room .jod-stage {
+  position: relative;
+  width: min(100cqw, 150cqh); aspect-ratio: 3 / 2;
+  perspective: 2200px;
+  --lh: max(24px, 4.2cqh);
+}
+@container (max-aspect-ratio: 1/1) {
+  #jod-room .jod-stage { width: 100cqw; height: 100cqh; aspect-ratio: auto; --lh: 30px; }
+}
+
+/* Pages */
+#jod-room .jod-page-left, #jod-room .jod-page-right {
+  position: absolute; top: 0; height: 100%; width: 50%;
+  opacity: 0; transition: opacity 0.9s ease;
+}
+#jod-room .jod-page-left.open, #jod-room .jod-page-right.open { opacity: 1; }
+#jod-room .jod-page-left {
+  left: 0;
+  background: linear-gradient(108deg, #f8f3ea 0%, #f0e9d8 100%);
+  border-radius: 12px 2px 2px 12px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: 6% 5%;
+  box-shadow: inset -6px 0 18px rgba(0,0,0,0.06), 0 20px 60px rgba(0,0,10,0.45);
+}
+#jod-room .jod-ornament { font-family: 'IM Fell English', serif; font-size: max(14px, 2.4cqh); letter-spacing: 0.5em; color: rgba(90,60,30,0.18); margin-bottom: 4%; }
+#jod-room .jod-q-text {
+  font-style: italic; font-size: max(14px, 3.1cqh); line-height: 1.85;
+  color: rgba(65,42,20,0.72); text-align: center; letter-spacing: 0.015em; white-space: pre-line;
+}
+#jod-room .jod-q-rule { width: 48px; height: 1px; background: rgba(140,105,65,0.28); margin: 3% auto; }
+#jod-room .jod-q-author { font-size: max(11px, 2cqh); color: rgba(90,65,35,0.50); letter-spacing: 0.2em; text-transform: uppercase; text-align: center; }
+
+#jod-room .jod-page-right {
+  right: 0;
+  background: linear-gradient(to right, #f0e9d8 0%, #f8f3ea 100%);
+  border-radius: 2px 12px 12px 2px;
+  box-shadow: inset 6px 0 18px rgba(0,0,0,0.05), 0 20px 60px rgba(0,0,10,0.45);
+  display: flex; flex-direction: column;
+  padding: 4% 4.5% 3% 4%;
+  pointer-events: none;
+}
+#jod-room .jod-page-right.typeable { pointer-events: all; }
+#jod-room .jod-date { font-style: italic; font-size: max(11px, 1.9cqh); color: rgba(100,72,42,0.55); letter-spacing: 0.22em; text-align: right; flex-shrink: 0; margin-bottom: 8px; }
+#jod-room .jod-lined { position: relative; flex: 1; overflow: hidden; }
+#jod-room .jod-lined::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none; z-index: 1;
+  background: repeating-linear-gradient(to bottom,
+    transparent 0px, transparent calc(var(--lh) - 1px),
+    rgba(145,110,70,0.22) calc(var(--lh) - 1px), rgba(145,110,70,0.22) var(--lh));
+}
+#jod-room .jod-ta {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  background: transparent; border: none; outline: none; resize: none; box-shadow: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: calc(var(--lh) * 0.58); line-height: var(--lh);
+  color: rgba(45,28,10,0.85); caret-color: rgba(80,50,18,0.85);
+  padding: 0 2px; letter-spacing: 0.01em; z-index: 2; overflow: hidden;
+}
+#jod-room .jod-ta::placeholder { color: rgba(140,105,65,0.36); font-style: italic; }
+#jod-room .jod-count { flex-shrink: 0; text-align: right; font-style: italic; font-size: max(10px, 1.6cqh); color: rgba(100,72,42,0.32); letter-spacing: 0.15em; margin-top: 6px; }
+#jod-room .jod-dl {
+  flex-shrink: 0; align-self: flex-end; background: none; border: none; padding: 5px 0 0;
+  font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: max(13px, 2.2cqh); letter-spacing: 0.2em;
+  color: rgba(100,72,42,0.75); cursor: pointer; display: none;
+}
+#jod-room .jod-dl.active { display: block; }
+#jod-room .jod-dl:hover { color: rgba(100,72,42,1); }
+#jod-room .jod-dl.loading { opacity: 0.4; cursor: wait; }
+#jod-room .jod-again {
+  margin-top: 8px; align-self: flex-end; opacity: 0; pointer-events: none;
+  border: 1px solid rgba(120,86,45,0.26); background: rgba(255,248,232,0.46); color: rgba(70,42,18,0.62);
+  font-family: 'Cormorant Garamond', serif; font-size: max(13px, 2.1cqh); font-style: italic; letter-spacing: 0.08em;
+  padding: 6px 16px; border-radius: 999px; cursor: pointer; transition: opacity 0.7s ease, background 0.3s ease;
+}
+#jod-room .jod-again.visible { opacity: 1; pointer-events: all; }
+#jod-room .jod-again:hover { background: rgba(255,248,232,0.72); }
+#jod-room .jod-credit { position: absolute; left: 4%; bottom: 3%; z-index: 120; font-size: max(9px, 1.6cqh); letter-spacing: 0.08em; color: rgba(65,42,20,0.42); pointer-events: none; opacity: 0; transition: opacity 0.9s ease; }
+#jod-room .jod-credit.visible { opacity: 1; }
+
+/* Cover: closed book on the right, opens to the left like a real book */
+#jod-room .jod-cover-wrap { position: absolute; inset: 0; pointer-events: none; transform-style: preserve-3d; }
+#jod-room .jod-spine {
+  position: absolute; left: 50%; top: 3%; height: 94%; width: 9px; transform: translateX(-50%);
+  background: linear-gradient(to right, rgba(0,0,0,0.70) 0%, rgba(30,20,10,0.90) 45%, rgba(15,10,5,0.95) 55%, rgba(0,0,0,0.50) 100%);
+  border-radius: 2px; box-shadow: 0 0 14px rgba(0,0,0,0.85); z-index: 20; transition: opacity 0.4s ease;
+}
+#jod-room .jod-spine.gone { opacity: 0; }
+#jod-room .jod-cover {
+  position: absolute; right: 0; top: 0; width: 50%; height: 100%;
+  transform-origin: left center; transform-style: preserve-3d;
+  transition: transform 2.8s cubic-bezier(0.45, 0.05, 0.18, 1.0), opacity 0.35s ease 2.3s;
+}
+#jod-room .jod-cover.opening { transform: rotateY(-180deg); opacity: 0; }
+#jod-room .jod-cover.instant { transition: none; }
+#jod-room .jod-cover-face {
+  position: absolute; inset: 0; border-radius: 2px 12px 12px 2px;
+  background: linear-gradient(155deg, rgba(255,255,255,0.06) 0%, transparent 50%), linear-gradient(to right, #0a0918 0%, #0f1840 35%, #081228 70%, #050d1e 100%);
+  border: 1px solid rgba(130,165,255,0.16);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 8% 6%;
+  box-shadow: 0 20px 60px rgba(0,0,10,0.45);
+}
+#jod-room .jod-cover-inside {
+  position: absolute; inset: 0; display: none; border-radius: 12px 2px 2px 12px;
+  background: linear-gradient(to left, #0a0918 0%, #0f1840 45%, #081228 100%);
+  border: 1px solid rgba(130,165,255,0.12); transform: rotateY(180deg);
+}
+#jod-room .jod-cover.flipped .jod-cover-face { display: none; }
+#jod-room .jod-cover.flipped .jod-cover-inside { display: block; }
+#jod-room .jod-moon { font-size: max(24px, 6cqh); opacity: 0.52; filter: drop-shadow(0 0 14px rgba(120,170,255,0.65)); line-height: 1; color: rgba(220,235,255,0.88); }
+#jod-room .jod-title { text-align: center; }
+#jod-room .jod-title h1 {
+  font-family: 'IM Fell English', serif; font-size: max(18px, 5.4cqh); font-weight: 400; letter-spacing: 0.1em;
+  color: rgba(225,238,255,0.94); text-shadow: 0 0 28px rgba(130,185,255,0.85), 0 2px 8px rgba(0,0,0,0.7); margin-bottom: 4px;
+}
+#jod-room .jod-sub { font-style: italic; font-size: max(10px, 2.2cqh); color: rgba(165,200,255,0.60); letter-spacing: 0.3em; text-transform: uppercase; }
+#jod-room .jod-rule { width: 70px; height: 1px; background: linear-gradient(to right, transparent, rgba(165,200,255,0.50), transparent); margin: 6px auto; }
+</style>
+
+<div id="jod-room">
+  <div class="jod-stage">
+    <div class="jod-page-left" data-jod="left">
+      <div class="jod-ornament">&#10022; &#10022; &#10022;</div>
+      <p class="jod-q-text" data-jod="quote"></p>
+      <div class="jod-q-rule"></div>
+      <p class="jod-q-author" data-jod="author"></p>
+    </div>
+    <div class="jod-page-right" data-jod="right">
+      <div class="jod-date" data-jod="date"></div>
+      <div class="jod-lined">
+        <textarea class="jod-ta" data-jod="ta" placeholder="Your dream starts here&hellip;" spellcheck="false"></textarea>
+      </div>
+      <div class="jod-count" data-jod="count">0 words</div>
+      <button type="button" class="jod-dl" data-jod="dl">&darr; save this dream</button>
+      <button type="button" class="jod-again" data-jod="again">Start Again</button>
+    </div>
+    <div class="jod-cover-wrap">
+      <div class="jod-spine" data-jod="spine"></div>
+      <div class="jod-cover" data-jod="cover">
+        <div class="jod-cover-face">
+          <div class="jod-moon">&#9680;</div>
+          <div class="jod-title"><h1>Journal of Dreams</h1><div class="jod-rule"></div><span class="jod-sub">Nightly Reflections</span></div>
+          <div class="jod-moon" style="font-size:16px;opacity:0.28;">&middot; &middot; &middot;</div>
+        </div>
+        <div class="jod-cover-inside"></div>
+      </div>
+    </div>
+    <div class="jod-credit" data-jod="credit">The Window Seat @mariafuentes.co.uk</div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('jod-room');
+  if (!root || root.dataset.ready) return;
+  root.dataset.ready = '1';
+  var $ = function (k) { return root.querySelector('[data-jod="' + k + '"]'); };
+  var BG_URL = 'https://blmariabagc.github.io/BAGC6/journal-of-dreams-bg.jpg';
+
+  var QUOTES = [
+    { text: 'Dreams are the language the universe uses\nto speak directly to your soul.', author: '' },
+    { text: 'In the theater of sleep, you are both\nplaywright and audience.', author: '' },
+    { text: 'A dream you dream alone is only a dream.\nA dream you dream together is reality.', author: 'Yoko Ono' },
+    { text: 'Dreams are the touchstones\nof our character.', author: 'Henry David Thoreau' },
+    { text: 'In dreams begins responsibility.', author: 'W. B. Yeats' },
+    { text: 'Hold fast to dreams, for if dreams die,\nlife is a broken-winged bird\nthat cannot fly.', author: 'Langston Hughes' },
+    { text: 'Dreams are illustrations from the book\nyour soul is writing about you.', author: 'Marsha Norman' },
+    { text: 'The future belongs to those who believe\nin the beauty of their dreams.', author: 'Eleanor Roosevelt' },
+    { text: 'All that we see or seem\nis but a dream within a dream.', author: 'Edgar Allan Poe' },
+    { text: 'Dreams pass into the reality of action.\nFrom the action stems the dream again.', author: 'Ana\u00efs Nin' },
+    { text: 'Dreaming is the purest form\nof freedom we possess.', author: '' },
+    { text: 'Sleep is the best meditation.', author: 'Dalai Lama' },
+    { text: 'The dream reveals the reality\nwhich conception lags behind.', author: 'Franz Kafka' },
+    { text: 'Dreams are the royal road\nto the unconscious.', author: 'Sigmund Freud' },
+    { text: 'We are the music-makers,\nand we are the dreamers of dreams.', author: "Arthur O'Shaughnessy" },
+    { text: 'The soul at night becomes\nits own oracle.', author: '' },
+    { text: 'Your vision will become clear only\nwhen you look into your own heart.', author: 'Carl Jung' },
+    { text: 'In the world of dreams,\nevery night is a new beginning.', author: '' },
+    { text: "The dreamer's heart knows\nwhat the waking mind forgets.", author: '' },
+    { text: 'Every great dream begins with a dreamer.', author: 'Harriet Tubman' },
+    { text: 'Dreams are the seeds of change \u2014\nnothing ever grows without a seed.', author: '' },
+    { text: "To sleep, perchance to dream \u2014\nay, there's the rub.", author: 'Shakespeare' },
+    { text: 'The mind wanders at night\nwhere the body cannot follow.', author: '' },
+    { text: "Dreams are the mind's way of remembering\nwhat the heart already knows.", author: '' },
+    { text: 'Cherish your visions and your dreams,\nfor they are the children of your soul.', author: 'Napoleon Hill' },
+    { text: 'Night is a world lit by itself.', author: 'Antonio Porchia' },
+    { text: 'In sleep we are all equal \u2014\nall voyagers into the infinite.', author: '' },
+    { text: 'The dream is the small hidden door\nin the deepest levels of the soul.', author: 'Carl Jung' },
+    { text: 'Dream lofty dreams, and as you dream,\nso shall you become.', author: 'James Allen' },
+    { text: 'Even the darkest night will end\nand the sun will rise.', author: 'Victor Hugo' }
+  ];
+
+  var now = new Date();
+  var q = QUOTES[(now.getDate() - 1) % QUOTES.length];
+  $('quote').textContent = q.text;
+  $('author').textContent = q.author ? '\u2014 ' + q.author : '';
+  $('date').textContent = now.toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
+  var cover = $('cover'), spine = $('spine'), left = $('left'), right = $('right'),
+      ta = $('ta'), again = $('again'), credit = $('credit'), dl = $('dl'), count = $('count');
+  var timers = [];
+  function later(fn, ms) { timers.push(setTimeout(fn, ms)); }
+
+  // Reset to a closed book (keeps whatever the member has written)
+  function closeBook() {
+    timers.forEach(clearTimeout); timers = [];
+    cover.classList.add('instant');
+    cover.classList.remove('opening', 'flipped');
+    spine.classList.remove('gone');
+    [left, right].forEach(function (p) { p.classList.remove('open'); });
+    right.classList.remove('typeable');
+    again.classList.remove('visible'); credit.classList.remove('visible');
+    void cover.offsetWidth;
+    cover.classList.remove('instant');
+  }
+
+  // Play the opening, like a real book: the cover swings from right to left
+  function openBook() {
+    closeBook();
+    later(function () {
+      cover.classList.add('opening');
+      (function watchFlip() {
+        var m = new DOMMatrix(getComputedStyle(cover).transform);
+        if (m.m11 < 0) { cover.classList.add('flipped'); return; }
+        if (cover.classList.contains('opening')) requestAnimationFrame(watchFlip);
+      })();
+    }, 500);
+    later(function () { spine.classList.add('gone'); right.classList.add('open'); }, 1300);
+    later(function () { left.classList.add('open'); }, 3000);
+    later(function () {
+      right.classList.add('typeable'); again.classList.add('visible'); credit.classList.add('visible');
+      if (window.matchMedia('(pointer: fine)').matches) ta.focus({ preventScroll: true });
+    }, 3900);
+  }
+
+  // Open whenever the room shows the layer; reset when it is hidden again
+  var shown = false;
+  function isShown() { return root.offsetParent !== null && root.getClientRects().length > 0 && root.offsetWidth > 0; }
+  setInterval(function () {
+    var s = isShown();
+    if (s && !shown) openBook();
+    if (!s && shown) closeBook();
+    shown = s;
+  }, 250);
+
+  // Keep the room's keyboard shortcuts from firing while writing
+  ['keydown', 'keyup', 'keypress'].forEach(function (ev) {
+    ta.addEventListener(ev, function (e) { e.stopPropagation(); });
+  });
+
+  function updateCount() {
+    var t = ta.value.trim(), w = t ? t.split(/\s+/).length : 0;
+    count.textContent = w === 1 ? '1 word' : w + ' words';
+    dl.classList.toggle('active', t.length > 0);
+  }
+  ta.addEventListener('input', updateCount);
+  ta.addEventListener('keydown', function (e) {
+    if (e.key === 'Tab') {
+      e.preventDefault();
+      var s = ta.selectionStart;
+      ta.value = ta.value.slice(0, s) + '    ' + ta.value.slice(ta.selectionEnd);
+      ta.selectionStart = ta.selectionEnd = s + 4;
+    }
+  });
+  again.addEventListener('click', function () { ta.value = ''; updateCount(); ta.focus({ preventScroll: true }); });
+
+  // ── Save the dream as a picture ──
+  function rrect(ctx, x, y, w, h, tl, tr, br, bl) {
+    ctx.beginPath(); ctx.moveTo(x + tl, y); ctx.lineTo(x + w - tr, y); ctx.quadraticCurveTo(x + w, y, x + w, y + tr);
+    ctx.lineTo(x + w, y + h - br); ctx.quadraticCurveTo(x + w, y + h, x + w - br, y + h); ctx.lineTo(x + bl, y + h);
+    ctx.quadraticCurveTo(x, y + h, x, y + h - bl); ctx.lineTo(x, y + tl); ctx.quadraticCurveTo(x, y, x + tl, y); ctx.closePath();
+  }
+  function wrapLines(ctx, text, maxW) {
+    var out = [];
+    text.split('\n').forEach(function (para) {
+      if (!para.trim()) { out.push(''); return; }
+      var line = '';
+      para.split(' ').forEach(function (word) {
+        var test = line ? line + ' ' + word : word;
+        if (ctx.measureText(test).width > maxW && line) { out.push(line); line = word; } else line = test;
+      });
+      if (line) out.push(line);
+    });
+    return out;
+  }
+  function loadBg() {
+    return new Promise(function (res) {
+      var im = new Image(); im.crossOrigin = 'anonymous';
+      im.onload = function () { res(im); }; im.onerror = function () { res(null); };
+      im.src = BG_URL;
+    });
+  }
+  function draw(bgImg) {
+    var W = 1600, H = 980, c = document.createElement('canvas'); c.width = W; c.height = H;
+    var ctx = c.getContext('2d');
+    if (bgImg) ctx.drawImage(bgImg, 0, 0, W, H);
+    else { var bg = ctx.createLinearGradient(0, 0, W, H); bg.addColorStop(0, '#05101e'); bg.addColorStop(1, '#0c1e40'); ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H); }
+    var vig = ctx.createRadialGradient(W / 2, H / 2, 80, W / 2, H / 2, W * 0.72);
+    vig.addColorStop(0, 'rgba(0,0,0,0)'); vig.addColorStop(1, 'rgba(2,6,18,0.58)'); ctx.fillStyle = vig; ctx.fillRect(0, 0, W, H);
+    var BW = 1140, BH = 700, BX = (W - BW) / 2, BY = (H - BH) / 2, PW = BW / 2, SP = 12;
+    ctx.save(); ctx.shadowColor = 'rgba(0,0,5,0.70)'; ctx.shadowBlur = 60; ctx.shadowOffsetY = 28; ctx.fillStyle = '#000';
+    rrect(ctx, BX, BY, BW, BH, 14, 14, 14, 14); ctx.fill(); ctx.restore();
+    var g = ctx.createLinearGradient(BX, 0, BX + PW, 0); g.addColorStop(0, '#f8f3ea'); g.addColorStop(1, '#ede4cf');
+    ctx.fillStyle = g; rrect(ctx, BX, BY, PW, BH, 14, 0, 0, 14); ctx.fill();
+    g = ctx.createLinearGradient(BX + PW, 0, BX + BW, 0); g.addColorStop(0, '#e8dfc8'); g.addColorStop(1, '#f8f3ea');
+    ctx.fillStyle = g; rrect(ctx, BX + PW, BY, PW, BH, 0, 14, 14, 0); ctx.fill();
+    g = ctx.createLinearGradient(BX + PW - SP / 2, 0, BX + PW + SP / 2, 0);
+    g.addColorStop(0, 'rgba(0,0,0,0.65)'); g.addColorStop(0.5, 'rgba(18,10,4,0.95)'); g.addColorStop(1, 'rgba(0,0,0,0.45)');
+    ctx.fillStyle = g; ctx.fillRect(BX + PW - SP / 2, BY + 8, SP, BH - 16);
+    ctx.strokeStyle = 'rgba(145,110,70,0.15)'; ctx.lineWidth = 1;
+    var LS = 34, RTOP = BY + 76;
+    for (var y = RTOP; y < BY + BH - 18; y += LS) { ctx.beginPath(); ctx.moveTo(BX + PW + 22, y); ctx.lineTo(BX + BW - 22, y); ctx.stroke(); }
+    ctx.fillStyle = 'rgba(90,60,30,0.18)'; ctx.font = "18px 'IM Fell English', serif"; ctx.textAlign = 'center';
+    ctx.fillText('\u2726  \u2726  \u2726', BX + PW / 2, BY + 54);
+    ctx.fillStyle = 'rgba(62,40,18,0.74)'; ctx.font = "italic 18px 'Cormorant Garamond', serif";
+    var qLines = wrapLines(ctx, q.text.replace(/\n/g, ' '), PW - 90), qLH = 18 * 1.88, qY = BY + BH / 2 - (qLines.length * qLH) / 2;
+    qLines.forEach(function (ln) { ctx.fillText(ln, BX + PW / 2, qY); qY += qLH; });
+    qY += 6; ctx.strokeStyle = 'rgba(140,105,65,0.28)'; ctx.beginPath(); ctx.moveTo(BX + PW / 2 - 32, qY); ctx.lineTo(BX + PW / 2 + 32, qY); ctx.stroke(); qY += 20;
+    if (q.author) { ctx.fillStyle = 'rgba(90,65,35,0.48)'; ctx.font = "12px 'Cormorant Garamond', serif"; ctx.fillText('\u2014 ' + q.author, BX + PW / 2, qY); }
+    ctx.fillStyle = 'rgba(100,72,42,0.52)'; ctx.font = "italic 12px 'Cormorant Garamond', serif"; ctx.textAlign = 'right';
+    ctx.fillText($('date').textContent, BX + BW - 24, BY + 46);
+    ctx.fillStyle = 'rgba(45,28,10,0.82)'; ctx.font = "16px 'Cormorant Garamond', serif"; ctx.textAlign = 'left';
+    var dY = RTOP - 4;
+    wrapLines(ctx, ta.value || '', PW - 50).some(function (ln) { if (dY > BY + BH - 22) return true; ctx.fillText(ln, BX + PW + 22, dY); dY += LS; return false; });
+    ctx.fillStyle = 'rgba(180,210,255,0.22)'; ctx.font = "italic 14px 'IM Fell English', serif"; ctx.textAlign = 'center';
+    ctx.fillText('Journal of Dreams', W / 2, H - 26);
+    return c.toDataURL('image/png');
+  }
+  dl.addEventListener('click', function () {
+    if (!ta.value.trim()) return;
+    dl.classList.add('loading'); dl.textContent = '\u2726 preparing\u2026';
+    loadBg().then(function (img) {
+      var url;
+      try { url = draw(img); } catch (e) { url = draw(null); }
+      var a = document.createElement('a');
+      a.download = 'journal-of-dreams-' + new Date().toISOString().slice(0, 10) + '.png';
+      a.href = url; document.body.appendChild(a); a.click(); a.remove();
+      dl.classList.remove('loading'); dl.textContent = '\u2193 save this dream';
+    });
+  });
+})();
+</script>
