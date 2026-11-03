@@ -1,5 +1,5 @@
 {
-  "updated": "03 Nov 2026, 15:19 UTC",
+  "updated": "03 Nov 2026, 19:02 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "AI Turf Wars",
+      "link": "/2026/11/ai-turf-wars",
+      "date": "3 Nov 2026",
+      "excerpt": "The latest from The Insider newsletter, including advice about executive conflict during AI projects and an interview with former American Express CEO Kenneth Chenault.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Outsourcing Can’t Fix a Broken Organization",
       "link": "/2026/11/outsourcing-cant-fix-a-broken-organization",
       "date": "3 Nov 2026",
@@ -107,24 +116,6 @@
       "link": "/2026/11/boards-need-conflict-to-make-better-decisions-heres-what-holds-them-back",
       "date": "2 Nov 2026",
       "excerpt": "Research suggests that concerns about status, relationships with fellow directors, and the CEO’s reaction can discourage directors from sharing valuable insights.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The “Human-in-the-Loop” Fallacy",
-      "link": "/2026/11/the-human-in-the-loop-fallacy",
-      "date": "2 Nov 2026",
-      "excerpt": "Why putting people in charge of checking AI’s work is a losing strategy—and what leaders need to do instead.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Are Microsoft’s Voluntary Buyouts a Sign of What’s to Come?",
-      "link": "/2026/10/are-microsofts-voluntary-buyouts-a-sign-of-whats-to-come",
-      "date": "30 Oct 2026",
-      "excerpt": "A Q&#38;A with University of Colorado Denver’s Wayne Cascio on how companies can preserve morale and retain talent—and whether employees should accept the offer.",
       "image": ""
     },
     {
@@ -211,20 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Asda hires ex-Morrisons boss in bid to grow firm",
+      "link": "https://www.bbc.co.uk/news/articles/c6vg0xzd0ln4o?at_medium=RSS&at_campaign=rss",
+      "date": "3 Nov 2026",
+      "excerpt": "David Potts takes charge of Asda, which is based in Leeds, with immediate effect.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4bba/live/70863010-d794-11f1-801d-cf196dc7232c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'Quiet quitting' could be hitting the economy - here's why",
       "link": "https://www.bbc.co.uk/news/articles/cw23d5z87drpo?at_medium=RSS&at_campaign=rss",
       "date": "3 Nov 2026",
       "excerpt": "Britons have become less engaged with the jobs they do and are less willing to put in extra effort, a report has found.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5666/live/b5686c80-d793-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Shop freezers in seven European countries hit by cyber-attack",
-      "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Nov 2026",
-      "excerpt": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31c7/live/152ec730-d6c3-11f1-93e1-3b657b665bcf.jpg"
     },
     {
       "source": "BBC Business",
