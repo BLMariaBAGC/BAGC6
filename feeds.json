@@ -1,6 +1,15 @@
 {
-  "updated": "03 Nov 2026, 02:05 UTC",
+  "updated": "03 Nov 2026, 11:36 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover new Alzheimer’s drug that repairs DNA damage and reduces brain inflammation",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm",
+      "date": "2 Nov 2026",
+      "excerpt": "Scientists have discovered that a drug originally developed for spinal cord injuries can tackle several key features of Alzheimer’s disease, including DNA damage and inflammation. Already tested for initial safety in humans, the experimenta",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -17,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261031221157.htm",
       "date": "1 Nov 2026",
       "excerpt": "A major new review challenges the growing enthusiasm for medical cannabis as an insomnia treatment, finding little reliable evidence that it improves sleep quality, sleep duration, or daytime functioning. Researchers caution that this doesn",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists reverse liver cell aging and cut Alzheimer’s-linked protein in half",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261031221155.htm",
+      "date": "2 Nov 2026",
+      "excerpt": "A surprising discovery suggests that rejuvenating the liver could help protect against Alzheimer’s disease and heart disease. USC researchers found that an experimental drug restored aging liver cells in rats, cutting levels of an Alzheimer",
       "image": ""
     },
     {
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
       "date": "30 Oct 2026",
       "excerpt": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with the highest-risk individuals facing a 38% chance of impairment within five years and an e",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Six popular sugar substitutes linked to faster brain aging",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261028234238.htm",
-      "date": "29 Oct 2026",
-      "excerpt": "A study of nearly 13,000 adults found that people consuming the most artificial sweeteners experienced a 62% faster decline in memory and thinking skills, equivalent to approximately 1.6 additional years of brain aging. Six popular sweetene",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Less than 42 minutes of bright daylight linked to higher dementia risk",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261028232707.htm",
-      "date": "29 Oct 2026",
-      "excerpt": "Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found that higher daytime light exposure was associated with a 16% lower risk of dementia, with lo",
       "image": ""
     },
     {
@@ -128,67 +128,31 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Employees have no incentive to disclose how productive AI makes them",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/02/employees-have-no-incentive-to-disclose-how-productive-ai-makes-them/",
-      "date": "2 Nov 2026",
-      "excerpt": "The harder a company pushes to measure individual AI productivity, the stronger the reason it gives each employee using it to keep that productivity out of view. So the gains leaders most need to see become the ones employees have the least",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Mixed emotions can make work more difficult for pregnant employees",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/30/mixed-emotions-can-make-work-more-difficult-for-pregnant-employees/",
-      "date": "30 Oct 2026",
-      "excerpt": "Emotional ambivalence – the simultaneous experience of positive and negative feelings at work – may undermine employees navigating complex work situations. Dave Arena Jr., Phoenix Chen, Allie Gabriel and Kristen Jones find that among pregna",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Lessons from the Singaporean model of entrepreneurship",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/29/lessons-from-the-singaporean-model-of-entrepreneurship/",
-      "date": "29 Oct 2026",
-      "excerpt": "Singapore’s economic clout belies its tiny size. Boya Yang shows how its development raises questions about the practice of entrepreneurship, and government’s role in creating the opportunities, support mechanisms and skills that entreprene",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Restructures are on the rise – but organisations ignore the repair work that makes them function",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/28/restructures-are-on-the-rise-but-organisations-ignore-the-repair-work-that-makes-them-function/",
-      "date": "28 Oct 2026",
-      "excerpt": "Organisations budget for the redesign but not for the work of making the new design liveable. Alice Stephenson argues that this uncosted repair labour is both essential to whether a restructure succeeds and likely to fall disproportionately",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The “bamboo ceiling” is a management problem, not a diversity one",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/27/the-bamboo-ceiling-is-a-management-problem-not-a-diversity-one/",
-      "date": "27 Oct 2026",
-      "excerpt": "Twenty years ago the term “bamboo ceiling” was first used to describe the barriers to Asian Americans leading multinational firms. And the numbers have barely moved since. But Eugene Cha-Navarro argues that the traits blamed for holding Asi",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is freelance work, or the four-day week, the best way to reclaim our time?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/26/is-freelance-work-or-the-four-day-week-the-best-way-to-reclaim-our-time/",
-      "date": "26 Oct 2026",
-      "excerpt": "Many workers choose to work as freelancers to avoid intense and long work hours. But that is not always what they get. See Pok Loa finds that many freelance workers feel intense pressure to be busy both at work and at leisure. He describes ",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Drivers may get compensation offers before car finance saga ends",
+      "link": "https://www.bbc.co.uk/news/articles/cqrky5nxxn4po?at_medium=RSS&at_campaign=rss",
+      "date": "3 Nov 2026",
+      "excerpt": "The regulator says it supports lenders offering early compensation offers, as long as they are fair.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe5c/live/9c202ea0-d6dc-11f1-b2be-0146bf989691.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Ryanair says it may freeze workers' pay and raise airfares",
-      "link": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
-      "date": "2 Nov 2026",
-      "excerpt": "The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/895b/live/a85523b0-d691-11f1-8f56-0b6ab08f384e.jpg"
+      "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+      "link": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Nov 2026",
+      "excerpt": "The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a94/live/6d035ba0-d778-11f1-a701-fddedf244c16.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'Quiet quitting' could be hitting the economy - here's why",
+      "link": "https://www.bbc.co.uk/news/articles/cw23d5z87drpo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Nov 2026",
+      "excerpt": "Britons have become less engaged with the jobs they do and are less willing to put in extra effort, a report has found.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd90/live/95d1b5d0-d76a-11f1-a956-ff083523ef77.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,29 +175,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Apple unsure when more foldable iPhones will be available after selling out",
-      "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
+      "title": "From scooters to shampoo - the people saving hundreds from dumpster diving",
+      "link": "https://www.bbc.co.uk/news/articles/cm86zdp2ygqno?at_medium=RSS&at_campaign=rss",
       "date": "3 Nov 2026",
-      "excerpt": "Apple’s foldable iPhone Duo was a hit with people willing to spend $2,000 on a new mobile.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b2b/live/05d33ff0-d71d-11f1-b723-458a2ded4fa2.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Poundland's former owner offers to invest as minister prepares to meet board",
-      "link": "https://www.bbc.co.uk/news/articles/ck1wv1j0xgywo?at_medium=RSS&at_campaign=rss",
-      "date": "2 Nov 2026",
-      "excerpt": "Wolverhampton's Steve Smith said he wants to put some money back into the firm he started.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e116/live/dde58360-d6ca-11f1-ac20-7783925c811f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
-      "link": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
-      "date": "2 Nov 2026",
-      "excerpt": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a7f/live/ad865b20-d64f-11f1-a701-fddedf244c16.jpg"
+      "excerpt": "The men and women who rummage through commercial bins to take clothes and other items.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb7f/live/0436c4d0-d75b-11f1-b441-2b33b063138f.jpg"
     }
   ]
 }
