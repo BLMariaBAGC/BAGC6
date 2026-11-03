@@ -435,12 +435,16 @@ const QUOTES = [
   { text: 'Even the darkest night will end\nand the sun will rise.', author: 'Victor Hugo' },
 ];
 
-// ── Back button: close this tab if the room opened it, otherwise go to the Window Seat ──
+// ── Back button ──
+// The room opens the diary in a new tab and stays on the Nebula scene behind it,
+// so closing this tab returns the member to the Nebula exactly where they were.
+// If the browser refuses to close the tab (e.g. the page was opened directly),
+// fall back to the Window Seat link.
 document.getElementById('backBtn').addEventListener('click', e => {
-  if (window.opener && !window.opener.closed) {
-    e.preventDefault();
-    window.close();
-  }
+  e.preventDefault();
+  const fallback = e.currentTarget.href;
+  try { window.close(); } catch (err) {}
+  setTimeout(() => { if (!window.closed) window.location.href = fallback; }, 400);
 });
 
 // ── Populate content ──────────────────────────────────────
