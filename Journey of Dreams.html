@@ -330,6 +330,15 @@ body {
 }
 .back-btn:hover { background: rgba(5,16,30,0.8); border-color: rgba(212,168,83,0.9); }
 .back-btn .arrow { font-size: 20px; line-height: 1; color: #D4A853; }
+.back-hint {
+  position: fixed; top: 76px; left: 24px; z-index: 200; max-width: 300px;
+  padding: 12px 16px; border-radius: 12px;
+  background: rgba(5,16,30,0.82); border: 1px solid rgba(212,168,83,0.55);
+  color: rgba(243,234,216,0.95); font-family: 'Cormorant Garamond', serif;
+  font-size: 16px; line-height: 1.4;
+  opacity: 0; pointer-events: none; transition: opacity 0.4s ease;
+}
+.back-hint.visible { opacity: 1; }
 
 /* Phones held sideways and other short screens: compact arrow-only back button */
 @media (max-height: 500px) {
@@ -351,7 +360,8 @@ body {
 </head>
 <body>
 
-<a class="back-btn" id="backBtn" aria-label="Back to the Window Seat" href="https://go.rippily.com/wave/ddd2feb5/90a68243"><span class="arrow">&larr;</span> Back to the Window Seat</a>
+<a class="back-btn" id="backBtn" aria-label="Back to the Nebula" href="#"><span class="arrow">&larr;</span> Back to the Nebula</a>
+<div class="back-hint" id="backHint">Your Nebula is still open in the previous tab.<br>Close this tab to return to it.</div>
 
 <div class="particles" id="particles"></div>
 
@@ -442,9 +452,12 @@ const QUOTES = [
 // fall back to the Window Seat link.
 document.getElementById('backBtn').addEventListener('click', e => {
   e.preventDefault();
-  const fallback = e.currentTarget.href;
   try { window.close(); } catch (err) {}
-  setTimeout(() => { if (!window.closed) window.location.href = fallback; }, 400);
+  // If the browser will not let a page close its own tab, never send the member
+  // to the Window Seat's first scene: tell them how to get back to the Nebula instead.
+  setTimeout(() => {
+    if (!window.closed) document.getElementById('backHint').classList.add('visible');
+  }, 400);
 });
 
 // ── Populate content ──────────────────────────────────────
