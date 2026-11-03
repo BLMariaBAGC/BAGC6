@@ -1,5 +1,5 @@
 {
-  "updated": "03 Nov 2026, 13:34 UTC",
+  "updated": "03 Nov 2026, 15:19 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Outsourcing Can’t Fix a Broken Organization",
+      "link": "/2026/11/outsourcing-cant-fix-a-broken-organization",
+      "date": "3 Nov 2026",
+      "excerpt": "In fact, it can make existing problems worse.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The Topics We Avoid at Work—and How to Start Talking About Them",
       "link": "/podcast/2026/11/the-topics-we-avoid-at-work-and-how-to-start-talking-about-them",
       "date": "3 Nov 2026",
@@ -116,15 +125,6 @@
       "link": "/2026/10/are-microsofts-voluntary-buyouts-a-sign-of-whats-to-come",
       "date": "30 Oct 2026",
       "excerpt": "A Q&#38;A with University of Colorado Denver’s Wayne Cascio on how companies can preserve morale and retain talent—and whether employees should accept the offer.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Employee Engagement Is Tanking. These HBR Articles Can Help.",
-      "link": "/2026/10/employee-engagement-is-tanking-these-hbr-articles-can-help",
-      "date": "30 Oct 2026",
-      "excerpt": "Eight articles to help you understand what employees need to feel motivated, valued, and invested in their work.",
       "image": ""
     },
     {
@@ -184,15 +184,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Drivers may get compensation offers before car finance saga ends",
-      "link": "https://www.bbc.co.uk/news/articles/cqrky5nxxn4po?at_medium=RSS&at_campaign=rss",
-      "date": "3 Nov 2026",
-      "excerpt": "The regulator says it supports lenders offering early compensation offers, as long as they are fair.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe5c/live/9c202ea0-d6dc-11f1-b2be-0146bf989691.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
       "link": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
       "date": "3 Nov 2026",
@@ -202,11 +193,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Drivers may get compensation offers before car finance saga ends",
+      "link": "https://www.bbc.co.uk/news/articles/cqrky5nxxn4po?at_medium=RSS&at_campaign=rss",
+      "date": "3 Nov 2026",
+      "excerpt": "The regulator says it supports lenders offering early compensation offers, as long as they are fair.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe5c/live/9c202ea0-d6dc-11f1-b2be-0146bf989691.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Mining giant joins fight to stop killer toad march across Australia",
+      "link": "https://www.bbc.co.uk/news/articles/c3dxw8p99ervo?at_medium=RSS&at_campaign=rss",
+      "date": "3 Nov 2026",
+      "excerpt": "Rio Tinto is jointly funding a A$28m \"toad containment zoe\" to protect the Pilbara region.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1be5/live/c655d960-d770-11f1-a956-ff083523ef77.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "'Quiet quitting' could be hitting the economy - here's why",
       "link": "https://www.bbc.co.uk/news/articles/cw23d5z87drpo?at_medium=RSS&at_campaign=rss",
       "date": "3 Nov 2026",
       "excerpt": "Britons have become less engaged with the jobs they do and are less willing to put in extra effort, a report has found.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd90/live/95d1b5d0-d76a-11f1-a956-ff083523ef77.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5666/live/b5686c80-d793-11f1-a701-fddedf244c16.jpg"
     },
     {
       "source": "BBC Business",
@@ -216,15 +225,6 @@
       "date": "2 Nov 2026",
       "excerpt": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/31c7/live/152ec730-d6c3-11f1-93e1-3b657b665bcf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "North Korea denies being behind record $6.3bn Binance hack",
-      "link": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Nov 2026",
-      "excerpt": "US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a90/live/75145840-d727-11f1-b237-93d5595d4291.jpg"
     },
     {
       "source": "BBC Business",
