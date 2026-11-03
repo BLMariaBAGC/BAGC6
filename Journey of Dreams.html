@@ -445,6 +445,11 @@ const QUOTES = [
   { text: 'Even the darkest night will end\nand the sun will rise.', author: 'Victor Hugo' },
 ];
 
+// ── Inside the Rippily room (embedded), the room's own close cross is used instead ──
+if (window.self !== window.top) {
+  document.getElementById('backBtn').style.display = 'none';
+}
+
 // ── Back button ──
 // The room opens the diary in a new tab and stays on the Nebula scene behind it,
 // so closing this tab returns the member to the Nebula exactly where they were.
