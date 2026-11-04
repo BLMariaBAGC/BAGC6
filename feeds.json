@@ -1,5 +1,5 @@
 {
-  "updated": "04 Nov 2026, 21:17 UTC",
+  "updated": "04 Nov 2026, 21:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -175,10 +175,19 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
+      "title": "Pound rises to its highest level since the Brexit referendum",
+      "link": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
+      "date": "4 Nov 2026",
+      "excerpt": "Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d226/live/51085d40-d897-11f1-bffe-b94c467713ac.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
       "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
       "date": "4 Nov 2026",
-      "excerpt": "The billionaire's political action committee (Pac) contributed $47m (£35m) to Ken Paxton's campaign.",
+      "excerpt": "Musk spent nearly $500m in the 2026 US midterm elections, an individual election spending record.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ae2/live/ce22be10-d851-11f1-b710-b15e87d8ef65.jpg"
     },
     {
@@ -216,15 +225,6 @@
       "date": "3 Nov 2026",
       "excerpt": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b517/live/8d68c970-d7a0-11f1-84dd-e55f4bec0ecd.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Graduates are managing AI - but are they learning much else?",
-      "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
-      "date": "4 Nov 2026",
-      "excerpt": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bf4/live/9fa4f600-d844-11f1-a701-fddedf244c16.jpg"
     }
   ]
 }
