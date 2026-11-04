@@ -322,6 +322,8 @@ const PLAYLISTS = {
 
 const catKeys = Object.keys(PLAYLISTS);
 let activeCat = catKeys[0], c = 0, pl = false, listOpen = false;
+/* Optional ?cat=<playlist name> picks the starting playlist (e.g. ?cat=20s); other rooms are unchanged. */
+try{const q=new URLSearchParams(location.search).get('cat');if(q&&PLAYLISTS[q])activeCat=q;}catch(e){}
 const au = document.getElementById('au');
 const tracks = () => PLAYLISTS[activeCat].tracks;
 const base   = () => PLAYLISTS[activeCat].base;
