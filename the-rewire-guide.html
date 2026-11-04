@@ -311,16 +311,40 @@ var BENEDICT_VOICE_ID = 'oaGwHLz3csUaSnc2NBD4'; // Benedict
 var ttsAudio = null;
 // One shared audio player. iPhone and iPad only allow sound from a player that was first
 // started by a tap, so we unlock it on the first touch and reuse it for every reply.
-var benedictPlayer = new Audio();
-benedictPlayer.setAttribute('playsinline','');
-var playerUnlocked = false;
+var AC = window.AudioContext || window.webkitAudioContext;
+var audioCtx = null;
 var pendingTtsUrl = null;
-var SILENT_MP3 = 'data:audio/mpeg;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjYwLjE2LjEwMAAAAAAAAAAAAAAA//NwwAAAAAAAAAAAAEluZm8AAAAPAAAABgAAAykAWlpaWlpaWlpaWlpaWlpaWnt7e3t7e3t7e3t7e3t7e3t7nJycnJycnJycnJycnJycnL29vb29vb29vb29vb29vb293t7e3t7e3t7e3t7e3t7e3t7/////////////////////AAAAAExhdmM2MC4zMQAAAAAAAAAAAAAAACQCowAAAAAAAAMpso+sIAAAAAAAAAAAAAAAAAD/80DEAAAAA0gAAAAATEFNRTMuMTAwVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQsRbAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQMSkAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//NCxKMAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//NAxKQAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/80LEowAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVU=';
-function unlockPlayer(){
-  if(playerUnlocked) return;
-  playerUnlocked = true;
-  if(!benedictPlayer.paused && !benedictPlayer.ended) return; // already playing, so it is unlocked
-  try{ benedictPlayer.src = SILENT_MP3; var u = benedictPlayer.play(); if(u && u.catch) u.catch(function(){ playerUnlocked = false; }); }catch(e){ playerUnlocked = false; }
+// A small player with the same shape as an Audio element, built on Web Audio.
+// Once any tap has woken the audio engine, every later reply can play without another tap.
+var benedictPlayer = {
+  src: '', paused: true, ended: false, currentTime: 0, onended: null, onerror: null, _node: null, _tok: 0,
+  play: function(){
+    var self = this, tok = ++self._tok, url = self.src;
+    if(!AC){ var el = new Audio(url); self._el = el; el.onended = function(){ self.paused = true; self.ended = true; if(self.onended) self.onended(); }; self.paused = false; self.ended = false; return el.play(); }
+    if(!audioCtx) audioCtx = new AC();
+    if(audioCtx.state !== 'running'){ try{ audioCtx.resume(); }catch(e){} }
+    self.paused = false; self.ended = false;
+    return fetch(url).then(function(r){ return r.arrayBuffer(); }).then(function(buf){
+      return new Promise(function(res, rej){ audioCtx.decodeAudioData(buf, res, rej); });
+    }).then(function(audio){
+      if(tok !== self._tok) return;
+      if(audioCtx.state !== 'running'){ self.paused = true; throw new Error('blocked'); }
+      var n = audioCtx.createBufferSource(); n.buffer = audio; n.connect(audioCtx.destination);
+      n.onended = function(){ if(tok !== self._tok) return; self.paused = true; self.ended = true; self._node = null; if(self.onended) self.onended(); };
+      self._node = n; n.start(0); self.currentTime = audio.duration;
+    }).catch(function(e){ self.paused = true; throw e; });
+  },
+  pause: function(){ this._tok++; this.paused = true; try{ if(this._node){ this._node.onended = null; this._node.stop(); } }catch(e){} this._node = null; try{ if(this._el) this._el.pause(); }catch(e){} }
+};
+function unlockPlayer(e){
+  // A blocked greeting should not hijack the microphone bar once the member does something else.
+  if(pendingTtsUrl && e && e.target && !(e.target.closest && e.target.closest('#speaking-bar'))){ pendingTtsUrl = null; hideSpeakingBar(); }
+  if(!AC) return;
+  try{
+    if(!audioCtx) audioCtx = new AC();
+    if(audioCtx.state !== 'running') audioCtx.resume();
+    var b = audioCtx.createBuffer(1, 1, 22050), n = audioCtx.createBufferSource(); n.buffer = b; n.connect(audioCtx.destination); n.start(0);
+  }catch(e){}
 }
 ['touchstart','touchend','click','keydown'].forEach(function(ev){ document.addEventListener(ev, unlockPlayer, true); });
 
@@ -503,7 +527,7 @@ async function speakText(text, btn) {
   try {
     var r = await fetch(TTS_URL, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-voice-id': BENEDICT_VOICE_ID },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ text: clean, voice_id: BENEDICT_VOICE_ID, voiceId: BENEDICT_VOICE_ID })
     });
     if (!r.ok) throw new Error('TTS request failed: ' + r.status);
