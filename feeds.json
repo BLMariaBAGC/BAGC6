@@ -1,5 +1,5 @@
 {
-  "updated": "04 Nov 2026, 08:36 UTC",
+  "updated": "04 Nov 2026, 12:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -121,6 +121,24 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How can we stop buying so much stuff? Importers are bypassing the usual customs and safety standards",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-importers-are-bypassing-the-usual-customs-and-safety-standards/",
+      "date": "4 Nov 2026",
+      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Lilia Akatova describes why ultra-fast fashion has overtaken fast fashion and what we should consider before we buy something new. Lilia was talking to Sue Windebank. Ultra-fas",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can we stop buying so much stuff? “Everything is facilitated for you to consume.”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/03/how-can-we-stop-buying-so-much-stuff-everything-is-facilitated-for-you-to-consume/",
+      "date": "3 Nov 2026",
+      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Fred Basso explains the psychology of buying things and his belief in a model of economic democracy. Fred was talking to Sue Windebank. There is this assumption that we find in",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Employees have no incentive to disclose how productive AI makes them",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/02/employees-have-no-incentive-to-disclose-how-productive-ai-makes-them/",
       "date": "2 Nov 2026",
@@ -155,31 +173,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The “bamboo ceiling” is a management problem, not a diversity one",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/27/the-bamboo-ceiling-is-a-management-problem-not-a-diversity-one/",
-      "date": "27 Oct 2026",
-      "excerpt": "Twenty years ago the term “bamboo ceiling” was first used to describe the barriers to Asian Americans leading multinational firms. And the numbers have barely moved since. But Eugene Cha-Navarro argues that the traits blamed for holding Asi",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is freelance work, or the four-day week, the best way to reclaim our time?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/26/is-freelance-work-or-the-four-day-week-the-best-way-to-reclaim-our-time/",
-      "date": "26 Oct 2026",
-      "excerpt": "Many workers choose to work as freelancers to avoid intense and long work hours. But that is not always what they get. See Pok Loa finds that many freelance workers feel intense pressure to be busy both at work and at leisure. He describes ",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Poundland supplier 'will lose millions' if retailer collapses",
       "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
       "date": "4 Nov 2026",
-      "excerpt": "One of Poundland's suppliers will lose millions if it collapses, while other suppliers have said they would go under.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6765/live/8fa4b8d0-d826-11f1-93e1-3b657b665bcf.jpg"
+      "excerpt": "Highcrest Retail Brands says it will lose millions if Poundland collapses, while other suppliers have said they would go under.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab84/live/f1489920-d831-11f1-b441-2b33b063138f.jpg"
     },
     {
       "source": "BBC Business",
@@ -193,7 +193,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "No more rice grains in Kellogg's Rice Krispies due to changing weather",
+      "title": "Uproar over missing 'pop' as Rice Krispies changes its recipe",
       "link": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
       "date": "4 Nov 2026",
       "excerpt": "The new recipes mean cereal packaging will now include a 'contains wheat gluten' warning.",
@@ -224,7 +224,7 @@
       "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
       "date": "4 Nov 2026",
       "excerpt": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82d9/live/cc0124d0-cd54-11f1-a64c-550be9e3c66b.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bf4/live/9fa4f600-d844-11f1-a701-fddedf244c16.jpg"
     }
   ]
 }
