@@ -1,5 +1,5 @@
 {
-  "updated": "04 Nov 2026, 00:22 UTC",
+  "updated": "04 Nov 2026, 08:36 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -40,6 +40,15 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "Kids who eat more ultra-processed foods show a troubling brain response",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261101010549.htm",
+      "date": "3 Nov 2026",
+      "excerpt": "A new study suggests that ultra-processed foods may influence children's developing brains in ways that encourage weight gain. Researchers from USC studied 46 children ages 7 to 10 and found that those who ate more ultra-processed foods sho",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "Scientists find surprisingly little evidence that medical cannabis helps you sleep",
       "link": "https://www.sciencedaily.com/releases/2026/10/261031221157.htm",
       "date": "1 Nov 2026",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/10/261031013035.htm",
       "date": "1 Nov 2026",
       "excerpt": "A UCLA study found that long-term exposure to a common pesticide was linked to more than 2.5 times the risk of Parkinson's disease. Scientists also uncovered how the chemical damages brain cells and identified a promising way to protect the",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists use sound waves to deliver a new attack on deadly brain cancer",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261030003017.htm",
-      "date": "1 Nov 2026",
-      "excerpt": "Scientists at the University of Virginia have developed a promising new strategy to fight glioblastoma, one of the deadliest and most difficult-to-treat forms of brain cancer. Their experimental approach combines focused ultrasound, tiny na",
       "image": ""
     },
     {
@@ -119,13 +119,67 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Employees have no incentive to disclose how productive AI makes them",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/02/employees-have-no-incentive-to-disclose-how-productive-ai-makes-them/",
+      "date": "2 Nov 2026",
+      "excerpt": "The harder a company pushes to measure individual AI productivity, the stronger the reason it gives each employee using it to keep that productivity out of view. So the gains leaders most need to see become the ones employees have the least",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Mixed emotions can make work more difficult for pregnant employees",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/30/mixed-emotions-can-make-work-more-difficult-for-pregnant-employees/",
+      "date": "30 Oct 2026",
+      "excerpt": "Emotional ambivalence – the simultaneous experience of positive and negative feelings at work – may undermine employees navigating complex work situations. Dave Arena Jr., Phoenix Chen, Allie Gabriel and Kristen Jones find that among pregna",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Lessons from the Singaporean model of entrepreneurship",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/29/lessons-from-the-singaporean-model-of-entrepreneurship/",
+      "date": "29 Oct 2026",
+      "excerpt": "Singapore’s economic clout belies its tiny size. Boya Yang shows how its development raises questions about the practice of entrepreneurship, and government’s role in creating the opportunities, support mechanisms and skills that entreprene",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Restructures are on the rise – but organisations ignore the repair work that makes them function",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/28/restructures-are-on-the-rise-but-organisations-ignore-the-repair-work-that-makes-them-function/",
+      "date": "28 Oct 2026",
+      "excerpt": "Organisations budget for the redesign but not for the work of making the new design liveable. Alice Stephenson argues that this uncosted repair labour is both essential to whether a restructure succeeds and likely to fall disproportionately",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The “bamboo ceiling” is a management problem, not a diversity one",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/27/the-bamboo-ceiling-is-a-management-problem-not-a-diversity-one/",
+      "date": "27 Oct 2026",
+      "excerpt": "Twenty years ago the term “bamboo ceiling” was first used to describe the barriers to Asian Americans leading multinational firms. And the numbers have barely moved since. But Eugene Cha-Navarro argues that the traits blamed for holding Asi",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is freelance work, or the four-day week, the best way to reclaim our time?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/26/is-freelance-work-or-the-four-day-week-the-best-way-to-reclaim-our-time/",
+      "date": "26 Oct 2026",
+      "excerpt": "Many workers choose to work as freelancers to avoid intense and long work hours. But that is not always what they get. See Pok Loa finds that many freelance workers feel intense pressure to be busy both at work and at leisure. He describes ",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Poundland supplier 'will lose millions' if retailer collapses",
       "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
       "date": "4 Nov 2026",
       "excerpt": "One of Poundland's suppliers will lose millions if it collapses, while other suppliers have said they would go under.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/222a/live/3804e900-d7be-11f1-8a3d-5320e3fab176.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6765/live/8fa4b8d0-d826-11f1-93e1-3b657b665bcf.jpg"
     },
     {
       "source": "BBC Business",
@@ -139,29 +193,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "No more rice grains in Kellogg's Rice Krispies due to changing weather",
+      "link": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
+      "date": "4 Nov 2026",
+      "excerpt": "The new recipes mean cereal packaging will now include a 'contains wheat gluten' warning.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dfad/live/fe845730-d7e3-11f1-8a01-8d54cbcf7487.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
+      "date": "3 Nov 2026",
+      "excerpt": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b517/live/8d68c970-d7a0-11f1-84dd-e55f4bec0ecd.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Canva announces major job cuts after 'our hardest year yet'",
       "link": "https://www.bbc.co.uk/news/articles/cw77pg7neydmo?at_medium=RSS&at_campaign=rss",
       "date": "4 Nov 2026",
       "excerpt": "CEO Melanie Perkins says more than 1,000 staff will either lose their jobs or be asked to change roles.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d51/live/dae95de0-d7dc-11f1-ac18-75727aac8238.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Drivers may get compensation offers before car finance saga ends",
-      "link": "https://www.bbc.co.uk/news/articles/cqrky5nxxn4po?at_medium=RSS&at_campaign=rss",
-      "date": "3 Nov 2026",
-      "excerpt": "The regulator says it supports lenders offering early compensation offers, as long as they are fair.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe5c/live/9c202ea0-d6dc-11f1-b2be-0146bf989691.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Mining giant joins fight to stop killer toad march across Australia",
-      "link": "https://www.bbc.co.uk/news/articles/c3dxw8p99ervo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Nov 2026",
-      "excerpt": "Rio Tinto is jointly funding a A$28m \"toad containment zoe\" to protect the Pilbara region.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1be5/live/c655d960-d770-11f1-a956-ff083523ef77.jpg"
     },
     {
       "source": "BBC Business",
