@@ -1,5 +1,5 @@
 {
-  "updated": "04 Nov 2026, 13:56 UTC",
+  "updated": "04 Nov 2026, 14:03 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "What Sycophantic AI Can Cost Your Organization",
+      "link": "/2026/11/what-sycophantic-ai-can-cost-your-organization",
+      "date": "4 Nov 2026",
+      "excerpt": "Lessons from the UK’s largest telecommunications group, which redesigned AI-employee interactions to ensure they activate leaders’ vision, values, and strategy.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "You’re Reporting to a New C-Suite Leader. Here’s How to Build Influence Quickly.",
+      "link": "/2026/11/youre-reporting-to-a-new-c-suite-leader-heres-how-to-build-influence-quickly",
+      "date": "4 Nov 2026",
+      "excerpt": "Tactics for turning them into an advocate who sees you as a strategic partner.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "AI Turf Wars",
       "link": "/2026/11/ai-turf-wars",
       "date": "3 Nov 2026",
@@ -98,24 +116,6 @@
       "link": "/podcast/2026/11/the-topics-we-avoid-at-work-and-how-to-start-talking-about-them",
       "date": "3 Nov 2026",
       "excerpt": "A conversation with HBS senior lecturer Christina Wing on raising sensitive subjects with clarity and respect.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: When Workers Adapt Their Resumes to Fit the Political Moment",
-      "link": "/2026/11/research-when-workers-adapt-their-resumes-to-fit-the-political-moment",
-      "date": "2 Nov 2026",
-      "excerpt": "A study of 2.9 million U.S. workers found that employers tend to favor candidates who share their political leanings—even when they’re less qualified for the job.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Boards Need Conflict to Make Better Decisions. Here’s What Holds Them Back.",
-      "link": "/2026/11/boards-need-conflict-to-make-better-decisions-heres-what-holds-them-back",
-      "date": "2 Nov 2026",
-      "excerpt": "Research suggests that concerns about status, relationships with fellow directors, and the CEO’s reaction can discourage directors from sharing valuable insights.",
       "image": ""
     },
     {
@@ -175,7 +175,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Poundland owner in crunch talks with as retailer's collapse looms",
+      "title": "Poundland owner in crunch talks as retailer's collapse looms",
       "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
       "date": "4 Nov 2026",
       "excerpt": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.",
