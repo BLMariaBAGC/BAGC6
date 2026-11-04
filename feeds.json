@@ -1,5 +1,5 @@
 {
-  "updated": "03 Nov 2026, 19:02 UTC",
+  "updated": "04 Nov 2026, 00:22 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -119,58 +119,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Employees have no incentive to disclose how productive AI makes them",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/02/employees-have-no-incentive-to-disclose-how-productive-ai-makes-them/",
-      "date": "2 Nov 2026",
-      "excerpt": "The harder a company pushes to measure individual AI productivity, the stronger the reason it gives each employee using it to keep that productivity out of view. So the gains leaders most need to see become the ones employees have the least",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Mixed emotions can make work more difficult for pregnant employees",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/30/mixed-emotions-can-make-work-more-difficult-for-pregnant-employees/",
-      "date": "30 Oct 2026",
-      "excerpt": "Emotional ambivalence – the simultaneous experience of positive and negative feelings at work – may undermine employees navigating complex work situations. Dave Arena Jr., Phoenix Chen, Allie Gabriel and Kristen Jones find that among pregna",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Lessons from the Singaporean model of entrepreneurship",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/29/lessons-from-the-singaporean-model-of-entrepreneurship/",
-      "date": "29 Oct 2026",
-      "excerpt": "Singapore’s economic clout belies its tiny size. Boya Yang shows how its development raises questions about the practice of entrepreneurship, and government’s role in creating the opportunities, support mechanisms and skills that entreprene",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Restructures are on the rise – but organisations ignore the repair work that makes them function",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/28/restructures-are-on-the-rise-but-organisations-ignore-the-repair-work-that-makes-them-function/",
-      "date": "28 Oct 2026",
-      "excerpt": "Organisations budget for the redesign but not for the work of making the new design liveable. Alice Stephenson argues that this uncosted repair labour is both essential to whether a restructure succeeds and likely to fall disproportionately",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The “bamboo ceiling” is a management problem, not a diversity one",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/27/the-bamboo-ceiling-is-a-management-problem-not-a-diversity-one/",
-      "date": "27 Oct 2026",
-      "excerpt": "Twenty years ago the term “bamboo ceiling” was first used to describe the barriers to Asian Americans leading multinational firms. And the numbers have barely moved since. But Eugene Cha-Navarro argues that the traits blamed for holding Asi",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is freelance work, or the four-day week, the best way to reclaim our time?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/26/is-freelance-work-or-the-four-day-week-the-best-way-to-reclaim-our-time/",
-      "date": "26 Oct 2026",
-      "excerpt": "Many workers choose to work as freelancers to avoid intense and long work hours. But that is not always what they get. See Pok Loa finds that many freelance workers feel intense pressure to be busy both at work and at leisure. He describes ",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Poundland supplier 'will lose millions' if retailer collapses",
+      "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
+      "date": "4 Nov 2026",
+      "excerpt": "One of Poundland's suppliers will lose millions if it collapses, while other suppliers have said they would go under.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/222a/live/3804e900-d7be-11f1-8a3d-5320e3fab176.jpg"
     },
     {
       "source": "BBC Business",
@@ -180,6 +135,15 @@
       "date": "3 Nov 2026",
       "excerpt": "The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a94/live/6d035ba0-d778-11f1-a701-fddedf244c16.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Canva announces major job cuts after 'our hardest year yet'",
+      "link": "https://www.bbc.co.uk/news/articles/cw77pg7neydmo?at_medium=RSS&at_campaign=rss",
+      "date": "4 Nov 2026",
+      "excerpt": "CEO Melanie Perkins says more than 1,000 staff will either lose their jobs or be asked to change roles.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d51/live/dae95de0-d7dc-11f1-ac18-75727aac8238.jpg"
     },
     {
       "source": "BBC Business",
@@ -202,29 +166,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Asda hires ex-Morrisons boss in bid to grow firm",
-      "link": "https://www.bbc.co.uk/news/articles/c6vg0xzd0ln4o?at_medium=RSS&at_campaign=rss",
-      "date": "3 Nov 2026",
-      "excerpt": "David Potts takes charge of Asda, which is based in Leeds, with immediate effect.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4bba/live/70863010-d794-11f1-801d-cf196dc7232c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'Quiet quitting' could be hitting the economy - here's why",
-      "link": "https://www.bbc.co.uk/news/articles/cw23d5z87drpo?at_medium=RSS&at_campaign=rss",
-      "date": "3 Nov 2026",
-      "excerpt": "Britons have become less engaged with the jobs they do and are less willing to put in extra effort, a report has found.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5666/live/b5686c80-d793-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "From scooters to shampoo - the people saving hundreds from dumpster diving",
-      "link": "https://www.bbc.co.uk/news/articles/cm86zdp2ygqno?at_medium=RSS&at_campaign=rss",
-      "date": "3 Nov 2026",
-      "excerpt": "The men and women who rummage through commercial bins to take clothes and other items.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb7f/live/0436c4d0-d75b-11f1-b441-2b33b063138f.jpg"
+      "title": "Graduates are managing AI - but are they learning much else?",
+      "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
+      "date": "4 Nov 2026",
+      "excerpt": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82d9/live/cc0124d0-cd54-11f1-a64c-550be9e3c66b.jpg"
     }
   ]
 }
