@@ -92,8 +92,13 @@
   .ref-category { margin-bottom:22px; }
   .ref-category:last-child { margin-bottom:0; }
   .ref-category h4 { font-family:"Cormorant Garamond",serif; font-size:20px; font-weight:700; color:var(--teal); margin-bottom:10px; }
-  .ref-grid { display:grid; grid-template-columns:1fr 1fr; gap:4px 20px; }
+  .ref-grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:2px 18px; }
+  @media (max-width:760px){ .ref-grid{grid-template-columns:1fr 1fr;} }
   .ref-item { font-size:14px; color:var(--navy); padding:3px 0 3px 16px; position:relative; }
+  .ref-hint { font-size:13px; color:var(--teal); margin:0 0 16px; font-style:italic; }
+  .ref-item { cursor:pointer; border-radius:4px; transition:background .15s; }
+  .ref-item:hover { background:var(--light-teal); }
+  .ref-item.added { background:#D0EEF0; }
   .ref-item::before { content:"\2022"; position:absolute; left:0; color:var(--teal); font-size:16px; }
 
   /* CLOSING NOTE */
@@ -151,39 +156,13 @@
   <div class="section-sub">Record each success alongside the strengths that made it possible</div>
 
   <p class="entries-intro">For each achievement, describe what you did or accomplished, then identify the specific character strengths, skills, and personal qualities you drew on. Even seemingly minor accomplishments belong here: organising a meeting, completing a project under pressure, navigating a difficult conversation.</p>
-  <div class="info-box" style="margin-bottom:28px; border-left:4px solid var(--teal); border-radius:0 8px 8px 0; padding:16px 22px;">
-    <p style="margin-bottom:0;"><strong>Not sure what to write in the strengths column?</strong> You will find a full reference guide at the end of this exercise listing character strengths, skills, and personal qualities to prompt your thinking. Scroll down whenever you need it, then come back to continue.</p>
-  </div>
-
-  <div id="entries-container"></div>
-
-  <div class="section-title">Discovering Your Pattern</div>
-  <div class="section-sub">The qualities that appear most often are the truest description of who you are</div>
-
-  <p class="pattern-body">Look back across all fifteen entries. You will notice that certain strengths and qualities appear repeatedly, across very different achievements, in different contexts and different years. That repetition is not coincidence. It is the pattern of who you are.</p>
-  <p class="pattern-body">These are not skills you learned for a particular role. They are qualities you carried into every room you have ever walked into. They are available to you now, in whatever challenge is in front of you.</p>
-
-  <div class="pattern-question">Which three to five strengths or qualities appear most consistently across your achievements?</div>
-  <textarea id="q-pattern" placeholder="Write the strengths that appeared most often..."></textarea>
-
-  <div class="pattern-question">What do these recurring strengths tell you about how you operate at your best?</div>
-  <textarea id="q-operate" placeholder="Write your reflection here..."></textarea>
-
-  <div class="section-title">Understanding Who You Really Are</div>
-  <div class="section-sub">Now is your turn</div>
-  <p class="pattern-body">You now have the evidence. Use it to complete the statement below. Write in the present tense. Write it as fact, because it is.</p>
-
-  <div class="iam-wrap">
-    <div class="iam-label">I am a person who...</div>
-    <textarea id="q-iam" class="iam-textarea" placeholder="Complete this statement with honesty and confidence. You have earned every word."></textarea>
-  </div>
-
   <!-- REFERENCE GUIDE (collapsible) -->
-  <button class="ref-toggle" onclick="toggleRef(this)">
-    <span>Reference Guide: Character Strengths, Skills and Personal Qualities</span>
+  <button class="ref-toggle open" onclick="toggleRef(this)">
+    <span>Need ideas? Character Strengths, Skills and Personal Qualities</span>
     <span class="arrow">&#8964;</span>
   </button>
-  <div class="ref-body">
+  <div class="ref-body open">
+    <p class="ref-hint">Click into the strengths box of the achievement you are working on, then tap any word below to add it. You can also type your own.</p>
     <div class="ref-category">
       <h4>Character Strengths</h4>
       <div class="ref-grid">
@@ -229,6 +208,31 @@
         <div class="ref-item">Emotional intelligence</div><div class="ref-item">Collaboration</div>
       </div>
     </div>
+  </div>
+
+
+
+  <div id="entries-container"></div>
+
+  <div class="section-title">Discovering Your Pattern</div>
+  <div class="section-sub">The qualities that appear most often are the truest description of who you are</div>
+
+  <p class="pattern-body">Look back across all fifteen entries. You will notice that certain strengths and qualities appear repeatedly, across very different achievements, in different contexts and different years. That repetition is not coincidence. It is the pattern of who you are.</p>
+  <p class="pattern-body">These are not skills you learned for a particular role. They are qualities you carried into every room you have ever walked into. They are available to you now, in whatever challenge is in front of you.</p>
+
+  <div class="pattern-question">Which three to five strengths or qualities appear most consistently across your achievements?</div>
+  <textarea id="q-pattern" placeholder="Write the strengths that appeared most often..."></textarea>
+
+  <div class="pattern-question">What do these recurring strengths tell you about how you operate at your best?</div>
+  <textarea id="q-operate" placeholder="Write your reflection here..."></textarea>
+
+  <div class="section-title">Understanding Who You Really Are</div>
+  <div class="section-sub">Now is your turn</div>
+  <p class="pattern-body">You now have the evidence. Use it to complete the statement below. Write in the present tense. Write it as fact, because it is.</p>
+
+  <div class="iam-wrap">
+    <div class="iam-label">I am a person who...</div>
+    <textarea id="q-iam" class="iam-textarea" placeholder="Complete this statement with honesty and confidence. You have earned every word."></textarea>
   </div>
 
   <div class="closing-box">
@@ -426,6 +430,23 @@
       var cLines = doc.splitTextToSize(closingText, cW-10);
       doc.text(cLines, mg+5, y+17);
 
+
+      // Reference list, so members can keep it with their inventory
+      var REFS = {"Character Strengths": ["Creativity", "Kindness", "Curiosity", "Social intelligence", "Love of learning", "Fairness", "Open-mindedness", "Leadership", "Perspective", "Teamwork", "Wisdom", "Forgiveness", "Authenticity", "Prudence", "Bravery", "Self-regulation", "Persistence", "Gratitude", "Zest", "Hope"], "Skills": ["Verbal communication", "Management", "Written communication", "Efficiency", "Planning and organising", "Financial skills", "Problem solving", "Prioritising work", "Decision making", "Self-motivation", "People skills", "Taking initiative", "Analysis and investigation", "Teamwork", "Commercial awareness", "Organisational skills", "Action planning", "Influential", "Leadership", "Strategic thinking"], "Personal Qualities": ["Drive", "Empathy", "Self-awareness", "Professionalism", "Flexibility", "Thinking outside the box", "Positive attitude", "Engaging", "Inclusive", "Honest", "Loyal", "Resilience", "Self-determination", "Creativity", "Persistence", "Integrity", "Adaptability", "Initiative", "Emotional intelligence", "Collaboration"]};
+      y = newPage();
+      doc.setFont('helvetica','bold'); doc.setFontSize(13); tc(1,41,58);
+      doc.text('Reference: Character Strengths, Skills and Personal Qualities', mg, y); y += 5;
+      doc.setFont('helvetica','normal'); doc.setFontSize(9); tc(61,133,140);
+      doc.text('Use this list whenever you add to your inventory or your Confidence Evidence Log.', mg, y+4); y += 12;
+      Object.keys(REFS).forEach(function(cat){
+        var items = REFS[cat], rows = Math.ceil(items.length/3), bh = rows*6 + 12;
+        y = checkY(y, bh);
+        doc.setFont('helvetica','bold'); doc.setFontSize(11); tc(61,133,140);
+        doc.text(cat, mg, y+4);
+        doc.setFont('helvetica','normal'); doc.setFontSize(9.5); tc(1,41,58);
+        items.forEach(function(it,i){ var col=i%3, row=Math.floor(i/3); doc.text('\u2022  '+it, mg+2+col*(cW/3), y+11+row*6); });
+        y += bh + 4;
+      });
       drawFooter();
       doc.save('achievements-and-strengths-inventory.pdf');
     } catch(err) {
@@ -435,6 +456,21 @@
   }
 
   buildEntries();
+</script>
+<script>
+(function(){
+  var lastBox=null;
+  document.addEventListener('focusin',function(e){ if(e.target.classList&&e.target.classList.contains('strengths')) lastBox=e.target; });
+  document.addEventListener('click',function(e){
+    var it=e.target.closest&&e.target.closest('.ref-item'); if(!it) return;
+    var box=lastBox; if(!box){ box=[].slice.call(document.querySelectorAll('textarea.strengths')).filter(function(t){return !t.value.trim();})[0]||document.querySelector('textarea.strengths'); }
+    if(!box) return;
+    var word=it.textContent.trim(), v=box.value.trim();
+    var have=v.toLowerCase().split(/\s*,\s*/);
+    if(have.indexOf(word.toLowerCase())===-1){ box.value=v?(v.replace(/[,\s]+$/,'')+', '+word):word; box.dispatchEvent(new Event('input',{bubbles:true})); }
+    lastBox=box; it.classList.add('added'); setTimeout(function(){it.classList.remove('added');},600);
+  });
+})();
 </script>
 </body>
 </html>
