@@ -323,6 +323,16 @@ function unlockPlayer(){
   try{ benedictPlayer.src = SILENT_MP3; var u = benedictPlayer.play(); if(u && u.catch) u.catch(function(){ playerUnlocked = false; }); }catch(e){ playerUnlocked = false; }
 }
 ['touchstart','touchend','click','keydown'].forEach(function(ev){ document.addEventListener(ev, unlockPlayer, true); });
+
+// Safety net: if the bar says Benedict is speaking but nothing is actually playing
+// (for example the phone blocked the sound or the voice failed to load), reset it.
+setInterval(function(){
+  var b = document.getElementById('speaking-bar');
+  if(!b || !/speaking/i.test(b.textContent)) return;
+  if(benedictPlayer && !benedictPlayer.paused && !benedictPlayer.ended) return;
+  if(Date.now() - speakStarted < 12000) return;
+  ttsAudio = null; greetingDone = true; resetBtn(activeSpeakBtn); activeSpeakBtn = null; hideSpeakingBar();
+}, 1000);
 function showTapToHear(){
   var b = document.getElementById('speaking-bar');
   b.innerHTML = '&#128266;&nbsp; <strong>Tap here to hear Benedict</strong>';
@@ -342,7 +352,9 @@ function playTts(url, onEnd, onFail){
 var activeSpeakBtn = null;
 var greetingDone = false;
 
+var speakStarted = 0;
 function showSpeakingBar(){
+  speakStarted = Date.now();
   // Stop mic if active before Benedict speaks
   if(isListening){ stopListening(); }
   var b = document.getElementById('speaking-bar');
