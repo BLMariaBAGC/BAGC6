@@ -307,6 +307,17 @@ body{min-height:100vh;background:#FFFCF5;font-family:Lato,sans-serif;font-size:1
 // Proxy URL. API key is stored securely in Vercel, never here
 var PROXY_URL = 'https://rewire-proxy.vercel.app/api/benedict-chat';
 var TTS_URL   = 'https://rewire-proxy.vercel.app/api/benedict-tts';
+// Rewire access code: arrives in the room embed's #k= fragment (never sent to servers in the URL),
+// is kept for this tab only, and is added to every Benedict chat and voice request.
+var RW_ACCESS=(function(){var c='',m=location.hash.match(/[#&]k=([A-Za-z0-9-]{4,64})/);
+ try{if(m){c=m[1];sessionStorage.setItem('rwk',c);history.replaceState(null,'',location.pathname+location.search);}else{c=sessionStorage.getItem('rwk')||'';}}catch(e){if(m)c=m[1];}
+ return c;})();
+(function(){var of=window.fetch.bind(window),shown=false;
+ function note(){if(shown)return;shown=true;var d=document.createElement('div');d.setAttribute('role','alert');
+  d.style.cssText='position:fixed;left:50%;top:16px;transform:translateX(-50%);z-index:99999;max-width:90%;padding:14px 20px;border-radius:14px;background:#0e2a2a;color:#f5ecd7;border:2px solid #d6b26e;font:16px Georgia,serif;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,.35)';
+  d.textContent='Benedict is available to members inside The Rewire rooms. Please open him from your Rewire room.';document.body.appendChild(d);}
+ window.fetch=function(u,o){if((u===PROXY_URL||u===TTS_URL)&&o&&typeof o.body==='string'&&RW_ACCESS){try{var b=JSON.parse(o.body);b.accessCode=RW_ACCESS;o=Object.assign({},o,{body:JSON.stringify(b)});}catch(e){}}
+  var p=of(u,o);if(u===PROXY_URL||u===TTS_URL){p.then(function(r){if(r.status===401)note();}).catch(function(){});}return p;};})();
 var BENEDICT_VOICE_ID = 'oaGwHLz3csUaSnc2NBD4'; // Benedict
 var ttsAudio = null;
 // One shared audio player. iPhone and iPad only allow sound from a player that was first
