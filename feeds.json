@@ -1,5 +1,5 @@
 {
-  "updated": "05 Nov 2026, 05:07 UTC",
+  "updated": "05 Nov 2026, 06:14 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -121,15 +121,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "How can we stop buying so much stuff? “We can have a caring relationship with our things”",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-we-can-have-a-caring-relationship-with-our-things/",
-      "date": "4 Nov 2026",
-      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Julia Cohen (Corwin) describes her research on electronic waste and repair in India and explains how we can have a richer life if we reduce our dependence on new things. Julia ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How can we stop buying so much stuff? Importers are bypassing the usual customs and safety standards",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-importers-are-bypassing-the-usual-customs-and-safety-standards/",
       "date": "4 Nov 2026",
@@ -173,6 +164,15 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Restructures are on the rise – but organisations ignore the repair work that makes them function",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/28/restructures-are-on-the-rise-but-organisations-ignore-the-repair-work-that-makes-them-function/",
+      "date": "28 Oct 2026",
+      "excerpt": "Organisations budget for the redesign but not for the work of making the new design liveable. Alice Stephenson argues that this uncosted repair labour is both essential to whether a restructure succeeds and likely to fall disproportionately",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Interest rates expected to rise for first time in over three years",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Democrats won on affordability. Can they deliver it?",
+      "link": "https://www.bbc.co.uk/news/articles/ck1ex50x5q46o?at_medium=RSS&at_campaign=rss",
+      "date": "5 Nov 2026",
+      "excerpt": "Democrats will hold Congress but President Donald Trump still has the power to block their plans.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7cb9/live/148cddf0-d89c-11f1-bb5c-cdf9cd18a12c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
       "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
       "date": "4 Nov 2026",
@@ -207,15 +216,6 @@
       "date": "4 Nov 2026",
       "excerpt": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0027/live/fe2f8c90-d848-11f1-b870-55415e6a9944.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change",
-      "link": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
-      "date": "4 Nov 2026",
-      "excerpt": "The cereal giant has changed the recipes for Rice Krispies and Coco Pops, sparking a backlash online.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dfad/live/fe845730-d7e3-11f1-8a01-8d54cbcf7487.jpg"
     },
     {
       "source": "BBC Business",
