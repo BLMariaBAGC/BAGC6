@@ -1,5 +1,5 @@
 {
-  "updated": "05 Nov 2026, 07:47 UTC",
+  "updated": "05 Nov 2026, 13:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "AI Lost Big in the Midterms. What Does That Mean for Your Business?",
+      "link": "/2026/11/ai-lost-big-in-the-midterms-what-does-that-mean-for-your-business",
+      "date": "5 Nov 2026",
+      "excerpt": "Six policy battlegrounds leaders need to watch.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "What Sycophantic AI Can Cost Your Organization",
       "link": "/2026/11/what-sycophantic-ai-can-cost-your-organization",
       "date": "4 Nov 2026",
@@ -121,6 +130,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "The art of predicting Bank of England’s main policy rate",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/05/the-art-of-predicting-bank-of-englands-main-policy-rate/",
+      "date": "5 Nov 2026",
+      "excerpt": "Ahead of the Bank of England’s latest Monetary Policy Report Costas Milas shows why UK interest rates peaking at 4.25 per cent in mid-2027 looks like a reasonable bet. But economic shocks, which now come more frequently and bigger in size t",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1024x737.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How can we stop buying so much stuff? “We can have a caring relationship with our things”",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-we-can-have-a-caring-relationship-with-our-things/",
       "date": "4 Nov 2026",
@@ -133,7 +151,7 @@
       "title": "How can we stop buying so much stuff? Importers are bypassing the usual customs and safety standards",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-importers-are-bypassing-the-usual-customs-and-safety-standards/",
       "date": "4 Nov 2026",
-      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Lilia Akatova describes why ultra-fast fashion has overtaken fast fashion and what we should consider before we buy something new. Lilia was talking to Sue Windebank. Ultra-fas",
+      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Lilia Akatova describes how customs rules allowed ultra-fast fashion to overtake fast fashion, and what we should consider before we buy something new. Lilia was talking to Sue",
       "image": ""
     },
     {
@@ -164,58 +182,40 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Lessons from the Singaporean model of entrepreneurship",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/29/lessons-from-the-singaporean-model-of-entrepreneurship/",
-      "date": "29 Oct 2026",
-      "excerpt": "Singapore’s economic clout belies its tiny size. Boya Yang shows how its development raises questions about the practice of entrepreneurship, and government’s role in creating the opportunities, support mechanisms and skills that entreprene",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Interest rates expected to rise for first time in over three years",
-      "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+      "title": "Faisal Islam: How high will interest rates go?",
+      "link": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss",
       "date": "5 Nov 2026",
-      "excerpt": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e8c/live/91074120-d849-11f1-b870-55415e6a9944.jpg"
+      "excerpt": "The BBC's economics editor views one more interest rate as likely, but thinks that will be all.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ee7/live/856f7c60-d916-11f1-93e1-3b657b665bcf.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Pound rises to its highest level since the Brexit referendum",
-      "link": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
+      "title": "Three ways the interest rate rise could affect you",
+      "link": "https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss",
       "date": "5 Nov 2026",
-      "excerpt": "Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44a7/live/84e77df0-d8e5-11f1-93e1-3b657b665bcf.jpg"
+      "excerpt": "Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/296a/live/09ae45c0-d916-11f1-93e1-3b657b665bcf.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Democrats won on affordability. Can they deliver it?",
-      "link": "https://www.bbc.co.uk/news/articles/ck1ex50x5q46o?at_medium=RSS&at_campaign=rss",
+      "title": "Drunk and dangerous e-bike riders face on-the-spot fines under crackdown",
+      "link": "https://www.bbc.co.uk/news/articles/cmze4zk4d789o?at_medium=RSS&at_campaign=rss",
       "date": "5 Nov 2026",
-      "excerpt": "Democrats will hold Congress but President Donald Trump still has the power to block their plans.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ab9/live/2af7a860-d8e5-11f1-8a29-751f921d505b.jpg"
+      "excerpt": "A consultation will consider fines and other ways to clamp down on dangerous e-bike riders.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bcfc/live/126e9360-d900-11f1-9c68-d767468fa269.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
-      "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
-      "date": "4 Nov 2026",
-      "excerpt": "Musk spent nearly $500m in the 2026 US midterm elections, an individual election spending record.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ae2/live/ce22be10-d851-11f1-b710-b15e87d8ef65.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Poundland owner in crunch talks as retailer's collapse looms",
-      "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
+      "title": "Second buyer makes rescue bid for Poundland as retailer faces collapse",
+      "link": "https://www.bbc.co.uk/news/articles/c6lykq0kqwn7o?at_medium=RSS&at_campaign=rss",
       "date": "5 Nov 2026",
-      "excerpt": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0027/live/fe2f8c90-d848-11f1-b870-55415e6a9944.jpg"
+      "excerpt": "A little-known investment group has made a bid to buy the business.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99f8/live/fbd28350-d904-11f1-a701-fddedf244c16.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,6 +225,15 @@
       "date": "4 Nov 2026",
       "excerpt": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bf4/live/9fa4f600-d844-11f1-a701-fddedf244c16.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Interest rates hiked to 4% in first increase in over three years",
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+      "date": "5 Nov 2026",
+      "excerpt": "Most analysts expected the increase from 3.75% to 4%.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e8c/live/91074120-d849-11f1-b870-55415e6a9944.jpg"
     }
   ]
 }
