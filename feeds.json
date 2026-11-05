@@ -1,5 +1,5 @@
 {
-  "updated": "05 Nov 2026, 13:59 UTC",
+  "updated": "05 Nov 2026, 20:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -49,6 +49,15 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "Scientists discover mysterious “lonely” brain waves linked to memory loss",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261101010556.htm",
+      "date": "5 Nov 2026",
+      "excerpt": "Scientists have uncovered a surprising link between Alzheimer’s-related protein buildup, disrupted brain waves during deep sleep, and fading memory. The findings suggest that hidden changes in how the brain processes memories overnight may ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "Kids who eat more ultra-processed foods show a troubling brain response",
       "link": "https://www.sciencedaily.com/releases/2026/11/261101010549.htm",
       "date": "3 Nov 2026",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists reverse liver cell aging and cut Alzheimer’s-linked protein in half",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261031221155.htm",
-      "date": "2 Nov 2026",
-      "excerpt": "A surprising discovery suggests that rejuvenating the liver could help protect against Alzheimer’s disease and heart disease. USC researchers found that an experimental drug restored aging liver cells in rats, cutting levels of an Alzheimer",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Do People Want CEOs to Shut Up?",
+      "link": "/2026/11/do-people-want-ceos-to-shut-up",
+      "date": "5 Nov 2026",
+      "excerpt": "In a new column, the former dean of HBS weighs how and when to wield the voice of the company.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What R&D Looks Like for HR",
+      "link": "/2026/11/what-rd-looks-like-for-hr",
+      "date": "5 Nov 2026",
+      "excerpt": "Companies should commission more bespoke people-analytics research.",
       "image": ""
     },
     {
@@ -110,28 +128,10 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Outsourcing Can’t Fix a Broken Organization",
-      "link": "/2026/11/outsourcing-cant-fix-a-broken-organization",
-      "date": "3 Nov 2026",
-      "excerpt": "In fact, it can make existing problems worse.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Topics We Avoid at Work—and How to Start Talking About Them",
-      "link": "/podcast/2026/11/the-topics-we-avoid-at-work-and-how-to-start-talking-about-them",
-      "date": "3 Nov 2026",
-      "excerpt": "A conversation with HBS senior lecturer Christina Wing on raising sensitive subjects with clarity and respect.",
-      "image": ""
-    },
-    {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "The art of predicting Bank of England’s main policy rate",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/05/the-art-of-predicting-bank-of-englands-main-policy-rate/",
+      "title": "The art of predicting the Bank of England’s main policy rate",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/05/the-art-of-predicting-the-bank-of-englands-main-policy-rate/",
       "date": "5 Nov 2026",
       "excerpt": "Ahead of the Bank of England’s latest Monetary Policy Report Costas Milas shows why UK interest rates peaking at 4.25 per cent in mid-2027 looks like a reasonable bet. But economic shocks, which now come more frequently and bigger in size t",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1024x737.jpg"
@@ -184,6 +184,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Interest rates hiked to 4% in first increase in over three years",
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+      "date": "5 Nov 2026",
+      "excerpt": "Most analysts expected the increase from 3.75% to 4%.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e8c/live/91074120-d849-11f1-b870-55415e6a9944.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Faisal Islam: How high will interest rates go?",
       "link": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss",
       "date": "5 Nov 2026",
@@ -202,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "date": "5 Nov 2026",
+      "excerpt": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2258/live/1f0da230-d934-11f1-8bce-2396c9c50357.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Drunk and dangerous e-bike riders face on-the-spot fines under crackdown",
       "link": "https://www.bbc.co.uk/news/articles/cmze4zk4d789o?at_medium=RSS&at_campaign=rss",
       "date": "5 Nov 2026",
@@ -211,29 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Second buyer makes rescue bid for Poundland as retailer faces collapse",
-      "link": "https://www.bbc.co.uk/news/articles/c6lykq0kqwn7o?at_medium=RSS&at_campaign=rss",
-      "date": "5 Nov 2026",
-      "excerpt": "A little-known investment group has made a bid to buy the business.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99f8/live/fbd28350-d904-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Graduates are managing AI - but are they learning much else?",
       "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
       "date": "4 Nov 2026",
       "excerpt": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bf4/live/9fa4f600-d844-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Interest rates hiked to 4% in first increase in over three years",
-      "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
-      "date": "5 Nov 2026",
-      "excerpt": "Most analysts expected the increase from 3.75% to 4%.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e8c/live/91074120-d849-11f1-b870-55415e6a9944.jpg"
     }
   ]
 }
