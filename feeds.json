@@ -1,5 +1,5 @@
 {
-  "updated": "06 Nov 2026, 17:09 UTC",
+  "updated": "06 Nov 2026, 21:23 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,7 +202,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Could the US midterms burst the AI bubble?",
+      "title": "Why the US midterms sparked an AI stock selloff",
       "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
       "date": "6 Nov 2026",
       "excerpt": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
@@ -220,20 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Why smoky bacon crisps threaten to reignite rows over EU rules",
+      "link": "https://www.bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Nov 2026",
+      "excerpt": "A post-Brexit deal on food standards has raised questions over the future naming of the classic British snack.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67af/live/52b739e0-da04-11f1-84c1-dbcae60402d7.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Elon Musk appears to signal the end of the road for Cybertruck",
       "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
       "date": "6 Nov 2026",
       "excerpt": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7ce/live/3fc37350-d9f3-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "PM tells firms to publish salaries in job adverts ahead of new law",
-      "link": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
-      "date": "6 Nov 2026",
-      "excerpt": "The government argues the change will help jobseekers and could help to prevent pay discrimination.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04d2/live/40c46130-d9f6-11f1-a701-fddedf244c16.jpg"
     },
     {
       "source": "BBC Business",
