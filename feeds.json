@@ -1,6 +1,15 @@
 {
-  "updated": "06 Nov 2026, 09:12 UTC",
+  "updated": "06 Nov 2026, 17:09 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "An anti-aging drug may help protect the brain before Alzheimer's symptoms begin",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm",
+      "date": "5 Nov 2026",
+      "excerpt": "A surprising new study suggests that an anti-aging drug could help protect people genetically predisposed to Alzheimer's disease. Researchers found that just four weeks of low-dose rapamycin improved brain blood flow in healthy middle-aged ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists find surprisingly little evidence that medical cannabis helps you sleep",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261031221157.htm",
-      "date": "1 Nov 2026",
-      "excerpt": "A major new review challenges the growing enthusiasm for medical cannabis as an insomnia treatment, finding little reliable evidence that it improves sleep quality, sleep duration, or daytime functioning. Researchers caution that this doesn",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Promise—and Peril—of an AI-Assisted Board",
+      "link": "/2026/11/the-promise-and-peril-of-an-ai-assisted-board",
+      "date": "6 Nov 2026",
+      "excerpt": "HBS professor Suraj Srinivasan on ways in which AI can help bridge the relationship between the board and executive team.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Risks of Decentralizing Your Organization",
+      "link": "/2026/11/the-risks-of-decentralizing-your-organization",
+      "date": "6 Nov 2026",
+      "excerpt": "Three mistakes companies make when giving business units more accountability.",
       "image": ""
     },
     {
@@ -116,15 +134,6 @@
       "link": "/2026/11/youre-reporting-to-a-new-c-suite-leader-heres-how-to-build-influence-quickly",
       "date": "4 Nov 2026",
       "excerpt": "Tactics for turning them into an advocate who sees you as a strategic partner.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Turf Wars",
-      "link": "/2026/11/ai-turf-wars",
-      "date": "3 Nov 2026",
-      "excerpt": "The latest from The Insider newsletter, including advice about executive conflict during AI projects and an interview with former American Express CEO Kenneth Chenault.",
       "image": ""
     },
     {
@@ -184,38 +193,47 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Firms told to publish salaries in job adverts ahead of new law",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "date": "6 Nov 2026",
+      "excerpt": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdde/live/9036f7e0-da01-11f1-93e1-3b657b665bcf.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Could the US midterms burst the AI bubble?",
+      "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Nov 2026",
+      "excerpt": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f055/live/19529fe0-d9fb-11f1-93e1-3b657b665bcf.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "How does it affect me if share prices fall?",
+      "link": "https://www.bbc.co.uk/news/articles/c33zdz2m1e2o?at_medium=RSS&at_campaign=rss",
+      "date": "6 Nov 2026",
+      "excerpt": "Changes in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c320/live/25775960-3fc2-11f1-b61b-1d0ccf7b6022.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+      "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+      "date": "6 Nov 2026",
+      "excerpt": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7ce/live/3fc37350-d9f3-11f1-a701-fddedf244c16.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "PM tells firms to publish salaries in job adverts ahead of new law",
       "link": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
       "date": "6 Nov 2026",
       "excerpt": "The government argues the change will help jobseekers and could help to prevent pay discrimination.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e611/live/c517e390-d90f-11f1-94c6-3f8050561bf5.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'I was asked if I was a crier': Your worst job interviews revealed",
-      "link": "https://www.bbc.co.uk/news/articles/c3j4751pqnj8o?at_medium=RSS&at_campaign=rss",
-      "date": "6 Nov 2026",
-      "excerpt": "Bad job interviews can be horrible to experience in the moment, but there is a lot they can teach us about the world of work",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4ec/live/3550b220-d845-11f1-93e1-3b657b665bcf.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Interest rates hiked to 4% in first increase in over three years",
-      "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
-      "date": "5 Nov 2026",
-      "excerpt": "Most analysts expected the increase from 3.75% to 4%.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e8c/live/91074120-d849-11f1-b870-55415e6a9944.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Faisal Islam: How high will interest rates go?",
-      "link": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss",
-      "date": "5 Nov 2026",
-      "excerpt": "The BBC's economics editor views one more interest rate as likely, but thinks that will be all.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ee7/live/856f7c60-d916-11f1-93e1-3b657b665bcf.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04d2/live/40c46130-d9f6-11f1-a701-fddedf244c16.jpg"
     },
     {
       "source": "BBC Business",
@@ -224,16 +242,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cwe9lmp1pyyxo?at_medium=RSS&at_campaign=rss",
       "date": "6 Nov 2026",
       "excerpt": "Investment has surged into the making of jet turbine blades - an extremely difficult component to make.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97f5/live/b17307a0-d37b-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Three ways the interest rate rise could affect you",
-      "link": "https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss",
-      "date": "5 Nov 2026",
-      "excerpt": "Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/296a/live/09ae45c0-d916-11f1-93e1-3b657b665bcf.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6023/live/c7b8cb20-d9e9-11f1-93e1-3b657b665bcf.jpg"
     }
   ]
 }
