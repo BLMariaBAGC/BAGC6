@@ -1,5 +1,5 @@
 {
-  "updated": "05 Nov 2026, 20:59 UTC",
+  "updated": "06 Nov 2026, 01:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -130,8 +130,8 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "The art of predicting the Bank of England’s main policy rate",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/05/the-art-of-predicting-the-bank-of-englands-main-policy-rate/",
+      "title": "The art of predicting Bank of England’s main policy rate",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/05/the-art-of-predicting-bank-of-englands-main-policy-rate/",
       "date": "5 Nov 2026",
       "excerpt": "Ahead of the Bank of England’s latest Monetary Policy Report Costas Milas shows why UK interest rates peaking at 4.25 per cent in mid-2027 looks like a reasonable bet. But economic shocks, which now come more frequently and bigger in size t",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1024x737.jpg"
@@ -184,6 +184,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Nov 2026",
+      "excerpt": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e01/live/e1c54f70-d958-11f1-a800-d9dce9e5aa21.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Firms told to publish salaries in job adverts ahead of new law",
+      "link": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
+      "date": "5 Nov 2026",
+      "excerpt": "The government argues the change will help jobseekers and could help to prevent pay discrimination.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e611/live/c517e390-d90f-11f1-94c6-3f8050561bf5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'I was asked if I was a crier': Your worst job interviews revealed",
+      "link": "https://www.bbc.co.uk/news/articles/c3j4751pqnj8o?at_medium=RSS&at_campaign=rss",
+      "date": "6 Nov 2026",
+      "excerpt": "Bad job interviews can be horrible to experience in the moment, but there is a lot they can teach us about the world of work",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a4ec/live/3550b220-d845-11f1-93e1-3b657b665bcf.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Interest rates hiked to 4% in first increase in over three years",
       "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
       "date": "5 Nov 2026",
@@ -202,38 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Three ways the interest rate rise could affect you",
-      "link": "https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss",
-      "date": "5 Nov 2026",
-      "excerpt": "Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/296a/live/09ae45c0-d916-11f1-93e1-3b657b665bcf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
-      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "date": "5 Nov 2026",
-      "excerpt": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2258/live/1f0da230-d934-11f1-8bce-2396c9c50357.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Drunk and dangerous e-bike riders face on-the-spot fines under crackdown",
-      "link": "https://www.bbc.co.uk/news/articles/cmze4zk4d789o?at_medium=RSS&at_campaign=rss",
-      "date": "5 Nov 2026",
-      "excerpt": "A consultation will consider fines and other ways to clamp down on dangerous e-bike riders.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bcfc/live/126e9360-d900-11f1-9c68-d767468fa269.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Graduates are managing AI - but are they learning much else?",
-      "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
-      "date": "4 Nov 2026",
-      "excerpt": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bf4/live/9fa4f600-d844-11f1-a701-fddedf244c16.jpg"
+      "title": "The engine parts that 'fight the laws of the universe'",
+      "link": "https://www.bbc.co.uk/news/articles/cwe9lmp1pyyxo?at_medium=RSS&at_campaign=rss",
+      "date": "6 Nov 2026",
+      "excerpt": "Investment has surged into the making of jet turbine blades - an extremely difficult component to make.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97f5/live/b17307a0-d37b-11f1-b441-2b33b063138f.jpg"
     }
   ]
 }
