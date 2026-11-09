@@ -106,9 +106,9 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:12px;heigh
 .mnbtn:hover{color:var(--acl);border-color:var(--ac)}
 body.allow .mnbtn{display:block}
 body.mini .ph,body.mini .catrow,body.mini .prog,body.mini .tpanel,body.mini .pf,body.mini .volrow,body.mini #chev,body.mini .bsub{display:none}
-body.mini .bar{padding:10px 118px 10px 14px;min-height:56px}
+body.mini .bar{padding:10px 172px 10px 14px;min-height:56px}
 body.mini .btitle{font-size:19px}
-body.mini .mnbtn{top:50%;transform:translateY(-50%);right:58px}
+body.mini .mnbtn{top:50%;transform:translateY(-50%);right:112px}
 </style>
 </head>
 <body>
@@ -438,7 +438,7 @@ applyColour(); buildPills(); build(); load(0);
   }
   btn.addEventListener('click',function(){apply(!isMini(),true)});
   function later(){
-    if(!ok||isMini())return;
+    return; // auto-minimise switched off: people choose when to minimise
     clearTimeout(t);
     t=setTimeout(function(){apply(true,true)},7000);
   }
