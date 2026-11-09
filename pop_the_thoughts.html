@@ -24,57 +24,57 @@
     --cloud     pale, soft chip background for the support-number clouds
 
   Type:
-    --font-display  Baloo 2, rounded and friendly, a little playful (balloon-shaped letterforms)
+    --font-display  Cormorant Garamond, the brand heading face
     --font-body     DM Sans, the plain and legible workhorse for everything else
 */
 :root{
-  --bg:#1b1033;
-  --bg2:#2a1650;
-  --surface:#2a1b4a;
-  --surface-edge:#402a6e;
-  --fg:#f3eefc;
-  --muted:#b6a8d6;
-  --balloon:#ff6f8f;
-  --balloon-dark:#e2506f;
-  --balloon2:#ffc971;
-  --calm:#7fe0c9;
-  --danger:#ff8a8a;
+  --bg:#01293A;
+  --bg2:#0b3a4c;
+  --surface:#0d3a4a;
+  --surface-edge:#3D858C;
+  --fg:#f2fbfc;
+  --muted:#a9d6da;
+  --balloon:#3D858C;
+  --balloon-dark:#2a6870;
+  --balloon2:#D4A853;
+  --calm:#C9F6FA;
+  --danger:#f0b27a;
   --cloud:rgba(255,255,255,.1);
   --cloud-edge:rgba(255,255,255,.26);
   color-scheme:dark;
 }
 @media (prefers-color-scheme: light){
   :root:not([data-theme="dark"]){
-    --bg:#f6f2ff;
-    --bg2:#ece3ff;
+    --bg:#eaf8fa;
+    --bg2:#d6f0f3;
     --surface:#ffffff;
-    --surface-edge:#e2d6fb;
-    --fg:#2a1a40;
-    --muted:#6e5f8c;
-    --balloon:#ff6f8f;
-    --balloon-dark:#e2506f;
-    --balloon2:#f5a623;
-    --calm:#1f9e82;
-    --danger:#c23f3f;
+    --surface-edge:#b9e0e4;
+    --fg:#01293A;
+    --muted:#3a6870;
+    --balloon:#3D858C;
+    --balloon-dark:#2a6870;
+    --balloon2:#D4A853;
+    --calm:#3D858C;
+    --danger:#b8652a;
     --cloud:#ffffff;
-    --cloud-edge:#ded0f7;
+    --cloud-edge:#b9e0e4;
     color-scheme:light;
   }
 }
 :root[data-theme="light"]{
-  --bg:#f6f2ff;
-  --bg2:#ece3ff;
+  --bg:#eaf8fa;
+  --bg2:#d6f0f3;
   --surface:#ffffff;
-  --surface-edge:#e2d6fb;
-  --fg:#2a1a40;
-  --muted:#6e5f8c;
-  --balloon:#ff6f8f;
-  --balloon-dark:#e2506f;
-  --balloon2:#f5a623;
-  --calm:#1f9e82;
-  --danger:#c23f3f;
+  --surface-edge:#b9e0e4;
+  --fg:#01293A;
+  --muted:#3a6870;
+  --balloon:#3D858C;
+  --balloon-dark:#2a6870;
+  --balloon2:#D4A853;
+  --calm:#3D858C;
+  --danger:#b8652a;
   --cloud:#ffffff;
-  --cloud-edge:#ded0f7;
+  --cloud-edge:#b9e0e4;
   color-scheme:light;
 }
 
@@ -93,7 +93,7 @@ body{
   justify-content:center;
   padding-inline:16px;
 }
-:root{ --font-display:"Baloo 2","DM Sans",sans-serif; --font-body:"DM Sans",sans-serif; }
+:root{ --font-display:"Cormorant Garamond", Georgia, serif; --font-body:"DM Sans",sans-serif; }
 
 .stage{
   width:100%;
@@ -107,7 +107,7 @@ body{
 
 .eyebrow{
   font-family:var(--font-body);
-  font-size:12px;
+  font-size:13.9px;
   font-weight:700;
   letter-spacing:.14em;
   text-transform:uppercase;
@@ -116,7 +116,7 @@ body{
 h1{
   font-family:var(--font-display);
   font-weight:700;
-  font-size:28px;
+  font-size:31.4px;
   line-height:1.15;
   margin:0;
   text-align:center;
@@ -126,7 +126,7 @@ h1{
   margin:0;
   text-align:center;
   color:var(--muted);
-  font-size:14.5px;
+  font-size:16.8px;
   line-height:1.5;
   max-width:360px;
 }
@@ -137,9 +137,9 @@ h1{
   color:var(--calm);
   font-family:var(--font-body);
   font-weight:600;
-  font-size:13.5px;
+  font-size:15.7px;
   text-decoration:underline;
-  text-decoration-color:rgba(127,224,201,.4);
+  text-decoration-color:rgba(201,246,250,.4);
   cursor:pointer;
   padding:4px 2px;
 }
@@ -153,7 +153,7 @@ h1{
 }
 .crisis-caption{
   margin:0;
-  font-size:12px;
+  font-size:13.9px;
   color:var(--muted);
   text-align:center;
 }
@@ -179,9 +179,9 @@ h1{
   font-family:var(--font-body);
   backdrop-filter:blur(6px);
 }
-.crisis-chip .cloud-ico{ font-size:13px; line-height:1; margin-bottom:1px; }
-.crisis-chip .num{ font-weight:700; font-size:13.5px; }
-.crisis-chip .lbl{ font-size:10px; color:var(--muted); text-align:center; }
+.crisis-chip .cloud-ico{ font-size:15.1px; line-height:1; margin-bottom:1px; }
+.crisis-chip .num{ font-weight:700; font-size:15.7px; }
+.crisis-chip .lbl{ font-size:11.6px; color:var(--muted); text-align:center; }
 
 .step{
   width:100%;
@@ -192,7 +192,7 @@ h1{
 .step[hidden]{ display:none; }
 .step-q{
   font-family:var(--font-display);
-  font-size:19px;
+  font-size:22px;
   font-weight:600;
   color:var(--calm);
   margin:0;
@@ -216,7 +216,7 @@ h1{
   background:transparent;
   color:var(--fg);
   font-family:var(--font-body);
-  font-size:16px;
+  font-size:18.6px;
   line-height:1.4;
 }
 .field-box textarea::placeholder{ color:var(--muted); opacity:.8; }
@@ -248,8 +248,8 @@ h1{
   animation:mic-pulse 1.1s ease-in-out infinite;
 }
 @keyframes mic-pulse{
-  0%,100%{ box-shadow:0 0 0 0 rgba(255,138,138,.55); }
-  50%{ box-shadow:0 0 0 7px rgba(255,138,138,0); }
+  0%,100%{ box-shadow:0 0 0 0 rgba(240,178,122,.55); }
+  50%{ box-shadow:0 0 0 7px rgba(240,178,122,0); }
 }
 @media (prefers-reduced-motion: reduce){ .mic-btn.listening{ animation:none; } }
 
@@ -262,12 +262,12 @@ h1{
   min-height:22px;
 }
 .counter{
-  font-size:11.5px;
+  font-size:13.3px;
   color:var(--muted);
   font-variant-numeric:tabular-nums;
 }
 .mic-status{
-  font-size:11.5px;
+  font-size:13.3px;
   color:var(--muted);
   flex:1;
   min-width:0;
@@ -279,7 +279,7 @@ h1{
   color:var(--calm);
   font-family:var(--font-body);
   font-weight:700;
-  font-size:13px;
+  font-size:15.1px;
   cursor:pointer;
   padding:2px 4px;
   opacity:0;
@@ -301,7 +301,7 @@ h1{
   color:var(--fg);
   font-family:var(--font-body);
   font-weight:600;
-  font-size:14px;
+  font-size:16.2px;
   padding:12px 10px;
   border-radius:12px;
   cursor:pointer;
@@ -316,13 +316,13 @@ h1{
 }
 .choice-col[hidden]{ display:none; }
 .step-q-sub{
-  font-size:15px;
+  font-size:17.4px;
   margin:0 0 2px;
 }
 .q3-response{
   margin:0;
   text-align:center;
-  font-size:14.5px;
+  font-size:16.8px;
   color:var(--fg);
   line-height:1.5;
 }
@@ -359,7 +359,7 @@ h1{
   touch-action:manipulation;
 }
 .balloon-pop-scale:focus-visible{ outline:2px solid var(--calm); outline-offset:6px; border-radius:50%; }
-.balloon-ready .balloon-svg .balloon-body{ filter:drop-shadow(0 0 18px rgba(255,111,143,.65)); }
+.balloon-ready .balloon-svg .balloon-body{ filter:drop-shadow(0 0 18px rgba(212,168,83,.65)); }
 
 .balloon-svg{ width:150px; height:190px; display:block; overflow:visible; }
 
@@ -405,7 +405,7 @@ h1{
 
 .hint{
   margin:0;
-  font-size:13px;
+  font-size:15.1px;
   color:var(--muted);
   min-height:18px;
   text-align:center;
@@ -426,7 +426,7 @@ h1{
 .affirm.show{ opacity:1; }
 .affirm p{
   font-family:var(--font-display);
-  font-size:28px;
+  font-size:31.4px;
   font-weight:700;
   color:var(--fg);
   text-shadow:0 2px 24px rgba(0,0,0,.35);
@@ -463,7 +463,7 @@ h1{
 
 footer{
   margin-top:4px;
-  font-size:12px;
+  font-size:13.9px;
   color:var(--muted);
   text-align:center;
   opacity:.8;
@@ -484,7 +484,7 @@ footer{
   align-items:center;
   justify-content:center;
   padding:20px;
-  background:rgba(10,6,22,.72);
+  background:rgba(1,41,58,.72);
   overflow-y:auto;
 }
 .help-panel[hidden]{ display:none; }
@@ -511,7 +511,7 @@ footer{
   border:1px solid var(--surface-edge);
   background:var(--bg);
   color:var(--muted);
-  font-size:18px;
+  font-size:20.9px;
   line-height:1;
   cursor:pointer;
 }
@@ -520,7 +520,7 @@ footer{
   text-align:center;
   font-family:var(--font-body);
   font-weight:700;
-  font-size:13px;
+  font-size:15.1px;
   color:var(--muted);
 }
 .help-heading-accent{
@@ -528,7 +528,7 @@ footer{
   text-align:center;
   font-family:var(--font-display);
   font-weight:700;
-  font-size:21px;
+  font-size:25.4px;
   color:var(--balloon2);
 }
 .help-note{
@@ -536,20 +536,20 @@ footer{
   text-align:center;
   font-style:italic;
   color:var(--calm);
-  font-size:14.5px;
+  font-size:16.8px;
   line-height:1.5;
 }
 .help-olaf-lead{
   margin:0 0 -4px;
   text-align:center;
-  font-size:13px;
+  font-size:15.1px;
   color:var(--muted);
 }
 .help-q{
   margin:0;
   text-align:center;
   color:var(--fg);
-  font-size:14px;
+  font-size:16.2px;
   line-height:1.5;
 }
 .help-actions{
@@ -588,7 +588,7 @@ footer{
 .help-pop-label{
   font-family:var(--font-body);
   font-weight:700;
-  font-size:14px;
+  font-size:16.2px;
   color:var(--balloon);
 }
 .help-pop-done{
@@ -600,7 +600,7 @@ footer{
   text-align:center;
   font-family:var(--font-display);
   font-weight:700;
-  font-size:19px;
+  font-size:22px;
   color:var(--balloon2);
   animation:popDoneIn .4s ease;
 }
@@ -617,7 +617,7 @@ footer{
   color:var(--calm);
   font-family:var(--font-body);
   font-weight:700;
-  font-size:14.5px;
+  font-size:16.8px;
   padding:12px;
   border-radius:12px;
   cursor:pointer;
@@ -625,14 +625,14 @@ footer{
 .help-olaf-note{
   margin:-4px 0 0;
   text-align:center;
-  font-size:12px;
+  font-size:13.9px;
   color:var(--muted);
   font-style:italic;
 }
 .help-olaf-note[hidden]{ display:none; }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap">
 
 </head><body><div class="stage">
   <span class="eyebrow">A moment to breathe</span>
@@ -678,7 +678,7 @@ footer{
             <svg class="balloon-svg" viewBox="0 0 150 190" aria-hidden="true">
               <defs>
                 <radialGradient id="balloonGrad" cx="35%" cy="28%" r="75%">
-                  <stop offset="0%" stop-color="#ffb4c4"/>
+                  <stop offset="0%" stop-color="#8fd0d6"/>
                   <stop offset="55%" stop-color="var(--balloon)"/>
                   <stop offset="100%" stop-color="var(--balloon-dark)"/>
                 </radialGradient>
@@ -795,42 +795,42 @@ footer{
       <g>
         <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
         <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
-        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#01293A" opacity=".82"/>
         <circle cx="0" cy="-10" r="5.5" fill="var(--balloon)"/>
         <animateMotion dur="12s" begin="0s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
       </g>
       <g>
         <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
         <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
-        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#01293A" opacity=".82"/>
         <circle cx="0" cy="-10" r="5.5" fill="var(--calm)"/>
         <animateMotion dur="12s" begin="-2s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
       </g>
       <g>
         <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
         <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
-        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#01293A" opacity=".82"/>
         <circle cx="0" cy="-10" r="5.5" fill="var(--balloon2)"/>
         <animateMotion dur="12s" begin="-4s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
       </g>
       <g>
         <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
         <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
-        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#01293A" opacity=".82"/>
         <circle cx="0" cy="-10" r="5.5" fill="var(--balloon)"/>
         <animateMotion dur="12s" begin="-6s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
       </g>
       <g>
         <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
         <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
-        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#01293A" opacity=".82"/>
         <circle cx="0" cy="-10" r="5.5" fill="var(--calm)"/>
         <animateMotion dur="12s" begin="-8s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
       </g>
       <g>
         <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
         <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
-        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#01293A" opacity=".82"/>
         <circle cx="0" cy="-10" r="5.5" fill="var(--balloon2)"/>
         <animateMotion dur="12s" begin="-10s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
       </g>
@@ -842,7 +842,7 @@ footer{
       <svg class="help-pop-svg" viewBox="0 0 150 190" aria-hidden="true">
         <defs>
           <radialGradient id="helpPopGrad" cx="35%" cy="28%" r="75%">
-            <stop offset="0%" stop-color="#ffb4c4"/>
+            <stop offset="0%" stop-color="#8fd0d6"/>
             <stop offset="55%" stop-color="var(--balloon)"/>
             <stop offset="100%" stop-color="var(--balloon-dark)"/>
           </radialGradient>
@@ -1255,7 +1255,7 @@ footer{
   var activeVoice=null;
   function setupMic(textareaEl,micBtnEl,statusEl){
     micBtnEl.textContent="🎤 Speak";
-    micBtnEl.style.cssText="position:static;width:auto;min-height:48px;padding:10px 16px;border-radius:12px;margin-top:8px;font-size:16px";
+    micBtnEl.style.cssText="position:static;width:auto;min-height:48px;padding:10px 16px;border-radius:12px;margin-top:8px;font-size:18px";
     micBtnEl.setAttribute("aria-pressed","false");
     var session=null;
     function reset(){micBtnEl.textContent="🎤 Speak";micBtnEl.setAttribute("aria-pressed","false");micBtnEl.classList.remove("listening");}
@@ -1308,10 +1308,10 @@ footer{
 <style>
 .affirm{position:static;inset:auto;display:none;opacity:1;transition:none;padding:14px 12px;margin:12px 0}
 .affirm.show{display:block}
-.affirm p{font-size:24px;line-height:1.5;text-shadow:none}
+.affirm p{font-size:28px;line-height:1.5;text-shadow:none}
 .choice-row[hidden]{display:none}
 #readyPrompt[hidden]{display:none}
-#readyPrompt{font-size:17px;margin-top:12px}
+#readyPrompt{font-size:20px;margin-top:12px}
 #slotReady .balloon-wrap{transition:none}
 .field-box{padding:14px 16px}
 .field-box textarea{min-height:90px;overflow:hidden;resize:none}
