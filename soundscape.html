@@ -427,7 +427,7 @@ applyColour(); buildPills(); build(); load(0);
 
 /* Collapsible player: the host page resizes the frame, this page switches layout. */
 (function(){
-  var KEY='ss_mini',btn=document.getElementById('mnbtn'),t=null,ok=false;
+  var KEY='ss_mini2',btn=document.getElementById('mnbtn'),t=null,ok=false;
   function isMini(){return document.body.classList.contains('mini')}
   function tell(){try{parent.postMessage({ss:'state',mini:isMini()},'*')}catch(e){}}
   function apply(m,save){
