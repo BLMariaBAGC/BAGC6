@@ -1,0 +1,1335 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pop the Thoughts</title>
+<style>
+/*
+  Design plan
+  -----------
+  Layout: a single centred stage, steps revealed one after another. She
+  writes the thought (balloon inflates). Enter opens "Is it true?", then
+  "What proof do you have?", then a quick tap on "So, is this negative thought 100% true?".
+  A quiet "having a hard time?" link sits above and below the flow at
+  every step, open to a calm panel that offers an early way out. No
+  content-scanning, it's just always there. A small row of real support
+  numbers ("little clouds") sits at the very top and inside that panel,
+  reachable without digging for it.
+
+  Color (dark-first, a calm night scene, not inverted for light mode):
+    --bg        deep indigo night sky
+    --bg2       softer plum, used in the background gradient
+    --surface   the card/textarea surface, lightly raised off --bg
+    --fg        warm off-white text
+    --muted     dimmer lavender-grey for supporting text
+    --balloon   coral-pink, the balloon's own colour and the page accent
+    --balloon2  warm gold, balloon highlight + confetti accent
+    --calm      soft teal, used for the challenge questions and the help panel
+    --cloud     pale, soft chip background for the support-number clouds
+
+  Type:
+    --font-display  Baloo 2, rounded and friendly, a little playful (balloon-shaped letterforms)
+    --font-body     DM Sans, the plain and legible workhorse for everything else
+*/
+:root{
+  --bg:#1b1033;
+  --bg2:#2a1650;
+  --surface:#2a1b4a;
+  --surface-edge:#402a6e;
+  --fg:#f3eefc;
+  --muted:#b6a8d6;
+  --balloon:#ff6f8f;
+  --balloon-dark:#e2506f;
+  --balloon2:#ffc971;
+  --calm:#7fe0c9;
+  --danger:#ff8a8a;
+  --cloud:rgba(255,255,255,.1);
+  --cloud-edge:rgba(255,255,255,.26);
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --bg:#f6f2ff;
+    --bg2:#ece3ff;
+    --surface:#ffffff;
+    --surface-edge:#e2d6fb;
+    --fg:#2a1a40;
+    --muted:#6e5f8c;
+    --balloon:#ff6f8f;
+    --balloon-dark:#e2506f;
+    --balloon2:#f5a623;
+    --calm:#1f9e82;
+    --danger:#c23f3f;
+    --cloud:#ffffff;
+    --cloud-edge:#ded0f7;
+    color-scheme:light;
+  }
+}
+:root[data-theme="light"]{
+  --bg:#f6f2ff;
+  --bg2:#ece3ff;
+  --surface:#ffffff;
+  --surface-edge:#e2d6fb;
+  --fg:#2a1a40;
+  --muted:#6e5f8c;
+  --balloon:#ff6f8f;
+  --balloon-dark:#e2506f;
+  --balloon2:#f5a623;
+  --calm:#1f9e82;
+  --danger:#c23f3f;
+  --cloud:#ffffff;
+  --cloud-edge:#ded0f7;
+  color-scheme:light;
+}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  min-height:100%;
+  overflow-x:hidden;
+  background:
+    radial-gradient(60% 50% at 50% 0%, var(--bg2), transparent 70%),
+    var(--bg);
+  color:var(--fg);
+  font-family:var(--font-body), "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  display:flex;
+  justify-content:center;
+  padding-inline:16px;
+}
+:root{ --font-display:"Baloo 2","DM Sans",sans-serif; --font-body:"DM Sans",sans-serif; }
+
+.stage{
+  width:100%;
+  max-width:460px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:16px;
+  padding-block:28px 36px;
+}
+
+.eyebrow{
+  font-family:var(--font-body);
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--calm);
+}
+h1{
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:28px;
+  line-height:1.15;
+  margin:0;
+  text-align:center;
+  text-wrap:balance;
+}
+.lede{
+  margin:0;
+  text-align:center;
+  color:var(--muted);
+  font-size:14.5px;
+  line-height:1.5;
+  max-width:360px;
+}
+
+.help-link{
+  border:none;
+  background:none;
+  color:var(--calm);
+  font-family:var(--font-body);
+  font-weight:600;
+  font-size:13.5px;
+  text-decoration:underline;
+  text-decoration-color:rgba(127,224,201,.4);
+  cursor:pointer;
+  padding:4px 2px;
+}
+
+.crisis-block{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:8px;
+}
+.crisis-caption{
+  margin:0;
+  font-size:12px;
+  color:var(--muted);
+  text-align:center;
+}
+.crisis-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  justify-content:center;
+  width:100%;
+}
+.crisis-chip{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:1px;
+  min-width:78px;
+  padding:9px 10px 8px;
+  background:var(--cloud);
+  border:1px solid var(--cloud-edge);
+  border-radius:16px 16px 20px 20px;
+  text-decoration:none;
+  color:var(--fg);
+  font-family:var(--font-body);
+  backdrop-filter:blur(6px);
+}
+.crisis-chip .cloud-ico{ font-size:13px; line-height:1; margin-bottom:1px; }
+.crisis-chip .num{ font-weight:700; font-size:13.5px; }
+.crisis-chip .lbl{ font-size:10px; color:var(--muted); text-align:center; }
+
+.step{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.step[hidden]{ display:none; }
+.step-q{
+  font-family:var(--font-display);
+  font-size:19px;
+  font-weight:600;
+  color:var(--calm);
+  margin:0;
+  text-align:center;
+}
+
+.field-box{
+  position:relative;
+  width:100%;
+  background:var(--surface);
+  border:1px solid var(--surface-edge);
+  border-radius:16px;
+  padding:14px 52px 14px 16px;
+}
+.field-box textarea{
+  width:100%;
+  min-height:56px;
+  resize:none;
+  border:none;
+  outline:none;
+  background:transparent;
+  color:var(--fg);
+  font-family:var(--font-body);
+  font-size:16px;
+  line-height:1.4;
+}
+.field-box textarea::placeholder{ color:var(--muted); opacity:.8; }
+
+.mic-btn{
+  position:absolute;
+  top:10px;
+  right:10px;
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  border:1px solid var(--surface-edge);
+  background:var(--bg);
+  color:var(--muted);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  padding:0;
+  transition:background .2s ease, color .2s ease;
+}
+.mic-btn svg{ width:17px; height:17px; }
+.mic-btn:hover:not(:disabled){ color:var(--fg); }
+.mic-btn:disabled{ opacity:.4; cursor:not-allowed; }
+.mic-btn.listening{
+  background:var(--danger);
+  color:#fff;
+  border-color:var(--danger);
+  animation:mic-pulse 1.1s ease-in-out infinite;
+}
+@keyframes mic-pulse{
+  0%,100%{ box-shadow:0 0 0 0 rgba(255,138,138,.55); }
+  50%{ box-shadow:0 0 0 7px rgba(255,138,138,0); }
+}
+@media (prefers-reduced-motion: reduce){ .mic-btn.listening{ animation:none; } }
+
+.row-under{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+  gap:10px;
+  min-height:22px;
+}
+.counter{
+  font-size:11.5px;
+  color:var(--muted);
+  font-variant-numeric:tabular-nums;
+}
+.mic-status{
+  font-size:11.5px;
+  color:var(--muted);
+  flex:1;
+  min-width:0;
+}
+.mic-status.err{ color:var(--danger); }
+.next-btn{
+  border:none;
+  background:none;
+  color:var(--calm);
+  font-family:var(--font-body);
+  font-weight:700;
+  font-size:13px;
+  cursor:pointer;
+  padding:2px 4px;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .25s ease;
+  white-space:nowrap;
+}
+.next-btn.show{ opacity:1; pointer-events:auto; }
+
+.choice-row{
+  display:flex;
+  gap:10px;
+  width:100%;
+}
+.choice-btn{
+  flex:1;
+  border:1px solid var(--surface-edge);
+  background:var(--surface);
+  color:var(--fg);
+  font-family:var(--font-body);
+  font-weight:600;
+  font-size:14px;
+  padding:12px 10px;
+  border-radius:12px;
+  cursor:pointer;
+  transition:border-color .2s ease, background .2s ease;
+}
+.choice-btn:hover{ border-color:var(--calm); }
+.choice-col{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  width:100%;
+}
+.choice-col[hidden]{ display:none; }
+.step-q-sub{
+  font-size:15px;
+  margin:0 0 2px;
+}
+.q3-response{
+  margin:0;
+  text-align:center;
+  font-size:14.5px;
+  color:var(--fg);
+  line-height:1.5;
+}
+.q3-response[hidden]{ display:none; }
+
+.balloon-slot{ width:100%; }
+.balloon-wrap{
+  position:relative;
+  width:100%;
+  min-height:144px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:min-height .25s ease;
+}
+@media (prefers-reduced-motion: reduce){
+  .balloon-wrap{ transition:none; }
+}
+.balloon-float{
+  animation:bob 4.2s ease-in-out infinite;
+  transform-origin:50% 100%;
+}
+@media (prefers-reduced-motion: reduce){
+  .balloon-float{ animation:none; }
+}
+.balloon-pop-scale{
+  display:block;
+  background:none;
+  border:none;
+  padding:0;
+  transform:scale(var(--scale, .5));
+  transition:transform .2s cubic-bezier(.34,1.56,.64,1);
+  cursor:pointer;
+  touch-action:manipulation;
+}
+.balloon-pop-scale:focus-visible{ outline:2px solid var(--calm); outline-offset:6px; border-radius:50%; }
+.balloon-ready .balloon-svg .balloon-body{ filter:drop-shadow(0 0 18px rgba(255,111,143,.65)); }
+
+.balloon-svg{ width:150px; height:190px; display:block; overflow:visible; }
+
+.shake{ animation:shake .32s ease; }
+@keyframes shake{
+  0%,100%{ transform:scale(var(--scale,.5)) translateX(0); }
+  25%{ transform:scale(var(--scale,.5)) translateX(-6px) rotate(-2deg); }
+  75%{ transform:scale(var(--scale,.5)) translateX(6px) rotate(2deg); }
+}
+@keyframes bob{
+  0%,100%{ transform:translateY(0) rotate(-1.2deg); }
+  50%{ transform:translateY(-10px) rotate(1.2deg); }
+}
+
+.pop-burst{
+  position:absolute;
+  width:150px;
+  height:150px;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-56%) scale(1);
+  pointer-events:none;
+  opacity:0;
+}
+.pop-burst.show{ animation:burst .5s ease-out forwards; }
+@keyframes burst{
+  0%{ opacity:1; }
+  100%{ opacity:0; }
+}
+.pop-burst span{
+  position:absolute;
+  left:50%; top:50%;
+  width:10px; height:10px;
+  border-radius:3px;
+  background:var(--shard-color, var(--balloon));
+  transform:translate(-50%,-50%) rotate(0deg) translateY(0);
+}
+.pop-burst.show span{ animation:shard .5s ease-out forwards; }
+@keyframes shard{
+  0%{ transform:translate(-50%,-50%) rotate(var(--rot,0deg)) translateY(0) scale(1); opacity:1; }
+  100%{ transform:translate(-50%,-50%) rotate(var(--rot,0deg)) translateY(var(--dist,70px)) scale(.3); opacity:0; }
+}
+
+.hint{
+  margin:0;
+  font-size:13px;
+  color:var(--muted);
+  min-height:18px;
+  text-align:center;
+}
+
+.affirm{
+  position:fixed;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  pointer-events:none;
+  opacity:0;
+  transition:opacity .4s ease;
+  z-index:26;
+  padding-inline:24px;
+}
+.affirm.show{ opacity:1; }
+.affirm p{
+  font-family:var(--font-display);
+  font-size:28px;
+  font-weight:700;
+  color:var(--fg);
+  text-shadow:0 2px 24px rgba(0,0,0,.35);
+  margin:0;
+  text-align:center;
+}
+
+.confetti-field{
+  position:fixed;
+  inset:0;
+  overflow:hidden;
+  pointer-events:none;
+  z-index:25;
+}
+.confetti-piece{
+  position:absolute;
+  top:-5%;
+  width:9px;
+  height:14px;
+  opacity:0;
+  background:var(--c-color);
+  border-radius:2px;
+  left:var(--c-left);
+  animation:fall var(--c-dur) linear var(--c-delay) forwards;
+}
+@keyframes fall{
+  0%{ opacity:0; transform:translateY(0) translateX(0) rotate(0deg); }
+  6%{ opacity:1; }
+  100%{ opacity:.95; transform:translateY(112vh) translateX(var(--c-drift)) rotate(var(--c-rot)); }
+}
+@media (prefers-reduced-motion: reduce){
+  .confetti-piece{ animation-duration:1ms; animation-delay:0s; opacity:.9; }
+}
+
+footer{
+  margin-top:4px;
+  font-size:12px;
+  color:var(--muted);
+  text-align:center;
+  opacity:.8;
+}
+.sr-only{
+  position:absolute;
+  width:1px; height:1px;
+  overflow:hidden;
+  clip:rect(0,0,0,0);
+  white-space:nowrap;
+}
+
+.help-panel{
+  position:fixed;
+  inset:0;
+  z-index:20;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  background:rgba(10,6,22,.72);
+  overflow-y:auto;
+}
+.help-panel[hidden]{ display:none; }
+.help-card{
+  width:100%;
+  max-width:360px;
+  background:var(--surface);
+  border:1px solid var(--surface-edge);
+  border-radius:20px;
+  padding:26px 22px 22px;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  margin-block:auto;
+}
+.help-close{
+  position:absolute;
+  top:12px;
+  right:12px;
+  width:32px;
+  height:32px;
+  border-radius:50%;
+  border:1px solid var(--surface-edge);
+  background:var(--bg);
+  color:var(--muted);
+  font-size:18px;
+  line-height:1;
+  cursor:pointer;
+}
+.help-heading{
+  margin:0;
+  text-align:center;
+  font-family:var(--font-body);
+  font-weight:700;
+  font-size:13px;
+  color:var(--muted);
+}
+.help-heading-accent{
+  margin:0;
+  text-align:center;
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:21px;
+  color:var(--balloon2);
+}
+.help-note{
+  margin:4px 0 0;
+  text-align:center;
+  font-style:italic;
+  color:var(--calm);
+  font-size:14.5px;
+  line-height:1.5;
+}
+.help-olaf-lead{
+  margin:0 0 -4px;
+  text-align:center;
+  font-size:13px;
+  color:var(--muted);
+}
+.help-q{
+  margin:0;
+  text-align:center;
+  color:var(--fg);
+  font-size:14px;
+  line-height:1.5;
+}
+.help-actions{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin-top:4px;
+}
+.sushi-art{
+  width:100%;
+  max-width:240px;
+  height:auto;
+  display:block;
+  margin:0 auto;
+}
+.help-pop-balloon{
+  border:none;
+  background:none;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:4px;
+  cursor:pointer;
+  margin:0 auto;
+}
+.help-pop-svg{
+  width:84px;
+  height:106px;
+  display:block;
+  transition:transform .15s ease;
+}
+.help-pop-balloon:hover .help-pop-svg,
+.help-pop-balloon:focus-visible .help-pop-svg{ transform:scale(1.06); }
+.help-pop-balloon:focus-visible{ outline:2px solid var(--calm); outline-offset:4px; border-radius:50%; }
+.help-pop-label{
+  font-family:var(--font-body);
+  font-weight:700;
+  font-size:14px;
+  color:var(--balloon);
+}
+.help-pop-done{
+  margin:0;
+  min-height:106px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:19px;
+  color:var(--balloon2);
+  animation:popDoneIn .4s ease;
+}
+@keyframes popDoneIn{
+  from{ opacity:0; transform:scale(.9); }
+  to{ opacity:1; transform:scale(1); }
+}
+@media (prefers-reduced-motion: reduce){
+  .help-pop-done{ animation:none; }
+}
+.help-olaf-btn{
+  border:1.5px solid var(--calm);
+  background:none;
+  color:var(--calm);
+  font-family:var(--font-body);
+  font-weight:700;
+  font-size:14.5px;
+  padding:12px;
+  border-radius:12px;
+  cursor:pointer;
+}
+.help-olaf-note{
+  margin:-4px 0 0;
+  text-align:center;
+  font-size:12px;
+  color:var(--muted);
+  font-style:italic;
+}
+.help-olaf-note[hidden]{ display:none; }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap">
+
+</head><body><div class="stage">
+  <span class="eyebrow">A moment to breathe</span>
+  <h1>Let the thought go</h1>
+  <p class="lede">Write or say what's on your mind. Watch the balloon grow. Press Enter to move to the next question. Tap the balloon when you're ready to let it go.</p>
+  <button id="helpLinkTop" class="help-link" type="button">Having a hard time right now? &rarr;</button>
+
+  <!-- Step 1: the thought itself -->
+  <div class="step" id="stepThought">
+    <div class="field-box">
+      <textarea id="thoughtInput" rows="2" maxlength="220" placeholder="What's the thought that's bothering you?" aria-label="Write or say the thought that's bothering you"></textarea>
+      <button id="micThought" class="mic-btn" type="button" aria-label="Say the thought instead of typing it" title="Say it instead of typing">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5a3.5 3.5 0 0 0-3.5 3.5v6a3.5 3.5 0 0 0 7 0v-6A3.5 3.5 0 0 0 12 2.5Z" stroke="currentColor" stroke-width="1.8"/><path d="M6 11v.5a6 6 0 0 0 12 0V11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M12 17.5V21M9 21h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="row-under">
+      <span class="counter" id="counterThought">0 / 220</span>
+      <span class="mic-status" id="micStatusThought" aria-live="polite"></span>
+      <button id="nextThought" class="next-btn" type="button">Ask the question &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Real support numbers, right under the text box, not gated behind anything -->
+  <div class="crisis-block">
+    <p class="crisis-caption">Need to talk to someone right now? Tap a cloud.</p>
+    <div class="crisis-row">
+      <a class="crisis-chip" href="tel:999" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">999</span><span class="lbl">Emergency</span></a>
+      <a class="crisis-chip" href="tel:111" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">111</span><span class="lbl">NHS help</span></a>
+      <a class="crisis-chip" href="tel:116123" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">Samaritans</span><span class="lbl">116 123, 24/7</span></a>
+      <a class="crisis-chip" href="sms:85258" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">Shout</span><span class="lbl">Text SHOUT to 85258</span></a>
+      <a class="crisis-chip" href="tel:03007729844" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">No Panic</span><span class="lbl">0300 772 9844</span></a>
+      <a class="crisis-chip" href="tel:03001233393" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">Mind</span><span class="lbl">0300 123 3393</span></a>
+      <a class="crisis-chip" href="https://www.nhs.uk/every-mind-matters/" target="_blank" rel="noopener"><span class="cloud-ico">&#9729;</span><span class="num">NHS</span><span class="lbl">Every Mind Matters</span></a>
+    </div>
+  </div>
+
+  <!-- Balloon lives here to start with, then moves to sit with whichever question is current -->
+  <div class="balloon-slot" id="slotThought">
+    <div id="balloonUnit">
+      <div class="balloon-wrap">
+        <div class="balloon-float">
+          <button id="balloonBtn" class="balloon-pop-scale" type="button" aria-label="Tap to let the thought go" style="--scale:0.5">
+            <svg class="balloon-svg" viewBox="0 0 150 190" aria-hidden="true">
+              <defs>
+                <radialGradient id="balloonGrad" cx="35%" cy="28%" r="75%">
+                  <stop offset="0%" stop-color="#ffb4c4"/>
+                  <stop offset="55%" stop-color="var(--balloon)"/>
+                  <stop offset="100%" stop-color="var(--balloon-dark)"/>
+                </radialGradient>
+              </defs>
+              <path class="balloon-body" d="M75 10
+                C 112 10 136 40 132 78
+                C 129 106 112 128 90 136
+                L 96 150 L 82 146 L 84 158 L 68 146 L 66 136
+                C 42 130 18 106 18 74
+                C 18 38 42 10 75 10 Z"
+                fill="url(#balloonGrad)"/>
+              <ellipse cx="52" cy="46" rx="14" ry="22" fill="#ffffff" opacity="0.35"/>
+              <path d="M75 150 C 70 162 80 170 74 182" stroke="var(--muted)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+            </svg>
+          </button>
+        </div>
+        <div id="popBurst" class="pop-burst"></div>
+      </div>
+      <p id="hint" class="hint"></p>
+    </div>
+  </div>
+
+  <!-- Step 2: Is it true? -->
+  <div class="step" id="stepQ1" hidden>
+    <div class="balloon-slot" id="slotQ1"></div>
+    <p class="step-q">Is it true?</p>
+    <div class="field-box">
+      <textarea id="q1Input" rows="2" maxlength="220" placeholder="Write or say your answer&hellip;" aria-label="Is it true? Write or say your answer"></textarea>
+      <button id="micQ1" class="mic-btn" type="button" aria-label="Say your answer instead of typing it" title="Say it instead of typing">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5a3.5 3.5 0 0 0-3.5 3.5v6a3.5 3.5 0 0 0 7 0v-6A3.5 3.5 0 0 0 12 2.5Z" stroke="currentColor" stroke-width="1.8"/><path d="M6 11v.5a6 6 0 0 0 12 0V11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M12 17.5V21M9 21h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="row-under">
+      <span class="mic-status" id="micStatusQ1" aria-live="polite"></span>
+      <button id="nextQ1" class="next-btn show" type="button">Next question &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Step 3: What proof do you have? -->
+  <div class="step" id="stepQ2" hidden>
+    <div class="balloon-slot" id="slotQ2"></div>
+    <p class="step-q">What proof do you have?</p>
+    <div class="field-box">
+      <textarea id="q2Input" rows="2" maxlength="220" placeholder="Write or say your answer&hellip;" aria-label="What proof do you have? Write or say your answer"></textarea>
+      <button id="micQ2" class="mic-btn" type="button" aria-label="Say your answer instead of typing it" title="Say it instead of typing">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5a3.5 3.5 0 0 0-3.5 3.5v6a3.5 3.5 0 0 0 7 0v-6A3.5 3.5 0 0 0 12 2.5Z" stroke="currentColor" stroke-width="1.8"/><path d="M6 11v.5a6 6 0 0 0 12 0V11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M12 17.5V21M9 21h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="row-under">
+      <span class="mic-status" id="micStatusQ2" aria-live="polite"></span>
+      <button id="nextQ2" class="next-btn show" type="button">Next question &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Extra step: A time this was not true -->
+  <div class="step" id="stepCounter" hidden>
+    <div class="balloon-slot" id="slotCounter"></div>
+    <p class="step-q">Can you think of a time or times this wasn’t true?</p>
+    <div class="field-box">
+      <textarea id="counterInput" rows="2" maxlength="220" placeholder="Write or say your answer&hellip;" aria-label="Can you think of a time or times this wasn’t true? Write or say your answer"></textarea>
+      <button id="micCounter" class="mic-btn" type="button" aria-label="Say your answer instead of typing it" title="Say it instead of typing">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5a3.5 3.5 0 0 0-3.5 3.5v6a3.5 3.5 0 0 0 7 0v-6A3.5 3.5 0 0 0 12 2.5Z" stroke="currentColor" stroke-width="1.8"/><path d="M6 11v.5a6 6 0 0 0 12 0V11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M12 17.5V21M9 21h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="row-under">
+      <span class="mic-status" id="micStatusCounter" aria-live="polite"></span>
+      <button id="nextCounter" class="next-btn show" type="button">Next question &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Step 4: So, is this negative thought 100% true? -->
+  <div class="step" id="stepQ3" hidden>
+    <div class="balloon-slot" id="slotQ3"></div>
+    <p class="step-q" id="q3TruthQuestion">So, is this negative thought 100% true?</p>
+    <div class="choice-row" id="q3Choices">
+      <button class="choice-btn" id="q3FeelsTrue" type="button">It feels true</button>
+      <button class="choice-btn" id="q3No" type="button">No, not really</button>
+    </div>
+    <div class="choice-col" id="q3Reasons" hidden>
+      <p class="step-q step-q-sub">What's making it feel true?</p>
+      <button class="choice-btn" id="q3ReasonThought" type="button">My thoughts</button>
+      <button class="choice-btn" id="q3ReasonFeeling" type="button">My emotions</button>
+      <button class="choice-btn" id="q3ReasonMedia" type="button">What I saw</button>
+      <button class="choice-btn" id="q3ReasonCompare" type="button">Comparing myself to someone else</button>
+      <button class="choice-btn" id="q3ReasonSaid" type="button">Someone said something</button>
+    </div>
+    <p class="q3-response" id="q3Response" hidden></p>
+    <p id="readyPrompt" class="step-q" hidden>Tap the balloon now to pop your thought.</p>
+    <div id="slotReady" class="balloon-slot"></div>
+  </div>
+
+  <button id="helpLinkBottom" class="help-link" type="button">Need an exit right now? &rarr;</button>
+
+  <footer>This is a calming exercise. It's a gentle way to practise questioning a thought.</footer>
+</div>
+
+<div id="confettiField" class="confetti-field" aria-hidden="true"></div>
+<div id="affirm" class="affirm"><p>You let it go 🤍</p></div>
+<span id="liveStatus" class="sr-only" aria-live="polite"></span>
+
+<!-- Always-available early exit. No content scanning: this is reachable from every step regardless of what's written. -->
+<div id="helpPanel" class="help-panel" hidden>
+  <div class="help-card" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+    <button id="helpClose" class="help-close" type="button" aria-label="Close">&times;</button>
+
+    <p class="help-heading">Let's pause for a moment</p>
+
+    <svg id="sushiArt" class="sushi-art" viewBox="0 0 300 160" aria-hidden="true">
+      <defs>
+        <path id="sushiTrack" d="M150,26 A124,54 0 1,1 149.99,26 Z" fill="none"/>
+      </defs>
+      <ellipse cx="150" cy="80" rx="124" ry="54" fill="none" stroke="var(--balloon2)" stroke-width="13" opacity=".5"/>
+      <ellipse cx="150" cy="80" rx="124" ry="54" fill="none" stroke="var(--balloon2)" stroke-width="4" opacity=".8"/>
+      <g>
+        <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
+        <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <circle cx="0" cy="-10" r="5.5" fill="var(--balloon)"/>
+        <animateMotion dur="12s" begin="0s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
+      </g>
+      <g>
+        <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
+        <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <circle cx="0" cy="-10" r="5.5" fill="var(--calm)"/>
+        <animateMotion dur="12s" begin="-2s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
+      </g>
+      <g>
+        <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
+        <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <circle cx="0" cy="-10" r="5.5" fill="var(--balloon2)"/>
+        <animateMotion dur="12s" begin="-4s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
+      </g>
+      <g>
+        <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
+        <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <circle cx="0" cy="-10" r="5.5" fill="var(--balloon)"/>
+        <animateMotion dur="12s" begin="-6s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
+      </g>
+      <g>
+        <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
+        <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <circle cx="0" cy="-10" r="5.5" fill="var(--calm)"/>
+        <animateMotion dur="12s" begin="-8s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
+      </g>
+      <g>
+        <circle cx="0" cy="0" r="23" fill="#fff" opacity=".95" stroke="var(--surface-edge)" stroke-width="2"/>
+        <rect x="-15" y="-10" width="30" height="19" rx="9.5" fill="#fdf6e3"/>
+        <rect x="-15" y="-10" width="30" height="7" rx="3.5" fill="#2a2140" opacity=".82"/>
+        <circle cx="0" cy="-10" r="5.5" fill="var(--balloon2)"/>
+        <animateMotion dur="12s" begin="-10s" repeatCount="indefinite"><mpath href="#sushiTrack"/></animateMotion>
+      </g>
+    </svg>
+
+    <p id="helpTitle" class="help-note">Thoughts are a bit like plates going round a sushi bar. You don't have to pick up every one that passes. You can just let it go by.</p>
+
+    <button id="helpPop" class="help-pop-balloon" type="button" aria-label="Pop the balloon now">
+      <svg class="help-pop-svg" viewBox="0 0 150 190" aria-hidden="true">
+        <defs>
+          <radialGradient id="helpPopGrad" cx="35%" cy="28%" r="75%">
+            <stop offset="0%" stop-color="#ffb4c4"/>
+            <stop offset="55%" stop-color="var(--balloon)"/>
+            <stop offset="100%" stop-color="var(--balloon-dark)"/>
+          </radialGradient>
+        </defs>
+        <path d="M75 10
+          C 112 10 136 40 132 78
+          C 129 106 112 128 90 136
+          L 96 150 L 82 146 L 84 158 L 68 146 L 66 136
+          C 42 130 18 106 18 74
+          C 18 38 42 10 75 10 Z"
+          fill="url(#helpPopGrad)"/>
+        <ellipse cx="52" cy="46" rx="14" ry="22" fill="#ffffff" opacity="0.35"/>
+      </svg>
+      <span class="help-pop-label">Pop it now</span>
+    </button>
+    <p id="helpPopDone" class="help-pop-done" hidden>You let it go 🤍</p>
+
+    <p class="help-heading-accent">Can you think of something you&hellip;</p>
+    <p class="help-q">enjoyed recently?</p>
+    <p class="help-q">are looking forward to?</p>
+
+    <div class="crisis-block">
+      <p class="crisis-caption">Or talk to someone right now:</p>
+      <div class="crisis-row">
+        <a class="crisis-chip" href="tel:999" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">999</span><span class="lbl">Emergency</span></a>
+        <a class="crisis-chip" href="tel:111" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">111</span><span class="lbl">NHS help</span></a>
+        <a class="crisis-chip" href="tel:116123" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">Samaritans</span><span class="lbl">116 123, 24/7</span></a>
+        <a class="crisis-chip" href="sms:85258" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">Shout</span><span class="lbl">Text SHOUT to 85258</span></a>
+        <a class="crisis-chip" href="tel:03007729844" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">No Panic</span><span class="lbl">0300 772 9844</span></a>
+        <a class="crisis-chip" href="tel:03001233393" target="_top"><span class="cloud-ico">&#9729;</span><span class="num">Mind</span><span class="lbl">0300 123 3393</span></a>
+        <a class="crisis-chip" href="https://www.nhs.uk/every-mind-matters/" target="_blank" rel="noopener"><span class="cloud-ico">&#9729;</span><span class="num">NHS</span><span class="lbl">Every Mind Matters</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var thoughtInput = document.getElementById("thoughtInput");
+  var q1Input = document.getElementById("q1Input");
+  var q2Input = document.getElementById("q2Input");
+  var counterInput = document.getElementById("counterInput");
+  var stepCounter = document.getElementById("stepCounter");
+  var nextCounter = document.getElementById("nextCounter");
+  var counterThought = document.getElementById("counterThought");
+  var stepQ1 = document.getElementById("stepQ1");
+  var stepQ2 = document.getElementById("stepQ2");
+  var stepQ3 = document.getElementById("stepQ3");
+  var q3Choices = document.getElementById("q3Choices");
+  var q3Reasons = document.getElementById("q3Reasons");
+  var q3Response = document.getElementById("q3Response");
+  var nextThought = document.getElementById("nextThought");
+  var nextQ1 = document.getElementById("nextQ1");
+  var nextQ2 = document.getElementById("nextQ2");
+  var balloonBtn = document.getElementById("balloonBtn");
+  var balloonWrap = document.querySelector(".balloon-wrap");
+  var hint = document.getElementById("hint");
+  var popBurst = document.getElementById("popBurst");
+  var confettiField = document.getElementById("confettiField");
+  var affirm = document.getElementById("affirm");
+  var liveStatus = document.getElementById("liveStatus");
+  var helpPanel = document.getElementById("helpPanel");
+  var helpPopBtn = document.getElementById("helpPop");
+  var helpPopDone = document.getElementById("helpPopDone");
+
+  var MAXLEN = 220;
+  var FULL_LEN = 90;        // combined characters across the written boxes for full inflation
+  var GROW_CURVE = 0.5;     // <1 makes it balloon up fast early, then ease toward the cap
+  var MIN_SCALE = 0.5;
+  var MAX_SCALE = 3.0;       // dramatically bigger than a resting balloon
+  var BALLOON_H = 190;       // matches .balloon-svg height at scale 1
+  var WRAP_PAD = 48;         // breathing room so the balloon never feels cramped
+
+  var resetTimer = null;
+  var bursting = false;
+  var stage = "thought"; // thought -> q1 -> q2 -> q3 -> ready
+
+  function reduceMotion(){
+    return window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  }
+
+  function combinedLen(){
+    return thoughtInput.value.length + q1Input.value.length + q2Input.value.length;
+  }
+
+  function scaleFor(len){
+    var t = Math.pow(Math.min(1, len / FULL_LEN), GROW_CURVE);
+    return (MIN_SCALE + t * (MAX_SCALE - MIN_SCALE)).toFixed(3);
+  }
+
+  function refreshBalloon(){
+    if (bursting) return;
+    var len = combinedLen();
+    var screenWidth = window.innerWidth;
+    var cap = stage === "ready" ? 1.15 : Math.min(2, Math.max(0.5,(screenWidth-64)/150));
+    var scale = Math.min(parseFloat(scaleFor(len)), cap).toFixed(3);
+    balloonBtn.style.setProperty("--scale", scale);
+    balloonBtn.classList.toggle("balloon-ready", len >= FULL_LEN);
+    // The wrap grows with the balloon, so whatever sits below (like the exit link)
+    // starts close by and gets pushed down as the balloon gets bigger.
+    balloonWrap.style.minHeight = (BALLOON_H * parseFloat(scale) + WRAP_PAD) + "px";
+  }
+
+  function updateHint(){
+    if (bursting) return;
+    if (stage === "thought"){
+      hint.textContent = thoughtInput.value.length > 0 ? "Press Enter when you're ready to ask yourself." : "";
+    } else if (stage === "q1"){
+      hint.textContent = "Press Enter to continue.";
+    } else if (stage === "q2"){
+      hint.textContent = "Press Enter to continue.";
+    } else if (stage === "q3"){
+      hint.textContent = "";
+    } else if (stage === "ready"){
+      hint.textContent = "";
+    }
+  }
+
+  thoughtInput.addEventListener("input", function(){
+    counterThought.textContent = thoughtInput.value.length + " / " + MAXLEN;
+    nextThought.classList.toggle("show", thoughtInput.value.length > 0 && stage === "thought");
+    refreshBalloon();
+    updateHint();
+  });
+  q1Input.addEventListener("input", function(){ refreshBalloon(); });
+  q2Input.addEventListener("input", function(){ refreshBalloon(); });
+  counterInput.addEventListener("input", function(){ refreshBalloon(); });
+
+  function moveBalloonTo(slotId){
+    var slot = document.getElementById(slotId);
+    var unit = document.getElementById("balloonUnit");
+    if (!slot || !unit) return;
+    slot.appendChild(unit);
+  }
+  function scrollQuestion(target){
+    function align(){
+      if(window.frameElement && parent.ncScrollThoughtStep){
+        window.frameElement.style.height=Math.ceil(document.body.scrollHeight+32)+"px";
+        parent.ncScrollThoughtStep(window.frameElement,target.getBoundingClientRect().top);
+      }else target.scrollIntoView({block:"start",behavior:"auto"});
+    }
+    window.requestAnimationFrame(function(){window.requestAnimationFrame(align);});
+    window.setTimeout(align,300);window.setTimeout(align,650);
+  }
+
+  function goToQ1(){
+    if (stage !== "thought" || thoughtInput.value.trim().length === 0) return;
+    stage = "q1";
+    stepQ1.hidden = false;
+    nextThought.classList.remove("show");
+    moveBalloonTo("slotQ1");
+    updateHint();
+    q1Input.focus({preventScroll:true});
+    scrollQuestion(stepQ1.querySelector(".step-q"));
+  }
+  function goStraightToPop(){
+    if(window.stopThoughtVoice)window.stopThoughtVoice();
+    stepQ1.hidden=true;stepQ2.hidden=true;stepCounter.hidden=true;
+    stepQ3.hidden=false;
+    showQ3Response("Good noticing. Let's pop your thought.");
+    scrollQuestion(document.getElementById("readyPrompt"));
+  }
+  function goToQ2(){
+    if (stage !== "q1") return;
+    if (/^(no|nope|not true|no,? not really)[.!?]*$/i.test(q1Input.value.trim())) {goStraightToPop();return;}
+    stage = "q2";
+    stepQ2.hidden = false;
+    moveBalloonTo("slotQ2");
+    updateHint();
+    q2Input.focus({preventScroll:true});
+    scrollQuestion(stepQ2.querySelector(".step-q"));
+  }
+  function goToCounter(){
+    if (stage !== "q2") return;
+    stage = "counter";
+    stepCounter.hidden = false;
+    moveBalloonTo("slotCounter");
+    updateHint();
+    counterInput.focus({preventScroll:true});
+    scrollQuestion(stepCounter.querySelector(".step-q"));
+  }
+  function goToQ3(){
+    if (stage !== "counter") return;
+    stage = "q3";
+    stepQ3.hidden = false;
+    moveBalloonTo("slotQ3");
+    updateHint();
+    scrollQuestion(stepQ3.querySelector(".step-q"));
+  }
+  function goToReady(){
+    stage = "ready";
+    moveBalloonTo("slotReady");
+    document.getElementById("readyPrompt").hidden=false;
+    refreshBalloon();
+    updateHint();
+    scrollQuestion(q3Response);
+  }
+
+  thoughtInput.addEventListener("keydown", function(e){
+    if (e.key === "Enter" && !e.shiftKey){ e.preventDefault(); goToQ1(); }
+  });
+  q1Input.addEventListener("keydown", function(e){
+    if (e.key === "Enter" && !e.shiftKey){ e.preventDefault(); goToQ2(); }
+  });
+  q2Input.addEventListener("keydown", function(e){
+    if (e.key === "Enter" && !e.shiftKey){ e.preventDefault(); goToCounter(); }
+  });
+  counterInput.addEventListener("keydown", function(e){
+    if (e.key === "Enter" && !e.shiftKey){ e.preventDefault(); goToQ3(); }
+  });
+  nextThought.addEventListener("click", goToQ1);
+  nextQ1.addEventListener("click", goToQ2);
+  nextQ2.addEventListener("click", goToCounter);
+  nextCounter.addEventListener("click", goToQ3);
+
+  function showQ3Response(text){
+    document.getElementById("q3TruthQuestion").hidden = true;
+    q3Choices.hidden = true;
+    q3Reasons.hidden = true;
+    q3Response.textContent = text;
+    q3Response.hidden = false;
+    goToReady();
+  }
+
+  document.getElementById("q3FeelsTrue").addEventListener("click", function(){
+    document.getElementById("q3TruthQuestion").hidden = true;
+    q3Choices.hidden = true;
+    q3Reasons.hidden = false;
+    scrollQuestion(q3Reasons);
+  });
+  document.getElementById("q3No").addEventListener("click", goStraightToPop);
+  document.getElementById("q3ReasonThought").addEventListener("click", function(){
+    showQ3Response("A thought isn't proof. It's just an idea passing through, not a fact.");
+  });
+  document.getElementById("q3ReasonFeeling").addEventListener("click", function(){
+    showQ3Response("Feelings are real, but they're not proof. You can feel something strongly and it still not be true.");
+  });
+  document.getElementById("q3ReasonMedia").addEventListener("click", function(){
+    showQ3Response("Videos and photos online are often polished and picked to look perfect. They're not the full picture, so they're not fair proof.");
+  });
+  document.getElementById("q3ReasonCompare").addEventListener("click", function(){
+    showQ3Response("You can only really compare yourself to you. Comparing yourself to someone else is like comparing an orange to a lemon, they're just different.");
+  });
+  document.getElementById("q3ReasonSaid").addEventListener("click", function(){
+    showQ3Response("An opinion isn't a fact. What someone says often says more about them than about you. People are usually telling their own story, not yours.");
+  });
+
+  function spawnShards(scaleNow){
+    popBurst.innerHTML = "";
+    popBurst.style.transform = "translate(-50%,-56%) scale(" + scaleNow + ")";
+    var colors = ["var(--balloon)", "var(--balloon-dark)", "var(--balloon2)"];
+    var count = reduceMotion() ? 0 : 12;
+    for (var i = 0; i < count; i++){
+      var s = document.createElement("span");
+      var rot = Math.round(Math.random() * 360);
+      var dist = 50 + Math.round(Math.random() * 40);
+      s.style.setProperty("--rot", rot + "deg");
+      s.style.setProperty("--dist", dist + "px");
+      s.style.setProperty("--shard-color", colors[i % colors.length]);
+      popBurst.appendChild(s);
+    }
+    popBurst.classList.remove("show");
+    void popBurst.offsetWidth;
+    popBurst.classList.add("show");
+  }
+
+  function spawnConfetti(){
+    confettiField.innerHTML = "";
+    var colors = ["var(--balloon)", "var(--balloon2)", "var(--calm)", "#ffffff", "var(--balloon-dark)"];
+    var count = reduceMotion() ? 18 : 70;
+    for (var i = 0; i < count; i++){
+      var p = document.createElement("div");
+      p.className = "confetti-piece";
+      p.style.setProperty("--c-left", (Math.random() * 100).toFixed(1) + "%");
+      p.style.setProperty("--c-color", colors[i % colors.length]);
+      p.style.setProperty("--c-dur", (2.1 + Math.random() * 1.6).toFixed(2) + "s");
+      p.style.setProperty("--c-delay", (Math.random() * 0.5).toFixed(2) + "s");
+      p.style.setProperty("--c-drift", (Math.random() * 120 - 60).toFixed(0) + "px");
+      p.style.setProperty("--c-rot", (Math.round(Math.random() * 520 - 260)) + "deg");
+      confettiField.appendChild(p);
+    }
+  }
+
+  function softPop(){
+    try{
+      var Ctx = window.AudioContext || window.webkitAudioContext;
+      if (!Ctx) return;
+      var ctx = new Ctx();
+      var osc = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(520, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(140, ctx.currentTime + 0.18);
+      gain.gain.setValueAtTime(0.18, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.22);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.24);
+      osc.onended = function(){ ctx.close && ctx.close(); };
+    }catch(e){ /* audio is a nice-to-have, never required */ }
+  }
+
+  var poppedFromPanel = false;
+
+  function burst(){
+    if (bursting) return;
+    bursting = true;
+    stopAllMics();
+    hint.textContent = "";
+    var scaleNow = parseFloat(getComputedStyle(balloonBtn).getPropertyValue("--scale")) || MIN_SCALE;
+    softPop();
+    spawnShards(scaleNow);
+    spawnConfetti();
+    balloonBtn.style.opacity = "0";
+    balloonBtn.style.transition = "opacity .18s ease, transform .18s ease";
+    balloonBtn.style.transform = "scale(" + (scaleNow * 1.08) + ")";
+
+    if (poppedFromPanel){
+      helpPopBtn.style.transition = "opacity .18s ease";
+      helpPopBtn.style.opacity = "0";
+      window.setTimeout(function(){
+        helpPopBtn.hidden = true;
+        helpPopDone.hidden = false;
+      }, 160);
+    } else {
+      document.getElementById("balloonUnit").parentNode.appendChild(affirm);
+      document.getElementById("readyPrompt").hidden=true;
+      window.setTimeout(function(){ affirm.classList.add("show"); scrollQuestion(affirm); }, 120);
+    }
+
+    if (resetTimer) window.clearTimeout(resetTimer);
+    resetTimer = window.setTimeout(resetStage, 4200);
+  }
+
+  function resetStage(){
+    affirm.classList.remove("show");
+    window.setTimeout(function(){
+      confettiField.innerHTML = "";
+      popBurst.classList.remove("show");
+      popBurst.innerHTML = "";
+      thoughtInput.value = "";
+      q1Input.value = "";
+      q2Input.value = "";
+      counterInput.value = "";
+      counterThought.textContent = "0 / " + MAXLEN;
+      stepQ1.hidden = true;
+      stepQ2.hidden = true;
+      stepCounter.hidden = true;
+      stepQ3.hidden = true;
+      q3Choices.hidden = false;
+      document.getElementById("q3TruthQuestion").hidden = false;
+      q3Reasons.hidden = true;
+      q3Response.hidden = true;
+      nextThought.classList.remove("show");
+      moveBalloonTo("slotThought");
+      document.getElementById("readyPrompt").hidden=true;
+      stage = "thought";
+      balloonBtn.style.transition = "";
+      balloonBtn.style.opacity = "1";
+      balloonBtn.style.transform = "";
+      helpPopBtn.style.transition = "";
+      helpPopBtn.style.opacity = "1";
+      helpPopBtn.hidden = false;
+      helpPopDone.hidden = true;
+      poppedFromPanel = false;
+      bursting = false;
+      refreshBalloon();
+      updateHint();
+    }, 400);
+  }
+
+  function handleTap(){
+    if (bursting) return;
+    burst();
+  }
+
+  balloonBtn.addEventListener("click", handleTap);
+  balloonBtn.addEventListener("keydown", function(e){
+    if (e.key === "Enter" || e.key === " "){ e.preventDefault(); handleTap(); }
+  });
+
+  /* ---------- always-available early exit ---------- */
+  var lastFocused = null;
+  function openHelp(){
+    stopAllMics();
+    lastFocused = document.activeElement;
+    helpPanel.hidden = false;
+    document.getElementById("helpClose").focus();
+  }
+  function closeHelp(){
+    helpPanel.hidden = true;
+    if (lastFocused && typeof lastFocused.focus === "function") lastFocused.focus();
+  }
+  document.getElementById("helpLinkTop").addEventListener("click", openHelp);
+  document.getElementById("helpLinkBottom").addEventListener("click", openHelp);
+  document.getElementById("helpClose").addEventListener("click", closeHelp);
+  helpPopBtn.addEventListener("click", function(){ poppedFromPanel = true; burst(); });
+  helpPanel.addEventListener("click", function(e){
+    if (e.target === helpPanel) closeHelp();
+  });
+  document.addEventListener("keydown", function(e){
+    if (e.key === "Escape" && !helpPanel.hidden) closeHelp();
+  });
+
+  /* ---------- voice typing (shared across the written boxes) ---------- */
+  var SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var activeMicControllers = [];
+
+  var activeVoice=null;
+  function setupMic(textareaEl,micBtnEl,statusEl){
+    micBtnEl.textContent="🎤 Speak";
+    micBtnEl.style.cssText="position:static;width:auto;min-height:48px;padding:10px 16px;border-radius:12px;margin-top:8px;font-size:16px";
+    micBtnEl.setAttribute("aria-pressed","false");
+    var session=null;
+    function reset(){micBtnEl.textContent="🎤 Speak";micBtnEl.setAttribute("aria-pressed","false");micBtnEl.classList.remove("listening");}
+    function cancel(){if(session){var old=session;session=null;try{old.abort();}catch(e){}reset();}}
+    activeMicControllers.push({stop:cancel});
+    micBtnEl.onclick=function(){
+      if(session){session.stop();return;}
+      stopAllMics();
+      if(!SpeechRecognitionCtor){statusEl.textContent="Use the microphone on your phone keyboard, or type.";textareaEl.focus();return;}
+      var recognizer=new SpeechRecognitionCtor();session=recognizer;
+      recognizer.lang="en-GB";recognizer.continuous=false;recognizer.interimResults=false;
+      var seen={};
+      recognizer.onresult=function(event){
+        if(session!==recognizer)return;
+        var words=[];
+        for(var i=event.resultIndex||0;i<event.results.length;i++){
+          if(event.results[i].isFinal && !seen[i]){seen[i]=true;words.push(event.results[i][0].transcript);}
+        }
+        if(!words.length)return;
+        textareaEl.value=(textareaEl.value+(textareaEl.value&&!/\\s$/.test(textareaEl.value)?" ":"")+words.join(" ")).slice(0,MAXLEN);
+        textareaEl.dispatchEvent(new Event("input",{bubbles:true}));
+        statusEl.textContent="You can correct your words in the box.";
+      };
+      recognizer.onerror=function(){if(session===recognizer)statusEl.textContent="Try again, use your keyboard microphone, or type.";};
+      recognizer.onend=function(){if(session!==recognizer)return;session=null;reset();if(statusEl.textContent==="Listening…")statusEl.textContent="You can speak again or correct your words.";};
+      try{recognizer.start();micBtnEl.textContent="■ Stop";micBtnEl.setAttribute("aria-pressed","true");statusEl.textContent="Listening…";}
+      catch(e){session=null;reset();statusEl.textContent="Use your keyboard microphone or type.";}
+    };
+  }
+
+  window.stopThoughtVoice=stopAllMics;
+  function stopAllMics(){
+    activeMicControllers.forEach(function(c){ c.stop(); });
+  }
+
+  setupMic(thoughtInput, document.getElementById("micThought"), document.getElementById("micStatusThought"));
+  setupMic(q1Input, document.getElementById("micQ1"), document.getElementById("micStatusQ1"));
+  setupMic(q2Input, document.getElementById("micQ2"), document.getElementById("micStatusQ2"));
+  setupMic(counterInput, document.getElementById("micCounter"), document.getElementById("micStatusCounter"));
+
+  var sushiArt = document.getElementById("sushiArt");
+  if (sushiArt && reduceMotion() && sushiArt.pauseAnimations){
+    sushiArt.pauseAnimations();
+  }
+
+  refreshBalloon();
+  updateHint();
+})();
+</script>
+<style>
+.affirm{position:static;inset:auto;display:none;opacity:1;transition:none;padding:14px 12px;margin:12px 0}
+.affirm.show{display:block}
+.affirm p{font-size:24px;line-height:1.5;text-shadow:none}
+.choice-row[hidden]{display:none}
+#readyPrompt[hidden]{display:none}
+#readyPrompt{font-size:17px;margin-top:12px}
+#slotReady .balloon-wrap{transition:none}
+.field-box{padding:14px 16px}
+.field-box textarea{min-height:90px;overflow:hidden;resize:none}
+html,body{height:auto;min-height:0}
+button{touch-action:manipulation}
+</style>
+<script>
+(function(){
+ function resize(){
+   document.querySelectorAll("textarea").forEach(function(el){if(!el.hidden && el.getClientRects().length){el.style.height="auto";el.style.height=el.scrollHeight+"px";}});
+   if(window.frameElement)window.frameElement.style.height=Math.ceil(document.body.scrollHeight+32)+"px";
+ }
+ document.addEventListener("input",resize);
+ new ResizeObserver(function(){if(window.frameElement)window.frameElement.style.height=Math.ceil(document.body.scrollHeight+32)+"px";}).observe(document.querySelector(".stage"));
+ document.addEventListener("click",function(e){if(!e.target.closest(".mic-btn"))stopVoice();});
+ function stopVoice(){if(window.stopThoughtVoice)window.stopThoughtVoice();}
+ window.addEventListener("pagehide",stopVoice);
+ document.addEventListener("visibilitychange",function(){if(document.hidden)stopVoice();});
+ window.addEventListener("load",resize);resize();
+})();
+</script></body></html>
