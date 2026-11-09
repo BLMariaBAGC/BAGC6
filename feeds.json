@@ -1,5 +1,5 @@
 {
-  "updated": "09 Nov 2026, 15:11 UTC",
+  "updated": "09 Nov 2026, 21:05 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Why Leaders Need to Rethink Their Approach to AI Oversight",
+      "link": "/2026/11/why-leaders-need-to-rethink-their-approach-to-ai-oversight",
+      "date": "9 Nov 2026",
+      "excerpt": "Strict AI policies can inadvertently fuel employee resistance. To encourage adoption, companies should focus on building employee trust, developing their AI skills, and giving them more autonomy.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "To Land a C-Suite Job, Craft Your Career Story",
       "link": "/2026/11/to-land-a-c-suite-job-craft-your-career-story",
       "date": "9 Nov 2026",
@@ -116,24 +125,6 @@
       "link": "/2026/11/do-people-want-ceos-to-shut-up",
       "date": "5 Nov 2026",
       "excerpt": "In a new column, the former dean of HBS weighs how and when to wield the voice of the company.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What R&D Looks Like for HR",
-      "link": "/2026/11/what-rd-looks-like-for-hr",
-      "date": "5 Nov 2026",
-      "excerpt": "Companies should commission more bespoke people-analytics research.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "AI Lost Big in the Midterms. What Does That Mean for Your Business?",
-      "link": "/2026/11/ai-lost-big-in-the-midterms-what-does-that-mean-for-your-business",
-      "date": "5 Nov 2026",
-      "excerpt": "Six policy battlegrounds leaders need to watch.",
       "image": ""
     },
     {
@@ -193,6 +184,42 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Nov 2026",
+      "excerpt": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f5c/live/7cc0b9e0-dc6c-11f1-b441-2b33b063138f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Civil servant who secretly held five jobs found guilty of fraud",
+      "link": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss",
+      "date": "9 Nov 2026",
+      "excerpt": "Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1641/live/c3324b50-d6f9-11f1-b983-c357054e4d1e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "How a civil servant got away with juggling five jobs for so long",
+      "link": "https://www.bbc.co.uk/news/articles/cw1m4d8vjvppo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Nov 2026",
+      "excerpt": "Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d7c/live/f86c8280-db55-11f1-b441-2b33b063138f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Poundland unable to buy new stock as fears over collapse grow",
+      "link": "https://www.bbc.co.uk/news/articles/cw1l3lmem165o?at_medium=RSS&at_campaign=rss",
+      "date": "9 Nov 2026",
+      "excerpt": "The discount chain is continuing to edge towards collapse and is said to be \"running on fumes\", according to one insider.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c59/live/3c72aa60-dc53-11f1-b8a2-9782924402f8.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
       "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
       "date": "9 Nov 2026",
@@ -207,42 +234,6 @@
       "date": "9 Nov 2026",
       "excerpt": "Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83e2/live/f1cb1e30-dc24-11f1-93e1-3b657b665bcf.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Doing these things now will help you save money at Christmas",
-      "link": "https://www.bbc.co.uk/news/articles/ck7vppll151mo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Nov 2026",
-      "excerpt": "Small decisions made now can make a big difference to your festive finances, charities say, so here are some tips.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/903c/live/8d645510-d9ef-11f1-bb10-cdca6001fbcf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Government's EV targets expected to be reduced this week",
-      "link": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Nov 2026",
-      "excerpt": "New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b401/live/fd7836e0-dbdf-11f1-b348-cb75a5659779.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets",
-      "link": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss",
-      "date": "7 Nov 2026",
-      "excerpt": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e6b/live/b1102500-d9fb-11f1-b441-2b33b063138f.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
-      "link": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
-      "date": "9 Nov 2026",
-      "excerpt": "Jensen Huang also admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4981/live/81f74f50-dbb8-11f1-86cb-c1d83392da32.jpg"
     }
   ]
 }
