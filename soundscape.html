@@ -451,7 +451,7 @@ applyColour(); buildPills(); build(); load(0);
     if(d&&d.ss==='allow'){
       ok=true;document.body.classList.add('allow');
       var v=null;try{v=localStorage.getItem(KEY)}catch(x){}
-      apply(v==='1',false);
+      apply(false,false); // always start open; minimise only when the person clicks it
     }
   });
   try{parent.postMessage({ss:'hello'},'*')}catch(e){}
