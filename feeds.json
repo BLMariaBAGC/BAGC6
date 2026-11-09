@@ -1,6 +1,15 @@
 {
-  "updated": "09 Nov 2026, 04:41 UTC",
+  "updated": "09 Nov 2026, 15:11 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Common osteoporosis drugs linked to 24% lower dementia risk in major study",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261108233037.htm",
+      "date": "9 Nov 2026",
+      "excerpt": "A massive study of more than 120,000 older adults suggests that common osteoporosis drugs may reduce the risk of Alzheimer’s disease and other dementias by up to 24%. The surprising findings raise the possibility that medications already us",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -31,6 +40,15 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "A simple supplement may help clear brain fog after cancer",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261104084013.htm",
+      "date": "9 Nov 2026",
+      "excerpt": "A surprising new study from UCLA suggests that a naturally occurring molecule could help breast cancer survivors overcome the frustrating brain fog and exhaustion that can linger long after treatment ends. Researchers found that women takin",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "Scientists wipe out deadly brain tumors in every mouse tested with new cancer therapy",
       "link": "https://www.sciencedaily.com/releases/2026/11/261104084009.htm",
       "date": "8 Nov 2026",
@@ -56,21 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists may have finally explained why our brains and bodies are cross-wired",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261103003146.htm",
-      "date": "4 Nov 2026",
-      "excerpt": "Scientists propose that the brain’s mysterious cross-wiring, which connects each hemisphere to the opposite side of the body, may have originated more than 500 million years ago in the visual systems of ancient fish. Rather than evolving fo",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "To Land a C-Suite Job, Craft Your Career Story",
+      "link": "/2026/11/to-land-a-c-suite-job-craft-your-career-story",
+      "date": "9 Nov 2026",
+      "excerpt": "You’ve built the career. Here’s how to sell it.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists identify two overlooked skills that predict reading success",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261102202845.htm",
-      "date": "3 Nov 2026",
-      "excerpt": "A massive new study reveals that intelligence plays a surprisingly limited role in children's reading success, while visual processing showed no meaningful connection at all. Instead, the strongest predictors are sound recognition, vocabula",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When Rising Interest Rates Signal Economic Strength—and When They Signal Risk",
+      "link": "/2026/11/when-rising-interest-rates-signal-economic-strength-and-when-they-signal-risk",
+      "date": "9 Nov 2026",
+      "excerpt": "The U.S. and France have both seen interest rates top 5%, but the underlying economies are very different.",
       "image": ""
     },
     {
@@ -116,24 +134,6 @@
       "link": "/2026/11/ai-lost-big-in-the-midterms-what-does-that-mean-for-your-business",
       "date": "5 Nov 2026",
       "excerpt": "Six policy battlegrounds leaders need to watch.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What Sycophantic AI Can Cost Your Organization",
-      "link": "/2026/11/what-sycophantic-ai-can-cost-your-organization",
-      "date": "4 Nov 2026",
-      "excerpt": "Lessons from the UK’s largest telecommunications group, which redesigned AI-employee interactions to ensure they activate leaders’ vision, values, and strategy.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "You’re Reporting to a New C-Suite Leader. Here’s How to Build Influence Quickly.",
-      "link": "/2026/11/youre-reporting-to-a-new-c-suite-leader-heres-how-to-build-influence-quickly",
-      "date": "4 Nov 2026",
-      "excerpt": "Tactics for turning them into an advocate who sees you as a strategic partner.",
       "image": ""
     },
     {
@@ -193,11 +193,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
-      "link": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
+      "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
       "date": "9 Nov 2026",
-      "excerpt": "Jensen Huang also admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4981/live/81f74f50-dbb8-11f1-86cb-c1d83392da32.jpg"
+      "excerpt": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+      "link": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
+      "date": "9 Nov 2026",
+      "excerpt": "Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83e2/live/f1cb1e30-dc24-11f1-93e1-3b657b665bcf.png"
     },
     {
       "source": "BBC Business",
@@ -211,11 +220,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
-      "link": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
-      "date": "8 Nov 2026",
-      "excerpt": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1427/live/5d17fd80-db61-11f1-adda-c54f54e3ce6a.jpg"
+      "title": "Government's EV targets expected to be reduced this week",
+      "link": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss",
+      "date": "9 Nov 2026",
+      "excerpt": "New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b401/live/fd7836e0-dbdf-11f1-b348-cb75a5659779.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "He spent $50,000 on Labubus but now the craze is dying",
-      "link": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss",
-      "date": "7 Nov 2026",
-      "excerpt": "Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79bc/live/19d4a530-d90b-11f1-93e1-3b657b665bcf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "AI stocks climb after trillions wiped from market values",
-      "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-      "date": "6 Nov 2026",
-      "excerpt": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdde/live/9036f7e0-da01-11f1-93e1-3b657b665bcf.jpg"
+      "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
+      "date": "9 Nov 2026",
+      "excerpt": "Jensen Huang also admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4981/live/81f74f50-dbb8-11f1-86cb-c1d83392da32.jpg"
     }
   ]
 }
