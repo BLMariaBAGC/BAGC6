@@ -1,4 +1,4 @@
-<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pop the Thoughts</title>
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Let a Negative Thought Go</title>
 <style>
 /*
   Design plan
@@ -637,7 +637,7 @@ footer{
 </head><body><div class="stage">
   <span class="eyebrow">A moment to breathe</span>
   <h1>Let a negative thought go</h1>
-  <p class="lede">Write or say what's on your mind. Watch the balloon grow. Press Enter to move to the next question. Tap the balloon when you're ready to let it go.</p>
+  <p class="lede">Write or say what's on your mind. Watch the balloon grow as you notice it. Press Enter to move to the next question. When you're ready, tap the balloon and release it.</p>
   <button id="helpLinkTop" class="help-link" type="button">Having a hard time right now? &rarr;</button>
 
   <!-- Step 1: the thought itself -->
@@ -766,7 +766,7 @@ footer{
       <button class="choice-btn" id="q3ReasonSaid" type="button">Someone said something</button>
     </div>
     <p class="q3-response" id="q3Response" hidden></p>
-    <p id="readyPrompt" class="step-q" hidden>Tap the balloon now to pop your thought.</p>
+    <p id="readyPrompt" class="step-q" hidden>Tap the balloon now to release your thought.</p>
     <div id="slotReady" class="balloon-slot"></div>
   </div>
 
@@ -838,7 +838,7 @@ footer{
 
     <p id="helpTitle" class="help-note">Thoughts are a bit like plates going round a sushi bar. You don't have to pick up every one that passes. You can just let it go by.</p>
 
-    <button id="helpPop" class="help-pop-balloon" type="button" aria-label="Pop the balloon now">
+    <button id="helpPop" class="help-pop-balloon" type="button" aria-label="Release the balloon now">
       <svg class="help-pop-svg" viewBox="0 0 150 190" aria-hidden="true">
         <defs>
           <radialGradient id="helpPopGrad" cx="35%" cy="28%" r="75%">
@@ -856,7 +856,7 @@ footer{
           fill="url(#helpPopGrad)"/>
         <ellipse cx="52" cy="46" rx="14" ry="22" fill="#ffffff" opacity="0.35"/>
       </svg>
-      <span class="help-pop-label">Pop it now</span>
+      <span class="help-pop-label">Release it now</span>
     </button>
     <p id="helpPopDone" class="help-pop-done" hidden>You let it go 🤍</p>
 
@@ -1002,7 +1002,7 @@ footer{
     if(window.stopThoughtVoice)window.stopThoughtVoice();
     stepQ1.hidden=true;stepQ2.hidden=true;stepCounter.hidden=true;
     stepQ3.hidden=false;
-    showQ3Response("Good noticing. Let's pop your thought.");
+    showQ3Response("Good noticing. Let's release this thought.");
     scrollQuestion(document.getElementById("readyPrompt"));
   }
   function goToQ2(){

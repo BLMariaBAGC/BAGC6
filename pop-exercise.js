@@ -21,7 +21,7 @@
     b.style.cssText='position:absolute;top:18px;right:max(12px,calc(50% - 560px));z-index:2;width:36px;height:36px;padding:0;border-radius:50%;border:2px solid #C9F6FA;background:rgba(61,133,140,.95);color:#C9F6FA;font:400 24px/32px Georgia,serif;text-align:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.35)';
     b.addEventListener('click',close);
     var f=document.createElement('iframe');
-    f.title=C.title||'Exercise';f.src=C.src;f.setAttribute('allow','autoplay; microphone; clipboard-write; fullscreen');
+    f.title=C.title||'Exercise';f.src=C.src+(C.src.indexOf('?')<0?'?':'&')+'t='+Math.floor(Date.now()/300000);f.setAttribute('allow','autoplay; microphone; clipboard-write; fullscreen');
     f.style.cssText='flex:1;width:100%;height:100%;border:0;display:block';
     w.appendChild(b);w.appendChild(f);document.body.appendChild(w);
     cur={w:w};fit();document.addEventListener('keydown',key,true);
