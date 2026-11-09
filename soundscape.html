@@ -451,9 +451,11 @@ applyColour(); buildPills(); build(); load(0);
     if(d&&d.ss==='allow'){
       ok=true;document.body.classList.add('allow');
       var v=null;try{v=localStorage.getItem(KEY)}catch(x){}
-      apply(false,false); // always start open; minimise only when the person clicks it
+      tell(); // parent just syncs to whatever state the player is in
     }
   });
+  if(window.outerWidth>=600){ok=true;document.body.classList.add('allow')} // show the button straight away on wide windows
+  tell();
   try{parent.postMessage({ss:'hello'},'*')}catch(e){}
 })();
 </script>
