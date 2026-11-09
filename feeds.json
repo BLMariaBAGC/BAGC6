@@ -1,5 +1,5 @@
 {
-  "updated": "09 Nov 2026, 21:51 UTC",
+  "updated": "09 Nov 2026, 21:59 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
+      "link": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+      "date": "9 Nov 2026",
+      "excerpt": "Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfeb/live/25c9f050-dc7d-11f1-ba95-5f07efd49f42.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Civil servant who secretly held five jobs found guilty of fraud",
       "link": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss",
       "date": "9 Nov 2026",
@@ -225,15 +234,6 @@
       "date": "9 Nov 2026",
       "excerpt": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
-      "link": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
-      "date": "9 Nov 2026",
-      "excerpt": "Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83e2/live/f1cb1e30-dc24-11f1-93e1-3b657b665bcf.png"
     }
   ]
 }
