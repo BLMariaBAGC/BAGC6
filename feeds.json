@@ -1,5 +1,5 @@
 {
-  "updated": "10 Nov 2026, 06:37 UTC",
+  "updated": "10 Nov 2026, 16:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,42 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "What the Midterms Mean for Business",
+      "link": "/2026/11/what-the-midterms-mean-for-business",
+      "date": "10 Nov 2026",
+      "excerpt": "Companies need a &#8220;policy advantage&#8221; strategy amid voter pushback against AI and data centers.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "As Your Company Evolves, Hold On to What Makes It Unique",
+      "link": "/2026/11/as-your-company-evolves-hold-on-to-what-makes-it-unique",
+      "date": "10 Nov 2026",
+      "excerpt": "Discovering your company&#8217;s essence requires looking closely at what customers value, what competitors struggle to imitate, and what experimentation reveals about the organization&#8217;s strengths.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When a Short Seller Came for Samsonite Over Accounting Flaws",
+      "link": "/podcast/2026/11/when-a-short-seller-came-for-samsonite-over-accounting-flaws",
+      "date": "10 Nov 2026",
+      "excerpt": "A look inside a set of case studies around what happened when the world’s largest luggage maker faced questions about its accounting, its governance, and its CEO in 2018.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What Customers Really Value–and Why Leaders Keep Getting It Wrong",
+      "link": "/podcast/2026/11/what-customers-really-value-and-why-leaders-keep-getting-it-wrong",
+      "date": "10 Nov 2026",
+      "excerpt": "Vikas Mittal, professor of marketing at Rice University, explains the benefits of a science-driven strategy and what executives often get wrong.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Why Leaders Need to Rethink Their Approach to AI Oversight",
       "link": "/2026/11/why-leaders-need-to-rethink-their-approach-to-ai-oversight",
       "date": "9 Nov 2026",
@@ -101,30 +137,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Promise—and Peril—of an AI-Assisted Board",
-      "link": "/2026/11/the-promise-and-peril-of-an-ai-assisted-board",
-      "date": "6 Nov 2026",
-      "excerpt": "HBS professor Suraj Srinivasan on ways in which AI can help bridge the relationship between the board and executive team.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Risks of Decentralizing Your Organization",
-      "link": "/2026/11/the-risks-of-decentralizing-your-organization",
-      "date": "6 Nov 2026",
-      "excerpt": "Three mistakes companies make when giving business units more accountability.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Do People Want CEOs to Shut Up?",
-      "link": "/2026/11/do-people-want-ceos-to-shut-up",
-      "date": "5 Nov 2026",
-      "excerpt": "In a new column, the former dean of HBS weighs how and when to wield the voice of the company.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is artificial intelligence a threat or solution to climate change?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/10/cop31-is-artificial-intelligence-a-threat-or-solution-to-climate-change/",
+      "date": "10 Nov 2026",
+      "excerpt": "Does the potential of AI to tackle climate change outweigh its environmental footprint? During the 2026 United Nations Climate Change Conference (COP31), we asked five academics and experts for their views on technology and the climate. Fab",
       "image": ""
     },
     {
@@ -173,13 +191,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Mixed emotions can make work more difficult for pregnant employees",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/10/30/mixed-emotions-can-make-work-more-difficult-for-pregnant-employees/",
-      "date": "30 Oct 2026",
-      "excerpt": "Emotional ambivalence – the simultaneous experience of positive and negative feelings at work – may undermine employees navigating complex work situations. Dave Arena Jr., Phoenix Chen, Allie Gabriel and Kristen Jones find that among pregna",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Nov 2026",
+      "excerpt": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/151a/live/19e16bc0-dd03-11f1-a701-fddedf244c16.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Sales of tinned food and bottled water  jump after 'Be Ready' campaign launch",
+      "link": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
+      "date": "10 Nov 2026",
+      "excerpt": "Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f934/live/9e648690-dd01-11f1-a701-fddedf244c16.jpg"
     },
     {
       "source": "BBC Business",
@@ -188,52 +215,34 @@
       "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
       "date": "10 Nov 2026",
       "excerpt": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f773/live/9c28e680-dc95-11f1-a701-fddedf244c16.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/123a/live/434e87b0-dcd9-11f1-a701-fddedf244c16.png"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Faisal Islam: What Jensen Huang told me about China, national security and persuading Trump",
-      "link": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
+      "title": "US inflation higher than expected in October - here's what is happening with prices",
+      "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
       "date": "10 Nov 2026",
-      "excerpt": "Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d5c/live/48fcfe10-dc9a-11f1-adfe-2165436acfb4.jpg"
+      "excerpt": "Prices rose by 0.4% over the month, driven by increases in shelter, food and energy costs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd50/live/e1cf6860-c7cf-11f1-9e10-4dcbd31d4273.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-      "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
-      "date": "9 Nov 2026",
-      "excerpt": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f5c/live/7cc0b9e0-dc6c-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
-      "link": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
-      "date": "9 Nov 2026",
-      "excerpt": "Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e4e6/live/9afaf360-dccd-11f1-9b78-45da8622c809.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
-      "link": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
+      "title": "Kim Kardashian's Skims offers refunds for $148 advent calendar after backlash",
+      "link": "https://www.bbc.co.uk/news/articles/cqp8g8p53x6ko?at_medium=RSS&at_campaign=rss",
       "date": "10 Nov 2026",
-      "excerpt": "AI safety regulator will also be created after a rogue OpenAI agent hacked government websites.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c11d/live/472ca6e0-dcc6-11f1-a594-d13718d7f889.jpg"
+      "excerpt": "The contents of the calendar, including hair clips and keychains, have been widely criticised on social media.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b12e/live/a6d1b5b0-dcec-11f1-93e1-3b657b665bcf.png"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Civil servant who secretly held five jobs found guilty of fraud",
-      "link": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss",
-      "date": "9 Nov 2026",
-      "excerpt": "Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1641/live/c3324b50-d6f9-11f1-b983-c357054e4d1e.jpg"
+      "title": "I took Vinted to court to get my money back",
+      "link": "https://www.bbc.co.uk/news/articles/cm369e3l15lwo?at_medium=RSS&at_campaign=rss",
+      "date": "10 Nov 2026",
+      "excerpt": "The BBC hears from Vinted sellers who describe difficulties accessing money held in their online wallets.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de22/live/e53d0e50-c7c3-11f1-bc2e-018d645d8d21.jpg"
     }
   ]
 }
