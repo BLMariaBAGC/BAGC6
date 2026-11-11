@@ -515,6 +515,7 @@ applyColour(); buildPills(); build(); load(0);
       else if(m.a==='cat')oSwitch(m.k);else if(m.a==='load')oLoad(m.i,true);
       else if(m.a==='seek'&&au.duration)au.currentTime=m.f*au.duration;
       else if(m.a==='vol')au.volume=m.v;
+      else if(m.a==='pause'){if(pl){au.pause();oSet(false)}}
       bcast();return}
     if(m.t==='bye'&&!leader&&lastState&&m.from===lastState.from)takeOver(lastState);
   };
@@ -528,6 +529,8 @@ applyColour(); buildPills(); build(); load(0);
   if(vol)vol.addEventListener('input',function(){if(!leader)send({t:'cmd',a:'vol',v:parseFloat(this.value)})});
   addEventListener('pagehide',function(){if(leader)send({t:'bye'})});
   setInterval(function(){if(!leader&&lastState&&lastState.pl&&Date.now()-last>4500)takeOver(lastState)},2000);
+  /* the host page can ask for the music to stop (the pop-up's red cross) */
+  addEventListener('message',function(e){if(e.data&&e.data.ss==='pause'){if(leader){if(pl){au.pause();oSet(false);bcast()}}else send({t:'cmd',a:'pause'})}});
   send({t:'hello'});
 })();
 </script>
