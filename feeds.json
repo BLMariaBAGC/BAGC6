@@ -1,5 +1,5 @@
 {
-  "updated": "11 Nov 2026, 13:33 UTC",
+  "updated": "11 Nov 2026, 21:02 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,33 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "The Paradox of AI-Designed Green Products",
+      "link": "/2026/11/the-paradox-of-ai-designed-green-products",
+      "date": "11 Nov 2026",
+      "excerpt": "Telling consumers about AI’s involvement can undermine the very sustainability benefits companies hope to create with the technology.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: The Risks of Rewarding Top Employees with Better Schedules",
+      "link": "/2026/11/research-the-risks-of-rewarding-top-employees-with-better-schedules",
+      "date": "11 Nov 2026",
+      "excerpt": "A study of 1,189 restaurant workers found that people with poor schedules were nearly twice as likely to quit when they saw that other colleagues fared better.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Hidden Costs of Delegating to AI",
+      "link": "/2026/11/the-hidden-costs-of-delegating-to-ai",
+      "date": "11 Nov 2026",
+      "excerpt": "Lessons from accounting firms reveal why faster execution doesn’t automatically improve organizational performance.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The HBR Guide to Killing Projects",
       "link": "/2026/11/the-hbr-guide-to-killing-projects",
       "date": "10 Nov 2026",
@@ -92,39 +119,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What the Midterms Mean for Business",
-      "link": "/2026/11/what-the-midterms-mean-for-business",
-      "date": "10 Nov 2026",
-      "excerpt": "Companies need a &#8220;policy advantage&#8221; strategy amid voter pushback against AI and data centers.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Capital Is More Expensive for Companies Outside the AI Boom",
-      "link": "/2026/11/capital-is-more-expensive-for-companies-outside-the-ai-boom",
-      "date": "10 Nov 2026",
-      "excerpt": "This affects the economics of their strategies in three ways.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "As Your Company Evolves, Hold On to What Makes It Unique",
-      "link": "/2026/11/as-your-company-evolves-hold-on-to-what-makes-it-unique",
-      "date": "10 Nov 2026",
-      "excerpt": "Discovering your company&#8217;s essence requires looking closely at what customers value, what competitors struggle to imitate, and what experimentation reveals about the organization&#8217;s strengths.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When a Short Seller Came for Samsonite Over Accounting Flaws",
-      "link": "/podcast/2026/11/when-a-short-seller-came-for-samsonite-over-accounting-flaws",
-      "date": "10 Nov 2026",
-      "excerpt": "A look inside a set of case studies around what happened when the world’s largest luggage maker faced questions about its accounting, its governance, and its CEO in 2018.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "More work than it looks: the new jobs coming from AI adoption",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/11/more-work-than-it-looks-the-new-jobs-coming-from-ai-adoption/",
+      "date": "11 Nov 2026",
+      "excerpt": "From synthesisers to assembly lines, technological change has threatened familiar jobs while creating unexpected forms of work. Research into AI-related job vacancies is revealing strong demand for the people who help organisations adopt AI",
       "image": ""
     },
     {
@@ -173,15 +173,6 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Employees have no incentive to disclose how productive AI makes them",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/02/employees-have-no-incentive-to-disclose-how-productive-ai-makes-them/",
-      "date": "2 Nov 2026",
-      "excerpt": "The harder a company pushes to measure individual AI productivity, the stronger the reason it gives each employee using it to keep that productivity out of view. So the gains leaders most need to see become the ones employees have the least",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
@@ -198,6 +189,15 @@
       "date": "11 Nov 2026",
       "excerpt": "A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/004e/live/e1c67fd0-dda9-11f1-b441-2b33b063138f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "'Not the answer': Labour MPs speak out against Rosebank as decision looms",
+      "link": "https://www.bbc.co.uk/news/articles/cqp9dr79jkrzo?at_medium=RSS&at_campaign=rss",
+      "date": "11 Nov 2026",
+      "excerpt": "There is a growing expectation among senior Labour figures that drilling in the oil field will be given the green light.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60a5/live/584f1ed0-cfb0-11f1-9012-0172b9f73a72.jpg"
     },
     {
       "source": "BBC Business",
@@ -225,15 +225,6 @@
       "date": "10 Nov 2026",
       "excerpt": "Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f934/live/9e648690-dd01-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Robot vessels take on the dangerous work of mine hunting",
-      "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Nov 2026",
-      "excerpt": "The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6570/live/e6af84c0-dce5-11f1-b441-2b33b063138f.jpg"
     }
   ]
 }
