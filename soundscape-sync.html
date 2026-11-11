@@ -404,6 +404,7 @@ function toggleList(){
   listOpen=!listOpen;
   document.getElementById('tpanel').classList.toggle('open',listOpen);
   document.getElementById('chev').classList.toggle('open',listOpen);
+  try{parent.postMessage({ss:'list',open:listOpen},'*')}catch(e){}
 }
 
 au.volume=0.75;
