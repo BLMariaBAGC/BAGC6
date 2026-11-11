@@ -1,5 +1,5 @@
 {
-  "updated": "10 Nov 2026, 22:50 UTC",
+  "updated": "11 Nov 2026, 04:43 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -128,13 +128,85 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is artificial intelligence a threat or solution to climate change?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/10/cop31-is-artificial-intelligence-a-threat-or-solution-to-climate-change/",
+      "date": "10 Nov 2026",
+      "excerpt": "Does the potential of AI to tackle climate change outweigh its environmental footprint? During the 2026 United Nations Climate Change Conference (COP31), we asked five academics and experts for their views on technology and the climate. Fab",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The art of predicting the Bank of England’s main policy rate",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/05/the-art-of-predicting-the-bank-of-englands-main-policy-rate/",
+      "date": "5 Nov 2026",
+      "excerpt": "Ahead of the Bank of England’s latest Monetary Policy Report Costas Milas shows why UK interest rates peaking at 4.25 per cent in mid-2027 looks like a reasonable bet. But economic shocks, which now come more frequently and bigger in size t",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1024x737.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can we stop buying so much stuff? “We can have a caring relationship with our things”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-we-can-have-a-caring-relationship-with-our-things/",
+      "date": "4 Nov 2026",
+      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Julia Cohen (Corwin) describes her research on electronic waste and repair in India and explains how we can have a richer life if we reduce our dependence on new things. Julia ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can we stop buying so much stuff? Importers are bypassing the usual customs and safety standards",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-importers-are-bypassing-the-usual-customs-and-safety-standards/",
+      "date": "4 Nov 2026",
+      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Lilia Akatova describes how customs rules allowed ultra-fast fashion to overtake fast fashion, and what we should consider before we buy something new. Lilia was talking to Sue",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can we stop buying so much stuff? “Everything is facilitated for you to consume.”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/03/how-can-we-stop-buying-so-much-stuff-everything-is-facilitated-for-you-to-consume/",
+      "date": "3 Nov 2026",
+      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Fred Basso explains the psychology of buying things and his belief in a model of economic democracy. Fred was talking to Sue Windebank. There is this assumption that we find in",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Employees have no incentive to disclose how productive AI makes them",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/02/employees-have-no-incentive-to-disclose-how-productive-ai-makes-them/",
+      "date": "2 Nov 2026",
+      "excerpt": "The harder a company pushes to measure individual AI productivity, the stronger the reason it gives each employee using it to keep that productivity out of view. So the gains leaders most need to see become the ones employees have the least",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Nvidia hires major US law firm to investigate Jensen Huang affair",
+      "title": "Poundland hopeful for last-minute rescue deal to stave off collapse",
+      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+      "date": "11 Nov 2026",
+      "excerpt": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a6e/live/a313f250-dd58-11f1-acd1-a78ce9f5fae0.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Stickers and building sets help drive toy sales ahead of Christmas rush",
+      "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
+      "date": "11 Nov 2026",
+      "excerpt": "A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e061/live/598724f0-dd2a-11f1-ab46-9fae224bbf6f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
       "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
       "date": "10 Nov 2026",
       "excerpt": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3676/live/532a9840-dd3d-11f1-9ac0-6b8f7fc58221.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d6c/live/e7ad5400-dd59-11f1-b441-2b33b063138f.jpg"
     },
     {
       "source": "BBC Business",
@@ -157,29 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US inflation higher than expected in October - here's what is happening with prices",
-      "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-      "date": "10 Nov 2026",
-      "excerpt": "Prices rose by 0.4% over the month, driven by increases in shelter, food and energy costs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd50/live/e1cf6860-c7cf-11f1-9e10-4dcbd31d4273.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Kim Kardashian's Skims offers refunds for $148 advent calendar after backlash",
-      "link": "https://www.bbc.co.uk/news/articles/cqp8g8p53x6ko?at_medium=RSS&at_campaign=rss",
-      "date": "10 Nov 2026",
-      "excerpt": "The contents of the calendar, including hair clips and keychains, have been widely criticised on social media.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b12e/live/a6d1b5b0-dcec-11f1-93e1-3b657b665bcf.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I took Vinted to court to get my money back",
-      "link": "https://www.bbc.co.uk/news/articles/cm369e3l15lwo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Nov 2026",
-      "excerpt": "The BBC hears from Vinted sellers who describe difficulties accessing money held in their online wallets.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de22/live/e53d0e50-c7c3-11f1-bc2e-018d645d8d21.jpg"
+      "title": "Robot vessels take on the dangerous work of mine hunting",
+      "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
+      "date": "11 Nov 2026",
+      "excerpt": "The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6570/live/e6af84c0-dce5-11f1-b441-2b33b063138f.jpg"
     }
   ]
 }
