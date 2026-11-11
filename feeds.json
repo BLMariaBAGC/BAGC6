@@ -1,6 +1,24 @@
 {
-  "updated": "11 Nov 2026, 04:43 UTC",
+  "updated": "11 Nov 2026, 13:33 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Even occasional marijuana use linked to 40% higher odds of stroke",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261110042539.htm",
+      "date": "10 Nov 2026",
+      "excerpt": "New research involving more than 440,000 Americans links cannabis use to increased cardiovascular risk, with occasional users showing 40% higher odds of reporting a history of stroke. The findings suggest that even infrequent marijuana use ",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Obesity linked to up to 27% lower risk of death in dementia",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261109205401.htm",
+      "date": "11 Nov 2026",
+      "excerpt": "A surprising study of more than 4,500 older adults found that people who were overweight or obese when diagnosed with dementia had a 16% to 27% lower risk of death than those at a normal weight. Researchers suspect that extra energy and mus",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm",
       "date": "5 Nov 2026",
       "excerpt": "A surprising new study suggests that an anti-aging drug could help protect people genetically predisposed to Alzheimer's disease. Researchers found that just four weeks of low-dose rapamycin improved brain blood flow in healthy middle-aged ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A simple supplement may help clear brain fog after cancer",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261104084013.htm",
-      "date": "9 Nov 2026",
-      "excerpt": "A surprising new study from UCLA suggests that a naturally occurring molecule could help breast cancer survivors overcome the frustrating brain fog and exhaustion that can linger long after treatment ends. Researchers found that women takin",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists wipe out deadly brain tumors in every mouse tested with new cancer therapy",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261104084009.htm",
-      "date": "8 Nov 2026",
-      "excerpt": "Scientists at UC San Francisco have developed a powerful new cancer therapy that remains inactive until it reaches the brain, where it switches on to attack deadly tumors. The engineered immune cells, called B-SYNC CAR-T cells, completely e",
       "image": ""
     },
     {
@@ -184,7 +184,7 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Poundland hopeful for last-minute rescue deal to stave off collapse",
+      "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
       "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
       "date": "11 Nov 2026",
       "excerpt": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
@@ -193,11 +193,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Stickers and building sets help drive toy sales ahead of Christmas rush",
+      "title": "Christmas toy rush being driven by squishies and building sets",
       "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
       "date": "11 Nov 2026",
       "excerpt": "A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e061/live/598724f0-dd2a-11f1-ab46-9fae224bbf6f.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/004e/live/e1c67fd0-dda9-11f1-b441-2b33b063138f.jpg"
     },
     {
       "source": "BBC Business",
