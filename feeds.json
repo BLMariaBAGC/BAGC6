@@ -1,5 +1,5 @@
 {
-  "updated": "12 Nov 2026, 02:40 UTC",
+  "updated": "12 Nov 2026, 12:09 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -119,11 +119,83 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "More work than it looks: the new jobs coming from AI adoption",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/11/more-work-than-it-looks-the-new-jobs-coming-from-ai-adoption/",
+      "date": "11 Nov 2026",
+      "excerpt": "From synthesisers to assembly lines, technological change has threatened familiar jobs while creating unexpected forms of work. Research into AI-related job vacancies is revealing strong demand for the people who help organisations adopt AI",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Is artificial intelligence a threat or solution to climate change?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/10/cop31-is-artificial-intelligence-a-threat-or-solution-to-climate-change/",
+      "date": "10 Nov 2026",
+      "excerpt": "Does the potential of AI to tackle climate change outweigh its environmental footprint? During the 2026 United Nations Climate Change Conference (COP31), we asked five academics and experts for their views on technology and the climate. Fab",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The art of predicting the Bank of England’s main policy rate",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/05/the-art-of-predicting-the-bank-of-englands-main-policy-rate/",
+      "date": "5 Nov 2026",
+      "excerpt": "Ahead of the Bank of England’s latest Monetary Policy Report Costas Milas shows why UK interest rates peaking at 4.25 per cent in mid-2027 looks like a reasonable bet. But economic shocks, which now come more frequently and bigger in size t",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1024x737.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can we stop buying so much stuff? “We can have a caring relationship with our things”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-we-can-have-a-caring-relationship-with-our-things/",
+      "date": "4 Nov 2026",
+      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Julia Cohen (Corwin) describes her research on electronic waste and repair in India and explains how we can have a richer life if we reduce our dependence on new things. Julia ",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can we stop buying so much stuff? Importers are bypassing the usual customs and safety standards",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-importers-are-bypassing-the-usual-customs-and-safety-standards/",
+      "date": "4 Nov 2026",
+      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Lilia Akatova describes how customs rules allowed ultra-fast fashion to overtake fast fashion, and what we should consider before we buy something new. Lilia was talking to Sue",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can we stop buying so much stuff? “Everything is facilitated for you to consume.”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/03/how-can-we-stop-buying-so-much-stuff-everything-is-facilitated-for-you-to-consume/",
+      "date": "3 Nov 2026",
+      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Fred Basso explains the psychology of buying things and his belief in a model of economic democracy. Fred was talking to Sue Windebank. There is this assumption that we find in",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Some under-25s should get less benefits, Milburn review to say",
+      "title": "Who could replace Jensen Huang as Nvidia's chief executive?",
+      "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+      "date": "12 Nov 2026",
+      "excerpt": "As uncertainty swirls over the boss of the AI chip giant, some names have emerged as potential successors.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/086c/live/13145560-de47-11f1-93e1-3b657b665bcf.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK economy grows at fastest rate for more than two years",
+      "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+      "date": "12 Nov 2026",
+      "excerpt": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Some under-25s should get fewer benefits, Milburn review to say",
       "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Nov 2026",
+      "date": "12 Nov 2026",
       "excerpt": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad2c/live/98868060-de1f-11f1-a701-fddedf244c16.jpg"
     },
@@ -139,38 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Office buildings emptied out but are filling up again - as homes",
+      "link": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
+      "date": "12 Nov 2026",
+      "excerpt": "Office buildings with low occupancy rates are being transformed into flats.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/309b/live/ac3f89b0-c95e-11f1-bc2e-018d645d8d21.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Christmas toy rush being driven by squishies and building sets",
       "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
       "date": "11 Nov 2026",
       "excerpt": "A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/004e/live/e1c67fd0-dda9-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "'Not the answer': Labour MPs speak out against Rosebank as decision looms",
-      "link": "https://www.bbc.co.uk/news/articles/cqp9dr79jkrzo?at_medium=RSS&at_campaign=rss",
-      "date": "11 Nov 2026",
-      "excerpt": "There is a growing expectation among senior Labour figures that drilling in the oil field will be given the green light.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60a5/live/584f1ed0-cfb0-11f1-9012-0172b9f73a72.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
-      "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
-      "date": "10 Nov 2026",
-      "excerpt": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d6c/live/e7ad5400-dd59-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "From Paris to DC - why offices are being turned into apartments",
-      "link": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Nov 2026",
-      "excerpt": "Office buildings with low occupancy rates are being transformed into flats.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/309b/live/ac3f89b0-c95e-11f1-bc2e-018d645d8d21.jpg"
     }
   ]
 }
