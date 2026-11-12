@@ -1,5 +1,5 @@
 {
-  "updated": "11 Nov 2026, 23:43 UTC",
+  "updated": "12 Nov 2026, 02:40 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -119,65 +119,20 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "More work than it looks: the new jobs coming from AI adoption",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/11/more-work-than-it-looks-the-new-jobs-coming-from-ai-adoption/",
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Some under-25s should get less benefits, Milburn review to say",
+      "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
       "date": "11 Nov 2026",
-      "excerpt": "From synthesisers to assembly lines, technological change has threatened familiar jobs while creating unexpected forms of work. Research into AI-related job vacancies is revealing strong demand for the people who help organisations adopt AI",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is artificial intelligence a threat or solution to climate change?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/10/cop31-is-artificial-intelligence-a-threat-or-solution-to-climate-change/",
-      "date": "10 Nov 2026",
-      "excerpt": "Does the potential of AI to tackle climate change outweigh its environmental footprint? During the 2026 United Nations Climate Change Conference (COP31), we asked five academics and experts for their views on technology and the climate. Fab",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The art of predicting the Bank of England’s main policy rate",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/05/the-art-of-predicting-the-bank-of-englands-main-policy-rate/",
-      "date": "5 Nov 2026",
-      "excerpt": "Ahead of the Bank of England’s latest Monetary Policy Report Costas Milas shows why UK interest rates peaking at 4.25 per cent in mid-2027 looks like a reasonable bet. But economic shocks, which now come more frequently and bigger in size t",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1024x737.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How can we stop buying so much stuff? “We can have a caring relationship with our things”",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-we-can-have-a-caring-relationship-with-our-things/",
-      "date": "4 Nov 2026",
-      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Julia Cohen (Corwin) describes her research on electronic waste and repair in India and explains how we can have a richer life if we reduce our dependence on new things. Julia ",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How can we stop buying so much stuff? Importers are bypassing the usual customs and safety standards",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-importers-are-bypassing-the-usual-customs-and-safety-standards/",
-      "date": "4 Nov 2026",
-      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Lilia Akatova describes how customs rules allowed ultra-fast fashion to overtake fast fashion, and what we should consider before we buy something new. Lilia was talking to Sue",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How can we stop buying so much stuff? “Everything is facilitated for you to consume.”",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/03/how-can-we-stop-buying-so-much-stuff-everything-is-facilitated-for-you-to-consume/",
-      "date": "3 Nov 2026",
-      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Fred Basso explains the psychology of buying things and his belief in a model of economic democracy. Fred was talking to Sue Windebank. There is this assumption that we find in",
-      "image": ""
+      "excerpt": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad2c/live/98868060-de1f-11f1-a701-fddedf244c16.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
       "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-      "date": "11 Nov 2026",
+      "date": "12 Nov 2026",
       "excerpt": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a6e/live/a313f250-dd58-11f1-acd1-a78ce9f5fae0.jpg"
     },
@@ -211,20 +166,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
-      "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-      "date": "10 Nov 2026",
-      "excerpt": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/151a/live/19e16bc0-dd03-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Robot vessels take on the dangerous work of mine hunting",
-      "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
-      "date": "11 Nov 2026",
-      "excerpt": "The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6570/live/e6af84c0-dce5-11f1-b441-2b33b063138f.jpg"
+      "title": "From Paris to DC - why offices are being turned into apartments",
+      "link": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
+      "date": "12 Nov 2026",
+      "excerpt": "Office buildings with low occupancy rates are being transformed into flats.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/309b/live/ac3f89b0-c95e-11f1-bc2e-018d645d8d21.jpg"
     }
   ]
 }
