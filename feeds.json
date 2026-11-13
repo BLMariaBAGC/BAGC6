@@ -1,5 +1,5 @@
 {
-  "updated": "13 Nov 2026, 11:50 UTC",
+  "updated": "13 Nov 2026, 19:12 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Get the Real Story on Your Next Exec Hire",
+      "link": "/2026/11/get-the-real-story-on-your-next-exec-hire",
+      "date": "13 Nov 2026",
+      "excerpt": "What top leaders ask to elicit honest, actionable insights about executive hires.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Market Is Mispricing Resilience",
+      "link": "/2026/11/the-market-is-mispricing-resilience",
+      "date": "13 Nov 2026",
+      "excerpt": "Resilience is an increasingly important—and underpriced—growth asset. Here’s how investors can assess it.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Jensen Huang Has Resigned. How Will Nvidia Replace Him?",
       "link": "/2026/11/jensen-huang-has-resigned-how-will-nvidia-replace-him",
       "date": "12 Nov 2026",
@@ -119,21 +137,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The HBR Guide to Killing Projects",
-      "link": "/2026/11/the-hbr-guide-to-killing-projects",
-      "date": "10 Nov 2026",
-      "excerpt": "These seven HBR articles explain how to recognize when an initiative isn&#8217;t working—and when it&#8217;s time to move on.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Can Nvidia’s Jensen Huang Rebuild Trust?",
-      "link": "/2026/11/can-nvidias-jensen-huang-rebuild-trust",
-      "date": "10 Nov 2026",
-      "excerpt": "Harvard Business School professor Sandra Sucher explains what the CEO must do to recover from a scandal that has raised questions about his judgment.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The market and social price of CEO indiscretions go beyond Jensen Huang and Nvidia",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/13/the-market-and-social-price-of-ceo-indiscretions-go-beyond-jensen-huang-and-nvidia/",
+      "date": "13 Nov 2026",
+      "excerpt": "By having an extramarital affair with a Chinese customer, Jensen Huang put his personal reputation, his company’s valuation and America’s national security at risk. Chirantan Chatterjee explains the concerns surrounding his resignation from",
       "image": ""
     },
     {
@@ -182,31 +191,31 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1024x737.jpg"
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How can we stop buying so much stuff? “We can have a caring relationship with our things”",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-we-can-have-a-caring-relationship-with-our-things/",
-      "date": "4 Nov 2026",
-      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Julia Cohen (Corwin) describes her research on electronic waste and repair in India and explains how we can have a richer life if we reduce our dependence on new things. Julia ",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What we know about the global Microsoft outage",
+      "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
       "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
       "date": "13 Nov 2026",
-      "excerpt": "Microsoft has said the outage was not caused by a cyber-security incident, but efforts to fix the issues have so far been largely unsuccessful.",
+      "excerpt": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddf/live/8578f720-df49-11f1-b441-2b33b063138f.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+      "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
       "date": "13 Nov 2026",
-      "excerpt": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg"
+      "excerpt": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ab0/live/068591d0-dee5-11f1-9bb0-8de7754c4db5.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
+      "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+      "date": "13 Nov 2026",
+      "excerpt": "Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2783/live/a5cdb560-df6c-11f1-9892-87464bbcc2b8.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,15 +229,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Burnham says 'win-win' deal can be agreed between UK and EU",
-      "link": "https://www.bbc.co.uk/news/articles/cm2l5n07l87vo?at_medium=RSS&at_campaign=rss",
-      "date": "13 Nov 2026",
-      "excerpt": "The prime minister says the deal could be \"more like the Brexit people thought they were voting for\" in 2016.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0be/live/2ecff280-d2f0-11f1-8d86-83eebc838351.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Heat pumps: How much heat does your home really need?",
       "link": "https://www.bbc.co.uk/news/articles/cqy43zk3kk04o?at_medium=RSS&at_campaign=rss",
       "date": "13 Nov 2026",
@@ -238,11 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
-      "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Nov 2026",
-      "excerpt": "Chief financial officer Colette Kress in in charge of Nvidia for now, but several others are in the frame as potential successors.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1381/live/d9f5ab20-de97-11f1-a701-fddedf244c16.jpg"
+      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Nov 2026",
+      "excerpt": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg"
     }
   ]
 }
