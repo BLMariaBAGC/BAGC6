@@ -1,6 +1,24 @@
 {
-  "updated": "13 Nov 2026, 02:22 UTC",
+  "updated": "13 Nov 2026, 11:50 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A surprising brain difference may explain why some kids struggle with math",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112025542.htm",
+      "date": "12 Nov 2026",
+      "excerpt": "Stanford researchers have discovered that children who struggle persistently with math may have underlying differences in how their brains manage problem-solving strategies. Children with developmental dyscalculia were slower to switch stra",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Crows can make decisions twice as fast as humans, scientists discover",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
+      "date": "12 Nov 2026",
+      "excerpt": "Crows may be even smarter than we thought, and their brains are astonishingly fast. Researchers at the University of Tübingen discovered that crows can make visual decisions twice as quickly as humans and monkeys, taking just 235 millisecon",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/11/261106174520.htm",
       "date": "7 Nov 2026",
       "excerpt": "A study of more than 17,700 US adults found that people who use cannabis in multiple forms have dramatically higher rates of daily consumption and addiction symptoms than those who stick primarily to one method. Nearly 67% of those who used",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Drinking 2–3 cups of coffee a day linked to dramatically lower dementia risk",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261105224550.htm",
-      "date": "7 Nov 2026",
-      "excerpt": "Drinking two to three cups of caffeinated coffee daily was linked to a dramatically lower risk of dementia and better cognitive functioning in a study spanning up to 43 years. The benefits appeared regardless of genetic risk, but decaffeina",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "An anti-aging drug may help protect the brain before Alzheimer's symptoms begin",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm",
-      "date": "5 Nov 2026",
-      "excerpt": "A surprising new study suggests that an anti-aging drug could help protect people genetically predisposed to Alzheimer's disease. Researchers found that just four weeks of low-dose rapamycin improved brain blood flow in healthy middle-aged ",
       "image": ""
     },
     {
@@ -193,20 +193,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Nov 2026",
-      "excerpt": "US lawmakers now want to question him over whether one of his alleged relationships was with a Chinese spy.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg"
+      "title": "What we know about the global Microsoft outage",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Nov 2026",
+      "excerpt": "Microsoft has said the outage was not caused by a cyber-security incident, but efforts to fix the issues have so far been largely unsuccessful.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddf/live/8578f720-df49-11f1-b441-2b33b063138f.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
-      "link": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
+      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
       "date": "13 Nov 2026",
-      "excerpt": "Microsoft said the outage was caused by servers unexpected becoming unavailable, straining other systems.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28a7/live/2a181e50-defa-11f1-b877-3169a3b63f2c.jpg"
+      "excerpt": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,29 +220,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Burnham says 'win-win' deal can be agreed between UK and EU",
+      "link": "https://www.bbc.co.uk/news/articles/cm2l5n07l87vo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Nov 2026",
+      "excerpt": "The prime minister says the deal could be \"more like the Brexit people thought they were voting for\" in 2016.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0be/live/2ecff280-d2f0-11f1-8d86-83eebc838351.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Heat pumps: How much heat does your home really need?",
+      "link": "https://www.bbc.co.uk/news/articles/cqy43zk3kk04o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Nov 2026",
+      "excerpt": "Knowing how much heat your home loses is important before installing a new heating system.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d187/live/503bbbd0-d902-11f1-93e1-3b657b665bcf.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
       "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
       "date": "12 Nov 2026",
       "excerpt": "Chief financial officer Colette Kress in in charge of Nvidia for now, but several others are in the frame as potential successors.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1381/live/d9f5ab20-de97-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
-      "link": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Nov 2026",
-      "excerpt": "The UK is seeing impressive growth, but will it last?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d49/live/b6cded90-deb2-11f1-a701-fddedf244c16.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK economy grows at fastest rate for more than two years",
-      "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Nov 2026",
-      "excerpt": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg"
     }
   ]
 }
