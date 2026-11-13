@@ -1,5 +1,5 @@
 {
-  "updated": "12 Nov 2026, 21:17 UTC",
+  "updated": "13 Nov 2026, 02:22 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,6 +139,24 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Which ESG disclosures link words to action?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/12/which-esg-disclosures-link-words-to-action/",
+      "date": "12 Nov 2026",
+      "excerpt": "Companies spend time and money writing ESG reports, which are closely scrutinised by investors. But not all environmental narratives show whether companies are actually making environmental progress. Ivan Savin finds that the relationship b",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Climate risk influences the economy through the cost of capital",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/12/cop31-climate-risk-influences-the-economy-through-the-cost-of-capital/",
+      "date": "12 Nov 2026",
+      "excerpt": "Climate risk is a powerful macroeconomic force which influences not only how much firms invest, but also where they invest, how investors allocate capital and even the level of risk-free interest rates that underpin financial markets. David",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1-1024x614.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "More work than it looks: the new jobs coming from AI adoption",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/11/more-work-than-it-looks-the-new-jobs-coming-from-ai-adoption/",
       "date": "11 Nov 2026",
@@ -173,31 +191,31 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How can we stop buying so much stuff? Importers are bypassing the usual customs and safety standards",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-importers-are-bypassing-the-usual-customs-and-safety-standards/",
-      "date": "4 Nov 2026",
-      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Lilia Akatova describes how customs rules allowed ultra-fast fashion to overtake fast fashion, and what we should consider before we buy something new. Lilia was talking to Sue",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How can we stop buying so much stuff? “Everything is facilitated for you to consume.”",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/03/how-can-we-stop-buying-so-much-stuff-everything-is-facilitated-for-you-to-consume/",
-      "date": "3 Nov 2026",
-      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Fred Basso explains the psychology of buying things and his belief in a model of economic democracy. Fred was talking to Sue Windebank. There is this assumption that we find in",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "date": "12 Nov 2026",
+      "excerpt": "US lawmakers now want to question him over whether one of his alleged relationships was with a Chinese spy.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
-      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-      "date": "12 Nov 2026",
-      "excerpt": "Within days, Huang's status as a seemingly untouchable figure leading the global tech race has crumbled.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38db/live/e8339120-deb0-11f1-93e1-3b657b665bcf.jpg"
+      "title": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
+      "link": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Nov 2026",
+      "excerpt": "Microsoft said the outage was caused by servers unexpected becoming unavailable, straining other systems.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28a7/live/2a181e50-defa-11f1-b877-3169a3b63f2c.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "The rise of 'housefishing' - when does using AI go from enhancing to misleading?",
+      "link": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
+      "date": "13 Nov 2026",
+      "excerpt": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8436/live/9852bb70-d6a6-11f1-b441-2b33b063138f.png"
     },
     {
       "source": "BBC Business",
@@ -225,24 +243,6 @@
       "date": "12 Nov 2026",
       "excerpt": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Poundland gets more time to secure a rescue deal as emergency talks continue",
-      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-      "date": "12 Nov 2026",
-      "excerpt": "A deadline to secure a buyer was set to expire at midnight, but the retailer now has an extra 10 days to find a buyer.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a6e/live/a313f250-dd58-11f1-acd1-a78ce9f5fae0.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Some under-25s should get fewer benefits, Milburn review to say",
-      "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
-      "date": "12 Nov 2026",
-      "excerpt": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad2c/live/98868060-de1f-11f1-a701-fddedf244c16.jpg"
     }
   ]
 }
