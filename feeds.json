@@ -1,5 +1,5 @@
 {
-  "updated": "13 Nov 2026, 19:12 UTC",
+  "updated": "14 Nov 2026, 00:39 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "How Nvidia Can Move Forward Without Its Founder",
+      "link": "/2026/11/how-nvidia-can-move-forward-without-its-founder",
+      "date": "13 Nov 2026",
+      "excerpt": "Rebuild trust. Choose a successor. Keep the business moving.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How Boards Detect and Prevent Internal Misconduct",
+      "link": "/2026/11/how-boards-detect-and-prevent-internal-misconduct",
+      "date": "13 Nov 2026",
+      "excerpt": "An excerpt from the Harvard Business Review Board Member’s Handbook.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "Get the Real Story on Your Next Exec Hire",
       "link": "/2026/11/get-the-real-story-on-your-next-exec-hire",
       "date": "13 Nov 2026",
@@ -116,33 +134,6 @@
       "link": "/2026/11/the-paradox-of-ai-designed-green-products",
       "date": "11 Nov 2026",
       "excerpt": "Telling consumers about AI’s involvement can undermine the very sustainability benefits companies hope to create with the technology.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Research: The Risks of Rewarding Top Employees with Better Schedules",
-      "link": "/2026/11/research-the-risks-of-rewarding-top-employees-with-better-schedules",
-      "date": "11 Nov 2026",
-      "excerpt": "A study of 1,189 restaurant workers found that people with poor schedules were nearly twice as likely to quit when they saw that other colleagues fared better.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Hidden Costs of Delegating to AI",
-      "link": "/2026/11/the-hidden-costs-of-delegating-to-ai",
-      "date": "11 Nov 2026",
-      "excerpt": "Lessons from accounting firms reveal why faster execution doesn’t automatically improve organizational performance.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The market and social price of CEO indiscretions go beyond Jensen Huang and Nvidia",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/13/the-market-and-social-price-of-ceo-indiscretions-go-beyond-jensen-huang-and-nvidia/",
-      "date": "13 Nov 2026",
-      "excerpt": "By having an extramarital affair with a Chinese customer, Jensen Huang put his personal reputation, his company’s valuation and America’s national security at risk. Chirantan Chatterjee explains the concerns surrounding his resignation from",
       "image": ""
     },
     {
@@ -191,6 +182,24 @@
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1024x737.jpg"
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How can we stop buying so much stuff? “We can have a caring relationship with our things”",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/04/how-can-we-stop-buying-so-much-stuff-we-can-have-a-caring-relationship-with-our-things/",
+      "date": "4 Nov 2026",
+      "excerpt": "In an edited extract from an interview with the LSE iQ podcast, Julia Cohen (Corwin) describes her research on electronic waste and repair in India and explains how we can have a richer life if we reduce our dependence on new things. Julia ",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "date": "13 Nov 2026",
+      "excerpt": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f18/live/9b3a5370-df98-11f1-a9ad-6774a3284d10.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
@@ -234,15 +243,6 @@
       "date": "13 Nov 2026",
       "excerpt": "Knowing how much heat your home loses is important before installing a new heating system.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d187/live/503bbbd0-d902-11f1-93e1-3b657b665bcf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "date": "13 Nov 2026",
-      "excerpt": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg"
     }
   ]
 }
