@@ -1,6 +1,24 @@
 {
-  "updated": "14 Nov 2026, 08:35 UTC",
+  "updated": "14 Nov 2026, 16:21 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists find a simple daily routine linked to less pain and depression",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm",
+      "date": "14 Nov 2026",
+      "excerpt": "A simple change to your daily routine could make a surprising difference in how you feel, both physically and mentally. University of Missouri researchers found that older adults who followed consistent daily schedules reported less physica",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Stanford scientists discover hidden brain signals that predict Alzheimer’s years before symptoms",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
+      "date": "14 Nov 2026",
+      "excerpt": "Stanford researchers have discovered that hidden patterns of brain activity can predict Alzheimer’s risk years before memory problems appear, potentially offering an earlier warning than traditional biomarkers. The same patterns also reveal",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -53,24 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm",
       "date": "9 Nov 2026",
       "excerpt": "A surprising discovery suggests that some early signs of Alzheimer’s disease may begin outside the brain. Using miniature laboratory systems made from human cells, scientists found that genetic mutations associated with inherited Alzheimer’",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists finally discover why we learn to love bitter coffee",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261108233100.htm",
-      "date": "9 Nov 2026",
-      "excerpt": "Scientists have uncovered a hidden gut-to-brain dopamine pathway that helps explain why bitter coffee and other initially unpleasant flavors can become favorites over time. The discovery reveals how the brain learns to crave certain foods a",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Common osteoporosis drugs linked to 24% lower dementia risk in major study",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261108233037.htm",
-      "date": "9 Nov 2026",
-      "excerpt": "A massive study of more than 120,000 older adults suggests that common osteoporosis drugs may reduce the risk of Alzheimer’s disease and other dementias by up to 24%. The surprising findings raise the possibility that medications already us",
       "image": ""
     },
     {
