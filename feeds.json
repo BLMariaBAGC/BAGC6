@@ -1,6 +1,15 @@
 {
-  "updated": "15 Nov 2026, 01:37 UTC",
+  "updated": "15 Nov 2026, 08:49 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
+      "date": "14 Nov 2026",
+      "excerpt": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins. Brain scans revealed that two regions involved in memory and emotion start shrinking before the hi",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/11/261109205401.htm",
       "date": "11 Nov 2026",
       "excerpt": "A surprising study of more than 4,500 older adults found that people who were overweight or obese when diagnosed with dementia had a 16% to 27% lower risk of death than those at a normal weight. Researchers suspect that extra energy and mus",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Alzheimer’s may have early warning signs outside the brain",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm",
-      "date": "9 Nov 2026",
-      "excerpt": "A surprising discovery suggests that some early signs of Alzheimer’s disease may begin outside the brain. Using miniature laboratory systems made from human cells, scientists found that genetic mutations associated with inherited Alzheimer’",
       "image": ""
     },
     {
