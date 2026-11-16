@@ -1,6 +1,42 @@
 {
-  "updated": "16 Nov 2026, 04:46 UTC",
+  "updated": "16 Nov 2026, 14:47 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "New wearable ultrasound patch boosts REM sleep without drugs or surgery",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116014842.htm",
+      "date": "16 Nov 2026",
+      "excerpt": "A revolutionary new wearable patch could help people get more restorative sleep without medication or surgery. Developed by University of Texas researchers, the device uses gentle ultrasound to stimulate deep brain regions, helping particip",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "A hidden biological divide may help explain Alzheimer’s and chronic pain",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261115085535.htm",
+      "date": "16 Nov 2026",
+      "excerpt": "New research reveals that biological sex, genetics, and menopause may dramatically influence Alzheimer's risk, treatment responses, and chronic pain conditions such as fibromyalgia. Scientists also uncovered surprising differences in immune",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "MIT scientists discover a surprising way to boost the brain’s nighttime cleaning system",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
+      "date": "15 Nov 2026",
+      "excerpt": "MIT scientists discovered that carefully timed bursts of gentle pink noise during sleep can strengthen the brain’s natural cleaning waves, which help flush away potentially harmful waste. The breakthrough could pave the way for new treatmen",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "An ancient virus may help explain what makes the human brain different",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261114202230.htm",
+      "date": "15 Nov 2026",
+      "excerpt": "A virus that infected chimpanzees millions of years ago may have helped shape one of the most important differences between humans and our closest relatives: how our brains develop. Scientists at Lund University discovered that ancient vira",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -35,42 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/11/261112025542.htm",
       "date": "12 Nov 2026",
       "excerpt": "Stanford researchers have discovered that children who struggle persistently with math may have underlying differences in how their brains manage problem-solving strategies. Children with developmental dyscalculia were slower to switch stra",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Forcing yourself to smile can actually make you miserable",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025536.htm",
-      "date": "13 Nov 2026",
-      "excerpt": "Smiling may not always make you happier, and new research suggests that forcing yourself to smile repeatedly could actually make you feel worse. In a University of Florida study involving more than 1,100 participants, researchers discovered",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Crows can make decisions twice as fast as humans, scientists discover",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
-      "date": "12 Nov 2026",
-      "excerpt": "Crows may be even smarter than we thought, and their brains are astonishingly fast. Researchers at the University of Tübingen discovered that crows can make visual decisions twice as quickly as humans and monkeys, taking just 235 millisecon",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Even occasional marijuana use linked to 40% higher odds of stroke",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261110042539.htm",
-      "date": "10 Nov 2026",
-      "excerpt": "New research involving more than 440,000 Americans links cannabis use to increased cardiovascular risk, with occasional users showing 40% higher odds of reporting a history of stroke. The findings suggest that even infrequent marijuana use ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Obesity linked to up to 27% lower risk of death in dementia",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261109205401.htm",
-      "date": "11 Nov 2026",
-      "excerpt": "A surprising study of more than 4,500 older adults found that people who were overweight or obese when diagnosed with dementia had a 16% to 27% lower risk of death than those at a normal weight. Researchers suspect that extra energy and mus",
       "image": ""
     },
     {
@@ -139,6 +139,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "New business models could help deploy clean energy technologies at scale",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/16/new-business-models-could-help-deploy-clean-energy-technologies-at-scale/",
+      "date": "16 Nov 2026",
+      "excerpt": "During COP31 Shefali Khanna looks at “energy-as-a-service”, a business model in which customers pay for an energy service without making upfront capital investment. Using examples from Britain, America and India she argues that subsidies ti",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "The market and social price of CEO indiscretions go beyond Jensen Huang and Nvidia",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/13/the-market-and-social-price-of-ceo-indiscretions-go-beyond-jensen-huang-and-nvidia/",
       "date": "13 Nov 2026",
@@ -182,13 +191,31 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The art of predicting the Bank of England’s main policy rate",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/05/the-art-of-predicting-the-bank-of-englands-main-policy-rate/",
-      "date": "5 Nov 2026",
-      "excerpt": "Ahead of the Bank of England’s latest Monetary Policy Report Costas Milas shows why UK interest rates peaking at 4.25 per cent in mid-2027 looks like a reasonable bet. But economic shocks, which now come more frequently and bigger in size t",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1024x737.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+      "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+      "date": "16 Nov 2026",
+      "excerpt": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4318/live/458f6840-e1c1-11f1-99b6-a35a62fa4264.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Create more jobs for under-25s by cutting National Insurance, key report urges",
+      "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
+      "date": "16 Nov 2026",
+      "excerpt": "Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/283e/live/4753f640-e1ae-11f1-b0a4-450a350911f4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Intel sued by investors after PC sales slump hits share price",
+      "link": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
+      "date": "16 Nov 2026",
+      "excerpt": "A proposed class action claims the firm hid the impact of slowing PC sales from shareholders.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9b3/live/33bc54f0-e1a5-11f1-8433-4325183b3814.jpg"
     },
     {
       "source": "BBC Business",
@@ -202,47 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Cut national insurance for under-25s to create jobs, Milburn report to say",
-      "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
-      "date": "15 Nov 2026",
-      "excerpt": "The report being launched this week will suggest gradually reducing employment costs over five years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad4a/live/a30d20c0-e117-11f1-a7db-d90284d21c62.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-      "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "title": "Gas starts flowing from Jackdaw after government green light",
+      "link": "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss",
       "date": "16 Nov 2026",
-      "excerpt": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg"
+      "excerpt": "Ministers last month announced the Jackdaw gas field, which lies 150 miles east of Aberdeen, had been approved after years of uncertainty.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/015f/live/3d2a7950-e190-11f1-b441-2b33b063138f.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Investors sue chip giant Intel after 29% stock plunge",
-      "link": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
-      "date": "16 Nov 2026",
-      "excerpt": "A proposed class action says Intel hid the impact of slowing sales, inflating its shares.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e63c/live/afebacc0-e14f-11f1-8fb1-c394c4317b6a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Black Friday and tax return scams  - don't fall for these",
+      "title": "Avoid this Black Friday scam - how to check it's a real deal",
       "link": "https://www.bbc.co.uk/news/articles/cm4gnlz2p61ko?at_medium=RSS&at_campaign=rss",
       "date": "16 Nov 2026",
-      "excerpt": "Tens of thousands of scams are reported to HMRC - so it has advice on how to spot a fake request and refund.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab33/live/9ed5ff60-dea9-11f1-98eb-79ee6ea9ba56.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Minister backs legal right to job support for young people",
-      "link": "https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss",
-      "date": "15 Nov 2026",
-      "excerpt": "The work and pensions secretary said the level of support currently on offer was too vague.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ee9/live/2745bfb0-e103-11f1-b441-2b33b063138f.jpg"
+      "excerpt": "Sales and the looming tax deadline mean more scams - here's how to make sure you don't get caught out.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f34/live/a04a1d00-e1c3-11f1-99b6-a35a62fa4264.jpg"
     }
   ]
 }
