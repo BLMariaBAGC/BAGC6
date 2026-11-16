@@ -1,5 +1,5 @@
 {
-  "updated": "16 Nov 2026, 14:47 UTC",
+  "updated": "16 Nov 2026, 23:58 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Why CEOs Wait Too Long to Shake Up Leadership—and Regret It",
+      "link": "/2026/11/why-ceos-wait-too-long-to-shake-up-leadership-and-regret-it",
+      "date": "16 Nov 2026",
+      "excerpt": "In this week’s “Leadership Notes,” the former dean of HBS examines why Netflix’s decision to replace longtime content chief Bela Bajaria was the right one.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Leaders Shouldn’t Underestimate Time-Based Rewards",
+      "link": "/2026/11/leaders-shouldnt-underestimate-time-based-rewards",
+      "date": "12 Nov 2026",
+      "excerpt": "Organizations that cultivate “time affluence” may more easily attract talent, produce better work, and build a better culture.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "How Nvidia Can Move Forward Without Its Founder",
       "link": "/2026/11/how-nvidia-can-move-forward-without-its-founder",
       "date": "13 Nov 2026",
@@ -125,15 +143,6 @@
       "link": "/2026/11/how-ai-erodes-peoples-sense-of-value-at-work",
       "date": "12 Nov 2026",
       "excerpt": "And what leaders can do about it.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Paradox of AI-Designed Green Products",
-      "link": "/2026/11/the-paradox-of-ai-designed-green-products",
-      "date": "11 Nov 2026",
-      "excerpt": "Telling consumers about AI’s involvement can undermine the very sustainability benefits companies hope to create with the technology.",
       "image": ""
     },
     {
@@ -193,11 +202,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+      "title": "California sues OpenAI over Hugging Face attack",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+      "date": "16 Nov 2026",
+      "excerpt": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce1a/live/7c81aa70-e211-11f1-a541-6d0c391a4254.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
       "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
       "date": "16 Nov 2026",
-      "excerpt": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4318/live/458f6840-e1c1-11f1-99b6-a35a62fa4264.jpg"
+      "excerpt": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,38 +229,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Faisal Islam: What's in the Brexit reset food deal and are there trade-offs?",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
+      "date": "16 Nov 2026",
+      "excerpt": "EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e49/live/adff9c60-e11c-11f1-a7a2-7bb21fac8f0b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Customers report service outages at major US banks",
+      "link": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
+      "date": "16 Nov 2026",
+      "excerpt": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d633/live/6fb04df0-e212-11f1-b9ca-b9964628501b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Intel sued by investors after PC sales slump hits share price",
       "link": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
       "date": "16 Nov 2026",
       "excerpt": "A proposed class action claims the firm hid the impact of slowing PC sales from shareholders.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9b3/live/33bc54f0-e1a5-11f1-8433-4325183b3814.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
-      "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
-      "date": "15 Nov 2026",
-      "excerpt": "EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81c7/live/353868b0-6be8-11f1-aa71-afd82ef74c53.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Gas starts flowing from Jackdaw after government green light",
-      "link": "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss",
-      "date": "16 Nov 2026",
-      "excerpt": "Ministers last month announced the Jackdaw gas field, which lies 150 miles east of Aberdeen, had been approved after years of uncertainty.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/015f/live/3d2a7950-e190-11f1-b441-2b33b063138f.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Avoid this Black Friday scam - how to check it's a real deal",
-      "link": "https://www.bbc.co.uk/news/articles/cm4gnlz2p61ko?at_medium=RSS&at_campaign=rss",
-      "date": "16 Nov 2026",
-      "excerpt": "Sales and the looming tax deadline mean more scams - here's how to make sure you don't get caught out.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f34/live/a04a1d00-e1c3-11f1-99b6-a35a62fa4264.jpg"
     }
   ]
 }
