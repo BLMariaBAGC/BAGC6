@@ -1,5 +1,5 @@
 {
-  "updated": "16 Nov 2026, 23:58 UTC",
+  "updated": "17 Nov 2026, 07:28 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,18 +202,36 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "California sues OpenAI over Hugging Face attack",
+      "title": "Which areas have the most jobs for 16-24 year-olds? Use our look-up to find out",
+      "link": "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss",
+      "date": "17 Nov 2026",
+      "excerpt": "How many jobs are there where you live and in which sectors are you most likely to find an opening?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca90/live/0c02f160-e1ac-11f1-8ee3-23d0d09d2796.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "OpenAI sued by California over Hugging Face attack",
       "link": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
       "date": "16 Nov 2026",
-      "excerpt": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
+      "excerpt": "Attorney General Rob Bonta alleges that the artificial intelligence misled and endangered the public.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce1a/live/7c81aa70-e211-11f1-a541-6d0c391a4254.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "title": "We couldn't afford a house alone, so we bought one with strangers",
+      "link": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Nov 2026",
+      "excerpt": "People who can't afford to get on the housing ladder are buying homes with someone they don't know.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6aa8/live/134f7040-e181-11f1-9386-1b849272ca8f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
       "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-      "date": "16 Nov 2026",
+      "date": "17 Nov 2026",
       "excerpt": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg"
     },
@@ -229,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Faisal Islam: What's in the Brexit reset food deal and are there trade-offs?",
-      "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Nov 2026",
-      "excerpt": "EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e49/live/adff9c60-e11c-11f1-a7a2-7bb21fac8f0b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Customers report service outages at major US banks",
       "link": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
-      "date": "16 Nov 2026",
+      "date": "17 Nov 2026",
       "excerpt": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d633/live/6fb04df0-e212-11f1-b9ca-b9964628501b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Intel sued by investors after PC sales slump hits share price",
-      "link": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
-      "date": "16 Nov 2026",
-      "excerpt": "A proposed class action claims the firm hid the impact of slowing PC sales from shareholders.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9b3/live/33bc54f0-e1a5-11f1-8433-4325183b3814.jpg"
     }
   ]
 }
