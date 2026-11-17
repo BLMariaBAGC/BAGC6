@@ -1,6 +1,33 @@
 {
-  "updated": "17 Nov 2026, 07:28 UTC",
+  "updated": "17 Nov 2026, 17:22 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Ozempic and Mounjaro may have a surprising effect on your brain",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116023401.htm",
+      "date": "17 Nov 2026",
+      "excerpt": "Blockbuster weight loss drugs like Ozempic and Mounjaro may do more than help people shed pounds, with growing evidence suggesting they could also influence brain health. Although studies have linked GLP-1 medications to a lower risk of dem",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "The hidden language of psychopathy is not what scientists expected",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116023346.htm",
+      "date": "17 Nov 2026",
+      "excerpt": "Scientists have discovered that psychopathic traits are associated with surprisingly different patterns of language, with some individuals using more positive words and others expressing greater negativity or less anxiety. The findings chal",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Cannabis addiction linked to 57% higher odds of suicidal thoughts",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116023342.htm",
+      "date": "16 Nov 2026",
+      "excerpt": "A massive study involving more than 415,000 Americans has uncovered a concerning connection between cannabis use disorder and suicidal thoughts. Researchers found that adults with the disorder had 57% higher odds of experiencing suicidal th",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +35,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/11/261116014842.htm",
       "date": "16 Nov 2026",
       "excerpt": "A revolutionary new wearable patch could help people get more restorative sleep without medication or surgery. Developed by University of Texas researchers, the device uses gentle ultrasound to stimulate deep brain regions, helping particip",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists tracked kids for 8 years. What they found about screen time was surprising",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116014725.htm",
+      "date": "17 Nov 2026",
+      "excerpt": "A surprising Finnish study found that children who spent more time using screens tended to have better cognitive processing abilities as teenagers, challenging the assumption that screen time is always harmful. Researchers suggest that what",
       "image": ""
     },
     {
@@ -38,39 +74,48 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
-      "date": "14 Nov 2026",
-      "excerpt": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins. Brain scans revealed that two regions involved in memory and emotion start shrinking before the hi",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When a CEO Becomes Bigger Than the Company: Join a Special HBR Executive Live",
+      "link": "/2026/11/when-a-ceo-becomes-bigger-than-the-company-join-a-special-hbr-executive-live",
+      "date": "16 Nov 2026",
+      "excerpt": "Join us on Friday, November 20, for a conversation with HBS professor Lynn S. Paine.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists find a simple daily routine linked to less pain and depression",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm",
-      "date": "14 Nov 2026",
-      "excerpt": "A simple change to your daily routine could make a surprising difference in how you feel, both physically and mentally. University of Missouri researchers found that older adults who followed consistent daily schedules reported less physica",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Is Your Company Ready for Decentralization?",
+      "link": "/2026/11/is-your-company-ready-for-decentralization",
+      "date": "17 Nov 2026",
+      "excerpt": "Three growing pains to monitor if your firm wants to shift to a business unit model.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Stanford scientists discover hidden brain signals that predict Alzheimer’s years before symptoms",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
-      "date": "14 Nov 2026",
-      "excerpt": "Stanford researchers have discovered that hidden patterns of brain activity can predict Alzheimer’s risk years before memory problems appear, potentially offering an earlier warning than traditional biomarkers. The same patterns also reveal",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How to Test Your Startup’s Biggest Assumptions",
+      "link": "/2026/11/how-to-test-your-startups-biggest-assumptions",
+      "date": "17 Nov 2026",
+      "excerpt": "Twelve principles for designing experiments—and interpreting results.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A surprising brain difference may explain why some kids struggle with math",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025542.htm",
-      "date": "12 Nov 2026",
-      "excerpt": "Stanford researchers have discovered that children who struggle persistently with math may have underlying differences in how their brains manage problem-solving strategies. Children with developmental dyscalculia were slower to switch stra",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Your Long-Term Succession Plan Won’t Save You in a Crisis",
+      "link": "/2026/11/your-long-term-succession-plan-wont-save-you-in-a-crisis",
+      "date": "17 Nov 2026",
+      "excerpt": "Boards also need an emergency succession plan that offers clarity around decision rights, candidate qualifications, talent retention, and more.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Who Will Make a Great Leader? There’s a Test for That",
+      "link": "/podcast/2026/11/who-will-make-a-great-leader-theres-a-test-for-that",
+      "date": "17 Nov 2026",
+      "excerpt": "A conversation with Harvard University’s David Deming on how he uses science to identify great team players, managers, and leaders.",
       "image": ""
     },
     {
@@ -101,108 +146,27 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Boards Detect and Prevent Internal Misconduct",
-      "link": "/2026/11/how-boards-detect-and-prevent-internal-misconduct",
-      "date": "13 Nov 2026",
-      "excerpt": "An excerpt from the Harvard Business Review Board Member’s Handbook.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Get the Real Story on Your Next Exec Hire",
-      "link": "/2026/11/get-the-real-story-on-your-next-exec-hire",
-      "date": "13 Nov 2026",
-      "excerpt": "What top leaders ask to elicit honest, actionable insights about executive hires.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Market Is Mispricing Resilience",
-      "link": "/2026/11/the-market-is-mispricing-resilience",
-      "date": "13 Nov 2026",
-      "excerpt": "Resilience is an increasingly important—and underpriced—growth asset. Here’s how investors can assess it.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Jensen Huang Has Resigned. How Will Nvidia Replace Him?",
-      "link": "/2026/11/jensen-huang-has-resigned-how-will-nvidia-replace-him",
-      "date": "12 Nov 2026",
-      "excerpt": "Six HBR articles on what to do after a powerful founder steps down.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How AI Erodes People’s Sense of Value at Work",
-      "link": "/2026/11/how-ai-erodes-peoples-sense-of-value-at-work",
-      "date": "12 Nov 2026",
-      "excerpt": "And what leaders can do about it.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "New business models could help deploy clean energy technologies at scale",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/16/new-business-models-could-help-deploy-clean-energy-technologies-at-scale/",
-      "date": "16 Nov 2026",
-      "excerpt": "During COP31 Shefali Khanna looks at “energy-as-a-service”, a business model in which customers pay for an energy service without making upfront capital investment. Using examples from Britain, America and India she argues that subsidies ti",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The market and social price of CEO indiscretions go beyond Jensen Huang and Nvidia",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/13/the-market-and-social-price-of-ceo-indiscretions-go-beyond-jensen-huang-and-nvidia/",
-      "date": "13 Nov 2026",
-      "excerpt": "By having an extramarital affair with a Chinese customer, Jensen Huang put his personal reputation, his company’s valuation and America’s national security at risk. Chirantan Chatterjee explains the concerns surrounding his resignation from",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Which ESG disclosures link words to action?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/12/which-esg-disclosures-link-words-to-action/",
-      "date": "12 Nov 2026",
-      "excerpt": "Companies spend time and money writing ESG reports, which are closely scrutinised by investors. But not all environmental narratives show whether companies are actually making environmental progress. Ivan Savin finds that the relationship b",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Climate risk influences the economy through the cost of capital",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/12/cop31-climate-risk-influences-the-economy-through-the-cost-of-capital/",
-      "date": "12 Nov 2026",
-      "excerpt": "Climate risk is a powerful macroeconomic force which influences not only how much firms invest, but also where they invest, how investors allocate capital and even the level of risk-free interest rates that underpin financial markets. David",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1-1024x614.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "More work than it looks: the new jobs coming from AI adoption",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/11/more-work-than-it-looks-the-new-jobs-coming-from-ai-adoption/",
-      "date": "11 Nov 2026",
-      "excerpt": "From synthesisers to assembly lines, technological change has threatened familiar jobs while creating unexpected forms of work. Research into AI-related job vacancies is revealing strong demand for the people who help organisations adopt AI",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Is artificial intelligence a threat or solution to climate change?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/10/cop31-is-artificial-intelligence-a-threat-or-solution-to-climate-change/",
-      "date": "10 Nov 2026",
-      "excerpt": "Does the potential of AI to tackle climate change outweigh its environmental footprint? During the 2026 United Nations Climate Change Conference (COP31), we asked five academics and experts for their views on technology and the climate. Fab",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Jensen Huang pushes Nvidia comeback after board rejects pressure to reinstate ex-boss",
+      "link": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Nov 2026",
+      "excerpt": "Huang says he has had an \"outpouring\" of calls from investors and others calling for him to return.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40ef/live/51fc1a30-e2aa-11f1-99a1-253766e7ad8b.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Which areas have the most jobs for 16-24 year-olds? Use our look-up to find out",
+      "title": "We can't afford to hire under-25s, say firms. Will Milburn plans help?",
+      "link": "https://www.bbc.co.uk/news/articles/c6d01e8m15mko?at_medium=RSS&at_campaign=rss",
+      "date": "17 Nov 2026",
+      "excerpt": "The proposal to cut employers' National Insurance costs is \"essential\" to tackling the Neet problem, one business group says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1236/live/f4363760-e29e-11f1-a094-5fdc692f3e33.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Where are the most jobs for 18-24 year-olds?",
       "link": "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss",
       "date": "17 Nov 2026",
       "excerpt": "How many jobs are there where you live and in which sectors are you most likely to find an opening?",
@@ -211,11 +175,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "OpenAI sued by California over Hugging Face attack",
-      "link": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
-      "date": "16 Nov 2026",
-      "excerpt": "Attorney General Rob Bonta alleges that the artificial intelligence misled and endangered the public.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce1a/live/7c81aa70-e211-11f1-a541-6d0c391a4254.jpg"
+      "title": "Speed camera fault may have allowed drivers to escape fines",
+      "link": "https://www.bbc.co.uk/news/articles/c5y4j7z373kzo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Nov 2026",
+      "excerpt": "The Home Office has revoked approval that allowed footage from speed cameras to be used in evidence.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a189/live/29535f50-e28a-11f1-b166-176de21e2352.jpg"
     },
     {
       "source": "BBC Business",
@@ -224,34 +188,16 @@
       "link": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
       "date": "17 Nov 2026",
       "excerpt": "People who can't afford to get on the housing ladder are buying homes with someone they don't know.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6aa8/live/134f7040-e181-11f1-9386-1b849272ca8f.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da1d/live/2cfb5880-e265-11f1-900c-895604014268.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
-      "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+      "title": "How new US chip restrictions on South East Asia will hit China",
+      "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
       "date": "17 Nov 2026",
-      "excerpt": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Create more jobs for under-25s by cutting National Insurance, key report urges",
-      "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
-      "date": "16 Nov 2026",
-      "excerpt": "Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/283e/live/4753f640-e1ae-11f1-b0a4-450a350911f4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Customers report service outages at major US banks",
-      "link": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
-      "date": "17 Nov 2026",
-      "excerpt": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d633/live/6fb04df0-e212-11f1-b9ca-b9964628501b.jpg"
+      "excerpt": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfea/live/8fbafe20-e225-11f1-ae7e-97d0d3a43181.jpg"
     }
   ]
 }
