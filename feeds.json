@@ -1,5 +1,5 @@
 {
-  "updated": "17 Nov 2026, 17:22 UTC",
+  "updated": "18 Nov 2026, 00:31 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -112,7 +112,7 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
-      "title": "Who Will Make a Great Leader? There’s a Test for That",
+      "title": "Who Will Make a Great Leader? There’s a Test for That.",
       "link": "/podcast/2026/11/who-will-make-a-great-leader-theres-a-test-for-that",
       "date": "17 Nov 2026",
       "excerpt": "A conversation with Harvard University’s David Deming on how he uses science to identify great team players, managers, and leaders.",
@@ -146,13 +146,85 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Does it matter that companies are removing ESG targets from executive pay?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/does-it-matter-that-companies-are-removing-esg-targets-from-executive-pay/",
+      "date": "17 Nov 2026",
+      "excerpt": "Companies reconsidering ESG targets in executive remuneration is widely interpreted as another sign of the corporate retreat from ESG. But Sepideh Parsa, Ann-Ngoc Nguyen and Minh Nhat Linh Nguyen find that on average, adopting ESG-linked co",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Biodiversity loss changes how tourism firms manage their finances",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/cop31-biodiversity-loss-changes-how-tourism-firms-manage-their-finances/",
+      "date": "17 Nov 2026",
+      "excerpt": "Much of the world’s tourism relies on nature that climate change is damaging. Ecosystems themselves defend against risk. But this connection also has a financial dimension. Giray Gozgor, Jing Li, Mahdi Mousavi and Ayotola Owolabi’s analysis",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "New business models could help deploy clean energy technologies at scale",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/16/cop31-new-business-models-could-help-deploy-clean-energy-technologies-at-scale/",
+      "date": "16 Nov 2026",
+      "excerpt": "During COP31 Shefali Khanna looks at “energy-as-a-service”, a business model in which customers pay for an energy service without making upfront capital investment. Using examples from Britain, America and India she argues that subsidies ti",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The market and social price of CEO indiscretions go beyond Jensen Huang and Nvidia",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/13/the-market-and-social-price-of-ceo-indiscretions-go-beyond-jensen-huang-and-nvidia/",
+      "date": "13 Nov 2026",
+      "excerpt": "By having an extramarital affair with a Chinese customer, Jensen Huang put his personal reputation, his company’s valuation and America’s national security at risk. Chirantan Chatterjee explains the concerns surrounding his resignation from",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Which ESG disclosures link words to action?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/12/cop31-which-esg-disclosures-link-words-to-action/",
+      "date": "12 Nov 2026",
+      "excerpt": "Companies spend time and money writing ESG reports, which are closely scrutinised by investors. But not all environmental narratives show whether companies are actually making environmental progress. Ivan Savin finds that the relationship b",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Climate risk influences the economy through the cost of capital",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/12/cop31-climate-risk-influences-the-economy-through-the-cost-of-capital/",
+      "date": "12 Nov 2026",
+      "excerpt": "Climate risk is a powerful macroeconomic force which influences not only how much firms invest, but also where they invest, how investors allocate capital and even the level of risk-free interest rates that underpin financial markets. David",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1-1024x614.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Jensen Huang pushes Nvidia comeback after board rejects pressure to reinstate ex-boss",
+      "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+      "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+      "date": "18 Nov 2026",
+      "excerpt": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e48/live/58880030-e2d7-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
       "link": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
       "date": "17 Nov 2026",
       "excerpt": "Huang says he has had an \"outpouring\" of calls from investors and others calling for him to return.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40ef/live/51fc1a30-e2aa-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Government backs welfare shake-up to prevent 'lost generation'",
+      "link": "https://www.bbc.co.uk/news/articles/ck79210y125xo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Nov 2026",
+      "excerpt": "Ex-minister Alan Milburn has set out plans to divert spending from benefits towards job support.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf5e/live/7e3d3ce0-e2b0-11f1-8226-87dfa5049e9a.jpg"
     },
     {
       "source": "BBC Business",
@@ -175,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Speed camera fault may have allowed drivers to escape fines",
-      "link": "https://www.bbc.co.uk/news/articles/c5y4j7z373kzo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Nov 2026",
-      "excerpt": "The Home Office has revoked approval that allowed footage from speed cameras to be used in evidence.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a189/live/29535f50-e28a-11f1-b166-176de21e2352.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "We couldn't afford a house alone, so we bought one with strangers",
-      "link": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Nov 2026",
-      "excerpt": "People who can't afford to get on the housing ladder are buying homes with someone they don't know.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da1d/live/2cfb5880-e265-11f1-900c-895604014268.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How new US chip restrictions on South East Asia will hit China",
-      "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Nov 2026",
-      "excerpt": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfea/live/8fbafe20-e225-11f1-ae7e-97d0d3a43181.jpg"
+      "title": "Europe plans to catch the next computer chip wave",
+      "link": "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss",
+      "date": "18 Nov 2026",
+      "excerpt": "Europe hopes to be a leader in a new generation of computer chips which use light to process data.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c96b/live/b14b3a60-d9c8-11f1-93e1-3b657b665bcf.jpg"
     }
   ]
 }
