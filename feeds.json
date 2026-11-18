@@ -1,5 +1,5 @@
 {
-  "updated": "18 Nov 2026, 09:43 UTC",
+  "updated": "18 Nov 2026, 18:38 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -13,10 +13,28 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "Tiny magnets deep inside the brain could transform Parkinson’s treatment",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116023354.htm",
+      "date": "17 Nov 2026",
+      "excerpt": "Scientists have developed a new technique that uses magnetic nanoparticles to stimulate deep brain regions, dramatically improving Parkinson’s-like movement problems in mice without permanently implanted electrodes. The breakthrough could p",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "The hidden language of psychopathy is not what scientists expected",
       "link": "https://www.sciencedaily.com/releases/2026/11/261116023346.htm",
       "date": "17 Nov 2026",
       "excerpt": "Scientists have discovered that psychopathic traits are associated with surprisingly different patterns of language, with some individuals using more positive words and others expressing greater negativity or less anxiety. The findings chal",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Autistic brains look surprisingly similar on average. Then scientists looked closer.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116023344.htm",
+      "date": "17 Nov 2026",
+      "excerpt": "Scientists discovered that although people with and without autism show surprisingly similar average brain activity, individuals with autism exhibit much greater differences from one another, especially in regions involved in social underst",
       "image": ""
     },
     {
@@ -56,21 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "MIT scientists discover a surprising way to boost the brain’s nighttime cleaning system",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
-      "date": "15 Nov 2026",
-      "excerpt": "MIT scientists discovered that carefully timed bursts of gentle pink noise during sleep can strengthen the brain’s natural cleaning waves, which help flush away potentially harmful waste. The breakthrough could pave the way for new treatmen",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Position Your Product So Regulators Say Yes Faster",
+      "link": "/2026/11/position-your-product-so-regulators-say-yes-faster",
+      "date": "18 Nov 2026",
+      "excerpt": "New research shows that when regulators are overwhelmed, the right framing can accelerate the approval process.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "An ancient virus may help explain what makes the human brain different",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261114202230.htm",
-      "date": "15 Nov 2026",
-      "excerpt": "A virus that infected chimpanzees millions of years ago may have helped shape one of the most important differences between humans and our closest relatives: how our brains develop. Scientists at Lund University discovered that ancient vira",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "5 Habits for Keeping Up with an Ever-Increasing Workload",
+      "link": "/2026/11/5-habits-for-keeping-up-with-an-ever-increasing-workload",
+      "date": "18 Nov 2026",
+      "excerpt": "It’s time to unlearn old time-management hacks.",
       "image": ""
     },
     {
@@ -128,21 +146,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Leaders Shouldn’t Underestimate Time-Based Rewards",
-      "link": "/2026/11/leaders-shouldnt-underestimate-time-based-rewards",
-      "date": "12 Nov 2026",
-      "excerpt": "Organizations that cultivate “time affluence” may more easily attract talent, produce better work, and build a better culture.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How Nvidia Can Move Forward Without Its Founder",
-      "link": "/2026/11/how-nvidia-can-move-forward-without-its-founder",
-      "date": "13 Nov 2026",
-      "excerpt": "Rebuild trust. Choose a successor. Keep the business moving.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Rethinking credit ratings for the long term",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/18/rethinking-credit-ratings-for-the-long-term/",
+      "date": "18 Nov 2026",
+      "excerpt": "Credit ratings are among the most influential yet underappreciated gatekeepers of global development. Dennis Shen and Moritz Kraemer argue that adopting very long-term perspectives on creditworthiness, a deeper consideration of climate risk",
       "image": ""
     },
     {
@@ -191,22 +200,31 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Climate risk influences the economy through the cost of capital",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/12/cop31-climate-risk-influences-the-economy-through-the-cost-of-capital/",
-      "date": "12 Nov 2026",
-      "excerpt": "Climate risk is a powerful macroeconomic force which influences not only how much firms invest, but also where they invest, how investors allocate capital and even the level of risk-free interest rates that underpin financial markets. David",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-1-1024x614.jpg"
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
+      "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+      "date": "18 Nov 2026",
+      "excerpt": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a59/live/128bd8c0-e35b-11f1-99b6-a35a62fa4264.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Petrol and diesel prices push inflation to highest in a year",
-      "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+      "title": "Heating bills, chocolate and cat food: What the inflation figures mean for you",
+      "link": "https://www.bbc.co.uk/news/articles/ckq6eg55n221o?at_medium=RSS&at_campaign=rss",
       "date": "18 Nov 2026",
-      "excerpt": "Inflation is likely to keep rising on fresh forecasts that household energy bills will jump by 26% in January.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d0b/live/be9d4d20-e31e-11f1-baab-4b3b35d174b7.jpg"
+      "excerpt": "Prices are rising at their fastest pace for a year in the UK, and higher energy costs are on the way.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f6a/live/8100d500-e345-11f1-99aa-0f40b013ad11.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "date": "18 Nov 2026",
+      "excerpt": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f70c/live/7ee6d930-e346-11f1-99aa-0f40b013ad11.jpg"
     },
     {
       "source": "BBC Business",
@@ -229,29 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Jeff Bezos says he was 'heavily involved' in casting Robert Pattinson as new Bond",
-      "link": "https://www.bbc.co.uk/news/articles/cm5y1eejk292o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Nov 2026",
-      "excerpt": "The Amazon CEO said he was originally \"biased against\" Pattinson \"because he's already so famous\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0369/live/387a8f10-e2ff-11f1-a094-5fdc692f3e33.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Europe plans to catch the next computer chip wave",
       "link": "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss",
       "date": "18 Nov 2026",
       "excerpt": "Europe hopes to be a leader in a new generation of computer chips which use light to process data.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c96b/live/b14b3a60-d9c8-11f1-93e1-3b657b665bcf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Government backs welfare shake-up to prevent 'lost generation'",
-      "link": "https://www.bbc.co.uk/news/articles/ck79210y125xo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Nov 2026",
-      "excerpt": "Ex-minister Alan Milburn has set out plans to divert spending from benefits towards job support.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf5e/live/7e3d3ce0-e2b0-11f1-8226-87dfa5049e9a.jpg"
     }
   ]
 }
