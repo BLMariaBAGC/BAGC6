@@ -1,5 +1,5 @@
 {
-  "updated": "18 Nov 2026, 00:31 UTC",
+  "updated": "18 Nov 2026, 09:43 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,7 +202,16 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+      "title": "Petrol and diesel prices push inflation to highest in a year",
+      "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+      "date": "18 Nov 2026",
+      "excerpt": "Inflation is likely to keep rising on fresh forecasts that household energy bills will jump by 26% in January.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d0b/live/be9d4d20-e31e-11f1-baab-4b3b35d174b7.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
       "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
       "date": "18 Nov 2026",
       "excerpt": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
@@ -211,38 +220,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
-      "link": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Nov 2026",
-      "excerpt": "Huang says he has had an \"outpouring\" of calls from investors and others calling for him to return.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40ef/live/51fc1a30-e2aa-11f1-99a1-253766e7ad8b.jpg"
+      "title": "How important are Nvidia and Jensen Huang to the US economy?",
+      "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+      "date": "18 Nov 2026",
+      "excerpt": "The former Nvidia chief executive has been at the centre of the artificial intelligence boom.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8241/live/e3e3a9c0-e2a7-11f1-8226-87dfa5049e9a.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Government backs welfare shake-up to prevent 'lost generation'",
-      "link": "https://www.bbc.co.uk/news/articles/ck79210y125xo?at_medium=RSS&at_campaign=rss",
-      "date": "17 Nov 2026",
-      "excerpt": "Ex-minister Alan Milburn has set out plans to divert spending from benefits towards job support.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf5e/live/7e3d3ce0-e2b0-11f1-8226-87dfa5049e9a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "We can't afford to hire under-25s, say firms. Will Milburn plans help?",
-      "link": "https://www.bbc.co.uk/news/articles/c6d01e8m15mko?at_medium=RSS&at_campaign=rss",
-      "date": "17 Nov 2026",
-      "excerpt": "The proposal to cut employers' National Insurance costs is \"essential\" to tackling the Neet problem, one business group says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1236/live/f4363760-e29e-11f1-a094-5fdc692f3e33.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Where are the most jobs for 18-24 year-olds?",
-      "link": "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss",
-      "date": "17 Nov 2026",
-      "excerpt": "How many jobs are there where you live and in which sectors are you most likely to find an opening?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca90/live/0c02f160-e1ac-11f1-8ee3-23d0d09d2796.jpg"
+      "title": "Jeff Bezos says he was 'heavily involved' in casting Robert Pattinson as new Bond",
+      "link": "https://www.bbc.co.uk/news/articles/cm5y1eejk292o?at_medium=RSS&at_campaign=rss",
+      "date": "18 Nov 2026",
+      "excerpt": "The Amazon CEO said he was originally \"biased against\" Pattinson \"because he's already so famous\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0369/live/387a8f10-e2ff-11f1-a094-5fdc692f3e33.jpg"
     },
     {
       "source": "BBC Business",
@@ -252,6 +243,15 @@
       "date": "18 Nov 2026",
       "excerpt": "Europe hopes to be a leader in a new generation of computer chips which use light to process data.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c96b/live/b14b3a60-d9c8-11f1-93e1-3b657b665bcf.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Government backs welfare shake-up to prevent 'lost generation'",
+      "link": "https://www.bbc.co.uk/news/articles/ck79210y125xo?at_medium=RSS&at_campaign=rss",
+      "date": "17 Nov 2026",
+      "excerpt": "Ex-minister Alan Milburn has set out plans to divert spending from benefits towards job support.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf5e/live/7e3d3ce0-e2b0-11f1-8226-87dfa5049e9a.jpg"
     }
   ]
 }
