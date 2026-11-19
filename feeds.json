@@ -1,5 +1,5 @@
 {
-  "updated": "19 Nov 2026, 01:41 UTC",
+  "updated": "19 Nov 2026, 09:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "The policy tests facing governments in the age of AI",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/the-policy-tests-facing-governments-in-the-age-of-ai/",
+      "date": "19 Nov 2026",
+      "excerpt": "Artificial intelligence is global. But its potential impacts vary enormously between economies. How can all governments make the most of technological change, regardless of their stage of development? Era Dabla Norris of the International M",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Slide-two-1-1024x576.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "Rethinking credit ratings for the long term",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/18/rethinking-credit-ratings-for-the-long-term/",
       "date": "18 Nov 2026",
@@ -191,27 +200,27 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Which ESG disclosures link words to action?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/12/cop31-which-esg-disclosures-link-words-to-action/",
-      "date": "12 Nov 2026",
-      "excerpt": "Companies spend time and money writing ESG reports, which are closely scrutinised by investors. But not all environmental narratives show whether companies are actually making environmental progress. Ivan Savin finds that the relationship b",
-      "image": ""
-    },
-    {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Claude-maker Anthropic poised for more than $1.4tn stock market debut",
+      "title": "Anthropic valued at $1.5 trillion ahead of AI giant's stock market debut",
       "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-      "date": "18 Nov 2026",
-      "excerpt": "Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.",
+      "date": "19 Nov 2026",
+      "excerpt": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a11/live/4dfcb420-e37d-11f1-b879-03485a55c082.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+      "title": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
+      "link": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
+      "date": "19 Nov 2026",
+      "excerpt": "A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f343/live/1d9d5960-e3f5-11f1-99b6-a35a62fa4264.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
       "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
       "date": "18 Nov 2026",
       "excerpt": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
@@ -229,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
-      "link": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
+      "title": "Crew unaware of risks before Mike Lynch's yacht Bayesian sank, say investigators",
+      "link": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss",
       "date": "19 Nov 2026",
-      "excerpt": "A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/decb/live/a6ef9570-e364-11f1-99a1-253766e7ad8b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Gilts v kilts: What is happening with Scottish government bonds?",
-      "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
-      "date": "18 Nov 2026",
-      "excerpt": "MSPs have heard both the pros and cons of the government's plan to launch its first ever bond to the market?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bef5/live/7cbd5260-e35a-11f1-a094-5fdc692f3e33.jpg"
+      "excerpt": "The vessel sank off the coast of northern Sicily, killing seven people including British tech tycoon Mike Lynch.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6aec/live/3ca33b80-6077-11ef-aea1-e764981585c4.jpg"
     },
     {
       "source": "BBC Business",
