@@ -1,6 +1,24 @@
 {
-  "updated": "19 Nov 2026, 09:52 UTC",
+  "updated": "19 Nov 2026, 18:51 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Is free will an illusion? New brain research reveals a surprising twist",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261118065524.htm",
+      "date": "18 Nov 2026",
+      "excerpt": "New research reveals that the brain makes free choices and forced decisions using surprisingly similar neural processes, with activity building toward a decision before we act. The discovery challenges assumptions about free will while sugg",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Too much exercise could leave your brain stuck in overdrive",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261117033923.htm",
+      "date": "18 Nov 2026",
+      "excerpt": "Exercising too much without adequate recovery may disrupt brain chemistry in surprising ways. Scientists found that mice subjected to prolonged, intense training had elevated dopamine levels in a brain region linked to memory and emotions, ",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,39 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists tracked kids for 8 years. What they found about screen time was surprising",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261116014725.htm",
-      "date": "17 Nov 2026",
-      "excerpt": "A surprising Finnish study found that children who spent more time using screens tended to have better cognitive processing abilities as teenagers, challenging the assumption that screen time is always harmful. Researchers suggest that what",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How 3 Brands Bought in on the “Grand Theft Auto VI” Hype",
+      "link": "/2026/11/how-3-brands-bought-in-on-the-grand-theft-auto-vi-hype",
+      "date": "19 Nov 2026",
+      "excerpt": "Strategies for hitching your organization to the zeitgeist.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "A hidden biological divide may help explain Alzheimer’s and chronic pain",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261115085535.htm",
-      "date": "16 Nov 2026",
-      "excerpt": "New research reveals that biological sex, genetics, and menopause may dramatically influence Alzheimer's risk, treatment responses, and chronic pain conditions such as fibromyalgia. Scientists also uncovered surprising differences in immune",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Our Favorite Management Tips on Managing Change Fatigue",
+      "link": "/2026/11/our-favorite-management-tips-on-managing-change-fatigue",
+      "date": "19 Nov 2026",
+      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Why Tariffs Aren’t Bringing Factories Back to the U.S.",
+      "link": "/2026/11/why-tariffs-arent-bringing-factories-back-to-the-u-s",
+      "date": "19 Nov 2026",
+      "excerpt": "As the auto industry shows, the economics of reshoring still don’t add up for many manufacturers.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Innovation Summit 2026: Block’s Jack Dorsey on Building a Company Around Intelligence",
+      "link": "/podcast/2026/11/innovation-summit-2026-blocks-jack-dorsey-on-building-a-company-around-intelligence",
+      "date": "19 Nov 2026",
+      "excerpt": "A conversation with the technology leader about how he’s adapting his organization for the future.",
       "image": ""
     },
     {
@@ -98,51 +134,6 @@
       "link": "/2026/11/when-a-ceo-becomes-bigger-than-the-company-join-a-special-hbr-executive-live",
       "date": "16 Nov 2026",
       "excerpt": "Join us on Friday, November 20, for a conversation with HBS professor Lynn S. Paine.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Is Your Company Ready for Decentralization?",
-      "link": "/2026/11/is-your-company-ready-for-decentralization",
-      "date": "17 Nov 2026",
-      "excerpt": "Three growing pains to monitor if your firm wants to shift to a business unit model.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How to Test Your Startup’s Biggest Assumptions",
-      "link": "/2026/11/how-to-test-your-startups-biggest-assumptions",
-      "date": "17 Nov 2026",
-      "excerpt": "Twelve principles for designing experiments—and interpreting results.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Your Long-Term Succession Plan Won’t Save You in a Crisis",
-      "link": "/2026/11/your-long-term-succession-plan-wont-save-you-in-a-crisis",
-      "date": "17 Nov 2026",
-      "excerpt": "Boards also need an emergency succession plan that offers clarity around decision rights, candidate qualifications, talent retention, and more.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Who Will Make a Great Leader? There’s a Test for That.",
-      "link": "/podcast/2026/11/who-will-make-a-great-leader-theres-a-test-for-that",
-      "date": "17 Nov 2026",
-      "excerpt": "A conversation with Harvard University’s David Deming on how he uses science to identify great team players, managers, and leaders.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why CEOs Wait Too Long to Shake Up Leadership—and Regret It",
-      "link": "/2026/11/why-ceos-wait-too-long-to-shake-up-leadership-and-regret-it",
-      "date": "16 Nov 2026",
-      "excerpt": "In this week’s “Leadership Notes,” the former dean of HBS examines why Netflix’s decision to replace longtime content chief Bela Bajaria was the right one.",
       "image": ""
     },
     {
@@ -202,24 +193,6 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Anthropic valued at $1.5 trillion ahead of AI giant's stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-      "date": "19 Nov 2026",
-      "excerpt": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a11/live/4dfcb420-e37d-11f1-b879-03485a55c082.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
-      "link": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
-      "date": "19 Nov 2026",
-      "excerpt": "A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f343/live/1d9d5960-e3f5-11f1-99b6-a35a62fa4264.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
       "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
       "date": "18 Nov 2026",
@@ -238,11 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Crew unaware of risks before Mike Lynch's yacht Bayesian sank, say investigators",
-      "link": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss",
+      "title": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
+      "link": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
       "date": "19 Nov 2026",
-      "excerpt": "The vessel sank off the coast of northern Sicily, killing seven people including British tech tycoon Mike Lynch.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6aec/live/3ca33b80-6077-11ef-aea1-e764981585c4.jpg"
+      "excerpt": "A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b62/live/ccbeb3f0-e407-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Viagogo may have broken law on hidden fees, watchdog provisionally finds",
+      "link": "https://www.bbc.co.uk/news/articles/cmvg2ex7j30lo?at_medium=RSS&at_campaign=rss",
+      "date": "19 Nov 2026",
+      "excerpt": "The UK's competition body says initial findings suggest the ticket-reselling website used drip pricing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3865/live/755fe980-e407-11f1-ab35-e1af93fa5cce.jpg"
     },
     {
       "source": "BBC Business",
@@ -252,6 +234,15 @@
       "date": "18 Nov 2026",
       "excerpt": "Europe hopes to be a leader in a new generation of computer chips which use light to process data.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c96b/live/b14b3a60-d9c8-11f1-93e1-3b657b665bcf.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Crew unaware of risks before Mike Lynch's yacht Bayesian sank, say investigators",
+      "link": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss",
+      "date": "19 Nov 2026",
+      "excerpt": "The vessel sank off the coast of northern Sicily, killing seven people including British tech tycoon Mike Lynch.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6aec/live/3ca33b80-6077-11ef-aea1-e764981585c4.jpg"
     }
   ]
 }
