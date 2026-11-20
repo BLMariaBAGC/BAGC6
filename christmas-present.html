@@ -3,8 +3,17 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:100%;height:100%;overflow:hidden;font-family:Georgia,"Times New Roman",serif;color:#fdf3dc;background:transparent;color-scheme:normal}
-.sub,.chip,.btn,label{text-shadow:0 1px 6px rgba(20,7,15,.85),0 0 14px rgba(20,7,15,.6)}
-.screen{background:radial-gradient(ellipse at 50% 50%,rgba(20,7,15,.45) 0%,rgba(20,7,15,0) 70%)}
+#bg{position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse at 50% 35%,#fbefcf 0%,#f0d89a 60%,#dcb765 100%);transition:opacity 1.2s ease;pointer-events:none}
+body.rv #bg{opacity:0}
+#s1{color:#4a2412;z-index:1}
+#s1 h1{color:#7a1f1f;text-shadow:0 0 14px rgba(255,255,255,.5)}
+#s1 .sub,#s1 label{color:#4a2412;opacity:1}
+#s1 .chip{color:#4a2412;border-color:#a8782a}
+#s1 .chip[aria-pressed=true]{background:#a8782a;color:#fff8e6}
+#s1 .tap{color:#7a1f1f}
+#s1 .hint,#s1 .err{color:#6b4423}
+#mute{z-index:6}
+#endbar .btn{text-shadow:0 1px 6px rgba(20,7,15,.9),0 0 12px rgba(20,7,15,.7);background:rgba(20,7,15,.35)}
 #fx{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:5}
 .screen{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2.2vh;padding:3vh 5vw;text-align:center;transition:opacity .8s ease}
 .hidden{opacity:0;pointer-events:none}
@@ -53,6 +62,7 @@ input[type=text]::placeholder{color:#a58a63}
 @media (prefers-reduced-motion:reduce){#gift.bob,#gift.bob .closed{animation:none}#fc,#card{transition:opacity .3s}}
 </style><script>(function(){function f(){var z=Math.min(1,innerWidth/380,innerHeight/560);document.documentElement.style.zoom=z<1?z:''}f();addEventListener('resize',f)})();</script></head>
 <body>
+<div id="bg"></div>
 <canvas id="fx" aria-hidden="true"></canvas>
 <button id="mute" class="btn" aria-label="Mute music">Music: on</button>
 
@@ -117,7 +127,7 @@ $("gift").onclick=function(){
  var r=g.getBoundingClientRect();burst((r.left+r.width/2)*devicePixelRatio,(r.top+r.height*.4)*devicePixelRatio);
  if(CFG.music&&!audio){try{audio=new Audio(CFG.music);audio.loop=true;audio.volume=.45;audio.play().catch(function(){});$("mute").style.display="block"}catch(e){}}
  setTimeout(function(){
-  $("s1").classList.add("hidden");$("reveal").classList.remove("hidden");$("endbar").classList.remove("hidden");
+  $("s1").classList.add("hidden");document.body.classList.add("rv");$("reveal").classList.remove("hidden");$("endbar").classList.remove("hidden");
   var txt=pick(grp).replace(/\{n\}/g,name).replace(/\{r\}/g,CFG.reindeer);
   var parts2=txt.split(", ");var greet=parts2.shift()+",";
   $("msg").innerHTML="";var b=document.createElement("b");b.textContent=greet;var s=document.createElement("span");var rest=parts2.join(", ");s.textContent=rest.charAt(0).toUpperCase()+rest.slice(1);$("msg").appendChild(b);$("msg").appendChild(s);fitMsg();
@@ -131,7 +141,7 @@ $("again").onclick=function(){$("rdr").classList.remove("in");$("rdr").classList
  $("reveal").classList.add("hidden");$("endbar").classList.add("hidden");$("fc").classList.remove("in");$("card").classList.remove("in");
  var g=$("gift");g.classList.remove("opened");g.classList.add("bob");g.disabled=false;$("nm").value="";grp=null;
  for(var j=0;j<chips.length;j++)chips[j].setAttribute("aria-pressed","false");
- $("s1").classList.remove("hidden");snow=false;
+ $("s1").classList.remove("hidden");document.body.classList.remove("rv");snow=false;
 };
 $("mute").onclick=function(){muted=!muted;if(audio)audio.muted=muted;this.textContent=muted?"Music: off":"Music: on"};
 </script></body></html>
