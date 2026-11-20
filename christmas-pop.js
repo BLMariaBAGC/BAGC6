@@ -19,8 +19,8 @@
     w.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;height:100dvh;z-index:2147483000;background:radial-gradient(ellipse at 50% 30%,#24485c 0%,#102532 55%,#0a1620 100%);display:flex;flex-direction:column';
     var b=document.createElement('button');
     b.type='button';b.title='Close';b.setAttribute('aria-label','Close '+(C.title||'page'));b.innerHTML='&times;';
-    b.style.cssText='position:absolute;top:14px;right:14px;z-index:2;width:38px;height:38px;padding:0;border-radius:50%;border:2px solid #f6d98a;background:rgba(20,50,35,.92);color:#f6d98a;font:400 26px/34px Georgia,serif;text-align:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.4)';
-    if(C.top||/playzo/.test(C.src))b.style.top=(C.top||'64px');
+    b.style.cssText='position:absolute;top:28px;right:max(36px,4vw);z-index:2;width:38px;height:38px;padding:0;border-radius:50%;border:2px solid #f6d98a;background:rgba(20,50,35,.92);color:#f6d98a;font:400 26px/34px Georgia,serif;text-align:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.4)';
+    if(C.top||/playzo/.test(C.src))b.style.top=(C.top||'78px');
     b.addEventListener('click',close);
     var f=document.createElement('iframe');
     f.title=C.title||'Christmas';f.src=C.src+(C.src.indexOf('?')<0?'?':'&')+'t='+Math.floor(Date.now()/300000);f.setAttribute('allow','autoplay; clipboard-write; fullscreen');
