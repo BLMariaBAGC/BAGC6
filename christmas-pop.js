@@ -42,15 +42,19 @@
     }
     return false;
   }
-  var last=0,sx=0,sy=0;
-  function tryOpen(e,x,y){
+  var last=0,sx=0,sy=0,downHit=-1,downT=0;
+  function which(e,x,y){for(var i=0;i<L.length;i++)if(hit(L[i],x,y,e.target))return i;return -1}
+  /* Open only when the press STARTED and ENDED on the same tile. On phones a tap on the
+     sun/moon switches scene first, and the finishing tap would otherwise land on a tile
+     of the new scene (e.g. the gift) and open it by mistake. */
+  document.addEventListener('pointerdown',function(e){sx=e.clientX;sy=e.clientY;downT=Date.now();downHit=cur?-1:which(e,sx,sy)},true);
+  function finish(e){
     if(cur||Date.now()-last<600)return;
-    for(var i=0;i<L.length;i++)if(hit(L[i],x,y,e.target)){last=Date.now();open(L[i]);return}
-  }
-  document.addEventListener('pointerdown',function(e){sx=e.clientX;sy=e.clientY},true);
-  document.addEventListener('pointerup',function(e){
+    if(downHit<0||Date.now()-downT>1500)return;
     if(Math.abs(e.clientX-sx)>12||Math.abs(e.clientY-sy)>12)return;
-    tryOpen(e,e.clientX,e.clientY);
-  },true);
-  document.addEventListener('click',function(e){tryOpen(e,e.clientX,e.clientY)},true);
+    var i=which(e,e.clientX,e.clientY);
+    if(i===downHit){last=Date.now();downHit=-1;open(L[i])}
+  }
+  document.addEventListener('pointerup',finish,true);
+  document.addEventListener('click',finish,true);
 })();
