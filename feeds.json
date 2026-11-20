@@ -1,5 +1,5 @@
 {
-  "updated": "20 Nov 2026, 00:11 UTC",
+  "updated": "20 Nov 2026, 00:16 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,11 +139,20 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Half of Europe backs climate policy – only Germany acts on it",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/half-of-europe-backs-climate-policy-only-germany-acts-on-it/",
+      "date": "19 Nov 2026",
+      "excerpt": "European sustainability communication is still largely addressed to a single, average citizen. But that average citizen does not exist. New evidence suggests the gap between what Europeans say about climate and what they do is not primarily",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure1-1024x591.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "The policy tests facing governments in the age of AI",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/the-policy-tests-facing-governments-in-the-age-of-ai/",
       "date": "19 Nov 2026",
       "excerpt": "Artificial intelligence is global. But its potential impacts vary enormously between economies. How can all governments make the most of technological change, regardless of their stage of development? Era Dabla Norris of the International M",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Slide-two-1-1024x576.jpg"
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Slide-two-2-1024x538.jpg"
     },
     {
       "source": "LSE Business Review",
@@ -179,15 +188,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/16/cop31-new-business-models-could-help-deploy-clean-energy-technologies-at-scale/",
       "date": "16 Nov 2026",
       "excerpt": "During COP31 Shefali Khanna looks at “energy-as-a-service”, a business model in which customers pay for an energy service without making upfront capital investment. Using examples from Britain, America and India she argues that subsidies ti",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The market and social price of CEO indiscretions go beyond Jensen Huang and Nvidia",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/13/the-market-and-social-price-of-ceo-indiscretions-go-beyond-jensen-huang-and-nvidia/",
-      "date": "13 Nov 2026",
-      "excerpt": "By having an extramarital affair with a Chinese customer, Jensen Huang put his personal reputation, his company’s valuation and America’s national security at risk. Chirantan Chatterjee explains the concerns surrounding his resignation from",
       "image": ""
     },
     {
