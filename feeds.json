@@ -1,5 +1,5 @@
 {
-  "updated": "20 Nov 2026, 14:29 UTC",
+  "updated": "20 Nov 2026, 15:00 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,15 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "A Better Way to Foster Rigorous Debate in the Boardroom",
+      "link": "/2026/11/a-better-way-to-foster-rigorous-debate-in-the-boardroom",
+      "date": "20 Nov 2026",
+      "excerpt": "Use “the Cartesian voice” to encourage disciplined inquiry, skepticism, and discussion.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "The Case for “Small AI”",
       "link": "/2026/11/the-case-for-small-ai",
       "date": "20 Nov 2026",
@@ -125,15 +134,6 @@
       "link": "/2026/11/position-your-product-so-regulators-say-yes-faster",
       "date": "18 Nov 2026",
       "excerpt": "New research shows that when regulators are overwhelmed, the right framing can accelerate the approval process.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "5 Habits for Keeping Up with an Ever-Increasing Workload",
-      "link": "/2026/11/5-habits-for-keeping-up-with-an-ever-increasing-workload",
-      "date": "18 Nov 2026",
-      "excerpt": "It’s time to unlearn old time-management hacks.",
       "image": ""
     },
     {
@@ -193,6 +193,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Anthropic shares fall a day after blockbuster opening",
+      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Nov 2026",
+      "excerpt": "Other tech companies have also taken a hit as share markets broadly slump.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d5/live/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
       "link": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
       "date": "20 Nov 2026",
@@ -202,29 +211,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Airbnb's divisive new house rules come into force",
-      "link": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Nov 2026",
-      "excerpt": "New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3342/live/1c7d3390-e4ca-11f1-99b6-a35a62fa4264.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
-      "date": "19 Nov 2026",
-      "excerpt": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b7d/live/94082910-e452-11f1-a094-5fdc692f3e33.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "Fish and eggs al desko? The dos and don'ts of lunch at work",
       "link": "https://www.bbc.co.uk/news/articles/cwp8g4092zglo?at_medium=RSS&at_campaign=rss",
       "date": "20 Nov 2026",
       "excerpt": "Eating at your desk? The dos and don'ts of lunch at work",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d971/live/c0e0ad80-e4cb-11f1-99b6-a35a62fa4264.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Airbnb's divisive new house rules come into force",
+      "link": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Nov 2026",
+      "excerpt": "New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3342/live/1c7d3390-e4ca-11f1-99b6-a35a62fa4264.jpg"
     },
     {
       "source": "BBC Business",
