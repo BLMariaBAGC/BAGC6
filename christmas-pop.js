@@ -34,7 +34,11 @@
     if(t)els.unshift(t);
     for(j=0;j<els.length;j++){
       var el=els[j];if(!el||!el.closest)continue;
-      for(i=0;i<ids.length;i++)if(el.closest('[data-element-id="'+ids[i].trim()+'"]'))return true;
+      var top=el.closest('[data-element-id]');
+      if(!top)continue;
+      var id=top.getAttribute('data-element-id');
+      for(i=0;i<ids.length;i++)if(id===ids[i].trim())return true;
+      return false; /* the topmost Rippily element is something else (e.g. the sun or moon button): do not open */
     }
     return false;
   }
