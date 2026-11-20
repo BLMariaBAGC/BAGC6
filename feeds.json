@@ -1,5 +1,5 @@
 {
-  "updated": "20 Nov 2026, 00:16 UTC",
+  "updated": "20 Nov 2026, 01:38 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -139,24 +139,6 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Half of Europe backs climate policy – only Germany acts on it",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/half-of-europe-backs-climate-policy-only-germany-acts-on-it/",
-      "date": "19 Nov 2026",
-      "excerpt": "European sustainability communication is still largely addressed to a single, average citizen. But that average citizen does not exist. New evidence suggests the gap between what Europeans say about climate and what they do is not primarily",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure1-1024x591.png"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The policy tests facing governments in the age of AI",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/the-policy-tests-facing-governments-in-the-age-of-ai/",
-      "date": "19 Nov 2026",
-      "excerpt": "Artificial intelligence is global. But its potential impacts vary enormously between economies. How can all governments make the most of technological change, regardless of their stage of development? Era Dabla Norris of the International M",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Slide-two-2-1024x538.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "Rethinking credit ratings for the long term",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/18/rethinking-credit-ratings-for-the-long-term/",
       "date": "18 Nov 2026",
@@ -191,6 +173,24 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The market and social price of CEO indiscretions go beyond Jensen Huang and Nvidia",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/13/the-market-and-social-price-of-ceo-indiscretions-go-beyond-jensen-huang-and-nvidia/",
+      "date": "13 Nov 2026",
+      "excerpt": "By having an extramarital affair with a Chinese customer, Jensen Huang put his personal reputation, his company’s valuation and America’s national security at risk. Chirantan Chatterjee explains the concerns surrounding his resignation from",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Which ESG disclosures link words to action?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/12/cop31-which-esg-disclosures-link-words-to-action/",
+      "date": "12 Nov 2026",
+      "excerpt": "Companies spend time and money writing ESG reports, which are closely scrutinised by investors. But not all environmental narratives show whether companies are actually making environmental progress. Ivan Savin finds that the relationship b",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
@@ -211,38 +211,38 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-      "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Nov 2026",
-      "excerpt": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dcc1/live/0bb55690-e36d-11f1-99a1-253766e7ad8b.jpg"
+      "title": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
+      "link": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss",
+      "date": "20 Nov 2026",
+      "excerpt": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3db/live/57d6aa20-d769-11f1-a956-ff083523ef77.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Nov 2026",
-      "excerpt": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f70c/live/7ee6d930-e346-11f1-99aa-0f40b013ad11.jpg"
+      "title": "Airbnb's divisive new house rules come into force",
+      "link": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Nov 2026",
+      "excerpt": "New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/005c/live/dfcb5350-e410-11f1-b37c-b3a71d7200af.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
-      "link": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
+      "title": "Fish and eggs al desko? The dos and don'ts of the lunch break",
+      "link": "https://www.bbc.co.uk/news/articles/cwp8g4092zglo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Nov 2026",
+      "excerpt": "What is acceptable to eat at your desk, without annoying your colleagues?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c5a2/live/ef6d14f0-d93a-11f1-95ea-8df9a040b6bf.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Viagogo may have broken law on hidden fees, watchdog provisionally finds",
+      "link": "https://www.bbc.co.uk/news/articles/cmvg2ex7j30lo?at_medium=RSS&at_campaign=rss",
       "date": "19 Nov 2026",
-      "excerpt": "A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b62/live/ccbeb3f0-e407-11f1-a094-5fdc692f3e33.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Europe plans to catch the next computer chip wave",
-      "link": "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss",
-      "date": "18 Nov 2026",
-      "excerpt": "Europe hopes to be a leader in a new generation of computer chips which use light to process data.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c96b/live/b14b3a60-d9c8-11f1-93e1-3b657b665bcf.jpg"
+      "excerpt": "The UK's competition body says initial findings suggest the ticket-reselling website used drip pricing.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3865/live/755fe980-e407-11f1-ab35-e1af93fa5cce.jpg"
     }
   ]
 }
