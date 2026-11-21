@@ -1,5 +1,5 @@
 {
-  "updated": "20 Nov 2026, 18:17 UTC",
+  "updated": "21 Nov 2026, 01:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,67 +137,22 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Half of Europe backs climate policy – only Germany acts on it",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/half-of-europe-backs-climate-policy-only-germany-acts-on-it/",
-      "date": "19 Nov 2026",
-      "excerpt": "European sustainability communication is still largely addressed to a single, average citizen. But that average citizen does not exist. New evidence suggests the gap between what Europeans say about climate and what they do is not primarily",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure1-1024x591.png"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The policy tests facing governments in the age of AI",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/the-policy-tests-facing-governments-in-the-age-of-ai/",
-      "date": "19 Nov 2026",
-      "excerpt": "Artificial intelligence is global. But its potential impacts vary enormously between economies. How can all governments make the most of technological change, regardless of their stage of development? Era Dabla Norris of the International M",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Slide-two-2-1024x538.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Rethinking credit ratings for the long term",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/18/rethinking-credit-ratings-for-the-long-term/",
-      "date": "18 Nov 2026",
-      "excerpt": "Credit ratings are among the most influential yet underappreciated gatekeepers of global development. Dennis Shen and Moritz Kraemer argue that adopting very long-term perspectives on creditworthiness, a deeper consideration of climate risk",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Does it matter that companies are removing ESG targets from executive pay?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/does-it-matter-that-companies-are-removing-esg-targets-from-executive-pay/",
-      "date": "17 Nov 2026",
-      "excerpt": "Companies reconsidering ESG targets in executive remuneration is widely interpreted as another sign of the corporate retreat from ESG. But Sepideh Parsa, Ann-Ngoc Nguyen and Minh Nhat Linh Nguyen find that on average, adopting ESG-linked co",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Biodiversity loss changes how tourism firms manage their finances",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/cop31-biodiversity-loss-changes-how-tourism-firms-manage-their-finances/",
-      "date": "17 Nov 2026",
-      "excerpt": "Much of the world’s tourism relies on nature that climate change is damaging. Ecosystems themselves defend against risk. But this connection also has a financial dimension. Giray Gozgor, Jing Li, Mahdi Mousavi and Ayotola Owolabi’s analysis",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "New business models could help deploy clean energy technologies at scale",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/16/cop31-new-business-models-could-help-deploy-clean-energy-technologies-at-scale/",
-      "date": "16 Nov 2026",
-      "excerpt": "During COP31 Shefali Khanna looks at “energy-as-a-service”, a business model in which customers pay for an energy service without making upfront capital investment. Using examples from Britain, America and India she argues that subsidies ti",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "date": "20 Nov 2026",
+      "excerpt": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d5/live/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+      "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
       "date": "20 Nov 2026",
-      "excerpt": "Other tech companies have also taken a hit as share markets broadly slump.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d5/live/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg"
+      "excerpt": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b92/live/7ef50e70-e511-11f1-a094-5fdc692f3e33.jpg"
     },
     {
       "source": "BBC Business",
@@ -211,20 +166,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
-      "link": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
+      "title": "Trump threatens ban on US firms building AI data centres overseas",
+      "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
       "date": "20 Nov 2026",
-      "excerpt": "People stocking up on long-life food drove retail sales higher October, according to official data.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b2f3/live/616b7460-e4bd-11f1-bd65-4bcf15946188.jpg"
+      "excerpt": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5eb0/live/a9cadc20-e529-11f1-99a1-253766e7ad8b.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Fish and eggs al desko? The dos and don'ts of lunch at work",
-      "link": "https://www.bbc.co.uk/news/articles/cwp8g4092zglo?at_medium=RSS&at_campaign=rss",
+      "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
+      "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
       "date": "20 Nov 2026",
-      "excerpt": "Eating at your desk? The dos and don'ts of lunch at work",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d971/live/c0e0ad80-e4cb-11f1-99b6-a35a62fa4264.jpg"
+      "excerpt": "The mammoth figure surpasses every video game launch and single-day film box office record.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3096/live/f678f6e0-e4cc-11f1-99b6-a35a62fa4264.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,15 +189,6 @@
       "date": "20 Nov 2026",
       "excerpt": "Would AI be a good judge of whether you should get a mortgage, car loan or mobile phone contract?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5352/live/663fec10-d765-11f1-93e1-3b657b665bcf.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Airbnb's divisive new house rules come into force",
-      "link": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Nov 2026",
-      "excerpt": "New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3342/live/1c7d3390-e4ca-11f1-99b6-a35a62fa4264.jpg"
     }
   ]
 }
