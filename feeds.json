@@ -1,5 +1,5 @@
 {
-  "updated": "22 Nov 2026, 05:05 UTC",
+  "updated": "22 Nov 2026, 14:02 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -137,22 +137,85 @@
       "image": ""
     },
     {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "date": "20 Nov 2026",
-      "excerpt": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d5/live/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg"
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Half of Europe backs climate policy – only Germany acts on it",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/cop31-half-of-europe-backs-climate-policy-only-germany-acts-on-it/",
+      "date": "19 Nov 2026",
+      "excerpt": "European sustainability communication is still largely addressed to a single, average citizen. But that average citizen does not exist. New evidence suggests the gap between what Europeans say about climate and what they do is not primarily",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure1-1024x591.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The policy tests facing governments in the age of AI",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/the-policy-tests-facing-governments-in-the-age-of-ai/",
+      "date": "19 Nov 2026",
+      "excerpt": "Artificial intelligence is global. But its potential impacts vary enormously between economies. How can all governments make the most of technological change, regardless of their stage of development? Era Dabla Norris of the International M",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Slide-two-2-1024x538.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Rethinking credit ratings for the long term",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/18/rethinking-credit-ratings-for-the-long-term/",
+      "date": "18 Nov 2026",
+      "excerpt": "Credit ratings are among the most influential yet underappreciated gatekeepers of global development. Dennis Shen and Moritz Kraemer argue that adopting very long-term perspectives on creditworthiness, a deeper consideration of climate risk",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Does it matter that companies are removing ESG targets from executive pay?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/does-it-matter-that-companies-are-removing-esg-targets-from-executive-pay/",
+      "date": "17 Nov 2026",
+      "excerpt": "Companies reconsidering ESG targets in executive remuneration is widely interpreted as another sign of the corporate retreat from ESG. But Sepideh Parsa, Ann-Ngoc Nguyen and Minh Nhat Linh Nguyen find that on average, adopting ESG-linked co",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Biodiversity loss changes how tourism firms manage their finances",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/cop31-biodiversity-loss-changes-how-tourism-firms-manage-their-finances/",
+      "date": "17 Nov 2026",
+      "excerpt": "Much of the world’s tourism relies on nature that climate change is damaging. Ecosystems themselves defend against risk. But this connection also has a financial dimension. Giray Gozgor, Jing Li, Mahdi Mousavi and Ayotola Owolabi’s analysis",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "New business models could help deploy clean energy technologies at scale",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/16/cop31-new-business-models-could-help-deploy-clean-energy-technologies-at-scale/",
+      "date": "16 Nov 2026",
+      "excerpt": "During COP31 Shefali Khanna looks at “energy-as-a-service”, a business model in which customers pay for an energy service without making upfront capital investment. Using examples from Britain, America and India she argues that subsidies ti",
+      "image": ""
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
-      "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Nov 2026",
-      "excerpt": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b92/live/7ef50e70-e511-11f1-a094-5fdc692f3e33.jpg"
+      "title": "Centrica boss says he is 'hugely concerned' over impact of soaring energy bills",
+      "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
+      "date": "22 Nov 2026",
+      "excerpt": "Chris O'Shea says the number of people unable or unwilling to pay their energy bills will increase when prices jump in the new year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e559/live/0f2b1290-e671-11f1-a5bc-ddaec99ca2c4.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Employers are being asked to give interview feedback - here's what applicants want",
+      "link": "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Nov 2026",
+      "excerpt": "People say they often hear nothing back after applying for jobs. But could employers be forced to respond to every applicant?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fb80/live/784ad260-e4e1-11f1-99b6-a35a62fa4264.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Can AI really help spot Black Friday deals? We put it to the test",
+      "link": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+      "date": "21 Nov 2026",
+      "excerpt": "We put four AI models to the test to see if they could save us money on a new TV.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dcbf/live/85d51550-e435-11f1-8346-933d3547e297.jpg"
     },
     {
       "source": "BBC Business",
@@ -166,20 +229,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump threatens ban on US firms building AI data centres overseas",
-      "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-      "date": "20 Nov 2026",
-      "excerpt": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5eb0/live/a9cadc20-e529-11f1-99a1-253766e7ad8b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
-      "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
-      "date": "20 Nov 2026",
-      "excerpt": "The mammoth figure surpasses every video game launch and single-day film box office record.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3096/live/f678f6e0-e4cc-11f1-99b6-a35a62fa4264.jpg"
+      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+      "date": "22 Nov 2026",
+      "excerpt": "In a statement to Italian media, his family remember him as \"the greatest jeweller of our time\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11c4/live/b30a2e00-e635-11f1-bcaa-b74b42067918.jpg"
     },
     {
       "source": "BBC Business",
