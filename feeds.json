@@ -1,6 +1,24 @@
 {
-  "updated": "23 Nov 2026, 02:13 UTC",
+  "updated": "23 Nov 2026, 14:00 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Mice slept 70% less after scientists switched off these brain cells",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261122060336.htm",
+      "date": "22 Nov 2026",
+      "excerpt": "Scientists have discovered brain cells that actively generate the irresistible urge to sleep, and shutting them down allowed mice to sleep 70% less than normal. Remarkably, many of the animals avoided the severe behavioral consequences of s",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a surprising link between weak bones and faster brain aging",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261121221132.htm",
+      "date": "22 Nov 2026",
+      "excerpt": "Weakening bones may reveal more about brain health than scientists previously realized, with new research linking lower spinal bone density to faster cognitive decline and accelerated changes in the brain's white matter. The surprising conn",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,12 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Too much exercise could leave your brain stuck in overdrive",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261117033923.htm",
-      "date": "18 Nov 2026",
-      "excerpt": "Exercising too much without adequate recovery may disrupt brain chemistry in surprising ways. Scientists found that mice subjected to prolonged, intense training had elevated dopamine levels in a brain region linked to memory and emotions, ",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Ozempic and Mounjaro may have a surprising effect on your brain",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261116023401.htm",
-      "date": "17 Nov 2026",
-      "excerpt": "Blockbuster weight loss drugs like Ozempic and Mounjaro may do more than help people shed pounds, with growing evidence suggesting they could also influence brain health. Although studies have linked GLP-1 medications to a lower risk of dem",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When CEO Comebacks Succeed—and When They Fail",
+      "link": "/2026/11/when-ceo-comebacks-succeed-and-when-they-fail",
+      "date": "23 Nov 2026",
+      "excerpt": "In his weekly column, the former dean of Harvard Business School looks at the research on leaders’ second acts.",
       "image": ""
     },
     {
@@ -89,6 +98,15 @@
       "link": "/2026/11/a-better-way-to-foster-rigorous-debate-in-the-boardroom",
       "date": "20 Nov 2026",
       "excerpt": "Use “the Cartesian voice” to encourage disciplined inquiry, skepticism, and discussion.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "How the Best Leaders Develop an Enterprise Mindset",
+      "link": "/2026/11/how-the-best-leaders-develop-an-enterprise-mindset",
+      "date": "23 Nov 2026",
+      "excerpt": "Shift your perspective in six ways.",
       "image": ""
     },
     {
@@ -116,24 +134,6 @@
       "link": "/2026/11/our-favorite-management-tips-on-managing-change-fatigue",
       "date": "19 Nov 2026",
       "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Why Tariffs Aren’t Bringing Factories Back to the U.S.",
-      "link": "/2026/11/why-tariffs-arent-bringing-factories-back-to-the-u-s",
-      "date": "19 Nov 2026",
-      "excerpt": "As the auto industry shows, the economics of reshoring still don’t add up for many manufacturers.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Innovation Summit 2026: Block’s Jack Dorsey on Building a Company Around Intelligence",
-      "link": "/podcast/2026/11/innovation-summit-2026-blocks-jack-dorsey-on-building-a-company-around-intelligence",
-      "date": "19 Nov 2026",
-      "excerpt": "A conversation with the technology leader about how he’s adapting his organization for the future.",
       "image": ""
     },
     {
@@ -193,20 +193,29 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Centrica boss says he is 'hugely concerned' over impact of soaring energy bills",
-      "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
-      "date": "22 Nov 2026",
-      "excerpt": "Chris O'Shea says the number of people unable or unwilling to pay their energy bills will increase when prices jump in the new year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7208/live/d02d4240-e682-11f1-99b6-a35a62fa4264.jpg"
+      "title": "Capita shares plunge 70% as boss quits after civil service pensions failure",
+      "link": "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Nov 2026",
+      "excerpt": "Public sector workers have been hit by delays to pension payments, in a scheme overseen by Capita since last year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d59/live/4828e850-e726-11f1-914b-6d226d813a52.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "What is going on with Poundland?",
-      "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
+      "title": "Catering giant to switch main share listing to US in further blow to UK",
+      "link": "https://www.bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss",
       "date": "23 Nov 2026",
-      "excerpt": "Poundland has a matter of days to find a buyer or face collapsing into administration. Why?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2b3/live/3c7f3110-d7bf-11f1-a719-bf3dc3a3d5b5.jpg"
+      "excerpt": "A growing number of firms have been leaving the UK to list shares in the US in recent years.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d35/live/6c293750-e726-11f1-914b-6d226d813a52.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Next data accessed in cyber breach",
+      "link": "https://www.bbc.co.uk/news/articles/cqj3kjr7ez3vo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Nov 2026",
+      "excerpt": "The fashion retailer says there is no evidence customers' personal data was compromised.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/295f/live/f2adb050-e738-11f1-8294-033bd8ee7e95.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,29 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Employers are being asked to give interview feedback - here's what applicants want",
-      "link": "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss",
-      "date": "22 Nov 2026",
-      "excerpt": "People say they often hear nothing back after applying for jobs. But could employers be forced to respond to every applicant?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fb80/live/784ad260-e4e1-11f1-99b6-a35a62fa4264.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Can AI really help spot Black Friday deals? We put it to the test",
-      "link": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
-      "date": "21 Nov 2026",
-      "excerpt": "We put four AI models to the test to see if they could save us money on a new TV.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dcbf/live/85d51550-e435-11f1-8346-933d3547e297.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
       "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
       "link": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
       "date": "23 Nov 2026",
       "excerpt": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d7f/live/712502a0-e2cd-11f1-99ed-7de3e5932968.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06d6/live/b3d40440-e712-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Poundland is facing collapse - what's gone wrong?",
+      "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
+      "date": "23 Nov 2026",
+      "excerpt": "Poundland has a matter of days to find a buyer or face collapsing into administration. Why?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/419f/live/4c718920-e713-11f1-99a1-253766e7ad8b.jpg"
     }
   ]
 }
