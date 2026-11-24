@@ -1,6 +1,24 @@
 {
-  "updated": "24 Nov 2026, 02:44 UTC",
+  "updated": "24 Nov 2026, 14:32 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists discover a new type of depression that common antidepressants struggle to treat",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261123005352.htm",
+      "date": "24 Nov 2026",
+      "excerpt": "Researchers have discovered a new subtype of depression that may affect nearly one in four people with severe, recurrent, or persistent depression. Known as \"circadian depression,\" it is linked to the body's internal clock and is associated",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Cannabis users develop psychosis years earlier, and the gap grows with age",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261123005346.htm",
+      "date": "24 Nov 2026",
+      "excerpt": "A major analysis of 149 studies found that cannabis users develop psychosis an average of 2.5 years earlier than non-users, with the difference growing to more than six years among adults 30 and older. Researchers warn that cannabis-related",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/11/261122060336.htm",
       "date": "22 Nov 2026",
       "excerpt": "Scientists have discovered brain cells that actively generate the irresistible urge to sleep, and shutting them down allowed mice to sleep 70% less than normal. Remarkably, many of the animals avoided the severe behavioral consequences of s",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Depression may be an early warning sign of Alzheimer's disease",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261121221134.htm",
+      "date": "23 Nov 2026",
+      "excerpt": "Depression in older adults may be more than a mental health concern. Scientists discovered that accumulating tau protein, a hallmark of Alzheimer's disease, was linked to worsening depressive symptoms in people who still had normal memory a",
       "image": ""
     },
     {
@@ -47,30 +74,30 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "For better mental health, how often you exercise may matter more than how hard",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261119194601.htm",
-      "date": "20 Nov 2026",
-      "excerpt": "A study of more than 10,000 college students found that exercising regularly may be more important for mental health than pushing yourself through intense or lengthy workouts. Students who exercised less frequently were more likely to exper",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Software Updates Keep Crashing Systems. Here’s How to Stay Secure and Online.",
+      "link": "/2026/11/software-updates-keep-crashing-systems-heres-how-to-stay-secure-and-online",
+      "date": "24 Nov 2026",
+      "excerpt": "AI is accelerating the discovery of security flaws, making it more urgent—and more difficult—to patch systems safely. These five steps can help.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "This simple habit is linked to a 33% lower risk of Alzheimer's",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261118065536.htm",
-      "date": "20 Nov 2026",
-      "excerpt": "Reading for pleasure may have surprisingly powerful benefits for the brain, with studies linking it to better memory, reduced stress, improved mental health, and a lower risk of dementia. Researchers highlight findings that just five minute",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Recruiting and Retaining Cybersecurity Talent at Walmart",
+      "link": "/podcast/2026/11/recruiting-and-retaining-cybersecurity-talent-at-walmart",
+      "date": "24 Nov 2026",
+      "excerpt": "What the retail giant’s CISO learned about developing talent, even when that means watching them leave.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Is free will an illusion? New brain research reveals a surprising twist",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261118065524.htm",
-      "date": "18 Nov 2026",
-      "excerpt": "New research reveals that the brain makes free choices and forced decisions using surprisingly similar neural processes, with activity building toward a decision before we act. The discovery challenges assumptions about free will while sugg",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The Subtle Marketing Tactics That Shape What We Buy",
+      "link": "/podcast/2026/11/the-subtle-marketing-tactics-that-shape-what-we-buy",
+      "date": "24 Nov 2026",
+      "excerpt": "A conversation with Durham University’s Aarron Atkinson-Toal about the psychology at work every time we shop.",
       "image": ""
     },
     {
@@ -112,15 +139,6 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
-      "title": "A Better Way to Foster Rigorous Debate in the Boardroom",
-      "link": "/2026/11/a-better-way-to-foster-rigorous-debate-in-the-boardroom",
-      "date": "20 Nov 2026",
-      "excerpt": "Use “the Cartesian voice” to encourage disciplined inquiry, skepticism, and discussion.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
       "title": "How the Best Leaders Develop an Enterprise Mindset",
       "link": "/2026/11/how-the-best-leaders-develop-an-enterprise-mindset",
       "date": "23 Nov 2026",
@@ -128,58 +146,94 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Case for “Small AI”",
-      "link": "/2026/11/the-case-for-small-ai",
-      "date": "20 Nov 2026",
-      "excerpt": "Stop overspending on technology your organization doesn’t need.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The AI transition must be designed to provide decent jobs",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/24/the-ai-transition-must-be-designed-to-provide-decent-jobs/",
+      "date": "24 Nov 2026",
+      "excerpt": "The labour-market effects of AI are not simply something that happens to us. They are shaped by choices about institutions, rights, investment, skills and worker voice. Caroline Fredrickson of the International Labor Organization argues tha",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Half of Europe backs climate policy – only Germany acts on it",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/cop31-half-of-europe-backs-climate-policy-only-germany-acts-on-it/",
+      "date": "19 Nov 2026",
+      "excerpt": "European sustainability communication is still largely addressed to a single, average citizen. But that average citizen does not exist. New evidence suggests the gap between what Europeans say about climate and what they do is not primarily",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure1-1024x591.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The policy tests facing governments in the age of AI",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/the-policy-tests-facing-governments-in-the-age-of-ai/",
+      "date": "19 Nov 2026",
+      "excerpt": "Artificial intelligence is global. But its potential impacts vary enormously between economies. How can all governments make the most of technological change, regardless of their stage of development? Era Dabla Norris of the International M",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Slide-two-2-1024x538.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Rethinking credit ratings for the long term",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/18/rethinking-credit-ratings-for-the-long-term/",
+      "date": "18 Nov 2026",
+      "excerpt": "Credit ratings are among the most influential yet underappreciated gatekeepers of global development. Dennis Shen and Moritz Kraemer argue that adopting very long-term perspectives on creditworthiness, a deeper consideration of climate risk",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Does it matter that companies are removing ESG targets from executive pay?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/does-it-matter-that-companies-are-removing-esg-targets-from-executive-pay/",
+      "date": "17 Nov 2026",
+      "excerpt": "Companies reconsidering ESG targets in executive remuneration is widely interpreted as another sign of the corporate retreat from ESG. But Sepideh Parsa, Ann-Ngoc Nguyen and Minh Nhat Linh Nguyen find that on average, adopting ESG-linked co",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Biodiversity loss changes how tourism firms manage their finances",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/cop31-biodiversity-loss-changes-how-tourism-firms-manage-their-finances/",
+      "date": "17 Nov 2026",
+      "excerpt": "Much of the world’s tourism relies on nature that climate change is damaging. Ecosystems themselves defend against risk. But this connection also has a financial dimension. Giray Gozgor, Jing Li, Mahdi Mousavi and Ayotola Owolabi’s analysis",
       "image": ""
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
+      "title": "The shake-up facing renters as a new kind of landlord emerges",
+      "link": "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Nov 2026",
+      "excerpt": "Companies building flats that they then rent out could usher in big changes for renters.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8db7/live/089748f0-e7e7-11f1-99b6-a35a62fa4264.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
+      "link": "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss",
+      "date": "24 Nov 2026",
+      "excerpt": "The breeder's rating was downgraded but he continued to advertise as five-star, investigation finds.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbbd/live/db7cd3b0-e7d4-11f1-939f-471cde339c0e.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "World Cup drove profits surge, says Marston's",
+      "link": "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss",
+      "date": "24 Nov 2026",
+      "excerpt": "The company says an \"excellent World Cup\" helped drive strong trading as annual profits rose by 18%.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87ca/live/b659c4e0-e7fb-11f1-ab60-79086b6495b8.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
       "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
       "date": "24 Nov 2026",
       "excerpt": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c94d/live/cfb736f0-e78a-11f1-a5c2-c57ab9df3111.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
-      "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Nov 2026",
-      "excerpt": "Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc0b/live/456f5c10-e772-11f1-99a1-253766e7ad8b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
-      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
-      "date": "23 Nov 2026",
-      "excerpt": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e297/live/7eb9d0a0-e776-11f1-a8a9-d7c9e8a923b4.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "How important are Nvidia and Jensen Huang to the US economy?",
-      "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Nov 2026",
-      "excerpt": "The Nvidia chief executive has been at the centre of the artificial intelligence boom.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8241/live/e3e3a9c0-e2a7-11f1-8226-87dfa5049e9a.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "The rise and fall and rise again of Jensen Huang",
-      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Nov 2026",
-      "excerpt": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38db/live/e8339120-deb0-11f1-93e1-3b657b665bcf.jpg"
     },
     {
       "source": "BBC Business",
@@ -189,6 +243,15 @@
       "date": "24 Nov 2026",
       "excerpt": "Busy mothers on both sides of the Atlantic are paying companies to handle their to-do lists.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a207/live/9dc35180-e378-11f1-b879-03485a55c082.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
+      "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
+      "date": "23 Nov 2026",
+      "excerpt": "Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d27/live/d9940160-e7d2-11f1-939f-471cde339c0e.jpg"
     }
   ]
 }
