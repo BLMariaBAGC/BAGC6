@@ -1,5 +1,5 @@
 {
-  "updated": "23 Nov 2026, 14:00 UTC",
+  "updated": "24 Nov 2026, 02:44 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -76,6 +76,24 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
+      "title": "Who Can Say No to the Founder? A Strong Second-in-Command.",
+      "link": "/2026/11/who-can-say-no-to-the-founder-a-strong-second-in-command",
+      "date": "23 Nov 2026",
+      "excerpt": "New research shows how boards can guard against the kind of turmoil that has engulfed Nvidia.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What the Volatility of the AI Trade Means for Your Company",
+      "link": "/2026/11/what-the-volatility-of-the-ai-trade-means-for-your-company",
+      "date": "23 Nov 2026",
+      "excerpt": "A Q&#38;A with researcher and former IBM executive Paulo Carvão on how to make sense of the AI-driven swings in the stock market.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
       "title": "When CEO Comebacks Succeed—and When They Fail",
       "link": "/2026/11/when-ceo-comebacks-succeed-and-when-they-fail",
       "date": "23 Nov 2026",
@@ -119,130 +137,58 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How 3 Brands Bought in on the “Grand Theft Auto VI” Hype",
-      "link": "/2026/11/how-3-brands-bought-in-on-the-grand-theft-auto-vi-hype",
-      "date": "19 Nov 2026",
-      "excerpt": "Strategies for hitching your organization to the zeitgeist.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Our Favorite Management Tips on Managing Change Fatigue",
-      "link": "/2026/11/our-favorite-management-tips-on-managing-change-fatigue",
-      "date": "19 Nov 2026",
-      "excerpt": "A curated list from one of HBR&#8217;s most popular newsletters.",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Half of Europe backs climate policy – only Germany acts on it",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/cop31-half-of-europe-backs-climate-policy-only-germany-acts-on-it/",
-      "date": "19 Nov 2026",
-      "excerpt": "European sustainability communication is still largely addressed to a single, average citizen. But that average citizen does not exist. New evidence suggests the gap between what Europeans say about climate and what they do is not primarily",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure1-1024x591.png"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "The policy tests facing governments in the age of AI",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/the-policy-tests-facing-governments-in-the-age-of-ai/",
-      "date": "19 Nov 2026",
-      "excerpt": "Artificial intelligence is global. But its potential impacts vary enormously between economies. How can all governments make the most of technological change, regardless of their stage of development? Era Dabla Norris of the International M",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Slide-two-2-1024x538.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Rethinking credit ratings for the long term",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/18/rethinking-credit-ratings-for-the-long-term/",
-      "date": "18 Nov 2026",
-      "excerpt": "Credit ratings are among the most influential yet underappreciated gatekeepers of global development. Dennis Shen and Moritz Kraemer argue that adopting very long-term perspectives on creditworthiness, a deeper consideration of climate risk",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Does it matter that companies are removing ESG targets from executive pay?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/does-it-matter-that-companies-are-removing-esg-targets-from-executive-pay/",
-      "date": "17 Nov 2026",
-      "excerpt": "Companies reconsidering ESG targets in executive remuneration is widely interpreted as another sign of the corporate retreat from ESG. But Sepideh Parsa, Ann-Ngoc Nguyen and Minh Nhat Linh Nguyen find that on average, adopting ESG-linked co",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Biodiversity loss changes how tourism firms manage their finances",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/cop31-biodiversity-loss-changes-how-tourism-firms-manage-their-finances/",
-      "date": "17 Nov 2026",
-      "excerpt": "Much of the world’s tourism relies on nature that climate change is damaging. Ecosystems themselves defend against risk. But this connection also has a financial dimension. Giray Gozgor, Jing Li, Mahdi Mousavi and Ayotola Owolabi’s analysis",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "New business models could help deploy clean energy technologies at scale",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/16/cop31-new-business-models-could-help-deploy-clean-energy-technologies-at-scale/",
-      "date": "16 Nov 2026",
-      "excerpt": "During COP31 Shefali Khanna looks at “energy-as-a-service”, a business model in which customers pay for an energy service without making upfront capital investment. Using examples from Britain, America and India she argues that subsidies ti",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
+      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Nov 2026",
+      "excerpt": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c94d/live/cfb736f0-e78a-11f1-a5c2-c57ab9df3111.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Capita shares plunge 70% as boss quits after civil service pensions failure",
-      "link": "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss",
+      "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
+      "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
       "date": "23 Nov 2026",
-      "excerpt": "Public sector workers have been hit by delays to pension payments, in a scheme overseen by Capita since last year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d59/live/4828e850-e726-11f1-914b-6d226d813a52.jpg"
+      "excerpt": "Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc0b/live/456f5c10-e772-11f1-99a1-253766e7ad8b.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Catering giant to switch main share listing to US in further blow to UK",
-      "link": "https://www.bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss",
+      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
       "date": "23 Nov 2026",
-      "excerpt": "A growing number of firms have been leaving the UK to list shares in the US in recent years.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d35/live/6c293750-e726-11f1-914b-6d226d813a52.jpg"
+      "excerpt": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e297/live/7eb9d0a0-e776-11f1-a8a9-d7c9e8a923b4.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Next data accessed in cyber breach",
-      "link": "https://www.bbc.co.uk/news/articles/cqj3kjr7ez3vo?at_medium=RSS&at_campaign=rss",
+      "title": "How important are Nvidia and Jensen Huang to the US economy?",
+      "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
       "date": "23 Nov 2026",
-      "excerpt": "The fashion retailer says there is no evidence customers' personal data was compromised.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/295f/live/f2adb050-e738-11f1-8294-033bd8ee7e95.jpg"
+      "excerpt": "The Nvidia chief executive has been at the centre of the artificial intelligence boom.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8241/live/e3e3a9c0-e2a7-11f1-8226-87dfa5049e9a.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Energy bills will soar - here's how you can ease the pain",
-      "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+      "title": "The rise and fall and rise again of Jensen Huang",
+      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
       "date": "23 Nov 2026",
-      "excerpt": "Household energy bills are about to increase but there are ways to keep a lid on your expenditure.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53c7/live/9b2f4a60-bd7f-11f1-bc2e-018d645d8d21.jpg"
+      "excerpt": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38db/live/e8339120-deb0-11f1-93e1-3b657b665bcf.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-      "link": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Nov 2026",
-      "excerpt": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06d6/live/b3d40440-e712-11f1-a094-5fdc692f3e33.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Poundland is facing collapse - what's gone wrong?",
-      "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
-      "date": "23 Nov 2026",
-      "excerpt": "Poundland has a matter of days to find a buyer or face collapsing into administration. Why?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/419f/live/4c718920-e713-11f1-99a1-253766e7ad8b.jpg"
+      "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
+      "link": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss",
+      "date": "24 Nov 2026",
+      "excerpt": "Busy mothers on both sides of the Atlantic are paying companies to handle their to-do lists.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a207/live/9dc35180-e378-11f1-b879-03485a55c082.jpg"
     }
   ]
 }
