@@ -1,5 +1,5 @@
 {
-  "updated": "24 Nov 2026, 14:32 UTC",
+  "updated": "25 Nov 2026, 00:19 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -17,6 +17,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/11/261123005346.htm",
       "date": "24 Nov 2026",
       "excerpt": "A major analysis of 149 studies found that cannabis users develop psychosis an average of 2.5 years earlier than non-users, with the difference growing to more than six years among adults 30 and older. Researchers warn that cannabis-related",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
+      "date": "24 Nov 2026",
+      "excerpt": "A revolutionary new nasal treatment has restored youthful learning and memory performance in aging mice while preventing severe cognitive decline in mice with Alzheimer’s-like disease. Developed using technology similar to COVID-19 mRNA vac",
       "image": ""
     },
     {
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Alzheimer’s breakthrough exposes a hidden flaw in the brain’s cleanup system",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261120075600.htm",
-      "date": "21 Nov 2026",
-      "excerpt": "Scientists have identified a gene that helps the brain’s immune cells contain harmful plaques linked to Alzheimer’s, potentially revealing a new way to fight the disease. When the gene malfunctioned in mice, toxic buildup accelerated and co",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Do Your Employees Want Time or Money?",
+      "link": "/2026/11/do-your-employees-want-time-or-money",
+      "date": "24 Nov 2026",
+      "excerpt": "Research on the &#8220;motivational mismatches&#8221; that plague workplace wellness programs, plus other new articles featured in The Insider newsletter.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "What Will You Stop Doing Under Your New Strategy?",
+      "link": "/2026/11/what-will-you-stop-doing-under-your-new-strategy",
+      "date": "24 Nov 2026",
+      "excerpt": "Leaders must make deliberate trade-offs to turn strategic priorities into results.",
       "image": ""
     },
     {
@@ -121,28 +139,10 @@
     {
       "source": "Harvard Business Review",
       "feedId": "hbr",
-      "title": "When CEO Comebacks Succeed—and When They Fail",
-      "link": "/2026/11/when-ceo-comebacks-succeed-and-when-they-fail",
-      "date": "23 Nov 2026",
-      "excerpt": "In his weekly column, the former dean of Harvard Business School looks at the research on leaders’ second acts.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "We’re Seeing the Costs of Moving Fast",
-      "link": "/2026/11/were-seeing-the-costs-of-moving-fast",
-      "date": "20 Nov 2026",
-      "excerpt": "Recent technology breakdowns suggest organizations aren’t spending adequate time and resources stress testing their operations.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "How the Best Leaders Develop an Enterprise Mindset",
-      "link": "/2026/11/how-the-best-leaders-develop-an-enterprise-mindset",
-      "date": "23 Nov 2026",
-      "excerpt": "Shift your perspective in six ways.",
+      "title": "When a CEO Becomes Bigger Than the Company",
+      "link": "/2026/11/when-a-ceo-becomes-bigger-than-the-company",
+      "date": "24 Nov 2026",
+      "excerpt": "An HBR Executive Live with HBS professor Lynn S. Paine",
       "image": ""
     },
     {
@@ -202,29 +202,47 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "The shake-up facing renters as a new kind of landlord emerges",
-      "link": "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss",
+      "title": "Faisal Islam: Fears over the AI boom haven't gone away",
+      "link": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
       "date": "24 Nov 2026",
-      "excerpt": "Companies building flats that they then rent out could usher in big changes for renters.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8db7/live/089748f0-e7e7-11f1-99b6-a35a62fa4264.jpg"
+      "excerpt": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ec8/live/8b0c59c0-e831-11f1-917e-35f1674fb52c.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
-      "link": "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss",
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
       "date": "24 Nov 2026",
-      "excerpt": "The breeder's rating was downgraded but he continued to advertise as five-star, investigation finds.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbbd/live/db7cd3b0-e7d4-11f1-939f-471cde339c0e.jpg"
+      "excerpt": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/067a/live/dc6baca0-e839-11f1-a094-5fdc692f3e33.png"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "World Cup drove profits surge, says Marston's",
-      "link": "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss",
+      "title": "Households braced for soaring energy bills with new price cap to be announced",
+      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Nov 2026",
+      "excerpt": "Domestic gas prices will rise significantly in January under regulator Ofgem's new price cap.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ca0/live/03fac650-e7fb-11f1-ab60-79086b6495b8.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+      "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
       "date": "24 Nov 2026",
-      "excerpt": "The company says an \"excellent World Cup\" helped drive strong trading as annual profits rose by 18%.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87ca/live/b659c4e0-e7fb-11f1-ab60-79086b6495b8.jpg"
+      "excerpt": "The verdict follows a months-long trial in New York.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Will I get the £100 energy payment and when will I receive it?",
+      "link": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
+      "date": "24 Nov 2026",
+      "excerpt": "Here is what you need to know about the payment that millions will receive from January.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c06e/live/66b0c920-d2ed-11f1-8d86-83eebc838351.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,24 +252,6 @@
       "date": "24 Nov 2026",
       "excerpt": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c94d/live/cfb736f0-e78a-11f1-a5c2-c57ab9df3111.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
-      "link": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss",
-      "date": "24 Nov 2026",
-      "excerpt": "Busy mothers on both sides of the Atlantic are paying companies to handle their to-do lists.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a207/live/9dc35180-e378-11f1-b879-03485a55c082.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
-      "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
-      "date": "23 Nov 2026",
-      "excerpt": "Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d27/live/d9940160-e7d2-11f1-939f-471cde339c0e.jpg"
     }
   ]
 }
