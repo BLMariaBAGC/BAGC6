@@ -1,5 +1,5 @@
 {
-  "updated": "25 Nov 2026, 00:19 UTC",
+  "updated": "25 Nov 2026, 10:51 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,56 +202,56 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Faisal Islam: Fears over the AI boom haven't gone away",
-      "link": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Nov 2026",
-      "excerpt": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ec8/live/8b0c59c0-e831-11f1-917e-35f1674fb52c.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US attorney general dodges questions about Nvidia investigation",
-      "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Nov 2026",
-      "excerpt": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/067a/live/dc6baca0-e839-11f1-a094-5fdc692f3e33.png"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Households braced for soaring energy bills with new price cap to be announced",
+      "title": "Energy bills to rise by 26% from January after gas prices surge",
       "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
       "date": "25 Nov 2026",
-      "excerpt": "Domestic gas prices will rise significantly in January under regulator Ofgem's new price cap.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ca0/live/03fac650-e7fb-11f1-ab60-79086b6495b8.jpg"
+      "excerpt": "A household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb60/live/6bdfdbb0-e8ba-11f1-99b6-a35a62fa4264.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-      "date": "24 Nov 2026",
-      "excerpt": "The verdict follows a months-long trial in New York.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg"
+      "title": "Energy bills will soar - here's how you can ease the pain",
+      "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Nov 2026",
+      "excerpt": "Household energy bills are about to increase but there are ways to keep a lid on your expenditure.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53c7/live/9b2f4a60-bd7f-11f1-bc2e-018d645d8d21.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Will I get the £100 energy payment and when will I receive it?",
-      "link": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Nov 2026",
-      "excerpt": "Here is what you need to know about the payment that millions will receive from January.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c06e/live/66b0c920-d2ed-11f1-8d86-83eebc838351.jpg"
+      "title": "What will the energy cap changes mean for my bills?",
+      "link": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Nov 2026",
+      "excerpt": "Regulator Ofgem is raising the cap affecting the energy bills of millions of households.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4155/live/6d965910-59d2-11f1-8b8c-6d33e1d5abb6.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-      "date": "24 Nov 2026",
-      "excerpt": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c94d/live/cfb736f0-e78a-11f1-a5c2-c57ab9df3111.jpg"
+      "title": "US preparing to unveil plan for new tariffs on global trading partners",
+      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Nov 2026",
+      "excerpt": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Trump's rescue of Nvidia's Huang brings political risks",
+      "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Nov 2026",
+      "excerpt": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9b4/live/d081e3d0-e8a4-11f1-99b6-a35a62fa4264.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Why tiny cars are taking off across Europe",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Nov 2026",
+      "excerpt": "Once seen as a car for elderly, rural people, tiny cars are being embraced by a younger demographic.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2edb/live/5d054030-ddcf-11f1-b441-2b33b063138f.jpg"
     }
   ]
 }
