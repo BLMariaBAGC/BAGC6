@@ -1,6 +1,24 @@
 {
-  "updated": "25 Nov 2026, 10:51 UTC",
+  "updated": "25 Nov 2026, 21:02 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Stanford scientists discover 3 hidden brain types behind ADHD and anxiety",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261124055713.htm",
+      "date": "24 Nov 2026",
+      "excerpt": "An AI-powered analysis of thousands of children's brain scans has revealed three distinct brain types underlying ADHD and anxiety that do not neatly fit traditional diagnoses. These hidden biological patterns can appear before a diagnosis i",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "What is a thought made of? Why human consciousness may be beyond AI’s reach",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261124055712.htm",
+      "date": "25 Nov 2026",
+      "excerpt": "A new theory suggests that the brain may chemically encode and retrieve memories rather than relying solely on electrical signals. Researchers propose that interactions between brain cells and their molecular surroundings could help explain",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -56,21 +74,39 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Type 2 diabetes linked to 53% higher Alzheimer’s risk, major review finds",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261121221124.htm",
-      "date": "22 Nov 2026",
-      "excerpt": "People with type 2 diabetes face a 53% higher risk of developing Alzheimer’s disease, according to a major new review of 40 studies. Researchers estimate that nearly five out of every 1,000 people with type 2 diabetes develop Alzheimer’s ea",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "When Your Employees Resist AI",
+      "link": "/2026/11/11-24-agenda",
+      "date": "25 Nov 2026",
+      "excerpt": "Four strategies to speed up AI adoption among reticent employees.",
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "AI may not work like the human brain after all, scientists discover",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261120075701.htm",
-      "date": "21 Nov 2026",
-      "excerpt": "AI may not think like the human brain after all, according to a striking new discovery that challenges how scientists understand artificial intelligence. Researchers found that even AI models that closely predict brain activity may rely on ",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Leading Others Without Losing Yourself",
+      "link": "/2026/11/leading-others-without-losing-yourself",
+      "date": "25 Nov 2026",
+      "excerpt": "An HBR Executive Live with professor and author Arthur C. Brooks",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Research: When Leaders Practice Gratitude, It Spreads Through Their Organization",
+      "link": "/2026/11/research-when-leaders-practice-gratitude-it-spreads-through-their-organization",
+      "date": "25 Nov 2026",
+      "excerpt": "A new study finds that when leaders express gratitude, it helps employees notice the good in their own lives.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Innovation Summit 2026: FedEx’s Raj Subramaniam on Innovating at the Speed of Global Commerce",
+      "link": "/podcast/2026/11/innovation-summit-2026-fedexs-raj-subramaniam-on-innovating-at-the-speed-of-global-commerce",
+      "date": "25 Nov 2026",
+      "excerpt": "A conversation with the shipping leader about staying customer-centric in a time of geopolitical and technological transformation.",
       "image": ""
     },
     {
@@ -107,42 +143,6 @@
       "link": "/podcast/2026/11/recruiting-and-retaining-cybersecurity-talent-at-walmart",
       "date": "24 Nov 2026",
       "excerpt": "What the retail giant’s CISO learned about developing talent, even when that means watching them leave.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "The Subtle Marketing Tactics That Shape What We Buy",
-      "link": "/podcast/2026/11/the-subtle-marketing-tactics-that-shape-what-we-buy",
-      "date": "24 Nov 2026",
-      "excerpt": "A conversation with Durham University’s Aarron Atkinson-Toal about the psychology at work every time we shop.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Who Can Say No to the Founder? A Strong Second-in-Command.",
-      "link": "/2026/11/who-can-say-no-to-the-founder-a-strong-second-in-command",
-      "date": "23 Nov 2026",
-      "excerpt": "New research shows how boards can guard against the kind of turmoil that has engulfed Nvidia.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "What the Volatility of the AI Trade Means for Your Company",
-      "link": "/2026/11/what-the-volatility-of-the-ai-trade-means-for-your-company",
-      "date": "23 Nov 2026",
-      "excerpt": "A Q&#38;A with researcher and former IBM executive Paulo Carvão on how to make sense of the AI-driven swings in the stock market.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "When a CEO Becomes Bigger Than the Company",
-      "link": "/2026/11/when-a-ceo-becomes-bigger-than-the-company",
-      "date": "24 Nov 2026",
-      "excerpt": "An HBR Executive Live with HBS professor Lynn S. Paine",
       "image": ""
     },
     {
@@ -202,47 +202,47 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Poundland collapses putting 11,000 jobs at risk",
+      "link": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Nov 2026",
+      "excerpt": "The discount chain has fallen into administration after its owners failed to find a buyer.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5177/live/c7a2f690-e8fa-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "What's gone wrong at Poundland?",
+      "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Nov 2026",
+      "excerpt": "Poundland has collapse into administration. Why?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbc6/live/78341a50-e8f8-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US announces new tariffs on host of countries including China",
+      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "date": "25 Nov 2026",
+      "excerpt": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91fc/live/6d9c5c50-e908-11f1-99b6-a35a62fa4264.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US stocks fall further as fears over AI intensify",
+      "link": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+      "date": "25 Nov 2026",
+      "excerpt": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Energy bills to rise by 26% from January after gas prices surge",
       "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
       "date": "25 Nov 2026",
       "excerpt": "A household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb60/live/6bdfdbb0-e8ba-11f1-99b6-a35a62fa4264.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Energy bills will soar - here's how you can ease the pain",
-      "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Nov 2026",
-      "excerpt": "Household energy bills are about to increase but there are ways to keep a lid on your expenditure.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53c7/live/9b2f4a60-bd7f-11f1-bc2e-018d645d8d21.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What will the energy cap changes mean for my bills?",
-      "link": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Nov 2026",
-      "excerpt": "Regulator Ofgem is raising the cap affecting the energy bills of millions of households.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4155/live/6d965910-59d2-11f1-8b8c-6d33e1d5abb6.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US preparing to unveil plan for new tariffs on global trading partners",
-      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Nov 2026",
-      "excerpt": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Trump's rescue of Nvidia's Huang brings political risks",
-      "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Nov 2026",
-      "excerpt": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9b4/live/d081e3d0-e8a4-11f1-99b6-a35a62fa4264.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/654f/live/9096f7c0-e8df-11f1-a3b9-79c60ec9ab33.jpg"
     },
     {
       "source": "BBC Business",
