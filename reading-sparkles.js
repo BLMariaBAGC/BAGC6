@@ -30,19 +30,57 @@
     var t=a.firstElementChild||a;t.classList.add('rc-pulse');
     setTimeout(function(){t.classList.remove('rc-pulse')},7000);
   }
-  /* On joining, Rippily scrolls to the visitor's avatar. Bring them back to the top once,
-     so the welcome board is the first thing they see. Stops if they scroll themselves. */
-  var userMoved=false,t0=Date.now(),last=-1,still=0,done=false;
-  ['wheel','touchmove','keydown'].forEach(function(ev){addEventListener(ev,function(){userMoved=true},{passive:true,capture:true})});
-  var topTimer=setInterval(function(){
-    if(done||userMoved||Date.now()-t0>90000){clearInterval(topTimer);return}
-    var sa=document.querySelector('.scroll-area');
-    if(!sa)return;
-    var y=sa.scrollTop;
-    if(y>0&&y===last){still+=300}else{still=0}
+  /* Welcome pop-up: shows once per visit in the middle of the screen, wherever Rippily has
+     scrolled the visitor to. Two buttons: go to the top of the library, or go to the green
+     "Explore the Reading Cabin" board. The X does the same as "Explore the cabin". */
+  var W=window.__rcWelcome||{};
+  var hideOld=W.hide||[];
+  if(hideOld.length){var h=document.createElement('style');h.textContent=hideOld.map(function(id){return '[data-element-id="'+id+'"]'}).join(',')+'{display:none!important}';document.head.appendChild(h)}
+  var wcss=document.createElement('style');
+  wcss.textContent=
+    '.rc-wel{position:fixed;inset:0;z-index:2147482000;display:flex;align-items:center;justify-content:center;background:rgba(6,20,26,.55);opacity:0;transition:opacity .5s ease;padding:16px;box-sizing:border-box}'+
+    '.rc-wel.on{opacity:1}'+
+    '.rc-wel-box{position:relative;width:min(92vw,760px);text-align:center}'+
+    '.rc-wel-box img.rc-parch{width:100%;height:auto;display:block;filter:drop-shadow(0 10px 28px rgba(0,0,0,.45))}'+
+    '.rc-wel-x{position:absolute;top:4%;right:3%;width:clamp(34px,5vw,48px);height:clamp(34px,5vw,48px);border:0;padding:0;background:none;cursor:pointer}'+
+    '.rc-wel-x img{width:100%;height:100%;border-radius:50%;display:block}'+
+    '.rc-wel-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:clamp(8px,2vw,18px)}'+
+    '.rc-wel-btns button{font:600 clamp(14px,1.6vw,18px)/1.2 Georgia,serif;letter-spacing:.04em;padding:12px 22px;border-radius:999px;cursor:pointer;border:2px solid #d9b45a;box-shadow:0 4px 14px rgba(0,0,0,.35)}'+
+    '.rc-b1{background:#f6e7c4;color:#1f4a3f}'+
+    '.rc-b2{background:#1f4a3f;color:#f6e7c4}';
+  document.head.appendChild(wcss);
+  var shown=false;
+  function sa(){return document.querySelector('.scroll-area')}
+  function glideTo(y){var s=sa();if(!s)return;try{s.scrollTo({top:y,behavior:'smooth'})}catch(e){s.scrollTop=y}}
+  function toBoard(){
+    var s=sa(),b=W.board&&document.querySelector('[data-element-id="'+W.board+'"]');
+    if(!s||!b){glideTo(0);return}
+    var y=b.getBoundingClientRect().top-s.getBoundingClientRect().top+s.scrollTop-20;
+    glideTo(Math.max(0,y));
+  }
+  function showWelcome(){
+    if(shown)return;shown=true;
+    var o=document.createElement('div');o.className='rc-wel';o.setAttribute('role','dialog');o.setAttribute('aria-label','Welcome to the Reading Cabin');
+    o.innerHTML='<div class="rc-wel-box"><img class="rc-parch" alt="Every object holds a story. Hover or click to discover what it reveals." src="'+W.img+'">'+
+      '<button class="rc-wel-x" type="button" aria-label="Close"><img alt="" src="'+W.x+'"></button>'+
+      '<div class="rc-wel-btns"><button type="button" class="rc-b1">Explore the cabin</button><button type="button" class="rc-b2">See everything in one place</button></div></div>';
+    function close(then){o.classList.remove('on');setTimeout(function(){o.remove()},450);then()}
+    o.querySelector('.rc-wel-x').onclick=function(){close(function(){glideTo(0)})};
+    o.querySelector('.rc-b1').onclick=function(){close(function(){glideTo(0)})};
+    o.querySelector('.rc-b2').onclick=function(){close(toBoard)};
+    document.body.appendChild(o);requestAnimationFrame(function(){o.classList.add('on')});
+  }
+  /* Wait until the visitor is inside the Reading Cabin and Rippily has finished its own scroll. */
+  var last=-1,still=0,t0=Date.now();
+  var wTimer=setInterval(function(){
+    if(shown||Date.now()-t0>120000){clearInterval(wTimer);return}
+    var s=sa(),mark=W.board&&document.querySelector('[data-element-id="'+W.board+'"]');
+    if(!s||!mark||!mark.getBoundingClientRect().width)return;
+    if(/Join the Ripple/.test(document.body.innerText.slice(0,4000)))return;
+    var y=s.scrollTop;
+    if(y===last){still+=300}else{still=0}
     last=y;
-    /* Rippily's own scroll to the avatar has finished: go back to the top, once. */
-    if(y>0&&still>=900){done=true;try{sa.scrollTo({top:0,behavior:'smooth'})}catch(e){sa.scrollTop=0}}
+    if(still>=1200)showWelcome();
   },300);
   apply();pulse();setInterval(function(){apply();pulse()},1000);
 })();
