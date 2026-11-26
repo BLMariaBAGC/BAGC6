@@ -1,5 +1,5 @@
 {
-  "updated": "26 Nov 2026, 13:35 UTC",
+  "updated": "26 Nov 2026, 13:52 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -202,6 +202,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "Simon Jack: Is Poundland's US owner to blame for its collapse?",
+      "link": "https://www.bbc.co.uk/news/articles/c62klzxvyzyqo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "Poundland's management and MPs blame the retailer's owners, Gordon Brothers, but the US firm says without them the chain would have collapsed last year.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db70/live/c33d5240-e999-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Norse Atlantic suspends all flights as it faces potential collapse",
       "link": "https://www.bbc.co.uk/news/articles/c9kgmd0ldy0lo?at_medium=RSS&at_campaign=rss",
       "date": "26 Nov 2026",
@@ -243,15 +252,6 @@
       "date": "26 Nov 2026",
       "excerpt": "The deal will allow \"work around the clock to get our submarines back out to sea\" , Wes Streeting says.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e29e/live/9a874000-e970-11f1-a094-5fdc692f3e33.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Guitar wars - the transatlantic battle over the Stratocaster",
-      "link": "https://www.bbc.co.uk/news/articles/cqd01l9x8k48o?at_medium=RSS&at_campaign=rss",
-      "date": "26 Nov 2026",
-      "excerpt": "US company Fender is in dispute with a German firm that makes generic versions of its key model.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67c1/live/7aa1e2b0-e80b-11f1-99a1-253766e7ad8b.jpg"
     }
   ]
 }
