@@ -82,7 +82,7 @@
     var k=P.offsetWidth/1920,w=(W.mapW||240)*k;
     m.style.width=w+'px';
     m.style.left=((P.offsetWidth-w)/2)+'px';
-    m.style.top=((W.mapTop||36)*k)+'px';
+    m.style.top=((W.mapTop||105)*k)+'px';
   }
   setInterval(placeMap,1000);
   function showWelcome(){
