@@ -1,5 +1,5 @@
 {
-  "updated": "26 Nov 2026, 14:24 UTC",
+  "updated": "26 Nov 2026, 14:26 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -220,6 +220,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "When will Poundland close? Five questions about its future",
+      "link": "https://www.bbc.co.uk/news/articles/c6z9d3pv93glo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "Why is Poundland closing down, and what will hapen to staff and suppliers?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e449/live/9d5e65f0-e99e-11f1-b880-15b494ba858d.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Norse Atlantic suspends all flights as it faces potential collapse",
       "link": "https://www.bbc.co.uk/news/articles/c9kgmd0ldy0lo?at_medium=RSS&at_campaign=rss",
       "date": "26 Nov 2026",
@@ -238,20 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "New UK-EU treaty has 10-year termination clause",
-      "link": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
+      "title": "Guitar wars - the transatlantic battle over the Stratocaster",
+      "link": "https://www.bbc.co.uk/news/articles/cqd01l9x8k48o?at_medium=RSS&at_campaign=rss",
       "date": "26 Nov 2026",
-      "excerpt": "Text of the treaties will be published this afternoon, alongside legislation designed to enact the bulk of the deal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/65b5/live/0c44e020-e972-11f1-99b6-a35a62fa4264.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Car finance compensation payments explained",
-      "link": "https://www.bbc.co.uk/news/articles/c2l9vvj097lo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Nov 2026",
-      "excerpt": "Millions could be entitled to compensation as a result of commission arrangements between lenders and dealers.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1582/live/8e71e720-a425-11f0-ba96-81d873a15aec.jpg"
+      "excerpt": "US company Fender is in dispute with a German firm that makes generic versions of its key model.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67c1/live/7aa1e2b0-e80b-11f1-99a1-253766e7ad8b.jpg"
     }
   ]
 }
