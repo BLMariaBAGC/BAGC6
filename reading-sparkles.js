@@ -8,7 +8,7 @@
   var css=document.createElement('style');
   css.textContent=
     '@keyframes rcTwinkle{0%,100%{opacity:.15;transform:scale(.55) rotate(0deg)}45%{opacity:1;transform:scale(1) rotate(20deg)}60%{opacity:.9;transform:scale(.9) rotate(25deg)}}'+
-    '.rc-spark{position:absolute;top:-6%;right:-6%;width:26px;height:26px;pointer-events:none;z-index:50;animation:rcTwinkle 2.8s ease-in-out infinite;filter:drop-shadow(0 0 4px rgba(255,236,170,.95))}'+
+    '.rc-spark{position:absolute;top:-6%;right:-6%;width:max(9px,calc(36px * var(--rck,.7)));height:max(9px,calc(36px * var(--rck,.7)));pointer-events:none;z-index:50;animation:rcTwinkle 2.8s ease-in-out infinite;filter:drop-shadow(0 0 4px rgba(255,236,170,.95))}'+
     '@keyframes rcPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.22)}}'+
     '.rc-pulse{animation:rcPulse 1.1s ease-in-out 6}';
   document.head.appendChild(css);
@@ -54,20 +54,22 @@
   document.head.appendChild(wcss);
   var shown=false;
   function sa(){return document.querySelector('.scroll-area')}
-  function glideTo(y){var s=sa();if(!s)return;try{s.scrollTo({top:y,behavior:'smooth'})}catch(e){s.scrollTop=y}}
+  function scroller(){var x=sa();if(x&&x.scrollHeight>x.clientHeight+5)return x;return null}
+  function glideTo(y){var s=scroller();if(s){try{s.scrollTo({top:y,behavior:'smooth'})}catch(e){s.scrollTop=y}return}
+    var c=W.board&&document.querySelector('[data-element-id="'+W.board+'"]');c=c&&c.offsetParent;if(c)try{c.scrollIntoView({behavior:'smooth',block:'start'})}catch(e){}}
   function toBoard(){
-    var s=sa(),b=W.board&&document.querySelector('[data-element-id="'+W.board+'"]');
-    if(!s||!b){glideTo(0);return}
-    var y=b.getBoundingClientRect().top-s.getBoundingClientRect().top+s.scrollTop-20;
-    glideTo(Math.max(0,y));
+    var s=scroller(),b=W.board&&document.querySelector('[data-element-id="'+W.board+'"]');
+    if(!b){glideTo(0);return}
+    if(s){var y=b.getBoundingClientRect().top-s.getBoundingClientRect().top+s.scrollTop-20;try{s.scrollTo({top:Math.max(0,y),behavior:'smooth'})}catch(e){s.scrollTop=y}return}
+    try{b.scrollIntoView({behavior:'smooth',block:'start'})}catch(e){b.scrollIntoView()}
   }
   /* Small "Map of the cabin" thumbnail beside the top parchment. Click = glide to the green board. */
   var tcss=document.createElement('style');
   tcss.textContent=
     '.rc-map{position:absolute;z-index:60;cursor:pointer;border:0;padding:0;background:none;text-align:center;transition:transform .25s ease}'+
     '.rc-map:hover{transform:translateY(-3px) scale(1.04)}'+
-    '.rc-map img{display:block;width:100%;height:auto;border-radius:8px;border:3px solid #d9b45a;box-shadow:0 6px 18px rgba(0,0,0,.45)}'+
-    '.rc-map span{display:inline-block;margin-top:6px;padding:4px 12px;border-radius:999px;background:#1f4a3f;color:#f6e7c4;border:2px solid #d9b45a;font:600 15px/1.2 Georgia,serif;letter-spacing:.03em;white-space:nowrap}';
+    '.rc-map img{display:block;width:100%;height:auto;border-radius:calc(10px * var(--rck,.7));border:max(1px,calc(4px * var(--rck,.7))) solid #d9b45a;box-shadow:0 6px 18px rgba(0,0,0,.45)}'+
+    '.rc-map span{display:inline-block;margin-top:calc(8px * var(--rck,.7));padding:calc(5px * var(--rck,.7)) calc(16px * var(--rck,.7));border-radius:999px;background:#1f4a3f;color:#f6e7c4;border:max(1px,calc(3px * var(--rck,.7))) solid #d9b45a;font:600 max(7px,calc(21px * var(--rck,.7)))/1.2 Georgia,serif;letter-spacing:.03em;white-space:nowrap}';
   document.head.appendChild(tcss);
   function placeMap(){
     if(!W.board)return;
@@ -78,13 +80,18 @@
       var src=(b.querySelector('img')||{}).src;if(!src)return;
       m=document.createElement('button');m.type='button';m.className='rc-map';m.setAttribute('aria-label','Map of the cabin: go to the Explore the Reading Cabin board');
       m.innerHTML='<img alt="" src="'+src+'"><span>Map of the cabin</span>';
-      m.addEventListener('click',function(e){e.stopPropagation();toBoard()});
+      var mx=0,my=0,mt=0,fired=0;
+      function go(e){if(Date.now()-fired<700)return;fired=Date.now();if(e){e.stopPropagation();if(e.cancelable)e.preventDefault()}toBoard()}
+      m.addEventListener('pointerdown',function(e){mx=e.clientX;my=e.clientY;mt=Date.now();e.stopPropagation()},true);
+      m.addEventListener('pointerup',function(e){if(Math.abs(e.clientX-mx)<14&&Math.abs(e.clientY-my)<14&&Date.now()-mt<900)go(e)},true);
+      m.addEventListener('touchend',function(e){go(e)},{passive:false});
+      m.addEventListener('click',go);
       P.appendChild(m);
     }
     /* Only in the Reading Cabin: hide when the board belongs to a scene that is not showing. */
     m.style.display=getComputedStyle(b).visibility==='hidden'?'none':'';
     /* Centred at the top of the room (canvas is 1920 wide). */
-    var k=P.offsetWidth/1920,w=(W.mapW||240)*k;
+    var k=P.offsetWidth/1920,w=(W.mapW||240)*k;document.documentElement.style.setProperty('--rck',k.toFixed(3));
     m.style.width=w+'px';
     m.style.left=((P.offsetWidth-w)/2)+'px';
     m.style.top=((W.mapTop||105)*k)+'px';
@@ -108,7 +115,7 @@
   var wTimer=setInterval(function(){
     if(shown||Date.now()-t0>120000){clearInterval(wTimer);return}
     var mark=W.board&&document.querySelector('[data-element-id="'+W.board+'"]');
-    if(!sa()||!mark||!mark.getBoundingClientRect().width||getComputedStyle(mark).visibility==='hidden')return;
+    if(!mark||!mark.getBoundingClientRect().width||getComputedStyle(mark).visibility==='hidden')return;
     if(/Join the Ripple/.test(document.body.innerText.slice(0,4000)))return;
     showWelcome();
   },120);
