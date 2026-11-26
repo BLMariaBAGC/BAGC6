@@ -1,5 +1,5 @@
 {
-  "updated": "26 Nov 2026, 14:35 UTC",
+  "updated": "26 Nov 2026, 14:46 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,10 +148,19 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "Financial crises often trigger financial regulation – but whose interests do they serve?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/26/financial-crises-often-trigger-financial-regulation-but-whose-interests-do-they-serve/",
+      "date": "26 Nov 2026",
+      "excerpt": "Political leaders facing a binding term limit roll back financial liberalisation roughly three times more than leaders who can run again – but only in the wake of a financial crisis. Orkun Saka, Yuemei Ji and Clement Minaudier show that the",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-2.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "How social dialogue is shaping the AI transition in South Korea",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/25/how-social-dialogue-is-shaping-the-ai-transition-in-south-korea/",
       "date": "25 Nov 2026",
-      "excerpt": "Social dialogue is the interaction of the key stakeholders of capitalism – labour, management and the government – as equal and independent partners to seek solutions to socioeconomic issues of common concern. Deok Soon Hwang explains itsvi",
+      "excerpt": "Social dialogue is the interaction of the key stakeholders of capitalism – labour, management and the government – as equal and independent partners to seek solutions to socioeconomic issues. Deok Soon Hwang of South Korea&#8217;s Economic,",
       "image": ""
     },
     {
@@ -188,15 +197,6 @@
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/18/rethinking-credit-ratings-for-the-long-term/",
       "date": "18 Nov 2026",
       "excerpt": "Credit ratings are among the most influential yet underappreciated gatekeepers of global development. Dennis Shen and Moritz Kraemer argue that adopting very long-term perspectives on creditworthiness, a deeper consideration of climate risk",
-      "image": ""
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Does it matter that companies are removing ESG targets from executive pay?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/does-it-matter-that-companies-are-removing-esg-targets-from-executive-pay/",
-      "date": "17 Nov 2026",
-      "excerpt": "Companies reconsidering ESG targets in executive remuneration is widely interpreted as another sign of the corporate retreat from ESG. But Sepideh Parsa, Ann-Ngoc Nguyen and Minh Nhat Linh Nguyen find that on average, adopting ESG-linked co",
       "image": ""
     },
     {
