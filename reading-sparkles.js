@@ -32,12 +32,17 @@
   }
   /* On joining, Rippily scrolls to the visitor's avatar. Bring them back to the top once,
      so the welcome board is the first thing they see. Stops if they scroll themselves. */
-  var userMoved=false,t0=Date.now();
+  var userMoved=false,t0=Date.now(),last=-1,still=0,done=false;
   ['wheel','touchmove','keydown'].forEach(function(ev){addEventListener(ev,function(){userMoved=true},{passive:true,capture:true})});
   var topTimer=setInterval(function(){
-    if(userMoved||Date.now()-t0>6000){clearInterval(topTimer);return}
+    if(done||userMoved||Date.now()-t0>90000){clearInterval(topTimer);return}
     var sa=document.querySelector('.scroll-area');
-    if(sa&&sa.scrollTop>0)sa.scrollTop=0;
+    if(!sa)return;
+    var y=sa.scrollTop;
+    if(y>0&&y===last){still+=300}else{still=0}
+    last=y;
+    /* Rippily's own scroll to the avatar has finished: go back to the top, once. */
+    if(y>0&&still>=900){done=true;try{sa.scrollTo({top:0,behavior:'smooth'})}catch(e){sa.scrollTop=0}}
   },300);
   apply();pulse();setInterval(function(){apply();pulse()},1000);
 })();
