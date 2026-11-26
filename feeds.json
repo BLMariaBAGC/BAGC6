@@ -1,5 +1,5 @@
 {
-  "updated": "26 Nov 2026, 14:46 UTC",
+  "updated": "26 Nov 2026, 16:17 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,19 +148,10 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Financial crises often trigger financial regulation – but whose interests do they serve?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/26/financial-crises-often-trigger-financial-regulation-but-whose-interests-do-they-serve/",
-      "date": "26 Nov 2026",
-      "excerpt": "Political leaders facing a binding term limit roll back financial liberalisation roughly three times more than leaders who can run again – but only in the wake of a financial crisis. Orkun Saka, Yuemei Ji and Clement Minaudier show that the",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-2.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How social dialogue is shaping the AI transition in South Korea",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/25/how-social-dialogue-is-shaping-the-ai-transition-in-south-korea/",
       "date": "25 Nov 2026",
-      "excerpt": "Social dialogue is the interaction of the key stakeholders of capitalism – labour, management and the government – as equal and independent partners to seek solutions to socioeconomic issues. Deok Soon Hwang of South Korea&#8217;s Economic,",
+      "excerpt": "Social dialogue is the interaction of the key stakeholders of capitalism – labour, management and the government – as equal and independent partners to seek solutions to socioeconomic issues of common concern. Deok Soon Hwang explains itsvi",
       "image": ""
     },
     {
@@ -200,13 +191,22 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Does it matter that companies are removing ESG targets from executive pay?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/does-it-matter-that-companies-are-removing-esg-targets-from-executive-pay/",
+      "date": "17 Nov 2026",
+      "excerpt": "Companies reconsidering ESG targets in executive remuneration is widely interpreted as another sign of the corporate retreat from ESG. But Sepideh Parsa, Ann-Ngoc Nguyen and Minh Nhat Linh Nguyen find that on average, adopting ESG-linked co",
+      "image": ""
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Millions of people to see average monthly mortgage payments rise by £100",
       "link": "https://www.bbc.co.uk/news/articles/cwg5r02zel9qo?at_medium=RSS&at_campaign=rss",
       "date": "26 Nov 2026",
       "excerpt": "More people face higher mortgage repayments when they roll off a fixed deal than previously estimated.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85b5/live/f4930230-e995-11f1-b880-15b494ba858d.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0133/live/865c5960-e9a9-11f1-99b6-a35a62fa4264.jpg"
     },
     {
       "source": "BBC Business",
@@ -220,11 +220,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "When will Poundland close? Five questions about its future",
+      "title": "When will Poundland shops close? Five key questions answered",
       "link": "https://www.bbc.co.uk/news/articles/c6z9d3pv93glo?at_medium=RSS&at_campaign=rss",
       "date": "26 Nov 2026",
-      "excerpt": "Why is Poundland closing down, and what will hapen to staff and suppliers?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e449/live/9d5e65f0-e99e-11f1-b880-15b494ba858d.jpg"
+      "excerpt": "Why is Poundland closing down, and what will happen to staff and suppliers?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b760/live/084c3aa0-e9b2-11f1-859a-37130cd3a1d7.jpg"
     },
     {
       "source": "BBC Business",
