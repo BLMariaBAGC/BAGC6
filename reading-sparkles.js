@@ -33,7 +33,7 @@
   /* Welcome pop-up: shows once per visit in the middle of the screen, wherever Rippily has
      scrolled the visitor to. Two buttons: go to the top of the library, or go to the green
      "Explore the Reading Cabin" board. The X does the same as "Explore the cabin". */
-  var W=window.__rcWelcome||{};if(!W.anchor)W.anchor='image-1771419771529-43';
+  var W=window.__rcWelcome||{};
   var hideOld=W.hide||[];
   if(hideOld.length){var h=document.createElement('style');h.textContent=hideOld.map(function(id){return '[data-element-id="'+id+'"]'}).join(',')+'{display:none!important}';document.head.appendChild(h)}
   var wcss=document.createElement('style');
@@ -67,21 +67,22 @@
     '.rc-map span{display:inline-block;margin-top:6px;padding:4px 12px;border-radius:999px;background:#1f4a3f;color:#f6e7c4;border:2px solid #d9b45a;font:600 15px/1.2 Georgia,serif;letter-spacing:.03em;white-space:nowrap}';
   document.head.appendChild(tcss);
   function placeMap(){
-    if(!W.anchor||!W.board)return;
-    var a=document.querySelector('[data-element-id="'+W.anchor+'"]'),b=document.querySelector('[data-element-id="'+W.board+'"]');
-    if(!a||!b||!a.offsetParent)return;
-    var m=a.offsetParent.querySelector(':scope > .rc-map');
+    if(!W.board)return;
+    var b=document.querySelector('[data-element-id="'+W.board+'"]');
+    if(!b||!b.offsetParent)return;
+    var P=b.offsetParent,m=P.querySelector(':scope > .rc-map');
     if(!m){
       var src=(b.querySelector('img')||{}).src;if(!src)return;
       m=document.createElement('button');m.type='button';m.className='rc-map';m.setAttribute('aria-label','Map of the cabin: go to the Explore the Reading Cabin board');
       m.innerHTML='<img alt="" src="'+src+'"><span>Map of the cabin</span>';
       m.addEventListener('click',function(e){e.stopPropagation();toBoard()});
-      a.offsetParent.appendChild(m);
+      P.appendChild(m);
     }
-    var h=a.offsetHeight*0.95,w=h*1.28;
+    /* Centred at the top of the room (canvas is 1920 wide). */
+    var k=P.offsetWidth/1920,w=(W.mapW||240)*k;
     m.style.width=w+'px';
-    m.style.left=(a.offsetLeft+a.offsetWidth+40)+'px';
-    m.style.top=(a.offsetTop+4)+'px';
+    m.style.left=((P.offsetWidth-w)/2)+'px';
+    m.style.top=((W.mapTop||36)*k)+'px';
   }
   setInterval(placeMap,1000);
   function showWelcome(){
