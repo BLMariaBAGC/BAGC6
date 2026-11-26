@@ -20,7 +20,8 @@
     var b=document.createElement('button');
     b.type='button';b.title='Close';b.setAttribute('aria-label','Close '+(C.title||'page'));b.innerHTML='&times;';
     b.style.cssText='position:absolute;top:28px;right:max(36px,4vw);z-index:2;width:38px;height:38px;padding:0;border-radius:50%;border:2px solid #f6d98a;background:rgba(20,50,35,.92);color:#f6d98a;font:400 26px/34px Georgia,serif;text-align:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.4)';
-    if(C.top||/playzo/.test(C.src))b.style.top=(C.top||'78px');
+    if(C.top)b.style.top=C.top;
+    if(/playzo/.test(C.src)){b.style.top='12px';b.style.right='auto';b.style.left='50%';b.style.transform='translateX(-50%)'}
     b.addEventListener('click',close);
     var f=document.createElement('iframe');
     f.title=C.title||'Christmas';f.src=C.src+(C.src.indexOf('?')<0?'?':'&')+'t='+Math.floor(Date.now()/300000);f.setAttribute('allow','autoplay; clipboard-write; fullscreen');
