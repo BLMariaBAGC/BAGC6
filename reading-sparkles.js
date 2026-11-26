@@ -91,7 +91,7 @@
       '<button class="rc-wel-x" type="button" aria-label="Close"><img alt="" src="'+W.x+'"></button>'+
       '<div class="rc-wel-btns"><button type="button" class="rc-b1">Explore the cabin</button><button type="button" class="rc-b2">See everything in one place</button></div></div>';
     function close(then){o.classList.remove('on');setTimeout(function(){o.remove()},450);then()}
-    o.querySelector('.rc-wel-x').onclick=function(){close(function(){glideTo(0)})};
+    o.querySelector('.rc-wel-x').onclick=function(){close(toBoard)};
     o.querySelector('.rc-b1').onclick=function(){close(function(){glideTo(0)})};
     o.querySelector('.rc-b2').onclick=function(){close(toBoard)};
     document.body.appendChild(o);requestAnimationFrame(function(){o.classList.add('on')});
