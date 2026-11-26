@@ -1,6 +1,15 @@
 {
-  "updated": "26 Nov 2026, 03:56 UTC",
+  "updated": "26 Nov 2026, 13:35 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "The surprising reason women seem better at multitasking than men",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261125045306.htm",
+      "date": "26 Nov 2026",
+      "excerpt": "Men and women appear to be similarly capable of multitasking, but men are more than twice as likely to ignore conversation while juggling multiple activities. Researchers believe this unexpected difference may help explain why women are wid",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -62,15 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/11/261121221134.htm",
       "date": "23 Nov 2026",
       "excerpt": "Depression in older adults may be more than a mental health concern. Scientists discovered that accumulating tau protein, a hallmark of Alzheimer's disease, was linked to worsening depressive symptoms in people who still had normal memory a",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Scientists discover a surprising link between weak bones and faster brain aging",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261121221132.htm",
-      "date": "22 Nov 2026",
-      "excerpt": "Weakening bones may reveal more about brain health than scientists previously realized, with new research linking lower spinal bone density to faster cognitive decline and accelerated changes in the brain's white matter. The surprising conn",
       "image": ""
     },
     {
@@ -202,56 +202,56 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "UK government set to publish new treaties agreed with EU",
+      "title": "Norse Atlantic suspends all flights as it faces potential collapse",
+      "link": "https://www.bbc.co.uk/news/articles/c9kgmd0ldy0lo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "The carrier is looking for urgent funding, but will file for bankruptcy without a financial lifeline.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df47/live/6f07a020-e98c-11f1-9d1c-4dcc8fcde666.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Drivers over 70 face eye tests every three years under new plans",
+      "link": "https://www.bbc.co.uk/news/articles/cjqlqerzv1eyo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "The changes could see drivers over 70 stripped of licences if they do not meet standards.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b37/live/d36e1fb0-e993-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "New UK-EU treaty has 10-year termination clause",
       "link": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
       "date": "26 Nov 2026",
-      "excerpt": "The BBC understands the treaties contain a 10-year termination clause to reimburse costs of any need to rebuild border checks infrastructure.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0991/live/fc4bdc70-e933-11f1-a094-5fdc692f3e33.jpg"
+      "excerpt": "Text of the treaties will be published this afternoon, alongside legislation designed to enact the bulk of the deal.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/65b5/live/0c44e020-e972-11f1-99b6-a35a62fa4264.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Poundland collapses putting 11,000 jobs at risk",
-      "link": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Nov 2026",
-      "excerpt": "The discount chain has fallen into administration after its owners failed to find a buyer.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5177/live/c7a2f690-e8fa-11f1-99a1-253766e7ad8b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "What's gone wrong at Poundland?",
-      "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Nov 2026",
-      "excerpt": "Poundland has collapse into administration. Why?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fbc6/live/78341a50-e8f8-11f1-99a1-253766e7ad8b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "US announces new tariffs on host of countries including China",
-      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "title": "Car finance compensation payments explained",
+      "link": "https://www.bbc.co.uk/news/articles/c2l9vvj097lo?at_medium=RSS&at_campaign=rss",
       "date": "26 Nov 2026",
-      "excerpt": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg"
+      "excerpt": "Millions could be entitled to compensation as a result of commission arrangements between lenders and dealers.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1582/live/8e71e720-a425-11f0-ba96-81d873a15aec.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US approves SpaceX plan to send a million data satellites to space",
-      "link": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+      "title": "UK signs £8bn deal to ensure submarines are 'warfighting ready'",
+      "link": "https://www.bbc.co.uk/news/articles/cq39gz99l1pyo?at_medium=RSS&at_campaign=rss",
       "date": "26 Nov 2026",
-      "excerpt": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd78/live/4cbffd10-e91d-11f1-9108-c5b270b0703d.jpg"
+      "excerpt": "The deal will allow \"work around the clock to get our submarines back out to sea\" , Wes Streeting says.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e29e/live/9a874000-e970-11f1-a094-5fdc692f3e33.jpg"
     },
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "US stocks fall further as fears over AI intensify",
-      "link": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Nov 2026",
-      "excerpt": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg"
+      "title": "Guitar wars - the transatlantic battle over the Stratocaster",
+      "link": "https://www.bbc.co.uk/news/articles/cqd01l9x8k48o?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "US company Fender is in dispute with a German firm that makes generic versions of its key model.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67c1/live/7aa1e2b0-e80b-11f1-99a1-253766e7ad8b.jpg"
     }
   ]
 }
