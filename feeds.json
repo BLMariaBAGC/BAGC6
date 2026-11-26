@@ -1,5 +1,5 @@
 {
-  "updated": "26 Nov 2026, 16:24 UTC",
+  "updated": "26 Nov 2026, 22:47 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -146,6 +146,69 @@
       "image": ""
     },
     {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Financial crises often trigger financial regulation – but whose interests do they serve?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/26/financial-crises-often-trigger-financial-regulation-but-whose-interests-do-they-serve/",
+      "date": "26 Nov 2026",
+      "excerpt": "Political leaders facing a binding term limit roll back financial liberalisation roughly three times more than leaders who can run again – but only in the wake of a financial crisis. Orkun Saka, Yuemei Ji and Clement Minaudier show that the",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-2.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "How social dialogue is shaping the AI transition in South Korea",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/25/how-social-dialogue-is-shaping-the-ai-transition-in-south-korea/",
+      "date": "25 Nov 2026",
+      "excerpt": "Social dialogue is the interaction of the key stakeholders of capitalism – labour, management and the government – as equal and independent partners to seek solutions to socioeconomic issues. Deok Soon Hwang of South Korea&#8217;s Economic,",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The AI transition must be designed to provide decent jobs",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/24/the-ai-transition-must-be-designed-to-provide-decent-jobs/",
+      "date": "24 Nov 2026",
+      "excerpt": "The labour-market effects of AI are not simply something that happens to us. They are shaped by choices about institutions, rights, investment, skills and worker voice. Caroline Fredrickson of the International Labor Organization argues tha",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Half of Europe backs climate policy – only Germany acts on it",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/cop31-half-of-europe-backs-climate-policy-only-germany-acts-on-it/",
+      "date": "19 Nov 2026",
+      "excerpt": "European sustainability communication is still largely addressed to a single, average citizen. But that average citizen does not exist. New evidence suggests the gap between what Europeans say about climate and what they do is not primarily",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure1-1024x591.png"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "The policy tests facing governments in the age of AI",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/19/the-policy-tests-facing-governments-in-the-age-of-ai/",
+      "date": "19 Nov 2026",
+      "excerpt": "Artificial intelligence is global. But its potential impacts vary enormously between economies. How can all governments make the most of technological change, regardless of their stage of development? Era Dabla Norris of the International M",
+      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Slide-two-2-1024x538.jpg"
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Rethinking credit ratings for the long term",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/18/rethinking-credit-ratings-for-the-long-term/",
+      "date": "18 Nov 2026",
+      "excerpt": "Credit ratings are among the most influential yet underappreciated gatekeepers of global development. Dennis Shen and Moritz Kraemer argue that adopting very long-term perspectives on creditworthiness, a deeper consideration of climate risk",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
+      "link": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a44e/live/be7b3450-e9af-11f1-859a-37130cd3a1d7.jpg"
+    },
+    {
       "source": "BBC Business",
       "feedId": "bbc",
       "title": "Millions of people to see average monthly mortgage payments rise by £100",
@@ -166,29 +229,20 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "New boss appointed to lead Travelodge",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2wx89kg0eo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "The new CEO will lead the Thame-based company from 1 December following Jo Boydell's resignation.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a7c6/live/aeced5c0-e98c-11f1-9d1c-4dcc8fcde666.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "When will Poundland shops close? Five key questions answered",
       "link": "https://www.bbc.co.uk/news/articles/c6z9d3pv93glo?at_medium=RSS&at_campaign=rss",
       "date": "26 Nov 2026",
       "excerpt": "Why is Poundland closing down, and what will happen to staff and suppliers?",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b760/live/084c3aa0-e9b2-11f1-859a-37130cd3a1d7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Norse Atlantic suspends all flights as it faces potential collapse",
-      "link": "https://www.bbc.co.uk/news/articles/c9kgmd0ldy0lo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Nov 2026",
-      "excerpt": "The carrier is looking for urgent funding, but will file for bankruptcy without a financial lifeline.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df47/live/6f07a020-e98c-11f1-9d1c-4dcc8fcde666.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Drivers over 70 face eye tests every three years under new plans",
-      "link": "https://www.bbc.co.uk/news/articles/cjqlqerzv1eyo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Nov 2026",
-      "excerpt": "The changes could see drivers over 70 stripped of licences if they do not meet standards.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b37/live/d36e1fb0-e993-11f1-99a1-253766e7ad8b.jpg"
     },
     {
       "source": "BBC Business",
