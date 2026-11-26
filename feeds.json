@@ -1,5 +1,5 @@
 {
-  "updated": "25 Nov 2026, 21:02 UTC",
+  "updated": "26 Nov 2026, 03:56 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,6 +148,15 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
+      "title": "How social dialogue is shaping the AI transition in South Korea",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/25/how-social-dialogue-is-shaping-the-ai-transition-in-south-korea/",
+      "date": "25 Nov 2026",
+      "excerpt": "Social dialogue is the interaction of the key stakeholders of capitalism – labour, management and the government – as equal and independent partners to seek solutions to socioeconomic issues of common concern. Deok Soon Hwang explains itsvi",
+      "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
       "title": "The AI transition must be designed to provide decent jobs",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/24/the-ai-transition-must-be-designed-to-provide-decent-jobs/",
       "date": "24 Nov 2026",
@@ -191,13 +200,13 @@
       "image": ""
     },
     {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "Biodiversity loss changes how tourism firms manage their finances",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/cop31-biodiversity-loss-changes-how-tourism-firms-manage-their-finances/",
-      "date": "17 Nov 2026",
-      "excerpt": "Much of the world’s tourism relies on nature that climate change is damaging. Ecosystems themselves defend against risk. But this connection also has a financial dimension. Giray Gozgor, Jing Li, Mahdi Mousavi and Ayotola Owolabi’s analysis",
-      "image": ""
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "UK government set to publish new treaties agreed with EU",
+      "link": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "The BBC understands the treaties contain a 10-year termination clause to reimburse costs of any need to rebuild border checks infrastructure.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0991/live/fc4bdc70-e933-11f1-a094-5fdc692f3e33.jpg"
     },
     {
       "source": "BBC Business",
@@ -222,9 +231,18 @@
       "feedId": "bbc",
       "title": "US announces new tariffs on host of countries including China",
       "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Nov 2026",
+      "date": "26 Nov 2026",
       "excerpt": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91fc/live/6d9c5c50-e908-11f1-99b6-a35a62fa4264.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "US approves SpaceX plan to send a million data satellites to space",
+      "link": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd78/live/4cbffd10-e91d-11f1-9108-c5b270b0703d.jpg"
     },
     {
       "source": "BBC Business",
@@ -234,24 +252,6 @@
       "date": "25 Nov 2026",
       "excerpt": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Energy bills to rise by 26% from January after gas prices surge",
-      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
-      "date": "25 Nov 2026",
-      "excerpt": "A household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/654f/live/9096f7c0-e8df-11f1-a3b9-79c60ec9ab33.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Why tiny cars are taking off across Europe",
-      "link": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
-      "date": "25 Nov 2026",
-      "excerpt": "Once seen as a car for elderly, rural people, tiny cars are being embraced by a younger demographic.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2edb/live/5d054030-ddcf-11f1-b441-2b33b063138f.jpg"
     }
   ]
 }
