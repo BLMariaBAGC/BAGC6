@@ -36,6 +36,9 @@
   var W=window.__rcWelcome||{};
   var hideOld=W.hide||[];
   if(hideOld.length){var h=document.createElement('style');h.textContent=hideOld.map(function(id){return '[data-element-id="'+id+'"]'}).join(',')+'{display:none!important}';document.head.appendChild(h)}
+  /* "fade" = make invisible but keep clickable (for star overlays that also carry an action). */
+  var fadeIds=W.fade||[];
+  if(fadeIds.length){var f=document.createElement('style');f.textContent=fadeIds.map(function(id){return '[data-element-id="'+id+'"] img'}).join(',')+'{opacity:0!important}';document.head.appendChild(f)}
   var wcss=document.createElement('style');
   wcss.textContent=
     '.rc-wel{position:fixed;inset:0;z-index:2147482000;display:flex;align-items:center;justify-content:center;background:rgba(6,20,26,.55);opacity:0;transition:opacity .5s ease;padding:16px;box-sizing:border-box}'+
