@@ -97,17 +97,15 @@
     o.querySelector('.rc-b2').onclick=function(){close(toBoard)};
     document.body.appendChild(o);requestAnimationFrame(function(){o.classList.add('on')});
   }
-  /* Wait until the visitor is inside the Reading Cabin and Rippily has finished its own scroll. */
-  var last=-1,still=0,t0=Date.now();
+  /* Show as soon as the visitor is inside the Reading Cabin (no waiting for Rippily's scroll:
+     the pop-up is fixed to the screen, so it does not matter where the room scrolls to). */
+  var t0=Date.now();
   var wTimer=setInterval(function(){
     if(shown||Date.now()-t0>120000){clearInterval(wTimer);return}
-    var s=sa(),mark=W.board&&document.querySelector('[data-element-id="'+W.board+'"]');
-    if(!s||!mark||!mark.getBoundingClientRect().width)return;
+    var mark=W.board&&document.querySelector('[data-element-id="'+W.board+'"]');
+    if(!sa()||!mark||!mark.getBoundingClientRect().width)return;
     if(/Join the Ripple/.test(document.body.innerText.slice(0,4000)))return;
-    var y=s.scrollTop;
-    if(y===last){still+=300}else{still=0}
-    last=y;
-    if(still>=1200)showWelcome();
-  },300);
+    showWelcome();
+  },120);
   apply();pulse();setInterval(function(){apply();pulse()},1000);
 })();
