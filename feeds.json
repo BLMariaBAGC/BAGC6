@@ -1,5 +1,5 @@
 {
-  "updated": "26 Nov 2026, 13:56 UTC",
+  "updated": "26 Nov 2026, 14:04 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -148,19 +148,10 @@
     {
       "source": "LSE Business Review",
       "feedId": "lse",
-      "title": "Financial crises often trigger financial regulation – but whose interests do they serve?",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/26/financial-crises-often-trigger-financial-regulation-but-whose-interests-do-they-serve/",
-      "date": "26 Nov 2026",
-      "excerpt": "Political leaders facing a binding term limit roll back financial liberalisation roughly three times more than leaders who can run again – but only in the wake of a financial crisis. Orkun Saka, Yuemei Ji and Clement Minaudier show that the",
-      "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-2.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
       "title": "How social dialogue is shaping the AI transition in South Korea",
       "link": "https://blogs.lse.ac.uk/businessreview/2026/11/25/how-social-dialogue-is-shaping-the-ai-transition-in-south-korea/",
       "date": "25 Nov 2026",
-      "excerpt": "Social dialogue is the interaction of the key stakeholders of capitalism – labour, management and the government – as equal and independent partners to seek solutions to socioeconomic issues. Deok Soon Hwang of South Korea&#8217;s Economic,",
+      "excerpt": "Social dialogue is the interaction of the key stakeholders of capitalism – labour, management and the government – as equal and independent partners to seek solutions to socioeconomic issues of common concern. Deok Soon Hwang explains itsvi",
       "image": ""
     },
     {
@@ -198,6 +189,24 @@
       "date": "18 Nov 2026",
       "excerpt": "Credit ratings are among the most influential yet underappreciated gatekeepers of global development. Dennis Shen and Moritz Kraemer argue that adopting very long-term perspectives on creditworthiness, a deeper consideration of climate risk",
       "image": ""
+    },
+    {
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Does it matter that companies are removing ESG targets from executive pay?",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/17/does-it-matter-that-companies-are-removing-esg-targets-from-executive-pay/",
+      "date": "17 Nov 2026",
+      "excerpt": "Companies reconsidering ESG targets in executive remuneration is widely interpreted as another sign of the corporate retreat from ESG. But Sepideh Parsa, Ann-Ngoc Nguyen and Minh Nhat Linh Nguyen find that on average, adopting ESG-linked co",
+      "image": ""
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Millions of people to see average monthly mortgage payments rise by £100",
+      "link": "https://www.bbc.co.uk/news/articles/cwg5r02zel9qo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "More people face higher mortgage repayments when they roll off a fixed deal than previously estimated.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85b5/live/f4930230-e995-11f1-b880-15b494ba858d.jpg"
     },
     {
       "source": "BBC Business",
@@ -243,15 +252,6 @@
       "date": "26 Nov 2026",
       "excerpt": "Millions could be entitled to compensation as a result of commission arrangements between lenders and dealers.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1582/live/8e71e720-a425-11f0-ba96-81d873a15aec.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "UK signs £8bn deal to ensure submarines are 'warfighting ready'",
-      "link": "https://www.bbc.co.uk/news/articles/cq39gz99l1pyo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Nov 2026",
-      "excerpt": "The deal will allow \"work around the clock to get our submarines back out to sea\" , Wes Streeting says.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e29e/live/9a874000-e970-11f1-a094-5fdc692f3e33.jpg"
     }
   ]
 }
