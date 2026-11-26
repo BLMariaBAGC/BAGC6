@@ -81,13 +81,15 @@
       m.addEventListener('click',function(e){e.stopPropagation();toBoard()});
       P.appendChild(m);
     }
+    /* Only in the Reading Cabin: hide when the board belongs to a scene that is not showing. */
+    m.style.display=getComputedStyle(b).visibility==='hidden'?'none':'';
     /* Centred at the top of the room (canvas is 1920 wide). */
     var k=P.offsetWidth/1920,w=(W.mapW||240)*k;
     m.style.width=w+'px';
     m.style.left=((P.offsetWidth-w)/2)+'px';
     m.style.top=((W.mapTop||105)*k)+'px';
   }
-  setInterval(placeMap,1000);
+  setInterval(placeMap,400);
   function showWelcome(){
     if(shown)return;shown=true;
     var o=document.createElement('div');o.className='rc-wel';o.setAttribute('role','dialog');o.setAttribute('aria-label','Welcome to the Reading Cabin');
@@ -106,7 +108,7 @@
   var wTimer=setInterval(function(){
     if(shown||Date.now()-t0>120000){clearInterval(wTimer);return}
     var mark=W.board&&document.querySelector('[data-element-id="'+W.board+'"]');
-    if(!sa()||!mark||!mark.getBoundingClientRect().width)return;
+    if(!sa()||!mark||!mark.getBoundingClientRect().width||getComputedStyle(mark).visibility==='hidden')return;
     if(/Join the Ripple/.test(document.body.innerText.slice(0,4000)))return;
     showWelcome();
   },120);
