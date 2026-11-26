@@ -33,7 +33,7 @@
   /* Welcome pop-up: shows once per visit in the middle of the screen, wherever Rippily has
      scrolled the visitor to. Two buttons: go to the top of the library, or go to the green
      "Explore the Reading Cabin" board. The X does the same as "Explore the cabin". */
-  var W=window.__rcWelcome||{};
+  var W=window.__rcWelcome||{};if(!W.anchor)W.anchor='image-1771419771529-43';
   var hideOld=W.hide||[];
   if(hideOld.length){var h=document.createElement('style');h.textContent=hideOld.map(function(id){return '[data-element-id="'+id+'"]'}).join(',')+'{display:none!important}';document.head.appendChild(h)}
   var wcss=document.createElement('style');
@@ -58,6 +58,32 @@
     var y=b.getBoundingClientRect().top-s.getBoundingClientRect().top+s.scrollTop-20;
     glideTo(Math.max(0,y));
   }
+  /* Small "Map of the cabin" thumbnail beside the top parchment. Click = glide to the green board. */
+  var tcss=document.createElement('style');
+  tcss.textContent=
+    '.rc-map{position:absolute;z-index:60;cursor:pointer;border:0;padding:0;background:none;text-align:center;transition:transform .25s ease}'+
+    '.rc-map:hover{transform:translateY(-3px) scale(1.04)}'+
+    '.rc-map img{display:block;width:100%;height:auto;border-radius:8px;border:3px solid #d9b45a;box-shadow:0 6px 18px rgba(0,0,0,.45)}'+
+    '.rc-map span{display:inline-block;margin-top:6px;padding:4px 12px;border-radius:999px;background:#1f4a3f;color:#f6e7c4;border:2px solid #d9b45a;font:600 15px/1.2 Georgia,serif;letter-spacing:.03em;white-space:nowrap}';
+  document.head.appendChild(tcss);
+  function placeMap(){
+    if(!W.anchor||!W.board)return;
+    var a=document.querySelector('[data-element-id="'+W.anchor+'"]'),b=document.querySelector('[data-element-id="'+W.board+'"]');
+    if(!a||!b||!a.offsetParent)return;
+    var m=a.offsetParent.querySelector(':scope > .rc-map');
+    if(!m){
+      var src=(b.querySelector('img')||{}).src;if(!src)return;
+      m=document.createElement('button');m.type='button';m.className='rc-map';m.setAttribute('aria-label','Map of the cabin: go to the Explore the Reading Cabin board');
+      m.innerHTML='<img alt="" src="'+src+'"><span>Map of the cabin</span>';
+      m.addEventListener('click',function(e){e.stopPropagation();toBoard()});
+      a.offsetParent.appendChild(m);
+    }
+    var h=a.offsetHeight*0.95,w=h*1.28;
+    m.style.width=w+'px';
+    m.style.left=(a.offsetLeft+a.offsetWidth+40)+'px';
+    m.style.top=(a.offsetTop+4)+'px';
+  }
+  setInterval(placeMap,1000);
   function showWelcome(){
     if(shown)return;shown=true;
     var o=document.createElement('div');o.className='rc-wel';o.setAttribute('role','dialog');o.setAttribute('aria-label','Welcome to the Reading Cabin');
