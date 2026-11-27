@@ -1,6 +1,24 @@
 {
-  "updated": "26 Nov 2026, 22:47 UTC",
+  "updated": "27 Nov 2026, 06:44 UTC",
   "articles": [
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "Scientists identify two ages when children may be most vulnerable to screen time",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261126033220.htm",
+      "date": "26 Nov 2026",
+      "excerpt": "Scientists have identified two potentially critical periods when screen time may be especially detrimental to children's learning and memory: infancy and the start of formal schooling. Greater screen exposure during these developmental wind",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "This dietary supplement may have an unexpected benefit for the brain",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261125045311.htm",
+      "date": "26 Nov 2026",
+      "excerpt": "A naturally derived dietary supplement called urolithin A may help the brain get more oxygen and nutrients when it needs them most. In a randomized clinical trial involving 50 middle-aged adults with obesity, researchers found that taking t",
+      "image": ""
+    },
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
@@ -8,6 +26,15 @@
       "link": "https://www.sciencedaily.com/releases/2026/11/261125045306.htm",
       "date": "26 Nov 2026",
       "excerpt": "Men and women appear to be similarly capable of multitasking, but men are more than twice as likely to ignore conversation while juggling multiple activities. Researchers believe this unexpected difference may help explain why women are wid",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
+      "title": "For decades, scientists may have misunderstood how brain cells work",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261125045302.htm",
+      "date": "26 Nov 2026",
+      "excerpt": "A major new study challenges a long-standing assumption about how the brain works, revealing that most neurons are versatile multitaskers rather than highly specialized workers. By analyzing recordings from 43 regions of the mouse brain, re",
       "image": ""
     },
     {
@@ -44,33 +71,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/11/261123005346.htm",
       "date": "24 Nov 2026",
       "excerpt": "A major analysis of 149 studies found that cannabis users develop psychosis an average of 2.5 years earlier than non-users, with the difference growing to more than six years among adults 30 and older. Researchers warn that cannabis-related",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "New nose drops restore youthful memory and fight Alzheimer’s in aging mice",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm",
-      "date": "24 Nov 2026",
-      "excerpt": "A revolutionary new nasal treatment has restored youthful learning and memory performance in aging mice while preventing severe cognitive decline in mice with Alzheimer’s-like disease. Developed using technology similar to COVID-19 mRNA vac",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Mice slept 70% less after scientists switched off these brain cells",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261122060336.htm",
-      "date": "22 Nov 2026",
-      "excerpt": "Scientists have discovered brain cells that actively generate the irresistible urge to sleep, and shutting them down allowed mice to sleep 70% less than normal. Remarkably, many of the animals avoided the severe behavioral consequences of s",
-      "image": ""
-    },
-    {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Depression may be an early warning sign of Alzheimer's disease",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261121221134.htm",
-      "date": "23 Nov 2026",
-      "excerpt": "Depression in older adults may be more than a mental health concern. Scientists discovered that accumulating tau protein, a hallmark of Alzheimer's disease, was linked to worsening depressive symptoms in people who still had normal memory a",
       "image": ""
     },
     {
@@ -211,6 +211,33 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "UK to pay 'participation' fee to deliver EU deals",
+      "link": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "Details of the contribution towards EU running costs have been revealed in new legal documents.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e264/live/8e58c180-e9e5-11f1-ab41-f1f84c0c758a.png"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "Asia made a big AI bet on Nvidia. What happens now?",
+      "link": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+      "date": "26 Nov 2026",
+      "excerpt": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c76/live/9f54a560-e956-11f1-a629-63e812fa871f.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
+      "title": "I spend £200 a month on fancy meals by myself - would you dine solo?",
+      "link": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Nov 2026",
+      "excerpt": "Solo-dining is being embraced as a self-care trend and it's reshaping the restaurant industry.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d8d/live/b5d26cb0-e9cd-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "Millions of people to see average monthly mortgage payments rise by £100",
       "link": "https://www.bbc.co.uk/news/articles/cwg5r02zel9qo?at_medium=RSS&at_campaign=rss",
       "date": "26 Nov 2026",
@@ -220,38 +247,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "Simon Jack: Is Poundland's US owner to blame for its collapse?",
-      "link": "https://www.bbc.co.uk/news/articles/c62klzxvyzyqo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Nov 2026",
-      "excerpt": "Poundland's management and MPs blame the retailer's owners, Gordon Brothers, but the US firm says without them the chain would have collapsed last year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db70/live/c33d5240-e999-11f1-a094-5fdc692f3e33.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "New boss appointed to lead Travelodge",
-      "link": "https://www.bbc.co.uk/news/articles/cqx2wx89kg0eo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Nov 2026",
-      "excerpt": "The new CEO will lead the Thame-based company from 1 December following Jo Boydell's resignation.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a7c6/live/aeced5c0-e98c-11f1-9d1c-4dcc8fcde666.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "When will Poundland shops close? Five key questions answered",
-      "link": "https://www.bbc.co.uk/news/articles/c6z9d3pv93glo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Nov 2026",
-      "excerpt": "Why is Poundland closing down, and what will happen to staff and suppliers?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b760/live/084c3aa0-e9b2-11f1-859a-37130cd3a1d7.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Guitar wars - the transatlantic battle over the Stratocaster",
-      "link": "https://www.bbc.co.uk/news/articles/cqd01l9x8k48o?at_medium=RSS&at_campaign=rss",
-      "date": "26 Nov 2026",
-      "excerpt": "US company Fender is in dispute with a German firm that makes generic versions of its key model.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67c1/live/7aa1e2b0-e80b-11f1-99a1-253766e7ad8b.jpg"
+      "title": "Why is there a shortage of 'wizard' elevator mechanics?",
+      "link": "https://www.bbc.co.uk/news/articles/c52e8k19y94mo?at_medium=RSS&at_campaign=rss",
+      "date": "27 Nov 2026",
+      "excerpt": "The pay is good and there's lots of work, so what's behind the shortage of elevator mechanics?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c0e/live/0c8a5940-e7e0-11f1-99a1-253766e7ad8b.jpg"
     }
   ]
 }
