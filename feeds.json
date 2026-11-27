@@ -1,5 +1,5 @@
 {
-  "updated": "27 Nov 2026, 06:44 UTC",
+  "updated": "27 Nov 2026, 17:49 UTC",
   "articles": [
     {
       "source": "ScienceDaily",
@@ -40,6 +40,15 @@
     {
       "source": "ScienceDaily",
       "feedId": "sciencedaily",
+      "title": "One type of physical activity is linked to a 20% higher dementia risk",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261125045246.htm",
+      "date": "27 Nov 2026",
+      "excerpt": "A massive study has revealed that exercising for pleasure and performing physical labor at work may have surprisingly different implications for brain health. While recreational exercise was linked to a 24% lower dementia risk, physically d",
+      "image": ""
+    },
+    {
+      "source": "ScienceDaily",
+      "feedId": "sciencedaily",
       "title": "Stanford scientists discover 3 hidden brain types behind ADHD and anxiety",
       "link": "https://www.sciencedaily.com/releases/2026/11/261124055713.htm",
       "date": "24 Nov 2026",
@@ -65,12 +74,21 @@
       "image": ""
     },
     {
-      "source": "ScienceDaily",
-      "feedId": "sciencedaily",
-      "title": "Cannabis users develop psychosis years earlier, and the gap grows with age",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261123005346.htm",
-      "date": "24 Nov 2026",
-      "excerpt": "A major analysis of 149 studies found that cannabis users develop psychosis an average of 2.5 years earlier than non-users, with the difference growing to more than six years among adults 30 and older. Researchers warn that cannabis-related",
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "Gen AI Is Giving Superstar Companies an Even Bigger Edge",
+      "link": "/2026/11/gen-ai-is-giving-superstar-companies-an-even-bigger-edge",
+      "date": "27 Nov 2026",
+      "excerpt": "New research shows that big firms’ AI-ready workforces, data expertise, and operational-know-how have further widened the gap between superstars and their competitors.",
+      "image": ""
+    },
+    {
+      "source": "Harvard Business Review",
+      "feedId": "hbr",
+      "title": "The 10 Most Popular HBR Articles of November 2026",
+      "link": "/2026/11/the-10-most-popular-hbr-articles-of-november-2026",
+      "date": "27 Nov 2026",
+      "excerpt": "The human-in-the-loop fallacy, tanking employee engagement, time-based rewards, and more.",
       "image": ""
     },
     {
@@ -128,21 +146,12 @@
       "image": ""
     },
     {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Software Updates Keep Crashing Systems. Here’s How to Stay Secure and Online.",
-      "link": "/2026/11/software-updates-keep-crashing-systems-heres-how-to-stay-secure-and-online",
-      "date": "24 Nov 2026",
-      "excerpt": "AI is accelerating the discovery of security flaws, making it more urgent—and more difficult—to patch systems safely. These five steps can help.",
-      "image": ""
-    },
-    {
-      "source": "Harvard Business Review",
-      "feedId": "hbr",
-      "title": "Recruiting and Retaining Cybersecurity Talent at Walmart",
-      "link": "/podcast/2026/11/recruiting-and-retaining-cybersecurity-talent-at-walmart",
-      "date": "24 Nov 2026",
-      "excerpt": "What the retail giant’s CISO learned about developing talent, even when that means watching them leave.",
+      "source": "LSE Business Review",
+      "feedId": "lse",
+      "title": "Why time poverty is a business problem",
+      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/27/why-time-poverty-is-a-business-problem/",
+      "date": "27 Nov 2026",
+      "excerpt": "Time poverty is not only a social issue but a source of lost productivity, avoidable health costs and talent risk for businesses. And by eating into people&#8217;s time to rest technology may erode the gains it promises. Joan Costa-Font exp",
       "image": ""
     },
     {
@@ -153,15 +162,6 @@
       "date": "26 Nov 2026",
       "excerpt": "Political leaders facing a binding term limit roll back financial liberalisation roughly three times more than leaders who can run again – but only in the wake of a financial crisis. Orkun Saka, Yuemei Ji and Clement Minaudier show that the",
       "image": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2026/11/Figure-1-2.jpg"
-    },
-    {
-      "source": "LSE Business Review",
-      "feedId": "lse",
-      "title": "How social dialogue is shaping the AI transition in South Korea",
-      "link": "https://blogs.lse.ac.uk/businessreview/2026/11/25/how-social-dialogue-is-shaping-the-ai-transition-in-south-korea/",
-      "date": "25 Nov 2026",
-      "excerpt": "Social dialogue is the interaction of the key stakeholders of capitalism – labour, management and the government – as equal and independent partners to seek solutions to socioeconomic issues. Deok Soon Hwang of South Korea&#8217;s Economic,",
-      "image": ""
     },
     {
       "source": "LSE Business Review",
@@ -211,6 +211,15 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
+      "title": "From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale",
+      "link": "https://www.bbc.co.uk/news/articles/c65yme31k7m2o?at_medium=RSS&at_campaign=rss",
+      "date": "27 Nov 2026",
+      "excerpt": "Networks of plumbers and electricians are scamming people on a large scale, the BBC reveals.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3451/live/fbe22210-e9cb-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "source": "BBC Business",
+      "feedId": "bbc",
       "title": "UK to pay 'participation' fee to deliver EU deals",
       "link": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
       "date": "26 Nov 2026",
@@ -229,20 +238,11 @@
     {
       "source": "BBC Business",
       "feedId": "bbc",
-      "title": "I spend £200 a month on fancy meals by myself - would you dine solo?",
+      "title": "My self-care ritual is a meal at a fancy restaurant - on my own",
       "link": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
       "date": "27 Nov 2026",
       "excerpt": "Solo-dining is being embraced as a self-care trend and it's reshaping the restaurant industry.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d8d/live/b5d26cb0-e9cd-11f1-a094-5fdc692f3e33.jpg"
-    },
-    {
-      "source": "BBC Business",
-      "feedId": "bbc",
-      "title": "Millions of people to see average monthly mortgage payments rise by £100",
-      "link": "https://www.bbc.co.uk/news/articles/cwg5r02zel9qo?at_medium=RSS&at_campaign=rss",
-      "date": "26 Nov 2026",
-      "excerpt": "More people face higher mortgage repayments when they roll off a fixed deal than previously estimated.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0133/live/865c5960-e9a9-11f1-99b6-a35a62fa4264.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4715/live/6ec7a880-ea5e-11f1-99b6-a35a62fa4264.png"
     },
     {
       "source": "BBC Business",
